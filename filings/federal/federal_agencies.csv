@@ -1,0 +1,8 @@
+"agency","jurisdiction","filing_type","website"
+"Federal Trade Commission (FTC)","Consumer fraud, deceptive practices","Consumer complaint","https://www.ftc.gov"
+"Consumer Financial Protection Bureau (CFPB)","Financial services, mortgage fraud","Consumer complaint","https://www.consumerfinance.gov"
+"Department of Housing and Urban Development (HUD)","Housing discrimination, fair housing violations","Fair housing complaint","https://www.hud.gov"
+"Securities and Exchange Commission (SEC)","Securities fraud, investment schemes","Tip, complaint, referral","https://www.sec.gov"
+"Internal Revenue Service (IRS)","Tax fraud, unreported income","Tax fraud report","https://www.irs.gov"
+"Department of Justice (DOJ)","Federal crimes, fraud schemes","Criminal complaint referral","https://www.justice.gov"
+"Federal Bureau of Investigation (FBI)","Federal criminal investigations","Criminal complaint referral","https://www.fbi.gov"

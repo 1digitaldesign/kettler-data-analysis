@@ -182,9 +182,9 @@ cython_debug/
 .abstra/
 
 # Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#  and can be added to the global gitignore or merged into this file. However, if you prefer,
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
@@ -200,8 +200,37 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+.cursor/plans/
 
 # Marimo
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# DPOR Analysis Project
+# Data directories (keep structure, ignore contents)
+data/raw/*
+data/cleaned/*
+data/analysis/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/analysis/.gitkeep
+
+# Log files
+*.log
+dpor_search_log.txt
+
+# R data files
+.RData
+.Rhistory
+.Ruserdata
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Outputs directory (keep structure, ignore generated files)
+outputs/reports/*.html
+outputs/summaries/*.csv
+!outputs/reports/.gitkeep
+!outputs/summaries/.gitkeep

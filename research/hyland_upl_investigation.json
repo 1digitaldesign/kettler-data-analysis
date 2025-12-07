@@ -1,0 +1,20 @@
+{
+  "investigation_date": "2025-12-07",
+  "subject": "Edward Hyland",
+  "role": "Senior Regional Manager",
+  "employer": "Kettler Management Inc.",
+  "upl_indicators": [],
+  "ra_denial_analysis": [],
+  "law_license_check": {
+    "law_license_found": false,
+    "note": "State bar association search needed",
+    "violation_if_no_license": "Unauthorized Practice of Law (UPL)"
+  },
+  "conclusions": {
+    "potential_upl": false,
+    "ra_denial_found": false,
+    "interactive_process_mentioned": false,
+    "violation_type": "None identified",
+    "severity": "UNKNOWN"
+  }
+}

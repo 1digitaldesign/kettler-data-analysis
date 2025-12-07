@@ -1,0 +1,86 @@
+{
+  "analysis_date": "2025-12-07",
+  "anomalies": {
+    "license_patterns": {
+      "unique_prefixes": 1,
+      "prefix_distribution": {
+        "226": 11
+      },
+      "anomaly_type": "license_number_clustering",
+      "explanation": "License numbers may reveal registration patterns or timing"
+    },
+    "firm_type_distribution": {
+      "types": {
+        "Corporation": 6,
+        "LLC": 5
+      },
+      "llc_count": 5,
+      "corporation_count": 6,
+      "anomaly_type": "entity_type_pattern",
+      "explanation": "Mix of LLCs and Corporations may indicate different purposes"
+    },
+    "expiration_clustering": {
+      "unique_years": 3,
+      "year_distribution": {
+        "2025": 1,
+        "2026": 5,
+        "2027": 5
+      },
+      "anomaly_type": "coordinated_renewal",
+      "explanation": "Clustered expiration dates may indicate coordinated management"
+    },
+    "state_distribution": {
+      "state_count": 6,
+      "states": {
+        "MD": 1,
+        "MO": 1,
+        "NC": 1,
+        "NE": 1,
+        "TX": 6,
+        "VA": 1
+      },
+      "anomaly_type": "geographic_pattern",
+      "explanation": "State distribution may reveal operational strategy"
+    },
+    "frisco_address_variations": {
+      "variation_count": 2,
+      "variations": ["5729 LEBANON RD STE 144553, FRISCO, TX 75034", "5729 LEBANON RD STE #144553, FRISCO, TX 75034"],
+      "anomaly_type": "address_inconsistency",
+      "explanation": "Same location with different address formats may indicate data manipulation"
+    },
+    "data_quality_issues": {
+      "missing_initial_dates": 1,
+      "missing_gaps": 1,
+      "anomaly_type": "data_obfuscation",
+      "explanation": "Missing data may hide timeline inconsistencies"
+    }
+  },
+  "license_analysis": {
+    "license_analysis": {
+      "total_licenses": 11,
+      "min_license": 226011870,
+      "max_license": 226038643,
+      "average_gap": 2677.3,
+      "large_gaps": 4,
+      "pattern_type": "scattered",
+      "explanation": "Sequential licenses may indicate coordinated registration"
+    }
+  },
+  "address_connections": {
+    "shared_addresses": [
+      {
+        "address": "5729 LEBANON RD STE 144553 FRISCO TX 75034",
+        "firm_count": 5,
+        "firms": ["BOZZUTO MANAGEMENT COMPANY", "CORTLAND MANAGEMENT LLC", "GABLES RESIDENTIAL SERVICES INC", "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC"],
+        "license_numbers": [226024808, 226038642, 226027221, 226023854, 226038643]
+      }
+    ]
+  },
+  "summary": {
+    "license_prefixes": 1,
+    "firm_types": 2,
+    "expiration_years": 3,
+    "states_involved": 6,
+    "shared_address_clusters": 1
+  }
+}
