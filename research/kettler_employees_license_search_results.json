@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "search_type": "Kettler Employees License Verification",
+    "states": ["DC", "MD", "VA", "NY", "NJ", "CT"],
+    "status": "in_progress"
+  },
+  "employees_searched": [
+    "Robert C. Kettler",
+    "Cindy Fisher",
+    "Luke Davis",
+    "Pat Cassada",
+    "Sean Curtin",
+    "Amy Groff",
+    "Robert Grealy",
+    "Edward Hyland",
+    "Djene Moyer",
+    "Henry Ramos",
+    "Caitlin Skidmore",
+    "Kristina Thoummarath",
+    "Christina Chang",
+    "Todd Bowen",
+    "Jeffrey Williams"
+  ],
+  "virginia_dpor_searches": {
+    "status": "searches_executed",
+    "note": "Searches executed via browser automation",
+    "results_pending": "Extraction from results pages"
+  },
+  "maryland_dllr": {
+    "url": "https://www.dllr.state.md.us/license/",
+    "status": "page_loaded",
+    "note": "Ready for searches"
+  },
+  "dc_ocpla": {
+    "url": "https://www.dcopla.com/",
+    "status": "page_loaded",
+    "note": "Ready for searches"
+  },
+  "next_steps": [
+    "Complete Virginia DPOR searches for all employees",
+    "Search Maryland DLLR for all employees",
+    "Search DC OCPLA for all employees",
+    "Search New York DOS for all employees",
+    "Search New Jersey Consumer Affairs for all employees",
+    "Search Connecticut DCP for all employees",
+    "Search state bar associations for Sean Curtin (General Counsel)",
+    "Search for Caitlin Skidmore connections in all states"
+  ]
+}

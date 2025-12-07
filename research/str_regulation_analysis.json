@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "jurisdiction": "Alexandria, VA",
+    "effective_date": "2025-09-01",
+    "status": "framework"
+  },
+  "regulations": {
+    "permit_required": true,
+    "permit_application_url": "https://www.alexandriava.gov/planning/info/default.aspx?id=106430",
+    "max_units_permit": null,
+    "violations_estimated": 90,
+    "note": "Framework - requires manual research of Alexandria STR ordinance"
+  },
+  "violations": {
+    "unregistered_strs": {
+      "count": 90,
+      "note": "Estimated from evidence - requires verification"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "search_type": "DPOR License Lookup",
+    "searches_performed": [
+      "Azure Carlyle LP",
+      "Kettler Management"
+    ],
+    "status": "browser_automation_completed"
+  },
+  "azure_carlyle_lp_search": {
+    "search_term": "Azure Carlyle LP",
+    "url": "https://www.dpor.virginia.gov/search/node?keys=Azure+Carlyle+LP",
+    "results": "No results found in DPOR website search",
+    "note": "Azure Carlyle LP not found in DPOR license database - may not be a licensed entity"
+  },
+  "kettler_management_search": {
+    "search_term": "Kettler Management",
+    "url": "https://www.dpor.virginia.gov/LicenseLookup",
+    "status": "search_executed",
+    "note": "Results require extraction from browser"
+  },
+  "findings": {
+    "azure_carlyle_not_licensed": "Azure Carlyle LP does not appear to be a licensed real estate entity in Virginia DPOR",
+    "implication": "Azure Carlyle LP may be a property holding entity, not a licensed real estate firm",
+    "investigation_needed": [
+      "Search Virginia State Corporation Commission for Azure Carlyle LP registration",
+      "Check property records for 800 John Carlyle ownership",
+      "Verify relationship between Azure Carlyle LP and Kettler Management"
+    ]
+  }
+}

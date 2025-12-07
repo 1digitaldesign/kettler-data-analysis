@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "individual": "Caitlin Skidmore",
+    "search_type": "connections_and_license_verification",
+    "status": "in_progress"
+  },
+  "connections_found": {
+    "lariat_realty_advisors": {
+      "company": "Lariat Realty Advisors",
+      "role": "Broker",
+      "address": "6700 Antioch Road",
+      "url": "https://lariatrealtyadvisors.com/about-us/",
+      "other_brokers": ["Liddy Bisanz saye", "Leah Douthit"],
+      "significance": "Professional association - multiple brokers at same firm"
+    },
+    "zillow_profile": {
+      "location": "Frisco, TX",
+      "url": "https://www.zillow.com/profile/caitlinskidmore",
+      "note": "Real Estate Agent profile",
+      "significance": "Public professional profile"
+    },
+    "realtor_com_profile": {
+      "location": "McKinney, 75071",
+      "url": "https://www.realtor.com/realestateagents/59325904b9c2a40011e8d31a",
+      "note": "Real Estate Agent profile",
+      "significance": "Public professional profile"
+    },
+    "nevada_real_estate_division": {
+      "license_name": "CAITLIN SKIDMORE",
+      "company": "FAIRFIELD PROPERTY MANAGEMENT INC",
+      "address": "4485 PENNWOOD AVE, LAS VEGAS, NV, 89102",
+      "license_number": "B.1003000.LLC",
+      "significance": "Nevada license found - different company name",
+      "note": "Fairfield Property Management Inc - new entity connection"
+    },
+    "frisco_address_cluster": {
+      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
+      "significance": "Matches address cluster found in previous analysis",
+      "connection": "Same address used by multiple firms",
+      "note": "NARPM listing shows this address"
+    },
+    "narpm_membership": {
+      "organization": "National Association of Residential Property Managers",
+      "address": "5729 Lebanon Rd. Suite 144553, Frisco, TX, 75034",
+      "phone": "214-210-...",
+      "significance": "Professional association membership"
+    }
+  },
+  "license_search_status": {
+    "virginia": "search_executed",
+    "maryland": "pending",
+    "dc": "pending",
+    "new_york": "pending",
+    "new_jersey": "pending",
+    "connecticut": "pending",
+    "nevada": "found_license",
+    "texas": "profile_found"
+  },
+  "new_entities_identified": {
+    "fairfield_property_management_inc": {
+      "name": "Fairfield Property Management Inc",
+      "address": "4485 PENNWOOD AVE, LAS VEGAS, NV, 89102",
+      "connection": "Caitlin Skidmore listed as broker",
+      "significance": "Additional company connection"
+    },
+    "lariat_realty_advisors": {
+      "name": "Lariat Realty Advisors",
+      "address": "6700 Antioch Road",
+      "connection": "Caitlin Skidmore listed as broker",
+      "other_brokers": ["Liddy Bisanz saye", "Leah Douthit"],
+      "significance": "Professional brokerage firm"
+    }
+  },
+  "investigation_notes": {
+    "address_pattern": "Frisco, TX address (5729 Lebanon Rd Suite 144553) appears in multiple contexts",
+    "multi_state_licensing": "Found licenses/connections in Texas, Nevada, Virginia",
+    "professional_networks": "NARPM membership, multiple brokerage associations",
+    "next_steps": [
+      "Search for Liddy Bisanz and Leah Douthit (Lariat Realty Advisors brokers)",
+      "Investigate Fairfield Property Management Inc",
+      "Search all states for Caitlin Skidmore licenses",
+      "Cross-reference Frisco address with other entities"
+    ]
+  }
+}

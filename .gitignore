@@ -234,3 +234,6 @@ outputs/reports/*.html
 outputs/summaries/*.csv
 !outputs/reports/.gitkeep
 !outputs/summaries/.gitkeep
+
+# Browser automation temporary files
+.playwright-mcp/
