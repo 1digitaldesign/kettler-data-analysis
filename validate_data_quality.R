@@ -284,9 +284,11 @@ generate_quality_report <- function(df) {
 
   # Duplicate analysis
   if ("is_duplicate" %in% names(df)) {
+    duplicate_group_values <- df$duplicate_group[df$is_duplicate]
+    duplicate_group_values <- duplicate_group_values[!is.na(duplicate_group_values)]
     report$duplicates <- list(
       total_duplicates = sum(df$is_duplicate, na.rm = TRUE),
-      duplicate_groups = length(unique(df$duplicate_group[df$is_duplicate])),
+      duplicate_groups = if (length(duplicate_group_values) > 0) length(unique(duplicate_group_values)) else 0,
       unique_records = sum(!df$is_duplicate, na.rm = TRUE)
     )
   }

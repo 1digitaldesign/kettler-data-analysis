@@ -110,7 +110,8 @@ analyze_ra_denial <- function(pdf_data) {
         }
 
         # Extract relevant text
-        sentences <- strsplit(text, "[.!?]")[[1]]
+        sentences_split <- strsplit(text, "[.!?]")
+        sentences <- if (length(sentences_split) > 0 && length(sentences_split[[1]]) > 0) sentences_split[[1]] else character(0)
         if (length(sentences) > 0) {
           relevant_sentences <- sentences[grepl("accommodation|denied|denial", sentences, ignore.case = TRUE)]
           if (length(relevant_sentences) > 0) {
@@ -135,7 +136,8 @@ analyze_ra_denial <- function(pdf_data) {
         }
 
         # Extract relevant text
-        sentences <- strsplit(text, "[.!?]")[[1]]
+        sentences_split <- strsplit(text, "[.!?]")
+        sentences <- if (length(sentences_split) > 0 && length(sentences_split[[1]]) > 0) sentences_split[[1]] else character(0)
         if (length(sentences) > 0) {
           relevant_sentences <- sentences[grepl("interactive", sentences, ignore.case = TRUE)]
           if (length(relevant_sentences) > 0) {
