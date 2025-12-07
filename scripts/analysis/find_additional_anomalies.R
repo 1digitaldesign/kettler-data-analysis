@@ -162,9 +162,14 @@ analyze_license_sequences <- function(firms) {
       explanation = "Need at least 2 licenses to analyze patterns"
     )
   } else {
-    sorted_licenses <- sort(license_nums)
-    gaps <- diff(sorted_licenses)
-    avg_gap <- if (length(gaps) > 0) mean(gaps) else NA
+    if (length(license_nums) > 0) {
+      sorted_licenses <- sort(license_nums)
+      gaps <- diff(sorted_licenses)
+      avg_gap <- if (length(gaps) > 0) mean(gaps, na.rm = TRUE) else NA
+    } else {
+      gaps <- numeric(0)
+      avg_gap <- NA
+    }
 
     analysis$license_analysis <- list(
       total_licenses = length(license_nums),

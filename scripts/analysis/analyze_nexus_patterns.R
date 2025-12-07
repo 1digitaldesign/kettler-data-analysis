@@ -236,9 +236,9 @@ identify_control_patterns <- function(firms) {
   # Pattern 3: License gaps suggest firms existed before "principal broker"
   gaps <- firms[!is.na(firms$Gap.Years) & firms$Gap.Years != "UNKNOWN", ]
   if (nrow(gaps) > 0) {
-    gap_values <- as.numeric(gaps$Gap.Years)
+    gap_values <- suppressWarnings(as.numeric(gaps$Gap.Years))
     gap_values <- gap_values[!is.na(gap_values)]
-    avg_gap <- if (length(gap_values) > 0) mean(gap_values) else NA
+    avg_gap <- if (length(gap_values) > 0) mean(gap_values, na.rm = TRUE) else NA
   } else {
     avg_gap <- NA
   }
