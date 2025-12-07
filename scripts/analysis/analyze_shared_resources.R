@@ -85,9 +85,17 @@ main_analysis <- function() {
   shared_addresses <- find_shared_addresses(firms)
 
   # Analyze email domains
-  email_domains <- unique(str_extract(entities$emails, "@([^@]+)$"))
-  email_domains <- email_domains[!is.na(email_domains)]
-  email_domains <- str_remove(email_domains, "^@")
+  if (!is.null(entities$emails) && length(entities$emails) > 0) {
+    email_domains <- unique(str_extract(entities$emails, "@([^@]+)$"))
+    email_domains <- email_domains[!is.na(email_domains)]
+    if (length(email_domains) > 0) {
+      email_domains <- str_remove(email_domains, "^@")
+    } else {
+      email_domains <- character(0)
+    }
+  } else {
+    email_domains <- character(0)
+  }
 
   # Create results
   results <- list(

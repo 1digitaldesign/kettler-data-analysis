@@ -74,9 +74,17 @@ find_anomalies <- function(firms) {
   )
 
   # Anomaly: State distribution analysis
-  states <- str_extract(firms$Address, ",\\s*([A-Z]{2})\\s*\\d", group = 1)
-  states <- states[!is.na(states)]
-  state_counts <- table(states)
+  if ("Address" %in% names(firms) && nrow(firms) > 0) {
+    states <- str_extract(firms$Address, ",\\s*([A-Z]{2})\\s*\\d", group = 1)
+    states <- states[!is.na(states)]
+    if (length(states) > 0) {
+      state_counts <- table(states)
+    } else {
+      state_counts <- table(character(0))
+    }
+  } else {
+    state_counts <- table(character(0))
+  }
 
   anomalies$state_distribution <- list(
     state_count = length(unique(states)),

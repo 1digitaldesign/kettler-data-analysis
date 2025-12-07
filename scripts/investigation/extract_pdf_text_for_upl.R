@@ -74,8 +74,12 @@ extract_upl_evidence <- function() {
 
   # Search each PDF
   for (pdf in pdf_data) {
-    if (!is.null(pdf$text_preview)) {
+    if (!is.null(pdf$text_preview) && length(pdf$text_preview) > 0) {
       text <- paste(pdf$text_preview, collapse = " ")
+
+      if (is.null(text) || is.na(text) || nchar(text) == 0) {
+        next
+      }
 
       # Check if Hyland is mentioned
       if (grepl("hyland|ehyland", text, ignore.case = TRUE)) {

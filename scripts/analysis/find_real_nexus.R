@@ -45,8 +45,18 @@ analyze_beneficiaries <- function(firms) {
   }
 
   # Address cluster beneficiaries (Frisco, TX)
-  frisco_firms <- firms[grepl("5729.*LEBANON|LEBANON.*5729", firms$Address, ignore.case = TRUE) &
-                        grepl("FRISCO.*TX.*75034", firms$Address, ignore.case = TRUE), ]
+  if ("Address" %in% names(firms) && nrow(firms) > 0) {
+    address_matches <- !is.na(firms$Address) & firms$Address != ""
+    if (sum(address_matches) > 0) {
+      frisco_firms <- firms[address_matches &
+                            grepl("5729.*LEBANON|LEBANON.*5729", firms$Address, ignore.case = TRUE) &
+                            grepl("FRISCO.*TX.*75034", firms$Address, ignore.case = TRUE), ]
+    } else {
+      frisco_firms <- firms[FALSE, ]
+    }
+  } else {
+    frisco_firms <- firms[FALSE, ]
+  }
 
   if (nrow(frisco_firms) > 0) {
     beneficiaries$frisco_cluster <- list(
