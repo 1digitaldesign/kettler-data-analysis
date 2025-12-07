@@ -2,6 +2,8 @@
 # Generate All Outputs and Reports
 # Master script to generate all analysis outputs
 
+library(dplyr)
+
 source("analyze_skidmore_connections.R")
 source("validate_data_quality.R")
 

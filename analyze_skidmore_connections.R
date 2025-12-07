@@ -17,9 +17,35 @@ dir.create(ANALYSIS_DIR, showWarnings = FALSE, recursive = TRUE)
 
 # Load existing Skidmore data
 load_skidmore_data <- function() {
-  firms_complete <- read.csv("skidmore_all_firms_complete.csv", stringsAsFactors = FALSE)
-  firms_db <- read.csv("skidmore_firms_database.csv", stringsAsFactors = FALSE)
-  individual_licenses <- read.csv("skidmore_individual_licenses.csv", stringsAsFactors = FALSE)
+  # Check for files in new location first, then fallback to root
+  source_dir <- file.path(DATA_DIR, "source")
+  firms_file <- if (file.exists(file.path(source_dir, "skidmore_all_firms_complete.csv"))) {
+    file.path(source_dir, "skidmore_all_firms_complete.csv")
+  } else if (file.exists("skidmore_all_firms_complete.csv")) {
+    "skidmore_all_firms_complete.csv"
+  } else {
+    stop("Cannot find skidmore_all_firms_complete.csv in data/source/ or root directory")
+  }
+
+  firms_db_file <- if (file.exists(file.path(source_dir, "skidmore_firms_database.csv"))) {
+    file.path(source_dir, "skidmore_firms_database.csv")
+  } else if (file.exists("skidmore_firms_database.csv")) {
+    "skidmore_firms_database.csv"
+  } else {
+    stop("Cannot find skidmore_firms_database.csv in data/source/ or root directory")
+  }
+
+  licenses_file <- if (file.exists(file.path(source_dir, "skidmore_individual_licenses.csv"))) {
+    file.path(source_dir, "skidmore_individual_licenses.csv")
+  } else if (file.exists("skidmore_individual_licenses.csv")) {
+    "skidmore_individual_licenses.csv"
+  } else {
+    stop("Cannot find skidmore_individual_licenses.csv in data/source/ or root directory")
+  }
+
+  firms_complete <- read.csv(firms_file, stringsAsFactors = FALSE)
+  firms_db <- read.csv(firms_db_file, stringsAsFactors = FALSE)
+  individual_licenses <- read.csv(licenses_file, stringsAsFactors = FALSE)
 
   return(list(
     firms_complete = firms_complete,

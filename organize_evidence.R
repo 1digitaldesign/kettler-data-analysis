@@ -18,8 +18,17 @@ load_all_data <- function() {
   data <- list()
 
   # Load Skidmore firm data
-  if (file.exists("skidmore_all_firms_complete.csv")) {
-    data$firms <- read.csv("skidmore_all_firms_complete.csv", stringsAsFactors = FALSE)
+  # Check for files in new location first, then fallback to root
+  source_dir <- file.path(DATA_DIR, "source")
+  firms_file <- if (file.exists(file.path(source_dir, "skidmore_all_firms_complete.csv"))) {
+    file.path(source_dir, "skidmore_all_firms_complete.csv")
+  } else if (file.exists("skidmore_all_firms_complete.csv")) {
+    "skidmore_all_firms_complete.csv"
+  } else {
+    NULL
+  }
+  if (!is.null(firms_file) && file.exists(firms_file)) {
+    data$firms <- read.csv(firms_file, stringsAsFactors = FALSE)
   }
 
   # Load connections
@@ -186,7 +195,11 @@ generate_filing_package <- function(data, cross_ref, summary) {
   # Evidence documents
   package$evidence_documents <- list(
     pdf_files = list.files(file.path(EVIDENCE_DIR, "pdfs"), pattern = "\\.pdf$", full.names = FALSE),
-    license_data = "skidmore_all_firms_complete.csv",
+    license_data = if (file.exists(file.path(DATA_DIR, "source", "skidmore_all_firms_complete.csv"))) {
+      file.path(DATA_DIR, "source", "skidmore_all_firms_complete.csv")
+    } else {
+      "skidmore_all_firms_complete.csv"
+    },
     connections_data = file.path(DATA_DIR, "analysis", "dpor_skidmore_connections.csv")
   )
 

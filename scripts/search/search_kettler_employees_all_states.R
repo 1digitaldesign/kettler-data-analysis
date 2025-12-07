@@ -106,11 +106,20 @@ create_search_framework <- function() {
     # Create search entries for each state
     for (state_id in names(states)) {
       state <- states[[state_id]]
+
+      # Determine status
+      emp_status <- ifelse(is.null(emp$already_confirmed_unlicensed), FALSE, emp$already_confirmed_unlicensed)
+      search_status <- if (emp_status && state_id == "va") {
+        "already_confirmed_unlicensed"
+      } else {
+        "pending"
+      }
+
       results$employees[[emp_id]]$searches[[state_id]] <- list(
         state = state$name,
         state_code = state$code,
         search_url = state$real_estate_url,
-        status = ifelse(emp$already_confirmed_unlicensed && state_id == "va", "already_confirmed_unlicensed", "pending"),
+        status = search_status,
         licenses_found = list(),
         violations = list(),
         note = paste("Search for", emp$name, "in", state$name)

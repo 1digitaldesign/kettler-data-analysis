@@ -23,7 +23,13 @@ tryCatch({
 
 # Step 2: Clean data
 cat("STEP 2: Cleaning data with Python/Hugging Face...\n")
-system_result <- system("python clean_dpor_data.py", intern = TRUE)
+# Try python3 first, fallback to python
+python_cmd <- if (system("which python3 > /dev/null 2>&1", ignore.stdout = TRUE, ignore.stderr = TRUE) == 0) {
+  "python3"
+} else {
+  "python"
+}
+system_result <- system(paste(python_cmd, "clean_dpor_data.py"), intern = TRUE)
 exit_code <- attr(system_result, "status")
 if (!is.null(exit_code) && exit_code != 0) {
   cat("✗ Data cleaning failed with exit code:", exit_code, "\n")

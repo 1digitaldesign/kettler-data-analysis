@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "search_type": "Comprehensive License Verification",
+    "scope": "All Kettler employees in DC, MD, VA, NY, NJ, CT",
+    "status": "in_progress"
+  },
+  "states_searched": {
+    "virginia": {
+      "url": "https://www.dpor.virginia.gov/LicenseLookup",
+      "status": "searches_executed",
+      "employees_searched": [
+        "Robert Kettler",
+        "Cindy Fisher",
+        "Sean Curtin",
+        "Djene Moyer",
+        "Henry Ramos",
+        "Caitlin Skidmore",
+        "Luke Davis",
+        "Pat Cassada",
+        "Amy Groff",
+        "Robert Grealy"
+      ],
+      "results_status": "pending_extraction",
+      "known_findings": {
+        "Edward Hyland": "CONFIRMED UNLICENSED"
+      },
+      "note": "Some searches executed successfully, results need extraction. Some timeout issues encountered."
+    },
+    "maryland": {
+      "url": "https://www.dllr.state.md.us/license/realestate/",
+      "status": "page_loaded",
+      "searches_pending": 15,
+      "note": "Ready for searches"
+    },
+    "district_of_columbia": {
+      "url": "https://www.dcopla.com/realestate/",
+      "status": "page_loaded",
+      "searches_pending": 15,
+      "note": "Ready for searches"
+    },
+    "new_york": {
+      "url": "https://www.dos.ny.gov/licensing/",
+      "status": "page_loaded",
+      "searches_pending": 15,
+      "note": "Ready for searches"
+    },
+    "new_jersey": {
+      "url": "https://www.njconsumeraffairs.gov/rec/Pages/default.aspx",
+      "status": "page_loaded",
+      "searches_pending": 15,
+      "note": "Ready for searches"
+    },
+    "connecticut": {
+      "url": "https://www.ct.gov/dcp/cwp/view.asp?a=1629&q=274388",
+      "status": "page_loaded",
+      "searches_pending": 15,
+      "note": "Ready for searches"
+    }
+  },
+  "caitlin_skidmore_connections": {
+    "lariat_realty_advisors": {
+      "brokers": ["Caitlin Skidmore", "Liddy Bisanz saye", "Leah Douthit"],
+      "address": "6700 Antioch Road",
+      "significance": "Professional brokerage association",
+      "investigation_needed": "Search for Liddy Bisanz and Leah Douthit licenses"
+    },
+    "fairfield_property_management": {
+      "company": "Fairfield Property Management Inc",
+      "location": "Las Vegas, NV",
+      "address": "4485 PENNWOOD AVE, LAS VEGAS, NV, 89102",
+      "license_number": "B.1003000.LLC",
+      "significance": "Nevada license - different company name",
+      "investigation_needed": "Investigate company registration and other brokers"
+    },
+    "frisco_address": {
+      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
+      "significance": "Matches address cluster from previous analysis",
+      "connections": ["Caitlin Skidmore", "Multiple firms"]
+    }
+  },
+  "summary": {
+    "total_employees": 15,
+    "total_states": 6,
+    "total_searches_needed": 90,
+    "virginia_searches_completed": 10,
+    "virginia_searches_pending": 5,
+    "other_states_searches_pending": 75,
+    "confirmed_violations": 1,
+    "new_connections_found": 4
+  }
+}

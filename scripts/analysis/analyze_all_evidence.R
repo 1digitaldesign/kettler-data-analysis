@@ -33,8 +33,17 @@ load_all_evidence <- function() {
   }
 
   # Load license data
-  if (file.exists(file.path(PROJECT_ROOT, "skidmore_all_firms_complete.csv"))) {
-    evidence$firms <- read.csv(file.path(PROJECT_ROOT, "skidmore_all_firms_complete.csv"), stringsAsFactors = FALSE)
+  # Check for files in new location first, then fallback to root
+  source_dir <- file.path(DATA_DIR, "source")
+  firms_file <- if (file.exists(file.path(source_dir, "skidmore_all_firms_complete.csv"))) {
+    file.path(source_dir, "skidmore_all_firms_complete.csv")
+  } else if (file.exists(file.path(PROJECT_ROOT, "skidmore_all_firms_complete.csv"))) {
+    file.path(PROJECT_ROOT, "skidmore_all_firms_complete.csv")
+  } else {
+    NULL
+  }
+  if (!is.null(firms_file) && file.exists(firms_file)) {
+    evidence$firms <- read.csv(firms_file, stringsAsFactors = FALSE)
   }
 
   return(evidence)

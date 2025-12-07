@@ -29,7 +29,11 @@ log_message <- function(message) {
 
 # Load state registry
 load_state_registry <- function() {
-  registry <- read.csv("state_dpor_registry.csv", stringsAsFactors = FALSE)
+  registry_file <- "state_dpor_registry.csv"
+  if (!file.exists(registry_file)) {
+    stop(paste("Cannot find state_dpor_registry.csv in current directory:", getwd()))
+  }
+  registry <- read.csv(registry_file, stringsAsFactors = FALSE)
   return(registry)
 }
 
