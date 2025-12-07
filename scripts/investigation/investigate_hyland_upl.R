@@ -102,8 +102,12 @@ analyze_ra_denial <- function(pdf_data) {
           grepl("hyland|ehyland", text, ignore.case = TRUE)) {
 
         ra_analysis$denial_found <- TRUE
-        ra_analysis$file <- pdf$file[[1]]
-        ra_analysis$file_path <- pdf$file_path[[1]]
+        if (!is.null(pdf$file) && length(pdf$file) > 0) {
+          ra_analysis$file <- pdf$file[[1]]
+        }
+        if (!is.null(pdf$file_path) && length(pdf$file_path) > 0) {
+          ra_analysis$file_path <- pdf$file_path[[1]]
+        }
 
         # Extract relevant text
         sentences <- strsplit(text, "[.!?]")[[1]]
@@ -122,8 +126,12 @@ analyze_ra_denial <- function(pdf_data) {
 
         ra_analysis$interactive_process_mentioned <- TRUE
         if (is.null(ra_analysis$file)) {
-          ra_analysis$file <- pdf$file[[1]]
-          ra_analysis$file_path <- pdf$file_path[[1]]
+          if (!is.null(pdf$file) && length(pdf$file) > 0) {
+            ra_analysis$file <- pdf$file[[1]]
+          }
+          if (!is.null(pdf$file_path) && length(pdf$file_path) > 0) {
+            ra_analysis$file_path <- pdf$file_path[[1]]
+          }
         }
 
         # Extract relevant text
