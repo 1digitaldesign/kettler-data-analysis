@@ -262,7 +262,7 @@ docker run --rm test-image python --version
    ```bash
    # Using Kubernetes
    kubectl apply -f kubernetes/
-   
+
    # Or Docker Compose
    docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
    ```

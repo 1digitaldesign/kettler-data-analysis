@@ -241,16 +241,24 @@ analyze_causation <- function(timeline, firms) {
 
   # Hypothesis: Hyland's employment correlates with firm licensing
   hyland_date <- as.Date("2022-09-01")
-  firm_dates <- sapply(timeline, function(x) {
-    if (x$event_type == "firm_license_issued") {
-      return(x$date)
+  if (length(timeline) == 0) {
+    firm_dates <- as.Date(character(0))
+  } else {
+    firm_dates <- sapply(timeline, function(x) {
+      if (!is.null(x$event_type) && x$event_type == "firm_license_issued" && !is.null(x$date)) {
+        return(x$date)
+      }
+      return(NA)
+    })
+    firm_dates <- firm_dates[!is.na(firm_dates)]
+    if (length(firm_dates) > 0) {
+      firm_dates <- as.Date(firm_dates)
+    } else {
+      firm_dates <- as.Date(character(0))
     }
-    return(NA)
-  })
-  firm_dates <- firm_dates[!is.na(firm_dates)]
-  firm_dates <- as.Date(firm_dates)
+  }
 
-  firms_after_hyland <- firm_dates[firm_dates > hyland_date]
+  firms_after_hyland <- if (length(firm_dates) > 0) firm_dates[firm_dates > hyland_date] else as.Date(character(0))
 
   causation$hyland_correlation <- list(
     hyland_started = "2022-09-01",

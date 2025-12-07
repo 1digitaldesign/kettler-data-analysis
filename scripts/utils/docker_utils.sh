@@ -27,7 +27,7 @@ wait_for_service() {
     local url=$2
     local max_attempts=30
     local attempt=0
-    
+
     echo "Waiting for $service to be healthy..."
     while [ $attempt -lt $max_attempts ]; do
         if curl -s -f "$url" > /dev/null 2>&1; then
@@ -38,7 +38,7 @@ wait_for_service() {
         echo "  Attempt $attempt/$max_attempts..."
         sleep 2
     done
-    
+
     echo -e "${RED}✗${NC} $service failed to become healthy"
     return 1
 }
@@ -47,7 +47,7 @@ wait_for_service() {
 scale_service() {
     local service=$1
     local replicas=$2
-    
+
     echo "Scaling $service to $replicas replicas..."
     docker-compose up -d --scale "$service=$replicas"
     echo -e "${GREEN}✓${NC} Scaled $service to $replicas replicas"
@@ -57,7 +57,7 @@ scale_service() {
 get_service_logs() {
     local service=$1
     local lines=${2:-50}
-    
+
     echo "=== Logs for $service (last $lines lines) ==="
     docker-compose logs --tail="$lines" "$service"
 }
@@ -65,7 +65,7 @@ get_service_logs() {
 # Restart service
 restart_service() {
     local service=$1
-    
+
     echo "Restarting $service..."
     docker-compose restart "$service"
     echo -e "${GREEN}✓${NC} Restarted $service"

@@ -208,6 +208,9 @@ main_analysis <- function() {
   checklist <- create_filing_checklist(recommendations, evidence)
 
   # Save results
+  dir.create(RESEARCH_DIR, showWarnings = FALSE, recursive = TRUE)
+  dir.create(FILINGS_DIR, showWarnings = FALSE, recursive = TRUE)
+
   indicators_file <- file.path(RESEARCH_DIR, "fraud_indicators.json")
   write_json(indicators, indicators_file, pretty = TRUE)
   cat("Saved fraud indicators to:", indicators_file, "\n")

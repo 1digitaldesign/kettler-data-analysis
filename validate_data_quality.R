@@ -376,6 +376,8 @@ main_validation <- function() {
   report <- generate_quality_report(df)
 
   # Save validated data
+  dir.create(ANALYSIS_DIR, showWarnings = FALSE, recursive = TRUE)
+
   validated_file <- file.path(ANALYSIS_DIR, "dpor_validated.csv")
   write.csv(df, validated_file, row.names = FALSE)
   cat("Saved validated data to:", validated_file, "\n")

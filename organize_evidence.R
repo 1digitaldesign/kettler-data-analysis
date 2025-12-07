@@ -266,20 +266,31 @@ generate_filing_package <- function(data, cross_ref, summary) {
       package$executive_summary$key_evidence$kettler_emails_in_pdf <- length(kettler_emails)
 
       # Count violations
-      if ("regulatory_info" %in% names(pdf_json[[1]])) {
+      if (length(pdf_json) > 0 && "regulatory_info" %in% names(pdf_json[[1]]) &&
+          !is.null(pdf_json[[1]]$regulatory_info) &&
+          !is.null(pdf_json[[1]]$regulatory_info$violation_mentions)) {
         violations <- pdf_json[[1]]$regulatory_info$violation_mentions
-        violations_count <- sum(violations > 0)
-        package$executive_summary$key_evidence$violations_mentioned <- violations_count
+        if (is.numeric(violations) && length(violations) > 0) {
+          violations_count <- sum(violations > 0, na.rm = TRUE)
+          package$executive_summary$key_evidence$violations_mentioned <- violations_count
+        }
       }
     }
   }
 
   # Violations identified
+  principal_broker_data <- NULL
+  if (!is.null(data$connections) && is.data.frame(data$connections) && nrow(data$connections) > 0 &&
+      "connection_type" %in% names(data$connections) && "state" %in% names(data$connections)) {
+    principal_broker_data <- data$connections %>%
+      filter(connection_type == "Principal Broker") %>%
+      count(state, name = "firm_count")
+  }
+
   package$violations <- list(
     license_violations = summary$timeline_issues,
     address_clustering = summary$address_analysis,
-    principal_broker_pattern = ifelse(is.null(data$connections), NULL,
-      data$connections %>% filter(connection_type == "Principal Broker") %>% count(state, name = "firm_count"))
+    principal_broker_pattern = principal_broker_data
   )
 
   return(package)
