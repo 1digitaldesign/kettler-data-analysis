@@ -168,8 +168,8 @@ analyze_license_sequences <- function(firms) {
 
     analysis$license_analysis <- list(
       total_licenses = length(license_nums),
-      min_license = min(license_nums),
-      max_license = max(license_nums),
+      min_license = if (length(license_nums) > 0) min(license_nums) else NA,
+      max_license = if (length(license_nums) > 0) max(license_nums) else NA,
       average_gap = avg_gap,
       large_gaps = sum(gaps > 1000),
       pattern_type = if (!is.na(avg_gap) && avg_gap < 100) "sequential" else "scattered",

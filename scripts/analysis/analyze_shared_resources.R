@@ -111,7 +111,12 @@ main_analysis <- function() {
     summary = list(
       firms_sharing_addresses = length(shared_addresses),
       largest_address_cluster = if (length(shared_addresses) > 0) {
-        max(sapply(shared_addresses, function(x) x$firm_count))
+        firm_counts <- sapply(shared_addresses, function(x) ifelse(is.null(x$firm_count), 0, x$firm_count))
+        if (length(firm_counts) > 0 && any(!is.na(firm_counts))) {
+          max(firm_counts, na.rm = TRUE)
+        } else {
+          0
+        }
       } else 0
     )
   )
