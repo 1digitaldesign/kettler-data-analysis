@@ -183,7 +183,7 @@ analyze_financial_patterns <- function(firms) {
   } else {
     gap_values <- numeric(0)
   }
-  
+
   if (length(gap_values) > 0) {
     avg_gap <- mean(gap_values)
   } else {
