@@ -119,7 +119,9 @@ generate_filing_recommendations <- function(indicators, evidence) {
   # State filings
   recommendations$state <- list()
 
-  if (!is.null(indicators$principal_broker_pattern)) {
+  if (!is.null(indicators$principal_broker_pattern) &&
+      is.data.frame(indicators$principal_broker_pattern) &&
+      nrow(indicators$principal_broker_pattern) > 0) {
     for (i in 1:nrow(indicators$principal_broker_pattern)) {
       state <- indicators$principal_broker_pattern$state[i]
       firm_count <- indicators$principal_broker_pattern$firm_count[i]

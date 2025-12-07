@@ -118,24 +118,29 @@ cross_reference_entities <- function(entities, firms) {
 
   # Match addresses
   if (!is.null(firms) && length(entities$addresses) > 0) {
-    matched_firms <- data.frame()
+    matched_firms <- NULL
 
     for (addr in entities$addresses) {
       # Extract street number
       street_num <- str_extract(addr, "^\\d+")
-      if (!is.na(street_num)) {
+      city_state <- str_extract(addr, "[A-Za-z]+,\\s*[A-Z]{2}")
+      if (!is.na(street_num) && !is.na(city_state)) {
         firm_matches <- firms %>%
           filter(grepl(street_num, Address) &
-                 grepl(str_extract(addr, "[A-Za-z]+,\\s*[A-Z]{2}"), Address, ignore.case = TRUE))
+                 grepl(city_state, Address, ignore.case = TRUE))
 
         if (nrow(firm_matches) > 0) {
-          matched_firms <- rbind(matched_firms,
-                                 data.frame(address = addr, firm_matches, stringsAsFactors = FALSE))
+          new_match <- data.frame(address = addr, firm_matches, stringsAsFactors = FALSE)
+          if (is.null(matched_firms)) {
+            matched_firms <- new_match
+          } else {
+            matched_firms <- rbind(matched_firms, new_match)
+          }
         }
       }
     }
 
-    matches$address_matches <- matched_firms
+    matches$address_matches <- if (is.null(matched_firms)) data.frame() else matched_firms
   }
 
   return(matches)

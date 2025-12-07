@@ -24,8 +24,11 @@ OUTPUT_FILE <- file.path(RESEARCH_DIR, "email_domain_analysis.json")
 # Extract email domains
 extract_domains <- function(emails) {
   domains <- character(0)
+  if (is.null(emails) || length(emails) == 0) {
+    return(domains)
+  }
   for (email in emails) {
-    if (grepl("@", email)) {
+    if (!is.null(email) && !is.na(email) && is.character(email) && grepl("@", email)) {
       domain <- str_extract(email, "@([^@]+)$")
       if (!is.na(domain)) {
         domain <- str_remove(domain, "^@")
@@ -135,7 +138,7 @@ main_analysis <- function() {
     email_patterns = patterns,
     firm_connections = firm_connections,
     summary = list(
-      kettler_emails_found = patterns$kettler$count %||% 0,
+      kettler_emails_found = ifelse(is.null(patterns$kettler$count), 0, patterns$kettler$count),
       domains_linked_to_firms = length(firm_connections)
     )
   )

@@ -18,31 +18,37 @@ generate_summary_csvs <- function() {
   if (file.exists(connections_file)) {
     connections <- read.csv(connections_file, stringsAsFactors = FALSE)
 
-    # Summary by state
-    summary_by_state <- connections %>%
-      group_by(state) %>%
-      summarise(
-        firm_count = n_distinct(firm_name),
-        connection_count = n(),
-        .groups = 'drop'
-      ) %>%
-      arrange(desc(connection_count))
+    if (nrow(connections) > 0 && "state" %in% names(connections) && "firm_name" %in% names(connections)) {
+      # Summary by state
+      summary_by_state <- connections %>%
+        group_by(state) %>%
+        summarise(
+          firm_count = n_distinct(firm_name),
+          connection_count = n(),
+          .groups = 'drop'
+        ) %>%
+        arrange(desc(connection_count))
 
-    write.csv(summary_by_state, "dpor_multi_state_summary.csv", row.names = FALSE)
-    cat("Saved state summary to: dpor_multi_state_summary.csv\n")
+      write.csv(summary_by_state, "dpor_multi_state_summary.csv", row.names = FALSE)
+      cat("Saved state summary to: dpor_multi_state_summary.csv\n")
+    } else {
+      cat("Warning: Connections file exists but is empty or missing required columns\n")
+    }
 
-    # Summary by connection type
-    summary_by_type <- connections %>%
-      group_by(connection_type) %>%
-      summarise(
-        firm_count = n_distinct(firm_name),
-        connection_count = n(),
-        .groups = 'drop'
-      ) %>%
-      arrange(desc(connection_count))
+    if (nrow(connections) > 0 && "connection_type" %in% names(connections) && "firm_name" %in% names(connections)) {
+      # Summary by connection type
+      summary_by_type <- connections %>%
+        group_by(connection_type) %>%
+        summarise(
+          firm_count = n_distinct(firm_name),
+          connection_count = n(),
+          .groups = 'drop'
+        ) %>%
+        arrange(desc(connection_count))
 
-    write.csv(summary_by_type, "dpor_connection_type_summary.csv", row.names = FALSE)
-    cat("Saved connection type summary to: dpor_connection_type_summary.csv\n")
+      write.csv(summary_by_type, "dpor_connection_type_summary.csv", row.names = FALSE)
+      cat("Saved connection type summary to: dpor_connection_type_summary.csv\n")
+    }
   }
 
   if (file.exists(validated_file)) {

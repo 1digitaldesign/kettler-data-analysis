@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kettler-scripts-config
+data:
+  # This will be populated with scripts directory contents
+  # Use: kubectl create configmap kettler-scripts-config --from-file=scripts/
+  # Or mount as volume from git repository

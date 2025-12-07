@@ -232,6 +232,11 @@ search_firm_all_states <- function(firm_name, registry = NULL) {
   log_message(paste("Searching all states for firm:", firm_name))
   log_message(paste("Using", length(name_variations), "name variations"))
 
+  if (nrow(registry) == 0) {
+    log_message("Warning: Registry is empty, cannot search")
+    return(data.frame())
+  }
+
   for (i in 1:nrow(registry)) {
     state_info <- registry[i, ]
 
@@ -268,6 +273,11 @@ search_skidmore_all_states <- function(registry = NULL) {
 
   log_message("Searching all states for Caitlin Skidmore")
   log_message(paste("Using", length(name_variations), "name variations"))
+
+  if (nrow(registry) == 0) {
+    log_message("Warning: Registry is empty, cannot search")
+    return(data.frame())
+  }
 
   for (i in 1:nrow(registry)) {
     state_info <- registry[i, ]

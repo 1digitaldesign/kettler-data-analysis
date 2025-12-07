@@ -105,14 +105,20 @@ identify_anomalies <- function(timeline, firms) {
   anomalies <- list()
 
   # Convert timeline to data frame for easier analysis
+  if (length(timeline) == 0) {
+    return(data.frame(date = as.Date(character(0)), event_type = character(0), entity = character(0)))
+  }
   timeline_df <- data.frame(
-    date = sapply(timeline, function(x) x$date),
-    event_type = sapply(timeline, function(x) x$event_type),
-    entity = sapply(timeline, function(x) x$entity),
+    date = sapply(timeline, function(x) ifelse(is.null(x$date), NA, x$date)),
+    event_type = sapply(timeline, function(x) ifelse(is.null(x$event_type), NA, x$event_type)),
+    entity = sapply(timeline, function(x) ifelse(is.null(x$entity), NA, x$entity)),
     stringsAsFactors = FALSE
   )
-  timeline_df$date <- as.Date(timeline_df$date)
-  timeline_df <- timeline_df[order(timeline_df$date), ]
+  timeline_df <- timeline_df[!is.na(timeline_df$date), ]
+  if (nrow(timeline_df) > 0) {
+    timeline_df$date <- as.Date(timeline_df$date)
+    timeline_df <- timeline_df[order(timeline_df$date), ]
+  }
 
   # Anomaly 1: Firms licensed before principal broker
   skidmore_date <- as.Date("2025-05-30")
@@ -154,14 +160,22 @@ detect_patterns <- function(timeline, firms) {
   patterns <- list()
 
   # Pattern 1: Clustering of firm licenses around certain dates
-  firm_dates <- sapply(timeline, function(x) {
-    if (x$event_type == "firm_license_issued") {
-      return(x$date)
+  if (length(timeline) == 0) {
+    firm_dates <- as.Date(character(0))
+  } else {
+    firm_dates <- sapply(timeline, function(x) {
+      if (!is.null(x$event_type) && x$event_type == "firm_license_issued" && !is.null(x$date)) {
+        return(x$date)
+      }
+      return(NA)
+    })
+    firm_dates <- firm_dates[!is.na(firm_dates)]
+    if (length(firm_dates) > 0) {
+      firm_dates <- as.Date(firm_dates)
+    } else {
+      firm_dates <- as.Date(character(0))
     }
-    return(NA)
-  })
-  firm_dates <- firm_dates[!is.na(firm_dates)]
-  firm_dates <- as.Date(firm_dates)
+  }
 
   # Group by year
   firm_years <- format(firm_dates, "%Y")
@@ -198,14 +212,22 @@ analyze_causation <- function(timeline, firms) {
 
     if (!is.na(kettler_date)) {
       # Count firms licensed after Kettler
-      firm_dates <- sapply(timeline, function(x) {
-        if (x$event_type == "firm_license_issued") {
-          return(x$date)
+      if (length(timeline) == 0) {
+        firm_dates <- as.Date(character(0))
+      } else {
+        firm_dates <- sapply(timeline, function(x) {
+          if (!is.null(x$event_type) && x$event_type == "firm_license_issued" && !is.null(x$date)) {
+            return(x$date)
+          }
+          return(NA)
+        })
+        firm_dates <- firm_dates[!is.na(firm_dates)]
+        if (length(firm_dates) > 0) {
+          firm_dates <- as.Date(firm_dates)
+        } else {
+          firm_dates <- as.Date(character(0))
         }
-        return(NA)
-      })
-      firm_dates <- firm_dates[!is.na(firm_dates)]
-      firm_dates <- as.Date(firm_dates)
+      }
 
       firms_after_kettler <- firm_dates[firm_dates > kettler_date]
 

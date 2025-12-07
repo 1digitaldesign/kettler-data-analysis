@@ -81,6 +81,13 @@ find_key_terms <- function(lease_data) {
 # Find abnormalities
 find_abnormalities <- function(lease_data) {
   abnormalities <- list()
+
+  if (is.null(lease_data) || is.null(lease_data$full_text) ||
+      is.na(lease_data$full_text) || lease_data$full_text == "") {
+    abnormalities$error <- "No lease text available for analysis"
+    return(abnormalities)
+  }
+
   text <- lease_data$full_text
 
   # Check for missing required clauses

@@ -47,13 +47,15 @@ find_shared_addresses <- function(firms) {
   shared_addresses <- address_counts[address_counts > 1]
 
   shared_list <- list()
-  for (addr in names(shared_addresses)) {
-    firms_at_addr <- firms[firms$Address.Normalized == addr, ]
-    shared_list[[length(shared_list) + 1]] <- list(
-      address = addr,
-      firm_count = as.numeric(shared_addresses[addr]),
-      firms = firms_at_addr$Firm.Name
-    )
+  if (length(shared_addresses) > 0) {
+    for (addr in names(shared_addresses)) {
+      firms_at_addr <- firms[firms$Address.Normalized == addr, ]
+      shared_list[[length(shared_list) + 1]] <- list(
+        address = addr,
+        firm_count = as.numeric(shared_addresses[addr]),
+        firms = firms_at_addr$Firm.Name
+      )
+    }
   }
 
   return(shared_list)

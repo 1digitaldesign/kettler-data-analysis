@@ -64,9 +64,9 @@ create_matrix <- function(data) {
   # Hyland-Firm connections
   if (length(data$hyland) > 0) {
     matrix$hyland_firm_connections <- list(
-      email_connection = data$hyland$email_connections$hyland_email_found %||% FALSE,
-      address_match = data$hyland$address_connections$match_count %||% 0,
-      timeline_connection = data$hyland$timeline_connections$firms_licensed_after_hyland_start %||% 0
+      email_connection = ifelse(is.null(data$hyland$email_connections$hyland_email_found), FALSE, data$hyland$email_connections$hyland_email_found),
+      address_match = ifelse(is.null(data$hyland$address_connections$match_count), 0, data$hyland$address_connections$match_count),
+      timeline_connection = ifelse(is.null(data$hyland$timeline_connections$firms_licensed_after_hyland_start), 0, data$hyland$timeline_connections$firms_licensed_after_hyland_start)
     )
   }
 
@@ -94,7 +94,7 @@ create_matrix <- function(data) {
   matrix$summary <- list(
     total_firms = nrow(firms),
     hyland_connections = length(matrix$hyland_firm_connections),
-    firm_firm_clusters = matrix$firm_firm_connections$cluster_count %||% 0,
+    firm_firm_clusters = ifelse(is.null(matrix$firm_firm_connections$cluster_count), 0, matrix$firm_firm_connections$cluster_count),
     kettler_connected = nrow(kettler_firm) > 0
   )
 

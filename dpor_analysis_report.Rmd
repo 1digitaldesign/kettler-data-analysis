@@ -47,8 +47,16 @@ if (file.exists(connections_file)) {
   connections <- read.csv(connections_file, stringsAsFactors = FALSE)
 
   cat("Total Connections Found:", nrow(connections), "\n")
-  cat("Unique Firms Connected:", length(unique(connections$firm_name)), "\n")
-  cat("States with Connections:", length(unique(connections$state)), "\n")
+  if (nrow(connections) > 0 && "firm_name" %in% names(connections)) {
+    cat("Unique Firms Connected:", length(unique(connections$firm_name)), "\n")
+  } else {
+    cat("Unique Firms Connected: 0\n")
+  }
+  if (nrow(connections) > 0 && "state" %in% names(connections)) {
+    cat("States with Connections:", length(unique(connections$state)), "\n")
+  } else {
+    cat("States with Connections: 0\n")
+  }
 } else {
   cat("Connection data not found. Run analysis scripts first.\n")
 }

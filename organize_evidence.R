@@ -56,16 +56,40 @@ cross_reference_evidence <- function(data) {
     pdf_df <- data$pdf_evidence
 
     # Extract entities from first row (handle nested list structure from fromJSON)
-    if (nrow(pdf_df) > 0 && "entities" %in% names(pdf_df)) {
+    if (nrow(pdf_df) > 0 && "entities" %in% names(pdf_df) && length(pdf_df$entities) > 0) {
       entities <- pdf_df$entities[[1]]
 
-      # Extract from nested lists (fromJSON creates lists within lists)
-      pdf_addresses <- if (is.list(entities$addresses)) entities$addresses[[1]] else entities$addresses
-      pdf_emails <- if (is.list(entities$emails)) entities$emails[[1]] else entities$emails
-      pdf_firms <- if (is.list(entities$firms)) entities$firms[[1]] else entities$firms
+      if (!is.null(entities)) {
+        # Extract from nested lists (fromJSON creates lists within lists)
+        pdf_addresses <- if (!is.null(entities$addresses) && is.list(entities$addresses) && length(entities$addresses) > 0) {
+          entities$addresses[[1]]
+        } else if (!is.null(entities$addresses)) {
+          entities$addresses
+        } else {
+          character(0)
+        }
+        pdf_emails <- if (!is.null(entities$emails) && is.list(entities$emails) && length(entities$emails) > 0) {
+          entities$emails[[1]]
+        } else if (!is.null(entities$emails)) {
+          entities$emails
+        } else {
+          character(0)
+        }
+        pdf_firms <- if (!is.null(entities$firms) && is.list(entities$firms) && length(entities$firms) > 0) {
+          entities$firms[[1]]
+        } else if (!is.null(entities$firms)) {
+          entities$firms
+        } else {
+          character(0)
+        }
+      } else {
+        pdf_addresses <- character(0)
+        pdf_emails <- character(0)
+        pdf_firms <- character(0)
+      }
 
       # Get regulatory info
-      if ("regulatory_info" %in% names(pdf_df)) {
+      if ("regulatory_info" %in% names(pdf_df) && length(pdf_df$regulatory_info) > 0) {
         reg_info <- pdf_df$regulatory_info[[1]]
       } else {
         reg_info <- NULL
@@ -83,9 +107,14 @@ cross_reference_evidence <- function(data) {
 
     # Match PDF addresses with firm addresses
     # Use direct extraction from data.frame structure
-    if (!is.null(data$firms) && nrow(pdf_df) > 0) {
+    if (!is.null(data$firms) && nrow(pdf_df) > 0 &&
+        "entities" %in% names(pdf_df) && length(pdf_df$entities) > 0 &&
+        !is.null(pdf_df$entities[[1]]) &&
+        "addresses" %in% names(pdf_df$entities[[1]]) &&
+        length(pdf_df$entities[[1]]$addresses) > 0) {
       # Extract address directly from nested structure
-      pdf_addr <- pdf_df$entities[[1]]$addresses[[1]][1]
+      addr_list <- pdf_df$entities[[1]]$addresses[[1]]
+      pdf_addr <- if (length(addr_list) > 0) addr_list[1] else NULL
 
       if (!is.null(pdf_addr) && !is.na(pdf_addr) && nchar(pdf_addr) > 0) {
         # Extract street number
@@ -106,9 +135,12 @@ cross_reference_evidence <- function(data) {
     }
 
     # Match emails with Kettler domain - extract directly
-    if (nrow(pdf_df) > 0 && "entities" %in% names(pdf_df)) {
+    if (nrow(pdf_df) > 0 && "entities" %in% names(pdf_df) &&
+        length(pdf_df$entities) > 0 && !is.null(pdf_df$entities[[1]]) &&
+        "emails" %in% names(pdf_df$entities[[1]]) &&
+        length(pdf_df$entities[[1]]$emails) > 0) {
       pdf_emails_list <- pdf_df$entities[[1]]$emails[[1]]
-      if (length(pdf_emails_list) > 0) {
+      if (is.character(pdf_emails_list) && length(pdf_emails_list) > 0) {
         kettler_emails <- pdf_emails_list[grepl("kettler", pdf_emails_list, ignore.case = TRUE)]
         if (length(kettler_emails) > 0) {
           cross_ref$kettler_emails <- kettler_emails
@@ -117,11 +149,13 @@ cross_reference_evidence <- function(data) {
     }
 
     # Extract violation mentions
-    if (nrow(pdf_df) > 0 && "regulatory_info" %in% names(pdf_df)) {
+    if (nrow(pdf_df) > 0 && "regulatory_info" %in% names(pdf_df) &&
+        length(pdf_df$regulatory_info) > 0) {
       reg_info <- pdf_df$regulatory_info[[1]]
-      if ("violation_mentions" %in% names(reg_info)) {
+      if (!is.null(reg_info) && "violation_mentions" %in% names(reg_info) &&
+          length(reg_info$violation_mentions) > 0) {
         violations <- reg_info$violation_mentions[[1]]
-        if (length(violations) > 0) {
+        if (is.character(violations) && length(violations) > 0) {
           violations_found <- violations[violations > 0]
           if (length(violations_found) > 0) {
             cross_ref$violations_mentioned <- length(violations_found)
@@ -281,12 +315,19 @@ main_organize <- function() {
     cat("  Found", length(cross_ref$kettler_emails), "Kettler email addresses in PDF\n")
   } else {
     # Manual check
-    if (!is.null(data$pdf_evidence) && nrow(data$pdf_evidence) > 0) {
+    if (!is.null(data$pdf_evidence) && nrow(data$pdf_evidence) > 0 &&
+        "entities" %in% names(data$pdf_evidence) &&
+        length(data$pdf_evidence$entities) > 0 &&
+        !is.null(data$pdf_evidence$entities[[1]]) &&
+        "emails" %in% names(data$pdf_evidence$entities[[1]]) &&
+        length(data$pdf_evidence$entities[[1]]$emails) > 0) {
       emails <- data$pdf_evidence$entities[[1]]$emails[[1]]
-      kettler <- emails[grepl("kettler", emails, ignore.case = TRUE)]
-      if (length(kettler) > 0) {
-        cat("  Manual check found", length(kettler), "Kettler emails\n")
-        cross_ref$kettler_emails <- kettler
+      if (is.character(emails) && length(emails) > 0) {
+        kettler <- emails[grepl("kettler", emails, ignore.case = TRUE)]
+        if (length(kettler) > 0) {
+          cat("  Manual check found", length(kettler), "Kettler emails\n")
+          cross_ref$kettler_emails <- kettler
+        }
       }
     }
   }

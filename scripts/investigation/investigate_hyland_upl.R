@@ -185,8 +185,8 @@ main_investigation <- function() {
     law_license_check = law_license_check,
     conclusions = list(
       potential_upl = length(upl_indicators) > 0,
-      ra_denial_found = ra_analysis$denial_found %||% FALSE,
-      interactive_process_mentioned = ra_analysis$interactive_process_mentioned %||% FALSE,
+      ra_denial_found = ifelse(is.null(ra_analysis$denial_found), FALSE, ra_analysis$denial_found),
+      interactive_process_mentioned = ifelse(is.null(ra_analysis$interactive_process_mentioned), FALSE, ra_analysis$interactive_process_mentioned),
       violation_type = if (length(upl_indicators) > 0) "Unauthorized Practice of Law" else "None identified",
       severity = if (length(upl_indicators) > 0) "HIGH" else "UNKNOWN"
     )

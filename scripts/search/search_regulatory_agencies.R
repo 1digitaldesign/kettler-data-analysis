@@ -141,6 +141,9 @@ create_regulatory_registry <- function() {
   cat("Created regulatory agency registry:", registry_file, "\n")
 
   # Also save as CSV for easy viewing
+  dir.create(file.path(FILINGS_DIR, "federal"), showWarnings = FALSE, recursive = TRUE)
+  dir.create(file.path(FILINGS_DIR, "state"), showWarnings = FALSE, recursive = TRUE)
+  dir.create(file.path(FILINGS_DIR, "local"), showWarnings = FALSE, recursive = TRUE)
   write.csv(FEDERAL_AGENCIES, file.path(FILINGS_DIR, "federal", "federal_agencies.csv"), row.names = FALSE)
   write.csv(STATE_AGENCIES, file.path(FILINGS_DIR, "state", "state_agencies.csv"), row.names = FALSE)
   write.csv(LOCAL_AGENCIES, file.path(FILINGS_DIR, "local", "local_agencies.csv"), row.names = FALSE)

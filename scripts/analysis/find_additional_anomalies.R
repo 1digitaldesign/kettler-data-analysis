@@ -51,10 +51,12 @@ find_anomalies <- function(firms) {
 
   # Anomaly: Firm type distribution
   firm_types <- table(firms$Firm.Type)
+  llc_val <- if ("LLC" %in% names(firm_types)) firm_types["LLC"] else 0
+  corp_val <- if ("Corporation" %in% names(firm_types)) firm_types["Corporation"] else 0
   anomalies$firm_type_distribution <- list(
     types = as.list(firm_types),
-    llc_count = firm_types["LLC"] %||% 0,
-    corporation_count = firm_types["Corporation"] %||% 0,
+    llc_count = ifelse(is.na(llc_val), 0, as.numeric(llc_val)),
+    corporation_count = ifelse(is.na(corp_val), 0, as.numeric(corp_val)),
     anomaly_type = "entity_type_pattern",
     explanation = "Mix of LLCs and Corporations may indicate different purposes"
   )
@@ -123,18 +125,31 @@ analyze_license_sequences <- function(firms) {
   license_nums <- license_nums[!is.na(license_nums)]
 
   # Check for sequential patterns
-  sorted_licenses <- sort(license_nums)
-  gaps <- diff(sorted_licenses)
+  if (length(license_nums) < 2) {
+    analysis$license_analysis <- list(
+      total_licenses = length(license_nums),
+      min_license = if (length(license_nums) > 0) min(license_nums) else NA,
+      max_license = if (length(license_nums) > 0) max(license_nums) else NA,
+      average_gap = NA,
+      large_gaps = 0,
+      pattern_type = "insufficient_data",
+      explanation = "Need at least 2 licenses to analyze patterns"
+    )
+  } else {
+    sorted_licenses <- sort(license_nums)
+    gaps <- diff(sorted_licenses)
+    avg_gap <- if (length(gaps) > 0) mean(gaps) else NA
 
-  analysis$license_analysis <- list(
-    total_licenses = length(license_nums),
-    min_license = min(license_nums),
-    max_license = max(license_nums),
-    average_gap = mean(gaps),
-    large_gaps = sum(gaps > 1000),
-    pattern_type = if (mean(gaps) < 100) "sequential" else "scattered",
-    explanation = "Sequential licenses may indicate coordinated registration"
-  )
+    analysis$license_analysis <- list(
+      total_licenses = length(license_nums),
+      min_license = min(license_nums),
+      max_license = max(license_nums),
+      average_gap = avg_gap,
+      large_gaps = sum(gaps > 1000),
+      pattern_type = if (!is.na(avg_gap) && avg_gap < 100) "sequential" else "scattered",
+      explanation = "Sequential licenses may indicate coordinated registration"
+    )
+  }
 
   return(analysis)
 }
@@ -164,14 +179,16 @@ find_address_connections <- function(firms) {
   shared <- address_counts[address_counts > 1]
 
   connections$shared_addresses <- list()
-  for (addr in names(shared)) {
-    firms_at_addr <- firms[firms$Address.Normalized == addr, ]
-    connections$shared_addresses[[length(connections$shared_addresses) + 1]] <- list(
-      address = addr,
-      firm_count = as.numeric(shared[addr]),
-      firms = firms_at_addr$Firm.Name,
-      license_numbers = firms_at_addr$License.Number
-    )
+  if (length(shared) > 0) {
+    for (addr in names(shared)) {
+      firms_at_addr <- firms[firms$Address.Normalized == addr, ]
+      connections$shared_addresses[[length(connections$shared_addresses) + 1]] <- list(
+        address = addr,
+        firm_count = as.numeric(shared[addr]),
+        firms = firms_at_addr$Firm.Name,
+        license_numbers = firms_at_addr$License.Number
+      )
+    }
   }
 
   return(connections)

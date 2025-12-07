@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: r-analysis
+  labels:
+    app: r-analysis
+    component: analysis
+spec:
+  replicas: 3  # Run multiple instances in parallel
+  selector:
+    matchLabels:
+      app: r-analysis
+  template:
+    metadata:
+      labels:
+        app: r-analysis
+        component: analysis
+    spec:
+      containers:
+      - name: r-analysis
+        image: kettler-r-analysis:latest
+        imagePullPolicy: IfNotPresent
+        volumeMounts:
+        - name: data-volume
+          mountPath: /app/data
+        - name: research-volume
+          mountPath: /app/research
+        - name: evidence-volume
+          mountPath: /app/evidence
+        - name: scripts-volume
+          mountPath: /app/scripts
+        - name: outputs-volume
+          mountPath: /app/outputs
+        env:
+        - name: R_LIBS
+          value: "/usr/local/lib/R/site-library"
+        - name: DATA_DIR
+          value: "/app/data"
+        resources:
+          limits:
+            cpu: "2"
+            memory: "4Gi"
+          requests:
+            cpu: "1"
+            memory: "2Gi"
+        command: ["Rscript", "scripts/analysis/analyze_all_evidence.R"]
+      volumes:
+      - name: data-volume
+        persistentVolumeClaim:
+          claimName: kettler-data-pvc
+      - name: research-volume
+        persistentVolumeClaim:
+          claimName: kettler-research-pvc
+      - name: evidence-volume
+        persistentVolumeClaim:
+          claimName: kettler-evidence-pvc
+      - name: scripts-volume
+        configMap:
+          name: kettler-scripts-config
+      - name: outputs-volume
+        persistentVolumeClaim:
+          claimName: kettler-outputs-pvc
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: r-analysis-service
+  labels:
+    app: r-analysis
+spec:
+  selector:
+    app: r-analysis
+  ports:
+  - port: 8001
+    targetPort: 8001
+  type: ClusterIP

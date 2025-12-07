@@ -99,12 +99,21 @@ analyze_skidmore_anomalies <- function(firms) {
   address_counts <- table(firms$Address)
   clustered_addresses <- address_counts[address_counts > 1]
 
-  anomalies$address_clustering <- list(
-    cluster_count = length(clustered_addresses),
-    clusters = as.list(clustered_addresses),
-    anomaly_type = "shell_company_pattern",
-    explanation = "Multiple firms at same address suggests shell company scheme"
-  )
+  if (length(clustered_addresses) > 0) {
+    anomalies$address_clustering <- list(
+      cluster_count = length(clustered_addresses),
+      clusters = as.list(clustered_addresses),
+      anomaly_type = "shell_company_pattern",
+      explanation = "Multiple firms at same address suggests shell company scheme"
+    )
+  } else {
+    anomalies$address_clustering <- list(
+      cluster_count = 0,
+      clusters = list(),
+      anomaly_type = "shell_company_pattern",
+      explanation = "No address clustering found"
+    )
+  }
 
   # Anomaly 4: Missing initial certification date
   missing_dates <- firms[firms$Initial.Cert.Date == "DATA MISSING" |
@@ -179,7 +188,7 @@ analyze_hyland_nexus <- function() {
   connections_file <- file.path(RESEARCH_DIR, "hyland_skidmore_connections.json")
   if (file.exists(connections_file)) {
     connections <- fromJSON(connections_file, simplifyDataFrame = FALSE)
-    hyland_analysis$timeline_connection <- connections$timeline_connections$firms_licensed_after_hyland_start %||% 0
+    hyland_analysis$timeline_connection <- ifelse(is.null(connections$timeline_connections$firms_licensed_after_hyland_start), 0, connections$timeline_connections$firms_licensed_after_hyland_start)
   }
 
   return(hyland_analysis)
@@ -194,20 +203,31 @@ identify_control_patterns <- function(firms) {
   # Pattern 1: All firms list same principal broker (front person)
   unique_brokers <- unique(firms$Principal.Broker)
   patterns$single_principal_broker <- length(unique_brokers) == 1
-  patterns$broker_name <- unique_brokers[1]
-  patterns$front_person_indicator <- "All 11 firms use same principal broker - suggests front person"
+  patterns$broker_name <- if (length(unique_brokers) > 0) unique_brokers[1] else NA
+  patterns$front_person_indicator <- if (length(unique_brokers) == 1) "All 11 firms use same principal broker - suggests front person" else "Multiple principal brokers found"
 
   # Pattern 2: Address clustering suggests centralized control
   address_clusters <- table(firms$Address)
-  largest_cluster <- max(address_clusters)
-  patterns$largest_cluster_size <- as.numeric(largest_cluster)
-  patterns$centralized_control_indicator <- largest_cluster > 3
+  if (length(address_clusters) > 0) {
+    largest_cluster <- max(address_clusters)
+    patterns$largest_cluster_size <- as.numeric(largest_cluster)
+    patterns$centralized_control_indicator <- largest_cluster > 3
+  } else {
+    patterns$largest_cluster_size <- 0
+    patterns$centralized_control_indicator <- FALSE
+  }
 
   # Pattern 3: License gaps suggest firms existed before "principal broker"
   gaps <- firms[!is.na(firms$Gap.Years) & firms$Gap.Years != "UNKNOWN", ]
-  avg_gap <- mean(as.numeric(gaps$Gap.Years), na.rm = TRUE)
+  if (nrow(gaps) > 0) {
+    gap_values <- as.numeric(gaps$Gap.Years)
+    gap_values <- gap_values[!is.na(gap_values)]
+    avg_gap <- if (length(gap_values) > 0) mean(gap_values) else NA
+  } else {
+    avg_gap <- NA
+  }
   patterns$average_license_gap <- avg_gap
-  patterns$retroactive_assignment_indicator <- avg_gap > 5
+  patterns$retroactive_assignment_indicator <- if (!is.na(avg_gap)) avg_gap > 5 else FALSE
 
   # Pattern 4: Geographic distribution suggests interstate operation
   states <- unique(str_extract(firms$Address, ",\\s*([A-Z]{2})\\s*\\d", group = 1))
@@ -271,9 +291,10 @@ main_analysis <- function() {
   cat("Large License Gaps (>10 years):", anomalies$large_license_gaps$count, "\n")
   cat("Address Clusters:", anomalies$address_clustering$cluster_count, "\n")
   cat("Missing Cert Dates:", anomalies$missing_cert_dates$count, "\n")
-  cat("\nKettler Suspicious Gap:", kettler_nexus$suspicious_gap %||% FALSE, "\n")
-  cat("Hyland Unlicensed Operation:", hyland_nexus$no_license %||% FALSE, "\n")
-  cat("\nAverage License Gap:", round(control_patterns$average_license_gap, 1), "years\n")
+  cat("\nKettler Suspicious Gap:", ifelse(is.null(kettler_nexus$suspicious_gap), FALSE, kettler_nexus$suspicious_gap), "\n")
+  cat("Hyland Unlicensed Operation:", ifelse(is.null(hyland_nexus$no_license), FALSE, hyland_nexus$no_license), "\n")
+  avg_gap <- ifelse(is.null(control_patterns$average_license_gap) || is.na(control_patterns$average_license_gap), 0, control_patterns$average_license_gap)
+  cat("\nAverage License Gap:", round(avg_gap, 1), "years\n")
   cat("States Involved:", control_patterns$state_count, "\n")
 
   cat("\n=== Key Finding ===\n")

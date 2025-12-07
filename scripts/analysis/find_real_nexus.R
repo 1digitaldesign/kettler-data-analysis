@@ -133,7 +133,7 @@ identify_operational_connections <- function() {
 
     connections$email_domain <- list(
       domain = "kettler.com",
-      email_count = email_analysis$summary$kettler_emails_found %||% 0,
+      email_count = ifelse(is.null(email_analysis$summary$kettler_emails_found), 0, email_analysis$summary$kettler_emails_found),
       connection_type = "communication_nexus",
       explanation = "All operational emails use kettler.com domain"
     )
@@ -163,9 +163,15 @@ analyze_financial_patterns <- function(firms) {
 
   # Pattern: License gaps suggest firms operated before "principal broker"
   gaps <- firms[!is.na(firms$Gap.Years) & firms$Gap.Years != "UNKNOWN", ]
-  avg_gap <- mean(as.numeric(gaps$Gap.Years), na.rm = TRUE)
+  if (nrow(gaps) > 0) {
+    gap_values <- as.numeric(gaps$Gap.Years)
+    gap_values <- gap_values[!is.na(gap_values)]
+    avg_gap <- if (length(gap_values) > 0) mean(gap_values) else NA
+  } else {
+    avg_gap <- NA
+  }
   patterns$average_gap_years <- avg_gap
-  patterns$financial_implication <- "Firms generated revenue for years before principal broker was assigned"
+  patterns$financial_implication <- if (!is.na(avg_gap)) "Firms generated revenue for years before principal broker was assigned" else "Insufficient data"
 
   return(patterns)
 }

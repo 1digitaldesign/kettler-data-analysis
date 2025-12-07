@@ -113,12 +113,22 @@ find_skidmore_connections <- function(dpor_results, skidmore_data) {
   skidmore_normalized <- sapply(skidmore_names, normalize_name)
 
   # Extract Skidmore addresses from individual licenses
-  skidmore_addresses <- unique(skidmore_data$individual_licenses$address)
-  skidmore_addresses <- skidmore_addresses[!is.na(skidmore_addresses) & skidmore_addresses != ""]
+  if (!is.null(skidmore_data$individual_licenses) &&
+      "address" %in% names(skidmore_data$individual_licenses)) {
+    skidmore_addresses <- unique(skidmore_data$individual_licenses$address)
+    skidmore_addresses <- skidmore_addresses[!is.na(skidmore_addresses) & skidmore_addresses != ""]
+  } else {
+    skidmore_addresses <- character(0)
+  }
 
   # Extract known firm addresses from Skidmore data
-  known_firm_addresses <- unique(skidmore_data$firms_complete$Address)
-  known_firm_addresses <- known_firm_addresses[!is.na(known_firm_addresses) & known_firm_addresses != ""]
+  if (!is.null(skidmore_data$firms_complete) &&
+      "Address" %in% names(skidmore_data$firms_complete)) {
+    known_firm_addresses <- unique(skidmore_data$firms_complete$Address)
+    known_firm_addresses <- known_firm_addresses[!is.na(known_firm_addresses) & known_firm_addresses != ""]
+  } else {
+    known_firm_addresses <- character(0)
+  }
 
   if (nrow(dpor_results) == 0) {
     return(connections)
@@ -187,7 +197,12 @@ find_skidmore_connections <- function(dpor_results, skidmore_data) {
     # Check 4: Firm name matches known firms
     if (!connection_found && firm_name_cleaned != "") {
       firm_normalized <- normalize_name(firm_name_cleaned)
-      known_firms <- unique(skidmore_data$firms_complete$Firm.Name)
+      if (!is.null(skidmore_data$firms_complete) &&
+          "Firm.Name" %in% names(skidmore_data$firms_complete)) {
+        known_firms <- unique(skidmore_data$firms_complete$Firm.Name)
+      } else {
+        known_firms <- character(0)
+      }
       for (known_firm in known_firms) {
         known_firm_norm <- normalize_name(known_firm)
         if (firm_normalized == known_firm_norm ||
@@ -252,24 +267,48 @@ create_summary_stats <- function(connections, dpor_results, skidmore_data) {
 
   stats$total_dpor_results <- nrow(dpor_results)
   stats$total_connections <- nrow(connections)
-  stats$unique_connected_firms <- length(unique(connections$firm_name))
-  stats$states_with_connections <- length(unique(connections$state))
+
+  if (nrow(connections) > 0 && "firm_name" %in% names(connections)) {
+    stats$unique_connected_firms <- length(unique(connections$firm_name))
+  } else {
+    stats$unique_connected_firms <- 0
+  }
+
+  if (nrow(connections) > 0 && "state" %in% names(connections)) {
+    stats$states_with_connections <- length(unique(connections$state))
+  } else {
+    stats$states_with_connections <- 0
+  }
 
   # Connection types breakdown
-  stats$connection_types <- connections %>%
-    group_by(connection_type) %>%
-    summarise(count = n(), .groups = 'drop') %>%
-    arrange(desc(count))
+  if (nrow(connections) > 0 && "connection_type" %in% names(connections)) {
+    stats$connection_types <- connections %>%
+      group_by(connection_type) %>%
+      summarise(count = n(), .groups = 'drop') %>%
+      arrange(desc(count))
+  } else {
+    stats$connection_types <- data.frame(connection_type = character(0), count = integer(0))
+  }
 
   # States breakdown
-  stats$states <- connections %>%
-    group_by(state) %>%
-    summarise(count = n(), .groups = 'drop') %>%
-    arrange(desc(count))
+  if (nrow(connections) > 0 && "state" %in% names(connections)) {
+    stats$states <- connections %>%
+      group_by(state) %>%
+      summarise(count = n(), .groups = 'drop') %>%
+      arrange(desc(count))
+  } else {
+    stats$states <- data.frame(state = character(0), count = integer(0))
+  }
 
   # Known firms from original data
-  stats$known_firms_count <- nrow(skidmore_data$firms_complete)
-  stats$known_firms <- skidmore_data$firms_complete$Firm.Name
+  if (!is.null(skidmore_data$firms_complete) && nrow(skidmore_data$firms_complete) > 0 &&
+      "Firm.Name" %in% names(skidmore_data$firms_complete)) {
+    stats$known_firms_count <- nrow(skidmore_data$firms_complete)
+    stats$known_firms <- skidmore_data$firms_complete$Firm.Name
+  } else {
+    stats$known_firms_count <- 0
+    stats$known_firms <- character(0)
+  }
 
   return(stats)
 }
@@ -280,8 +319,10 @@ main_analysis <- function() {
 
   # Load existing Skidmore data
   skidmore_data <- load_skidmore_data()
-  cat("Loaded", nrow(skidmore_data$firms_complete), "known firms\n")
-  cat("Loaded", nrow(skidmore_data$individual_licenses), "Skidmore individual licenses\n")
+  firms_count <- if (!is.null(skidmore_data$firms_complete)) nrow(skidmore_data$firms_complete) else 0
+  licenses_count <- if (!is.null(skidmore_data$individual_licenses)) nrow(skidmore_data$individual_licenses) else 0
+  cat("Loaded", firms_count, "known firms\n")
+  cat("Loaded", licenses_count, "Skidmore individual licenses\n")
 
   # Load DPOR search results
   dpor_results <- load_dpor_results()

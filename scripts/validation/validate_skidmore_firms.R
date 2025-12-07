@@ -130,7 +130,7 @@ verify_license_gaps <- function(firms) {
     cat(sprintf("  %s: %s years (expected: %s)\n",
                 firms_with_gaps$Firm.Name[i],
                 firms_with_gaps$Gap.Years[i],
-                round(firms_with_gaps$Gap.Years.Calculated[i], 1)))
+                ifelse(is.na(firms_with_gaps$Gap.Years.Calculated[i]), "N/A", round(firms_with_gaps$Gap.Years.Calculated[i], 1))))
   }
 
   return(list(status = "verified", firms = firms_with_gaps))

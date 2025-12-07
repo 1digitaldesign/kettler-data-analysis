@@ -108,8 +108,12 @@ process_all_excel <- function() {
       all_extracted[[length(all_extracted) + 1]] <- extracted
 
       # Print summary
-      total_emails <- sum(sapply(extracted$sheets, function(s) length(s$entities$emails)))
-      total_addresses <- sum(sapply(extracted$sheets, function(s) length(s$entities$addresses)))
+      total_emails <- sum(sapply(extracted$sheets, function(s) {
+        if (!is.null(s$entities) && !is.null(s$entities$emails)) length(s$entities$emails) else 0
+      }))
+      total_addresses <- sum(sapply(extracted$sheets, function(s) {
+        if (!is.null(s$entities) && !is.null(s$entities$addresses)) length(s$entities$addresses) else 0
+      }))
       cat("  Sheets:", length(extracted$sheets), "| Emails:", total_emails, "| Addresses:", total_addresses, "\n")
     }
   }
@@ -120,14 +124,38 @@ process_all_excel <- function() {
   cat("\nSaved extracted data to:", output_file, "\n")
 
   # Create summary CSV
-  summary_data <- data.frame(
-    file = sapply(all_extracted, function(x) x$file),
-    sheets = sapply(all_extracted, function(x) length(x$sheets)),
-    total_rows = sapply(all_extracted, function(x) sum(sapply(x$sheets, function(s) s$row_count))),
-    emails = sapply(all_extracted, function(x) sum(sapply(x$sheets, function(s) length(s$entities$emails)))),
-    addresses = sapply(all_extracted, function(x) sum(sapply(x$sheets, function(s) length(s$entities$addresses)))),
-    stringsAsFactors = FALSE
-  )
+  if (length(all_extracted) == 0) {
+    summary_data <- data.frame(
+      file = character(0),
+      sheets = integer(0),
+      total_rows = integer(0),
+      emails = integer(0),
+      addresses = integer(0),
+      stringsAsFactors = FALSE
+    )
+  } else {
+    summary_data <- data.frame(
+      file = sapply(all_extracted, function(x) ifelse(is.null(x$file), NA, x$file)),
+      sheets = sapply(all_extracted, function(x) ifelse(is.null(x$sheets), 0, length(x$sheets))),
+      total_rows = sapply(all_extracted, function(x) {
+        if (is.null(x$sheets) || length(x$sheets) == 0) return(0)
+        sum(sapply(x$sheets, function(s) ifelse(is.null(s$row_count), 0, s$row_count)))
+      }),
+      emails = sapply(all_extracted, function(x) {
+        if (is.null(x$sheets) || length(x$sheets) == 0) return(0)
+        sum(sapply(x$sheets, function(s) {
+          if (!is.null(s$entities) && !is.null(s$entities$emails)) length(s$entities$emails) else 0
+        }))
+      }),
+      addresses = sapply(all_extracted, function(x) {
+        if (is.null(x$sheets) || length(x$sheets) == 0) return(0)
+        sum(sapply(x$sheets, function(s) {
+          if (!is.null(s$entities) && !is.null(s$entities$addresses)) length(s$entities$addresses) else 0
+        }))
+      }),
+      stringsAsFactors = FALSE
+    )
+  }
 
   summary_file <- file.path(OUTPUT_DIR, "excel_evidence_summary.csv")
   write.csv(summary_data, summary_file, row.names = FALSE)

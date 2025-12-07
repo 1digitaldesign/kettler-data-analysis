@@ -186,6 +186,10 @@ validate_addresses <- function(df) {
 
 # Validate dates
 validate_dates <- function(df) {
+  if (nrow(df) == 0) {
+    return(df)
+  }
+
   date_columns <- c("expiration_date", "initial_cert_date", "expiration_date_parsed", "initial_cert_date_parsed")
 
   for (col in date_columns) {
@@ -232,11 +236,15 @@ cross_reference_addresses <- function(df) {
 
   df$address_cluster <- NA_integer_
 
-  # Normalize addresses for clustering
-  df$address_normalized_cluster <- toupper(df$address) %>%
-    str_remove_all("[[:punct:]]") %>%
-    str_replace_all("\\s+", " ") %>%
-    str_trim()
+  # Normalize addresses for clustering (handle NA values)
+  df$address_normalized_cluster <- ifelse(
+    is.na(df$address) | df$address == "",
+    "",
+    toupper(df$address) %>%
+      str_remove_all("[[:punct:]]") %>%
+      str_replace_all("\\s+", " ") %>%
+      str_trim()
+  )
 
   # Group by normalized address
   address_groups <- df %>%
@@ -254,6 +262,14 @@ cross_reference_addresses <- function(df) {
 # Generate data quality report
 generate_quality_report <- function(df) {
   report <- list()
+
+  if (nrow(df) == 0) {
+    return(list(
+      total_records = 0,
+      overall_completeness = 0,
+      note = "No data to generate report"
+    ))
+  }
 
   report$total_records <- nrow(df)
 
@@ -299,14 +315,14 @@ generate_quality_report <- function(df) {
   # Completeness score
   required_fields <- c("license_number", "name", "state", "address")
   completeness_scores <- sapply(required_fields, function(field) {
-    if (field %in% names(df)) {
+    if (field %in% names(df) && nrow(df) > 0) {
       sum(!is.na(df[[field]]) & df[[field]] != "", na.rm = TRUE) / nrow(df) * 100
     } else {
       0
     }
   })
   report$completeness <- completeness_scores
-  report$overall_completeness <- mean(completeness_scores)
+  report$overall_completeness <- if (length(completeness_scores) > 0) mean(completeness_scores) else 0
 
   # State distribution
   if ("state" %in% names(df)) {

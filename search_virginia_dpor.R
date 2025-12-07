@@ -96,12 +96,18 @@ parse_virginia_results <- function(response, search_term, search_type) {
           col_names <- tolower(colnames(table_data))
 
           # Map common column name variations
-          license_col <- grep("license|lic#|lic no", col_names, value = TRUE)[1]
-          name_col <- grep("name|licensee|company", col_names, value = TRUE)[1]
-          address_col <- grep("address|location", col_names, value = TRUE)[1]
-          type_col <- grep("type|license type", col_names, value = TRUE)[1]
-          exp_col <- grep("expir|exp date|expiration", col_names, value = TRUE)[1]
-          status_col <- grep("status|active", col_names, value = TRUE)[1]
+          license_matches <- grep("license|lic#|lic no", col_names, value = TRUE)
+          license_col <- if (length(license_matches) > 0) license_matches[1] else NULL
+          name_matches <- grep("name|licensee|company", col_names, value = TRUE)
+          name_col <- if (length(name_matches) > 0) name_matches[1] else NULL
+          address_matches <- grep("address|location", col_names, value = TRUE)
+          address_col <- if (length(address_matches) > 0) address_matches[1] else NULL
+          type_matches <- grep("type|license type", col_names, value = TRUE)
+          type_col <- if (length(type_matches) > 0) type_matches[1] else NULL
+          exp_matches <- grep("expir|exp date|expiration", col_names, value = TRUE)
+          exp_col <- if (length(exp_matches) > 0) exp_matches[1] else NULL
+          status_matches <- grep("status|active", col_names, value = TRUE)
+          status_col <- if (length(status_matches) > 0) status_matches[1] else NULL
 
           # Extract data
           for (i in 1:nrow(table_data)) {

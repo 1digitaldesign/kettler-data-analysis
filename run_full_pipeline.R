@@ -66,8 +66,37 @@ tryCatch({
   cat("✗ Validation encountered errors:", e$message, "\n\n")
 })
 
-# Step 5: Generate outputs
-cat("STEP 5: Generating final outputs...\n")
+# Step 5: Generate vector embeddings (ETL)
+cat("STEP 5: Generating vector embeddings for all data...\n")
+python_cmd <- if (system("which python3 > /dev/null 2>&1", ignore.stdout = TRUE, ignore.stderr = TRUE) == 0) {
+  "python3"
+} else {
+  "python"
+}
+etl_script <- file.path(getwd(), "scripts", "etl", "etl_pipeline.py")
+if (file.exists(etl_script)) {
+  tryCatch({
+    system_result <- system(paste(python_cmd, etl_script), intern = TRUE)
+    exit_code <- attr(system_result, "status")
+    if (!is.null(exit_code) && exit_code != 0) {
+      cat("✗ ETL pipeline encountered errors (exit code:", exit_code, ")\n")
+      cat("Continuing with pipeline...\n\n")
+    } else {
+      if (length(system_result) > 0) {
+        cat(paste(system_result, collapse = "\n"), "\n")
+      }
+      cat("✓ Vector embeddings generated\n\n")
+    }
+  }, error = function(e) {
+    cat("✗ ETL pipeline error:", e$message, "\n")
+    cat("Continuing with pipeline...\n\n")
+  })
+} else {
+  cat("⚠ ETL script not found, skipping vector embeddings\n\n")
+}
+
+# Step 6: Generate outputs
+cat("STEP 6: Generating final outputs...\n")
 source("generate_outputs.R")
 tryCatch({
   main_outputs()
