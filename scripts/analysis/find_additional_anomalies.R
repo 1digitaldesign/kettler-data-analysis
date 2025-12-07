@@ -37,9 +37,18 @@ find_anomalies <- function(firms) {
   anomalies <- list()
 
   # Anomaly: License number patterns
-  license_numbers <- firms$License.Number
-  license_prefixes <- substr(license_numbers, 1, 3)
-  prefix_counts <- table(license_prefixes)
+  if ("License.Number" %in% names(firms) && nrow(firms) > 0) {
+    license_numbers <- firms$License.Number
+    license_numbers <- license_numbers[!is.na(license_numbers) & license_numbers != ""]
+    if (length(license_numbers) > 0) {
+      license_prefixes <- substr(license_numbers, 1, 3)
+      prefix_counts <- table(license_prefixes)
+    } else {
+      prefix_counts <- table(character(0))
+    }
+  } else {
+    prefix_counts <- table(character(0))
+  }
 
   # Check if licenses are sequential or clustered
   anomalies$license_patterns <- list(
@@ -62,9 +71,18 @@ find_anomalies <- function(firms) {
   )
 
   # Anomaly: Expiration date clustering
-  expiration_dates <- firms$Expiration.Date
-  expiration_years <- substr(expiration_dates, 1, 4)
-  year_counts <- table(expiration_years)
+  if ("Expiration.Date" %in% names(firms) && nrow(firms) > 0) {
+    expiration_dates <- firms$Expiration.Date
+    expiration_dates <- expiration_dates[!is.na(expiration_dates) & expiration_dates != ""]
+    if (length(expiration_dates) > 0) {
+      expiration_years <- substr(expiration_dates, 1, 4)
+      year_counts <- table(expiration_years)
+    } else {
+      year_counts <- table(character(0))
+    }
+  } else {
+    year_counts <- table(character(0))
+  }
 
   anomalies$expiration_clustering <- list(
     unique_years = length(unique(expiration_years)),

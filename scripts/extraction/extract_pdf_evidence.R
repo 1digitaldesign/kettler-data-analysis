@@ -198,7 +198,7 @@ process_all_pdfs <- function() {
       file_path = pdf_file,
       metadata = metadata,
       text_length = nchar(text),
-      text_preview = substr(text, 1, 500),
+      text_preview = if (!is.null(text) && !is.na(text) && nchar(text) > 0) substr(text, 1, 500) else "",
       entities = entities,
       regulatory_info = regulatory_info
     )

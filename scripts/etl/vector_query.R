@@ -60,7 +60,9 @@ results = vector_system.search_similar('", query_text, "', top_k=", top_k, ")
     similarity = sapply(results, function(x) x$similarity),
     distance = sapply(results, function(x) x$distance),
     source = sapply(results, function(x) x$source),
-    text_preview = sapply(results, function(x) substr(x$text, 1, 200)),
+    text_preview = sapply(results, function(x) {
+      if (!is.null(x$text) && !is.na(x$text) && nchar(x$text) > 0) substr(x$text, 1, 200) else ""
+    }),
     stringsAsFactors = FALSE
   )
 
