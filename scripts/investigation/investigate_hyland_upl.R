@@ -60,7 +60,8 @@ investigate_upl <- function(pdf_data) {
       text <- paste(pdf$text_preview, collapse = " ")
 
       # Check for Hyland's name
-      if (grepl("hyland|ehyland", text, ignore.case = TRUE)) {
+      if (!is.null(text) && !is.na(text) && nchar(text) > 0 &&
+          grepl("hyland|ehyland", text, ignore.case = TRUE)) {
         # Check for legal language
         found_keywords <- c()
         for (keyword in legal_keywords) {
