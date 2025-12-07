@@ -193,14 +193,18 @@ search_firm_virginia <- function(firm_name) {
     paste0(str_remove(firm_name, "\\s+(Inc|LLC|Corporation|Corp|Company|Co)$"), " LLC")
   )
 
-  all_results <- data.frame()
+  all_results <- NULL
 
   for (variation in unique(name_variations)) {
     cat("Searching Virginia for:", variation, "\n")
     results <- search_virginia_dpor(variation, "firm")
 
     if (nrow(results) > 0) {
-      all_results <- rbind(all_results, results)
+      if (is.null(all_results)) {
+        all_results <- results
+      } else {
+        all_results <- rbind(all_results, results)
+      }
       cat("Found", nrow(results), "results\n")
     }
 
@@ -208,8 +212,10 @@ search_firm_virginia <- function(firm_name) {
   }
 
   # Deduplicate
-  if (nrow(all_results) > 0) {
+  if (!is.null(all_results) && nrow(all_results) > 0) {
     all_results <- all_results %>% distinct()
+  } else if (is.null(all_results)) {
+    all_results <- data.frame()
   }
 
   return(all_results)
@@ -226,14 +232,18 @@ search_skidmore_virginia <- function() {
     "Skidmore, Caitlin Marie"
   )
 
-  all_results <- data.frame()
+  all_results <- NULL
 
   for (variation in name_variations) {
     cat("Searching Virginia for:", variation, "\n")
     results <- search_virginia_dpor(variation, "individual")
 
     if (nrow(results) > 0) {
-      all_results <- rbind(all_results, results)
+      if (is.null(all_results)) {
+        all_results <- results
+      } else {
+        all_results <- rbind(all_results, results)
+      }
       cat("Found", nrow(results), "results\n")
     }
 
@@ -241,8 +251,10 @@ search_skidmore_virginia <- function() {
   }
 
   # Deduplicate
-  if (nrow(all_results) > 0) {
+  if (!is.null(all_results) && nrow(all_results) > 0) {
     all_results <- all_results %>% distinct()
+  } else if (is.null(all_results)) {
+    all_results <- data.frame()
   }
 
   return(all_results)
