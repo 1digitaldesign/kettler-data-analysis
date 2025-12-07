@@ -182,7 +182,7 @@ find_address_connections <- function(firms) {
 
   if ("Address" %in% names(firms) && nrow(firms) > 0) {
     firms$Address.Normalized <- sapply(firms$Address, normalize_addr)
-    
+
     # Find all shared addresses
     address_counts <- table(firms$Address.Normalized)
     shared <- address_counts[address_counts > 1]

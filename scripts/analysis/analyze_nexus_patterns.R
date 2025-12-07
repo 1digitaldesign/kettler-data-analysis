@@ -223,7 +223,7 @@ identify_control_patterns <- function(firms) {
   } else {
     address_clusters <- table(character(0))
   }
-  
+
   if (length(address_clusters) > 0) {
     largest_cluster <- max(address_clusters)
     patterns$largest_cluster_size <- as.numeric(largest_cluster)
