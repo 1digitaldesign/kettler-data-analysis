@@ -96,7 +96,7 @@ analyze_address_connections <- function(data) {
       connection_found = FALSE
     ))
   }
-  
+
   firm_addresses <- data$firms$Address
   matched_addresses <- list()
 
@@ -142,7 +142,7 @@ analyze_timeline_connections <- function(data) {
       timeline_anomaly = FALSE
     ))
   }
-  
+
   firms$Initial.Cert.Date.Parsed <- NA
 
   for (i in 1:nrow(firms)) {
