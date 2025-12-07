@@ -151,7 +151,11 @@ consolidate_reports <- function() {
       paste("### Report:", report$filename),
       "",
       "```",
-      paste(report$content[1:min(50, length(report$content))], collapse = "\n"),
+      if (!is.null(report$content) && length(report$content) > 0) {
+        paste(report$content[1:min(50, length(report$content))], collapse = "\n")
+      } else {
+        "(No content available)"
+      },
       "```",
       "",
       paste("*Full report available in:", report$filename, "*"),

@@ -74,7 +74,7 @@ verify_employment <- function(tracking) {
         tracking$claims_to_verify$employment$status <- "verified"
         tracking$claims_to_verify$employment$verification_notes <- c(
           tracking$claims_to_verify$employment$verification_notes,
-          paste("Email found in evidence files:", paste(hyland_emails, collapse = ", "))
+          paste("Email found in evidence files:", if (length(hyland_emails) > 0) paste(hyland_emails, collapse = ", ") else "none")
         )
       }
     }
@@ -112,11 +112,11 @@ verify_property_assignments <- function(tracking) {
     # Check for Carlyle-related emails
     carlyle_emails <- grep("carlyle", entities$emails, ignore.case = TRUE, value = TRUE)
     if (length(carlyle_emails) > 0) {
-      cat("Found Carlyle-related emails:", paste(carlyle_emails, collapse = ", "), "\n")
+      cat("Found Carlyle-related emails:", if (length(carlyle_emails) > 0) paste(carlyle_emails, collapse = ", ") else "none", "\n")
       tracking$claims_to_verify$property_assignments$`800_carlyle`$status <- "verified"
       tracking$claims_to_verify$property_assignments$`800_carlyle`$verification_notes <- c(
         tracking$claims_to_verify$property_assignments$`800_carlyle`$verification_notes,
-        paste("Carlyle emails found:", paste(carlyle_emails, collapse = ", "))
+        paste("Carlyle emails found:", if (length(carlyle_emails) > 0) paste(carlyle_emails, collapse = ", ") else "none")
       )
     }
 
@@ -127,7 +127,7 @@ verify_property_assignments <- function(tracking) {
       tracking$claims_to_verify$property_assignments$`800_carlyle`$status <- "verified"
       tracking$claims_to_verify$property_assignments$`800_carlyle`$verification_notes <- c(
         tracking$claims_to_verify$property_assignments$`800_carlyle`$verification_notes,
-        paste("Addresses found:", paste(carlyle_addresses, collapse = ", "))
+        paste("Addresses found:", if (length(carlyle_addresses) > 0) paste(carlyle_addresses, collapse = ", ") else "none")
       )
     }
   }
@@ -140,7 +140,8 @@ verify_property_assignments <- function(tracking) {
     # Search for Sinclaire mentions
     sinclaire_found <- FALSE
     for (pdf in pdf_evidence$pdfs) {
-      if (grepl("sinclaire|seminary", paste(pdf$text_preview, collapse = " "), ignore.case = TRUE)) {
+      if (!is.null(pdf$text_preview) && length(pdf$text_preview) > 0 &&
+          grepl("sinclaire|seminary", paste(pdf$text_preview, collapse = " "), ignore.case = TRUE)) {
         sinclaire_found <- TRUE
         break
       }

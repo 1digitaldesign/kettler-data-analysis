@@ -97,7 +97,8 @@ analyze_ra_denial <- function(pdf_data) {
       text <- paste(pdf$text_preview, collapse = " ")
 
       # Check for RA denial language
-      if (grepl("reasonable accommodation|denied|denial", text, ignore.case = TRUE) &&
+      if (!is.null(text) && !is.na(text) && nchar(text) > 0 &&
+          grepl("reasonable accommodation|denied|denial", text, ignore.case = TRUE) &&
           grepl("hyland|ehyland", text, ignore.case = TRUE)) {
 
         ra_analysis$denial_found <- TRUE
@@ -106,12 +107,17 @@ analyze_ra_denial <- function(pdf_data) {
 
         # Extract relevant text
         sentences <- strsplit(text, "[.!?]")[[1]]
-        relevant_sentences <- sentences[grepl("accommodation|denied|denial", sentences, ignore.case = TRUE)]
-        ra_analysis$relevant_text <- relevant_sentences[1:min(5, length(relevant_sentences))]
+        if (length(sentences) > 0) {
+          relevant_sentences <- sentences[grepl("accommodation|denied|denial", sentences, ignore.case = TRUE)]
+          if (length(relevant_sentences) > 0) {
+            ra_analysis$relevant_text <- relevant_sentences[1:min(5, length(relevant_sentences))]
+          }
+        }
       }
 
       # Check for interactive process language
-      if (grepl("interactive process", text, ignore.case = TRUE) &&
+      if (!is.null(text) && !is.na(text) && nchar(text) > 0 &&
+          grepl("interactive process", text, ignore.case = TRUE) &&
           grepl("hyland|ehyland", text, ignore.case = TRUE)) {
 
         ra_analysis$interactive_process_mentioned <- TRUE
@@ -122,8 +128,12 @@ analyze_ra_denial <- function(pdf_data) {
 
         # Extract relevant text
         sentences <- strsplit(text, "[.!?]")[[1]]
-        relevant_sentences <- sentences[grepl("interactive", sentences, ignore.case = TRUE)]
-        ra_analysis$interactive_process_text <- relevant_sentences[1:min(5, length(relevant_sentences))]
+        if (length(sentences) > 0) {
+          relevant_sentences <- sentences[grepl("interactive", sentences, ignore.case = TRUE)]
+          if (length(relevant_sentences) > 0) {
+            ra_analysis$interactive_process_text <- relevant_sentences[1:min(5, length(relevant_sentences))]
+          }
+        }
       }
     }
   }
