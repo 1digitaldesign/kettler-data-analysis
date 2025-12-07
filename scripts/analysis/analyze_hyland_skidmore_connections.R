@@ -90,6 +90,13 @@ analyze_address_connections <- function(data) {
   )
 
   # Check if any Skidmore firm addresses match Hyland addresses
+  if (is.null(data$firms) || !is.data.frame(data$firms) || nrow(data$firms) == 0) {
+    return(list(
+      matched_addresses = list(),
+      connection_found = FALSE
+    ))
+  }
+  
   firm_addresses <- data$firms$Address
   matched_addresses <- list()
 
@@ -128,6 +135,14 @@ analyze_timeline_connections <- function(data) {
 
   # Firm license dates
   firms <- data$firms
+  if (is.null(firms) || !is.data.frame(firms) || nrow(firms) == 0) {
+    return(list(
+      firms_before_skidmore = 0,
+      firms_after_skidmore = 0,
+      timeline_anomaly = FALSE
+    ))
+  }
+  
   firms$Initial.Cert.Date.Parsed <- NA
 
   for (i in 1:nrow(firms)) {
