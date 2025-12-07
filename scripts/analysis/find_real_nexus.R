@@ -185,7 +185,7 @@ analyze_financial_patterns <- function(firms) {
   }
   
   if (length(gap_values) > 0) {
-    avg_gap <- if (length(gap_values) > 0) mean(gap_values) else NA
+    avg_gap <- mean(gap_values)
   } else {
     avg_gap <- NA
   }
