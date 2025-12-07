@@ -102,8 +102,13 @@ analyze_skidmore_anomalies <- function(firms) {
   )
 
   # Anomaly 3: Address clustering suggests shell companies
-  address_counts <- table(firms$Address)
-  clustered_addresses <- address_counts[address_counts > 1]
+  if ("Address" %in% names(firms) && nrow(firms) > 0) {
+    address_counts <- table(firms$Address)
+    clustered_addresses <- address_counts[address_counts > 1]
+  } else {
+    address_counts <- table(character(0))
+    clustered_addresses <- address_counts[address_counts > 1]
+  }
 
   if (length(clustered_addresses) > 0) {
     anomalies$address_clustering <- list(
@@ -213,7 +218,12 @@ identify_control_patterns <- function(firms) {
   patterns$front_person_indicator <- if (length(unique_brokers) == 1) "All 11 firms use same principal broker - suggests front person" else "Multiple principal brokers found"
 
   # Pattern 2: Address clustering suggests centralized control
-  address_clusters <- table(firms$Address)
+  if ("Address" %in% names(firms) && nrow(firms) > 0) {
+    address_clusters <- table(firms$Address)
+  } else {
+    address_clusters <- table(character(0))
+  }
+  
   if (length(address_clusters) > 0) {
     largest_cluster <- max(address_clusters)
     patterns$largest_cluster_size <- as.numeric(largest_cluster)

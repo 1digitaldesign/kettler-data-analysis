@@ -91,8 +91,13 @@ analyze_control_structure <- function(firms) {
   )
 
   # Pattern: Address clustering suggests centralized control
-  address_counts <- table(firms$Address)
-  clustered <- address_counts[address_counts > 1]
+  if ("Address" %in% names(firms) && nrow(firms) > 0) {
+    address_counts <- table(firms$Address)
+    clustered <- address_counts[address_counts > 1]
+  } else {
+    address_counts <- table(character(0))
+    clustered <- address_counts[address_counts > 1]
+  }
 
   control$centralized_addresses <- list(
     cluster_count = length(clustered),
