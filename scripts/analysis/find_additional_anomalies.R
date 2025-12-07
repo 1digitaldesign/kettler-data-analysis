@@ -171,7 +171,7 @@ analyze_license_sequences <- function(firms) {
       min_license = if (length(license_nums) > 0) min(license_nums) else NA,
       max_license = if (length(license_nums) > 0) max(license_nums) else NA,
       average_gap = avg_gap,
-      large_gaps = sum(gaps > 1000),
+      large_gaps = if (length(gaps) > 0) sum(gaps > 1000, na.rm = TRUE) else 0,
       pattern_type = if (!is.na(avg_gap) && avg_gap < 100) "sequential" else "scattered",
       explanation = "Sequential licenses may indicate coordinated registration"
     )

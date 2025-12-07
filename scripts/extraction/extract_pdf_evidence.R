@@ -221,8 +221,20 @@ process_all_pdfs <- function() {
     emails = sapply(all_extracted, function(x) length(x$entities$emails)),
     addresses = sapply(all_extracted, function(x) length(x$entities$addresses)),
     firms = sapply(all_extracted, function(x) length(x$entities$firms)),
-    violation_mentions = sapply(all_extracted, function(x) sum(x$regulatory_info$violation_mentions)),
-    agency_mentions = sapply(all_extracted, function(x) sum(x$regulatory_info$agency_mentions)),
+    violation_mentions = sapply(all_extracted, function(x) {
+      if (!is.null(x$regulatory_info) && !is.null(x$regulatory_info$violation_mentions)) {
+        sum(x$regulatory_info$violation_mentions, na.rm = TRUE)
+      } else {
+        0
+      }
+    }),
+    agency_mentions = sapply(all_extracted, function(x) {
+      if (!is.null(x$regulatory_info) && !is.null(x$regulatory_info$agency_mentions)) {
+        sum(x$regulatory_info$agency_mentions, na.rm = TRUE)
+      } else {
+        0
+      }
+    }),
     stringsAsFactors = FALSE
   )
 
