@@ -172,10 +172,19 @@ analyze_financial_patterns <- function(firms) {
   )
 
   # Pattern: License gaps suggest firms operated before "principal broker"
-  gaps <- firms[!is.na(firms$Gap.Years) & firms$Gap.Years != "UNKNOWN", ]
-  if (nrow(gaps) > 0) {
-    gap_values <- as.numeric(gaps$Gap.Years)
-    gap_values <- gap_values[!is.na(gap_values)]
+  if ("Gap.Years" %in% names(firms) && nrow(firms) > 0) {
+    gaps <- firms[!is.na(firms$Gap.Years) & firms$Gap.Years != "UNKNOWN", ]
+    if (nrow(gaps) > 0) {
+      gap_values <- suppressWarnings(as.numeric(gaps$Gap.Years))
+      gap_values <- gap_values[!is.na(gap_values)]
+    } else {
+      gap_values <- numeric(0)
+    }
+  } else {
+    gap_values <- numeric(0)
+  }
+  
+  if (length(gap_values) > 0) {
     avg_gap <- if (length(gap_values) > 0) mean(gap_values) else NA
   } else {
     avg_gap <- NA

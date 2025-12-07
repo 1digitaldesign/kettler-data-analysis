@@ -84,9 +84,15 @@ analyze_skidmore_anomalies <- function(firms) {
   )
 
   # Anomaly 2: Massive license gaps
-  large_gaps <- firms[!is.na(firms$Gap.Years) &
-                      firms$Gap.Years != "UNKNOWN" &
-                      as.numeric(firms$Gap.Years) > 10, ]
+  if ("Gap.Years" %in% names(firms) && nrow(firms) > 0) {
+    gap_numeric <- suppressWarnings(as.numeric(firms$Gap.Years))
+    large_gaps <- firms[!is.na(firms$Gap.Years) &
+                        firms$Gap.Years != "UNKNOWN" &
+                        !is.na(gap_numeric) &
+                        gap_numeric > 10, ]
+  } else {
+    large_gaps <- firms[FALSE, ]
+  }
 
   anomalies$large_license_gaps <- list(
     count = nrow(large_gaps),
