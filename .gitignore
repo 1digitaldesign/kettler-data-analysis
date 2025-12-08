@@ -237,3 +237,7 @@ outputs/summaries/*.csv
 
 # Browser automation temporary files
 .playwright-mcp/
+
+# Kubernetes secrets (may contain API keys)
+kubernetes/*-secrets.yaml
+!kubernetes/*-secrets.example.yaml
