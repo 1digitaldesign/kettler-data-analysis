@@ -12,6 +12,7 @@ torch>=2.0.0
 # Vector embeddings and ETL
 sentence-transformers>=2.2.0
 faiss-cpu>=1.7.4
+huggingface-hub>=0.20.0
 
 # API server dependencies
 flask>=2.3.0

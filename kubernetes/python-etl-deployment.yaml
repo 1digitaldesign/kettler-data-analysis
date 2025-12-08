@@ -34,6 +34,16 @@ spec:
           value: "/app"
         - name: DATA_DIR
           value: "/app/data"
+        - name: HF_WRITE_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: huggingface-secrets
+              key: write-token
+        - name: HF_READ_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: huggingface-secrets
+              key: read-token
         resources:
           limits:
             cpu: "2"

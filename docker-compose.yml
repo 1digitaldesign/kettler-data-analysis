@@ -12,9 +12,13 @@ services:
       - ./research:/app/research
       - ./evidence:/app/evidence
       - ./scripts:/app/scripts
+    env_file:
+      - .env
     environment:
       - PYTHONPATH=/app
       - DATA_DIR=/app/data
+      - HF_WRITE_TOKEN=${HF_WRITE_TOKEN}
+      - HF_READ_TOKEN=${HF_READ_TOKEN}
     networks:
       - kettler-network
     restart: unless-stopped
@@ -66,9 +70,13 @@ services:
       - ./scripts:/app/scripts
     ports:
       - "8000:8000"
+    env_file:
+      - .env
     environment:
       - PYTHONPATH=/app
       - DATA_DIR=/app/data
+      - HF_WRITE_TOKEN=${HF_WRITE_TOKEN}
+      - HF_READ_TOKEN=${HF_READ_TOKEN}
     networks:
       - kettler-network
     restart: unless-stopped

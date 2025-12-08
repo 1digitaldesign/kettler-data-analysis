@@ -14,6 +14,17 @@ import hashlib
 import pickle
 from datetime import datetime
 
+# Hugging Face authentication
+HF_WRITE_TOKEN = os.getenv('HF_WRITE_TOKEN', '')
+HF_READ_TOKEN = os.getenv('HF_READ_TOKEN', '')
+
+# Set Hugging Face tokens if available
+if HF_WRITE_TOKEN:
+    os.environ['HF_TOKEN'] = HF_WRITE_TOKEN
+    os.environ['HUGGING_FACE_HUB_TOKEN'] = HF_WRITE_TOKEN
+if HF_READ_TOKEN:
+    os.environ['HF_READ_TOKEN'] = HF_READ_TOKEN
+
 try:
     from sentence_transformers import SentenceTransformer
     SENTENCE_TRANSFORMERS_AVAILABLE = True
@@ -50,7 +61,11 @@ class VectorEmbeddingSystem:
 
         if SENTENCE_TRANSFORMERS_AVAILABLE:
             print(f"Loading embedding model: {model_name}")
-            self.model = SentenceTransformer(model_name)
+            # Use token for authentication if available
+            model_kwargs = {}
+            if HF_READ_TOKEN:
+                model_kwargs['token'] = HF_READ_TOKEN
+            self.model = SentenceTransformer(model_name, **model_kwargs)
         else:
             raise ImportError("sentence-transformers is required for vector embeddings")
 

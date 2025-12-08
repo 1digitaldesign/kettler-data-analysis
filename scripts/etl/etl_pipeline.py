@@ -14,6 +14,13 @@ import sys
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent))
 
+# Setup Hugging Face authentication
+try:
+    from huggingface_auth import setup_huggingface_auth
+    setup_huggingface_auth()
+except ImportError:
+    pass  # Optional module
+
 from vector_embeddings import VectorEmbeddingSystem
 
 # Configuration
