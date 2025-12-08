@@ -72,8 +72,8 @@ investigate_upl <- function(pdf_data) {
 
         if (length(found_keywords) > 0) {
           upl_indicators[[length(upl_indicators) + 1]] <- list(
-            file = pdf$file[[1]],
-            file_path = pdf$file_path[[1]],
+            file = if (!is.null(pdf$file) && length(pdf$file) > 0) pdf$file[[1]] else NA,
+            file_path = if (!is.null(pdf$file_path) && length(pdf$file_path) > 0) pdf$file_path[[1]] else NA,
             keywords_found = found_keywords,
             context = "Hyland mentioned with legal language",
             potential_upl = TRUE

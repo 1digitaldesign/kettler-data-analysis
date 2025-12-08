@@ -124,6 +124,9 @@ def main():
     # Output JSON for programmatic use
     if '--json' in sys.argv:
         print(json.dumps(results, indent=2))
+        # Still exit with error code if unhealthy
+        if results['overall_status'] != 'healthy':
+            sys.exit(1)
         return
 
     checker.print_report(results)
