@@ -70,6 +70,11 @@ scrape_all_dpor_licenses <- function() {
     return(NULL)
   }
 
+  if (nrow(registry) == 0) {
+    cat("ERROR: State registry is empty\n")
+    return(NULL)
+  }
+
   cat("Loaded", length(individuals), "individuals\n")
   cat("Loaded", nrow(registry), "states\n\n")
 

@@ -32,7 +32,8 @@ load_all_dates <- function() {
     firms <- read.csv(firms_file, stringsAsFactors = FALSE)
 
     # Parse firm license dates
-    for (i in 1:nrow(firms)) {
+    if (nrow(firms) > 0) {
+      for (i in 1:nrow(firms)) {
       if (firms$Initial.Cert.Date[i] != "DATA MISSING" &&
           !is.na(firms$Initial.Cert.Date[i]) &&
           firms$Initial.Cert.Date[i] != "") {
@@ -49,6 +50,7 @@ load_all_dates <- function() {
           )
         }
       }
+    }
     }
   }
 

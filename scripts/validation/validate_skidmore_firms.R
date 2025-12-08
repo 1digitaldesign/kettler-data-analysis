@@ -102,6 +102,11 @@ verify_address_clustering <- function(firms) {
 verify_license_gaps <- function(firms) {
   cat("\n=== Verifying License Gaps ===\n")
 
+  if (is.null(firms) || !is.data.frame(firms) || nrow(firms) == 0) {
+    cat("No firms to verify\n")
+    return(list(status = "no_data", firms = data.frame()))
+  }
+
   skidmore_license_date <- as.Date("2025-05-30")
 
   firms$Initial.Cert.Date.Parsed <- NA
@@ -126,11 +131,15 @@ verify_license_gaps <- function(firms) {
   firms_with_gaps <- firms[!is.na(firms$Gap.Years) & firms$Gap.Years != "UNKNOWN", ]
 
   cat("Firms with license gaps:\n")
-  for (i in 1:nrow(firms_with_gaps)) {
+  if (nrow(firms_with_gaps) > 0) {
+    for (i in 1:nrow(firms_with_gaps)) {
     cat(sprintf("  %s: %s years (expected: %s)\n",
                 firms_with_gaps$Firm.Name[i],
                 firms_with_gaps$Gap.Years[i],
                 ifelse(is.na(firms_with_gaps$Gap.Years.Calculated[i]), "N/A", round(firms_with_gaps$Gap.Years.Calculated[i], 1))))
+    }
+  } else {
+    cat("  No firms with gaps found\n")
   }
 
   return(list(status = "verified", firms = firms_with_gaps))
@@ -139,6 +148,11 @@ verify_license_gaps <- function(firms) {
 # Verify timeline anomalies
 verify_timeline_anomalies <- function(firms) {
   cat("\n=== Verifying Timeline Anomalies ===\n")
+
+  if (is.null(firms) || !is.data.frame(firms) || nrow(firms) == 0) {
+    cat("No firms to verify\n")
+    return(list(status = "no_data", firms = data.frame()))
+  }
 
   skidmore_license_date <- as.Date("2025-05-30")
 
