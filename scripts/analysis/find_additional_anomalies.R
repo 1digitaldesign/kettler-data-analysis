@@ -37,6 +37,7 @@ find_anomalies <- function(firms) {
   anomalies <- list()
 
   # Anomaly: License number patterns
+  license_prefixes <- character(0)  # Initialize before conditional block
   if ("License.Number" %in% names(firms) && nrow(firms) > 0) {
     license_numbers <- firms$License.Number
     license_numbers <- license_numbers[!is.na(license_numbers) & license_numbers != ""]
@@ -71,6 +72,7 @@ find_anomalies <- function(firms) {
   )
 
   # Anomaly: Expiration date clustering
+  expiration_years <- character(0)  # Initialize before conditional block
   if ("Expiration.Date" %in% names(firms) && nrow(firms) > 0) {
     expiration_dates <- firms$Expiration.Date
     expiration_dates <- expiration_dates[!is.na(expiration_dates) & expiration_dates != ""]
@@ -92,6 +94,7 @@ find_anomalies <- function(firms) {
   )
 
   # Anomaly: State distribution analysis
+  states <- character(0)  # Initialize before conditional block
   if ("Address" %in% names(firms) && nrow(firms) > 0) {
     states <- str_extract(firms$Address, ",\\s*([A-Z]{2})\\s*\\d", group = 1)
     states <- states[!is.na(states)]

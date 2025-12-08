@@ -155,7 +155,7 @@ cross_reference_evidence <- function(data) {
       if (!is.null(reg_info) && "violation_mentions" %in% names(reg_info) &&
           length(reg_info$violation_mentions) > 0) {
         violations <- reg_info$violation_mentions[[1]]
-        if (is.character(violations) && length(violations) > 0) {
+        if (is.numeric(violations) && length(violations) > 0) {
           violations_found <- violations[violations > 0]
           if (length(violations_found) > 0) {
             cross_ref$violations_mentioned <- length(violations_found)
