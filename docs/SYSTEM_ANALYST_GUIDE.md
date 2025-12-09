@@ -113,8 +113,8 @@ Research Outputs (research/{category}/)
 
 ## Documentation
 
-- [SYSTEM_ARCHITECTURE.md](../SYSTEM_ARCHITECTURE.md) - Architecture details
-- [DATA_FLOW.md](../DATA_FLOW.md) - Data pipeline
-- [COMPONENTS.md](../COMPONENTS.md) - Component reference
+- [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) - Architecture details
+- [DATA_FLOW.md](DATA_FLOW.md) - Data pipeline
+- [COMPONENTS.md](COMPONENTS.md) - Component reference
 - [API_REFERENCE.md](API_REFERENCE.md) - API endpoints
 - [DEPLOYMENT.md](DEPLOYMENT.md) - Deployment guide
