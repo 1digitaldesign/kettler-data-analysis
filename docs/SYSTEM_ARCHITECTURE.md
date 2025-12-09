@@ -13,7 +13,7 @@ graph TB
         A --> C[bin/analyze_connections.py]
         A --> D[bin/validate_data.py]
     end
-    
+
     subgraph "Core Modules"
         E[UnifiedAnalyzer] --> F[UnifiedSearcher]
         E --> G[UnifiedValidator]
@@ -21,13 +21,13 @@ graph TB
         E --> I[UnifiedInvestigator]
         E --> J[UnifiedScraper]
     end
-    
+
     subgraph "Data Layer"
         K[data/source/] --> L[data/raw/]
         L --> M[data/cleaned/]
         M --> N[data/vectors/]
     end
-    
+
     subgraph "Research Layer"
         O[research/connections/] --> P[research/violations/]
         O --> Q[research/anomalies/]
@@ -35,14 +35,14 @@ graph TB
         O --> S[research/verification/]
         O --> T[research/timelines/]
     end
-    
+
     B --> E
     C --> E
     D --> G
     E --> O
     G --> S
     H --> R
-    
+
     style A fill:#e1f5ff
     style E fill:#fff4e1
     style K fill:#e8f5e9

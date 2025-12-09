@@ -1,5 +1,51 @@
 # System Components
 
+## Component Hierarchy
+
+```mermaid
+graph TB
+    subgraph "Entry Points"
+        E1[run_pipeline.py]
+        E2[run_all.py]
+        E3[analyze_connections.py]
+        E4[validate_data.py]
+        E5[generate_reports.py]
+        E6[organize_evidence.py]
+        E7[clean_data.py]
+    end
+
+    subgraph "Core Modules"
+        C1[UnifiedAnalyzer]
+        C2[UnifiedSearcher]
+        C3[UnifiedValidator]
+        C4[UnifiedReporter]
+        C5[UnifiedInvestigator]
+        C6[UnifiedScraper]
+    end
+
+    subgraph "Supporting Scripts"
+        S1[Analysis Scripts]
+        S2[Extraction Scripts]
+        S3[ETL Pipeline]
+    end
+
+    E1 --> C1
+    E2 --> C1
+    E3 --> C1
+    E4 --> C3
+    E5 --> C4
+    E6 --> C5
+    E7 --> C1
+
+    C1 --> S1
+    C2 --> S2
+    C1 --> S3
+
+    style E1 fill:#e1f5ff
+    style C1 fill:#fff4e1
+    style S1 fill:#e8f5e9
+```
+
 ## Entry Points (`bin/`)
 
 - `run_pipeline.py` - Full pipeline
@@ -11,6 +57,30 @@
 - `clean_data.py` - Data cleaning
 
 ## Core Modules (`scripts/core/`)
+
+```mermaid
+graph LR
+    A[UnifiedAnalyzer] --> B[Analysis Operations]
+    C[UnifiedSearcher] --> D[Search Operations]
+    E[UnifiedValidator] --> F[Validation]
+    G[UnifiedReporter] --> H[Report Generation]
+    I[UnifiedInvestigator] --> J[Investigation]
+    K[UnifiedScraper] --> L[Web Scraping]
+
+    B --> M[research/connections/]
+    B --> N[research/anomalies/]
+    D --> O[research/search_results/]
+    F --> P[research/verification/]
+    H --> Q[research/summaries/]
+    J --> R[research/violations/]
+
+    style A fill:#fff4e1
+    style C fill:#e1f5ff
+    style E fill:#e8f5e9
+    style G fill:#f3e5f5
+    style I fill:#fce4ec
+    style K fill:#fff3e0
+```
 
 - `unified_analysis.py` - UnifiedAnalyzer
 - `unified_search.py` - UnifiedSearcher
@@ -66,6 +136,40 @@
 - `vectors/` - Vector embeddings
 
 ## Research (`research/`)
+
+```mermaid
+mindmap
+  root((Research Outputs))
+    Connections
+      dpor_skidmore_connections.csv
+      connection_matrix.json
+      nexus_patterns_analysis.json
+    Violations
+      all_violations_compiled.json
+      hyland_upl_investigation.json
+      news_violations_search.json
+    Anomalies
+      all_anomalies_consolidated.json
+      fraud_indicators.json
+      additional_anomalies.json
+    Summaries
+      analysis_summary.json
+      data_quality_report.json
+      filing_recommendations.json
+    Verification
+      dpor_validated.csv
+      kettler_verification.json
+      hyland_verification.json
+    Timelines
+      timeline_analysis.json
+      lease_abnormalities_detailed.json
+    Evidence
+      pdf_evidence_extracted.json
+      excel_evidence_extracted.json
+    Search Results
+      dpor_search_results.json
+      virginia_bar_search_results.json
+```
 
 - `connections/` - Connection analyses
 - `violations/` - Violation findings

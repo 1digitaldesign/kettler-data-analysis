@@ -29,6 +29,43 @@ See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions.
 
 ## System Structure
 
+```mermaid
+graph LR
+    subgraph "Entry"
+        A[bin/]
+    end
+
+    subgraph "Core"
+        B[scripts/core/]
+    end
+
+    subgraph "Data"
+        C[data/]
+    end
+
+    subgraph "Research"
+        D[research/]
+    end
+
+    subgraph "Services"
+        E[api/]
+        F[web/]
+    end
+
+    A --> B
+    B --> C
+    B --> D
+    E --> B
+    F --> E
+
+    style A fill:#e1f5ff
+    style B fill:#fff4e1
+    style C fill:#e8f5e9
+    style D fill:#f3e5f5
+```
+
+**Text Structure:**
+
 ```
 bin/              # Entry points
 scripts/core/     # Unified modules (UnifiedAnalyzer, UnifiedSearcher, etc.)
@@ -38,7 +75,7 @@ scripts/extraction/ # Evidence extraction
 api/              # FastAPI server
 web/              # React frontend
 microservices/    # Microservice implementations
-data/             # Data (source, raw, cleaned, analysis)
+data/             # Data (source, raw, cleaned, vectors)
 research/         # Outputs (connections, violations, anomalies, evidence)
 config/           # Configuration
 ```

@@ -11,51 +11,107 @@ Multi-state property management licensing investigation platform. Analyzes conne
 
 ## Component Map
 
-```
-Entry Layer (bin/)
-  ├── run_pipeline.py
-  └── run_all.py
-       │
-       ├─→ Core Layer (scripts/core/)
-       │    ├── UnifiedAnalyzer
-       │    ├── UnifiedSearcher
-       │    ├── UnifiedValidator
-       │    └── UnifiedReporter
-       │
-       ├─→ Analysis Layer (scripts/analysis/)
-       │    └── Analysis scripts
-       │
-       ├─→ ETL Layer (scripts/etl/)
-       │    └── Vector embeddings
-       │
-       └─→ API Layer (api/)
-            └── FastAPI server
-                 │
-                 ├─→ Web Layer (web/)
-                 └─→ Microservices (microservices/)
+```mermaid
+graph TD
+    subgraph "Entry Layer"
+        E1[run_pipeline.py]
+        E2[run_all.py]
+    end
+
+    subgraph "Core Layer"
+        C1[UnifiedAnalyzer]
+        C2[UnifiedSearcher]
+        C3[UnifiedValidator]
+        C4[UnifiedReporter]
+    end
+
+    subgraph "Analysis Layer"
+        A1[Analysis Scripts]
+    end
+
+    subgraph "ETL Layer"
+        ETL1[Vector Embeddings]
+    end
+
+    subgraph "API Layer"
+        API1[FastAPI Server]
+    end
+
+    subgraph "Web Layer"
+        WEB1[React Frontend]
+    end
+
+    subgraph "Microservices"
+        MS1[API Gateway]
+        MS2[Analysis Service]
+        MS3[Vector Service]
+    end
+
+    E1 --> C1
+    E2 --> C1
+    C1 --> C2
+    C1 --> C3
+    C1 --> C4
+    C1 --> A1
+    C1 --> ETL1
+    API1 --> C1
+    API1 --> WEB1
+    API1 --> MS1
+    MS1 --> MS2
+    MS1 --> MS3
+
+    style E1 fill:#e1f5ff
+    style C1 fill:#fff4e1
+    style API1 fill:#e3f2fd
+    style MS1 fill:#f3e5f5
 ```
 
 ## Data Flow
 
-```
-Source Data (data/source/)
-    ↓
-Extraction (scripts/extraction/)
-    ↓
-Raw Data (data/raw/)
-    ↓
-Cleaning (bin/clean_data.py)
-    ↓
-Cleaned Data (data/cleaned/)
-    ↓
-Analysis (scripts/core/, scripts/analysis/)
-    ↓
-Research Outputs (research/)
-    ↓
-Research Outputs (research/{category}/)
+```mermaid
+flowchart LR
+    A[Source Data<br/>data/source/] --> B[Extraction<br/>scripts/extraction/]
+    B --> C[Raw Data<br/>data/raw/]
+    C --> D[Cleaning<br/>bin/clean_data.py]
+    D --> E[Cleaned Data<br/>data/cleaned/]
+    E --> F[Analysis<br/>scripts/core/]
+    F --> G[Research Outputs<br/>research/]
+    G --> H[connections/]
+    G --> I[summaries/]
+    G --> J[verification/]
+    G --> K[violations/]
+    G --> L[anomalies/]
+
+    style A fill:#e8f5e9
+    style E fill:#fff3e0
+    style G fill:#f3e5f5
 ```
 
 ## Key Components
+
+```mermaid
+graph LR
+    subgraph "UnifiedAnalyzer"
+        UA1[Input: Source Data] --> UA2[Analysis Operations] --> UA3[Output: Results]
+    end
+
+    subgraph "UnifiedSearcher"
+        US1[Input: Queries] --> US2[Search Operations] --> US3[Output: Results]
+    end
+
+    subgraph "ETL Pipeline"
+        ETL1[Input: Documents] --> ETL2[Vector Embeddings] --> ETL3[Output: Vector Store]
+    end
+
+    subgraph "API Gateway"
+        AG1[Input: HTTP Requests] --> AG2[Request Routing] --> AG3[Output: Responses]
+    end
+
+    style UA2 fill:#fff4e1
+    style US2 fill:#e1f5ff
+    style ETL2 fill:#e8f5e9
+    style AG2 fill:#f3e5f5
+```
 
 **UnifiedAnalyzer** (`scripts/core/unified_analysis.py`)
 - Purpose: Analysis operations

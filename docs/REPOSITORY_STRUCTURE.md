@@ -11,19 +11,19 @@ graph TD
     ROOT --> API[api/<br/>FastAPI Server]
     ROOT --> WEB[web/<br/>React Frontend]
     ROOT --> CONFIG[config/<br/>Configuration]
-    
+
     SCRIPTS --> CORE[core/<br/>Unified Modules]
     SCRIPTS --> ANALYSIS[analysis/<br/>Analysis Scripts]
     SCRIPTS --> EXTRACTION[extraction/<br/>Evidence Extraction]
     SCRIPTS --> ETL[etl/<br/>ETL Pipeline]
     SCRIPTS --> UTILS[utils/<br/>Utilities]
-    
+
     DATA --> SOURCE[source/<br/>Source Data]
     DATA --> RAW[raw/<br/>Raw Results]
     DATA --> CLEANED[cleaned/<br/>Cleaned Data]
     DATA --> SCRAPED[scraped/<br/>Scraped Data]
     DATA --> VECTORS[vectors/<br/>Vector Embeddings]
-    
+
     RESEARCH --> CONNECTIONS[connections/<br/>Connection Analyses]
     RESEARCH --> VIOLATIONS[violations/<br/>Violation Findings]
     RESEARCH --> ANOMALIES[anomalies/<br/>Anomaly Reports]
@@ -31,7 +31,7 @@ graph TD
     RESEARCH --> VERIFICATION[verification/<br/>Verification Results]
     RESEARCH --> SUMMARIES[summaries/<br/>Summary Reports]
     RESEARCH --> TIMELINES[timelines/<br/>Timeline Analyses]
-    
+
     style ROOT fill:#e3f2fd
     style DATA fill:#e8f5e9
     style RESEARCH fill:#f3e5f5

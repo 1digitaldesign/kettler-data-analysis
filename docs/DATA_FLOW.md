@@ -10,14 +10,14 @@ flowchart LR
     D --> E[Cleaned Data<br/>data/cleaned/]
     E --> F[Analysis<br/>scripts/core/]
     F --> G[Research Outputs<br/>research/]
-    
+
     G --> H[connections/]
     G --> I[summaries/]
     G --> J[verification/]
     G --> K[violations/]
     G --> L[anomalies/]
     G --> M[timelines/]
-    
+
     style A fill:#e8f5e9
     style E fill:#fff3e0
     style G fill:#f3e5f5

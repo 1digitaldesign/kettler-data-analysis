@@ -8,6 +8,48 @@ This guide provides instructions for filing administrative complaints with feder
 
 All evidence has been organized in the following structure:
 
+```mermaid
+graph TB
+    subgraph "Filing Materials"
+        F1[filings/federal/]
+        F2[filings/state/]
+        F3[filings/local/]
+        F4[filing_checklist.csv]
+        F5[filing_evidence_package.json]
+        F6[executive_summary.md]
+    end
+
+    subgraph "Source Evidence"
+        E1[evidence/pdfs/]
+        E2[evidence/emails/]
+        E3[evidence/documents/]
+    end
+
+    subgraph "Research Outputs"
+        R1[research/pdf_evidence_extracted.json]
+        R2[research/pdf_evidence_summary.csv]
+        R3[research/regulatory_agencies_registry.json]
+        R4[research/fraud_indicators.json]
+        R5[research/filing_recommendations.json]
+        R6[research/connections/dpor_skidmore_connections.csv]
+    end
+
+    E1 --> R1
+    E1 --> R2
+    R1 --> F5
+    R3 --> F1
+    R3 --> F2
+    R4 --> F5
+    R5 --> F6
+    R6 --> F5
+
+    style F5 fill:#fff4e1
+    style R1 fill:#e8f5e9
+    style E1 fill:#e3f2fd
+```
+
+**Text Structure:**
+
 ```
 filings/
 ├── federal/          # Federal agency filing information
@@ -23,11 +65,12 @@ evidence/
 └── documents/        # Other supporting documents
 
 research/
-├── pdf_evidence_extracted.json       # Extracted data from PDFs
-├── pdf_evidence_summary.csv          # Summary of PDF evidence
-├── regulatory_agencies_registry.json # Complete agency registry
-├── fraud_indicators.json             # Identified fraud patterns
-└── filing_recommendations.json       # Filing recommendations
+├── connections/dpor_skidmore_connections.csv
+├── evidence/pdf_evidence_extracted.json
+├── evidence/pdf_evidence_summary.csv
+├── search_results/regulatory_agencies_registry.json
+├── anomalies/fraud_indicators.json
+└── summaries/filing_recommendations.json
 ```
 
 ## Key Evidence Summary
@@ -55,6 +98,34 @@ research/
 - **8 firms** have significant license gaps (11-14 years)
 - **6 firms** share the same address: 5729 LEBANON RD STE 144553, FRISCO, TX 75034
 - **1 firm** matches PDF address: KETTLER MANAGEMENT INC at 8255 GREENSBORO DR STE #200, MCLEAN, VA 22102
+
+## Filing Priority Flow
+
+```mermaid
+flowchart TD
+    START([Evidence Collected]) --> PRIORITY{Priority Assessment}
+    
+    PRIORITY -->|HIGH| VA[Virginia DPOR<br/>License Violations]
+    PRIORITY -->|HIGH| FTC[FTC<br/>Consumer Fraud]
+    PRIORITY -->|MEDIUM| CFPB[CFPB<br/>Financial Services]
+    PRIORITY -->|MEDIUM| HUD[HUD<br/>Fair Housing]
+    PRIORITY -->|LOW| SEC[SEC<br/>Securities]
+    
+    VA --> EVID1[11 Firms<br/>Same Principal Broker]
+    FTC --> EVID2[Fraud Patterns<br/>Misrepresentation]
+    CFPB --> EVID3[Financial Violations]
+    HUD --> EVID4[Housing Violations]
+    
+    EVID1 --> FILE1[File Complaint]
+    EVID2 --> FILE2[File Complaint]
+    EVID3 --> FILE3[File Complaint]
+    EVID4 --> FILE4[File Complaint]
+    
+    style VA fill:#ffcdd2
+    style FTC fill:#ffcdd2
+    style FILE1 fill:#c8e6c9
+    style FILE2 fill:#c8e6c9
+```
 
 ## Recommended Filings
 
