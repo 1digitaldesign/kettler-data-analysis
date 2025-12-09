@@ -1,6 +1,6 @@
 # Documentation Index
 
-**Last Updated:** December 7, 2025
+**Last Updated:** December 8, 2025
 
 ## Quick Start
 
@@ -20,6 +20,7 @@
 - **[EVIDENCE_SUMMARY.md](guides/EVIDENCE_SUMMARY.md)** - Summary of all evidence collected
 - **[PROJECT_ORGANIZATION.md](guides/PROJECT_ORGANIZATION.md)** - Project structure and organization
 - **[README_FILINGS.md](guides/README_FILINGS.md)** - Quick start guide for filings
+- **[HUGGINGFACE_SETUP.md](guides/HUGGINGFACE_SETUP.md)** - Hugging Face token configuration guide
 
 ### Reference Materials (`reference/`)
 - **[kettler-filings-quick-reference.md](reference/kettler-filings-quick-reference.md)** - Quick reference for filings
