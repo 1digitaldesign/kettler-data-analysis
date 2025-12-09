@@ -38,10 +38,10 @@ except Exception as e:
 def clean_firm_names(df: pd.DataFrame) -> pd.DataFrame:
     """
     Clean and standardize firm names using pattern matching and Hugging Face NER.
-    
+
     Args:
         df: DataFrame with 'name' column
-        
+
     Returns:
         DataFrame with 'name_cleaned' and 'name_ner' columns added
     """
@@ -94,9 +94,18 @@ def clean_firm_names(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def normalize_addresses(df):
+def normalize_addresses(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Normalize addresses to standard format
+    Normalize addresses to standard format.
+
+    Standardizes common abbreviations (St -> Street, Ave -> Avenue, etc.)
+    and normalizes whitespace and comma usage.
+
+    Args:
+        df: DataFrame with 'address' column
+
+    Returns:
+        DataFrame with 'address_normalized' column added
     """
     if 'address' not in df.columns:
         return df
@@ -139,9 +148,17 @@ def normalize_addresses(df):
 
     return df
 
-def parse_dates(df):
+def parse_dates(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Parse and standardize date formats
+    Parse and standardize date formats.
+
+    Attempts multiple date formats and standardizes to YYYY-MM-DD.
+
+    Args:
+        df: DataFrame with date columns ('expiration_date', 'initial_cert_date')
+
+    Returns:
+        DataFrame with '_parsed' columns added for each date column
     """
     date_columns = ['expiration_date', 'initial_cert_date']
 
@@ -220,9 +237,17 @@ def extract_entities(text):
         print(f"Error extracting entities: {e}")
         return {}
 
-def deduplicate_results(df):
+def deduplicate_results(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Intelligent deduplication based on license number, name, and address
+    Intelligent deduplication based on license number, name, and address.
+
+    Creates deduplication keys from normalized fields and removes exact duplicates.
+
+    Args:
+        df: DataFrame to deduplicate
+
+    Returns:
+        DataFrame with duplicates removed
     """
     if df.empty:
         return df
@@ -319,9 +344,15 @@ def clean_all_files():
 
     return None
 
-def create_summary_report(df):
+def create_summary_report(df: pd.DataFrame) -> None:
     """
-    Create summary statistics report
+    Create summary statistics report.
+
+    Generates JSON report with total records, unique firms, states covered,
+    and distribution statistics.
+
+    Args:
+        df: Cleaned DataFrame to summarize
     """
     if df is None or df.empty:
         return
@@ -341,7 +372,12 @@ def create_summary_report(df):
     print(f"\nSummary report saved to: {summary_file}")
     print(json.dumps(summary, indent=2))
 
-def main():
+def main() -> None:
+    """
+    Main execution function for data cleaning pipeline.
+
+    Processes all raw CSV files, cleans data, and generates summary report.
+    """
     print("Starting DPOR data cleaning process...")
     print("=" * 60)
 

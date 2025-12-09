@@ -17,10 +17,10 @@ from scripts.etl.etl_pipeline import ETLPipeline
 def run_search_states():
     """
     Run multi-state search for firms and Caitlin Skidmore.
-    
+
     Note: Search scripts still in R - conversion pending.
     Falls back gracefully if R is not available.
-    
+
     Returns:
         bool: True if search completed successfully, False otherwise
     """
@@ -58,10 +58,10 @@ def run_search_states():
 def run_data_cleaning():
     """
     Run data cleaning pipeline.
-    
+
     Cleans and standardizes license data from multiple state DPOR searches.
     Uses Hugging Face transformers for entity extraction and normalization.
-    
+
     Returns:
         bool: True if cleaning completed successfully, False otherwise
     """
@@ -97,10 +97,10 @@ def run_data_cleaning():
 def run_connection_analysis():
     """
     Run connection analysis to identify Skidmore connections.
-    
+
     Analyzes DPOR results to find firms connected to Caitlin Skidmore
     through principal broker relationships, addresses, or firm names.
-    
+
     Returns:
         bool: True if analysis completed successfully, False otherwise
     """
@@ -141,6 +141,15 @@ def run_connection_analysis():
             return False
 
 def run_data_validation():
+    """
+    Run data quality validation.
+
+    Validates license numbers, flags duplicates, validates addresses and dates,
+    and generates quality reports.
+
+    Returns:
+        bool: True if validation completed successfully, False otherwise
+    """
     """Run data quality validation"""
     print("STEP 4: Validating data quality...")
 
@@ -193,6 +202,14 @@ def run_etl_pipeline():
         return False
 
 def run_output_generation():
+    """
+    Generate all output reports and summaries.
+
+    Creates summary CSV files, quality reports, and analysis outputs.
+
+    Returns:
+        bool: True if generation completed successfully, False otherwise
+    """
     """Generate final outputs"""
     print("STEP 6: Generating final outputs...")
 
@@ -230,6 +247,17 @@ def run_output_generation():
             return False
 
 def main():
+    """
+    Main pipeline execution function.
+
+    Runs the complete DPOR search and analysis pipeline:
+    1. Multi-state search
+    2. Data cleaning
+    3. Connection analysis
+    4. Data validation
+    5. ETL pipeline
+    6. Output generation
+    """
     """Main pipeline execution"""
     print("=" * 60)
     print("DPOR Multi-State License Search Pipeline (Python)")

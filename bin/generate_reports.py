@@ -16,7 +16,7 @@ from bin.validate_data import main_validation
 def generate_summary_csvs():
     """
     Generate summary CSV files from analysis results.
-    
+
     Creates:
     - State summary (connections by state)
     - Connection type summary
@@ -69,7 +69,12 @@ def generate_summary_csvs():
             print(f"Saved high-quality records to: {output_file}")
 
 def main_outputs():
-    """Main output generation"""
+    """
+    Main output generation function.
+
+    Runs connection analysis, data validation, and generates
+    all summary CSV files.
+    """
     print("=== Generating All Outputs ===\n")
 
     print("Step 1: Running connection analysis...")
