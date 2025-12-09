@@ -108,10 +108,15 @@ class GoogleDriveMCPServer:
         """Search for files in Drive"""
         client = self._get_client()
 
+        # Sanitize query to prevent injection (escape single quotes)
+        sanitized_query = query.replace("'", "\\'")
+        
         # Build search query
-        search_query = f"name contains '{query}'"
+        search_query = f"name contains '{sanitized_query}'"
         if folder_id:
-            search_query += f" and '{folder_id}' in parents"
+            # Folder IDs are alphanumeric, but sanitize to be safe
+            sanitized_folder_id = folder_id.replace("'", "")
+            search_query += f" and '{sanitized_folder_id}' in parents"
         search_query += " and trashed=false"
 
         try:
