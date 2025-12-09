@@ -16,23 +16,23 @@ class ProcessorFactory:
     """
     Factory Pattern: Creates processor instances
     """
-    
+
     _registry: Dict[str, Type[BaseProcessor]] = {}
-    
+
     @classmethod
     def register(cls, processor_type: str, processor_class: Type[BaseProcessor]):
         """Register a processor type"""
         cls._registry[processor_type] = processor_class
-    
+
     @classmethod
     def create(cls, processor_type: str, config: Optional[Dict[str, Any]] = None) -> BaseProcessor:
         """Create processor instance"""
         if processor_type not in cls._registry:
             raise ValueError(f"Unknown processor type: {processor_type}")
-        
+
         processor_class = cls._registry[processor_type]
         return processor_class(config or {})
-    
+
     @classmethod
     def get_available_types(cls) -> List[str]:
         """Get list of available processor types"""
@@ -43,7 +43,7 @@ class AnalyzerFactory(ProcessorFactory):
     """
     Factory for creating analyzers
     """
-    
+
     @classmethod
     def create_analyzer(cls, analyzer_type: str, config: Optional[Dict[str, Any]] = None) -> BaseAnalyzer:
         """Create analyzer instance"""
@@ -57,7 +57,7 @@ class ScraperFactory(ProcessorFactory):
     """
     Factory for creating scrapers
     """
-    
+
     @classmethod
     def create_scraper(cls, scraper_type: str, config: Optional[Dict[str, Any]] = None) -> BaseScraper:
         """Create scraper instance"""
@@ -71,19 +71,19 @@ class RepositoryFactory:
     """
     Factory for creating repositories
     """
-    
+
     @staticmethod
     def create_firm_repository(data_source: str) -> FirmRepository:
         """Create firm repository"""
         from pathlib import Path
         return FirmRepository(Path(data_source))
-    
+
     @staticmethod
     def create_file_repository(base_path: str) -> FileRepository:
         """Create file repository"""
         from pathlib import Path
         return FileRepository(Path(base_path))
-    
+
     @staticmethod
     def create_vector_repository(vector_store_path: str) -> VectorRepository:
         """Create vector repository"""

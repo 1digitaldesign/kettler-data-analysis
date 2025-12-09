@@ -1,6 +1,6 @@
 # Architecture Guide - Design Patterns for Data-Intensive Applications
 
-**Date:** December 9, 2024  
+**Date:** December 9, 2024
 **Status:** Implemented
 
 ## Overview

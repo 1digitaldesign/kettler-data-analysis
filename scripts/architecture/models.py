@@ -42,12 +42,12 @@ class Firm:
     phone: Optional[str] = None
     email: Optional[str] = None
     metadata: Dict[str, Any] = field(default_factory=dict)
-    
+
     def __post_init__(self):
         """Validate firm data"""
         if not self.firm_name:
             raise ValueError("Firm name is required")
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary"""
         return {
@@ -74,7 +74,7 @@ class Connection:
     evidence: List[str] = field(default_factory=list)
     metadata: Dict[str, Any] = field(default_factory=dict)
     created_at: datetime = field(default_factory=datetime.now)
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary"""
         return {
@@ -102,7 +102,7 @@ class Violation:
     status: str = "pending"  # pending, verified, resolved
     metadata: Dict[str, Any] = field(default_factory=dict)
     detected_at: datetime = field(default_factory=datetime.now)
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary"""
         return {
@@ -129,7 +129,7 @@ class Evidence:
     entities_extracted: Dict[str, List[str]] = field(default_factory=dict)
     metadata: Dict[str, Any] = field(default_factory=dict)
     extracted_at: datetime = field(default_factory=datetime.now)
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary"""
         return {
@@ -157,7 +157,7 @@ class PropertyRecord:
     document_type: Optional[str] = None
     recorded_date: Optional[datetime] = None
     metadata: Dict[str, Any] = field(default_factory=dict)
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary"""
         return {
@@ -184,7 +184,7 @@ class AnalysisResult:
     results: Dict[str, Any]
     metadata: Dict[str, Any] = field(default_factory=dict)
     created_at: datetime = field(default_factory=datetime.now)
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary"""
         return {
