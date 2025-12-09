@@ -85502,5 +85502,135 @@
       "json_path": "timeline.correlation",
       "data_type": "json"
     }
+  },
+  "8f93af6e5c0b4327e22f37443b0d51de": {
+    "source": "json:research/all_evidence_summary 2.json:extraction_date",
+    "text": "extraction_date: 2025-12-09",
+    "vector_index": 8539,
+    "created_at": "2025-12-09T20:26:57.812445",
+    "metadata": {
+      "json_path": "extraction_date",
+      "data_type": "json"
+    }
+  },
+  "aea5cb692f8a1cc82893d8947bdd26a9": {
+    "source": "json:research/all_evidence_summary 2.json:total_pdfs",
+    "text": "total_pdfs: 0",
+    "vector_index": 8540,
+    "created_at": "2025-12-09T20:26:57.861432",
+    "metadata": {
+      "json_path": "total_pdfs",
+      "data_type": "json"
+    }
+  },
+  "b944f1b68fe7f9c9d3c4ce6b7a157d98": {
+    "source": "json:research/all_evidence_summary 2.json:total_excel_files",
+    "text": "total_excel_files: 0",
+    "vector_index": 8541,
+    "created_at": "2025-12-09T20:26:57.867282",
+    "metadata": {
+      "json_path": "total_excel_files",
+      "data_type": "json"
+    }
+  },
+  "786ff42ef8b452a9f5d5095b32d8d441": {
+    "source": "json:research/all_evidence_summary 2.json:entities_found.total_emails",
+    "text": "total_emails: 0",
+    "vector_index": 8542,
+    "created_at": "2025-12-09T20:26:57.965482",
+    "metadata": {
+      "json_path": "entities_found.total_emails",
+      "data_type": "json"
+    }
+  },
+  "b32e8960e78af568435a5f6f2580a754": {
+    "source": "json:research/all_evidence_summary 2.json:entities_found.total_addresses",
+    "text": "total_addresses: 0",
+    "vector_index": 8543,
+    "created_at": "2025-12-09T20:26:57.970546",
+    "metadata": {
+      "json_path": "entities_found.total_addresses",
+      "data_type": "json"
+    }
+  },
+  "6812f7bf4b8b99484810242d27431df0": {
+    "source": "json:research/all_evidence_summary 2.json:entities_found.total_phones",
+    "text": "total_phones: 0",
+    "vector_index": 8544,
+    "created_at": "2025-12-09T20:26:58.061613",
+    "metadata": {
+      "json_path": "entities_found.total_phones",
+      "data_type": "json"
+    }
+  },
+  "5375f9d8d49cb7c9fb5ef16cdc3af3a1": {
+    "source": "json:research/all_evidence_summary 2.json:entities_found.total_dates",
+    "text": "total_dates: 0",
+    "vector_index": 8545,
+    "created_at": "2025-12-09T20:26:58.068029",
+    "metadata": {
+      "json_path": "entities_found.total_dates",
+      "data_type": "json"
+    }
+  },
+  "bb55c8863dfc2e6b9f20fa3bff0cfb65": {
+    "source": "json:research/fraud_indicators 2.json:principal_broker_pattern[0].state",
+    "text": "state: VA",
+    "vector_index": 8546,
+    "created_at": "2025-12-09T20:26:58.090640",
+    "metadata": {
+      "json_path": "principal_broker_pattern[0].state",
+      "data_type": "json"
+    }
+  },
+  "7f5018c5b2dc5394962a0972fbe862f1": {
+    "source": "json:research/fraud_indicators 2.json:principal_broker_pattern[0].firm_count",
+    "text": "firm_count: 11",
+    "vector_index": 8547,
+    "created_at": "2025-12-09T20:26:58.261426",
+    "metadata": {
+      "json_path": "principal_broker_pattern[0].firm_count",
+      "data_type": "json"
+    }
+  },
+  "b474721629ce1a2613a9b66f42cfdacb": {
+    "source": "json:research/filing_recommendations 2.json:state.VA.reason",
+    "text": "reason: Multiple firms (11) listing same principal broker",
+    "vector_index": 8548,
+    "created_at": "2025-12-09T20:26:58.357488",
+    "metadata": {
+      "json_path": "state.VA.reason",
+      "data_type": "json"
+    }
+  },
+  "b9d78e5cb532131848140c994d7f0ea1": {
+    "source": "json:research/filing_recommendations 2.json:state.VA.evidence_count",
+    "text": "evidence_count: 11",
+    "vector_index": 8549,
+    "created_at": "2025-12-09T20:26:58.366760",
+    "metadata": {
+      "json_path": "state.VA.evidence_count",
+      "data_type": "json"
+    }
+  },
+  "573389a1ad5840d64b7888f23a41f429": {
+    "source": "json:research/filing_recommendations 2.json:state.VA.priority",
+    "text": "priority: High",
+    "vector_index": 8550,
+    "created_at": "2025-12-09T20:26:58.470707",
+    "metadata": {
+      "json_path": "state.VA.priority",
+      "data_type": "json"
+    }
+  },
+  "37704ac4d389feadde0bf13f4975c59e": {
+    "source": "json:research/filing_recommendations 2.json:state.VA.filing_type",
+    "text": "filing_type: License violation complaint",
+    "vector_index": 8551,
+    "created_at": "2025-12-09T20:26:58.478123",
+    "metadata": {
+      "json_path": "state.VA.filing_type",
+      "data_type": "json"
+    }
   }
 }

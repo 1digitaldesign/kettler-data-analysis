@@ -21,13 +21,13 @@ load_all_evidence <- function() {
   evidence <- list()
 
   # Load PDF evidence (use simplifyDataFrame=FALSE to preserve structure)
-  pdf_file <- file.path(RESEARCH_DIR, "pdf_evidence_extracted.json")
+  pdf_file <- file.path(RESEARCH_EVIDENCE_DIR, "pdf_evidence_extracted.json")
   if (file.exists(pdf_file)) {
     evidence$pdfs <- fromJSON(pdf_file, simplifyDataFrame = FALSE)
   }
 
   # Load Excel evidence
-  excel_file <- file.path(RESEARCH_DIR, "excel_evidence_extracted.json")
+  excel_file <- file.path(RESEARCH_EVIDENCE_DIR, "excel_evidence_extracted.json")
   if (file.exists(excel_file)) {
     evidence$excel <- fromJSON(excel_file, simplifyDataFrame = FALSE)
   }
@@ -199,7 +199,7 @@ main_analysis <- function() {
   summary <- generate_evidence_summary(evidence, entities, matches)
 
   # Save summary
-  summary_file <- file.path(RESEARCH_DIR, "all_evidence_summary.json")
+  summary_file <- file.path(RESEARCH_EVIDENCE_DIR, "all_evidence_summary.json")
   write_json(summary, summary_file, pretty = TRUE)
   cat("Saved summary to:", summary_file, "\n")
 

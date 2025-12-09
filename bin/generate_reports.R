@@ -7,8 +7,9 @@ library(dplyr)
 # Load path utilities
 source(file.path(dirname(normalizePath(commandArgs()[4])), "load_paths.R"))
 
-source_bin("analyze_connections.R")
-source_bin("validate_data.R")
+# Source bin scripts directly (they're in same directory)
+source(file.path(BIN_DIR, "analyze_connections.R"))
+source(file.path(BIN_DIR, "validate_data.R"))
 
 # Generate summary CSV files
 generate_summary_csvs <- function() {

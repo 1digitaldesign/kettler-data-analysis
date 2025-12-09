@@ -64,7 +64,7 @@ RESEARCH_SUMMARIES_DIR <- file.path(RESEARCH_DIR, "summaries")
 RESEARCH_SEARCH_RESULTS_DIR <- file.path(RESEARCH_DIR, "search_results")
 
 # Config files
-STATE_REGISTRY_FILE <- file.path(CONFIG_DIR, "config/state_dpor_registry.csv")
+STATE_REGISTRY_FILE <- file.path(CONFIG_DIR, "state_dpor_registry.csv")
 
 # Helper function to source scripts
 source_script <- function(script_path) {

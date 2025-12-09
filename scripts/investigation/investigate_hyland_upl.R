@@ -22,7 +22,7 @@ OUTPUT_FILE <- file.path(RESEARCH_DIR, "hyland_upl_investigation.json")
 
 # Load PDF evidence
 load_pdf_evidence <- function() {
-  pdf_file <- file.path(RESEARCH_DIR, "pdf_evidence_extracted.json")
+  pdf_file <- file.path(RESEARCH_EVIDENCE_DIR, "pdf_evidence_extracted.json")
   if (!file.exists(pdf_file)) {
     return(list())
   }
@@ -157,7 +157,7 @@ check_law_license <- function() {
   cat("\n=== Checking Law License ===\n")
 
   # Load Hyland verification
-  hyland_file <- file.path(RESEARCH_DIR, "hyland_verification.json")
+  hyland_file <- file.path(RESEARCH_VERIFICATION_DIR, "hyland_verification.json")
   if (!file.exists(hyland_file)) {
     return(list(license_check = "NOT_PERFORMED"))
   }

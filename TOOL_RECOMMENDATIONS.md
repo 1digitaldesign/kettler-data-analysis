@@ -537,32 +537,32 @@ def scrape_airbnb_accurate(address: str):
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_argument('--start-maximized')
     driver = webdriver.Chrome(options=options)
-    
+
     try:
         driver.get(f"https://www.airbnb.com/s/{address}")
-        
+
         # Wait for complete page load (accuracy critical)
         WebDriverWait(driver, 30).until(
             lambda d: d.execute_script('return document.readyState') == 'complete'
         )
-        
+
         # Wait for listings with explicit wait
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="listing-card"]'))
         )
-        
+
         # Get page source and parse with most accurate parser
         html = driver.page_source
         soup = BeautifulSoup(html, 'html5lib')  # Most accurate parser
-        
+
         listings = soup.select('[data-testid="listing-card"]')
         results = []
-        
+
         for listing in listings:
             # Verify data exists before extraction (accuracy check)
             title_elem = listing.select_one('h3')
             price_elem = listing.select_one('[data-testid="price"]')
-            
+
             if title_elem and price_elem:  # Accuracy validation
                 results.append({
                     'title': title_elem.get_text(strip=True),
@@ -570,11 +570,11 @@ def scrape_airbnb_accurate(address: str):
                 })
             else:
                 print(f"Warning: Incomplete listing data found")
-        
+
         # Verify results accuracy
         assert len(results) > 0, "No listings found - accuracy check failed!"
         return results
-        
+
     finally:
         driver.quit()
 ```
@@ -647,7 +647,7 @@ client.create_collection(
 - **ZenRows:** $49-299/month - Good accuracy alternative
 - **Outscraper:** Pay-per-scrape - VRBO specialist
 
-**Recommendation:** 
+**Recommendation:**
 - **Development:** Use free tools (Selenium, BeautifulSoup4, Pandas, Great Expectations)
 - **Production:** Use ScraperAPI for highest accuracy (worth the cost for Hugging Face Hub)
 - **Critical Data:** Consider Bright Data for enterprise-grade accuracy

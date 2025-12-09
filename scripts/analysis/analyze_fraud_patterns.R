@@ -37,7 +37,7 @@ load_all_evidence <- function() {
   }
 
   # Load extracted PDF evidence
-  pdf_evidence_file <- file.path(RESEARCH_DIR, "pdf_evidence_extracted.json")
+  pdf_evidence_file <- file.path(RESEARCH_EVIDENCE_DIR, "pdf_evidence_extracted.json")
   if (file.exists(pdf_evidence_file)) {
     evidence$pdf_data <- fromJSON(pdf_evidence_file)
   }
@@ -211,11 +211,11 @@ main_analysis <- function() {
   dir.create(RESEARCH_DIR, showWarnings = FALSE, recursive = TRUE)
   dir.create(FILINGS_DIR, showWarnings = FALSE, recursive = TRUE)
 
-  indicators_file <- file.path(RESEARCH_DIR, "fraud_indicators.json")
+  indicators_file <- file.path(RESEARCH_ANOMALIES_DIR, "fraud_indicators.json")
   write_json(indicators, indicators_file, pretty = TRUE)
   cat("Saved fraud indicators to:", indicators_file, "\n")
 
-  recommendations_file <- file.path(RESEARCH_DIR, "filing_recommendations.json")
+  recommendations_file <- file.path(RESEARCH_SUMMARIES_DIR, "filing_recommendations.json")
   write_json(recommendations, recommendations_file, pretty = TRUE)
   cat("Saved filing recommendations to:", recommendations_file, "\n")
 
