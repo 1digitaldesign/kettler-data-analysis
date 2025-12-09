@@ -235,27 +235,50 @@ find_skidmore_connections <- function(dpor_results, skidmore_data) {
 generate_network_analysis <- function(connections, skidmore_data) {
   network <- list()
 
+  if (is.null(connections) || !is.data.frame(connections) || nrow(connections) == 0) {
+    return(list(
+      connections_by_type = data.frame(),
+      connections_by_state = data.frame(),
+      unique_firms = 0,
+      address_clusters = data.frame()
+    ))
+  }
+
   # Count connections by type
-  network$connections_by_type <- connections %>%
-    group_by(connection_type) %>%
-    summarise(count = n(), .groups = 'drop')
+  if ("connection_type" %in% names(connections)) {
+    network$connections_by_type <- connections %>%
+      group_by(connection_type) %>%
+      summarise(count = n(), .groups = 'drop')
+  } else {
+    network$connections_by_type <- data.frame()
+  }
 
   # Count connections by state
-  network$connections_by_state <- connections %>%
-    group_by(state) %>%
-    summarise(count = n(), .groups = 'drop')
+  if ("state" %in% names(connections)) {
+    network$connections_by_state <- connections %>%
+      group_by(state) %>%
+      summarise(count = n(), .groups = 'drop')
+  } else {
+    network$connections_by_state <- data.frame()
+  }
 
   # Unique firms connected
-  network$unique_firms <- connections %>%
-    distinct(firm_name) %>%
-    nrow()
+  if ("firm_name" %in% names(connections)) {
+    network$unique_firms <- connections %>%
+      distinct(firm_name) %>%
+      nrow()
+  } else {
+    network$unique_firms <- 0
+  }
 
   # Address clusters
-  if ("address" %in% names(connections)) {
+  if ("address" %in% names(connections) && "firm_name" %in% names(connections)) {
     network$address_clusters <- connections %>%
       group_by(address) %>%
       summarise(firm_count = n_distinct(firm_name), .groups = 'drop') %>%
       arrange(desc(firm_count))
+  } else {
+    network$address_clusters <- data.frame()
   }
 
   return(network)
