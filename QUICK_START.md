@@ -1,5 +1,24 @@
 # Quick Start
 
+## Quick Start Flow
+
+```mermaid
+flowchart LR
+    A[Install] --> B[Configure]
+    B --> C[Run Pipeline]
+    C --> D[View Results]
+
+    A --> A1[pip install]
+    B --> B1[.env setup]
+    C --> C1[bin/run_pipeline.py]
+    D --> D1[research/]
+
+    style A fill:#C8E6C9
+    style B fill:#FFF9C4
+    style C fill:#B3E5FC
+    style D fill:#E1BEE7
+```
+
 ## Installation
 
 See [INSTALLATION.md](INSTALLATION.md) for complete setup instructions.
@@ -35,9 +54,25 @@ cd web && npm run dev       # http://localhost:3000
 
 ## Key Directories
 
+```mermaid
+mindmap
+  root((Repository))
+    bin/
+      Entry Scripts
+    scripts/core/
+      Unified Modules
+    data/
+      Source Data
+      Cleaned Data
+    research/
+      Connections
+      Violations
+      Anomalies
+```
+
 - `bin/` - Entry point scripts
 - `scripts/core/` - Unified modules (UnifiedAnalyzer, UnifiedSearcher, etc.)
-- `data/` - Data files (source, raw, cleaned, analysis)
+- `data/` - Data files (source, raw, cleaned, vectors)
 - `research/` - Research outputs (connections, violations, anomalies)
 
 ## Configuration

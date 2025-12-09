@@ -41,9 +41,9 @@ graph TB
     C2 --> S2
     C1 --> S3
 
-    style E1 fill:#e1f5ff
-    style C1 fill:#fff4e1
-    style S1 fill:#e8f5e9
+    style E1 fill:#B3E5FC
+    style C1 fill:#FFF9C4
+    style S1 fill:#C8E6C9
 ```
 
 ## Entry Points (`bin/`)
@@ -74,12 +74,12 @@ graph LR
     H --> Q[research/summaries/]
     J --> R[research/violations/]
 
-    style A fill:#fff4e1
-    style C fill:#e1f5ff
-    style E fill:#e8f5e9
-    style G fill:#f3e5f5
-    style I fill:#fce4ec
-    style K fill:#fff3e0
+    style A fill:#FFF9C4
+    style C fill:#B3E5FC
+    style E fill:#C8E6C9
+    style G fill:#E1BEE7
+    style I fill:#F8BBD0
+    style K fill:#FFE0B2
 ```
 
 - `unified_analysis.py` - UnifiedAnalyzer

@@ -43,10 +43,10 @@ graph TB
     G --> S
     H --> R
 
-    style A fill:#e1f5ff
-    style E fill:#fff4e1
-    style K fill:#e8f5e9
-    style O fill:#f3e5f5
+    style A fill:#B3E5FC
+    style E fill:#FFF9C4
+    style K fill:#C8E6C9
+    style O fill:#E1BEE7
 ```
 
 ## Components

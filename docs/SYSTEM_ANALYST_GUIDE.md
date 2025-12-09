@@ -60,10 +60,10 @@ graph TD
     MS1 --> MS2
     MS1 --> MS3
 
-    style E1 fill:#e1f5ff
-    style C1 fill:#fff4e1
-    style API1 fill:#e3f2fd
-    style MS1 fill:#f3e5f5
+    style E1 fill:#B3E5FC
+    style C1 fill:#FFF9C4
+    style API1 fill:#F8BBD0
+    style MS1 fill:#E1BEE7
 ```
 
 ## Data Flow
@@ -82,9 +82,9 @@ flowchart LR
     G --> K[violations/]
     G --> L[anomalies/]
 
-    style A fill:#e8f5e9
-    style E fill:#fff3e0
-    style G fill:#f3e5f5
+    style A fill:#C8E6C9
+    style E fill:#FFF9C4
+    style G fill:#E1BEE7
 ```
 
 ## Key Components
@@ -107,10 +107,10 @@ graph LR
         AG1[Input: HTTP Requests] --> AG2[Request Routing] --> AG3[Output: Responses]
     end
 
-    style UA2 fill:#fff4e1
-    style US2 fill:#e1f5ff
-    style ETL2 fill:#e8f5e9
-    style AG2 fill:#f3e5f5
+    style UA2 fill:#FFF9C4
+    style US2 fill:#B3E5FC
+    style ETL2 fill:#C8E6C9
+    style AG2 fill:#E1BEE7
 ```
 
 **UnifiedAnalyzer** (`scripts/core/unified_analysis.py`)

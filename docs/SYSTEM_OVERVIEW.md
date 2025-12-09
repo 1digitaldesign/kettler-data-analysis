@@ -50,10 +50,10 @@ graph TB
     L3 --> L8
     L4 --> L8
 
-    style L1 fill:#e1f5ff
-    style L2 fill:#fff4e1
-    style L5 fill:#e3f2fd
-    style L8 fill:#e8f5e9
+    style L1 fill:#B3E5FC
+    style L2 fill:#FFF9C4
+    style L5 fill:#F8BBD0
+    style L8 fill:#C8E6C9
 ```
 
 1. **Entry Layer** - `bin/` scripts
@@ -89,9 +89,9 @@ flowchart LR
     D --> D1[scripts/core/]
     E --> E1[research/]
 
-    style A fill:#e8f5e9
-    style C fill:#fff3e0
-    style E fill:#f3e5f5
+    style A fill:#C8E6C9
+    style C fill:#FFF9C4
+    style E fill:#E1BEE7
 ```
 
 **Text Flow:**

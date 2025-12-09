@@ -32,10 +32,10 @@ graph TD
     RESEARCH --> SUMMARIES[summaries/<br/>Summary Reports]
     RESEARCH --> TIMELINES[timelines/<br/>Timeline Analyses]
 
-    style ROOT fill:#e3f2fd
-    style DATA fill:#e8f5e9
-    style RESEARCH fill:#f3e5f5
-    style SCRIPTS fill:#fff3e0
+    style ROOT fill:#D1C4E9
+    style DATA fill:#C8E6C9
+    style RESEARCH fill:#E1BEE7
+    style SCRIPTS fill:#B2DFDB
 ```
 
 ## Text Structure

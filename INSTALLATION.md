@@ -1,5 +1,32 @@
 # Installation & Setup Guide
 
+## Installation Flow
+
+```mermaid
+flowchart TD
+    START([Start Installation]) --> CHECK[Check Prerequisites]
+    
+    CHECK -->|Missing| INSTALL[Install Prerequisites]
+    CHECK -->|Present| CLONE[Clone Repository]
+    
+    INSTALL --> CLONE
+    CLONE --> VENV[Create Virtual Environment]
+    VENV --> DEPS[Install Dependencies]
+    DEPS --> CONFIG[Configure Environment]
+    CONFIG --> VERIFY[Verify Installation]
+    VERIFY --> END([Ready to Use])
+
+    style START fill:#C8E6C9
+    style CHECK fill:#FFF9C4
+    style INSTALL fill:#B3E5FC
+    style CLONE fill:#E1BEE7
+    style VENV fill:#F8BBD0
+    style DEPS fill:#FFE0B2
+    style CONFIG fill:#D1C4E9
+    style VERIFY fill:#C5E1A5
+    style END fill:#C8E6C9
+```
+
 ## Prerequisites
 
 - Python 3.9+ (Python 3.10+ recommended)
@@ -64,6 +91,35 @@ python3 -c "from scripts.core import UnifiedAnalyzer; print('✓ Core modules OK
 
 # Test data paths
 python3 -c "from scripts.utils.paths import PROJECT_ROOT; print(f'Project root: {PROJECT_ROOT}')"
+```
+
+## System Components
+
+```mermaid
+graph LR
+    subgraph "Entry Points"
+        A[bin/run_pipeline.py]
+        B[bin/run_all.py]
+        C[bin/analyze_connections.py]
+    end
+
+    subgraph "Services"
+        D[API Server]
+        E[Web Frontend]
+    end
+
+    A --> F[Core Modules]
+    B --> F
+    C --> F
+    D --> F
+    E --> D
+
+    style A fill:#B3E5FC
+    style B fill:#B3E5FC
+    style C fill:#B3E5FC
+    style D fill:#F8BBD0
+    style E fill:#F8BBD0
+    style F fill:#FFF9C4
 ```
 
 ## Running the System

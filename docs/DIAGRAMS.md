@@ -50,11 +50,11 @@ graph TB
         ROOT --> MICRO[microservices/<br/>Microservice Impl]
     end
 
-    style ROOT fill:#e3f2fd,stroke:#1976d2,stroke-width:3px
-    style DATA fill:#e8f5e9,stroke:#388e3c
-    style RESEARCH fill:#f3e5f5,stroke:#7b1fa2
-    style SCRIPTS fill:#fff3e0,stroke:#f57c00
-    style BIN fill:#e1f5fe,stroke:#0277bd
+    style ROOT fill:#D1C4E9,stroke:#9575CD,stroke-width:3px
+    style DATA fill:#C8E6C9,stroke:#81C784
+    style RESEARCH fill:#E1BEE7,stroke:#BA68C8
+    style SCRIPTS fill:#B2DFDB,stroke:#4DB6AC
+    style BIN fill:#B3E5FC,stroke:#4FC3F7
 ```
 
 ## Data Flow Pipeline
@@ -87,11 +87,11 @@ flowchart TD
 
     OUTPUT --> END([Complete])
 
-    style START fill:#c8e6c9
-    style SOURCE fill:#e8f5e9
-    style CLEANED fill:#fff3e0
-    style OUTPUT fill:#f3e5f5
-    style END fill:#c8e6c9
+    style START fill:#C8E6C9
+    style SOURCE fill:#C5E1A5
+    style CLEANED fill:#FFF9C4
+    style OUTPUT fill:#E1BEE7
+    style END fill:#C8E6C9
 ```
 
 ## Component Relationships
@@ -147,10 +147,10 @@ graph LR
     G --> P
     I --> Q
 
-    style A fill:#e1f5ff
-    style E fill:#fff4e1
-    style K fill:#e8f5e9
-    style N fill:#f3e5f5
+    style A fill:#B3E5FC
+    style E fill:#FFF9C4
+    style K fill:#C8E6C9
+    style N fill:#E1BEE7
 ```
 
 ## File Type Distribution
@@ -237,10 +237,10 @@ graph TB
     CORE --> RESEARCH
     ANALYSIS --> RESEARCH
 
-    style WEB fill:#e3f2fd
-    style CORE fill:#fff3e0
-    style SOURCE fill:#e8f5e9
-    style RESEARCH fill:#f3e5f5
+    style WEB fill:#F8BBD0
+    style CORE fill:#FFF9C4
+    style SOURCE fill:#C8E6C9
+    style RESEARCH fill:#E1BEE7
 ```
 
 ## Usage

@@ -43,9 +43,9 @@ graph TB
     R5 --> F6
     R6 --> F5
 
-    style F5 fill:#fff4e1
-    style R1 fill:#e8f5e9
-    style E1 fill:#e3f2fd
+    style F5 fill:#FFF9C4
+    style R1 fill:#C8E6C9
+    style E1 fill:#B3E5FC
 ```
 
 **Text Structure:**
@@ -104,27 +104,27 @@ research/
 ```mermaid
 flowchart TD
     START([Evidence Collected]) --> PRIORITY{Priority Assessment}
-    
+
     PRIORITY -->|HIGH| VA[Virginia DPOR<br/>License Violations]
     PRIORITY -->|HIGH| FTC[FTC<br/>Consumer Fraud]
     PRIORITY -->|MEDIUM| CFPB[CFPB<br/>Financial Services]
     PRIORITY -->|MEDIUM| HUD[HUD<br/>Fair Housing]
     PRIORITY -->|LOW| SEC[SEC<br/>Securities]
-    
+
     VA --> EVID1[11 Firms<br/>Same Principal Broker]
     FTC --> EVID2[Fraud Patterns<br/>Misrepresentation]
     CFPB --> EVID3[Financial Violations]
     HUD --> EVID4[Housing Violations]
-    
+
     EVID1 --> FILE1[File Complaint]
     EVID2 --> FILE2[File Complaint]
     EVID3 --> FILE3[File Complaint]
     EVID4 --> FILE4[File Complaint]
-    
-    style VA fill:#ffcdd2
-    style FTC fill:#ffcdd2
-    style FILE1 fill:#c8e6c9
-    style FILE2 fill:#c8e6c9
+
+    style VA fill:#F8BBD0
+    style FTC fill:#F8BBD0
+    style FILE1 fill:#C8E6C9
+    style FILE2 fill:#C8E6C9
 ```
 
 ## Recommended Filings

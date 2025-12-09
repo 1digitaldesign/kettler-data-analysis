@@ -18,15 +18,15 @@ flowchart LR
     G --> L[anomalies/]
     G --> M[timelines/]
 
-    style A fill:#e8f5e9
-    style E fill:#fff3e0
-    style G fill:#f3e5f5
-    style H fill:#e1bee7
-    style I fill:#e1bee7
-    style J fill:#e1bee7
-    style K fill:#e1bee7
-    style L fill:#e1bee7
-    style M fill:#e1bee7
+    style A fill:#C8E6C9
+    style E fill:#FFF9C4
+    style G fill:#E1BEE7
+    style H fill:#D1C4E9
+    style I fill:#D1C4E9
+    style J fill:#D1C4E9
+    style K fill:#D1C4E9
+    style L fill:#D1C4E9
+    style M fill:#D1C4E9
 ```
 
 ## Text Pipeline

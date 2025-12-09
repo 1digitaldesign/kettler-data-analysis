@@ -58,10 +58,10 @@ graph LR
     E --> B
     F --> E
 
-    style A fill:#e1f5ff
-    style B fill:#fff4e1
-    style C fill:#e8f5e9
-    style D fill:#f3e5f5
+    style A fill:#B3E5FC
+    style B fill:#FFF9C4
+    style C fill:#C8E6C9
+    style D fill:#E1BEE7
 ```
 
 **Text Structure:**
