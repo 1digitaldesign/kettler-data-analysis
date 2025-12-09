@@ -110,7 +110,7 @@ class GoogleDriveMCPServer:
 
         # Sanitize query to prevent injection (escape single quotes)
         sanitized_query = query.replace("'", "\\'")
-        
+
         # Build search query
         search_query = f"name contains '{sanitized_query}'"
         if folder_id:
