@@ -7,9 +7,12 @@
       "date": "2024-03",
       "type": "Fair Housing Act violation",
       "case": "Equal Rights Center v. Kettler Management",
+      "case_filed": "2023-09-12",
+      "court": "Superior Court of the District of Columbia",
       "settlement_amount": 140000,
       "jurisdiction": "DC",
       "violation": "Source of income discrimination across 6 DC properties",
+      "complaint_url": "https://equalrightscenter.org/wp-content/uploads/2023.09.12-erc-v.-kettler-complaint-tagged.pdf",
       "significance": "Pattern of discrimination, occurred during principal broker gap period"
     },
     {
@@ -39,10 +42,57 @@
     {
       "date": "2022",
       "type": "Employment discrimination",
-      "case": "Coleman v. Kettler",
+      "case": "Coleman v. Kettler Management, et al.",
+      "case_number": "1:2022cv00084",
+      "court": "U.S. District Court for the Eastern District of Virginia",
       "jurisdiction": "Federal",
       "violation": "Race and disability discrimination, hostile work environment",
+      "case_url": "https://law.justia.com/cases/federal/district-courts/virginia/vaedce/1%3A2022cv00084/519199/37/",
       "significance": "Employment practices violations"
+    },
+    {
+      "date": "2025-03-11",
+      "type": "Personal injury",
+      "case": "Wible v. Parcel D Property, LLC et al",
+      "case_number": "1:2025cv00791",
+      "court": "U.S. District Court for the District of Maryland",
+      "jurisdiction": "MD",
+      "violation": "Personal injury claim",
+      "case_url": "https://dockets.justia.com/docket/maryland/mddce/1%3A2025cv00791/578113",
+      "significance": "Ongoing litigation"
+    },
+    {
+      "date": "2020-07-01",
+      "type": "Civil rights",
+      "case": "Housing Rights Initiative et al v. Bozzuto Management Company et al",
+      "case_number": "8:2020cv01956",
+      "court": "U.S. District Court for the District of Maryland",
+      "jurisdiction": "MD",
+      "violation": "Civil rights lawsuit",
+      "case_url": "https://dockets.justia.com/docket/maryland/mddce/8%3A2020cv01956/483119",
+      "significance": "Kettler named as defendant alongside Bozzuto"
+    },
+    {
+      "date": "2025-03-04",
+      "type": "Appellate case",
+      "case": "Opiotennione v. Bozzuto Management Co.",
+      "case_number": "21-1919",
+      "court": "United States Court of Appeals for the Fourth Circuit",
+      "jurisdiction": "Federal",
+      "violation": "Appellate proceeding",
+      "case_url": "https://law.justia.com/cases/federal/appellate-courts/ca4/21-1919/21-1919-2025-03-04.html",
+      "significance": "Kettler Management Inc. as appellee"
+    },
+    {
+      "date": "2012",
+      "type": "Unknown",
+      "case": "Williams v. Kettler Management Inc.",
+      "case_number": "8:2012cv01226",
+      "court": "U.S. District Court for the District of Maryland",
+      "jurisdiction": "MD",
+      "violation": "Unknown - proceedings extended into 2014",
+      "case_url": "https://law.justia.com/cases/federal/district-courts/maryland/mddce/8%3A2012cv01226/201149/86/",
+      "significance": "Ongoing litigation during principal broker gap period"
     }
   ],
   "violations_to_research": {
@@ -182,6 +232,26 @@
         "date": "2025-12-06",
         "event": "Edward Hyland denies reasonable accommodation (unlicensed)",
         "violation_type": "Unlicensed practice"
+      },
+      {
+        "date": "2025-03-11",
+        "event": "Wible v. Parcel D Property - Kettler named as defendant",
+        "violation_type": "Personal injury litigation"
+      },
+      {
+        "date": "2025-03-04",
+        "event": "Opiotennione v. Bozzuto - Kettler as appellee",
+        "violation_type": "Appellate proceeding"
+      },
+      {
+        "date": "2020-07-01",
+        "event": "Housing Rights Initiative v. Bozzuto - Kettler as defendant",
+        "violation_type": "Civil rights litigation"
+      },
+      {
+        "date": "2012",
+        "event": "Williams v. Kettler Management Inc. - proceedings extended to 2014",
+        "violation_type": "Litigation during gap period"
       }
     ]
   },

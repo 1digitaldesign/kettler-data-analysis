@@ -14,13 +14,30 @@
         "property_name": "800 Carlyle Apartments",
         "address": "800 John Carlyle Street, Alexandria, VA 22314",
         "jurisdiction": "City of Alexandria",
-        "units": "unknown",
+        "units": 280,
         "management_start": "unknown",
         "management_end": "present",
+        "verified": true,
+        "amenities": [
+          "Fitness center",
+          "Swimming pool with sundeck",
+          "Clubroom",
+          "Game room",
+          "Resident lounge",
+          "Underground garage parking"
+        ],
+        "location": "Near U.S. Patent and Trademark Office, walking distance to King Street and Eisenhower Metro stations",
         "evidence_sources": [
           "Lease termination documents",
-          "Email correspondence (Carlyle.PM@kettler.com)"
-        ]
+          "Email correspondence (Carlyle.PM@kettler.com)",
+          "Kettler.com property listing",
+          "Google Maps"
+        ],
+        "reviews": {
+          "status": "mixed",
+          "note": "Rated 5 stars 2016-2022, decline around 2023, current manager Djene and Eddy mentioned",
+          "source": "Birdeye reviews"
+        }
       },
       {
         "property_name": "850 Carlyle Apartments",

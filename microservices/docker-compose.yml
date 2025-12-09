@@ -111,3 +111,20 @@ services:
     volumes:
       - ../:/app/root:ro
     command: ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8007"]
+
+  google-drive-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app/google-drive-service
+    ports:
+      - "8008:8008"
+    environment:
+      - PORT=8008
+      - GOOGLE_DRIVE_TOKEN_FILE=/app/token.pickle
+      - GOOGLE_DRIVE_CREDENTIALS_FILE=/app/credentials.json
+    volumes:
+      - ../:/app/root:ro
+      - ./google-drive-service/token.pickle:/app/token.pickle
+      - ./google-drive-service/credentials.json:/app/credentials.json
+    command: ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8008"]

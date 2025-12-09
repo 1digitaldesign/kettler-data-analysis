@@ -81,6 +81,12 @@ def data_service_url() -> str:
 
 
 @pytest.fixture
+def google_drive_service_url() -> str:
+    """Google Drive Service URL"""
+    return f"{TEST_BASE_URL}:8008"
+
+
+@pytest.fixture
 def sample_firm_data() -> dict:
     """Sample firm data for testing"""
     return {

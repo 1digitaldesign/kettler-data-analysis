@@ -6,26 +6,54 @@
     {
       "publication": "Washington City Paper",
       "date": "2024",
-      "title": "Utility Fee Investigation",
+      "title": "Corporate Landlords Nickel and Dime D.C. Tenants with Deceptive and Hidden Utility Fees",
       "type": "Investigative journalism",
       "focus": "Hidden or misleading utility fees",
+      "url": "https://washingtoncitypaper.com/article/747728/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
       "findings": [
         "Pervasive pattern of charging tenants hidden or misleading utility fees",
         "Kettler properties included in investigation of 20 buildings",
         "Jamison at Dakota Crossing: tenants received bills of nearly $1,500 for 9 months of water charges",
         "Many tenants pay rent with government housing subsidies",
         "Kettler would not provide rent history until water bill paid",
-        "Excessive bills motivated tenants to move out"
+        "Excessive bills motivated tenants to move out",
+        "Tenant LaShawn Melton: Lease specified water charges based on actual usage, but bills didn't match",
+        "Tenant had to seek Emergency Rental Assistance Program to settle balance",
+        "Concern for elderly and disabled tenants who lack means to advocate",
+        "Complaints filed with Office of the People's Counsel (OPC)",
+        "One case: $13,000 water bill",
+        "Another disabled tenant: $631 water bill from Studebaker"
       ],
       "significance": "Documents systematic fee practices affecting subsidized housing tenants",
-      "url": "pending - need to locate exact article"
+      "status": "verified"
     }
   ],
   "settlement_coverage": {
     "equal_rights_center_settlement": {
       "date": "2024-03",
       "settlement_amount": 140000,
-      "coverage_status": "pending",
+      "coverage_status": "found",
+      "source": "Equal Rights Center press release",
+      "url": "https://equalrightscenter.org/press-release-kettler-2024/",
+      "details": {
+        "violation": "Unlawfully refused to accept housing vouchers at Washington D.C. properties",
+        "agreement_duration": "3 years",
+        "applies_to": "All multi-family rental properties in D.C. managed by Kettler",
+        "key_terms": [
+          "Affirmative marketing that properties accept voucher holders",
+          "No minimum income or credit score requirements for voucher holders",
+          "Mandatory fair housing training for leasing agents and property management staff",
+          "Regular compliance testing conducted by ERC",
+          "$140,000 payment to ERC (damages, attorneys' fees, training costs)",
+          "Affirmation and distribution of non-discrimination policy",
+          "Designation of Housing Choice Voucher liaison within Kettler's compliance department"
+        ],
+        "legal_basis": [
+          "D.C. Human Rights Act violation",
+          "D.C. Consumer Protection Procedures Act violation"
+        ],
+        "allegations": "Kettler used unlawful minimum income and credit history requirements to reject applicants with housing vouchers"
+      },
       "search_terms": [
         "Equal Rights Center Kettler settlement",
         "Kettler Management discrimination settlement 2024",

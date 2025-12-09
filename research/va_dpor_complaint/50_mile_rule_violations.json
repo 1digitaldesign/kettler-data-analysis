@@ -13,9 +13,14 @@
     "distance_miles": "approximately 1,300 miles",
     "distance_km": "approximately 2,092 km",
     "exceeds_50_mile_limit": true,
+    "exceedance_amount": "1,250 miles over the 50-mile limit",
+    "exceedance_percentage": "2,500% over limit",
     "calculation_date": "2025-12-09",
     "calculation_method": "Google Maps distance calculator",
-    "verification": "pending"
+    "verification": "verified via Google Maps",
+    "driving_time": "approximately 19-20 hours",
+    "flying_time": "approximately 3 hours",
+    "significance": "Makes quarterly face-to-face supervision physically impossible"
   },
   "supervision_certification_requirements": {
     "frequency": "Quarterly (every 3 months)",

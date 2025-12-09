@@ -25,10 +25,10 @@
   },
   "research": {
     "csv": 2,
-    "json": 77,
+    "json": 80,
     "pdf": 0,
     "excel": 0,
-    "total_files": 88,
+    "total_files": 93,
     "total_embeddings": 0
   },
   "evidence": {
@@ -48,11 +48,11 @@
     "total_embeddings": 0
   },
   "summary": {
-    "total_files": 114,
+    "total_files": 119,
     "total_embeddings": 0,
     "vector_store_stats": {
-      "total_embeddings": 9786,
-      "vector_store_size": 9786,
+      "total_embeddings": 9956,
+      "vector_store_size": 9956,
       "model": "all-MiniLM-L6-v2",
       "dimension": 384
     }

@@ -3,7 +3,7 @@
   "priority": "PRIORITY 4.2: Consumer Complaint Analysis",
   "objective": "Expand BBB complaint analysis and find additional complaint sources",
   "bbb_complaints": {
-    "status": "partial",
+    "status": "expanded",
     "total_complaints": 46,
     "unanswered_complaints": 26,
     "unanswered_percentage": 57,
@@ -11,6 +11,24 @@
     "recent_complaints_12_months": 16,
     "bbb_rating": "F (Failing)",
     "bbb_accredited": false,
+    "detailed_complaints": [
+      {
+        "date": "2025-08-19",
+        "property": "Alexandria, VA",
+        "type": "Application process / Discrimination",
+        "details": "Single mother of Ukrainian origin - manager rude and dismissive, income requirements higher than published, application canceled without explanation after 2+ weeks",
+        "resolution": "Kettler apologized, confirmed applicant would have qualified, corrected income calculation, invited to reapply",
+        "status": "Resolved - complainant satisfied"
+      },
+      {
+        "date": "2025-08-18",
+        "property": "Washington, DC",
+        "type": "Mandatory fees",
+        "details": "$60/month mandatory cable/internet charge, non-optional, tied to bulk service agreement, tenants cannot opt out or select another provider",
+        "resolution": "Business addressed but consumer did not accept response",
+        "status": "Answered but not resolved"
+      }
+    ],
     "complaint_types": {
       "service_repair": {
         "count": 24,

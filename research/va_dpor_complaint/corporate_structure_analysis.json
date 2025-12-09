@@ -14,7 +14,8 @@
       "city": "McLean",
       "state": "VA",
       "zip": "22102"
-    }
+    },
+    "verified": true
   },
   "name_history": {
     "original": "Kettler & Scott, Inc.",
@@ -51,27 +52,34 @@
     {
       "name": "Robert C. Kettler",
       "title": "Chairman, Founder & CEO",
-      "role": "Founder and owner"
+      "role": "Founder and owner",
+      "verified": true
     },
     {
-      "name": "Cindy Fisher",
+      "name": "Cynthia Fisher",
       "title": "President",
-      "role": "Executive leadership"
+      "role": "Executive leadership",
+      "verified": true,
+      "note": "Also listed as Cindy Fisher"
+    },
+    {
+      "name": "Sean H. Curtin",
+      "title": "Executive Vice President / General Counsel",
+      "role": "Legal affairs",
+      "verified": true
+    },
+    {
+      "name": "Patrick Cassada",
+      "title": "CFO",
+      "role": "Financial management",
+      "verified": true,
+      "note": "Also listed as Pat Cassada"
     },
     {
       "name": "Luke Davis",
       "title": "Chief Investment Officer",
-      "role": "Investment decisions"
-    },
-    {
-      "name": "Pat Cassada",
-      "title": "CFO",
-      "role": "Financial management"
-    },
-    {
-      "name": "Sean Curtin",
-      "title": "General Counsel",
-      "role": "Legal affairs"
+      "role": "Investment decisions",
+      "verified": false
     }
   ],
   "corporate_filings": {

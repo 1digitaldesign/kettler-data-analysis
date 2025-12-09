@@ -49,13 +49,36 @@
           "GATEWAY MANAGEMENT COMPANY LLC"
         ],
         "source": "VA DPOR firm licenses"
+      },
+      {
+        "address": "One Cowboys Way, Suite 571, Frisco, TX 75034",
+        "license_number": "689092",
+        "source": "Texas real estate license (licensee.io)",
+        "affiliation": "One Legacy Group under Monument Realty"
+      },
+      {
+        "address": "2591 Dallas Pkwy Ste 300, Frisco, TX 75034",
+        "affiliation": "Lariat Realty Advisors",
+        "position": "Broker",
+        "source": "Rysemgt.com disclosures"
       }
     ],
     "verification_methods": [
       "VA DPOR license records",
+      "Texas real estate license records (verified)",
       "Texas Secretary of State records (pending)",
       "Property records (pending)"
-    ]
+    ],
+    "additional_findings": {
+      "texas_license": "689092",
+      "email": "caitlin@onelegacyrealestate.com",
+      "phone": "214-733-6913",
+      "broker_positions": [
+        "Designated broker for Avenue5 Residential LLC in Missouri (License #2021049421)",
+        "Designated broker for Avenue5 Residential LLC in North Dakota",
+        "Broker at Lariat Realty Advisors"
+      ]
+    }
   },
   "virginia_business_registration": {
     "status": "pending",

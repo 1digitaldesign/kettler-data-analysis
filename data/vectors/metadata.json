@@ -97972,5 +97972,1705 @@
       "json_path": "next_steps[5]",
       "data_type": "json"
     }
+  },
+  "6e6325e9d9180d765fca580fb5c205c9": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:research_session",
+    "text": "research_session: 2025-12-09",
+    "vector_index": 9786,
+    "created_at": "2025-12-09T21:32:45.522184",
+    "metadata": {
+      "json_path": "research_session",
+      "data_type": "json"
+    }
+  },
+  "2037965c6bdc3247be2e2b628afc3fe6": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:start_time",
+    "text": "start_time: 2025-12-09T21:29:00Z",
+    "vector_index": 9787,
+    "created_at": "2025-12-09T21:32:45.626921",
+    "metadata": {
+      "json_path": "start_time",
+      "data_type": "json"
+    }
+  },
+  "780cdb421dde2fd6c1af4200b9f3cbb8": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:status",
+    "text": "status: in_progress",
+    "vector_index": 9788,
+    "created_at": "2025-12-09T21:32:45.729602",
+    "metadata": {
+      "json_path": "status",
+      "data_type": "json"
+    }
+  },
+  "ebec0677147ed9ec04836343ba32b1f1": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.distance_calculation.status",
+    "text": "status: completed",
+    "vector_index": 9789,
+    "created_at": "2025-12-09T21:32:45.819938",
+    "metadata": {
+      "json_path": "findings.distance_calculation.status",
+      "data_type": "json"
+    }
+  },
+  "3eff26c7679e6071f1408eb0740f6735": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.distance_calculation.distance_miles",
+    "text": "distance_miles: 1300",
+    "vector_index": 9790,
+    "created_at": "2025-12-09T21:32:45.919826",
+    "metadata": {
+      "json_path": "findings.distance_calculation.distance_miles",
+      "data_type": "json"
+    }
+  },
+  "9df90b13950ebd960a8ca109e0e154d0": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.distance_calculation.exceedance",
+    "text": "exceedance: 1,250 miles over 50-mile limit",
+    "vector_index": 9791,
+    "created_at": "2025-12-09T21:32:45.946885",
+    "metadata": {
+      "json_path": "findings.distance_calculation.exceedance",
+      "data_type": "json"
+    }
+  },
+  "a48e1e92bb9028b68bb29f7494c46eb2": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.distance_calculation.significance",
+    "text": "significance: Makes quarterly face-to-face supervision physically impossible",
+    "vector_index": 9792,
+    "created_at": "2025-12-09T21:32:46.138044",
+    "metadata": {
+      "json_path": "findings.distance_calculation.significance",
+      "data_type": "json"
+    }
+  },
+  "45846388625e70ff6ca85af91171c8c3": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.washington_city_paper.status",
+    "text": "status: found",
+    "vector_index": 9793,
+    "created_at": "2025-12-09T21:32:46.416287",
+    "metadata": {
+      "json_path": "findings.washington_city_paper.status",
+      "data_type": "json"
+    }
+  },
+  "194e3d0363252c63b7725ed394e0a979": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.washington_city_paper.url",
+    "text": "url: https://washingtoncitypaper.com/article/747728/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
+    "vector_index": 9794,
+    "created_at": "2025-12-09T21:32:46.530623",
+    "metadata": {
+      "json_path": "findings.washington_city_paper.url",
+      "data_type": "json"
+    }
+  },
+  "bcbb171c9887fe319e28e3dae0a0b3eb": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.washington_city_paper.title",
+    "text": "title: Corporate Landlords Nickel and Dime D.C. Tenants with Deceptive and Hidden Utility Fees",
+    "vector_index": 9795,
+    "created_at": "2025-12-09T21:32:46.733485",
+    "metadata": {
+      "json_path": "findings.washington_city_paper.title",
+      "data_type": "json"
+    }
+  },
+  "3d372830dd8f944c40f83c1753bfee62": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.washington_city_paper.key_findings[0]",
+    "text": "Jamison at Dakota Crossing: $1,500 water bills for 9 months",
+    "vector_index": 9796,
+    "created_at": "2025-12-09T21:32:46.915182",
+    "metadata": {
+      "json_path": "findings.washington_city_paper.key_findings[0]",
+      "data_type": "json"
+    }
+  },
+  "d8ec594435cfacf485ef1dd5ba5f5214": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.washington_city_paper.key_findings[1]",
+    "text": "Tenant LaShawn Melton: Lease specified actual usage but bills didn't match",
+    "vector_index": 9797,
+    "created_at": "2025-12-09T21:32:47.022409",
+    "metadata": {
+      "json_path": "findings.washington_city_paper.key_findings[1]",
+      "data_type": "json"
+    }
+  },
+  "a8bffa1fdc5269717d1f1ae64904cfc5": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.washington_city_paper.key_findings[2]",
+    "text": "Kettler would not provide rent history until water bill paid",
+    "vector_index": 9798,
+    "created_at": "2025-12-09T21:32:47.218610",
+    "metadata": {
+      "json_path": "findings.washington_city_paper.key_findings[2]",
+      "data_type": "json"
+    }
+  },
+  "2b80e3c6a939563da610fc4cb6444e78": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.washington_city_paper.key_findings[3]",
+    "text": "One case: $13,000 water bill",
+    "vector_index": 9799,
+    "created_at": "2025-12-09T21:32:47.413335",
+    "metadata": {
+      "json_path": "findings.washington_city_paper.key_findings[3]",
+      "data_type": "json"
+    }
+  },
+  "54a0f15098090bc6efbf4334d58b925f": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.washington_city_paper.key_findings[4]",
+    "text": "Disabled tenant: $631 water bill",
+    "vector_index": 9800,
+    "created_at": "2025-12-09T21:32:47.523229",
+    "metadata": {
+      "json_path": "findings.washington_city_paper.key_findings[4]",
+      "data_type": "json"
+    }
+  },
+  "eaa98e4320552899a3493369d603ef1b": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.equal_rights_center_settlement.status",
+    "text": "status: found",
+    "vector_index": 9801,
+    "created_at": "2025-12-09T21:32:47.624083",
+    "metadata": {
+      "json_path": "findings.equal_rights_center_settlement.status",
+      "data_type": "json"
+    }
+  },
+  "a93e6ec67edcc4264a2ccbb8e563095d": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.equal_rights_center_settlement.url",
+    "text": "url: https://equalrightscenter.org/press-release-kettler-2024/",
+    "vector_index": 9802,
+    "created_at": "2025-12-09T21:32:47.813662",
+    "metadata": {
+      "json_path": "findings.equal_rights_center_settlement.url",
+      "data_type": "json"
+    }
+  },
+  "86daba2cbd1d6be54b2f10de40c0a937": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.equal_rights_center_settlement.date",
+    "text": "date: 2024-03",
+    "vector_index": 9803,
+    "created_at": "2025-12-09T21:32:47.925102",
+    "metadata": {
+      "json_path": "findings.equal_rights_center_settlement.date",
+      "data_type": "json"
+    }
+  },
+  "74d83eb4f1a9ac32f9051aad54c02f61": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.equal_rights_center_settlement.amount",
+    "text": "amount: 140000",
+    "vector_index": 9804,
+    "created_at": "2025-12-09T21:32:48.120716",
+    "metadata": {
+      "json_path": "findings.equal_rights_center_settlement.amount",
+      "data_type": "json"
+    }
+  },
+  "8b353aac5d0785693ad97e6cabdc5b4a": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.equal_rights_center_settlement.details",
+    "text": "details: 3-year agreement, applies to all D.C. properties, mandatory training, compliance testing",
+    "vector_index": 9805,
+    "created_at": "2025-12-09T21:32:48.221180",
+    "metadata": {
+      "json_path": "findings.equal_rights_center_settlement.details",
+      "data_type": "json"
+    }
+  },
+  "5550b93e29aaf4bbbaf35c34b4d02597": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.skidmore_texas_addresses.status",
+    "text": "status: expanded",
+    "vector_index": 9806,
+    "created_at": "2025-12-09T21:32:48.333549",
+    "metadata": {
+      "json_path": "findings.skidmore_texas_addresses.status",
+      "data_type": "json"
+    }
+  },
+  "f6b7155bfd13f3060ac4e1754ea2373a": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.skidmore_texas_addresses.addresses[0]",
+    "text": "One Cowboys Way, Suite 571, Frisco, TX 75034",
+    "vector_index": 9807,
+    "created_at": "2025-12-09T21:32:48.538067",
+    "metadata": {
+      "json_path": "findings.skidmore_texas_addresses.addresses[0]",
+      "data_type": "json"
+    }
+  },
+  "d06025a2c84f18e0ffd82bf802798dc6": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.skidmore_texas_addresses.addresses[1]",
+    "text": "2591 Dallas Pkwy Ste 300, Frisco, TX 75034",
+    "vector_index": 9808,
+    "created_at": "2025-12-09T21:32:48.631101",
+    "metadata": {
+      "json_path": "findings.skidmore_texas_addresses.addresses[1]",
+      "data_type": "json"
+    }
+  },
+  "26155f081aa6818671c57426c5fdd063": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.skidmore_texas_addresses.addresses[2]",
+    "text": "5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+    "vector_index": 9809,
+    "created_at": "2025-12-09T21:32:48.811849",
+    "metadata": {
+      "json_path": "findings.skidmore_texas_addresses.addresses[2]",
+      "data_type": "json"
+    }
+  },
+  "179b08b3a6e931fb7879830b824a137c": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.skidmore_texas_addresses.texas_license",
+    "text": "texas_license: 689092",
+    "vector_index": 9810,
+    "created_at": "2025-12-09T21:32:48.931980",
+    "metadata": {
+      "json_path": "findings.skidmore_texas_addresses.texas_license",
+      "data_type": "json"
+    }
+  },
+  "87bcd8f549893c82f4d310516700501f": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.skidmore_texas_addresses.affiliations[0]",
+    "text": "One Legacy Group under Monument Realty",
+    "vector_index": 9811,
+    "created_at": "2025-12-09T21:32:49.038175",
+    "metadata": {
+      "json_path": "findings.skidmore_texas_addresses.affiliations[0]",
+      "data_type": "json"
+    }
+  },
+  "26872031248299f61841f57f067fa7be": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.skidmore_texas_addresses.affiliations[1]",
+    "text": "Lariat Realty Advisors (Broker)",
+    "vector_index": 9812,
+    "created_at": "2025-12-09T21:32:49.228391",
+    "metadata": {
+      "json_path": "findings.skidmore_texas_addresses.affiliations[1]",
+      "data_type": "json"
+    }
+  },
+  "31bd0112c330e88a7e36659803a5bfcb": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.skidmore_texas_addresses.affiliations[2]",
+    "text": "Avenue5 Residential LLC (Designated broker - MO, ND)",
+    "vector_index": 9813,
+    "created_at": "2025-12-09T21:32:49.419751",
+    "metadata": {
+      "json_path": "findings.skidmore_texas_addresses.affiliations[2]",
+      "data_type": "json"
+    }
+  },
+  "c96c03cc1430cf4a0145804f7eec0e31": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.status",
+    "text": "status: found",
+    "vector_index": 9814,
+    "created_at": "2025-12-09T21:32:49.528860",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.status",
+      "data_type": "json"
+    }
+  },
+  "c55a57580b71fc2271b3f44c3a4b6f1f": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.incorporated",
+    "text": "incorporated: 1988-05-20",
+    "vector_index": 9815,
+    "created_at": "2025-12-09T21:32:49.628627",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.incorporated",
+      "data_type": "json"
+    }
+  },
+  "2619854a6c14a8f3d1fb73fa1feccbdf": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.original_name",
+    "text": "original_name: KSI Management Corp",
+    "vector_index": 9816,
+    "created_at": "2025-12-09T21:32:49.726478",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.original_name",
+      "data_type": "json"
+    }
+  },
+  "23c75c02aa6ea2c8a2f7ca5778b02a3f": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.name_change",
+    "text": "name_change: 2007-04-06 to Kettler Management Inc",
+    "vector_index": 9817,
+    "created_at": "2025-12-09T21:32:49.921730",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.name_change",
+      "data_type": "json"
+    }
+  },
+  "89d6184801ac5c7135890d0f9ba21ecf": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.officers[0]",
+    "text": "Robert C. Kettler - CEO",
+    "vector_index": 9818,
+    "created_at": "2025-12-09T21:32:50.028026",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.officers[0]",
+      "data_type": "json"
+    }
+  },
+  "703b2bf347c2b4bbe6f329d63e003d9c": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.officers[1]",
+    "text": "Cynthia Fisher - President",
+    "vector_index": 9819,
+    "created_at": "2025-12-09T21:32:50.129667",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.officers[1]",
+      "data_type": "json"
+    }
+  },
+  "d3227bb0f68325b48f97c6f932e1e7c7": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.officers[2]",
+    "text": "Sean H. Curtin - Executive VP",
+    "vector_index": 9820,
+    "created_at": "2025-12-09T21:32:50.334493",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.officers[2]",
+      "data_type": "json"
+    }
+  },
+  "d8edef9844d3968d416944f3be5f1687": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.officers[3]",
+    "text": "Patrick Cassada - CFO",
+    "vector_index": 9821,
+    "created_at": "2025-12-09T21:32:50.518697",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.officers[3]",
+      "data_type": "json"
+    }
+  },
+  "a637b2374f207393f22d736a14d17cef": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:findings.kettler_corporate_info.florida_registration",
+    "text": "florida_registration: Foreign Profit Corporation, filed 2018-06-20",
+    "vector_index": 9822,
+    "created_at": "2025-12-09T21:32:50.621548",
+    "metadata": {
+      "json_path": "findings.kettler_corporate_info.florida_registration",
+      "data_type": "json"
+    }
+  },
+  "d6e9bfaa3f3bdfbb388d88231532fac1": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:next_actions[0]",
+    "text": "Search Wayback Machine for historical DPOR records",
+    "vector_index": 9823,
+    "created_at": "2025-12-09T21:32:50.728978",
+    "metadata": {
+      "json_path": "next_actions[0]",
+      "data_type": "json"
+    }
+  },
+  "92045c4ddcbb1d4f54fad72d32664bd1": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:next_actions[1]",
+    "text": "Search Virginia SCC for detailed corporate filings",
+    "vector_index": 9824,
+    "created_at": "2025-12-09T21:32:50.920052",
+    "metadata": {
+      "json_path": "next_actions[1]",
+      "data_type": "json"
+    }
+  },
+  "f4e3a16f319c2fcb6476772aa67f0d72": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:next_actions[2]",
+    "text": "Search Delaware SOS for Kettler entities",
+    "vector_index": 9825,
+    "created_at": "2025-12-09T21:32:51.045663",
+    "metadata": {
+      "json_path": "next_actions[2]",
+      "data_type": "json"
+    }
+  },
+  "2602908b02c4792784e39241ae68db04": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:next_actions[3]",
+    "text": "Expand property records searches",
+    "vector_index": 9826,
+    "created_at": "2025-12-09T21:32:51.217135",
+    "metadata": {
+      "json_path": "next_actions[3]",
+      "data_type": "json"
+    }
+  },
+  "7c5ca29740c14100774c44e4c7c75c98": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:next_actions[4]",
+    "text": "Search court records",
+    "vector_index": 9827,
+    "created_at": "2025-12-09T21:32:51.322726",
+    "metadata": {
+      "json_path": "next_actions[4]",
+      "data_type": "json"
+    }
+  },
+  "560633e043fd14fa81a3b5839c914ec2": {
+    "source": "json:research/va_dpor_complaint/research_progress_log.json:update_frequency",
+    "text": "update_frequency: every_3_seconds",
+    "vector_index": 9828,
+    "created_at": "2025-12-09T21:32:51.421382",
+    "metadata": {
+      "json_path": "update_frequency",
+      "data_type": "json"
+    }
+  },
+  "351a93893ddd5d668e3315661049b6c2": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:research_date",
+    "text": "research_date: 2025-12-09",
+    "vector_index": 9829,
+    "created_at": "2025-12-09T21:33:54.262499",
+    "metadata": {
+      "json_path": "research_date",
+      "data_type": "json"
+    }
+  },
+  "11b33015434a272bb5f30851aec1f8d1": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:source",
+    "text": "source: Justia Dockets and Law.com searches",
+    "vector_index": 9830,
+    "created_at": "2025-12-09T21:33:54.360963",
+    "metadata": {
+      "json_path": "source",
+      "data_type": "json"
+    }
+  },
+  "0b5811e29f09a631511493b11fc12c86": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:total_cases_found",
+    "text": "total_cases_found: 6",
+    "vector_index": 9831,
+    "created_at": "2025-12-09T21:33:54.366227",
+    "metadata": {
+      "json_path": "total_cases_found",
+      "data_type": "json"
+    }
+  },
+  "1e94b66edf504686f2f5dd706ed1bb8d": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].case_name",
+    "text": "case_name: Equal Rights Center v. Kettler Management, Inc.",
+    "vector_index": 9832,
+    "created_at": "2025-12-09T21:33:54.572408",
+    "metadata": {
+      "json_path": "cases[0].case_name",
+      "data_type": "json"
+    }
+  },
+  "ecc5f96a7aade8467450f30e378e2608": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].case_filed",
+    "text": "case_filed: 2023-09-12",
+    "vector_index": 9833,
+    "created_at": "2025-12-09T21:33:54.660911",
+    "metadata": {
+      "json_path": "cases[0].case_filed",
+      "data_type": "json"
+    }
+  },
+  "5ce9f8548ce142c29b9f10bb9ed3b64f": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].case_decided",
+    "text": "case_decided: 2024-03",
+    "vector_index": 9834,
+    "created_at": "2025-12-09T21:33:54.668856",
+    "metadata": {
+      "json_path": "cases[0].case_decided",
+      "data_type": "json"
+    }
+  },
+  "4cb61818e4f10987e79679f26dc38e87": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].court",
+    "text": "court: Superior Court of the District of Columbia",
+    "vector_index": 9835,
+    "created_at": "2025-12-09T21:33:54.862662",
+    "metadata": {
+      "json_path": "cases[0].court",
+      "data_type": "json"
+    }
+  },
+  "d443af087187c6dc7c430a4a5c925f2a": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].jurisdiction",
+    "text": "jurisdiction: DC",
+    "vector_index": 9836,
+    "created_at": "2025-12-09T21:33:55.062547",
+    "metadata": {
+      "json_path": "cases[0].jurisdiction",
+      "data_type": "json"
+    }
+  },
+  "23da9afc5a20f1ffbb139eed5b095d03": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].case_type",
+    "text": "case_type: Fair Housing Act violation",
+    "vector_index": 9837,
+    "created_at": "2025-12-09T21:33:55.164221",
+    "metadata": {
+      "json_path": "cases[0].case_type",
+      "data_type": "json"
+    }
+  },
+  "9d56ea0f01cc54d5beac6186280a4925": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].violation",
+    "text": "violation: Source of income discrimination",
+    "vector_index": 9838,
+    "created_at": "2025-12-09T21:33:55.373350",
+    "metadata": {
+      "json_path": "cases[0].violation",
+      "data_type": "json"
+    }
+  },
+  "cddc801dfda2e4d8201b1b7c80a9982a": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].settlement_amount",
+    "text": "settlement_amount: 140000",
+    "vector_index": 9839,
+    "created_at": "2025-12-09T21:33:55.465155",
+    "metadata": {
+      "json_path": "cases[0].settlement_amount",
+      "data_type": "json"
+    }
+  },
+  "0455af644edb72fbaf27a8cd17e074ed": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].complaint_url",
+    "text": "complaint_url: https://equalrightscenter.org/wp-content/uploads/2023.09.12-erc-v.-kettler-complaint-tagged.pdf",
+    "vector_index": 9840,
+    "created_at": "2025-12-09T21:33:55.563618",
+    "metadata": {
+      "json_path": "cases[0].complaint_url",
+      "data_type": "json"
+    }
+  },
+  "06f5231cac755182100d20eaad2462a9": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].significance",
+    "text": "significance: Settlement during principal broker gap period",
+    "vector_index": 9841,
+    "created_at": "2025-12-09T21:33:55.660297",
+    "metadata": {
+      "json_path": "cases[0].significance",
+      "data_type": "json"
+    }
+  },
+  "4efbd8470e4dee127d8929722f8780a3": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[0].status",
+    "text": "status: settled",
+    "vector_index": 9842,
+    "created_at": "2025-12-09T21:33:55.772644",
+    "metadata": {
+      "json_path": "cases[0].status",
+      "data_type": "json"
+    }
+  },
+  "5ba7b507ba16a4eff2c8cdcc859969c8": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].case_name",
+    "text": "case_name: Coleman v. Kettler Management, et al.",
+    "vector_index": 9843,
+    "created_at": "2025-12-09T21:33:55.864889",
+    "metadata": {
+      "json_path": "cases[1].case_name",
+      "data_type": "json"
+    }
+  },
+  "362ac2814f7d2ecfadeb6fa25cd03409": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].case_number",
+    "text": "case_number: 1:2022cv00084",
+    "vector_index": 9844,
+    "created_at": "2025-12-09T21:33:55.965159",
+    "metadata": {
+      "json_path": "cases[1].case_number",
+      "data_type": "json"
+    }
+  },
+  "d09f994f219f15f401753b78d13bbc9c": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].case_filed",
+    "text": "case_filed: 2022",
+    "vector_index": 9845,
+    "created_at": "2025-12-09T21:33:56.165827",
+    "metadata": {
+      "json_path": "cases[1].case_filed",
+      "data_type": "json"
+    }
+  },
+  "8f67cea2342b34b9702c1deab66e2a90": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].court",
+    "text": "court: U.S. District Court for the Eastern District of Virginia",
+    "vector_index": 9846,
+    "created_at": "2025-12-09T21:33:56.267441",
+    "metadata": {
+      "json_path": "cases[1].court",
+      "data_type": "json"
+    }
+  },
+  "452a941c63db1c95120770b9eceb4439": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].jurisdiction",
+    "text": "jurisdiction: VA",
+    "vector_index": 9847,
+    "created_at": "2025-12-09T21:33:56.463666",
+    "metadata": {
+      "json_path": "cases[1].jurisdiction",
+      "data_type": "json"
+    }
+  },
+  "cec3a80d7adb410842fa0a6c974a7590": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].case_type",
+    "text": "case_type: Employment discrimination",
+    "vector_index": 9848,
+    "created_at": "2025-12-09T21:33:56.656398",
+    "metadata": {
+      "json_path": "cases[1].case_type",
+      "data_type": "json"
+    }
+  },
+  "0a0d17aa8ee419e83126b1fd3a6529b8": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].violation",
+    "text": "violation: Race and disability discrimination, hostile work environment",
+    "vector_index": 9849,
+    "created_at": "2025-12-09T21:33:56.664531",
+    "metadata": {
+      "json_path": "cases[1].violation",
+      "data_type": "json"
+    }
+  },
+  "7c417132487d3c1768448b6b8a44981f": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].case_url",
+    "text": "case_url: https://law.justia.com/cases/federal/district-courts/virginia/vaedce/1%3A2022cv00084/519199/37/",
+    "vector_index": 9850,
+    "created_at": "2025-12-09T21:33:56.764730",
+    "metadata": {
+      "json_path": "cases[1].case_url",
+      "data_type": "json"
+    }
+  },
+  "ec556995283b634848a5762513d26bee": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].significance",
+    "text": "significance: Employment practices violations",
+    "vector_index": 9851,
+    "created_at": "2025-12-09T21:33:56.863565",
+    "metadata": {
+      "json_path": "cases[1].significance",
+      "data_type": "json"
+    }
+  },
+  "da0ac57792d5fac653f77eceecdc76bf": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[1].status",
+    "text": "status: unknown",
+    "vector_index": 9852,
+    "created_at": "2025-12-09T21:33:56.977499",
+    "metadata": {
+      "json_path": "cases[1].status",
+      "data_type": "json"
+    }
+  },
+  "4c90f66fff6f6ae73cfabe5148aca542": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].case_name",
+    "text": "case_name: Wible v. Parcel D Property, LLC et al",
+    "vector_index": 9853,
+    "created_at": "2025-12-09T21:33:57.063086",
+    "metadata": {
+      "json_path": "cases[2].case_name",
+      "data_type": "json"
+    }
+  },
+  "90674ec373db75e2d2506e9e7b46f500": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].case_number",
+    "text": "case_number: 1:2025cv00791",
+    "vector_index": 9854,
+    "created_at": "2025-12-09T21:33:57.261089",
+    "metadata": {
+      "json_path": "cases[2].case_number",
+      "data_type": "json"
+    }
+  },
+  "d3739680497b3aa6642c84f4d621652c": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].case_filed",
+    "text": "case_filed: 2025-03-11",
+    "vector_index": 9855,
+    "created_at": "2025-12-09T21:33:57.364038",
+    "metadata": {
+      "json_path": "cases[2].case_filed",
+      "data_type": "json"
+    }
+  },
+  "a4b60ca73c95a125c4b567631343eadc": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].court",
+    "text": "court: U.S. District Court for the District of Maryland",
+    "vector_index": 9856,
+    "created_at": "2025-12-09T21:33:57.571288",
+    "metadata": {
+      "json_path": "cases[2].court",
+      "data_type": "json"
+    }
+  },
+  "447039b4be7aed58a67a75f5fe323347": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].jurisdiction",
+    "text": "jurisdiction: MD",
+    "vector_index": 9857,
+    "created_at": "2025-12-09T21:33:57.663012",
+    "metadata": {
+      "json_path": "cases[2].jurisdiction",
+      "data_type": "json"
+    }
+  },
+  "880e3a0f9c8cfaaa3d6446e640c83405": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].case_type",
+    "text": "case_type: Personal injury",
+    "vector_index": 9858,
+    "created_at": "2025-12-09T21:33:57.774650",
+    "metadata": {
+      "json_path": "cases[2].case_type",
+      "data_type": "json"
+    }
+  },
+  "abd72a003b01cc813d1fc18e5aa30054": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].violation",
+    "text": "violation: Personal injury claim",
+    "vector_index": 9859,
+    "created_at": "2025-12-09T21:33:57.865908",
+    "metadata": {
+      "json_path": "cases[2].violation",
+      "data_type": "json"
+    }
+  },
+  "ef7f8dada3208fa03d2aea98606a18e5": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].case_url",
+    "text": "case_url: https://dockets.justia.com/docket/maryland/mddce/1%3A2025cv00791/578113",
+    "vector_index": 9860,
+    "created_at": "2025-12-09T21:33:57.975313",
+    "metadata": {
+      "json_path": "cases[2].case_url",
+      "data_type": "json"
+    }
+  },
+  "e2c2dfefe540bfc27e8a91aff094e431": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].significance",
+    "text": "significance: Ongoing litigation",
+    "vector_index": 9861,
+    "created_at": "2025-12-09T21:33:58.068152",
+    "metadata": {
+      "json_path": "cases[2].significance",
+      "data_type": "json"
+    }
+  },
+  "a1641a5cd9efe3ca54ba4d42870db67a": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[2].status",
+    "text": "status: active",
+    "vector_index": 9862,
+    "created_at": "2025-12-09T21:33:58.256779",
+    "metadata": {
+      "json_path": "cases[2].status",
+      "data_type": "json"
+    }
+  },
+  "5a0cf667940f84edf7cd9efafacd0479": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].case_name",
+    "text": "case_name: Housing Rights Initiative et al v. Bozzuto Management Company et al",
+    "vector_index": 9863,
+    "created_at": "2025-12-09T21:33:58.355557",
+    "metadata": {
+      "json_path": "cases[3].case_name",
+      "data_type": "json"
+    }
+  },
+  "aee4e4129258bbc016b95d90d97cea2d": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].case_number",
+    "text": "case_number: 8:2020cv01956",
+    "vector_index": 9864,
+    "created_at": "2025-12-09T21:33:58.463263",
+    "metadata": {
+      "json_path": "cases[3].case_number",
+      "data_type": "json"
+    }
+  },
+  "56a83158411cfbfa7ce6f08ac840dfd8": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].case_filed",
+    "text": "case_filed: 2020-07-01",
+    "vector_index": 9865,
+    "created_at": "2025-12-09T21:33:58.659831",
+    "metadata": {
+      "json_path": "cases[3].case_filed",
+      "data_type": "json"
+    }
+  },
+  "a2a0c9067470fc5ac32eec1973ce49e0": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].court",
+    "text": "court: U.S. District Court for the District of Maryland",
+    "vector_index": 9866,
+    "created_at": "2025-12-09T21:33:58.665494",
+    "metadata": {
+      "json_path": "cases[3].court",
+      "data_type": "json"
+    }
+  },
+  "4aa9087a0f97adf46365a3097fa837d4": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].jurisdiction",
+    "text": "jurisdiction: MD",
+    "vector_index": 9867,
+    "created_at": "2025-12-09T21:33:58.763588",
+    "metadata": {
+      "json_path": "cases[3].jurisdiction",
+      "data_type": "json"
+    }
+  },
+  "036200fc7c555b03c512c244f151cd86": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].case_type",
+    "text": "case_type: Civil rights",
+    "vector_index": 9868,
+    "created_at": "2025-12-09T21:33:58.865620",
+    "metadata": {
+      "json_path": "cases[3].case_type",
+      "data_type": "json"
+    }
+  },
+  "6155fe8524f16db5616d724c596a0866": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].violation",
+    "text": "violation: Civil rights lawsuit",
+    "vector_index": 9869,
+    "created_at": "2025-12-09T21:33:58.964475",
+    "metadata": {
+      "json_path": "cases[3].violation",
+      "data_type": "json"
+    }
+  },
+  "9fe6d77d1695151ae18608aa1db1118d": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].case_url",
+    "text": "case_url: https://dockets.justia.com/docket/maryland/mddce/8%3A2020cv01956/483119",
+    "vector_index": 9870,
+    "created_at": "2025-12-09T21:33:59.161014",
+    "metadata": {
+      "json_path": "cases[3].case_url",
+      "data_type": "json"
+    }
+  },
+  "c4082e9e559f131d8a15b4347e6a8947": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].significance",
+    "text": "significance: Kettler named as defendant alongside Bozzuto (both list Skidmore as principal broker)",
+    "vector_index": 9871,
+    "created_at": "2025-12-09T21:33:59.171840",
+    "metadata": {
+      "json_path": "cases[3].significance",
+      "data_type": "json"
+    }
+  },
+  "8cc9be3d6e6e868c3fd983f366a6379e": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[3].status",
+    "text": "status: unknown",
+    "vector_index": 9872,
+    "created_at": "2025-12-09T21:33:59.260095",
+    "metadata": {
+      "json_path": "cases[3].status",
+      "data_type": "json"
+    }
+  },
+  "7f731bb165a61dbd7809c20c27f99d2e": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].case_name",
+    "text": "case_name: Opiotennione v. Bozzuto Management Co.",
+    "vector_index": 9873,
+    "created_at": "2025-12-09T21:33:59.354970",
+    "metadata": {
+      "json_path": "cases[4].case_name",
+      "data_type": "json"
+    }
+  },
+  "04c73220c12661a78697209adf248f27": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].case_number",
+    "text": "case_number: 21-1919",
+    "vector_index": 9874,
+    "created_at": "2025-12-09T21:33:59.364548",
+    "metadata": {
+      "json_path": "cases[4].case_number",
+      "data_type": "json"
+    }
+  },
+  "9e5901099940531bc6f687fbf2584a3d": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].case_decided",
+    "text": "case_decided: 2025-03-04",
+    "vector_index": 9875,
+    "created_at": "2025-12-09T21:33:59.562365",
+    "metadata": {
+      "json_path": "cases[4].case_decided",
+      "data_type": "json"
+    }
+  },
+  "f3871933f6a6ea8b7e3eeb0438eadd07": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].court",
+    "text": "court: United States Court of Appeals for the Fourth Circuit",
+    "vector_index": 9876,
+    "created_at": "2025-12-09T21:33:59.672837",
+    "metadata": {
+      "json_path": "cases[4].court",
+      "data_type": "json"
+    }
+  },
+  "68aa5e56522af39334dd03e8d5273147": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].jurisdiction",
+    "text": "jurisdiction: Federal",
+    "vector_index": 9877,
+    "created_at": "2025-12-09T21:33:59.864895",
+    "metadata": {
+      "json_path": "cases[4].jurisdiction",
+      "data_type": "json"
+    }
+  },
+  "fdf712fc25ec7c8999cc779d68680e40": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].case_type",
+    "text": "case_type: Appellate proceeding",
+    "vector_index": 9878,
+    "created_at": "2025-12-09T21:33:59.966923",
+    "metadata": {
+      "json_path": "cases[4].case_type",
+      "data_type": "json"
+    }
+  },
+  "c697380edeb3a43407fd63a393284ab2": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].violation",
+    "text": "violation: Appellate case",
+    "vector_index": 9879,
+    "created_at": "2025-12-09T21:34:00.072942",
+    "metadata": {
+      "json_path": "cases[4].violation",
+      "data_type": "json"
+    }
+  },
+  "c8c62e36f4b5fbf8278ef4a8126bf367": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].case_url",
+    "text": "case_url: https://law.justia.com/cases/federal/appellate-courts/ca4/21-1919/21-1919-2025-03-04.html",
+    "vector_index": 9880,
+    "created_at": "2025-12-09T21:34:00.264976",
+    "metadata": {
+      "json_path": "cases[4].case_url",
+      "data_type": "json"
+    }
+  },
+  "1042a8f606545dcb9ad1c14b9e851341": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].significance",
+    "text": "significance: Kettler Management Inc. as appellee",
+    "vector_index": 9881,
+    "created_at": "2025-12-09T21:34:00.380003",
+    "metadata": {
+      "json_path": "cases[4].significance",
+      "data_type": "json"
+    }
+  },
+  "a1dae00550578146370c08546c85a16c": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[4].status",
+    "text": "status: decided",
+    "vector_index": 9882,
+    "created_at": "2025-12-09T21:34:00.565113",
+    "metadata": {
+      "json_path": "cases[4].status",
+      "data_type": "json"
+    }
+  },
+  "2f5484f9a6498d4f7e7e6094ad5b34e4": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].case_name",
+    "text": "case_name: Williams v. Kettler Management Inc.",
+    "vector_index": 9883,
+    "created_at": "2025-12-09T21:34:00.675180",
+    "metadata": {
+      "json_path": "cases[5].case_name",
+      "data_type": "json"
+    }
+  },
+  "dc21b788f429eade65c85525fe93d792": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].case_number",
+    "text": "case_number: 8:2012cv01226",
+    "vector_index": 9884,
+    "created_at": "2025-12-09T21:34:00.768601",
+    "metadata": {
+      "json_path": "cases[5].case_number",
+      "data_type": "json"
+    }
+  },
+  "96a20d141d13d91a4ca9dcb9dc2fbd4e": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].case_filed",
+    "text": "case_filed: 2012",
+    "vector_index": 9885,
+    "created_at": "2025-12-09T21:34:00.961208",
+    "metadata": {
+      "json_path": "cases[5].case_filed",
+      "data_type": "json"
+    }
+  },
+  "4173376958e71a961732c4f3af133c31": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].proceedings_extended",
+    "text": "proceedings_extended: 2014",
+    "vector_index": 9886,
+    "created_at": "2025-12-09T21:34:01.080116",
+    "metadata": {
+      "json_path": "cases[5].proceedings_extended",
+      "data_type": "json"
+    }
+  },
+  "c46fda188434eff6d71cb80394e8379d": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].court",
+    "text": "court: U.S. District Court for the District of Maryland",
+    "vector_index": 9887,
+    "created_at": "2025-12-09T21:34:01.166078",
+    "metadata": {
+      "json_path": "cases[5].court",
+      "data_type": "json"
+    }
+  },
+  "61e3d9d132a11c875243af6f02e3912f": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].jurisdiction",
+    "text": "jurisdiction: MD",
+    "vector_index": 9888,
+    "created_at": "2025-12-09T21:34:01.262430",
+    "metadata": {
+      "json_path": "cases[5].jurisdiction",
+      "data_type": "json"
+    }
+  },
+  "2bef6c8bce52a79311b7c66a3eb74017": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].case_type",
+    "text": "case_type: Unknown",
+    "vector_index": 9889,
+    "created_at": "2025-12-09T21:34:01.363151",
+    "metadata": {
+      "json_path": "cases[5].case_type",
+      "data_type": "json"
+    }
+  },
+  "423011bdfacffa31931c35bc7ac9018d": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].violation",
+    "text": "violation: Unknown - proceedings extended into 2014",
+    "vector_index": 9890,
+    "created_at": "2025-12-09T21:34:01.463511",
+    "metadata": {
+      "json_path": "cases[5].violation",
+      "data_type": "json"
+    }
+  },
+  "823b69b72d79f7c2981583a9b48ced98": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].case_url",
+    "text": "case_url: https://law.justia.com/cases/federal/district-courts/maryland/mddce/8%3A2012cv01226/201149/86/",
+    "vector_index": 9891,
+    "created_at": "2025-12-09T21:34:01.570759",
+    "metadata": {
+      "json_path": "cases[5].case_url",
+      "data_type": "json"
+    }
+  },
+  "87cb53a663342c593f8d019e01689d38": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].significance",
+    "text": "significance: Ongoing litigation during principal broker gap period (2014)",
+    "vector_index": 9892,
+    "created_at": "2025-12-09T21:34:01.762180",
+    "metadata": {
+      "json_path": "cases[5].significance",
+      "data_type": "json"
+    }
+  },
+  "816a174d1bd6b31bada0a4c7e2f7c3d7": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:cases[5].status",
+    "text": "status: unknown",
+    "vector_index": 9893,
+    "created_at": "2025-12-09T21:34:01.855583",
+    "metadata": {
+      "json_path": "cases[5].status",
+      "data_type": "json"
+    }
+  },
+  "c8a552788298c20fe07023b6d6500bf6": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:case_analysis.cases_during_gap_period[0]",
+    "text": "Williams v. Kettler (2012-2014)",
+    "vector_index": 9894,
+    "created_at": "2025-12-09T21:34:01.972223",
+    "metadata": {
+      "json_path": "case_analysis.cases_during_gap_period[0]",
+      "data_type": "json"
+    }
+  },
+  "6dcaf531741fe9fede83f3cc3acb98b7": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:case_analysis.cases_during_gap_period[1]",
+    "text": "Equal Rights Center v. Kettler (filed 2023, settled 2024)",
+    "vector_index": 9895,
+    "created_at": "2025-12-09T21:34:02.073996",
+    "metadata": {
+      "json_path": "case_analysis.cases_during_gap_period[1]",
+      "data_type": "json"
+    }
+  },
+  "c4be386b84e0228c3aee987d919d2bd4": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:case_analysis.cases_with_skidmore_firms[0]",
+    "text": "Housing Rights Initiative v. Bozzuto (Kettler and Bozzuto both list Skidmore)",
+    "vector_index": 9896,
+    "created_at": "2025-12-09T21:34:02.261663",
+    "metadata": {
+      "json_path": "case_analysis.cases_with_skidmore_firms[0]",
+      "data_type": "json"
+    }
+  },
+  "ccef519aac41db684ddadf2189d7b207": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:case_analysis.cases_with_skidmore_firms[1]",
+    "text": "Opiotennione v. Bozzuto (Kettler as appellee)",
+    "vector_index": 9897,
+    "created_at": "2025-12-09T21:34:02.371855",
+    "metadata": {
+      "json_path": "case_analysis.cases_with_skidmore_firms[1]",
+      "data_type": "json"
+    }
+  },
+  "176b084e974c93d6f5fcd6d49a7528b5": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:case_analysis.total_settlements",
+    "text": "total_settlements: 1",
+    "vector_index": 9898,
+    "created_at": "2025-12-09T21:34:02.559634",
+    "metadata": {
+      "json_path": "case_analysis.total_settlements",
+      "data_type": "json"
+    }
+  },
+  "649fe5bb6944af12f3d7282e0aabdf72": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:case_analysis.total_active_cases",
+    "text": "total_active_cases: 1",
+    "vector_index": 9899,
+    "created_at": "2025-12-09T21:34:02.674151",
+    "metadata": {
+      "json_path": "case_analysis.total_active_cases",
+      "data_type": "json"
+    }
+  },
+  "9fca42d38941fa55ad4554cb361fa8d0": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:case_analysis.total_cases",
+    "text": "total_cases: 6",
+    "vector_index": 9900,
+    "created_at": "2025-12-09T21:34:02.859983",
+    "metadata": {
+      "json_path": "case_analysis.total_cases",
+      "data_type": "json"
+    }
+  },
+  "f6f2059eaae4784d0cc9406cce2e8279": {
+    "source": "json:research/va_dpor_complaint/court_cases_compilation.json:significance_for_complaint",
+    "text": "significance_for_complaint: Multiple court cases demonstrate pattern of legal issues, including cases during principal broker gap period",
+    "vector_index": 9901,
+    "created_at": "2025-12-09T21:34:02.974885",
+    "metadata": {
+      "json_path": "significance_for_complaint",
+      "data_type": "json"
+    }
+  },
+  "b8b64f900921a72343f173c1f899996d": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:research_date",
+    "text": "research_date: 2025-12-09",
+    "vector_index": 9902,
+    "created_at": "2025-12-09T21:34:03.163837",
+    "metadata": {
+      "json_path": "research_date",
+      "data_type": "json"
+    }
+  },
+  "8d9e9745c1c8b517e13da480fa9712a6": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:session_duration",
+    "text": "session_duration: ongoing",
+    "vector_index": 9903,
+    "created_at": "2025-12-09T21:34:03.275439",
+    "metadata": {
+      "json_path": "session_duration",
+      "data_type": "json"
+    }
+  },
+  "3bbde90451243e2025609be051a00520": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:status",
+    "text": "status: in_progress",
+    "vector_index": 9904,
+    "created_at": "2025-12-09T21:34:03.459425",
+    "metadata": {
+      "json_path": "status",
+      "data_type": "json"
+    }
+  },
+  "08066661cbdbc9cb7b08afa8eedcdaff": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.distance_verification.status",
+    "text": "status: completed",
+    "vector_index": 9905,
+    "created_at": "2025-12-09T21:34:03.595092",
+    "metadata": {
+      "json_path": "findings_summary.distance_verification.status",
+      "data_type": "json"
+    }
+  },
+  "88553bc24432cbdcbce4186695a8733d": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.distance_verification.distance",
+    "text": "distance: 1,300 miles",
+    "vector_index": 9906,
+    "created_at": "2025-12-09T21:34:03.766745",
+    "metadata": {
+      "json_path": "findings_summary.distance_verification.distance",
+      "data_type": "json"
+    }
+  },
+  "f27c8d42d0560c4a82af5441c9aa3fd1": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.distance_verification.exceedance",
+    "text": "exceedance: 1,250 miles over 50-mile limit",
+    "vector_index": 9907,
+    "created_at": "2025-12-09T21:34:03.869449",
+    "metadata": {
+      "json_path": "findings_summary.distance_verification.exceedance",
+      "data_type": "json"
+    }
+  },
+  "631cfa00b2a45cd66124de07a0dbe6ae": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.distance_verification.significance",
+    "text": "significance: Makes quarterly face-to-face supervision physically impossible",
+    "vector_index": 9908,
+    "created_at": "2025-12-09T21:34:03.975849",
+    "metadata": {
+      "json_path": "findings_summary.distance_verification.significance",
+      "data_type": "json"
+    }
+  },
+  "6ed7f4299f98e0203397d09b6a0561a6": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.washington_city_paper.status",
+    "text": "status: found",
+    "vector_index": 9909,
+    "created_at": "2025-12-09T21:34:04.168196",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.washington_city_paper.status",
+      "data_type": "json"
+    }
+  },
+  "a4f1eba48f947711c7118c90e34670e7": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.washington_city_paper.url",
+    "text": "url: https://washingtoncitypaper.com/article/747728/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
+    "vector_index": 9910,
+    "created_at": "2025-12-09T21:34:04.274306",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.washington_city_paper.url",
+      "data_type": "json"
+    }
+  },
+  "516123ba1da9835a2b176729eccca978": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.washington_city_paper.key_findings[0]",
+    "text": "Jamison at Dakota Crossing: $1,500 water bills for 9 months",
+    "vector_index": 9911,
+    "created_at": "2025-12-09T21:34:04.469730",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.washington_city_paper.key_findings[0]",
+      "data_type": "json"
+    }
+  },
+  "1e511dfd393a832f5b17a5cce463cc2a": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.washington_city_paper.key_findings[1]",
+    "text": "Tenant LaShawn Melton: Lease specified actual usage but bills didn't match",
+    "vector_index": 9912,
+    "created_at": "2025-12-09T21:34:04.561374",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.washington_city_paper.key_findings[1]",
+      "data_type": "json"
+    }
+  },
+  "26a0fb509edbbc678636dd4fdf5fe27b": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.washington_city_paper.key_findings[2]",
+    "text": "One case: $13,000 water bill",
+    "vector_index": 9913,
+    "created_at": "2025-12-09T21:34:04.764878",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.washington_city_paper.key_findings[2]",
+      "data_type": "json"
+    }
+  },
+  "6154a474aa800e02fd6251a3b8d7526b": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.washington_city_paper.key_findings[3]",
+    "text": "Disabled tenant: $631 water bill",
+    "vector_index": 9914,
+    "created_at": "2025-12-09T21:34:04.862785",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.washington_city_paper.key_findings[3]",
+      "data_type": "json"
+    }
+  },
+  "8950a9d1df5e4f32310136058e1f870e": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.equal_rights_center.status",
+    "text": "status: found",
+    "vector_index": 9915,
+    "created_at": "2025-12-09T21:34:04.957528",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.equal_rights_center.status",
+      "data_type": "json"
+    }
+  },
+  "c531452beefea16f5c00bcf4edd4763c": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.equal_rights_center.url",
+    "text": "url: https://equalrightscenter.org/press-release-kettler-2024/",
+    "vector_index": 9916,
+    "created_at": "2025-12-09T21:34:05.060236",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.equal_rights_center.url",
+      "data_type": "json"
+    }
+  },
+  "554e8e3fc56e330b7fa9cba37f43d749": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.equal_rights_center.settlement_amount",
+    "text": "settlement_amount: 140000",
+    "vector_index": 9917,
+    "created_at": "2025-12-09T21:34:05.174961",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.equal_rights_center.settlement_amount",
+      "data_type": "json"
+    }
+  },
+  "50f0f54055a78137cebc9b0c4da076bb": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.media_coverage.equal_rights_center.agreement_duration",
+    "text": "agreement_duration: 3 years",
+    "vector_index": 9918,
+    "created_at": "2025-12-09T21:34:05.263639",
+    "metadata": {
+      "json_path": "findings_summary.media_coverage.equal_rights_center.agreement_duration",
+      "data_type": "json"
+    }
+  },
+  "5657d03c89c1e96c09979de3a5c1b09c": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.skidmore_verification.status",
+    "text": "status: expanded",
+    "vector_index": 9919,
+    "created_at": "2025-12-09T21:34:05.370932",
+    "metadata": {
+      "json_path": "findings_summary.skidmore_verification.status",
+      "data_type": "json"
+    }
+  },
+  "d497c5c00ae1b78226276f07003e388f": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.skidmore_verification.texas_addresses[0]",
+    "text": "One Cowboys Way, Suite 571, Frisco, TX 75034",
+    "vector_index": 9920,
+    "created_at": "2025-12-09T21:34:05.567298",
+    "metadata": {
+      "json_path": "findings_summary.skidmore_verification.texas_addresses[0]",
+      "data_type": "json"
+    }
+  },
+  "88580e25968079bd99a2b33a5c3b3006": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.skidmore_verification.texas_addresses[1]",
+    "text": "2591 Dallas Pkwy Ste 300, Frisco, TX 75034",
+    "vector_index": 9921,
+    "created_at": "2025-12-09T21:34:05.755990",
+    "metadata": {
+      "json_path": "findings_summary.skidmore_verification.texas_addresses[1]",
+      "data_type": "json"
+    }
+  },
+  "ad2ffdf7c45cd6a4c3476b1913e60ddb": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.skidmore_verification.texas_addresses[2]",
+    "text": "5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+    "vector_index": 9922,
+    "created_at": "2025-12-09T21:34:05.865887",
+    "metadata": {
+      "json_path": "findings_summary.skidmore_verification.texas_addresses[2]",
+      "data_type": "json"
+    }
+  },
+  "aaf101b162ccc128993d08dbd2a1d1c3": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.skidmore_verification.texas_license",
+    "text": "texas_license: 689092",
+    "vector_index": 9923,
+    "created_at": "2025-12-09T21:34:05.974545",
+    "metadata": {
+      "json_path": "findings_summary.skidmore_verification.texas_license",
+      "data_type": "json"
+    }
+  },
+  "8291e7e39426e51c2f86646d70f692fe": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.skidmore_verification.affiliations[0]",
+    "text": "One Legacy Group under Monument Realty",
+    "vector_index": 9924,
+    "created_at": "2025-12-09T21:34:06.165518",
+    "metadata": {
+      "json_path": "findings_summary.skidmore_verification.affiliations[0]",
+      "data_type": "json"
+    }
+  },
+  "4487c797916cb48de66638ecc724f0db": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.skidmore_verification.affiliations[1]",
+    "text": "Lariat Realty Advisors (Broker)",
+    "vector_index": 9925,
+    "created_at": "2025-12-09T21:34:06.256226",
+    "metadata": {
+      "json_path": "findings_summary.skidmore_verification.affiliations[1]",
+      "data_type": "json"
+    }
+  },
+  "211ec1e26f1b797651af819a6f9aecc5": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.skidmore_verification.affiliations[2]",
+    "text": "Avenue5 Residential LLC (Designated broker - MO, ND)",
+    "vector_index": 9926,
+    "created_at": "2025-12-09T21:34:06.368987",
+    "metadata": {
+      "json_path": "findings_summary.skidmore_verification.affiliations[2]",
+      "data_type": "json"
+    }
+  },
+  "e526df639b997a860bc6d70a358533eb": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.status",
+    "text": "status: verified",
+    "vector_index": 9927,
+    "created_at": "2025-12-09T21:34:06.471366",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.status",
+      "data_type": "json"
+    }
+  },
+  "f02c0110e091525d519c43129dc1165a": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.incorporated",
+    "text": "incorporated: 1988-05-20",
+    "vector_index": 9928,
+    "created_at": "2025-12-09T21:34:06.565634",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.incorporated",
+      "data_type": "json"
+    }
+  },
+  "aca855b4e2268757b2c84a6233bdccb6": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.original_name",
+    "text": "original_name: KSI Management Corp",
+    "vector_index": 9929,
+    "created_at": "2025-12-09T21:34:06.665773",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.original_name",
+      "data_type": "json"
+    }
+  },
+  "de65c72e180504cc66386632bac11752": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.name_change",
+    "text": "name_change: 2007-04-06",
+    "vector_index": 9930,
+    "created_at": "2025-12-09T21:34:06.774162",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.name_change",
+      "data_type": "json"
+    }
+  },
+  "7a89c5d4ed87c5026bfab874bfd539f6": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.officers[0]",
+    "text": "Robert C. Kettler - CEO",
+    "vector_index": 9931,
+    "created_at": "2025-12-09T21:34:06.862403",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.officers[0]",
+      "data_type": "json"
+    }
+  },
+  "7662693a95931f1db3fb4e9ee0226132": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.officers[1]",
+    "text": "Cynthia Fisher - President",
+    "vector_index": 9932,
+    "created_at": "2025-12-09T21:34:06.956856",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.officers[1]",
+      "data_type": "json"
+    }
+  },
+  "cb28f4ae5f62eac2d8eddca8341e4761": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.officers[2]",
+    "text": "Sean H. Curtin - Executive VP",
+    "vector_index": 9933,
+    "created_at": "2025-12-09T21:34:06.963547",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.officers[2]",
+      "data_type": "json"
+    }
+  },
+  "bf430ab2dcd32cbf9af9ab8f5117b98d": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.officers[3]",
+    "text": "Patrick Cassada - CFO",
+    "vector_index": 9934,
+    "created_at": "2025-12-09T21:34:07.158836",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.officers[3]",
+      "data_type": "json"
+    }
+  },
+  "08cc1ccba8d4955439b68236a8d9b9f2": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.corporate_structure.florida_registration",
+    "text": "florida_registration: Foreign Profit Corporation, filed 2018-06-20",
+    "vector_index": 9935,
+    "created_at": "2025-12-09T21:34:07.268972",
+    "metadata": {
+      "json_path": "findings_summary.corporate_structure.florida_registration",
+      "data_type": "json"
+    }
+  },
+  "5d914a42f57af5de650bedc3777f9f9b": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.status",
+    "text": "status: expanded",
+    "vector_index": 9936,
+    "created_at": "2025-12-09T21:34:07.460427",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.status",
+      "data_type": "json"
+    }
+  },
+  "753b2ad5957d3bef41ace667d8bfacfc": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.detailed_complaints[0].date",
+    "text": "date: 2025-08-19",
+    "vector_index": 9937,
+    "created_at": "2025-12-09T21:34:07.572337",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.detailed_complaints[0].date",
+      "data_type": "json"
+    }
+  },
+  "e951dea02d85e6433da011b3137a82e2": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.detailed_complaints[0].property",
+    "text": "property: Alexandria, VA",
+    "vector_index": 9938,
+    "created_at": "2025-12-09T21:34:07.677364",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.detailed_complaints[0].property",
+      "data_type": "json"
+    }
+  },
+  "8fca85932da0b337ced54eabcbcc0b3c": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.detailed_complaints[0].type",
+    "text": "type: Application process / Discrimination",
+    "vector_index": 9939,
+    "created_at": "2025-12-09T21:34:07.871504",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.detailed_complaints[0].type",
+      "data_type": "json"
+    }
+  },
+  "504b6e03ece022d1fb3d4f32f044d4f4": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.detailed_complaints[0].details",
+    "text": "details: Single mother of Ukrainian origin - manager rude, income requirements higher than published",
+    "vector_index": 9940,
+    "created_at": "2025-12-09T21:34:08.057234",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.detailed_complaints[0].details",
+      "data_type": "json"
+    }
+  },
+  "061a057089a82e37b727a3e985aa51cd": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.detailed_complaints[1].date",
+    "text": "date: 2025-08-18",
+    "vector_index": 9941,
+    "created_at": "2025-12-09T21:34:08.165747",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.detailed_complaints[1].date",
+      "data_type": "json"
+    }
+  },
+  "28a21d063bd561f91daaf9442620257a": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.detailed_complaints[1].property",
+    "text": "property: Washington, DC",
+    "vector_index": 9942,
+    "created_at": "2025-12-09T21:34:08.267331",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.detailed_complaints[1].property",
+      "data_type": "json"
+    }
+  },
+  "8dd8280d810afc52ca2c830b0066bec8": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.detailed_complaints[1].type",
+    "text": "type: Mandatory fees",
+    "vector_index": 9943,
+    "created_at": "2025-12-09T21:34:08.455389",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.detailed_complaints[1].type",
+      "data_type": "json"
+    }
+  },
+  "9b20d2285c648d7b827c2db0a673e9c0": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.bbb_complaints.detailed_complaints[1].details",
+    "text": "details: $60/month mandatory cable/internet charge, non-optional",
+    "vector_index": 9944,
+    "created_at": "2025-12-09T21:34:08.564892",
+    "metadata": {
+      "json_path": "findings_summary.bbb_complaints.detailed_complaints[1].details",
+      "data_type": "json"
+    }
+  },
+  "ec4b032c5841ac7187c7ca8b80c47884": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.properties.800_carlyle.status",
+    "text": "status: verified",
+    "vector_index": 9945,
+    "created_at": "2025-12-09T21:34:08.676285",
+    "metadata": {
+      "json_path": "findings_summary.properties.800_carlyle.status",
+      "data_type": "json"
+    }
+  },
+  "2baeb745783b16eb9833d9b0e6248277": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.properties.800_carlyle.units",
+    "text": "units: 280",
+    "vector_index": 9946,
+    "created_at": "2025-12-09T21:34:08.790591",
+    "metadata": {
+      "json_path": "findings_summary.properties.800_carlyle.units",
+      "data_type": "json"
+    }
+  },
+  "d76c72b7d560bb890e230d499cffba3e": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.properties.800_carlyle.address",
+    "text": "address: 800 John Carlyle Street, Alexandria, VA 22314",
+    "vector_index": 9947,
+    "created_at": "2025-12-09T21:34:08.963217",
+    "metadata": {
+      "json_path": "findings_summary.properties.800_carlyle.address",
+      "data_type": "json"
+    }
+  },
+  "9cf7e8638482ccedbebfb4a6eea058ac": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:findings_summary.properties.800_carlyle.amenities",
+    "text": "amenities: Fitness center, pool, clubroom, game room, resident lounge, underground parking",
+    "vector_index": 9948,
+    "created_at": "2025-12-09T21:34:09.062320",
+    "metadata": {
+      "json_path": "findings_summary.properties.800_carlyle.amenities",
+      "data_type": "json"
+    }
+  },
+  "a4a8f66c78f09f61a5c59ce9c237b71c": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:pending_searches[0]",
+    "text": "Wayback Machine DPOR snapshots",
+    "vector_index": 9949,
+    "created_at": "2025-12-09T21:34:09.176579",
+    "metadata": {
+      "json_path": "pending_searches[0]",
+      "data_type": "json"
+    }
+  },
+  "ef3364da963df8f289836e2293636bb2": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:pending_searches[1]",
+    "text": "Texas SOS Skidmore search",
+    "vector_index": 9950,
+    "created_at": "2025-12-09T21:34:09.265687",
+    "metadata": {
+      "json_path": "pending_searches[1]",
+      "data_type": "json"
+    }
+  },
+  "6ba65f106b4ca0b51b40cec7a373d4b4": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:pending_searches[2]",
+    "text": "Virginia SCC detailed filings",
+    "vector_index": 9951,
+    "created_at": "2025-12-09T21:34:09.361696",
+    "metadata": {
+      "json_path": "pending_searches[2]",
+      "data_type": "json"
+    }
+  },
+  "b40601c593b110bc9c995b79dfb8188f": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:pending_searches[3]",
+    "text": "Delaware SOS Kettler search",
+    "vector_index": 9952,
+    "created_at": "2025-12-09T21:34:09.465443",
+    "metadata": {
+      "json_path": "pending_searches[3]",
+      "data_type": "json"
+    }
+  },
+  "d17122672e50d803e80cd8e64e03de26": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:pending_searches[4]",
+    "text": "Alexandria code violations",
+    "vector_index": 9953,
+    "created_at": "2025-12-09T21:34:09.666077",
+    "metadata": {
+      "json_path": "pending_searches[4]",
+      "data_type": "json"
+    }
+  },
+  "bca2be8a180904643349854eab697800": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:pending_searches[5]",
+    "text": "Court records searches",
+    "vector_index": 9954,
+    "created_at": "2025-12-09T21:34:09.698396",
+    "metadata": {
+      "json_path": "pending_searches[5]",
+      "data_type": "json"
+    }
+  },
+  "3548f8cdd0fe78bb3875be5fc910fcf0": {
+    "source": "json:research/va_dpor_complaint/research_findings_summary.json:next_update",
+    "text": "next_update: 3 seconds",
+    "vector_index": 9955,
+    "created_at": "2025-12-09T21:34:09.868450",
+    "metadata": {
+      "json_path": "next_update",
+      "data_type": "json"
+    }
   }
 }

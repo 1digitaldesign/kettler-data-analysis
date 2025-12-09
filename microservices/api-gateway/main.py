@@ -51,6 +51,7 @@ SERVICE_URLS = {
     "gis": os.getenv("GIS_SERVICE_URL", "http://localhost:8005"),
     "acris": os.getenv("ACRIS_SERVICE_URL", "http://localhost:8006"),
     "data": os.getenv("DATA_SERVICE_URL", "http://localhost:8007"),
+    "google-drive": os.getenv("GOOGLE_DRIVE_SERVICE_URL", "http://localhost:8008"),
 }
 
 # HTTP client with timeout
@@ -348,6 +349,34 @@ async def update_firm(firm_id: str, request: Request):
 async def delete_firm(firm_id: str):
     """Route to delete firm"""
     return await forward_request("data", f"/data/firms/{firm_id}", "DELETE")
+
+
+# Google Drive Service Routes
+@app.post("/api/drive/list")
+async def list_drive_folder(request: Request):
+    """Route to list Google Drive folder"""
+    data = await request.json()
+    return await forward_request("google-drive", "/drive/list", "POST", data)
+
+
+@app.post("/api/drive/download")
+async def download_drive_file(request: Request):
+    """Route to download Google Drive file"""
+    data = await request.json()
+    return await forward_request("google-drive", "/drive/download", "POST", data)
+
+
+@app.post("/api/drive/export")
+async def export_drive_file(request: Request):
+    """Route to export Google Drive file"""
+    data = await request.json()
+    return await forward_request("google-drive", "/drive/export", "POST", data)
+
+
+@app.get("/api/drive/info/{file_id}")
+async def get_drive_file_info(file_id: str):
+    """Route to get Google Drive file info"""
+    return await forward_request("google-drive", f"/drive/info/{file_id}", "GET")
 
 
 @app.on_event("shutdown")

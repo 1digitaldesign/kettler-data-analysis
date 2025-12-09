@@ -56,10 +56,21 @@
       ]
     },
     "foia_request": {
-      "status": "pending",
+      "status": "ready_to_submit",
       "request_text": "Request for historical principal broker records for Kettler Management Inc. (License #0226025311) from October 31, 2014 through April 3, 2025, including all principal broker assignments, license amendments, and disciplinary actions.",
       "agency": "Virginia Department of Professional and Occupational Regulation",
-      "contact": "complaintanalysis@dpor.virginia.gov"
+      "foia_email": "PublicRecords@dpor.virginia.gov",
+      "foia_fax": "(866) 254-0312",
+      "response_time": "5 working days (Day One is day after receipt)",
+      "fees": "License transcript: $40.00 per entity request",
+      "foia_website": "https://www.dpor.virginia.gov/RecordsandDocuments",
+      "foia_council": {
+        "email": "foiacouncil@dls.virginia.gov",
+        "phone": "(804) 225-3056",
+        "toll_free": "1-866-448-4100"
+      },
+      "specificity_requirement": "Must identify records with 'reasonable specificity'",
+      "note": "FOIA does not require DPOR to create records that don't exist - request must be for existing records"
     }
   },
   "legal_implications": {
