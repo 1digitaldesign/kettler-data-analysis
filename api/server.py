@@ -328,28 +328,28 @@ def convert_gis_file(request: GISConvertRequest):
     """Convert GIS file between formats"""
     if not GIS_CONVERTER_AVAILABLE:
         raise HTTPException(status_code=503, detail="GIS converter not available. Install GDAL.")
-    
+
     try:
         from pathlib import Path
-        
+
         converter = GISConverter()
         input_path = Path(request.input_file)
-        
+
         if not input_path.exists():
             raise HTTPException(status_code=404, detail=f"Input file not found: {request.input_file}")
-        
+
         if request.output_file:
             output_path = Path(request.output_file)
         else:
             output_path = input_path.parent / f"{input_path.stem}.{request.output_format}"
-        
+
         result = converter.convert_file(
             input_path,
             output_path,
             request.output_format,
             request.target_srs
         )
-        
+
         return {"status": "success", "data": result}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -359,16 +359,16 @@ def get_gis_file_info(file_path: str):
     """Get information about a GIS file"""
     if not GIS_CONVERTER_AVAILABLE:
         raise HTTPException(status_code=503, detail="GIS converter not available. Install GDAL.")
-    
+
     try:
         from pathlib import Path
-        
+
         converter = GISConverter()
         file_path_obj = Path(file_path)
-        
+
         if not file_path_obj.exists():
             raise HTTPException(status_code=404, detail=f"File not found: {file_path}")
-        
+
         info = converter.get_file_info(file_path_obj)
         return {"status": "success", "data": info}
     except Exception as e:

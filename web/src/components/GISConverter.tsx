@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import { Map, Upload, Download, FileText, AlertCircle, CheckCircle, Loader } from 'lucide-react'
 import axios from 'axios'
+import { AlertCircle, CheckCircle, Download, FileText, Loader, Map, Upload } from 'lucide-react'
+import { useState } from 'react'
 
 interface GISConversionJob {
   id: string
@@ -51,7 +51,7 @@ export default function GISConverter() {
 
     setLoading(true)
     const jobId = `gis_${Date.now()}`
-    
+
     const newJob: GISConversionJob = {
       id: jobId,
       inputFile: inputFile.name,
@@ -65,7 +65,7 @@ export default function GISConverter() {
       // Upload file first (in real implementation, use proper file upload endpoint)
       const formData = new FormData()
       formData.append('file', inputFile)
-      
+
       // For now, we'll use the convert endpoint with file path
       // In production, implement proper file upload handling
       const response = await axios.post('/api/gis/convert', {
@@ -102,7 +102,7 @@ export default function GISConverter() {
 
   const downloadResult = (job: GISConversionJob) => {
     if (!job.result) return
-    
+
     const dataStr = JSON.stringify(job.result, null, 2)
     const blob = new Blob([dataStr], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
