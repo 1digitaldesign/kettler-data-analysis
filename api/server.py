@@ -19,25 +19,28 @@ sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 sys.path.insert(0, str(PROJECT_ROOT / "bin"))
 
 try:
-from scripts.core.unified_analysis import UnifiedAnalyzer
-from scripts.core.unified_search import UnifiedSearcher
-from scripts.core.unified_validation import UnifiedValidator
-from scripts.core.unified_reporting import UnifiedReporter
-from scripts.core.unified_investigation import UnifiedInvestigator
-from scripts.core.unified_scraping import UnifiedScraper
+    from scripts.core.unified_analysis import UnifiedAnalyzer
+    from scripts.core.unified_search import UnifiedSearcher
+    from scripts.core.unified_validation import UnifiedValidator
+    from scripts.core.unified_reporting import UnifiedReporter
+    from scripts.core.unified_investigation import UnifiedInvestigator
+    from scripts.core.unified_scraping import UnifiedScraper
+except ImportError as e:
+    print(f"Warning: Could not import unified modules: {e}")
+    UnifiedAnalyzer = UnifiedSearcher = UnifiedValidator = None
+    UnifiedReporter = UnifiedInvestigator = UnifiedScraper = None
+
 try:
     from scripts.gis.gis_converter import GISConverter
     GIS_CONVERTER_AVAILABLE = True
 except ImportError:
     GISConverter = None
     GIS_CONVERTER_AVAILABLE = False
-except ImportError as e:
-    print(f"Warning: Could not import unified modules: {e}")
-    UnifiedAnalyzer = UnifiedSearcher = UnifiedValidator = None
-    UnifiedReporter = UnifiedInvestigator = UnifiedScraper = None
-    GISConverter = None
-    GIS_CONVERTER_AVAILABLE = False
-from scripts.etl.vector_embeddings import VectorEmbeddingSystem
+
+try:
+    from scripts.etl.vector_embeddings import VectorEmbeddingSystem
+except ImportError:
+    VectorEmbeddingSystem = None
 from scripts.utils.paths import (
     DATA_SOURCE_DIR, DATA_ANALYSIS_DIR, RESEARCH_DIR,
     OUTPUTS_DIR, DATA_VECTORS_DIR
