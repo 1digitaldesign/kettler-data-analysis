@@ -13,26 +13,26 @@ def test_folder_access(folder_id: str, service_url: str = "http://localhost:8008
     print(f"Testing access to folder: {folder_id}")
     print(f"Service URL: {service_url}")
     print()
-    
+
     try:
         # Test health check first
         health_response = requests.get(f"{service_url}/health", timeout=5)
         if health_response.status_code != 200:
             print(f"ERROR: Service health check failed: {health_response.status_code}")
             return False
-        
+
         health_data = health_response.json()
         print("Service Health:")
         print(f"  Status: {health_data.get('status')}")
         print(f"  Google Drive Available: {health_data.get('google_drive_available')}")
         print(f"  Drive Client Initialized: {health_data.get('drive_client_initialized')}")
         print()
-        
+
         if not health_data.get('drive_client_initialized'):
             print("ERROR: Google Drive client is not initialized")
             print("Check credentials and ensure service account has access")
             return False
-        
+
         # Test listing folder
         print("Testing folder list...")
         list_response = requests.post(
@@ -45,7 +45,7 @@ def test_folder_access(folder_id: str, service_url: str = "http://localhost:8008
             },
             timeout=30
         )
-        
+
         if list_response.status_code == 200:
             data = list_response.json()
             print("✓ SUCCESS: Folder access granted!")
@@ -53,7 +53,7 @@ def test_folder_access(folder_id: str, service_url: str = "http://localhost:8008
             print(f"Folder ID: {data.get('folder_id')}")
             print(f"Items found: {data.get('count', 0)}")
             print()
-            
+
             items = data.get('items', [])
             if items:
                 print("Sample items:")
@@ -63,7 +63,7 @@ def test_folder_access(folder_id: str, service_url: str = "http://localhost:8008
                     print(f"  ... and {len(items) - 5} more")
             else:
                 print("Folder is empty")
-            
+
             return True
         elif list_response.status_code == 403:
             print("✗ ERROR: Access denied (403 Forbidden)")
@@ -83,7 +83,7 @@ def test_folder_access(folder_id: str, service_url: str = "http://localhost:8008
             print(f"✗ ERROR: Request failed with status {list_response.status_code}")
             print(f"Response: {list_response.text}")
             return False
-    
+
     except requests.exceptions.ConnectionError:
         print("✗ ERROR: Could not connect to service")
         print("Make sure the Google Drive service is running:")
@@ -98,7 +98,7 @@ def test_folder_access(folder_id: str, service_url: str = "http://localhost:8008
 def main():
     """Main function"""
     folder_id = "1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8"
-    
+
     # Try API Gateway first, then direct service
     if test_folder_access(folder_id, "http://localhost:8000"):
         print("\n✓ Access verified through API Gateway!")

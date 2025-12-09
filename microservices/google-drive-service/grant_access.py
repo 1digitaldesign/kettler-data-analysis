@@ -15,11 +15,11 @@ sys.path.insert(0, str(PROJECT_ROOT))
 def get_service_account_email():
     """Get service account email from credentials"""
     creds_file = PROJECT_ROOT / 'config' / 'gcp-credentials.json'
-    
+
     if not creds_file.exists():
         print(f"ERROR: Credentials file not found at {creds_file}")
         return None
-    
+
     try:
         with open(creds_file, 'r') as f:
             creds = json.load(f)
@@ -34,14 +34,14 @@ def main():
     print("Google Drive Service Account Access Setup")
     print("=" * 70)
     print()
-    
+
     # Get service account email
     service_account_email = get_service_account_email()
-    
+
     if not service_account_email:
         print("Could not determine service account email.")
         return
-    
+
     print(f"Service Account Email: {service_account_email}")
     print()
     print("To grant access to a Google Drive folder:")
