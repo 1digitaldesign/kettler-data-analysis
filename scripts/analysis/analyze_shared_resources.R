@@ -43,17 +43,10 @@ find_shared_addresses <- function(firms) {
     return(list())
   }
 
-  # Normalize all addresses
+  # Normalize all addresses and count occurrences
   firms$Address.Normalized <- sapply(firms$Address, normalize_address)
-
-  # Count occurrences
-  if ("Address.Normalized" %in% names(firms) && nrow(firms) > 0) {
-    address_counts <- table(firms$Address.Normalized)
-    shared_addresses <- address_counts[address_counts > 1]
-  } else {
-    address_counts <- table(character(0))
-    shared_addresses <- address_counts[address_counts > 1]
-  }
+  address_counts <- table(firms$Address.Normalized)
+  shared_addresses <- address_counts[address_counts > 1]
 
   shared_list <- list()
   if (length(shared_addresses) > 0) {

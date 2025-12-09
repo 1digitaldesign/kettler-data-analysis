@@ -1,6 +1,6 @@
 {
   "executive_summary": {
-    "date_prepared": ["2025-12-07"],
+    "date_prepared": ["2025-12-08"],
     "case_summary": ["Investigation into multiple real estate firms listing Caitlin Skidmore as Principal Broker, with evidence of potential license violations and fraudulent practices"],
     "key_evidence": {
       "total_firms_connected": [11],
@@ -12,7 +12,7 @@
   },
   "evidence_documents": {
     "pdf_files": ["Gmail - RE_ Formal Notice of Lease Termination - Unit 533 - Addendum with Additional Documentation.pdf"],
-    "license_data": ["skidmore_all_firms_complete.csv"],
+    "license_data": ["/Users/machine/Documents/kettler-data-analysis/data/source/skidmore_all_firms_complete.csv"],
     "connections_data": ["/Users/machine/Documents/kettler-data-analysis/data/analysis/dpor_skidmore_connections.csv"]
   },
   "key_entities": {
@@ -82,7 +82,10 @@
       }
     ],
     "principal_broker_pattern": [
-      ["VA"]
+      {
+        "state": "VA",
+        "firm_count": 11
+      }
     ]
   }
 }

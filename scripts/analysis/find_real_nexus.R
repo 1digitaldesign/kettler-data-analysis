@@ -6,6 +6,10 @@ library(jsonlite)
 library(dplyr)
 library(stringr)
 
+# Helper functions
+is_valid_df <- function(df) !is.null(df) && is.data.frame(df) && nrow(df) > 0
+has_cols <- function(df, cols) is_valid_df(df) && all(cols %in% names(df))
+
 # Configuration
 if (file.exists("research/all_entities_extracted.json")) {
   PROJECT_ROOT <- getwd()
@@ -29,7 +33,7 @@ analyze_beneficiaries <- function(firms) {
 
   # Kettler Management benefits
   kettler_firm <- firms[firms$Firm.Name == "KETTLER MANAGEMENT INC", ]
-  if (nrow(kettler_firm) > 0 && "Address" %in% names(kettler_firm) && "License.Number" %in% names(kettler_firm)) {
+  if (nrow(kettler_firm) > 0 && has_cols(kettler_firm, c("Address", "License.Number"))) {
     beneficiaries$kettler <- list(
       firm_name = "KETTLER MANAGEMENT INC",
       address = kettler_firm$Address[1],
@@ -45,7 +49,7 @@ analyze_beneficiaries <- function(firms) {
   }
 
   # Address cluster beneficiaries (Frisco, TX)
-  if ("Address" %in% names(firms) && nrow(firms) > 0) {
+  if (has_cols(firms, "Address")) {
     address_matches <- !is.na(firms$Address) & firms$Address != ""
     if (sum(address_matches) > 0) {
       frisco_firms <- firms[address_matches &
@@ -82,7 +86,7 @@ analyze_control_structure <- function(firms) {
   control <- list()
 
   # Pattern: Single principal broker across all firms
-  unique_brokers <- if ("Principal.Broker" %in% names(firms) && nrow(firms) > 0) unique(firms$Principal.Broker) else character(0)
+  unique_brokers <- if (has_cols(firms, "Principal.Broker")) unique(firms$Principal.Broker) else character(0)
   control$single_broker_pattern <- list(
     broker_name = if (length(unique_brokers) > 0) unique_brokers[1] else NA,
     firm_count = nrow(firms),
@@ -91,13 +95,8 @@ analyze_control_structure <- function(firms) {
   )
 
   # Pattern: Address clustering suggests centralized control
-  if ("Address" %in% names(firms) && nrow(firms) > 0) {
-    address_counts <- table(firms$Address)
-    clustered <- address_counts[address_counts > 1]
-  } else {
-    address_counts <- table(character(0))
-    clustered <- address_counts[address_counts > 1]
-  }
+  address_counts <- if ("Address" %in% names(firms) && nrow(firms) > 0) table(firms$Address) else table(character(0))
+  clustered <- address_counts[address_counts > 1]
 
   control$centralized_addresses <- list(
     cluster_count = length(clustered),

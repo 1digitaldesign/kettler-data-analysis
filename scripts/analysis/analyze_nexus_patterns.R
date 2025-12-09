@@ -21,6 +21,10 @@ DATA_DIR <- file.path(PROJECT_ROOT, "data")
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
 OUTPUT_FILE <- file.path(RESEARCH_DIR, "nexus_patterns_analysis.json")
 
+# Helper functions
+is_valid_df <- function(df) !is.null(df) && is.data.frame(df) && nrow(df) > 0
+has_cols <- function(df, cols) is_valid_df(df) && all(cols %in% names(df))
+
 # Load all data
 load_all_data <- function() {
   # Firms
@@ -220,17 +224,13 @@ identify_control_patterns <- function(firms) {
   patterns <- list()
 
   # Pattern 1: All firms list same principal broker (front person)
-  unique_brokers <- if ("Principal.Broker" %in% names(firms) && nrow(firms) > 0) unique(firms$Principal.Broker) else character(0)
+  unique_brokers <- if (has_cols(firms, "Principal.Broker")) unique(firms$Principal.Broker) else character(0)
   patterns$single_principal_broker <- length(unique_brokers) == 1
   patterns$broker_name <- if (length(unique_brokers) > 0) unique_brokers[1] else NA
   patterns$front_person_indicator <- if (length(unique_brokers) == 1) "All 11 firms use same principal broker - suggests front person" else "Multiple principal brokers found"
 
   # Pattern 2: Address clustering suggests centralized control
-  if ("Address" %in% names(firms) && nrow(firms) > 0) {
-    address_clusters <- table(firms$Address)
-  } else {
-    address_clusters <- table(character(0))
-  }
+  address_clusters <- if (has_cols(firms, "Address")) table(firms$Address) else table(character(0))
 
   if (length(address_clusters) > 0) {
     largest_cluster <- max(address_clusters)

@@ -82,10 +82,11 @@ create_matrix <- function(data) {
   firms <- data$firms
   kettler_firm <- firms[firms$Firm.Name == "KETTLER MANAGEMENT INC", ]
   if (nrow(kettler_firm) > 0) {
+    safe_col <- function(col) if (col %in% names(kettler_firm) && nrow(kettler_firm) > 0) kettler_firm[[col]][1] else NA
     matrix$kettler_firm_connections <- list(
-      kettler_license_number = if ("License.Number" %in% names(kettler_firm) && nrow(kettler_firm) > 0) kettler_firm$License.Number[1] else NA,
-      kettler_address = if ("Address" %in% names(kettler_firm) && nrow(kettler_firm) > 0) kettler_firm$Address[1] else NA,
-      principal_broker = if ("Principal.Broker" %in% names(kettler_firm) && nrow(kettler_firm) > 0) kettler_firm$Principal.Broker[1] else NA,
+      kettler_license_number = safe_col("License.Number"),
+      kettler_address = safe_col("Address"),
+      principal_broker = safe_col("Principal.Broker"),
       connection_type = "direct_license_match"
     )
   }
