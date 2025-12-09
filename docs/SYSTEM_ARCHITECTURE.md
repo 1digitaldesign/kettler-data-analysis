@@ -4,6 +4,51 @@
 
 Python-first data analysis platform with microservices architecture.
 
+## Architecture Diagram
+
+```mermaid
+graph TB
+    subgraph "Entry Layer"
+        A[bin/run_pipeline.py] --> B[bin/run_all.py]
+        A --> C[bin/analyze_connections.py]
+        A --> D[bin/validate_data.py]
+    end
+    
+    subgraph "Core Modules"
+        E[UnifiedAnalyzer] --> F[UnifiedSearcher]
+        E --> G[UnifiedValidator]
+        E --> H[UnifiedReporter]
+        E --> I[UnifiedInvestigator]
+        E --> J[UnifiedScraper]
+    end
+    
+    subgraph "Data Layer"
+        K[data/source/] --> L[data/raw/]
+        L --> M[data/cleaned/]
+        M --> N[data/vectors/]
+    end
+    
+    subgraph "Research Layer"
+        O[research/connections/] --> P[research/violations/]
+        O --> Q[research/anomalies/]
+        O --> R[research/summaries/]
+        O --> S[research/verification/]
+        O --> T[research/timelines/]
+    end
+    
+    B --> E
+    C --> E
+    D --> G
+    E --> O
+    G --> S
+    H --> R
+    
+    style A fill:#e1f5ff
+    style E fill:#fff4e1
+    style K fill:#e8f5e9
+    style O fill:#f3e5f5
+```
+
 ## Components
 
 ```

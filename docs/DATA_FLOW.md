@@ -2,6 +2,35 @@
 
 ## Pipeline
 
+```mermaid
+flowchart LR
+    A[Source Data<br/>data/source/] --> B[Extraction<br/>scripts/extraction/]
+    B --> C[Raw Data<br/>data/raw/]
+    C --> D[Cleaning<br/>bin/clean_data.py]
+    D --> E[Cleaned Data<br/>data/cleaned/]
+    E --> F[Analysis<br/>scripts/core/]
+    F --> G[Research Outputs<br/>research/]
+    
+    G --> H[connections/]
+    G --> I[summaries/]
+    G --> J[verification/]
+    G --> K[violations/]
+    G --> L[anomalies/]
+    G --> M[timelines/]
+    
+    style A fill:#e8f5e9
+    style E fill:#fff3e0
+    style G fill:#f3e5f5
+    style H fill:#e1bee7
+    style I fill:#e1bee7
+    style J fill:#e1bee7
+    style K fill:#e1bee7
+    style L fill:#e1bee7
+    style M fill:#e1bee7
+```
+
+## Text Pipeline
+
 ```
 1. Source Data (data/source/)
    ↓

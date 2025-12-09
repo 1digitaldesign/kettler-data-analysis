@@ -26,3 +26,4 @@
 ## Reference
 
 - [kettler-filings-quick-reference.md](reference/kettler-filings-quick-reference.md) - Filing reference
+- [DIAGRAMS.md](DIAGRAMS.md) - Visual diagrams (Mermaid.js)
