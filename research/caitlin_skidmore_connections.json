@@ -48,7 +48,16 @@
     }
   },
   "license_search_status": {
-    "virginia": "search_executed",
+    "virginia": "complete_38_companies_extracted",
+    "virginia_details": {
+      "total_licenses": 40,
+      "active_licenses": 38,
+      "inactive_licenses": 2,
+      "companies_extracted": 38,
+      "completion_date": "2025-12-08",
+      "extraction_method": "Browser automation - Related Licenses tab",
+      "status": "COMPLETE - All active licenses extracted"
+    },
     "maryland": "pending",
     "dc": "pending",
     "new_york": "pending",
