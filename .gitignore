@@ -241,3 +241,8 @@ outputs/summaries/*.csv
 # Kubernetes secrets (may contain API keys)
 kubernetes/*-secrets.yaml
 !kubernetes/*-secrets.example.yaml
+
+# GCP credentials (sensitive)
+config/gcp-credentials.json
+config/*.json
+!config/gcp-env-template.txt

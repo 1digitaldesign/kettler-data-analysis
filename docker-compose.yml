@@ -9,6 +9,7 @@ services:
       - ./research:/app/research
       - ./evidence:/app/evidence
       - ./scripts:/app/scripts
+      - ./config:/app/config
     env_file:
       - .env
     environment:
@@ -18,6 +19,10 @@ services:
       - SERVICE_PORT=8000
       - HF_WRITE_TOKEN=${HF_WRITE_TOKEN}
       - HF_READ_TOKEN=${HF_READ_TOKEN}
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/config/gcp-credentials.json
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID}
+      - GCP_REGION=${GCP_REGION:-us-central1}
+      - GCP_CREDENTIALS_JSON=${GCP_CREDENTIALS_JSON}
     networks:
       - kettler-network
     restart: unless-stopped
@@ -160,6 +165,7 @@ services:
     command: python scripts/microservices/service_discovery.py
     volumes:
       - ./scripts:/app/scripts
+      - ./config:/app/config
     ports:
       - "8080:8080"
     environment:
@@ -167,6 +173,9 @@ services:
       - SERVICE_NAME=service-discovery
       - VECTOR_API_SERVICE=vector-api:8000
       - PYTHON_ETL_SERVICE=python-etl:8000
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/config/gcp-credentials.json
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID}
+      - GCP_REGION=${GCP_REGION:-us-central1}
     networks:
       - kettler-network
     restart: unless-stopped
@@ -233,11 +242,15 @@ services:
     command: python scripts/microservices/message_queue.py
     volumes:
       - ./scripts:/app/scripts
+      - ./config:/app/config
     ports:
       - "8082:8082"
     environment:
       - PYTHONPATH=/app
       - MESSAGE_QUEUE_PORT=8082
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/config/gcp-credentials.json
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID}
+      - GCP_REGION=${GCP_REGION:-us-central1}
     networks:
       - kettler-network
     restart: unless-stopped
@@ -264,6 +277,7 @@ services:
     command: python scripts/microservices/metrics_collector.py
     volumes:
       - ./scripts:/app/scripts
+      - ./config:/app/config
     ports:
       - "8083:8083"
     environment:
@@ -274,6 +288,9 @@ services:
       - SERVICE_DISCOVERY_URL=http://service-discovery:8080
       - API_GATEWAY_URL=http://api-gateway:8080
       - MESSAGE_QUEUE_URL=http://message-queue:8082
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/config/gcp-credentials.json
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID}
+      - GCP_REGION=${GCP_REGION:-us-central1}
     networks:
       - kettler-network
     restart: unless-stopped
