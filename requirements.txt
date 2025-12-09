@@ -52,12 +52,25 @@ uvicorn[standard]>=0.24.0
 pydantic>=2.5.0
 python-multipart>=0.0.6
 
-# Recommended tools for data collection and analysis
-playwright>=1.40.0
-polars>=0.19.0
-qdrant-client>=1.7.0
+# Accuracy-focused tools for Hugging Face Hub datasets
+# Speed is NOT a concern - accuracy and precision are paramount
+
+# Data validation (CRITICAL for Hugging Face Hub)
 great-expectations>=0.18.0
-zenrows>=1.0.0
+
+# Most accurate HTML parsing
+html5lib>=1.1
+lxml>=5.0.0
+
+# Accurate data types for Hugging Face Hub
+pyarrow>=14.0.0
+
+# Persistent vector storage with validation
+qdrant-client>=1.7.0
+
+# High-accuracy API services (choose one)
+# scraperapi>=1.0.0  # BEST ACCURACY - 99.9%+ success rate
+# zenrows>=1.0.0  # Good accuracy alternative
 
 # Optional: for advanced NER models
 # sentencepiece>=0.1.99
