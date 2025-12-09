@@ -29,7 +29,7 @@ analyze_beneficiaries <- function(firms) {
 
   # Kettler Management benefits
   kettler_firm <- firms[firms$Firm.Name == "KETTLER MANAGEMENT INC", ]
-  if (nrow(kettler_firm) > 0) {
+  if (nrow(kettler_firm) > 0 && "Address" %in% names(kettler_firm) && "License.Number" %in% names(kettler_firm)) {
     beneficiaries$kettler <- list(
       firm_name = "KETTLER MANAGEMENT INC",
       address = kettler_firm$Address[1],
@@ -82,9 +82,9 @@ analyze_control_structure <- function(firms) {
   control <- list()
 
   # Pattern: Single principal broker across all firms
-  unique_brokers <- unique(firms$Principal.Broker)
+  unique_brokers <- if ("Principal.Broker" %in% names(firms) && nrow(firms) > 0) unique(firms$Principal.Broker) else character(0)
   control$single_broker_pattern <- list(
-    broker_name = unique_brokers[1],
+    broker_name = if (length(unique_brokers) > 0) unique_brokers[1] else NA,
     firm_count = nrow(firms),
     pattern_type = "front_person_structure",
     explanation = "All firms use same principal broker - classic front person pattern"

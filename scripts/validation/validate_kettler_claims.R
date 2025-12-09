@@ -52,7 +52,7 @@ verify_corporate_structure <- function(tracking) {
     firms <- read.csv(firms_file, stringsAsFactors = FALSE)
     kettler_firm <- firms[firms$Firm.Name == "KETTLER MANAGEMENT INC", ]
 
-    if (nrow(kettler_firm) > 0) {
+    if (nrow(kettler_firm) > 0 && "License.Number" %in% names(kettler_firm) && "Address" %in% names(kettler_firm)) {
       cat("Found Kettler Management Inc. in license records\n")
       cat("License Number:", kettler_firm$License.Number[1], "\n")
       cat("Address:", kettler_firm$Address[1], "\n")
@@ -67,7 +67,7 @@ verify_corporate_structure <- function(tracking) {
         tracking$claims_to_verify$corporate_structure$verification_notes <- c(
           tracking$claims_to_verify$corporate_structure$verification_notes,
           paste("Address verified in DPOR records:", actual_address),
-          paste("License Number:", kettler_firm$License.Number[1])
+          if ("License.Number" %in% names(kettler_firm)) paste("License Number:", kettler_firm$License.Number[1]) else "License Number: N/A"
         )
       }
     }
@@ -132,8 +132,8 @@ main_validation <- function() {
   # Update validation status
   tracking$validation_status <- "partial_complete"
   tracking$last_updated <- as.character(Sys.time())
-  tracking$notes <- c(
-    tracking$notes %||% character(0),
+    tracking$notes <- c(
+      if (!is.null(tracking$notes)) tracking$notes else character(0),
     "Corporate structure and email domain verified from existing evidence.",
     "Discrimination settlement, BBB complaints, property portfolio, and executive team require external verification."
   )

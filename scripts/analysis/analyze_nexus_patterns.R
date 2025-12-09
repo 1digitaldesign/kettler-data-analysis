@@ -56,6 +56,14 @@ analyze_skidmore_anomalies <- function(firms) {
 
   anomalies <- list()
 
+  if (is.null(firms) || !is.data.frame(firms) || nrow(firms) == 0) {
+    return(list(
+      firms_before_skidmore = 0,
+      firms_after_skidmore = 0,
+      address_clustering = list()
+    ))
+  }
+
   # Anomaly 1: Firms licensed BEFORE Skidmore was licensed
   skidmore_license_date <- as.Date("2025-05-30")
   firms$Initial.Cert.Date.Parsed <- NA
@@ -149,7 +157,7 @@ analyze_kettler_nexus <- function(firms) {
   # Find Kettler firm
   kettler_firm <- firms[firms$Firm.Name == "KETTLER MANAGEMENT INC", ]
 
-  if (nrow(kettler_firm) > 0) {
+  if (nrow(kettler_firm) > 0 && "Address" %in% names(kettler_firm) && "License.Number" %in% names(kettler_firm)) {
     kettler_analysis$kettler_firm_found <- TRUE
     kettler_analysis$kettler_address <- kettler_firm$Address[1]
     kettler_analysis$kettler_license_number <- kettler_firm$License.Number[1]
@@ -163,7 +171,7 @@ analyze_kettler_nexus <- function(firms) {
     }
 
     # Check Kettler's license gap
-    kettler_gap <- kettler_firm$Gap.Years[1]
+    kettler_gap <- if ("Gap.Years" %in% names(kettler_firm)) kettler_firm$Gap.Years[1] else NA
     kettler_analysis$license_gap <- kettler_gap
     kettler_analysis$suspicious_gap <- if (!is.na(kettler_gap) && kettler_gap != "UNKNOWN") {
       as.numeric(kettler_gap) > 10
@@ -212,7 +220,7 @@ identify_control_patterns <- function(firms) {
   patterns <- list()
 
   # Pattern 1: All firms list same principal broker (front person)
-  unique_brokers <- unique(firms$Principal.Broker)
+  unique_brokers <- if ("Principal.Broker" %in% names(firms) && nrow(firms) > 0) unique(firms$Principal.Broker) else character(0)
   patterns$single_principal_broker <- length(unique_brokers) == 1
   patterns$broker_name <- if (length(unique_brokers) > 0) unique_brokers[1] else NA
   patterns$front_person_indicator <- if (length(unique_brokers) == 1) "All 11 firms use same principal broker - suggests front person" else "Multiple principal brokers found"

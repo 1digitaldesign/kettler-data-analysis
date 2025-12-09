@@ -83,7 +83,7 @@ cross_reference_firms <- function(domains, firms) {
   # Check kettler.com domain
   if ("kettler.com" %in% domains) {
     kettler_firm <- firms[firms$Firm.Name == "KETTLER MANAGEMENT INC", ]
-    if (nrow(kettler_firm) > 0) {
+    if (nrow(kettler_firm) > 0 && "License.Number" %in% names(kettler_firm)) {
       connections$kettler <- list(
         domain = "kettler.com",
         firm = "KETTLER MANAGEMENT INC",

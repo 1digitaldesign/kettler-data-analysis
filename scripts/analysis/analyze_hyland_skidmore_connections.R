@@ -187,7 +187,7 @@ main_analysis <- function() {
     address_connections = address_connections,
     timeline_connections = timeline_connections,
     summary = list(
-      email_connection_found = email_connections$hyland_email_found %||% FALSE,
+      email_connection_found = if (!is.null(email_connections$hyland_email_found)) email_connections$hyland_email_found else FALSE,
       address_matches = address_connections$match_count,
       firms_licensed_after_hyland = timeline_connections$firms_licensed_after_hyland_start
     )

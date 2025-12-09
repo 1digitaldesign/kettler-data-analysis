@@ -107,7 +107,9 @@ cross_reference_evidence <- function(data) {
 
     # Match PDF addresses with firm addresses
     # Use direct extraction from data.frame structure
-    if (!is.null(data$firms) && nrow(pdf_df) > 0 &&
+    if (!is.null(data$firms) && is.data.frame(data$firms) && nrow(data$firms) > 0 &&
+        "Address" %in% names(data$firms) &&
+        nrow(pdf_df) > 0 &&
         "entities" %in% names(pdf_df) && length(pdf_df$entities) > 0 &&
         !is.null(pdf_df$entities[[1]]) &&
         "addresses" %in% names(pdf_df$entities[[1]]) &&
@@ -201,7 +203,8 @@ create_filing_evidence_summary <- function(data, cross_ref) {
 
   # Timeline analysis
   if (!is.null(data$firms) && is.data.frame(data$firms) && nrow(data$firms) > 0 &&
-      "Firm.Name" %in% names(data$firms) && "Gap.Years" %in% names(data$firms)) {
+      "Firm.Name" %in% names(data$firms) && "Gap.Years" %in% names(data$firms) &&
+      "Initial.Cert.Date" %in% names(data$firms) && "Skidmore.License.Date" %in% names(data$firms)) {
     summary$timeline_issues <- data$firms %>%
       select(Firm.Name, Initial.Cert.Date, Skidmore.License.Date, Gap.Years) %>%
       filter(Gap.Years > 0) %>%

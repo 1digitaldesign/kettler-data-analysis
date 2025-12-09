@@ -230,7 +230,7 @@ main_validation <- function() {
   # Print final summary
   cat("\n=== Validation Summary ===\n")
   cat("Firms Existence:", existence$status, "\n")
-  cat("Principal Broker:", principal_broker$status, "(", principal_broker$count %||% principal_broker$found, "firms)\n")
+  cat("Principal Broker:", principal_broker$status, "(", if (!is.null(principal_broker$count)) principal_broker$count else principal_broker$found, "firms)\n")
   cat("Address Clustering:", clustering$status, "(", clustering$count, "firms)\n")
   cat("Timeline Anomalies:", anomalies$status, "(", anomalies$count, "firms)\n")
 

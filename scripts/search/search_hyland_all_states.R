@@ -67,6 +67,23 @@ main_search <- function() {
   registry <- load_state_registry()
   cat("Loaded", nrow(registry), "states\n\n")
 
+  if (nrow(registry) == 0) {
+    cat("ERROR: State registry is empty\n")
+    return(list(
+      search_date = as.character(Sys.Date()),
+      search_terms = SEARCH_TERMS,
+      states_searched = list(),
+      summary = list(
+        total_states = 0,
+        states_searched = 0,
+        licenses_found = 0,
+        no_license_found = 0,
+        not_searched = 0,
+        error = "Registry is empty"
+      )
+    ))
+  }
+
   # Initialize results
   results <- list(
     search_date = as.character(Sys.Date()),

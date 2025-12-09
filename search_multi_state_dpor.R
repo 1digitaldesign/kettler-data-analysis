@@ -41,7 +41,8 @@ search_all_firms_multi_state <- function() {
     # Search other states using generic framework
     other_states <- registry %>% filter(state_code != "VA")
 
-    for (i in 1:nrow(other_states)) {
+    if (nrow(other_states) > 0) {
+      for (i in 1:nrow(other_states)) {
       state_info <- other_states[i, ]
       log_message(paste("Searching", state_info$state_code, "for", firm))
 
@@ -54,6 +55,7 @@ search_all_firms_multi_state <- function() {
 
       # Rate limiting
       Sys.sleep(RATE_LIMIT_DELAY)
+      }
     }
 
     # Save individual firm results
@@ -85,7 +87,8 @@ search_skidmore_multi_state <- function() {
   other_states <- registry %>% filter(state_code != "VA")
   name_variations <- generate_skidmore_variations()
 
-  for (i in 1:nrow(other_states)) {
+  if (nrow(other_states) > 0) {
+    for (i in 1:nrow(other_states)) {
     state_info <- other_states[i, ]
 
     for (variation in name_variations) {
@@ -100,6 +103,7 @@ search_skidmore_multi_state <- function() {
 
       # Rate limiting
       Sys.sleep(RATE_LIMIT_DELAY)
+      }
     }
   }
 

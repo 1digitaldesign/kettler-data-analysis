@@ -84,8 +84,8 @@ extract_upl_evidence <- function() {
       # Check if Hyland is mentioned
       if (grepl("hyland|ehyland", text, ignore.case = TRUE)) {
         evidence <- list(
-          file = pdf$file[[1]],
-          file_path = pdf$file_path[[1]],
+          file = if (!is.null(pdf$file) && length(pdf$file) > 0) pdf$file[[1]] else NA,
+          file_path = if (!is.null(pdf$file_path) && length(pdf$file_path) > 0) pdf$file_path[[1]] else NA,
           hyland_mentioned = TRUE,
           legal_terms_found = c(),
           actions_found = c(),

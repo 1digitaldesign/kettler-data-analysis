@@ -75,7 +75,7 @@ audit_individual <- function(individual, requirements) {
   audit <- list(
     name = individual$name,
     role = individual$role,
-    employer = individual$employer %||% "Unknown",
+    employer = if (!is.null(individual$employer)) individual$employer else "Unknown",
     license_requirements = NULL,
     licenses_found = list(),
     violations = list(),

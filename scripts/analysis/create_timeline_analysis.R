@@ -209,7 +209,7 @@ analyze_causation <- function(timeline, firms) {
 
   # Hypothesis: Kettler is the real nexus
   kettler_firm <- firms[firms$Firm.Name == "KETTLER MANAGEMENT INC", ]
-  if (nrow(kettler_firm) > 0) {
+  if (nrow(kettler_firm) > 0 && "Initial.Cert.Date" %in% names(kettler_firm)) {
     kettler_date <- tryCatch({
       as.Date(kettler_firm$Initial.Cert.Date[1], format = "%Y-%m-%d")
     }, error = function(e) NA)
