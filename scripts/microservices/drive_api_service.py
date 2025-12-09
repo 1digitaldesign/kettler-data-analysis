@@ -118,6 +118,7 @@ def export_file(file_id: str):
         temp_path = temp_file.name
         temp_file.close()
 
+        exported_path = None
         try:
             # Determine export method based on file type
             if 'spreadsheet' in mime_type:
@@ -134,6 +135,7 @@ def export_file(file_id: str):
 
             # Clean up temp file
             os.unlink(exported_path)
+            exported_path = None  # Mark as cleaned
 
             # Sanitize filename for download
             safe_file_name = file_name.replace('/', '_').replace('\\', '_').replace('..', '_')
@@ -144,9 +146,17 @@ def export_file(file_id: str):
                 download_name=f"{safe_file_name}{ext}"
             )
         except Exception as e:
-            # Clean up temp file on error
-            if os.path.exists(temp_path):
-                os.unlink(temp_path)
+            # Clean up temp files on error (both temp_path and exported_path if different)
+            if exported_path and os.path.exists(exported_path) and exported_path != temp_path:
+                try:
+                    os.unlink(exported_path)
+                except OSError:
+                    pass  # Ignore errors during cleanup
+            if temp_path and os.path.exists(temp_path):
+                try:
+                    os.unlink(temp_path)
+                except OSError:
+                    pass  # Ignore errors during cleanup
             raise
     except Exception as e:
         logger.error(f"Error exporting file: {e}")
