@@ -34,10 +34,10 @@ path_mappings <- list(
   "research/skidmore_firms_validation.json" = "research/verification/skidmore_firms_validation.json",
   "research/timeline_analysis.json" = "research/timelines/timeline_analysis.json",
   "research/filing_recommendations.json" = "research/summaries/filing_recommendations.json",
-  
+
   # Config files
   "config/state_dpor_registry.csv" = "config/state_dpor_registry.csv",
-  
+
   # Script references
   "search_multi_state_dpor.R" = "bin/search_states.R",
   "analyze_skidmore_connections.R" = "bin/analyze_connections.R",

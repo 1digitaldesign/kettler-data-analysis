@@ -23,7 +23,7 @@ project_root <- if (file.exists(file.path(script_dir, "..", "README.md"))) {
   # Fallback: search from current directory
   current_dir <- getwd()
   for (i in 1:10) {
-    if (file.exists(file.path(current_dir, "README.md")) && 
+    if (file.exists(file.path(current_dir, "README.md")) &&
         file.exists(file.path(current_dir, "bin"))) {
       project_root <- current_dir
       break

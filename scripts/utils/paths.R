@@ -8,18 +8,18 @@ get_project_root <- function() {
   current_dir <- getwd()
   max_depth <- 10
   depth <- 0
-  
+
   while (depth < max_depth) {
     # Check for project root indicators
     has_readme <- file.exists(file.path(current_dir, "README.md"))
     has_bin <- file.exists(file.path(current_dir, "bin"))
     has_scripts <- file.exists(file.path(current_dir, "scripts"))
     has_data <- file.exists(file.path(current_dir, "data"))
-    
+
     if (has_readme && has_bin && has_scripts && has_data) {
       return(normalizePath(current_dir))
     }
-    
+
     parent_dir <- dirname(current_dir)
     if (parent_dir == current_dir) {
       break  # Reached filesystem root
@@ -27,7 +27,7 @@ get_project_root <- function() {
     current_dir <- parent_dir
     depth <- depth + 1
   }
-  
+
   # Fallback: return current directory
   return(normalizePath(getwd()))
 }

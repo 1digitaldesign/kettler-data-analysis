@@ -28,7 +28,7 @@ load_all_data <- function() {
     # Try JSON version
     firms_file <- file.path(DATA_SOURCE_DIR, "skidmore_all_firms_complete.json")
   }
-  
+
   if (file.exists(firms_file)) {
     if (grepl("\\.json$", firms_file)) {
       data$firms <- fromJSON(firms_file)

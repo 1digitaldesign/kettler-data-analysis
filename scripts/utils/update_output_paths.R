@@ -12,20 +12,20 @@ output_mappings <- list(
   "hyland_skidmore_connections.json" = "RESEARCH_CONNECTIONS_DIR",
   "azure_carlyle_search.json" = "RESEARCH_CONNECTIONS_DIR",
   "azure_carlyle_findings.json" = "RESEARCH_CONNECTIONS_DIR",
-  
+
   # Violations
   "all_violations_compiled.json" = "RESEARCH_VIOLATIONS_DIR",
   "hyland_upl_investigation.json" = "RESEARCH_VIOLATIONS_DIR",
   "upl_evidence_extracted.json" = "RESEARCH_VIOLATIONS_DIR",
   "news_violations_search.json" = "RESEARCH_VIOLATIONS_DIR",
-  
+
   # Anomalies
   "all_anomalies_consolidated.json" = "RESEARCH_ANOMALIES_DIR",
   "all_anomalies_updated.json" = "RESEARCH_ANOMALIES_DIR",
   "additional_anomalies.json" = "RESEARCH_ANOMALIES_DIR",
   "fraud_indicators.json" = "RESEARCH_ANOMALIES_DIR",
   "new_anomalies_found.json" = "RESEARCH_ANOMALIES_DIR",
-  
+
   # Evidence
   "all_evidence_summary.json" = "RESEARCH_EVIDENCE_DIR",
   "all_entities_extracted.json" = "RESEARCH_EVIDENCE_DIR",
@@ -38,7 +38,7 @@ output_mappings <- list(
   "str_listings_analysis.json" = "RESEARCH_EVIDENCE_DIR",
   "str_regulation_analysis.json" = "RESEARCH_EVIDENCE_DIR",
   "alexandria_zoning_analysis.json" = "RESEARCH_EVIDENCE_DIR",
-  
+
   # Verification
   "hyland_verification.json" = "RESEARCH_VERIFICATION_DIR",
   "kettler_verification.json" = "RESEARCH_VERIFICATION_DIR",
@@ -48,17 +48,17 @@ output_mappings <- list(
   "bar_association_verification_all.json" = "RESEARCH_VERIFICATION_DIR",
   "dpor_license_verification_all.json" = "RESEARCH_VERIFICATION_DIR",
   "management_chain_license_audit.json" = "RESEARCH_VERIFICATION_DIR",
-  
+
   # Timelines
   "timeline_analysis.json" = "RESEARCH_TIMELINES_DIR",
   "lease_evidence_cross_reference.json" = "RESEARCH_TIMELINES_DIR",
   "lease_abnormalities_detailed.json" = "RESEARCH_TIMELINES_DIR",
   "lease_agreement_analysis.json" = "RESEARCH_TIMELINES_DIR",
-  
+
   # Summaries
   "filing_recommendations.json" = "RESEARCH_SUMMARIES_DIR",
   "FINAL_COMPREHENSIVE_AUDIT_REPORT.md" = "RESEARCH_SUMMARIES_DIR",
-  
+
   # Search results
   "captcha_handled_searches.json" = "RESEARCH_SEARCH_RESULTS_DIR",
   "kettler_employees_all_states_license_search.json" = "RESEARCH_SEARCH_RESULTS_DIR",

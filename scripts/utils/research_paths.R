@@ -20,9 +20,9 @@ get_research_file <- function(category, filename) {
     "search_results" = RESEARCH_SEARCH_RESULTS_DIR,
     RESEARCH_DIR  # Default fallback
   )
-  
+
   file_path <- file.path(category_dir, filename)
-  
+
   # Fallback: try old location
   if (!file.exists(file_path)) {
     old_path <- file.path(RESEARCH_DIR, filename)
@@ -30,7 +30,7 @@ get_research_file <- function(category, filename) {
       return(old_path)
     }
   }
-  
+
   return(file_path)
 }
 
