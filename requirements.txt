@@ -68,6 +68,10 @@ pyarrow>=14.0.0
 # Persistent vector storage with validation
 qdrant-client>=1.7.0
 
+# Anti-bot scraping tools (for accuracy and avoiding detection)
+undetected-chromedriver>=3.5.0  # Undetected Chrome driver
+2captcha-python>=1.1.0  # CAPTCHA solving service (optional)
+
 # High-accuracy API services (choose one)
 # scraperapi>=1.0.0  # BEST ACCURACY - 99.9%+ success rate
 # zenrows>=1.0.0  # Good accuracy alternative
