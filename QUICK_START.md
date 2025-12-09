@@ -6,61 +6,121 @@
 
 ### Prerequisites
 
-1. **R** (version 4.0+)
-2. **Python** (version 3.8+)
-3. **Required R packages:**
-   ```r
-   install.packages(c("dplyr", "jsonlite", "stringr", "httr", "rvest", "data.table"))
+1. **Python** (version 3.8+)
+2. **Node.js** (version 18+, optional for web app)
+3. **Docker** (optional, for containerized deployment)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/kettler-data-analysis.git
+   cd kettler-data-analysis
    ```
 
-4. **Required Python packages:**
+2. **Install Python dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-### Running the Pipeline
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   # Edit .env with your configuration:
+   # - GCP credentials (for Google Drive API)
+   # - Hugging Face tokens (for data cleaning)
+   ```
 
-**Option 1: Run complete pipeline**
+4. **Install web dependencies** (optional)
+   ```bash
+   cd web
+   npm install
+   ```
+
+## Running the Pipeline
+
+### Option 1: Run Complete Pipeline
+
 ```bash
-Rscript bin/run_pipeline.R
+python bin/run_pipeline.py
 ```
 
-**Option 2: Run individual steps**
+This runs the complete analysis pipeline:
+- Data loading and validation
+- Connection analysis
+- Anomaly detection
+- Report generation
 
-1. **Search states:**
+### Option 2: Run Individual Components
+
+1. **Run all analyses:**
    ```bash
-   Rscript bin/search_states.R
+   python bin/run_all.py
    ```
 
-2. **Clean data:**
+2. **Analyze connections:**
    ```bash
-   python bin/clean_data.py
+   python bin/analyze_connections.py
    ```
 
-3. **Analyze connections:**
+3. **Validate data:**
    ```bash
-   Rscript bin/analyze_connections.R
+   python bin/validate_data.py
    ```
 
-4. **Validate data:**
+4. **Generate reports:**
    ```bash
-   Rscript bin/validate_data.R
+   python bin/generate_reports.py
    ```
 
-5. **Generate reports:**
+5. **Organize evidence:**
    ```bash
-   Rscript bin/generate_reports.R
+   python bin/organize_evidence.py
    ```
 
-6. **Organize evidence:**
-   ```bash
-   Rscript bin/organize_evidence.R
-   ```
+### Option 3: Use Unified Modules
+
+```python
+from scripts.core.unified_analysis import UnifiedAnalyzer
+
+# Initialize analyzer
+analyzer = UnifiedAnalyzer()
+
+# Load all data
+analyzer.load_all_data()
+
+# Run all analyses
+results = analyzer.analyze_all()
+
+# Save results
+analyzer.save_results()
+```
+
+## Running the Web Application
+
+```bash
+cd web
+npm run dev
+```
+
+Open http://localhost:3000 in your browser.
+
+## Running the API Server
+
+```bash
+cd api
+python server.py
+```
+
+API documentation available at http://localhost:8000/docs
 
 ## Directory Structure Quick Reference
 
 - **`bin/`** - Entry point scripts (run these)
-- **`scripts/`** - Library scripts (used by bin scripts)
+- **`scripts/core/`** - Unified analysis modules
+- **`scripts/analysis/`** - Analysis scripts
+- **`scripts/extraction/`** - Evidence extraction
+- **`scripts/etl/`** - ETL and vectorization
 - **`data/`** - Data files
   - `source/` - Original source data
   - `raw/` - Raw search results
@@ -104,32 +164,46 @@ Located at: `config/state_dpor_registry.csv`
 
 ### Environment Variables
 Copy `.env.example` to `.env` and configure:
-- GCP credentials (for Google Drive API)
-- Hugging Face tokens (for data cleaning)
+- `GOOGLE_APPLICATION_CREDENTIALS` - Path to GCP credentials
+- `HUGGINGFACE_TOKEN` - Hugging Face API token
+- `GCP_PROJECT_ID` - Google Cloud Project ID
 
 ## Documentation
 
 - **[README.md](README.md)** - Main project documentation
-- **[ORGANIZATION.md](docs/ORGANIZATION.md)** - Repository organization guide
-- **[Filing Guide](docs/guides/FILING_GUIDE.md)** - Administrative filing guide
-- **[Evidence Summary](docs/guides/EVIDENCE_SUMMARY.md)** - Evidence overview
+- **[Architecture Guide](ARCHITECTURE_GUIDE.md)** - System architecture
+- **[Organization Guide](docs/ORGANIZATION.md)** - Repository structure
+- **[Microservices Architecture](MICROSERVICES_ARCHITECTURE.md)** - Microservices design
 
 ## Troubleshooting
 
-### Scripts Not Found
-If you get "script not found" errors:
+### Import Errors
+If you get import errors:
 1. Ensure you're running from the project root directory
-2. Check that `bin/` directory exists
-3. Verify file permissions
+2. Check that `scripts/` directory exists
+3. Verify Python path includes project root
+
+### Missing Dependencies
+If dependencies are missing:
+```bash
+pip install -r requirements.txt
+```
 
 ### Path Errors
 If you get path-related errors:
-1. Check that `scripts/utils/paths.R` exists
-2. Ensure you're running scripts from project root
-3. Verify directory structure matches expected layout
+1. Check that you're running from project root
+2. Verify directory structure matches expected layout
+3. Check `scripts/utils/paths.py` for path configuration
 
 ### Missing Data Files
 If data files aren't found:
 1. Check `data/source/` for source files
-2. Run search scripts to generate raw data
-3. Run cleaning script to generate cleaned data
+2. Run extraction scripts to generate data
+3. Check `data/analysis/` for analysis outputs
+
+## Next Steps
+
+1. Review the [README.md](README.md) for detailed information
+2. Explore the [Architecture Guide](ARCHITECTURE_GUIDE.md)
+3. Check out the [web application](web/README.md)
+4. Review [API documentation](api/README.md)

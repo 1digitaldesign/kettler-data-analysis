@@ -1,170 +1,243 @@
-# Kettler Data Analysis - DPOR Multi-State License Search
+# Kettler Data Analysis
 
-This project searches Department of Professional and Occupational Regulation (DPOR) websites across all 50 states to find license information for specified firms and identify connections with Caitlin Skidmore.
+A comprehensive data analysis platform for investigating property management firm licensing, connections, and regulatory compliance across all 50 US states.
 
-## Overview
+## 🎯 Overview
 
-The system performs automated searches across state licensing databases to:
-1. Find license information for 10 specified property management firms
-2. Search for Caitlin Skidmore across all states to find additional connections
-3. Analyze connections through principal broker listings, address matching, and license patterns
-4. Clean and validate data using Hugging Face transformers
-5. Generate comprehensive analysis reports
+This project provides automated tools to:
+- **Search** state licensing databases (DPOR) across all 50 states
+- **Analyze** connections between firms, individuals, and license patterns
+- **Extract** evidence from PDFs, Excel files, and web sources
+- **Validate** data quality and flag anomalies
+- **Generate** comprehensive reports and visualizations
+- **Vectorize** documents for semantic search and analysis
 
-## Project Structure
+## 🏗️ Architecture
+
+The project uses a **Python-first** architecture with:
+- **Unified Core Modules** - Consolidated analysis, search, validation, and reporting
+- **Microservices** - API gateway, analysis service, and Google Drive integration
+- **ETL Pipeline** - Vector embeddings and data processing
+- **Web Application** - React/TypeScript frontend for interactive analysis
+- **Docker & Kubernetes** - Containerized deployment
+
+## 📁 Project Structure
 
 ```
 .
-├── bin/                  # Entry point scripts (executables)
-│   ├── run_pipeline.R          # Main pipeline runner
-│   ├── search_states.R         # Multi-state search
-│   ├── analyze_connections.R   # Connection analysis
-│   ├── validate_data.R         # Data validation
-│   ├── generate_reports.R      # Report generation
-│   └── organize_evidence.R     # Evidence organization
+├── bin/                    # Entry point scripts
+│   ├── run_pipeline.py     # Main pipeline runner
+│   ├── run_all.py          # Run all analyses
+│   ├── analyze_connections.py
+│   ├── validate_data.py
+│   ├── generate_reports.py
+│   ├── organize_evidence.py
+│   └── clean_data.py
 │
-├── scripts/             # Library scripts (organized by function)
-│   ├── search/          # Search and scraping scripts
-│   ├── analysis/        # Analysis scripts
-│   ├── extraction/      # Evidence extraction
-│   ├── validation/      # Data validation
-│   ├── reporting/       # Report generation
-│   ├── etl/            # ETL and vectorization
-│   ├── microservices/  # Microservices
-│   └── utils/          # Utility functions
+├── scripts/                # Core library modules
+│   ├── core/               # Unified analysis modules
+│   │   ├── unified_analysis.py
+│   │   ├── unified_search.py
+│   │   ├── unified_validation.py
+│   │   ├── unified_reporting.py
+│   │   └── unified_investigation.py
+│   ├── analysis/           # Analysis scripts
+│   ├── extraction/        # Evidence extraction
+│   ├── etl/                # ETL and vectorization
+│   ├── microservices/      # Microservice implementations
+│   └── utils/              # Utility functions
 │
-├── data/                # Data directories
-│   ├── source/         # Source data files
-│   ├── raw/            # Raw search results
-│   ├── cleaned/        # Cleaned data
-│   ├── analysis/       # Analysis outputs
-│   ├── scraped/        # Scraped data
-│   └── vectors/        # Vector embeddings
+├── data/                   # Data directories
+│   ├── source/             # Source data files
+│   ├── raw/                # Raw search results
+│   ├── cleaned/            # Cleaned data
+│   ├── analysis/           # Analysis outputs
+│   ├── scraped/            # Scraped web data
+│   └── vectors/            # Vector embeddings
 │
-├── research/            # Research outputs (organized by category)
-│   ├── connections/     # Connection analyses
-│   ├── violations/     # Violation findings
-│   ├── anomalies/      # Anomaly reports
-│   ├── evidence/       # Evidence summaries
-│   ├── verification/   # Verification results
-│   ├── timelines/      # Timeline analyses
-│   ├── summaries/      # Summary reports
-│   └── search_results/ # Search result files
+├── research/               # Research outputs (organized by category)
+│   ├── connections/        # Connection analyses
+│   ├── violations/         # Violation findings
+│   ├── anomalies/          # Anomaly reports
+│   ├── evidence/           # Evidence summaries
+│   ├── verification/       # Verification results
+│   ├── timelines/          # Timeline analyses
+│   ├── summaries/          # Summary reports
+│   └── search_results/     # Search result files
 │
-├── evidence/            # Source evidence documents
-├── filings/            # Filing materials
-├── docs/               # Documentation
-├── config/             # Configuration files
-└── outputs/            # Generated outputs
+├── api/                    # FastAPI server
+├── web/                    # React/TypeScript frontend
+├── microservices/          # Microservice implementations
+├── evidence/               # Source evidence documents
+├── filings/                # Filing materials
+├── docs/                   # Documentation
+└── config/                 # Configuration files
 ```
 
-## Installation
+## 🚀 Quick Start
 
-### R Dependencies
+### Prerequisites
 
-```r
-install.packages(c("httr", "rvest", "dplyr", "jsonlite", "stringr", "data.table"))
+- **Python** 3.8+ (primary language)
+- **Node.js** 18+ (for web application)
+- **Docker** (optional, for containerized deployment)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/kettler-data-analysis.git
+   cd kettler-data-analysis
+   ```
+
+2. **Install Python dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   # Edit .env with your configuration
+   ```
+
+4. **Install web dependencies** (optional)
+   ```bash
+   cd web
+   npm install
+   ```
+
+### Running the Pipeline
+
+**Option 1: Run complete pipeline**
+```bash
+python bin/run_pipeline.py
 ```
 
-### Python Dependencies
+**Option 2: Run individual components**
+```bash
+# Run all analyses
+python bin/run_all.py
+
+# Analyze connections
+python bin/analyze_connections.py
+
+# Validate data
+python bin/validate_data.py
+
+# Generate reports
+python bin/generate_reports.py
+
+# Organize evidence
+python bin/organize_evidence.py
+```
+
+**Option 3: Use unified modules**
+```python
+from scripts.core.unified_analysis import UnifiedAnalyzer
+
+analyzer = UnifiedAnalyzer()
+analyzer.load_all_data()
+results = analyzer.analyze_all()
+```
+
+### Running the Web Application
 
 ```bash
-pip install -r requirements.txt
+cd web
+npm run dev
+# Open http://localhost:3000
 ```
 
-## Usage
-
-### 1. Search All States for Firms
-
-```r
-# Run multi-state search for all firms
-source("bin/search_states.R")
-main_multi_state()
-```
-
-This will:
-- Search all 10 specified firms across all 50 states
-- Search for Caitlin Skidmore across all states
-- Save results to `data/raw/`
-
-### 2. Clean Data
+### Running the API Server
 
 ```bash
-python bin/clean_data.py
+cd api
+python server.py
+# API docs at http://localhost:8000/docs
 ```
 
-This will:
-- Standardize firm names using Hugging Face NER
-- Normalize addresses
-- Parse and standardize dates
-- Deduplicate results
-- Save cleaned data to `data/cleaned/`
+## 🔧 Key Features
 
-### 3. Analyze Connections
+### Unified Analysis
+- **Connection Analysis** - Identify relationships between firms and individuals
+- **Anomaly Detection** - Flag suspicious patterns and gaps
+- **Timeline Analysis** - Track events and identify patterns over time
+- **Evidence Extraction** - Extract structured data from PDFs and Excel files
 
-```r
-source("bin/analyze_connections.R")
-main_analysis()
+### Data Processing
+- **Vector Embeddings** - Semantic search using Hugging Face models
+- **Data Validation** - Quality checks and duplicate detection
+- **ETL Pipeline** - Automated data transformation and loading
+
+### Microservices
+- **API Gateway** - Centralized API routing
+- **Analysis Service** - Distributed analysis processing
+- **Google Drive Integration** - Access and process Drive files
+
+## 📊 Data Sources
+
+### Source Data
+- `data/source/skidmore_all_firms_complete.json` - Complete firm data (38 firms)
+- `data/source/skidmore_individual_licenses.json` - Individual license records
+
+### Research Outputs
+- `research/connections/` - Connection analyses and matrices
+- `research/violations/` - Violation findings and UPL evidence
+- `research/anomalies/` - Anomaly reports and fraud indicators
+- `research/evidence/` - Extracted evidence summaries
+
+## 🛠️ Development
+
+### Running Tests
+```bash
+# Run all tests
+python -m pytest tests/
+
+# Run specific test suite
+python tests/test_unified_modules.py
 ```
 
-This will:
-- Identify connections between firms and Caitlin Skidmore
-- Generate network analysis
-- Save connections to `data/analysis/dpor_skidmore_connections.csv`
+### Code Quality
+```bash
+# Format code
+black scripts/ bin/
 
-### 4. Validate Data Quality
-
-```r
-source("bin/validate_data.R")
-main_validation()
+# Lint code
+flake8 scripts/ bin/
 ```
 
-This will:
-- Validate license numbers
-- Flag duplicates
-- Validate addresses and dates
-- Generate quality report
+### Docker Deployment
+```bash
+# Build images
+make build
 
-### 5. Generate All Outputs
+# Start services
+make up
 
-```r
-source("bin/generate_reports.R")
-main_outputs()
+# View logs
+make logs
 ```
 
-### Quick Start: Run Full Pipeline
+## 📚 Documentation
 
-```r
-# Run the complete pipeline
-source("bin/run_pipeline.R")
-```
+- **[Quick Start Guide](QUICK_START.md)** - Get started quickly
+- **[Architecture Guide](ARCHITECTURE_GUIDE.md)** - System architecture
+- **[Organization Guide](docs/ORGANIZATION.md)** - Repository structure
+- **[Microservices Architecture](MICROSERVICES_ARCHITECTURE.md)** - Microservices design
+- **[API Documentation](api/README.md)** - API endpoints
+- **[Web Application Guide](web/README.md)** - Frontend documentation
 
-This runs all analysis and generates:
-- Connection summaries
-- State summaries
-- Quality reports
-- High-quality record sets
+## 🔍 Key Analysis Capabilities
 
-### 6. Generate Report
+1. **Multi-State License Search** - Automated searches across all 50 states
+2. **Connection Mapping** - Identify relationships through addresses, brokers, and licenses
+3. **Anomaly Detection** - Flag suspicious patterns and gaps
+4. **Evidence Extraction** - Extract structured data from documents
+5. **Timeline Analysis** - Track events and identify patterns
+6. **Vector Search** - Semantic search across documents
 
-```r
-rmarkdown::render("dpor_analysis_report.Rmd")
-```
-
-## Firms Searched
-
-1. Bell Partners Inc
-2. Bozzuto Management Company
-3. Cortland Management LLC
-4. Gables Residential Services Inc
-5. Gateway Management Company LLC
-6. McCormack Baron Management Inc
-7. Burlington Capital Properties LLC
-8. Bainbridge Mid Atlantic Management LLC
-9. Capreit Residential Management LLC
-10. Edgewood Management Corporation
-
-## Output Files
+## 📈 Output Files
 
 ### Analysis Outputs
 - `data/analysis/dpor_skidmore_connections.csv` - All identified connections
@@ -172,64 +245,30 @@ rmarkdown::render("dpor_analysis_report.Rmd")
 - `data/analysis/analysis_summary.json` - Summary statistics
 - `data/analysis/data_quality_report.json` - Quality metrics
 
-### Summary Files
-- `dpor_multi_state_summary.csv` - Summary by state
-- `dpor_connection_type_summary.csv` - Summary by connection type
-- `dpor_high_quality_records.csv` - High-quality records only
+### Research Outputs
+- `research/connections/connection_matrix.json` - Connection matrix
+- `research/violations/all_violations_compiled.json` - Compiled violations
+- `research/anomalies/all_anomalies_consolidated.json` - Consolidated anomalies
+- `research/timelines/timeline_analysis.json` - Timeline analysis
 
-## Connection Types Identified
+## 🤝 Contributing
 
-1. **Principal Broker** - Firm lists Caitlin Skidmore as principal broker
-2. **Same Address** - Firm shares address with Skidmore licenses
-3. **Same Address as Known Firm** - Firm shares address with known Skidmore firms
-4. **Known Firm Match** - Firm name matches known Skidmore firms
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Technical Details
-
-### Search Framework
-- **Language**: R (primary)
-- **Libraries**: httr, rvest, dplyr, jsonlite, stringr
-- **Approach**: Form-based and query-based searches
-- **Rate Limiting**: 2-second delay between requests
-
-### Data Cleaning
-- **Language**: Python
-- **Libraries**: Hugging Face transformers, pandas
-- **Models**: BERT-based NER for entity extraction
-- **Features**: Name standardization, address normalization, date parsing
-
-### Analysis
-- **Language**: R
-- **Libraries**: dplyr, data.table
-- **Methods**: Pattern matching, address clustering, duplicate detection
-
-## State Registry
-
-The `config/state_dpor_registry.csv` file contains:
-- State codes and names
-- Agency names
-- License lookup URLs
-- Search type (form-based vs query-based)
-- Notes
-
-## Documentation
-
-- **[Documentation Index](docs/INDEX.md)** - Complete documentation index
-- **[Filing Guide](docs/guides/FILING_GUIDE.md)** - Guide for filing administrative complaints
-- **[Evidence Summary](docs/guides/EVIDENCE_SUMMARY.md)** - Summary of all evidence
-- **[Maintenance Guide](docs/MAINTENANCE_GUIDE.md)** - Repository maintenance guide
-- **[Project Organization](docs/guides/PROJECT_ORGANIZATION.md)** - Project structure guide
-
-## Notes
-
-- Some DPOR websites may require manual verification
-- Rate limiting is implemented to respect server resources
-- Search logs are saved to `dpor_search_log.txt`
-- Intermediate results are saved frequently for recovery
-- Evidence files are organized in `evidence/` subdirectories
-- Generated outputs are in `outputs/` directory
-- Documentation is organized in `docs/` directory
-
-## License
+## 📝 License
 
 This project is for research and analysis purposes.
+
+## 🙏 Acknowledgments
+
+- Hugging Face for transformer models
+- FastAPI for the API framework
+- React/TypeScript for the web interface
+
+## 📞 Support
+
+For questions or issues, please open an issue on GitHub.

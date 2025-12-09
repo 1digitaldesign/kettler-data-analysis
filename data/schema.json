@@ -40,7 +40,7 @@
         },
         "firm_type": {
           "type": "string",
-          "enum": ["Corporation", "LLC - Limited Liability Company", "Solely owned LLC", "LLC", "Limited Partnership", "LP"],
+          "enum": ["Corporation", "LLC - Limited Liability Company", "Solely owned LLC", "LLC", "Limited Partnership", "LP", "LP - Limited Partnership", "LLP - Limited Liability Partnership"],
           "description": "Legal entity type",
           "required": true
         },
@@ -92,8 +92,9 @@
         "needs_verification": {
           "type": "boolean",
           "description": "Whether data needs verification (should be false for complete records)",
-          "required": true,
-          "default": false
+          "required": false,
+          "default": false,
+          "note": "Older records may not have this field - defaults to false"
         },
         "verification_date": {
           "type": ["string", "null"],
@@ -212,35 +213,59 @@
     },
 
     "analysis_results": {
-      "description": "Analysis outputs and quality reports",
-      "primary_key": "analysis_id",
+      "description": "Analysis outputs and quality reports (each file is a single analysis result object)",
+      "primary_key": "file_name",
+      "note": "Current files are single objects with varying structures. Each file represents one analysis result. Schema describes the file-level structure.",
       "files": [
         "analysis/data_quality_report.json",
         "analysis/analysis_summary.json"
       ],
       "columns": {
-        "analysis_id": {
+        "file_name": {
           "type": "string",
-          "description": "Primary Key: Unique identifier for analysis run",
+          "description": "Primary Key: Filename serves as unique identifier",
           "required": true,
-          "unique": true
+          "computed": true
         },
-        "analysis_type": {
-          "type": "string",
-          "enum": ["data_quality", "connection_analysis", "validation", "summary"],
-          "description": "Type of analysis",
-          "required": true
+        "total_records": {
+          "type": "array",
+          "description": "Total records analyzed",
+          "required": false
         },
-        "analysis_date": {
-          "type": "string",
-          "format": "date",
-          "description": "Date when analysis was run (YYYY-MM-DD)",
-          "required": true
-        },
-        "results": {
+        "license_validation": {
           "type": "object",
-          "description": "Analysis results (structure varies by analysis_type)",
-          "required": true
+          "description": "License validation results",
+          "required": false
+        },
+        "duplicates": {
+          "type": "object",
+          "description": "Duplicate detection results",
+          "required": false
+        },
+        "address_validation": {
+          "type": "object",
+          "description": "Address validation results",
+          "required": false
+        },
+        "date_validation": {
+          "type": "object",
+          "description": "Date validation results",
+          "required": false
+        },
+        "completeness": {
+          "type": "array",
+          "description": "Completeness scores",
+          "required": false
+        },
+        "overall_completeness": {
+          "type": "array",
+          "description": "Overall completeness score",
+          "required": false
+        },
+        "state_distribution": {
+          "type": "array",
+          "description": "State distribution statistics",
+          "required": false
         }
       },
       "indexes": [
@@ -250,52 +275,52 @@
     },
 
     "firm_connections": {
-      "description": "Connections and relationships between firms",
-      "primary_key": "connection_id",
-      "composite_key": ["firm_license_1", "firm_license_2"],
+      "description": "Connections and relationships between firms (legacy format - may need transformation)",
+      "primary_key": "license_number",
       "file": "analysis/dpor_skidmore_connections.csv",
+      "note": "Legacy CSV format. License numbers are 9 digits (missing leading zero). Primary key is license_number. Consider transforming to normalized schema for production use.",
       "columns": {
-        "connection_id": {
+        "firm_name": {
           "type": "string",
-          "description": "Primary Key: Unique identifier for connection",
-          "required": true,
-          "unique": true
+          "description": "Name of the firm",
+          "required": true
         },
-        "firm_license_1": {
+        "license_number": {
           "type": "string",
           "format": "regex",
-          "pattern": "^[0-9]{10}$",
-          "description": "Foreign Key: References firms.firm_license",
+          "pattern": "^[0-9]{9,10}$",
+          "description": "Primary Key: License number (9-10 digits, may need leading zero padding)",
           "required": true,
           "fk_table": "firms",
-          "fk_column": "firm_license"
+          "fk_column": "firm_license",
+          "note": "CSV has 9-digit numbers - needs padding to match firms.firm_license"
         },
-        "firm_license_2": {
+        "state": {
           "type": "string",
-          "format": "regex",
-          "pattern": "^[0-9]{10}$",
-          "description": "Foreign Key: References firms.firm_license",
-          "required": true,
-          "fk_table": "firms",
-          "fk_column": "firm_license"
+          "pattern": "^[A-Z]{2}$",
+          "description": "Two-letter state code",
+          "required": true
         },
         "connection_type": {
           "type": "string",
-          "enum": ["same_address", "same_principal_broker", "same_license_date", "other"],
-          "description": "Type of connection",
+          "description": "Type of connection (e.g., 'Principal Broker')",
           "required": true
         },
-        "connection_strength": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 1,
-          "description": "Strength of connection (0-1 scale)",
+        "connection_detail": {
+          "type": "string",
+          "description": "Details about the connection",
+          "required": false
+        },
+        "skidmore_license": {
+          "type": "string",
+          "description": "Skidmore's license number",
           "required": false
         }
       },
       "indexes": [
-        {"columns": ["firm_license_1"], "unique": false},
-        {"columns": ["firm_license_2"], "unique": false},
+        {"columns": ["license_number"], "unique": true},
+        {"columns": ["firm_name"], "unique": false},
+        {"columns": ["state"], "unique": false},
         {"columns": ["connection_type"], "unique": false}
       ]
     }
@@ -312,19 +337,11 @@
     },
     {
       "from_table": "firm_connections",
-      "from_column": "firm_license_1",
+      "from_column": "license_number",
       "to_table": "firms",
       "to_column": "firm_license",
       "relationship_type": "many_to_one",
-      "description": "Connection references first firm"
-    },
-    {
-      "from_table": "firm_connections",
-      "from_column": "firm_license_2",
-      "to_table": "firms",
-      "to_column": "firm_license",
-      "relationship_type": "many_to_one",
-      "description": "Connection references second firm"
+      "description": "Connection references firm by license number"
     }
   ],
 
