@@ -1,6 +1,6 @@
 # R Code Removal from Main Branch
 
-**Date:** December 9, 2024  
+**Date:** December 9, 2024
 **Status:** Complete
 
 ## Summary

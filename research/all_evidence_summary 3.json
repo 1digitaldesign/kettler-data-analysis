@@ -1,0 +1,13 @@
+{
+  "extraction_date": "2025-12-09",
+  "total_pdfs": 0,
+  "total_excel_files": 0,
+  "entities_found": {
+    "total_emails": 0,
+    "total_addresses": 0,
+    "total_phones": 0,
+    "total_dates": 0,
+    "kettler_emails": []
+  },
+  "key_findings": {}
+}
