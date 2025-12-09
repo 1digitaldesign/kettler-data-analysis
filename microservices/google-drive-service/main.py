@@ -56,16 +56,16 @@ try:
     def initialize_drive_client():
         """Initialize Google Drive API client"""
         global drive_client
-        
+
         SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
         creds = None
-        
+
         # Try service account first (from config/gcp-credentials.json)
         service_account_file = os.getenv(
             'GOOGLE_APPLICATION_CREDENTIALS',
             str(Path(__file__).parent.parent.parent / 'config' / 'gcp-credentials.json')
         )
-        
+
         if os.path.exists(service_account_file):
             try:
                 from google.oauth2 import service_account
@@ -76,7 +76,7 @@ try:
                 logger.info("Using service account credentials")
             except Exception as e:
                 logger.warning(f"Could not use service account credentials: {e}")
-        
+
         # Fallback to OAuth 2.0 if service account not available
         if not creds:
             token_file = os.getenv('GOOGLE_DRIVE_TOKEN_FILE', 'token.pickle')
@@ -84,14 +84,14 @@ try:
                 'GOOGLE_DRIVE_CREDENTIALS_FILE',
                 str(Path(__file__).parent / 'credentials.json')
             )
-            
+
             if os.path.exists(token_file):
                 try:
                     with open(token_file, 'rb') as token:
                         creds = pickle.load(token)
                 except Exception as e:
                     logger.warning(f"Could not load token file: {e}")
-            
+
             # If there are no (valid) credentials available, try OAuth flow
             if not creds or not creds.valid:
                 if creds and creds.expired and creds.refresh_token:
@@ -100,7 +100,7 @@ try:
                     except Exception as e:
                         logger.warning(f"Could not refresh token: {e}")
                         creds = None
-                
+
                 if not creds:
                     if os.path.exists(credentials_file):
                         try:
@@ -116,7 +116,7 @@ try:
                     else:
                         logger.warning("No Google Drive credentials found (neither service account nor OAuth)")
                         return None
-        
+
         try:
             drive_client = build('drive', 'v3', credentials=creds)
             logger.info("Google Drive client initialized successfully")
