@@ -9,10 +9,10 @@
   },
   "egress": {
     "csv": 1,
-    "json": 0,
+    "json": 2,
     "pdf": 0,
     "excel": 0,
-    "total_files": 2,
+    "total_files": 4,
     "total_embeddings": 0
   },
   "source": {
@@ -25,10 +25,10 @@
   },
   "research": {
     "csv": 2,
-    "json": 80,
+    "json": 85,
     "pdf": 0,
     "excel": 0,
-    "total_files": 93,
+    "total_files": 98,
     "total_embeddings": 0
   },
   "evidence": {
@@ -48,11 +48,11 @@
     "total_embeddings": 0
   },
   "summary": {
-    "total_files": 119,
+    "total_files": 126,
     "total_embeddings": 0,
     "vector_store_stats": {
-      "total_embeddings": 9956,
-      "vector_store_size": 9956,
+      "total_embeddings": 11460,
+      "vector_store_size": 11460,
       "model": "all-MiniLM-L6-v2",
       "dimension": 384
     }

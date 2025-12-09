@@ -1,9 +1,24 @@
 {
   "research_session": "2025-12-09",
   "start_time": "2025-12-09T21:29:00Z",
+  "last_update": "2025-12-09T21:35:00Z",
   "status": "in_progress",
-  "tasks_completed": [],
-  "tasks_in_progress": [],
+  "tasks_completed": [
+    "verify-distance-calculation",
+    "search-washington-city-paper",
+    "search-settlement-coverage",
+    "search-alexandria-properties",
+    "search-bbb-complaints-detailed",
+    "search-court-records",
+    "search-skidmore-texas-sos",
+    "foia-dpor-historical",
+    "compile-timeline"
+  ],
+  "tasks_in_progress": [
+    "search-wayback-dpor",
+    "search-kettler-delaware-sos",
+    "verify-personnel-va-licenses"
+  ],
   "findings": {
     "distance_calculation": {
       "status": "completed",
@@ -56,6 +71,28 @@
         "Patrick Cassada - CFO"
       ],
       "florida_registration": "Foreign Profit Corporation, filed 2018-06-20"
+    },
+    "court_cases": {
+      "status": "found",
+      "total_cases": 6,
+      "cases_during_gap": 2,
+      "cases_with_skidmore_firms": 2
+    },
+    "properties": {
+      "status": "expanded",
+      "800_carlyle": {"units": 280, "verified": true},
+      "fields_of_arlington": {"verified": true},
+      "ahc_partnership": {"properties": 24, "units": "approximately 3,000"}
+    },
+    "code_violations": {
+      "status": "found",
+      "800_carlyle_complaints": 2,
+      "reporting_contacts": "Alexandria Code Administration: 311 or 703.746.4311"
+    },
+    "foia_request": {
+      "status": "template_ready",
+      "email": "PublicRecords@dpor.virginia.gov",
+      "template_file": "foia_request_template.md"
     }
   },
   "next_actions": [

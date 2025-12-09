@@ -23,17 +23,45 @@
       "notes": "DPOR complaint database may not be publicly accessible - FOIA request may be necessary"
     },
     "code_violations": {
-      "status": "pending",
+      "status": "partial",
       "jurisdictions": [
         "City of Alexandria",
         "Fairfax County",
         "Arlington County"
       ],
-      "findings": [],
+      "findings": [
+        {
+          "property": "800 Carlyle, Alexandria",
+          "date": "2025-07",
+          "type": "Maintenance issues",
+          "details": "BBB complaint: leaks, uncleaned carpets, inadequate management response",
+          "source": "BBB complaint records"
+        },
+        {
+          "property": "800 Carlyle, Alexandria",
+          "type": "General maintenance",
+          "details": "Reviews mention noise disturbances, cleanliness problems, management responsiveness issues",
+          "source": "Apartments.com reviews"
+        }
+      ],
+      "reporting_contacts": {
+        "alexandria_code_admin": {
+          "phone": "311 or 703.746.4311",
+          "division": "Maintenance Code Division",
+          "enforces": "Virginia Maintenance Code and local ordinances"
+        },
+        "alexandria_nuisance_hotline": {
+          "phone": "703.746.4311",
+          "hours": "24-hour",
+          "addresses": "Trash accumulation, poorly maintained properties, rodent problems"
+        }
+      },
       "search_methods": [
         "Local code enforcement records",
         "Property inspection records",
-        "Building code violation databases"
+        "Building code violation databases",
+        "BBB complaints",
+        "Online reviews"
       ]
     },
     "fair_housing_complaints": {

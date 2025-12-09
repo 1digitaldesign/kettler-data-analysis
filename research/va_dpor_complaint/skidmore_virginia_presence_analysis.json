@@ -81,12 +81,40 @@
     }
   },
   "virginia_business_registration": {
-    "status": "pending",
+    "status": "method_verified",
     "search_methods": [
-      "Virginia SCC business entity search",
+      "Virginia SCC Clerk's Information System (CIS)",
       "Virginia business license databases",
       "Property management industry databases"
     ],
+    "virginia_scc_cis": {
+      "url": "https://cis.scc.virginia.gov/EntitySearch/Index",
+      "search_criteria": [
+        "Entity Name",
+        "Entity ID",
+        "Principal Name",
+        "Registered Agent Name"
+      ],
+      "search_instructions": {
+        "principal_name": "Caitlin Skidmore",
+        "party_type": "Individual",
+        "note": "Select appropriate radio button to define as 'Individual'"
+      },
+      "results_provided": [
+        "Entity ID",
+        "Entity Type",
+        "Status",
+        "Date of Formation",
+        "Registered Agent Information",
+        "Principal Office Address"
+      ],
+      "contact": {
+        "phone": "(804) 371-9733",
+        "toll_free": "1-866-722-2551",
+        "email": "sccefile@scc.virginia.gov"
+      },
+      "note": "CIS may not include sole proprietorships not required to register with SCC"
+    },
     "findings": []
   },
   "virginia_property_visits": {

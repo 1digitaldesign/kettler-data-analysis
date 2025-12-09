@@ -12,10 +12,20 @@ Property management licensing investigation platform. Python-first architecture.
 
 ## Quick Start
 
+**Installation:**
 ```bash
+git clone https://github.com/1digitaldesign/kettler-data-analysis.git
+cd kettler-data-analysis
 pip install -r requirements.txt
+cp .env.example .env  # Configure as needed
+```
+
+**Run:**
+```bash
 python bin/run_pipeline.py
 ```
+
+See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions.
 
 ## System Structure
 
@@ -67,11 +77,18 @@ cd web && npm run dev  # http://localhost:3000
 
 ## Documentation
 
-- [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) - System architecture
-- [DATA_FLOW.md](DATA_FLOW.md) - Data pipeline
-- [COMPONENTS.md](COMPONENTS.md) - Component reference
+**Getting Started:**
+- [INSTALLATION.md](INSTALLATION.md) - Installation and setup guide
 - [QUICK_START.md](QUICK_START.md) - Quick start guide
-- [docs/ORGANIZATION.md](docs/ORGANIZATION.md) - Repository organization
+
+**System Documentation:**
+- [docs/SYSTEM_ARCHITECTURE.md](docs/SYSTEM_ARCHITECTURE.md) - System architecture
+- [docs/DATA_FLOW.md](docs/DATA_FLOW.md) - Data pipeline
+- [docs/COMPONENTS.md](docs/COMPONENTS.md) - Component reference
+- [docs/REPOSITORY_STRUCTURE.md](docs/REPOSITORY_STRUCTURE.md) - Repository structure
+
+**Full Documentation:**
+- [docs/INDEX.md](docs/INDEX.md) - Complete documentation index
 
 ## Data Sources
 

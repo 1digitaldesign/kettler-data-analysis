@@ -1,12 +1,13 @@
 # Quick Start Guide
 
-**Last Updated:** December 7, 2025
+**For installation, see [INSTALLATION.md](../INSTALLATION.md)**
 
 ## For New Users
 
 ### 1. Understanding the Project
 - Read [README.md](../README.md) for project overview
-- Review [PROJECT_ORGANIZATION.md](guides/PROJECT_ORGANIZATION.md) for structure
+- Review [REPOSITORY_STRUCTURE.md](../REPOSITORY_STRUCTURE.md) for structure
+- See [SYSTEM_ARCHITECTURE.md](../SYSTEM_ARCHITECTURE.md) for architecture
 
 ### 2. Filing Administrative Complaints
 - See [FILING_GUIDE.md](guides/FILING_GUIDE.md) for complete instructions
@@ -15,13 +16,13 @@
 
 ### 3. Finding Evidence
 - See [EVIDENCE_SUMMARY.md](guides/EVIDENCE_SUMMARY.md) for evidence overview
-- Check `research/all_evidence_summary.json` for detailed analysis
+- Check `research/evidence/` for extracted evidence summaries
 - Review `filings/filing_evidence_package.json` for complete package
 
 ### 4. Running Analysis
 - See [scripts/README.md](../scripts/README.md) for script documentation
-- Run `Rscript organize_evidence.R` to organize all evidence
-- Run `Rscript run_full_pipeline.R` for full analysis pipeline
+- Run `python bin/run_pipeline.py` for full pipeline
+- Run `python bin/organize_evidence.py` to organize evidence
 
 ## For Maintainers
 

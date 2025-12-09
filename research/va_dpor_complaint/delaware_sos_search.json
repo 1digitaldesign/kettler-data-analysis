@@ -1,0 +1,37 @@
+{
+  "research_date": "2025-12-09",
+  "entity": "Kettler Management Inc.",
+  "search_objective": "Find Delaware corporate filings and entity information",
+  "delaware_division_of_corporations": {
+    "website": "https://corp.delaware.gov/",
+    "online_status_inquiry": {
+      "url": "https://corp.delaware.gov/onlinestatus/",
+      "fee_basic": 10,
+      "fee_with_tax_history": 20,
+      "provides": [
+        "Current status",
+        "Recent filings",
+        "Franchise tax assessments",
+        "History details (with $20 option)"
+      ],
+      "note": "Does not generate official certificate of good standing"
+    },
+    "document_request_service": {
+      "url": "https://corp.delaware.gov/document-upload-service-information/",
+      "purpose": "Request official documents or copies of specific filings",
+      "method": "Electronically submit requests for business entity documents or certificates"
+    },
+    "contact": {
+      "phone": "(302) 739-3073, option 2",
+      "hours": "8:00 am to 4:30 pm, Monday through Friday (excluding state holidays)",
+      "note": "Division no longer provides entity filing history over telephone or live chat"
+    }
+  },
+  "search_status": "method_verified_ready_to_execute",
+  "next_steps": [
+    "Access Delaware Division of Corporations online status inquiry",
+    "Search for Kettler Management Inc.",
+    "Request document copies if needed",
+    "Document all findings"
+  ]
+}

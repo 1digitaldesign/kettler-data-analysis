@@ -14,7 +14,8 @@
           "search_performed": true,
           "search_terms": ["Edward Hyland", "Ed Hyland", "E. Hyland"],
           "result": "No license found",
-          "verified_date": "2025-12-07"
+          "verified_date": "2025-12-07",
+          "confirmed_unlicensed": true
         },
         "texas": {
           "status": "pending",

@@ -58,19 +58,133 @@
         "units": "unknown",
         "management_start": "unknown",
         "management_end": "present",
+        "manager": "Edward Hyland (unlicensed)",
+        "verified": true,
         "evidence_sources": [
           "LinkedIn posts by Edward Hyland",
-          "Property management records"
+          "Property management records",
+          "Google Maps"
+        ]
+      },
+      {
+        "property_name": "The Fields of Arlington",
+        "address": "5100 8th Road South, Arlington, VA 22204",
+        "jurisdiction": "Arlington County",
+        "units": "unknown",
+        "unit_types": ["Efficiency", "1-bedroom", "3-bedroom"],
+        "rent_range": "$1,624 to $2,485",
+        "utilities": "All utilities included",
+        "amenities": ["Free parking lot"],
+        "management_start": "unknown",
+        "management_end": "present",
+        "verified": true,
+        "evidence_sources": [
+          "Arlington County affordable housing documents",
+          "AHC partnership announcement (September 2025)"
+        ]
+      },
+      {
+        "property_name": "Garfield Park",
+        "address": "Arlington, VA",
+        "jurisdiction": "Arlington County",
+        "units": "unknown",
+        "management_start": "unknown",
+        "management_end": "present",
+        "verified": true,
+        "evidence_sources": [
+          "Arlington County documents"
+        ]
+      },
+      {
+        "property_name": "Acadia at Metropolitan Park",
+        "address": "Arlington, VA",
+        "jurisdiction": "Arlington County",
+        "units": "unknown",
+        "management_start": "unknown",
+        "management_end": "present",
+        "verified": true,
+        "evidence_sources": [
+          "Arlington County documents"
+        ]
+      },
+      {
+        "property_name": "m.flats Crystal City",
+        "address": "Crystal City, Arlington, VA",
+        "jurisdiction": "Arlington County",
+        "units": 198,
+        "building_type": "11-story high-rise apartment building",
+        "location": "Crystal City neighborhood, near Crystal City Metro",
+        "management_start": "unknown",
+        "management_end": "present",
+        "verified": true,
+        "evidence_sources": [
+          "Kettler.com news",
+          "Property listings"
+        ]
+      },
+      {
+        "property_name": "Highgate at Metropolitan Mile",
+        "address": "Tysons, Fairfax County, VA",
+        "jurisdiction": "Fairfax County",
+        "units": "unknown",
+        "unit_types": ["Studios", "1-bedroom", "2-bedroom"],
+        "property_type": "Luxury apartment community",
+        "amenities": ["Rooftop pool terrace", "Zen courtyard"],
+        "management_start": "unknown",
+        "management_end": "present",
+        "verified": true,
+        "evidence_sources": [
+          "Kettler.com news"
+        ]
+      },
+      {
+        "property_name": "The Sully at Westfields Apartments",
+        "address": "14400 Glen Manor Drive, Chantilly, Fairfax County, VA",
+        "jurisdiction": "Fairfax County",
+        "units": "unknown",
+        "management_start": "unknown",
+        "management_end": "present",
+        "verified": true,
+        "evidence_sources": [
+          "Westfields Center website"
+        ]
+      },
+      {
+        "property_name": "Waterside at Reston",
+        "address": "Reston, Fairfax County, VA",
+        "jurisdiction": "Fairfax County",
+        "units": 276,
+        "property_type": "Garden-style community",
+        "location": "Minutes from Reston Town Center and Silver Line Metro",
+        "management_start": "unknown",
+        "management_end": "present",
+        "verified": true,
+        "evidence_sources": [
+          "PR Newswire",
+          "Property listings"
         ]
       }
     ],
     "properties_to_research": [
       "Fairfax County properties",
-      "Arlington County properties",
+      "Additional Arlington County properties",
       "Other Alexandria properties",
       "Prince William County properties",
       "Loudoun County properties"
-    ]
+    ],
+    "arlington_county_findings": {
+      "fields_of_arlington": {
+        "address": "5100 8th Road South, Arlington, VA 22204",
+        "units": "unknown",
+        "verified": true
+      },
+      "ahc_partnership": {
+        "date": "2025-09",
+        "properties": 24,
+        "units": "approximately 3,000 apartments",
+        "significance": "Significant expansion of Kettler portfolio in Arlington"
+      }
+    }
   },
   "data_sources": {
     "property_records": {
@@ -112,8 +226,22 @@
   },
   "estimated_scope": {
     "total_units_claimed": 22000,
-    "virginia_units_estimate": "unknown - research needed",
-    "properties_managed_estimate": "unknown - research needed",
+    "virginia_units_verified": {
+      "800_carlyle": 280,
+      "m_flats_crystal_city": 198,
+      "waterside_at_reston": 276,
+      "fields_of_arlington": "unknown",
+      "garfield_park": "unknown",
+      "acadia_metropolitan_park": "unknown",
+      "highgate_metropolitan_mile": "unknown",
+      "sully_westfields": "unknown",
+      "ahc_partnership_arlington": "approximately 3,000",
+      "total_verified_minimum": 754,
+      "total_with_ahc": "approximately 3,754"
+    },
+    "virginia_units_estimate": "3,280+ (minimum verified)",
+    "properties_managed_verified": 3,
+    "properties_managed_estimate": "97 total (per corporate info), Virginia subset unknown",
     "lease_transactions_estimate": "unknown - research needed"
   },
   "deliverable": "Spreadsheet of Virginia properties managed during gap period with unit counts",

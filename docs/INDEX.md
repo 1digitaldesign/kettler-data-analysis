@@ -1,18 +1,20 @@
 # Documentation Index
 
-## System Documentation
+## Getting Started
 
 - [README.md](../README.md) - Main overview
-- [SYSTEM_ARCHITECTURE.md](../SYSTEM_ARCHITECTURE.md) - Architecture
-- [DATA_FLOW.md](../DATA_FLOW.md) - Data pipeline
-- [COMPONENTS.md](../COMPONENTS.md) - Components
-- [SYSTEM_ANALYST_GUIDE.md](SYSTEM_ANALYST_GUIDE.md) - Analyst guide
+- [INSTALLATION.md](../INSTALLATION.md) - Installation and setup
+- [QUICK_START.md](../QUICK_START.md) - Quick start guide
+
+## System Documentation
+
+- [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) - System architecture
+- [DATA_FLOW.md](DATA_FLOW.md) - Data pipeline
+- [COMPONENTS.md](COMPONENTS.md) - Component reference
+- [REPOSITORY_STRUCTURE.md](REPOSITORY_STRUCTURE.md) - Repository structure
+- [SYSTEM_ANALYST_GUIDE.md](SYSTEM_ANALYST_GUIDE.md) - System analyst guide
 - [SYSTEM_OVERVIEW.md](SYSTEM_OVERVIEW.md) - System overview
-
-## Quick Start
-
-- [QUICK_START.md](../QUICK_START.md) - Quick start
-- [ORGANIZATION.md](ORGANIZATION.md) - Repository structure
+- [ORGANIZATION.md](ORGANIZATION.md) - Repository organization
 
 ## Guides
 

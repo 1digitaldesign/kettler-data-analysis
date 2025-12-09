@@ -1,39 +1,52 @@
 # Quick Start
 
-## Install
+## Installation
+
+See [INSTALLATION.md](INSTALLATION.md) for complete setup instructions.
 
 ```bash
 pip install -r requirements.txt
 cp .env.example .env  # Configure as needed
 ```
 
-## Run
+## Running
 
+### Pipeline
 ```bash
-# Full pipeline
 python bin/run_pipeline.py
-
-# Individual
-python bin/run_all.py
-python bin/analyze_connections.py
-python bin/validate_data.py
-python bin/generate_reports.py
-
-# Web
-cd web && npm run dev
-
-# API
-cd api && python server.py
 ```
 
-## Structure
+### Individual Components
+```bash
+python bin/run_all.py              # All analyses
+python bin/analyze_connections.py   # Connection analysis
+python bin/validate_data.py         # Data validation
+python bin/generate_reports.py      # Report generation
+```
 
-- `bin/` - Entry scripts
-- `scripts/core/` - Unified modules
-- `data/` - Data files
-- `research/` - Outputs by category
+### Web & API
+```bash
+# API Server
+cd api && python server.py  # http://localhost:8000/docs
 
-## Config
+# Web Frontend
+cd web && npm run dev       # http://localhost:3000
+```
 
-- `config/state_dpor_registry.csv` - State registry
-- `.env` - Environment variables (GCP, HuggingFace)
+## Key Directories
+
+- `bin/` - Entry point scripts
+- `scripts/core/` - Unified modules (UnifiedAnalyzer, UnifiedSearcher, etc.)
+- `data/` - Data files (source, raw, cleaned, analysis)
+- `research/` - Research outputs (connections, violations, anomalies)
+
+## Configuration
+
+- `config/state_dpor_registry.csv` - State DPOR registry
+- `.env` - Environment variables (GCP, HuggingFace tokens)
+
+## Documentation
+
+- [README.md](README.md) - System overview
+- [INSTALLATION.md](INSTALLATION.md) - Installation guide
+- [docs/INDEX.md](docs/INDEX.md) - Full documentation index

@@ -35,7 +35,7 @@
       "notes": "Search in progress - no historical records found yet in current DPOR database"
     },
     "wayback_machine_snapshots": {
-      "status": "pending",
+      "status": "method_verified",
       "urls_to_check": [
         "https://www.dpor.virginia.gov/LicenseLookup/",
         "https://www.dpor.virginia.gov/Boards/RealEstate/"
@@ -53,7 +53,10 @@
         "2023-01-01",
         "2024-01-01",
         "2025-04-02"
-      ]
+      ],
+      "method": "Use Wayback Machine (archive.org) to access historical DPOR website snapshots",
+      "note": "Interactive features like search may not work in archived versions",
+      "wayback_machine_url": "https://web.archive.org"
     },
     "foia_request": {
       "status": "ready_to_submit",
@@ -70,7 +73,17 @@
         "toll_free": "1-866-448-4100"
       },
       "specificity_requirement": "Must identify records with 'reasonable specificity'",
-      "note": "FOIA does not require DPOR to create records that don't exist - request must be for existing records"
+      "note": "FOIA does not require DPOR to create records that don't exist - request must be for existing records",
+      "firm_change_form": {
+        "form_name": "Firm Principal Broker/Officer Change Form",
+        "form_code": "A490-02PBOCHG",
+        "url": "https://www.dpor.virginia.gov/sites/default/files/boards/Real_Estate/A490-02PBOCHG.pdf",
+        "requirement": "Firms must notify board in writing and return current licenses when principal broker changes"
+      },
+      "real_estate_board_contact": {
+        "phone": "(804) 367-8526",
+        "website": "www.dpor.virginia.gov"
+      }
     }
   },
   "legal_implications": {

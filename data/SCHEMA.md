@@ -50,7 +50,7 @@ This document describes the complete database schema for the Kettler Data Analys
 
 ### 1. `firms` (Primary Table)
 
-**File:** `source/skidmore_all_firms_complete.json`
+**File:** `cleaned/firms.json` (cleaned and deduplicated)
 **Description:** Real estate firms associated with Caitlin Skidmore as principal broker
 
 **Primary Key:** `firm_license` (10-digit Virginia DPOR license number)
@@ -90,7 +90,7 @@ This document describes the complete database schema for the Kettler Data Analys
 
 ### 2. `individual_licenses`
 
-**File:** `source/skidmore_individual_licenses.json`
+**File:** `cleaned/individual_licenses.json` (cleaned and deduplicated)
 **Description:** Individual real estate licenses for Caitlin Skidmore across multiple states
 
 **Primary Key:** `license_number` (10-digit license number)

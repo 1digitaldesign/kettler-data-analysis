@@ -1,7 +1,7 @@
 # Google Drive Folder Structure - Tree Diagram
 
-**Folder:** [EXT] Document Drive  
-**Folder ID:** `1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8`  
+**Folder:** [EXT] Document Drive
+**Folder ID:** `1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8`
 **Generated:** December 9, 2024
 
 ```
