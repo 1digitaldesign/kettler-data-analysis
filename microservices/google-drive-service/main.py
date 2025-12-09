@@ -14,7 +14,8 @@ import os
 import logging
 
 # Add project root to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from utils.validation import (
@@ -49,9 +50,9 @@ try:
     from googleapiclient.http import MediaIoBaseDownload
     import io
     import pickle
-    
+
     GOOGLE_DRIVE_AVAILABLE = True
-    
+
     def initialize_drive_client():
         """Initialize Google Drive API client"""
         global drive_client
@@ -59,41 +60,74 @@ try:
         SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
         creds = None
         
-        # Check for token file
-        token_file = os.getenv('GOOGLE_DRIVE_TOKEN_FILE', 'token.pickle')
-        credentials_file = os.getenv('GOOGLE_DRIVE_CREDENTIALS_FILE', 'credentials.json')
+        # Try service account first (from config/gcp-credentials.json)
+        service_account_file = os.getenv(
+            'GOOGLE_APPLICATION_CREDENTIALS',
+            str(Path(__file__).parent.parent.parent / 'config' / 'gcp-credentials.json')
+        )
         
-        if os.path.exists(token_file):
-            with open(token_file, 'rb') as token:
-                creds = pickle.load(token)
+        if os.path.exists(service_account_file):
+            try:
+                from google.oauth2 import service_account
+                creds = service_account.Credentials.from_service_account_file(
+                    service_account_file,
+                    scopes=SCOPES
+                )
+                logger.info("Using service account credentials")
+            except Exception as e:
+                logger.warning(f"Could not use service account credentials: {e}")
         
-        # If there are no (valid) credentials available, let the user log in
-        if not creds or not creds.valid:
-            if creds and creds.expired and creds.refresh_token:
-                creds.refresh(Request())
-            else:
-                if os.path.exists(credentials_file):
-                    flow = InstalledAppFlow.from_client_secrets_file(
-                        credentials_file, SCOPES)
-                    creds = flow.run_local_server(port=0)
-                else:
-                    logger.warning("Google Drive credentials not found")
-                    return None
+        # Fallback to OAuth 2.0 if service account not available
+        if not creds:
+            token_file = os.getenv('GOOGLE_DRIVE_TOKEN_FILE', 'token.pickle')
+            credentials_file = os.getenv(
+                'GOOGLE_DRIVE_CREDENTIALS_FILE',
+                str(Path(__file__).parent / 'credentials.json')
+            )
             
-            # Save the credentials for the next run
-            with open(token_file, 'wb') as token:
-                pickle.dump(creds, token)
+            if os.path.exists(token_file):
+                try:
+                    with open(token_file, 'rb') as token:
+                        creds = pickle.load(token)
+                except Exception as e:
+                    logger.warning(f"Could not load token file: {e}")
+            
+            # If there are no (valid) credentials available, try OAuth flow
+            if not creds or not creds.valid:
+                if creds and creds.expired and creds.refresh_token:
+                    try:
+                        creds.refresh(Request())
+                    except Exception as e:
+                        logger.warning(f"Could not refresh token: {e}")
+                        creds = None
+                
+                if not creds:
+                    if os.path.exists(credentials_file):
+                        try:
+                            flow = InstalledAppFlow.from_client_secrets_file(
+                                credentials_file, SCOPES)
+                            creds = flow.run_local_server(port=0)
+                            # Save the credentials for the next run
+                            with open(token_file, 'wb') as token:
+                                pickle.dump(creds, token)
+                        except Exception as e:
+                            logger.warning(f"OAuth flow failed: {e}")
+                            return None
+                    else:
+                        logger.warning("No Google Drive credentials found (neither service account nor OAuth)")
+                        return None
         
         try:
             drive_client = build('drive', 'v3', credentials=creds)
+            logger.info("Google Drive client initialized successfully")
             return drive_client
         except Exception as e:
             logger.error(f"Error initializing Google Drive client: {e}")
             return None
-    
+
     # Try to initialize on startup
     drive_client = initialize_drive_client()
-    
+
 except ImportError:
     GOOGLE_DRIVE_AVAILABLE = False
     logger.warning("Google Drive API libraries not available. Install with: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib")
@@ -105,7 +139,7 @@ class ListFolderRequest(BaseModel):
     include_files: bool = True
     include_folders: bool = True
     max_results: int = Field(100, ge=1, le=1000)
-    
+
     @validator('folder_id')
     def validate_folder_id(cls, v):
         return validate_string(v, "folder_id", min_length=1, max_length=100)
@@ -115,7 +149,7 @@ class DownloadFileRequest(BaseModel):
     """Download file request model"""
     file_id: str = Field(..., min_length=1, max_length=100)
     output_path: Optional[str] = None
-    
+
     @validator('file_id')
     def validate_file_id(cls, v):
         return validate_string(v, "file_id", min_length=1, max_length=100)
@@ -126,11 +160,11 @@ class ExportFileRequest(BaseModel):
     file_id: str = Field(..., min_length=1, max_length=100)
     format: str = Field(..., min_length=1, max_length=20)
     output_path: Optional[str] = None
-    
+
     @validator('file_id')
     def validate_file_id(cls, v):
         return validate_string(v, "file_id", min_length=1, max_length=100)
-    
+
     @validator('format')
     def validate_format(cls, v):
         valid_formats = ['pdf', 'docx', 'txt', 'html', 'rtf', 'xlsx', 'csv', 'ods', 'tsv']
@@ -161,36 +195,36 @@ async def list_folder(request: ListFolderRequest):
     """List folder contents"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         # Build query
         query_parts = [f"'{request.folder_id}' in parents"]
-        
+
         if request.include_files and request.include_folders:
             pass  # Include both
         elif request.include_files:
             query_parts.append("mimeType != 'application/vnd.google-apps.folder'")
         elif request.include_folders:
             query_parts.append("mimeType = 'application/vnd.google-apps.folder'")
-        
+
         query = " and ".join(query_parts)
-        
+
         # List files
         results = drive_client.files().list(
             q=query,
             pageSize=request.max_results,
             fields="nextPageToken, files(id, name, mimeType, size, modifiedTime, createdTime)"
         ).execute()
-        
+
         items = results.get('files', [])
-        
+
         return {
             "status": "success",
             "folder_id": request.folder_id,
             "items": items,
             "count": len(items)
         }
-    
+
     except Exception as e:
         logger.error(f"Error listing folder: {e}")
         raise HTTPException(status_code=500, detail=str(e))
@@ -207,36 +241,36 @@ async def download_file(request: DownloadFileRequest):
     """Download file from Google Drive"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         # Get file metadata
         file_metadata = drive_client.files().get(fileId=request.file_id).execute()
         file_name = file_metadata.get('name', 'download')
-        
+
         # Download file
         request_download = drive_client.files().get_media(fileId=request.file_id)
         file_content = io.BytesIO()
         downloader = MediaIoBaseDownload(file_content, request_download)
-        
+
         done = False
         while not done:
             status, done = downloader.next_chunk()
-        
+
         file_content.seek(0)
         content = file_content.read()
-        
+
         # Determine output path
         if request.output_path:
             output_path = Path(request.output_path)
         else:
             output_path = Path(f"/tmp/{file_name}")
-        
+
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        
+
         # Write file
         with open(output_path, 'wb') as f:
             f.write(content)
-        
+
         return {
             "status": "success",
             "file_id": request.file_id,
@@ -244,7 +278,7 @@ async def download_file(request: DownloadFileRequest):
             "output_path": str(output_path),
             "size": len(content)
         }
-    
+
     except Exception as e:
         logger.error(f"Error downloading file: {e}")
         raise HTTPException(status_code=500, detail=str(e))
@@ -261,13 +295,13 @@ async def export_file(request: ExportFileRequest):
     """Export Google Docs/Sheets to different format"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         # Get file metadata
         file_metadata = drive_client.files().get(fileId=request.file_id).execute()
         file_name = file_metadata.get('name', 'export')
         mime_type = file_metadata.get('mimeType', '')
-        
+
         # Map format to MIME type
         format_mime_map = {
             'pdf': 'application/pdf',
@@ -280,40 +314,40 @@ async def export_file(request: ExportFileRequest):
             'ods': 'application/vnd.oasis.opendocument.spreadsheet',
             'tsv': 'text/tab-separated-values',
         }
-        
+
         export_mime = format_mime_map.get(request.format)
         if not export_mime:
             raise HTTPException(status_code=400, detail=f"Invalid export format: {request.format}")
-        
+
         # Export file
         request_export = drive_client.files().export_media(
             fileId=request.file_id,
             mimeType=export_mime
         )
-        
+
         file_content = io.BytesIO()
         downloader = MediaIoBaseDownload(file_content, request_export)
-        
+
         done = False
         while not done:
             status, done = downloader.next_chunk()
-        
+
         file_content.seek(0)
         content = file_content.read()
-        
+
         # Determine output path
         if request.output_path:
             output_path = Path(request.output_path)
         else:
             extension = request.format
             output_path = Path(f"/tmp/{file_name}.{extension}")
-        
+
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        
+
         # Write file
         with open(output_path, 'wb') as f:
             f.write(content)
-        
+
         return {
             "status": "success",
             "file_id": request.file_id,
@@ -322,7 +356,7 @@ async def export_file(request: ExportFileRequest):
             "output_path": str(output_path),
             "size": len(content)
         }
-    
+
     except Exception as e:
         logger.error(f"Error exporting file: {e}")
         raise HTTPException(status_code=500, detail=str(e))
@@ -333,18 +367,18 @@ async def get_file_info(file_id: str):
     """Get file information"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         file_metadata = drive_client.files().get(
             fileId=file_id,
             fields="id, name, mimeType, size, modifiedTime, createdTime, parents, webViewLink, webContentLink"
         ).execute()
-        
+
         return {
             "status": "success",
             "file": file_metadata
         }
-    
+
     except Exception as e:
         logger.error(f"Error getting file info: {e}")
         raise HTTPException(status_code=500, detail=str(e))

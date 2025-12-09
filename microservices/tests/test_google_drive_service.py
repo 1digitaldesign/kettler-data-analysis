@@ -24,7 +24,7 @@ def client():
 
 class TestGoogleDriveServiceHealth:
     """Test health check endpoint"""
-    
+
     def test_health_check(self, client):
         """Test health check returns 200"""
         response = client.get("/health")
@@ -38,7 +38,7 @@ class TestGoogleDriveServiceHealth:
 
 class TestGoogleDriveServiceEndpoints:
     """Test Google Drive endpoints"""
-    
+
     @patch('main.drive_client')
     def test_list_folder(self, mock_drive_client, client):
         """Test list folder endpoint"""
@@ -55,21 +55,21 @@ class TestGoogleDriveServiceEndpoints:
         mock_files.list.return_value = mock_list
         mock_service.files.return_value = mock_files
         mock_drive_client.files = mock_files
-        
+
         response = client.post("/drive/list", json={
             "folder_id": "1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8",
             "include_files": True,
             "include_folders": True,
             "max_results": 100
         })
-        
+
         assert response.status_code in [200, 503]  # 503 if client not initialized
-        
+
         if response.status_code == 200:
             data = response.json()
             assert "status" in data
             assert "items" in data
-    
+
     @patch('main.drive_client')
     def test_download_file(self, mock_drive_client, client):
         """Test download file endpoint"""
@@ -77,9 +77,9 @@ class TestGoogleDriveServiceEndpoints:
             "file_id": "test_file_id",
             "output_path": "/tmp/test.pdf"
         })
-        
+
         assert response.status_code in [200, 503]
-    
+
     @patch('main.drive_client')
     def test_export_file(self, mock_drive_client, client):
         """Test export file endpoint"""
@@ -88,20 +88,20 @@ class TestGoogleDriveServiceEndpoints:
             "format": "pdf",
             "output_path": "/tmp/test.pdf"
         })
-        
+
         assert response.status_code in [200, 503]
-    
+
     @patch('main.drive_client')
     def test_get_file_info(self, mock_drive_client, client):
         """Test get file info endpoint"""
         response = client.get("/drive/info/test_file_id")
-        
+
         assert response.status_code in [200, 503]
 
 
 class TestGoogleDriveServiceValidation:
     """Test input validation"""
-    
+
     def test_invalid_folder_id(self, client):
         """Test invalid folder ID"""
         response = client.post("/drive/list", json={
@@ -109,31 +109,31 @@ class TestGoogleDriveServiceValidation:
             "include_files": True,
             "include_folders": True
         })
-        
+
         assert response.status_code == 422  # Validation error
-    
+
     def test_invalid_format(self, client):
         """Test invalid export format"""
         response = client.post("/drive/export", json={
             "file_id": "test_file_id",
             "format": "invalid_format"
         })
-        
+
         assert response.status_code == 422  # Validation error
-    
+
     def test_invalid_max_results(self, client):
         """Test invalid max results"""
         response = client.post("/drive/list", json={
             "folder_id": "test_folder_id",
             "max_results": 2000  # Too large
         })
-        
+
         assert response.status_code == 422  # Validation error
 
 
 class TestGoogleDriveServiceErrorHandling:
     """Test error handling"""
-    
+
     def test_service_not_initialized(self, client):
         """Test behavior when service not initialized"""
         # This tests the error handling when drive_client is None

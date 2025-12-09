@@ -121,6 +121,7 @@ services:
       - "8008:8008"
     environment:
       - PORT=8008
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/root/config/gcp-credentials.json
       - GOOGLE_DRIVE_TOKEN_FILE=/app/token.pickle
       - GOOGLE_DRIVE_CREDENTIALS_FILE=/app/credentials.json
     volumes:

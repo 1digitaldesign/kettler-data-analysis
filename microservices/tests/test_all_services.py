@@ -66,7 +66,7 @@ class TestAllServicesHealth:
         assert response.status_code == 200
         data = response.json()
         assert data["status"] == "healthy"
-    
+
     async def test_google_drive_service_health(self, test_client, google_drive_service_url):
         """Test Google Drive Service health"""
         response = await test_client.get(f"{google_drive_service_url}/health")

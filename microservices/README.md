@@ -90,6 +90,16 @@ Hybrid microservices architecture:
 - `PUT /data/firms/{id}` - Update firm
 - `DELETE /data/firms/{id}` - Delete firm
 
+### 8. Google Drive Service
+**Purpose:** Google Drive operations
+**GCP:** Cloud Run
+**Port:** 8008
+**Endpoints:**
+- `POST /drive/list` - List folder contents
+- `POST /drive/download` - Download file
+- `POST /drive/export` - Export Google Docs/Sheets
+- `GET /drive/info/{file_id}` - Get file information
+
 ## API Gateway
 
 **Purpose:** Single entry point for all services
@@ -103,6 +113,7 @@ Hybrid microservices architecture:
 - `/api/gis/*` → GIS Service
 - `/api/acris/*` → ACRIS Service
 - `/api/data/*` → Data Repository Service
+- `/api/drive/*` → Google Drive Service
 
 ## Communication Patterns
 
