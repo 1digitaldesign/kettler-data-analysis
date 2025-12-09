@@ -127,7 +127,7 @@ When updating scripts that reference files:
    ```r
    # Old
    source("search_dpor_comprehensive.R")
-   
+
    # New
    source_script("search/search_dpor_comprehensive.R")
    ```
@@ -136,7 +136,7 @@ When updating scripts that reference files:
    ```r
    # Old
    file.path("research", "caitlin_skidmore_connections.json")
-   
+
    # New
    file.path(RESEARCH_CONNECTIONS_DIR, "caitlin_skidmore_connections.json")
    ```
