@@ -4,12 +4,23 @@ Microservice for Google Drive operations in the Kettler Data Analysis system.
 
 ## Features
 
-- List folder contents
-- Download files from Google Drive
-- Export Google Docs/Sheets to various formats (PDF, DOCX, CSV, etc.)
-- Get file information
-- Full input validation
-- Redundancy and fallback mechanisms
+- **Read Operations:**
+  - List folder contents
+  - Download files from Google Drive
+  - Export Google Docs/Sheets to various formats (PDF, DOCX, CSV, etc.)
+  - Get file information
+  
+- **Write Operations (CRUD):**
+  - Create files (from content or file path)
+  - Update files (metadata and/or content)
+  - Delete files
+  - Move files between folders
+  - Copy files
+  
+- **Additional Features:**
+  - Full input validation
+  - Redundancy and fallback mechanisms
+  - Service account authentication with write access
 
 ## Endpoints
 
@@ -33,6 +44,32 @@ Microservice for Google Drive operations in the Kettler Data Analysis system.
 `GET /drive/info/{file_id}`
 - Get metadata for a file
 - Returns name, size, MIME type, timestamps, etc.
+
+### Create File
+`POST /drive/create`
+- Create a new file in Google Drive
+- Supports content string or file path upload
+- Can specify parent folder
+
+### Update File
+`PUT /drive/update`
+- Update file metadata and/or content
+- Supports partial updates
+
+### Delete File
+`DELETE /drive/delete/{file_id}`
+- Delete a file from Google Drive
+- Returns confirmation
+
+### Move File
+`POST /drive/move`
+- Move file to different folder
+- Can remove from previous folder or keep in both
+
+### Copy File
+`POST /drive/copy`
+- Create a copy of a file
+- Can rename and move to different folder
 
 ## Setup
 
@@ -108,10 +145,11 @@ The service is automatically integrated with the API Gateway:
 
 ## Security
 
-- Read-only access (OAuth scope: `drive.readonly`)
+- Full read/write access (OAuth scope: `drive`)
 - Input validation on all endpoints
 - Sanitization of file paths
 - Error handling prevents information leakage
+- Service account authentication
 
 ## Testing
 

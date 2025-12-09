@@ -379,6 +379,40 @@ async def get_drive_file_info(file_id: str):
     return await forward_request("google-drive", f"/drive/info/{file_id}", "GET")
 
 
+@app.post("/api/drive/create")
+async def create_drive_file(request: Request):
+    """Route to create Google Drive file"""
+    data = await request.json()
+    return await forward_request("google-drive", "/drive/create", "POST", data)
+
+
+@app.put("/api/drive/update")
+async def update_drive_file(request: Request):
+    """Route to update Google Drive file"""
+    data = await request.json()
+    return await forward_request("google-drive", "/drive/update", "PUT", data)
+
+
+@app.delete("/api/drive/delete/{file_id}")
+async def delete_drive_file(file_id: str):
+    """Route to delete Google Drive file"""
+    return await forward_request("google-drive", f"/drive/delete/{file_id}", "DELETE")
+
+
+@app.post("/api/drive/move")
+async def move_drive_file(request: Request):
+    """Route to move Google Drive file"""
+    data = await request.json()
+    return await forward_request("google-drive", "/drive/move", "POST", data)
+
+
+@app.post("/api/drive/copy")
+async def copy_drive_file(request: Request):
+    """Route to copy Google Drive file"""
+    data = await request.json()
+    return await forward_request("google-drive", "/drive/copy", "POST", data)
+
+
 @app.on_event("shutdown")
 async def shutdown():
     """Cleanup on shutdown"""

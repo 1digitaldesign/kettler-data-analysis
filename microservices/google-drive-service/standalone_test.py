@@ -29,38 +29,38 @@ def test_access():
     PROJECT_ROOT = Path(__file__).parent.parent.parent
     creds_file = PROJECT_ROOT / 'config' / 'gcp-credentials.json'
     folder_id = "1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8"
-    
+
     try:
         from google.oauth2 import service_account
         from googleapiclient.discovery import build
-        
+
         print("Initializing Google Drive client...")
         creds = service_account.Credentials.from_service_account_file(
             str(creds_file),
             scopes=['https://www.googleapis.com/auth/drive.readonly']
         )
-        
+
         drive_service = build('drive', 'v3', credentials=creds)
         print("✓ Client initialized")
-        
+
         print(f"\nTesting access to folder: {folder_id}")
         results = drive_service.files().list(
             q=f"'{folder_id}' in parents",
             pageSize=10,
             fields="files(id, name, mimeType, size)"
         ).execute()
-        
+
         items = results.get('files', [])
         print(f"\n✓ SUCCESS! Found {len(items)} items")
-        
+
         if items:
             print("\nFolder contents:")
             for item in items:
                 size = item.get('size', 'N/A')
                 print(f"  - {item.get('name')} ({item.get('mimeType', 'unknown')}) - {size} bytes")
-        
+
         return True
-        
+
     except ImportError:
         if install_dependencies():
             return test_access()
@@ -84,6 +84,6 @@ if __name__ == "__main__":
     print("Google Drive Access Test")
     print("=" * 70)
     print()
-    
+
     success = test_access()
     sys.exit(0 if success else 1)
