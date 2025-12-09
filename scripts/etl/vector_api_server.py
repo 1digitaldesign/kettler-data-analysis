@@ -7,12 +7,20 @@ REST API for querying vector embeddings
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import sys
+import os
 from pathlib import Path
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from scripts.etl.vector_embeddings import VectorEmbeddingSystem
+
+# Microservices support
+try:
+    from scripts.microservices.service_client import get_service_client
+    SERVICE_CLIENT = get_service_client()
+except ImportError:
+    SERVICE_CLIENT = None
 
 app = Flask(__name__)
 CORS(app)
@@ -45,10 +53,22 @@ def search():
         vs = get_vector_system()
         results = vs.search_similar(query_text, top_k=top_k)
 
+        # Ensure all values are JSON serializable
+        serializable_results = []
+        for result in results:
+            serializable_results.append({
+                'content_id': str(result.get('content_id', '')),
+                'distance': float(result.get('distance', 0.0)),
+                'similarity': float(result.get('similarity', 0.0)),
+                'source': str(result.get('source', '')),
+                'text': str(result.get('text', '')),
+                'metadata': result.get('metadata', {})
+            })
+
         return jsonify({
             'query': query_text,
-            'results': results,
-            'count': len(results)
+            'results': serializable_results,
+            'count': len(serializable_results)
         }), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -59,7 +79,14 @@ def stats():
     try:
         vs = get_vector_system()
         stats = vs.get_stats()
-        return jsonify(stats), 200
+        # Ensure all values are JSON serializable
+        stats_serializable = {
+            'total_embeddings': int(stats.get('total_embeddings', 0)),
+            'vector_store_size': int(stats.get('vector_store_size', 0)),
+            'model': str(stats.get('model', 'unknown')),
+            'dimension': int(stats.get('dimension', 0))
+        }
+        return jsonify(stats_serializable), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 

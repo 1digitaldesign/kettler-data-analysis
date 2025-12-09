@@ -51,8 +51,8 @@
     "total_files": 110,
     "total_embeddings": 0,
     "vector_store_stats": {
-      "total_embeddings": 0,
-      "vector_store_size": 0,
+      "total_embeddings": 4,
+      "vector_store_size": 4,
       "model": "all-MiniLM-L6-v2",
       "dimension": 384
     }

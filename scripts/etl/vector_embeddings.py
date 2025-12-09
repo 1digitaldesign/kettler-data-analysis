@@ -248,13 +248,16 @@ class VectorEmbeddingSystem:
             # Find metadata by vector index
             for content_id, metadata in self.metadata_store.items():
                 if metadata.get('vector_index') == int(idx):
+                    # Ensure all numeric values are Python native types
+                    dist_float = float(dist) if hasattr(dist, 'item') else float(dist)
+                    similarity_float = float(1 / (1 + dist_float))
                     results.append({
-                        'content_id': content_id,
-                        'distance': float(dist),
-                        'similarity': 1 / (1 + dist),  # Convert distance to similarity
-                        'source': metadata['source'],
-                        'text': metadata.get('text', ''),
-                        'metadata': metadata.get('metadata', {})
+                        'content_id': str(content_id),
+                        'distance': dist_float,
+                        'similarity': similarity_float,
+                        'source': str(metadata.get('source', '')),
+                        'text': str(metadata.get('text', '')),
+                        'metadata': dict(metadata.get('metadata', {}))
                     })
                     break
 

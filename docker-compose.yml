@@ -1,12 +1,9 @@
-version: '3.8'
-
 services:
-  # Python ETL Service
+  # Python ETL Service - Microservice for data processing
   python-etl:
     build:
       context: .
       dockerfile: docker/python-etl/Dockerfile
-    # container_name removed to allow scaling
     volumes:
       - ./data:/app/data
       - ./research:/app/research
@@ -17,11 +14,19 @@ services:
     environment:
       - PYTHONPATH=/app
       - DATA_DIR=/app/data
+      - SERVICE_NAME=python-etl
+      - SERVICE_PORT=8000
       - HF_WRITE_TOKEN=${HF_WRITE_TOKEN}
       - HF_READ_TOKEN=${HF_READ_TOKEN}
     networks:
       - kettler-network
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
     deploy:
       resources:
         limits:
@@ -31,39 +36,47 @@ services:
           cpus: '1'
           memory: 2G
 
-  # R Analysis Service
-  r-analysis:
-    build:
-      context: .
-      dockerfile: docker/r-analysis/Dockerfile
-    # container_name removed to allow scaling
-    volumes:
-      - ./data:/app/data
-      - ./research:/app/research
-      - ./evidence:/app/evidence
-      - ./scripts:/app/scripts
-      - ./outputs:/app/outputs
-    environment:
-      - R_LIBS=/usr/local/lib/R/site-library
-      - DATA_DIR=/app/data
-    networks:
-      - kettler-network
-    restart: unless-stopped
-    deploy:
-      resources:
-        limits:
-          cpus: '2'
-          memory: 4G
-        reservations:
-          cpus: '1'
-          memory: 2G
+  # R Analysis Service - Microservice for R-based analysis
+  # Note: Temporarily disabled due to R package installation issues
+  # Will be enabled once R dependencies are resolved
+  # r-analysis:
+  #   build:
+  #     context: .
+  #     dockerfile: docker/r-analysis/Dockerfile
+  #   volumes:
+  #     - ./data:/app/data
+  #     - ./research:/app/research
+  #     - ./evidence:/app/evidence
+  #     - ./scripts:/app/scripts
+  #     - ./outputs:/app/outputs
+  #   environment:
+  #     - R_LIBS=/usr/local/lib/R/site-library
+  #     - DATA_DIR=/app/data
+  #     - SERVICE_NAME=r-analysis
+  #     - SERVICE_PORT=8001
+  #   networks:
+  #     - kettler-network
+  #   restart: unless-stopped
+  #   healthcheck:
+  #     test: ["CMD", "Rscript", "--version"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 3
+  #     start_period: 40s
+  #   deploy:
+  #     resources:
+  #       limits:
+  #         cpus: '2'
+  #         memory: 4G
+  #       reservations:
+  #         cpus: '1'
+  #         memory: 2G
 
-  # Vector Query API Service (Python)
+  # Vector Query API Service - Microservice for vector search
   vector-api:
     build:
       context: .
       dockerfile: docker/python-etl/Dockerfile
-    # container_name removed to allow scaling
     command: python scripts/etl/vector_api_server.py
     volumes:
       - ./data:/app/data
@@ -75,13 +88,23 @@ services:
     environment:
       - PYTHONPATH=/app
       - DATA_DIR=/app/data
+      - SERVICE_NAME=vector-api
+      - SERVICE_PORT=8000
       - HF_WRITE_TOKEN=${HF_WRITE_TOKEN}
       - HF_READ_TOKEN=${HF_READ_TOKEN}
+      - PYTHON_ETL_SERVICE=python-etl:8000
     networks:
       - kettler-network
     restart: unless-stopped
     depends_on:
-      - python-etl
+      python-etl:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
     deploy:
       resources:
         limits:
@@ -91,40 +114,81 @@ services:
           cpus: '0.5'
           memory: 1G
 
-  # R Analysis API Service
-  r-api:
+  # R Analysis API Service - Microservice for R API endpoints
+  # Note: Temporarily disabled due to R package installation issues
+  # Will be enabled once R dependencies are resolved
+  # r-api:
+  #   build:
+  #     context: .
+  #     dockerfile: docker/r-analysis/Dockerfile
+  #   command: Rscript scripts/api/r_api_server.R
+  #   volumes:
+  #     - ./data:/app/data
+  #     - ./research:/app/research
+  #     - ./scripts:/app/scripts
+  #     - ./outputs:/app/outputs
+  #   ports:
+  #     - "8001:8001"
+  #   environment:
+  #     - R_LIBS=/usr/local/lib/R/site-library
+  #     - DATA_DIR=/app/data
+  #     - SERVICE_NAME=r-api
+  #     - SERVICE_PORT=8001
+  #   networks:
+  #     - kettler-network
+  #   restart: unless-stopped
+  #   healthcheck:
+  #     test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 3
+  #     start_period: 40s
+  #   deploy:
+  #     resources:
+  #       limits:
+  #         cpus: '1'
+  #         memory: 2G
+  #       reservations:
+  #         cpus: '0.5'
+  #         memory: 1G
+
+  # Service Discovery / Health Monitor - Microservice for service coordination
+  service-discovery:
     build:
       context: .
-      dockerfile: docker/r-analysis/Dockerfile
-    # container_name removed to allow scaling
-    command: Rscript scripts/api/r_api_server.R
+      dockerfile: docker/python-etl/Dockerfile
+    command: python scripts/microservices/service_discovery.py
     volumes:
-      - ./data:/app/data
-      - ./research:/app/research
       - ./scripts:/app/scripts
-      - ./outputs:/app/outputs
     ports:
-      - "8001:8001"
+      - "8080:8080"
     environment:
-      - R_LIBS=/usr/local/lib/R/site-library
-      - DATA_DIR=/app/data
+      - PYTHONPATH=/app
+      - SERVICE_NAME=service-discovery
+      - VECTOR_API_SERVICE=vector-api:8000
+      - PYTHON_ETL_SERVICE=python-etl:8000
     networks:
       - kettler-network
     restart: unless-stopped
-    deploy:
-      resources:
-        limits:
-          cpus: '1'
-          memory: 2G
-        reservations:
-          cpus: '0.5'
-          memory: 1G
+    depends_on:
+      vector-api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
 networks:
   kettler-network:
     driver: bridge
+    name: kettler-network
 
 volumes:
   data-volume:
+    driver: local
   research-volume:
+    driver: local
   evidence-volume:
+    driver: local
