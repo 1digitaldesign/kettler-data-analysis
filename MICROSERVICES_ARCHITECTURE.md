@@ -1,6 +1,6 @@
 # Microservices Architecture - Hybrid Next.js/Vercel + GCP
 
-**Date:** December 9, 2024  
+**Date:** December 9, 2024
 **Status:** Implemented
 
 ## Overview
@@ -49,9 +49,9 @@ Hybrid microservices architecture:
 ## Microservices
 
 ### 1. API Gateway (`api-gateway`)
-**Port:** 8000  
-**Purpose:** Single entry point, routes requests to appropriate services  
-**GCP:** Cloud Run  
+**Port:** 8000
+**Purpose:** Single entry point, routes requests to appropriate services
+**GCP:** Cloud Run
 **Endpoints:**
 - `/api/analysis/*` → Analysis Service
 - `/api/scraping/*` → Scraping Service
@@ -62,8 +62,8 @@ Hybrid microservices architecture:
 - `/api/data/*` → Data Repository Service
 
 ### 2. Analysis Service (`analysis-service`)
-**Port:** 8001  
-**Purpose:** Data analysis operations  
+**Port:** 8001
+**Purpose:** Data analysis operations
 **Endpoints:**
 - `POST /analyze/fraud` - Fraud pattern analysis
 - `POST /analyze/nexus` - Nexus pattern analysis
@@ -72,8 +72,8 @@ Hybrid microservices architecture:
 - `POST /analyze/all` - Run all analyses
 
 ### 3. Scraping Service (`scraping-service`)
-**Port:** 8002  
-**Purpose:** Web scraping operations  
+**Port:** 8002
+**Purpose:** Web scraping operations
 **Endpoints:**
 - `POST /scrape/airbnb` - Airbnb scraping
 - `POST /scrape/vrbo` - VRBO scraping
@@ -81,8 +81,8 @@ Hybrid microservices architecture:
 - `POST /scrape/acris` - ACRIS property records
 
 ### 4. Validation Service (`validation-service`)
-**Port:** 8003  
-**Purpose:** Data validation operations  
+**Port:** 8003
+**Purpose:** Data validation operations
 **Endpoints:**
 - `POST /validate/license` - License validation
 - `POST /validate/address` - Address validation
@@ -90,8 +90,8 @@ Hybrid microservices architecture:
 - `POST /validate/batch` - Batch validation
 
 ### 5. Vector Service (`vector-service`)
-**Port:** 8004  
-**Purpose:** Vector embeddings and similarity search  
+**Port:** 8004
+**Purpose:** Vector embeddings and similarity search
 **Endpoints:**
 - `POST /vectors/embed` - Create embeddings
 - `POST /vectors/search` - Similarity search
@@ -99,16 +99,16 @@ Hybrid microservices architecture:
 - `GET /vectors/status` - Service status
 
 ### 6. GIS Service (`gis-service`)
-**Port:** 8005  
-**Purpose:** GIS file conversion  
+**Port:** 8005
+**Purpose:** GIS file conversion
 **Endpoints:**
 - `POST /gis/convert` - Convert GIS files
 - `GET /gis/info/{file_path}` - Get file info
 - `POST /gis/batch` - Batch conversion
 
 ### 7. ACRIS Service (`acris-service`)
-**Port:** 8006  
-**Purpose:** ACRIS property records  
+**Port:** 8006
+**Purpose:** ACRIS property records
 **Endpoints:**
 - `POST /acris/search/block-lot` - Search by block/lot
 - `POST /acris/search/address` - Search by address
@@ -116,8 +116,8 @@ Hybrid microservices architecture:
 - `POST /acris/search/document` - Search by document ID
 
 ### 8. Data Repository Service (`data-service`)
-**Port:** 8007  
-**Purpose:** Data access and storage  
+**Port:** 8007
+**Purpose:** Data access and storage
 **Endpoints:**
 - `GET /data/firms` - Get firms
 - `GET /data/firms/{id}` - Get firm by ID
@@ -136,7 +136,7 @@ import axios from 'axios';
 
 export default async function handler(req, res) {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-  
+
   try {
     const response = await axios.post(`${apiUrl}/api/analysis/fraud`, req.body);
     res.status(200).json(response.data);
