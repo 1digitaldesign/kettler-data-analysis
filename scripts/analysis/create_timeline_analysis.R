@@ -76,7 +76,8 @@ load_all_dates <- function() {
     entities <- fromJSON(entities_file, simplifyDataFrame = FALSE)
 
     # Parse dates from evidence
-    for (date_str in entities$dates) {
+    if (!is.null(entities$dates) && length(entities$dates) > 0) {
+      for (date_str in entities$dates) {
       # Try to parse various date formats
       parsed_date <- tryCatch({
         as.Date(date_str, format = "%B %d, %Y")
@@ -94,6 +95,7 @@ load_all_dates <- function() {
           details = date_str
         )
       }
+    }
     }
   }
 

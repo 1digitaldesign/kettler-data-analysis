@@ -39,6 +39,10 @@ normalize_address <- function(addr) {
 find_shared_addresses <- function(firms) {
   cat("\n=== Finding Shared Addresses ===\n")
 
+  if (is.null(firms) || !is.data.frame(firms) || nrow(firms) == 0 || !"Address" %in% names(firms)) {
+    return(list())
+  }
+
   # Normalize all addresses
   firms$Address.Normalized <- sapply(firms$Address, normalize_address)
 
