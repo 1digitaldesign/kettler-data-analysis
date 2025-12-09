@@ -54,7 +54,7 @@ def main():
     print("3. In the 'Add people and groups' field, paste:")
     print(f"   {service_account_email}")
     print()
-    print("4. Select permission: 'Viewer' (read-only)")
+    print("4. Select permission: 'Editor' (for CRUD operations) or 'Viewer' (read-only)")
     print()
     print("5. Uncheck 'Notify people' (optional)")
     print()

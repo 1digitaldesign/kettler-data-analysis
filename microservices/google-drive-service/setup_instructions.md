@@ -14,7 +14,7 @@ The service will automatically use the service account credentials from `config/
    - Open Google Drive
    - Right-click the folder → Share
    - Add email: `fraud-analysis@claude-eval-20250615.iam.gserviceaccount.com`
-   - Grant "Viewer" access
+   - Grant "Editor" access (for full CRUD operations) or "Viewer" (read-only)
 3. The service will automatically use these credentials
 
 **Environment Variable:**
