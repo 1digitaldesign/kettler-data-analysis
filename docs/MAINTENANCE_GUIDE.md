@@ -5,7 +5,6 @@
 ```
 data/raw/         # Raw results (gitignored)
 data/cleaned/     # Cleaned data (gitignored)
-data/analysis/    # Analysis outputs (gitignored)
 research/         # Research outputs (tracked)
 evidence/         # Source documents
 ```
@@ -26,5 +25,4 @@ Use `scripts/utils/paths.py` for all file paths.
 1. Source data → `data/source/`
 2. Raw results → `data/raw/`
 3. Cleaned data → `data/cleaned/`
-4. Analysis → `data/analysis/`
-5. Research outputs → `research/{category}/`
+4. Research outputs → `research/{category}/`

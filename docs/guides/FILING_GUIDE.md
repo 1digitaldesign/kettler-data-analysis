@@ -151,7 +151,7 @@ When filing complaints, attach:
 
 2. **License Data:**
    - `skidmore_all_firms_complete.csv`
-   - `data/analysis/dpor_skidmore_connections.csv`
+   - `research/connections/dpor_skidmore_connections.csv`
 
 3. **Analysis Reports:**
    - `research/fraud_indicators.json`

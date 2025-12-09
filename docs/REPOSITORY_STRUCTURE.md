@@ -52,7 +52,7 @@
 **Source:** `data/source/` - Authoritative data
 **Raw:** `data/raw/` - Unprocessed results
 **Cleaned:** `data/cleaned/` - Standardized data
-**Analysis:** `data/analysis/` - Analysis outputs
+**Research:** `research/` - All research outputs (connections, summaries, verification, etc.)
 **Research:** `research/{category}/` - Categorized outputs
 
 ## Documentation

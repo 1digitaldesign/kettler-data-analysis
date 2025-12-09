@@ -50,7 +50,7 @@ Cleaned Data (data/cleaned/)
     ↓
 Analysis (scripts/core/, scripts/analysis/)
     ↓
-Analysis Outputs (data/analysis/)
+Research Outputs (research/)
     ↓
 Research Outputs (research/{category}/)
 ```
@@ -89,7 +89,7 @@ Research Outputs (research/{category}/)
 **Source:** `data/source/`
 **Raw:** `data/raw/` (gitignored)
 **Cleaned:** `data/cleaned/` (gitignored)
-**Analysis:** `data/analysis/`
+**Research:** `research/`
 **Research:** `research/{category}/`
 
 ## Configuration

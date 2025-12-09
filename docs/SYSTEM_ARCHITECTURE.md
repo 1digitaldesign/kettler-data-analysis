@@ -41,7 +41,7 @@ Python-first data analysis platform with microservices architecture.
                 │ data/source/       │
                 │ data/raw/          │
                 │ data/cleaned/      │
-                │ data/analysis/     │
+                │ research/          │
                 │ research/          │
                 └────────────────────┘
 ```
