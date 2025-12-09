@@ -311,6 +311,42 @@ services:
           cpus: '0.25'
           memory: 256M
 
+  # Google Drive API Service - Access Google Drive files and documents
+  drive-api:
+    build:
+      context: .
+      dockerfile: docker/python-etl/Dockerfile
+    command: python scripts/microservices/drive_api_service.py
+    volumes:
+      - ./scripts:/app/scripts
+      - ./config:/app/config
+      - ./data:/app/data
+    ports:
+      - "8084:8084"
+    environment:
+      - PYTHONPATH=/app
+      - DRIVE_API_PORT=8084
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/config/gcp-credentials.json
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID}
+      - GCP_REGION=${GCP_REGION:-us-central1}
+    networks:
+      - kettler-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8084/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.25'
+          memory: 256M
+
 networks:
   kettler-network:
     driver: bridge

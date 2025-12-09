@@ -72,6 +72,22 @@ mcp-status: ## Get service status via MCP
 mcp-scale: ## Scale service via MCP (use SERVICE=python-etl REPLICAS=3)
 	python docker/mcp/docker-mcp-server.py scale --service $(if $(SERVICE),$(SERVICE),python-etl) --replicas $(if $(REPLICAS),$(REPLICAS),3)
 
+# Google Drive MCP targets
+mcp-drive-list: ## List Google Drive folder contents (use FOLDER_ID=...)
+	python scripts/mcp/google_drive_mcp_server.py list --folder-id $(if $(FOLDER_ID),$(FOLDER_ID),1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8)
+
+mcp-drive-download: ## Download Google Drive folder (use FOLDER_ID=... OUTPUT_DIR=...)
+	python scripts/mcp/google_drive_mcp_server.py download --folder-id $(if $(FOLDER_ID),$(FOLDER_ID),1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8) --output-dir $(if $(OUTPUT_DIR),$(OUTPUT_DIR),data/drive_downloads) --recursive
+
+mcp-drive-export-doc: ## Export Google Doc (use FILE_ID=... OUTPUT_PATH=... FORMAT=docx)
+	python scripts/mcp/google_drive_mcp_server.py export-doc --file-id $(FILE_ID) --output-path $(OUTPUT_PATH) --format $(if $(FORMAT),$(FORMAT),docx)
+
+mcp-drive-export-sheet: ## Export Google Sheet (use FILE_ID=... OUTPUT_PATH=... FORMAT=xlsx)
+	python scripts/mcp/google_drive_mcp_server.py export-sheet --file-id $(FILE_ID) --output-path $(OUTPUT_PATH) --format $(if $(FORMAT),$(FORMAT),xlsx)
+
+mcp-tools-list: ## List all available MCP tools
+	python3 scripts/mcp/list_mcp_tools.py
+
 # Test targets
 test-etl: ## Test ETL pipeline
 	docker-compose run --rm python-etl python scripts/etl/etl_pipeline.py

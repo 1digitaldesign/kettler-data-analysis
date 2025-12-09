@@ -1,0 +1,143 @@
+{
+  "name": "google-drive-tools",
+  "version": "1.0.0",
+  "description": "Google Drive API tools for accessing Drive files, documents, and spreadsheets",
+  "tools": [
+    {
+      "name": "list_drive_folder",
+      "description": "List all files and folders in a Google Drive folder",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "folder_id": {
+            "type": "string",
+            "description": "Google Drive folder ID"
+          }
+        },
+        "required": ["folder_id"]
+      }
+    },
+    {
+      "name": "get_drive_file_info",
+      "description": "Get metadata for a Google Drive file",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file_id": {
+            "type": "string",
+            "description": "Google Drive file ID"
+          }
+        },
+        "required": ["file_id"]
+      }
+    },
+    {
+      "name": "download_drive_file",
+      "description": "Download a file from Google Drive",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file_id": {
+            "type": "string",
+            "description": "Google Drive file ID"
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Local path to save the file"
+          }
+        },
+        "required": ["file_id"]
+      }
+    },
+    {
+      "name": "export_google_doc",
+      "description": "Export a Google Doc to specified format (docx, pdf, txt, html, rtf)",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file_id": {
+            "type": "string",
+            "description": "Google Drive file ID"
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Local path to save the exported file"
+          },
+          "format": {
+            "type": "string",
+            "enum": ["docx", "pdf", "txt", "html", "rtf"],
+            "description": "Export format",
+            "default": "docx"
+          }
+        },
+        "required": ["file_id", "output_path"]
+      }
+    },
+    {
+      "name": "export_google_sheet",
+      "description": "Export a Google Sheet to specified format (xlsx, csv, pdf, ods, tsv)",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file_id": {
+            "type": "string",
+            "description": "Google Drive file ID"
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Local path to save the exported file"
+          },
+          "format": {
+            "type": "string",
+            "enum": ["xlsx", "csv", "pdf", "ods", "tsv"],
+            "description": "Export format",
+            "default": "xlsx"
+          }
+        },
+        "required": ["file_id", "output_path"]
+      }
+    },
+    {
+      "name": "download_drive_folder",
+      "description": "Download all files from a Google Drive folder recursively",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "folder_id": {
+            "type": "string",
+            "description": "Google Drive folder ID"
+          },
+          "output_dir": {
+            "type": "string",
+            "description": "Local directory to save files",
+            "default": "data/drive_downloads"
+          },
+          "recursive": {
+            "type": "boolean",
+            "description": "Download subfolders recursively",
+            "default": true
+          }
+        },
+        "required": ["folder_id"]
+      }
+    },
+    {
+      "name": "search_drive_files",
+      "description": "Search for files in Google Drive by name or query",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search query (file name or Drive search syntax)"
+          },
+          "folder_id": {
+            "type": "string",
+            "description": "Optional: Limit search to specific folder"
+          }
+        },
+        "required": ["query"]
+      }
+    }
+  ]
+}

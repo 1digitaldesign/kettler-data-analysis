@@ -1,0 +1,124 @@
+{
+  "mcp_tools": {
+    "google-drive": {
+      "server": "google-drive",
+      "description": "Google Drive API tools for accessing Drive files, documents, and spreadsheets",
+      "tools": [
+        {
+          "name": "list_drive_folder",
+          "description": "List all files and folders in a Google Drive folder",
+          "category": "file_management",
+          "parameters": {
+            "folder_id": "string (required) - Google Drive folder ID"
+          },
+          "example": {
+            "folder_id": "1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8"
+          }
+        },
+        {
+          "name": "get_drive_file_info",
+          "description": "Get metadata for a Google Drive file",
+          "category": "file_management",
+          "parameters": {
+            "file_id": "string (required) - Google Drive file ID"
+          }
+        },
+        {
+          "name": "download_drive_file",
+          "description": "Download a file from Google Drive",
+          "category": "file_management",
+          "parameters": {
+            "file_id": "string (required) - Google Drive file ID",
+            "output_path": "string (optional) - Local path to save the file"
+          }
+        },
+        {
+          "name": "export_google_doc",
+          "description": "Export a Google Doc to specified format (docx, pdf, txt, html, rtf)",
+          "category": "export",
+          "parameters": {
+            "file_id": "string (required) - Google Drive file ID",
+            "output_path": "string (required) - Local path to save the exported file",
+            "format": "string (optional) - Export format: docx, pdf, txt, html, rtf (default: docx)"
+          }
+        },
+        {
+          "name": "export_google_sheet",
+          "description": "Export a Google Sheet to specified format (xlsx, csv, pdf, ods, tsv)",
+          "category": "export",
+          "parameters": {
+            "file_id": "string (required) - Google Drive file ID",
+            "output_path": "string (required) - Local path to save the exported file",
+            "format": "string (optional) - Export format: xlsx, csv, pdf, ods, tsv (default: xlsx)"
+          }
+        },
+        {
+          "name": "download_drive_folder",
+          "description": "Download all files from a Google Drive folder recursively",
+          "category": "file_management",
+          "parameters": {
+            "folder_id": "string (required) - Google Drive folder ID",
+            "output_dir": "string (optional) - Local directory to save files (default: data/drive_downloads)",
+            "recursive": "boolean (optional) - Download subfolders recursively (default: true)"
+          },
+          "example": {
+            "folder_id": "1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8",
+            "output_dir": "data/drive_downloads/Tai_v_Kettler_Master",
+            "recursive": true
+          }
+        },
+        {
+          "name": "search_drive_files",
+          "description": "Search for files in Google Drive by name or query",
+          "category": "search",
+          "parameters": {
+            "query": "string (required) - Search query (file name or Drive search syntax)",
+            "folder_id": "string (optional) - Limit search to specific folder"
+          }
+        }
+      ],
+      "default_folder": {
+        "id": "1gj6Z0k2N8GO8PCVOrH47RJN3MI8vKff8",
+        "name": "Tai_v_Kettler_Master",
+        "subfolder_id": "1Vgd8zKV5u1HPcJ0axMugFPzjPONAMDly"
+      },
+      "supported_formats": {
+        "google_docs": ["docx", "pdf", "txt", "html", "rtf"],
+        "google_sheets": ["xlsx", "csv", "pdf", "ods", "tsv"],
+        "google_slides": ["pptx", "pdf"],
+        "google_drawings": ["png"]
+      }
+    },
+    "docker": {
+      "server": "docker",
+      "description": "Docker container management tools",
+      "tools": [
+        {
+          "name": "list_containers",
+          "description": "List Docker containers",
+          "category": "container_management"
+        },
+        {
+          "name": "get_service_status",
+          "description": "Get service status",
+          "category": "container_management"
+        },
+        {
+          "name": "scale_service",
+          "description": "Scale a service",
+          "category": "container_management",
+          "parameters": {
+            "service": "string (required) - Service name",
+            "replicas": "integer (required) - Number of replicas"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-12-08",
+    "total_servers": 2,
+    "total_tools": 10
+  }
+}
