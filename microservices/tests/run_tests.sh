@@ -24,16 +24,16 @@ run_tests() {
     local test_type=$1
     local test_files=$2
     local marker=$3
-    
+
     echo ""
     echo -e "${YELLOW}Running $test_type tests...${NC}"
-    
+
     if [ -n "$marker" ]; then
         pytest $test_files -m "$marker" -v
     else
         pytest $test_files -v
     fi
-    
+
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}✓ $test_type tests passed${NC}"
         return 0
@@ -46,10 +46,10 @@ run_tests() {
 # Check if services are running
 check_services() {
     echo "Checking if services are running..."
-    
+
     services=("8000:API Gateway" "8001:Analysis" "8002:Scraping" "8003:Validation" \
               "8004:Vector" "8005:GIS" "8006:ACRIS" "8007:Data")
-    
+
     all_running=true
     for service in "${services[@]}"; do
         IFS=':' read -r port name <<< "$service"
@@ -60,7 +60,7 @@ check_services() {
             all_running=false
         fi
     done
-    
+
     if [ "$all_running" = false ]; then
         echo ""
         echo -e "${YELLOW}Warning: Some services are not running. Some tests may fail.${NC}"
@@ -72,7 +72,7 @@ check_services() {
 main() {
     # Parse arguments
     TEST_TYPE=${1:-all}
-    
+
     case $TEST_TYPE in
         unit)
             run_tests "Unit" "$UNIT_TESTS" "unit"
@@ -107,7 +107,7 @@ main() {
             exit 1
             ;;
     esac
-    
+
     echo ""
     echo -e "${GREEN}=========================================="
     echo "Test Suite Complete"

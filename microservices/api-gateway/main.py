@@ -9,9 +9,16 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import httpx
 import os
+import sys
 import logging
 from typing import Dict, Any, Optional
 from pydantic import BaseModel
+from pathlib import Path
+
+# Add utils to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from utils.validation import validate_json_payload, sanitize_input
+from utils.redundancy import redundancy_manager, with_redundancy
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -50,6 +57,12 @@ SERVICE_URLS = {
 http_client = httpx.AsyncClient(timeout=30.0)
 
 
+@with_redundancy(
+    func_key="forward_request",
+    cache_key=None,  # Don't cache by default
+    alternatives=None,
+    fallback_func=None
+)
 async def forward_request(
     service_name: str,
     path: str,
@@ -57,13 +70,39 @@ async def forward_request(
     data: Optional[Dict[str, Any]] = None,
     params: Optional[Dict[str, Any]] = None
 ) -> Dict[str, Any]:
-    """Forward request to microservice"""
+    """Forward request to microservice with redundancy"""
+    # Validate inputs
+    service_name = sanitize_input(service_name, "string")
+    path = sanitize_input(path, "string")
+    
+    # Fallback 1: Check service availability
     service_url = SERVICE_URLS.get(service_name)
     if not service_url:
-        raise HTTPException(status_code=503, detail=f"Service {service_name} not available")
+        # Fallback 2: Try alternative service URLs
+        alt_urls = [
+            os.getenv(f"{service_name.upper()}_SERVICE_URL_ALT1"),
+            os.getenv(f"{service_name.upper()}_SERVICE_URL_ALT2"),
+        ]
+        for alt_url in alt_urls:
+            if alt_url:
+                service_url = alt_url
+                break
+        
+        if not service_url:
+            raise HTTPException(status_code=503, detail=f"Service {service_name} not available")
 
     url = f"{service_url}{path}"
+    
+    # Fallback 3: Validate and sanitize data
+    if data:
+        try:
+            data = validate_json_payload(data)
+            # Sanitize string values
+            data = {k: sanitize_input(v, "string") if isinstance(v, str) else v for k, v in data.items()}
+        except Exception as e:
+            logger.warning(f"Data validation warning: {e}")
 
+    # Fallback 4-6: Execute with retry, timeout, and circuit breaker (handled by decorator)
     try:
         if method == "GET":
             response = await http_client.get(url, params=params)

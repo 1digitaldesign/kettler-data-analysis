@@ -6,10 +6,18 @@ Handles all data analysis operations
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, validator
 from typing import Dict, List, Any, Optional
 import sys
 from pathlib import Path
+
+# Add utils to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from utils.validation import (
+    validate_dict, validate_string, validate_list,
+    ValidationError
+)
+from utils.redundancy import with_redundancy
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -49,9 +57,27 @@ if firms_file.exists():
 
 
 class AnalysisRequest(BaseModel):
-    """Analysis request model"""
-    filters: Optional[Dict[str, Any]] = None
-    options: Optional[Dict[str, Any]] = None
+    """Analysis request model with validation"""
+    filters: Optional[Dict[str, Any]] = Field(None, max_length=1000)
+    options: Optional[Dict[str, Any]] = Field(None, max_length=1000)
+    
+    @validator('filters')
+    def validate_filters(cls, v):
+        if v is not None:
+            if not isinstance(v, dict):
+                raise ValueError("filters must be a dictionary")
+            if len(str(v)) > 10000:  # Limit size
+                raise ValueError("filters too large")
+        return v
+    
+    @validator('options')
+    def validate_options(cls, v):
+        if v is not None:
+            if not isinstance(v, dict):
+                raise ValueError("options must be a dictionary")
+            if len(str(v)) > 10000:  # Limit size
+                raise ValueError("options too large")
+        return v
 
 
 @app.get("/health")
@@ -64,12 +90,29 @@ async def health_check():
     }
 
 
+@with_redundancy(
+    func_key="analyze_fraud",
+    cache_key=None,
+    alternatives=None,
+    fallback_func=lambda: {"status": "degraded", "results": {}, "message": "Service degraded"}
+)
 @app.post("/analyze/fraud")
 async def analyze_fraud(request: AnalysisRequest):
-    """Analyze fraud patterns"""
+    """Analyze fraud patterns with redundancy"""
+    # Input validation (Fallback 1)
+    try:
+        if request.filters:
+            validate_dict(request.filters, "filters")
+        if request.options:
+            validate_dict(request.options, "options")
+    except ValidationError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    
+    # Service availability (Fallback 2)
     if not analysis_service:
         raise HTTPException(status_code=503, detail="Analysis service not initialized")
-
+    
+    # Execute with redundancy (Fallbacks 3-6 handled by decorator)
     try:
         results = analysis_service.analyze_fraud_patterns()
         return {
@@ -77,6 +120,7 @@ async def analyze_fraud(request: AnalysisRequest):
             "results": results
         }
     except Exception as e:
+        logger.error(f"Error in fraud analysis: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
