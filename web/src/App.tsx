@@ -1,5 +1,6 @@
-import { BarChart3, FileSearch, Globe, Home, Search } from 'lucide-react'
+import { BarChart3, Building2, FileSearch, Globe, Home, Search } from 'lucide-react'
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import ACRISSearch from './components/ACRISSearch'
 import AnalysisTools from './components/AnalysisTools'
 import Dashboard from './components/Dashboard'
 import DataVisualization from './components/DataVisualization'
@@ -54,6 +55,13 @@ function App() {
                     <Globe className="mr-2 h-4 w-4" />
                     Scraping
                   </Link>
+                  <Link
+                    to="/acris"
+                    className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 hover:text-gray-700"
+                  >
+                    <Building2 className="mr-2 h-4 w-4" />
+                    ACRIS
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,6 +76,7 @@ function App() {
             <Route path="/analysis" element={<AnalysisTools />} />
             <Route path="/visualization" element={<DataVisualization />} />
             <Route path="/scraping" element={<WebScraping />} />
+            <Route path="/acris" element={<ACRISSearch />} />
           </Routes>
         </main>
       </div>

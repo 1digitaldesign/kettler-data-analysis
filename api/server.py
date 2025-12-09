@@ -248,6 +248,16 @@ def get_visualization_data():
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+class ACRISSearchRequest(BaseModel):
+    search_type: str  # block_lot, address, party_name, document_id
+    borough: Optional[str] = None
+    block: Optional[str] = None
+    lot: Optional[str] = None
+    address: Optional[str] = None
+    party_name: Optional[str] = None
+    document_id: Optional[str] = None
+    document_type: Optional[str] = None
+
 @app.post("/api/scraping/scrape")
 def run_scraping(request: ScrapingRequest):
     """Run web scraping"""
@@ -265,6 +275,33 @@ def run_scraping(request: ScrapingRequest):
         else:
             raise HTTPException(status_code=400, detail=f"Unknown platform: {request.platform}")
 
+        return {"status": "success", "data": results}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/scraping/acris")
+def run_acris_search(request: ACRISSearchRequest):
+    """Search NYC ACRIS property records"""
+    try:
+        scraper = get_scraper()
+        
+        kwargs = {}
+        if request.borough:
+            kwargs['borough'] = request.borough
+        if request.block:
+            kwargs['block'] = request.block
+        if request.lot:
+            kwargs['lot'] = request.lot
+        if request.address:
+            kwargs['address'] = request.address
+        if request.party_name:
+            kwargs['party_name'] = request.party_name
+        if request.document_id:
+            kwargs['document_id'] = request.document_id
+        if request.document_type:
+            kwargs['document_type'] = request.document_type
+        
+        results = scraper.scrape_acris(request.search_type, **kwargs)
         return {"status": "success", "data": results}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

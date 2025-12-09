@@ -24,6 +24,7 @@ export default function WebScraping() {
     { id: 'vrbo', name: 'VRBO', description: 'Scrape VRBO listings' },
     { id: 'front', name: 'Front Websites', description: 'Scrape front company websites' },
     { id: 'multi', name: 'Multi-Platform', description: 'Scrape across multiple platforms' },
+    { id: 'acris', name: 'ACRIS (NYC)', description: 'Search NYC property records' },
   ]
 
   const handleScrape = async () => {

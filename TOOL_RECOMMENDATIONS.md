@@ -73,15 +73,34 @@ python-anticaptcha>=1.0.0  # CAPTCHA solving (optional)
 2captcha-python>=1.1.0  # 2Captcha service (optional)
 ```
 
-**Accuracy-Focused Setup:**
+**Accuracy-Focused Setup with Anti-Bot Protection:**
 ```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 from bs4 import BeautifulSoup
 import html5lib  # Most accurate parser
+import random
+import time
+import hashlib
+from concurrent.futures import ThreadPoolExecutor
+import undetected_chromedriver as uc  # Anti-detection
+
+# Generate seed from time for reproducible randomness
+def generate_seed_from_time():
+    current_time = int(time.time())
+    return int(hashlib.md5(str(current_time).encode()).hexdigest()[:8], 16)
+
+# Random delays with seed-based randomness
+def random_delay(min_seconds=2.0, max_seconds=8.0, seed=None):
+    if seed is not None:
+        random.seed(seed)
+    delay = random.uniform(min_seconds, max_seconds)
+    time.sleep(delay)
+    time.sleep(random.uniform(0.1, 0.5))  # Micro-delays
 
 # Use html5lib for maximum accuracy (slower but most precise)
 soup = BeautifulSoup(html_content, 'html5lib')

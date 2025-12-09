@@ -148,6 +148,51 @@ class UnifiedScraper:
 
         return results
 
+    def scrape_acris(self, search_type: str, **kwargs) -> Dict[str, Any]:
+        """Scrape NYC ACRIS property records"""
+        try:
+            from scripts.scraping.acris_scraper import ACRISScraper
+            
+            scraper = ACRISScraper()
+            
+            if search_type == 'block_lot':
+                results = scraper.search_by_block_lot(
+                    borough=kwargs.get('borough'),
+                    block=kwargs.get('block'),
+                    lot=kwargs.get('lot')
+                )
+            elif search_type == 'address':
+                results = scraper.search_by_address(
+                    address=kwargs.get('address'),
+                    borough=kwargs.get('borough')
+                )
+            elif search_type == 'party_name':
+                results = scraper.search_by_party_name(
+                    party_name=kwargs.get('party_name'),
+                    document_type=kwargs.get('document_type')
+                )
+            elif search_type == 'document_id':
+                results = scraper.search_by_document_id(
+                    document_id=kwargs.get('document_id')
+                )
+            else:
+                raise ValueError(f"Unknown ACRIS search type: {search_type}")
+            
+            return {
+                'platform': 'ACRIS',
+                'scrape_date': datetime.now().isoformat(),
+                'search_type': search_type,
+                'results': results,
+                'count': len(results) if isinstance(results, list) else 1
+            }
+        except ImportError:
+            return {
+                'platform': 'ACRIS',
+                'scrape_date': datetime.now().isoformat(),
+                'status': 'error',
+                'error': 'ACRIS scraper not available. Install required dependencies.'
+            }
+
     def save_results(self, results: Dict[str, Any], filename: str):
         """Save scraping results"""
         DATA_SCRAPED_DIR.mkdir(parents=True, exist_ok=True)
