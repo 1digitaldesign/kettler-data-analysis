@@ -13,7 +13,7 @@ PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_di
 
 EVIDENCE_DIR <- file.path(PROJECT_ROOT, "evidence")
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "lease_agreement_analysis.json")
+OUTPUT_FILE <- file.path(RESEARCH_TIMELINES_DIR, "lease_agreement_analysis.json")
 
 # Load lease agreement
 load_lease_agreement <- function() {

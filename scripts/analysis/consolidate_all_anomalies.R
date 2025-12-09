@@ -13,7 +13,7 @@ while (!file.exists(file.path(current_dir, "README.md")) && current_dir != "/") 
 PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_dir else getwd()
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "all_anomalies_consolidated.json")
+OUTPUT_FILE <- file.path(RESEARCH_ANOMALIES_DIR, "all_anomalies_consolidated.json")
 
 consolidate_all_anomalies <- function() {
   cat("=== Consolidating All Anomalies ===\n")

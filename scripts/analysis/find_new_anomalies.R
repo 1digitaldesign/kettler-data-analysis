@@ -14,7 +14,7 @@ while (!file.exists(file.path(current_dir, "README.md")) && current_dir != "/") 
 PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_dir else getwd()
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "new_anomalies_found.json")
+OUTPUT_FILE <- file.path(RESEARCH_ANOMALIES_DIR, "new_anomalies_found.json")
 
 # Load all available data sources
 load_all_data_sources <- function() {

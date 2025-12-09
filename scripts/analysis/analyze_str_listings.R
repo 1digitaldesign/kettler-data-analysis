@@ -13,7 +13,7 @@ PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_di
 
 DATA_DIR <- file.path(PROJECT_ROOT, "data", "scraped")
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "str_listings_analysis.json")
+OUTPUT_FILE <- file.path(RESEARCH_EVIDENCE_DIR, "str_listings_analysis.json")
 
 analyze_str_listings <- function() {
   cat("=== STR Listings Analysis ===\n")

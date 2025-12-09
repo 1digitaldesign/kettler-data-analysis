@@ -11,7 +11,7 @@ while (!file.exists(file.path(current_dir, "README.md")) && current_dir != "/") 
 PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_dir else getwd()
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "all_violations_compiled.json")
+OUTPUT_FILE <- file.path(RESEARCH_VIOLATIONS_DIR, "all_violations_compiled.json")
 
 compile_all_violations <- function() {
   cat("=== Compile All Violations ===\n")
