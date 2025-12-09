@@ -18,7 +18,7 @@ if (file.exists("research/evidence/all_entities_extracted.json")) {
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
 DATA_DIR <- file.path(PROJECT_ROOT, "data")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "connection_matrix.json")
+OUTPUT_FILE <- file.path(RESEARCH_CONNECTIONS_DIR, "connection_matrix.json")
 
 # Load all data
 load_all_data <- function() {

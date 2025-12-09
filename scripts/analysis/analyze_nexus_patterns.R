@@ -19,7 +19,7 @@ if (file.exists("research/evidence/all_entities_extracted.json")) {
 
 DATA_DIR <- file.path(PROJECT_ROOT, "data")
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "nexus_patterns_analysis.json")
+OUTPUT_FILE <- file.path(RESEARCH_CONNECTIONS_DIR, "nexus_patterns_analysis.json")
 
 # Helper functions
 is_valid_df <- function(df) !is.null(df) && is.data.frame(df) && nrow(df) > 0

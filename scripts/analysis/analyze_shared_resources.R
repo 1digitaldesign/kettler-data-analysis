@@ -19,7 +19,7 @@ if (file.exists("research/evidence/all_entities_extracted.json")) {
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
 DATA_DIR <- file.path(PROJECT_ROOT, "data")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "shared_resources_analysis.json")
+OUTPUT_FILE <- file.path(RESEARCH_CONNECTIONS_DIR, "shared_resources_analysis.json")
 
 # Normalize addresses for comparison
 normalize_address <- function(addr) {

@@ -20,7 +20,7 @@ if (file.exists("research/evidence/all_entities_extracted.json")) {
 DATA_DIR <- file.path(PROJECT_ROOT, "data")
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
 EVIDENCE_DIR <- file.path(PROJECT_ROOT, "evidence")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "timeline_analysis.json")
+OUTPUT_FILE <- file.path(RESEARCH_TIMELINES_DIR, "timeline_analysis.json")
 
 # Load all dates from all sources
 load_all_dates <- function() {
