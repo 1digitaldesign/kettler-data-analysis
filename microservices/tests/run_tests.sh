@@ -48,7 +48,7 @@ check_services() {
     echo "Checking if services are running..."
 
     services=("8000:API Gateway" "8001:Analysis" "8002:Scraping" "8003:Validation" \
-              "8004:Vector" "8005:GIS" "8006:ACRIS" "8007:Data")
+              "8004:Vector" "8005:GIS" "8006:ACRIS" "8007:Data" "8008:Google Drive")
 
     all_running=true
     for service in "${services[@]}"; do
