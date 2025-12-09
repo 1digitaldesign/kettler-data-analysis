@@ -76,7 +76,8 @@ find_email_anomalies <- function(data_sources) {
 
     # Check for domain patterns
     if (length(emails) > 0) {
-      domains <- str_extract(emails, "@(.+)", group = 1)
+      domains <- str_extract(emails, "@(.+)")
+      domains <- str_remove(domains, "^@")
       domains <- domains[!is.na(domains)]
 
       if (length(domains) > 0) {

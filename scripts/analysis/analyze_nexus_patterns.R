@@ -254,7 +254,8 @@ identify_control_patterns <- function(firms) {
   patterns$retroactive_assignment_indicator <- if (!is.na(avg_gap)) avg_gap > 5 else FALSE
 
   # Pattern 4: Geographic distribution suggests interstate operation
-  states <- unique(str_extract(firms$Address, ",\\s*([A-Z]{2})\\s*\\d", group = 1))
+  states <- unique(str_extract(firms$Address, ",\\s*([A-Z]{2})\\s*\\d"))
+  states <- str_extract(states, "[A-Z]{2}")
   states <- states[!is.na(states)]
   patterns$state_count <- length(states)
   patterns$interstate_operation <- length(states) > 1

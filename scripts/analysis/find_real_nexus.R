@@ -167,7 +167,8 @@ analyze_financial_patterns <- function(firms) {
   patterns$revenue_stream = "Property management fees, rental income"
 
   # Pattern: Geographic distribution suggests interstate operation
-  states <- unique(str_extract(firms$Address, ",\\s*([A-Z]{2})\\s*\\d", group = 1))
+  states <- unique(str_extract(firms$Address, ",\\s*([A-Z]{2})\\s*\\d"))
+  states <- str_extract(states, "[A-Z]{2}")
   states <- states[!is.na(states)]
   patterns$interstate_operation <- list(
     state_count = length(states),

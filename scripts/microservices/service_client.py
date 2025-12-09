@@ -78,7 +78,7 @@ class ServiceClient:
             if response.status_code == 200:
                 data = response.json()
                 return data.get('health', {}).get('status') == 'healthy'
-        except:
+        except Exception:
             pass
         return False
 

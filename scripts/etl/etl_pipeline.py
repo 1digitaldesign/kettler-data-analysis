@@ -44,7 +44,7 @@ class ETLPipeline:
             try:
                 with open(processed_file, 'r') as f:
                     self.processed_files = set(json.load(f))
-            except:
+            except (FileNotFoundError, json.JSONDecodeError):
                 self.processed_files = set()
 
     def save_processed_files(self):

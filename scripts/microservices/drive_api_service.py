@@ -97,6 +97,9 @@ def download_file(file_id: str):
 @app.route('/api/v1/drive/file/<file_id>/export', methods=['GET'])
 def export_file(file_id: str):
     """Export Google Workspace file (Docs, Sheets, etc.)"""
+    import tempfile
+    import os
+
     try:
         export_format = request.args.get('format', 'docx')
         client = get_client()
@@ -104,26 +107,44 @@ def export_file(file_id: str):
         mime_type = file_info.get('mimeType', '')
         file_name = file_info.get('name', 'file')
 
-        # Determine export method based on file type
-        if 'spreadsheet' in mime_type:
-            content = client.export_google_sheet(file_id, '/tmp/export', format=export_format)
-            with open(content, 'rb') as f:
-                file_content = f.read()
-            ext = '.xlsx' if export_format == 'xlsx' else f'.{export_format}'
-        elif 'document' in mime_type:
-            content = client.export_google_doc(file_id, '/tmp/export', format=export_format)
-            with open(content, 'rb') as f:
-                file_content = f.read()
-            ext = '.docx' if export_format == 'docx' else f'.{export_format}'
-        else:
-            return jsonify({'error': 'File type not supported for export'}), 400
+        # Create unique temporary file path
+        format_ext_map = {
+            'docx': '.docx', 'pdf': '.pdf', 'txt': '.txt', 'html': '.html', 'rtf': '.rtf',
+            'xlsx': '.xlsx', 'csv': '.csv', 'ods': '.ods', 'tsv': '.tsv'
+        }
+        ext = format_ext_map.get(export_format, f'.{export_format}')
+        temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=ext)
+        temp_path = temp_file.name
+        temp_file.close()
 
-        return send_file(
-            BytesIO(file_content),
-            mimetype='application/octet-stream',
-            as_attachment=True,
-            download_name=f"{file_name}{ext}"
-        )
+        try:
+            # Determine export method based on file type
+            if 'spreadsheet' in mime_type:
+                exported_path = client.export_google_sheet(file_id, temp_path, format=export_format)
+            elif 'document' in mime_type:
+                exported_path = client.export_google_doc(file_id, temp_path, format=export_format)
+            else:
+                os.unlink(temp_path)
+                return jsonify({'error': 'File type not supported for export'}), 400
+
+            # Read exported file content
+            with open(exported_path, 'rb') as f:
+                file_content = f.read()
+
+            # Clean up temp file
+            os.unlink(exported_path)
+
+            return send_file(
+                BytesIO(file_content),
+                mimetype='application/octet-stream',
+                as_attachment=True,
+                download_name=f"{file_name}{ext}"
+            )
+        except Exception as e:
+            # Clean up temp file on error
+            if os.path.exists(temp_path):
+                os.unlink(temp_path)
+            raise
     except Exception as e:
         logger.error(f"Error exporting file: {e}")
         return jsonify({'error': str(e)}), 500
