@@ -15,21 +15,47 @@ The system performs automated searches across state licensing databases to:
 
 ```
 .
-├── data/
-│   ├── raw/              # Raw search results from DPOR websites
-│   ├── cleaned/          # Cleaned and standardized data
-│   └── analysis/         # Analysis outputs and reports
-├── state_scrapers/       # State-specific search implementations
-├── search_dpor_comprehensive.R    # Core search framework
-├── search_virginia_dpor.R        # Virginia-specific implementation
-├── search_multi_state_dpor.R     # Multi-state wrapper
-├── clean_dpor_data.py            # Data cleaning (Python/Hugging Face)
-├── analyze_skidmore_connections.R # Connection analysis
-├── validate_data_quality.R        # Data quality validation
-├── generate_outputs.R            # Output generation
-├── dpor_analysis_report.Rmd      # Analysis report template
-├── state_dpor_registry.csv       # State registry mapping
-└── requirements.txt               # Python dependencies
+├── bin/                  # Entry point scripts (executables)
+│   ├── run_pipeline.R          # Main pipeline runner
+│   ├── search_states.R         # Multi-state search
+│   ├── analyze_connections.R   # Connection analysis
+│   ├── validate_data.R         # Data validation
+│   ├── generate_reports.R      # Report generation
+│   └── organize_evidence.R     # Evidence organization
+│
+├── scripts/             # Library scripts (organized by function)
+│   ├── search/          # Search and scraping scripts
+│   ├── analysis/        # Analysis scripts
+│   ├── extraction/      # Evidence extraction
+│   ├── validation/      # Data validation
+│   ├── reporting/       # Report generation
+│   ├── etl/            # ETL and vectorization
+│   ├── microservices/  # Microservices
+│   └── utils/          # Utility functions
+│
+├── data/                # Data directories
+│   ├── source/         # Source data files
+│   ├── raw/            # Raw search results
+│   ├── cleaned/        # Cleaned data
+│   ├── analysis/       # Analysis outputs
+│   ├── scraped/        # Scraped data
+│   └── vectors/        # Vector embeddings
+│
+├── research/            # Research outputs (organized by category)
+│   ├── connections/     # Connection analyses
+│   ├── violations/     # Violation findings
+│   ├── anomalies/      # Anomaly reports
+│   ├── evidence/       # Evidence summaries
+│   ├── verification/   # Verification results
+│   ├── timelines/      # Timeline analyses
+│   ├── summaries/      # Summary reports
+│   └── search_results/ # Search result files
+│
+├── evidence/            # Source evidence documents
+├── filings/            # Filing materials
+├── docs/               # Documentation
+├── config/             # Configuration files
+└── outputs/            # Generated outputs
 ```
 
 ## Installation
@@ -52,7 +78,7 @@ pip install -r requirements.txt
 
 ```r
 # Run multi-state search for all firms
-source("search_multi_state_dpor.R")
+source("bin/search_states.R")
 main_multi_state()
 ```
 
@@ -64,7 +90,7 @@ This will:
 ### 2. Clean Data
 
 ```bash
-python clean_dpor_data.py
+python bin/clean_data.py
 ```
 
 This will:
@@ -77,7 +103,7 @@ This will:
 ### 3. Analyze Connections
 
 ```r
-source("analyze_skidmore_connections.R")
+source("bin/analyze_connections.R")
 main_analysis()
 ```
 
@@ -89,7 +115,7 @@ This will:
 ### 4. Validate Data Quality
 
 ```r
-source("validate_data_quality.R")
+source("bin/validate_data.R")
 main_validation()
 ```
 
@@ -102,8 +128,15 @@ This will:
 ### 5. Generate All Outputs
 
 ```r
-source("generate_outputs.R")
+source("bin/generate_reports.R")
 main_outputs()
+```
+
+### Quick Start: Run Full Pipeline
+
+```r
+# Run the complete pipeline
+source("bin/run_pipeline.R")
 ```
 
 This runs all analysis and generates:
@@ -172,7 +205,7 @@ rmarkdown::render("dpor_analysis_report.Rmd")
 
 ## State Registry
 
-The `state_dpor_registry.csv` file contains:
+The `config/state_dpor_registry.csv` file contains:
 - State codes and names
 - Agency names
 - License lookup URLs

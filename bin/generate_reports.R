@@ -4,16 +4,19 @@
 
 library(dplyr)
 
-source("analyze_skidmore_connections.R")
-source("validate_data_quality.R")
+# Load path utilities
+source(file.path(dirname(normalizePath(commandArgs()[4])), "load_paths.R"))
+
+source_bin("analyze_connections.R")
+source_bin("validate_data.R")
 
 # Generate summary CSV files
 generate_summary_csvs <- function() {
   cat("Generating summary CSV files...\n")
 
   # Load data
-  connections_file <- file.path("data/analysis", "dpor_skidmore_connections.csv")
-  validated_file <- file.path("data/analysis", "dpor_validated.csv")
+  connections_file <- file.path(DATA_ANALYSIS_DIR, "dpor_skidmore_connections.csv")
+  validated_file <- file.path(DATA_ANALYSIS_DIR, "dpor_validated.csv")
 
   if (file.exists(connections_file)) {
     connections <- read.csv(connections_file, stringsAsFactors = FALSE)

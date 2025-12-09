@@ -2,11 +2,15 @@
 # Multi-State DPOR Search Wrapper
 # Orchestrates searches across all 50 states
 
-source("search_dpor_comprehensive.R")
-source("search_virginia_dpor.R")
+# Load path utilities
+source(file.path(dirname(normalizePath(commandArgs()[4])), "load_paths.R"))
+
+# Source search scripts
+source_script("search/search_dpor_comprehensive.R")
+source_script("search/search_virginia_dpor.R")
 
 # Load state registry
-registry <- load_state_registry()
+registry <- read.csv(STATE_REGISTRY_FILE, stringsAsFactors = FALSE)
 
 # Define firms to search
 FIRMS <- c(

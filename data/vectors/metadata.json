@@ -26,5 +26,4935 @@
     "vector_index": 3,
     "created_at": "2025-12-08T21:14:47.609564",
     "metadata": {}
+  },
+  "f4254fc432dcfb0a89f80f85b1d4c684": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:metadata.date",
+    "text": "date: 2025-12-08",
+    "vector_index": 4,
+    "created_at": "2025-12-09T06:22:46.806691",
+    "metadata": {
+      "json_path": "metadata.date",
+      "data_type": "json"
+    }
+  },
+  "f03571e553b14d3c688989a32462fdb3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:metadata.principal_broker",
+    "text": "principal_broker: SKIDMORE, CAITLIN MARIE",
+    "vector_index": 5,
+    "created_at": "2025-12-09T06:22:46.895263",
+    "metadata": {
+      "json_path": "metadata.principal_broker",
+      "data_type": "json"
+    }
+  },
+  "a609576de13bc8607006870c640a6a16": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:metadata.skidmore_license_date",
+    "text": "skidmore_license_date: 2025-05-30",
+    "vector_index": 6,
+    "created_at": "2025-12-09T06:22:46.998274",
+    "metadata": {
+      "json_path": "metadata.skidmore_license_date",
+      "data_type": "json"
+    }
+  },
+  "615f990dfef1b8347c929370eca9c17f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:metadata.total_companies",
+    "text": "total_companies: 38",
+    "vector_index": 7,
+    "created_at": "2025-12-09T06:22:47.192413",
+    "metadata": {
+      "json_path": "metadata.total_companies",
+      "data_type": "json"
+    }
+  },
+  "68db32d27afdb7c543a108f3d70a7fd2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:metadata.source",
+    "text": "source: Virginia DPOR - Related Licenses tab extraction",
+    "vector_index": 8,
+    "created_at": "2025-12-09T06:22:47.294030",
+    "metadata": {
+      "json_path": "metadata.source",
+      "data_type": "json"
+    }
+  },
+  "991d8d3337ed4cf428a69fd3145fe98e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:metadata.status",
+    "text": "status: complete",
+    "vector_index": 9,
+    "created_at": "2025-12-09T06:22:47.314751",
+    "metadata": {
+      "json_path": "metadata.status",
+      "data_type": "json"
+    }
+  },
+  "7570a90e560160809a118f8c7b6eeb8f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:metadata.data_completeness",
+    "text": "data_completeness: filling_missing_fields",
+    "vector_index": 10,
+    "created_at": "2025-12-09T06:22:47.399273",
+    "metadata": {
+      "json_path": "metadata.data_completeness",
+      "data_type": "json"
+    }
+  },
+  "4b91ba403dcb8ca28675ae89a72bd3a9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].firm_name",
+    "text": "firm_name: KETTLER MANAGEMENT INC",
+    "vector_index": 11,
+    "created_at": "2025-12-09T06:22:47.496434",
+    "metadata": {
+      "json_path": "companies[0].firm_name",
+      "data_type": "json"
+    }
+  },
+  "70b689ca7d2eb826358b0753d55bdec8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].firm_license",
+    "text": "firm_license: 0226025311",
+    "vector_index": 12,
+    "created_at": "2025-12-09T06:22:47.598115",
+    "metadata": {
+      "json_path": "companies[0].firm_license",
+      "data_type": "json"
+    }
+  },
+  "611ca2e1e4f13abe1bc50fa10597408a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 13,
+    "created_at": "2025-12-09T06:22:47.696851",
+    "metadata": {
+      "json_path": "companies[0].individual_license",
+      "data_type": "json"
+    }
+  },
+  "56d34f7747644472babe3d1ecc90ce29": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 14,
+    "created_at": "2025-12-09T06:22:47.805109",
+    "metadata": {
+      "json_path": "companies[0].license_type",
+      "data_type": "json"
+    }
+  },
+  "73f367917d36b2970e14fbce27a7cce1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 15,
+    "created_at": "2025-12-09T06:22:47.993131",
+    "metadata": {
+      "json_path": "companies[0].firm_type",
+      "data_type": "json"
+    }
+  },
+  "14e98ee36fb8b452f2042a9d603b45fc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].address",
+    "text": "address: 8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
+    "vector_index": 16,
+    "created_at": "2025-12-09T06:22:48.106115",
+    "metadata": {
+      "json_path": "companies[0].address",
+      "data_type": "json"
+    }
+  },
+  "40aeb646b91d0c2c9fc21e983482689f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].initial_cert_date",
+    "text": "initial_cert_date: 2014-10-31",
+    "vector_index": 17,
+    "created_at": "2025-12-09T06:22:48.214936",
+    "metadata": {
+      "json_path": "companies[0].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "42838b517045245361ab448d93c99f4e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].expiration_date",
+    "text": "expiration_date: 2026-10-31",
+    "vector_index": 18,
+    "created_at": "2025-12-09T06:22:48.310715",
+    "metadata": {
+      "json_path": "companies[0].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "0351d838e0c010e6a5dab03b12948a15": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 19,
+    "created_at": "2025-12-09T06:22:48.405724",
+    "metadata": {
+      "json_path": "companies[0].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "e6f572f5fdeee08e9cc66bd7f9c24502": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].gap_years",
+    "text": "gap_years: 11",
+    "vector_index": 20,
+    "created_at": "2025-12-09T06:22:48.509872",
+    "metadata": {
+      "json_path": "companies[0].gap_years",
+      "data_type": "json"
+    }
+  },
+  "d3dc160a661e2586d3de7b0b33aa1aae": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].state",
+    "text": "state: VA",
+    "vector_index": 21,
+    "created_at": "2025-12-09T06:22:48.705950",
+    "metadata": {
+      "json_path": "companies[0].state",
+      "data_type": "json"
+    }
+  },
+  "f4c4614b48e51bd75f08eea35238aade": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[0].notes",
+    "text": "notes: 11-year gap; VA address",
+    "vector_index": 22,
+    "created_at": "2025-12-09T06:22:48.799707",
+    "metadata": {
+      "json_path": "companies[0].notes",
+      "data_type": "json"
+    }
+  },
+  "20a4b1a91ea92de19783b1cc6ca8c58e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].firm_name",
+    "text": "firm_name: BELL PARTNERS INC",
+    "vector_index": 23,
+    "created_at": "2025-12-09T06:22:48.908594",
+    "metadata": {
+      "json_path": "companies[1].firm_name",
+      "data_type": "json"
+    }
+  },
+  "74e22d171cbf70c5853327cbc3e2f900": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].firm_license",
+    "text": "firm_license: 0226023603",
+    "vector_index": 24,
+    "created_at": "2025-12-09T06:22:49.106534",
+    "metadata": {
+      "json_path": "companies[1].firm_license",
+      "data_type": "json"
+    }
+  },
+  "5c1b7a70707a5afe6fce29104b0f855a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 25,
+    "created_at": "2025-12-09T06:22:49.304696",
+    "metadata": {
+      "json_path": "companies[1].individual_license",
+      "data_type": "json"
+    }
+  },
+  "8fa8b7bd58a12f4331af9773246e06a1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 26,
+    "created_at": "2025-12-09T06:22:49.413014",
+    "metadata": {
+      "json_path": "companies[1].license_type",
+      "data_type": "json"
+    }
+  },
+  "f6af5e925372bf24d8ebde288215ecbc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 27,
+    "created_at": "2025-12-09T06:22:49.598741",
+    "metadata": {
+      "json_path": "companies[1].firm_type",
+      "data_type": "json"
+    }
+  },
+  "411437499b740491d304345910a1b7af": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].address",
+    "text": "address: 300 NORTH GREENE ST SUITE #1000, GREENSBORO, NC 27401",
+    "vector_index": 28,
+    "created_at": "2025-12-09T06:22:49.699704",
+    "metadata": {
+      "json_path": "companies[1].address",
+      "data_type": "json"
+    }
+  },
+  "a957d4c30e4343b3e5f364b479a4554e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].initial_cert_date",
+    "text": "initial_cert_date: 2011-12-28",
+    "vector_index": 29,
+    "created_at": "2025-12-09T06:22:49.799030",
+    "metadata": {
+      "json_path": "companies[1].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "0b14cd7ed8004b4af55a44d0ad6c0722": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].expiration_date",
+    "text": "expiration_date: 2025-12-31",
+    "vector_index": 30,
+    "created_at": "2025-12-09T06:22:49.907102",
+    "metadata": {
+      "json_path": "companies[1].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "382b976744325fc9fb67cc2eb1188d30": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 31,
+    "created_at": "2025-12-09T06:22:50.025705",
+    "metadata": {
+      "json_path": "companies[1].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "e3b21d5bde5712934db9349c966d4472": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].gap_years",
+    "text": "gap_years: 14",
+    "vector_index": 32,
+    "created_at": "2025-12-09T06:22:50.198890",
+    "metadata": {
+      "json_path": "companies[1].gap_years",
+      "data_type": "json"
+    }
+  },
+  "066b409d19d0923ebb31827e37126b00": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].state",
+    "text": "state: NC",
+    "vector_index": 33,
+    "created_at": "2025-12-09T06:22:50.205160",
+    "metadata": {
+      "json_path": "companies[1].state",
+      "data_type": "json"
+    }
+  },
+  "0fdb19f87c4d6f902f4e9d50a21655e2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[1].notes",
+    "text": "notes: 14-year gap; NC address",
+    "vector_index": 34,
+    "created_at": "2025-12-09T06:22:50.304280",
+    "metadata": {
+      "json_path": "companies[1].notes",
+      "data_type": "json"
+    }
+  },
+  "c943842aff8150199889eb3599b6b674": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].firm_name",
+    "text": "firm_name: BOZZUTO MANAGEMENT COMPANY",
+    "vector_index": 35,
+    "created_at": "2025-12-09T06:22:50.422326",
+    "metadata": {
+      "json_path": "companies[2].firm_name",
+      "data_type": "json"
+    }
+  },
+  "e802ab1f9b4770b50a2130c68c6000d4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].firm_license",
+    "text": "firm_license: 0226024808",
+    "vector_index": 36,
+    "created_at": "2025-12-09T06:22:50.602247",
+    "metadata": {
+      "json_path": "companies[2].firm_license",
+      "data_type": "json"
+    }
+  },
+  "d7e14905be9644ecbc4da732dddb6377": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 37,
+    "created_at": "2025-12-09T06:22:50.703088",
+    "metadata": {
+      "json_path": "companies[2].individual_license",
+      "data_type": "json"
+    }
+  },
+  "e385f0c064faae7c0a7da08b3926372d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 38,
+    "created_at": "2025-12-09T06:22:50.806240",
+    "metadata": {
+      "json_path": "companies[2].license_type",
+      "data_type": "json"
+    }
+  },
+  "8bc7af123d9146eec22fb067661d24e7": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 39,
+    "created_at": "2025-12-09T06:22:51.003746",
+    "metadata": {
+      "json_path": "companies[2].firm_type",
+      "data_type": "json"
+    }
+  },
+  "0656c7eb46f9a617b0cf358cab89aa28": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].address",
+    "text": "address: 5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+    "vector_index": 40,
+    "created_at": "2025-12-09T06:22:51.099180",
+    "metadata": {
+      "json_path": "companies[2].address",
+      "data_type": "json"
+    }
+  },
+  "dfa246a55455b055faf6e9667a446f68": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].initial_cert_date",
+    "text": "initial_cert_date: 2013-06-04",
+    "vector_index": 41,
+    "created_at": "2025-12-09T06:22:51.207232",
+    "metadata": {
+      "json_path": "companies[2].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "62b5424fe09f055e418b9864ddbef46d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].expiration_date",
+    "text": "expiration_date: 2027-06-30",
+    "vector_index": 42,
+    "created_at": "2025-12-09T06:22:51.396675",
+    "metadata": {
+      "json_path": "companies[2].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "339819fb7250099623bd616455015416": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 43,
+    "created_at": "2025-12-09T06:22:51.503327",
+    "metadata": {
+      "json_path": "companies[2].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "3810b96b19b9657cb84efa2758ba51c9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].gap_years",
+    "text": "gap_years: 12",
+    "vector_index": 44,
+    "created_at": "2025-12-09T06:22:51.603665",
+    "metadata": {
+      "json_path": "companies[2].gap_years",
+      "data_type": "json"
+    }
+  },
+  "08745fc85a6ae0e28f550e4661e8737a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].state",
+    "text": "state: TX",
+    "vector_index": 45,
+    "created_at": "2025-12-09T06:22:51.697545",
+    "metadata": {
+      "json_path": "companies[2].state",
+      "data_type": "json"
+    }
+  },
+  "011d9b7dc4adc6d801e63001b207071d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[2].notes",
+    "text": "notes: 12-year gap; SAME TX ADDRESS as Skidmore",
+    "vector_index": 46,
+    "created_at": "2025-12-09T06:22:51.797565",
+    "metadata": {
+      "json_path": "companies[2].notes",
+      "data_type": "json"
+    }
+  },
+  "386e146f8a8482b9c0de2feb50bf6aa2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].firm_name",
+    "text": "firm_name: CORTLAND MANAGEMENT LLC",
+    "vector_index": 47,
+    "created_at": "2025-12-09T06:22:51.896449",
+    "metadata": {
+      "json_path": "companies[3].firm_name",
+      "data_type": "json"
+    }
+  },
+  "69663587c8b998e4b63046d5590996bd": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].firm_license",
+    "text": "firm_license: 0226038642",
+    "vector_index": 48,
+    "created_at": "2025-12-09T06:22:52.103545",
+    "metadata": {
+      "json_path": "companies[3].firm_license",
+      "data_type": "json"
+    }
+  },
+  "3b88725d1eb465e6b185facae63347f2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 49,
+    "created_at": "2025-12-09T06:22:52.209039",
+    "metadata": {
+      "json_path": "companies[3].individual_license",
+      "data_type": "json"
+    }
+  },
+  "91df14cf417c8d1a5890f22661301930": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 50,
+    "created_at": "2025-12-09T06:22:52.395150",
+    "metadata": {
+      "json_path": "companies[3].license_type",
+      "data_type": "json"
+    }
+  },
+  "86da6b08ea620f4664f393a1377bdd08": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 51,
+    "created_at": "2025-12-09T06:22:52.498256",
+    "metadata": {
+      "json_path": "companies[3].firm_type",
+      "data_type": "json"
+    }
+  },
+  "b748c77947c0ec04f416bc26819c61c0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].address",
+    "text": "address: 5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+    "vector_index": 52,
+    "created_at": "2025-12-09T06:22:52.607358",
+    "metadata": {
+      "json_path": "companies[3].address",
+      "data_type": "json"
+    }
+  },
+  "93020640fdd70bffaaf97a6d73706ed5": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].initial_cert_date",
+    "text": "initial_cert_date: 2025-06-30",
+    "vector_index": 53,
+    "created_at": "2025-12-09T06:22:52.794720",
+    "metadata": {
+      "json_path": "companies[3].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "91c781d75e310c8ca4a8b485b87eb49e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].expiration_date",
+    "text": "expiration_date: 2027-06-30",
+    "vector_index": 54,
+    "created_at": "2025-12-09T06:22:52.900620",
+    "metadata": {
+      "json_path": "companies[3].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "c692d68f97176876675b47e265f51d83": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 55,
+    "created_at": "2025-12-09T06:22:53.014772",
+    "metadata": {
+      "json_path": "companies[3].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "9f2ea063c85dc5959e512b8a10333142": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].gap_years",
+    "text": "gap_years: 0",
+    "vector_index": 56,
+    "created_at": "2025-12-09T06:22:53.210087",
+    "metadata": {
+      "json_path": "companies[3].gap_years",
+      "data_type": "json"
+    }
+  },
+  "5326128e9e2a81d5118cd37d7645d98f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].state",
+    "text": "state: TX",
+    "vector_index": 57,
+    "created_at": "2025-12-09T06:22:53.312242",
+    "metadata": {
+      "json_path": "companies[3].state",
+      "data_type": "json"
+    }
+  },
+  "7575f61070eefe7bbbf3476e027d9e37": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[3].notes",
+    "text": "notes: Licensed 1 month AFTER Skidmore; SAME TX ADDRESS as Skidmore",
+    "vector_index": 58,
+    "created_at": "2025-12-09T06:22:53.498517",
+    "metadata": {
+      "json_path": "companies[3].notes",
+      "data_type": "json"
+    }
+  },
+  "95b3a85c57cfb7c9e176fd067ce1686e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].firm_name",
+    "text": "firm_name: GABLES RESIDENTIAL SERVICES INC",
+    "vector_index": 59,
+    "created_at": "2025-12-09T06:22:53.604362",
+    "metadata": {
+      "json_path": "companies[4].firm_name",
+      "data_type": "json"
+    }
+  },
+  "a37fb9b478bcd1dfcee8743ab2a584cc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].firm_license",
+    "text": "firm_license: 0226027221",
+    "vector_index": 60,
+    "created_at": "2025-12-09T06:22:53.797936",
+    "metadata": {
+      "json_path": "companies[4].firm_license",
+      "data_type": "json"
+    }
+  },
+  "ac38ab8718a72d87f13be4da7a0794f6": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 61,
+    "created_at": "2025-12-09T06:22:53.901318",
+    "metadata": {
+      "json_path": "companies[4].individual_license",
+      "data_type": "json"
+    }
+  },
+  "eda82746e7ed3989fefdfc5b7f1a4418": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 62,
+    "created_at": "2025-12-09T06:22:54.011649",
+    "metadata": {
+      "json_path": "companies[4].license_type",
+      "data_type": "json"
+    }
+  },
+  "e23e57b242480d9673106b0a034a381e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 63,
+    "created_at": "2025-12-09T06:22:54.219205",
+    "metadata": {
+      "json_path": "companies[4].firm_type",
+      "data_type": "json"
+    }
+  },
+  "ee31082304d153eefafc6850b411ddea": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].address",
+    "text": "address: 5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+    "vector_index": 64,
+    "created_at": "2025-12-09T06:22:54.396549",
+    "metadata": {
+      "json_path": "companies[4].address",
+      "data_type": "json"
+    }
+  },
+  "2870be129244f570e7e3b669c2fe634d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].initial_cert_date",
+    "text": "initial_cert_date: 2016-08-17",
+    "vector_index": 65,
+    "created_at": "2025-12-09T06:22:54.506132",
+    "metadata": {
+      "json_path": "companies[4].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "1c85b3dbbf8250fef3159ef469c19066": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].expiration_date",
+    "text": "expiration_date: 2026-08-31",
+    "vector_index": 66,
+    "created_at": "2025-12-09T06:22:54.600919",
+    "metadata": {
+      "json_path": "companies[4].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "75d7ba6673204d5243b9d077a8de0af1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 67,
+    "created_at": "2025-12-09T06:22:54.699573",
+    "metadata": {
+      "json_path": "companies[4].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "f8a4aa41f19f2f772570d5617466d170": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].gap_years",
+    "text": "gap_years: 9",
+    "vector_index": 68,
+    "created_at": "2025-12-09T06:22:54.711691",
+    "metadata": {
+      "json_path": "companies[4].gap_years",
+      "data_type": "json"
+    }
+  },
+  "26fff5b631440b88e4048a9a11e5f98b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].state",
+    "text": "state: TX",
+    "vector_index": 69,
+    "created_at": "2025-12-09T06:22:54.817015",
+    "metadata": {
+      "json_path": "companies[4].state",
+      "data_type": "json"
+    }
+  },
+  "d9dc54905c6f640b7bbb3c8e8dcae30b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[4].notes",
+    "text": "notes: 9-year gap; SAME TX ADDRESS as Skidmore",
+    "vector_index": 70,
+    "created_at": "2025-12-09T06:22:54.999580",
+    "metadata": {
+      "json_path": "companies[4].notes",
+      "data_type": "json"
+    }
+  },
+  "87f1b037d02e7e5d37d57875ef1ee887": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].firm_name",
+    "text": "firm_name: GATEWAY MANAGEMENT COMPANY LLC",
+    "vector_index": 71,
+    "created_at": "2025-12-09T06:22:55.199204",
+    "metadata": {
+      "json_path": "companies[5].firm_name",
+      "data_type": "json"
+    }
+  },
+  "0e2a817c0984ec750923fe10b1b5017b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].firm_license",
+    "text": "firm_license: 0226038613",
+    "vector_index": 72,
+    "created_at": "2025-12-09T06:22:55.206544",
+    "metadata": {
+      "json_path": "companies[5].firm_license",
+      "data_type": "json"
+    }
+  },
+  "4c1732d63ec40ebf4f566bfe32efb484": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 73,
+    "created_at": "2025-12-09T06:22:55.301632",
+    "metadata": {
+      "json_path": "companies[5].individual_license",
+      "data_type": "json"
+    }
+  },
+  "3c7f58356d34dae7e566c10df865ed4a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 74,
+    "created_at": "2025-12-09T06:22:55.416964",
+    "metadata": {
+      "json_path": "companies[5].license_type",
+      "data_type": "json"
+    }
+  },
+  "4118c97d41c2d37bcff0b46455885389": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 75,
+    "created_at": "2025-12-09T06:22:55.603468",
+    "metadata": {
+      "json_path": "companies[5].firm_type",
+      "data_type": "json"
+    }
+  },
+  "6d9eab46c6bf72d72b64d1345bff080a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].address",
+    "text": "address: 5729 LEBANON RD STE #144553, FRISCO, TX 75034",
+    "vector_index": 76,
+    "created_at": "2025-12-09T06:22:55.705800",
+    "metadata": {
+      "json_path": "companies[5].address",
+      "data_type": "json"
+    }
+  },
+  "7919e526f3b2814e219bcb0a1d91f7b0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].initial_cert_date",
+    "text": "initial_cert_date: 2025-03-26",
+    "vector_index": 77,
+    "created_at": "2025-12-09T06:22:55.815755",
+    "metadata": {
+      "json_path": "companies[5].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "0e24c78157aa5a16a5cd009581785f81": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].expiration_date",
+    "text": "expiration_date: 2027-03-31",
+    "vector_index": 78,
+    "created_at": "2025-12-09T06:22:56.008904",
+    "metadata": {
+      "json_path": "companies[5].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "b283efb879534595d2cd7dcd3e4adf73": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 79,
+    "created_at": "2025-12-09T06:22:56.208079",
+    "metadata": {
+      "json_path": "companies[5].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "c78ae0385fb7d9c3592827254980295c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].gap_years",
+    "text": "gap_years: 0",
+    "vector_index": 80,
+    "created_at": "2025-12-09T06:22:56.299684",
+    "metadata": {
+      "json_path": "companies[5].gap_years",
+      "data_type": "json"
+    }
+  },
+  "b7351f90c3026aa93239c332dbe845ee": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].state",
+    "text": "state: TX",
+    "vector_index": 81,
+    "created_at": "2025-12-09T06:22:56.306740",
+    "metadata": {
+      "json_path": "companies[5].state",
+      "data_type": "json"
+    }
+  },
+  "cc18346dae2ddcc8a7fd92484c852605": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[5].notes",
+    "text": "notes: Licensed 2 months BEFORE Skidmore; SAME TX ADDRESS as Skidmore",
+    "vector_index": 82,
+    "created_at": "2025-12-09T06:22:56.405194",
+    "metadata": {
+      "json_path": "companies[5].notes",
+      "data_type": "json"
+    }
+  },
+  "d5cb064cc6275e7ab5a4a50d1c3f98ba": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].firm_name",
+    "text": "firm_name: MCCORMACK BARON MANAGEMENT INC",
+    "vector_index": 83,
+    "created_at": "2025-12-09T06:22:56.517911",
+    "metadata": {
+      "json_path": "companies[6].firm_name",
+      "data_type": "json"
+    }
+  },
+  "0f03aae2628996d7aabb6c9c24d76636": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].firm_license",
+    "text": "firm_license: 0226027455",
+    "vector_index": 84,
+    "created_at": "2025-12-09T06:22:56.701343",
+    "metadata": {
+      "json_path": "companies[6].firm_license",
+      "data_type": "json"
+    }
+  },
+  "daa9faf25799b148bf805af8e3f769d7": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 85,
+    "created_at": "2025-12-09T06:22:56.707342",
+    "metadata": {
+      "json_path": "companies[6].individual_license",
+      "data_type": "json"
+    }
+  },
+  "2c06bec09e439757942d5689c7581727": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 86,
+    "created_at": "2025-12-09T06:22:56.802006",
+    "metadata": {
+      "json_path": "companies[6].license_type",
+      "data_type": "json"
+    }
+  },
+  "3ef3d4fce7f86c728a2210aca831af40": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 87,
+    "created_at": "2025-12-09T06:22:56.806794",
+    "metadata": {
+      "json_path": "companies[6].firm_type",
+      "data_type": "json"
+    }
+  },
+  "80778458b3a3efcb73b7a6e67e308fdb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].address",
+    "text": "address: 100 N BROADWAY STE 100, SAINT LOUIS, MO 63102",
+    "vector_index": 88,
+    "created_at": "2025-12-09T06:22:56.907183",
+    "metadata": {
+      "json_path": "companies[6].address",
+      "data_type": "json"
+    }
+  },
+  "6cceab01f496acb65a318be8ae73755a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].initial_cert_date",
+    "text": "initial_cert_date: 2016-11-14",
+    "vector_index": 89,
+    "created_at": "2025-12-09T06:22:57.007669",
+    "metadata": {
+      "json_path": "companies[6].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "1ebc9e821d376305d95dd5b46b0ca458": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].expiration_date",
+    "text": "expiration_date: 2026-11-30",
+    "vector_index": 90,
+    "created_at": "2025-12-09T06:22:57.098949",
+    "metadata": {
+      "json_path": "companies[6].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "896f8c637ef53c6cc8afc5a6eeac2d96": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 91,
+    "created_at": "2025-12-09T06:22:57.207704",
+    "metadata": {
+      "json_path": "companies[6].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "bd5f61786ac9ce9a3b707f980a280b21": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].gap_years",
+    "text": "gap_years: 8.5",
+    "vector_index": 92,
+    "created_at": "2025-12-09T06:22:57.311895",
+    "metadata": {
+      "json_path": "companies[6].gap_years",
+      "data_type": "json"
+    }
+  },
+  "cfea234d127be1ebac4e7d8fce82747d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].state",
+    "text": "state: MO",
+    "vector_index": 93,
+    "created_at": "2025-12-09T06:22:57.417415",
+    "metadata": {
+      "json_path": "companies[6].state",
+      "data_type": "json"
+    }
+  },
+  "83ffa3ebe0e3ab6d8eb031606bf6f4aa": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[6].notes",
+    "text": "notes: 8.5-year gap; MO address",
+    "vector_index": 94,
+    "created_at": "2025-12-09T06:22:57.604555",
+    "metadata": {
+      "json_path": "companies[6].notes",
+      "data_type": "json"
+    }
+  },
+  "92902accecd87b4a5b48108ba9252b5c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].firm_name",
+    "text": "firm_name: BURLINGTON CAPITAL PROPERTIES LLC",
+    "vector_index": 95,
+    "created_at": "2025-12-09T06:22:57.699183",
+    "metadata": {
+      "json_path": "companies[7].firm_name",
+      "data_type": "json"
+    }
+  },
+  "c3d18d09980ced20ec7d5b1942ca9086": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].firm_license",
+    "text": "firm_license: 0226028898",
+    "vector_index": 96,
+    "created_at": "2025-12-09T06:22:57.721428",
+    "metadata": {
+      "json_path": "companies[7].firm_license",
+      "data_type": "json"
+    }
+  },
+  "a68de6807a7a31c74a30ca74222c8ace": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 97,
+    "created_at": "2025-12-09T06:22:57.902504",
+    "metadata": {
+      "json_path": "companies[7].individual_license",
+      "data_type": "json"
+    }
+  },
+  "5f7c7a3b6eb2fc5745bc39fe7a4b6dd9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 98,
+    "created_at": "2025-12-09T06:22:58.003116",
+    "metadata": {
+      "json_path": "companies[7].license_type",
+      "data_type": "json"
+    }
+  },
+  "e18a2825c878b3fb5bb91e09232716fb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 99,
+    "created_at": "2025-12-09T06:22:58.216800",
+    "metadata": {
+      "json_path": "companies[7].firm_type",
+      "data_type": "json"
+    }
+  },
+  "b31ff040681caa30692b1b603e0025a9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].address",
+    "text": "address: 1004 FARNAM ST STE 400, OMAHA, NE 68102",
+    "vector_index": 100,
+    "created_at": "2025-12-09T06:22:58.304278",
+    "metadata": {
+      "json_path": "companies[7].address",
+      "data_type": "json"
+    }
+  },
+  "0073f34f6d3f4ff8fb6c11b7c30c3fce": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].initial_cert_date",
+    "text": "initial_cert_date: 2018-11-16",
+    "vector_index": 101,
+    "created_at": "2025-12-09T06:22:58.400140",
+    "metadata": {
+      "json_path": "companies[7].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "4b8be742317895cae984dea6fefd80e3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].expiration_date",
+    "text": "expiration_date: 2026-11-30",
+    "vector_index": 102,
+    "created_at": "2025-12-09T06:22:58.596883",
+    "metadata": {
+      "json_path": "companies[7].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "cdbeade86a915344be6002123007b526": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 103,
+    "created_at": "2025-12-09T06:22:58.698414",
+    "metadata": {
+      "json_path": "companies[7].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "3c4ec0cde20bdb369bb4d5f599f4899b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].gap_years",
+    "text": "gap_years: 6.5",
+    "vector_index": 104,
+    "created_at": "2025-12-09T06:22:58.712545",
+    "metadata": {
+      "json_path": "companies[7].gap_years",
+      "data_type": "json"
+    }
+  },
+  "cbce0340715cd85d247b9a027a487374": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].state",
+    "text": "state: NE",
+    "vector_index": 105,
+    "created_at": "2025-12-09T06:22:58.903130",
+    "metadata": {
+      "json_path": "companies[7].state",
+      "data_type": "json"
+    }
+  },
+  "32bd91b6bc750f2ab357a71113919e3a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[7].notes",
+    "text": "notes: 6.5-year gap; NE address",
+    "vector_index": 106,
+    "created_at": "2025-12-09T06:22:59.005902",
+    "metadata": {
+      "json_path": "companies[7].notes",
+      "data_type": "json"
+    }
+  },
+  "56f6728b18e9c70aa73c21bba6153235": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].firm_name",
+    "text": "firm_name: BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+    "vector_index": 107,
+    "created_at": "2025-12-09T06:22:59.114462",
+    "metadata": {
+      "json_path": "companies[8].firm_name",
+      "data_type": "json"
+    }
+  },
+  "9674d5c530ea963ebe621735d54d31ff": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].firm_license",
+    "text": "firm_license: 0226023854",
+    "vector_index": 108,
+    "created_at": "2025-12-09T06:22:59.307327",
+    "metadata": {
+      "json_path": "companies[8].firm_license",
+      "data_type": "json"
+    }
+  },
+  "9eb53c65ea60875c282bb2c65773be1c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 109,
+    "created_at": "2025-12-09T06:22:59.500430",
+    "metadata": {
+      "json_path": "companies[8].individual_license",
+      "data_type": "json"
+    }
+  },
+  "c0473e7bd76628f63775f408ad73815b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 110,
+    "created_at": "2025-12-09T06:22:59.607142",
+    "metadata": {
+      "json_path": "companies[8].license_type",
+      "data_type": "json"
+    }
+  },
+  "d42ec1f23090133f52791ddb75b2b263": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 111,
+    "created_at": "2025-12-09T06:22:59.700939",
+    "metadata": {
+      "json_path": "companies[8].firm_type",
+      "data_type": "json"
+    }
+  },
+  "1ff7ea1ef8dc502d3a0d2f713524ae3d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].address",
+    "text": "address: 5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+    "vector_index": 112,
+    "created_at": "2025-12-09T06:22:59.905124",
+    "metadata": {
+      "json_path": "companies[8].address",
+      "data_type": "json"
+    }
+  },
+  "ba3d4d0e9449ae50ad1172ee7f9b5634": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].initial_cert_date",
+    "text": "initial_cert_date: 2012-04-27",
+    "vector_index": 113,
+    "created_at": "2025-12-09T06:23:00.010749",
+    "metadata": {
+      "json_path": "companies[8].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "6a222a7f064f3f21a8c9ead0461b2e07": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].expiration_date",
+    "text": "expiration_date: 2026-04-30",
+    "vector_index": 114,
+    "created_at": "2025-12-09T06:23:00.206432",
+    "metadata": {
+      "json_path": "companies[8].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "76a946e4edb6c8a01208f12464d34948": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 115,
+    "created_at": "2025-12-09T06:23:00.307830",
+    "metadata": {
+      "json_path": "companies[8].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "c4635974d3d1040e25cdf99942fcc661": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].gap_years",
+    "text": "gap_years: 13",
+    "vector_index": 116,
+    "created_at": "2025-12-09T06:23:00.408549",
+    "metadata": {
+      "json_path": "companies[8].gap_years",
+      "data_type": "json"
+    }
+  },
+  "fa6051ccce5942efe65ed3f5b7f8bb1f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].state",
+    "text": "state: TX",
+    "vector_index": 117,
+    "created_at": "2025-12-09T06:23:00.600162",
+    "metadata": {
+      "json_path": "companies[8].state",
+      "data_type": "json"
+    }
+  },
+  "65148da6b33d6941e985e593564a8a5a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[8].notes",
+    "text": "notes: 13-year gap; SAME TX ADDRESS as Skidmore",
+    "vector_index": 118,
+    "created_at": "2025-12-09T06:23:00.707146",
+    "metadata": {
+      "json_path": "companies[8].notes",
+      "data_type": "json"
+    }
+  },
+  "bd3afcf792bbed6c4ef4d3c0bebc9b12": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].firm_name",
+    "text": "firm_name: CAPREIT RESIDENTIAL MANAGEMENT LLC",
+    "vector_index": 119,
+    "created_at": "2025-12-09T06:23:00.798470",
+    "metadata": {
+      "json_path": "companies[9].firm_name",
+      "data_type": "json"
+    }
+  },
+  "7426e5fb2b2c2c387d6e0ec7be7cf7e3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].firm_license",
+    "text": "firm_license: 0226038643",
+    "vector_index": 120,
+    "created_at": "2025-12-09T06:23:00.914257",
+    "metadata": {
+      "json_path": "companies[9].firm_license",
+      "data_type": "json"
+    }
+  },
+  "541ba84afc67f8e350b8e3362fd0f419": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 121,
+    "created_at": "2025-12-09T06:23:01.113689",
+    "metadata": {
+      "json_path": "companies[9].individual_license",
+      "data_type": "json"
+    }
+  },
+  "2605a516fbf70bf0b770562a03972c9e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 122,
+    "created_at": "2025-12-09T06:23:01.216048",
+    "metadata": {
+      "json_path": "companies[9].license_type",
+      "data_type": "json"
+    }
+  },
+  "3a6b36a6a5bb9b7284319ff5a2cc7264": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 123,
+    "created_at": "2025-12-09T06:23:01.400494",
+    "metadata": {
+      "json_path": "companies[9].firm_type",
+      "data_type": "json"
+    }
+  },
+  "0b6b225b21b54adf6dd704588fe54798": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].address",
+    "text": "address: 5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+    "vector_index": 124,
+    "created_at": "2025-12-09T06:23:01.506217",
+    "metadata": {
+      "json_path": "companies[9].address",
+      "data_type": "json"
+    }
+  },
+  "f60f2a7d245e63b06b455ccce3a191c1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].initial_cert_date",
+    "text": "initial_cert_date: 2025-07-24",
+    "vector_index": 125,
+    "created_at": "2025-12-09T06:23:01.599197",
+    "metadata": {
+      "json_path": "companies[9].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "5ba9eb7d1a613ba5df9dab51ac3c71bd": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].expiration_date",
+    "text": "expiration_date: 2027-07-31",
+    "vector_index": 126,
+    "created_at": "2025-12-09T06:23:01.705091",
+    "metadata": {
+      "json_path": "companies[9].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "7d88fa28ab92f06479130cfc472692fe": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 127,
+    "created_at": "2025-12-09T06:23:01.899779",
+    "metadata": {
+      "json_path": "companies[9].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "d20d6ee1465f406af97c6981a7c439b0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].gap_years",
+    "text": "gap_years: 0",
+    "vector_index": 128,
+    "created_at": "2025-12-09T06:23:01.997874",
+    "metadata": {
+      "json_path": "companies[9].gap_years",
+      "data_type": "json"
+    }
+  },
+  "63e9244e9b48293f707fd7a24e4a0781": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].state",
+    "text": "state: TX",
+    "vector_index": 129,
+    "created_at": "2025-12-09T06:23:02.110618",
+    "metadata": {
+      "json_path": "companies[9].state",
+      "data_type": "json"
+    }
+  },
+  "24ba2501c0a9ca86c856d0270b4a7af8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[9].notes",
+    "text": "notes: Licensed 2 months AFTER Skidmore; SAME TX ADDRESS as Skidmore",
+    "vector_index": 130,
+    "created_at": "2025-12-09T06:23:02.304372",
+    "metadata": {
+      "json_path": "companies[9].notes",
+      "data_type": "json"
+    }
+  },
+  "79dbdc94eb0bfa3d2522615a5eac10fc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].firm_name",
+    "text": "firm_name: EDGEWOOD MANAGEMENT CORPORATION",
+    "vector_index": 131,
+    "created_at": "2025-12-09T06:23:02.398347",
+    "metadata": {
+      "json_path": "companies[10].firm_name",
+      "data_type": "json"
+    }
+  },
+  "3ea4e32d60f1a89ac2682ccc08322a9a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].firm_license",
+    "text": "firm_license: 0226011870",
+    "vector_index": 132,
+    "created_at": "2025-12-09T06:23:02.498916",
+    "metadata": {
+      "json_path": "companies[10].firm_license",
+      "data_type": "json"
+    }
+  },
+  "c21912d6e135ea599e04d20ae3b4814e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 133,
+    "created_at": "2025-12-09T06:23:02.603360",
+    "metadata": {
+      "json_path": "companies[10].individual_license",
+      "data_type": "json"
+    }
+  },
+  "fab6ac85236ce625dc1ab3b14a3ad931": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 134,
+    "created_at": "2025-12-09T06:23:02.699519",
+    "metadata": {
+      "json_path": "companies[10].license_type",
+      "data_type": "json"
+    }
+  },
+  "d24f8dd9e43f7820613ae4f3675a5d06": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 135,
+    "created_at": "2025-12-09T06:23:02.810430",
+    "metadata": {
+      "json_path": "companies[10].firm_type",
+      "data_type": "json"
+    }
+  },
+  "8d25ca4fe5b95dbb832b0de6bc235ebb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].address",
+    "text": "address: 9711 WASHINGTON BLVD STE 200, GAITHERSBURG, MD 20878",
+    "vector_index": 136,
+    "created_at": "2025-12-09T06:23:02.996569",
+    "metadata": {
+      "json_path": "companies[10].address",
+      "data_type": "json"
+    }
+  },
+  "1cea88b322cba9f1f628101d565eef69": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].dba_name",
+    "text": "dba_name: PRATUM COMPANIES-MANAGEMENT AND ADVISORY SERVICES",
+    "vector_index": 137,
+    "created_at": "2025-12-09T06:23:03.203659",
+    "metadata": {
+      "json_path": "companies[10].dba_name",
+      "data_type": "json"
+    }
+  },
+  "764df3e75cae36c4b719778e53dcaa2a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 138,
+    "created_at": "2025-12-09T06:23:03.424957",
+    "metadata": {
+      "json_path": "companies[10].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "76d2f65aac906ea63c146885b9335723": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].expiration_date",
+    "text": "expiration_date: 2027-08-31",
+    "vector_index": 139,
+    "created_at": "2025-12-09T06:23:03.604087",
+    "metadata": {
+      "json_path": "companies[10].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "f1f74b44b8b95ed2e52ec7914f70647e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 140,
+    "created_at": "2025-12-09T06:23:03.707397",
+    "metadata": {
+      "json_path": "companies[10].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "5930e68ae84379cf768a007a478a456c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 141,
+    "created_at": "2025-12-09T06:23:03.799042",
+    "metadata": {
+      "json_path": "companies[10].gap_years",
+      "data_type": "json"
+    }
+  },
+  "87c8aa57e3630e6c05d010a8613c2c5b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].state",
+    "text": "state: MD",
+    "vector_index": 142,
+    "created_at": "2025-12-09T06:23:03.994693",
+    "metadata": {
+      "json_path": "companies[10].state",
+      "data_type": "json"
+    }
+  },
+  "989557319428b7c201226578367a2903": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].notes",
+    "text": "notes: Initial Cert Date NOT DISPLAYED on DPOR record (field not shown); MD address; Verified via DPOR search 2025-12-08",
+    "vector_index": 143,
+    "created_at": "2025-12-09T06:23:04.114910",
+    "metadata": {
+      "json_path": "companies[10].notes",
+      "data_type": "json"
+    }
+  },
+  "a19a357279ecb1a19cd70a58891bd7fe": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].needs_verification",
+    "text": "needs_verification: False",
+    "vector_index": 144,
+    "created_at": "2025-12-09T06:23:04.199300",
+    "metadata": {
+      "json_path": "companies[10].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "3028b09ce10517b72f6cb7ba30539268": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[10].verification_date",
+    "text": "verification_date: 2025-12-08",
+    "vector_index": 145,
+    "created_at": "2025-12-09T06:23:04.223419",
+    "metadata": {
+      "json_path": "companies[10].verification_date",
+      "data_type": "json"
+    }
+  },
+  "044cb1e94ed3b04b5f244a05608f5338": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].firm_name",
+    "text": "firm_name: MIDDLEBURG MANAGEMENT LLC",
+    "vector_index": 146,
+    "created_at": "2025-12-09T06:23:04.307967",
+    "metadata": {
+      "json_path": "companies[11].firm_name",
+      "data_type": "json"
+    }
+  },
+  "4bc90f543b2c777027add986cf369b15": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].firm_license",
+    "text": "firm_license: 0226038324",
+    "vector_index": 147,
+    "created_at": "2025-12-09T06:23:04.507638",
+    "metadata": {
+      "json_path": "companies[11].firm_license",
+      "data_type": "json"
+    }
+  },
+  "17850ba9f8d05e597cbd20dfa97bd2e7": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 148,
+    "created_at": "2025-12-09T06:23:04.697833",
+    "metadata": {
+      "json_path": "companies[11].individual_license",
+      "data_type": "json"
+    }
+  },
+  "225dd8865f92e02efd0bcf6b83d30f13": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 149,
+    "created_at": "2025-12-09T06:23:04.800424",
+    "metadata": {
+      "json_path": "companies[11].license_type",
+      "data_type": "json"
+    }
+  },
+  "6feee8a7f72a02134e1856a71158d0d3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 150,
+    "created_at": "2025-12-09T06:23:04.894710",
+    "metadata": {
+      "json_path": "companies[11].firm_type",
+      "data_type": "json"
+    }
+  },
+  "66dadffd45b3fdff21fc109f587a65ce": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].address",
+    "text": "address: None",
+    "vector_index": 151,
+    "created_at": "2025-12-09T06:23:04.916165",
+    "metadata": {
+      "json_path": "companies[11].address",
+      "data_type": "json"
+    }
+  },
+  "dd97c75f1fa4a3e39731ab78593f589a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 152,
+    "created_at": "2025-12-09T06:23:05.124832",
+    "metadata": {
+      "json_path": "companies[11].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "3d9390ab1460ad0f4ae1dbd65f620780": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 153,
+    "created_at": "2025-12-09T06:23:05.311302",
+    "metadata": {
+      "json_path": "companies[11].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "5de14b2d31f00599b402f51c4295f9cf": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 154,
+    "created_at": "2025-12-09T06:23:05.406490",
+    "metadata": {
+      "json_path": "companies[11].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "48beb5fd31e82fb5c16e18d671eb9323": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 155,
+    "created_at": "2025-12-09T06:23:05.612879",
+    "metadata": {
+      "json_path": "companies[11].gap_years",
+      "data_type": "json"
+    }
+  },
+  "57c90577d530a3d029f7e38f1d6c3ec9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].state",
+    "text": "state: VA",
+    "vector_index": 156,
+    "created_at": "2025-12-09T06:23:05.798050",
+    "metadata": {
+      "json_path": "companies[11].state",
+      "data_type": "json"
+    }
+  },
+  "14f295c921034c12e2200a6b6e197e43": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 157,
+    "created_at": "2025-12-09T06:23:05.909241",
+    "metadata": {
+      "json_path": "companies[11].notes",
+      "data_type": "json"
+    }
+  },
+  "d3edcf267646d599999fed68c99a4b3a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[11].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 158,
+    "created_at": "2025-12-09T06:23:06.002567",
+    "metadata": {
+      "json_path": "companies[11].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "e178e1a59f7c8bdbd3ae9f5b092ae3f7": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].firm_name",
+    "text": "firm_name: CAPSTONE ON-CAMPUS MANAGEMENT LLC",
+    "vector_index": 159,
+    "created_at": "2025-12-09T06:23:06.107997",
+    "metadata": {
+      "json_path": "companies[12].firm_name",
+      "data_type": "json"
+    }
+  },
+  "0bb680d5fd1df0494b5553114dee698a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].firm_license",
+    "text": "firm_license: 0226036814",
+    "vector_index": 160,
+    "created_at": "2025-12-09T06:23:06.297497",
+    "metadata": {
+      "json_path": "companies[12].firm_license",
+      "data_type": "json"
+    }
+  },
+  "a9059fe28c61adbb3fbbe27f40996cca": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 161,
+    "created_at": "2025-12-09T06:23:06.397498",
+    "metadata": {
+      "json_path": "companies[12].individual_license",
+      "data_type": "json"
+    }
+  },
+  "ae3437c10062241ada7763531fab062d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 162,
+    "created_at": "2025-12-09T06:23:06.494805",
+    "metadata": {
+      "json_path": "companies[12].license_type",
+      "data_type": "json"
+    }
+  },
+  "4f4a02d9e3630480dd741eb5a6e40398": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 163,
+    "created_at": "2025-12-09T06:23:06.611424",
+    "metadata": {
+      "json_path": "companies[12].firm_type",
+      "data_type": "json"
+    }
+  },
+  "76e739520d39ab401d21a6514774feb6": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].address",
+    "text": "address: None",
+    "vector_index": 164,
+    "created_at": "2025-12-09T06:23:06.718083",
+    "metadata": {
+      "json_path": "companies[12].address",
+      "data_type": "json"
+    }
+  },
+  "b883d69129c5f798a10ed30ef811c1a0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 165,
+    "created_at": "2025-12-09T06:23:06.896963",
+    "metadata": {
+      "json_path": "companies[12].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "c9c7e11e674fd8e37226db93dfbe763d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 166,
+    "created_at": "2025-12-09T06:23:06.998845",
+    "metadata": {
+      "json_path": "companies[12].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "220464f478c15009ab51e204773a8723": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 167,
+    "created_at": "2025-12-09T06:23:07.117439",
+    "metadata": {
+      "json_path": "companies[12].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "de0b5200d700117079ee49d0cb584cef": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 168,
+    "created_at": "2025-12-09T06:23:07.206671",
+    "metadata": {
+      "json_path": "companies[12].gap_years",
+      "data_type": "json"
+    }
+  },
+  "d2ad786c341c8902a19b5b25cc160996": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].state",
+    "text": "state: VA",
+    "vector_index": 169,
+    "created_at": "2025-12-09T06:23:07.300566",
+    "metadata": {
+      "json_path": "companies[12].state",
+      "data_type": "json"
+    }
+  },
+  "11a9f150b58445e944841695f0f9531d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 170,
+    "created_at": "2025-12-09T06:23:07.403474",
+    "metadata": {
+      "json_path": "companies[12].notes",
+      "data_type": "json"
+    }
+  },
+  "a13133c875846e80d9f223930f8dbf2c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[12].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 171,
+    "created_at": "2025-12-09T06:23:07.504931",
+    "metadata": {
+      "json_path": "companies[12].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "9710ed24f782c6e1b0ad4333fedeeff4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].firm_name",
+    "text": "firm_name: CORE CAMPUS MANAGEMENT LLC",
+    "vector_index": 172,
+    "created_at": "2025-12-09T06:23:07.608662",
+    "metadata": {
+      "json_path": "companies[13].firm_name",
+      "data_type": "json"
+    }
+  },
+  "1bd57a3d45a8cff555b340ef5bdb3d0b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].firm_license",
+    "text": "firm_license: 0226036650",
+    "vector_index": 173,
+    "created_at": "2025-12-09T06:23:07.699364",
+    "metadata": {
+      "json_path": "companies[13].firm_license",
+      "data_type": "json"
+    }
+  },
+  "4dccd3decbeb8178c6c01b8dd2008911": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 174,
+    "created_at": "2025-12-09T06:23:07.896769",
+    "metadata": {
+      "json_path": "companies[13].individual_license",
+      "data_type": "json"
+    }
+  },
+  "294de84b6f5cc88d3a77c9b638c05c9b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 175,
+    "created_at": "2025-12-09T06:23:07.996124",
+    "metadata": {
+      "json_path": "companies[13].license_type",
+      "data_type": "json"
+    }
+  },
+  "e9c0119e17b043ba2a813804e90dd37b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 176,
+    "created_at": "2025-12-09T06:23:08.204009",
+    "metadata": {
+      "json_path": "companies[13].firm_type",
+      "data_type": "json"
+    }
+  },
+  "7de4e4845fe3bd95c0c3b9c0fd834c2a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].address",
+    "text": "address: None",
+    "vector_index": 177,
+    "created_at": "2025-12-09T06:23:08.398557",
+    "metadata": {
+      "json_path": "companies[13].address",
+      "data_type": "json"
+    }
+  },
+  "b4b8579ce6654113a6a6b0fa5a2e6215": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 178,
+    "created_at": "2025-12-09T06:23:08.407360",
+    "metadata": {
+      "json_path": "companies[13].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "4e4cae0591e6f76f5db2ec9dcb6dd37c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 179,
+    "created_at": "2025-12-09T06:23:08.518999",
+    "metadata": {
+      "json_path": "companies[13].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "31aa103b798a68f7354f642b4c73aa6a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 180,
+    "created_at": "2025-12-09T06:23:08.697738",
+    "metadata": {
+      "json_path": "companies[13].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "17e91b275bba8498586c2f8d0fae046f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 181,
+    "created_at": "2025-12-09T06:23:08.797060",
+    "metadata": {
+      "json_path": "companies[13].gap_years",
+      "data_type": "json"
+    }
+  },
+  "4d3c0848b9cc0229562f9675116616c8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].state",
+    "text": "state: VA",
+    "vector_index": 182,
+    "created_at": "2025-12-09T06:23:08.805916",
+    "metadata": {
+      "json_path": "companies[13].state",
+      "data_type": "json"
+    }
+  },
+  "665070015a8511c39bf18fc493b3927c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 183,
+    "created_at": "2025-12-09T06:23:08.906249",
+    "metadata": {
+      "json_path": "companies[13].notes",
+      "data_type": "json"
+    }
+  },
+  "74680acd65f13c924c392aeddebd06c0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[13].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 184,
+    "created_at": "2025-12-09T06:23:09.105389",
+    "metadata": {
+      "json_path": "companies[13].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "4f0a158625b44b6a250af27942704718": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].firm_name",
+    "text": "firm_name: DRHR PROPERTY MANAGEMENT INC",
+    "vector_index": 185,
+    "created_at": "2025-12-09T06:23:09.204182",
+    "metadata": {
+      "json_path": "companies[14].firm_name",
+      "data_type": "json"
+    }
+  },
+  "a984daf3e5e537b650edf97836a28114": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].firm_license",
+    "text": "firm_license: 0226038008",
+    "vector_index": 186,
+    "created_at": "2025-12-09T06:23:09.305741",
+    "metadata": {
+      "json_path": "companies[14].firm_license",
+      "data_type": "json"
+    }
+  },
+  "393367d80e9f7d3e8660067d2cda27a6": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 187,
+    "created_at": "2025-12-09T06:23:09.507398",
+    "metadata": {
+      "json_path": "companies[14].individual_license",
+      "data_type": "json"
+    }
+  },
+  "7b7840d169d17c548212f126c608c3c3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 188,
+    "created_at": "2025-12-09T06:23:09.711275",
+    "metadata": {
+      "json_path": "companies[14].license_type",
+      "data_type": "json"
+    }
+  },
+  "e0f010a37ce2e4d6d6db39ca318f3b46": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 189,
+    "created_at": "2025-12-09T06:23:09.813307",
+    "metadata": {
+      "json_path": "companies[14].firm_type",
+      "data_type": "json"
+    }
+  },
+  "8f23cf093a9b4bbd69ac726be28ada37": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].address",
+    "text": "address: None",
+    "vector_index": 190,
+    "created_at": "2025-12-09T06:23:09.906756",
+    "metadata": {
+      "json_path": "companies[14].address",
+      "data_type": "json"
+    }
+  },
+  "d7c1cf6a8b3546cd55edf7a9e2a8b472": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 191,
+    "created_at": "2025-12-09T06:23:10.101205",
+    "metadata": {
+      "json_path": "companies[14].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "738a6b9e3f22899458b773f6bc5a23fd": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 192,
+    "created_at": "2025-12-09T06:23:10.215286",
+    "metadata": {
+      "json_path": "companies[14].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "e549503ddcb2f4c4966af5c404e0a85d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 193,
+    "created_at": "2025-12-09T06:23:10.403871",
+    "metadata": {
+      "json_path": "companies[14].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "f858a86a8c9a7ba37e0e7e7e1edcc1cb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 194,
+    "created_at": "2025-12-09T06:23:10.508472",
+    "metadata": {
+      "json_path": "companies[14].gap_years",
+      "data_type": "json"
+    }
+  },
+  "71676030336ff19422502e47d1afc13c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].state",
+    "text": "state: VA",
+    "vector_index": 195,
+    "created_at": "2025-12-09T06:23:10.699008",
+    "metadata": {
+      "json_path": "companies[14].state",
+      "data_type": "json"
+    }
+  },
+  "690a0100a34879a8bea261ea733d5bba": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 196,
+    "created_at": "2025-12-09T06:23:10.823135",
+    "metadata": {
+      "json_path": "companies[14].notes",
+      "data_type": "json"
+    }
+  },
+  "713dcc8aa302d413aeb206ca8b38b324": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[14].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 197,
+    "created_at": "2025-12-09T06:23:10.997511",
+    "metadata": {
+      "json_path": "companies[14].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "ebf3e0781abbc1b4f147d4abea8cdb80": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].firm_name",
+    "text": "firm_name: ENVOLVE CLIENT SERVICES VA LLC",
+    "vector_index": 198,
+    "created_at": "2025-12-09T06:23:11.107866",
+    "metadata": {
+      "json_path": "companies[15].firm_name",
+      "data_type": "json"
+    }
+  },
+  "a06c1cd38e1a9c3e698df677e55e1350": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].firm_license",
+    "text": "firm_license: 0226036708",
+    "vector_index": 199,
+    "created_at": "2025-12-09T06:23:11.202731",
+    "metadata": {
+      "json_path": "companies[15].firm_license",
+      "data_type": "json"
+    }
+  },
+  "c2445346f37dba735227bfd164959f1f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 200,
+    "created_at": "2025-12-09T06:23:11.231467",
+    "metadata": {
+      "json_path": "companies[15].individual_license",
+      "data_type": "json"
+    }
+  },
+  "d5108b84c67540074cf70626dce487f8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 201,
+    "created_at": "2025-12-09T06:23:11.397734",
+    "metadata": {
+      "json_path": "companies[15].license_type",
+      "data_type": "json"
+    }
+  },
+  "9808b6efc50e13f41146b61716286c2b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 202,
+    "created_at": "2025-12-09T06:23:11.406052",
+    "metadata": {
+      "json_path": "companies[15].firm_type",
+      "data_type": "json"
+    }
+  },
+  "53847c316abb295cfe1d1123d0aeabc1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].address",
+    "text": "address: None",
+    "vector_index": 203,
+    "created_at": "2025-12-09T06:23:11.497696",
+    "metadata": {
+      "json_path": "companies[15].address",
+      "data_type": "json"
+    }
+  },
+  "4102c24d61264f332a1d4ef185ac8b7f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 204,
+    "created_at": "2025-12-09T06:23:11.596338",
+    "metadata": {
+      "json_path": "companies[15].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "46829edc229d43bda0db16c28619dddf": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 205,
+    "created_at": "2025-12-09T06:23:11.698515",
+    "metadata": {
+      "json_path": "companies[15].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "c2579f065dc7f281831ebe57e2935944": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 206,
+    "created_at": "2025-12-09T06:23:11.808209",
+    "metadata": {
+      "json_path": "companies[15].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "5922da63368f8b519d21666c731e721a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 207,
+    "created_at": "2025-12-09T06:23:11.995214",
+    "metadata": {
+      "json_path": "companies[15].gap_years",
+      "data_type": "json"
+    }
+  },
+  "a35a4d6a1b9407616d0e96f95d44c81d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].state",
+    "text": "state: VA",
+    "vector_index": 208,
+    "created_at": "2025-12-09T06:23:12.009063",
+    "metadata": {
+      "json_path": "companies[15].state",
+      "data_type": "json"
+    }
+  },
+  "eec3a5897d0481b2475a363b9e08b394": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 209,
+    "created_at": "2025-12-09T06:23:12.100387",
+    "metadata": {
+      "json_path": "companies[15].notes",
+      "data_type": "json"
+    }
+  },
+  "24fcd6221621211fb8cfb5d5929c15ac": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[15].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 210,
+    "created_at": "2025-12-09T06:23:12.106710",
+    "metadata": {
+      "json_path": "companies[15].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "e31fe06d36638ae4ec6848a015d266b2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].firm_name",
+    "text": "firm_name: EVERGREEN REAL ESTATE SERVICES LLC",
+    "vector_index": 211,
+    "created_at": "2025-12-09T06:23:12.206447",
+    "metadata": {
+      "json_path": "companies[16].firm_name",
+      "data_type": "json"
+    }
+  },
+  "ffefe29ec01a49564d9ef56de411b44f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].firm_license",
+    "text": "firm_license: 0226035195",
+    "vector_index": 212,
+    "created_at": "2025-12-09T06:23:12.303786",
+    "metadata": {
+      "json_path": "companies[16].firm_license",
+      "data_type": "json"
+    }
+  },
+  "ec64c49855625346cf2e03f5e2a36142": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 213,
+    "created_at": "2025-12-09T06:23:12.407352",
+    "metadata": {
+      "json_path": "companies[16].individual_license",
+      "data_type": "json"
+    }
+  },
+  "baa37115420184b456d8e70431a6526f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 214,
+    "created_at": "2025-12-09T06:23:12.421225",
+    "metadata": {
+      "json_path": "companies[16].license_type",
+      "data_type": "json"
+    }
+  },
+  "94a1b585e9fc0da8c8797597a5bea449": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 215,
+    "created_at": "2025-12-09T06:23:12.499691",
+    "metadata": {
+      "json_path": "companies[16].firm_type",
+      "data_type": "json"
+    }
+  },
+  "9cdb035e9cde16ea7e84fa2a9f30fc16": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].address",
+    "text": "address: None",
+    "vector_index": 216,
+    "created_at": "2025-12-09T06:23:12.504904",
+    "metadata": {
+      "json_path": "companies[16].address",
+      "data_type": "json"
+    }
+  },
+  "ab4ce7735a84f60f2ba2fff4abfabadb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 217,
+    "created_at": "2025-12-09T06:23:12.613826",
+    "metadata": {
+      "json_path": "companies[16].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "03d2ee28de9c56e1dc2589639ebec287": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 218,
+    "created_at": "2025-12-09T06:23:12.723533",
+    "metadata": {
+      "json_path": "companies[16].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "68ffb46017ab69432a189c124d0fd62a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 219,
+    "created_at": "2025-12-09T06:23:12.912172",
+    "metadata": {
+      "json_path": "companies[16].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "67dcc51e1115b08816ec39bddc37f81a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 220,
+    "created_at": "2025-12-09T06:23:12.998423",
+    "metadata": {
+      "json_path": "companies[16].gap_years",
+      "data_type": "json"
+    }
+  },
+  "0ec4fcf043c60454f76ecb25015da96f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].state",
+    "text": "state: VA",
+    "vector_index": 221,
+    "created_at": "2025-12-09T06:23:13.115837",
+    "metadata": {
+      "json_path": "companies[16].state",
+      "data_type": "json"
+    }
+  },
+  "00b5e838c959063052feeaf636402fab": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 222,
+    "created_at": "2025-12-09T06:23:13.303285",
+    "metadata": {
+      "json_path": "companies[16].notes",
+      "data_type": "json"
+    }
+  },
+  "3dfc36a2781584efcd107403fc0041a3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[16].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 223,
+    "created_at": "2025-12-09T06:23:13.311782",
+    "metadata": {
+      "json_path": "companies[16].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "856185d87f0a39966a609c224cc3048b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].firm_name",
+    "text": "firm_name: FAIRMARK PROPERTIES OF VIRGINIA LP",
+    "vector_index": 224,
+    "created_at": "2025-12-09T06:23:13.400022",
+    "metadata": {
+      "json_path": "companies[17].firm_name",
+      "data_type": "json"
+    }
+  },
+  "1e03032658c58383a6e0294752f7656f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].firm_license",
+    "text": "firm_license: 0226024621",
+    "vector_index": 225,
+    "created_at": "2025-12-09T06:23:13.503964",
+    "metadata": {
+      "json_path": "companies[17].firm_license",
+      "data_type": "json"
+    }
+  },
+  "3629f14603eebbbb11252e77fe520769": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 226,
+    "created_at": "2025-12-09T06:23:13.531812",
+    "metadata": {
+      "json_path": "companies[17].individual_license",
+      "data_type": "json"
+    }
+  },
+  "4938037ee97ac9da1eb8d815f5e0dfd4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 227,
+    "created_at": "2025-12-09T06:23:13.695574",
+    "metadata": {
+      "json_path": "companies[17].license_type",
+      "data_type": "json"
+    }
+  },
+  "3092654d0aa87082834697412f328ffc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].firm_type",
+    "text": "firm_type: Limited Partnership",
+    "vector_index": 228,
+    "created_at": "2025-12-09T06:23:13.707249",
+    "metadata": {
+      "json_path": "companies[17].firm_type",
+      "data_type": "json"
+    }
+  },
+  "d171c52a7e5c7a97b39a382efddde8e8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].address",
+    "text": "address: None",
+    "vector_index": 229,
+    "created_at": "2025-12-09T06:23:13.802144",
+    "metadata": {
+      "json_path": "companies[17].address",
+      "data_type": "json"
+    }
+  },
+  "4b294ddd9b5b467177214c4fbf582202": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 230,
+    "created_at": "2025-12-09T06:23:13.923650",
+    "metadata": {
+      "json_path": "companies[17].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "aa2eab20bf0409c298d74671e3ef2472": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 231,
+    "created_at": "2025-12-09T06:23:13.998961",
+    "metadata": {
+      "json_path": "companies[17].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "6a9053b803648ca719523351f9e79add": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 232,
+    "created_at": "2025-12-09T06:23:14.099234",
+    "metadata": {
+      "json_path": "companies[17].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "05f80b03875526283d5b9408b28c31a9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 233,
+    "created_at": "2025-12-09T06:23:14.107364",
+    "metadata": {
+      "json_path": "companies[17].gap_years",
+      "data_type": "json"
+    }
+  },
+  "37ee567aa49be75cebb65c800f644daa": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].state",
+    "text": "state: VA",
+    "vector_index": 234,
+    "created_at": "2025-12-09T06:23:14.296257",
+    "metadata": {
+      "json_path": "companies[17].state",
+      "data_type": "json"
+    }
+  },
+  "27950fd754e4e645f5e841e29d80ddf2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 235,
+    "created_at": "2025-12-09T06:23:14.398195",
+    "metadata": {
+      "json_path": "companies[17].notes",
+      "data_type": "json"
+    }
+  },
+  "83035b26c2044fa06576fdd272718c42": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[17].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 236,
+    "created_at": "2025-12-09T06:23:14.404929",
+    "metadata": {
+      "json_path": "companies[17].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "7b40d8dcc1213cfb6c2c35818be3e528": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].firm_name",
+    "text": "firm_name: FCA MANAGEMENT LLC",
+    "vector_index": 237,
+    "created_at": "2025-12-09T06:23:14.495220",
+    "metadata": {
+      "json_path": "companies[18].firm_name",
+      "data_type": "json"
+    }
+  },
+  "fd2180494a7f463d9429e2e04ec18847": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].firm_license",
+    "text": "firm_license: 0226038078",
+    "vector_index": 238,
+    "created_at": "2025-12-09T06:23:14.513240",
+    "metadata": {
+      "json_path": "companies[18].firm_license",
+      "data_type": "json"
+    }
+  },
+  "61d25deb1a95f8a7cf8c594f0d6b5ff0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 239,
+    "created_at": "2025-12-09T06:23:14.612128",
+    "metadata": {
+      "json_path": "companies[18].individual_license",
+      "data_type": "json"
+    }
+  },
+  "6de233df91760f688df7ca1cf8b5b559": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 240,
+    "created_at": "2025-12-09T06:23:14.700477",
+    "metadata": {
+      "json_path": "companies[18].license_type",
+      "data_type": "json"
+    }
+  },
+  "f71ff21b89ad88711b4896f12f590ba7": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 241,
+    "created_at": "2025-12-09T06:23:14.898035",
+    "metadata": {
+      "json_path": "companies[18].firm_type",
+      "data_type": "json"
+    }
+  },
+  "4f3e6f7f9d8f03733d69b8b6b1bb6d22": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].address",
+    "text": "address: None",
+    "vector_index": 242,
+    "created_at": "2025-12-09T06:23:14.997307",
+    "metadata": {
+      "json_path": "companies[18].address",
+      "data_type": "json"
+    }
+  },
+  "3f875070bebcf082e5b580b1d5ae0416": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 243,
+    "created_at": "2025-12-09T06:23:15.005140",
+    "metadata": {
+      "json_path": "companies[18].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "fa23ded87075b105dc83d7aaa7999cc7": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 244,
+    "created_at": "2025-12-09T06:23:15.032366",
+    "metadata": {
+      "json_path": "companies[18].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "1cdd11c94f554ce38a95a0012c20d2c1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 245,
+    "created_at": "2025-12-09T06:23:15.109650",
+    "metadata": {
+      "json_path": "companies[18].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "3781bd367b9b3bb0913875fe5f50b2b4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 246,
+    "created_at": "2025-12-09T06:23:15.203509",
+    "metadata": {
+      "json_path": "companies[18].gap_years",
+      "data_type": "json"
+    }
+  },
+  "ab1b58750257fcbc3210138d1c3d5c0b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].state",
+    "text": "state: VA",
+    "vector_index": 247,
+    "created_at": "2025-12-09T06:23:15.295189",
+    "metadata": {
+      "json_path": "companies[18].state",
+      "data_type": "json"
+    }
+  },
+  "7b9ef52a884a64985f95b12f2b7c37dc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 248,
+    "created_at": "2025-12-09T06:23:15.310283",
+    "metadata": {
+      "json_path": "companies[18].notes",
+      "data_type": "json"
+    }
+  },
+  "550e258ec26bd5007d1a44b7d565ff1f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[18].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 249,
+    "created_at": "2025-12-09T06:23:15.411133",
+    "metadata": {
+      "json_path": "companies[18].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "a4a8e00daf6e247f5bc4dce217ad3d0b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].firm_name",
+    "text": "firm_name: FF PROPERTIES II LP",
+    "vector_index": 250,
+    "created_at": "2025-12-09T06:23:15.507884",
+    "metadata": {
+      "json_path": "companies[19].firm_name",
+      "data_type": "json"
+    }
+  },
+  "ee0e1387138c0f02093606d8669b04cb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].firm_license",
+    "text": "firm_license: 0226031583",
+    "vector_index": 251,
+    "created_at": "2025-12-09T06:23:15.515001",
+    "metadata": {
+      "json_path": "companies[19].firm_license",
+      "data_type": "json"
+    }
+  },
+  "ab4dbe1edd61fc5faf61599ee4486a06": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 252,
+    "created_at": "2025-12-09T06:23:15.613799",
+    "metadata": {
+      "json_path": "companies[19].individual_license",
+      "data_type": "json"
+    }
+  },
+  "ab593648743104da86cb85d2a9d4e047": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 253,
+    "created_at": "2025-12-09T06:23:15.809912",
+    "metadata": {
+      "json_path": "companies[19].license_type",
+      "data_type": "json"
+    }
+  },
+  "c8e50be1c95db7cdf2fd394ee33607df": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].firm_type",
+    "text": "firm_type: Limited Partnership",
+    "vector_index": 254,
+    "created_at": "2025-12-09T06:23:15.995833",
+    "metadata": {
+      "json_path": "companies[19].firm_type",
+      "data_type": "json"
+    }
+  },
+  "e22c3fbe78e909b2a2495cdc48c6d87b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].address",
+    "text": "address: None",
+    "vector_index": 255,
+    "created_at": "2025-12-09T06:23:16.003531",
+    "metadata": {
+      "json_path": "companies[19].address",
+      "data_type": "json"
+    }
+  },
+  "75492528b064788ddaf6b2abdb8f6436": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 256,
+    "created_at": "2025-12-09T06:23:16.094186",
+    "metadata": {
+      "json_path": "companies[19].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "ea82754c79bf4a3f9e1570fb2d5095c8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 257,
+    "created_at": "2025-12-09T06:23:16.101375",
+    "metadata": {
+      "json_path": "companies[19].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "2b5726f93900946d4e0d5ba6acf5fff3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 258,
+    "created_at": "2025-12-09T06:23:16.207510",
+    "metadata": {
+      "json_path": "companies[19].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "a7198c51c70b334bda8388bb511ced02": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 259,
+    "created_at": "2025-12-09T06:23:16.298057",
+    "metadata": {
+      "json_path": "companies[19].gap_years",
+      "data_type": "json"
+    }
+  },
+  "f922092e988d4ed502b9b8f8cf74933e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].state",
+    "text": "state: VA",
+    "vector_index": 260,
+    "created_at": "2025-12-09T06:23:16.305438",
+    "metadata": {
+      "json_path": "companies[19].state",
+      "data_type": "json"
+    }
+  },
+  "ad16b8648d213717bdf5cbb9b336c4a0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 261,
+    "created_at": "2025-12-09T06:23:16.398293",
+    "metadata": {
+      "json_path": "companies[19].notes",
+      "data_type": "json"
+    }
+  },
+  "9a8bcfd74a1fa63a4b19e2de16975834": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[19].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 262,
+    "created_at": "2025-12-09T06:23:16.605168",
+    "metadata": {
+      "json_path": "companies[19].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "8c2a6596195ecd349e2f0aa98ab12edb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].firm_name",
+    "text": "firm_name: FOGELMAN PROPERTIES LLC",
+    "vector_index": 263,
+    "created_at": "2025-12-09T06:23:16.698464",
+    "metadata": {
+      "json_path": "companies[20].firm_name",
+      "data_type": "json"
+    }
+  },
+  "280f5c7b58119ca57c1ce86c95998d99": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].firm_license",
+    "text": "firm_license: 0226033119",
+    "vector_index": 264,
+    "created_at": "2025-12-09T06:23:16.799405",
+    "metadata": {
+      "json_path": "companies[20].firm_license",
+      "data_type": "json"
+    }
+  },
+  "78d21bbaad654eafef8660cbc8f4c43f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 265,
+    "created_at": "2025-12-09T06:23:16.909795",
+    "metadata": {
+      "json_path": "companies[20].individual_license",
+      "data_type": "json"
+    }
+  },
+  "97e9c5f4e382035e806a8d1a186ea0c5": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 266,
+    "created_at": "2025-12-09T06:23:17.098527",
+    "metadata": {
+      "json_path": "companies[20].license_type",
+      "data_type": "json"
+    }
+  },
+  "7ef59b45d012c6cd7c61f4d8b666fab5": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 267,
+    "created_at": "2025-12-09T06:23:17.106631",
+    "metadata": {
+      "json_path": "companies[20].firm_type",
+      "data_type": "json"
+    }
+  },
+  "59a72e92c3eaffd749ef1ce66ebe1713": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].address",
+    "text": "address: None",
+    "vector_index": 268,
+    "created_at": "2025-12-09T06:23:17.295864",
+    "metadata": {
+      "json_path": "companies[20].address",
+      "data_type": "json"
+    }
+  },
+  "6fee34977a3a5aeaf08252465daf5eaf": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 269,
+    "created_at": "2025-12-09T06:23:17.306030",
+    "metadata": {
+      "json_path": "companies[20].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "2863b3b3684b6035d67b09f6b216b8b5": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 270,
+    "created_at": "2025-12-09T06:23:17.398556",
+    "metadata": {
+      "json_path": "companies[20].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "d53254beb0b0f90665f6479152ebd0dc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 271,
+    "created_at": "2025-12-09T06:23:17.407300",
+    "metadata": {
+      "json_path": "companies[20].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "135cd0cbef8c7354b8cd28f28152b250": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 272,
+    "created_at": "2025-12-09T06:23:17.594493",
+    "metadata": {
+      "json_path": "companies[20].gap_years",
+      "data_type": "json"
+    }
+  },
+  "0a20ff801ffa0d268299b12190d97c4b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].state",
+    "text": "state: VA",
+    "vector_index": 273,
+    "created_at": "2025-12-09T06:23:17.708338",
+    "metadata": {
+      "json_path": "companies[20].state",
+      "data_type": "json"
+    }
+  },
+  "c5eadbb0625db33e4d8d09360ac87d4f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 274,
+    "created_at": "2025-12-09T06:23:17.802539",
+    "metadata": {
+      "json_path": "companies[20].notes",
+      "data_type": "json"
+    }
+  },
+  "dcfd2d1ce28178604b25c9d67d14fe1c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[20].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 275,
+    "created_at": "2025-12-09T06:23:17.807195",
+    "metadata": {
+      "json_path": "companies[20].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "7cf9731368a101884856937e2693ad08": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].firm_name",
+    "text": "firm_name: GRUBB MANAGEMENT LLC",
+    "vector_index": 276,
+    "created_at": "2025-12-09T06:23:17.828071",
+    "metadata": {
+      "json_path": "companies[21].firm_name",
+      "data_type": "json"
+    }
+  },
+  "020f70b6dc37b1331c1bf6401344a0f4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].firm_license",
+    "text": "firm_license: 0226036622",
+    "vector_index": 277,
+    "created_at": "2025-12-09T06:23:17.917723",
+    "metadata": {
+      "json_path": "companies[21].firm_license",
+      "data_type": "json"
+    }
+  },
+  "68837cffa167bbfe97bcd3fc2b637a73": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 278,
+    "created_at": "2025-12-09T06:23:18.096310",
+    "metadata": {
+      "json_path": "companies[21].individual_license",
+      "data_type": "json"
+    }
+  },
+  "870b57ed15404316e3c7bdea92153aa0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 279,
+    "created_at": "2025-12-09T06:23:18.106116",
+    "metadata": {
+      "json_path": "companies[21].license_type",
+      "data_type": "json"
+    }
+  },
+  "1a4a453f91124440b20d1d4fd03be2c3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 280,
+    "created_at": "2025-12-09T06:23:18.208027",
+    "metadata": {
+      "json_path": "companies[21].firm_type",
+      "data_type": "json"
+    }
+  },
+  "90a4e50ed4721317798b8c55796d0696": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].address",
+    "text": "address: None",
+    "vector_index": 281,
+    "created_at": "2025-12-09T06:23:18.297687",
+    "metadata": {
+      "json_path": "companies[21].address",
+      "data_type": "json"
+    }
+  },
+  "2d9e5048361d1d3f5033be0089f09d06": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 282,
+    "created_at": "2025-12-09T06:23:18.402925",
+    "metadata": {
+      "json_path": "companies[21].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "b11445bac83955051f5f9fdbc4de800a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 283,
+    "created_at": "2025-12-09T06:23:18.426645",
+    "metadata": {
+      "json_path": "companies[21].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "db3c2162a2ad8ef24283db7f3435896e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 284,
+    "created_at": "2025-12-09T06:23:18.501112",
+    "metadata": {
+      "json_path": "companies[21].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "fae50c021b21bf2c5ee1a67d20c71594": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 285,
+    "created_at": "2025-12-09T06:23:18.509614",
+    "metadata": {
+      "json_path": "companies[21].gap_years",
+      "data_type": "json"
+    }
+  },
+  "859da461341926cf910777c6e69a7d8e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].state",
+    "text": "state: VA",
+    "vector_index": 286,
+    "created_at": "2025-12-09T06:23:18.704099",
+    "metadata": {
+      "json_path": "companies[21].state",
+      "data_type": "json"
+    }
+  },
+  "adfedecd0c733b3dcc53fc6488356ce6": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 287,
+    "created_at": "2025-12-09T06:23:18.720060",
+    "metadata": {
+      "json_path": "companies[21].notes",
+      "data_type": "json"
+    }
+  },
+  "93de6c044db5c0dd73412d61bf95aa5e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[21].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 288,
+    "created_at": "2025-12-09T06:23:18.801572",
+    "metadata": {
+      "json_path": "companies[21].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "1c5c0f38fcd763b3644b13aeec184f6a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].firm_name",
+    "text": "firm_name: LCOR LAMLP LLC",
+    "vector_index": 289,
+    "created_at": "2025-12-09T06:23:18.817632",
+    "metadata": {
+      "json_path": "companies[22].firm_name",
+      "data_type": "json"
+    }
+  },
+  "56efaf986ce1b9cba4de8334182e9549": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].firm_license",
+    "text": "firm_license: 0226037106",
+    "vector_index": 290,
+    "created_at": "2025-12-09T06:23:19.004811",
+    "metadata": {
+      "json_path": "companies[22].firm_license",
+      "data_type": "json"
+    }
+  },
+  "8c30d196f649bad20c05fdfc3bf980c8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 291,
+    "created_at": "2025-12-09T06:23:19.102463",
+    "metadata": {
+      "json_path": "companies[22].individual_license",
+      "data_type": "json"
+    }
+  },
+  "ef58c7ceb73cb14eccfbfdf74db5369a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 292,
+    "created_at": "2025-12-09T06:23:19.107389",
+    "metadata": {
+      "json_path": "companies[22].license_type",
+      "data_type": "json"
+    }
+  },
+  "ee1c2c213fa374065a1d9b5c750add09": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 293,
+    "created_at": "2025-12-09T06:23:19.202139",
+    "metadata": {
+      "json_path": "companies[22].firm_type",
+      "data_type": "json"
+    }
+  },
+  "39ca636b401af6cf103376fb550f5b32": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].address",
+    "text": "address: None",
+    "vector_index": 294,
+    "created_at": "2025-12-09T06:23:19.207355",
+    "metadata": {
+      "json_path": "companies[22].address",
+      "data_type": "json"
+    }
+  },
+  "4caf6164d553e69053b9a275aea5516f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 295,
+    "created_at": "2025-12-09T06:23:19.296756",
+    "metadata": {
+      "json_path": "companies[22].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "65f425a4a71a0be314301576fbdf2ae7": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 296,
+    "created_at": "2025-12-09T06:23:19.303607",
+    "metadata": {
+      "json_path": "companies[22].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "9318f92edc4c2a555e80ccde650012ef": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 297,
+    "created_at": "2025-12-09T06:23:19.500090",
+    "metadata": {
+      "json_path": "companies[22].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "1bc1040e4585f60dea3d02eaee5b3659": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 298,
+    "created_at": "2025-12-09T06:23:19.604675",
+    "metadata": {
+      "json_path": "companies[22].gap_years",
+      "data_type": "json"
+    }
+  },
+  "afd54b2209143685c3c21767fc676b92": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].state",
+    "text": "state: VA",
+    "vector_index": 299,
+    "created_at": "2025-12-09T06:23:19.705160",
+    "metadata": {
+      "json_path": "companies[22].state",
+      "data_type": "json"
+    }
+  },
+  "4f02089d4f9b0a780d1be61ed46e5cad": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 300,
+    "created_at": "2025-12-09T06:23:19.907100",
+    "metadata": {
+      "json_path": "companies[22].notes",
+      "data_type": "json"
+    }
+  },
+  "282251f0e9bdc4fc67e97d50cf617bbb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[22].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 301,
+    "created_at": "2025-12-09T06:23:19.998674",
+    "metadata": {
+      "json_path": "companies[22].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "5f28aaf8c1d5a8ded935860fe95a97d2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].firm_name",
+    "text": "firm_name: LCOR ASSET MANAGEMENT LIMITED PARTNERSHIP",
+    "vector_index": 302,
+    "created_at": "2025-12-09T06:23:20.005302",
+    "metadata": {
+      "json_path": "companies[23].firm_name",
+      "data_type": "json"
+    }
+  },
+  "db212f8e15d1ac2f86bcb21b2320858b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].firm_license",
+    "text": "firm_license: 0226002838",
+    "vector_index": 303,
+    "created_at": "2025-12-09T06:23:20.099210",
+    "metadata": {
+      "json_path": "companies[23].firm_license",
+      "data_type": "json"
+    }
+  },
+  "488473b87f8b57915fe6b6629270938f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 304,
+    "created_at": "2025-12-09T06:23:20.225774",
+    "metadata": {
+      "json_path": "companies[23].individual_license",
+      "data_type": "json"
+    }
+  },
+  "42829c9ae9c8c656ec6a4370c72752a8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 305,
+    "created_at": "2025-12-09T06:23:20.298552",
+    "metadata": {
+      "json_path": "companies[23].license_type",
+      "data_type": "json"
+    }
+  },
+  "3fefefde4ea89aec7e78a20d0305d3b4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].firm_type",
+    "text": "firm_type: Limited Partnership",
+    "vector_index": 306,
+    "created_at": "2025-12-09T06:23:20.401351",
+    "metadata": {
+      "json_path": "companies[23].firm_type",
+      "data_type": "json"
+    }
+  },
+  "71685a8dad23041aeb43567e9f1f0c7e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].address",
+    "text": "address: None",
+    "vector_index": 307,
+    "created_at": "2025-12-09T06:23:20.406138",
+    "metadata": {
+      "json_path": "companies[23].address",
+      "data_type": "json"
+    }
+  },
+  "dc130c51ba1a7658aab7bb48669e05b1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 308,
+    "created_at": "2025-12-09T06:23:20.499975",
+    "metadata": {
+      "json_path": "companies[23].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "02770c4033b843c97f124f86f6e640d4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 309,
+    "created_at": "2025-12-09T06:23:20.505846",
+    "metadata": {
+      "json_path": "companies[23].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "e82360643f369a65b10e48d82aa36256": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 310,
+    "created_at": "2025-12-09T06:23:20.602432",
+    "metadata": {
+      "json_path": "companies[23].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "f8b8dddf95a993ec51c3d33eb16f0f7f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 311,
+    "created_at": "2025-12-09T06:23:20.614844",
+    "metadata": {
+      "json_path": "companies[23].gap_years",
+      "data_type": "json"
+    }
+  },
+  "6a4b87573db9249ed2b7401994c5aa32": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].state",
+    "text": "state: VA",
+    "vector_index": 312,
+    "created_at": "2025-12-09T06:23:20.699519",
+    "metadata": {
+      "json_path": "companies[23].state",
+      "data_type": "json"
+    }
+  },
+  "4368c9f0424048eb5b8dfcff34e9be7d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 313,
+    "created_at": "2025-12-09T06:23:20.705792",
+    "metadata": {
+      "json_path": "companies[23].notes",
+      "data_type": "json"
+    }
+  },
+  "635a479e4935bbbd346bdf19827880c7": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[23].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 314,
+    "created_at": "2025-12-09T06:23:20.812344",
+    "metadata": {
+      "json_path": "companies[23].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "d0b2e1d632fb3e3a6b5f35027a303586": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].firm_name",
+    "text": "firm_name: LINCOLN APARTMENT MANAGEMENT LIMITED PARTNERSHIP",
+    "vector_index": 315,
+    "created_at": "2025-12-09T06:23:20.912522",
+    "metadata": {
+      "json_path": "companies[24].firm_name",
+      "data_type": "json"
+    }
+  },
+  "905e27f5dd6ae666dea7e18e445156bf": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].firm_license",
+    "text": "firm_license: 0226026414",
+    "vector_index": 316,
+    "created_at": "2025-12-09T06:23:20.997273",
+    "metadata": {
+      "json_path": "companies[24].firm_license",
+      "data_type": "json"
+    }
+  },
+  "5d6cacbb9df64dd2d7f61d65128f376d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 317,
+    "created_at": "2025-12-09T06:23:21.003910",
+    "metadata": {
+      "json_path": "companies[24].individual_license",
+      "data_type": "json"
+    }
+  },
+  "e2e6d454af939d1df4adaa615038df61": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 318,
+    "created_at": "2025-12-09T06:23:21.199765",
+    "metadata": {
+      "json_path": "companies[24].license_type",
+      "data_type": "json"
+    }
+  },
+  "a2a29eb90ebe163b7e6dbf2f8dfdbdb1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].firm_type",
+    "text": "firm_type: Limited Partnership",
+    "vector_index": 319,
+    "created_at": "2025-12-09T06:23:21.205907",
+    "metadata": {
+      "json_path": "companies[24].firm_type",
+      "data_type": "json"
+    }
+  },
+  "ec1ff065d06dea1314100cbb624bdf9b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].address",
+    "text": "address: None",
+    "vector_index": 320,
+    "created_at": "2025-12-09T06:23:21.313796",
+    "metadata": {
+      "json_path": "companies[24].address",
+      "data_type": "json"
+    }
+  },
+  "49aeb592cb6e8a2662c51e1927f30b59": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 321,
+    "created_at": "2025-12-09T06:23:21.397915",
+    "metadata": {
+      "json_path": "companies[24].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "2b28e1a4b8466fb592b589389a42a4ef": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 322,
+    "created_at": "2025-12-09T06:23:21.402701",
+    "metadata": {
+      "json_path": "companies[24].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "3ab9ba7a2f6e5e076c0757ff365c3a1a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 323,
+    "created_at": "2025-12-09T06:23:21.413853",
+    "metadata": {
+      "json_path": "companies[24].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "a27ae11f20723e5da58b2abeb7db72f2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 324,
+    "created_at": "2025-12-09T06:23:21.499467",
+    "metadata": {
+      "json_path": "companies[24].gap_years",
+      "data_type": "json"
+    }
+  },
+  "74b69c20bea68f4da166b16e90f1dc4a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].state",
+    "text": "state: VA",
+    "vector_index": 325,
+    "created_at": "2025-12-09T06:23:21.504414",
+    "metadata": {
+      "json_path": "companies[24].state",
+      "data_type": "json"
+    }
+  },
+  "443b39065f4940301c7e4836a674b5ce": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 326,
+    "created_at": "2025-12-09T06:23:21.510454",
+    "metadata": {
+      "json_path": "companies[24].notes",
+      "data_type": "json"
+    }
+  },
+  "580e391363159d1f0e3b74c5599a2232": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[24].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 327,
+    "created_at": "2025-12-09T06:23:21.605693",
+    "metadata": {
+      "json_path": "companies[24].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "79bff20e23286ffaa050552ca1780923": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].firm_name",
+    "text": "firm_name: LANDMARK VENTURE MANAGEMENT LLC",
+    "vector_index": 328,
+    "created_at": "2025-12-09T06:23:21.705779",
+    "metadata": {
+      "json_path": "companies[25].firm_name",
+      "data_type": "json"
+    }
+  },
+  "bdec0086bac1bc355f7c6ff603a133fe": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].firm_license",
+    "text": "firm_license: 0226031657",
+    "vector_index": 329,
+    "created_at": "2025-12-09T06:23:21.800605",
+    "metadata": {
+      "json_path": "companies[25].firm_license",
+      "data_type": "json"
+    }
+  },
+  "dcdf3e1242112a2c2c80b130c08f7800": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 330,
+    "created_at": "2025-12-09T06:23:21.810602",
+    "metadata": {
+      "json_path": "companies[25].individual_license",
+      "data_type": "json"
+    }
+  },
+  "94e5da2541de11ce1a7d9e445a380944": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 331,
+    "created_at": "2025-12-09T06:23:21.994621",
+    "metadata": {
+      "json_path": "companies[25].license_type",
+      "data_type": "json"
+    }
+  },
+  "cfdd0579ac92dc518dbba7e72c05a8a3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 332,
+    "created_at": "2025-12-09T06:23:22.002430",
+    "metadata": {
+      "json_path": "companies[25].firm_type",
+      "data_type": "json"
+    }
+  },
+  "59f5a33bf61025c2a15e01bba2b61c29": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].address",
+    "text": "address: None",
+    "vector_index": 333,
+    "created_at": "2025-12-09T06:23:22.106477",
+    "metadata": {
+      "json_path": "companies[25].address",
+      "data_type": "json"
+    }
+  },
+  "e507fd5d4914168b2ed959a8b2ae1440": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 334,
+    "created_at": "2025-12-09T06:23:22.194091",
+    "metadata": {
+      "json_path": "companies[25].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "e1d69913d1672cd86db0b3f06c798709": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 335,
+    "created_at": "2025-12-09T06:23:22.200465",
+    "metadata": {
+      "json_path": "companies[25].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "f296be3f8557ba55930dbb5be68ca555": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 336,
+    "created_at": "2025-12-09T06:23:22.205345",
+    "metadata": {
+      "json_path": "companies[25].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "5136ccda8f4e7cbd51ad4018e1f972dd": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 337,
+    "created_at": "2025-12-09T06:23:22.306760",
+    "metadata": {
+      "json_path": "companies[25].gap_years",
+      "data_type": "json"
+    }
+  },
+  "a9edab42c1e6d88894e793b4b9abf521": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].state",
+    "text": "state: VA",
+    "vector_index": 338,
+    "created_at": "2025-12-09T06:23:22.410188",
+    "metadata": {
+      "json_path": "companies[25].state",
+      "data_type": "json"
+    }
+  },
+  "0416607ad343268dc9d7dec84b6996ad": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 339,
+    "created_at": "2025-12-09T06:23:22.498420",
+    "metadata": {
+      "json_path": "companies[25].notes",
+      "data_type": "json"
+    }
+  },
+  "65a9b74ec9b9680c5d278fdd5958943a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[25].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 340,
+    "created_at": "2025-12-09T06:23:22.504848",
+    "metadata": {
+      "json_path": "companies[25].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "1b20a5a12cf54e8133b43b200216bcf2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].firm_name",
+    "text": "firm_name: LMC LIVING LLC",
+    "vector_index": 341,
+    "created_at": "2025-12-09T06:23:22.595120",
+    "metadata": {
+      "json_path": "companies[26].firm_name",
+      "data_type": "json"
+    }
+  },
+  "37dfbcfc6618a6fdea06b8c137f3b06a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].firm_license",
+    "text": "firm_license: 0226031104",
+    "vector_index": 342,
+    "created_at": "2025-12-09T06:23:22.601881",
+    "metadata": {
+      "json_path": "companies[26].firm_license",
+      "data_type": "json"
+    }
+  },
+  "c4bc612dc4f166c3f7790c95f31128ce": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 343,
+    "created_at": "2025-12-09T06:23:22.694988",
+    "metadata": {
+      "json_path": "companies[26].individual_license",
+      "data_type": "json"
+    }
+  },
+  "64ce653b708b1116404cf374dcf65bdc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 344,
+    "created_at": "2025-12-09T06:23:22.803752",
+    "metadata": {
+      "json_path": "companies[26].license_type",
+      "data_type": "json"
+    }
+  },
+  "1785dbfab8184e60bc6c6cf0df7ca910": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 345,
+    "created_at": "2025-12-09T06:23:22.826392",
+    "metadata": {
+      "json_path": "companies[26].firm_type",
+      "data_type": "json"
+    }
+  },
+  "6b87827187b9f163e6b1e153fd20e717": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].address",
+    "text": "address: None",
+    "vector_index": 346,
+    "created_at": "2025-12-09T06:23:23.013672",
+    "metadata": {
+      "json_path": "companies[26].address",
+      "data_type": "json"
+    }
+  },
+  "b8fa2180a1954f29f2aabf6ba6e04acf": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 347,
+    "created_at": "2025-12-09T06:23:23.200616",
+    "metadata": {
+      "json_path": "companies[26].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "b6717452500a5f3879e1ed139d96dec5": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 348,
+    "created_at": "2025-12-09T06:23:23.205456",
+    "metadata": {
+      "json_path": "companies[26].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "1f9ef34925e67ea5103b1502ec297bae": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 349,
+    "created_at": "2025-12-09T06:23:23.296200",
+    "metadata": {
+      "json_path": "companies[26].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "f4f99aacc69e1da2a756028ac1978ab4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 350,
+    "created_at": "2025-12-09T06:23:23.302827",
+    "metadata": {
+      "json_path": "companies[26].gap_years",
+      "data_type": "json"
+    }
+  },
+  "7dbcd75d2887eaade11aaa719c9c3c04": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].state",
+    "text": "state: VA",
+    "vector_index": 351,
+    "created_at": "2025-12-09T06:23:23.505558",
+    "metadata": {
+      "json_path": "companies[26].state",
+      "data_type": "json"
+    }
+  },
+  "054065ba4b3e77033e5e3031931534b6": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab (Note: Listed as \"LMC LIVING, LLC\" in DPOR)",
+    "vector_index": 352,
+    "created_at": "2025-12-09T06:23:23.600188",
+    "metadata": {
+      "json_path": "companies[26].notes",
+      "data_type": "json"
+    }
+  },
+  "daf577605de1b72d5dc68d236af165ad": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[26].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 353,
+    "created_at": "2025-12-09T06:23:23.614642",
+    "metadata": {
+      "json_path": "companies[26].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "d2f2df0fde6bf9d0161558c9200865bc": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].firm_name",
+    "text": "firm_name: MISSION ROCK RESIDENTIAL LLC",
+    "vector_index": 354,
+    "created_at": "2025-12-09T06:23:23.696237",
+    "metadata": {
+      "json_path": "companies[27].firm_name",
+      "data_type": "json"
+    }
+  },
+  "12359723dec59703b310d484afdb805e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].firm_license",
+    "text": "firm_license: 0226029441",
+    "vector_index": 355,
+    "created_at": "2025-12-09T06:23:23.702918",
+    "metadata": {
+      "json_path": "companies[27].firm_license",
+      "data_type": "json"
+    }
+  },
+  "287e48a04d7e8c7ff7efac0176279baa": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 356,
+    "created_at": "2025-12-09T06:23:23.816852",
+    "metadata": {
+      "json_path": "companies[27].individual_license",
+      "data_type": "json"
+    }
+  },
+  "6e55ce8aebbd6c7efefb57faa7a1df51": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 357,
+    "created_at": "2025-12-09T06:23:24.009312",
+    "metadata": {
+      "json_path": "companies[27].license_type",
+      "data_type": "json"
+    }
+  },
+  "700a91ce0b51348d8c71634d53239262": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 358,
+    "created_at": "2025-12-09T06:23:24.102811",
+    "metadata": {
+      "json_path": "companies[27].firm_type",
+      "data_type": "json"
+    }
+  },
+  "3e00eac8930afafdc53bde4262b63c95": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].address",
+    "text": "address: None",
+    "vector_index": 359,
+    "created_at": "2025-12-09T06:23:24.193357",
+    "metadata": {
+      "json_path": "companies[27].address",
+      "data_type": "json"
+    }
+  },
+  "6657888e88da9b7948b03242d7b4780e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 360,
+    "created_at": "2025-12-09T06:23:24.301715",
+    "metadata": {
+      "json_path": "companies[27].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "c5522adafb134029ac5b0ba99507446f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 361,
+    "created_at": "2025-12-09T06:23:24.397129",
+    "metadata": {
+      "json_path": "companies[27].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "5e465193180f2eb94321a9e28e3a8fa2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 362,
+    "created_at": "2025-12-09T06:23:24.402032",
+    "metadata": {
+      "json_path": "companies[27].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "034c9c1c96b1cd2dce62201212454efd": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 363,
+    "created_at": "2025-12-09T06:23:24.421700",
+    "metadata": {
+      "json_path": "companies[27].gap_years",
+      "data_type": "json"
+    }
+  },
+  "16c353449b2fc50960b5ee7010abc603": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].state",
+    "text": "state: VA",
+    "vector_index": 364,
+    "created_at": "2025-12-09T06:23:24.498507",
+    "metadata": {
+      "json_path": "companies[27].state",
+      "data_type": "json"
+    }
+  },
+  "7631290c6c8cbcf097907a5f3d68f49c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 365,
+    "created_at": "2025-12-09T06:23:24.504186",
+    "metadata": {
+      "json_path": "companies[27].notes",
+      "data_type": "json"
+    }
+  },
+  "d1aec9eeede9093c3e918e9d21d5772d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[27].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 366,
+    "created_at": "2025-12-09T06:23:24.595772",
+    "metadata": {
+      "json_path": "companies[27].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "17d30b58ed330c8a02b0189e7581a97b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].firm_name",
+    "text": "firm_name: NRP MANAGEMENT LLC",
+    "vector_index": 367,
+    "created_at": "2025-12-09T06:23:24.609056",
+    "metadata": {
+      "json_path": "companies[28].firm_name",
+      "data_type": "json"
+    }
+  },
+  "df7baf442ed8efe5e3a8ea10cc8fc59e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].firm_license",
+    "text": "firm_license: 0226037138",
+    "vector_index": 368,
+    "created_at": "2025-12-09T06:23:24.702292",
+    "metadata": {
+      "json_path": "companies[28].firm_license",
+      "data_type": "json"
+    }
+  },
+  "e4c17153a0591770ad5be04a1d84ff71": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 369,
+    "created_at": "2025-12-09T06:23:24.805574",
+    "metadata": {
+      "json_path": "companies[28].individual_license",
+      "data_type": "json"
+    }
+  },
+  "d6c4b25f4f1caa2c71acdbb8cb61c073": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 370,
+    "created_at": "2025-12-09T06:23:24.813167",
+    "metadata": {
+      "json_path": "companies[28].license_type",
+      "data_type": "json"
+    }
+  },
+  "b58438d610102e11873f3b42f4686ff6": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 371,
+    "created_at": "2025-12-09T06:23:25.000017",
+    "metadata": {
+      "json_path": "companies[28].firm_type",
+      "data_type": "json"
+    }
+  },
+  "7611c87be57d866356c37e6e6629595e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].address",
+    "text": "address: None",
+    "vector_index": 372,
+    "created_at": "2025-12-09T06:23:25.097237",
+    "metadata": {
+      "json_path": "companies[28].address",
+      "data_type": "json"
+    }
+  },
+  "d0dfa6a1e0461170c0f36010301fcfc3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 373,
+    "created_at": "2025-12-09T06:23:25.197814",
+    "metadata": {
+      "json_path": "companies[28].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "fe9c86ebffdd4daeafffb8ef1a256604": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 374,
+    "created_at": "2025-12-09T06:23:25.296051",
+    "metadata": {
+      "json_path": "companies[28].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "d20969099767102c72edd5fe86ff449e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 375,
+    "created_at": "2025-12-09T06:23:25.304918",
+    "metadata": {
+      "json_path": "companies[28].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "4dc6d5bb52c510b32982033253f54596": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 376,
+    "created_at": "2025-12-09T06:23:25.400275",
+    "metadata": {
+      "json_path": "companies[28].gap_years",
+      "data_type": "json"
+    }
+  },
+  "bb51a6e9f1ff65a383b5d4139e85f02a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].state",
+    "text": "state: VA",
+    "vector_index": 377,
+    "created_at": "2025-12-09T06:23:25.501685",
+    "metadata": {
+      "json_path": "companies[28].state",
+      "data_type": "json"
+    }
+  },
+  "efe40518f5d29bd76261848b21a69320": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 378,
+    "created_at": "2025-12-09T06:23:25.509646",
+    "metadata": {
+      "json_path": "companies[28].notes",
+      "data_type": "json"
+    }
+  },
+  "4dee546d500470ad8ed86bc0b4ac5c84": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[28].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 379,
+    "created_at": "2025-12-09T06:23:25.608302",
+    "metadata": {
+      "json_path": "companies[28].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "b8a7c9cc83411141cf14a0c34d5edd15": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].firm_name",
+    "text": "firm_name: PEGASUS RESIDENTIAL LLC",
+    "vector_index": 380,
+    "created_at": "2025-12-09T06:23:25.704505",
+    "metadata": {
+      "json_path": "companies[29].firm_name",
+      "data_type": "json"
+    }
+  },
+  "15c6642512e960f3a13945459324bc00": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].firm_license",
+    "text": "firm_license: 0226038088",
+    "vector_index": 381,
+    "created_at": "2025-12-09T06:23:25.808143",
+    "metadata": {
+      "json_path": "companies[29].firm_license",
+      "data_type": "json"
+    }
+  },
+  "e7684f7960cc816d5d6dc95d0486817e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 382,
+    "created_at": "2025-12-09T06:23:25.815092",
+    "metadata": {
+      "json_path": "companies[29].individual_license",
+      "data_type": "json"
+    }
+  },
+  "a8f0642428fc6a147641a223fa06e931": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 383,
+    "created_at": "2025-12-09T06:23:25.904714",
+    "metadata": {
+      "json_path": "companies[29].license_type",
+      "data_type": "json"
+    }
+  },
+  "fea0172cc0c465b7da6a1a8edcab675f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 384,
+    "created_at": "2025-12-09T06:23:25.996708",
+    "metadata": {
+      "json_path": "companies[29].firm_type",
+      "data_type": "json"
+    }
+  },
+  "284dbf95e196fa3d5a1f9508528ab906": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].address",
+    "text": "address: None",
+    "vector_index": 385,
+    "created_at": "2025-12-09T06:23:26.205430",
+    "metadata": {
+      "json_path": "companies[29].address",
+      "data_type": "json"
+    }
+  },
+  "37bf588876353087f9188f38740318be": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 386,
+    "created_at": "2025-12-09T06:23:26.214822",
+    "metadata": {
+      "json_path": "companies[29].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "9d9712f7291988d36fc7808b591e310f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 387,
+    "created_at": "2025-12-09T06:23:26.397140",
+    "metadata": {
+      "json_path": "companies[29].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "a7a82c4b02fcd85273455c8348d78684": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 388,
+    "created_at": "2025-12-09T06:23:26.593382",
+    "metadata": {
+      "json_path": "companies[29].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "2f3b64ec95c35a9b049533e4d08f094c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 389,
+    "created_at": "2025-12-09T06:23:26.700109",
+    "metadata": {
+      "json_path": "companies[29].gap_years",
+      "data_type": "json"
+    }
+  },
+  "42057b25405be8b59a3b924dd77f2e6c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].state",
+    "text": "state: VA",
+    "vector_index": 390,
+    "created_at": "2025-12-09T06:23:26.710356",
+    "metadata": {
+      "json_path": "companies[29].state",
+      "data_type": "json"
+    }
+  },
+  "9bf15080f9368a3c044578d54589a141": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 391,
+    "created_at": "2025-12-09T06:23:26.803530",
+    "metadata": {
+      "json_path": "companies[29].notes",
+      "data_type": "json"
+    }
+  },
+  "6ba37c8aab209b3659573ab344ff29fd": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[29].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 392,
+    "created_at": "2025-12-09T06:23:26.818338",
+    "metadata": {
+      "json_path": "companies[29].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "e50786f2ab8d18223c412524a9cdd9c8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].firm_name",
+    "text": "firm_name: PENNROSE MANAGEMENT COMPANY",
+    "vector_index": 393,
+    "created_at": "2025-12-09T06:23:26.901421",
+    "metadata": {
+      "json_path": "companies[30].firm_name",
+      "data_type": "json"
+    }
+  },
+  "d3011156d1c6ccef93d26689ad77be23": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].firm_license",
+    "text": "firm_license: 0226035194",
+    "vector_index": 394,
+    "created_at": "2025-12-09T06:23:26.906888",
+    "metadata": {
+      "json_path": "companies[30].firm_license",
+      "data_type": "json"
+    }
+  },
+  "1baa5d8c0ab8321cc814ec56ff24785b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 395,
+    "created_at": "2025-12-09T06:23:26.998745",
+    "metadata": {
+      "json_path": "companies[30].individual_license",
+      "data_type": "json"
+    }
+  },
+  "a8f7d28dc86d17144eea45d4378d3f45": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 396,
+    "created_at": "2025-12-09T06:23:27.005006",
+    "metadata": {
+      "json_path": "companies[30].license_type",
+      "data_type": "json"
+    }
+  },
+  "ecd803082eaf23c22f619fc6e0099513": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 397,
+    "created_at": "2025-12-09T06:23:27.097353",
+    "metadata": {
+      "json_path": "companies[30].firm_type",
+      "data_type": "json"
+    }
+  },
+  "1a2b437ba025aa25c723d170aebe7028": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].address",
+    "text": "address: None",
+    "vector_index": 398,
+    "created_at": "2025-12-09T06:23:27.105429",
+    "metadata": {
+      "json_path": "companies[30].address",
+      "data_type": "json"
+    }
+  },
+  "fb62b788299524062be55e896c75a9a3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 399,
+    "created_at": "2025-12-09T06:23:27.213994",
+    "metadata": {
+      "json_path": "companies[30].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "6b0824a306d4ef6adbc0a93a83690177": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 400,
+    "created_at": "2025-12-09T06:23:27.296912",
+    "metadata": {
+      "json_path": "companies[30].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "a63820c6d389975bf523802e2650732f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 401,
+    "created_at": "2025-12-09T06:23:27.303816",
+    "metadata": {
+      "json_path": "companies[30].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "5f582b549a20fb05a9cbaae4c9cceec0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 402,
+    "created_at": "2025-12-09T06:23:27.399082",
+    "metadata": {
+      "json_path": "companies[30].gap_years",
+      "data_type": "json"
+    }
+  },
+  "dbc4a9fb48da97923508b8a80f45bbd4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].state",
+    "text": "state: VA",
+    "vector_index": 403,
+    "created_at": "2025-12-09T06:23:27.405181",
+    "metadata": {
+      "json_path": "companies[30].state",
+      "data_type": "json"
+    }
+  },
+  "ba4a6bcc6cbe61c6a69ad8c2036a8605": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 404,
+    "created_at": "2025-12-09T06:23:27.502023",
+    "metadata": {
+      "json_path": "companies[30].notes",
+      "data_type": "json"
+    }
+  },
+  "869c7d0c42e8a604064f60c19871353c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[30].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 405,
+    "created_at": "2025-12-09T06:23:27.616208",
+    "metadata": {
+      "json_path": "companies[30].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "e72493143b452b2e5ba06b70ea502f4d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].firm_name",
+    "text": "firm_name: PINNACLE PROPERTY MANAGEMENT SERVICES LLC",
+    "vector_index": 406,
+    "created_at": "2025-12-09T06:23:27.798884",
+    "metadata": {
+      "json_path": "companies[31].firm_name",
+      "data_type": "json"
+    }
+  },
+  "8697105c5bf6ca22a5873ef015419c6e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].firm_license",
+    "text": "firm_license: 0226035674",
+    "vector_index": 407,
+    "created_at": "2025-12-09T06:23:27.804403",
+    "metadata": {
+      "json_path": "companies[31].firm_license",
+      "data_type": "json"
+    }
+  },
+  "e2e92dbc056f4c3d404843d9891efe69": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 408,
+    "created_at": "2025-12-09T06:23:27.810488",
+    "metadata": {
+      "json_path": "companies[31].individual_license",
+      "data_type": "json"
+    }
+  },
+  "f2e8c94ab9bd16a7de2ed90b26041665": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 409,
+    "created_at": "2025-12-09T06:23:27.908379",
+    "metadata": {
+      "json_path": "companies[31].license_type",
+      "data_type": "json"
+    }
+  },
+  "7344e1dafd843714485d12267a16745f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 410,
+    "created_at": "2025-12-09T06:23:27.999606",
+    "metadata": {
+      "json_path": "companies[31].firm_type",
+      "data_type": "json"
+    }
+  },
+  "29607e47fa650d648302e91a47ebf16e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].address",
+    "text": "address: None",
+    "vector_index": 411,
+    "created_at": "2025-12-09T06:23:28.027164",
+    "metadata": {
+      "json_path": "companies[31].address",
+      "data_type": "json"
+    }
+  },
+  "91ea60236b3f0885fc8ea17aa214a4cf": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 412,
+    "created_at": "2025-12-09T06:23:28.099759",
+    "metadata": {
+      "json_path": "companies[31].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "798fbb1a2cae7cfba0f9014c533c07c1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 413,
+    "created_at": "2025-12-09T06:23:28.213443",
+    "metadata": {
+      "json_path": "companies[31].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "7962e69b59adebc7f8e885108d7e44b2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 414,
+    "created_at": "2025-12-09T06:23:28.326259",
+    "metadata": {
+      "json_path": "companies[31].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "ec07e44a08966af297f5c0da1f03e4a1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 415,
+    "created_at": "2025-12-09T06:23:28.403216",
+    "metadata": {
+      "json_path": "companies[31].gap_years",
+      "data_type": "json"
+    }
+  },
+  "d5f59c5a7045b8e87c44655abcc092a0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].state",
+    "text": "state: VA",
+    "vector_index": 416,
+    "created_at": "2025-12-09T06:23:28.407833",
+    "metadata": {
+      "json_path": "companies[31].state",
+      "data_type": "json"
+    }
+  },
+  "754fd950b3f3596e7eb43f2d05b7afce": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 417,
+    "created_at": "2025-12-09T06:23:28.503053",
+    "metadata": {
+      "json_path": "companies[31].notes",
+      "data_type": "json"
+    }
+  },
+  "656bb62fd300470f83e037982649fdf3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[31].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 418,
+    "created_at": "2025-12-09T06:23:28.595481",
+    "metadata": {
+      "json_path": "companies[31].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "cd1bce6331ebef32907d9d74b9e6d97a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].firm_name",
+    "text": "firm_name: PREFERRED APARTMENT ADVISORS LLC",
+    "vector_index": 419,
+    "created_at": "2025-12-09T06:23:28.707262",
+    "metadata": {
+      "json_path": "companies[32].firm_name",
+      "data_type": "json"
+    }
+  },
+  "8f38a6427f7563e2336b3fc6b991cf53": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].firm_license",
+    "text": "firm_license: 0226032341",
+    "vector_index": 420,
+    "created_at": "2025-12-09T06:23:28.810527",
+    "metadata": {
+      "json_path": "companies[32].firm_license",
+      "data_type": "json"
+    }
+  },
+  "fcb347ede0dec213a0aaf4502a3e3eb9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 421,
+    "created_at": "2025-12-09T06:23:28.824105",
+    "metadata": {
+      "json_path": "companies[32].individual_license",
+      "data_type": "json"
+    }
+  },
+  "1a9e99664ab2bd98a82c1e03e3c3a37c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 422,
+    "created_at": "2025-12-09T06:23:28.995955",
+    "metadata": {
+      "json_path": "companies[32].license_type",
+      "data_type": "json"
+    }
+  },
+  "084d23cdea25c4c8efb21da08c3516f9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 423,
+    "created_at": "2025-12-09T06:23:29.095187",
+    "metadata": {
+      "json_path": "companies[32].firm_type",
+      "data_type": "json"
+    }
+  },
+  "17990ca023825d3b5538736e1d695753": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].address",
+    "text": "address: None",
+    "vector_index": 424,
+    "created_at": "2025-12-09T06:23:29.103398",
+    "metadata": {
+      "json_path": "companies[32].address",
+      "data_type": "json"
+    }
+  },
+  "d681ef10074762ef5aec7c99a595b87c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 425,
+    "created_at": "2025-12-09T06:23:29.211884",
+    "metadata": {
+      "json_path": "companies[32].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "277bb81a5c3dc50ff96c43e951015d78": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 426,
+    "created_at": "2025-12-09T06:23:29.316747",
+    "metadata": {
+      "json_path": "companies[32].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "a9d5a78181a605b4fdb1d5fa4fc6c82c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 427,
+    "created_at": "2025-12-09T06:23:29.398015",
+    "metadata": {
+      "json_path": "companies[32].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "67acfea50ab431bef8967e8669a429a0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 428,
+    "created_at": "2025-12-09T06:23:29.404002",
+    "metadata": {
+      "json_path": "companies[32].gap_years",
+      "data_type": "json"
+    }
+  },
+  "11d141effd3b8c90fa1b4039a245264a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].state",
+    "text": "state: VA",
+    "vector_index": 429,
+    "created_at": "2025-12-09T06:23:29.494050",
+    "metadata": {
+      "json_path": "companies[32].state",
+      "data_type": "json"
+    }
+  },
+  "a6ca10475bb6541df0927d17680e1691": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 430,
+    "created_at": "2025-12-09T06:23:29.502066",
+    "metadata": {
+      "json_path": "companies[32].notes",
+      "data_type": "json"
+    }
+  },
+  "508d847c8749e38591922e4c7d706055": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[32].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 431,
+    "created_at": "2025-12-09T06:23:29.515472",
+    "metadata": {
+      "json_path": "companies[32].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "f6511e4d257bd9b29fb0a70fe6e29f33": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].firm_name",
+    "text": "firm_name: TISHCO PROPERTIES LLC",
+    "vector_index": 432,
+    "created_at": "2025-12-09T06:23:29.700251",
+    "metadata": {
+      "json_path": "companies[33].firm_name",
+      "data_type": "json"
+    }
+  },
+  "a2753a323d5c770dcea8fd01e9ea445b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].firm_license",
+    "text": "firm_license: 0226034268",
+    "vector_index": 433,
+    "created_at": "2025-12-09T06:23:29.709728",
+    "metadata": {
+      "json_path": "companies[33].firm_license",
+      "data_type": "json"
+    }
+  },
+  "e179abd58902cdd272fc22f9558e7882": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 434,
+    "created_at": "2025-12-09T06:23:29.804612",
+    "metadata": {
+      "json_path": "companies[33].individual_license",
+      "data_type": "json"
+    }
+  },
+  "7f209352e7a853f5c7bdfe403a13e594": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 435,
+    "created_at": "2025-12-09T06:23:29.996796",
+    "metadata": {
+      "json_path": "companies[33].license_type",
+      "data_type": "json"
+    }
+  },
+  "7cc12e1cd748cb63acb0fc4718d5e8f4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 436,
+    "created_at": "2025-12-09T06:23:30.124578",
+    "metadata": {
+      "json_path": "companies[33].firm_type",
+      "data_type": "json"
+    }
+  },
+  "fc90b6ea09e4bb3f2bbca2dc320efbdb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].address",
+    "text": "address: None",
+    "vector_index": 437,
+    "created_at": "2025-12-09T06:23:30.197586",
+    "metadata": {
+      "json_path": "companies[33].address",
+      "data_type": "json"
+    }
+  },
+  "d0e33e821ed1a37e581ca891b39a992a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 438,
+    "created_at": "2025-12-09T06:23:30.202969",
+    "metadata": {
+      "json_path": "companies[33].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "8ddede22f79dc01bffe19ce4b34c113c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 439,
+    "created_at": "2025-12-09T06:23:30.295681",
+    "metadata": {
+      "json_path": "companies[33].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "8aa1df47f7c00c67461cb22d594e97c0": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 440,
+    "created_at": "2025-12-09T06:23:30.303875",
+    "metadata": {
+      "json_path": "companies[33].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "46e3d3e4ebbb6319c371e236c78c6881": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 441,
+    "created_at": "2025-12-09T06:23:30.403458",
+    "metadata": {
+      "json_path": "companies[33].gap_years",
+      "data_type": "json"
+    }
+  },
+  "1767d1897521f0026ac7b003c630598c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].state",
+    "text": "state: VA",
+    "vector_index": 442,
+    "created_at": "2025-12-09T06:23:30.506622",
+    "metadata": {
+      "json_path": "companies[33].state",
+      "data_type": "json"
+    }
+  },
+  "501a132e3cd19a2668295fe88ab4dc95": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 443,
+    "created_at": "2025-12-09T06:23:30.604274",
+    "metadata": {
+      "json_path": "companies[33].notes",
+      "data_type": "json"
+    }
+  },
+  "bc339ef6a27053d8d1adb6f0cc7fa458": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[33].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 444,
+    "created_at": "2025-12-09T06:23:30.609451",
+    "metadata": {
+      "json_path": "companies[33].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "905354599084fed8f7425dafcc6262a1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].firm_name",
+    "text": "firm_name: UIP PROPERTY MANAGEMENT INC",
+    "vector_index": 445,
+    "created_at": "2025-12-09T06:23:30.707233",
+    "metadata": {
+      "json_path": "companies[34].firm_name",
+      "data_type": "json"
+    }
+  },
+  "7d29540534d112304ebd150869e9a097": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].firm_license",
+    "text": "firm_license: 0226035780",
+    "vector_index": 446,
+    "created_at": "2025-12-09T06:23:30.800342",
+    "metadata": {
+      "json_path": "companies[34].firm_license",
+      "data_type": "json"
+    }
+  },
+  "e285b7c3f8248c20ed101adcc2a0381b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 447,
+    "created_at": "2025-12-09T06:23:30.805843",
+    "metadata": {
+      "json_path": "companies[34].individual_license",
+      "data_type": "json"
+    }
+  },
+  "75e1c24929f116daef208c64c8d10edb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 448,
+    "created_at": "2025-12-09T06:23:30.909015",
+    "metadata": {
+      "json_path": "companies[34].license_type",
+      "data_type": "json"
+    }
+  },
+  "8060c4c6ea32ddf8d1ba2be27e886b53": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 449,
+    "created_at": "2025-12-09T06:23:31.099549",
+    "metadata": {
+      "json_path": "companies[34].firm_type",
+      "data_type": "json"
+    }
+  },
+  "3e954c564b6d1011a60cf07a53d6d490": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].address",
+    "text": "address: None",
+    "vector_index": 450,
+    "created_at": "2025-12-09T06:23:31.104276",
+    "metadata": {
+      "json_path": "companies[34].address",
+      "data_type": "json"
+    }
+  },
+  "fc5a256123b143f628ec6acddd76102c": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 451,
+    "created_at": "2025-12-09T06:23:31.109084",
+    "metadata": {
+      "json_path": "companies[34].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "61de314b64fc49b60eaf3792676226fb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 452,
+    "created_at": "2025-12-09T06:23:31.211107",
+    "metadata": {
+      "json_path": "companies[34].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "4877d34db17334901599173b08821bd5": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 453,
+    "created_at": "2025-12-09T06:23:31.310926",
+    "metadata": {
+      "json_path": "companies[34].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "12e7057b81310404edf9fc94a2fdaffb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 454,
+    "created_at": "2025-12-09T06:23:31.412389",
+    "metadata": {
+      "json_path": "companies[34].gap_years",
+      "data_type": "json"
+    }
+  },
+  "919956d8490a7060f3dcbfdb6a3b18ec": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].state",
+    "text": "state: VA",
+    "vector_index": 455,
+    "created_at": "2025-12-09T06:23:31.502174",
+    "metadata": {
+      "json_path": "companies[34].state",
+      "data_type": "json"
+    }
+  },
+  "4be008bb2eefd4712037a82af33ef18f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 456,
+    "created_at": "2025-12-09T06:23:31.514990",
+    "metadata": {
+      "json_path": "companies[34].notes",
+      "data_type": "json"
+    }
+  },
+  "776de71b5fdd3a2093440b2316e81712": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[34].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 457,
+    "created_at": "2025-12-09T06:23:31.606723",
+    "metadata": {
+      "json_path": "companies[34].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "060ad4ffffaa0d568ad433cb8ccc6d38": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].firm_name",
+    "text": "firm_name: WEINSTEIN MANAGEMENT CO INC",
+    "vector_index": 458,
+    "created_at": "2025-12-09T06:23:31.797292",
+    "metadata": {
+      "json_path": "companies[35].firm_name",
+      "data_type": "json"
+    }
+  },
+  "fc24219b9f0712cf293fe86fd7e7d648": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].firm_license",
+    "text": "firm_license: 0226022513",
+    "vector_index": 459,
+    "created_at": "2025-12-09T06:23:31.903368",
+    "metadata": {
+      "json_path": "companies[35].firm_license",
+      "data_type": "json"
+    }
+  },
+  "89a889fcf7d6e6f3accfe97961970933": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 460,
+    "created_at": "2025-12-09T06:23:32.095588",
+    "metadata": {
+      "json_path": "companies[35].individual_license",
+      "data_type": "json"
+    }
+  },
+  "06604184f2e52c251b66b969b071e40b": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 461,
+    "created_at": "2025-12-09T06:23:32.199194",
+    "metadata": {
+      "json_path": "companies[35].license_type",
+      "data_type": "json"
+    }
+  },
+  "0e1763891d09e1f0b75f7b402d81cf8f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].firm_type",
+    "text": "firm_type: Corporation",
+    "vector_index": 462,
+    "created_at": "2025-12-09T06:23:32.298148",
+    "metadata": {
+      "json_path": "companies[35].firm_type",
+      "data_type": "json"
+    }
+  },
+  "746e0a4893bd69532041017259a2a2f3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].address",
+    "text": "address: None",
+    "vector_index": 463,
+    "created_at": "2025-12-09T06:23:32.304442",
+    "metadata": {
+      "json_path": "companies[35].address",
+      "data_type": "json"
+    }
+  },
+  "0c70b908f33c2fd0f9abe1c40d12b666": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 464,
+    "created_at": "2025-12-09T06:23:32.411765",
+    "metadata": {
+      "json_path": "companies[35].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "5fa9ead7d92cb3de77fba45913663dc4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 465,
+    "created_at": "2025-12-09T06:23:32.604983",
+    "metadata": {
+      "json_path": "companies[35].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "5fe1f092d40e65b27835baccfe3b5788": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 466,
+    "created_at": "2025-12-09T06:23:32.695383",
+    "metadata": {
+      "json_path": "companies[35].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "2c74e537348dbd893adcf70f9c69a3a8": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 467,
+    "created_at": "2025-12-09T06:23:32.801202",
+    "metadata": {
+      "json_path": "companies[35].gap_years",
+      "data_type": "json"
+    }
+  },
+  "e555d0db11108867309df9cb5bb869b3": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].state",
+    "text": "state: VA",
+    "vector_index": 468,
+    "created_at": "2025-12-09T06:23:32.810728",
+    "metadata": {
+      "json_path": "companies[35].state",
+      "data_type": "json"
+    }
+  },
+  "29423f88f02bcf0e99ad32b23f9b3471": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 469,
+    "created_at": "2025-12-09T06:23:32.914930",
+    "metadata": {
+      "json_path": "companies[35].notes",
+      "data_type": "json"
+    }
+  },
+  "75eecf9c26ad6d8755b95cde1df36ae4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[35].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 470,
+    "created_at": "2025-12-09T06:23:33.099226",
+    "metadata": {
+      "json_path": "companies[35].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "6a96e1310140e58d620c8686db08540d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].firm_name",
+    "text": "firm_name: MILL CREEK RESIDENTIAL SERVICES LLC",
+    "vector_index": 471,
+    "created_at": "2025-12-09T06:23:33.205562",
+    "metadata": {
+      "json_path": "companies[36].firm_name",
+      "data_type": "json"
+    }
+  },
+  "c85cc14f790414802cfc09fe156e4658": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].firm_license",
+    "text": "firm_license: 0226038480",
+    "vector_index": 472,
+    "created_at": "2025-12-09T06:23:33.214126",
+    "metadata": {
+      "json_path": "companies[36].firm_license",
+      "data_type": "json"
+    }
+  },
+  "9b84e86421f87f8ec1e170530dc68afa": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 473,
+    "created_at": "2025-12-09T06:23:33.495032",
+    "metadata": {
+      "json_path": "companies[36].individual_license",
+      "data_type": "json"
+    }
+  },
+  "03a39854ad6576fbe66f54a351935d6f": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 474,
+    "created_at": "2025-12-09T06:23:33.596899",
+    "metadata": {
+      "json_path": "companies[36].license_type",
+      "data_type": "json"
+    }
+  },
+  "3735b9354a1761ae7ac8af018d431280": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 475,
+    "created_at": "2025-12-09T06:23:33.603469",
+    "metadata": {
+      "json_path": "companies[36].firm_type",
+      "data_type": "json"
+    }
+  },
+  "78b101ab1073ba4907c2e04073a0efa5": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].address",
+    "text": "address: None",
+    "vector_index": 476,
+    "created_at": "2025-12-09T06:23:33.695128",
+    "metadata": {
+      "json_path": "companies[36].address",
+      "data_type": "json"
+    }
+  },
+  "9f10f56602c0c9dfc6c960100d0e294d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 477,
+    "created_at": "2025-12-09T06:23:33.701822",
+    "metadata": {
+      "json_path": "companies[36].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "6026901d245794fd3719f2e37f5fc1f6": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 478,
+    "created_at": "2025-12-09T06:23:33.706989",
+    "metadata": {
+      "json_path": "companies[36].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "2afb7b9e40b818a2c7da6f8f9894616e": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 479,
+    "created_at": "2025-12-09T06:23:33.906233",
+    "metadata": {
+      "json_path": "companies[36].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "615cdb23646215ef0e90a61b9a8a5467": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 480,
+    "created_at": "2025-12-09T06:23:33.915033",
+    "metadata": {
+      "json_path": "companies[36].gap_years",
+      "data_type": "json"
+    }
+  },
+  "43540ffc684ed36635fdf1cfd4ccd669": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].state",
+    "text": "state: VA",
+    "vector_index": 481,
+    "created_at": "2025-12-09T06:23:33.999087",
+    "metadata": {
+      "json_path": "companies[36].state",
+      "data_type": "json"
+    }
+  },
+  "0df61a44f9d82fe26fa1ca03149a3c68": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 482,
+    "created_at": "2025-12-09T06:23:34.005912",
+    "metadata": {
+      "json_path": "companies[36].notes",
+      "data_type": "json"
+    }
+  },
+  "3da32b8220c7ebdbd3d2e664d931273d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[36].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 483,
+    "created_at": "2025-12-09T06:23:34.109211",
+    "metadata": {
+      "json_path": "companies[36].needs_verification",
+      "data_type": "json"
+    }
+  },
+  "79b78924da80855feee60cd5a4706cfb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].firm_name",
+    "text": "firm_name: CAPITAL SQUARE LIVING LLC",
+    "vector_index": 484,
+    "created_at": "2025-12-09T06:23:34.123514",
+    "metadata": {
+      "json_path": "companies[37].firm_name",
+      "data_type": "json"
+    }
+  },
+  "85691a579d7184d202f324944daf0a1a": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].firm_license",
+    "text": "firm_license: 0226038564",
+    "vector_index": 485,
+    "created_at": "2025-12-09T06:23:34.213690",
+    "metadata": {
+      "json_path": "companies[37].firm_license",
+      "data_type": "json"
+    }
+  },
+  "edff0f080b0318e2abf03bd71b4bbfb1": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].individual_license",
+    "text": "individual_license: None",
+    "vector_index": 486,
+    "created_at": "2025-12-09T06:23:34.310629",
+    "metadata": {
+      "json_path": "companies[37].individual_license",
+      "data_type": "json"
+    }
+  },
+  "e4721e7defa460ef0e5c006d4c879eb2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].license_type",
+    "text": "license_type: Real Estate Firm License",
+    "vector_index": 487,
+    "created_at": "2025-12-09T06:23:34.495515",
+    "metadata": {
+      "json_path": "companies[37].license_type",
+      "data_type": "json"
+    }
+  },
+  "56da2a5196a4d9a87320a8b5c0ed94c2": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].firm_type",
+    "text": "firm_type: LLC",
+    "vector_index": 488,
+    "created_at": "2025-12-09T06:23:34.502711",
+    "metadata": {
+      "json_path": "companies[37].firm_type",
+      "data_type": "json"
+    }
+  },
+  "a5080763784fc4899e09c06c92bd6ebb": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].address",
+    "text": "address: None",
+    "vector_index": 489,
+    "created_at": "2025-12-09T06:23:34.507618",
+    "metadata": {
+      "json_path": "companies[37].address",
+      "data_type": "json"
+    }
+  },
+  "2f54f920a8ac7e2dc53ea847be3eca0d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].initial_cert_date",
+    "text": "initial_cert_date: None",
+    "vector_index": 490,
+    "created_at": "2025-12-09T06:23:34.603215",
+    "metadata": {
+      "json_path": "companies[37].initial_cert_date",
+      "data_type": "json"
+    }
+  },
+  "4e7812705924e02ab04848ab0fb9b100": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].expiration_date",
+    "text": "expiration_date: None",
+    "vector_index": 491,
+    "created_at": "2025-12-09T06:23:34.609563",
+    "metadata": {
+      "json_path": "companies[37].expiration_date",
+      "data_type": "json"
+    }
+  },
+  "e913b458076675fa8fc916979663be3d": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].principal_broker",
+    "text": "principal_broker: SKIDMORE CAITLIN MARIE",
+    "vector_index": 492,
+    "created_at": "2025-12-09T06:23:34.700432",
+    "metadata": {
+      "json_path": "companies[37].principal_broker",
+      "data_type": "json"
+    }
+  },
+  "0628f07edef7eeabfdb1e5ae37616a52": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].gap_years",
+    "text": "gap_years: None",
+    "vector_index": 493,
+    "created_at": "2025-12-09T06:23:34.797694",
+    "metadata": {
+      "json_path": "companies[37].gap_years",
+      "data_type": "json"
+    }
+  },
+  "1f0bd19f9657832e6ef31401555afc99": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].state",
+    "text": "state: VA",
+    "vector_index": 494,
+    "created_at": "2025-12-09T06:23:34.911700",
+    "metadata": {
+      "json_path": "companies[37].state",
+      "data_type": "json"
+    }
+  },
+  "387f1e2ded5bf53c13087f53c5e176e4": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].notes",
+    "text": "notes: Extracted from Virginia DPOR Related Licenses tab",
+    "vector_index": 495,
+    "created_at": "2025-12-09T06:23:34.994803",
+    "metadata": {
+      "json_path": "companies[37].notes",
+      "data_type": "json"
+    }
+  },
+  "5d2822b0de6130353e88d78c52bcb8c9": {
+    "source": "json:data/source/skidmore_all_firms_complete.json:companies[37].needs_verification",
+    "text": "needs_verification: True",
+    "vector_index": 496,
+    "created_at": "2025-12-09T06:23:35.001374",
+    "metadata": {
+      "json_path": "companies[37].needs_verification",
+      "data_type": "json"
+    }
   }
 }

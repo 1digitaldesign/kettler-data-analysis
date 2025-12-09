@@ -7,7 +7,7 @@ library(dplyr)
 library(stringr)
 
 # Configuration
-if (file.exists("research/all_entities_extracted.json")) {
+if (file.exists("research/evidence/all_entities_extracted.json")) {
   PROJECT_ROOT <- getwd()
 } else {
   current_dir <- getwd()
@@ -53,7 +53,7 @@ search_dpor_all_states <- function(targets) {
   results <- list()
 
   # Load state registry if available
-  registry_file <- file.path(PROJECT_ROOT, "state_dpor_registry.csv")
+  registry_file <- file.path(PROJECT_ROOT, "config/state_dpor_registry.csv")
   if (file.exists(registry_file)) {
     registry <- read.csv(registry_file, stringsAsFactors = FALSE)
     cat("Loaded", nrow(registry), "states\n")

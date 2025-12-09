@@ -14,8 +14,13 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Configuration
-DATA_DIR = Path("data/raw")
-CLEANED_DIR = Path("data/cleaned")
+# Get project root (parent of bin directory)
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(script_dir)
+
+DATA_DIR = Path(project_root) / "data" / "raw"
+CLEANED_DIR = Path(project_root) / "data" / "cleaned"
 CLEANED_DIR.mkdir(parents=True, exist_ok=True)
 
 # Initialize Hugging Face models for NER and text processing

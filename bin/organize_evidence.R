@@ -6,12 +6,8 @@ library(dplyr)
 library(jsonlite)
 library(stringr)
 
-# Configuration
-PROJECT_ROOT <- getwd()
-EVIDENCE_DIR <- file.path(PROJECT_ROOT, "evidence")
-RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-FILINGS_DIR <- file.path(PROJECT_ROOT, "filings")
-DATA_DIR <- file.path(PROJECT_ROOT, "data")
+# Load path utilities
+source(file.path(dirname(normalizePath(commandArgs()[4])), "load_paths.R"))
 
 # Helper functions
 is_valid_df <- function(df) !is.null(df) && is.data.frame(df) && nrow(df) > 0
@@ -27,21 +23,24 @@ load_all_data <- function() {
   data <- list()
 
   # Load Skidmore firm data
-  source_dir <- file.path(DATA_DIR, "source")
-  firms_file <- if (file.exists(file.path(source_dir, "skidmore_all_firms_complete.csv"))) {
-    file.path(source_dir, "skidmore_all_firms_complete.csv")
-  } else if (file.exists("skidmore_all_firms_complete.csv")) {
-    "skidmore_all_firms_complete.csv"
-  } else NULL
-
-  if (!is.null(firms_file) && file.exists(firms_file)) {
-    data$firms <- read.csv(firms_file, stringsAsFactors = FALSE)
+  firms_file <- file.path(DATA_SOURCE_DIR, "skidmore_all_firms_complete.csv")
+  if (!file.exists(firms_file)) {
+    # Try JSON version
+    firms_file <- file.path(DATA_SOURCE_DIR, "skidmore_all_firms_complete.json")
+  }
+  
+  if (file.exists(firms_file)) {
+    if (grepl("\\.json$", firms_file)) {
+      data$firms <- fromJSON(firms_file)
+    } else {
+      data$firms <- read.csv(firms_file, stringsAsFactors = FALSE)
+    }
   }
 
   # Load connections and PDF evidence
   for (file_info in list(
-    list(path = file.path(DATA_DIR, "analysis", "dpor_skidmore_connections.csv"), key = "connections"),
-    list(path = file.path(RESEARCH_DIR, "pdf_evidence_extracted.json"), key = "pdf_evidence", json = TRUE)
+    list(path = file.path(DATA_ANALYSIS_DIR, "dpor_skidmore_connections.csv"), key = "connections"),
+    list(path = file.path(RESEARCH_EVIDENCE_DIR, "pdf_evidence_extracted.json"), key = "pdf_evidence", json = TRUE)
   )) {
     if (file.exists(file_info$path)) {
       data[[file_info$key]] <- if (isTRUE(file_info$json)) fromJSON(file_info$path) else read.csv(file_info$path, stringsAsFactors = FALSE)

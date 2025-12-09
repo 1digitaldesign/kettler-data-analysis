@@ -7,7 +7,7 @@ library(dplyr)
 library(stringr)
 
 # Configuration
-if (file.exists("research/kettler_verification.json")) {
+if (file.exists("research/verification/kettler_verification.json")) {
   PROJECT_ROOT <- getwd()
 } else if (file.exists("../research/kettler_verification.json")) {
   PROJECT_ROOT <- normalizePath("..")

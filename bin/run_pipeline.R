@@ -2,6 +2,9 @@
 # Master Pipeline Runner
 # Executes the complete DPOR search and analysis pipeline
 
+# Load path utilities
+source(file.path(dirname(normalizePath(commandArgs()[4])), "load_paths.R"))
+
 cat("========================================\n")
 cat("DPOR Multi-State License Search Pipeline\n")
 cat("========================================\n\n")
@@ -12,7 +15,7 @@ cat("This may take a while (searches 50 states x multiple firms/names)...\n")
 cat("Press Ctrl+C to cancel, or wait to continue...\n")
 Sys.sleep(5)
 
-source("search_multi_state_dpor.R")
+source_bin("search_states.R")
 tryCatch({
   main_multi_state()
   cat("✓ Search complete\n\n")
@@ -29,7 +32,8 @@ python_cmd <- if (system("which python3 > /dev/null 2>&1", ignore.stdout = TRUE,
 } else {
   "python"
 }
-system_result <- system(paste(python_cmd, "clean_dpor_data.py"), intern = TRUE)
+clean_script <- file.path(BIN_DIR, "clean_data.py")
+system_result <- system(paste(python_cmd, clean_script), intern = TRUE)
 exit_code <- attr(system_result, "status")
 if (!is.null(exit_code) && exit_code != 0) {
   cat("✗ Data cleaning failed with exit code:", exit_code, "\n")
@@ -48,7 +52,7 @@ if (!is.null(exit_code) && exit_code != 0) {
 
 # Step 3: Analyze connections
 cat("STEP 3: Analyzing connections...\n")
-source("analyze_skidmore_connections.R")
+source_bin("analyze_connections.R")
 tryCatch({
   main_analysis()
   cat("✓ Connection analysis complete\n\n")
@@ -58,7 +62,7 @@ tryCatch({
 
 # Step 4: Validate data quality
 cat("STEP 4: Validating data quality...\n")
-source("validate_data_quality.R")
+source_bin("validate_data.R")
 tryCatch({
   main_validation()
   cat("✓ Data validation complete\n\n")

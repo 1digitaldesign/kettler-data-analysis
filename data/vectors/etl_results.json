@@ -16,8 +16,8 @@
     "total_embeddings": 0
   },
   "source": {
-    "csv": 3,
-    "json": 1,
+    "csv": 2,
+    "json": 2,
     "pdf": 0,
     "excel": 0,
     "total_files": 4,
@@ -51,8 +51,8 @@
     "total_files": 87,
     "total_embeddings": 0,
     "vector_store_stats": {
-      "total_embeddings": 4,
-      "vector_store_size": 4,
+      "total_embeddings": 497,
+      "vector_store_size": 497,
       "model": "all-MiniLM-L6-v2",
       "dimension": 384
     }

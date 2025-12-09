@@ -6,11 +6,11 @@ library(dplyr)
 library(stringr)
 library(data.table)
 
-# Configuration
-DATA_DIR <- "data"
-CLEANED_DIR <- file.path(DATA_DIR, "cleaned")
-ANALYSIS_DIR <- file.path(DATA_DIR, "analysis")
-dir.create(ANALYSIS_DIR, showWarnings = FALSE, recursive = TRUE)
+# Load path utilities
+source(file.path(dirname(normalizePath(commandArgs()[4])), "load_paths.R"))
+
+# Ensure analysis directory exists
+dir.create(DATA_ANALYSIS_DIR, showWarnings = FALSE, recursive = TRUE)
 
 # Validate license number formats
 validate_license_numbers <- function(df) {

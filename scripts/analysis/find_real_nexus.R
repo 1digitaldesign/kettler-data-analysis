@@ -11,7 +11,7 @@ is_valid_df <- function(df) !is.null(df) && is.data.frame(df) && nrow(df) > 0
 has_cols <- function(df, cols) is_valid_df(df) && all(cols %in% names(df))
 
 # Configuration
-if (file.exists("research/all_entities_extracted.json")) {
+if (file.exists("research/evidence/all_entities_extracted.json")) {
   PROJECT_ROOT <- getwd()
 } else {
   current_dir <- getwd()

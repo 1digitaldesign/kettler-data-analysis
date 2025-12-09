@@ -29,7 +29,7 @@ log_message <- function(message) {
 
 # Load state registry
 load_state_registry <- function() {
-  registry_file <- "state_dpor_registry.csv"
+  registry_file <- "config/state_dpor_registry.csv"
   if (!file.exists(registry_file)) {
     stop(paste("Cannot find state_dpor_registry.csv in current directory:", getwd()))
   }

@@ -8,7 +8,7 @@ library(stringr)
 
 # Configuration
 # Determine project root - script may be run from different locations
-if (file.exists("research/hyland_verification.json")) {
+if (file.exists("research/verification/hyland_verification.json")) {
   PROJECT_ROOT <- getwd()
 } else if (file.exists("../research/hyland_verification.json")) {
   PROJECT_ROOT <- normalizePath("..")

@@ -9,7 +9,7 @@ library(jsonlite)
 library(stringr)
 
 # Configuration
-if (file.exists("state_dpor_registry.csv")) {
+if (file.exists("config/state_dpor_registry.csv")) {
   PROJECT_ROOT <- getwd()
 } else if (file.exists("../state_dpor_registry.csv")) {
   PROJECT_ROOT <- normalizePath("..")
@@ -21,7 +21,7 @@ if (file.exists("state_dpor_registry.csv")) {
   PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_dir else getwd()
 }
 
-REGISTRY_FILE <- file.path(PROJECT_ROOT, "state_dpor_registry.csv")
+REGISTRY_FILE <- file.path(PROJECT_ROOT, "config/state_dpor_registry.csv")
 OUTPUT_DIR <- file.path(PROJECT_ROOT, "research")
 OUTPUT_FILE <- file.path(OUTPUT_DIR, "hyland_license_search_all_states.json")
 

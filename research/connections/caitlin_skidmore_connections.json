@@ -85,6 +85,15 @@
     "address_pattern": "Frisco, TX address (5729 Lebanon Rd Suite 144553) appears in multiple contexts",
     "multi_state_licensing": "Found licenses/connections in Texas, Nevada, Virginia",
     "professional_networks": "NARPM membership, multiple brokerage associations",
+    "false_positives": {
+      "moore_kristen_jones": {
+        "license_number": "0225273940",
+        "status": "investigated_and_ruled_out",
+        "reason": "No connection - legitimate real estate salesperson at Long & Foster Real Estate Inc",
+        "investigation_date": "2025-12-08",
+        "details": "License appeared in initial search due to numerical proximity and recent licensing date. Comprehensive investigation confirmed no connection to Skidmore, property management companies, or shell company structure."
+      }
+    },
     "next_steps": [
       "Search for Liddy Bisanz and Leah Douthit (Lariat Realty Advisors brokers)",
       "Investigate Fairfield Property Management Inc",

@@ -5,7 +5,7 @@
 library(jsonlite)
 
 # Configuration
-if (file.exists("research/all_entities_extracted.json")) {
+if (file.exists("research/evidence/all_entities_extracted.json")) {
   PROJECT_ROOT <- getwd()
 } else {
   current_dir <- getwd()

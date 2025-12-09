@@ -39,7 +39,7 @@ load_individuals <- function() {
 
 # Load state registry
 load_state_registry <- function() {
-  registry_file <- file.path(PROJECT_ROOT, "state_dpor_registry.csv")
+  registry_file <- file.path(PROJECT_ROOT, "config/state_dpor_registry.csv")
   if (file.exists(registry_file)) {
     return(read.csv(registry_file, stringsAsFactors = FALSE))
   }

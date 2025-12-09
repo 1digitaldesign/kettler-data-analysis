@@ -9,38 +9,34 @@ if (!require(data.table, quietly = TRUE)) {
 }
 library(jsonlite)
 
-# Configuration
-DATA_DIR <- "data"
-CLEANED_DIR <- file.path(DATA_DIR, "cleaned")
-ANALYSIS_DIR <- file.path(DATA_DIR, "analysis")
-dir.create(ANALYSIS_DIR, showWarnings = FALSE, recursive = TRUE)
+# Load path utilities
+source(file.path(dirname(normalizePath(commandArgs()[4])), "load_paths.R"))
+
+# Ensure analysis directory exists
+dir.create(DATA_ANALYSIS_DIR, showWarnings = FALSE, recursive = TRUE)
 
 # Load existing Skidmore data
 load_skidmore_data <- function() {
-  # Check for files in new location first, then fallback to root
-  source_dir <- file.path(DATA_DIR, "source")
-  firms_file <- if (file.exists(file.path(source_dir, "skidmore_all_firms_complete.csv"))) {
-    file.path(source_dir, "skidmore_all_firms_complete.csv")
-  } else if (file.exists("skidmore_all_firms_complete.csv")) {
-    "skidmore_all_firms_complete.csv"
-  } else {
-    stop("Cannot find skidmore_all_firms_complete.csv in data/source/ or root directory")
+  # Try CSV first, then JSON
+  firms_file <- file.path(DATA_SOURCE_DIR, "skidmore_all_firms_complete.csv")
+  if (!file.exists(firms_file)) {
+    firms_file <- file.path(DATA_SOURCE_DIR, "skidmore_all_firms_complete.json")
+  }
+  if (!file.exists(firms_file)) {
+    stop(paste("Cannot find skidmore_all_firms_complete.csv/json in", DATA_SOURCE_DIR))
   }
 
-  firms_db_file <- if (file.exists(file.path(source_dir, "skidmore_firms_database.csv"))) {
-    file.path(source_dir, "skidmore_firms_database.csv")
-  } else if (file.exists("skidmore_firms_database.csv")) {
-    "skidmore_firms_database.csv"
-  } else {
-    stop("Cannot find skidmore_firms_database.csv in data/source/ or root directory")
+  firms_db_file <- file.path(DATA_SOURCE_DIR, "skidmore_firms_database.csv")
+  if (!file.exists(firms_db_file)) {
+    stop(paste("Cannot find skidmore_firms_database.csv in", DATA_SOURCE_DIR))
   }
 
-  licenses_file <- if (file.exists(file.path(source_dir, "skidmore_individual_licenses.csv"))) {
-    file.path(source_dir, "skidmore_individual_licenses.csv")
-  } else if (file.exists("skidmore_individual_licenses.csv")) {
-    "skidmore_individual_licenses.csv"
-  } else {
-    stop("Cannot find skidmore_individual_licenses.csv in data/source/ or root directory")
+  licenses_file <- file.path(DATA_SOURCE_DIR, "skidmore_individual_licenses.csv")
+  if (!file.exists(licenses_file)) {
+    licenses_file <- file.path(DATA_SOURCE_DIR, "skidmore_individual_licenses.json")
+  }
+  if (!file.exists(licenses_file)) {
+    stop(paste("Cannot find skidmore_individual_licenses.csv/json in", DATA_SOURCE_DIR))
   }
 
   firms_complete <- read.csv(firms_file, stringsAsFactors = FALSE)
