@@ -186,7 +186,8 @@ create_filing_evidence_summary <- function(data, cross_ref) {
   )
 
   # Address connections
-  if (!is.null(data$firms)) {
+  if (!is.null(data$firms) && is.data.frame(data$firms) && nrow(data$firms) > 0 &&
+      "Address" %in% names(data$firms) && "Firm.Name" %in% names(data$firms)) {
     summary$address_analysis <- data$firms %>%
       group_by(Address) %>%
       summarise(
@@ -199,7 +200,8 @@ create_filing_evidence_summary <- function(data, cross_ref) {
   }
 
   # Timeline analysis
-  if (!is.null(data$firms)) {
+  if (!is.null(data$firms) && is.data.frame(data$firms) && nrow(data$firms) > 0 &&
+      "Firm.Name" %in% names(data$firms) && "Gap.Years" %in% names(data$firms)) {
     summary$timeline_issues <- data$firms %>%
       select(Firm.Name, Initial.Cert.Date, Skidmore.License.Date, Gap.Years) %>%
       filter(Gap.Years > 0) %>%
@@ -314,7 +316,8 @@ main_organize <- function() {
   } else {
     cat("  No firms matched PDF address (checking manually...)\n")
     # Manual check
-    if (!is.null(data$firms)) {
+    if (!is.null(data$firms) && is.data.frame(data$firms) && nrow(data$firms) > 0 &&
+        "Address" %in% names(data$firms)) {
       kettler_match <- data$firms %>% filter(grepl("8255", Address) & grepl("MCLEAN", Address, ignore.case = TRUE))
       if (nrow(kettler_match) > 0) {
         cat("  Manual check found:", kettler_match$Firm.Name[1], "\n")

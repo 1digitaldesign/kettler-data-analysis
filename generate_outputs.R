@@ -55,15 +55,20 @@ generate_summary_csvs <- function() {
     validated <- read.csv(validated_file, stringsAsFactors = FALSE)
 
     # High-quality records only
-    high_quality <- validated %>%
-      filter(
-        (license_valid == TRUE | is.na(license_valid)),
-        (address_valid == TRUE | is.na(address_valid)),
-        (is_duplicate == FALSE | is.na(is_duplicate))
-      )
+    if (nrow(validated) > 0 && "license_valid" %in% names(validated) &&
+        "address_valid" %in% names(validated) && "is_duplicate" %in% names(validated)) {
+      high_quality <- validated %>%
+        filter(
+          (license_valid == TRUE | is.na(license_valid)),
+          (address_valid == TRUE | is.na(address_valid)),
+          (is_duplicate == FALSE | is.na(is_duplicate))
+        )
 
-    write.csv(high_quality, "dpor_high_quality_records.csv", row.names = FALSE)
-    cat("Saved high-quality records to: dpor_high_quality_records.csv\n")
+      write.csv(high_quality, "dpor_high_quality_records.csv", row.names = FALSE)
+      cat("Saved high-quality records to: dpor_high_quality_records.csv\n")
+    } else {
+      cat("Warning: Validated file exists but is empty or missing required columns\n")
+    }
   }
 }
 
