@@ -368,18 +368,18 @@ async def get_file_info(file_id: str):
     """Get file information"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         file_metadata = drive_client.files().get(
             fileId=file_id,
             fields="id, name, mimeType, size, modifiedTime, createdTime, parents, webViewLink, webContentLink"
         ).execute()
-        
+
         return {
             "status": "success",
             "file": file_metadata
         }
-    
+
     except Exception as e:
         logger.error(f"Error getting file info: {e}")
         raise HTTPException(status_code=500, detail=str(e))
@@ -392,7 +392,7 @@ class CreateFileRequest(BaseModel):
     content: Optional[str] = None
     file_path: Optional[str] = None
     mime_type: str = Field("text/plain", max_length=100)
-    
+
     @validator('file_name')
     def validate_file_name(cls, v):
         return validate_string(v, "file_name", min_length=1, max_length=255)
@@ -405,7 +405,7 @@ class UpdateFileRequest(BaseModel):
     content: Optional[str] = None
     file_path: Optional[str] = None
     mime_type: Optional[str] = Field(None, max_length=100)
-    
+
     @validator('file_id')
     def validate_file_id(cls, v):
         return validate_string(v, "file_id", min_length=1, max_length=100)
@@ -422,16 +422,16 @@ async def create_file(request: CreateFileRequest):
     """Create a new file in Google Drive"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         # Prepare file metadata
         file_metadata = {
             'name': request.file_name
         }
-        
+
         if request.folder_id:
             file_metadata['parents'] = [request.folder_id]
-        
+
         # Prepare file content
         if request.file_path:
             # Upload from file path
@@ -455,20 +455,20 @@ async def create_file(request: CreateFileRequest):
                 mimetype=request.mime_type,
                 resumable=True
             )
-        
+
         # Create file
         file = drive_client.files().create(
             body=file_metadata,
             media_body=media,
             fields='id, name, mimeType, size, parents, webViewLink'
         ).execute()
-        
+
         return {
             "status": "success",
             "file": file,
             "message": f"File '{request.file_name}' created successfully"
         }
-    
+
     except Exception as e:
         logger.error(f"Error creating file: {e}")
         raise HTTPException(status_code=500, detail=str(e))
@@ -485,13 +485,13 @@ async def update_file(request: UpdateFileRequest):
     """Update an existing file in Google Drive"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         # Prepare file metadata
         file_metadata = {}
         if request.file_name:
             file_metadata['name'] = request.file_name
-        
+
         # Prepare file content if provided
         media = None
         if request.file_path:
@@ -511,7 +511,7 @@ async def update_file(request: UpdateFileRequest):
                 mimetype=mime_type,
                 resumable=True
             )
-        
+
         # Update file
         if media:
             # Update both metadata and content
@@ -528,13 +528,13 @@ async def update_file(request: UpdateFileRequest):
                 body=file_metadata,
                 fields='id, name, mimeType, size, modifiedTime, webViewLink'
             ).execute()
-        
+
         return {
             "status": "success",
             "file": file,
             "message": f"File '{request.file_id}' updated successfully"
         }
-    
+
     except Exception as e:
         logger.error(f"Error updating file: {e}")
         raise HTTPException(status_code=500, detail=str(e))
@@ -551,25 +551,25 @@ async def delete_file(file_id: str):
     """Delete a file from Google Drive"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         # Get file info before deletion
         file_info = drive_client.files().get(
             fileId=file_id,
             fields="id, name"
         ).execute()
-        
+
         file_name = file_info.get('name', file_id)
-        
+
         # Delete file
         drive_client.files().delete(fileId=file_id).execute()
-        
+
         return {
             "status": "success",
             "message": f"File '{file_name}' deleted successfully",
             "file_id": file_id
         }
-    
+
     except Exception as e:
         logger.error(f"Error deleting file: {e}")
         raise HTTPException(status_code=500, detail=str(e))
@@ -580,11 +580,11 @@ class MoveFileRequest(BaseModel):
     file_id: str = Field(..., min_length=1, max_length=100)
     target_folder_id: str = Field(..., min_length=1, max_length=100)
     remove_from_previous: bool = True
-    
+
     @validator('file_id')
     def validate_file_id(cls, v):
         return validate_string(v, "file_id", min_length=1, max_length=100)
-    
+
     @validator('target_folder_id')
     def validate_target_folder_id(cls, v):
         return validate_string(v, "target_folder_id", min_length=1, max_length=100)
@@ -595,16 +595,16 @@ async def move_file(request: MoveFileRequest):
     """Move a file to a different folder"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         # Get current parents
         file_info = drive_client.files().get(
             fileId=request.file_id,
             fields="parents"
         ).execute()
-        
+
         previous_parents = ",".join(file_info.get('parents', []))
-        
+
         # Move file
         file = drive_client.files().update(
             fileId=request.file_id,
@@ -612,13 +612,13 @@ async def move_file(request: MoveFileRequest):
             removeParents=previous_parents if request.remove_from_previous else None,
             fields='id, name, parents'
         ).execute()
-        
+
         return {
             "status": "success",
             "file": file,
             "message": f"File moved to folder '{request.target_folder_id}'"
         }
-    
+
     except Exception as e:
         logger.error(f"Error moving file: {e}")
         raise HTTPException(status_code=500, detail=str(e))
@@ -629,7 +629,7 @@ class CopyFileRequest(BaseModel):
     file_id: str = Field(..., min_length=1, max_length=100)
     new_name: Optional[str] = None
     target_folder_id: Optional[str] = None
-    
+
     @validator('file_id')
     def validate_file_id(cls, v):
         return validate_string(v, "file_id", min_length=1, max_length=100)
@@ -640,7 +640,7 @@ async def copy_file(request: CopyFileRequest):
     """Copy a file in Google Drive"""
     if not drive_client:
         raise HTTPException(status_code=503, detail="Google Drive client not initialized")
-    
+
     try:
         # Prepare copy metadata
         copy_metadata = {}
@@ -648,20 +648,20 @@ async def copy_file(request: CopyFileRequest):
             copy_metadata['name'] = request.new_name
         if request.target_folder_id:
             copy_metadata['parents'] = [request.target_folder_id]
-        
+
         # Copy file
         copied_file = drive_client.files().copy(
             fileId=request.file_id,
             body=copy_metadata,
             fields='id, name, mimeType, size, parents, webViewLink'
         ).execute()
-        
+
         return {
             "status": "success",
             "file": copied_file,
             "message": f"File copied successfully"
         }
-    
+
     except Exception as e:
         logger.error(f"Error copying file: {e}")
         raise HTTPException(status_code=500, detail=str(e))

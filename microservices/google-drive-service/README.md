@@ -9,14 +9,14 @@ Microservice for Google Drive operations in the Kettler Data Analysis system.
   - Download files from Google Drive
   - Export Google Docs/Sheets to various formats (PDF, DOCX, CSV, etc.)
   - Get file information
-  
+
 - **Write Operations (CRUD):**
   - Create files (from content or file path)
   - Update files (metadata and/or content)
   - Delete files
   - Move files between folders
   - Copy files
-  
+
 - **Additional Features:**
   - Full input validation
   - Redundancy and fallback mechanisms
