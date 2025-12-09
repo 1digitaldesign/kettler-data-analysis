@@ -16,7 +16,7 @@ if (file.exists(file.path(current_dir, "research", "all_individuals_identified.j
 }
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "bar_association_verification_all.json")
+OUTPUT_FILE <- file.path(RESEARCH_VERIFICATION_DIR, "bar_association_verification_all.json")
 
 # State bar association URLs (framework)
 STATE_BAR_URLS <- list(

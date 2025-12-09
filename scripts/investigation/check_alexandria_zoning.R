@@ -11,7 +11,7 @@ while (!file.exists(file.path(current_dir, "README.md")) && current_dir != "/") 
 PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_dir else getwd()
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "alexandria_zoning_analysis.json")
+OUTPUT_FILE <- file.path(RESEARCH_EVIDENCE_DIR, "alexandria_zoning_analysis.json")
 
 # Alexandria zoning URLs
 ALEXANDRIA_ZONING_URLS <- list(

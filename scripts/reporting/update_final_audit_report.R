@@ -12,7 +12,7 @@ while (!file.exists(file.path(current_dir, "README.md")) && current_dir != "/") 
 PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_dir else getwd()
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "FINAL_COMPREHENSIVE_AUDIT_REPORT.md")
+OUTPUT_FILE <- file.path(RESEARCH_SUMMARIES_DIR, "FINAL_COMPREHENSIVE_AUDIT_REPORT.md")
 
 update_final_audit_report <- function() {
   cat("=== Update Final Comprehensive Audit Report ===\n")

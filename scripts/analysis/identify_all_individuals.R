@@ -19,7 +19,7 @@ if (file.exists("research/evidence/all_entities_extracted.json")) {
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
 EVIDENCE_DIR <- file.path(PROJECT_ROOT, "evidence")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "all_individuals_identified.json")
+OUTPUT_FILE <- file.path(RESEARCH_EVIDENCE_DIR, "all_individuals_identified.json")
 
 # Extract names from PDF evidence
 extract_names_from_pdfs <- function() {

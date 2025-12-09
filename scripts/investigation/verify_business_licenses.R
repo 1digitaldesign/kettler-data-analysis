@@ -11,7 +11,7 @@ while (!file.exists(file.path(current_dir, "README.md")) && current_dir != "/") 
 PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_dir else getwd()
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "business_license_verification.json")
+OUTPUT_FILE <- file.path(RESEARCH_VERIFICATION_DIR, "business_license_verification.json")
 
 BUSINESS_LICENSE_URL <- "https://www.alexandriava.gov/business/info/default.aspx?id=106430"
 ENTITIES_TO_CHECK <- c("Kettler Management Inc", "Kettler Management", "800 Carlyle LLC")

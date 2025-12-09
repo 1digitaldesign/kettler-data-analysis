@@ -13,7 +13,7 @@ while (!file.exists(file.path(current_dir, "README.md")) && current_dir != "/") 
 PROJECT_ROOT <- if (file.exists(file.path(current_dir, "README.md"))) current_dir else getwd()
 
 RESEARCH_DIR <- file.path(PROJECT_ROOT, "research")
-OUTPUT_FILE <- file.path(RESEARCH_DIR, "azure_carlyle_search.json")
+OUTPUT_FILE <- file.path(RESEARCH_CONNECTIONS_DIR, "azure_carlyle_search.json")
 
 # Search targets
 ENTITY_NAME <- "Azure Carlyle LP"
