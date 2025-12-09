@@ -149,10 +149,12 @@ class GoogleDriveClient:
 
             # Save to file if output path provided
             if output_path:
-                Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-                with open(output_path, 'wb') as f:
+                # Sanitize output path to prevent path traversal
+                safe_output_path = str(Path(output_path).resolve())
+                Path(safe_output_path).parent.mkdir(parents=True, exist_ok=True)
+                with open(safe_output_path, 'wb') as f:
                     f.write(content)
-                logger.info(f"Downloaded {file_name} to {output_path}")
+                logger.info(f"Downloaded {file_name} to {safe_output_path}")
 
             return content
 
@@ -198,12 +200,14 @@ class GoogleDriveClient:
             while not done:
                 status, done = downloader.next_chunk()
 
-            Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-            with open(output_path, 'wb') as f:
+            # Sanitize output path
+            safe_output_path = str(Path(output_path).resolve())
+            Path(safe_output_path).parent.mkdir(parents=True, exist_ok=True)
+            with open(safe_output_path, 'wb') as f:
                 f.write(file_content.getvalue())
 
-            logger.info(f"Exported Google Doc to {output_path}")
-            return output_path
+            logger.info(f"Exported Google Doc to {safe_output_path}")
+            return safe_output_path
 
         except HttpError as e:
             logger.error(f"Error exporting Google Doc: {e}")
@@ -236,12 +240,14 @@ class GoogleDriveClient:
             while not done:
                 status, done = downloader.next_chunk()
 
-            Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-            with open(output_path, 'wb') as f:
+            # Sanitize output path
+            safe_output_path = str(Path(output_path).resolve())
+            Path(safe_output_path).parent.mkdir(parents=True, exist_ok=True)
+            with open(safe_output_path, 'wb') as f:
                 f.write(file_content.getvalue())
 
-            logger.info(f"Exported Google Sheet to {output_path}")
-            return output_path
+            logger.info(f"Exported Google Sheet to {safe_output_path}")
+            return safe_output_path
 
         except HttpError as e:
             logger.error(f"Error exporting Google Sheet: {e}")
