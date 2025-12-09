@@ -219,6 +219,9 @@ multi_firm_addresses = {addr: firms_list
 
 - **Schema Definition:** [`SCHEMA.md`](./SCHEMA.md)
 - **JSON Schema:** [`schema.json`](./schema.json)
+- **Data Ontology:** [`DATA_ONTOLOGY.md`](./DATA_ONTOLOGY.md) - Concepts, relationships, and terminology
+- **Data Architecture:** [`DATA_ARCHITECTURE.md`](./DATA_ARCHITECTURE.md) - Architecture layers, patterns, and best practices
+- **Quick Reference:** [`QUICK_REFERENCE.md`](./QUICK_REFERENCE.md)
 - **Project README:** [`../README.md`](../README.md)
 
 ## ⚠️ Notes
