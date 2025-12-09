@@ -179,6 +179,120 @@ services:
       timeout: 10s
       retries: 3
       start_period: 40s
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.25'
+          memory: 256M
+
+  # API Gateway - Single entry point for all services
+  api-gateway:
+    build:
+      context: .
+      dockerfile: docker/python-etl/Dockerfile
+    command: python scripts/microservices/api_gateway.py
+    volumes:
+      - ./scripts:/app/scripts
+    ports:
+      - "8081:8080"
+    environment:
+      - PYTHONPATH=/app
+      - GATEWAY_PORT=8080
+      - VECTOR_API_SERVICE=http://vector-api:8000
+      - R_API_SERVICE=http://r-api:8001
+      - PYTHON_ETL_SERVICE=http://python-etl:8000
+    networks:
+      - kettler-network
+    restart: unless-stopped
+    depends_on:
+      - vector-api
+      - service-discovery
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+
+  # Message Queue - Async message processing
+  message-queue:
+    build:
+      context: .
+      dockerfile: docker/python-etl/Dockerfile
+    command: python scripts/microservices/message_queue.py
+    volumes:
+      - ./scripts:/app/scripts
+    ports:
+      - "8082:8082"
+    environment:
+      - PYTHONPATH=/app
+      - MESSAGE_QUEUE_PORT=8082
+    networks:
+      - kettler-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8082/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.25'
+          memory: 256M
+
+  # Metrics Collector - Collects metrics from all services
+  metrics-collector:
+    build:
+      context: .
+      dockerfile: docker/python-etl/Dockerfile
+    command: python scripts/microservices/metrics_collector.py
+    volumes:
+      - ./scripts:/app/scripts
+    ports:
+      - "8083:8083"
+    environment:
+      - PYTHONPATH=/app
+      - METRICS_COLLECTOR_PORT=8083
+      - METRICS_COLLECTION_INTERVAL=30
+      - VECTOR_API_SERVICE=http://vector-api:8000
+      - SERVICE_DISCOVERY_URL=http://service-discovery:8080
+      - API_GATEWAY_URL=http://api-gateway:8080
+      - MESSAGE_QUEUE_URL=http://message-queue:8082
+    networks:
+      - kettler-network
+    restart: unless-stopped
+    depends_on:
+      - service-discovery
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.25'
+          memory: 256M
 
 networks:
   kettler-network:
