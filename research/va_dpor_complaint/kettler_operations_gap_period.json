@@ -1,0 +1,110 @@
+{
+  "research_date": "2025-12-09",
+  "priority": "PRIORITY 1.2: Kettler Operations During Gap Period",
+  "gap_period": {
+    "start_date": "2014-10-31",
+    "end_date": "2025-04-03",
+    "duration_years": 10.5
+  },
+  "objective": "Quantify scope of operations without principal broker supervision",
+  "data_collection_status": "in_progress",
+  "virginia_properties": {
+    "known_properties": [
+      {
+        "property_name": "800 Carlyle Apartments",
+        "address": "800 John Carlyle Street, Alexandria, VA 22314",
+        "jurisdiction": "City of Alexandria",
+        "units": "unknown",
+        "management_start": "unknown",
+        "management_end": "present",
+        "evidence_sources": [
+          "Lease termination documents",
+          "Email correspondence (Carlyle.PM@kettler.com)"
+        ]
+      },
+      {
+        "property_name": "850 Carlyle Apartments",
+        "address": "850 John Carlyle Street, Alexandria, VA 22314",
+        "jurisdiction": "City of Alexandria",
+        "units": "unknown",
+        "management_start": "unknown",
+        "management_end": "present",
+        "evidence_sources": [
+          "Short-term rental listings",
+          "Evidence files"
+        ]
+      },
+      {
+        "property_name": "Sinclaire on Seminary",
+        "address": "4900 Seminary Road, Alexandria, VA 22311",
+        "jurisdiction": "City of Alexandria",
+        "units": "unknown",
+        "management_start": "unknown",
+        "management_end": "present",
+        "evidence_sources": [
+          "LinkedIn posts by Edward Hyland",
+          "Property management records"
+        ]
+      }
+    ],
+    "properties_to_research": [
+      "Fairfax County properties",
+      "Arlington County properties",
+      "Other Alexandria properties",
+      "Prince William County properties",
+      "Loudoun County properties"
+    ]
+  },
+  "data_sources": {
+    "property_records": {
+      "status": "pending",
+      "jurisdictions": [
+        "City of Alexandria",
+        "Fairfax County",
+        "Arlington County",
+        "Prince William County",
+        "Loudoun County"
+      ],
+      "search_methods": [
+        "Property tax records",
+        "Business license records",
+        "Rental property registrations"
+      ]
+    },
+    "business_license_records": {
+      "status": "pending",
+      "sources": [
+        "Virginia SCC (State Corporation Commission)",
+        "Local business license databases"
+      ]
+    },
+    "real_estate_transactions": {
+      "status": "pending",
+      "sources": [
+        "Property management contracts",
+        "Lease transaction records"
+      ]
+    },
+    "corporate_filings": {
+      "status": "pending",
+      "sources": [
+        "Virginia SCC filings",
+        "Delaware SOS filings (if applicable)"
+      ]
+    }
+  },
+  "estimated_scope": {
+    "total_units_claimed": 22000,
+    "virginia_units_estimate": "unknown - research needed",
+    "properties_managed_estimate": "unknown - research needed",
+    "lease_transactions_estimate": "unknown - research needed"
+  },
+  "deliverable": "Spreadsheet of Virginia properties managed during gap period with unit counts",
+  "next_steps": [
+    "Search Alexandria property records",
+    "Search Fairfax County property records",
+    "Search Arlington County property records",
+    "Search Virginia SCC for Kettler filings",
+    "Compile property list with unit counts"
+  ]
+}

@@ -11,7 +11,7 @@ from pathlib import Path
 # Add scripts directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from utils.paths import PROJECT_ROOT, SCRIPTS_DIR, DATA_DIR, RESEARCH_DIR
+from scripts.utils.paths import PROJECT_ROOT, SCRIPTS_DIR, DATA_DIR, RESEARCH_DIR
 from scripts.etl.etl_pipeline import ETLPipeline
 
 def run_search_states():

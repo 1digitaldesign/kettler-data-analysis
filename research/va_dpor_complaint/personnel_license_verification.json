@@ -1,0 +1,177 @@
+{
+  "research_date": "2025-12-09",
+  "priority": "PRIORITY 3.1: Complete License Verification for All Kettler Personnel",
+  "objective": "Verify all Kettler personnel conducting real estate activities",
+  "personnel_list": [
+    {
+      "name": "Edward Hyland",
+      "title": "Senior Regional Manager",
+      "email": "ehyland@kettler.com",
+      "employment_start": "2022-09",
+      "license_verification": {
+        "virginia": {
+          "status": "not_found",
+          "search_performed": true,
+          "search_terms": ["Edward Hyland", "Ed Hyland", "E. Hyland"],
+          "result": "No license found",
+          "verified_date": "2025-12-07"
+        },
+        "texas": {
+          "status": "pending",
+          "search_performed": false
+        },
+        "maryland": {
+          "status": "pending",
+          "search_performed": false,
+          "note": "Previous employment in MD (Dreyfuss Management, Bethesda)"
+        },
+        "dc": {
+          "status": "pending",
+          "search_performed": false
+        },
+        "north_carolina": {
+          "status": "pending",
+          "search_performed": false,
+          "note": "Previous employment as Real Estate Agent (1993-2001, Century 21 Sweyer, Wilmington NC)"
+        },
+        "all_states": {
+          "status": "pending",
+          "search_performed": false,
+          "states_to_search": ["All states where Kettler operates"]
+        }
+      },
+      "activities_conducted": [
+        "Lease termination decisions",
+        "Property management",
+        "Reasonable accommodation denials"
+      ],
+      "properties_managed": [
+        "800 Carlyle Apartments, Alexandria VA",
+        "Sinclaire on Seminary, Alexandria VA"
+      ]
+    },
+    {
+      "name": "Robert Grealy",
+      "title": "SVP Operations",
+      "email": "unknown",
+      "license_verification": {
+        "virginia": {
+          "status": "pending",
+          "search_performed": false
+        },
+        "all_states": {
+          "status": "pending",
+          "search_performed": false,
+          "note": "Manages 28,000+ units according to complaint"
+        }
+      },
+      "activities_conducted": [
+        "Operations management",
+        "Oversight of multiple properties"
+      ]
+    },
+    {
+      "name": "Amy Groff",
+      "title": "VP Operations",
+      "email": "unknown",
+      "license_verification": {
+        "virginia": {
+          "status": "pending",
+          "search_performed": false
+        },
+        "all_states": {
+          "status": "pending",
+          "search_performed": false,
+          "note": "Manages 11,000+ units according to complaint"
+        }
+      },
+      "activities_conducted": [
+        "Operations management",
+        "Oversight of VA properties"
+      ]
+    },
+    {
+      "name": "Tracy Fones",
+      "title": "VP Operations",
+      "email": "unknown",
+      "license_verification": {
+        "virginia": {
+          "status": "pending",
+          "search_performed": false
+        },
+        "all_states": {
+          "status": "pending",
+          "search_performed": false,
+          "note": "Manages VA properties according to complaint"
+        }
+      },
+      "activities_conducted": [
+        "Operations management",
+        "VA property oversight"
+      ]
+    },
+    {
+      "name": "Djene Moyer",
+      "title": "Community Manager",
+      "email": "unknown",
+      "license_verification": {
+        "virginia": {
+          "status": "pending",
+          "search_performed": false
+        },
+        "all_states": {
+          "status": "pending",
+          "search_performed": false,
+          "note": "Manages 800 Carlyle according to complaint"
+        }
+      },
+      "activities_conducted": [
+        "On-site property management",
+        "Lease administration",
+        "Tenant relations"
+      ],
+      "properties_managed": [
+        "800 Carlyle Apartments, Alexandria VA"
+      ]
+    }
+  ],
+  "additional_personnel_to_identify": {
+    "status": "pending",
+    "sources": [
+      "LinkedIn company page",
+      "Company website",
+      "Email domain analysis (@kettler.com)",
+      "Property management software records"
+    ],
+    "findings": []
+  },
+  "search_methodology": {
+    "multi_state_dpor_databases": {
+      "status": "pending",
+      "states": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "All other states where Kettler operates"]
+    },
+    "property_management_license_databases": {
+      "status": "pending",
+      "sources": ["State-specific property management license databases"]
+    },
+    "real_estate_license_databases": {
+      "status": "pending",
+      "sources": ["State real estate licensing boards"]
+    }
+  },
+  "license_verification_matrix": {
+    "status": "pending",
+    "format": "Spreadsheet with columns: Name, Title, VA License, TX License, MD License, DC License, NC License, Other States, Activities Conducted",
+    "completion": "0%"
+  },
+  "deliverable": "Complete license verification matrix for all Kettler personnel",
+  "next_steps": [
+    "Complete VA license search for all personnel",
+    "Search TX DPOR for all personnel",
+    "Search MD DLLR for all personnel",
+    "Search DC OCPLA for all personnel",
+    "Search NC Real Estate Commission for all personnel",
+    "Search all other states where Kettler operates",
+    "Compile comprehensive license verification matrix"
+  ]
+}

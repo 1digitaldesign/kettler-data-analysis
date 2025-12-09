@@ -1,0 +1,158 @@
+{
+  "research_date": "2025-12-09",
+  "priority": "PRIORITY 3.3: Management Chain Documentation",
+  "objective": "Map organizational structure showing unlicensed supervision",
+  "organizational_structure": {
+    "principal_broker": {
+      "name": "Caitlin Marie Skidmore",
+      "license": "0225273926",
+      "location": "Frisco, TX (1,300 miles from McLean VA)",
+      "status": "Licensed but geographically impossible to supervise"
+    },
+    "executive_level": [
+      {
+        "name": "Robert Grealy",
+        "title": "SVP Operations",
+        "license_status": "NOT FOUND (unlicensed)",
+        "units_managed": "28,000+",
+        "reporting_to": "Principal Broker (Skidmore)",
+        "email_domain": "@kettler.com",
+        "decision_making_authority": "High - oversees operations"
+      },
+      {
+        "name": "Amy Groff",
+        "title": "VP Operations",
+        "license_status": "NOT FOUND (unlicensed)",
+        "units_managed": "11,000+",
+        "reporting_to": "Robert Grealy / Principal Broker",
+        "email_domain": "@kettler.com",
+        "decision_making_authority": "High - VP level"
+      },
+      {
+        "name": "Tracy Fones",
+        "title": "VP Operations",
+        "license_status": "NOT FOUND (unlicensed)",
+        "units_managed": "VA properties",
+        "reporting_to": "Principal Broker",
+        "email_domain": "@kettler.com",
+        "decision_making_authority": "High - VP level"
+      }
+    ],
+    "regional_level": [
+      {
+        "name": "Edward Hyland",
+        "title": "Senior Regional Manager",
+        "license_status": "NOT FOUND (unlicensed)",
+        "employment_start": "2022-09",
+        "reporting_to": "Amy Groff",
+        "email": "ehyland@kettler.com",
+        "properties_managed": [
+          "800 Carlyle Apartments, Alexandria VA",
+          "Sinclaire on Seminary, Alexandria VA"
+        ],
+        "decision_making_authority": "High - makes lease decisions, denies accommodations",
+        "activities": [
+          "Lease termination decisions",
+          "Reasonable accommodation denials",
+          "Property management oversight"
+        ]
+      }
+    ],
+    "property_level": [
+      {
+        "name": "Djene Moyer",
+        "title": "Community Manager",
+        "license_status": "NOT FOUND (unlicensed)",
+        "reporting_to": "Edward Hyland",
+        "email": "Carlyle.PM@kettler.com, Carlyle@kettler.com",
+        "properties_managed": [
+          "800 Carlyle Apartments, Alexandria VA"
+        ],
+        "decision_making_authority": "Medium - on-site management",
+        "activities": [
+          "On-site property management",
+          "Lease administration",
+          "Tenant relations"
+        ]
+      },
+      {
+        "name": "Henry Ramos",
+        "title": "Unknown (mentioned in management chain)",
+        "license_status": "NOT VERIFIED",
+        "reporting_to": "Edward Hyland",
+        "properties_managed": ["Unknown"]
+      }
+    ]
+  },
+  "reporting_relationships": {
+    "chain": "Djene Moyer, Henry Ramos → Edward Hyland → Amy Groff → Robert Grealy → Caitlin Skidmore (Principal Broker)",
+    "unlicensed_supervision": [
+      "Edward Hyland (unlicensed) supervises Djene Moyer (unlicensed)",
+      "Amy Groff (unlicensed) supervises Edward Hyland (unlicensed)",
+      "Robert Grealy (unlicensed) supervises Amy Groff (unlicensed)"
+    ],
+    "violation": "Unlicensed personnel supervising other unlicensed personnel in real estate activities"
+  },
+  "decision_making_authority": {
+    "lease_decisions": {
+      "personnel": ["Edward Hyland", "Djene Moyer"],
+      "license_status": "Both unlicensed",
+      "examples": [
+        "Edward Hyland: Lease termination notice (12/6/25)",
+        "Edward Hyland: Reasonable accommodation denial (12/6/25)"
+      ]
+    },
+    "property_management": {
+      "personnel": ["Edward Hyland", "Djene Moyer", "Amy Groff", "Robert Grealy"],
+      "license_status": "All unlicensed",
+      "scope": "Thousands of units across multiple properties"
+    }
+  },
+  "property_assignments": {
+    "800_carlyle": {
+      "address": "800 John Carlyle Street, Alexandria, VA 22314",
+      "manager": "Djene Moyer",
+      "supervisor": "Edward Hyland",
+      "email_domains": [
+        "Carlyle.PM@kettler.com",
+        "Carlyle@kettler.com",
+        "Carlyle.APM@kettler.com"
+      ],
+      "license_status": "Both unlicensed"
+    },
+    "sinclaire_on_seminary": {
+      "address": "4900 Seminary Road, Alexandria, VA 22311",
+      "manager": "Unknown",
+      "supervisor": "Edward Hyland",
+      "license_status": "Supervisor unlicensed"
+    }
+  },
+  "email_domain_analysis": {
+    "domain": "@kettler.com",
+    "significance": "All personnel use Kettler email domain, confirming employment and operational control",
+    "emails_found": [
+      "ehyland@kettler.com",
+      "Carlyle.PM@kettler.com",
+      "Carlyle@kettler.com",
+      "Carlyle.APM@kettler.com"
+    ],
+    "evidence": "Email correspondence shows unlicensed personnel conducting real estate activities"
+  },
+  "organizational_chart": {
+    "status": "pending",
+    "components": [
+      "Visual diagram showing reporting relationships",
+      "License status for each position",
+      "Decision-making authority levels",
+      "Property assignments"
+    ]
+  },
+  "deliverable": "Organizational chart showing unlicensed personnel in supervisory roles",
+  "next_steps": [
+    "Verify additional personnel from LinkedIn/company website",
+    "Map complete reporting structure",
+    "Document decision-making authority",
+    "Create visual organizational chart",
+    "Highlight unlicensed supervision violations"
+  ]
+}

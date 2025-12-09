@@ -1,0 +1,136 @@
+{
+  "research_date": "2025-12-09",
+  "priority": "PRIORITY 5.2: Financial Scale Documentation",
+  "objective": "Quantify financial scale of operations",
+  "units_managed": {
+    "kettler_claimed": 22000,
+    "source": "Complaint and corporate information",
+    "verification": "pending",
+    "research_needed": [
+      "Verify unit count through property records",
+      "Breakdown by state",
+      "Breakdown by property"
+    ]
+  },
+  "units_owned": {
+    "claimed": 29000,
+    "source": "Corporate information",
+    "verification": "pending"
+  },
+  "properties_managed": {
+    "claimed": 97,
+    "source": "Corporate information",
+    "verification": "pending",
+    "research_needed": [
+      "List all properties",
+      "Verify property counts",
+      "Geographic distribution"
+    ]
+  },
+  "geographic_distribution": {
+    "states": 10,
+    "states_list": [
+      "Virginia (primary market)",
+      "Washington, D.C.",
+      "Maryland",
+      "Pennsylvania",
+      "North Carolina",
+      "Texas",
+      "Missouri",
+      "Nebraska",
+      "California",
+      "Other states"
+    ],
+    "primary_markets": [
+      "McLean, Tysons, Reston, Alexandria, Arlington, Fairfax (VA)",
+      "Baltimore, Columbia, Bethesda (MD)",
+      "Washington, D.C."
+    ]
+  },
+  "revenue_estimates": {
+    "sources": [
+      {
+        "source": "RocketReach 2025",
+        "estimate": 80700000,
+        "currency": "USD"
+      },
+      {
+        "source": "LeadIQ 2024",
+        "estimate": 750000000,
+        "currency": "USD"
+      },
+      {
+        "source": "Wikipedia (2010 data)",
+        "estimate": 407500000,
+        "currency": "USD"
+      }
+    ],
+    "note": "Wide variance due to private company status and different measurement methodologies",
+    "verification": "Limited - private company, no SEC filings"
+  },
+  "property_values": {
+    "status": "pending",
+    "research_needed": [
+      "Total property value managed",
+      "Average property value",
+      "Property value by jurisdiction"
+    ],
+    "methods": [
+      "Property tax records",
+      "Real estate databases",
+      "Property assessment records"
+    ]
+  },
+  "employees": {
+    "estimated": "485-500",
+    "source": "Corporate information",
+    "verification": "pending",
+    "research_needed": [
+      "Exact employee count",
+      "Breakdown by department",
+      "Breakdown by location"
+    ]
+  },
+  "financial_transparency": {
+    "status": "Limited",
+    "reason": "Private company - no SEC disclosures required",
+    "available_information": [
+      "Revenue estimates (varies widely)",
+      "Unit counts (claimed)",
+      "Property counts (claimed)",
+      "Employee estimates"
+    ],
+    "unavailable_information": [
+      "Detailed financial statements",
+      "Profit/loss information",
+      "Debt structure",
+      "Investment structure"
+    ]
+  },
+  "financial_scale_analysis": {
+    "status": "pending",
+    "components": [
+      "Total units managed (verified)",
+      "Revenue estimates (ranges)",
+      "Property values managed",
+      "Number of employees",
+      "Geographic scale",
+      "Market presence"
+    ]
+  },
+  "significance_for_complaint": {
+    "scale_of_operations": "22,000+ units managed demonstrates significant scope requiring proper supervision",
+    "geographic_spread": "10 states demonstrates interstate operations",
+    "financial_impact": "Large-scale operations increase potential for violations affecting many tenants",
+    "supervision_requirements": "Scale makes supervision failures more significant"
+  },
+  "deliverable": "Financial scale analysis document",
+  "next_steps": [
+    "Verify unit counts through property records",
+    "Research property values",
+    "Verify employee counts",
+    "Compile revenue estimates",
+    "Create financial scale analysis document",
+    "Document significance for complaint"
+  ]
+}

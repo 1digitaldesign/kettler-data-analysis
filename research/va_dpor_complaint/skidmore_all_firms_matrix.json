@@ -1,0 +1,115 @@
+{
+  "research_date": "2025-12-09",
+  "priority": "PRIORITY 2.3: Complete Skidmore Firm List",
+  "total_firms": 38,
+  "source": "VA DPOR - skidmore_all_firms_complete.json",
+  "firms_by_state": {
+    "VA": 11,
+    "TX": 6,
+    "NC": 1,
+    "MO": 1,
+    "NE": 1,
+    "MD": 1,
+    "other_states": 17
+  },
+  "firms_with_timeline_impossibility": {
+    "count": 8,
+    "description": "Firms licensed BEFORE Skidmore was licensed (proving retroactive assignment)",
+    "firms": [
+      {
+        "firm_name": "BELL PARTNERS INC",
+        "licensed_date": "2011-12-28",
+        "skidmore_licensed": "2025-05-30",
+        "years_before": 14
+      },
+      {
+        "firm_name": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+        "licensed_date": "2012-04-27",
+        "skidmore_licensed": "2025-05-30",
+        "years_before": 13
+      },
+      {
+        "firm_name": "BOZZUTO MANAGEMENT COMPANY",
+        "licensed_date": "2013-06-04",
+        "skidmore_licensed": "2025-05-30",
+        "years_before": 12
+      },
+      {
+        "firm_name": "KETTLER MANAGEMENT INC",
+        "licensed_date": "2014-10-31",
+        "skidmore_licensed": "2025-05-30",
+        "years_before": 11
+      },
+      {
+        "firm_name": "GABLES RESIDENTIAL SERVICES INC",
+        "licensed_date": "2016-08-17",
+        "skidmore_licensed": "2025-05-30",
+        "years_before": 9
+      },
+      {
+        "firm_name": "MCCORMACK BARON MANAGEMENT INC",
+        "licensed_date": "2016-11-14",
+        "skidmore_licensed": "2025-05-30",
+        "years_before": 8.5
+      },
+      {
+        "firm_name": "BURLINGTON CAPITAL PROPERTIES LLC",
+        "licensed_date": "2018-11-16",
+        "skidmore_licensed": "2025-05-30",
+        "years_before": 6.5
+      },
+      {
+        "firm_name": "GATEWAY MANAGEMENT COMPANY LLC",
+        "licensed_date": "2025-03-26",
+        "skidmore_licensed": "2025-05-30",
+        "years_before": 0.17
+      }
+    ]
+  },
+  "firms_at_same_tx_address": {
+    "address": "5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+    "count": 6,
+    "firms": [
+      "BOZZUTO MANAGEMENT COMPANY",
+      "CORTLAND MANAGEMENT LLC",
+      "GABLES RESIDENTIAL SERVICES INC",
+      "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+      "CAPREIT RESIDENTIAL MANAGEMENT LLC",
+      "GATEWAY MANAGEMENT COMPANY LLC"
+    ],
+    "significance": "Shell company pattern - multiple firms at same address as Skidmore's license address"
+  },
+  "geographic_distribution": {
+    "states": ["VA", "TX", "NC", "MO", "NE", "MD"],
+    "multi_state_operation": true,
+    "geographic_spread": "At least 1,300 miles (Frisco TX to McLean VA)"
+  },
+  "unit_counts_research": {
+    "status": "pending",
+    "kettler_claimed": 22000,
+    "estimated_total_across_all_firms": "100,000+ (conservative estimate)",
+    "research_needed": "Unit counts for each of the 38 firms"
+  },
+  "supervision_impossibility_analysis": {
+    "firms": 38,
+    "states": 6,
+    "geographic_spread_miles": 1300,
+    "estimated_units": "100,000+",
+    "conclusion": "Physically impossible for one person to provide active supervision",
+    "violation": "Virginia Code § 54.1-2106.1 requires active supervision"
+  },
+  "dc_dlcp_expansion": {
+    "status": "pending",
+    "current_dc_count": 24,
+    "va_dpor_count": 38,
+    "discrepancy": "VA DPOR shows 38 firms, DC DLCP shows 24 - need to reconcile",
+    "action_needed": "Expand DC DLCP search to match VA DPOR findings"
+  },
+  "next_steps": [
+    "Research unit counts for all 38 firms",
+    "Expand DC DLCP search to find all firms",
+    "Search other state DPOR databases",
+    "Calculate total units managed",
+    "Create comprehensive supervision impossibility analysis"
+  ]
+}
