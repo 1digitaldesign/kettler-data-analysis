@@ -25,10 +25,18 @@ from scripts.core.unified_validation import UnifiedValidator
 from scripts.core.unified_reporting import UnifiedReporter
 from scripts.core.unified_investigation import UnifiedInvestigator
 from scripts.core.unified_scraping import UnifiedScraper
+try:
+    from scripts.gis.gis_converter import GISConverter
+    GIS_CONVERTER_AVAILABLE = True
+except ImportError:
+    GISConverter = None
+    GIS_CONVERTER_AVAILABLE = False
 except ImportError as e:
     print(f"Warning: Could not import unified modules: {e}")
     UnifiedAnalyzer = UnifiedSearcher = UnifiedValidator = None
     UnifiedReporter = UnifiedInvestigator = UnifiedScraper = None
+    GISConverter = None
+    GIS_CONVERTER_AVAILABLE = False
 from scripts.etl.vector_embeddings import VectorEmbeddingSystem
 from scripts.utils.paths import (
     DATA_SOURCE_DIR, DATA_ANALYSIS_DIR, RESEARCH_DIR,
@@ -258,6 +266,12 @@ class ACRISSearchRequest(BaseModel):
     document_id: Optional[str] = None
     document_type: Optional[str] = None
 
+class GISConvertRequest(BaseModel):
+    input_file: str
+    output_format: str = "geojson"  # geojson, shp, kml, etc.
+    output_file: Optional[str] = None
+    target_srs: Optional[str] = None  # EPSG code, e.g., "EPSG:4326"
+
 @app.post("/api/scraping/scrape")
 def run_scraping(request: ScrapingRequest):
     """Run web scraping"""
@@ -284,7 +298,7 @@ def run_acris_search(request: ACRISSearchRequest):
     """Search NYC ACRIS property records"""
     try:
         scraper = get_scraper()
-        
+
         kwargs = {}
         if request.borough:
             kwargs['borough'] = request.borough
@@ -300,9 +314,60 @@ def run_acris_search(request: ACRISSearchRequest):
             kwargs['document_id'] = request.document_id
         if request.document_type:
             kwargs['document_type'] = request.document_type
-        
+
         results = scraper.scrape_acris(request.search_type, **kwargs)
         return {"status": "success", "data": results}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/gis/convert")
+def convert_gis_file(request: GISConvertRequest):
+    """Convert GIS file between formats"""
+    if not GIS_CONVERTER_AVAILABLE:
+        raise HTTPException(status_code=503, detail="GIS converter not available. Install GDAL.")
+    
+    try:
+        from pathlib import Path
+        
+        converter = GISConverter()
+        input_path = Path(request.input_file)
+        
+        if not input_path.exists():
+            raise HTTPException(status_code=404, detail=f"Input file not found: {request.input_file}")
+        
+        if request.output_file:
+            output_path = Path(request.output_file)
+        else:
+            output_path = input_path.parent / f"{input_path.stem}.{request.output_format}"
+        
+        result = converter.convert_file(
+            input_path,
+            output_path,
+            request.output_format,
+            request.target_srs
+        )
+        
+        return {"status": "success", "data": result}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/gis/info/{file_path:path}")
+def get_gis_file_info(file_path: str):
+    """Get information about a GIS file"""
+    if not GIS_CONVERTER_AVAILABLE:
+        raise HTTPException(status_code=503, detail="GIS converter not available. Install GDAL.")
+    
+    try:
+        from pathlib import Path
+        
+        converter = GISConverter()
+        file_path_obj = Path(file_path)
+        
+        if not file_path_obj.exists():
+            raise HTTPException(status_code=404, detail=f"File not found: {file_path}")
+        
+        info = converter.get_file_info(file_path_obj)
+        return {"status": "success", "data": info}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

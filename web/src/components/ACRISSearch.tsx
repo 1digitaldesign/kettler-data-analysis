@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import { Building2, Search, Download, AlertCircle, CheckCircle, Loader } from 'lucide-react'
 import axios from 'axios'
+import { AlertCircle, Building2, CheckCircle, Download, Loader, Search } from 'lucide-react'
+import { useState } from 'react'
 
 interface ACRISSearchJob {
   id: string
@@ -35,11 +35,11 @@ export default function ACRISSearch() {
   const handleSearch = async () => {
     setLoading(true)
     const jobId = `acris_${Date.now()}`
-    
+
     const params: Record<string, any> = {
       search_type: searchType,
     }
-    
+
     if (searchType === 'block_lot') {
       if (!borough || !block || !lot) {
         alert('Please fill in Borough, Block, and Lot')
@@ -84,7 +84,7 @@ export default function ACRISSearch() {
 
     try {
       const response = await axios.post('/api/scraping/acris', params)
-      
+
       setJobs(prev => prev.map(job =>
         job.id === jobId
           ? {

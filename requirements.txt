@@ -81,6 +81,14 @@ concurrent-futures>=3.1.1  # Usually built-in, but explicit for clarity
 # scraperapi>=1.0.0  # BEST ACCURACY - 99.9%+ success rate
 # zenrows>=1.0.0  # Good accuracy alternative
 
+# GIS file conversion (GDAL and alternatives)
+gdal>=3.7.0  # Geospatial Data Abstraction Library
+geopandas>=0.14.0  # GeoPandas for easier GIS operations
+fiona>=1.9.0  # Fiona for reading/writing spatial data
+shapely>=2.0.0  # Geometric operations
+pyproj>=3.6.0  # Cartographic projections
+rasterio>=1.3.0  # Raster I/O
+
 # Optional: for advanced NER models
 # sentencepiece>=0.1.99
 # protobuf>=3.20.0

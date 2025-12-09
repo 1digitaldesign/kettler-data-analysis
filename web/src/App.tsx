@@ -1,9 +1,10 @@
-import { BarChart3, Building2, FileSearch, Globe, Home, Search } from 'lucide-react'
+import { BarChart3, Building2, FileSearch, Globe, Home, Map, Search } from 'lucide-react'
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import ACRISSearch from './components/ACRISSearch'
 import AnalysisTools from './components/AnalysisTools'
 import Dashboard from './components/Dashboard'
 import DataVisualization from './components/DataVisualization'
+import GISConverter from './components/GISConverter'
 import SearchInterface from './components/SearchInterface'
 import WebScraping from './components/WebScraping'
 
@@ -62,6 +63,13 @@ function App() {
                     <Building2 className="mr-2 h-4 w-4" />
                     ACRIS
                   </Link>
+                  <Link
+                    to="/gis"
+                    className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 hover:text-gray-700"
+                  >
+                    <Map className="mr-2 h-4 w-4" />
+                    GIS Converter
+                  </Link>
                 </div>
               </div>
             </div>
@@ -77,6 +85,7 @@ function App() {
             <Route path="/visualization" element={<DataVisualization />} />
             <Route path="/scraping" element={<WebScraping />} />
             <Route path="/acris" element={<ACRISSearch />} />
+            <Route path="/gis" element={<GISConverter />} />
           </Routes>
         </main>
       </div>

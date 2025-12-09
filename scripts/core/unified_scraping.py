@@ -152,9 +152,9 @@ class UnifiedScraper:
         """Scrape NYC ACRIS property records"""
         try:
             from scripts.scraping.acris_scraper import ACRISScraper
-            
+
             scraper = ACRISScraper()
-            
+
             if search_type == 'block_lot':
                 results = scraper.search_by_block_lot(
                     borough=kwargs.get('borough'),
@@ -177,7 +177,7 @@ class UnifiedScraper:
                 )
             else:
                 raise ValueError(f"Unknown ACRIS search type: {search_type}")
-            
+
             return {
                 'platform': 'ACRIS',
                 'scrape_date': datetime.now().isoformat(),
