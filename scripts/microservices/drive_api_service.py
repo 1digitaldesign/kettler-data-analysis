@@ -10,6 +10,7 @@ from flask_cors import CORS
 from typing import Dict, List
 import logging
 from io import BytesIO
+from pathlib import Path
 
 from scripts.microservices.google_drive_client import get_drive_client, GoogleDriveClient
 
@@ -46,6 +47,7 @@ def health():
 def list_folder(folder_id: str):
     """List contents of a Google Drive folder"""
     try:
+        folder_id = validate_drive_id(folder_id, "folder_id")
         client = get_client()
         items = client.list_folder_contents(folder_id)
         return jsonify({
@@ -61,6 +63,7 @@ def list_folder(folder_id: str):
 def get_file_info(file_id: str):
     """Get file metadata"""
     try:
+        file_id = validate_drive_id(file_id, "file_id")
         client = get_client()
         file_info = client.get_file_info(file_id)
         return jsonify(file_info), 200
@@ -72,6 +75,7 @@ def get_file_info(file_id: str):
 def download_file(file_id: str):
     """Download a file from Google Drive"""
     try:
+        file_id = validate_drive_id(file_id, "file_id")
         client = get_client()
         file_info = client.get_file_info(file_id)
         file_name = file_info.get('name', 'file')
@@ -102,6 +106,7 @@ def export_file(file_id: str):
     import os
 
     try:
+        file_id = validate_drive_id(file_id, "file_id")
         export_format = request.args.get('format', 'docx')
         client = get_client()
         file_info = client.get_file_info(file_id)
@@ -166,9 +171,14 @@ def export_file(file_id: str):
 def download_folder(folder_id: str):
     """Download all files from a folder"""
     try:
+        folder_id = validate_drive_id(folder_id, "folder_id")
         data = request.get_json() or {}
         output_dir = data.get('output_dir', 'data/drive_downloads')
         recursive = data.get('recursive', True)
+
+        # Validate output_dir to prevent path traversal
+        if output_dir:
+            output_dir = str(Path(output_dir).resolve())
 
         client = get_client()
         downloaded_files = client.download_folder(folder_id, output_dir, recursive=recursive)
