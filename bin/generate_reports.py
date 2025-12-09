@@ -14,7 +14,14 @@ from bin.analyze_connections import main_analysis
 from bin.validate_data import main_validation
 
 def generate_summary_csvs():
-    """Generate summary CSV files"""
+    """
+    Generate summary CSV files from analysis results.
+    
+    Creates:
+    - State summary (connections by state)
+    - Connection type summary
+    - High-quality records CSV
+    """
     print("Generating summary CSV files...")
 
     # Load data

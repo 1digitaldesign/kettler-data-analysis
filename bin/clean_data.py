@@ -35,9 +35,15 @@ except Exception as e:
     print(f"Warning: Could not load NER model: {e}")
     ner_pipeline = None
 
-def clean_firm_names(df):
+def clean_firm_names(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Clean and standardize firm names using pattern matching and Hugging Face
+    Clean and standardize firm names using pattern matching and Hugging Face NER.
+    
+    Args:
+        df: DataFrame with 'name' column
+        
+    Returns:
+        DataFrame with 'name_cleaned' and 'name_ner' columns added
     """
     if 'name' not in df.columns:
         return df

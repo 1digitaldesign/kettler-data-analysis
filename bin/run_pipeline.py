@@ -15,7 +15,15 @@ from scripts.utils.paths import PROJECT_ROOT, SCRIPTS_DIR, DATA_DIR, RESEARCH_DI
 from scripts.etl.etl_pipeline import ETLPipeline
 
 def run_search_states():
-    """Run multi-state search (Python conversion needed)"""
+    """
+    Run multi-state search for firms and Caitlin Skidmore.
+    
+    Note: Search scripts still in R - conversion pending.
+    Falls back gracefully if R is not available.
+    
+    Returns:
+        bool: True if search completed successfully, False otherwise
+    """
     print("STEP 1: Searching all states for firms and Caitlin Skidmore...")
     print("This may take a while (searches 50 states x multiple firms/names)...")
     print("Note: Search scripts still in R - conversion pending")
@@ -48,6 +56,15 @@ def run_search_states():
         return False
 
 def run_data_cleaning():
+    """
+    Run data cleaning pipeline.
+    
+    Cleans and standardizes license data from multiple state DPOR searches.
+    Uses Hugging Face transformers for entity extraction and normalization.
+    
+    Returns:
+        bool: True if cleaning completed successfully, False otherwise
+    """
     """Run data cleaning with Python/Hugging Face"""
     print("STEP 2: Cleaning data with Python/Hugging Face...")
 
@@ -78,6 +95,15 @@ def run_data_cleaning():
         return False
 
 def run_connection_analysis():
+    """
+    Run connection analysis to identify Skidmore connections.
+    
+    Analyzes DPOR results to find firms connected to Caitlin Skidmore
+    through principal broker relationships, addresses, or firm names.
+    
+    Returns:
+        bool: True if analysis completed successfully, False otherwise
+    """
     """Run connection analysis"""
     print("STEP 3: Analyzing connections...")
 
