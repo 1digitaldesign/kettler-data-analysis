@@ -69,16 +69,9 @@ beautifulsoup4>=4.12.0  # Keep existing, most accurate parser
 lxml>=5.0.0  # Fast and accurate XML/HTML parser
 html5lib>=1.1  # Most accurate HTML5 parser (slower but precise)
 undetected-chromedriver>=3.5.0  # Anti-detection Chrome driver
-2captcha-python>=1.1.0  # CAPTCHA solving service (optional)
+python-anticaptcha>=1.0.0  # CAPTCHA solving (optional)
+2captcha-python>=1.1.0  # 2Captcha service (optional)
 ```
-
-**Anti-Bot Features:**
-- Random timing with seed-based reproducibility
-- Parallel processing with controlled workers
-- CAPTCHA handling with multiple strategies
-- Human-like mouse movements and scrolling
-- Stealth browser configuration
-- Random delays between requests
 
 **Accuracy-Focused Setup:**
 ```python
@@ -530,7 +523,7 @@ pydantic>=2.5.0  # Ensure V2
 
 ## Code Examples (Accuracy-Focused)
 
-### Selenium + BeautifulSoup4 Scraper Example (Most Accurate with Anti-Bot)
+### Selenium + BeautifulSoup4 Scraper Example (Most Accurate with Anti-Bot Protection)
 
 ```python
 from selenium import webdriver
@@ -548,261 +541,207 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Dict
 import undetected_chromedriver as uc  # Anti-detection
 
-class AntiBotScraper:
-    """Scraper with built-in anti-bot detection and CAPTCHA handling"""
+def generate_seed_from_time() -> int:
+    """Generate seed value from current time for reproducible randomness"""
+    current_time = int(time.time())
+    # Use hash of time for seed (ensures different seed each run but reproducible)
+    seed = int(hashlib.md5(str(current_time).encode()).hexdigest()[:8], 16)
+    return seed
 
-    def __init__(self, seed: int = None):
-        """Initialize with optional seed for reproducible random timing"""
-        self.seed = seed or random.randint(1000, 9999)
-        random.seed(self.seed)
-        self.timing_base = random.uniform(2.0, 5.0)  # Base delay in seconds
-        print(f"Initialized scraper with seed: {self.seed}, base timing: {self.timing_base:.2f}s")
+def random_delay(min_seconds: float = 2.0, max_seconds: float = 8.0, seed: int = None):
+    """Random delay with seed-based randomness to avoid bot detection"""
+    if seed is not None:
+        random.seed(seed)
+    delay = random.uniform(min_seconds, max_seconds)
+    # Add human-like variation (slight pauses)
+    time.sleep(delay)
+    # Additional micro-delays to mimic human behavior
+    time.sleep(random.uniform(0.1, 0.5))
 
-    def random_delay(self, min_multiplier: float = 0.8, max_multiplier: float = 1.5):
-        """Generate random delay based on seed"""
-        delay = self.timing_base * random.uniform(min_multiplier, max_multiplier)
-        time.sleep(delay)
-        return delay
+def human_like_mouse_movement(driver):
+    """Simulate human-like mouse movements"""
+    try:
+        body = driver.find_element(By.TAG_NAME, "body")
+        actions = ActionChains(driver)
+        # Random mouse movements
+        for _ in range(random.randint(1, 3)):
+            x_offset = random.randint(-100, 100)
+            y_offset = random.randint(-100, 100)
+            actions.move_by_offset(x_offset, y_offset).perform()
+            time.sleep(random.uniform(0.1, 0.3))
+    except:
+        pass  # Ignore errors in mouse movement
 
-    def human_like_mouse_movement(self, driver):
-        """Simulate human-like mouse movements"""
-        try:
-            body = driver.find_element(By.TAG_NAME, "body")
-            actions = ActionChains(driver)
-            # Random mouse movements
-            for _ in range(random.randint(2, 5)):
-                x_offset = random.randint(-100, 100)
-                y_offset = random.randint(-100, 100)
-                actions.move_by_offset(x_offset, y_offset)
-            actions.perform()
-            self.random_delay(0.3, 0.8)
-        except Exception as e:
-            print(f"Mouse movement simulation failed: {e}")
+def handle_captcha(driver, seed: int = None):
+    """Handle CAPTCHA with random approaches"""
+    if seed is not None:
+        random.seed(seed)
 
-    def handle_captcha(self, driver):
-        """Handle CAPTCHA with random strategies"""
-        try:
-            # Check for common CAPTCHA types
-            captcha_selectors = [
-                "iframe[src*='recaptcha']",
-                "div[class*='captcha']",
-                "iframe[src*='hcaptcha']",
-                "div[id*='captcha']"
-            ]
+    try:
+        # Check for various CAPTCHA types
+        captcha_selectors = [
+            "iframe[src*='recaptcha']",
+            "div[class*='captcha']",
+            "iframe[src*='hcaptcha']",
+            "div[id*='captcha']"
+        ]
 
-            for selector in captcha_selectors:
-                captcha_elements = driver.find_elements(By.CSS_SELECTOR, selector)
-                if captcha_elements:
-                    print(f"CAPTCHA detected: {selector}")
-                    # Random delay before attempting to solve
-                    self.random_delay(3.0, 6.0)
+        for selector in captcha_selectors:
+            captcha_elements = driver.find_elements(By.CSS_SELECTOR, selector)
+            if captcha_elements:
+                print(f"CAPTCHA detected: {selector}")
+                # Random delay before handling
+                random_delay(3.0, 6.0, seed)
 
-                    # Try to find solve button or audio option (random choice)
-                    solve_strategies = [
-                        self._try_audio_captcha,
-                        self._try_image_captcha,
-                        self._wait_for_auto_solve
-                    ]
-                    strategy = random.choice(solve_strategies)
-                    return strategy(driver)
+                # Option 1: Use CAPTCHA solving service (2captcha, anti-captcha)
+                # Option 2: Manual intervention flag
+                # Option 3: Skip and retry later
 
-            return False
-        except Exception as e:
-            print(f"CAPTCHA handling error: {e}")
-            return False
+                # For now, raise exception to handle manually
+                raise Exception("CAPTCHA detected - requires manual intervention or CAPTCHA solving service")
+    except Exception as e:
+        if "CAPTCHA" in str(e):
+            raise
+        pass  # No CAPTCHA found
 
-    def _try_audio_captcha(self, driver):
-        """Try audio CAPTCHA option"""
-        try:
-            audio_button = driver.find_element(By.CSS_SELECTOR, "button[title*='audio']")
-            if audio_button:
-                audio_button.click()
-                self.random_delay(2.0, 4.0)
-                return True
-        except:
-            pass
-        return False
+def scrape_single_page_accurate(address: str, page_num: int = 1, seed: int = None):
+    """Scrape a single page with anti-bot protection"""
+    if seed is not None:
+        random.seed(seed + page_num)  # Different seed per page
 
-    def _try_image_captcha(self, driver):
-        """Try image CAPTCHA (would need ML model in production)"""
-        # Placeholder - in production, use 2captcha, anti-captcha, or ML model
-        self.random_delay(5.0, 10.0)
-        return False
+    # Configure for accuracy and anti-detection
+    options = Options()
+    options.add_argument('--disable-blink-features=AutomationControlled')
+    options.add_argument('--start-maximized')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--no-sandbox')
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
 
-    def _wait_for_auto_solve(self, driver):
-        """Wait for CAPTCHA to be solved automatically (if using service)"""
-        max_wait = 30
-        waited = 0
-        while waited < max_wait:
-            # Check if CAPTCHA is gone
-            captcha_elements = driver.find_elements(By.CSS_SELECTOR, "iframe[src*='recaptcha']")
-            if not captcha_elements:
-                return True
-            time.sleep(1)
-            waited += 1
-        return False
+    # Use undetected-chromedriver for better anti-detection
+    try:
+        driver = uc.Chrome(options=options, version_main=None)
+    except:
+        driver = webdriver.Chrome(options=options)
 
-    def create_stealth_driver(self):
-        """Create undetected Chrome driver"""
-        options = Options()
-        options.add_argument('--disable-blink-features=AutomationControlled')
-        options.add_argument('--start-maximized')
-        options.add_argument('--disable-dev-shm-usage')
-        options.add_argument('--no-sandbox')
-        options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        options.add_experimental_option('useAutomationExtension', False)
+    try:
+        # Random delay before starting
+        random_delay(1.0, 3.0, seed)
 
-        # Use undetected_chromedriver for better anti-detection
-        try:
-            driver = uc.Chrome(options=options, version_main=None)
-        except:
-            # Fallback to regular ChromeDriver
-            driver = webdriver.Chrome(options=options)
+        # Build URL with pagination
+        if page_num > 1:
+            url = f"https://www.airbnb.com/s/{address}/homes?items_offset={(page_num-1)*20}"
+        else:
+            url = f"https://www.airbnb.com/s/{address}"
 
-        # Execute stealth script
-        driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
-            'source': '''
-                Object.defineProperty(navigator, 'webdriver', {
-                    get: () => undefined
-                });
-            '''
-        })
+        driver.get(url)
 
-        return driver
+        # Human-like mouse movement
+        human_like_mouse_movement(driver)
 
-    def scrape_page(self, url: str, page_num: int = 1) -> Dict:
-        """Scrape a single page with anti-bot measures"""
-        driver = self.create_stealth_driver()
-        results = {'page': page_num, 'url': url, 'listings': [], 'errors': []}
+        # Random delay after page load
+        random_delay(2.0, 5.0, seed)
 
-        try:
-            # Random delay before navigation
-            self.random_delay(1.0, 3.0)
+        # Check for CAPTCHA
+        handle_captcha(driver, seed)
 
-            driver.get(url)
+        # Wait for complete page load (accuracy critical)
+        WebDriverWait(driver, 30).until(
+            lambda d: d.execute_script('return document.readyState') == 'complete'
+        )
 
-            # Human-like mouse movement
-            self.human_like_mouse_movement(driver)
+        # Additional random delay to mimic reading time
+        random_delay(1.5, 4.0, seed)
 
-            # Wait for page load with random variation
-            wait_time = random.uniform(3.0, 6.0)
-            WebDriverWait(driver, int(wait_time)).until(
-                lambda d: d.execute_script('return document.readyState') == 'complete'
-            )
+        # Wait for listings with explicit wait
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="listing-card"]'))
+        )
 
-            # Handle CAPTCHA if present
-            if self.handle_captcha(driver):
-                print(f"CAPTCHA handled on page {page_num}")
-                self.random_delay(2.0, 4.0)
+        # Random scroll to mimic human behavior
+        driver.execute_script(f"window.scrollTo(0, {random.randint(200, 800)});")
+        random_delay(0.5, 1.5, seed)
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        random_delay(1.0, 2.0, seed)
 
-            # Random scroll to simulate human behavior
-            scroll_pause = random.uniform(0.5, 2.0)
-            driver.execute_script(f"window.scrollTo(0, {random.randint(200, 800)});")
-            time.sleep(scroll_pause)
-            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            self.random_delay(1.0, 2.5)
+        # Get page source and parse with most accurate parser
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html5lib')  # Most accurate parser
 
-            # Wait for listings
-            try:
-                WebDriverWait(driver, 20).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="listing-card"]'))
-                )
-            except:
-                results['errors'].append("Listings not found")
-                return results
-
-            # Parse with most accurate parser
-            html = driver.page_source
-            soup = BeautifulSoup(html, 'html5lib')
-
-            listings = soup.select('[data-testid="listing-card"]')
-
-            for listing in listings:
-                title_elem = listing.select_one('h3')
-                price_elem = listing.select_one('[data-testid="price"]')
-
-                if title_elem and price_elem:
-                    results['listings'].append({
-                        'title': title_elem.get_text(strip=True),
-                        'price': price_elem.get_text(strip=True),
-                        'page': page_num
-                    })
-
-            # Verify results accuracy
-            if len(results['listings']) == 0:
-                results['errors'].append("No listings extracted")
-
-        except Exception as e:
-            results['errors'].append(str(e))
-        finally:
-            driver.quit()
-
-        return results
-
-    def scrape_pages_parallel(self, base_url: str, num_pages: int, max_workers: int = 3) -> List[Dict]:
-        """Scrape multiple pages in parallel with random timing"""
+        listings = soup.select('[data-testid="listing-card"]')
         results = []
 
-        # Generate URLs for all pages
-        urls = [f"{base_url}&page={i}" for i in range(1, num_pages + 1)]
+        for listing in listings:
+            # Verify data exists before extraction (accuracy check)
+            title_elem = listing.select_one('h3')
+            price_elem = listing.select_one('[data-testid="price"]')
 
-        # Shuffle URLs to avoid sequential pattern
-        random.shuffle(urls)
+            if title_elem and price_elem:  # Accuracy validation
+                results.append({
+                    'title': title_elem.get_text(strip=True),
+                    'price': price_elem.get_text(strip=True),
+                    'page': page_num
+                })
+            else:
+                print(f"Warning: Incomplete listing data found on page {page_num}")
 
-        # Process in parallel with limited workers to avoid detection
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            # Submit tasks with random delays
-            futures = {}
-            for i, url in enumerate(urls):
-                # Random delay before submitting each task
-                delay = random.uniform(0.5, 2.0) * (i + 1)
-                time.sleep(delay)
-
-                # Create new scraper instance with different seed for each page
-                page_seed = self.seed + i
-                scraper = AntiBotScraper(seed=page_seed)
-                future = executor.submit(scraper.scrape_page, url, i + 1)
-                futures[future] = (url, i + 1)
-
-            # Collect results as they complete
-            for future in as_completed(futures):
-                url, page_num = futures[future]
-                try:
-                    result = future.result()
-                    results.append(result)
-                    print(f"Page {page_num} completed: {len(result['listings'])} listings")
-                    # Random delay between completions
-                    self.random_delay(1.0, 3.0)
-                except Exception as e:
-                    print(f"Error scraping page {page_num}: {e}")
+        # Verify results accuracy
+        if len(results) == 0:
+            print(f"Warning: No listings found on page {page_num}")
 
         return results
 
+    finally:
+        driver.quit()
 
-def scrape_airbnb_accurate(address: str, num_pages: int = 5):
-    """Main scraping function with anti-bot measures"""
-    # Generate seed from address hash for reproducibility
-    seed = int(hashlib.md5(address.encode()).hexdigest()[:8], 16) % 10000
+def scrape_airbnb_parallel(address: str, max_pages: int = 5, max_workers: int = 3):
+    """Scrape multiple pages in parallel with rate limiting and anti-bot protection"""
+    # Generate master seed from time
+    master_seed = generate_seed_from_time()
+    print(f"Using master seed: {master_seed}")
 
-    scraper = AntiBotScraper(seed=seed)
-    base_url = f"https://www.airbnb.com/s/{address}"
+    all_results = []
 
-    # Scrape pages in parallel with anti-bot measures
-    results = scraper.scrape_pages_parallel(base_url, num_pages, max_workers=3)
+    # Use ThreadPoolExecutor for parallel processing
+    # Limit workers to avoid detection (3-5 workers max)
+    with ThreadPoolExecutor(max_workers=min(max_workers, max_pages)) as executor:
+        # Submit all page scraping tasks
+        future_to_page = {
+            executor.submit(
+                scrape_single_page_accurate,
+                address,
+                page_num,
+                master_seed + page_num  # Unique seed per page
+            ): page_num
+            for page_num in range(1, max_pages + 1)
+        }
 
-    # Consolidate results
-    all_listings = []
-    for page_result in results:
-        all_listings.extend(page_result['listings'])
+        # Process completed tasks with delays between them
+        completed = 0
+        for future in as_completed(future_to_page):
+            page_num = future_to_page[future]
+            try:
+                results = future.result()
+                all_results.extend(results)
+                completed += 1
+                print(f"Completed page {page_num}: {len(results)} listings")
 
-    return {
-        'address': address,
-        'seed': seed,
-        'total_listings': len(all_listings),
-        'pages_scraped': len(results),
-        'listings': all_listings,
-        'page_results': results
-    }
+                # Random delay between page completions (rate limiting)
+                if completed < max_pages:
+                    random_delay(3.0, 8.0, master_seed + completed)
+
+            except Exception as e:
+                print(f"Error scraping page {page_num}: {e}")
+                # If CAPTCHA detected, wait longer before retry
+                if "CAPTCHA" in str(e):
+                    print("CAPTCHA detected - waiting 60 seconds before retry...")
+                    time.sleep(60)
+
+    # Verify overall results accuracy
+    assert len(all_results) > 0, "No listings found - accuracy check failed!"
+    print(f"Total listings scraped: {len(all_results)}")
+
+    return all_results
 ```
 
 ### Pandas Data Processing Example (Accuracy-Focused)

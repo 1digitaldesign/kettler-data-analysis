@@ -204,7 +204,7 @@ main_analysis <- function() {
   cat("Saved summary to:", summary_file, "\n")
 
   # Save entities
-  entities_file <- file.path(RESEARCH_DIR, "all_entities_extracted.json")
+  entities_file <- file.path(RESEARCH_EVIDENCE_DIR, "all_entities_extracted.json")
   write_json(entities, entities_file, pretty = TRUE)
   cat("Saved entities to:", entities_file, "\n")
 
