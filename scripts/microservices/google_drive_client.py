@@ -260,16 +260,19 @@ class GoogleDriveClient:
             item_name = item['name']
             mime_type = item.get('mimeType', '')
 
+            # Sanitize file/folder name to prevent path traversal
+            safe_name = self._sanitize_filename(item_name)
+
             # Handle folders recursively
             if mime_type == 'application/vnd.google-apps.folder' and recursive:
-                subfolder_path = output_path / item_name
+                subfolder_path = output_path / safe_name
                 sub_files = self.download_folder(item_id, str(subfolder_path), recursive=True)
                 downloaded_files.extend(sub_files)
                 continue
 
             # Determine file extension
             ext = self._get_file_extension(mime_type, item_name)
-            file_path = output_path / f"{item_name}{ext}"
+            file_path = output_path / f"{safe_name}{ext}"
 
             try:
                 self.download_file(item_id, str(file_path))
@@ -278,6 +281,22 @@ class GoogleDriveClient:
                 logger.error(f"Error downloading {item_name}: {e}")
 
         return downloaded_files
+
+    def _sanitize_filename(self, filename: str) -> str:
+        """Sanitize filename to prevent path traversal attacks"""
+        import os
+        # Remove path separators and dangerous characters
+        safe_name = filename.replace('/', '_').replace('\\', '_')
+        safe_name = safe_name.replace('..', '_')
+        # Remove any remaining path components
+        safe_name = os.path.basename(safe_name)
+        # Remove null bytes
+        safe_name = safe_name.replace('\x00', '_')
+        # Limit length
+        if len(safe_name) > 255:
+            name, ext = os.path.splitext(safe_name)
+            safe_name = name[:255-len(ext)] + ext
+        return safe_name
 
     def _get_file_extension(self, mime_type: str, file_name: str) -> str:
         """Get appropriate file extension"""

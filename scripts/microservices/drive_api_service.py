@@ -80,9 +80,10 @@ def download_file(file_id: str):
         # Download file content
         content = client.download_file(file_id)
 
-        # Determine file extension
+        # Sanitize filename and determine extension
+        safe_file_name = file_name.replace('/', '_').replace('\\', '_').replace('..', '_')
         ext = client._get_file_extension(mime_type, file_name)
-        download_name = f"{file_name}{ext}"
+        download_name = f"{safe_file_name}{ext}"
 
         return send_file(
             BytesIO(content),
@@ -134,11 +135,13 @@ def export_file(file_id: str):
             # Clean up temp file
             os.unlink(exported_path)
 
+            # Sanitize filename for download
+            safe_file_name = file_name.replace('/', '_').replace('\\', '_').replace('..', '_')
             return send_file(
                 BytesIO(file_content),
                 mimetype='application/octet-stream',
                 as_attachment=True,
-                download_name=f"{file_name}{ext}"
+                download_name=f"{safe_file_name}{ext}"
             )
         except Exception as e:
             # Clean up temp file on error
