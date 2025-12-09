@@ -74,7 +74,7 @@ async def forward_request(
     # Validate inputs
     service_name = sanitize_input(service_name, "string")
     path = sanitize_input(path, "string")
-    
+
     # Fallback 1: Check service availability
     service_url = SERVICE_URLS.get(service_name)
     if not service_url:
@@ -87,12 +87,12 @@ async def forward_request(
             if alt_url:
                 service_url = alt_url
                 break
-        
+
         if not service_url:
             raise HTTPException(status_code=503, detail=f"Service {service_name} not available")
 
     url = f"{service_url}{path}"
-    
+
     # Fallback 3: Validate and sanitize data
     if data:
         try:

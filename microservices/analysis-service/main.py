@@ -60,7 +60,7 @@ class AnalysisRequest(BaseModel):
     """Analysis request model with validation"""
     filters: Optional[Dict[str, Any]] = Field(None, max_length=1000)
     options: Optional[Dict[str, Any]] = Field(None, max_length=1000)
-    
+
     @validator('filters')
     def validate_filters(cls, v):
         if v is not None:
@@ -69,7 +69,7 @@ class AnalysisRequest(BaseModel):
             if len(str(v)) > 10000:  # Limit size
                 raise ValueError("filters too large")
         return v
-    
+
     @validator('options')
     def validate_options(cls, v):
         if v is not None:
@@ -107,11 +107,11 @@ async def analyze_fraud(request: AnalysisRequest):
             validate_dict(request.options, "options")
     except ValidationError as e:
         raise HTTPException(status_code=400, detail=str(e))
-    
+
     # Service availability (Fallback 2)
     if not analysis_service:
         raise HTTPException(status_code=503, detail="Analysis service not initialized")
-    
+
     # Execute with redundancy (Fallbacks 3-6 handled by decorator)
     try:
         results = analysis_service.analyze_fraud_patterns()
