@@ -12,7 +12,7 @@ from typing import Dict, List, Any
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from scripts.utils.paths import DATA_DIR, DATA_SOURCE_DIR, DATA_ANALYSIS_DIR, RESEARCH_DIR, FILINGS_DIR
+from scripts.utils.paths import DATA_DIR, DATA_SOURCE_DIR, RESEARCH_DIR, FILINGS_DIR, RESEARCH_CONNECTIONS_DIR
 
 def load_all_evidence() -> Dict[str, Any]:
     """Load all relevant data"""
@@ -24,7 +24,7 @@ def load_all_evidence() -> Dict[str, Any]:
         evidence['firms'] = pd.read_csv(firms_file)
 
     # Load DPOR connections
-    connections_file = DATA_ANALYSIS_DIR / "dpor_skidmore_connections.csv"
+    connections_file = RESEARCH_CONNECTIONS_DIR / "dpor_skidmore_connections.csv"
     if connections_file.exists():
         evidence['connections'] = pd.read_csv(connections_file)
 

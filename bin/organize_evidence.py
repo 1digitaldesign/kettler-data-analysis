@@ -14,8 +14,8 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 from scripts.utils.paths import (
-    PROJECT_ROOT, DATA_SOURCE_DIR, DATA_ANALYSIS_DIR, RESEARCH_DIR,
-    FILINGS_DIR, EVIDENCE_DIR, RESEARCH_EVIDENCE_DIR
+    PROJECT_ROOT, DATA_SOURCE_DIR, RESEARCH_DIR,
+    FILINGS_DIR, EVIDENCE_DIR, RESEARCH_EVIDENCE_DIR, RESEARCH_CONNECTIONS_DIR
 )
 
 def load_all_data() -> Dict[str, Any]:
@@ -34,7 +34,7 @@ def load_all_data() -> Dict[str, Any]:
             data['firms'] = pd.read_csv(firms_file)
 
     # Load connections
-    connections_file = DATA_ANALYSIS_DIR / "dpor_skidmore_connections.csv"
+    connections_file = RESEARCH_CONNECTIONS_DIR / "dpor_skidmore_connections.csv"
     if connections_file.exists():
         data['connections'] = pd.read_csv(connections_file)
 
@@ -144,7 +144,7 @@ def generate_filing_package(data: Dict[str, Any], cross_ref: Dict[str, Any], sum
     package['evidence_documents'] = {
         'pdf_files': [f.name for f in pdf_files],
         'license_data': str(DATA_SOURCE_DIR / "skidmore_all_firms_complete.csv"),
-        'connections_data': str(DATA_ANALYSIS_DIR / "dpor_skidmore_connections.csv")
+        'connections_data': str(RESEARCH_CONNECTIONS_DIR / "dpor_skidmore_connections.csv")
     }
 
     # Key entities from PDF

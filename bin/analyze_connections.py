@@ -16,8 +16,8 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from scripts.utils.paths import (
-    PROJECT_ROOT, DATA_SOURCE_DIR, DATA_CLEANED_DIR, DATA_ANALYSIS_DIR,
-    DATA_DIR
+    PROJECT_ROOT, DATA_SOURCE_DIR, DATA_CLEANED_DIR,
+    DATA_DIR, RESEARCH_CONNECTIONS_DIR, RESEARCH_SUMMARIES_DIR
 )
 
 def normalize_name(name: str) -> str:
@@ -300,8 +300,8 @@ def main_analysis():
     print(f"Found {len(connections)} connections")
 
     # Save connections
-    DATA_ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
-    connections_file = DATA_ANALYSIS_DIR / "dpor_skidmore_connections.csv"
+    RESEARCH_CONNECTIONS_DIR.mkdir(parents=True, exist_ok=True)
+    connections_file = RESEARCH_CONNECTIONS_DIR / "dpor_skidmore_connections.csv"
     connections.to_csv(connections_file, index=False)
     print(f"Saved connections to: {connections_file}")
 
@@ -313,7 +313,8 @@ def main_analysis():
     stats = create_summary_stats(connections, dpor_results, skidmore_data)
 
     # Save summary
-    summary_file = DATA_ANALYSIS_DIR / "analysis_summary.json"
+    RESEARCH_SUMMARIES_DIR.mkdir(parents=True, exist_ok=True)
+    summary_file = RESEARCH_SUMMARIES_DIR / "analysis_summary.json"
     summary_json = {
         'statistics': stats,
         'network': {

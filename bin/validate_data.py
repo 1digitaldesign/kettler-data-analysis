@@ -16,7 +16,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from scripts.utils.paths import (
-    PROJECT_ROOT, DATA_CLEANED_DIR, DATA_ANALYSIS_DIR
+    PROJECT_ROOT, DATA_CLEANED_DIR, RESEARCH_VERIFICATION_DIR, RESEARCH_SUMMARIES_DIR
 )
 
 def normalize_text(text: str) -> str:
@@ -305,14 +305,15 @@ def main_validation():
     report = generate_quality_report(df)
 
     # Save validated data
-    DATA_ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
+    RESEARCH_VERIFICATION_DIR.mkdir(parents=True, exist_ok=True)
+    RESEARCH_SUMMARIES_DIR.mkdir(parents=True, exist_ok=True)
 
-    validated_file = DATA_ANALYSIS_DIR / "dpor_validated.csv"
+    validated_file = RESEARCH_VERIFICATION_DIR / "dpor_validated.csv"
     df.to_csv(validated_file, index=False)
     print(f"Saved validated data to: {validated_file}")
 
     # Save quality report
-    report_file = DATA_ANALYSIS_DIR / "data_quality_report.json"
+    report_file = RESEARCH_SUMMARIES_DIR / "data_quality_report.json"
     with open(report_file, 'w') as f:
         json.dump(report, f, indent=2, default=str)
     print(f"Saved quality report to: {report_file}")
@@ -326,7 +327,7 @@ def main_validation():
         ]
 
         if len(issues) > 0:
-            issues_file = DATA_ANALYSIS_DIR / "data_quality_issues.csv"
+            issues_file = RESEARCH_VERIFICATION_DIR / "data_quality_issues.csv"
             issues.to_csv(issues_file, index=False)
             print(f"Saved {len(issues)} flagged issues to: {issues_file}")
 

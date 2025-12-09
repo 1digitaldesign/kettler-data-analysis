@@ -15,9 +15,7 @@
    ↓
 6. Analysis (scripts/core/, scripts/analysis/)
    ↓
-7. Analysis Outputs (data/analysis/)
-   ↓
-8. Research Outputs (research/{category}/)
+7. Research Outputs (research/{category}/)
 ```
 
 ## Data Types
@@ -32,10 +30,10 @@
 **Cleaned:**
 - `data/cleaned/` - Standardized data (gitignored)
 
-**Analysis:**
-- `data/analysis/dpor_skidmore_connections.csv` - Connections
-- `data/analysis/dpor_validated.csv` - Validated data
-- `data/analysis/analysis_summary.json` - Summary
+**Research:**
+- `research/connections/dpor_skidmore_connections.csv` - Connections
+- `research/verification/dpor_validated.csv` - Validated data
+- `research/summaries/analysis_summary.json` - Summary
 
 **Research:**
 - `research/connections/` - Connection analyses

@@ -9,7 +9,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
-from scripts.utils.paths import DATA_ANALYSIS_DIR, PROJECT_ROOT
+from scripts.utils.paths import RESEARCH_CONNECTIONS_DIR, RESEARCH_VERIFICATION_DIR, PROJECT_ROOT
 from bin.analyze_connections import main_analysis
 from bin.validate_data import main_validation
 
@@ -25,8 +25,8 @@ def generate_summary_csvs():
     print("Generating summary CSV files...")
 
     # Load data
-    connections_file = DATA_ANALYSIS_DIR / "dpor_skidmore_connections.csv"
-    validated_file = DATA_ANALYSIS_DIR / "dpor_validated.csv"
+    connections_file = RESEARCH_CONNECTIONS_DIR / "dpor_skidmore_connections.csv"
+    validated_file = RESEARCH_VERIFICATION_DIR / "dpor_validated.csv"
 
     if connections_file.exists():
         connections = pd.read_csv(connections_file)
@@ -88,10 +88,10 @@ def main_outputs():
 
     print("\n=== All Outputs Generated ===")
     print("\nOutput files:")
-    print("  - data/analysis/dpor_skidmore_connections.csv")
-    print("  - data/analysis/dpor_validated.csv")
-    print("  - data/analysis/analysis_summary.json")
-    print("  - data/analysis/data_quality_report.json")
+    print("  - research/connections/dpor_skidmore_connections.csv")
+    print("  - research/verification/dpor_validated.csv")
+    print("  - research/summaries/analysis_summary.json")
+    print("  - research/summaries/data_quality_report.json")
     print("  - dpor_multi_state_summary.csv")
     print("  - dpor_connection_type_summary.csv")
     print("  - dpor_high_quality_records.csv")

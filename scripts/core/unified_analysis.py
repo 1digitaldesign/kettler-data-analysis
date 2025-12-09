@@ -17,7 +17,7 @@ import re
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from scripts.utils.paths import (
-    DATA_SOURCE_DIR, DATA_ANALYSIS_DIR, RESEARCH_DIR, FILINGS_DIR,
+    DATA_SOURCE_DIR, RESEARCH_DIR, FILINGS_DIR,
     RESEARCH_CONNECTIONS_DIR, RESEARCH_ANOMALIES_DIR, RESEARCH_TIMELINES_DIR
 )
 
@@ -58,7 +58,7 @@ class UnifiedAnalyzer:
                         data['firms'] = pd.read_json(firms_file, orient='records')
 
         # Load connections
-        conn_file = DATA_ANALYSIS_DIR / "dpor_skidmore_connections.csv"
+        conn_file = RESEARCH_CONNECTIONS_DIR / "dpor_skidmore_connections.csv"
         if conn_file.exists():
             data['connections'] = pd.read_csv(conn_file)
 

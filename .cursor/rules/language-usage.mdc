@@ -4,13 +4,4 @@ alwaysApply: true
 
 # Rules
 
-- Check in code regularly.
-- Use the most appropriate language for the task.
-- Use the most appropriate library for the task.
-- Use the most appropriate model for the task.
-- Use the most appropriate algorithm for the task.
-- Use the most appropriate data structure for the task.
-- Use the most appropriate data type for the task.
-- Use the most appropriate data format for the task.
-- Use the most appropriate data source for the task.
-- Use the most appropriate data sink for the task.
+- Check in code regularly and push to the repository.

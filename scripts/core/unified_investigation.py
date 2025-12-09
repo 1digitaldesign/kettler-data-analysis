@@ -17,7 +17,7 @@ import re
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from scripts.utils.paths import (
     RESEARCH_DIR, RESEARCH_VIOLATIONS_DIR, EVIDENCE_DIR,
-    DATA_SOURCE_DIR, DATA_ANALYSIS_DIR
+    DATA_SOURCE_DIR, RESEARCH_CONNECTIONS_DIR
 )
 
 class UnifiedInvestigator:

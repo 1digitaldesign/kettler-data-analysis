@@ -18,12 +18,6 @@ data/
 │   ├── front_website_listings.json
 │   └── additional_str_listings.json
 │
-├── analysis/        # Analysis outputs and reports
-│   ├── dpor_skidmore_connections.csv         # Firm connections analysis
-│   ├── dpor_validated.csv                   # Validated data with quality flags
-│   ├── analysis_summary.json                 # Summary statistics
-│   └── data_quality_report.json              # Quality metrics
-│
 ├── raw/             # Raw search results (gitignored)
 ├── cleaned/         # Cleaned and standardized data (gitignored)
 ├── vectors/         # Vector embeddings and ETL results
@@ -43,8 +37,8 @@ All datasets follow a normalized schema with clearly defined **Primary Keys (PK)
 | **firms** | `firm_license` | `individual_license` → `individual_licenses.license_number` | `source/skidmore_all_firms_complete.json` |
 | **individual_licenses** | `license_number` | None | `source/skidmore_individual_licenses.json` |
 | **str_listings** | `listing_id` | None | `scraped/*.json` |
-| **firm_connections** | `connection_id` | `firm_license_1`, `firm_license_2` → `firms.firm_license` | `analysis/dpor_skidmore_connections.csv` |
-| **analysis_results** | `analysis_id` | None | `analysis/*.json` |
+| **firm_connections** | `connection_id` | `firm_license_1`, `firm_license_2` → `firms.firm_license` | `research/connections/dpor_skidmore_connections.csv` |
+| **analysis_results** | `analysis_id` | None | `research/summaries/*.json` |
 
 ### Schema Documentation
 
@@ -99,31 +93,16 @@ Short-term rental listings scraped from various platforms:
 
 **Schema:** See `str_listings` table in [`SCHEMA.md`](./SCHEMA.md)
 
-## 📈 Analysis Outputs (`analysis/`)
+## 📈 Research Outputs
 
-### `dpor_skidmore_connections.csv`
+Analysis outputs and research products are now located in `research/` directory:
 
-**Primary Key:** `connection_id`
-**Foreign Keys:** `firm_license_1`, `firm_license_2` → `firms.firm_license`
+- **Connections:** `research/connections/dpor_skidmore_connections.csv`
+- **Validated Data:** `research/verification/dpor_validated.csv`
+- **Quality Reports:** `research/summaries/data_quality_report.json`
+- **Analysis Summaries:** `research/summaries/analysis_summary.json`
 
-Identified connections between firms (same address, same principal broker, etc.).
-
-### `dpor_validated.csv`
-
-Validated firm data with quality flags and validation results.
-
-### `data_quality_report.json`
-
-Data quality metrics including:
-- License validation
-- Duplicate detection
-- Address validation
-- Date validation
-- Completeness scores
-
-### `analysis_summary.json`
-
-Summary statistics and analysis results.
+See `research/README.md` for complete research output structure.
 
 ## 🔗 Relationships
 
@@ -162,7 +141,7 @@ Summary statistics and analysis results.
 
 - **Firms:** 38/38 complete (100%)
 - **Individual Licenses:** 40+ licenses documented
-- **Data Quality:** See `analysis/data_quality_report.json`
+- **Data Quality:** See `research/summaries/data_quality_report.json`
 
 ## 📝 Usage Examples
 
