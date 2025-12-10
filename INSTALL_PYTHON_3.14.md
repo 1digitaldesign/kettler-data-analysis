@@ -8,6 +8,7 @@ Guide to install and use Python 3.14.0 for this project.
 
 ```bash
 python3.14 --version
+
 # Output: Python 3.14.0
 ```
 
@@ -38,6 +39,7 @@ python3.14 bin/run_pipeline.py
 If you want Python 3.14 as your default Python 3:
 
 ```bash
+
 # Add to ~/.zshrc or ~/.bash_profile
 alias python3=python3.14
 alias pip3=pip3.14
@@ -52,6 +54,7 @@ Python 3.14.0 is installed via Homebrew at `/opt/homebrew/bin/python3.14`
 To reinstall or update:
 ```bash
 brew install python@3.14
+
 # or
 brew upgrade python@3.14
 ```
@@ -88,9 +91,11 @@ Verify Python 3.14 installation:
 
 ```bash
 python3.14 --version
+
 # Should output: Python 3.14.0
 
 python3.14 -m pip --version
+
 # Should show pip version
 ```
 

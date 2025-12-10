@@ -1,4 +1,5 @@
 # Final Investigation Report
+
 ## Kettler Management - Unlicensed Operations Investigation
 
 **Date:** December 7, 2025

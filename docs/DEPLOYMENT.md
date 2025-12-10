@@ -76,6 +76,7 @@ flowchart TD
 ## Local Deployment
 
 ```bash
+
 # API
 cd api && python server.py
 

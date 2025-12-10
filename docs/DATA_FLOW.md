@@ -138,6 +138,7 @@ flowchart LR
 ## Quick Reference
 
 ```bash
+
 # Run full pipeline
 python bin/run_pipeline.py
 

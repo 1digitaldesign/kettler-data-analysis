@@ -1,4 +1,5 @@
 # Executive Summary for Administrative Filings
+
 ## Kettler Management - Unlicensed Real Estate Operations
 
 **Date:** December 7, 2025
