@@ -166,6 +166,7 @@ graph TB
         research_reports_COMPLETE_AUDIT_SUMMARY_md["COMPLETE_AUDIT_SUMMARY"]
         research_reports_COMPREHENSIVE_ANOMALIES_REPORT_md["COMPREHENSIVE_ANOMALIES_REPORT"]
         research_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md["COMPREHENSIVE_VIOLATIONS_REPORT"]
+        research_reports_DATA_COLLECTION_PROGRESS_md["DATA_COLLECTION_PROGRESS"]
         research_reports_DATA_COLLECTION_TODOS_md["DATA_COLLECTION_TODOS"]
         research_reports_FINAL_NEXUS_FINDINGS_md["FINAL_NEXUS_FINDINGS"]
         research_reports_FINAL_VIOLATION_SUMMARY_md["FINAL_VIOLATION_SUMMARY"]
@@ -368,8 +369,10 @@ graph TB
     research_REPORTS_md --> research_reports_VIOLATION_AUDIT_COMPLETE_md
     research_REPORTS_md --> research_reports_RESEARCH_COMPLETION_SUMMARY_md
     research_REPORTS_md --> research_reports_FINAL_VIOLATION_SUMMARY_md
+    research_REPORTS_md --> research_reports_DATA_COLLECTION_TODOS_md
     research_REPORTS_md --> research_README_md
     research_REPORTS_md --> research_DATA_GUIDE_md
+    research_REPORTS_md --> research_reports_DATA_COLLECTION_TODOS_md
     research_investigations_README_md --> research_README_md
     research_investigations_README_md --> research_REPORTS_md
     research_investigations_README_md --> research_DATA_GUIDE_md
@@ -392,6 +395,9 @@ graph TB
     research_license_searches_reports_INVESTIGATION_SUMMARY_md --> research_license_searches_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md
     research_license_searches_reports_INVESTIGATION_SUMMARY_md --> research_license_searches_reports_MASTER_INVESTIGATION_REPORT_md
     research_license_searches_reports_INVESTIGATION_SUMMARY_md --> research_license_searches_README_md
+    research_reports_DATA_COLLECTION_PROGRESS_md --> research_reports_DATA_COLLECTION_TODOS_md
+    research_reports_DATA_COLLECTION_PROGRESS_md --> research_license_searches_reports_INVESTIGATION_SUMMARY_md
+    research_reports_DATA_COLLECTION_PROGRESS_md --> research_README_md
     research_reports_DATA_COLLECTION_TODOS_md --> research_license_searches_reports_INVESTIGATION_SUMMARY_md
     research_reports_DATA_COLLECTION_TODOS_md --> research_license_searches_reports_EXECUTIVE_SUMMARY_FOR_FILINGS_md
     research_reports_DATA_COLLECTION_TODOS_md --> research_DATA_GUIDE_md
@@ -537,6 +543,7 @@ graph TB
     style research_reports_COMPLETE_AUDIT_SUMMARY_md fill:#E1BEE7
     style research_reports_COMPREHENSIVE_ANOMALIES_REPORT_md fill:#E1BEE7
     style research_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md fill:#E1BEE7
+    style research_reports_DATA_COLLECTION_PROGRESS_md fill:#E1BEE7
     style research_reports_DATA_COLLECTION_TODOS_md fill:#E1BEE7
     style research_reports_FINAL_NEXUS_FINDINGS_md fill:#E1BEE7
     style research_reports_FINAL_VIOLATION_SUMMARY_md fill:#E1BEE7

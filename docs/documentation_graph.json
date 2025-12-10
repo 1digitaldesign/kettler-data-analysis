@@ -865,6 +865,12 @@
       "category": "research"
     },
     {
+      "id": "research/reports/DATA_COLLECTION_PROGRESS.md",
+      "label": "DATA_COLLECTION_PROGRESS",
+      "path": "research/reports/DATA_COLLECTION_PROGRESS.md",
+      "category": "research"
+    },
+    {
       "id": "research/reports/DATA_COLLECTION_TODOS.md",
       "label": "DATA_COLLECTION_TODOS",
       "path": "research/reports/DATA_COLLECTION_TODOS.md",
@@ -1923,6 +1929,11 @@
     },
     {
       "source": "research/REPORTS.md",
+      "target": "research/reports/DATA_COLLECTION_TODOS.md",
+      "label": "**Data Collection Todos**"
+    },
+    {
+      "source": "research/REPORTS.md",
       "target": "research/README.md",
       "label": "Research README"
     },
@@ -1930,6 +1941,11 @@
       "source": "research/REPORTS.md",
       "target": "research/DATA_GUIDE.md",
       "label": "Data Guide"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/DATA_COLLECTION_TODOS.md",
+      "label": "Data Collection Todos"
     },
     {
       "source": "research/investigations/README.md",
@@ -2039,6 +2055,21 @@
     {
       "source": "research/license_searches/reports/INVESTIGATION_SUMMARY.md",
       "target": "research/license_searches/README.md",
+      "label": "Research README"
+    },
+    {
+      "source": "research/reports/DATA_COLLECTION_PROGRESS.md",
+      "target": "research/reports/DATA_COLLECTION_TODOS.md",
+      "label": "Data Collection Todos"
+    },
+    {
+      "source": "research/reports/DATA_COLLECTION_PROGRESS.md",
+      "target": "research/license_searches/reports/INVESTIGATION_SUMMARY.md",
+      "label": "Investigation Summary"
+    },
+    {
+      "source": "research/reports/DATA_COLLECTION_PROGRESS.md",
+      "target": "research/README.md",
       "label": "Research README"
     },
     {

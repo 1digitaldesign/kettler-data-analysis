@@ -68,11 +68,31 @@ All detailed reports are available in:
 
 ---
 
+## Data collection
+
+### Active data collection tasks
+
+- [**Data Collection Todos**](reports/DATA_COLLECTION_TODOS.md) ⭐ **START HERE**
+  - Comprehensive list of all data collection tasks
+  - Organized by priority (High/Medium/Low)
+  - Status tracking for each task
+  - Estimated effort and next steps
+
+**Current Status:**
+- ✅ License searches: Complete (288 files, 15 states)
+- ⚠️ Additional data collection: In progress
+- ❌ Company registrations: Not started
+- ❌ Property management contracts: Not started
+- ❌ Regulatory complaints: Not started
+
+---
+
 ## Related documentation
 
 - [Research README](README.md) - Research directory guide
 - [Data Guide](DATA_GUIDE.md) - Complete data guide
 - [VA DPOR Complaint](va_dpor_complaint/) - Complaint package
+- [Data Collection Todos](reports/DATA_COLLECTION_TODOS.md) - Active data collection tasks
 
 ---
 
