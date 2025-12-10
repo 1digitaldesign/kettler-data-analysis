@@ -1,5 +1,8 @@
 # System Architecture
 
+![Architecture](https://img.shields.io/badge/architecture-python--first-blue)
+![Status](https://img.shields.io/badge/status-operational-brightgreen)
+
 ## Overview
 
 Python-first data analysis platform with microservices architecture.
@@ -49,105 +52,100 @@ graph TB
     style O fill:#E1BEE7
 ```
 
-## Components
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    Entry Layer                           │
-│  bin/run_pipeline.py, bin/run_all.py                    │
-└────────────────────┬──────────────────────────────────┘
-                      │
-        ┌─────────────┼─────────────┐
-        │             │             │
-┌───────▼──────┐ ┌───▼──────┐ ┌───▼──────┐
-│   Core        │ │   API    │ │   Web    │
-│   Modules     │ │  Server  │ │   App    │
-│               │ │          │ │          │
-│ unified_*     │ │ FastAPI  │ │ React    │
-└───────┬───────┘ └────┬─────┘ └────┬─────┘
-        │              │             │
-        └──────────────┼─────────────┘
-                       │
-        ┌──────────────┼──────────────┐
-        │              │              │
-┌───────▼──────┐ ┌────▼──────┐ ┌─────▼──────┐
-│   Analysis    │ │   ETL     │ │ Microservices│
-│   Layer       │ │  Pipeline │ │             │
-│               │ │           │ │             │
-│ scripts/      │ │ vectors/  │ │ api-gateway │
-│ analysis/     │ │           │ │ analysis-*  │
-└───────┬───────┘ └─────┬─────┘ └─────┬──────┘
-        │                │             │
-        └────────────────┼────────────┘
-                          │
-                ┌─────────▼─────────┐
-                │   Data Layer       │
-                │                    │
-                │ data/source/       │
-                │ data/raw/          │
-                │ data/cleaned/      │
-                │ research/          │
-                │ research/          │
-                └────────────────────┘
-```
-
 ## Layers
 
-**Entry Layer** (`bin/`)
+<details>
+<summary><b>Entry Layer</b> (`bin/`)</summary>
+
 - Entry point scripts
 - Pipeline orchestration
 
-**Core Layer** (`scripts/core/`)
-- UnifiedAnalyzer
-- UnifiedSearcher
-- UnifiedValidator
-- UnifiedReporter
+**Scripts:**
+- `run_pipeline.py` - Full pipeline
+- `run_all.py` - All analyses
+- `analyze_connections.py` - Connections
+- `validate_data.py` - Validation
 
-**Analysis Layer** (`scripts/analysis/`)
+</details>
+
+<details>
+<summary><b>Core Layer</b> (`scripts/core/`)</summary>
+
+- UnifiedAnalyzer - Analysis operations
+- UnifiedSearcher - Search operations
+- UnifiedValidator - Validation
+- UnifiedReporter - Report generation
+- UnifiedInvestigator - Investigation
+- UnifiedScraper - Web scraping
+
+</details>
+
+<details>
+<summary><b>Analysis Layer</b> (`scripts/analysis/`)</summary>
+
 - Analysis scripts
 - Pattern detection
+- Fraud analysis
 
-**ETL Layer** (`scripts/etl/`)
+</details>
+
+<details>
+<summary><b>ETL Layer</b> (`scripts/etl/`)</summary>
+
 - Vector embeddings
 - Data transformation
+- Pipeline orchestration
 
-**API Layer** (`api/`)
+</details>
+
+<details>
+<summary><b>API Layer</b> (`api/`)</summary>
+
 - FastAPI REST API
 - Endpoints for all operations
+- Interactive API docs
 
-**Web Layer** (`web/`)
+</details>
+
+<details>
+<summary><b>Web Layer</b> (`web/`)</summary>
+
 - React frontend
 - Interactive analysis
+- Data visualization
 
-**Microservices** (`microservices/`)
+</details>
+
+<details>
+<summary><b>Microservices</b> (`microservices/`)</summary>
+
 - API Gateway
 - Analysis Service
 - Vector Service
 - Validation Service
 
-**Data Layer** (`data/`, `research/`)
+</details>
+
+<details>
+<summary><b>Data Layer</b> (`data/`, `research/`)</summary>
+
 - Source data
 - Processed data
 - Analysis outputs
 
-## Data Flow
-
-```
-Source Data → Extraction → Cleaning → Analysis → Research Outputs
-     ↓            ↓           ↓          ↓            ↓
-  data/      scripts/    data/     scripts/    research/
-  source/    extraction/ cleaned/  analysis/   {category}/
-```
+</details>
 
 ## Component Responsibilities
 
-**UnifiedAnalyzer** - Analysis operations
-**UnifiedSearcher** - Search operations
-**UnifiedValidator** - Data validation
-**UnifiedReporter** - Report generation
-**ETL Pipeline** - Vector embeddings and transformation
-**API Gateway** - Request routing
-**Analysis Service** - Distributed analysis
+| Component | Responsibility |
+|-----------|---------------|
+| **UnifiedAnalyzer** | Analysis operations |
+| **UnifiedSearcher** | Search operations |
+| **UnifiedValidator** | Data validation |
+| **UnifiedReporter** | Report generation |
+| **ETL Pipeline** | Vector embeddings and transformation |
+| **API Gateway** | Request routing |
+| **Analysis Service** | Distributed analysis |
 
 ## Integration Points
 
@@ -219,4 +217,4 @@ erDiagram
     }
 ```
 
-See [data/schema.json](../data/schema.json) for complete schema definition and [data/DATA_DICTIONARY.md](../data/DATA_DICTIONARY.md) for field definitions.
+> 📘 See [data/schema.json](../data/schema.json) for complete schema definition and [data/DATA_DICTIONARY.md](../data/DATA_DICTIONARY.md) for field definitions.

@@ -1,5 +1,8 @@
 # Repository Structure
 
+![Structure](https://img.shields.io/badge/structure-organized-blue)
+![Files](https://img.shields.io/badge/files-350%2B-orange)
+
 ## Top-Level Organization
 
 ```mermaid
@@ -38,7 +41,7 @@ graph TD
     style SCRIPTS fill:#B2DFDB
 ```
 
-## Text Structure
+## Directory Structure
 
 ```
 .
@@ -48,11 +51,9 @@ graph TD
 │   ├── analysis/     # Analysis
 │   ├── extraction/   # Evidence extraction
 │   ├── etl/          # ETL pipeline
-│   ├── microservices/# Microservice code
 │   └── utils/        # Utilities
 ├── api/              # FastAPI server
 ├── web/              # React frontend
-├── microservices/    # Microservice implementations
 ├── data/             # Data directories
 │   ├── source/       # Source data
 │   ├── raw/          # Raw results
@@ -60,41 +61,141 @@ graph TD
 │   └── vectors/      # Vector embeddings
 ├── research/         # Research outputs
 │   ├── connections/  # Connection analyses
-│   ├── violations/   # Violation findings
-│   ├── anomalies/    # Anomaly reports
-│   ├── evidence/     # Evidence summaries
-│   └── verification/ # Verification results
+│   ├── violations/  # Violation findings
+│   ├── anomalies/   # Anomaly reports
+│   └── evidence/     # Evidence summaries
 ├── config/           # Configuration
 ├── docs/             # Documentation
 ├── evidence/         # Source documents
-├── filings/          # Filing materials
-├── tests/            # Tests
-├── docker/           # Docker configs
-└── kubernetes/       # Kubernetes configs
+└── filings/          # Filing materials
 ```
 
 ## Component Organization
 
-**Entry Layer:** `bin/` - Scripts to run
-**Core Layer:** `scripts/core/` - Unified modules
-**Analysis:** `scripts/analysis/` - Analysis scripts
-**Extraction:** `scripts/extraction/` - Evidence extraction
-**ETL:** `scripts/etl/` - ETL pipeline
-**API:** `api/` - FastAPI server
-**Web:** `web/` - React frontend
-**Microservices:** `microservices/` - Service implementations
+<details>
+<summary><b>Entry Layer</b> (`bin/`)</summary>
+
+Scripts to run the system.
+
+**Files:**
+- `run_pipeline.py` - Full pipeline
+- `run_all.py` - All analyses
+- `analyze_connections.py` - Connections
+- `validate_data.py` - Validation
+
+</details>
+
+<details>
+<summary><b>Core Layer</b> (`scripts/core/`)</summary>
+
+Unified modules for all operations.
+
+**Modules:**
+- `unified_analysis.py` - UnifiedAnalyzer
+- `unified_investigation.py` - UnifiedInvestigator
+- `unified_search.py` - UnifiedSearcher
+- `unified_validation.py` - UnifiedValidator
+
+</details>
+
+<details>
+<summary><b>Analysis</b> (`scripts/analysis/`)</summary>
+
+Analysis scripts for pattern detection.
+
+</details>
+
+<details>
+<summary><b>Extraction</b> (`scripts/extraction/`)</summary>
+
+Evidence extraction from PDFs and Excel files.
+
+</details>
+
+<details>
+<summary><b>ETL</b> (`scripts/etl/`)</summary>
+
+ETL pipeline for vector embeddings.
+
+</details>
 
 ## Data Organization
 
-**Source:** `data/source/` - Authoritative data
-**Raw:** `data/raw/` - Unprocessed results
-**Cleaned:** `data/cleaned/` - Standardized data
-**Research:** `research/` - All research outputs (connections, summaries, verification, etc.)
-**Research:** `research/{category}/` - Categorized outputs
+<details>
+<summary><b>Source</b> (`data/source/`)</summary>
+
+Authoritative datasets.
+
+**Files:**
+- `skidmore_all_firms_complete.json` - 38 firms
+- `skidmore_individual_licenses.json` - Individual licenses
+
+</details>
+
+<details>
+<summary><b>Raw</b> (`data/raw/`)</summary>
+
+Unprocessed search results (gitignored).
+
+</details>
+
+<details>
+<summary><b>Cleaned</b> (`data/cleaned/`)</summary>
+
+Standardized data (gitignored).
+
+**Files:**
+- `firms.json` - Cleaned firm data
+- `individual_licenses.json` - Cleaned license data
+
+</details>
+
+<details>
+<summary><b>Research</b> (`research/`)</summary>
+
+All research outputs organized by category.
+
+**Categories:**
+- `connections/` - Connection analyses
+- `violations/` - Violation findings
+- `anomalies/` - Anomaly reports
+- `evidence/` - Evidence summaries
+- `verification/` - Verification results
+- `summaries/` - Summary reports
+- `timelines/` - Timeline analyses
+
+</details>
 
 ## Documentation
 
-**System:** `SYSTEM_ARCHITECTURE.md`, `DATA_FLOW.md`, `COMPONENTS.md`
-**Guides:** `docs/guides/`
-**Reference:** `docs/reference/`
-**Archive:** `docs/archive/`
+<details>
+<summary><b>System Documentation</b></summary>
+
+- `SYSTEM_ARCHITECTURE.md` - Architecture
+- `DATA_FLOW.md` - Data pipeline
+- `COMPONENTS.md` - Component reference
+
+</details>
+
+<details>
+<summary><b>Guides</b></summary>
+
+- `docs/guides/` - User guides
+
+</details>
+
+<details>
+<summary><b>Reference</b></summary>
+
+- `docs/reference/` - Reference materials
+
+</details>
+
+<details>
+<summary><b>Archive</b></summary>
+
+- `docs/archive/` - Archived documentation
+
+</details>
+
+> 📘 See [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) for architecture details.

@@ -1,5 +1,8 @@
 # System Components
 
+![Components](https://img.shields.io/badge/components-unified-blue)
+![Status](https://img.shields.io/badge/status-operational-brightgreen)
+
 ## Component Hierarchy
 
 ```mermaid
@@ -48,94 +51,132 @@ graph TB
 
 ## Entry Points (`bin/`)
 
-- `run_pipeline.py` - Full pipeline
-- `run_all.py` - All analyses
-- `analyze_connections.py` - Connections
-- `validate_data.py` - Validation
-- `generate_reports.py` - Reports
-- `organize_evidence.py` - Evidence
-- `clean_data.py` - Data cleaning
+| Script | Purpose | Output |
+|--------|---------|--------|
+| `run_pipeline.py` | Full pipeline | All outputs |
+| `run_all.py` | All analyses | Research outputs |
+| `analyze_connections.py` | Connections | `research/connections/` |
+| `validate_data.py` | Validation | `research/verification/` |
+| `generate_reports.py` | Reports | `research/summaries/` |
+| `organize_evidence.py` | Evidence | `research/evidence/` |
+| `clean_data.py` | Cleaning | `data/cleaned/` |
 
 ## Core Modules (`scripts/core/`)
 
-```mermaid
-graph LR
-    A[UnifiedAnalyzer] --> B[Analysis Operations]
-    C[UnifiedSearcher] --> D[Search Operations]
-    E[UnifiedValidator] --> F[Validation]
-    G[UnifiedReporter] --> H[Report Generation]
-    I[UnifiedInvestigator] --> J[Investigation]
-    K[UnifiedScraper] --> L[Web Scraping]
+<details>
+<summary><b>UnifiedAnalyzer</b> (`unified_analysis.py`)</summary>
 
-    B --> M[research/connections/]
-    B --> N[research/anomalies/]
-    D --> O[research/search_results/]
-    F --> P[research/verification/]
-    H --> Q[research/summaries/]
-    J --> R[research/violations/]
+**Purpose:** Analysis operations
 
-    style A fill:#FFF9C4
-    style C fill:#B3E5FC
-    style E fill:#C8E6C9
-    style G fill:#E1BEE7
-    style I fill:#F8BBD0
-    style K fill:#FFE0B2
-```
+**Features:**
+- ✅ Connection analysis
+- ✅ Pattern detection
+- ✅ Anomaly identification
+- ✅ Fraud analysis
 
-- `unified_analysis.py` - UnifiedAnalyzer
-- `unified_search.py` - UnifiedSearcher
-- `unified_validation.py` - UnifiedValidator
-- `unified_reporting.py` - UnifiedReporter
-- `unified_investigation.py` - UnifiedInvestigator
-- `unified_scraping.py` - UnifiedScraper
+**Output:** `research/connections/`, `research/anomalies/`
 
-## Analysis (`scripts/analysis/`)
+</details>
+
+<details>
+<summary><b>UnifiedSearcher</b> (`unified_search.py`)</summary>
+
+**Purpose:** Search operations
+
+**Features:**
+- ✅ Multi-state license searches
+- ✅ Database queries
+- ✅ Web scraping
+
+**Output:** `research/search_results/`
+
+</details>
+
+<details>
+<summary><b>UnifiedValidator</b> (`unified_validation.py`)</summary>
+
+**Purpose:** Data validation
+
+**Features:**
+- ✅ Schema validation
+- ✅ FK/PK integrity checks
+- ✅ Data quality reports
+
+**Output:** `research/verification/`
+
+</details>
+
+<details>
+<summary><b>UnifiedReporter</b> (`unified_reporting.py`)</summary>
+
+**Purpose:** Report generation
+
+**Features:**
+- ✅ Summary reports
+- ✅ Quality reports
+- ✅ Analysis summaries
+
+**Output:** `research/summaries/`
+
+</details>
+
+<details>
+<summary><b>UnifiedInvestigator</b> (`unified_investigation.py`)</summary>
+
+**Purpose:** Investigation operations
+
+**Features:**
+- ✅ Violation detection
+- ✅ Timeline analysis
+- ✅ Evidence compilation
+
+**Output:** `research/violations/`, `research/timelines/`
+
+</details>
+
+<details>
+<summary><b>UnifiedScraper</b> (`unified_scraping.py`)</summary>
+
+**Purpose:** Web scraping
+
+**Features:**
+- ✅ Automated searches
+- ✅ CAPTCHA handling
+- ✅ Data extraction
+
+**Output:** `data/scraped/`
+
+</details>
+
+## Supporting Scripts
+
+<details>
+<summary><b>Analysis</b> (`scripts/analysis/`)</summary>
 
 - `analyze_fraud_patterns.py` - Fraud detection
 - `analyze_str_listings.py` - STR analysis
 
-## Extraction (`scripts/extraction/`)
+</details>
+
+<details>
+<summary><b>Extraction</b> (`scripts/extraction/`)</summary>
 
 - `extract_pdf_evidence.py` - PDF extraction
 - `extract_excel_evidence.py` - Excel extraction
 - `extract_all_evidence.py` - Master extraction
 
-## ETL (`scripts/etl/`)
+</details>
+
+<details>
+<summary><b>ETL</b> (`scripts/etl/`)</summary>
 
 - `etl_pipeline.py` - Main pipeline
 - `vector_embeddings.py` - Vector generation
 - `vector_api_server.py` - Vector API
 
-## API (`api/`)
+</details>
 
-- `server.py` - FastAPI server
-- Endpoints for all operations
-
-## Web (`web/`)
-
-- React/TypeScript frontend
-- Components for analysis, search, visualization
-
-## Microservices (`microservices/`)
-
-- `api-gateway/` - Request routing
-- `analysis-service/` - Analysis processing
-- `vector-service/` - Vector operations
-- `validation-service/` - Validation
-- `scraping-service/` - Web scraping
-- `gis-service/` - GIS operations
-- `acris-service/` - ACRIS operations
-- `data-service/` - Data operations
-
-## Data (`data/`)
-
-- `source/` - Source data
-- `raw/` - Raw results
-- `cleaned/` - Cleaned data
-- `analysis/` - Analysis outputs
-- `vectors/` - Vector embeddings
-
-## Research (`research/`)
+## Research Outputs
 
 ```mermaid
 mindmap
@@ -143,42 +184,30 @@ mindmap
     Connections
       dpor_skidmore_connections.csv
       connection_matrix.json
-      nexus_patterns_analysis.json
     Violations
       all_violations_compiled.json
       hyland_upl_investigation.json
-      news_violations_search.json
     Anomalies
       all_anomalies_consolidated.json
       fraud_indicators.json
-      additional_anomalies.json
     Summaries
       analysis_summary.json
       data_quality_report.json
-      filing_recommendations.json
     Verification
       dpor_validated.csv
       kettler_verification.json
-      hyland_verification.json
     Timelines
       timeline_analysis.json
-      lease_abnormalities_detailed.json
-    Evidence
-      pdf_evidence_extracted.json
-      excel_evidence_extracted.json
-    Search Results
-      dpor_search_results.json
-      virginia_bar_search_results.json
 ```
 
-- `connections/` - Connection analyses
-- `violations/` - Violation findings
-- `anomalies/` - Anomaly reports
-- `evidence/` - Evidence summaries
-- `verification/` - Verification results
-- `timelines/` - Timeline analyses
+## Usage Example
 
-## Configuration (`config/`)
+```python
+from scripts.core import UnifiedAnalyzer
 
-- `state_dpor_registry.csv` - State registry
-- `templates/` - Config templates
+analyzer = UnifiedAnalyzer()
+analyzer.load_all_data()
+results = analyzer.analyze_all()
+```
+
+> 📘 See [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) for architecture details.
