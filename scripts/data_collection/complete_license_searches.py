@@ -46,8 +46,7 @@ STATES_TO_COMPLETE = {
 
 
 def check_missing_searches(state: str) -> list[str]:
-    """Check which employee searches are missing for a state."""
-    state."""
+    """Check which employee searches are missing for state."""
     state_dir = LICENSE_DIR / state
     if not state_dir.exists():
         return EMPLOYEES.copy()
