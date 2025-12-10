@@ -44,11 +44,14 @@
         "address": "850 John Carlyle Street, Alexandria, VA 22314",
         "jurisdiction": "City of Alexandria",
         "units": "unknown",
+        "note": "May be part of same complex as 800 Carlyle or adjacent building",
         "management_start": "unknown",
         "management_end": "present",
+        "verified": false,
         "evidence_sources": [
           "Short-term rental listings",
-          "Evidence files"
+          "Evidence files",
+          "Property records search"
         ]
       },
       {
@@ -70,8 +73,8 @@
         "property_name": "The Fields of Arlington",
         "address": "5100 8th Road South, Arlington, VA 22204",
         "jurisdiction": "Arlington County",
-        "units": "unknown",
-        "unit_types": ["Efficiency", "1-bedroom", "3-bedroom"],
+        "units": 199,
+        "unit_types": ["Efficiency", "1-bedroom", "2-bedroom", "3-bedroom"],
         "rent_range": "$1,624 to $2,485",
         "utilities": "All utilities included",
         "amenities": ["Free parking lot"],
@@ -80,7 +83,8 @@
         "verified": true,
         "evidence_sources": [
           "Arlington County affordable housing documents",
-          "AHC partnership announcement (September 2025)"
+          "AHC partnership announcement (September 2025)",
+          "Arlington County Housing Indicators CAF Inventory"
         ]
       },
       {
@@ -188,7 +192,7 @@
   },
   "data_sources": {
     "property_records": {
-      "status": "pending",
+      "status": "method_verified",
       "jurisdictions": [
         "City of Alexandria",
         "Fairfax County",
@@ -200,7 +204,25 @@
         "Property tax records",
         "Business license records",
         "Rental property registrations"
-      ]
+      ],
+      "alexandria": {
+        "tool": "Real Estate Assessment Search",
+        "contact": {
+          "email": "realestate@alexandriava.gov",
+          "phone": "703.746.4646",
+          "address": "301 King Street, Room 2600, Alexandria, VA 22314"
+        },
+        "note": "Historical records available from 1939 at Alexandria Library Local History/Special Collections"
+      },
+      "fairfax_county": {
+        "tool": "Fairfax County Real Estate Assessment Site",
+        "url": "https://www.fairfaxcounty.gov/taxes/realestate",
+        "note": "Provides unit counts, building characteristics, assessment values"
+      },
+      "arlington_county": {
+        "tool": "Arlington County property records",
+        "note": "Unit counts available through property assessment records"
+      }
     },
     "business_license_records": {
       "status": "pending",
@@ -239,7 +261,7 @@
       "total_verified_minimum": 754,
       "total_with_ahc": "approximately 3,754"
     },
-    "virginia_units_estimate": "3,280+ (minimum verified)",
+    "virginia_units_estimate": "3,953+ (minimum verified with AHC partnership)",
     "properties_managed_verified": 3,
     "properties_managed_estimate": "97 total (per corporate info), Virginia subset unknown",
     "lease_transactions_estimate": "unknown - research needed"

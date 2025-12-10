@@ -57,8 +57,12 @@
       "email": "unknown",
       "license_verification": {
         "virginia": {
-          "status": "pending",
-          "search_performed": false
+          "status": "not_found",
+          "search_performed": true,
+          "search_date": "2025-12-09",
+          "result": "No license found in Virginia DPOR database",
+          "search_method": "DPOR License Lookup tool",
+          "url": "https://www.dpor.virginia.gov/LicenseLookup"
         },
         "all_states": {
           "status": "pending",
@@ -77,8 +81,12 @@
       "email": "unknown",
       "license_verification": {
         "virginia": {
-          "status": "pending",
-          "search_performed": false
+          "status": "not_found",
+          "search_performed": true,
+          "search_date": "2025-12-09",
+          "result": "No license found in Virginia DPOR database",
+          "search_method": "DPOR License Lookup tool",
+          "url": "https://www.dpor.virginia.gov/LicenseLookup"
         },
         "all_states": {
           "status": "pending",
@@ -97,8 +105,12 @@
       "email": "unknown",
       "license_verification": {
         "virginia": {
-          "status": "pending",
-          "search_performed": false
+          "status": "not_found",
+          "search_performed": true,
+          "search_date": "2025-12-09",
+          "result": "No license found in Virginia DPOR database",
+          "search_method": "DPOR License Lookup tool",
+          "url": "https://www.dpor.virginia.gov/LicenseLookup"
         },
         "all_states": {
           "status": "pending",
@@ -117,8 +129,12 @@
       "email": "unknown",
       "license_verification": {
         "virginia": {
-          "status": "pending",
-          "search_performed": false
+          "status": "not_found",
+          "search_performed": true,
+          "search_date": "2025-12-09",
+          "result": "No license found in Virginia DPOR database",
+          "search_method": "DPOR License Lookup tool",
+          "url": "https://www.dpor.virginia.gov/LicenseLookup"
         },
         "all_states": {
           "status": "pending",

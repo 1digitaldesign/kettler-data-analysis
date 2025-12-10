@@ -43,27 +43,27 @@ graph TB
 ```mermaid
 flowchart TD
     START([Start Deployment]) --> CHOOSE{Deployment Type}
-    
+
     CHOOSE -->|Local| LOCAL[Local Setup]
     CHOOSE -->|Docker| DOCKER[Docker Setup]
     CHOOSE -->|Kubernetes| K8S[Kubernetes Setup]
-    
+
     LOCAL --> L1[Install Dependencies]
     L1 --> L2[Configure .env]
     L2 --> L3[Run Services]
-    
+
     DOCKER --> D1[Build Images]
     D1 --> D2[Configure docker-compose.yml]
     D2 --> D3[Start Containers]
-    
+
     K8S --> K1[Apply Configs]
     K1 --> K2[Deploy Services]
     K2 --> K3[Configure Ingress]
-    
+
     L3 --> VERIFY[Verify Deployment]
     D3 --> VERIFY
     K3 --> VERIFY
-    
+
     VERIFY --> END([Deployment Complete])
 
     style START fill:#C8E6C9

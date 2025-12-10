@@ -5,10 +5,10 @@
 ```mermaid
 flowchart TD
     START([Start Installation]) --> CHECK[Check Prerequisites]
-    
+
     CHECK -->|Missing| INSTALL[Install Prerequisites]
     CHECK -->|Present| CLONE[Clone Repository]
-    
+
     INSTALL --> CLONE
     CLONE --> VENV[Create Virtual Environment]
     VENV --> DEPS[Install Dependencies]
