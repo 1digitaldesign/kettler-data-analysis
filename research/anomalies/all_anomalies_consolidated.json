@@ -1,0 +1,12 @@
+{
+  "license_gaps": [],
+  "address_clusters": [],
+  "timeline_issues": [],
+  "connection_patterns": [
+    {
+      "connection_type": "Principal Broker",
+      "state": "VA",
+      "count": 11
+    }
+  ]
+}

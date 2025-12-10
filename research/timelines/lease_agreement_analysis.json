@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "file": "/Users/machine/Documents/kettler-data-analysis/evidence/LeaseRenewalAgreement_6102025.txt",
+    "line_count": 3018,
+    "analysis_type": "lease_agreement_review"
+  },
+  "key_information": {
+    "property_address": "800 John Carlyle Street",
+    "unit_number": "533",
+    "lease_start": null,
+    "lease_end": null,
+    "rent_amount": "$100",
+    "landlord_name": null,
+    "tenant_name": null,
+    "management_company": "Kettler Management"
+  },
+  "key_terms_found": {
+    "license_terms": ["license", "CONTEXT: (3) has no current license plate or no current registration and/or inspection sticker; or", "licensed", "CONTEXT: st cooperate and will not interfere with inspections or treatments. we have the right to select any licensed pest control professional to treat the dwelling and building. we can select the method of treating "],
+    "violation_terms": ["violation", "CONTEXT: animal violation charge (par. 28):", "breach", "CONTEXT: x q legal fees and court costs - to be assessed only in the event of a breach of lease", "default", "CONTEXT: not to exceed ______ % of the highest monthly rent during the lease term) may be charged in certain default situations.", "illegal", "CONTEXT: nit or on sidewalks, under stairwells, or in handicapped parking areas. we may have unauthorized or illegally parked vehicles towed from the apartment community at your expense under the terms of this lease "],
+    "str_terms": ["short term", "CONTEXT: o be used for any subletting or rental or occupancy by others (including, without limitation, for a short term), regardless of the value of consideration received or if no consideration is received, is a violat", "short-term", "CONTEXT: addendum prohibiting short-term subletting or rental", "airbnb", "CONTEXT: onsent in each instance. this prohibition applies to overnight stays or any other stays arranged on airbnb.com or other similar internet sites.", "sublet", "CONTEXT: 31. replacements and subletting. replacing a resident, subletting, assignment, or granting a right or license to occupy is allowed only when we expressly consent", "sublease", "CONTEXT: 3. short term sublease or renting prohibited. without limiting the prohibition in the lease on subletting, assignment, and"],
+    "ada_terms": ["reasonable accommodation", "CONTEXT: atus, disability, or any other speciﬁc classes protected by applicable laws. kettler will allow any reasonable accommodation or reasonable modiﬁcation based upon a disability-related need. the person requesting any reasonabl", "disability", "CONTEXT:  disabled person. when allowed by applicable laws, before we authorize an assistance animal, if the disability and/or the disabilityrelated need for the assistance animal are not readily apparent, we may requir", "fair housing", "CONTEXT: (3) comply with applicable federal, state, and local laws regarding safety, sanitation, and fair housing; and"],
+    "financial_terms": ["rent", "CONTEXT: ted below or incorporated into this agreement by way of a separate addendum after execution of this rental agreement.", "deposit", "CONTEXT: d. security deposit (par. 4) $ __________. q does 300.00", "fee", "CONTEXT: no fee shall be collected unless it is listed below or incorporated into this agreement by way of a separa", "charge", "CONTEXT: h. reletting charge (par. 11) a reletting charge of $ __________ (not to exceed ______ % of the highest monthly rent during the lease term) may be c", "penalty", "CONTEXT: this lease contract and virginia law, including but not limited to charging you a liquidated damage penalty not to exceed an amount equal to 150 percent (150%) of the per diem of the monthly rent, for each d", "late fee", "CONTEXT: f. late fees (par. 6) x 10.0 0.00 the lesser of q ______% of the monthly periodic rent or the remaining balance"],
+    "legal_terms": ["attorney", "CONTEXT: (1) reasonable attorneys' fees incurred by owner, and (2) costs of the proceeding as", "legal", "CONTEXT: x q legal fees and court costs - to be assessed only in the event of a breach of lease"]
+  },
+  "abnormalities": {
+    "unusual_language": {
+      "type": "unusual_legal_language",
+      "description": "Unusual language found in lease agreement",
+      "patterns": "violation of",
+      "severity": "high"
+    },
+    "str_mentions": {
+      "type": "str_related_content",
+      "description": "Short-term rental related content found",
+      "found": true,
+      "severity": "medium"
+    },
+    "accommodation_mentions": {
+      "type": "accommodation_related_content",
+      "description": "Reasonable accommodation or disability-related content found",
+      "found": true,
+      "severity": "high"
+    },
+    "license_mentions": {
+      "type": "license_related_content",
+      "description": "License-related content found in lease",
+      "found": true,
+      "severity": "high"
+    },
+    "dates_found": {
+      "type": "date_extraction",
+      "dates": ["02/26/2025", "04/17/2025", "05/16/2026", "06/10/2025", "03/18/2025"],
+      "count": 5
+    },
+    "entities_found": {
+      "type": "entity_extraction",
+      "entities": ["CONTRACT COVER", "SHEET\n\nT", "Cover Sheet", "PARTIES\n\nR", "Joran Bailey", "Betty Tai", "Owner\n\nAzure", "DETAILS\n\nO", "Managers\n\nKettler", "Street Address", "John Carlyle", "Apartment No", "TOTAL MONTHLY", "Monthly Base", "Time Concession", "Monthly Discount", "Rent Concession", "X P", "Security Deposit", "Move Out"],
+      "count": 489
+    }
+  },
+  "summary": {
+    "total_abnormalities": 6,
+    "high_severity": 3,
+    "medium_severity": 1,
+    "key_terms_categories": 6
+  }
+}

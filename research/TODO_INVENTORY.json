@@ -1,0 +1,169 @@
+{
+  "inventory_date": "2025-12-09",
+  "total_todos": 10,
+  "by_priority": {
+    "high": 2,
+    "medium": 8,
+    "low": 0
+  },
+  "by_status": {
+    "completed": 1,
+    "in_progress": 1,
+    "pending": 8
+  },
+  "todos": [
+    {
+      "id": "wayback-dpor-principal_broker_gap_analysis",
+      "status": "completed",
+      "priority": "high",
+      "file": "va_dpor_complaint/principal_broker_gap_analysis.json",
+      "description": "Search Wayback Machine for DPOR historical records",
+      "method": "browser",
+      "url": "https://web.archive.org",
+      "completion_note": "Method verified. FOIA request required for historical records. Contact info documented."
+    },
+    {
+      "id": "property-records-kettler_operations_gap_period",
+      "status": "in_progress",
+      "priority": "high",
+      "file": "va_dpor_complaint/kettler_operations_gap_period.json",
+      "description": "Search property records for unit counts",
+      "method": "browser",
+      "progress": "Methods verified for Alexandria, Arlington, Fairfax. Fields of Arlington updated to 199 units. Need to access property databases."
+    },
+    {
+      "id": "regulatory-dpor_complaints-regulatory_compliance_gap_period",
+      "status": "pending",
+      "priority": "medium",
+      "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
+      "description": "Research dpor_complaints regulatory issues",
+      "method": "browser",
+      "note": "DPOR complaint database may require FOIA request"
+    },
+    {
+      "id": "regulatory-fair_housing_complaints-regulatory_compliance_gap_period",
+      "status": "pending",
+      "priority": "medium",
+      "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
+      "description": "Research fair_housing_complaints regulatory issues",
+      "method": "browser",
+      "note": "HUD complaint database, fair housing organization records"
+    },
+    {
+      "id": "regulatory-business_license_violations-regulatory_compliance_gap_period",
+      "status": "pending",
+      "priority": "medium",
+      "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
+      "description": "Research business_license_violations regulatory issues",
+      "method": "browser",
+      "note": "Local business license databases, business registration records"
+    },
+    {
+      "id": "complete-all_states_license_search_status",
+      "status": "pending",
+      "priority": "medium",
+      "file": "search_results/all_states_license_search_status.json",
+      "description": "Complete research in search_results/all_states_license_search_status.json",
+      "issues": []
+    },
+    {
+      "id": "complete-kettler_employees_license_search_results",
+      "status": "pending",
+      "priority": "medium",
+      "file": "search_results/kettler_employees_license_search_results.json",
+      "description": "Complete research in search_results/kettler_employees_license_search_results.json",
+      "issues": []
+    },
+    {
+      "id": "complete-kettler_employees_license_search_comprehensive",
+      "status": "pending",
+      "priority": "medium",
+      "file": "search_results/kettler_employees_license_search_comprehensive.json",
+      "description": "Complete research in search_results/kettler_employees_license_search_comprehensive.json",
+      "issues": []
+    },
+    {
+      "id": "complete-all_states_search_status_update",
+      "status": "pending",
+      "priority": "medium",
+      "file": "search_results/all_states_search_status_update.json",
+      "description": "Complete research in search_results/all_states_search_status_update.json",
+      "issues": []
+    },
+    {
+      "id": "complete-kettler_employees_all_states_license_search",
+      "status": "pending",
+      "priority": "medium",
+      "file": "search_results/kettler_employees_all_states_license_search.json",
+      "description": "Complete research in search_results/kettler_employees_all_states_license_search.json",
+      "issues": []
+    }
+  ],
+  "additional_todos_from_active_list": [
+    {
+      "id": "personnel-license-verification",
+      "status": "in_progress",
+      "priority": "high",
+      "description": "Complete multi-state license verification for all Kettler personnel",
+      "progress": "VA verification complete (no licenses found for 4 personnel). Need TX, MD, DC, NC searches."
+    },
+    {
+      "id": "regulatory-issues-research",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Research DPOR complaints, fair housing, and business license violations"
+    },
+    {
+      "id": "media-coverage-expansion",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Expand media coverage analysis with additional sources"
+    },
+    {
+      "id": "corporate-structure-details",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Complete corporate structure analysis with detailed filings"
+    },
+    {
+      "id": "financial-scale-verification",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Verify financial scale data through property records"
+    },
+    {
+      "id": "supervision-capacity-analysis",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Complete supervision capacity analysis"
+    },
+    {
+      "id": "unlicensed-activities-documentation",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Complete documentation of all unlicensed activities"
+    },
+    {
+      "id": "consumer-complaints-expansion",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Expand consumer complaints analysis with detailed dates"
+    }
+  ],
+  "summary": {
+    "total_todos": 18,
+    "completed": 1,
+    "in_progress": 2,
+    "pending": 15,
+    "high_priority": 3,
+    "medium_priority": 15,
+    "low_priority": 0
+  },
+  "incomplete_files_count": 24,
+  "next_actions": [
+    "Continue property records search (high priority)",
+    "Complete multi-state license verification (high priority)",
+    "Research regulatory issues (medium priority)",
+    "Complete search_results files (medium priority)"
+  ]
+}

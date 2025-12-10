@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "websites": ["blueground", "corporate_apartment_specialists"],
+    "search_terms": ["800 Carlyle", "850 Carlyle", "John Carlyle", "Alexandria VA"],
+    "status": "framework"
+  },
+  "listings": [],
+  "note": "Framework - requires web scraping implementation"
+}

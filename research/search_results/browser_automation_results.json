@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "automation_tool": "Playwright MCP",
+    "status": "partial_completion"
+  },
+  "searches_completed": {
+    "dpor_azure_carlyle": {
+      "search_term": "Azure Carlyle LP",
+      "url": "https://www.dpor.virginia.gov/LicenseLookup",
+      "status": "completed",
+      "result": "No results found - Azure Carlyle LP is not a licensed entity in Virginia DPOR",
+      "implication": "Azure Carlyle LP is likely a property holding entity, not a licensed real estate firm"
+    },
+    "dpor_kettler_management": {
+      "search_term": "Kettler Management",
+      "url": "https://www.dpor.virginia.gov/LicenseLookup",
+      "status": "search_executed",
+      "note": "Search form submitted but results page requires manual review"
+    }
+  },
+  "searches_requiring_manual_intervention": {
+    "virginia_scc_azure_carlyle": {
+      "search_term": "Azure Carlyle LP",
+      "url": "https://cis.scc.virginia.gov/EntitySearch",
+      "status": "page_load_issue",
+      "issue": "Page appears blank/empty - may require CAPTCHA or JavaScript rendering",
+      "action_required": "Manual search or CAPTCHA bypass needed"
+    },
+    "airbnb_john_carlyle": {
+      "search_term": "800 John Carlyle Street Alexandria VA",
+      "url": "https://www.airbnb.com",
+      "status": "search_not_completed",
+      "issue": "Search form interaction requires specific element references",
+      "action_required": "Manual search recommended or refine search strategy"
+    }
+  },
+  "findings": {
+    "azure_carlyle_lp": {
+      "not_licensed_in_dpor": true,
+      "entity_type": "Limited Partnership (property holding entity)",
+      "investigation_status": "needs_virginia_scc_search",
+      "priority": "high"
+    },
+    "next_steps": [
+      "Manually search Virginia SCC for Azure Carlyle LP registration",
+      "Check Alexandria property records for 800 John Carlyle ownership",
+      "Search Airbnb/VRBO manually for John Carlyle listings",
+      "Verify Kettler Management license status in DPOR results"
+    ]
+  },
+  "recommendations": {
+    "captcha_sites": [
+      "Virginia State Corporation Commission (cis.scc.virginia.gov) - may require CAPTCHA",
+      "Some DPOR searches may require CAPTCHA after multiple attempts"
+    ],
+    "manual_search_recommended": [
+      "Virginia SCC entity search",
+      "Airbnb/VRBO listings for John Carlyle",
+      "Alexandria property records",
+      "Business license databases"
+    ]
+  }
+}

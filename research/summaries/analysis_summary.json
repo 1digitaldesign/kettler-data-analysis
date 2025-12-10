@@ -1,0 +1,38 @@
+{
+  "statistics": {
+    "total_dpor_results": [11],
+    "total_connections": [11],
+    "unique_connected_firms": [11],
+    "states_with_connections": [1],
+    "connection_types": [
+      {
+        "connection_type": "Principal Broker",
+        "count": 11
+      }
+    ],
+    "states": [
+      {
+        "state": "VA",
+        "count": 11
+      }
+    ],
+    "known_firms_count": [11],
+    "known_firms": ["KETTLER MANAGEMENT INC", "BELL PARTNERS INC", "BOZZUTO MANAGEMENT COMPANY", "CORTLAND MANAGEMENT LLC", "GABLES RESIDENTIAL SERVICES INC", "GATEWAY MANAGEMENT COMPANY LLC", "MCCORMACK BARON MANAGEMENT INC", "BURLINGTON CAPITAL PROPERTIES LLC", "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC", "EDGEWOOD MANAGEMENT CORPORATION"]
+  },
+  "network": {
+    "connections_by_type": [
+      {
+        "connection_type": "Principal Broker",
+        "count": 11
+      }
+    ],
+    "connections_by_state": [
+      {
+        "state": "VA",
+        "count": 11
+      }
+    ],
+    "unique_firms": [11]
+  },
+  "timestamp": ["2025-12-07 14:00:48"]
+}

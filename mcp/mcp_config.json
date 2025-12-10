@@ -1,0 +1,136 @@
+{
+  "mcpServers": {
+    "google-drive": {
+      "command": "python",
+      "args": [
+        "scripts/mcp/google_drive_mcp_server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "/app",
+        "GOOGLE_APPLICATION_CREDENTIALS": "/app/config/gcp-credentials.json",
+        "GCP_PROJECT_ID": "claude-eval-20250615",
+        "GCP_REGION": "us-central1"
+      }
+    }
+  },
+  "tools": {
+    "google-drive": {
+      "list_drive_folder": {
+        "description": "List all files and folders in a Google Drive folder",
+        "parameters": {
+          "folder_id": {
+            "type": "string",
+            "description": "Google Drive folder ID",
+            "required": true
+          }
+        }
+      },
+      "get_drive_file_info": {
+        "description": "Get metadata for a Google Drive file",
+        "parameters": {
+          "file_id": {
+            "type": "string",
+            "description": "Google Drive file ID",
+            "required": true
+          }
+        }
+      },
+      "download_drive_file": {
+        "description": "Download a file from Google Drive",
+        "parameters": {
+          "file_id": {
+            "type": "string",
+            "description": "Google Drive file ID",
+            "required": true
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Local path to save the file",
+            "required": false
+          }
+        }
+      },
+      "export_google_doc": {
+        "description": "Export a Google Doc to specified format",
+        "parameters": {
+          "file_id": {
+            "type": "string",
+            "description": "Google Drive file ID",
+            "required": true
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Local path to save the exported file",
+            "required": true
+          },
+          "format": {
+            "type": "string",
+            "enum": ["docx", "pdf", "txt", "html", "rtf"],
+            "description": "Export format",
+            "default": "docx",
+            "required": false
+          }
+        }
+      },
+      "export_google_sheet": {
+        "description": "Export a Google Sheet to specified format",
+        "parameters": {
+          "file_id": {
+            "type": "string",
+            "description": "Google Drive file ID",
+            "required": true
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Local path to save the exported file",
+            "required": true
+          },
+          "format": {
+            "type": "string",
+            "enum": ["xlsx", "csv", "pdf", "ods", "tsv"],
+            "description": "Export format",
+            "default": "xlsx",
+            "required": false
+          }
+        }
+      },
+      "download_drive_folder": {
+        "description": "Download all files from a Google Drive folder recursively",
+        "parameters": {
+          "folder_id": {
+            "type": "string",
+            "description": "Google Drive folder ID",
+            "required": true
+          },
+          "output_dir": {
+            "type": "string",
+            "description": "Local directory to save files",
+            "default": "data/drive_downloads",
+            "required": false
+          },
+          "recursive": {
+            "type": "boolean",
+            "description": "Download subfolders recursively",
+            "default": true,
+            "required": false
+          }
+        }
+      },
+      "search_drive_files": {
+        "description": "Search for files in Google Drive by name or query",
+        "parameters": {
+          "query": {
+            "type": "string",
+            "description": "Search query (file name or Drive search syntax)",
+            "required": true
+          },
+          "folder_id": {
+            "type": "string",
+            "description": "Optional: Limit search to specific folder",
+            "required": false
+          }
+        }
+      }
+    }
+  }
+}

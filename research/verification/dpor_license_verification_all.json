@@ -1,0 +1,3992 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "total_individuals": 11,
+    "total_states": 51,
+    "status": "framework"
+  },
+  "searches": {
+    "Edward Hyland": {
+      "individual": "Edward Hyland",
+      "states": {
+        "AL": {
+          "individual": "Edward Hyland",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Edward Hyland",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Edward Hyland",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Edward Hyland",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Edward Hyland",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Edward Hyland",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Edward Hyland",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Edward Hyland",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Edward Hyland",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Edward Hyland",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Edward Hyland",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Edward Hyland",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Edward Hyland",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Edward Hyland",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Edward Hyland",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Edward Hyland",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Edward Hyland",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Edward Hyland",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Edward Hyland",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Edward Hyland",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Edward Hyland",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Edward Hyland",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Edward Hyland",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Edward Hyland",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Edward Hyland",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Edward Hyland",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Edward Hyland",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Edward Hyland",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Edward Hyland",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Edward Hyland",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Edward Hyland",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Edward Hyland",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Edward Hyland",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Edward Hyland",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Edward Hyland",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Edward Hyland",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Edward Hyland",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Edward Hyland",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Edward Hyland",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Edward Hyland",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Edward Hyland",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Edward Hyland",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Edward Hyland",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Edward Hyland",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Edward Hyland",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Edward Hyland",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Edward Hyland",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Edward Hyland",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Edward Hyland",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Edward Hyland",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Edward Hyland",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Caitlin Skidmore": {
+      "individual": "Caitlin Skidmore",
+      "states": {
+        "AL": {
+          "individual": "Caitlin Skidmore",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Caitlin Skidmore",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Caitlin Skidmore",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Caitlin Skidmore",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Caitlin Skidmore",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Caitlin Skidmore",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Caitlin Skidmore",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Caitlin Skidmore",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Caitlin Skidmore",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Caitlin Skidmore",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Caitlin Skidmore",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Caitlin Skidmore",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Caitlin Skidmore",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Caitlin Skidmore",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Caitlin Skidmore",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Caitlin Skidmore",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Caitlin Skidmore",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Caitlin Skidmore",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Caitlin Skidmore",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Caitlin Skidmore",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Caitlin Skidmore",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Caitlin Skidmore",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Caitlin Skidmore",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Caitlin Skidmore",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Caitlin Skidmore",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Caitlin Skidmore",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Caitlin Skidmore",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Caitlin Skidmore",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Caitlin Skidmore",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Caitlin Skidmore",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Caitlin Skidmore",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Caitlin Skidmore",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Caitlin Skidmore",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Caitlin Skidmore",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Caitlin Skidmore",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Caitlin Skidmore",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Caitlin Skidmore",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Caitlin Skidmore",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Caitlin Skidmore",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Caitlin Skidmore",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Caitlin Skidmore",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Caitlin Skidmore",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Caitlin Skidmore",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Caitlin Skidmore",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Caitlin Skidmore",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Caitlin Skidmore",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Caitlin Skidmore",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Caitlin Skidmore",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Caitlin Skidmore",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Caitlin Skidmore",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Caitlin Skidmore",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Djene Moyer": {
+      "individual": "Djene Moyer",
+      "states": {
+        "AL": {
+          "individual": "Djene Moyer",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Djene Moyer",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Djene Moyer",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Djene Moyer",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Djene Moyer",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Djene Moyer",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Djene Moyer",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Djene Moyer",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Djene Moyer",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Djene Moyer",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Djene Moyer",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Djene Moyer",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Djene Moyer",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Djene Moyer",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Djene Moyer",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Djene Moyer",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Djene Moyer",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Djene Moyer",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Djene Moyer",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Djene Moyer",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Djene Moyer",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Djene Moyer",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Djene Moyer",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Djene Moyer",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Djene Moyer",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Djene Moyer",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Djene Moyer",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Djene Moyer",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Djene Moyer",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Djene Moyer",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Djene Moyer",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Djene Moyer",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Djene Moyer",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Djene Moyer",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Djene Moyer",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Djene Moyer",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Djene Moyer",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Djene Moyer",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Djene Moyer",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Djene Moyer",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Djene Moyer",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Djene Moyer",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Djene Moyer",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Djene Moyer",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Djene Moyer",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Djene Moyer",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Djene Moyer",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Djene Moyer",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Djene Moyer",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Djene Moyer",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Djene Moyer",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Henry Ramos": {
+      "individual": "Henry Ramos",
+      "states": {
+        "AL": {
+          "individual": "Henry Ramos",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Henry Ramos",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Henry Ramos",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Henry Ramos",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Henry Ramos",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Henry Ramos",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Henry Ramos",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Henry Ramos",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Henry Ramos",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Henry Ramos",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Henry Ramos",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Henry Ramos",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Henry Ramos",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Henry Ramos",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Henry Ramos",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Henry Ramos",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Henry Ramos",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Henry Ramos",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Henry Ramos",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Henry Ramos",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Henry Ramos",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Henry Ramos",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Henry Ramos",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Henry Ramos",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Henry Ramos",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Henry Ramos",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Henry Ramos",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Henry Ramos",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Henry Ramos",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Henry Ramos",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Henry Ramos",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Henry Ramos",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Henry Ramos",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Henry Ramos",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Henry Ramos",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Henry Ramos",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Henry Ramos",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Henry Ramos",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Henry Ramos",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Henry Ramos",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Henry Ramos",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Henry Ramos",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Henry Ramos",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Henry Ramos",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Henry Ramos",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Henry Ramos",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Henry Ramos",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Henry Ramos",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Henry Ramos",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Henry Ramos",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Henry Ramos",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Robert C. Kettler": {
+      "individual": "Robert C. Kettler",
+      "states": {
+        "AL": {
+          "individual": "Robert C. Kettler",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Robert C. Kettler",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Robert C. Kettler",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Robert C. Kettler",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Robert C. Kettler",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Robert C. Kettler",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Robert C. Kettler",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Robert C. Kettler",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Robert C. Kettler",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Robert C. Kettler",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Robert C. Kettler",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Robert C. Kettler",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Robert C. Kettler",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Robert C. Kettler",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Robert C. Kettler",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Robert C. Kettler",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Robert C. Kettler",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Robert C. Kettler",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Robert C. Kettler",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Robert C. Kettler",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Robert C. Kettler",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Robert C. Kettler",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Robert C. Kettler",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Robert C. Kettler",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Robert C. Kettler",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Robert C. Kettler",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Robert C. Kettler",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Robert C. Kettler",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Robert C. Kettler",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Robert C. Kettler",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Robert C. Kettler",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Robert C. Kettler",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Robert C. Kettler",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Robert C. Kettler",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Robert C. Kettler",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Robert C. Kettler",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Robert C. Kettler",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Robert C. Kettler",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Robert C. Kettler",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Robert C. Kettler",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Robert C. Kettler",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Robert C. Kettler",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Robert C. Kettler",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Robert C. Kettler",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Robert C. Kettler",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Robert C. Kettler",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Robert C. Kettler",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Robert C. Kettler",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Robert C. Kettler",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Robert C. Kettler",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Robert C. Kettler",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Cindy Fisher": {
+      "individual": "Cindy Fisher",
+      "states": {
+        "AL": {
+          "individual": "Cindy Fisher",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Cindy Fisher",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Cindy Fisher",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Cindy Fisher",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Cindy Fisher",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Cindy Fisher",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Cindy Fisher",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Cindy Fisher",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Cindy Fisher",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Cindy Fisher",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Cindy Fisher",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Cindy Fisher",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Cindy Fisher",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Cindy Fisher",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Cindy Fisher",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Cindy Fisher",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Cindy Fisher",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Cindy Fisher",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Cindy Fisher",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Cindy Fisher",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Cindy Fisher",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Cindy Fisher",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Cindy Fisher",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Cindy Fisher",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Cindy Fisher",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Cindy Fisher",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Cindy Fisher",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Cindy Fisher",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Cindy Fisher",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Cindy Fisher",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Cindy Fisher",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Cindy Fisher",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Cindy Fisher",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Cindy Fisher",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Cindy Fisher",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Cindy Fisher",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Cindy Fisher",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Cindy Fisher",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Cindy Fisher",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Cindy Fisher",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Cindy Fisher",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Cindy Fisher",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Cindy Fisher",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Cindy Fisher",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Cindy Fisher",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Cindy Fisher",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Cindy Fisher",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Cindy Fisher",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Cindy Fisher",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Cindy Fisher",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Cindy Fisher",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Luke Davis": {
+      "individual": "Luke Davis",
+      "states": {
+        "AL": {
+          "individual": "Luke Davis",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Luke Davis",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Luke Davis",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Luke Davis",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Luke Davis",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Luke Davis",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Luke Davis",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Luke Davis",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Luke Davis",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Luke Davis",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Luke Davis",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Luke Davis",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Luke Davis",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Luke Davis",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Luke Davis",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Luke Davis",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Luke Davis",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Luke Davis",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Luke Davis",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Luke Davis",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Luke Davis",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Luke Davis",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Luke Davis",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Luke Davis",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Luke Davis",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Luke Davis",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Luke Davis",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Luke Davis",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Luke Davis",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Luke Davis",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Luke Davis",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Luke Davis",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Luke Davis",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Luke Davis",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Luke Davis",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Luke Davis",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Luke Davis",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Luke Davis",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Luke Davis",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Luke Davis",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Luke Davis",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Luke Davis",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Luke Davis",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Luke Davis",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Luke Davis",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Luke Davis",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Luke Davis",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Luke Davis",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Luke Davis",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Luke Davis",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Luke Davis",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Pat Cassada": {
+      "individual": "Pat Cassada",
+      "states": {
+        "AL": {
+          "individual": "Pat Cassada",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Pat Cassada",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Pat Cassada",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Pat Cassada",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Pat Cassada",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Pat Cassada",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Pat Cassada",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Pat Cassada",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Pat Cassada",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Pat Cassada",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Pat Cassada",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Pat Cassada",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Pat Cassada",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Pat Cassada",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Pat Cassada",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Pat Cassada",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Pat Cassada",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Pat Cassada",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Pat Cassada",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Pat Cassada",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Pat Cassada",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Pat Cassada",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Pat Cassada",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Pat Cassada",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Pat Cassada",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Pat Cassada",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Pat Cassada",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Pat Cassada",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Pat Cassada",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Pat Cassada",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Pat Cassada",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Pat Cassada",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Pat Cassada",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Pat Cassada",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Pat Cassada",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Pat Cassada",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Pat Cassada",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Pat Cassada",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Pat Cassada",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Pat Cassada",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Pat Cassada",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Pat Cassada",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Pat Cassada",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Pat Cassada",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Pat Cassada",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Pat Cassada",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Pat Cassada",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Pat Cassada",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Pat Cassada",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Pat Cassada",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Pat Cassada",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Sean Curtin": {
+      "individual": "Sean Curtin",
+      "states": {
+        "AL": {
+          "individual": "Sean Curtin",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Sean Curtin",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Sean Curtin",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Sean Curtin",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Sean Curtin",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Sean Curtin",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Sean Curtin",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Sean Curtin",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Sean Curtin",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Sean Curtin",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Sean Curtin",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Sean Curtin",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Sean Curtin",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Sean Curtin",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Sean Curtin",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Sean Curtin",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Sean Curtin",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Sean Curtin",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Sean Curtin",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Sean Curtin",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Sean Curtin",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Sean Curtin",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Sean Curtin",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Sean Curtin",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Sean Curtin",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Sean Curtin",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Sean Curtin",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Sean Curtin",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Sean Curtin",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Sean Curtin",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Sean Curtin",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Sean Curtin",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Sean Curtin",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Sean Curtin",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Sean Curtin",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Sean Curtin",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Sean Curtin",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Sean Curtin",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Sean Curtin",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Sean Curtin",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Sean Curtin",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Sean Curtin",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Sean Curtin",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Sean Curtin",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Sean Curtin",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Sean Curtin",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Sean Curtin",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Sean Curtin",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Sean Curtin",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Sean Curtin",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Sean Curtin",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Amy Groff": {
+      "individual": "Amy Groff",
+      "states": {
+        "AL": {
+          "individual": "Amy Groff",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Amy Groff",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Amy Groff",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Amy Groff",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Amy Groff",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Amy Groff",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Amy Groff",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Amy Groff",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Amy Groff",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Amy Groff",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Amy Groff",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Amy Groff",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Amy Groff",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Amy Groff",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Amy Groff",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Amy Groff",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Amy Groff",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Amy Groff",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Amy Groff",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Amy Groff",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Amy Groff",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Amy Groff",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Amy Groff",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Amy Groff",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Amy Groff",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Amy Groff",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Amy Groff",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Amy Groff",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Amy Groff",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Amy Groff",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Amy Groff",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Amy Groff",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Amy Groff",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Amy Groff",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Amy Groff",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Amy Groff",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Amy Groff",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Amy Groff",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Amy Groff",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Amy Groff",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Amy Groff",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Amy Groff",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Amy Groff",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Amy Groff",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Amy Groff",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Amy Groff",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Amy Groff",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Amy Groff",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Amy Groff",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Amy Groff",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Amy Groff",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    },
+    "Robert Grealy": {
+      "individual": "Robert Grealy",
+      "states": {
+        "AL": {
+          "individual": "Robert Grealy",
+          "state": "AL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AK": {
+          "individual": "Robert Grealy",
+          "state": "AK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AZ": {
+          "individual": "Robert Grealy",
+          "state": "AZ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "AR": {
+          "individual": "Robert Grealy",
+          "state": "AR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CA": {
+          "individual": "Robert Grealy",
+          "state": "CA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CO": {
+          "individual": "Robert Grealy",
+          "state": "CO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "CT": {
+          "individual": "Robert Grealy",
+          "state": "CT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "DE": {
+          "individual": "Robert Grealy",
+          "state": "DE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "FL": {
+          "individual": "Robert Grealy",
+          "state": "FL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "GA": {
+          "individual": "Robert Grealy",
+          "state": "GA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "HI": {
+          "individual": "Robert Grealy",
+          "state": "HI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ID": {
+          "individual": "Robert Grealy",
+          "state": "ID",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IL": {
+          "individual": "Robert Grealy",
+          "state": "IL",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IN": {
+          "individual": "Robert Grealy",
+          "state": "IN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "IA": {
+          "individual": "Robert Grealy",
+          "state": "IA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KS": {
+          "individual": "Robert Grealy",
+          "state": "KS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "KY": {
+          "individual": "Robert Grealy",
+          "state": "KY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "LA": {
+          "individual": "Robert Grealy",
+          "state": "LA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ME": {
+          "individual": "Robert Grealy",
+          "state": "ME",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MD": {
+          "individual": "Robert Grealy",
+          "state": "MD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MA": {
+          "individual": "Robert Grealy",
+          "state": "MA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MI": {
+          "individual": "Robert Grealy",
+          "state": "MI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "23": {
+          "individual": "Robert Grealy",
+          "state": "",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MN": {
+          "individual": "Robert Grealy",
+          "state": "MN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MS": {
+          "individual": "Robert Grealy",
+          "state": "MS",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MO": {
+          "individual": "Robert Grealy",
+          "state": "MO",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "MT": {
+          "individual": "Robert Grealy",
+          "state": "MT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NE": {
+          "individual": "Robert Grealy",
+          "state": "NE",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NV": {
+          "individual": "Robert Grealy",
+          "state": "NV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NH": {
+          "individual": "Robert Grealy",
+          "state": "NH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NJ": {
+          "individual": "Robert Grealy",
+          "state": "NJ",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NM": {
+          "individual": "Robert Grealy",
+          "state": "NM",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NY": {
+          "individual": "Robert Grealy",
+          "state": "NY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "NC": {
+          "individual": "Robert Grealy",
+          "state": "NC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "ND": {
+          "individual": "Robert Grealy",
+          "state": "ND",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OH": {
+          "individual": "Robert Grealy",
+          "state": "OH",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OK": {
+          "individual": "Robert Grealy",
+          "state": "OK",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "OR": {
+          "individual": "Robert Grealy",
+          "state": "OR",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "PA": {
+          "individual": "Robert Grealy",
+          "state": "PA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "RI": {
+          "individual": "Robert Grealy",
+          "state": "RI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SC": {
+          "individual": "Robert Grealy",
+          "state": "SC",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "SD": {
+          "individual": "Robert Grealy",
+          "state": "SD",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TN": {
+          "individual": "Robert Grealy",
+          "state": "TN",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "TX": {
+          "individual": "Robert Grealy",
+          "state": "TX",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "UT": {
+          "individual": "Robert Grealy",
+          "state": "UT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VT": {
+          "individual": "Robert Grealy",
+          "state": "VT",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "VA": {
+          "individual": "Robert Grealy",
+          "state": "VA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WA": {
+          "individual": "Robert Grealy",
+          "state": "WA",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WV": {
+          "individual": "Robert Grealy",
+          "state": "WV",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WI": {
+          "individual": "Robert Grealy",
+          "state": "WI",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        },
+        "WY": {
+          "individual": "Robert Grealy",
+          "state": "WY",
+          "status": "framework",
+          "licenses_found": 0,
+          "note": "Framework - requires manual implementation per state"
+        }
+      }
+    }
+  }
+}

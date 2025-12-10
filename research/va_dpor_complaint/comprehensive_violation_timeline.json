@@ -1,0 +1,249 @@
+{
+  "timeline_compilation_date": "2025-12-09",
+  "complaint_focus": "VA DPOR Complaint - Kettler Management Inc. License #0226025311",
+  "timeline": [
+    {
+      "date": "1977",
+      "event": "KETTLER parent company founded",
+      "category": "corporate_history"
+    },
+    {
+      "date": "1988-05-20",
+      "event": "Kettler Management Inc. incorporated (as KSI Management Corp)",
+      "category": "corporate_history"
+    },
+    {
+      "date": "2007-04-06",
+      "event": "KSI Management Corp renamed to Kettler Management Inc.",
+      "category": "corporate_history"
+    },
+    {
+      "date": "2010-08-13",
+      "event": "WEINSTEIN MANAGEMENT CO INC licensed (15 years before Skidmore)",
+      "category": "timeline_impossibility",
+      "firm": "WEINSTEIN MANAGEMENT CO INC",
+      "principal_broker": "SKIDMORE CAITLIN MARIE",
+      "significance": "Firm licensed 15 years before principal broker was licensed"
+    },
+    {
+      "date": "2011-12-28",
+      "event": "BELL PARTNERS INC licensed (14 years before Skidmore)",
+      "category": "timeline_impossibility",
+      "firm": "BELL PARTNERS INC",
+      "principal_broker": "SKIDMORE CAITLIN MARIE",
+      "significance": "Firm licensed 14 years before principal broker was licensed"
+    },
+    {
+      "date": "2012",
+      "event": "Williams v. Kettler Management Inc. filed",
+      "category": "litigation",
+      "court": "U.S. District Court for the District of Maryland",
+      "case_number": "8:2012cv01226",
+      "proceedings_extended": "2014",
+      "significance": "Litigation during principal broker gap period"
+    },
+    {
+      "date": "2012-04-27",
+      "event": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC licensed (13 years before Skidmore)",
+      "category": "timeline_impossibility",
+      "firm": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+      "principal_broker": "SKIDMORE CAITLIN MARIE",
+      "significance": "Firm licensed 13 years before principal broker was licensed"
+    },
+    {
+      "date": "2013-06-04",
+      "event": "BOZZUTO MANAGEMENT COMPANY licensed (12 years before Skidmore)",
+      "category": "timeline_impossibility",
+      "firm": "BOZZUTO MANAGEMENT COMPANY",
+      "principal_broker": "SKIDMORE CAITLIN MARIE",
+      "significance": "Firm licensed 12 years before principal broker was licensed"
+    },
+    {
+      "date": "2014-10-31",
+      "event": "KETTLER MANAGEMENT INC receives Virginia Firm License #0226025311",
+      "category": "principal_broker_gap_start",
+      "firm": "KETTLER MANAGEMENT INC",
+      "significance": "Principal broker gap period begins - no principal broker assigned"
+    },
+    {
+      "date": "2014-2015",
+      "event": "DC Attorney General lawsuit - drug nuisance at 199-unit housing development",
+      "category": "regulatory_violation",
+      "violation": "Maintained drug nuisance over past decade",
+      "significance": "Habitability violations during gap period"
+    },
+    {
+      "date": "2016-08-17",
+      "event": "GABLES RESIDENTIAL SERVICES INC licensed (9 years before Skidmore)",
+      "category": "timeline_impossibility",
+      "firm": "GABLES RESIDENTIAL SERVICES INC",
+      "principal_broker": "SKIDMORE CAITLIN MARIE",
+      "significance": "Firm licensed 9 years before principal broker was licensed"
+    },
+    {
+      "date": "2018-06-20",
+      "event": "Kettler Management Inc. registered in Florida as Foreign Profit Corporation",
+      "category": "corporate_history"
+    },
+    {
+      "date": "2020-07-01",
+      "event": "Housing Rights Initiative v. Bozzuto - Kettler named as defendant",
+      "category": "litigation",
+      "court": "U.S. District Court for the District of Maryland",
+      "case_number": "8:2020cv01956",
+      "significance": "Kettler and Bozzuto both list Skidmore as principal broker"
+    },
+    {
+      "date": "2020-2022",
+      "event": "Facebook Age Discrimination Class Action",
+      "category": "discrimination",
+      "violation": "Excluded people over 50 from Facebook housing advertisements",
+      "significance": "Pattern of discriminatory advertising"
+    },
+    {
+      "date": "2022",
+      "event": "Coleman v. Kettler Management - Employment discrimination",
+      "category": "litigation",
+      "court": "U.S. District Court for the Eastern District of Virginia",
+      "case_number": "1:2022cv00084",
+      "violation": "Race and disability discrimination, hostile work environment"
+    },
+    {
+      "date": "2022-09",
+      "event": "Edward Hyland starts at Kettler as Senior Regional Manager (unlicensed)",
+      "category": "unlicensed_practice",
+      "personnel": "Edward Hyland",
+      "license_status": "NO Virginia license",
+      "significance": "Unlicensed practice begins"
+    },
+    {
+      "date": "2023-09-12",
+      "event": "Equal Rights Center v. Kettler Management - Complaint filed",
+      "category": "litigation",
+      "court": "Superior Court of the District of Columbia",
+      "violation": "Source of income discrimination"
+    },
+    {
+      "date": "2024",
+      "event": "Washington City Paper utility fee investigation published",
+      "category": "media_coverage",
+      "url": "https://washingtoncitypaper.com/article/747728/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
+      "findings": [
+        "Jamison at Dakota Crossing: $1,500 water bills for 9 months",
+        "One case: $13,000 water bill",
+        "Disabled tenant: $631 water bill"
+      ]
+    },
+    {
+      "date": "2024-03",
+      "event": "Equal Rights Center v. Kettler Management - Settlement $140,000",
+      "category": "regulatory_violation",
+      "settlement_amount": 140000,
+      "agreement_duration": "3 years",
+      "violation": "Source of income discrimination across 6 DC properties",
+      "significance": "Pattern of discrimination, occurred during principal broker gap period"
+    },
+    {
+      "date": "2025-04-03",
+      "event": "Caitlin Marie Skidmore assigned as Principal Broker (License #0225273926)",
+      "category": "principal_broker_gap_end",
+      "principal_broker": "SKIDMORE CAITLIN MARIE",
+      "location": "Frisco, TX (1,300 miles from McLean VA)",
+      "significance": "Principal broker gap ends, but geographic violation begins"
+    },
+    {
+      "date": "2025-05-30",
+      "event": "Caitlin Marie Skidmore individual license issued",
+      "category": "principal_broker_licensing",
+      "license_number": "0225273926",
+      "significance": "Skidmore licensed AFTER 8 firms that list her as principal broker"
+    },
+    {
+      "date": "2025-07",
+      "event": "BBB complaint - 800 Carlyle maintenance issues",
+      "category": "consumer_complaint",
+      "property": "800 Carlyle, Alexandria VA",
+      "issues": ["Leaks", "Uncleaned carpets", "Inadequate management response"]
+    },
+    {
+      "date": "2025-08-18",
+      "event": "BBB complaint - Washington DC mandatory $60/month cable/internet fee",
+      "category": "consumer_complaint",
+      "property": "Washington, DC",
+      "violation": "Mandatory non-optional fee, tenants cannot opt out"
+    },
+    {
+      "date": "2025-08-19",
+      "event": "BBB complaint - Alexandria VA application discrimination",
+      "category": "consumer_complaint",
+      "property": "Alexandria, VA",
+      "violation": "Single mother of Ukrainian origin - manager rude, income requirements higher than published"
+    },
+    {
+      "date": "2025-09",
+      "event": "AHC partnership - Kettler to manage 24 properties, 3,000 units in Arlington",
+      "category": "corporate_expansion",
+      "properties": 24,
+      "units": "approximately 3,000",
+      "significance": "Significant expansion during supervision violation period"
+    },
+    {
+      "date": "2025-12-06",
+      "event": "Edward Hyland denies reasonable accommodation request (unlicensed)",
+      "category": "unlicensed_practice",
+      "personnel": "Edward Hyland",
+      "activity": "Lease termination decision, reasonable accommodation denial",
+      "license_status": "NO Virginia license",
+      "significance": "Unlicensed person making legal determinations"
+    }
+  ],
+  "violation_categories": {
+    "principal_broker_gap": {
+      "start": "2014-10-31",
+      "end": "2025-04-03",
+      "duration_days": 3840,
+      "duration_years": 10.5
+    },
+    "geographic_violation": {
+      "start": "2025-04-03",
+      "distance_miles": 1300,
+      "exceedance": "1,250 miles over 50-mile limit"
+    },
+    "timeline_impossibility": {
+      "count": 8,
+      "firms": [
+        "WEINSTEIN MANAGEMENT CO INC (15 years before)",
+        "BELL PARTNERS INC (14 years before)",
+        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC (13 years before)",
+        "BOZZUTO MANAGEMENT COMPANY (12 years before)",
+        "KETTLER MANAGEMENT INC (11 years before)",
+        "GABLES RESIDENTIAL SERVICES INC (9 years before)",
+        "MCCORMACK BARON MANAGEMENT INC (8.5 years before)",
+        "BURLINGTON CAPITAL PROPERTIES LLC (6.5 years before)"
+      ]
+    },
+    "unlicensed_practice": {
+      "personnel": ["Edward Hyland", "Robert Grealy", "Amy Groff", "Tracy Fones", "Djene Moyer"],
+      "activities": ["Lease decisions", "Property management", "Accommodation denials"]
+    },
+    "discrimination": {
+      "cases": [
+        "Equal Rights Center v. Kettler ($140K settlement)",
+        "Facebook Age Discrimination Class Action",
+        "Coleman v. Kettler (Employment discrimination)"
+      ]
+    },
+    "consumer_complaints": {
+      "bbb_total": 46,
+      "bbb_unanswered": 26,
+      "bbb_percentage_unanswered": 57,
+      "detailed_complaints": 3
+    },
+    "litigation": {
+      "total_cases": 6,
+      "active_cases": 1,
+      "settled_cases": 1
+    }
+  },
+  "significance": "Comprehensive timeline showing pattern of violations, supervision failures, and regulatory non-compliance spanning over 10 years"
+}

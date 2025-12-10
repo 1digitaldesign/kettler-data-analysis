@@ -1,28 +1,12 @@
 {
-  "federal": {
-    "ftc": {
-      "reason": ["Multiple firms with significant license gaps and same principal broker"],
-      "evidence_count": [8],
-      "priority": ["High"]
-    },
-    "cfpb": {
-      "reason": ["Address clustering suggests potential shell company scheme"],
-      "evidence_count": [1],
-      "priority": ["High"]
-    }
-  },
+  "federal": {},
   "state": {
     "VA": {
-      "reason": ["Multiple firms ( 11 ) listing same principal broker"],
-      "evidence_count": [11],
-      "priority": ["High"],
-      "filing_type": ["License violation complaint"]
+      "reason": "Multiple firms (11) listing same principal broker",
+      "evidence_count": 11,
+      "priority": "High",
+      "filing_type": "License violation complaint"
     }
   },
-  "local": {
-    "consumer_protection": {
-      "reason": ["Potential consumer fraud and deceptive business practices"],
-      "priority": ["Medium"]
-    }
-  }
+  "local": {}
 }

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "platforms_analyzed": 4,
+    "status": "framework"
+  },
+  "consolidated_listings": [],
+  "unit_identification": {
+    "total_listings": 0,
+    "unique_units": [],
+    "note": "Framework - requires listing data to analyze"
+  },
+  "violations": {
+    "unregistered_strs": 0,
+    "note": "Framework - requires listing data to count violations"
+  },
+  "building_match": {
+    "matched_to_800_carlyle": 0,
+    "matched_to_850_carlyle": 0,
+    "note": "Framework - requires listing data to match"
+  }
+}

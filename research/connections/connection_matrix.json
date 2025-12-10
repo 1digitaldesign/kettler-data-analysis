@@ -1,0 +1,13 @@
+{
+  "creation_date": "2025-12-09",
+  "hyland_firm_connections": {},
+  "firm_firm_connections": {},
+  "kettler_firm_connections": {},
+  "violation_entity_connections": {},
+  "summary": {
+    "total_firms": 38,
+    "hyland_connections": 0,
+    "firm_firm_clusters": 0,
+    "kettler_connected": false
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "status_date": "2025-12-10",
+  "verification_status": "in_progress",
+  "completion_percentage": "33.3%",
+  "key_findings": {
+    "personnel_with_licenses": 2,
+    "personnel_unlicensed": 7,
+    "total_verified": 9,
+    "total_pending": 12
+  },
+  "licenses_found": [
+    {
+      "name": "Elizabeth Saye (Liddy Bisanz saye)",
+      "company": "Lariat Realty Advisors",
+      "licenses": [
+        {
+          "state": "Texas",
+          "license_number": "671787",
+          "type": "Real Estate Broker",
+          "status": "Active",
+          "issue_date": "2020-08-13",
+          "expiration_date": "2026-08-31",
+          "associated_firm": "Burlington Capital Properties LLC",
+          "firm_license": "9012840",
+          "firm_address": "5729 Lebanon Rd #144553, Frisco, TX 75034",
+          "significance": "Lariat broker associated with Burlington Capital Properties (one of Skidmore's supervised firms)"
+        },
+        {
+          "state": "New York",
+          "license_number": "10351218566",
+          "type": "Broker",
+          "associated_firm": "Willow Bridge Apartment Management, L.P.",
+          "significance": "Also licensed in New York"
+        }
+      ]
+    },
+    {
+      "name": "Thoms L. Bisanz (Thomas L. Bisanz)",
+      "company": "Lariat Realty Advisors",
+      "title": "Executive Director",
+      "licenses": [
+        {
+          "state": "Texas",
+          "type": "Real Estate Broker",
+          "status": "Active",
+          "expiration_date": "2027-09-30",
+          "significance": "Executive Director of Lariat Realty Advisors, also designated broker for Bell Partners Inc."
+        }
+      ],
+      "additional_affiliations": [
+        "Bell Partners, Inc. - Designated Broker",
+        "Knightvest Management, LLC - Manager",
+        "Associated with 48 companies over 23 years (26 currently active)"
+      ]
+    }
+  ],
+  "verified_unlicensed": [
+    "Edward Hyland (Senior Regional Manager) - 16 states",
+    "Robert Grealy (SVP Operations) - 16 states",
+    "Amy Groff (VP Operations) - 16 states",
+    "Tracy Fones (VP Operations) - 16 states",
+    "Djene Moyer (Community Manager) - 16 states",
+    "Henry Ramos (Property Manager) - VA verified, pending other states",
+    "Robert C. Kettler (CEO) - VA verified, pending other states",
+    "Cynthia Fisher (President) - VA verified, pending other states"
+  ],
+  "pending_verification": [
+    "Sean Curtin (EVP & General Counsel) - needs bar check",
+    "Patrick Cassada (CFO)",
+    "Luke Davis (CIO)",
+    "Greg Slang (EVP Asset Management)",
+    "J.D. Sitton (EVP Capital Markets & Strategy)",
+    "Pamela Tyrrell (EVP Multifamily Development & Construction)",
+    "Kristina Thoummarath (Chief of Staff)",
+    "Christina Chang (Head of Asset Management)",
+    "Todd Bowen (SVP Strategic Services)",
+    "Jeffrey Williams (VP Human Resources)",
+    "Leah Douthit (Monument Realty - possible Lariat connection)"
+  ],
+  "significance": {
+    "lariat_licenses": "Lariat Realty Advisors personnel (Elizabeth Saye, Thoms Bisanz) have active real estate licenses, which is expected for a brokerage firm. However, Elizabeth Saye is associated with Burlington Capital Properties, one of the firms that Caitlin Skidmore supervises, creating a potential conflict or connection.",
+    "kettler_unlicensed": "Multiple Kettler personnel in property management roles (Edward Hyland, Robert Grealy, Amy Groff, Tracy Fones, Djene Moyer, Henry Ramos) are confirmed unlicensed, which supports the complaint's allegations of unlicensed practice.",
+    "executives": "Kettler executives (CEO, President) do not have real estate licenses in Virginia, which may be expected for corporate roles, but verification across all states is needed."
+  },
+  "next_steps": [
+    "Complete Virginia searches for remaining 12 personnel",
+    "Expand searches to all 16 states for personnel with property management roles",
+    "Perform bar association searches for Sean Curtin",
+    "Complete verification matrix for all 21 personnel"
+  ]
+}

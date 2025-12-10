@@ -1,0 +1,141 @@
+{
+  "audit_date": "2025-12-07",
+  "total_individuals_audited": 11,
+  "violations_found": 1,
+  "needs_verification": 3,
+  "audits": [
+    {
+      "name": "Edward Hyland",
+      "role": "Senior Regional Manager",
+      "employer": "Kettler Management Inc.",
+      "license_requirements": {
+        "required_licenses": ["Real Estate Broker", "Property Management License"],
+        "activities": ["Property management", "Lease decisions", "Tenant relations", "Property operations"],
+        "jurisdiction": "State where properties are located",
+        "violation_type": "Unlicensed practice of real estate"
+      },
+      "licenses_found": {
+        "virginia_real_estate": "NOT FOUND"
+      },
+      "violations": [
+        {
+          "violation_type": "Unlicensed practice of real estate",
+          "jurisdiction": "Virginia",
+          "evidence": "DPOR search confirmed no license",
+          "severity": "HIGH",
+          "activities_performed": ["Property management", "Lease decisions", "Tenant relations"]
+        }
+      ],
+      "status": "VIOLATION_FOUND"
+    },
+    {
+      "name": "Caitlin Skidmore",
+      "role": "Principal Broker (Front Person)",
+      "employer": "Unknown",
+      "license_requirements": {},
+      "licenses_found": [],
+      "violations": [],
+      "status": "NO_REQUIREMENTS_DEFINED"
+    },
+    {
+      "name": "Djene Moyer",
+      "role": "Community Manager",
+      "employer": "Kettler Management",
+      "license_requirements": {
+        "required_licenses": ["Property Management License", "Real Estate License"],
+        "activities": ["Property operations", "Tenant relations", "Lease administration"],
+        "jurisdiction": "State where property is located",
+        "violation_type": "Unlicensed property management"
+      },
+      "licenses_found": [],
+      "violations": [],
+      "status": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "Henry Ramos",
+      "role": "Property Manager",
+      "employer": "Kettler Management",
+      "license_requirements": {
+        "required_licenses": ["Property Management License", "Real Estate License"],
+        "activities": ["Property operations", "Tenant relations", "Lease administration"],
+        "jurisdiction": "State where property is located",
+        "violation_type": "Unlicensed property management"
+      },
+      "licenses_found": [],
+      "violations": [],
+      "status": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "Robert C. Kettler",
+      "role": "Chairman, Founder & CEO",
+      "employer": "Kettler",
+      "license_requirements": {},
+      "licenses_found": [],
+      "violations": [],
+      "status": "NO_REQUIREMENTS_DEFINED"
+    },
+    {
+      "name": "Cindy Fisher",
+      "role": "President",
+      "employer": "Kettler",
+      "license_requirements": {},
+      "licenses_found": [],
+      "violations": [],
+      "status": "NO_REQUIREMENTS_DEFINED"
+    },
+    {
+      "name": "Luke Davis",
+      "role": "Chief Investment Officer",
+      "employer": "Kettler",
+      "license_requirements": {},
+      "licenses_found": [],
+      "violations": [],
+      "status": "NO_REQUIREMENTS_DEFINED"
+    },
+    {
+      "name": "Pat Cassada",
+      "role": "CFO",
+      "employer": "Kettler",
+      "license_requirements": {},
+      "licenses_found": [],
+      "violations": [],
+      "status": "NO_REQUIREMENTS_DEFINED"
+    },
+    {
+      "name": "Sean Curtin",
+      "role": "General Counsel",
+      "employer": "Kettler",
+      "license_requirements": {
+        "required_licenses": "State Bar Admission",
+        "activities": ["Legal advice", "Legal representation", "Contract review"],
+        "jurisdiction": "State where legal services provided",
+        "violation_type": "Unauthorized practice of law"
+      },
+      "licenses_found": [],
+      "violations": [],
+      "status": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "Amy Groff",
+      "role": "VP of Operations",
+      "employer": "Kettler",
+      "license_requirements": {},
+      "licenses_found": [],
+      "violations": [],
+      "status": "NO_REQUIREMENTS_DEFINED"
+    },
+    {
+      "name": "Robert Grealy",
+      "role": "SVP of Operations",
+      "employer": "Kettler",
+      "license_requirements": {},
+      "licenses_found": [],
+      "violations": [],
+      "status": "NO_REQUIREMENTS_DEFINED"
+    }
+  ],
+  "summary": {
+    "high_severity_violations": 1,
+    "total_violations": 1
+  }
+}

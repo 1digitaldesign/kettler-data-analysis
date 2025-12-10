@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "status": "browser_automation_with_captcha_handling",
+    "note": "Searches attempted with CAPTCHA detection"
+  },
+  "searches_attempted": {
+    "virginia_scc": {
+      "url": "https://cis.scc.virginia.gov/EntitySearch",
+      "entity": "Azure Carlyle LP",
+      "status": "page_blank",
+      "captcha_detected": false,
+      "issue": "Page appears completely blank - likely JavaScript rendering issue or anti-bot protection",
+      "action_required": "Manual search recommended or alternative access method"
+    },
+    "sec_edgar": {
+      "url": "https://www.sec.gov/search-filings",
+      "entity": "Azure Carlyle LP",
+      "status": "search_submitted",
+      "captcha_detected": false,
+      "note": "SEC website loaded successfully, search form found and submitted",
+      "results_status": "awaiting_results_extraction"
+    },
+    "vrbo": {
+      "url": "https://www.vrbo.com",
+      "search_term": "800 John Carlyle Street Alexandria VA",
+      "status": "navigation_error",
+      "error": "ERR_ABORTED - site may block automated access",
+      "action_required": "Manual search recommended"
+    },
+    "alexandria_gov": {
+      "url": "https://www.alexandriava.gov",
+      "search_term": "800 John Carlyle property records",
+      "status": "attempted",
+      "captcha_detected": false,
+      "note": "Search attempted, results require extraction"
+    }
+  },
+  "captcha_detection_results": {
+    "virginia_scc": {
+      "captcha_elements_found": [],
+      "page_content": "blank",
+      "conclusion": "No CAPTCHA detected, but page fails to load - likely anti-bot protection"
+    },
+    "sec_edgar": {
+      "captcha_elements_found": [],
+      "page_content": "loaded_successfully",
+      "conclusion": "No CAPTCHA detected, search form accessible"
+    }
+  },
+  "findings": {
+    "dpor_completed": "Azure Carlyle LP not found in DPOR (confirmed)",
+    "sec_search": "Search submitted successfully - awaiting results",
+    "virginia_scc": "Requires manual intervention due to page load failure",
+    "next_steps": [
+      "Extract SEC EDGAR search results",
+      "Manual search Virginia SCC if page continues to fail",
+      "Manual search VRBO for John Carlyle listings",
+      "Extract Alexandria property records if available"
+    ]
+  }
+}

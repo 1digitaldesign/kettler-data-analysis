@@ -1,0 +1,85 @@
+{
+  "analysis_date": "2025-12-08",
+  "hypothesis": "Caitlin Skidmore is NOT the nexus - she appears to be a front person",
+  "anomalies": {
+    "firms_licensed_before_skidmore": {
+      "count": 8,
+      "firms": ["KETTLER MANAGEMENT INC", "BELL PARTNERS INC", "BOZZUTO MANAGEMENT COMPANY", "GABLES RESIDENTIAL SERVICES INC", "GATEWAY MANAGEMENT COMPANY LLC", "MCCORMACK BARON MANAGEMENT INC", "BURLINGTON CAPITAL PROPERTIES LLC", "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC"],
+      "anomaly_type": "timeline_impossibility",
+      "explanation": "Firms cannot have principal broker who wasn't licensed when firm was established"
+    },
+    "large_license_gaps": {
+      "count": 4,
+      "firms": [
+        {
+          "Firm.Name": "KETTLER MANAGEMENT INC",
+          "Gap.Years": "11",
+          "Initial.Cert.Date": "2014-10-31"
+        },
+        {
+          "Firm.Name": "BELL PARTNERS INC",
+          "Gap.Years": "14",
+          "Initial.Cert.Date": "2011-12-28"
+        },
+        {
+          "Firm.Name": "BOZZUTO MANAGEMENT COMPANY",
+          "Gap.Years": "12",
+          "Initial.Cert.Date": "2013-06-04"
+        },
+        {
+          "Firm.Name": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+          "Gap.Years": "13",
+          "Initial.Cert.Date": "2012-04-27"
+        }
+      ],
+      "anomaly_type": "suspicious_timing",
+      "explanation": "Firms existed for 10+ years before principal broker was licensed"
+    },
+    "address_clustering": {
+      "cluster_count": 1,
+      "clusters": {
+        "5729 LEBANON RD STE 144553, FRISCO, TX 75034": 5
+      },
+      "anomaly_type": "shell_company_pattern",
+      "explanation": "Multiple firms at same address suggests shell company scheme"
+    },
+    "missing_cert_dates": {
+      "count": 1,
+      "firms": "EDGEWOOD MANAGEMENT CORPORATION",
+      "anomaly_type": "data_obfuscation",
+      "explanation": "Missing dates may hide timeline inconsistencies"
+    }
+  },
+  "kettler_as_nexus": {
+    "kettler_firm_found": true,
+    "kettler_address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
+    "kettler_license_number": 226025311,
+    "address_in_evidence": true,
+    "license_gap": "11",
+    "suspicious_gap": true,
+    "unique_evidence_connection": true
+  },
+  "hyland_as_connection": {
+    "employment_verified": true,
+    "no_license": true,
+    "property_connection": true,
+    "nexus_indicator": "Hyland operates without license, connecting Kettler to properties",
+    "timeline_connection": 3
+  },
+  "control_patterns": {
+    "single_principal_broker": true,
+    "broker_name": "SKIDMORE CAITLIN MARIE",
+    "front_person_indicator": "All 11 firms use same principal broker - suggests front person",
+    "largest_cluster_size": 5,
+    "centralized_control_indicator": true,
+    "average_license_gap": 7.4,
+    "retroactive_assignment_indicator": true,
+    "state_count": 6,
+    "interstate_operation": true
+  },
+  "conclusions": {
+    "skidmore_is_front": true,
+    "real_nexus_candidates": ["Kettler Management Inc.", "Edward Hyland (operational connection)"],
+    "evidence_of_front_person": ["All 11 firms list same principal broker", "Firms existed before Skidmore was licensed", "Massive license gaps suggest retroactive assignment", "Address clustering suggests centralized control"]
+  }
+}

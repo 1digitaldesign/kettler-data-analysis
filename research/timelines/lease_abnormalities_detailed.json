@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "analysis_type": "detailed_lease_abnormality_analysis",
+    "file": "/Users/machine/Documents/kettler-data-analysis/evidence/LeaseRenewalAgreement_6102025.txt"
+  },
+  "abnormalities": {
+    "low_security_deposit": {
+      "type": "unusually_low_security_deposit",
+      "description": "Security deposit is abnormally low relative to monthly rent",
+      "security_deposit": 300,
+      "monthly_rent": 2325,
+      "ratio": 0.129,
+      "standard_ratio": "0.5-2.0 months",
+      "severity": "medium",
+      "potential_reason": "May indicate financial risk or unusual lease terms"
+    },
+    "owner_manager_discrepancy": {
+      "type": "owner_manager_separation",
+      "description": "Owner entity differs from management company",
+      "owner": "Azure Carlyle LP",
+      "manager": "Kettler Management",
+      "severity": "high",
+      "investigation_needed": "Verify relationship between Azure Carlyle LP and Kettler"
+    },
+    "accommodation_language_found": {
+      "type": "accommodation_language_in_lease",
+      "description": "Reasonable accommodation language found in lease",
+      "severity": "high",
+      "relevance": "Given UPL investigation regarding RA denial"
+    },
+    "attorney_fee_provision": {
+      "type": "attorney_fee_provision",
+      "description": "Attorney fee provisions found",
+      "severity": "low",
+      "note": "Standard provision but relevant given UPL investigation"
+    },
+    "unusual_fees": {
+      "type": "multiple_additional_fees",
+      "description": "Multiple additional fees beyond base rent",
+      "fees": ["amenity fee.*500", "animal.*500", "parking.*125", "trash.*10", "pest.*2.75"],
+      "severity": "low",
+      "note": "Amenity fee of $500 is significant"
+    },
+    "lease_timeline": {
+      "type": "lease_timeline",
+      "signed_date": "2025-02-26",
+      "begins_date": "2025-04-17",
+      "ends_date": "2026-05-16",
+      "term_months": 13,
+      "note": "13-month lease term"
+    }
+  },
+  "summary": {
+    "total_abnormalities": 6,
+    "high_severity": 2,
+    "medium_severity": 1,
+    "low_severity": 2
+  }
+}

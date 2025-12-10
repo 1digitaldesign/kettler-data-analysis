@@ -1,0 +1,74 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vector-api
+  labels:
+    app: vector-api
+    component: api
+spec:
+  replicas: 2  # Run multiple instances for load balancing
+  selector:
+    matchLabels:
+      app: vector-api
+  template:
+    metadata:
+      labels:
+        app: vector-api
+        component: api
+    spec:
+      containers:
+      - name: vector-api
+        image: kettler-python-etl:latest
+        imagePullPolicy: IfNotPresent
+        volumeMounts:
+        - name: data-volume
+          mountPath: /app/data
+        - name: scripts-volume
+          mountPath: /app/scripts
+        env:
+        - name: PYTHONPATH
+          value: "/app"
+        - name: DATA_DIR
+          value: "/app/data"
+        - name: HF_WRITE_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: huggingface-secrets
+              key: write-token
+        - name: HF_READ_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: huggingface-secrets
+              key: read-token
+        ports:
+        - containerPort: 8000
+        resources:
+          limits:
+            cpu: "1"
+            memory: "2Gi"
+          requests:
+            cpu: "0.5"
+            memory: "1Gi"
+        command: ["python", "scripts/etl/vector_api_server.py"]
+      volumes:
+      - name: data-volume
+        persistentVolumeClaim:
+          claimName: kettler-data-pvc
+      - name: scripts-volume
+        configMap:
+          name: kettler-scripts-config
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vector-api-service
+  labels:
+    app: vector-api
+spec:
+  selector:
+    app: vector-api
+  ports:
+  - port: 8000
+    targetPort: 8000
+  type: LoadBalancer  # Expose externally if needed
