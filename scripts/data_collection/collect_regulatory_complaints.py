@@ -54,7 +54,7 @@ AGENCY_URLS = {
 def create_complaint_template():
     """Create template for complaint records."""
     COMPLAINTS_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     template = {
         'metadata': {
             'date': datetime.now().strftime('%Y-%m-%d'),
@@ -66,7 +66,7 @@ def create_complaint_template():
         'violations': [],
         'penalties': [],
     }
-    
+
     for state in STATES:
         template['complaints_by_state'][state] = {
             'regulatory_complaints': [],
@@ -77,7 +77,7 @@ def create_complaint_template():
             'penalties': [],
             'agency_urls': AGENCY_URLS.get(state, {}),
         }
-    
+
     filepath = COMPLAINTS_DIR / 'regulatory_complaints.json'
     filepath.write_text(json.dumps(template, indent=2) + '\n')
     print(f"Created {filepath}")
@@ -87,7 +87,7 @@ def create_complaint_template():
 def print_search_instructions():
     """Print instructions for complaint searches."""
     print("=== Regulatory Complaint Search Instructions ===\n")
-    
+
     for state, urls in AGENCY_URLS.items():
         print(f"{state}:")
         print(f"  Real Estate Commission: {urls.get('real_estate', 'N/A')}")

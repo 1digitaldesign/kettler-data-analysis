@@ -41,7 +41,7 @@ def update_registration_file(state: str, company: str, data: dict):
     company_slug = company.lower().replace(' ', '_').replace('.', '').replace(',', '')
     filename = f'{state_slug}_{company_slug}_registration.json'
     filepath = REGISTRATIONS_DIR / state_slug / filename
-    
+
     if filepath.exists():
         existing = json.loads(filepath.read_text())
         existing['metadata']['date'] = datetime.now().strftime('%Y-%m-%d')
@@ -55,7 +55,7 @@ def update_registration_file(state: str, company: str, data: dict):
 def create_search_checklist():
     """Create a checklist for manual searches."""
     print("=== Company Registration Search Checklist ===\n")
-    
+
     for state, url in STATE_SOS_URLS.items():
         print(f"{state}:")
         print(f"  URL: {url}")
@@ -75,23 +75,23 @@ def create_search_checklist():
 def list_pending_searches():
     """List all pending registration searches."""
     pending = []
-    
+
     for state in STATE_SOS_URLS.keys():
         state_slug = state.lower().replace(' ', '_')
         state_dir = REGISTRATIONS_DIR / state_slug
-        
+
         if state_dir.exists():
             for company in COMPANIES:
                 company_slug = company.lower().replace(' ', '_').replace('.', '').replace(',', '')
                 filename = f'{state_slug}_{company_slug}_registration.json'
                 filepath = state_dir / filename
-                
+
                 if filepath.exists():
                     data = json.loads(filepath.read_text())
                     # Check if search is incomplete
                     if not data.get('findings', {}).get('registered') is not None:
                         pending.append((state, company, filepath))
-    
+
     return pending
 
 

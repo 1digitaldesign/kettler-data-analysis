@@ -112,7 +112,7 @@ EMPLOYEES = {
 def create_employee_roles_file():
     """Create employee roles JSON file."""
     EMPLOYEES_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     output = {
         'metadata': {
             'date': datetime.now().strftime('%Y-%m-%d'),
@@ -128,7 +128,7 @@ def create_employee_roles_file():
             'performs_licensed_activities': len([e for e in EMPLOYEES.values() if e['performs_licensed_activities']]),
         },
     }
-    
+
     filepath = EMPLOYEES_DIR / 'employee_roles.json'
     filepath.write_text(json.dumps(output, indent=2) + '\n')
     print(f"Created {filepath}")
@@ -161,7 +161,7 @@ def create_organizational_chart():
             },
         },
     }
-    
+
     filepath = EMPLOYEES_DIR / 'organizational_chart.json'
     filepath.write_text(json.dumps(chart, indent=2) + '\n')
     print(f"Created {filepath}")

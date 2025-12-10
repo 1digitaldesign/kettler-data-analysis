@@ -123,12 +123,37 @@ Immediate actionable steps to continue data collection.
    - Creates search templates
    - Generates search checklist
 
-2. **`scripts/data_collection/start_company_registrations.py`**
+2. **`scripts/data_collection/collect_company_registrations.py`**
    - Creates company registration templates
-   - Provides state-specific URLs
+   - Provides state-specific SOS URLs
+   - Generates search checklist
+
+3. **`scripts/data_collection/collect_employee_roles.py`**
+   - Creates employee roles documentation
+   - Generates organizational chart
+   - Documents licensed activity assignments
+
+4. **`scripts/data_collection/collect_property_contracts.py`**
+   - Creates property management contract template
+   - Provides search instructions
+   - Documents service scope structure
+
+5. **`scripts/data_collection/collect_regulatory_complaints.py`**
+   - Creates regulatory complaint template
+   - Provides state agency URLs
    - Generates search instructions
 
-3. **`scripts/data_collection/update_progress.py`**
+6. **`scripts/data_collection/collect_fair_housing.py`**
+   - Creates HUD and EEOC templates
+   - Provides state discrimination agency info
+   - Generates search instructions
+
+7. **`scripts/data_collection/collect_news_coverage.py`**
+   - Creates news coverage templates
+   - Lists 8 news sources with URLs
+   - Provides search terms
+
+8. **`scripts/data_collection/update_progress.py`**
    - Automatically updates progress bars
    - Counts completed files
    - Updates status indicators

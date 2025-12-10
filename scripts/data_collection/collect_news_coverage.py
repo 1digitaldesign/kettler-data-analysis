@@ -72,7 +72,7 @@ SEARCH_TERMS = [
 def create_news_template():
     """Create template for news coverage."""
     NEWS_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     template = {
         'metadata': {
             'date': datetime.now().strftime('%Y-%m-%d'),
@@ -86,11 +86,11 @@ def create_news_template():
         'sources_searched': NEWS_SOURCES,
         'search_terms': SEARCH_TERMS,
     }
-    
+
     filepath = NEWS_DIR / 'violations_coverage.json'
     filepath.write_text(json.dumps(template, indent=2) + '\n')
     print(f"Created {filepath}")
-    
+
     # Legal proceedings template
     legal_file = NEWS_DIR / 'legal_proceedings.json'
     legal_data = {
@@ -108,19 +108,19 @@ def create_news_template():
     }
     legal_file.write_text(json.dumps(legal_data, indent=2) + '\n')
     print(f"Created {legal_file}")
-    
+
     return filepath
 
 
 def print_search_instructions():
     """Print search instructions."""
     print("=== News and Media Coverage Search Instructions ===\n")
-    
+
     print("Search Terms:")
     for term in SEARCH_TERMS:
         print(f"  - {term}")
     print()
-    
+
     print("Sources to Search:")
     for source in NEWS_SOURCES:
         print(f"  {source['name']}: {source['url']}")

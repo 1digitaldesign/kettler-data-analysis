@@ -40,7 +40,7 @@ STATE_AGENCIES = {
 def create_discrimination_template():
     """Create template for discrimination records."""
     DISCRIMINATION_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     template = {
         'metadata': {
             'date': datetime.now().strftime('%Y-%m-%d'),
@@ -52,14 +52,14 @@ def create_discrimination_template():
         'settlements': [],
         'court_cases': [],
     }
-    
+
     for state, agency in STATE_AGENCIES.items():
         template['state_complaints'][state] = {
             'agency': agency,
             'complaints': [],
             'settlements': [],
         }
-    
+
     # HUD template
     hud_file = DISCRIMINATION_DIR / 'hud_complaints.json'
     hud_data = {
@@ -78,7 +78,7 @@ def create_discrimination_template():
     }
     hud_file.write_text(json.dumps(hud_data, indent=2) + '\n')
     print(f"Created {hud_file}")
-    
+
     # EEOC template
     eeoc_file = DISCRIMINATION_DIR / 'eeoc_records.json'
     eeoc_data = {
@@ -95,19 +95,19 @@ def create_discrimination_template():
     }
     eeoc_file.write_text(json.dumps(eeoc_data, indent=2) + '\n')
     print(f"Created {eeoc_file}")
-    
+
     # Main template
     main_file = DISCRIMINATION_DIR / 'discrimination_records.json'
     main_file.write_text(json.dumps(template, indent=2) + '\n')
     print(f"Created {main_file}")
-    
+
     return main_file
 
 
 def print_search_instructions():
     """Print search instructions."""
     print("=== Fair Housing and Discrimination Search Instructions ===\n")
-    
+
     print("HUD (Fair Housing):")
     print(f"  URL: {FEDERAL_URLS['HUD']['database']}")
     print("  Search for:")
@@ -115,14 +115,14 @@ def print_search_instructions():
     print("    - Property addresses")
     print("    - Fair Housing Act violations")
     print()
-    
+
     print("EEOC (Employment Discrimination):")
     print(f"  URL: {FEDERAL_URLS['EEOC']['database']}")
     print("  Search for:")
     print("    - Kettler Management Inc.")
     print("    - Employment discrimination complaints")
     print()
-    
+
     print("State Agencies:")
     for state, agency in STATE_AGENCIES.items():
         print(f"  {state}: {agency}")

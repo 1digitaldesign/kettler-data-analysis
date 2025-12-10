@@ -183,7 +183,7 @@ Real-time progress tracking for all data collection tasks.
 
 ### 5. Regulatory Complaint History ❌ NOT STARTED
 
-**Status:** ⚠️ Partial
+**Status:** ❌ Not Started
 **Progress:** 0%
 
 ```
@@ -291,17 +291,18 @@ Real-time progress tracking for all data collection tasks.
 
 ---
 
-### 8. Fair Housing and Discrimination Records ❌ NOT STARTED
+### 8. Fair Housing and Discrimination Records ⚠️ IN PROGRESS
 
-**Status:** ⚠️ Partial
-**Progress:** 0%
+**Status:** ⚠️ In Progress - Templates created, searches ready
+**Progress:** 5% (templates created, searches pending)
 
 ```
-░░░░░░░░░░░░░░░░░░░░ 0%
+█░░░░░░░░░░░░░░░░░░░ 5%
 ```
 
 #### Tasks
 
+- [x] **Create discrimination templates** - Templates created
 - [ ] **HUD complaints** - Fair Housing Act complaints
   - [ ] Search HUD database
   - [ ] Document any complaints
@@ -319,13 +320,15 @@ Real-time progress tracking for all data collection tasks.
 - [ ] **Settlement records** - Discrimination settlements
 - [ ] **Court cases** - Discrimination lawsuits
 
-**Data Files Needed:**
-- `research/discrimination/hud_complaints.json`
-- `research/discrimination/eeoc_records.json`
-- `research/discrimination/state_complaints.json`
-- `research/discrimination/court_cases.json`
+**Data Files Created:**
+- ✅ `research/discrimination/hud_complaints.json` - Template ready
+- ✅ `research/discrimination/eeoc_records.json` - Template ready
+- ✅ `research/discrimination/discrimination_records.json` - Template ready
 
-**Estimated Time:** 2-3 days
+**Tools Available:**
+- `scripts/data_collection/collect_fair_housing.py` - Search instructions
+
+**Estimated Time:** 2-3 days (templates ready, searches can begin)
 
 ---
 
@@ -453,10 +456,10 @@ Real-time progress tracking for all data collection tasks.
 | 2. Company Registrations | ⚠️ In Progress | 10% | 1/5 tasks | 5 tasks |
 | 3. Property Contracts | ⚠️ In Progress | 5% | 1/6 tasks | 6 tasks |
 | 4. Employee Roles | ✅ Complete | 100% | 5/7 tasks | 7 tasks |
-| 5. Regulatory Complaints | ❌ Not Started | 0% | 0/7 tasks | 7 tasks |
+| 5. Regulatory Complaints | ⚠️ In Progress | 5% | 1/7 tasks | 7 tasks |
 | 6. Financial Records | ❌ Not Started | 0% | 0/5 tasks | 5 tasks |
-| 7. News Coverage | ⚠️ Partial | 20% | 1/5 tasks | 5 tasks |
-| 8. Fair Housing | ❌ Not Started | 0% | 0/5 tasks | 5 tasks |
+| 7. News Coverage | ⚠️ In Progress | 25% | 2/5 tasks | 5 tasks |
+| 8. Fair Housing | ⚠️ In Progress | 5% | 1/5 tasks | 5 tasks |
 | 9. Professional Memberships | ❌ Not Started | 0% | 0/4 tasks | 4 tasks |
 | 10. Social Media | ❌ Not Started | 0% | 0/5 tasks | 5 tasks |
 

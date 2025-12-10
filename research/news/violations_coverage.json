@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "date": "2025-12-10",
+    "purpose": "News and media coverage documentation"
+  },
+  "violation_coverage": [],
+  "company_announcements": [],
+  "legal_proceedings": [],
+  "regulatory_actions": [],
+  "industry_publications": [],
+  "sources_searched": [
+    {
+      "name": "Washington Post",
+      "url": "https://www.washingtonpost.com/",
+      "search_method": "Website search or archive"
+    },
+    {
+      "name": "Washington City Paper",
+      "url": "https://washingtoncitypaper.com/",
+      "search_method": "Website search"
+    },
+    {
+      "name": "Alexandria Times",
+      "url": "https://alextimes.com/",
+      "search_method": "Website search"
+    },
+    {
+      "name": "Northern Virginia Magazine",
+      "url": "https://www.northernvirginiamag.com/",
+      "search_method": "Website search"
+    },
+    {
+      "name": "Virginia Business",
+      "url": "https://www.virginiabusiness.com/",
+      "search_method": "Website search"
+    },
+    {
+      "name": "Richmond Times-Dispatch",
+      "url": "https://www.richmond.com/",
+      "search_method": "Website search or archive"
+    },
+    {
+      "name": "Multi-Housing News",
+      "url": "https://www.multihousingnews.com/",
+      "search_method": "Website search"
+    },
+    {
+      "name": "National Real Estate Investor",
+      "url": "https://www.nreionline.com/",
+      "search_method": "Website search"
+    }
+  ],
+  "search_terms": [
+    "Kettler Management violation",
+    "Kettler Management complaint",
+    "Kettler Management discrimination",
+    "Kettler Management fraud",
+    "Edward Hyland",
+    "800 Carlyle violation",
+    "Kettler Management unlicensed",
+    "Kettler Management license"
+  ]
+}
