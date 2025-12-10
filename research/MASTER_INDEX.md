@@ -15,14 +15,10 @@
 5. **[COMPLAINT_EVIDENCE_COMPILATION.json](./COMPLAINT_EVIDENCE_COMPILATION.json)** - Organized evidence (JSON)
 
 ### Master Reports
-6. **[MASTER_RESEARCH_COMPLETION_REPORT.md](./MASTER_RESEARCH_COMPLETION_REPORT.md)** - Complete research overview
-7. **[FINAL_DELIVERABLES_SUMMARY.md](./FINAL_DELIVERABLES_SUMMARY.md)** - Deliverables checklist
-8. **[FINAL_STATUS_RECONCILIATION.md](./FINAL_STATUS_RECONCILIATION.md)** - Status reconciliation
-9. **[PROJECT_COMPLETE.md](./PROJECT_COMPLETE.md)** - Completion certificate
+6. **[REPORTS.md](./REPORTS.md)** - Consolidated reports index
+7. **[DATA_GUIDE.md](./DATA_GUIDE.md)** - Complete data guide
 
-### Status Tracking
-10. **[RESEARCH_EXECUTION_FINAL_STATUS.json](./RESEARCH_EXECUTION_FINAL_STATUS.json)** - Final execution status
-11. **[EXECUTION_SUMMARY.md](./EXECUTION_SUMMARY.md)** - Human-readable execution summary
+> **Note:** Historical status and completion files have been archived. See [ARCHIVE.md](./ARCHIVE.md) for details.
 
 ## 📁 Research Files by Category
 
@@ -162,13 +158,12 @@
 - [x] Financial scale verification
 
 ### Documentation
-- [x] Master completion report
+- [x] Master reports index (`REPORTS.md`)
 - [x] Evidence compilation
 - [x] Quick reference guides
 - [x] Complaint amendment guide
-- [x] Final deliverables summary
-- [x] Status reconciliation
-- [x] Project completion certificate
+- [x] Data guide
+- [x] Archive documentation
 
 ### Evidence Organization
 - [x] Evidence organized by allegation

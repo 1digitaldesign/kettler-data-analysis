@@ -235,21 +235,15 @@
       "category": "research"
     },
     {
+      "id": "research/ARCHIVE.md",
+      "label": "ARCHIVE",
+      "path": "research/ARCHIVE.md",
+      "category": "research"
+    },
+    {
       "id": "research/COMPLAINT_AMENDMENT_GUIDE.md",
       "label": "COMPLAINT_AMENDMENT_GUIDE",
       "path": "research/COMPLAINT_AMENDMENT_GUIDE.md",
-      "category": "research"
-    },
-    {
-      "id": "research/COMPLETE_INVESTIGATION_SUMMARY.md",
-      "label": "COMPLETE_INVESTIGATION_SUMMARY",
-      "path": "research/COMPLETE_INVESTIGATION_SUMMARY.md",
-      "category": "research"
-    },
-    {
-      "id": "research/COMPLETE_PACKAGE_SUMMARY.md",
-      "label": "COMPLETE_PACKAGE_SUMMARY",
-      "path": "research/COMPLETE_PACKAGE_SUMMARY.md",
       "category": "research"
     },
     {
@@ -265,39 +259,9 @@
       "category": "research"
     },
     {
-      "id": "research/EXECUTION_SUMMARY.md",
-      "label": "EXECUTION_SUMMARY",
-      "path": "research/EXECUTION_SUMMARY.md",
-      "category": "research"
-    },
-    {
       "id": "research/EXECUTIVE_SUMMARY.md",
       "label": "EXECUTIVE_SUMMARY",
       "path": "research/EXECUTIVE_SUMMARY.md",
-      "category": "research"
-    },
-    {
-      "id": "research/FINAL_DELIVERABLES_SUMMARY.md",
-      "label": "FINAL_DELIVERABLES_SUMMARY",
-      "path": "research/FINAL_DELIVERABLES_SUMMARY.md",
-      "category": "research"
-    },
-    {
-      "id": "research/FINAL_STATUS_RECONCILIATION.md",
-      "label": "FINAL_STATUS_RECONCILIATION",
-      "path": "research/FINAL_STATUS_RECONCILIATION.md",
-      "category": "research"
-    },
-    {
-      "id": "research/FINAL_VERIFICATION_REPORT.md",
-      "label": "FINAL_VERIFICATION_REPORT",
-      "path": "research/FINAL_VERIFICATION_REPORT.md",
-      "category": "research"
-    },
-    {
-      "id": "research/FINDINGS_VALIDATION_REPORT.md",
-      "label": "FINDINGS_VALIDATION_REPORT",
-      "path": "research/FINDINGS_VALIDATION_REPORT.md",
       "category": "research"
     },
     {
@@ -310,24 +274,6 @@
       "id": "research/HYLAND_UPL_EVIDENCE.md",
       "label": "HYLAND_UPL_EVIDENCE",
       "path": "research/HYLAND_UPL_EVIDENCE.md",
-      "category": "research"
-    },
-    {
-      "id": "research/INVESTIGATION_COMPLETE_GUIDE.md",
-      "label": "INVESTIGATION_COMPLETE_GUIDE",
-      "path": "research/INVESTIGATION_COMPLETE_GUIDE.md",
-      "category": "research"
-    },
-    {
-      "id": "research/INVESTIGATION_STATISTICS.md",
-      "label": "INVESTIGATION_STATISTICS",
-      "path": "research/INVESTIGATION_STATISTICS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/INVESTIGATION_STATUS_COMPLETE.md",
-      "label": "INVESTIGATION_STATUS_COMPLETE",
-      "path": "research/INVESTIGATION_STATUS_COMPLETE.md",
       "category": "research"
     },
     {
@@ -373,18 +319,6 @@
       "category": "research"
     },
     {
-      "id": "research/MASTER_INVESTIGATION_STATUS.md",
-      "label": "MASTER_INVESTIGATION_STATUS",
-      "path": "research/MASTER_INVESTIGATION_STATUS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/MASTER_RESEARCH_COMPLETION_REPORT.md",
-      "label": "MASTER_RESEARCH_COMPLETION_REPORT",
-      "path": "research/MASTER_RESEARCH_COMPLETION_REPORT.md",
-      "category": "research"
-    },
-    {
       "id": "research/METHOD_COMPARISON.md",
       "label": "METHOD_COMPARISON",
       "path": "research/METHOD_COMPARISON.md",
@@ -394,12 +328,6 @@
       "id": "research/MOORE_KRISTEN_JONES_INVESTIGATION.md",
       "label": "MOORE_KRISTEN_JONES_INVESTIGATION",
       "path": "research/MOORE_KRISTEN_JONES_INVESTIGATION.md",
-      "category": "research"
-    },
-    {
-      "id": "research/PROJECT_COMPLETE.md",
-      "label": "PROJECT_COMPLETE",
-      "path": "research/PROJECT_COMPLETE.md",
       "category": "research"
     },
     {
@@ -433,12 +361,6 @@
       "category": "research"
     },
     {
-      "id": "research/VALIDATION_REPORT.md",
-      "label": "VALIDATION_REPORT",
-      "path": "research/VALIDATION_REPORT.md",
-      "category": "research"
-    },
-    {
       "id": "research/VIRGINIA_40_LICENSES_CRITICAL_FINDING.md",
       "label": "VIRGINIA_40_LICENSES_CRITICAL_FINDING",
       "path": "research/VIRGINIA_40_LICENSES_CRITICAL_FINDING.md",
@@ -451,27 +373,111 @@
       "category": "research"
     },
     {
-      "id": "research/VIRGINIA_EXTRACTION_COMPLETE_SUMMARY.md",
+      "id": "research/archive/COMPLETE_INVESTIGATION_SUMMARY.md",
+      "label": "COMPLETE_INVESTIGATION_SUMMARY",
+      "path": "research/archive/COMPLETE_INVESTIGATION_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/COMPLETE_PACKAGE_SUMMARY.md",
+      "label": "COMPLETE_PACKAGE_SUMMARY",
+      "path": "research/archive/COMPLETE_PACKAGE_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/EXECUTION_SUMMARY.md",
+      "label": "EXECUTION_SUMMARY",
+      "path": "research/archive/EXECUTION_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/FINAL_DELIVERABLES_SUMMARY.md",
+      "label": "FINAL_DELIVERABLES_SUMMARY",
+      "path": "research/archive/FINAL_DELIVERABLES_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/FINAL_STATUS_RECONCILIATION.md",
+      "label": "FINAL_STATUS_RECONCILIATION",
+      "path": "research/archive/FINAL_STATUS_RECONCILIATION.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/FINAL_VERIFICATION_REPORT.md",
+      "label": "FINAL_VERIFICATION_REPORT",
+      "path": "research/archive/FINAL_VERIFICATION_REPORT.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/FINDINGS_VALIDATION_REPORT.md",
+      "label": "FINDINGS_VALIDATION_REPORT",
+      "path": "research/archive/FINDINGS_VALIDATION_REPORT.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/INVESTIGATION_COMPLETE_GUIDE.md",
+      "label": "INVESTIGATION_COMPLETE_GUIDE",
+      "path": "research/archive/INVESTIGATION_COMPLETE_GUIDE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/INVESTIGATION_STATISTICS.md",
+      "label": "INVESTIGATION_STATISTICS",
+      "path": "research/archive/INVESTIGATION_STATISTICS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/INVESTIGATION_STATUS_COMPLETE.md",
+      "label": "INVESTIGATION_STATUS_COMPLETE",
+      "path": "research/archive/INVESTIGATION_STATUS_COMPLETE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/MASTER_INVESTIGATION_STATUS.md",
+      "label": "MASTER_INVESTIGATION_STATUS",
+      "path": "research/archive/MASTER_INVESTIGATION_STATUS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/MASTER_RESEARCH_COMPLETION_REPORT.md",
+      "label": "MASTER_RESEARCH_COMPLETION_REPORT",
+      "path": "research/archive/MASTER_RESEARCH_COMPLETION_REPORT.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/PROJECT_COMPLETE.md",
+      "label": "PROJECT_COMPLETE",
+      "path": "research/archive/PROJECT_COMPLETE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/VALIDATION_REPORT.md",
+      "label": "VALIDATION_REPORT",
+      "path": "research/archive/VALIDATION_REPORT.md",
+      "category": "research"
+    },
+    {
+      "id": "research/archive/VIRGINIA_EXTRACTION_COMPLETE_SUMMARY.md",
       "label": "VIRGINIA_EXTRACTION_COMPLETE_SUMMARY",
-      "path": "research/VIRGINIA_EXTRACTION_COMPLETE_SUMMARY.md",
+      "path": "research/archive/VIRGINIA_EXTRACTION_COMPLETE_SUMMARY.md",
       "category": "research"
     },
     {
-      "id": "research/VIRGINIA_EXTRACTION_FINAL_STATUS.md",
+      "id": "research/archive/VIRGINIA_EXTRACTION_FINAL_STATUS.md",
       "label": "VIRGINIA_EXTRACTION_FINAL_STATUS",
-      "path": "research/VIRGINIA_EXTRACTION_FINAL_STATUS.md",
+      "path": "research/archive/VIRGINIA_EXTRACTION_FINAL_STATUS.md",
       "category": "research"
     },
     {
-      "id": "research/VIRGINIA_EXTRACTION_STATUS.md",
+      "id": "research/archive/VIRGINIA_EXTRACTION_STATUS.md",
       "label": "VIRGINIA_EXTRACTION_STATUS",
-      "path": "research/VIRGINIA_EXTRACTION_STATUS.md",
+      "path": "research/archive/VIRGINIA_EXTRACTION_STATUS.md",
       "category": "research"
     },
     {
-      "id": "research/VIRGINIA_EXTRACTION_SUMMARY.md",
+      "id": "research/archive/VIRGINIA_EXTRACTION_SUMMARY.md",
       "label": "VIRGINIA_EXTRACTION_SUMMARY",
-      "path": "research/VIRGINIA_EXTRACTION_SUMMARY.md",
+      "path": "research/archive/VIRGINIA_EXTRACTION_SUMMARY.md",
       "category": "research"
     },
     {
@@ -514,12 +520,6 @@
       "id": "research/license_searches/AUTOMATION_READY.md",
       "label": "AUTOMATION_READY",
       "path": "research/license_searches/AUTOMATION_READY.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/BATCH_SEARCH_PROGRESS.md",
-      "label": "BATCH_SEARCH_PROGRESS",
-      "path": "research/license_searches/BATCH_SEARCH_PROGRESS.md",
       "category": "research"
     },
     {
@@ -577,30 +577,6 @@
       "category": "research"
     },
     {
-      "id": "research/license_searches/CURRENT_PROGRESS_UPDATE.md",
-      "label": "CURRENT_PROGRESS_UPDATE",
-      "path": "research/license_searches/CURRENT_PROGRESS_UPDATE.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/CURRENT_SEARCH_STATUS.md",
-      "label": "CURRENT_SEARCH_STATUS",
-      "path": "research/license_searches/CURRENT_SEARCH_STATUS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/CURRENT_STATUS.md",
-      "label": "CURRENT_STATUS",
-      "path": "research/license_searches/CURRENT_STATUS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/CURRENT_STATUS_SUMMARY.md",
-      "label": "CURRENT_STATUS_SUMMARY",
-      "path": "research/license_searches/CURRENT_STATUS_SUMMARY.md",
-      "category": "research"
-    },
-    {
       "id": "research/license_searches/DATA_VERIFICATION_FINAL.md",
       "label": "DATA_VERIFICATION_FINAL",
       "path": "research/license_searches/DATA_VERIFICATION_FINAL.md",
@@ -625,33 +601,9 @@
       "category": "research"
     },
     {
-      "id": "research/license_searches/FINAL_BATCH_PROGRESS.md",
-      "label": "FINAL_BATCH_PROGRESS",
-      "path": "research/license_searches/FINAL_BATCH_PROGRESS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/FINAL_COMPLETION_SUMMARY.md",
-      "label": "FINAL_COMPLETION_SUMMARY",
-      "path": "research/license_searches/FINAL_COMPLETION_SUMMARY.md",
-      "category": "research"
-    },
-    {
       "id": "research/license_searches/FINAL_COMPREHENSIVE_STATUS.md",
       "label": "FINAL_COMPREHENSIVE_STATUS",
       "path": "research/license_searches/FINAL_COMPREHENSIVE_STATUS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/FINAL_INVESTIGATION_STATUS.md",
-      "label": "FINAL_INVESTIGATION_STATUS",
-      "path": "research/license_searches/FINAL_INVESTIGATION_STATUS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/FINAL_INVESTIGATION_SUMMARY.md",
-      "label": "FINAL_INVESTIGATION_SUMMARY",
-      "path": "research/license_searches/FINAL_INVESTIGATION_SUMMARY.md",
       "category": "research"
     },
     {
@@ -661,33 +613,9 @@
       "category": "research"
     },
     {
-      "id": "research/license_searches/FINAL_STATUS_REPORT.md",
-      "label": "FINAL_STATUS_REPORT",
-      "path": "research/license_searches/FINAL_STATUS_REPORT.md",
-      "category": "research"
-    },
-    {
       "id": "research/license_searches/FINAL_VALIDATION_SUMMARY.md",
       "label": "FINAL_VALIDATION_SUMMARY",
       "path": "research/license_searches/FINAL_VALIDATION_SUMMARY.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/INVESTIGATION_COMPLETE_REPORT.md",
-      "label": "INVESTIGATION_COMPLETE_REPORT",
-      "path": "research/license_searches/INVESTIGATION_COMPLETE_REPORT.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/INVESTIGATION_COMPLETE_SUMMARY.md",
-      "label": "INVESTIGATION_COMPLETE_SUMMARY",
-      "path": "research/license_searches/INVESTIGATION_COMPLETE_SUMMARY.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/INVESTIGATION_STATUS_UPDATE.md",
-      "label": "INVESTIGATION_STATUS_UPDATE",
-      "path": "research/license_searches/INVESTIGATION_STATUS_UPDATE.md",
       "category": "research"
     },
     {
@@ -718,12 +646,6 @@
       "id": "research/license_searches/LATEST_FINDINGS.md",
       "label": "LATEST_FINDINGS",
       "path": "research/license_searches/LATEST_FINDINGS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/LATEST_FINDINGS_UPDATE.md",
-      "label": "LATEST_FINDINGS_UPDATE",
-      "path": "research/license_searches/LATEST_FINDINGS_UPDATE.md",
       "category": "research"
     },
     {
@@ -763,18 +685,6 @@
       "category": "research"
     },
     {
-      "id": "research/license_searches/PROGRESS_SUMMARY_FINAL.md",
-      "label": "PROGRESS_SUMMARY_FINAL",
-      "path": "research/license_searches/PROGRESS_SUMMARY_FINAL.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/PROGRESS_UPDATE.md",
-      "label": "PROGRESS_UPDATE",
-      "path": "research/license_searches/PROGRESS_UPDATE.md",
-      "category": "research"
-    },
-    {
       "id": "research/license_searches/QUICK_REFERENCE.md",
       "label": "QUICK_REFERENCE",
       "path": "research/license_searches/QUICK_REFERENCE.md",
@@ -790,12 +700,6 @@
       "id": "research/license_searches/READY_FOR_FILINGS.md",
       "label": "READY_FOR_FILINGS",
       "path": "research/license_searches/READY_FOR_FILINGS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/license_searches/REMAINING_WORK_SUMMARY.md",
-      "label": "REMAINING_WORK_SUMMARY",
-      "path": "research/license_searches/REMAINING_WORK_SUMMARY.md",
       "category": "research"
     },
     {
@@ -835,12 +739,6 @@
       "category": "research"
     },
     {
-      "id": "research/license_searches/SEARCH_PROGRESS_UPDATE.md",
-      "label": "SEARCH_PROGRESS_UPDATE",
-      "path": "research/license_searches/SEARCH_PROGRESS_UPDATE.md",
-      "category": "research"
-    },
-    {
       "id": "research/license_searches/SUMMARY_AND_STATUS.md",
       "label": "SUMMARY_AND_STATUS",
       "path": "research/license_searches/SUMMARY_AND_STATUS.md",
@@ -874,6 +772,114 @@
       "id": "research/license_searches/VERIFICATION_COMPLETE.md",
       "label": "VERIFICATION_COMPLETE",
       "path": "research/license_searches/VERIFICATION_COMPLETE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/BATCH_SEARCH_PROGRESS.md",
+      "label": "BATCH_SEARCH_PROGRESS",
+      "path": "research/license_searches/archive/BATCH_SEARCH_PROGRESS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/CURRENT_PROGRESS_UPDATE.md",
+      "label": "CURRENT_PROGRESS_UPDATE",
+      "path": "research/license_searches/archive/CURRENT_PROGRESS_UPDATE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/CURRENT_SEARCH_STATUS.md",
+      "label": "CURRENT_SEARCH_STATUS",
+      "path": "research/license_searches/archive/CURRENT_SEARCH_STATUS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/CURRENT_STATUS.md",
+      "label": "CURRENT_STATUS",
+      "path": "research/license_searches/archive/CURRENT_STATUS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/CURRENT_STATUS_SUMMARY.md",
+      "label": "CURRENT_STATUS_SUMMARY",
+      "path": "research/license_searches/archive/CURRENT_STATUS_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/FINAL_BATCH_PROGRESS.md",
+      "label": "FINAL_BATCH_PROGRESS",
+      "path": "research/license_searches/archive/FINAL_BATCH_PROGRESS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/FINAL_COMPLETION_SUMMARY.md",
+      "label": "FINAL_COMPLETION_SUMMARY",
+      "path": "research/license_searches/archive/FINAL_COMPLETION_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/FINAL_INVESTIGATION_STATUS.md",
+      "label": "FINAL_INVESTIGATION_STATUS",
+      "path": "research/license_searches/archive/FINAL_INVESTIGATION_STATUS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/FINAL_INVESTIGATION_SUMMARY.md",
+      "label": "FINAL_INVESTIGATION_SUMMARY",
+      "path": "research/license_searches/archive/FINAL_INVESTIGATION_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/FINAL_STATUS_REPORT.md",
+      "label": "FINAL_STATUS_REPORT",
+      "path": "research/license_searches/archive/FINAL_STATUS_REPORT.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/INVESTIGATION_COMPLETE_REPORT.md",
+      "label": "INVESTIGATION_COMPLETE_REPORT",
+      "path": "research/license_searches/archive/INVESTIGATION_COMPLETE_REPORT.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/INVESTIGATION_COMPLETE_SUMMARY.md",
+      "label": "INVESTIGATION_COMPLETE_SUMMARY",
+      "path": "research/license_searches/archive/INVESTIGATION_COMPLETE_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/INVESTIGATION_STATUS_UPDATE.md",
+      "label": "INVESTIGATION_STATUS_UPDATE",
+      "path": "research/license_searches/archive/INVESTIGATION_STATUS_UPDATE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/LATEST_FINDINGS_UPDATE.md",
+      "label": "LATEST_FINDINGS_UPDATE",
+      "path": "research/license_searches/archive/LATEST_FINDINGS_UPDATE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/PROGRESS_SUMMARY_FINAL.md",
+      "label": "PROGRESS_SUMMARY_FINAL",
+      "path": "research/license_searches/archive/PROGRESS_SUMMARY_FINAL.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/PROGRESS_UPDATE.md",
+      "label": "PROGRESS_UPDATE",
+      "path": "research/license_searches/archive/PROGRESS_UPDATE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/REMAINING_WORK_SUMMARY.md",
+      "label": "REMAINING_WORK_SUMMARY",
+      "path": "research/license_searches/archive/REMAINING_WORK_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/license_searches/archive/SEARCH_PROGRESS_UPDATE.md",
+      "label": "SEARCH_PROGRESS_UPDATE",
+      "path": "research/license_searches/archive/SEARCH_PROGRESS_UPDATE.md",
       "category": "research"
     },
     {
@@ -1845,6 +1851,26 @@
       "label": "System Architecture"
     },
     {
+      "source": "research/ARCHIVE.md",
+      "target": "research/README.md",
+      "label": "Research README"
+    },
+    {
+      "source": "research/ARCHIVE.md",
+      "target": "research/DATA_GUIDE.md",
+      "label": "Data Guide"
+    },
+    {
+      "source": "research/ARCHIVE.md",
+      "target": "research/REPORTS.md",
+      "label": "Reports"
+    },
+    {
+      "source": "research/ARCHIVE.md",
+      "target": "research/STATUS_FILES_ARCHIVE.md",
+      "label": "Status Files Archive"
+    },
+    {
       "source": "research/DATA_GUIDE.md",
       "target": "data/DATA_DICTIONARY.md",
       "label": "Data Dictionary"
@@ -1881,28 +1907,18 @@
     },
     {
       "source": "research/MASTER_INDEX.md",
-      "target": "research/MASTER_RESEARCH_COMPLETION_REPORT.md",
-      "label": "MASTER_RESEARCH_COMPLETION_REPORT.md"
+      "target": "research/REPORTS.md",
+      "label": "REPORTS.md"
     },
     {
       "source": "research/MASTER_INDEX.md",
-      "target": "research/FINAL_DELIVERABLES_SUMMARY.md",
-      "label": "FINAL_DELIVERABLES_SUMMARY.md"
+      "target": "research/DATA_GUIDE.md",
+      "label": "DATA_GUIDE.md"
     },
     {
       "source": "research/MASTER_INDEX.md",
-      "target": "research/FINAL_STATUS_RECONCILIATION.md",
-      "label": "FINAL_STATUS_RECONCILIATION.md"
-    },
-    {
-      "source": "research/MASTER_INDEX.md",
-      "target": "research/PROJECT_COMPLETE.md",
-      "label": "PROJECT_COMPLETE.md"
-    },
-    {
-      "source": "research/MASTER_INDEX.md",
-      "target": "research/EXECUTION_SUMMARY.md",
-      "label": "EXECUTION_SUMMARY.md"
+      "target": "research/ARCHIVE.md",
+      "label": "ARCHIVE.md"
     },
     {
       "source": "research/QUICK_START.md",
@@ -1931,8 +1947,8 @@
     },
     {
       "source": "research/README.md",
-      "target": "research/STATUS_FILES_ARCHIVE.md",
-      "label": "STATUS_FILES_ARCHIVE.md"
+      "target": "research/ARCHIVE.md",
+      "label": "ARCHIVE.md"
     },
     {
       "source": "research/README.md",
@@ -2043,16 +2059,6 @@
       "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",
       "target": "research/license_searches/EXECUTIVE_SUMMARY_FOR_FILINGS.md",
       "label": "EXECUTIVE_SUMMARY_FOR_FILINGS.md"
-    },
-    {
-      "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",
-      "target": "research/license_searches/FINAL_INVESTIGATION_STATUS.md",
-      "label": "FINAL_INVESTIGATION_STATUS.md"
-    },
-    {
-      "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",
-      "target": "research/license_searches/INVESTIGATION_COMPLETE_REPORT.md",
-      "label": "INVESTIGATION_COMPLETE_REPORT.md"
     },
     {
       "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",

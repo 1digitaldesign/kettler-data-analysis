@@ -116,7 +116,7 @@ All JSON files follow the schema in `data/schema.json`:
 
 ### Status and progress files
 
-Many markdown files in this directory are historical status updates from during the investigation. See [STATUS_FILES_ARCHIVE.md](STATUS_FILES_ARCHIVE.md) for details.
+Many markdown files in this directory are historical status updates from during the investigation. See [ARCHIVE.md](ARCHIVE.md) for consolidated archive of all status files.
 
 **Focus on:**
 - JSON files (actual data)
