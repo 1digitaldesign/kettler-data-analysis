@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "date": "2025-12-10",
+    "total_employees": 15,
+    "source": "License search investigation"
+  },
+  "employees": {
+    "robert_kettler": {
+      "name": "Robert Kettler",
+      "title": "CEO/Founder",
+      "category": "Executive Leadership",
+      "performs_licensed_activities": true
+    },
+    "cindy_fisher": {
+      "name": "Cindy Fisher",
+      "title": "President",
+      "category": "Executive Leadership",
+      "performs_licensed_activities": true
+    },
+    "luke_davis": {
+      "name": "Luke Davis",
+      "title": "Chief Information Officer",
+      "category": "Executive Leadership",
+      "performs_licensed_activities": false
+    },
+    "pat_cassada": {
+      "name": "Pat Cassada",
+      "title": "Chief Financial Officer",
+      "category": "Executive Leadership",
+      "performs_licensed_activities": false
+    },
+    "sean_curtin": {
+      "name": "Sean Curtin",
+      "title": "General Counsel",
+      "category": "Executive Leadership",
+      "performs_licensed_activities": false
+    },
+    "edward_hyland": {
+      "name": "Edward Hyland",
+      "title": "Senior Regional Manager",
+      "category": "Operations Management",
+      "performs_licensed_activities": true
+    },
+    "amy_groff": {
+      "name": "Amy Groff",
+      "title": "VP Operations",
+      "category": "Operations Management",
+      "performs_licensed_activities": true
+    },
+    "robert_grealy": {
+      "name": "Robert Grealy",
+      "title": "SVP Operations",
+      "category": "Operations Management",
+      "performs_licensed_activities": true
+    },
+    "todd_bowen": {
+      "name": "Todd Bowen",
+      "title": "SVP Strategic Services",
+      "category": "Operations Management",
+      "performs_licensed_activities": true
+    },
+    "djene_moyer": {
+      "name": "Djene Moyer",
+      "title": "Community Manager",
+      "category": "Property Management Staff",
+      "performs_licensed_activities": true
+    },
+    "henry_ramos": {
+      "name": "Henry Ramos",
+      "title": "Property Manager",
+      "category": "Property Management Staff",
+      "performs_licensed_activities": true
+    },
+    "kristina_thoummarath": {
+      "name": "Kristina Thoummarath",
+      "title": "Chief of Staff",
+      "category": "Other Key Personnel",
+      "performs_licensed_activities": false
+    },
+    "christina_chang": {
+      "name": "Christina Chang",
+      "title": "Head of Asset Management",
+      "category": "Other Key Personnel",
+      "performs_licensed_activities": true
+    },
+    "liddy_bisanz": {
+      "name": "Liddy Bisanz",
+      "title": "Operations Connection",
+      "category": "Other Key Personnel",
+      "performs_licensed_activities": false
+    },
+    "caitlin_skidmore": {
+      "name": "Caitlin Skidmore",
+      "title": "Principal Broker",
+      "category": "Licensed Employee",
+      "performs_licensed_activities": true,
+      "licensed": true,
+      "license_states": [
+        "District of Columbia"
+      ]
+    }
+  },
+  "summary": {
+    "executive_leadership": 5,
+    "operations_management": 4,
+    "property_management": 2,
+    "licensed": 1,
+    "performs_licensed_activities": 10
+  }
+}

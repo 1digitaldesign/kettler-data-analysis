@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "date": "2025-12-10",
+    "company": "Kettler Management Inc."
+  },
+  "structure": {
+    "ceo": {
+      "name": "Robert Kettler",
+      "reports_to": null,
+      "direct_reports": [
+        "President",
+        "CIO",
+        "CFO",
+        "General Counsel"
+      ]
+    },
+    "president": {
+      "name": "Cindy Fisher",
+      "reports_to": "CEO",
+      "direct_reports": [
+        "VP Operations",
+        "SVP Operations",
+        "SVP Strategic Services"
+      ]
+    },
+    "principal_broker": {
+      "name": "Caitlin Skidmore",
+      "reports_to": "President",
+      "direct_reports": [
+        "Property Management Staff"
+      ],
+      "note": "Only licensed employee"
+    }
+  }
+}

@@ -57,13 +57,13 @@ def check_missing_searches(state: str) -> list[str]:
     # State code mapping (based on actual file naming)
     state_codes = {
         'maryland': 'md',  # Files use 'md_' prefix
-        'connecticut': 'ct',  # Files use 'ct_' prefix  
+        'connecticut': 'ct',  # Files use 'ct_' prefix
         'virginia': 'va',
         'dc': 'dc',
         'new_jersey': 'nj',
         'new_york': 'ny',
     }
-    
+
     # Use first 2 letters if not in mapping (for states like arizona -> az)
     state_code = state_codes.get(state, state[:2])
 
