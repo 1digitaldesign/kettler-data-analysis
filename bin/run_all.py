@@ -71,7 +71,7 @@ def main():
     print("All Modules Complete!")
     print("=" * 60)
     print("\nAll R scripts have been replaced with unified Python modules.")
-    print("See docs/COMPONENTS.md for component details.")
+    print("See docs/SYSTEM_ARCHITECTURE.md for architecture details.")
 
 if __name__ == "__main__":
     main()

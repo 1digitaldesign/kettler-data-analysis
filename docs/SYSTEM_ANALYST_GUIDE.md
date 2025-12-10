@@ -211,6 +211,5 @@ analyzer.load_all_data()
 ## Related Documentation
 
 - [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
-- [Data Flow](DATA_FLOW.md) - Pipeline documentation
-- [Components](COMPONENTS.md) - Component reference
+- [System Architecture](SYSTEM_ARCHITECTURE.md) - Complete architecture (includes data flow and components)
 - [Repository Structure](REPOSITORY_STRUCTURE.md) - Structure details

@@ -257,6 +257,6 @@
     "ontology": "data/ONTOLOGY.md",
     "ancestry": "data/ANCESTRY.md",
     "repository_structure": "docs/REPOSITORY_STRUCTURE.md",
-    "data_flow": "docs/DATA_FLOW.md"
+    "data_flow": "docs/SYSTEM_ARCHITECTURE.md"
   }
 }

@@ -44,13 +44,11 @@ Essential documentation for new users:
 
 Technical documentation about the system:
 
-- [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) - System architecture
-- [DATA_FLOW.md](DATA_FLOW.md) - Data pipeline
-- [COMPONENTS.md](COMPONENTS.md) - Component reference
-- [REPOSITORY_STRUCTURE.md](REPOSITORY_STRUCTURE.md) - Repository structure
+- [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) - Complete system architecture (components, data flow, structure, diagrams)
+- [REPOSITORY_STRUCTURE.md](REPOSITORY_STRUCTURE.md) - Detailed repository structure
 - [SYSTEM_ANALYST_GUIDE.md](SYSTEM_ANALYST_GUIDE.md) - System analyst guide
-- [ORGANIZATION.md](ORGANIZATION.md) - Repository organization
-- [DIAGRAMS.md](DIAGRAMS.md) - Visual diagrams
+- [DEPLOYMENT.md](DEPLOYMENT.md) - Deployment guide
+- [ARCHIVE.md](ARCHIVE.md) - Historical archive (consolidated status files)
 
 ## Data documentation
 

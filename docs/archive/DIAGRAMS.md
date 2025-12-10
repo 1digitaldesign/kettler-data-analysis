@@ -260,7 +260,5 @@ To view locally, use a markdown viewer that supports Mermaid.js or visit the rep
 
 ## Related
 
-- [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
-- [Data Flow](DATA_FLOW.md) - Pipeline documentation
-- [Components](COMPONENTS.md) - Component reference
-- [Repository Structure](REPOSITORY_STRUCTURE.md) - Structure details
+- [System Architecture](../SYSTEM_ARCHITECTURE.md) - Complete architecture
+- [Repository Structure](../REPOSITORY_STRUCTURE.md) - Structure details

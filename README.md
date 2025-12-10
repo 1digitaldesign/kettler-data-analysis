@@ -127,11 +127,9 @@ python bin/generate_reports.py    # Report generation
 
 ### System documentation
 
-- [System Architecture](docs/SYSTEM_ARCHITECTURE.md) - Architecture details
-- [Data Flow](docs/DATA_FLOW.md) - Data pipeline
-- [Components](docs/COMPONENTS.md) - Component reference
-- [Repository Structure](docs/REPOSITORY_STRUCTURE.md) - File organization
-- [Diagrams](docs/DIAGRAMS.md) - Visual diagrams
+- [System Architecture](docs/SYSTEM_ARCHITECTURE.md) - Complete architecture (components, data flow, structure, diagrams)
+- [Repository Structure](docs/REPOSITORY_STRUCTURE.md) - Detailed file organization
+- [System Analyst Guide](docs/SYSTEM_ANALYST_GUIDE.md) - System analyst guide
 
 ### Data documentation
 

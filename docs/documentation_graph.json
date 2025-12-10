@@ -85,27 +85,15 @@
       "category": "data"
     },
     {
-      "id": "docs/COMPONENTS.md",
-      "label": "COMPONENTS",
-      "path": "docs/COMPONENTS.md",
-      "category": "system"
-    },
-    {
-      "id": "docs/DATA_FLOW.md",
-      "label": "DATA_FLOW",
-      "path": "docs/DATA_FLOW.md",
+      "id": "docs/ARCHIVE.md",
+      "label": "ARCHIVE",
+      "path": "docs/ARCHIVE.md",
       "category": "system"
     },
     {
       "id": "docs/DEPLOYMENT.md",
       "label": "DEPLOYMENT",
       "path": "docs/DEPLOYMENT.md",
-      "category": "system"
-    },
-    {
-      "id": "docs/DIAGRAMS.md",
-      "label": "DIAGRAMS",
-      "path": "docs/DIAGRAMS.md",
       "category": "system"
     },
     {
@@ -118,12 +106,6 @@
       "id": "docs/INDEX.md",
       "label": "INDEX",
       "path": "docs/INDEX.md",
-      "category": "system"
-    },
-    {
-      "id": "docs/ORGANIZATION.md",
-      "label": "ORGANIZATION",
-      "path": "docs/ORGANIZATION.md",
       "category": "system"
     },
     {
@@ -145,75 +127,99 @@
       "category": "system"
     },
     {
-      "id": "docs/archive/status/COMPLETE.md",
+      "id": "docs/archive/COMPLETE.md",
       "label": "COMPLETE",
-      "path": "docs/archive/status/COMPLETE.md",
+      "path": "docs/archive/COMPLETE.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/COMPLETE_INVESTIGATION_STATUS.md",
+      "id": "docs/archive/COMPLETE_INVESTIGATION_STATUS.md",
       "label": "COMPLETE_INVESTIGATION_STATUS",
-      "path": "docs/archive/status/COMPLETE_INVESTIGATION_STATUS.md",
+      "path": "docs/archive/COMPLETE_INVESTIGATION_STATUS.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/FINAL_INVESTIGATION_REPORT.md",
+      "id": "docs/archive/COMPONENTS.md",
+      "label": "COMPONENTS",
+      "path": "docs/archive/COMPONENTS.md",
+      "category": "system"
+    },
+    {
+      "id": "docs/archive/DATA_FLOW.md",
+      "label": "DATA_FLOW",
+      "path": "docs/archive/DATA_FLOW.md",
+      "category": "system"
+    },
+    {
+      "id": "docs/archive/DIAGRAMS.md",
+      "label": "DIAGRAMS",
+      "path": "docs/archive/DIAGRAMS.md",
+      "category": "system"
+    },
+    {
+      "id": "docs/archive/FINAL_INVESTIGATION_REPORT.md",
       "label": "FINAL_INVESTIGATION_REPORT",
-      "path": "docs/archive/status/FINAL_INVESTIGATION_REPORT.md",
+      "path": "docs/archive/FINAL_INVESTIGATION_REPORT.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/FINAL_STATUS.md",
+      "id": "docs/archive/FINAL_STATUS.md",
       "label": "FINAL_STATUS",
-      "path": "docs/archive/status/FINAL_STATUS.md",
+      "path": "docs/archive/FINAL_STATUS.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/INVESTIGATION_COMPLETE.md",
+      "id": "docs/archive/INVESTIGATION_COMPLETE.md",
       "label": "INVESTIGATION_COMPLETE",
-      "path": "docs/archive/status/INVESTIGATION_COMPLETE.md",
+      "path": "docs/archive/INVESTIGATION_COMPLETE.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/INVESTIGATION_COMPLETE_FINAL.md",
+      "id": "docs/archive/INVESTIGATION_COMPLETE_FINAL.md",
       "label": "INVESTIGATION_COMPLETE_FINAL",
-      "path": "docs/archive/status/INVESTIGATION_COMPLETE_FINAL.md",
+      "path": "docs/archive/INVESTIGATION_COMPLETE_FINAL.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/INVESTIGATION_COMPLETE_SUMMARY.md",
+      "id": "docs/archive/INVESTIGATION_COMPLETE_SUMMARY.md",
       "label": "INVESTIGATION_COMPLETE_SUMMARY",
-      "path": "docs/archive/status/INVESTIGATION_COMPLETE_SUMMARY.md",
+      "path": "docs/archive/INVESTIGATION_COMPLETE_SUMMARY.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/INVESTIGATION_FINAL_STATUS.md",
+      "id": "docs/archive/INVESTIGATION_FINAL_STATUS.md",
       "label": "INVESTIGATION_FINAL_STATUS",
-      "path": "docs/archive/status/INVESTIGATION_FINAL_STATUS.md",
+      "path": "docs/archive/INVESTIGATION_FINAL_STATUS.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/INVESTIGATION_PACKAGE_COMPLETE.md",
+      "id": "docs/archive/INVESTIGATION_PACKAGE_COMPLETE.md",
       "label": "INVESTIGATION_PACKAGE_COMPLETE",
-      "path": "docs/archive/status/INVESTIGATION_PACKAGE_COMPLETE.md",
+      "path": "docs/archive/INVESTIGATION_PACKAGE_COMPLETE.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/INVESTIGATION_STATUS_FINAL.md",
+      "id": "docs/archive/INVESTIGATION_STATUS_FINAL.md",
       "label": "INVESTIGATION_STATUS_FINAL",
-      "path": "docs/archive/status/INVESTIGATION_STATUS_FINAL.md",
+      "path": "docs/archive/INVESTIGATION_STATUS_FINAL.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/MICROSERVICES_IMPLEMENTATION_COMPLETE.md",
+      "id": "docs/archive/MICROSERVICES_IMPLEMENTATION_COMPLETE.md",
       "label": "MICROSERVICES_IMPLEMENTATION_COMPLETE",
-      "path": "docs/archive/status/MICROSERVICES_IMPLEMENTATION_COMPLETE.md",
+      "path": "docs/archive/MICROSERVICES_IMPLEMENTATION_COMPLETE.md",
       "category": "system"
     },
     {
-      "id": "docs/archive/status/REPOSITORY_REORGANIZATION_COMPLETE.md",
+      "id": "docs/archive/ORGANIZATION.md",
+      "label": "ORGANIZATION",
+      "path": "docs/archive/ORGANIZATION.md",
+      "category": "system"
+    },
+    {
+      "id": "docs/archive/REPOSITORY_REORGANIZATION_COMPLETE.md",
       "label": "REPOSITORY_REORGANIZATION_COMPLETE",
-      "path": "docs/archive/status/REPOSITORY_REORGANIZATION_COMPLETE.md",
+      "path": "docs/archive/REPOSITORY_REORGANIZATION_COMPLETE.md",
       "category": "system"
     },
     {
@@ -406,6 +412,12 @@
       "id": "research/REMAINING_LEGAL_VIOLATIONS.md",
       "label": "REMAINING_LEGAL_VIOLATIONS",
       "path": "research/REMAINING_LEGAL_VIOLATIONS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/REPORTS.md",
+      "label": "REPORTS",
+      "path": "research/REPORTS.md",
       "category": "research"
     },
     {
@@ -1128,13 +1140,8 @@
     },
     {
       "source": "QUICK_START.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "docs/DATA_FLOW.md"
-    },
-    {
-      "source": "QUICK_START.md",
-      "target": "docs/COMPONENTS.md",
-      "label": "docs/COMPONENTS.md"
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "docs/SYSTEM_ARCHITECTURE.md"
     },
     {
       "source": "QUICK_START.md",
@@ -1198,23 +1205,13 @@
     },
     {
       "source": "README.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "Data Flow"
-    },
-    {
-      "source": "README.md",
-      "target": "docs/COMPONENTS.md",
-      "label": "Components"
-    },
-    {
-      "source": "README.md",
       "target": "docs/REPOSITORY_STRUCTURE.md",
       "label": "Repository Structure"
     },
     {
       "source": "README.md",
-      "target": "docs/DIAGRAMS.md",
-      "label": "Diagrams"
+      "target": "docs/SYSTEM_ANALYST_GUIDE.md",
+      "label": "System Analyst Guide"
     },
     {
       "source": "README.md",
@@ -1587,59 +1584,24 @@
       "label": "Repository Structure"
     },
     {
-      "source": "docs/COMPONENTS.md",
-      "target": "docs/SYSTEM_ARCHITECTURE.md",
-      "label": "SYSTEM_ARCHITECTURE.md"
+      "source": "docs/ARCHIVE.md",
+      "target": "STATUS.md",
+      "label": "STATUS.md"
     },
     {
-      "source": "docs/COMPONENTS.md",
-      "target": "docs/SYSTEM_ARCHITECTURE.md",
-      "label": "System Architecture"
+      "source": "docs/ARCHIVE.md",
+      "target": "STATUS.md",
+      "label": "STATUS.md"
     },
     {
-      "source": "docs/COMPONENTS.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "Data Flow"
+      "source": "docs/ARCHIVE.md",
+      "target": "README.md",
+      "label": "README.md"
     },
     {
-      "source": "docs/COMPONENTS.md",
-      "target": "docs/DOCUMENTATION_GRAPH.md",
-      "label": "Documentation Graph"
-    },
-    {
-      "source": "docs/DATA_FLOW.md",
-      "target": "docs/SYSTEM_ARCHITECTURE.md",
-      "label": "SYSTEM_ARCHITECTURE.md"
-    },
-    {
-      "source": "docs/DATA_FLOW.md",
-      "target": "docs/SYSTEM_ARCHITECTURE.md",
-      "label": "System Architecture"
-    },
-    {
-      "source": "docs/DATA_FLOW.md",
-      "target": "docs/DOCUMENTATION_GRAPH.md",
-      "label": "Documentation Graph"
-    },
-    {
-      "source": "docs/DIAGRAMS.md",
-      "target": "docs/SYSTEM_ARCHITECTURE.md",
-      "label": "System Architecture"
-    },
-    {
-      "source": "docs/DIAGRAMS.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "Data Flow"
-    },
-    {
-      "source": "docs/DIAGRAMS.md",
-      "target": "docs/COMPONENTS.md",
-      "label": "Components"
-    },
-    {
-      "source": "docs/DIAGRAMS.md",
-      "target": "docs/REPOSITORY_STRUCTURE.md",
-      "label": "Repository Structure"
+      "source": "docs/ARCHIVE.md",
+      "target": "docs/INDEX.md",
+      "label": "docs/INDEX.md"
     },
     {
       "source": "docs/INDEX.md",
@@ -1673,16 +1635,6 @@
     },
     {
       "source": "docs/INDEX.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "DATA_FLOW.md"
-    },
-    {
-      "source": "docs/INDEX.md",
-      "target": "docs/COMPONENTS.md",
-      "label": "COMPONENTS.md"
-    },
-    {
-      "source": "docs/INDEX.md",
       "target": "docs/REPOSITORY_STRUCTURE.md",
       "label": "REPOSITORY_STRUCTURE.md"
     },
@@ -1693,13 +1645,13 @@
     },
     {
       "source": "docs/INDEX.md",
-      "target": "docs/ORGANIZATION.md",
-      "label": "ORGANIZATION.md"
+      "target": "docs/DEPLOYMENT.md",
+      "label": "DEPLOYMENT.md"
     },
     {
       "source": "docs/INDEX.md",
-      "target": "docs/DIAGRAMS.md",
-      "label": "DIAGRAMS.md"
+      "target": "docs/ARCHIVE.md",
+      "label": "ARCHIVE.md"
     },
     {
       "source": "docs/INDEX.md",
@@ -1747,26 +1699,6 @@
       "label": "DOCUMENTATION_GRAPH.md"
     },
     {
-      "source": "docs/ORGANIZATION.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "DATA_FLOW.md"
-    },
-    {
-      "source": "docs/ORGANIZATION.md",
-      "target": "docs/REPOSITORY_STRUCTURE.md",
-      "label": "Repository Structure"
-    },
-    {
-      "source": "docs/ORGANIZATION.md",
-      "target": "docs/SYSTEM_ARCHITECTURE.md",
-      "label": "System Architecture"
-    },
-    {
-      "source": "docs/ORGANIZATION.md",
-      "target": "docs/COMPONENTS.md",
-      "label": "Components"
-    },
-    {
       "source": "docs/REPOSITORY_STRUCTURE.md",
       "target": "docs/SYSTEM_ARCHITECTURE.md",
       "label": "SYSTEM_ARCHITECTURE.md"
@@ -1788,13 +1720,8 @@
     },
     {
       "source": "docs/SYSTEM_ANALYST_GUIDE.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "Data Flow"
-    },
-    {
-      "source": "docs/SYSTEM_ANALYST_GUIDE.md",
-      "target": "docs/COMPONENTS.md",
-      "label": "Components"
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
     },
     {
       "source": "docs/SYSTEM_ANALYST_GUIDE.md",
@@ -1805,6 +1732,16 @@
       "source": "docs/SYSTEM_ARCHITECTURE.md",
       "target": "data/DATA_DICTIONARY.md",
       "label": "data/DATA_DICTIONARY.md"
+    },
+    {
+      "source": "docs/SYSTEM_ARCHITECTURE.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "docs/SYSTEM_ARCHITECTURE.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "Data Governance"
     },
     {
       "source": "docs/SYSTEM_ARCHITECTURE.md",
@@ -1823,18 +1760,58 @@
     },
     {
       "source": "docs/SYSTEM_ARCHITECTURE.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "Data Flow"
+      "target": "docs/INDEX.md",
+      "label": "Documentation Index"
     },
     {
       "source": "docs/SYSTEM_ARCHITECTURE.md",
-      "target": "docs/COMPONENTS.md",
-      "label": "Components"
+      "target": "docs/REPOSITORY_STRUCTURE.md",
+      "label": "Repository Structure"
     },
     {
       "source": "docs/SYSTEM_ARCHITECTURE.md",
       "target": "docs/DOCUMENTATION_GRAPH.md",
       "label": "Documentation Graph"
+    },
+    {
+      "source": "docs/archive/COMPONENTS.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "docs/archive/COMPONENTS.md",
+      "target": "docs/DOCUMENTATION_GRAPH.md",
+      "label": "Documentation Graph"
+    },
+    {
+      "source": "docs/archive/DATA_FLOW.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "docs/archive/DATA_FLOW.md",
+      "target": "docs/DOCUMENTATION_GRAPH.md",
+      "label": "Documentation Graph"
+    },
+    {
+      "source": "docs/archive/DIAGRAMS.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "docs/archive/DIAGRAMS.md",
+      "target": "docs/REPOSITORY_STRUCTURE.md",
+      "label": "Repository Structure"
+    },
+    {
+      "source": "docs/archive/ORGANIZATION.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "docs/archive/ORGANIZATION.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
     },
     {
       "source": "research/DATA_GUIDE.md",
@@ -1913,13 +1890,123 @@
     },
     {
       "source": "research/README.md",
+      "target": "research/REPORTS.md",
+      "label": "Reports"
+    },
+    {
+      "source": "research/README.md",
+      "target": "research/REPORTS.md",
+      "label": "REPORTS.md"
+    },
+    {
+      "source": "research/README.md",
+      "target": "research/STATUS_FILES_ARCHIVE.md",
+      "label": "STATUS_FILES_ARCHIVE.md"
+    },
+    {
+      "source": "research/README.md",
+      "target": "research/REPORTS.md",
+      "label": "Reports"
+    },
+    {
+      "source": "research/README.md",
+      "target": "research/DATA_GUIDE.md",
+      "label": "Data Guide"
+    },
+    {
+      "source": "research/README.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "research/README.md",
+      "target": "research/REPORTS.md",
+      "label": "Reports"
+    },
+    {
+      "source": "research/README.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "research/README.md",
       "target": "data/DATA_DICTIONARY.md",
       "label": "Data Dictionary"
     },
     {
       "source": "research/README.md",
-      "target": "README.md",
-      "label": "Main README"
+      "target": "research/DATA_GUIDE.md",
+      "label": "Data Guide"
+    },
+    {
+      "source": "research/README.md",
+      "target": "docs/INDEX.md",
+      "label": "Documentation Index"
+    },
+    {
+      "source": "research/README.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/ALL_VIOLATIONS_AND_ANOMALIES.md",
+      "label": "ALL_VIOLATIONS_AND_ANOMALIES.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/COMPREHENSIVE_VIOLATIONS_REPORT.md",
+      "label": "COMPREHENSIVE_VIOLATIONS_REPORT.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/ALL_ANOMALIES_SUMMARY.md",
+      "label": "ALL_ANOMALIES_SUMMARY.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/COMPREHENSIVE_ANOMALIES_REPORT.md",
+      "label": "COMPREHENSIVE_ANOMALIES_REPORT.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/NEXUS_ANALYSIS_REPORT.md",
+      "label": "NEXUS_ANALYSIS_REPORT.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/FINAL_NEXUS_FINDINGS.md",
+      "label": "FINAL_NEXUS_FINDINGS.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/COMPLETE_AUDIT_SUMMARY.md",
+      "label": "COMPLETE_AUDIT_SUMMARY.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/VIOLATION_AUDIT_COMPLETE.md",
+      "label": "VIOLATION_AUDIT_COMPLETE.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/RESEARCH_COMPLETION_SUMMARY.md",
+      "label": "RESEARCH_COMPLETION_SUMMARY.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/reports/FINAL_VIOLATION_SUMMARY.md",
+      "label": "FINAL_VIOLATION_SUMMARY.md"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/README.md",
+      "label": "Research README"
+    },
+    {
+      "source": "research/REPORTS.md",
+      "target": "research/DATA_GUIDE.md",
+      "label": "Data Guide"
     },
     {
       "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",
@@ -1958,58 +2045,18 @@
     },
     {
       "source": "research/license_searches/README.md",
-      "target": "research/license_searches/EXECUTIVE_SUMMARY_FOR_FILINGS.md",
-      "label": "EXECUTIVE_SUMMARY_FOR_FILINGS.md"
+      "target": "research/README.md",
+      "label": "Research README"
     },
     {
       "source": "research/license_searches/README.md",
-      "target": "research/license_searches/FINAL_INVESTIGATION_STATUS.md",
-      "label": "FINAL_INVESTIGATION_STATUS.md"
+      "target": "research/REPORTS.md",
+      "label": "Reports"
     },
     {
       "source": "research/license_searches/README.md",
-      "target": "research/license_searches/INVESTIGATION_COMPLETE_REPORT.md",
-      "label": "INVESTIGATION_COMPLETE_REPORT.md"
-    },
-    {
-      "source": "research/license_searches/README.md",
-      "target": "research/license_searches/COMPREHENSIVE_VIOLATIONS_REPORT.md",
-      "label": "COMPREHENSIVE_VIOLATIONS_REPORT.md"
-    },
-    {
-      "source": "research/license_searches/README.md",
-      "target": "research/license_searches/MASTER_INVESTIGATION_REPORT.md",
-      "label": "MASTER_INVESTIGATION_REPORT.md"
-    },
-    {
-      "source": "research/license_searches/README.md",
-      "target": "research/license_searches/CONSOLIDATED_FINDINGS_SUMMARY.md",
-      "label": "CONSOLIDATED_FINDINGS_SUMMARY.md"
-    },
-    {
-      "source": "research/license_searches/README.md",
-      "target": "research/license_searches/ADMINISTRATIVE_FILING_CHECKLIST.md",
-      "label": "ADMINISTRATIVE_FILING_CHECKLIST.md"
-    },
-    {
-      "source": "research/license_searches/README.md",
-      "target": "research/license_searches/READY_FOR_FILINGS.md",
-      "label": "READY_FOR_FILINGS.md"
-    },
-    {
-      "source": "research/license_searches/README.md",
-      "target": "research/license_searches/INVESTIGATION_STATUS_UPDATE.md",
-      "label": "INVESTIGATION_STATUS_UPDATE.md"
-    },
-    {
-      "source": "research/license_searches/README.md",
-      "target": "research/license_searches/REMAINING_WORK_SUMMARY.md",
-      "label": "REMAINING_WORK_SUMMARY.md"
-    },
-    {
-      "source": "research/license_searches/README.md",
-      "target": "research/license_searches/FINAL_COMPREHENSIVE_STATUS.md",
-      "label": "FINAL_COMPREHENSIVE_STATUS.md"
+      "target": "research/DATA_GUIDE.md",
+      "label": "Data Guide"
     },
     {
       "source": "scripts/README.md",
@@ -2018,13 +2065,8 @@
     },
     {
       "source": "scripts/README.md",
-      "target": "docs/COMPONENTS.md",
-      "label": "Components"
-    },
-    {
-      "source": "scripts/README.md",
-      "target": "docs/DATA_FLOW.md",
-      "label": "Data Flow"
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
     }
   ]
 }

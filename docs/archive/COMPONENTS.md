@@ -215,6 +215,5 @@ results = analyzer.analyze_all()
 ## Documentation Connections
 
 This document connects to:
-- 🏗️ [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
-- 🔄 [Data Flow](DATA_FLOW.md) - Pipeline documentation
-- 📑 [Documentation Graph](DOCUMENTATION_GRAPH.md) - Complete documentation network
+- 🏗️ [System Architecture](../SYSTEM_ARCHITECTURE.md) - Complete architecture
+- 📑 [Documentation Graph](../DOCUMENTATION_GRAPH.md) - Complete documentation network

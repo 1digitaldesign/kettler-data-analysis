@@ -76,8 +76,7 @@ The pipeline performs these steps:
 After running your first analysis:
 
 - Review [README.md](README.md) for system overview
-- Check [docs/DATA_FLOW.md](docs/DATA_FLOW.md) for data pipeline details
-- Read [docs/COMPONENTS.md](docs/COMPONENTS.md) for component reference
+- Check [docs/SYSTEM_ARCHITECTURE.md](docs/SYSTEM_ARCHITECTURE.md) for complete architecture (includes data flow and components)
 
 ## Getting help
 

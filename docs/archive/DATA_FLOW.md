@@ -153,5 +153,5 @@ python bin/validate_data.py        # Validation
 ## Documentation Connections
 
 This document connects to:
-- 🏗️ [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
-- 📑 [Documentation Graph](DOCUMENTATION_GRAPH.md) - Complete documentation network
+- 🏗️ [System Architecture](../SYSTEM_ARCHITECTURE.md) - Complete architecture
+- 📑 [Documentation Graph](../DOCUMENTATION_GRAPH.md) - Complete documentation network

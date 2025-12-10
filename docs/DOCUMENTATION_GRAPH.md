@@ -32,27 +32,28 @@ graph TB
         data_README_md["README"]
     end
     subgraph "SYSTEM"
-        docs_COMPONENTS_md["COMPONENTS"]
-        docs_DATA_FLOW_md["DATA_FLOW"]
+        docs_ARCHIVE_md["ARCHIVE"]
         docs_DEPLOYMENT_md["DEPLOYMENT"]
-        docs_DIAGRAMS_md["DIAGRAMS"]
         docs_DOCUMENTATION_GRAPH_md["DOCUMENTATION_GRAPH"]
         docs_INDEX_md["INDEX"]
-        docs_ORGANIZATION_md["ORGANIZATION"]
         docs_REPOSITORY_STRUCTURE_md["REPOSITORY_STRUCTURE"]
         docs_SYSTEM_ARCHITECTURE_md["SYSTEM_ARCHITECTURE"]
-        docs_archive_status_COMPLETE_md["COMPLETE"]
-        docs_archive_status_COMPLETE_INVESTIGATION_STATUS_md["COMPLETE_INVESTIGATION_STATUS"]
-        docs_archive_status_FINAL_INVESTIGATION_REPORT_md["FINAL_INVESTIGATION_REPORT"]
-        docs_archive_status_FINAL_STATUS_md["FINAL_STATUS"]
-        docs_archive_status_INVESTIGATION_COMPLETE_md["INVESTIGATION_COMPLETE"]
-        docs_archive_status_INVESTIGATION_COMPLETE_FINAL_md["INVESTIGATION_COMPLETE_FINAL"]
-        docs_archive_status_INVESTIGATION_COMPLETE_SUMMARY_md["INVESTIGATION_COMPLETE_SUMMARY"]
-        docs_archive_status_INVESTIGATION_FINAL_STATUS_md["INVESTIGATION_FINAL_STATUS"]
-        docs_archive_status_INVESTIGATION_PACKAGE_COMPLETE_md["INVESTIGATION_PACKAGE_COMPLETE"]
-        docs_archive_status_INVESTIGATION_STATUS_FINAL_md["INVESTIGATION_STATUS_FINAL"]
-        docs_archive_status_MICROSERVICES_IMPLEMENTATION_COMPLETE_md["MICROSERVICES_IMPLEMENTATION_COMPLETE"]
-        docs_archive_status_REPOSITORY_REORGANIZATION_COMPLETE_md["REPOSITORY_REORGANIZATION_COMPLETE"]
+        docs_archive_COMPLETE_md["COMPLETE"]
+        docs_archive_COMPLETE_INVESTIGATION_STATUS_md["COMPLETE_INVESTIGATION_STATUS"]
+        docs_archive_COMPONENTS_md["COMPONENTS"]
+        docs_archive_DATA_FLOW_md["DATA_FLOW"]
+        docs_archive_DIAGRAMS_md["DIAGRAMS"]
+        docs_archive_FINAL_INVESTIGATION_REPORT_md["FINAL_INVESTIGATION_REPORT"]
+        docs_archive_FINAL_STATUS_md["FINAL_STATUS"]
+        docs_archive_INVESTIGATION_COMPLETE_md["INVESTIGATION_COMPLETE"]
+        docs_archive_INVESTIGATION_COMPLETE_FINAL_md["INVESTIGATION_COMPLETE_FINAL"]
+        docs_archive_INVESTIGATION_COMPLETE_SUMMARY_md["INVESTIGATION_COMPLETE_SUMMARY"]
+        docs_archive_INVESTIGATION_FINAL_STATUS_md["INVESTIGATION_FINAL_STATUS"]
+        docs_archive_INVESTIGATION_PACKAGE_COMPLETE_md["INVESTIGATION_PACKAGE_COMPLETE"]
+        docs_archive_INVESTIGATION_STATUS_FINAL_md["INVESTIGATION_STATUS_FINAL"]
+        docs_archive_MICROSERVICES_IMPLEMENTATION_COMPLETE_md["MICROSERVICES_IMPLEMENTATION_COMPLETE"]
+        docs_archive_ORGANIZATION_md["ORGANIZATION"]
+        docs_archive_REPOSITORY_REORGANIZATION_COMPLETE_md["REPOSITORY_REORGANIZATION_COMPLETE"]
     end
     subgraph "GUIDE"
         docs_SYSTEM_ANALYST_GUIDE_md["SYSTEM_ANALYST_GUIDE"]
@@ -90,6 +91,7 @@ graph TB
         research_QUICK_START_md["QUICK_START"]
         research_README_md["README"]
         research_REMAINING_LEGAL_VIOLATIONS_md["REMAINING_LEGAL_VIOLATIONS"]
+        research_REPORTS_md["REPORTS"]
         research_STATUS_FILES_ARCHIVE_md["STATUS_FILES_ARCHIVE"]
         research_VALIDATION_REPORT_md["VALIDATION_REPORT"]
         research_VIRGINIA_40_LICENSES_CRITICAL_FINDING_md["VIRGINIA_40_LICENSES_CRITICAL_FINDING"]
@@ -205,8 +207,7 @@ graph TB
     INSTALL_PYTHON_3_14_md --> QUICK_START_md
     QUICK_START_md --> INSTALLATION_md
     QUICK_START_md --> README_md
-    QUICK_START_md --> docs_DATA_FLOW_md
-    QUICK_START_md --> docs_COMPONENTS_md
+    QUICK_START_md --> docs_SYSTEM_ARCHITECTURE_md
     QUICK_START_md --> INSTALLATION_md
     QUICK_START_md --> docs_SYSTEM_ARCHITECTURE_md
     QUICK_START_md --> docs_INDEX_md
@@ -219,10 +220,8 @@ graph TB
     README_md --> QUICK_START_md
     README_md --> STATUS_md
     README_md --> docs_SYSTEM_ARCHITECTURE_md
-    README_md --> docs_DATA_FLOW_md
-    README_md --> docs_COMPONENTS_md
     README_md --> docs_REPOSITORY_STRUCTURE_md
-    README_md --> docs_DIAGRAMS_md
+    README_md --> docs_SYSTEM_ANALYST_GUIDE_md
     README_md --> data_DATA_DICTIONARY_md
     README_md --> data_ONTOLOGY_md
     README_md --> data_ANCESTRY_md
@@ -297,29 +296,20 @@ graph TB
     data_README_md --> data_DATA_CATALOG_md
     data_README_md --> research_README_md
     data_README_md --> docs_REPOSITORY_STRUCTURE_md
-    docs_COMPONENTS_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_COMPONENTS_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_COMPONENTS_md --> docs_DATA_FLOW_md
-    docs_COMPONENTS_md --> docs_DOCUMENTATION_GRAPH_md
-    docs_DATA_FLOW_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_DATA_FLOW_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_DATA_FLOW_md --> docs_DOCUMENTATION_GRAPH_md
-    docs_DIAGRAMS_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_DIAGRAMS_md --> docs_DATA_FLOW_md
-    docs_DIAGRAMS_md --> docs_COMPONENTS_md
-    docs_DIAGRAMS_md --> docs_REPOSITORY_STRUCTURE_md
+    docs_ARCHIVE_md --> STATUS_md
+    docs_ARCHIVE_md --> STATUS_md
+    docs_ARCHIVE_md --> README_md
+    docs_ARCHIVE_md --> docs_INDEX_md
     docs_INDEX_md --> docs_DOCUMENTATION_GRAPH_md
     docs_INDEX_md --> README_md
     docs_INDEX_md --> INSTALLATION_md
     docs_INDEX_md --> QUICK_START_md
     docs_INDEX_md --> STATUS_md
     docs_INDEX_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_INDEX_md --> docs_DATA_FLOW_md
-    docs_INDEX_md --> docs_COMPONENTS_md
     docs_INDEX_md --> docs_REPOSITORY_STRUCTURE_md
     docs_INDEX_md --> docs_SYSTEM_ANALYST_GUIDE_md
-    docs_INDEX_md --> docs_ORGANIZATION_md
-    docs_INDEX_md --> docs_DIAGRAMS_md
+    docs_INDEX_md --> docs_DEPLOYMENT_md
+    docs_INDEX_md --> docs_ARCHIVE_md
     docs_INDEX_md --> data_DATA_DICTIONARY_md
     docs_INDEX_md --> data_ONTOLOGY_md
     docs_INDEX_md --> data_ANCESTRY_md
@@ -329,24 +319,29 @@ graph TB
     docs_INDEX_md --> research_README_md
     docs_INDEX_md --> docs_DEPLOYMENT_md
     docs_INDEX_md --> docs_DOCUMENTATION_GRAPH_md
-    docs_ORGANIZATION_md --> docs_DATA_FLOW_md
-    docs_ORGANIZATION_md --> docs_REPOSITORY_STRUCTURE_md
-    docs_ORGANIZATION_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_ORGANIZATION_md --> docs_COMPONENTS_md
     docs_REPOSITORY_STRUCTURE_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_SYSTEM_ANALYST_GUIDE_md --> data_DATA_CATALOG_md
     docs_SYSTEM_ANALYST_GUIDE_md --> data_GOVERNANCE_md
     docs_SYSTEM_ANALYST_GUIDE_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_SYSTEM_ANALYST_GUIDE_md --> docs_DATA_FLOW_md
-    docs_SYSTEM_ANALYST_GUIDE_md --> docs_COMPONENTS_md
+    docs_SYSTEM_ANALYST_GUIDE_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_SYSTEM_ANALYST_GUIDE_md --> docs_REPOSITORY_STRUCTURE_md
-    docs_SYSTEM_ARCHITECTURE_md --> data_DATA_DICTIONARY_md
     docs_SYSTEM_ARCHITECTURE_md --> data_DATA_DICTIONARY_md
     docs_SYSTEM_ARCHITECTURE_md --> data_DATA_CATALOG_md
     docs_SYSTEM_ARCHITECTURE_md --> data_GOVERNANCE_md
-    docs_SYSTEM_ARCHITECTURE_md --> docs_DATA_FLOW_md
-    docs_SYSTEM_ARCHITECTURE_md --> docs_COMPONENTS_md
+    docs_SYSTEM_ARCHITECTURE_md --> data_DATA_DICTIONARY_md
+    docs_SYSTEM_ARCHITECTURE_md --> data_DATA_CATALOG_md
+    docs_SYSTEM_ARCHITECTURE_md --> data_GOVERNANCE_md
+    docs_SYSTEM_ARCHITECTURE_md --> docs_INDEX_md
+    docs_SYSTEM_ARCHITECTURE_md --> docs_REPOSITORY_STRUCTURE_md
     docs_SYSTEM_ARCHITECTURE_md --> docs_DOCUMENTATION_GRAPH_md
+    docs_archive_COMPONENTS_md --> docs_SYSTEM_ARCHITECTURE_md
+    docs_archive_COMPONENTS_md --> docs_DOCUMENTATION_GRAPH_md
+    docs_archive_DATA_FLOW_md --> docs_SYSTEM_ARCHITECTURE_md
+    docs_archive_DATA_FLOW_md --> docs_DOCUMENTATION_GRAPH_md
+    docs_archive_DIAGRAMS_md --> docs_SYSTEM_ARCHITECTURE_md
+    docs_archive_DIAGRAMS_md --> docs_REPOSITORY_STRUCTURE_md
+    docs_archive_ORGANIZATION_md --> docs_SYSTEM_ARCHITECTURE_md
+    docs_archive_ORGANIZATION_md --> docs_SYSTEM_ARCHITECTURE_md
     research_DATA_GUIDE_md --> data_DATA_DICTIONARY_md
     research_DATA_GUIDE_md --> research_README_md
     research_DATA_GUIDE_md --> data_DATA_DICTIONARY_md
@@ -362,8 +357,30 @@ graph TB
     research_QUICK_START_md --> research_README_md
     research_QUICK_START_md --> research_COMPLAINT_AMENDMENT_GUIDE_md
     research_QUICK_START_md --> research_EVIDENCE_INDEX_md
+    research_README_md --> research_REPORTS_md
+    research_README_md --> research_REPORTS_md
+    research_README_md --> research_STATUS_FILES_ARCHIVE_md
+    research_README_md --> research_REPORTS_md
+    research_README_md --> research_DATA_GUIDE_md
+    research_README_md --> data_DATA_CATALOG_md
+    research_README_md --> research_REPORTS_md
+    research_README_md --> data_DATA_CATALOG_md
     research_README_md --> data_DATA_DICTIONARY_md
-    research_README_md --> README_md
+    research_README_md --> research_DATA_GUIDE_md
+    research_README_md --> docs_INDEX_md
+    research_README_md --> docs_SYSTEM_ARCHITECTURE_md
+    research_REPORTS_md --> research_reports_ALL_VIOLATIONS_AND_ANOMALIES_md
+    research_REPORTS_md --> research_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md
+    research_REPORTS_md --> research_reports_ALL_ANOMALIES_SUMMARY_md
+    research_REPORTS_md --> research_reports_COMPREHENSIVE_ANOMALIES_REPORT_md
+    research_REPORTS_md --> research_reports_NEXUS_ANALYSIS_REPORT_md
+    research_REPORTS_md --> research_reports_FINAL_NEXUS_FINDINGS_md
+    research_REPORTS_md --> research_reports_COMPLETE_AUDIT_SUMMARY_md
+    research_REPORTS_md --> research_reports_VIOLATION_AUDIT_COMPLETE_md
+    research_REPORTS_md --> research_reports_RESEARCH_COMPLETION_SUMMARY_md
+    research_REPORTS_md --> research_reports_FINAL_VIOLATION_SUMMARY_md
+    research_REPORTS_md --> research_README_md
+    research_REPORTS_md --> research_DATA_GUIDE_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_FINAL_INVESTIGATION_STATUS_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_INVESTIGATION_COMPLETE_REPORT_md
@@ -371,45 +388,37 @@ graph TB
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_MASTER_INVESTIGATION_REPORT_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_READY_FOR_FILINGS_md
-    research_license_searches_README_md --> research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md
-    research_license_searches_README_md --> research_license_searches_FINAL_INVESTIGATION_STATUS_md
-    research_license_searches_README_md --> research_license_searches_INVESTIGATION_COMPLETE_REPORT_md
-    research_license_searches_README_md --> research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md
-    research_license_searches_README_md --> research_license_searches_MASTER_INVESTIGATION_REPORT_md
-    research_license_searches_README_md --> research_license_searches_CONSOLIDATED_FINDINGS_SUMMARY_md
-    research_license_searches_README_md --> research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md
-    research_license_searches_README_md --> research_license_searches_READY_FOR_FILINGS_md
-    research_license_searches_README_md --> research_license_searches_INVESTIGATION_STATUS_UPDATE_md
-    research_license_searches_README_md --> research_license_searches_REMAINING_WORK_SUMMARY_md
-    research_license_searches_README_md --> research_license_searches_FINAL_COMPREHENSIVE_STATUS_md
+    research_license_searches_README_md --> research_README_md
+    research_license_searches_README_md --> research_REPORTS_md
+    research_license_searches_README_md --> research_DATA_GUIDE_md
     scripts_README_md --> docs_SYSTEM_ARCHITECTURE_md
-    scripts_README_md --> docs_COMPONENTS_md
-    scripts_README_md --> docs_DATA_FLOW_md
+    scripts_README_md --> docs_SYSTEM_ARCHITECTURE_md
     style INSTALLATION_md fill:#C8E6C9
     style QUICK_START_md fill:#C8E6C9
     style README_md fill:#C8E6C9
     style STATUS_md fill:#C8E6C9
-    style docs_COMPONENTS_md fill:#B3E5FC
-    style docs_DATA_FLOW_md fill:#B3E5FC
+    style docs_ARCHIVE_md fill:#B3E5FC
     style docs_DEPLOYMENT_md fill:#B3E5FC
-    style docs_DIAGRAMS_md fill:#B3E5FC
     style docs_DOCUMENTATION_GRAPH_md fill:#B3E5FC
     style docs_INDEX_md fill:#B3E5FC
-    style docs_ORGANIZATION_md fill:#B3E5FC
     style docs_REPOSITORY_STRUCTURE_md fill:#B3E5FC
     style docs_SYSTEM_ARCHITECTURE_md fill:#B3E5FC
-    style docs_archive_status_COMPLETE_md fill:#B3E5FC
-    style docs_archive_status_COMPLETE_INVESTIGATION_STATUS_md fill:#B3E5FC
-    style docs_archive_status_FINAL_INVESTIGATION_REPORT_md fill:#B3E5FC
-    style docs_archive_status_FINAL_STATUS_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_COMPLETE_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_COMPLETE_FINAL_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_COMPLETE_SUMMARY_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_FINAL_STATUS_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_PACKAGE_COMPLETE_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_STATUS_FINAL_md fill:#B3E5FC
-    style docs_archive_status_MICROSERVICES_IMPLEMENTATION_COMPLETE_md fill:#B3E5FC
-    style docs_archive_status_REPOSITORY_REORGANIZATION_COMPLETE_md fill:#B3E5FC
+    style docs_archive_COMPLETE_md fill:#B3E5FC
+    style docs_archive_COMPLETE_INVESTIGATION_STATUS_md fill:#B3E5FC
+    style docs_archive_COMPONENTS_md fill:#B3E5FC
+    style docs_archive_DATA_FLOW_md fill:#B3E5FC
+    style docs_archive_DIAGRAMS_md fill:#B3E5FC
+    style docs_archive_FINAL_INVESTIGATION_REPORT_md fill:#B3E5FC
+    style docs_archive_FINAL_STATUS_md fill:#B3E5FC
+    style docs_archive_INVESTIGATION_COMPLETE_md fill:#B3E5FC
+    style docs_archive_INVESTIGATION_COMPLETE_FINAL_md fill:#B3E5FC
+    style docs_archive_INVESTIGATION_COMPLETE_SUMMARY_md fill:#B3E5FC
+    style docs_archive_INVESTIGATION_FINAL_STATUS_md fill:#B3E5FC
+    style docs_archive_INVESTIGATION_PACKAGE_COMPLETE_md fill:#B3E5FC
+    style docs_archive_INVESTIGATION_STATUS_FINAL_md fill:#B3E5FC
+    style docs_archive_MICROSERVICES_IMPLEMENTATION_COMPLETE_md fill:#B3E5FC
+    style docs_archive_ORGANIZATION_md fill:#B3E5FC
+    style docs_archive_REPOSITORY_REORGANIZATION_COMPLETE_md fill:#B3E5FC
     style data_ANCESTRY_md fill:#FFF9C4
     style data_DATA_CATALOG_md fill:#FFF9C4
     style data_DATA_DICTIONARY_md fill:#FFF9C4
@@ -448,6 +457,7 @@ graph TB
     style research_QUICK_START_md fill:#E1BEE7
     style research_README_md fill:#E1BEE7
     style research_REMAINING_LEGAL_VIOLATIONS_md fill:#E1BEE7
+    style research_REPORTS_md fill:#E1BEE7
     style research_STATUS_FILES_ARCHIVE_md fill:#E1BEE7
     style research_VALIDATION_REPORT_md fill:#E1BEE7
     style research_VIRGINIA_40_LICENSES_CRITICAL_FINDING_md fill:#E1BEE7

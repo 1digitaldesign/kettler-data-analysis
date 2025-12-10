@@ -92,10 +92,10 @@ System documentation and guides.
 Source → Extract → Clean → Analyze → Research Outputs
 ```
 
-> 📘 See [DATA_FLOW.md](DATA_FLOW.md) for detailed pipeline documentation.
+> 📘 See [System Architecture](../SYSTEM_ARCHITECTURE.md) for complete architecture documentation.
 
 ## Related
 
 - [Repository Structure](REPOSITORY_STRUCTURE.md) - Detailed structure
 - [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
-- [Components](COMPONENTS.md) - Component reference
+- [System Architecture](../SYSTEM_ARCHITECTURE.md) - Complete architecture (includes components)

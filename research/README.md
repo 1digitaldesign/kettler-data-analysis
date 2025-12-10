@@ -27,7 +27,7 @@ This directory contains all research outputs from investigating property managem
 |------|------------|
 | **File a complaint** | [VA DPOR Complaint Files](va_dpor_complaint/) |
 | **Find specific data** | [Research Index](RESEARCH_INDEX.json) |
-| **View summaries** | [Reports Directory](reports/) |
+| **View summaries** | [Reports](REPORTS.md) |
 | **Search licenses** | [License Searches](license_searches/) |
 
 ---
@@ -38,8 +38,8 @@ Research files are organized by category and purpose:
 
 ### License searches
 
-**Location:** `license_searches/`
-**Count:** 285 files across 15 states
+**Location:** `license_searches/`  
+**Count:** 285 files across 15 states  
 **Purpose:** Multi-state license search results for individuals and firms
 
 **Structure:**
@@ -58,8 +58,8 @@ Research files are organized by category and purpose:
 
 ### VA DPOR complaint
 
-**Location:** `va_dpor_complaint/`
-**Count:** 20 files
+**Location:** `va_dpor_complaint/`  
+**Count:** 20 files  
 **Purpose:** Complete research package for Virginia DPOR complaint filing
 
 **Key files:**
@@ -70,35 +70,30 @@ Research files are organized by category and purpose:
 
 ### Reports
 
-**Location:** `reports/`
-**Count:** 11 markdown files
+**Location:** `reports/`  
+**Count:** 11 markdown files  
 **Purpose:** Summary reports and findings
 
-**Key reports:**
-- `COMPREHENSIVE_VIOLATIONS_REPORT.md` - All violations found
-- `FINAL_VIOLATION_SUMMARY.md` - Violation summary
-- `ALL_ANOMALIES_SUMMARY.md` - Anomaly findings
-- `NEXUS_ANALYSIS_REPORT.md` - Nexus analysis
+**See [REPORTS.md](REPORTS.md) for consolidated report index.**
 
 ### Connections
 
-**Location:** `connections/`
-**Count:** 1 file
+**Location:** `connections/`  
+**Count:** 1 file  
 **Purpose:** Connection analyses between firms and individuals
 
 **File:** `caitlin_skidmore_connections.json`
 
 ### Analysis
 
-**Location:** `analysis/`
-**Count:** 15 files
+**Location:** `analysis/`  
+**Count:** 15 files  
 **Purpose:** General analysis outputs
 
 **Key files:**
 - `all_evidence_summary.json` - Evidence summary
 - `real_nexus_analysis.json` - Nexus analysis
 - `hyland_upl_investigation.json` - UPL investigation
-- `connection_matrix.json` - Connection matrix
 
 ---
 
@@ -106,44 +101,47 @@ Research files are organized by category and purpose:
 
 ### Data format
 
-All JSON files follow the schema defined in `data/schema.json`:
-
-- **Primary Keys:** Auto-generated unique IDs
-- **Foreign Keys:** References to `firms.firm_license` and `individual_licenses.license_number`
-- **Categories:** connections, violations, anomalies, evidence, verification, timelines, summaries, search_results, analysis, va_dpor_complaint
+All JSON files follow the schema in `data/schema.json`:
+- **Primary Keys (PK)**: Unique identifiers
+- **Foreign Keys (FK)**: Relationships between entities
+- **Metadata**: Creation date, source, lineage
 
 ### File naming conventions
 
-- **License searches:** `{state}_{person_name}_search.json`
-- **Violations:** `{type}_violations.json`
-- **Reports:** `{category}_{summary_type}.md`
-- **Status files:** Historical status updates (can be ignored)
+- `*_results.json` - Search results
+- `*_connections.json` - Connection analyses
+- `*_violations.json` - Violation findings
+- `*_analysis.json` - Analysis outputs
+- `*_summary.json` - Summary reports
 
 ### Status and progress files
 
-Many markdown files with names like `STATUS`, `COMPLETE`, `PROGRESS`, `UPDATE` are historical status updates from during the investigation. These can be ignored for current research. Focus on:
+Many markdown files in this directory are historical status updates from during the investigation. See [STATUS_FILES_ARCHIVE.md](STATUS_FILES_ARCHIVE.md) for details.
 
-- JSON files in subdirectories (actual data)
-- Files in `reports/` directory (summaries)
-- Files in `va_dpor_complaint/` directory (complaint package)
+**Focus on:**
+- JSON files (actual data)
+- Files in `reports/` (summaries)
+- Files in `va_dpor_complaint/` (complaint package)
+- Main guides: `README.md`, `DATA_GUIDE.md`, `REPORTS.md`
 
 ---
 
 ## Key findings
 
-### Violations
+### Violations identified
 
-- 8 regulatory violations across 11 states
-- Principal broker gap: 10.5 years
-- Geographic violation: 1,300 miles
-- 16 unlicensed personnel (7 property managers)
+- **8 regulatory violations** across 11 states
+- **Principal broker gap:** 10.5 years
+- **Geographic violation:** 1,300 miles
+- **16 unlicensed personnel** (7 property managers)
+- **$4.75B property value** under management
 
-### Scope
+### Critical violations
 
-- 38 firms investigated
-- 40+ individual licenses searched
-- 100+ connections mapped
-- $4.75B property value under management
+1. **Edward Hyland** - Unlicensed practice of real estate (Virginia)
+2. **Principal Broker Gap** - Firm licensed 10.5 years before broker
+3. **Geographic Violations** - Operations beyond licensed jurisdiction
+4. **Supervision Impossibility** - Too many properties for one broker
 
 ---
 
@@ -151,49 +149,37 @@ Many markdown files with names like `STATUS`, `COMPLETE`, `PROGRESS`, `UPDATE` a
 
 ### For complaint filing
 
-1. Start with `va_dpor_complaint/EXECUTIVE_SUMMARY.json`
-2. Review `va_dpor_complaint/COMPREHENSIVE_PERSONNEL_VERIFICATION_REPORT.json`
-3. Check `reports/COMPREHENSIVE_VIOLATIONS_REPORT.md`
+1. Start with [VA DPOR Complaint Files](va_dpor_complaint/)
+2. Review [Reports](REPORTS.md) for key findings
+3. Use [Research Index](RESEARCH_INDEX.json) to find specific evidence
 
 ### For data analysis
 
-1. Use `RESEARCH_INDEX.json` to find specific files
-2. Browse `license_searches/` by state
-3. Review `analysis/` for processed data
+1. Check [Data Guide](DATA_GUIDE.md) for data structure
+2. Review [Data Catalog](../data/DATA_CATALOG.md) for asset discovery
+3. Use JSON files in subdirectories for analysis
 
 ### For understanding findings
 
-1. Read `reports/FINAL_VIOLATION_SUMMARY.md`
-2. Check `reports/ALL_ANOMALIES_SUMMARY.md`
-3. Review `reports/NEXUS_ANALYSIS_REPORT.md`
-
----
-
-## Directory structure
-
-```
-research/
-├── connections/          # Connection analyses (1 file)
-├── analysis/            # Analysis outputs (15 files)
-├── license_searches/    # Multi-state searches (285 files)
-│   ├── virginia/       # 19 files
-│   ├── maryland/       # 37 files
-│   ├── connecticut/    # 22 files
-│   └── [12 more states]
-├── va_dpor_complaint/   # Complaint research (20 files)
-├── reports/             # Summary reports (11 files)
-└── [root status files] # Historical status (can ignore)
-```
+1. Read [Reports](REPORTS.md) for summaries
+2. Review violation files in `reports/`
+3. Check connection analyses in `connections/`
 
 ---
 
 ## Related documentation
 
+### Data documentation
+- [Data Catalog](../data/DATA_CATALOG.md) - Data asset catalog
 - [Data Dictionary](../data/DATA_DICTIONARY.md) - Field definitions
-- [Data Schema](../data/schema.json) - Complete schema
-- [Research Index](RESEARCH_INDEX.json) - Master file index
-- [Main README](../README.md) - Project overview
+- [Data Guide](DATA_GUIDE.md) - Complete data guide
+- [Schema](../data/schema.json) - JSON Schema definitions
+
+### System documentation
+- [Documentation Index](../docs/INDEX.md) - Complete documentation index
+- [System Architecture](../docs/SYSTEM_ARCHITECTURE.md) - System architecture
 
 ---
 
-**Status:** 100% Complete - Ready for Complaint Filing
+**Last Updated:** 2025-12-10  
+**Research Status:** 100% Complete

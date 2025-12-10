@@ -53,5 +53,4 @@ Use `bin/` scripts to run analyses:
 ## Related
 
 - [System Architecture](../docs/SYSTEM_ARCHITECTURE.md)
-- [Components](../docs/COMPONENTS.md)
-- [Data Flow](../docs/DATA_FLOW.md)
+- [System Architecture](../docs/SYSTEM_ARCHITECTURE.md) - Complete architecture (includes components and data flow)

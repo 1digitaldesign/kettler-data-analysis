@@ -172,8 +172,7 @@ All research outputs organized by category.
 <summary><b>System Documentation</b></summary>
 
 - `SYSTEM_ARCHITECTURE.md` - Architecture
-- `DATA_FLOW.md` - Data pipeline
-- `COMPONENTS.md` - Component reference
+- `SYSTEM_ARCHITECTURE.md` - Complete architecture (includes data flow and components)
 
 </details>
 
