@@ -248,3 +248,4 @@ outputs/summaries/*.csv
 config/gcp-credentials.json
 config/*.json
 !config/gcp-env-template.txt
+web-nextjs/node_modules/
