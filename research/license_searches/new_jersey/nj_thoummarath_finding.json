@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "New Jersey",
+    "search_url": "https://newjersey.mylicense.com/verification/Search.aspx?facility=N",
+    "employee": "Kristina Thoummarath",
+    "search_method": "All profession, Salesperson license type"
+  },
+  "findings": {
+    "kristina_thoummarath": {
+      "full_name": "Kristina Thoummarath",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in New Jersey for Kristina Thoummarath with Salesperson license type. No real estate license found."
+    }
+  },
+  "conclusion": "Kristina Thoummarath does NOT have a real estate license in New Jersey."
+}

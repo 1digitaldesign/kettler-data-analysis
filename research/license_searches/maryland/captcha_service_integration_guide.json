@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "purpose": "CAPTCHA Solving Service Integration for Maryland DLLR",
+    "total_employees": 12,
+    "estimated_cost": {
+      "twocaptcha": 0.0359,
+      "anticaptcha": 0.012,
+      "capsolver": 0.018
+    }
+  },
+  "services": {
+    "twocaptcha": {
+      "name": "2Captcha",
+      "url": "https://2captcha.com",
+      "api_endpoint": "http://2captcha.com/in.php",
+      "result_endpoint": "http://2captcha.com/res.php",
+      "cost_per_1000": 2.99,
+      "cost_per_search": 0.003
+    },
+    "anticaptcha": {
+      "name": "Anti-Captcha",
+      "url": "https://anti-captcha.com",
+      "api_endpoint": "https://api.anti-captcha.com/createTask",
+      "result_endpoint": "https://api.anti-captcha.com/getTaskResult",
+      "cost_per_1000": 1,
+      "cost_per_search": 0.001
+    },
+    "capsolver": {
+      "name": "CapSolver",
+      "url": "https://capsolver.com",
+      "api_endpoint": "https://api.capsolver.com/createTask",
+      "result_endpoint": "https://api.capsolver.com/getTaskResult",
+      "cost_per_1000": 1.5,
+      "cost_per_search": 0.0015
+    }
+  },
+  "implementation": {
+    "javascript_playwright": {
+      "library": "playwright-recaptcha",
+      "install": "npm install playwright-recaptcha",
+      "example": "const { solveRecaptcha } = require('playwright-recaptcha');\nawait solveRecaptcha(page, {\n  apiKey: 'YOUR_API_KEY',\n  provider: '2captcha' // or 'anticaptcha', 'capsolver'\n});"
+    },
+    "python_playwright": {
+      "library": "playwright-recaptcha",
+      "install": "pip install playwright-recaptcha",
+      "example": "from playwright_recaptcha import solve_recaptcha\nawait solve_recaptcha(page, api_key='YOUR_API_KEY', provider='2captcha')"
+    }
+  },
+  "employees": [
+    {
+      "name": "Cindy Fisher",
+      "last_name": "Fisher",
+      "first_name": "Cindy"
+    },
+    {
+      "name": "Luke Davis",
+      "last_name": "Davis",
+      "first_name": "Luke"
+    },
+    {
+      "name": "Pat Cassada",
+      "last_name": "Cassada",
+      "first_name": "Pat"
+    },
+    {
+      "name": "Sean Curtin",
+      "last_name": "Curtin",
+      "first_name": "Sean"
+    },
+    {
+      "name": "Amy Groff",
+      "last_name": "Groff",
+      "first_name": "Amy"
+    },
+    {
+      "name": "Robert Grealy",
+      "last_name": "Grealy",
+      "first_name": "Robert"
+    },
+    {
+      "name": "Djene Moyer",
+      "last_name": "Moyer",
+      "first_name": "Djene"
+    },
+    {
+      "name": "Henry Ramos",
+      "last_name": "Ramos",
+      "first_name": "Henry"
+    },
+    {
+      "name": "Kristina Thoummarath",
+      "last_name": "Thoummarath",
+      "first_name": "Kristina"
+    },
+    {
+      "name": "Christina Chang",
+      "last_name": "Chang",
+      "first_name": "Christina"
+    },
+    {
+      "name": "Todd Bowen",
+      "last_name": "Bowen",
+      "first_name": "Todd"
+    },
+    {
+      "name": "Jeffrey Williams",
+      "last_name": "Williams",
+      "first_name": "Jeffrey"
+    }
+  ],
+  "site_key": "6LeUU6ApAAAAANxcBOW8c_zqA8mPt2fjzW1KY7aw",
+  "search_url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name"
+}

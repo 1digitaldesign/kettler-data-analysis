@@ -1,0 +1,130 @@
+{
+  "date": "2025-12-08",
+  "findings_file": "research/license_searches/consolidated/all_findings.csv",
+  "total_entries": 252,
+  "errors": [],
+  "warnings": [
+    {
+      "check": "File Count Mismatch",
+      "message": "Expected 252 files, found 249",
+      "difference": -3
+    }
+  ],
+  "info": [
+    [
+      {
+        "total_entries": 252,
+        "unique_employees": 18,
+        "unique_states": 14,
+        "licensed_count": 3,
+        "unlicensed_count": 249,
+        "licensed_percentage": 1.19
+      }
+    ],
+    {
+      "type": "Violations",
+      "violation_states": ["Arizona", "Florida", "Georgia", "New Mexico", "North Carolina", "Pennsylvania", "South Carolina", "Utah", "Virginia"],
+      "count": 9
+    }
+  ],
+  "summary_stats": [
+    {
+      "total_entries": 252,
+      "unique_employees": 18,
+      "unique_states": 14,
+      "licensed_count": 3,
+      "unlicensed_count": 249,
+      "licensed_percentage": 1.19
+    }
+  ],
+  "violations": [
+    {
+      "state": "Arizona",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    },
+    {
+      "state": "DC",
+      "total": 15,
+      "licensed": 1,
+      "unlicensed": 0,
+      "coverage_rate": 6.7,
+      "has_violation": false
+    },
+    {
+      "state": "Florida",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    },
+    {
+      "state": "Georgia",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    },
+    {
+      "state": "Maryland",
+      "total": 15,
+      "licensed": 2,
+      "unlicensed": 0,
+      "coverage_rate": 0,
+      "has_violation": false
+    },
+    {
+      "state": "New Mexico",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    },
+    {
+      "state": "North Carolina",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    },
+    {
+      "state": "Pennsylvania",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    },
+    {
+      "state": "South Carolina",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    },
+    {
+      "state": "Utah",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    },
+    {
+      "state": "Virginia",
+      "total": 15,
+      "licensed": 0,
+      "unlicensed": 1,
+      "coverage_rate": 0,
+      "has_violation": true
+    }
+  ]
+}

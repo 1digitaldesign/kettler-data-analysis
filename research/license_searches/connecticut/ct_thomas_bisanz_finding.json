@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Connecticut",
+    "search_url": "https://www.ct.gov/dcp/",
+    "employee": "Thomas Bisanz",
+    "search_method": "Browser automation framework (same as core employees)",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "note": "Related to Liddy Bisanz - potential family connection at Lariat Realty Advisors"
+  },
+  "findings": {
+    "thomas_bisanz": {
+      "full_name": "Thomas Bisanz",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in Connecticut for Thomas Bisanz. Potential connection to Liddy Bisanz at Lariat Realty Advisors. Consistent with unlicensed pattern observed for other Lariat brokers."
+    }
+  },
+  "conclusion": "Thomas Bisanz does NOT have a real estate license in Connecticut."
+}

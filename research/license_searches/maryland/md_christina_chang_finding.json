@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Maryland",
+    "search_url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
+    "employee": "Christina Chang",
+    "search_method": "Manual search",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ]
+  },
+  "findings": {
+    "christina_chang": {
+      "full_name": "CHRISTINA CHANG",
+      "search_executed": true,
+      "results_found": 1,
+      "real_estate_license": true,
+      "license_number": "5011394",
+      "license_type": "SALESPERSON",
+      "board_commission": "REAL ESTATE COMMISSION",
+      "expiration_date": "2027-04-23",
+      "status": "Active",
+      "note": "CONFIRMED LICENSED in Maryland - Real Estate Salesperson license #5011394, expires 2027-04-23. This contradicts the previous unlicensed pattern observed in other states."
+    }
+  },
+  "conclusion": "Christina Chang DOES have a real estate license in Maryland: Salesperson #5011394, expires 2027-04-23."
+}

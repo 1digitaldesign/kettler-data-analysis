@@ -1,0 +1,69 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scheduler-service
+  namespace: kettler-search
+  labels:
+    app: scheduler-service
+    component: microservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: scheduler-service
+  template:
+    metadata:
+      labels:
+        app: scheduler-service
+    spec:
+      containers:
+      - name: scheduler-service
+        image: kettler-search/scheduler-service:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3004
+          name: http
+        env:
+        - name: PORT
+          value: "3004"
+        - name: REDIS_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: redis_host
+        - name: SCRAPER_SERVICE_URL
+          value: "http://scraper-service:3001"
+        - name: PROCESSOR_SERVICE_URL
+          value: "http://data-processing-service:3002"
+        - name: TZ
+          value: "America/New_York"
+        - name: DAILY_SEARCH_ENABLED
+          value: "true"
+        - name: WEEKLY_CONSOLIDATION_ENABLED
+          value: "true"
+        - name: MONTHLY_REPORTS_ENABLED
+          value: "true"
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "100m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 3004
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 3004
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+      restartPolicy: Always

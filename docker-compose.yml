@@ -1,0 +1,201 @@
+version: '3.8'
+
+services:
+  # Redis - Message Queue
+  redis:
+    image: redis:7-alpine
+    container_name: kettler-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - kettler-network
+
+  # PostgreSQL - Structured Data Storage
+  postgres:
+    image: postgres:15-alpine
+    container_name: kettler-postgres
+    environment:
+      POSTGRES_DB: kettler_search
+      POSTGRES_USER: kettler
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-kettler_dev_password}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kettler"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - kettler-network
+
+  # Qdrant - Vector Database (Embedded Mode for Development)
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: kettler-qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant-data:/qdrant/storage
+    environment:
+      QDRANT__SERVICE__GRPC_PORT: 6334
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:6333/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - kettler-network
+
+  # Scraper Service
+  scraper-service:
+    build:
+      context: ./services/scraper-service
+      dockerfile: Dockerfile
+    container_name: kettler-scraper
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: 3001
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      LOG_LEVEL: info
+    depends_on:
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./services/scraper-service/src:/app/src
+      - ./scripts/automation:/app/src/lib
+    networks:
+      - kettler-network
+    restart: unless-stopped
+
+  # Data Processing Service
+  data-processing-service:
+    build:
+      context: ./services/data-processing-service
+      dockerfile: Dockerfile
+    container_name: kettler-processor
+    ports:
+      - "3002:3002"
+    environment:
+      PORT: 3002
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: kettler_search
+      POSTGRES_USER: kettler
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-kettler_dev_password}
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./services/data-processing-service/src:/app/src
+      - ./scripts/reporting:/app/scripts/reporting
+      - ./research:/app/research
+    networks:
+      - kettler-network
+    restart: unless-stopped
+
+  # Vector Service
+  vector-service:
+    build:
+      context: ./services/vector-service
+      dockerfile: Dockerfile
+    container_name: kettler-vector
+    ports:
+      - "3003:3003"
+    environment:
+      PORT: 3003
+      QDRANT_HOST: qdrant
+      QDRANT_PORT: 6333
+      QDRANT_API_KEY: ""
+    depends_on:
+      qdrant:
+        condition: service_healthy
+    volumes:
+      - ./services/vector-service/src:/app/src
+    networks:
+      - kettler-network
+    restart: unless-stopped
+
+  # API Gateway
+  api-gateway:
+    build:
+      context: ./services/api-gateway
+      dockerfile: Dockerfile
+    container_name: kettler-gateway
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      SCRAPER_SERVICE_URL: http://scraper-service:3001
+      PROCESSOR_SERVICE_URL: http://data-processing-service:3002
+      VECTOR_SERVICE_URL: http://vector-service:3003
+      SCHEDULER_SERVICE_URL: http://scheduler-service:3004
+    depends_on:
+      - scraper-service
+      - data-processing-service
+      - vector-service
+      - scheduler-service
+    volumes:
+      - ./services/api-gateway/src:/app/src
+    networks:
+      - kettler-network
+    restart: unless-stopped
+
+  # Scheduler Service
+  scheduler-service:
+    build:
+      context: ./services/scheduler-service
+      dockerfile: Dockerfile
+    container_name: kettler-scheduler
+    ports:
+      - "3004:3004"
+    environment:
+      PORT: 3004
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      SCRAPER_SERVICE_URL: http://scraper-service:3001
+      PROCESSOR_SERVICE_URL: http://data-processing-service:3002
+      TZ: America/New_York
+      DAILY_SEARCH_ENABLED: "true"
+      WEEKLY_CONSOLIDATION_ENABLED: "true"
+      MONTHLY_REPORTS_ENABLED: "true"
+    depends_on:
+      redis:
+        condition: service_healthy
+      scraper-service:
+        condition: service_started
+      data-processing-service:
+        condition: service_started
+    volumes:
+      - ./services/scheduler-service/src:/app/src
+    networks:
+      - kettler-network
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+    driver: local
+  postgres-data:
+    driver: local
+  qdrant-data:
+    driver: local
+
+networks:
+  kettler-network:
+    driver: bridge

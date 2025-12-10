@@ -1,0 +1,222 @@
+# Cursor Rules for Kettler Data Analysis Project
+
+## Tool Usage Efficiency Guidelines
+
+### Browser Automation
+- **Priority Order**:
+  1. Use `@Browser` cursor-browser-extension tools first (most reliable)
+  2. Fallback to Playwright MCP if browser extension unavailable
+  3. Use Chrome DevTools MCP for advanced debugging
+- **Best Practices**:
+  - Always check browser availability before automation
+  - Use `browser_snapshot` before interactions to verify page state
+  - Wait for elements with `browser_wait_for` before clicking/typing
+  - Handle CAPTCHA explicitly - document manual steps or use services
+  - Close browser sessions properly to avoid "browser locked" errors
+  - Use improved scripts (`*_improved.js`) for blank page handling
+
+### R Scripts
+- **Data Safety**:
+  - Always check for NULL/empty dataframes before operations: `if (is.null(df) || nrow(df) == 0)`
+  - Use `na.rm = TRUE` in aggregation functions (mean, sum, etc.)
+  - Check column existence before access: `if ("ColumnName" %in% names(df))`
+  - Initialize variables before conditional blocks
+  - Use `suppressWarnings()` for expected warnings (e.g., type conversions)
+- **Error Handling**:
+  - Wrap risky operations in `tryCatch()`
+  - Return early with empty results if data is missing
+  - Provide meaningful error messages
+- **Performance**:
+  - Use `dplyr` for data manipulation (faster than base R)
+  - Avoid loops - use vectorized operations
+  - Use `data.table` for large datasets if needed
+
+### File Operations
+- **Path Handling**:
+  - Use absolute paths in worktree context: `/Users/machine/.cursor/worktrees/kettler-data-analysis/nzg/`
+  - Check for `research/` directory to find repo root
+  - Use `file.path()` for cross-platform compatibility
+  - Verify file existence before reading: `if (file.exists(path))`
+- **File Safety**:
+  - Create directories before writing: `dir.create(path, recursive = TRUE, showWarnings = FALSE)`
+  - Use `write_json()` with `auto_unbox = TRUE` for clean JSON
+  - Clean up temporary files after use
+
+### Error Handling
+- **Always Include**:
+  - Try-catch blocks for external operations (API calls, file I/O)
+  - Null checks before accessing object properties
+  - Empty collection checks before iteration
+  - Type validation before operations
+- **Diagnostics**:
+  - Log errors with context (function name, input values)
+  - Return structured error objects with diagnostics
+  - Include stack traces in development, sanitize in production
+
+### Code Changes
+- **Conservative Approach**:
+  - Validate changes work before committing
+  - Test scripts in isolation before integration
+  - Preserve existing functionality when refactoring
+  - Follow existing code patterns and style
+- **Documentation**:
+  - Update README files when adding features
+  - Document function parameters and return values
+  - Add comments for complex logic
+  - Update status files when completing tasks
+
+### Performance Optimization
+- **Batch Operations**:
+  - Process multiple items in batches, not loops
+  - Use vectorized operations in R/Python
+  - Minimize database/API calls with batching
+- **Memory Management**:
+  - Clean up large objects: `rm(large_object); gc()`
+  - Use streaming for large files
+  - Limit result sets with pagination
+- **Concurrency**:
+  - Use async/await properly in Node.js
+  - Avoid blocking operations in event loops
+  - Use worker processes for CPU-intensive tasks
+
+### Microservices Architecture
+- **Service Communication**:
+  - Use HTTP/REST for inter-service communication
+  - Implement proper error handling and retries
+  - Use Redis queues for async job processing
+  - Store results in PostgreSQL (structured) and Qdrant (vectors)
+- **Development**:
+  - Use Docker Compose for local development
+  - Test services individually before integration
+  - Use health check endpoints for monitoring
+- **Production**:
+  - Use Kubernetes for orchestration
+  - Implement proper resource limits
+  - Use ConfigMaps for configuration
+  - Store secrets in Kubernetes Secrets (never commit)
+
+### Vector Database (Qdrant)
+- **Embeddings**:
+  - Use `sentence-transformers/all-MiniLM-L6-v2` for text embeddings
+  - Normalize embeddings: `normalize_embeddings=True`
+  - Batch process embeddings for efficiency
+- **Storage**:
+  - Store metadata alongside vectors for filtering
+  - Use appropriate collection names (license_findings, employees, violations)
+  - Implement proper error handling for Qdrant operations
+
+### Testing
+- **Before Integration**:
+  - Test scripts individually
+  - Verify data formats match expectations
+  - Check error handling paths
+  - Validate output structure
+- **After Changes**:
+  - Run affected scripts to verify
+  - Check for linter errors
+  - Verify no regressions
+
+### Git Operations
+- **Worktree Context**:
+  - Always work within the worktree: `/Users/machine/.cursor/worktrees/kettler-data-analysis/nzg/`
+  - Do not edit files outside worktree unless explicitly requested
+  - Commit changes to appropriate branch
+- **File Management**:
+  - Clean up temporary scripts after use
+  - Remove unnecessary markdown files (unless documentation)
+  - Keep .gitignore updated
+
+### Docker/Kubernetes
+- **Development**:
+  - Use docker-compose.yml for local development
+  - Mount volumes for hot reload during development
+  - Use .env.example as template for environment variables
+- **Production**:
+  - Use Kubernetes manifests for deployment
+  - Never commit actual secrets (use secrets.example.yaml)
+  - Use ConfigMaps for non-sensitive configuration
+  - Implement proper health checks and resource limits
+
+### Documentation
+- **When to Document**:
+  - New features or services
+  - Complex logic or algorithms
+  - API endpoints and usage
+  - Architecture decisions
+- **Documentation Format**:
+  - Use Markdown for documentation
+  - Include code examples
+  - Provide usage instructions
+  - Update existing docs when changing features
+
+## Tool Selection Guide
+
+### For Web Scraping
+1. **Browser Extension** (`@Browser`) - Primary choice, most reliable
+2. **Playwright MCP** - Fallback if browser extension unavailable
+3. **Chrome DevTools MCP** - Advanced debugging and inspection
+
+### For Data Processing
+1. **R Scripts** - For statistical analysis and data manipulation
+2. **Python Scripts** - For API integration and complex processing
+3. **Shell Commands** - For file operations and system tasks
+
+### For Code Analysis
+1. **codebase_search** - Semantic search for understanding code
+2. **grep** - Exact string/pattern matching
+3. **read_file** - Reading specific files
+
+## Common Patterns
+
+### Safe Data Access Pattern
+```r
+if (!is.null(data) && is.data.frame(data) && nrow(data) > 0) {
+  # Safe to access data
+  result <- data$column
+} else {
+  # Handle empty case
+  result <- NULL
+}
+```
+
+### Safe File Operation Pattern
+```r
+if (file.exists(file_path)) {
+  data <- read_file(file_path)
+} else {
+  # Handle missing file
+  data <- NULL
+}
+```
+
+### Error Handling Pattern
+```javascript
+try {
+  const result = await riskyOperation();
+  return { success: true, data: result };
+} catch (error) {
+  logger.error('Operation failed:', error);
+  return { success: false, error: error.message, diagnostics: {...} };
+}
+```
+
+## Performance Checklist
+
+- [ ] Use batch operations instead of loops
+- [ ] Check for NULL/empty before processing
+- [ ] Use vectorized operations
+- [ ] Clean up large objects
+- [ ] Use async/await properly
+- [ ] Implement proper error handling
+- [ ] Add health checks for services
+- [ ] Use appropriate resource limits
+
+## Security Checklist
+
+- [ ] Never commit secrets
+- [ ] Use environment variables for sensitive data
+- [ ] Validate input data
+- [ ] Use parameterized queries (if using SQL)
+- [ ] Implement rate limiting
+- [ ] Use HTTPS in production
+- [ ] Keep dependencies updated

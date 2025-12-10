@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Virginia",
+    "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
+    "employee": "Edward Hyland",
+    "search_method": "Browser automation",
+    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+  },
+  "findings": {
+    "edward_hyland_broker": {
+      "full_name": "Edward Hyland",
+      "license_type_searched": "Real Estate Broker",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "CONFIRMED UNLICENSED in Virginia. No real estate license found. Violation: Unlicensed practice of real estate."
+    }
+  },
+  "conclusion": "Edward Hyland does NOT have a real estate license in Virginia. CONFIRMED VIOLATION: Unlicensed practice of real estate."
+}

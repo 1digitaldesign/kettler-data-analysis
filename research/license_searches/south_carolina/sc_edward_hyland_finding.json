@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "South Carolina",
+    "search_url": "https://llr.sc.gov/re/",
+    "employee": "Edward Hyland",
+    "search_method": "Framework - South Carolina LLR Licensee Lookup",
+    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+  },
+  "findings": {
+    "edward_hyland": {
+      "full_name": "Edward Hyland",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in South Carolina for Edward Hyland - consistent with unlicensed pattern across VA, DC, NJ, NY, MD, CT."
+    }
+  },
+  "conclusion": "Edward Hyland does NOT have a real estate license in South Carolina ."
+}

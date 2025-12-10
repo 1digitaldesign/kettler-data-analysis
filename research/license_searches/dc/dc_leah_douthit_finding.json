@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "District of Columbia",
+    "search_url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "employee": "Leah Douthit",
+    "search_method": "Browser automation framework (same as core employees)",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson",
+      "Independent Broker"
+    ]
+  },
+  "findings": {
+    "leah_douthit": {
+      "full_name": "Leah Douthit",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No licenses found in DC Real Estate Commission for Leah Douthit. Co-broker with Caitlin Skidmore at Lariat Realty Advisors. Consistent with unlicensed pattern observed in Maryland."
+    }
+  },
+  "conclusion": "Leah Douthit does NOT have a real estate license in District of Columbia."
+}

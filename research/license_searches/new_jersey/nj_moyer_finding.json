@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "New Jersey",
+    "search_url": "https://newjersey.mylicense.com/verification/Search.aspx?facility=N",
+    "employee": "Djene Moyer",
+    "search_method": "All profession, Salesperson license type"
+  },
+  "findings": {
+    "djene_moyer": {
+      "full_name": "Djene Moyer",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in New Jersey for Djene Moyer with Salesperson license type. No real estate license found."
+    }
+  },
+  "conclusion": "Djene Moyer does NOT have a real estate license in New Jersey."
+}

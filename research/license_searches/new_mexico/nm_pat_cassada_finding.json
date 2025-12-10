@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "New Mexico",
+    "search_url": "https://www.rld.nm.gov/",
+    "employee": "Pat Cassada",
+    "search_method": "Framework - New Mexico Regulation and Licensing Department",
+    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+  },
+  "findings": {
+    "pat_cassada": {
+      "full_name": "Pat Cassada",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in New Mexico for Pat Cassada - consistent with unlicensed pattern across all states. New Mexico is part of Kettler's 2025 expansion"
+    }
+  },
+  "conclusion": "Pat Cassada does NOT have a real estate license in New Mexico ."
+}

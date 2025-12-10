@@ -1,0 +1,19 @@
+[
+  {"name": "Robert Kettler", "lastName": "Kettler", "firstName": "Robert", "title": "CEO", "priority": "HIGH"},
+  {"name": "Caitlin Skidmore", "lastName": "Skidmore", "firstName": "Caitlin", "title": "Principal Broker", "priority": "HIGH"},
+  {"name": "Edward Hyland", "lastName": "Hyland", "firstName": "Edward", "title": "Senior Regional Manager", "priority": "HIGH"},
+  {"name": "Cindy Fisher", "lastName": "Fisher", "firstName": "Cindy", "title": "President", "priority": "MEDIUM"},
+  {"name": "Pat Cassada", "lastName": "Cassada", "firstName": "Pat", "title": "CFO", "priority": "MEDIUM"},
+  {"name": "Luke Davis", "lastName": "Davis", "firstName": "Luke", "title": "CIO", "priority": "MEDIUM"},
+  {"name": "Sean Curtin", "lastName": "Curtin", "firstName": "Sean", "title": "General Counsel", "priority": "MEDIUM"},
+  {"name": "Robert Grealy", "lastName": "Grealy", "firstName": "Robert", "title": "SVP Operations", "priority": "MEDIUM"},
+  {"name": "Todd Bowen", "lastName": "Bowen", "firstName": "Todd", "title": "SVP Strategic Services", "priority": "MEDIUM"},
+  {"name": "Amy Groff", "lastName": "Groff", "firstName": "Amy", "title": "VP Operations", "priority": "MEDIUM"},
+  {"name": "Kristina Thoummarath", "lastName": "Thoummarath", "firstName": "Kristina", "title": "Chief of Staff", "priority": "MEDIUM"},
+  {"name": "Christina Chang", "lastName": "Chang", "firstName": "Christina", "title": "Head of Asset Management", "priority": "MEDIUM"},
+  {"name": "Jeffrey Williams", "lastName": "Williams", "firstName": "Jeffrey", "title": "VP Human Resources", "priority": "MEDIUM"},
+  {"name": "Djene Moyer", "lastName": "Moyer", "firstName": "Djene", "title": "Community Manager", "priority": "MEDIUM"},
+  {"name": "Henry Ramos", "lastName": "Ramos", "firstName": "Henry", "title": "Property Manager", "priority": "MEDIUM"},
+  {"name": "Liddy Bisanz", "lastName": "Bisanz", "firstName": "Liddy", "title": "Unknown", "priority": "MEDIUM"},
+  {"name": "Leah Douthit", "lastName": "Douthit", "firstName": "Leah", "title": "Unknown", "priority": "MEDIUM"}
+]

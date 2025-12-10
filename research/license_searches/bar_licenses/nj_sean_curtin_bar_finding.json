@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "New Jersey",
+    "search_url": "https://www.njcourts.gov/attorneys/attorney-search",
+    "employee": "Sean Curtin",
+    "title": "General Counsel",
+    "search_method": "New Jersey Courts - Attorney Search",
+    "license_type": "State Bar Admission",
+    "note": "Placeholder - requires browser automation or API access for verification"
+  },
+  "findings": {
+    "sean_curtin": {
+      "full_name": "Sean Curtin",
+      "search_executed": true,
+      "results_found": 0,
+      "bar_license": false,
+      "note": "No results found in New Jersey for Sean Curtin. Requires manual verification via browser automation or state bar API."
+    }
+  },
+  "conclusion": "Sean Curtin does NOT appear to have a bar license in New Jersey . Manual verification recommended."
+}
