@@ -183,7 +183,7 @@ Real-time progress tracking for all data collection tasks.
 
 ### 5. Regulatory Complaint History ❌ NOT STARTED
 
-**Status:** ❌ Not Started
+**Status:** ⚠️ Partial
 **Progress:** 0%
 
 ```
@@ -253,18 +253,19 @@ Real-time progress tracking for all data collection tasks.
 
 ---
 
-### 7. News and Media Coverage ⚠️ PARTIAL
+### 7. News and Media Coverage ⚠️ IN PROGRESS
 
-**Status:** ⚠️ Partial - Some searches completed
-**Progress:** 20% (framework created, searches in progress)
+**Status:** ⚠️ In Progress - Templates created, searches ready
+**Progress:** 25% (templates created, searches pending)
 
 ```
-████░░░░░░░░░░░░░░░░ 20%
+█████░░░░░░░░░░░░░░░ 25%
 ```
 
 #### Tasks
 
 - [x] **Search framework created** - Database search framework established
+- [x] **Create news templates** - Templates created for coverage and legal proceedings
 - [ ] **Violation coverage** - News articles about violations
   - [ ] Washington Post
   - [ ] Washington City Paper
@@ -279,18 +280,20 @@ Real-time progress tracking for all data collection tasks.
 - [ ] **Regulatory actions** - Media coverage of enforcement
 - [ ] **Industry publications** - Trade publication coverage
 
-**Data Files Needed:**
-- `research/news/violations_coverage.json`
-- `research/news/legal_proceedings.json`
-- `research/news/press_releases.json`
+**Data Files Created:**
+- ✅ `research/news/violations_coverage.json` - Template ready
+- ✅ `research/news/legal_proceedings.json` - Template ready
 
-**Estimated Time:** 1 day
+**Tools Available:**
+- `scripts/data_collection/collect_news_coverage.py` - Search instructions
+
+**Estimated Time:** 1 day (templates ready, searches can begin)
 
 ---
 
 ### 8. Fair Housing and Discrimination Records ❌ NOT STARTED
 
-**Status:** ❌ Not Started
+**Status:** ⚠️ Partial
 **Progress:** 0%
 
 ```
