@@ -234,8 +234,13 @@ graph TB
     STATUS_md --> research_README_md
     STATUS_md --> data_README_md
     STATUS_md --> docs_INDEX_md
+    data_ANCESTRY_md --> data_DATA_CATALOG_md
+    data_ANCESTRY_md --> data_GOVERNANCE_md
     data_ANCESTRY_md --> data_DATA_DICTIONARY_md
     data_ANCESTRY_md --> data_ONTOLOGY_md
+    data_ANCESTRY_md --> data_README_md
+    data_ANCESTRY_md --> docs_INDEX_md
+    data_ANCESTRY_md --> docs_SYSTEM_ARCHITECTURE_md
     data_ANCESTRY_md --> docs_REPOSITORY_STRUCTURE_md
     data_DATA_CATALOG_md --> data_DATA_DICTIONARY_md
     data_DATA_CATALOG_md --> data_ONTOLOGY_md

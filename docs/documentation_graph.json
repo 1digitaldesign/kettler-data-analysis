@@ -1273,6 +1273,16 @@
     },
     {
       "source": "data/ANCESTRY.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "data/ANCESTRY.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "Data Governance"
+    },
+    {
+      "source": "data/ANCESTRY.md",
       "target": "data/DATA_DICTIONARY.md",
       "label": "Data Dictionary"
     },
@@ -1280,6 +1290,21 @@
       "source": "data/ANCESTRY.md",
       "target": "data/ONTOLOGY.md",
       "label": "Data Ontology"
+    },
+    {
+      "source": "data/ANCESTRY.md",
+      "target": "data/README.md",
+      "label": "Data README"
+    },
+    {
+      "source": "data/ANCESTRY.md",
+      "target": "docs/INDEX.md",
+      "label": "Documentation Index"
+    },
+    {
+      "source": "data/ANCESTRY.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
     },
     {
       "source": "data/ANCESTRY.md",
