@@ -60,30 +60,16 @@ graph TB
         docs_SYSTEM_ANALYST_GUIDE_md["SYSTEM_ANALYST_GUIDE"]
     end
     subgraph "RESEARCH"
-        research_ALL_STATES_LARIAT_COMPANIES_SEARCH_md["ALL_STATES_LARIAT_COMPANIES_SEARCH"]
         research_ARCHIVE_md["ARCHIVE"]
         research_COMPLAINT_AMENDMENT_GUIDE_md["COMPLAINT_AMENDMENT_GUIDE"]
         research_DATA_GUIDE_md["DATA_GUIDE"]
         research_EVIDENCE_INDEX_md["EVIDENCE_INDEX"]
         research_EXECUTIVE_SUMMARY_md["EXECUTIVE_SUMMARY"]
         research_HANDOFF_DOCUMENT_md["HANDOFF_DOCUMENT"]
-        research_HYLAND_UPL_EVIDENCE_md["HYLAND_UPL_EVIDENCE"]
-        research_KETTLER_OPERATIONAL_LOCATIONS_md["KETTLER_OPERATIONAL_LOCATIONS"]
-        research_LARIAT_AFFILIATED_COMPANIES_INVESTIGATION_md["LARIAT_AFFILIATED_COMPANIES_INVESTIGATION"]
-        research_LARIAT_AFFILIATED_COMPANIES_SUMMARY_md["LARIAT_AFFILIATED_COMPANIES_SUMMARY"]
-        research_LARIAT_COMPANIES_FINDINGS_md["LARIAT_COMPANIES_FINDINGS"]
-        research_LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS_md["LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS"]
-        research_LARIAT_VS_KETTLER_LICENSING_STRATEGY_md["LARIAT_VS_KETTLER_LICENSING_STRATEGY"]
         research_MASTER_INDEX_md["MASTER_INDEX"]
-        research_METHOD_COMPARISON_md["METHOD_COMPARISON"]
-        research_MOORE_KRISTEN_JONES_INVESTIGATION_md["MOORE_KRISTEN_JONES_INVESTIGATION"]
         research_QUICK_START_md["QUICK_START"]
         research_README_md["README"]
-        research_REMAINING_LEGAL_VIOLATIONS_md["REMAINING_LEGAL_VIOLATIONS"]
         research_REPORTS_md["REPORTS"]
-        research_STATUS_FILES_ARCHIVE_md["STATUS_FILES_ARCHIVE"]
-        research_VIRGINIA_40_LICENSES_CRITICAL_FINDING_md["VIRGINIA_40_LICENSES_CRITICAL_FINDING"]
-        research_VIRGINIA_COMPANIES_FOUND_md["VIRGINIA_COMPANIES_FOUND"]
         research_archive_COMPLETE_INVESTIGATION_SUMMARY_md["COMPLETE_INVESTIGATION_SUMMARY"]
         research_archive_COMPLETE_PACKAGE_SUMMARY_md["COMPLETE_PACKAGE_SUMMARY"]
         research_archive_EXECUTION_SUMMARY_md["EXECUTION_SUMMARY"]
@@ -97,6 +83,7 @@ graph TB
         research_archive_MASTER_INVESTIGATION_STATUS_md["MASTER_INVESTIGATION_STATUS"]
         research_archive_MASTER_RESEARCH_COMPLETION_REPORT_md["MASTER_RESEARCH_COMPLETION_REPORT"]
         research_archive_PROJECT_COMPLETE_md["PROJECT_COMPLETE"]
+        research_archive_STATUS_FILES_ARCHIVE_md["STATUS_FILES_ARCHIVE"]
         research_archive_VALIDATION_REPORT_md["VALIDATION_REPORT"]
         research_archive_VIRGINIA_EXTRACTION_COMPLETE_SUMMARY_md["VIRGINIA_EXTRACTION_COMPLETE_SUMMARY"]
         research_archive_VIRGINIA_EXTRACTION_FINAL_STATUS_md["VIRGINIA_EXTRACTION_FINAL_STATUS"]
@@ -104,6 +91,19 @@ graph TB
         research_archive_VIRGINIA_EXTRACTION_SUMMARY_md["VIRGINIA_EXTRACTION_SUMMARY"]
         research_browser_automation_DATABASE_SEARCH_FRAMEWORK_md["DATABASE_SEARCH_FRAMEWORK"]
         research_browser_automation_README_md["README"]
+        research_investigations_ALL_STATES_LARIAT_COMPANIES_SEARCH_md["ALL_STATES_LARIAT_COMPANIES_SEARCH"]
+        research_investigations_HYLAND_UPL_EVIDENCE_md["HYLAND_UPL_EVIDENCE"]
+        research_investigations_KETTLER_OPERATIONAL_LOCATIONS_md["KETTLER_OPERATIONAL_LOCATIONS"]
+        research_investigations_LARIAT_AFFILIATED_COMPANIES_INVESTIGATION_md["LARIAT_AFFILIATED_COMPANIES_INVESTIGATION"]
+        research_investigations_LARIAT_AFFILIATED_COMPANIES_SUMMARY_md["LARIAT_AFFILIATED_COMPANIES_SUMMARY"]
+        research_investigations_LARIAT_COMPANIES_FINDINGS_md["LARIAT_COMPANIES_FINDINGS"]
+        research_investigations_LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS_md["LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS"]
+        research_investigations_LARIAT_VS_KETTLER_LICENSING_STRATEGY_md["LARIAT_VS_KETTLER_LICENSING_STRATEGY"]
+        research_investigations_METHOD_COMPARISON_md["METHOD_COMPARISON"]
+        research_investigations_MOORE_KRISTEN_JONES_INVESTIGATION_md["MOORE_KRISTEN_JONES_INVESTIGATION"]
+        research_investigations_REMAINING_LEGAL_VIOLATIONS_md["REMAINING_LEGAL_VIOLATIONS"]
+        research_investigations_VIRGINIA_40_LICENSES_CRITICAL_FINDING_md["VIRGINIA_40_LICENSES_CRITICAL_FINDING"]
+        research_investigations_VIRGINIA_COMPANIES_FOUND_md["VIRGINIA_COMPANIES_FOUND"]
         research_license_searches_100_PERCENT_COVERAGE_CONFIRMED_md["100_PERCENT_COVERAGE_CONFIRMED"]
         research_license_searches_ACTION_PLAN_md["ACTION_PLAN"]
         research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md["ADMINISTRATIVE_FILING_CHECKLIST"]
@@ -352,7 +352,6 @@ graph TB
     research_ARCHIVE_md --> research_README_md
     research_ARCHIVE_md --> research_DATA_GUIDE_md
     research_ARCHIVE_md --> research_REPORTS_md
-    research_ARCHIVE_md --> research_STATUS_FILES_ARCHIVE_md
     research_DATA_GUIDE_md --> data_DATA_DICTIONARY_md
     research_DATA_GUIDE_md --> research_README_md
     research_DATA_GUIDE_md --> data_DATA_DICTIONARY_md
@@ -362,6 +361,7 @@ graph TB
     research_MASTER_INDEX_md --> research_EVIDENCE_INDEX_md
     research_MASTER_INDEX_md --> research_REPORTS_md
     research_MASTER_INDEX_md --> research_DATA_GUIDE_md
+    research_MASTER_INDEX_md --> research_ARCHIVE_md
     research_MASTER_INDEX_md --> research_ARCHIVE_md
     research_QUICK_START_md --> research_README_md
     research_QUICK_START_md --> research_COMPLAINT_AMENDMENT_GUIDE_md
@@ -435,30 +435,16 @@ graph TB
     style data_GOVERNANCE_md fill:#FFF9C4
     style data_ONTOLOGY_md fill:#FFF9C4
     style data_README_md fill:#FFF9C4
-    style research_ALL_STATES_LARIAT_COMPANIES_SEARCH_md fill:#E1BEE7
     style research_ARCHIVE_md fill:#E1BEE7
     style research_COMPLAINT_AMENDMENT_GUIDE_md fill:#E1BEE7
     style research_DATA_GUIDE_md fill:#E1BEE7
     style research_EVIDENCE_INDEX_md fill:#E1BEE7
     style research_EXECUTIVE_SUMMARY_md fill:#E1BEE7
     style research_HANDOFF_DOCUMENT_md fill:#E1BEE7
-    style research_HYLAND_UPL_EVIDENCE_md fill:#E1BEE7
-    style research_KETTLER_OPERATIONAL_LOCATIONS_md fill:#E1BEE7
-    style research_LARIAT_AFFILIATED_COMPANIES_INVESTIGATION_md fill:#E1BEE7
-    style research_LARIAT_AFFILIATED_COMPANIES_SUMMARY_md fill:#E1BEE7
-    style research_LARIAT_COMPANIES_FINDINGS_md fill:#E1BEE7
-    style research_LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS_md fill:#E1BEE7
-    style research_LARIAT_VS_KETTLER_LICENSING_STRATEGY_md fill:#E1BEE7
     style research_MASTER_INDEX_md fill:#E1BEE7
-    style research_METHOD_COMPARISON_md fill:#E1BEE7
-    style research_MOORE_KRISTEN_JONES_INVESTIGATION_md fill:#E1BEE7
     style research_QUICK_START_md fill:#E1BEE7
     style research_README_md fill:#E1BEE7
-    style research_REMAINING_LEGAL_VIOLATIONS_md fill:#E1BEE7
     style research_REPORTS_md fill:#E1BEE7
-    style research_STATUS_FILES_ARCHIVE_md fill:#E1BEE7
-    style research_VIRGINIA_40_LICENSES_CRITICAL_FINDING_md fill:#E1BEE7
-    style research_VIRGINIA_COMPANIES_FOUND_md fill:#E1BEE7
     style research_archive_COMPLETE_INVESTIGATION_SUMMARY_md fill:#E1BEE7
     style research_archive_COMPLETE_PACKAGE_SUMMARY_md fill:#E1BEE7
     style research_archive_EXECUTION_SUMMARY_md fill:#E1BEE7
@@ -472,6 +458,7 @@ graph TB
     style research_archive_MASTER_INVESTIGATION_STATUS_md fill:#E1BEE7
     style research_archive_MASTER_RESEARCH_COMPLETION_REPORT_md fill:#E1BEE7
     style research_archive_PROJECT_COMPLETE_md fill:#E1BEE7
+    style research_archive_STATUS_FILES_ARCHIVE_md fill:#E1BEE7
     style research_archive_VALIDATION_REPORT_md fill:#E1BEE7
     style research_archive_VIRGINIA_EXTRACTION_COMPLETE_SUMMARY_md fill:#E1BEE7
     style research_archive_VIRGINIA_EXTRACTION_FINAL_STATUS_md fill:#E1BEE7
@@ -479,6 +466,19 @@ graph TB
     style research_archive_VIRGINIA_EXTRACTION_SUMMARY_md fill:#E1BEE7
     style research_browser_automation_DATABASE_SEARCH_FRAMEWORK_md fill:#E1BEE7
     style research_browser_automation_README_md fill:#E1BEE7
+    style research_investigations_ALL_STATES_LARIAT_COMPANIES_SEARCH_md fill:#E1BEE7
+    style research_investigations_HYLAND_UPL_EVIDENCE_md fill:#E1BEE7
+    style research_investigations_KETTLER_OPERATIONAL_LOCATIONS_md fill:#E1BEE7
+    style research_investigations_LARIAT_AFFILIATED_COMPANIES_INVESTIGATION_md fill:#E1BEE7
+    style research_investigations_LARIAT_AFFILIATED_COMPANIES_SUMMARY_md fill:#E1BEE7
+    style research_investigations_LARIAT_COMPANIES_FINDINGS_md fill:#E1BEE7
+    style research_investigations_LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS_md fill:#E1BEE7
+    style research_investigations_LARIAT_VS_KETTLER_LICENSING_STRATEGY_md fill:#E1BEE7
+    style research_investigations_METHOD_COMPARISON_md fill:#E1BEE7
+    style research_investigations_MOORE_KRISTEN_JONES_INVESTIGATION_md fill:#E1BEE7
+    style research_investigations_REMAINING_LEGAL_VIOLATIONS_md fill:#E1BEE7
+    style research_investigations_VIRGINIA_40_LICENSES_CRITICAL_FINDING_md fill:#E1BEE7
+    style research_investigations_VIRGINIA_COMPANIES_FOUND_md fill:#E1BEE7
     style research_license_searches_100_PERCENT_COVERAGE_CONFIRMED_md fill:#E1BEE7
     style research_license_searches_ACTION_PLAN_md fill:#E1BEE7
     style research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md fill:#E1BEE7

@@ -58,7 +58,7 @@
 - README.md - Entry point
 - QUICK_START.md - Getting started
 - EXECUTIVE_SUMMARY.md - One-page overview
-- MASTER_RESEARCH_COMPLETION_REPORT.md - Complete details
+- REPORTS.md - Consolidated reports (see ARCHIVE.md for historical completion report)
 - All other master reports
 
 ## 🎯 Key Findings Summary

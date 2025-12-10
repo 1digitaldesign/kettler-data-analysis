@@ -229,12 +229,6 @@
       "category": "system"
     },
     {
-      "id": "research/ALL_STATES_LARIAT_COMPANIES_SEARCH.md",
-      "label": "ALL_STATES_LARIAT_COMPANIES_SEARCH",
-      "path": "research/ALL_STATES_LARIAT_COMPANIES_SEARCH.md",
-      "category": "research"
-    },
-    {
       "id": "research/ARCHIVE.md",
       "label": "ARCHIVE",
       "path": "research/ARCHIVE.md",
@@ -271,63 +265,9 @@
       "category": "research"
     },
     {
-      "id": "research/HYLAND_UPL_EVIDENCE.md",
-      "label": "HYLAND_UPL_EVIDENCE",
-      "path": "research/HYLAND_UPL_EVIDENCE.md",
-      "category": "research"
-    },
-    {
-      "id": "research/KETTLER_OPERATIONAL_LOCATIONS.md",
-      "label": "KETTLER_OPERATIONAL_LOCATIONS",
-      "path": "research/KETTLER_OPERATIONAL_LOCATIONS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/LARIAT_AFFILIATED_COMPANIES_INVESTIGATION.md",
-      "label": "LARIAT_AFFILIATED_COMPANIES_INVESTIGATION",
-      "path": "research/LARIAT_AFFILIATED_COMPANIES_INVESTIGATION.md",
-      "category": "research"
-    },
-    {
-      "id": "research/LARIAT_AFFILIATED_COMPANIES_SUMMARY.md",
-      "label": "LARIAT_AFFILIATED_COMPANIES_SUMMARY",
-      "path": "research/LARIAT_AFFILIATED_COMPANIES_SUMMARY.md",
-      "category": "research"
-    },
-    {
-      "id": "research/LARIAT_COMPANIES_FINDINGS.md",
-      "label": "LARIAT_COMPANIES_FINDINGS",
-      "path": "research/LARIAT_COMPANIES_FINDINGS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS.md",
-      "label": "LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS",
-      "path": "research/LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/LARIAT_VS_KETTLER_LICENSING_STRATEGY.md",
-      "label": "LARIAT_VS_KETTLER_LICENSING_STRATEGY",
-      "path": "research/LARIAT_VS_KETTLER_LICENSING_STRATEGY.md",
-      "category": "research"
-    },
-    {
       "id": "research/MASTER_INDEX.md",
       "label": "MASTER_INDEX",
       "path": "research/MASTER_INDEX.md",
-      "category": "research"
-    },
-    {
-      "id": "research/METHOD_COMPARISON.md",
-      "label": "METHOD_COMPARISON",
-      "path": "research/METHOD_COMPARISON.md",
-      "category": "research"
-    },
-    {
-      "id": "research/MOORE_KRISTEN_JONES_INVESTIGATION.md",
-      "label": "MOORE_KRISTEN_JONES_INVESTIGATION",
-      "path": "research/MOORE_KRISTEN_JONES_INVESTIGATION.md",
       "category": "research"
     },
     {
@@ -343,33 +283,9 @@
       "category": "research"
     },
     {
-      "id": "research/REMAINING_LEGAL_VIOLATIONS.md",
-      "label": "REMAINING_LEGAL_VIOLATIONS",
-      "path": "research/REMAINING_LEGAL_VIOLATIONS.md",
-      "category": "research"
-    },
-    {
       "id": "research/REPORTS.md",
       "label": "REPORTS",
       "path": "research/REPORTS.md",
-      "category": "research"
-    },
-    {
-      "id": "research/STATUS_FILES_ARCHIVE.md",
-      "label": "STATUS_FILES_ARCHIVE",
-      "path": "research/STATUS_FILES_ARCHIVE.md",
-      "category": "research"
-    },
-    {
-      "id": "research/VIRGINIA_40_LICENSES_CRITICAL_FINDING.md",
-      "label": "VIRGINIA_40_LICENSES_CRITICAL_FINDING",
-      "path": "research/VIRGINIA_40_LICENSES_CRITICAL_FINDING.md",
-      "category": "research"
-    },
-    {
-      "id": "research/VIRGINIA_COMPANIES_FOUND.md",
-      "label": "VIRGINIA_COMPANIES_FOUND",
-      "path": "research/VIRGINIA_COMPANIES_FOUND.md",
       "category": "research"
     },
     {
@@ -451,6 +367,12 @@
       "category": "research"
     },
     {
+      "id": "research/archive/STATUS_FILES_ARCHIVE.md",
+      "label": "STATUS_FILES_ARCHIVE",
+      "path": "research/archive/STATUS_FILES_ARCHIVE.md",
+      "category": "research"
+    },
+    {
       "id": "research/archive/VALIDATION_REPORT.md",
       "label": "VALIDATION_REPORT",
       "path": "research/archive/VALIDATION_REPORT.md",
@@ -490,6 +412,84 @@
       "id": "research/browser_automation/README.md",
       "label": "README",
       "path": "research/browser_automation/README.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/ALL_STATES_LARIAT_COMPANIES_SEARCH.md",
+      "label": "ALL_STATES_LARIAT_COMPANIES_SEARCH",
+      "path": "research/investigations/ALL_STATES_LARIAT_COMPANIES_SEARCH.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/HYLAND_UPL_EVIDENCE.md",
+      "label": "HYLAND_UPL_EVIDENCE",
+      "path": "research/investigations/HYLAND_UPL_EVIDENCE.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/KETTLER_OPERATIONAL_LOCATIONS.md",
+      "label": "KETTLER_OPERATIONAL_LOCATIONS",
+      "path": "research/investigations/KETTLER_OPERATIONAL_LOCATIONS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/LARIAT_AFFILIATED_COMPANIES_INVESTIGATION.md",
+      "label": "LARIAT_AFFILIATED_COMPANIES_INVESTIGATION",
+      "path": "research/investigations/LARIAT_AFFILIATED_COMPANIES_INVESTIGATION.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/LARIAT_AFFILIATED_COMPANIES_SUMMARY.md",
+      "label": "LARIAT_AFFILIATED_COMPANIES_SUMMARY",
+      "path": "research/investigations/LARIAT_AFFILIATED_COMPANIES_SUMMARY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/LARIAT_COMPANIES_FINDINGS.md",
+      "label": "LARIAT_COMPANIES_FINDINGS",
+      "path": "research/investigations/LARIAT_COMPANIES_FINDINGS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS.md",
+      "label": "LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS",
+      "path": "research/investigations/LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/LARIAT_VS_KETTLER_LICENSING_STRATEGY.md",
+      "label": "LARIAT_VS_KETTLER_LICENSING_STRATEGY",
+      "path": "research/investigations/LARIAT_VS_KETTLER_LICENSING_STRATEGY.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/METHOD_COMPARISON.md",
+      "label": "METHOD_COMPARISON",
+      "path": "research/investigations/METHOD_COMPARISON.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/MOORE_KRISTEN_JONES_INVESTIGATION.md",
+      "label": "MOORE_KRISTEN_JONES_INVESTIGATION",
+      "path": "research/investigations/MOORE_KRISTEN_JONES_INVESTIGATION.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/REMAINING_LEGAL_VIOLATIONS.md",
+      "label": "REMAINING_LEGAL_VIOLATIONS",
+      "path": "research/investigations/REMAINING_LEGAL_VIOLATIONS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/VIRGINIA_40_LICENSES_CRITICAL_FINDING.md",
+      "label": "VIRGINIA_40_LICENSES_CRITICAL_FINDING",
+      "path": "research/investigations/VIRGINIA_40_LICENSES_CRITICAL_FINDING.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/VIRGINIA_COMPANIES_FOUND.md",
+      "label": "VIRGINIA_COMPANIES_FOUND",
+      "path": "research/investigations/VIRGINIA_COMPANIES_FOUND.md",
       "category": "research"
     },
     {
@@ -1866,11 +1866,6 @@
       "label": "Reports"
     },
     {
-      "source": "research/ARCHIVE.md",
-      "target": "research/STATUS_FILES_ARCHIVE.md",
-      "label": "Status Files Archive"
-    },
-    {
       "source": "research/DATA_GUIDE.md",
       "target": "data/DATA_DICTIONARY.md",
       "label": "Data Dictionary"
@@ -1914,6 +1909,11 @@
       "source": "research/MASTER_INDEX.md",
       "target": "research/DATA_GUIDE.md",
       "label": "DATA_GUIDE.md"
+    },
+    {
+      "source": "research/MASTER_INDEX.md",
+      "target": "research/ARCHIVE.md",
+      "label": "ARCHIVE.md"
     },
     {
       "source": "research/MASTER_INDEX.md",

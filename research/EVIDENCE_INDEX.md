@@ -164,11 +164,10 @@ This index organizes all evidence by allegation type for easy reference when com
 
 ## 📁 Master Summary Files
 
-1. `MASTER_RESEARCH_COMPLETION_REPORT.md` - Complete overview
-2. `FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.json` - Executive summary
-3. `PERSONNEL_VERIFICATION_100_PERCENT_COMPLETE.json` - Verification report
-4. `COMPLAINT_EVIDENCE_COMPILATION.json` - Organized by allegation
-5. `EXECUTION_SUMMARY.md` - Human-readable summary
+1. `REPORTS.md` - Consolidated reports index
+2. `COMPLAINT_EVIDENCE_COMPILATION.json` - Organized by allegation
+3. `va_dpor_complaint/personnel_license_verification.json` - Personnel verification
+4. `va_dpor_complaint/COMPREHENSIVE_PERSONNEL_VERIFICATION_REPORT.json` - Comprehensive verification
 
 ---
 

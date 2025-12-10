@@ -172,7 +172,6 @@ Focus on:
 - [Research README](README.md) - Research directory guide
 - [Data Guide](DATA_GUIDE.md) - Complete data guide
 - [Reports](REPORTS.md) - Consolidated reports index
-- [Status Files Archive](STATUS_FILES_ARCHIVE.md) - Previous archive document
 
 ---
 

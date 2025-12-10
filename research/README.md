@@ -76,6 +76,18 @@ Research files are organized by category and purpose:
 
 **See [REPORTS.md](REPORTS.md) for consolidated report index.**
 
+### Investigations
+
+**Location:** `investigations/`
+**Count:** 12 investigation-specific files
+**Purpose:** Detailed investigation findings and analyses
+
+**Key investigations:**
+- Lariat Realty Advisors investigations
+- Virginia license findings
+- Method comparisons
+- Specific violation analyses
+
 ### Connections
 
 **Location:** `connections/`

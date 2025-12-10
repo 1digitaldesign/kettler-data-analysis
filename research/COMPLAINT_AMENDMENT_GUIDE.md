@@ -151,12 +151,12 @@ This guide provides a roadmap for using the completed research to strengthen you
 1. **Personnel Verification:** `va_dpor_complaint/personnel_license_verification.json`
 2. **Evidence Compilation:** `COMPLAINT_EVIDENCE_COMPILATION.json`
 3. **Evidence Index:** `EVIDENCE_INDEX.md`
-4. **Master Report:** `MASTER_RESEARCH_COMPLETION_REPORT.md`
+4. **Master Report:** `REPORTS.md` (see ARCHIVE.md for historical completion report)
 
 ### Quick Reference Files
 - `EVIDENCE_INDEX.md` - Evidence organized by allegation
 - `COMPLAINT_EVIDENCE_COMPILATION.json` - JSON format compilation
-- `FINAL_DELIVERABLES_SUMMARY.md` - Complete deliverables list
+- `REPORTS.md` - Consolidated reports index
 
 ### Research Files Location
 All research files: `research/va_dpor_complaint/`

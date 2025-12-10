@@ -130,7 +130,7 @@
 ### By Purpose
 - **Complaint Amendment** → `COMPLAINT_AMENDMENT_GUIDE.md`
 - **Quick Reference** → `EVIDENCE_INDEX.md`
-- **Complete Overview** → `MASTER_RESEARCH_COMPLETION_REPORT.md`
+- **Complete Overview** → `REPORTS.md` (see [ARCHIVE.md](ARCHIVE.md) for historical completion report)
 - **Getting Started** → `QUICK_START.md`
 
 ### By File Type
