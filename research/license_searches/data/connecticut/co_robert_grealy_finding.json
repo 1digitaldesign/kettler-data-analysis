@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "date": null,
+    "state": "Connecticut",
+    "search_url": "https://www.elicense.ct.gov/",
+    "employee": "Robert Grealy",
+    "search_method": "Browser automation or manual",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ]
+  },
+  "findings": {},
+  "conclusion": null
+}
