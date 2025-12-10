@@ -79,13 +79,59 @@
     ]
   },
   "google_yelp_reviews": {
-    "status": "pending",
+    "status": "completed",
     "search_methods": [
       "Google Business reviews for Kettler properties",
       "Yelp reviews",
       "Apartment review websites"
     ],
-    "findings": [],
+    "findings": [
+      {
+        "platform": "VeryApt",
+        "rating": "6.7 out of 10",
+        "total_reviews": 100,
+        "themes": [
+          "Convenience and amenities praised",
+          "Management responsiveness concerns",
+          "Maintenance issues",
+          "Lease renewal challenges due to unresponsive property managers",
+          "Parking and maintenance issues"
+        ],
+        "url": "https://www.veryapt.com/m403-kettler-management-inc"
+      },
+      {
+        "platform": "Yelp",
+        "rating": "2.0 out of 5 stars",
+        "total_reviews": 51,
+        "themes": [
+          "Dissatisfaction with management responsiveness",
+          "Professionalism concerns"
+        ],
+        "url": "https://local.yahoo.com/info-12670211-kettler-mclean/"
+      },
+      {
+        "platform": "Glassdoor (Employee Reviews)",
+        "rating": "3.2 out of 5 stars",
+        "total_reviews": 137,
+        "themes": [
+          "Decent pay and supportive teams (positive)",
+          "Management practices concerns",
+          "Lack of support",
+          "Poor work-life balance",
+          "Limited career advancement opportunities"
+        ],
+        "url": "https://www.glassdoor.com/Reviews/Kettler-Reviews-E227696.htm"
+      },
+      {
+        "platform": "BBB Customer Reviews",
+        "themes": [
+          "Employee allegedly stole rental check in 2024",
+          "Delays in processing rental applications despite meeting requirements",
+          "Application fees paid but applications not processed"
+        ],
+        "source": "BBB.org"
+      }
+    ],
     "focus_areas": [
       "Reviews mentioning violations",
       "Reviews mentioning unlicensed activities",
@@ -128,13 +174,33 @@
         "type": "Age discrimination"
       },
       {
-        "case": "Coleman v. Kettler",
-        "date": "2022",
-        "type": "Employment discrimination"
+        "case": "Coleman v. Kettler Management, et al.",
+        "filed": "2022",
+        "jurisdiction": "Eastern District of Virginia",
+        "type": "Employment discrimination",
+        "allegations": "Discriminatory and hostile work environment",
+        "outcome": "Court found isolated allegations insufficient to meet severe-or-pervasive standard",
+        "source": "Justia Law"
+      },
+      {
+        "case": "Williams v. Kettler Management Inc.",
+        "filed": "2012",
+        "jurisdiction": "U.S. District Court, District of Maryland",
+        "type": "Employment discrimination (Title VII, 42 U.S.C. § 1981)",
+        "allegations": "Discriminatory practices based on race, hostile work environment, retaliation",
+        "source": "Justia Law"
+      },
+      {
+        "case": "Wible v. Parcel D Property, LLC et al",
+        "filed": "2025-03",
+        "jurisdiction": "U.S. District Court, District of Maryland",
+        "type": "Personal injury lawsuit",
+        "defendant": "Kettler Management, Inc.",
+        "source": "Justia Dockets"
       }
     ],
     "additional_research": {
-      "status": "pending",
+      "status": "method_verified",
       "search_methods": [
         "Small claims court records",
         "Civil court records",

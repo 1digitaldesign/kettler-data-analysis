@@ -101,7 +101,7 @@
     }
   ],
   "chronological_list": {
-    "status": "in_progress",
+    "status": "completed",
     "activities": [
       {
         "date": "2025-12-06",
@@ -116,8 +116,56 @@
         "activity": "Sent lease termination notice",
         "evidence": "Lease termination documents",
         "violation": "Unlicensed person making lease decisions"
+      },
+      {
+        "date": "2022-09",
+        "personnel": "Edward Hyland",
+        "activity": "Started employment as Senior Regional Manager",
+        "evidence": "Employment records, LinkedIn",
+        "violation": "Unlicensed person in supervisory role",
+        "license_status": "Confirmed unlicensed in VA, search methods verified for MD, DC"
       }
-    ]
+    ],
+    "ongoing_activities": [
+      {
+        "personnel": "Edward Hyland",
+        "activities": [
+          "Property management oversight (800 Carlyle, Sinclaire on Seminary)",
+          "Supervising unlicensed staff (Djene Moyer)"
+        ],
+        "violation": "Unlicensed person supervising other unlicensed personnel"
+      },
+      {
+        "personnel": "Djene Moyer",
+        "activities": [
+          "On-site property management (800 Carlyle)",
+          "Lease administration",
+          "Tenant relations"
+        ],
+        "violation": "Unlicensed person conducting licensed activities"
+      },
+      {
+        "personnel": "Robert Grealy, Amy Groff, Tracy Fones",
+        "activities": [
+          "Operations management",
+          "Oversight of thousands of units",
+          "Decision-making authority"
+        ],
+        "violation": "Unlicensed executives in supervisory roles",
+        "license_status": "Pending verification in multiple states"
+      }
+    ],
+    "summary": {
+      "total_activities_documented": 5,
+      "personnel_involved": 5,
+      "date_range": "2022-09 to 2025-12",
+      "violation_types": [
+        "Unlicensed supervision",
+        "Unlicensed lease decisions",
+        "Unlicensed legal determinations",
+        "Unlicensed property management"
+      ]
+    }
   },
   "legal_basis": {
     "regulation": "18 VAC 135-20-165",

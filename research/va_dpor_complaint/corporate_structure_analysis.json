@@ -40,12 +40,59 @@
       }
     ],
     "related_entities": {
-      "status": "pending",
-      "research_needed": [
-        "Other Kettler entities",
-        "Related property companies",
-        "Investment entities"
-      ]
+      "status": "verified",
+      "parent_company": {
+        "name": "KETTLER Inc.",
+        "founded": "1977",
+        "founder": "Robert C. Kettler",
+        "headquarters": "McLean, Virginia",
+        "type": "Privately held real estate development and property management company",
+        "operations": [
+          "Multifamily development",
+          "Land and community development",
+          "Property management",
+          "Real estate investments"
+        ],
+        "portfolio": {
+          "multifamily_units_developed": "Over 20,000",
+          "residential_lots_developed": "Over 79,000",
+          "communities": 25,
+          "commercial_space": "5 million square feet",
+          "homes_in_master_planned_communities": "46,000+"
+        },
+        "source": "Kettler.com, MultifamilyExecutive.com"
+      },
+      "subsidiary_details": {
+        "kettler_management_inc": {
+          "founded": "1988",
+          "type": "Property management division",
+          "units_managed": "Over 19,000 apartments (as of 2024)",
+          "properties_managed": "85 communities",
+          "office_retail_space": "More than 1.7 million square feet",
+          "regions": ["Northeast", "Mid-Atlantic", "Southeast"],
+          "ceo": "Robert C. Kettler",
+          "source": "Kettler.com, Wikipedia"
+        },
+        "kettler_land_community_development": {
+          "type": "Land and community development division",
+          "residential_lots_developed": "Over 79,000",
+          "focus": "Master-planned communities and residential lots",
+          "source": "Kettler.com"
+        },
+        "kettler_investments": {
+          "type": "Real estate investments division",
+          "focus": "Acquiring and managing multifamily properties and mixed-use developments",
+          "source": "Kettler.com"
+        }
+      },
+      "development_pipeline": {
+        "status": "2024",
+        "units_in_pipeline": "Exceeding 12,000 units",
+        "stages": ["Development", "Predevelopment", "Entitlement"],
+        "target_markets": ["North Carolina", "Florida"],
+        "source": "MultifamilyExecutive.com"
+      },
+      "note": "KETTLER Inc. is a privately held company with no parent company. Operates independently under leadership of founder and CEO Robert C. Kettler."
     }
   },
   "key_executives": [

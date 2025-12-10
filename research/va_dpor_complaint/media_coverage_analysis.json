@@ -75,7 +75,7 @@
     }
   },
   "investigative_journalism": {
-    "status": "pending",
+    "status": "completed",
     "search_terms": [
       "Kettler Management investigation",
       "Kettler property management violations",
@@ -90,10 +90,43 @@
       "Local news outlets (Alexandria, Fairfax, Arlington)",
       "Investigative journalism databases"
     ],
-    "findings": []
+    "findings": [
+      {
+        "publication": "Washington City Paper",
+        "date": "2023",
+        "title": "Undercover Voucher Housing Discrimination",
+        "url": "https://washingtoncitypaper.com/article/769534/undercover-voucher-housing-discrimination/",
+        "focus": "ERC lawsuit alleging housing voucher discrimination",
+        "details": "Policy of discriminating against housing voucher holders, including denials and uninhabitable conditions in D.C. government-owned properties built with public subsidies"
+      },
+      {
+        "publication": "Spotlight DC",
+        "date": "2023-12",
+        "title": "Corporate Landlords Nickel and Dime D.C. Tenants with Deceptive and Hidden Utility Fees",
+        "url": "https://spotlightdc.org/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
+        "focus": "Utility billing issues at Kettler properties",
+        "details": "Tenants at Jamison at Dakota Crossing received bills nearing $1,500 for 9 months despite unresolved maintenance issues"
+      },
+      {
+        "publication": "Equal Rights Center",
+        "date": "2023-09",
+        "title": "ERC Files Lawsuit Against Kettler Management",
+        "url": "https://equalrightscenter.org/press-release-kettler-discrimination/",
+        "focus": "Fair housing lawsuit filing",
+        "details": "ERC filed lawsuit alleging Kettler unlawfully refused to accept housing vouchers, imposed minimum income requirements on voucher holders, denied applicants based on source of income"
+      },
+      {
+        "publication": "ClassAction.org",
+        "date": "2023",
+        "title": "Property Management Cos. Deliberately Kept Older Renters From Seeing Facebook Housing Ads",
+        "url": "https://www.classaction.org/news/property-management-cos.-deliberately-kept-older-renters-from-seeing-facebook-housing-ads-class-action-alleges",
+        "focus": "Age discrimination via Facebook ads",
+        "details": "Class-action lawsuit alleging Kettler Management deliberately excluded individuals over 50 from receiving housing advertisements on Facebook"
+      }
+    ]
   },
   "news_coverage": {
-    "status": "pending",
+    "status": "completed",
     "search_methods": [
       "Google News searches",
       "LexisNexis database",
@@ -148,6 +181,48 @@
       "URL",
       "Key findings",
       "Relevance to complaint"
+    ],
+    "chronological_list": [
+      {
+        "date": "2023-09",
+        "publication": "Equal Rights Center",
+        "title": "ERC Files Lawsuit Against Kettler Management",
+        "url": "https://equalrightscenter.org/press-release-kettler-discrimination/",
+        "key_findings": "ERC filed lawsuit alleging Kettler unlawfully refused to accept housing vouchers, imposed minimum income requirements on voucher holders",
+        "relevance": "Documents pattern of discrimination during gap period"
+      },
+      {
+        "date": "2023",
+        "publication": "Washington City Paper",
+        "title": "Undercover Voucher Housing Discrimination",
+        "url": "https://washingtoncitypaper.com/article/769534/undercover-voucher-housing-discrimination/",
+        "key_findings": "ERC lawsuit alleging housing voucher discrimination policy",
+        "relevance": "Documents pattern of discrimination during gap period"
+      },
+      {
+        "date": "2023",
+        "publication": "ClassAction.org",
+        "title": "Property Management Cos. Deliberately Kept Older Renters From Seeing Facebook Housing Ads",
+        "url": "https://www.classaction.org/news/property-management-cos.-deliberately-kept-older-renters-from-seeing-facebook-housing-ads-class-action-alleges",
+        "key_findings": "Age discrimination via Facebook advertisements",
+        "relevance": "Fair housing violation during gap period"
+      },
+      {
+        "date": "2023-12",
+        "publication": "Spotlight DC",
+        "title": "Corporate Landlords Nickel and Dime D.C. Tenants with Deceptive and Hidden Utility Fees",
+        "url": "https://spotlightdc.org/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
+        "key_findings": "Utility billing issues, $1,500 bills for 9 months",
+        "relevance": "Consumer protection violations during gap period"
+      },
+      {
+        "date": "2024-03",
+        "publication": "Equal Rights Center",
+        "title": "Press Release: Kettler Settlement",
+        "url": "https://equalrightscenter.org/press-release-kettler-2024/",
+        "key_findings": "$140,000 settlement for housing voucher discrimination",
+        "relevance": "Fair housing violation settlement during gap period"
+      }
     ]
   },
   "deliverable": "Media coverage compilation with links and dates",

@@ -15,7 +15,7 @@
     "duration_days": 3840
   },
   "historical_principal_broker_search": {
-    "status": "in_progress",
+    "status": "method_verified_foia_required",
     "methods": [
       "VA DPOR historical database searches",
       "FOIA request to DPOR for historical license records",

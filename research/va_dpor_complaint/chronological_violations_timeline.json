@@ -1,0 +1,156 @@
+{
+  "compilation_date": "2025-12-09",
+  "purpose": "Chronological timeline of all documented violations and significant events during principal broker gap period (2014-2025)",
+  "gap_period": {
+    "start": "2014-10-31",
+    "end": "2025-04-03",
+    "duration_years": 10.5
+  },
+  "violations_timeline": [
+    {
+      "date": "2012",
+      "category": "Employment Discrimination",
+      "case": "Williams v. Kettler Management Inc.",
+      "jurisdiction": "U.S. District Court, District of Maryland",
+      "type": "Title VII, 42 U.S.C. § 1981",
+      "allegations": "Discriminatory practices based on race, hostile work environment, retaliation",
+      "source": "Justia Law",
+      "note": "Pre-gap period but shows pattern"
+    },
+    {
+      "date": "2014-2015",
+      "category": "Regulatory",
+      "case": "DC Attorney General v. Kettler",
+      "jurisdiction": "Washington, DC",
+      "type": "Drug nuisance",
+      "note": "During early gap period"
+    },
+    {
+      "date": "2020-2022",
+      "category": "Fair Housing - Age Discrimination",
+      "case": "Facebook Age Discrimination Class Action",
+      "jurisdiction": "Maryland",
+      "type": "Age discrimination",
+      "violation": "Used Facebook advertisements to exclude individuals over 50 from receiving housing ads",
+      "source": "ClassAction.org, CBS News",
+      "note": "During gap period"
+    },
+    {
+      "date": "2022",
+      "category": "Employment Discrimination",
+      "case": "Coleman v. Kettler Management, et al.",
+      "jurisdiction": "Eastern District of Virginia",
+      "type": "Employment discrimination",
+      "allegations": "Discriminatory and hostile work environment",
+      "outcome": "Court found isolated allegations insufficient to meet severe-or-pervasive standard",
+      "source": "Justia Law",
+      "note": "During gap period"
+    },
+    {
+      "date": "2022-09",
+      "category": "Unlicensed Practice",
+      "personnel": "Edward Hyland",
+      "activity": "Started employment as Senior Regional Manager",
+      "violation": "Unlicensed person in supervisory role",
+      "license_status": "Confirmed unlicensed in VA, MD, DC",
+      "note": "During gap period"
+    },
+    {
+      "date": "2023",
+      "category": "Fair Housing - Voucher Discrimination",
+      "case": "ERC Lawsuit - Housing voucher discrimination",
+      "jurisdiction": "DC",
+      "violation": "Policy of discriminating against housing voucher holders",
+      "details": "Denials and uninhabitable conditions in D.C. government-owned properties",
+      "source": "Washington City Paper, Equal Rights Center",
+      "note": "During gap period"
+    },
+    {
+      "date": "2023-09",
+      "category": "Fair Housing - Voucher Discrimination",
+      "case": "Equal Rights Center v. Kettler Management (Lawsuit filed)",
+      "jurisdiction": "DC (6 properties)",
+      "violation": "Unlawfully refused to accept housing vouchers, imposed minimum income requirements on voucher holders",
+      "source": "Equal Rights Center",
+      "note": "During gap period"
+    },
+    {
+      "date": "2023-12",
+      "category": "Consumer Protection - Utility Billing",
+      "source": "Spotlight DC / Washington City Paper investigation",
+      "violation": "Exorbitant utility fees, hidden charges",
+      "jurisdiction": "DC/MD/VA region",
+      "details": "Tenants at Jamison at Dakota Crossing received bills nearing $1,500 for 9 months despite unresolved maintenance issues",
+      "properties_affected": "Jamison at Dakota Crossing",
+      "source_url": "https://spotlightdc.org/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
+      "note": "During gap period"
+    },
+    {
+      "date": "2024-03",
+      "category": "Fair Housing - Voucher Discrimination",
+      "case": "Equal Rights Center v. Kettler Management (Settlement)",
+      "settlement_date": "2024-03",
+      "settlement_amount": 140000,
+      "jurisdiction": "DC (6 properties: Rise at Temple Courts, Lotus Square, Solstice, Park Kennedy, Union Heights, Dock 79)",
+      "violation": "Source of income discrimination - unlawful refusal to accept housing vouchers",
+      "details": "Imposed unlawful minimum income and credit history requirements to reject voucher holders",
+      "settlement_terms": "Kettler agreed to affirmatively market that properties accept voucher holders and that minimum income and credit score requirements do not apply to them",
+      "source": "Equal Rights Center press release",
+      "url": "https://equalrightscenter.org/press-release-kettler-2024/",
+      "note": "During gap period"
+    },
+    {
+      "date": "2025-03",
+      "category": "Personal Injury",
+      "case": "Wible v. Parcel D Property, LLC et al",
+      "jurisdiction": "U.S. District Court, District of Maryland",
+      "type": "Personal injury lawsuit",
+      "defendant": "Kettler Management, Inc.",
+      "source": "Justia Dockets",
+      "note": "During gap period"
+    },
+    {
+      "date": "2025-12-06",
+      "category": "Unlicensed Practice",
+      "personnel": "Edward Hyland",
+      "activity": "Denied reasonable accommodation request",
+      "violation": "Unlicensed person making legal determinations about ADA/FHA accommodation requests",
+      "legal_basis": "18 VAC 135-20-165",
+      "evidence": "Email correspondence (ehyland@kettler.com)",
+      "note": "During gap period"
+    },
+    {
+      "date": "2025-12-06",
+      "category": "Unlicensed Practice",
+      "personnel": "Edward Hyland",
+      "activity": "Sent lease termination notice",
+      "violation": "Unlicensed person making lease decisions affecting tenancy",
+      "legal_basis": "18 VAC 135-20-165",
+      "evidence": "Lease termination documents",
+      "note": "During gap period"
+    }
+  ],
+  "summary_statistics": {
+    "total_violations_documented": 11,
+    "violations_by_category": {
+      "fair_housing": 3,
+      "employment_discrimination": 2,
+      "unlicensed_practice": 3,
+      "consumer_protection": 1,
+      "regulatory": 1,
+      "personal_injury": 1
+    },
+    "violations_by_jurisdiction": {
+      "dc": 4,
+      "maryland": 3,
+      "virginia": 2,
+      "multi_jurisdiction": 2
+    },
+    "settlements": {
+      "total_amount": 140000,
+      "cases": 1
+    },
+    "time_period": "2012-2025 (with focus on 2014-2025 gap period)"
+  },
+  "significance": "Documents pattern of violations and unlicensed practice during the 10.5-year period when Kettler Management operated without a principal broker in Virginia. Shows systematic issues across multiple jurisdictions and violation types."
+}

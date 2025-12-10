@@ -56,12 +56,36 @@
     }
   },
   "supervision_certification_search": {
-    "status": "pending",
+    "status": "method_verified",
     "methods": [
       "DPOR records request",
       "FOIA request to DPOR",
       "Public records search"
     ],
+    "virginia_requirements": {
+      "code": "VA Code §54.1-2110.1",
+      "requirement": "Supervising brokers must provide 'reasonable and adequate supervision' over real estate activities of associate brokers and salespersons",
+      "supervision_components": [
+        "Available to review and approve documents",
+        "Ensuring training opportunities",
+        "Maintaining compliance with relevant laws and regulations",
+        "Maintaining written procedures and policies"
+      ],
+      "distance_requirement": "If supervising broker resides more than 50 miles from branch office where licensees regularly conduct business, broker must certify in writing on a quarterly basis that they have complied with supervisory requirements",
+      "quarterly_certification_form": {
+        "availability": "Virginia Real Estate Board provides specific form",
+        "contact": {
+          "phone_licensing": "804-367-8526",
+          "phone_education": "804-367-2406",
+          "email": "REBoard@dpor.virginia.gov",
+          "address": "Real Estate Board, Department of Professional and Occupational Regulation, 9960 Mayland Drive, Suite 400, Richmond, VA 23233"
+        },
+        "website": "https://dpor.virginiainteractive.org/Boards/Real-Estate/"
+      },
+      "record_keeping": "Supervising brokers must maintain records of supervisory activities for three years and provide them to the Board upon request",
+      "source": "Virginia Code §54.1-2110.1",
+      "url": "https://law.lis.virginia.gov/vacode/title54.1/chapter21/section54.1-2110.1/"
+    },
     "findings": []
   },
   "face_to_face_meeting_records": {
