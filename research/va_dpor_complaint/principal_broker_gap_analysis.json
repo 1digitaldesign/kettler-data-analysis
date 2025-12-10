@@ -14,26 +14,26 @@
     "duration_years": 10.5,
     "duration_days": 3840
   },
-  "historical_principal_broker_search": {
-    "status": "in_progress",
-    "methods": [
-      "VA DPOR historical database searches",
-      "FOIA request to DPOR for historical license records",
-      "Wayback Machine searches of DPOR website snapshots"
-    ],
-    "data_points_sought": [
-      "Previous principal broker names (if any)",
-      "License amendment dates",
-      "Principal broker change notifications",
-      "Any disciplinary actions during gap period"
-    ],
-    "findings": {
-      "previous_principal_brokers": [],
-      "license_amendments": [],
-      "principal_broker_changes": [],
-      "disciplinary_actions": [],
-      "notes": "Search in progress - no historical records found yet in current DPOR database"
-    },
+    "historical_principal_broker_search": {
+      "status": "method_verified_foia_required",
+      "methods": [
+        "VA DPOR historical database searches",
+        "FOIA request to DPOR for historical license records",
+        "Wayback Machine searches of DPOR website snapshots"
+      ],
+      "data_points_sought": [
+        "Previous principal broker names (if any)",
+        "License amendment dates",
+        "Principal broker change notifications",
+        "Any disciplinary actions during gap period"
+      ],
+      "findings": {
+        "previous_principal_brokers": [],
+        "license_amendments": [],
+        "principal_broker_changes": [],
+        "disciplinary_actions": [],
+        "notes": "Historical records from 2014-2015 not accessible online. DPOR Information Management section can provide regulant lists with historical data. Contact: PublicRecords@dpor.virginia.gov or (866) 254-0312. Regulant lists available free in electronic format."
+      },
     "wayback_machine_snapshots": {
       "status": "method_verified",
       "urls_to_check": [

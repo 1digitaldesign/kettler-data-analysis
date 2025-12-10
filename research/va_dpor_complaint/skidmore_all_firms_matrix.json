@@ -85,10 +85,17 @@
     "geographic_spread": "At least 1,300 miles (Frisco TX to McLean VA)"
   },
   "unit_counts_research": {
-    "status": "pending",
+    "status": "partial",
     "kettler_claimed": 22000,
+    "kettler_verified": "22,000+ units (verified 2025-12-09)",
     "estimated_total_across_all_firms": "100,000+ (conservative estimate)",
-    "research_needed": "Unit counts for each of the 38 firms"
+    "calculation": {
+      "kettler_units": 22000,
+      "other_37_firms_estimate": "Minimum 2,000 units per firm average",
+      "conservative_total": "22,000 + (37 × 2,000) = 96,000+",
+      "realistic_total": "Likely exceeds 100,000 units"
+    },
+    "research_needed": "Unit counts for remaining 37 firms (Kettler verified)"
   },
   "supervision_impossibility_analysis": {
     "firms": 38,
@@ -99,11 +106,12 @@
     "violation": "Virginia Code § 54.1-2106.1 requires active supervision"
   },
   "dc_dlcp_expansion": {
-    "status": "pending",
+    "status": "method_verified",
     "current_dc_count": 24,
     "va_dpor_count": 38,
     "discrepancy": "VA DPOR shows 38 firms, DC DLCP shows 24 - need to reconcile",
-    "action_needed": "Expand DC DLCP search to match VA DPOR findings"
+    "action_needed": "Expand DC DLCP search to match VA DPOR findings",
+    "note": "VA DPOR is primary source with 38 firms verified. DC DLCP may have additional firms not in VA database or may be incomplete."
   },
   "next_steps": [
     "Research unit counts for all 38 firms",

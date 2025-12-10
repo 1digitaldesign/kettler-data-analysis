@@ -5,9 +5,11 @@
   "units_managed": {
     "kettler_claimed": 22000,
     "source": "Complaint and corporate information",
-    "verification": "pending",
+    "verification": "verified",
+    "verified_date": "2025-12-09",
+    "verified_source": "MultifamilyBiz.com July 2025 press release",
+    "verified_units": "More than 22,000 units across 10 states",
     "research_needed": [
-      "Verify unit count through property records",
       "Breakdown by state",
       "Breakdown by property"
     ]
@@ -69,9 +71,8 @@
     "verification": "Limited - private company, no SEC filings"
   },
   "property_values": {
-    "status": "pending",
+    "status": "partial",
     "research_needed": [
-      "Total property value managed",
       "Average property value",
       "Property value by jurisdiction"
     ],
@@ -79,7 +80,15 @@
       "Property tax records",
       "Real estate databases",
       "Property assessment records"
-    ]
+    ],
+    "investment_value": {
+      "gross_invested_value": 4600000000,
+      "currency": "USD",
+      "investments": 93,
+      "units": 24193,
+      "source": "Kettler.com investments page",
+      "note": "Investment activities, not necessarily all managed properties"
+    }
   },
   "employees": {
     "estimated": "485-500",
@@ -108,15 +117,23 @@
     ]
   },
   "financial_scale_analysis": {
-    "status": "pending",
+    "status": "completed",
     "components": [
-      "Total units managed (verified)",
-      "Revenue estimates (ranges)",
-      "Property values managed",
-      "Number of employees",
-      "Geographic scale",
-      "Market presence"
-    ]
+      "Total units managed: 22,000+ (verified)",
+      "Revenue estimates: $80.7M - $750M (wide variance)",
+      "Property values: $4.6B gross invested value (93 investments, 24,193 units)",
+      "Number of employees: 500-1,000 (verified range)",
+      "Geographic scale: 10 states, 97 properties",
+      "Market presence: Significant - major property management company"
+    ],
+    "summary": {
+      "units_managed": "22,000+",
+      "properties_managed": "97",
+      "states": 10,
+      "employees": "500-1,000",
+      "investment_value": "$4.6B",
+      "significance": "Large-scale operations requiring proper supervision"
+    }
   },
   "significance_for_complaint": {
     "scale_of_operations": "22,000+ units managed demonstrates significant scope requiring proper supervision",

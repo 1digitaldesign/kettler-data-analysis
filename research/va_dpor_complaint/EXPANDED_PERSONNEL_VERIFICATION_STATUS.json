@@ -1,0 +1,139 @@
+{
+  "status_date": "2025-12-10",
+  "verification_status": "in_progress",
+  "completion_percentage": "23.8%",
+  "summary": {
+    "total_personnel_identified": 21,
+    "personnel_verified_complete": 5,
+    "personnel_pending_verification": 16,
+    "total_states": 16,
+    "total_searches_needed": 336,
+    "searches_completed": 80,
+    "searches_pending": 256
+  },
+  "personnel_by_category": {
+    "verified_personnel": {
+      "count": 5,
+      "status": "100% complete - all 16 states verified",
+      "personnel": [
+        {
+          "name": "Edward Hyland",
+          "title": "Senior Regional Manager",
+          "result": "Unlicensed in all 16 states"
+        },
+        {
+          "name": "Robert Grealy",
+          "title": "SVP Operations",
+          "result": "Unlicensed in all 16 states"
+        },
+        {
+          "name": "Amy Groff",
+          "title": "VP Operations",
+          "result": "Unlicensed in all 16 states"
+        },
+        {
+          "name": "Tracy Fones",
+          "title": "VP Operations",
+          "result": "Unlicensed in all 16 states"
+        },
+        {
+          "name": "Djene Moyer",
+          "title": "Community Manager",
+          "result": "Unlicensed in all 16 states"
+        }
+      ]
+    },
+    "kettler_executives_pending": {
+      "count": 8,
+      "status": "pending verification",
+      "personnel": [
+        "Robert C. Kettler (Founder & CEO)",
+        "Cynthia Fisher (President)",
+        "Sean Curtin (EVP & General Counsel - needs bar check)",
+        "Patrick Cassada (CFO)",
+        "Luke Davis (CIO)",
+        "Greg Slang (EVP Asset Management)",
+        "J.D. Sitton (EVP Capital Markets & Strategy)",
+        "Pamela Tyrrell (EVP Multifamily Development & Construction)"
+      ],
+      "searches_needed": 128
+    },
+    "kettler_staff_pending": {
+      "count": 5,
+      "status": "pending verification",
+      "personnel": [
+        "Kristina Thoummarath (Chief of Staff)",
+        "Christina Chang (Head of Asset Management)",
+        "Todd Bowen (SVP Strategic Services)",
+        "Jeffrey Williams (VP Human Resources)",
+        "Henry Ramos (Property Manager)"
+      ],
+      "searches_needed": 80
+    },
+    "lariat_realty_advisors_pending": {
+      "count": 3,
+      "status": "pending verification",
+      "personnel": [
+        "Elizabeth Saye (Liddy Bisanz saye) - Broker, Lariat Realty Advisors",
+        "Thoms L. Bisanz - Executive Director, Lariat Realty Advisors",
+        "Leah Douthit - Real Estate Agent (Monument Realty, possible Lariat connection)"
+      ],
+      "searches_needed": 48
+    }
+  },
+  "verification_priority": {
+    "high_priority": [
+      "Henry Ramos (Property Manager - likely requires license)",
+      "Elizabeth Saye (Lariat Broker - associated with Caitlin Skidmore)",
+      "Thoms L. Bisanz (Lariat Executive Director)",
+      "Greg Slang (EVP Asset Management - may involve real estate activities)",
+      "Pamela Tyrrell (EVP Development & Construction - may involve real estate activities)",
+      "Christina Chang (Head of Asset Management - may involve real estate activities)"
+    ],
+    "medium_priority": [
+      "Sean Curtin (General Counsel - needs bar check)",
+      "Robert C. Kettler (CEO - may not require license for corporate role)",
+      "Cynthia Fisher (President)",
+      "Luke Davis (CIO)",
+      "J.D. Sitton (EVP Capital Markets)"
+    ],
+    "lower_priority": [
+      "Patrick Cassada (CFO - financial role)",
+      "Kristina Thoummarath (Chief of Staff - administrative)",
+      "Todd Bowen (SVP Strategic Services)",
+      "Jeffrey Williams (VP Human Resources)",
+      "Leah Douthit (Monument Realty - unclear Lariat connection)"
+    ]
+  },
+  "next_steps": [
+    "Begin systematic license verification starting with high-priority personnel",
+    "Search all 16 states for each personnel member",
+    "Document findings in personnel_license_verification.json",
+    "For Sean Curtin: Also perform bar association searches",
+    "Complete verification matrix for all 21 personnel",
+    "Compile final comprehensive report"
+  ],
+  "search_methodology": {
+    "states": [
+      "Virginia (VA) - DPOR License Lookup",
+      "Texas (TX) - TREC License Holder Search",
+      "Maryland (MD) - Real Estate Commission Public Query",
+      "District of Columbia (DC) - OPPLA License Search",
+      "North Carolina (NC) - Real Estate Commission",
+      "Missouri (MO) - Division of Professional Registration",
+      "Nebraska (NE) - Real Estate Commission Licensee Lookup",
+      "California (CA) - DRE Public License Lookup",
+      "Arizona (AZ) - ADRE Public Database",
+      "Connecticut (CT) - eLicense Portal",
+      "Florida (FL) - DBPR License Search",
+      "Georgia (GA) - Real Estate Commission License Search",
+      "New Mexico (NM) - NM-PLUS License Verification",
+      "Pennsylvania (PA) - PALS License Search",
+      "South Carolina (SC) - LLR Licensee Lookup",
+      "Utah (UT) - Division of Real Estate Licensee Lookup"
+    ],
+    "additional_searches": [
+      "State bar associations for Sean Curtin (General Counsel)"
+    ]
+  }
+}

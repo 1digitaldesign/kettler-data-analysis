@@ -1,0 +1,177 @@
+{
+  "research_date": "2025-12-10",
+  "priority": "EXPANDED: Complete License Verification for All Kettler and Lariat Personnel",
+  "objective": "Verify licenses for all identified Kettler employees, executives, and Lariat Realty Advisors personnel across all 16 states",
+  "status": "in_progress",
+  "personnel_categories": {
+    "verified_personnel": {
+      "count": 5,
+      "status": "100% complete - all 16 states verified",
+      "personnel": [
+        "Edward Hyland",
+        "Robert Grealy",
+        "Amy Groff",
+        "Tracy Fones",
+        "Djene Moyer"
+      ]
+    },
+    "kettler_executives": {
+      "count": 8,
+      "status": "pending_verification",
+      "personnel": [
+        {
+          "name": "Robert C. Kettler",
+          "title": "Founder & CEO",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Cynthia Fisher",
+          "title": "President",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Sean Curtin",
+          "title": "Executive Vice President & General Counsel",
+          "needs_bar_check": true,
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Patrick Cassada",
+          "title": "Chief Financial Officer",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Luke Davis",
+          "title": "Chief Investment Officer",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Greg Slang",
+          "title": "Executive Vice President, Asset Management",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "J.D. Sitton",
+          "title": "Executive Vice President, Capital Markets & Strategy",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Pamela Tyrrell",
+          "title": "Executive Vice President, Multifamily Development & Construction",
+          "verification_status": "pending",
+          "states_to_search": 16
+        }
+      ]
+    },
+    "kettler_additional_staff": {
+      "count": 5,
+      "status": "pending_verification",
+      "personnel": [
+        {
+          "name": "Kristina Thoummarath",
+          "title": "Chief of Staff",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Christina Chang",
+          "title": "Head of Asset Management",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Todd Bowen",
+          "title": "SVP Strategic Services",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Jeffrey Williams",
+          "title": "VP Human Resources",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Henry Ramos",
+          "title": "Property Manager",
+          "verification_status": "pending",
+          "states_to_search": 16
+        }
+      ]
+    },
+    "lariat_realty_advisors": {
+      "count": 3,
+      "status": "pending_verification",
+      "personnel": [
+        {
+          "name": "Elizabeth Saye",
+          "also_known_as": "Liddy Bisanz saye",
+          "title": "Broker",
+          "company": "Lariat Realty Advisors",
+          "email": "liddy@lariatrealtyadvisors.com",
+          "phone": "(214) 210-2117",
+          "address": "6700 Antioch Road, Frisco, TX",
+          "connection": "Associated with Caitlin Skidmore",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Thoms L. Bisanz",
+          "title": "Executive Director",
+          "company": "Lariat Realty Advisors",
+          "address": "6700 Antioch Road, Frisco, TX",
+          "verification_status": "pending",
+          "states_to_search": 16
+        },
+        {
+          "name": "Leah Douthit",
+          "title": "Real Estate Agent",
+          "company": "Monument Realty (not Lariat)",
+          "note": "Search indicates she is with Monument Realty, not Lariat Realty Advisors",
+          "verification_status": "pending",
+          "states_to_search": 16
+        }
+      ]
+    }
+  },
+  "verification_summary": {
+    "total_personnel_identified": 21,
+    "personnel_verified": 5,
+    "personnel_pending": 16,
+    "total_states": 16,
+    "total_searches_completed": 80,
+    "total_searches_pending": 256,
+    "completion_percentage": "23.8%"
+  },
+  "states_to_search": [
+    "Virginia (VA)",
+    "Texas (TX)",
+    "Maryland (MD)",
+    "District of Columbia (DC)",
+    "North Carolina (NC)",
+    "Missouri (MO)",
+    "Nebraska (NE)",
+    "California (CA)",
+    "Arizona (AZ)",
+    "Connecticut (CT)",
+    "Florida (FL)",
+    "Georgia (GA)",
+    "New Mexico (NM)",
+    "Pennsylvania (PA)",
+    "South Carolina (SC)",
+    "Utah (UT)"
+  ],
+  "next_steps": [
+    "Begin systematic license verification for all 16 pending personnel",
+    "Search all 16 states for each personnel member",
+    "Document all findings in main personnel_license_verification.json",
+    "Complete verification matrix for all 21 personnel"
+  ]
+}
