@@ -14,25 +14,25 @@ This directory contains investigation-specific findings and analyses that docume
 
 ### Lariat Realty Advisors investigations
 
-- `ALL_STATES_LARIAT_COMPANIES_SEARCH.md` - Multi-state search for Lariat companies
-- `LARIAT_AFFILIATED_COMPANIES_INVESTIGATION.md` - Affiliated companies investigation
-- `LARIAT_AFFILIATED_COMPANIES_SUMMARY.md` - Affiliated companies summary
-- `LARIAT_COMPANIES_FINDINGS.md` - Lariat companies findings
-- `LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS.md` - Broker for rent analysis
-- `LARIAT_VS_KETTLER_LICENSING_STRATEGY.md` - Licensing strategy comparison
+- `lariat-companies-search.md` - Multi-state search for Lariat companies
+- `lariat-affiliated-companies-investigation.md` - Affiliated companies investigation
+- `lariat-affiliated-companies-summary.md` - Affiliated companies summary
+- `lariat-companies-findings.md` - Lariat companies findings
+- `lariat-broker-for-rent-analysis.md` - Broker for rent analysis
+- `lariat-vs-kettler-licensing-strategy.md` - Licensing strategy comparison
 
 ### Virginia investigations
 
-- `VIRGINIA_40_LICENSES_CRITICAL_FINDING.md` - Critical finding: 40 licenses
-- `VIRGINIA_COMPANIES_FOUND.md` - Virginia companies extraction
+- `virginia-40-licenses-finding.md` - Critical finding: 40 licenses
+- `virginia-companies-found.md` - Virginia companies extraction
 
 ### Other investigations
 
-- `HYLAND_UPL_EVIDENCE.md` - Edward Hyland UPL evidence
-- `KETTLER_OPERATIONAL_LOCATIONS.md` - Kettler operational locations
-- `METHOD_COMPARISON.md` - Virginia DPOR extraction method comparison
-- `MOORE_KRISTEN_JONES_INVESTIGATION.md` - Moore/Kristen Jones investigation
-- `REMAINING_LEGAL_VIOLATIONS.md` - Remaining legal violations
+- `hyland-upl-evidence.md` - Edward Hyland UPL evidence
+- `kettler-operational-locations.md` - Kettler operational locations
+- `method-comparison.md` - Virginia DPOR extraction method comparison
+- `moore-kristen-jones-investigation.md` - Moore/Kristen Jones investigation
+- `remaining-legal-violations.md` - Remaining legal violations
 
 ---
 

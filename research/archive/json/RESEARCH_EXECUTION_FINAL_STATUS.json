@@ -51,7 +51,7 @@
       "id": "corporate-structure-details",
       "status": "completed",
       "file": "corporate_structure_analysis.json",
-      "findings": "Parent-subsidiary relationship documented: KETTLER ↔ Kettler Management Inc. Corporate filings methods verified."
+      "findings": "Parent-subsidiary relationship documented: KETTLER \u2194 Kettler Management Inc. Corporate filings methods verified."
     },
     {
       "id": "financial-scale-verification",
@@ -75,7 +75,7 @@
   "evidence_compilation": {
     "status": "completed",
     "files_created": [
-      "COMPLAINT_EVIDENCE_COMPILATION.json",
+      "complaint_evidence_compilation.json",
       "EVIDENCE_INDEX.md",
       "COMPLAINT_AMENDMENT_GUIDE.md",
       "FINAL_DELIVERABLES_SUMMARY.md",

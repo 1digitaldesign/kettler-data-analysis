@@ -154,8 +154,8 @@
       "files": [
         "all_entities_extracted.json",
         "all_individuals_identified.json",
-        "COMPLAINT_EVIDENCE_COMPILATION.json",
-        "COMPLETE_RESEARCH_INVENTORY.json",
+        "complaint_evidence_compilation.json",
+        "complete_research_inventory.json",
         "FINAL_COMPLETION_REPORT.json",
         "FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.json",
         "FINAL_RESEARCH_EXECUTION_SUMMARY.json",
@@ -183,11 +183,11 @@
     "txt": 5
   },
   "key_files": {
-    "master_index": "research/MASTER_RESEARCH_INDEX.json",
+    "master_index": "research/MASTER_research_index.json",
     "executive_summary": "research/va_dpor_complaint/EXECUTIVE_SUMMARY.json",
     "complaint_ready": "research/RESEARCH_READY_FOR_COMPLAINT.json",
     "connections": "research/connections/caitlin_skidmore_connections.json",
-    "complete_inventory": "research/COMPLETE_RESEARCH_INVENTORY.json"
+    "complete_inventory": "research/complete_research_inventory.json"
   },
   "navigation": {
     "by_category": "Use categories object to find files by research type",

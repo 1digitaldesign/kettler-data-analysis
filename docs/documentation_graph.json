@@ -115,6 +115,12 @@
       "category": "system"
     },
     {
+      "id": "docs/NAMING_CONVENTIONS.md",
+      "label": "NAMING_CONVENTIONS",
+      "path": "docs/NAMING_CONVENTIONS.md",
+      "category": "system"
+    },
+    {
       "id": "docs/REPOSITORY_STRUCTURE.md",
       "label": "REPOSITORY_STRUCTURE",
       "path": "docs/REPOSITORY_STRUCTURE.md",
@@ -415,81 +421,87 @@
       "category": "research"
     },
     {
-      "id": "research/investigations/ALL_STATES_LARIAT_COMPANIES_SEARCH.md",
-      "label": "ALL_STATES_LARIAT_COMPANIES_SEARCH",
-      "path": "research/investigations/ALL_STATES_LARIAT_COMPANIES_SEARCH.md",
+      "id": "research/investigations/README.md",
+      "label": "README",
+      "path": "research/investigations/README.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/HYLAND_UPL_EVIDENCE.md",
-      "label": "HYLAND_UPL_EVIDENCE",
-      "path": "research/investigations/HYLAND_UPL_EVIDENCE.md",
+      "id": "research/investigations/hyland-upl-evidence.md",
+      "label": "hyland-upl-evidence",
+      "path": "research/investigations/hyland-upl-evidence.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/KETTLER_OPERATIONAL_LOCATIONS.md",
-      "label": "KETTLER_OPERATIONAL_LOCATIONS",
-      "path": "research/investigations/KETTLER_OPERATIONAL_LOCATIONS.md",
+      "id": "research/investigations/kettler-operational-locations.md",
+      "label": "kettler-operational-locations",
+      "path": "research/investigations/kettler-operational-locations.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/LARIAT_AFFILIATED_COMPANIES_INVESTIGATION.md",
-      "label": "LARIAT_AFFILIATED_COMPANIES_INVESTIGATION",
-      "path": "research/investigations/LARIAT_AFFILIATED_COMPANIES_INVESTIGATION.md",
+      "id": "research/investigations/lariat-affiliated-companies-investigation.md",
+      "label": "lariat-affiliated-companies-investigation",
+      "path": "research/investigations/lariat-affiliated-companies-investigation.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/LARIAT_AFFILIATED_COMPANIES_SUMMARY.md",
-      "label": "LARIAT_AFFILIATED_COMPANIES_SUMMARY",
-      "path": "research/investigations/LARIAT_AFFILIATED_COMPANIES_SUMMARY.md",
+      "id": "research/investigations/lariat-affiliated-companies-summary.md",
+      "label": "lariat-affiliated-companies-summary",
+      "path": "research/investigations/lariat-affiliated-companies-summary.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/LARIAT_COMPANIES_FINDINGS.md",
-      "label": "LARIAT_COMPANIES_FINDINGS",
-      "path": "research/investigations/LARIAT_COMPANIES_FINDINGS.md",
+      "id": "research/investigations/lariat-broker-for-rent-analysis.md",
+      "label": "lariat-broker-for-rent-analysis",
+      "path": "research/investigations/lariat-broker-for-rent-analysis.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS.md",
-      "label": "LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS",
-      "path": "research/investigations/LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS.md",
+      "id": "research/investigations/lariat-companies-findings.md",
+      "label": "lariat-companies-findings",
+      "path": "research/investigations/lariat-companies-findings.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/LARIAT_VS_KETTLER_LICENSING_STRATEGY.md",
-      "label": "LARIAT_VS_KETTLER_LICENSING_STRATEGY",
-      "path": "research/investigations/LARIAT_VS_KETTLER_LICENSING_STRATEGY.md",
+      "id": "research/investigations/lariat-companies-search.md",
+      "label": "lariat-companies-search",
+      "path": "research/investigations/lariat-companies-search.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/METHOD_COMPARISON.md",
-      "label": "METHOD_COMPARISON",
-      "path": "research/investigations/METHOD_COMPARISON.md",
+      "id": "research/investigations/lariat-vs-kettler-licensing-strategy.md",
+      "label": "lariat-vs-kettler-licensing-strategy",
+      "path": "research/investigations/lariat-vs-kettler-licensing-strategy.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/MOORE_KRISTEN_JONES_INVESTIGATION.md",
-      "label": "MOORE_KRISTEN_JONES_INVESTIGATION",
-      "path": "research/investigations/MOORE_KRISTEN_JONES_INVESTIGATION.md",
+      "id": "research/investigations/method-comparison.md",
+      "label": "method-comparison",
+      "path": "research/investigations/method-comparison.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/REMAINING_LEGAL_VIOLATIONS.md",
-      "label": "REMAINING_LEGAL_VIOLATIONS",
-      "path": "research/investigations/REMAINING_LEGAL_VIOLATIONS.md",
+      "id": "research/investigations/moore-kristen-jones-investigation.md",
+      "label": "moore-kristen-jones-investigation",
+      "path": "research/investigations/moore-kristen-jones-investigation.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/VIRGINIA_40_LICENSES_CRITICAL_FINDING.md",
-      "label": "VIRGINIA_40_LICENSES_CRITICAL_FINDING",
-      "path": "research/investigations/VIRGINIA_40_LICENSES_CRITICAL_FINDING.md",
+      "id": "research/investigations/remaining-legal-violations.md",
+      "label": "remaining-legal-violations",
+      "path": "research/investigations/remaining-legal-violations.md",
       "category": "research"
     },
     {
-      "id": "research/investigations/VIRGINIA_COMPANIES_FOUND.md",
-      "label": "VIRGINIA_COMPANIES_FOUND",
-      "path": "research/investigations/VIRGINIA_COMPANIES_FOUND.md",
+      "id": "research/investigations/virginia-40-licenses-finding.md",
+      "label": "virginia-40-licenses-finding",
+      "path": "research/investigations/virginia-40-licenses-finding.md",
+      "category": "research"
+    },
+    {
+      "id": "research/investigations/virginia-companies-found.md",
+      "label": "virginia-companies-found",
+      "path": "research/investigations/virginia-companies-found.md",
       "category": "research"
     },
     {
@@ -1716,6 +1728,21 @@
       "label": "DOCUMENTATION_GRAPH.md"
     },
     {
+      "source": "docs/NAMING_CONVENTIONS.md",
+      "target": "docs/REPOSITORY_STRUCTURE.md",
+      "label": "Repository Structure"
+    },
+    {
+      "source": "docs/NAMING_CONVENTIONS.md",
+      "target": "data/DATA_DICTIONARY.md",
+      "label": "Data Dictionary"
+    },
+    {
+      "source": "docs/NAMING_CONVENTIONS.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
       "source": "docs/REPOSITORY_STRUCTURE.md",
       "target": "docs/SYSTEM_ARCHITECTURE.md",
       "label": "SYSTEM_ARCHITECTURE.md"
@@ -2052,6 +2079,21 @@
     },
     {
       "source": "research/REPORTS.md",
+      "target": "research/DATA_GUIDE.md",
+      "label": "Data Guide"
+    },
+    {
+      "source": "research/investigations/README.md",
+      "target": "research/README.md",
+      "label": "Research README"
+    },
+    {
+      "source": "research/investigations/README.md",
+      "target": "research/REPORTS.md",
+      "label": "Reports"
+    },
+    {
+      "source": "research/investigations/README.md",
       "target": "research/DATA_GUIDE.md",
       "label": "Data Guide"
     },

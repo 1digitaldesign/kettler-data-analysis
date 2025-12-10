@@ -34,7 +34,7 @@ def find_all_files(directory: Path) -> set[str]:
 def extract_file_references(directory: Path) -> set[str]:
     """Extract all file references from markdown and JSON files."""
     referenced = set()
-    
+
     for md_file in directory.rglob('*.md'):
         try:
             content = md_file.read_text()
@@ -44,7 +44,7 @@ def extract_file_references(directory: Path) -> set[str]:
             code_refs = re.findall(r'`([^`]+\.(json|md|csv|txt))`', content)
             # Path references
             path_refs = re.findall(r'([a-zA-Z0-9_/-]+\.(json|md|csv|txt))', content)
-            
+
             for ref in links + [c[0] for c in code_refs] + [p[0] for p in path_refs]:
                 if not ref.startswith('http') and not ref.startswith('#') and ref:
                     # Normalize
@@ -55,7 +55,7 @@ def extract_file_references(directory: Path) -> set[str]:
                     referenced.add(ref)
         except Exception:
             pass
-    
+
     # Also check JSON files for references
     for json_file in directory.rglob('*.json'):
         try:
@@ -72,13 +72,13 @@ def extract_file_references(directory: Path) -> set[str]:
                 elif isinstance(obj, str) and ('.json' in obj or '.md' in obj):
                     if '/' in obj and not obj.startswith('http'):
                         paths.add(obj)
-            
+
             paths = set()
             find_paths(content, paths)
             referenced.update(paths)
         except Exception:
             pass
-    
+
     return referenced
 
 
@@ -103,12 +103,12 @@ def find_orphaned_files(directory: Path, referenced: set[str], actual_files: set
         if 'archive' in file_path:
             continue
         # Skip essential documentation
-        essential = ['README.md', 'DATA_GUIDE.md', 'REPORTS.md', 'ARCHIVE.md', 
+        essential = ['README.md', 'DATA_GUIDE.md', 'REPORTS.md', 'ARCHIVE.md',
                     'QUICK_START.md', 'MASTER_INDEX.md', 'EVIDENCE_INDEX.md',
                     'COMPLAINT_AMENDMENT_GUIDE.md', 'RESEARCH_INDEX.json']
         if any(file_path.endswith(e) for e in essential):
             continue
-        
+
         # Check if file is referenced
         found = False
         base_name = file_path
@@ -116,29 +116,29 @@ def find_orphaned_files(directory: Path, referenced: set[str], actual_files: set
             base_name = file_path[:-3]
         elif file_path.endswith('.json'):
             base_name = file_path[:-5]
-        
+
         # Check various reference formats
         for ref in referenced:
-            if (ref == file_path or ref == base_name or 
+            if (ref == file_path or ref == base_name or
                 ref.endswith(file_path) or file_path.endswith(ref) or
                 ref in file_path or file_path in ref):
                 found = True
                 break
-        
+
         if not found:
             orphaned.append(file_path)
-    
+
     return orphaned
 
 
 def find_broken_references(directory: Path, referenced: set[str], actual_files: set[str]) -> list[str]:
     """Find references to files that don't exist."""
     broken = []
-    
+
     for ref in referenced:
         if ref.startswith('http') or ref.startswith('#'):
             continue
-        
+
         # Normalize reference
         check_refs = [
             ref,
@@ -146,7 +146,7 @@ def find_broken_references(directory: Path, referenced: set[str], actual_files: 
             f'{ref}.json',
             ref.lstrip('./'),
         ]
-        
+
         found = False
         for check in check_refs:
             if check in actual_files:
@@ -157,44 +157,44 @@ def find_broken_references(directory: Path, referenced: set[str], actual_files: 
             if check_path.exists():
                 found = True
                 break
-        
+
         if not found and ref and '/' in ref:
             broken.append(ref)
-    
+
     return broken
 
 
 def main():
     """Main function."""
     print("=== Finding Dead Paths in Research Directory ===\n")
-    
+
     # Find all files
     actual_files = find_all_files(RESEARCH_DIR)
     print(f"Total files found: {len(actual_files)}")
-    
+
     # Find all references
     referenced = extract_file_references(RESEARCH_DIR)
     print(f"Total references found: {len(referenced)}")
-    
+
     # Find empty directories
     empty_dirs = find_empty_directories(RESEARCH_DIR)
     print(f"\nEmpty directories: {len(empty_dirs)}")
     for d in empty_dirs:
         rel_path = d.relative_to(RESEARCH_DIR)
         print(f"  {rel_path}")
-    
+
     # Find orphaned files
     orphaned = find_orphaned_files(RESEARCH_DIR, referenced, actual_files)
     print(f"\nOrphaned files (not referenced): {len(orphaned)}")
     for f in sorted(orphaned)[:30]:
         print(f"  {f}")
-    
+
     # Find broken references
     broken = find_broken_references(RESEARCH_DIR, referenced, actual_files)
     print(f"\nBroken references: {len(broken)}")
     for ref in sorted(broken)[:20]:
         print(f"  {ref}")
-    
+
     return {
         'empty_dirs': empty_dirs,
         'orphaned': orphaned,
