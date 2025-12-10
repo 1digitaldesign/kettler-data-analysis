@@ -6,7 +6,7 @@ Step-by-step guide to install and set up the Kettler Data Analysis platform.
 
 Before installing, ensure you have:
 
-- Python 3.9 or higher
+- Python 3.10 or higher (Python 3.11+ recommended)
 - pip (Python package manager)
 - Git
 - 2GB free disk space

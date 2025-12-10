@@ -3,7 +3,7 @@
 Property management licensing investigation platform. Python-first architecture.
 
 ![Status](https://img.shields.io/badge/status-100%25%20complete-brightgreen)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Research](https://img.shields.io/badge/research-350%20files-orange)
 
@@ -85,6 +85,8 @@ python bin/run_pipeline.py
 ```
 
 > See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions.
+
+**Requirements:** Python 3.10 or higher (Python 3.11+ recommended)
 
 ---
 
