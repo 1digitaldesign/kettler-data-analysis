@@ -63,7 +63,7 @@ REVIEW_PLATFORMS = [
 def create_social_media_template():
     """Create template for social media and online presence."""
     ONLINE_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     # Social media template
     social_file = ONLINE_DIR / 'social_media.json'
     social_data = {
@@ -80,7 +80,7 @@ def create_social_media_template():
         'social_media_accounts': {},
         'platforms_searched': SOCIAL_MEDIA_PLATFORMS,
     }
-    
+
     for platform in SOCIAL_MEDIA_PLATFORMS:
         social_data['social_media_accounts'][platform['platform']] = {
             'url': None,
@@ -88,10 +88,10 @@ def create_social_media_template():
             'posts': [],
             'followers': None,
         }
-    
+
     social_file.write_text(json.dumps(social_data, indent=2) + '\n')
     print(f"Created {social_file}")
-    
+
     # Reviews template
     reviews_file = ONLINE_DIR / 'reviews.json'
     reviews_data = {
@@ -106,7 +106,7 @@ def create_social_media_template():
     }
     reviews_file.write_text(json.dumps(reviews_data, indent=2) + '\n')
     print(f"Created {reviews_file}")
-    
+
     # Property listings template
     listings_file = ONLINE_DIR / 'property_listings.json'
     listings_data = {
@@ -123,31 +123,31 @@ def create_social_media_template():
     }
     listings_file.write_text(json.dumps(listings_data, indent=2) + '\n')
     print(f"Created {listings_file}")
-    
+
     return social_file
 
 
 def print_search_instructions():
     """Print search instructions."""
     print("=== Social Media and Online Presence Search Instructions ===\n")
-    
+
     print("Company Websites:")
     print("  - Search for Kettler Management website")
     print("  - Document service descriptions")
     print("  - Note geographic scope statements")
     print()
-    
+
     print("LinkedIn:")
     print("  - Company LinkedIn page")
     print("  - Key employee profiles")
     print("  - Role descriptions")
     print()
-    
+
     print("Social Media Platforms:")
     for platform in SOCIAL_MEDIA_PLATFORMS:
         print(f"  {platform['platform']}: {platform['url']}")
     print()
-    
+
     print("Review Platforms:")
     for platform in REVIEW_PLATFORMS:
         print(f"  {platform['platform']}: {platform['url']}")

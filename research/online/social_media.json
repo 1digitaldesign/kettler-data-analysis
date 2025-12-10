@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "date": "2025-12-10",
+    "purpose": "Social media and online presence documentation"
+  },
+  "company_websites": [],
+  "linkedin": {
+    "company_page": null,
+    "employee_profiles": [],
+    "role_descriptions": []
+  },
+  "social_media_accounts": {
+    "LinkedIn": {
+      "url": null,
+      "content": [],
+      "posts": [],
+      "followers": null
+    },
+    "Facebook": {
+      "url": null,
+      "content": [],
+      "posts": [],
+      "followers": null
+    },
+    "Twitter/X": {
+      "url": null,
+      "content": [],
+      "posts": [],
+      "followers": null
+    },
+    "Instagram": {
+      "url": null,
+      "content": [],
+      "posts": [],
+      "followers": null
+    }
+  },
+  "platforms_searched": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/",
+      "search_for": [
+        "Kettler Management",
+        "Company page",
+        "Employee profiles"
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/",
+      "search_for": [
+        "Kettler Management"
+      ]
+    },
+    {
+      "platform": "Twitter/X",
+      "url": "https://twitter.com/",
+      "search_for": [
+        "Kettler Management"
+      ]
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/",
+      "search_for": [
+        "Kettler Management"
+      ]
+    }
+  ]
+}

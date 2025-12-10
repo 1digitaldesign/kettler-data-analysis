@@ -63,7 +63,7 @@ PROPERTY_MANAGEMENT_ASSOCIATIONS = {
 def create_memberships_template():
     """Create template for professional memberships."""
     PROFESSIONAL_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     template = {
         'metadata': {
             'date': datetime.now().strftime('%Y-%m-%d'),
@@ -81,7 +81,7 @@ def create_memberships_template():
             'note': 'CE records if publicly available',
         },
     }
-    
+
     for key, assoc in REAL_ESTATE_ASSOCIATIONS.items():
         template['real_estate_associations'][key] = {
             'name': assoc['name'],
@@ -89,7 +89,7 @@ def create_memberships_template():
             'members': [],
             'search_status': 'pending',
         }
-    
+
     for key, assoc in PROPERTY_MANAGEMENT_ASSOCIATIONS.items():
         template['property_management_associations'][key] = {
             'name': assoc['name'],
@@ -98,11 +98,11 @@ def create_memberships_template():
             'certifications': assoc.get('certifications', []),
             'search_status': 'pending',
         }
-    
+
     filepath = PROFESSIONAL_DIR / 'memberships.json'
     filepath.write_text(json.dumps(template, indent=2) + '\n')
     print(f"Created {filepath}")
-    
+
     # Certifications template
     cert_file = PROFESSIONAL_DIR / 'certifications.json'
     cert_data = {
@@ -116,26 +116,26 @@ def create_memberships_template():
     }
     cert_file.write_text(json.dumps(cert_data, indent=2) + '\n')
     print(f"Created {cert_file}")
-    
+
     return filepath
 
 
 def print_search_instructions():
     """Print search instructions."""
     print("=== Professional Memberships Search Instructions ===\n")
-    
+
     print("Real Estate Associations:")
     for key, assoc in REAL_ESTATE_ASSOCIATIONS.items():
         print(f"  {assoc['name']}: {assoc.get('url', 'N/A')}")
     print()
-    
+
     print("Property Management Associations:")
     for key, assoc in PROPERTY_MANAGEMENT_ASSOCIATIONS.items():
         print(f"  {assoc['name']}: {assoc['url']}")
         if 'certifications' in assoc:
             print(f"    Certifications: {', '.join(assoc['certifications'])}")
     print()
-    
+
     print("Search Terms:")
     print("  - Kettler Management")
     print("  - Caitlin Skidmore")
