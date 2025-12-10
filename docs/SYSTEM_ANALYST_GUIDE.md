@@ -1,13 +1,19 @@
 # System Analyst Guide
 
+![Guide](https://img.shields.io/badge/guide-system%20analyst-blue)
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+
 ## System Purpose
 
 Multi-state property management licensing investigation platform. Analyzes connections, violations, and anomalies across 50 states.
 
 ## Architecture Overview
 
-**Type:** Python-first microservices architecture
-**Pattern:** Unified modules + microservices + API + Web frontend
+| Aspect | Description |
+|--------|-------------|
+| **Type** | Python-first microservices architecture |
+| **Pattern** | Unified modules + microservices + API + Web frontend |
+| **Language** | Python (primary), R (deprecated) |
 
 ## Component Map
 
@@ -89,88 +95,110 @@ flowchart LR
 
 ## Key Components
 
-```mermaid
-graph LR
-    subgraph "UnifiedAnalyzer"
-        UA1[Input: Source Data] --> UA2[Analysis Operations] --> UA3[Output: Results]
-    end
+<details>
+<summary><b>UnifiedAnalyzer</b></summary>
 
-    subgraph "UnifiedSearcher"
-        US1[Input: Queries] --> US2[Search Operations] --> US3[Output: Results]
-    end
+**Input:** Source Data  
+**Operations:** Analysis operations  
+**Output:** Results
 
-    subgraph "ETL Pipeline"
-        ETL1[Input: Documents] --> ETL2[Vector Embeddings] --> ETL3[Output: Vector Store]
-    end
+**Features:**
+- ✅ Connection analysis
+- ✅ Pattern detection
+- ✅ Anomaly identification
 
-    subgraph "API Gateway"
-        AG1[Input: HTTP Requests] --> AG2[Request Routing] --> AG3[Output: Responses]
-    end
+</details>
 
-    style UA2 fill:#FFF9C4
-    style US2 fill:#B3E5FC
-    style ETL2 fill:#C8E6C9
-    style AG2 fill:#E1BEE7
-```
+<details>
+<summary><b>UnifiedSearcher</b></summary>
 
-**UnifiedAnalyzer** (`scripts/core/unified_analysis.py`)
-- Purpose: Analysis operations
-- Input: Source data, evidence
-- Output: Analysis results
+**Input:** Queries  
+**Operations:** Search operations  
+**Output:** Results
 
-**UnifiedSearcher** (`scripts/core/unified_search.py`)
-- Purpose: Search operations
-- Input: Search queries
-- Output: Search results
+**Features:**
+- ✅ Multi-state license searches
+- ✅ Database queries
+- ✅ Web scraping
 
-**ETL Pipeline** (`scripts/etl/etl_pipeline.py`)
-- Purpose: Vector embeddings
-- Input: Documents
-- Output: Vector store
+</details>
 
-**API Gateway** (`microservices/api-gateway/`)
-- Purpose: Request routing
-- Input: HTTP requests
-- Output: Service responses
+<details>
+<summary><b>UnifiedValidator</b></summary>
+
+**Input:** Data  
+**Operations:** Validation  
+**Output:** Validation reports
+
+**Features:**
+- ✅ Schema validation
+- ✅ FK/PK integrity checks
+- ✅ Data quality reports
+
+</details>
 
 ## Entry Points
 
-1. **Pipeline:** `bin/run_pipeline.py`
-2. **All Analyses:** `bin/run_all.py`
-3. **API:** `api/server.py`
-4. **Web:** `web/` (npm run dev)
+| Script | Purpose | Output |
+|--------|---------|--------|
+| `bin/run_pipeline.py` | Full pipeline | All outputs |
+| `bin/run_all.py` | All analyses | Research outputs |
+| `bin/analyze_connections.py` | Connections | `research/connections/` |
+| `bin/validate_data.py` | Validation | `research/verification/` |
 
-## Data Locations
+## Data Organization
 
-**Source:** `data/source/`
-**Raw:** `data/raw/` (gitignored)
-**Cleaned:** `data/cleaned/` (gitignored)
-**Research:** `research/`
-**Research:** `research/{category}/`
+<details>
+<summary><b>Source Data</b> (`data/source/`)</summary>
 
-## Configuration
+- `skidmore_all_firms_complete.json` - 38 firms
+- `skidmore_individual_licenses.json` - Individual licenses
 
-**State Registry:** `config/state_dpor_registry.csv`
-**Environment:** `.env`
-**Docker:** `docker-compose.yml`
-**Kubernetes:** `kubernetes/`
+</details>
 
-## Testing
+<details>
+<summary><b>Cleaned Data</b> (`data/cleaned/`)</summary>
 
-**Unit Tests:** `tests/`
-**Microservice Tests:** `microservices/tests/`
-**Run:** `python -m pytest tests/`
+- `firms.json` - Cleaned firm data
+- `individual_licenses.json` - Cleaned license data
 
-## Deployment
+</details>
 
-**Local:** `python bin/run_pipeline.py`
-**Docker:** `make up`
-**Kubernetes:** `kubectl apply -f kubernetes/`
+<details>
+<summary><b>Research Outputs</b> (`research/`)</summary>
 
-## Documentation
+- `connections/` - Connection analyses
+- `violations/` - Violation findings
+- `anomalies/` - Anomaly reports
+- `evidence/` - Evidence summaries
+- `verification/` - Verification results
+- `summaries/` - Summary reports
+- `timelines/` - Timeline analyses
 
-- [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) - Architecture details
-- [DATA_FLOW.md](DATA_FLOW.md) - Data pipeline
-- [COMPONENTS.md](COMPONENTS.md) - Component reference
-- [API_REFERENCE.md](API_REFERENCE.md) - API endpoints
-- [DEPLOYMENT.md](DEPLOYMENT.md) - Deployment guide
+</details>
+
+## Quick Reference
+
+**Run Pipeline:**
+```bash
+python bin/run_pipeline.py
+```
+
+**Validate Schema:**
+```bash
+python scripts/utils/validate_schema.py --file data/cleaned/firms.json
+```
+
+**Load Data:**
+```python
+from scripts.core import UnifiedAnalyzer
+analyzer = UnifiedAnalyzer()
+analyzer.load_all_data()
+```
+
+## Related Documentation
+
+- [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
+- [Data Flow](DATA_FLOW.md) - Pipeline documentation
+- [Components](COMPONENTS.md) - Component reference
+- [Repository Structure](REPOSITORY_STRUCTURE.md) - Structure details
