@@ -26,7 +26,7 @@ def draw_progress_bar(progress: int, width: int = 30, show_percent: bool = True)
 def get_category_progress():
     """Get progress for all categories."""
     stats = {}
-    
+
     # License Searches
     license_dir = PROJECT_ROOT / 'research/license_searches/data'
     if license_dir.exists():
@@ -42,7 +42,7 @@ def get_category_progress():
         }
     else:
         stats['license'] = {'progress': 0, 'complete': 0, 'total': 15, 'files': 0}
-    
+
     # Company Registrations
     reg_dir = PROJECT_ROOT / 'research/company_registrations'
     if reg_dir.exists():
@@ -56,7 +56,7 @@ def get_category_progress():
         }
     else:
         stats['registrations'] = {'progress': 0, 'complete': 0, 'total': 12}
-    
+
     # Employee Roles
     emp_dir = PROJECT_ROOT / 'research/employees'
     required = ['employee_roles.json', 'organizational_chart.json']
@@ -66,58 +66,58 @@ def get_category_progress():
         'complete': found,
         'total': len(required),
     }
-    
+
     return stats
 
 
 def display_progress_header():
     """Display progress header with current status."""
     stats = get_category_progress()
-    
+
     print("\n" + "=" * 80)
     print(" PROGRESS-GUIDED DATA COLLECTION WORKFLOW".center(80))
     print("=" * 80 + "\n")
-    
+
     print("📊 CURRENT PROGRESS")
     print("-" * 80)
-    
+
     # License Searches
     lic = stats['license']
     bar = draw_progress_bar(lic['progress'])
     print(f"\n1. License Searches:        {bar}")
     print(f"   Status: {lic['complete']}/{lic['total']} states complete ({lic['files']} files)")
-    
+
     # Company Registrations
     reg = stats['registrations']
     bar = draw_progress_bar(reg['progress'])
     print(f"\n2. Company Registrations:  {bar}")
     print(f"   Status: {reg['complete']}/{reg['total']} searches complete")
-    
+
     # Employee Roles
     emp = stats['employees']
     bar = draw_progress_bar(emp['progress'])
     print(f"\n3. Employee Roles:         {bar}")
     print(f"   Status: {emp['complete']}/{emp['total']} files complete")
-    
+
     # Overall
     overall = round((lic['progress'] + reg['progress'] + emp['progress']) / 3)
     overall_bar = draw_progress_bar(overall, width=40)
     print(f"\n   Overall Progress:        {overall_bar}")
-    
+
     print("\n" + "=" * 80 + "\n")
-    
+
     return stats
 
 
 def show_next_tasks():
     """Show next priority tasks with progress tracking."""
     stats = get_category_progress()
-    
+
     print("🎯 NEXT PRIORITY TASKS")
     print("-" * 80 + "\n")
-    
+
     tasks = []
-    
+
     # License Searches
     if stats['license']['progress'] < 100:
         remaining = stats['license']['total'] - stats['license']['complete']
@@ -128,7 +128,7 @@ def show_next_tasks():
             'progress': stats['license']['progress'],
             'action': 'Use complete_license_searches.py to identify remaining searches',
         })
-    
+
     # Company Registrations
     if stats['registrations']['progress'] < 100:
         remaining = stats['registrations']['total'] - stats['registrations']['complete']
@@ -139,7 +139,7 @@ def show_next_tasks():
             'progress': stats['registrations']['progress'],
             'action': 'Use start_company_searches.py to view search queue',
         })
-    
+
     # Property Contracts
     contracts_dir = PROJECT_ROOT / 'research/contracts'
     if contracts_dir.exists():
@@ -158,7 +158,7 @@ def show_next_tasks():
                     'progress': 0,
                     'action': 'Search company website and property databases',
                 })
-    
+
     if not tasks:
         print("✅ All high-priority tasks complete!")
         print("   Move to next categories: Regulatory Complaints, News Coverage, etc.\n")
@@ -170,7 +170,7 @@ def show_next_tasks():
             print(f"   Progress: {bar}")
             print(f"   Action: {task['action']}")
             print()
-    
+
     return tasks
 
 
@@ -179,7 +179,7 @@ def interactive_workflow():
     while True:
         display_progress_header()
         tasks = show_next_tasks()
-        
+
         print("=" * 80)
         print("WORKFLOW OPTIONS")
         print("-" * 80)
@@ -189,9 +189,9 @@ def interactive_workflow():
         print("4. View progress summary")
         print("5. Exit")
         print("-" * 80)
-        
+
         choice = input("\nSelect option (1-5): ").strip()
-        
+
         if choice == '1':
             import subprocess
             subprocess.run(['python3.14', 'scripts/data_collection/live_progress.py'])
@@ -213,33 +213,33 @@ def interactive_workflow():
             break
         else:
             print("\n⚠️  Invalid option. Please select 1-5.\n")
-        
+
         input("Press Enter to continue...")
 
 
 def quick_status():
     """Quick status display."""
     stats = get_category_progress()
-    
+
     print("\n" + "=" * 60)
     print(" QUICK STATUS".center(60))
     print("=" * 60)
-    
+
     categories = [
         ('License Searches', stats['license']),
         ('Company Registrations', stats['registrations']),
         ('Employee Roles', stats['employees']),
     ]
-    
+
     for name, stat in categories:
         bar = draw_progress_bar(stat['progress'], width=25)
         print(f"\n{name:<25} {bar}")
         print(f"{' ' * 25} {stat['complete']}/{stat['total']} complete")
-    
+
     overall = round(sum(s['progress'] for _, s in categories) / len(categories))
     overall_bar = draw_progress_bar(overall, width=25)
     print(f"\n{'Overall':<25} {overall_bar}")
-    
+
     print("\n" + "=" * 60 + "\n")
 
 
