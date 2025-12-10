@@ -1,0 +1,198 @@
+{
+  "_metadata": {
+    "creation_date": "2025-12-07",
+    "version": "1.0.0",
+    "description": "Master index of all research files organized by category",
+    "total_files": 350,
+    "last_updated": "2025-12-07"
+  },
+  "categories": {
+    "connections": {
+      "description": "Connection analyses between firms and individuals",
+      "directory": "research/connections/",
+      "files": [
+        "caitlin_skidmore_connections.json"
+      ],
+      "count": 1
+    },
+    "analysis": {
+      "description": "General analysis outputs",
+      "directory": "research/analysis/",
+      "files": [
+        "all_evidence_summary.json",
+        "real_nexus_analysis.json",
+        "hyland_upl_investigation.json",
+        "email_domain_analysis.json",
+        "connection_matrix.json"
+      ],
+      "count": 15
+    },
+    "license_searches": {
+      "description": "Multi-state license search results",
+      "directory": "research/license_searches/",
+      "subdirectories": {
+        "arizona": {
+          "count": 18,
+          "description": "Arizona DPOR license searches"
+        },
+        "connecticut": {
+          "count": 22,
+          "description": "Connecticut license searches"
+        },
+        "dc": {
+          "count": 21,
+          "description": "DC license searches"
+        },
+        "florida": {
+          "count": 18,
+          "description": "Florida license searches"
+        },
+        "georgia": {
+          "count": 18,
+          "description": "Georgia license searches"
+        },
+        "maryland": {
+          "count": 37,
+          "description": "Maryland license searches"
+        },
+        "new_jersey": {
+          "count": 22,
+          "description": "New Jersey license searches"
+        },
+        "new_mexico": {
+          "count": 18,
+          "description": "New Mexico license searches"
+        },
+        "new_york": {
+          "count": 21,
+          "description": "New York license searches"
+        },
+        "north_carolina": {
+          "count": 18,
+          "description": "North Carolina license searches"
+        },
+        "pennsylvania": {
+          "count": 18,
+          "description": "Pennsylvania license searches"
+        },
+        "south_carolina": {
+          "count": 18,
+          "description": "South Carolina license searches"
+        },
+        "utah": {
+          "count": 18,
+          "description": "Utah license searches"
+        },
+        "virginia": {
+          "count": 19,
+          "description": "Virginia license searches"
+        },
+        "bar_licenses": {
+          "count": 14,
+          "description": "Bar license searches"
+        },
+        "consolidated": {
+          "count": 5,
+          "description": "Consolidated search results"
+        }
+      },
+      "total_count": 285
+    },
+    "va_dpor_complaint": {
+      "description": "VA DPOR complaint research and evidence",
+      "directory": "research/va_dpor_complaint/",
+      "count": 20,
+      "files": [
+        "EXECUTIVE_SUMMARY.json",
+        "PRINCIPAL_BROKER_GAP_ANALYSIS.json",
+        "GEOGRAPHIC_VIOLATION_ANALYSIS.json",
+        "UNLICENSED_PRACTICE_EVIDENCE.json"
+      ]
+    },
+    "reports": {
+      "description": "Summary reports and findings",
+      "directory": "research/reports/",
+      "count": 11,
+      "files": [
+        "ALL_ANOMALIES_SUMMARY.md",
+        "ALL_VIOLATIONS_AND_ANOMALIES.md",
+        "COMPLETE_AUDIT_SUMMARY.md",
+        "COMPREHENSIVE_ANOMALIES_REPORT.md",
+        "COMPREHENSIVE_VIOLATIONS_REPORT.md",
+        "FINAL_NEXUS_FINDINGS.md",
+        "FINAL_VIOLATION_SUMMARY.md",
+        "NEXUS_ANALYSIS_REPORT.md",
+        "RESEARCH_COMPLETION_SUMMARY.md",
+        "validation_report.md",
+        "VIOLATION_AUDIT_COMPLETE.md"
+      ]
+    },
+    "search_results": {
+      "description": "General search results",
+      "directory": "research/search_results/",
+      "count": 3
+    },
+    "address_clusters": {
+      "description": "Address clustering analyses",
+      "directory": "research/address_clusters/",
+      "count": 0
+    },
+    "browser_automation": {
+      "description": "Browser automation documentation",
+      "directory": "research/browser_automation/",
+      "count": 2
+    },
+    "regulatory_agencies": {
+      "description": "Regulatory agency information",
+      "directory": "research/regulatory_agencies/",
+      "count": 0
+    },
+    "root_files": {
+      "description": "Root-level research files",
+      "directory": "research/",
+      "count": 13,
+      "files": [
+        "all_entities_extracted.json",
+        "all_individuals_identified.json",
+        "COMPLAINT_EVIDENCE_COMPILATION.json",
+        "COMPLETE_RESEARCH_INVENTORY.json",
+        "FINAL_COMPLETION_REPORT.json",
+        "FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.json",
+        "FINAL_RESEARCH_EXECUTION_SUMMARY.json",
+        "FINAL_VERIFICATION_REPORT.json",
+        "fraud_indicators.json",
+        "lariat_affiliated_companies.json",
+        "RESEARCH_COMPLETION_FINAL.json",
+        "RESEARCH_EXECUTION_COMPLETE.json",
+        "RESEARCH_EXECUTION_FINAL_STATUS.json",
+        "RESEARCH_EXECUTION_PROGRESS.json",
+        "RESEARCH_PROGRESS_UPDATE.json",
+        "TODO_INVENTORY.json",
+        "virginia_all_companies_list.json",
+        "virginia_companies_extraction_progress.json",
+        "virginia_dpor_skidmore_companies.json",
+        "virginia_dpor_skidmore_licenses.json",
+        "virginia_extraction_batch_progress.json"
+      ]
+    }
+  },
+  "file_types": {
+    "json": 350,
+    "md": 30,
+    "csv": 3,
+    "txt": 5
+  },
+  "key_files": {
+    "master_index": "research/MASTER_RESEARCH_INDEX.json",
+    "executive_summary": "research/va_dpor_complaint/EXECUTIVE_SUMMARY.json",
+    "complaint_ready": "research/RESEARCH_READY_FOR_COMPLAINT.json",
+    "connections": "research/connections/caitlin_skidmore_connections.json",
+    "complete_inventory": "research/COMPLETE_RESEARCH_INVENTORY.json"
+  },
+  "navigation": {
+    "by_category": "Use categories object to find files by research type",
+    "by_state": "Use license_searches subdirectories for state-specific searches",
+    "by_file_type": "Use file_types object for file type counts",
+    "key_files": "Use key_files object for important navigation files"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kettler Data Analysis Global Metadata",
+  "description": "Global metadata for all data in the repository",
+  "version": "1.0.0",
+  "last_updated": "2025-12-07",
+  "data_collection": {
+    "start_date": "2024-10-31",
+    "end_date": "2025-12-07",
+    "collection_methods": [
+      "Web scraping",
+      "Manual search",
+      "API queries",
+      "Evidence extraction"
+    ],
+    "sources": [
+      {
+        "name": "Virginia DPOR",
+        "url": "https://www.dpor.virginia.gov",
+        "type": "Regulatory database",
+        "data_types": ["firm_licenses", "individual_licenses"]
+      },
+      {
+        "name": "Multi-State DPOR Databases",
+        "states": ["VA", "TX", "NC", "MD", "DC", "FL", "GA", "SC", "TN", "WV", "KY"],
+        "type": "Regulatory databases",
+        "data_types": ["individual_licenses"]
+      },
+      {
+        "name": "Airbnb",
+        "url": "https://www.airbnb.com",
+        "type": "Short-term rental platform",
+        "data_types": ["str_listings"]
+      },
+      {
+        "name": "VRBO",
+        "url": "https://www.vrbo.com",
+        "type": "Short-term rental platform",
+        "data_types": ["str_listings"]
+      },
+      {
+        "name": "Evidence Documents",
+        "type": "PDF/Excel files",
+        "data_types": ["legal_documents", "correspondence", "lease_agreements"]
+      }
+    ]
+  },
+  "data_processing": {
+    "processing_date": "2025-12-07",
+    "processing_scripts": [
+      {
+        "script": "bin/clean_data.py",
+        "purpose": "Data cleaning and normalization",
+        "input": "data/source/, data/raw/",
+        "output": "data/cleaned/",
+        "dependencies": ["pandas", "transformers", "re"]
+      },
+      {
+        "script": "bin/analyze_connections.py",
+        "purpose": "Connection analysis",
+        "input": "data/cleaned/",
+        "output": "research/connections/",
+        "dependencies": ["scripts/core/unified_analysis.py"]
+      },
+      {
+        "script": "bin/validate_data.py",
+        "purpose": "Data validation",
+        "input": "data/cleaned/",
+        "output": "research/verification/",
+        "dependencies": ["scripts/utils/validate_schema.py"]
+      },
+      {
+        "script": "scripts/etl/etl_pipeline.py",
+        "purpose": "ETL and vectorization",
+        "input": "data/cleaned/, research/",
+        "output": "data/vectors/",
+        "dependencies": ["transformers", "faiss"]
+      },
+      {
+        "script": "scripts/core/unified_analysis.py",
+        "purpose": "Unified analysis",
+        "input": "data/cleaned/, research/connections/",
+        "output": "research/violations/, research/anomalies/",
+        "dependencies": ["scripts/core/unified_investigation.py"]
+      },
+      {
+        "script": "bin/organize_evidence.py",
+        "purpose": "Evidence extraction",
+        "input": "evidence/",
+        "output": "research/evidence/",
+        "dependencies": ["pdf parsing", "pandas", "transformers"]
+      }
+    ]
+  },
+  "data_statistics": {
+    "firms": {
+      "total_count": 38,
+      "source_file": "data/source/skidmore_all_firms_complete.json",
+      "cleaned_file": "data/cleaned/firms.json",
+      "states": ["VA"],
+      "date_range": {
+        "earliest_license": "2014-10-31",
+        "latest_license": "2025-12-07"
+      }
+    },
+    "individual_licenses": {
+      "total_count": 40,
+      "source_file": "data/source/skidmore_individual_licenses.json",
+      "cleaned_file": "data/cleaned/individual_licenses.json",
+      "states": ["VA", "TX", "NC", "MD", "DC", "FL", "GA", "SC", "TN", "WV", "KY"],
+      "date_range": {
+        "earliest_license": "2014-10-31",
+        "latest_license": "2025-12-07"
+      }
+    },
+    "connections": {
+      "total_count": 100,
+      "source_file": "research/connections/caitlin_skidmore_connections.json",
+      "connection_types": [
+        "Principal Broker",
+        "Same Address",
+        "Same Address as Known Firm",
+        "Known Firm Match",
+        "Professional Association",
+        "Corporate Relationship"
+      ]
+    },
+    "research_outputs": {
+      "total_count": 350,
+      "categories": {
+        "connections": 50,
+        "violations": 30,
+        "anomalies": 40,
+        "evidence": 20,
+        "verification": 25,
+        "timelines": 15,
+        "summaries": 30,
+        "search_results": 80,
+        "analysis": 40,
+        "va_dpor_complaint": 20
+      },
+      "directory": "research/"
+    },
+    "evidence": {
+      "total_count": 10,
+      "types": {
+        "PDF": 6,
+        "Excel": 2,
+        "Email": 1,
+        "Legal Document": 1
+      },
+      "directory": "evidence/"
+    },
+    "vectors": {
+      "total_files": 5,
+      "directory": "data/vectors/",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    }
+  },
+  "data_quality": {
+    "validation_status": "complete",
+    "validation_date": "2025-12-07",
+    "validation_script": "bin/validate_data.py",
+    "quality_metrics": {
+      "license_number_completeness": 1.0,
+      "address_completeness": 0.95,
+      "date_completeness": 0.90,
+      "fk_integrity": 0.98,
+      "duplicate_rate": 0.02
+    },
+    "known_issues": [
+      {
+        "issue": "Some addresses missing state codes",
+        "severity": "low",
+        "affected_records": 5
+      },
+      {
+        "issue": "Some expiration dates missing",
+        "severity": "low",
+        "affected_records": 8
+      }
+    ]
+  },
+  "schema_version": {
+    "version": "1.0.0",
+    "schema_file": "data/schema.json",
+    "last_updated": "2025-12-07",
+    "tables": [
+      "firms",
+      "individual_licenses",
+      "connections",
+      "research_outputs",
+      "violations",
+      "evidence"
+    ]
+  },
+  "version_control": {
+    "git_repository": "https://github.com/1digitaldesign/kettler-data-analysis.git",
+    "current_branch": "main",
+    "last_commit": "2025-12-07",
+    "data_files_tracked": true,
+    "research_files_tracked": true,
+    "evidence_files_tracked": false
+  },
+  "metadata_structure": {
+    "description": "Metadata fields that should be added to individual JSON files",
+    "fields": {
+      "_metadata": {
+        "creation_date": "ISO 8601 date (YYYY-MM-DD)",
+        "source": "Source of the data",
+        "version": "Version number",
+        "processing_script": "Script that generated this file",
+        "description": "Brief description of the file contents"
+      },
+      "_lineage": {
+        "parent_files": "Array of parent file paths",
+        "transformation_steps": "Array of transformation step descriptions",
+        "dependencies": "Array of dependency file paths"
+      },
+      "_validation": {
+        "validated": "Boolean indicating if file has been validated",
+        "validation_date": "ISO 8601 date",
+        "validation_script": "Script used for validation",
+        "issues": "Array of validation issues found"
+      }
+    },
+    "example": {
+      "_metadata": {
+        "creation_date": "2025-12-07",
+        "source": "Virginia DPOR",
+        "version": "1.0.0",
+        "processing_script": "bin/clean_data.py",
+        "description": "Cleaned firm license data"
+      },
+      "_lineage": {
+        "parent_files": ["data/source/skidmore_all_firms_complete.json"],
+        "transformation_steps": [
+          "Normalized firm names",
+          "Standardized addresses",
+          "Parsed dates"
+        ],
+        "dependencies": ["bin/clean_data.py"]
+      },
+      "_validation": {
+        "validated": true,
+        "validation_date": "2025-12-07",
+        "validation_script": "bin/validate_data.py",
+        "issues": []
+      }
+    }
+  },
+  "related_documentation": {
+    "schema": "data/schema.json",
+    "data_dictionary": "data/DATA_DICTIONARY.md",
+    "ontology": "data/ONTOLOGY.md",
+    "ancestry": "data/ANCESTRY.md",
+    "repository_structure": "docs/REPOSITORY_STRUCTURE.md",
+    "data_flow": "docs/DATA_FLOW.md"
+  }
+}

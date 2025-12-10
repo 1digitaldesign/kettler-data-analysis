@@ -2,7 +2,7 @@
 
 Property management licensing investigation platform. Python-first architecture.
 
-**Date:** December 9, 2025  
+**Date:** December 9, 2025
 **Status:** Research Framework 100% Complete - Ready for Complaint Filing
 
 ---
@@ -59,9 +59,9 @@ See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions.
 
 ### Statistics
 
-- **Total Research Files:** 120 JSON files
-- **Files Updated:** 53
-- **Summary Files:** 24
+- **Total Research Files:** 350 JSON files + 30 markdown files
+- **Research Categories:** 10 categories (connections, violations, anomalies, evidence, verification, timelines, summaries, search_results, analysis, va_dpor_complaint)
+- **License Searches:** 285 files across 15 states
 - **Evidence Categories:** 9 (5 DEFINITIVE, 4 STRONG)
 - **Completion:** 100% Framework Complete
 
@@ -139,9 +139,19 @@ cd web && npm run dev  # http://localhost:3000
 - [docs/DATA_FLOW.md](docs/DATA_FLOW.md) - Data pipeline
 - [docs/COMPONENTS.md](docs/COMPONENTS.md) - Component reference
 - [docs/REPOSITORY_STRUCTURE.md](docs/REPOSITORY_STRUCTURE.md) - Repository structure
+- [docs/DIAGRAMS.md](docs/DIAGRAMS.md) - Visual diagrams
+
+**Data Documentation:**
+- [data/schema.json](data/schema.json) - Complete schema with FK/PK relationships
+- [data/DATA_DICTIONARY.md](data/DATA_DICTIONARY.md) - Field definitions and constraints
+- [data/ONTOLOGY.md](data/ONTOLOGY.md) - Conceptual relationships and entities
+- [data/ANCESTRY.md](data/ANCESTRY.md) - Data lineage and transformations
+- [data/metadata.json](data/metadata.json) - Global metadata
+- [data/README.md](data/README.md) - Data directory guide
 
 **Full Documentation:**
 - [docs/INDEX.md](docs/INDEX.md) - Complete documentation index
+- [STATUS.md](STATUS.md) - Current repository status
 
 ## Features
 
@@ -154,5 +164,5 @@ cd web && npm run dev  # http://localhost:3000
 
 ---
 
-**Research Status:** 100% Complete - Ready for Complaint Filing  
+**Research Status:** 100% Complete - Ready for Complaint Filing
 **Last Updated:** December 9, 2025

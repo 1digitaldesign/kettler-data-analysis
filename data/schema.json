@@ -1,0 +1,672 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kettler Data Analysis Schema",
+  "description": "Complete data schema with primary keys (PK) and foreign keys (FK) for all entities",
+  "version": "1.0.0",
+  "tables": {
+    "firms": {
+      "description": "Real estate firm licenses",
+      "primary_key": "firm_license",
+      "primary_key_type": "string",
+      "primary_key_format": "^[0-9]{10}$",
+      "primary_key_description": "10-digit Virginia DPOR license number",
+      "foreign_keys": [
+        {
+          "field": "individual_license",
+          "references": "individual_licenses.license_number",
+          "relationship": "many-to-one",
+          "required": false,
+          "description": "Optional reference to individual license"
+        }
+      ],
+      "fields": {
+        "firm_license": {
+          "type": "string",
+          "required": true,
+          "unique": true,
+          "format": "^[0-9]{10}$",
+          "description": "10-digit Virginia DPOR license number (PK)",
+          "example": "0226025311"
+        },
+        "firm_name": {
+          "type": "string",
+          "required": true,
+          "description": "Legal name of the firm",
+          "example": "KETTLER MANAGEMENT INC"
+        },
+        "license_type": {
+          "type": "string",
+          "required": true,
+          "description": "Type of license",
+          "example": "Real Estate Firm License"
+        },
+        "firm_type": {
+          "type": "string",
+          "required": false,
+          "description": "Legal entity type",
+          "example": "Corporation"
+        },
+        "address": {
+          "type": "string",
+          "required": true,
+          "description": "Business address",
+          "example": "8255 GREENSBORO DR STE 200, MCLEAN, VA 22102"
+        },
+        "state": {
+          "type": "string",
+          "required": true,
+          "format": "^[A-Z]{2}$",
+          "description": "Two-letter state code",
+          "example": "VA"
+        },
+        "principal_broker": {
+          "type": "string",
+          "required": true,
+          "description": "Name of principal broker",
+          "example": "SKIDMORE CAITLIN MARIE"
+        },
+        "initial_cert_date": {
+          "type": "string",
+          "format": "date",
+          "required": false,
+          "description": "Initial certification date (YYYY-MM-DD)",
+          "example": "2014-10-31"
+        },
+        "expiration_date": {
+          "type": "string",
+          "format": "date",
+          "required": false,
+          "description": "License expiration date (YYYY-MM-DD)",
+          "example": "2026-10-31"
+        },
+        "individual_license": {
+          "type": "string",
+          "required": false,
+          "format": "^[0-9]{10}$",
+          "description": "FK to individual_licenses.license_number",
+          "example": "0225258285"
+        },
+        "gap_years": {
+          "type": "number",
+          "required": false,
+          "description": "Years between firm license and principal broker license",
+          "example": 11
+        }
+      },
+      "indexes": [
+        "firm_name",
+        "state",
+        "principal_broker",
+        "address"
+      ],
+      "constraints": {
+        "firm_license_unique": "firm_license must be unique",
+        "principal_broker_required": "principal_broker cannot be null",
+        "address_required": "address cannot be null"
+      }
+    },
+    "individual_licenses": {
+      "description": "Individual real estate licenses",
+      "primary_key": "license_number",
+      "primary_key_type": "string",
+      "primary_key_format": "^[0-9]{10}$",
+      "primary_key_description": "10-digit license number",
+      "foreign_keys": [],
+      "fields": {
+        "license_number": {
+          "type": "string",
+          "required": true,
+          "unique": true,
+          "format": "^[0-9]{10}$",
+          "description": "10-digit license number (PK)",
+          "example": "0225258285"
+        },
+        "name": {
+          "type": "string",
+          "required": true,
+          "description": "License holder name",
+          "example": "SKIDMORE, CAITLIN MARIE"
+        },
+        "address": {
+          "type": "string",
+          "required": false,
+          "description": "Address associated with license",
+          "example": "FRISCO, TX 75034"
+        },
+        "license_type": {
+          "type": "string",
+          "required": true,
+          "description": "Type of license",
+          "example": "Real Estate Individual"
+        },
+        "board": {
+          "type": "string",
+          "required": false,
+          "description": "Regulatory board",
+          "example": "Real Estate Board"
+        },
+        "state": {
+          "type": "string",
+          "required": true,
+          "format": "^[A-Z]{2}$",
+          "description": "Two-letter state code",
+          "example": "TX"
+        },
+        "expiration_date": {
+          "type": "string",
+          "format": "date",
+          "required": false,
+          "description": "License expiration date (YYYY-MM-DD)"
+        }
+      },
+      "indexes": [
+        "name",
+        "state",
+        "license_type"
+      ],
+      "constraints": {
+        "license_number_unique": "license_number must be unique",
+        "name_required": "name cannot be null"
+      }
+    },
+    "connections": {
+      "description": "Connections between firms and individuals",
+      "primary_key": "connection_id",
+      "primary_key_type": "string",
+      "primary_key_format": "^[a-f0-9]{32}$",
+      "primary_key_description": "Auto-generated connection ID (MD5 hash)",
+      "foreign_keys": [
+        {
+          "field": "firm_license",
+          "references": "firms.firm_license",
+          "relationship": "many-to-one",
+          "required": false,
+          "description": "Reference to firm"
+        },
+        {
+          "field": "license_number",
+          "references": "individual_licenses.license_number",
+          "relationship": "many-to-one",
+          "required": false,
+          "description": "Reference to individual license"
+        }
+      ],
+      "fields": {
+        "connection_id": {
+          "type": "string",
+          "required": true,
+          "unique": true,
+          "description": "Auto-generated connection ID (PK)",
+          "example": "abc123def456..."
+        },
+        "firm_license": {
+          "type": "string",
+          "required": false,
+          "format": "^[0-9]{10}$",
+          "description": "FK to firms.firm_license",
+          "example": "0226025311"
+        },
+        "license_number": {
+          "type": "string",
+          "required": false,
+          "format": "^[0-9]{10}$",
+          "description": "FK to individual_licenses.license_number",
+          "example": "0225258285"
+        },
+        "connection_type": {
+          "type": "string",
+          "required": true,
+          "description": "Type of connection",
+          "enum": [
+            "Principal Broker",
+            "Same Address",
+            "Same Address as Known Firm",
+            "Known Firm Match",
+            "Professional Association",
+            "Corporate Relationship"
+          ],
+          "example": "Principal Broker"
+        },
+        "connection_detail": {
+          "type": "string",
+          "required": false,
+          "description": "Detailed description of connection",
+          "example": "Listed as Principal Broker: SKIDMORE CAITLIN MARIE"
+        },
+        "state": {
+          "type": "string",
+          "required": false,
+          "format": "^[A-Z]{2}$",
+          "description": "State where connection exists",
+          "example": "VA"
+        },
+        "firm_name": {
+          "type": "string",
+          "required": false,
+          "description": "Firm name (denormalized for convenience)",
+          "example": "KETTLER MANAGEMENT INC"
+        },
+        "verified": {
+          "type": "boolean",
+          "required": false,
+          "description": "Whether connection has been verified",
+          "default": false
+        },
+        "analysis_date": {
+          "type": "string",
+          "format": "date",
+          "required": false,
+          "description": "Date connection was identified (YYYY-MM-DD)"
+        }
+      },
+      "indexes": [
+        "firm_license",
+        "license_number",
+        "connection_type",
+        "state"
+      ],
+      "constraints": {
+        "connection_id_unique": "connection_id must be unique",
+        "connection_type_required": "connection_type cannot be null"
+      }
+    },
+    "research_outputs": {
+      "description": "Research analysis outputs and findings",
+      "primary_key": "research_id",
+      "primary_key_type": "string",
+      "primary_key_format": "^[a-f0-9]{32}$",
+      "primary_key_description": "Auto-generated research ID (MD5 hash of file path)",
+      "foreign_keys": [
+        {
+          "field": "firm_license",
+          "references": "firms.firm_license",
+          "relationship": "many-to-one",
+          "required": false,
+          "description": "Reference to firm if research is firm-specific"
+        },
+        {
+          "field": "license_number",
+          "references": "individual_licenses.license_number",
+          "relationship": "many-to-one",
+          "required": false,
+          "description": "Reference to individual license if research is license-specific"
+        }
+      ],
+      "fields": {
+        "research_id": {
+          "type": "string",
+          "required": true,
+          "unique": true,
+          "description": "Auto-generated research ID (PK)",
+          "example": "def456ghi789..."
+        },
+        "file_path": {
+          "type": "string",
+          "required": true,
+          "description": "Relative path to research file",
+          "example": "research/connections/caitlin_skidmore_connections.json"
+        },
+        "category": {
+          "type": "string",
+          "required": true,
+          "enum": [
+            "connections",
+            "violations",
+            "anomalies",
+            "evidence",
+            "verification",
+            "timelines",
+            "summaries",
+            "search_results",
+            "analysis",
+            "va_dpor_complaint"
+          ],
+          "description": "Research category",
+          "example": "connections"
+        },
+        "firm_license": {
+          "type": "string",
+          "required": false,
+          "format": "^[0-9]{10}$",
+          "description": "FK to firms.firm_license (if firm-specific)",
+          "example": "0226025311"
+        },
+        "license_number": {
+          "type": "string",
+          "required": false,
+          "format": "^[0-9]{10}$",
+          "description": "FK to individual_licenses.license_number (if license-specific)",
+          "example": "0225258285"
+        },
+        "analysis_date": {
+          "type": "string",
+          "format": "date",
+          "required": false,
+          "description": "Date analysis was performed (YYYY-MM-DD)",
+          "example": "2025-12-07"
+        },
+        "findings_summary": {
+          "type": "string",
+          "required": false,
+          "description": "Brief summary of findings",
+          "example": "Found 38 firms connected to Caitlin Skidmore"
+        },
+        "status": {
+          "type": "string",
+          "required": false,
+          "enum": [
+            "complete",
+            "in_progress",
+            "pending",
+            "verified"
+          ],
+          "description": "Research status",
+          "example": "complete"
+        },
+        "metadata": {
+          "type": "object",
+          "required": false,
+          "description": "Additional metadata from research file"
+        }
+      },
+      "indexes": [
+        "category",
+        "firm_license",
+        "license_number",
+        "analysis_date",
+        "status"
+      ],
+      "constraints": {
+        "research_id_unique": "research_id must be unique",
+        "file_path_unique": "file_path should be unique",
+        "category_required": "category cannot be null"
+      }
+    },
+    "violations": {
+      "description": "Regulatory violations identified",
+      "primary_key": "violation_id",
+      "primary_key_type": "string",
+      "primary_key_format": "^[a-f0-9]{32}$",
+      "primary_key_description": "Auto-generated violation ID",
+      "foreign_keys": [
+        {
+          "field": "firm_license",
+          "references": "firms.firm_license",
+          "relationship": "many-to-one",
+          "required": false,
+          "description": "Reference to firm if violation is firm-specific"
+        },
+        {
+          "field": "license_number",
+          "references": "individual_licenses.license_number",
+          "relationship": "many-to-one",
+          "required": false,
+          "description": "Reference to individual license if violation is license-specific"
+        }
+      ],
+      "fields": {
+        "violation_id": {
+          "type": "string",
+          "required": true,
+          "unique": true,
+          "description": "Auto-generated violation ID (PK)"
+        },
+        "violation_type": {
+          "type": "string",
+          "required": true,
+          "enum": [
+            "Principal Broker Gap",
+            "Geographic Violation",
+            "Supervision Impossibility",
+            "Unlicensed Practice",
+            "Timeline Impossibility",
+            "Regulatory Violation",
+            "50-Mile Rule Violation"
+          ],
+          "description": "Type of violation",
+          "example": "Principal Broker Gap"
+        },
+        "firm_license": {
+          "type": "string",
+          "required": false,
+          "format": "^[0-9]{10}$",
+          "description": "FK to firms.firm_license",
+          "example": "0226025311"
+        },
+        "license_number": {
+          "type": "string",
+          "required": false,
+          "format": "^[0-9]{10}$",
+          "description": "FK to individual_licenses.license_number",
+          "example": "0225258285"
+        },
+        "severity": {
+          "type": "string",
+          "required": false,
+          "enum": [
+            "High",
+            "Medium",
+            "Low"
+          ],
+          "description": "Violation severity",
+          "example": "High"
+        },
+        "description": {
+          "type": "string",
+          "required": true,
+          "description": "Detailed description of violation",
+          "example": "Firm licensed 10.5 years before principal broker"
+        },
+        "evidence_files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "required": false,
+          "description": "List of evidence file paths",
+          "example": ["research/va_dpor_complaint/principal_broker_gap_analysis.json"]
+        },
+        "state": {
+          "type": "string",
+          "required": false,
+          "format": "^[A-Z]{2}$",
+          "description": "State where violation occurred",
+          "example": "VA"
+        },
+        "identified_date": {
+          "type": "string",
+          "format": "date",
+          "required": false,
+          "description": "Date violation was identified (YYYY-MM-DD)"
+        }
+      },
+      "indexes": [
+        "violation_type",
+        "firm_license",
+        "license_number",
+        "severity",
+        "state"
+      ],
+      "constraints": {
+        "violation_id_unique": "violation_id must be unique",
+        "violation_type_required": "violation_type cannot be null"
+      }
+    },
+    "evidence": {
+      "description": "Evidence documents and extracted data",
+      "primary_key": "evidence_id",
+      "primary_key_type": "string",
+      "primary_key_format": "^[a-f0-9]{32}$",
+      "primary_key_description": "Auto-generated evidence ID",
+      "foreign_keys": [
+        {
+          "field": "violation_id",
+          "references": "violations.violation_id",
+          "relationship": "many-to-one",
+          "required": false,
+          "description": "Reference to violation if evidence supports violation"
+        }
+      ],
+      "fields": {
+        "evidence_id": {
+          "type": "string",
+          "required": true,
+          "unique": true,
+          "description": "Auto-generated evidence ID (PK)"
+        },
+        "file_path": {
+          "type": "string",
+          "required": true,
+          "description": "Path to evidence file",
+          "example": "evidence/pdfs/lease_termination.pdf"
+        },
+        "evidence_type": {
+          "type": "string",
+          "required": true,
+          "enum": [
+            "PDF",
+            "Excel",
+            "Email",
+            "Legal Document",
+            "LinkedIn Profile",
+            "Web Page",
+            "Correspondence"
+          ],
+          "description": "Type of evidence",
+          "example": "PDF"
+        },
+        "violation_id": {
+          "type": "string",
+          "required": false,
+          "description": "FK to violations.violation_id"
+        },
+        "extracted_data": {
+          "type": "object",
+          "required": false,
+          "description": "Extracted entities and data from evidence"
+        },
+        "extraction_date": {
+          "type": "string",
+          "format": "date",
+          "required": false,
+          "description": "Date evidence was extracted (YYYY-MM-DD)"
+        },
+        "source": {
+          "type": "string",
+          "required": false,
+          "description": "Source of evidence",
+          "example": "Lease termination document"
+        }
+      },
+      "indexes": [
+        "evidence_type",
+        "violation_id",
+        "extraction_date"
+      ],
+      "constraints": {
+        "evidence_id_unique": "evidence_id must be unique",
+        "file_path_required": "file_path cannot be null"
+      }
+    }
+  },
+  "relationships": [
+    {
+      "from_table": "firms",
+      "from_field": "individual_license",
+      "to_table": "individual_licenses",
+      "to_field": "license_number",
+      "relationship_type": "many-to-one",
+      "required": false,
+      "description": "Firm may reference an individual license"
+    },
+    {
+      "from_table": "connections",
+      "from_field": "firm_license",
+      "to_table": "firms",
+      "to_field": "firm_license",
+      "relationship_type": "many-to-one",
+      "required": false,
+      "description": "Connection references a firm"
+    },
+    {
+      "from_table": "connections",
+      "from_field": "license_number",
+      "to_table": "individual_licenses",
+      "to_field": "license_number",
+      "relationship_type": "many-to-one",
+      "required": false,
+      "description": "Connection references an individual license"
+    },
+    {
+      "from_table": "research_outputs",
+      "from_field": "firm_license",
+      "to_table": "firms",
+      "to_field": "firm_license",
+      "relationship_type": "many-to-one",
+      "required": false,
+      "description": "Research output may reference a firm"
+    },
+    {
+      "from_table": "research_outputs",
+      "from_field": "license_number",
+      "to_table": "individual_licenses",
+      "to_field": "license_number",
+      "relationship_type": "many-to-one",
+      "required": false,
+      "description": "Research output may reference an individual license"
+    },
+    {
+      "from_table": "violations",
+      "from_field": "firm_license",
+      "to_table": "firms",
+      "to_field": "firm_license",
+      "relationship_type": "many-to-one",
+      "required": false,
+      "description": "Violation may reference a firm"
+    },
+    {
+      "from_table": "violations",
+      "from_field": "license_number",
+      "to_table": "individual_licenses",
+      "to_field": "license_number",
+      "relationship_type": "many-to-one",
+      "required": false,
+      "description": "Violation may reference an individual license"
+    },
+    {
+      "from_table": "evidence",
+      "from_field": "violation_id",
+      "to_table": "violations",
+      "to_field": "violation_id",
+      "relationship_type": "many-to-one",
+      "required": false,
+      "description": "Evidence may support a violation"
+    }
+  ],
+  "data_files": {
+    "firms": {
+      "file_path": "data/cleaned/firms.json",
+      "format": "json",
+      "structure": "array",
+      "estimated_records": 38
+    },
+    "individual_licenses": {
+      "file_path": "data/cleaned/individual_licenses.json",
+      "format": "json",
+      "structure": "array",
+      "estimated_records": 40
+    },
+    "connections": {
+      "file_path": "research/connections/caitlin_skidmore_connections.json",
+      "format": "json",
+      "structure": "object",
+      "estimated_records": "variable"
+    },
+    "research_outputs": {
+      "file_path": "research/",
+      "format": "json",
+      "structure": "multiple files",
+      "estimated_records": 350
+    }
+  }
+}
