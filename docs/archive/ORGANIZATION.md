@@ -96,6 +96,6 @@ Source → Extract → Clean → Analyze → Research Outputs
 
 ## Related
 
-- [Repository Structure](REPOSITORY_STRUCTURE.md) - Detailed structure
-- [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
+- [Repository Structure](../REPOSITORY_STRUCTURE.md) - Detailed structure
+- [System Architecture](../SYSTEM_ARCHITECTURE.md) - Complete architecture
 - [System Architecture](../SYSTEM_ARCHITECTURE.md) - Complete architecture (includes components)

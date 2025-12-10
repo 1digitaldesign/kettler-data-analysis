@@ -1780,8 +1780,18 @@
     },
     {
       "source": "docs/archive/COMPONENTS.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "docs/archive/COMPONENTS.md",
       "target": "docs/DOCUMENTATION_GRAPH.md",
       "label": "Documentation Graph"
+    },
+    {
+      "source": "docs/archive/DATA_FLOW.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
     },
     {
       "source": "docs/archive/DATA_FLOW.md",
@@ -1800,6 +1810,16 @@
     },
     {
       "source": "docs/archive/DIAGRAMS.md",
+      "target": "docs/REPOSITORY_STRUCTURE.md",
+      "label": "Repository Structure"
+    },
+    {
+      "source": "docs/archive/ORGANIZATION.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "docs/archive/ORGANIZATION.md",
       "target": "docs/REPOSITORY_STRUCTURE.md",
       "label": "Repository Structure"
     },

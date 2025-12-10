@@ -335,11 +335,15 @@ graph TB
     docs_SYSTEM_ARCHITECTURE_md --> docs_REPOSITORY_STRUCTURE_md
     docs_SYSTEM_ARCHITECTURE_md --> docs_DOCUMENTATION_GRAPH_md
     docs_archive_COMPONENTS_md --> docs_SYSTEM_ARCHITECTURE_md
+    docs_archive_COMPONENTS_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_archive_COMPONENTS_md --> docs_DOCUMENTATION_GRAPH_md
+    docs_archive_DATA_FLOW_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_archive_DATA_FLOW_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_archive_DATA_FLOW_md --> docs_DOCUMENTATION_GRAPH_md
     docs_archive_DIAGRAMS_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_archive_DIAGRAMS_md --> docs_REPOSITORY_STRUCTURE_md
+    docs_archive_ORGANIZATION_md --> docs_SYSTEM_ARCHITECTURE_md
+    docs_archive_ORGANIZATION_md --> docs_REPOSITORY_STRUCTURE_md
     docs_archive_ORGANIZATION_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_archive_ORGANIZATION_md --> docs_SYSTEM_ARCHITECTURE_md
     research_DATA_GUIDE_md --> data_DATA_DICTIONARY_md

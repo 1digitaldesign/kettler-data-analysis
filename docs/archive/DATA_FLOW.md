@@ -148,7 +148,7 @@ python bin/analyze_connections.py  # Step 6: Analysis
 python bin/validate_data.py        # Validation
 ```
 
-> 📘 See [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) for architecture details.
+> 📘 See [System Architecture](../SYSTEM_ARCHITECTURE.md) for complete architecture.
 
 ## Documentation Connections
 

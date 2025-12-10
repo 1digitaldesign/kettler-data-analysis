@@ -210,7 +210,7 @@ analyzer.load_all_data()
 results = analyzer.analyze_all()
 ```
 
-> 📘 See [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) for architecture details.
+> 📘 See [System Architecture](../SYSTEM_ARCHITECTURE.md) for architecture details.
 
 ## Documentation Connections
 
