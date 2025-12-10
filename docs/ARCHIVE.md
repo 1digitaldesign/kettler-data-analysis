@@ -74,5 +74,5 @@ For current status, see [STATUS.md](../STATUS.md).
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2025-12-10
 **Archive Version:** 1.0.0

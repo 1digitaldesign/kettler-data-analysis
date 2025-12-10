@@ -97,6 +97,12 @@
       "category": "system"
     },
     {
+      "id": "docs/DOCUMENTATION_ARCHITECTURE_VERIFICATION.md",
+      "label": "DOCUMENTATION_ARCHITECTURE_VERIFICATION",
+      "path": "docs/DOCUMENTATION_ARCHITECTURE_VERIFICATION.md",
+      "category": "system"
+    },
+    {
       "id": "docs/DOCUMENTATION_GRAPH.md",
       "label": "DOCUMENTATION_GRAPH",
       "path": "docs/DOCUMENTATION_GRAPH.md",
@@ -1652,6 +1658,11 @@
       "source": "docs/INDEX.md",
       "target": "docs/ARCHIVE.md",
       "label": "ARCHIVE.md"
+    },
+    {
+      "source": "docs/INDEX.md",
+      "target": "docs/DOCUMENTATION_ARCHITECTURE_VERIFICATION.md",
+      "label": "DOCUMENTATION_ARCHITECTURE_VERIFICATION.md"
     },
     {
       "source": "docs/INDEX.md",

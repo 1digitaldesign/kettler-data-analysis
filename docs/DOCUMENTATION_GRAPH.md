@@ -34,6 +34,7 @@ graph TB
     subgraph "SYSTEM"
         docs_ARCHIVE_md["ARCHIVE"]
         docs_DEPLOYMENT_md["DEPLOYMENT"]
+        docs_DOCUMENTATION_ARCHITECTURE_VERIFICATION_md["DOCUMENTATION_ARCHITECTURE_VERIFICATION"]
         docs_DOCUMENTATION_GRAPH_md["DOCUMENTATION_GRAPH"]
         docs_INDEX_md["INDEX"]
         docs_REPOSITORY_STRUCTURE_md["REPOSITORY_STRUCTURE"]
@@ -310,6 +311,7 @@ graph TB
     docs_INDEX_md --> docs_SYSTEM_ANALYST_GUIDE_md
     docs_INDEX_md --> docs_DEPLOYMENT_md
     docs_INDEX_md --> docs_ARCHIVE_md
+    docs_INDEX_md --> docs_DOCUMENTATION_ARCHITECTURE_VERIFICATION_md
     docs_INDEX_md --> data_DATA_DICTIONARY_md
     docs_INDEX_md --> data_ONTOLOGY_md
     docs_INDEX_md --> data_ANCESTRY_md
@@ -403,6 +405,7 @@ graph TB
     style STATUS_md fill:#C8E6C9
     style docs_ARCHIVE_md fill:#B3E5FC
     style docs_DEPLOYMENT_md fill:#B3E5FC
+    style docs_DOCUMENTATION_ARCHITECTURE_VERIFICATION_md fill:#B3E5FC
     style docs_DOCUMENTATION_GRAPH_md fill:#B3E5FC
     style docs_INDEX_md fill:#B3E5FC
     style docs_REPOSITORY_STRUCTURE_md fill:#B3E5FC

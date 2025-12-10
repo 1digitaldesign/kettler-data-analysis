@@ -76,5 +76,5 @@ All detailed reports are available in:
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2025-12-10
 **Reports Version:** 1.0.0

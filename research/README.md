@@ -38,8 +38,8 @@ Research files are organized by category and purpose:
 
 ### License searches
 
-**Location:** `license_searches/`  
-**Count:** 285 files across 15 states  
+**Location:** `license_searches/`
+**Count:** 285 files across 15 states
 **Purpose:** Multi-state license search results for individuals and firms
 
 **Structure:**
@@ -58,8 +58,8 @@ Research files are organized by category and purpose:
 
 ### VA DPOR complaint
 
-**Location:** `va_dpor_complaint/`  
-**Count:** 20 files  
+**Location:** `va_dpor_complaint/`
+**Count:** 20 files
 **Purpose:** Complete research package for Virginia DPOR complaint filing
 
 **Key files:**
@@ -70,24 +70,24 @@ Research files are organized by category and purpose:
 
 ### Reports
 
-**Location:** `reports/`  
-**Count:** 11 markdown files  
+**Location:** `reports/`
+**Count:** 11 markdown files
 **Purpose:** Summary reports and findings
 
 **See [REPORTS.md](REPORTS.md) for consolidated report index.**
 
 ### Connections
 
-**Location:** `connections/`  
-**Count:** 1 file  
+**Location:** `connections/`
+**Count:** 1 file
 **Purpose:** Connection analyses between firms and individuals
 
 **File:** `caitlin_skidmore_connections.json`
 
 ### Analysis
 
-**Location:** `analysis/`  
-**Count:** 15 files  
+**Location:** `analysis/`
+**Count:** 15 files
 **Purpose:** General analysis outputs
 
 **Key files:**
@@ -181,5 +181,5 @@ Many markdown files in this directory are historical status updates from during 
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2025-12-10
 **Research Status:** 100% Complete
