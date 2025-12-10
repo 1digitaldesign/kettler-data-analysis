@@ -86,7 +86,7 @@ python bin/run_pipeline.py
 
 > See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions.
 
-**Requirements:** Python 3.11 or higher (Python 3.12+ recommended)
+**Requirements:** Python 3.14 or higher
 
 ---
 

@@ -40,7 +40,7 @@ def extract_links(content: str, file_path: Path) -> list[tuple[str, str]]:
     return links
 
 
-def resolve_link(link_path: str, base_file: Path) -> Tuple[bool, Path]:
+def resolve_link(link_path: str, base_file: Path) -> tuple[bool, Optional[Path]]:
     """Resolve a link path relative to base file."""
     # External links
     if link_path.startswith(('http://', 'https://')):
@@ -98,7 +98,7 @@ def check_all_links() -> dict[str, list[dict]]:
     return results
 
 
-def build_documentation_graph() -> Dict:
+def build_documentation_graph() -> dict:
     """Build a graph of documentation relationships."""
     md_files = find_markdown_files()
     graph = {
@@ -206,8 +206,6 @@ def generate_mermaid_graph(graph: dict) -> str:
 
 
 if __name__ == '__main__':
-    import os
-
     print("Checking documentation links...")
     results = check_all_links()
 
