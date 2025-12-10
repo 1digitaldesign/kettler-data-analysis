@@ -865,6 +865,12 @@
       "category": "research"
     },
     {
+      "id": "research/reports/DATA_COLLECTION_TODOS.md",
+      "label": "DATA_COLLECTION_TODOS",
+      "path": "research/reports/DATA_COLLECTION_TODOS.md",
+      "category": "research"
+    },
+    {
       "id": "research/reports/FINAL_NEXUS_FINDINGS.md",
       "label": "FINAL_NEXUS_FINDINGS",
       "path": "research/reports/FINAL_NEXUS_FINDINGS.md",
@@ -2033,6 +2039,26 @@
     {
       "source": "research/license_searches/reports/INVESTIGATION_SUMMARY.md",
       "target": "research/license_searches/README.md",
+      "label": "Research README"
+    },
+    {
+      "source": "research/reports/DATA_COLLECTION_TODOS.md",
+      "target": "research/license_searches/reports/INVESTIGATION_SUMMARY.md",
+      "label": "Investigation Summary"
+    },
+    {
+      "source": "research/reports/DATA_COLLECTION_TODOS.md",
+      "target": "research/license_searches/reports/EXECUTIVE_SUMMARY_FOR_FILINGS.md",
+      "label": "Executive Summary"
+    },
+    {
+      "source": "research/reports/DATA_COLLECTION_TODOS.md",
+      "target": "research/DATA_GUIDE.md",
+      "label": "Data Guide"
+    },
+    {
+      "source": "research/reports/DATA_COLLECTION_TODOS.md",
+      "target": "research/README.md",
       "label": "Research README"
     },
     {
