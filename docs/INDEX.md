@@ -49,6 +49,7 @@ Technical documentation about the system:
 - [SYSTEM_ANALYST_GUIDE.md](SYSTEM_ANALYST_GUIDE.md) - System analyst guide
 - [DEPLOYMENT.md](DEPLOYMENT.md) - Deployment guide
 - [ARCHIVE.md](ARCHIVE.md) - Historical archive (consolidated status files)
+- [NAMING_CONVENTIONS.md](NAMING_CONVENTIONS.md) - File naming conventions and standards
 - [DOCUMENTATION_ARCHITECTURE_VERIFICATION.md](DOCUMENTATION_ARCHITECTURE_VERIFICATION.md) - Comprehensive verification of documentation-to-code/data alignment
 
 ## Data documentation

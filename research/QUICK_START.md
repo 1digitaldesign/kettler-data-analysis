@@ -10,7 +10,7 @@ Read [README.md](./README.md) for complete overview of all research files and st
 ### Step 2: Find Your Evidence
 - **Need evidence for complaint?** → [COMPLAINT_AMENDMENT_GUIDE.md](./COMPLAINT_AMENDMENT_GUIDE.md)
 - **Quick reference?** → [EVIDENCE_INDEX.md](./EVIDENCE_INDEX.md)
-- **Specific allegation?** → [COMPLAINT_EVIDENCE_COMPILATION.json](./COMPLAINT_EVIDENCE_COMPILATION.json)
+- **Specific allegation?** → [complaint_evidence_compilation.json](./complaint_evidence_compilation.json)
 
 ### Step 3: Use the Evidence
 - Follow the step-by-step guide in `COMPLAINT_AMENDMENT_GUIDE.md`
@@ -29,7 +29,7 @@ Read [README.md](./README.md) for complete overview of all research files and st
    - Evidence organized by allegation
    - Quick lookup guide
 
-3. **COMPLAINT_EVIDENCE_COMPILATION.json** ⭐ ORGANIZED EVIDENCE
+3. **complaint_evidence_compilation.json** ⭐ ORGANIZED EVIDENCE
    - All evidence in JSON format
    - Organized by 7 allegations
 

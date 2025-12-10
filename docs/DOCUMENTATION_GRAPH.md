@@ -107,52 +107,17 @@ graph TB
         research_investigations_virginia_40_licenses_finding_md["virginia-40-licenses-finding"]
         research_investigations_virginia_companies_found_md["virginia-companies-found"]
         research_license_searches_100_PERCENT_COVERAGE_CONFIRMED_md["100_PERCENT_COVERAGE_CONFIRMED"]
-        research_license_searches_ACTION_PLAN_md["ACTION_PLAN"]
-        research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md["ADMINISTRATIVE_FILING_CHECKLIST"]
-        research_license_searches_ALL_FINDINGS_SUMMARY_md["ALL_FINDINGS_SUMMARY"]
-        research_license_searches_AUTOMATION_READY_md["AUTOMATION_READY"]
-        research_license_searches_CAITLIN_SKIDMORE_MULTI_STATE_md["CAITLIN_SKIDMORE_MULTI_STATE"]
-        research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md["COMPLETE_INVESTIGATION_PACKAGE"]
-        research_license_searches_COMPLETE_OPERATIONAL_STATES_SEARCH_md["COMPLETE_OPERATIONAL_STATES_SEARCH"]
-        research_license_searches_COMPREHENSIVE_FINAL_STATUS_md["COMPREHENSIVE_FINAL_STATUS"]
-        research_license_searches_COMPREHENSIVE_PROGRESS_md["COMPREHENSIVE_PROGRESS"]
-        research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md["COMPREHENSIVE_VIOLATIONS_REPORT"]
-        research_license_searches_CONSOLIDATED_FINDINGS_SUMMARY_md["CONSOLIDATED_FINDINGS_SUMMARY"]
-        research_license_searches_CORE_15_EMPLOYEES_LIST_md["CORE_15_EMPLOYEES_LIST"]
-        research_license_searches_CRITICAL_PATTERN_UPDATE_md["CRITICAL_PATTERN_UPDATE"]
-        research_license_searches_DATA_VERIFICATION_FINAL_md["DATA_VERIFICATION_FINAL"]
-        research_license_searches_DMV_COMPLETENESS_VERIFICATION_md["DMV_COMPLETENESS_VERIFICATION"]
-        research_license_searches_DMV_FINAL_STATUS_md["DMV_FINAL_STATUS"]
-        research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md["EXECUTIVE_SUMMARY_FOR_FILINGS"]
-        research_license_searches_FINAL_COMPREHENSIVE_STATUS_md["FINAL_COMPREHENSIVE_STATUS"]
-        research_license_searches_FINAL_REORGANIZATION_SUMMARY_md["FINAL_REORGANIZATION_SUMMARY"]
-        research_license_searches_FINAL_VALIDATION_SUMMARY_md["FINAL_VALIDATION_SUMMARY"]
-        research_license_searches_ISSUES_ENCOUNTERED_md["ISSUES_ENCOUNTERED"]
-        research_license_searches_KEY_FINDINGS_COMPREHENSIVE_md["KEY_FINDINGS_COMPREHENSIVE"]
         research_license_searches_KEY_FINDINGS_DC_md["KEY_FINDINGS_DC"]
-        research_license_searches_LATEST_BATCH_RESULTS_md["LATEST_BATCH_RESULTS"]
-        research_license_searches_LATEST_FINDINGS_md["LATEST_FINDINGS"]
         research_license_searches_LEAH_DOUTHIT_LIDDY_BISANZ_SEARCH_PLAN_md["LEAH_DOUTHIT_LIDDY_BISANZ_SEARCH_PLAN"]
         research_license_searches_LICENSE_SEARCHES_COMPLETE_md["LICENSE_SEARCHES_COMPLETE"]
         research_license_searches_LICENSE_SEARCHES_FINAL_COMPLETE_md["LICENSE_SEARCHES_FINAL_COMPLETE"]
-        research_license_searches_MASTER_INVESTIGATION_REPORT_md["MASTER_INVESTIGATION_REPORT"]
-        research_license_searches_NEXT_STEPS_md["NEXT_STEPS"]
-        research_license_searches_NJ_NY_COMPLETE_SUMMARY_md["NJ_NY_COMPLETE_SUMMARY"]
-        research_license_searches_QUICK_REFERENCE_md["QUICK_REFERENCE"]
         research_license_searches_README_md["README"]
         research_license_searches_READY_FOR_FILINGS_md["READY_FOR_FILINGS"]
         research_license_searches_REORGANIZATION_AND_PROGRESS_md["REORGANIZATION_AND_PROGRESS"]
         research_license_searches_REORGANIZATION_COMPLETE_md["REORGANIZATION_COMPLETE"]
         research_license_searches_ROBERT_KETTLER_SUMMARY_md["ROBERT_KETTLER_SUMMARY"]
         research_license_searches_SEAN_CURTIN_BAR_LICENSE_SEARCH_md["SEAN_CURTIN_BAR_LICENSE_SEARCH"]
-        research_license_searches_SEARCH_COMPLETION_STATUS_md["SEARCH_COMPLETION_STATUS"]
-        research_license_searches_SEARCH_COMPLETION_SUMMARY_md["SEARCH_COMPLETION_SUMMARY"]
-        research_license_searches_SUMMARY_AND_STATUS_md["SUMMARY_AND_STATUS"]
-        research_license_searches_THOMAS_BISANZ_SEARCH_COMPLETE_md["THOMAS_BISANZ_SEARCH_COMPLETE"]
         research_license_searches_UNLICENSED_OPERATIONS_REPORT_md["UNLICENSED_OPERATIONS_REPORT"]
-        research_license_searches_URLS_AND_PROGRESS_md["URLS_AND_PROGRESS"]
-        research_license_searches_VALIDATION_REPORT_md["VALIDATION_REPORT"]
-        research_license_searches_VERIFICATION_COMPLETE_md["VERIFICATION_COMPLETE"]
         research_license_searches_archive_BATCH_SEARCH_PROGRESS_md["BATCH_SEARCH_PROGRESS"]
         research_license_searches_archive_CURRENT_PROGRESS_UPDATE_md["CURRENT_PROGRESS_UPDATE"]
         research_license_searches_archive_CURRENT_SEARCH_STATUS_md["CURRENT_SEARCH_STATUS"]
@@ -171,23 +136,59 @@ graph TB
         research_license_searches_archive_PROGRESS_UPDATE_md["PROGRESS_UPDATE"]
         research_license_searches_archive_REMAINING_WORK_SUMMARY_md["REMAINING_WORK_SUMMARY"]
         research_license_searches_archive_SEARCH_PROGRESS_UPDATE_md["SEARCH_PROGRESS_UPDATE"]
-        research_license_searches_connecticut_BROWSER_AUTOMATION_EXECUTED_md["BROWSER_AUTOMATION_EXECUTED"]
-        research_license_searches_connecticut_CONNECTICUT_SEARCH_STATUS_md["CONNECTICUT_SEARCH_STATUS"]
-        research_license_searches_dc_DC_SEARCH_COMPLETE_md["DC_SEARCH_COMPLETE"]
-        research_license_searches_maryland_ADDITIONAL_MARYLAND_SEARCHES_md["ADDITIONAL_MARYLAND_SEARCHES"]
-        research_license_searches_maryland_CAPTCHA_BYPASS_OPTIONS_md["CAPTCHA_BYPASS_OPTIONS"]
-        research_license_searches_maryland_CAPTCHA_REQUIRED_md["CAPTCHA_REQUIRED"]
-        research_license_searches_maryland_CAPTCHA_SERVICE_SETUP_md["CAPTCHA_SERVICE_SETUP"]
-        research_license_searches_maryland_IMPLEMENTATION_STATUS_md["IMPLEMENTATION_STATUS"]
-        research_license_searches_maryland_MANUAL_CAPTCHA_INSTRUCTIONS_md["MANUAL_CAPTCHA_INSTRUCTIONS"]
-        research_license_searches_maryland_MANUAL_SEARCH_CHECKLIST_md["MANUAL_SEARCH_CHECKLIST"]
-        research_license_searches_maryland_MARYLAND_CAPTCHA_SOLUTION_SUMMARY_md["MARYLAND_CAPTCHA_SOLUTION_SUMMARY"]
-        research_license_searches_maryland_MARYLAND_FINDINGS_SUMMARY_md["MARYLAND_FINDINGS_SUMMARY"]
-        research_license_searches_maryland_MARYLAND_LICENSED_EMPLOYEES_UPDATE_md["MARYLAND_LICENSED_EMPLOYEES_UPDATE"]
-        research_license_searches_maryland_MARYLAND_PROGRESS_md["MARYLAND_PROGRESS"]
-        research_license_searches_maryland_MARYLAND_SEARCH_STATUS_md["MARYLAND_SEARCH_STATUS"]
-        research_license_searches_maryland_MARYLAND_SEARCH_STRATEGY_md["MARYLAND_SEARCH_STRATEGY"]
-        research_license_searches_maryland_SETUP_CAPTCHA_SERVICE_md["SETUP_CAPTCHA_SERVICE"]
+        research_license_searches_archive_completion_status_ALL_FINDINGS_SUMMARY_md["ALL_FINDINGS_SUMMARY"]
+        research_license_searches_archive_completion_status_AUTOMATION_READY_md["AUTOMATION_READY"]
+        research_license_searches_archive_completion_status_CAITLIN_SKIDMORE_MULTI_STATE_md["CAITLIN_SKIDMORE_MULTI_STATE"]
+        research_license_searches_archive_completion_status_COMPLETE_OPERATIONAL_STATES_SEARCH_md["COMPLETE_OPERATIONAL_STATES_SEARCH"]
+        research_license_searches_archive_completion_status_COMPREHENSIVE_FINAL_STATUS_md["COMPREHENSIVE_FINAL_STATUS"]
+        research_license_searches_archive_completion_status_COMPREHENSIVE_PROGRESS_md["COMPREHENSIVE_PROGRESS"]
+        research_license_searches_archive_completion_status_CONSOLIDATED_FINDINGS_SUMMARY_md["CONSOLIDATED_FINDINGS_SUMMARY"]
+        research_license_searches_archive_completion_status_CORE_15_EMPLOYEES_LIST_md["CORE_15_EMPLOYEES_LIST"]
+        research_license_searches_archive_completion_status_CRITICAL_PATTERN_UPDATE_md["CRITICAL_PATTERN_UPDATE"]
+        research_license_searches_archive_completion_status_DATA_VERIFICATION_FINAL_md["DATA_VERIFICATION_FINAL"]
+        research_license_searches_archive_completion_status_DMV_COMPLETENESS_VERIFICATION_md["DMV_COMPLETENESS_VERIFICATION"]
+        research_license_searches_archive_completion_status_DMV_FINAL_STATUS_md["DMV_FINAL_STATUS"]
+        research_license_searches_archive_completion_status_FINAL_COMPREHENSIVE_STATUS_md["FINAL_COMPREHENSIVE_STATUS"]
+        research_license_searches_archive_completion_status_FINAL_REORGANIZATION_SUMMARY_md["FINAL_REORGANIZATION_SUMMARY"]
+        research_license_searches_archive_completion_status_FINAL_VALIDATION_SUMMARY_md["FINAL_VALIDATION_SUMMARY"]
+        research_license_searches_archive_completion_status_ISSUES_ENCOUNTERED_md["ISSUES_ENCOUNTERED"]
+        research_license_searches_archive_completion_status_KEY_FINDINGS_COMPREHENSIVE_md["KEY_FINDINGS_COMPREHENSIVE"]
+        research_license_searches_archive_completion_status_LATEST_BATCH_RESULTS_md["LATEST_BATCH_RESULTS"]
+        research_license_searches_archive_completion_status_LATEST_FINDINGS_md["LATEST_FINDINGS"]
+        research_license_searches_archive_completion_status_NEXT_STEPS_md["NEXT_STEPS"]
+        research_license_searches_archive_completion_status_NJ_NY_COMPLETE_SUMMARY_md["NJ_NY_COMPLETE_SUMMARY"]
+        research_license_searches_archive_completion_status_SEARCH_COMPLETION_STATUS_md["SEARCH_COMPLETION_STATUS"]
+        research_license_searches_archive_completion_status_SEARCH_COMPLETION_SUMMARY_md["SEARCH_COMPLETION_SUMMARY"]
+        research_license_searches_archive_completion_status_SUMMARY_AND_STATUS_md["SUMMARY_AND_STATUS"]
+        research_license_searches_archive_completion_status_THOMAS_BISANZ_SEARCH_COMPLETE_md["THOMAS_BISANZ_SEARCH_COMPLETE"]
+        research_license_searches_archive_completion_status_URLS_AND_PROGRESS_md["URLS_AND_PROGRESS"]
+        research_license_searches_archive_completion_status_VALIDATION_REPORT_md["VALIDATION_REPORT"]
+        research_license_searches_archive_completion_status_VERIFICATION_COMPLETE_md["VERIFICATION_COMPLETE"]
+        research_license_searches_data_connecticut_BROWSER_AUTOMATION_EXECUTED_md["BROWSER_AUTOMATION_EXECUTED"]
+        research_license_searches_data_connecticut_CONNECTICUT_SEARCH_STATUS_md["CONNECTICUT_SEARCH_STATUS"]
+        research_license_searches_data_dc_DC_SEARCH_COMPLETE_md["DC_SEARCH_COMPLETE"]
+        research_license_searches_data_maryland_ADDITIONAL_MARYLAND_SEARCHES_md["ADDITIONAL_MARYLAND_SEARCHES"]
+        research_license_searches_data_maryland_CAPTCHA_BYPASS_OPTIONS_md["CAPTCHA_BYPASS_OPTIONS"]
+        research_license_searches_data_maryland_CAPTCHA_REQUIRED_md["CAPTCHA_REQUIRED"]
+        research_license_searches_data_maryland_CAPTCHA_SERVICE_SETUP_md["CAPTCHA_SERVICE_SETUP"]
+        research_license_searches_data_maryland_IMPLEMENTATION_STATUS_md["IMPLEMENTATION_STATUS"]
+        research_license_searches_data_maryland_MANUAL_CAPTCHA_INSTRUCTIONS_md["MANUAL_CAPTCHA_INSTRUCTIONS"]
+        research_license_searches_data_maryland_MANUAL_SEARCH_CHECKLIST_md["MANUAL_SEARCH_CHECKLIST"]
+        research_license_searches_data_maryland_MARYLAND_CAPTCHA_SOLUTION_SUMMARY_md["MARYLAND_CAPTCHA_SOLUTION_SUMMARY"]
+        research_license_searches_data_maryland_MARYLAND_FINDINGS_SUMMARY_md["MARYLAND_FINDINGS_SUMMARY"]
+        research_license_searches_data_maryland_MARYLAND_LICENSED_EMPLOYEES_UPDATE_md["MARYLAND_LICENSED_EMPLOYEES_UPDATE"]
+        research_license_searches_data_maryland_MARYLAND_PROGRESS_md["MARYLAND_PROGRESS"]
+        research_license_searches_data_maryland_MARYLAND_SEARCH_STATUS_md["MARYLAND_SEARCH_STATUS"]
+        research_license_searches_data_maryland_MARYLAND_SEARCH_STRATEGY_md["MARYLAND_SEARCH_STRATEGY"]
+        research_license_searches_data_maryland_SETUP_CAPTCHA_SERVICE_md["SETUP_CAPTCHA_SERVICE"]
+        research_license_searches_reports_ACTION_PLAN_md["ACTION_PLAN"]
+        research_license_searches_reports_ADMINISTRATIVE_FILING_CHECKLIST_md["ADMINISTRATIVE_FILING_CHECKLIST"]
+        research_license_searches_reports_COMPLETE_INVESTIGATION_PACKAGE_md["COMPLETE_INVESTIGATION_PACKAGE"]
+        research_license_searches_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md["COMPREHENSIVE_VIOLATIONS_REPORT"]
+        research_license_searches_reports_EXECUTIVE_SUMMARY_FOR_FILINGS_md["EXECUTIVE_SUMMARY_FOR_FILINGS"]
+        research_license_searches_reports_INVESTIGATION_SUMMARY_md["INVESTIGATION_SUMMARY"]
+        research_license_searches_reports_MASTER_INVESTIGATION_REPORT_md["MASTER_INVESTIGATION_REPORT"]
+        research_license_searches_reports_QUICK_REFERENCE_md["QUICK_REFERENCE"]
         research_reports_ALL_ANOMALIES_SUMMARY_md["ALL_ANOMALIES_SUMMARY"]
         research_reports_ALL_VIOLATIONS_AND_ANOMALIES_md["ALL_VIOLATIONS_AND_ANOMALIES"]
         research_reports_COMPLETE_AUDIT_SUMMARY_md["COMPLETE_AUDIT_SUMMARY"]
@@ -314,6 +315,7 @@ graph TB
     docs_INDEX_md --> docs_SYSTEM_ANALYST_GUIDE_md
     docs_INDEX_md --> docs_DEPLOYMENT_md
     docs_INDEX_md --> docs_ARCHIVE_md
+    docs_INDEX_md --> docs_NAMING_CONVENTIONS_md
     docs_INDEX_md --> docs_DOCUMENTATION_ARCHITECTURE_VERIFICATION_md
     docs_INDEX_md --> data_DATA_DICTIONARY_md
     docs_INDEX_md --> data_ONTOLOGY_md
@@ -398,16 +400,23 @@ graph TB
     research_investigations_README_md --> research_README_md
     research_investigations_README_md --> research_REPORTS_md
     research_investigations_README_md --> research_DATA_GUIDE_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_archive_FINAL_INVESTIGATION_STATUS_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_archive_INVESTIGATION_COMPLETE_REPORT_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_MASTER_INVESTIGATION_REPORT_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_READY_FOR_FILINGS_md
+    research_license_searches_README_md --> research_license_searches_reports_INVESTIGATION_SUMMARY_md
+    research_license_searches_README_md --> research_license_searches_reports_EXECUTIVE_SUMMARY_FOR_FILINGS_md
+    research_license_searches_README_md --> research_license_searches_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md
+    research_license_searches_README_md --> research_license_searches_reports_ADMINISTRATIVE_FILING_CHECKLIST_md
+    research_license_searches_README_md --> research_license_searches_reports_INVESTIGATION_SUMMARY_md
     research_license_searches_README_md --> research_README_md
     research_license_searches_README_md --> research_REPORTS_md
     research_license_searches_README_md --> research_DATA_GUIDE_md
+    research_license_searches_README_md --> research_license_searches_reports_INVESTIGATION_SUMMARY_md
+    research_license_searches_reports_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_reports_EXECUTIVE_SUMMARY_FOR_FILINGS_md
+    research_license_searches_reports_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md
+    research_license_searches_reports_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_reports_MASTER_INVESTIGATION_REPORT_md
+    research_license_searches_reports_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_reports_ADMINISTRATIVE_FILING_CHECKLIST_md
+    research_license_searches_reports_INVESTIGATION_SUMMARY_md --> research_license_searches_reports_EXECUTIVE_SUMMARY_FOR_FILINGS_md
+    research_license_searches_reports_INVESTIGATION_SUMMARY_md --> research_license_searches_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md
+    research_license_searches_reports_INVESTIGATION_SUMMARY_md --> research_license_searches_reports_MASTER_INVESTIGATION_REPORT_md
+    research_license_searches_reports_INVESTIGATION_SUMMARY_md --> research_license_searches_README_md
     scripts_README_md --> docs_SYSTEM_ARCHITECTURE_md
     scripts_README_md --> docs_SYSTEM_ARCHITECTURE_md
     style INSTALLATION_md fill:#C8E6C9
@@ -490,52 +499,17 @@ graph TB
     style research_investigations_virginia_40_licenses_finding_md fill:#E1BEE7
     style research_investigations_virginia_companies_found_md fill:#E1BEE7
     style research_license_searches_100_PERCENT_COVERAGE_CONFIRMED_md fill:#E1BEE7
-    style research_license_searches_ACTION_PLAN_md fill:#E1BEE7
-    style research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md fill:#E1BEE7
-    style research_license_searches_ALL_FINDINGS_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_AUTOMATION_READY_md fill:#E1BEE7
-    style research_license_searches_CAITLIN_SKIDMORE_MULTI_STATE_md fill:#E1BEE7
-    style research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md fill:#E1BEE7
-    style research_license_searches_COMPLETE_OPERATIONAL_STATES_SEARCH_md fill:#E1BEE7
-    style research_license_searches_COMPREHENSIVE_FINAL_STATUS_md fill:#E1BEE7
-    style research_license_searches_COMPREHENSIVE_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md fill:#E1BEE7
-    style research_license_searches_CONSOLIDATED_FINDINGS_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_CORE_15_EMPLOYEES_LIST_md fill:#E1BEE7
-    style research_license_searches_CRITICAL_PATTERN_UPDATE_md fill:#E1BEE7
-    style research_license_searches_DATA_VERIFICATION_FINAL_md fill:#E1BEE7
-    style research_license_searches_DMV_COMPLETENESS_VERIFICATION_md fill:#E1BEE7
-    style research_license_searches_DMV_FINAL_STATUS_md fill:#E1BEE7
-    style research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md fill:#E1BEE7
-    style research_license_searches_FINAL_COMPREHENSIVE_STATUS_md fill:#E1BEE7
-    style research_license_searches_FINAL_REORGANIZATION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_FINAL_VALIDATION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_ISSUES_ENCOUNTERED_md fill:#E1BEE7
-    style research_license_searches_KEY_FINDINGS_COMPREHENSIVE_md fill:#E1BEE7
     style research_license_searches_KEY_FINDINGS_DC_md fill:#E1BEE7
-    style research_license_searches_LATEST_BATCH_RESULTS_md fill:#E1BEE7
-    style research_license_searches_LATEST_FINDINGS_md fill:#E1BEE7
     style research_license_searches_LEAH_DOUTHIT_LIDDY_BISANZ_SEARCH_PLAN_md fill:#E1BEE7
     style research_license_searches_LICENSE_SEARCHES_COMPLETE_md fill:#E1BEE7
     style research_license_searches_LICENSE_SEARCHES_FINAL_COMPLETE_md fill:#E1BEE7
-    style research_license_searches_MASTER_INVESTIGATION_REPORT_md fill:#E1BEE7
-    style research_license_searches_NEXT_STEPS_md fill:#E1BEE7
-    style research_license_searches_NJ_NY_COMPLETE_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_QUICK_REFERENCE_md fill:#E1BEE7
     style research_license_searches_README_md fill:#E1BEE7
     style research_license_searches_READY_FOR_FILINGS_md fill:#E1BEE7
     style research_license_searches_REORGANIZATION_AND_PROGRESS_md fill:#E1BEE7
     style research_license_searches_REORGANIZATION_COMPLETE_md fill:#E1BEE7
     style research_license_searches_ROBERT_KETTLER_SUMMARY_md fill:#E1BEE7
     style research_license_searches_SEAN_CURTIN_BAR_LICENSE_SEARCH_md fill:#E1BEE7
-    style research_license_searches_SEARCH_COMPLETION_STATUS_md fill:#E1BEE7
-    style research_license_searches_SEARCH_COMPLETION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_SUMMARY_AND_STATUS_md fill:#E1BEE7
-    style research_license_searches_THOMAS_BISANZ_SEARCH_COMPLETE_md fill:#E1BEE7
     style research_license_searches_UNLICENSED_OPERATIONS_REPORT_md fill:#E1BEE7
-    style research_license_searches_URLS_AND_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_VALIDATION_REPORT_md fill:#E1BEE7
-    style research_license_searches_VERIFICATION_COMPLETE_md fill:#E1BEE7
     style research_license_searches_archive_BATCH_SEARCH_PROGRESS_md fill:#E1BEE7
     style research_license_searches_archive_CURRENT_PROGRESS_UPDATE_md fill:#E1BEE7
     style research_license_searches_archive_CURRENT_SEARCH_STATUS_md fill:#E1BEE7
@@ -554,23 +528,59 @@ graph TB
     style research_license_searches_archive_PROGRESS_UPDATE_md fill:#E1BEE7
     style research_license_searches_archive_REMAINING_WORK_SUMMARY_md fill:#E1BEE7
     style research_license_searches_archive_SEARCH_PROGRESS_UPDATE_md fill:#E1BEE7
-    style research_license_searches_connecticut_BROWSER_AUTOMATION_EXECUTED_md fill:#E1BEE7
-    style research_license_searches_connecticut_CONNECTICUT_SEARCH_STATUS_md fill:#E1BEE7
-    style research_license_searches_dc_DC_SEARCH_COMPLETE_md fill:#E1BEE7
-    style research_license_searches_maryland_ADDITIONAL_MARYLAND_SEARCHES_md fill:#E1BEE7
-    style research_license_searches_maryland_CAPTCHA_BYPASS_OPTIONS_md fill:#E1BEE7
-    style research_license_searches_maryland_CAPTCHA_REQUIRED_md fill:#E1BEE7
-    style research_license_searches_maryland_CAPTCHA_SERVICE_SETUP_md fill:#E1BEE7
-    style research_license_searches_maryland_IMPLEMENTATION_STATUS_md fill:#E1BEE7
-    style research_license_searches_maryland_MANUAL_CAPTCHA_INSTRUCTIONS_md fill:#E1BEE7
-    style research_license_searches_maryland_MANUAL_SEARCH_CHECKLIST_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_CAPTCHA_SOLUTION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_FINDINGS_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_LICENSED_EMPLOYEES_UPDATE_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_SEARCH_STATUS_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_SEARCH_STRATEGY_md fill:#E1BEE7
-    style research_license_searches_maryland_SETUP_CAPTCHA_SERVICE_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_ALL_FINDINGS_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_AUTOMATION_READY_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_CAITLIN_SKIDMORE_MULTI_STATE_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_COMPLETE_OPERATIONAL_STATES_SEARCH_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_COMPREHENSIVE_FINAL_STATUS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_COMPREHENSIVE_PROGRESS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_CONSOLIDATED_FINDINGS_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_CORE_15_EMPLOYEES_LIST_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_CRITICAL_PATTERN_UPDATE_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_DATA_VERIFICATION_FINAL_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_DMV_COMPLETENESS_VERIFICATION_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_DMV_FINAL_STATUS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_FINAL_COMPREHENSIVE_STATUS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_FINAL_REORGANIZATION_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_FINAL_VALIDATION_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_ISSUES_ENCOUNTERED_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_KEY_FINDINGS_COMPREHENSIVE_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_LATEST_BATCH_RESULTS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_LATEST_FINDINGS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_NEXT_STEPS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_NJ_NY_COMPLETE_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_SEARCH_COMPLETION_STATUS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_SEARCH_COMPLETION_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_SUMMARY_AND_STATUS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_THOMAS_BISANZ_SEARCH_COMPLETE_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_URLS_AND_PROGRESS_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_VALIDATION_REPORT_md fill:#E1BEE7
+    style research_license_searches_archive_completion_status_VERIFICATION_COMPLETE_md fill:#E1BEE7
+    style research_license_searches_data_connecticut_BROWSER_AUTOMATION_EXECUTED_md fill:#E1BEE7
+    style research_license_searches_data_connecticut_CONNECTICUT_SEARCH_STATUS_md fill:#E1BEE7
+    style research_license_searches_data_dc_DC_SEARCH_COMPLETE_md fill:#E1BEE7
+    style research_license_searches_data_maryland_ADDITIONAL_MARYLAND_SEARCHES_md fill:#E1BEE7
+    style research_license_searches_data_maryland_CAPTCHA_BYPASS_OPTIONS_md fill:#E1BEE7
+    style research_license_searches_data_maryland_CAPTCHA_REQUIRED_md fill:#E1BEE7
+    style research_license_searches_data_maryland_CAPTCHA_SERVICE_SETUP_md fill:#E1BEE7
+    style research_license_searches_data_maryland_IMPLEMENTATION_STATUS_md fill:#E1BEE7
+    style research_license_searches_data_maryland_MANUAL_CAPTCHA_INSTRUCTIONS_md fill:#E1BEE7
+    style research_license_searches_data_maryland_MANUAL_SEARCH_CHECKLIST_md fill:#E1BEE7
+    style research_license_searches_data_maryland_MARYLAND_CAPTCHA_SOLUTION_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_data_maryland_MARYLAND_FINDINGS_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_data_maryland_MARYLAND_LICENSED_EMPLOYEES_UPDATE_md fill:#E1BEE7
+    style research_license_searches_data_maryland_MARYLAND_PROGRESS_md fill:#E1BEE7
+    style research_license_searches_data_maryland_MARYLAND_SEARCH_STATUS_md fill:#E1BEE7
+    style research_license_searches_data_maryland_MARYLAND_SEARCH_STRATEGY_md fill:#E1BEE7
+    style research_license_searches_data_maryland_SETUP_CAPTCHA_SERVICE_md fill:#E1BEE7
+    style research_license_searches_reports_ACTION_PLAN_md fill:#E1BEE7
+    style research_license_searches_reports_ADMINISTRATIVE_FILING_CHECKLIST_md fill:#E1BEE7
+    style research_license_searches_reports_COMPLETE_INVESTIGATION_PACKAGE_md fill:#E1BEE7
+    style research_license_searches_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md fill:#E1BEE7
+    style research_license_searches_reports_EXECUTIVE_SUMMARY_FOR_FILINGS_md fill:#E1BEE7
+    style research_license_searches_reports_INVESTIGATION_SUMMARY_md fill:#E1BEE7
+    style research_license_searches_reports_MASTER_INVESTIGATION_REPORT_md fill:#E1BEE7
+    style research_license_searches_reports_QUICK_REFERENCE_md fill:#E1BEE7
     style research_reports_ALL_ANOMALIES_SUMMARY_md fill:#E1BEE7
     style research_reports_ALL_VIOLATIONS_AND_ANOMALIES_md fill:#E1BEE7
     style research_reports_COMPLETE_AUDIT_SUMMARY_md fill:#E1BEE7

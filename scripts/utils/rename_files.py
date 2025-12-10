@@ -25,7 +25,7 @@ def screaming_snake_to_snake(name: str) -> str:
 def create_renaming_map(directory: Path, file_type: str) -> dict[str, str]:
     """Create renaming map for files in directory."""
     renames = {}
-    
+
     if file_type == 'investigations':
         # Investigation files: SCREAMING_SNAKE → kebab-case
         investigation_map = {
@@ -43,14 +43,14 @@ def create_renaming_map(directory: Path, file_type: str) -> dict[str, str]:
             'VIRGINIA_40_LICENSES_CRITICAL_FINDING.md': 'virginia-40-licenses-finding.md',
             'VIRGINIA_COMPANIES_FOUND.md': 'virginia-companies-found.md',
         }
-        
+
         inv_dir = directory / 'investigations'
         if inv_dir.exists():
             for old_name, new_name in investigation_map.items():
                 old_path = inv_dir / old_name
                 if old_path.exists():
                     renames[str(old_path.relative_to(directory))] = f'investigations/{new_name}'
-    
+
     elif file_type == 'json':
         # JSON files: SCREAMING_SNAKE → snake_case
         json_map = {
@@ -58,24 +58,24 @@ def create_renaming_map(directory: Path, file_type: str) -> dict[str, str]:
             'COMPLETE_RESEARCH_INVENTORY.json': 'complete_research_inventory.json',
             'RESEARCH_INDEX.json': 'research_index.json',
         }
-        
+
         for old_name, new_name in json_map.items():
             old_path = directory / old_name
             if old_path.exists():
                 renames[old_name] = new_name
-    
+
     return renames
 
 
 def update_file_references(directory: Path, renames: dict[str, str]) -> int:
     """Update file references in markdown and JSON files."""
     updated_count = 0
-    
+
     for md_file in directory.rglob('*.md'):
         try:
             content = md_file.read_text()
             original_content = content
-            
+
             for old_name, new_name in renames.items():
                 # Update markdown links
                 content = content.replace(f'({old_name})', f'({new_name})')
@@ -85,34 +85,34 @@ def update_file_references(directory: Path, renames: dict[str, str]) -> int:
                 new_base = Path(new_name).stem
                 content = content.replace(f'({old_base})', f'({new_base})')
                 content = content.replace(f'`{old_base}`', f'`{new_base}`')
-            
+
             if content != original_content:
                 md_file.write_text(content)
                 updated_count += 1
         except Exception:
             pass
-    
+
     return updated_count
 
 
 def main():
     """Main function."""
     research_dir = PROJECT_ROOT / 'research'
-    
+
     print("=== File Renaming Plan ===\n")
-    
+
     # Create renaming maps
     investigation_renames = create_renaming_map(research_dir, 'investigations')
     json_renames = create_renaming_map(research_dir, 'json')
-    
+
     print(f"Investigation files to rename: {len(investigation_renames)}")
     for old, new in sorted(investigation_renames.items()):
         print(f"  {old} → {new}")
-    
+
     print(f"\nJSON files to rename: {len(json_renames)}")
     for old, new in sorted(json_renames.items()):
         print(f"  {old} → {new}")
-    
+
     return {
         'investigations': investigation_renames,
         'json': json_renames
