@@ -135,11 +135,16 @@ python bin/generate_reports.py    # Report generation
 
 ### Data documentation
 
+**Data structure:**
 - [Schema](data/schema.json) - FK/PK relationships
 - [Data Dictionary](data/DATA_DICTIONARY.md) - Field definitions
 - [Ontology](data/ONTOLOGY.md) - Conceptual relationships
 - [Ancestry](data/ANCESTRY.md) - Data lineage
 - [Metadata](data/metadata.json) - Global metadata
+
+**Data governance:**
+- [Data Catalog](data/DATA_CATALOG.md) - Comprehensive data catalog (discoverability, metadata, quality)
+- [Data Governance](data/GOVERNANCE.md) - Governance framework (policies, compliance, security)
 
 ### Documentation index
 

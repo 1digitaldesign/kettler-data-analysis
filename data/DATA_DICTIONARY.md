@@ -342,8 +342,16 @@ erDiagram
 
 ## Related Documentation
 
+### Data documentation
+- 📚 [Data Catalog](./DATA_CATALOG.md) - Data asset catalog and discoverability
+- 🛡️ [Data Governance](./GOVERNANCE.md) - Governance framework and policies
 - 📋 [Schema Definition](./schema.json) - Complete JSON schema
 - 🧠 [Data Ontology](./ONTOLOGY.md) - Conceptual relationships
 - 🔗 [Data Ancestry](./ANCESTRY.md) - Data lineage and transformations
+- 📄 [Metadata Schema](./metadata.json) - Metadata structure definition
+- 📁 [Data README](./README.md) - Data directory guide
+
+### System documentation
+- 📑 [Documentation Index](../docs/INDEX.md) - Complete documentation index
+- 🏗️ [System Architecture](../docs/SYSTEM_ARCHITECTURE.md) - System architecture overview
 - 📁 [Repository Structure](../docs/REPOSITORY_STRUCTURE.md) - File organization
-- 📑 [Documentation Graph](../docs/DOCUMENTATION_GRAPH.md) - Complete documentation network

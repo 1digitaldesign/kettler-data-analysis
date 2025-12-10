@@ -55,9 +55,21 @@
       "category": "data"
     },
     {
+      "id": "data/DATA_CATALOG.md",
+      "label": "DATA_CATALOG",
+      "path": "data/DATA_CATALOG.md",
+      "category": "data"
+    },
+    {
       "id": "data/DATA_DICTIONARY.md",
       "label": "DATA_DICTIONARY",
       "path": "data/DATA_DICTIONARY.md",
+      "category": "data"
+    },
+    {
+      "id": "data/GOVERNANCE.md",
+      "label": "GOVERNANCE",
+      "path": "data/GOVERNANCE.md",
       "category": "data"
     },
     {
@@ -1061,48 +1073,6 @@
       "label": "devtools_scraping_guide",
       "path": "scripts/automation/devtools_scraping_guide.md",
       "category": "other"
-    },
-    {
-      "id": "venv314/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
-      "label": "LICENSE",
-      "path": "venv314/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
-      "category": "other"
-    },
-    {
-      "id": "venv314/lib/python3.14/site-packages/numpy/random/LICENSE.md",
-      "label": "LICENSE",
-      "path": "venv314/lib/python3.14/site-packages/numpy/random/LICENSE.md",
-      "category": "other"
-    },
-    {
-      "id": "venv314/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
-      "label": "LICENSE",
-      "path": "venv314/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
-      "category": "other"
-    },
-    {
-      "id": "venv314/lib/python3.14/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-      "label": "LICENSE",
-      "path": "venv314/lib/python3.14/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-      "category": "other"
-    },
-    {
-      "id": "venv314/lib/python3.14/site-packages/soupsieve-2.8.dist-info/licenses/LICENSE.md",
-      "label": "LICENSE",
-      "path": "venv314/lib/python3.14/site-packages/soupsieve-2.8.dist-info/licenses/LICENSE.md",
-      "category": "other"
-    },
-    {
-      "id": "venv314/lib/python3.14/site-packages/starlette-0.50.0.dist-info/licenses/LICENSE.md",
-      "label": "LICENSE",
-      "path": "venv314/lib/python3.14/site-packages/starlette-0.50.0.dist-info/licenses/LICENSE.md",
-      "category": "other"
-    },
-    {
-      "id": "venv314/lib/python3.14/site-packages/uvicorn-0.38.0.dist-info/licenses/LICENSE.md",
-      "label": "LICENSE",
-      "path": "venv314/lib/python3.14/site-packages/uvicorn-0.38.0.dist-info/licenses/LICENSE.md",
-      "category": "other"
     }
   ],
   "edges": [
@@ -1263,6 +1233,16 @@
     },
     {
       "source": "README.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "README.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "Data Governance"
+    },
+    {
+      "source": "README.md",
       "target": "docs/INDEX.md",
       "label": "Documentation Index"
     },
@@ -1307,6 +1287,96 @@
       "label": "Repository Structure"
     },
     {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/DATA_DICTIONARY.md",
+      "label": "Data Dictionary"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/ONTOLOGY.md",
+      "label": "Data Ontology"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/ANCESTRY.md",
+      "label": "Data Ancestry"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/ANCESTRY.md",
+      "label": "Data Ancestry"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/DATA_DICTIONARY.md",
+      "label": "Data Dictionary"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/ONTOLOGY.md",
+      "label": "Data Ontology"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/ANCESTRY.md",
+      "label": "Data Ancestry"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/DATA_DICTIONARY.md",
+      "label": "Data Dictionary"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/ONTOLOGY.md",
+      "label": "Data Ontology"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/ANCESTRY.md",
+      "label": "Data Ancestry"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "Data Governance"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "data/README.md",
+      "label": "Data README"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "docs/INDEX.md",
+      "label": "Documentation Index"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "docs/SYSTEM_ANALYST_GUIDE.md",
+      "label": "System Analyst Guide"
+    },
+    {
+      "source": "data/DATA_CATALOG.md",
+      "target": "docs/REPOSITORY_STRUCTURE.md",
+      "label": "Repository Structure"
+    },
+    {
+      "source": "data/DATA_DICTIONARY.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "data/DATA_DICTIONARY.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "Data Governance"
+    },
+    {
       "source": "data/DATA_DICTIONARY.md",
       "target": "data/ONTOLOGY.md",
       "label": "Data Ontology"
@@ -1318,18 +1388,83 @@
     },
     {
       "source": "data/DATA_DICTIONARY.md",
+      "target": "data/README.md",
+      "label": "Data README"
+    },
+    {
+      "source": "data/DATA_DICTIONARY.md",
+      "target": "docs/INDEX.md",
+      "label": "Documentation Index"
+    },
+    {
+      "source": "data/DATA_DICTIONARY.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "data/DATA_DICTIONARY.md",
       "target": "docs/REPOSITORY_STRUCTURE.md",
       "label": "Repository Structure"
     },
     {
-      "source": "data/DATA_DICTIONARY.md",
-      "target": "docs/DOCUMENTATION_GRAPH.md",
-      "label": "Documentation Graph"
+      "source": "data/GOVERNANCE.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "data/GOVERNANCE.md",
+      "target": "data/DATA_DICTIONARY.md",
+      "label": "Data Dictionary"
+    },
+    {
+      "source": "data/GOVERNANCE.md",
+      "target": "data/ONTOLOGY.md",
+      "label": "Data Ontology"
+    },
+    {
+      "source": "data/GOVERNANCE.md",
+      "target": "data/ANCESTRY.md",
+      "label": "Data Ancestry"
+    },
+    {
+      "source": "data/GOVERNANCE.md",
+      "target": "data/README.md",
+      "label": "Data README"
+    },
+    {
+      "source": "data/GOVERNANCE.md",
+      "target": "docs/INDEX.md",
+      "label": "Documentation Index"
+    },
+    {
+      "source": "data/GOVERNANCE.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "data/GOVERNANCE.md",
+      "target": "docs/SYSTEM_ANALYST_GUIDE.md",
+      "label": "System Analyst Guide"
+    },
+    {
+      "source": "data/GOVERNANCE.md",
+      "target": "docs/REPOSITORY_STRUCTURE.md",
+      "label": "Repository Structure"
     },
     {
       "source": "data/ONTOLOGY.md",
       "target": "data/DATA_DICTIONARY.md",
       "label": "Data Dictionary"
+    },
+    {
+      "source": "data/ONTOLOGY.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "data/ONTOLOGY.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "Data Governance"
     },
     {
       "source": "data/ONTOLOGY.md",
@@ -1343,8 +1478,33 @@
     },
     {
       "source": "data/ONTOLOGY.md",
+      "target": "data/README.md",
+      "label": "Data README"
+    },
+    {
+      "source": "data/ONTOLOGY.md",
+      "target": "docs/INDEX.md",
+      "label": "Documentation Index"
+    },
+    {
+      "source": "data/ONTOLOGY.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "data/ONTOLOGY.md",
       "target": "docs/REPOSITORY_STRUCTURE.md",
       "label": "Repository Structure"
+    },
+    {
+      "source": "data/README.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "DATA_CATALOG.md"
+    },
+    {
+      "source": "data/README.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "GOVERNANCE.md"
     },
     {
       "source": "data/README.md",
@@ -1360,6 +1520,36 @@
       "source": "data/README.md",
       "target": "data/ANCESTRY.md",
       "label": "ANCESTRY.md"
+    },
+    {
+      "source": "data/README.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "DATA_CATALOG.md"
+    },
+    {
+      "source": "data/README.md",
+      "target": "data/DATA_DICTIONARY.md",
+      "label": "DATA_DICTIONARY.md"
+    },
+    {
+      "source": "data/README.md",
+      "target": "data/ANCESTRY.md",
+      "label": "ANCESTRY.md"
+    },
+    {
+      "source": "data/README.md",
+      "target": "data/ONTOLOGY.md",
+      "label": "ONTOLOGY.md"
+    },
+    {
+      "source": "data/README.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "GOVERNANCE.md"
+    },
+    {
+      "source": "data/README.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "DATA_CATALOG.md"
     },
     {
       "source": "data/README.md",
@@ -1503,6 +1693,16 @@
     },
     {
       "source": "docs/INDEX.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "data/DATA_CATALOG.md"
+    },
+    {
+      "source": "docs/INDEX.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "data/GOVERNANCE.md"
+    },
+    {
+      "source": "docs/INDEX.md",
       "target": "data/README.md",
       "label": "data/README.md"
     },
@@ -1548,6 +1748,16 @@
     },
     {
       "source": "docs/SYSTEM_ANALYST_GUIDE.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "docs/SYSTEM_ANALYST_GUIDE.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "Data Governance"
+    },
+    {
+      "source": "docs/SYSTEM_ANALYST_GUIDE.md",
       "target": "docs/SYSTEM_ARCHITECTURE.md",
       "label": "System Architecture"
     },
@@ -1575,6 +1785,16 @@
       "source": "docs/SYSTEM_ARCHITECTURE.md",
       "target": "data/DATA_DICTIONARY.md",
       "label": "Data Dictionary"
+    },
+    {
+      "source": "docs/SYSTEM_ARCHITECTURE.md",
+      "target": "data/DATA_CATALOG.md",
+      "label": "Data Catalog"
+    },
+    {
+      "source": "docs/SYSTEM_ARCHITECTURE.md",
+      "target": "data/GOVERNANCE.md",
+      "label": "Data Governance"
     },
     {
       "source": "docs/SYSTEM_ARCHITECTURE.md",

@@ -54,13 +54,20 @@ Technical documentation about the system:
 
 ## Data documentation
 
-Documentation about data structure and meaning:
+Documentation about data structure, governance, and management:
 
+### Data structure
 - [data/schema.json](../data/schema.json) - Complete schema with FK/PK
 - [data/DATA_DICTIONARY.md](../data/DATA_DICTIONARY.md) - Field definitions
 - [data/ONTOLOGY.md](../data/ONTOLOGY.md) - Conceptual relationships
 - [data/ANCESTRY.md](../data/ANCESTRY.md) - Data lineage
 - [data/metadata.json](../data/metadata.json) - Global metadata
+
+### Data governance and cataloging
+- [data/DATA_CATALOG.md](../data/DATA_CATALOG.md) - Comprehensive data catalog (discoverability, metadata, quality)
+- [data/GOVERNANCE.md](../data/GOVERNANCE.md) - Data governance framework (policies, compliance, security)
+
+### Data directory
 - [data/README.md](../data/README.md) - Data directory guide
 
 ## Research documentation

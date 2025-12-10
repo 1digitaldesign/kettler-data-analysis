@@ -407,11 +407,20 @@ This governance framework establishes policies, standards, and procedures for ma
 
 ## Related Documentation
 
-- [Data Catalog](./DATA_CATALOG.md) - Data asset catalog
-- [Data Dictionary](./DATA_DICTIONARY.md) - Technical definitions
-- [Data Ontology](./ONTOLOGY.md) - Conceptual model
-- [Data Ancestry](./ANCESTRY.md) - Data lineage
+### Data documentation
+- [Data Catalog](./DATA_CATALOG.md) - Data asset catalog and discoverability
+- [Data Dictionary](./DATA_DICTIONARY.md) - Technical field definitions
+- [Data Ontology](./ONTOLOGY.md) - Conceptual model and relationships
+- [Data Ancestry](./ANCESTRY.md) - Data lineage and transformations
 - [Schema](./schema.json) - JSON Schema definitions
+- [Metadata Schema](./metadata.json) - Metadata structure definition
+- [Data README](./README.md) - Data directory guide
+
+### System documentation
+- [Documentation Index](../docs/INDEX.md) - Complete documentation index
+- [System Architecture](../docs/SYSTEM_ARCHITECTURE.md) - System architecture overview
+- [System Analyst Guide](../docs/SYSTEM_ANALYST_GUIDE.md) - System analyst guide
+- [Repository Structure](../docs/REPOSITORY_STRUCTURE.md) - Repository organization
 
 ---
 

@@ -43,13 +43,33 @@ All data follows normalized schema with **Primary Keys (PK)** and **Foreign Keys
 
 ## Documentation
 
-- **[DATA_CATALOG.md](DATA_CATALOG.md)** - Comprehensive data catalog (discoverability, metadata, quality)
-- **[GOVERNANCE.md](GOVERNANCE.md)** - Data governance framework (policies, compliance, security)
-- **[schema.json](schema.json)** - Complete JSON schema with FK/PK
-- **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)** - Field definitions and constraints
-- **[ONTOLOGY.md](ONTOLOGY.md)** - Conceptual relationships
-- **[ANCESTRY.md](ANCESTRY.md)** - Data lineage and transformations
-- **[metadata.json](metadata.json)** - Global metadata
+### Core data documentation
+
+| Document | Purpose | Audience |
+|----------|---------|----------|
+| [DATA_CATALOG.md](DATA_CATALOG.md) | Data discovery, metadata, quality metrics | All users |
+| [GOVERNANCE.md](GOVERNANCE.md) | Governance policies, compliance, security | Data stewards, compliance team |
+| [schema.json](schema.json) | JSON Schema with FK/PK relationships | Developers, analysts |
+| [DATA_DICTIONARY.md](DATA_DICTIONARY.md) | Field definitions and constraints | Developers, analysts |
+| [ONTOLOGY.md](ONTOLOGY.md) | Conceptual relationships | Analysts, researchers |
+| [ANCESTRY.md](ANCESTRY.md) | Data lineage and transformations | Data engineers, analysts |
+| [metadata.json](metadata.json) | Global metadata structure | All users |
+
+### Quick navigation
+
+**Finding data:**
+- Start with [DATA_CATALOG.md](DATA_CATALOG.md) to discover available data assets
+- Use [DATA_DICTIONARY.md](DATA_DICTIONARY.md) for field-level details
+- Check [ANCESTRY.md](ANCESTRY.md) to understand data lineage
+
+**Understanding data:**
+- Review [ONTOLOGY.md](ONTOLOGY.md) for conceptual relationships
+- Validate against [schema.json](schema.json) for structure
+- Check [metadata.json](metadata.json) for global metadata
+
+**Governance:**
+- See [GOVERNANCE.md](GOVERNANCE.md) for policies and procedures
+- Review [DATA_CATALOG.md](DATA_CATALOG.md) for quality metrics and access controls
 
 ## Data Quality
 

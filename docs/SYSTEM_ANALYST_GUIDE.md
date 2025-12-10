@@ -148,6 +148,18 @@ flowchart LR
 
 ## Data Organization
 
+### Data Governance
+
+The repository follows industry best practices for data governance:
+
+- **[Data Catalog](../data/DATA_CATALOG.md)** - Comprehensive catalog of all data assets with metadata, quality scores, and access controls
+- **[Data Governance](../data/GOVERNANCE.md)** - Governance framework including policies, roles, compliance, and lifecycle management
+- **Data Classification** - Public, Internal, Confidential, Restricted levels
+- **Quality Management** - Quality metrics, monitoring, and improvement processes
+- **Access Management** - Role-based access controls and approval processes
+
+### Data Documentation
+
 <details>
 <summary><b>Source Data</b> (`data/source/`)</summary>
 

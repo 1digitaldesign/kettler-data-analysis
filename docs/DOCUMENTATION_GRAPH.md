@@ -16,13 +16,6 @@ graph TB
         scripts_automation_README_DEVTOOLS_md["README_DEVTOOLS"]
         scripts_automation_UNIVERSAL_SCRAPER_GUIDE_md["UNIVERSAL_SCRAPER_GUIDE"]
         scripts_automation_devtools_scraping_guide_md["devtools_scraping_guide"]
-        venv314_lib_python3_14_site_packages_idna_3_11_dist_info_licenses_LICENSE_md["LICENSE"]
-        venv314_lib_python3_14_site_packages_numpy_random_LICENSE_md["LICENSE"]
-        venv314_lib_python3_14_site_packages_pip__vendor_idna_LICENSE_md["LICENSE"]
-        venv314_lib_python3_14_site_packages_pip_25_3_dist_info_licenses_src_pip__vendor_idna_LICENSE_md["LICENSE"]
-        venv314_lib_python3_14_site_packages_soupsieve_2_8_dist_info_licenses_LICENSE_md["LICENSE"]
-        venv314_lib_python3_14_site_packages_starlette_0_50_0_dist_info_licenses_LICENSE_md["LICENSE"]
-        venv314_lib_python3_14_site_packages_uvicorn_0_38_0_dist_info_licenses_LICENSE_md["LICENSE"]
     end
     subgraph "ROOT"
         INSTALLATION_md["INSTALLATION"]
@@ -32,7 +25,9 @@ graph TB
     end
     subgraph "DATA"
         data_ANCESTRY_md["ANCESTRY"]
+        data_DATA_CATALOG_md["DATA_CATALOG"]
         data_DATA_DICTIONARY_md["DATA_DICTIONARY"]
+        data_GOVERNANCE_md["GOVERNANCE"]
         data_ONTOLOGY_md["ONTOLOGY"]
         data_README_md["README"]
     end
@@ -231,6 +226,8 @@ graph TB
     README_md --> data_DATA_DICTIONARY_md
     README_md --> data_ONTOLOGY_md
     README_md --> data_ANCESTRY_md
+    README_md --> data_DATA_CATALOG_md
+    README_md --> data_GOVERNANCE_md
     README_md --> docs_INDEX_md
     README_md --> docs_DOCUMENTATION_GRAPH_md
     STATUS_md --> README_md
@@ -240,17 +237,59 @@ graph TB
     data_ANCESTRY_md --> data_DATA_DICTIONARY_md
     data_ANCESTRY_md --> data_ONTOLOGY_md
     data_ANCESTRY_md --> docs_REPOSITORY_STRUCTURE_md
+    data_DATA_CATALOG_md --> data_DATA_DICTIONARY_md
+    data_DATA_CATALOG_md --> data_ONTOLOGY_md
+    data_DATA_CATALOG_md --> data_ANCESTRY_md
+    data_DATA_CATALOG_md --> data_ANCESTRY_md
+    data_DATA_CATALOG_md --> data_DATA_DICTIONARY_md
+    data_DATA_CATALOG_md --> data_ONTOLOGY_md
+    data_DATA_CATALOG_md --> data_ANCESTRY_md
+    data_DATA_CATALOG_md --> data_DATA_DICTIONARY_md
+    data_DATA_CATALOG_md --> data_ONTOLOGY_md
+    data_DATA_CATALOG_md --> data_ANCESTRY_md
+    data_DATA_CATALOG_md --> data_GOVERNANCE_md
+    data_DATA_CATALOG_md --> data_README_md
+    data_DATA_CATALOG_md --> docs_INDEX_md
+    data_DATA_CATALOG_md --> docs_SYSTEM_ARCHITECTURE_md
+    data_DATA_CATALOG_md --> docs_SYSTEM_ANALYST_GUIDE_md
+    data_DATA_CATALOG_md --> docs_REPOSITORY_STRUCTURE_md
+    data_DATA_DICTIONARY_md --> data_DATA_CATALOG_md
+    data_DATA_DICTIONARY_md --> data_GOVERNANCE_md
     data_DATA_DICTIONARY_md --> data_ONTOLOGY_md
     data_DATA_DICTIONARY_md --> data_ANCESTRY_md
+    data_DATA_DICTIONARY_md --> data_README_md
+    data_DATA_DICTIONARY_md --> docs_INDEX_md
+    data_DATA_DICTIONARY_md --> docs_SYSTEM_ARCHITECTURE_md
     data_DATA_DICTIONARY_md --> docs_REPOSITORY_STRUCTURE_md
-    data_DATA_DICTIONARY_md --> docs_DOCUMENTATION_GRAPH_md
+    data_GOVERNANCE_md --> data_DATA_CATALOG_md
+    data_GOVERNANCE_md --> data_DATA_DICTIONARY_md
+    data_GOVERNANCE_md --> data_ONTOLOGY_md
+    data_GOVERNANCE_md --> data_ANCESTRY_md
+    data_GOVERNANCE_md --> data_README_md
+    data_GOVERNANCE_md --> docs_INDEX_md
+    data_GOVERNANCE_md --> docs_SYSTEM_ARCHITECTURE_md
+    data_GOVERNANCE_md --> docs_SYSTEM_ANALYST_GUIDE_md
+    data_GOVERNANCE_md --> docs_REPOSITORY_STRUCTURE_md
     data_ONTOLOGY_md --> data_DATA_DICTIONARY_md
+    data_ONTOLOGY_md --> data_DATA_CATALOG_md
+    data_ONTOLOGY_md --> data_GOVERNANCE_md
     data_ONTOLOGY_md --> data_DATA_DICTIONARY_md
     data_ONTOLOGY_md --> data_ANCESTRY_md
+    data_ONTOLOGY_md --> data_README_md
+    data_ONTOLOGY_md --> docs_INDEX_md
+    data_ONTOLOGY_md --> docs_SYSTEM_ARCHITECTURE_md
     data_ONTOLOGY_md --> docs_REPOSITORY_STRUCTURE_md
+    data_README_md --> data_DATA_CATALOG_md
+    data_README_md --> data_GOVERNANCE_md
     data_README_md --> data_DATA_DICTIONARY_md
     data_README_md --> data_ONTOLOGY_md
     data_README_md --> data_ANCESTRY_md
+    data_README_md --> data_DATA_CATALOG_md
+    data_README_md --> data_DATA_DICTIONARY_md
+    data_README_md --> data_ANCESTRY_md
+    data_README_md --> data_ONTOLOGY_md
+    data_README_md --> data_GOVERNANCE_md
+    data_README_md --> data_DATA_CATALOG_md
     data_README_md --> research_README_md
     data_README_md --> docs_REPOSITORY_STRUCTURE_md
     docs_COMPONENTS_md --> docs_SYSTEM_ARCHITECTURE_md
@@ -279,6 +318,8 @@ graph TB
     docs_INDEX_md --> data_DATA_DICTIONARY_md
     docs_INDEX_md --> data_ONTOLOGY_md
     docs_INDEX_md --> data_ANCESTRY_md
+    docs_INDEX_md --> data_DATA_CATALOG_md
+    docs_INDEX_md --> data_GOVERNANCE_md
     docs_INDEX_md --> data_README_md
     docs_INDEX_md --> research_README_md
     docs_INDEX_md --> docs_DEPLOYMENT_md
@@ -288,12 +329,16 @@ graph TB
     docs_ORGANIZATION_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_ORGANIZATION_md --> docs_COMPONENTS_md
     docs_REPOSITORY_STRUCTURE_md --> docs_SYSTEM_ARCHITECTURE_md
+    docs_SYSTEM_ANALYST_GUIDE_md --> data_DATA_CATALOG_md
+    docs_SYSTEM_ANALYST_GUIDE_md --> data_GOVERNANCE_md
     docs_SYSTEM_ANALYST_GUIDE_md --> docs_SYSTEM_ARCHITECTURE_md
     docs_SYSTEM_ANALYST_GUIDE_md --> docs_DATA_FLOW_md
     docs_SYSTEM_ANALYST_GUIDE_md --> docs_COMPONENTS_md
     docs_SYSTEM_ANALYST_GUIDE_md --> docs_REPOSITORY_STRUCTURE_md
     docs_SYSTEM_ARCHITECTURE_md --> data_DATA_DICTIONARY_md
     docs_SYSTEM_ARCHITECTURE_md --> data_DATA_DICTIONARY_md
+    docs_SYSTEM_ARCHITECTURE_md --> data_DATA_CATALOG_md
+    docs_SYSTEM_ARCHITECTURE_md --> data_GOVERNANCE_md
     docs_SYSTEM_ARCHITECTURE_md --> docs_DATA_FLOW_md
     docs_SYSTEM_ARCHITECTURE_md --> docs_COMPONENTS_md
     docs_SYSTEM_ARCHITECTURE_md --> docs_DOCUMENTATION_GRAPH_md
@@ -361,7 +406,9 @@ graph TB
     style docs_archive_status_MICROSERVICES_IMPLEMENTATION_COMPLETE_md fill:#B3E5FC
     style docs_archive_status_REPOSITORY_REORGANIZATION_COMPLETE_md fill:#B3E5FC
     style data_ANCESTRY_md fill:#FFF9C4
+    style data_DATA_CATALOG_md fill:#FFF9C4
     style data_DATA_DICTIONARY_md fill:#FFF9C4
+    style data_GOVERNANCE_md fill:#FFF9C4
     style data_ONTOLOGY_md fill:#FFF9C4
     style data_README_md fill:#FFF9C4
     style research_ALL_STATES_LARIAT_COMPANIES_SEARCH_md fill:#E1BEE7
@@ -512,11 +559,4 @@ graph TB
     style scripts_automation_README_DEVTOOLS_md fill:#D1C4E9
     style scripts_automation_UNIVERSAL_SCRAPER_GUIDE_md fill:#D1C4E9
     style scripts_automation_devtools_scraping_guide_md fill:#D1C4E9
-    style venv314_lib_python3_14_site_packages_idna_3_11_dist_info_licenses_LICENSE_md fill:#D1C4E9
-    style venv314_lib_python3_14_site_packages_numpy_random_LICENSE_md fill:#D1C4E9
-    style venv314_lib_python3_14_site_packages_pip__vendor_idna_LICENSE_md fill:#D1C4E9
-    style venv314_lib_python3_14_site_packages_pip_25_3_dist_info_licenses_src_pip__vendor_idna_LICENSE_md fill:#D1C4E9
-    style venv314_lib_python3_14_site_packages_soupsieve_2_8_dist_info_licenses_LICENSE_md fill:#D1C4E9
-    style venv314_lib_python3_14_site_packages_starlette_0_50_0_dist_info_licenses_LICENSE_md fill:#D1C4E9
-    style venv314_lib_python3_14_site_packages_uvicorn_0_38_0_dist_info_licenses_LICENSE_md fill:#D1C4E9
 ```
