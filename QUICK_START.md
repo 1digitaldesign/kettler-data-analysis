@@ -8,7 +8,7 @@ This guide helps you get started quickly. It covers the essential steps to run y
 
 ## Prerequisites
 
-- Python 3.10+ installed (Python 3.11+ recommended)
+- Python 3.11+ installed (Python 3.12+ recommended)
 - Repository cloned
 - Dependencies installed (see [INSTALLATION.md](INSTALLATION.md))
 

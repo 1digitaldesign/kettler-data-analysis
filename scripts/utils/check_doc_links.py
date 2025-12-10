@@ -9,7 +9,7 @@ import os
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List, Set, Tuple, Optional
+from typing import Dict, List, Set, Optional
 import json
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -44,7 +44,7 @@ def resolve_link(link_path: str, base_file: Path) -> Tuple[bool, Path]:
     # External links
     if link_path.startswith(('http://', 'https://')):
         return True, None
-    
+
     # Anchor links
     if link_path.startswith('#'):
         return True, None
@@ -162,10 +162,10 @@ def determine_category(file_path: str) -> str:
 def generate_mermaid_graph(graph: Dict) -> str:
     """Generate Mermaid.js graph from documentation graph."""
     lines = ['graph TB']
-    
-    # Group nodes by category using defaultdict
+
+    # Group nodes by category using defaultdict (Python 3.11+)
     from collections import defaultdict
-    categories: Dict[str, List[Dict]] = defaultdict(list)
+    categories: defaultdict[str, list[Dict]] = defaultdict(list)
     for node in graph['nodes']:
         categories[node['category']].append(node)
 
