@@ -11,6 +11,7 @@ Fixes common markdown linting issues:
 Uses Python 3.14 features.
 """
 
+import os
 import re
 import sys
 from pathlib import Path
@@ -103,18 +104,20 @@ def fix_markdown_file(file_path: Path) -> tuple[bool, int]:
 def find_markdown_files() -> list[Path]:
     """Find all markdown files in the repository."""
     md_files = []
-    for root, dirs, files in Path(PROJECT_ROOT).rwalk():
+    for root, dirs, files in os.walk(PROJECT_ROOT):
         # Skip hidden directories, venv, node_modules
         dirs[:] = [
             d for d in dirs
             if not d.startswith('.')
             and d != 'node_modules'
             and not d.startswith('venv')
-            and 'venv' not in str(root / d)
+            and 'venv' not in str(Path(root) / d)
         ]
-        for file in files:
-            if file.endswith('.md') and 'venv' not in str(root):
-                md_files.append(root / file)
+        root_path = Path(root)
+        if 'venv' not in str(root_path):
+            for file in files:
+                if file.endswith('.md'):
+                    md_files.append(root_path / file)
     return sorted(md_files)
 
 
