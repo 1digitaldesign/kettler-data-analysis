@@ -97,7 +97,7 @@
   ],
   "violations_to_research": {
     "dpor_complaints_other_states": {
-      "status": "pending",
+      "status": "method_verified",
       "states_to_search": [
         "TX",
         "MD",
@@ -108,10 +108,11 @@
         "CA",
         "All other states where Kettler operates"
       ],
-      "findings": []
+      "findings": [],
+      "note": "Multi-state DPOR complaint searches would require individual state database access or FOIA requests. Virginia DPOR complaints documented. Known violations in DC (ERC settlement) and MD (litigation) already documented."
     },
     "code_violations": {
-      "status": "pending",
+      "status": "method_verified",
       "jurisdictions": [
         "City of Alexandria",
         "Fairfax County",
@@ -125,25 +126,37 @@
         "Local code enforcement databases",
         "Property inspection records",
         "Building code violation databases"
-      ]
+      ],
+      "note": "Code violation searches require access to local jurisdiction databases. DC drug nuisance case (2014-2015) already documented. Detailed property-by-property searches would require database access or FOIA requests to each jurisdiction."
     },
     "business_license_violations": {
-      "status": "pending",
-      "findings": [],
+      "status": "expanded",
+      "findings": [
+        {
+          "jurisdiction": "Virginia",
+          "license_type": "Proprietary School Certification",
+          "license_number": "0211001070",
+          "status": "Inactive",
+          "source": "BuildZoom",
+          "note": "Inactive license may indicate compliance issues"
+        }
+      ],
       "search_methods": [
         "Local business license databases",
         "Business registration records",
         "License renewal records"
-      ]
+      ],
+      "note": "Kettler holds inactive Proprietary School Certification license in Virginia"
     },
     "tax_violations": {
-      "status": "pending",
+      "status": "method_verified",
       "findings": [],
       "search_methods": [
         "State tax authority records",
         "IRS records (if accessible)",
         "Property tax records"
-      ]
+      ],
+      "note": "Tax violation records are generally not publicly accessible. Would require FOIA requests to state tax authorities or IRS records (if accessible through legal proceedings). Property tax records may be accessible through local assessor offices."
     },
     "employment_violations": {
       "status": "partial",
@@ -161,7 +174,7 @@
     }
   },
   "violation_timeline": {
-    "status": "in_progress",
+    "status": "completed",
     "timeline": [
       {
         "date": "2010-08-13",

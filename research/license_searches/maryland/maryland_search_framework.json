@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "Maryland",
+    "url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
+    "method": "Manual CAPTCHA + Browser Automation",
+    "total_employees": 15,
+    "note": "User must manually complete CAPTCHA for each search. Script waits for button to become enabled."
+  },
+  "searches": {
+    "employee_1": {
+      "name": "Edward Hyland",
+      "last_name": "Hyland",
+      "first_name": "Edward",
+      "priority": "HIGH",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_2": {
+      "name": "Robert Kettler",
+      "last_name": "Kettler",
+      "first_name": "Robert",
+      "priority": "HIGH",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_3": {
+      "name": "Caitlin Skidmore",
+      "last_name": "Skidmore",
+      "first_name": "Caitlin",
+      "priority": "HIGH",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_4": {
+      "name": "Cindy Fisher",
+      "last_name": "Fisher",
+      "first_name": "Cindy",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_5": {
+      "name": "Luke Davis",
+      "last_name": "Davis",
+      "first_name": "Luke",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_6": {
+      "name": "Pat Cassada",
+      "last_name": "Cassada",
+      "first_name": "Pat",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_7": {
+      "name": "Sean Curtin",
+      "last_name": "Curtin",
+      "first_name": "Sean",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_8": {
+      "name": "Amy Groff",
+      "last_name": "Groff",
+      "first_name": "Amy",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_9": {
+      "name": "Robert Grealy",
+      "last_name": "Grealy",
+      "first_name": "Robert",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_10": {
+      "name": "Djene Moyer",
+      "last_name": "Moyer",
+      "first_name": "Djene",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_11": {
+      "name": "Henry Ramos",
+      "last_name": "Ramos",
+      "first_name": "Henry",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_12": {
+      "name": "Kristina Thoummarath",
+      "last_name": "Thoummarath",
+      "first_name": "Kristina",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_13": {
+      "name": "Christina Chang",
+      "last_name": "Chang",
+      "first_name": "Christina",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_14": {
+      "name": "Todd Bowen",
+      "last_name": "Bowen",
+      "first_name": "Todd",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    },
+    "employee_15": {
+      "name": "Jeffrey Williams",
+      "last_name": "Williams",
+      "first_name": "Jeffrey",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "captcha_completed": false,
+      "search_executed": false,
+      "results_found": "pending"
+    }
+  }
+}

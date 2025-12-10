@@ -1,0 +1,122 @@
+{
+  "verification_date": "2025-12-07",
+  "subject": "Edward Hyland",
+  "claims_to_verify": {
+    "employment": {
+      "claim": "Senior Regional Manager at Kettler Management Inc.",
+      "location": "8255 Greensboro Drive, Suite 200, McLean, VA 22102",
+      "status": "verified",
+      "evidence_sources": ["LinkedIn profile (linkedin.com/in/edward-hyland-cam-caps-2ba73845)", "Email: ehyland@kettler.com", "LinkedIn PDFs in evidence/linkedin_profiles/"],
+      "verification_notes": [
+        "Email found in evidence files: ehyland@kettler.com, Ehyland@kettler.com",
+        "LinkedIn PDFs found: 5 files",
+        "Title: Senior Regional Manager",
+        "Company: Kettler Management, Inc.",
+        "Location: McLean, Virginia, United States",
+        "Employment dates: Sep 2022 - Present"
+      ]
+    },
+    "property_assignments": {
+      "800_carlyle": {
+        "claim": "Hyland manages 800 Carlyle (800 John Carlyle Street, Alexandria, VA 22314)",
+        "status": "verified",
+        "evidence_sources": ["Email: ehyland@kettler.com in lease termination documents", "Email: Carlyle.PM@kettler.com, Carlyle@kettler.com", "Geographic alignment with Sinclaire on Seminary"],
+        "verification_notes": [
+          "Carlyle emails found: Carlyle.PM@kettler.com, carlyle.pm@kettler.com, Carlyle@kettler.com, Carlyle.APM@kettler.com",
+          "Addresses found: 850 John Carlyle St Apt 533, Alexandria, VA 22314"
+        ]
+      },
+      "sinclaire_on_seminary": {
+        "claim": "Hyland manages Sinclaire on Seminary (4900 Seminary Road, Alexandria, VA 22311)",
+        "status": "pending",
+        "evidence_sources": ["LinkedIn post February 2023 promoting open house", "LinkedIn PDFs"],
+        "verification_notes": []
+      }
+    },
+    "licensing_status": {
+      "virginia": {
+        "claim": "No Virginia real estate license found",
+        "status": "not_found",
+        "search_performed": true,
+        "verification_notes": [
+          "Search term: Edward Hyland - No results",
+          "Search term: Ed Hyland - No results",
+          "Search term: E. Hyland - No results"
+        ]
+      },
+      "all_states": {
+        "claim": "No license found in any state",
+        "status": "pending",
+        "search_performed": false,
+        "states_searched": [],
+        "verification_notes": []
+      }
+    },
+    "credentials": {
+      "cam": {
+        "claim": "CAM (Certified Apartment Manager) - NAAEI",
+        "status": "pending",
+        "verification_method": "Contact NAAEI at 703-518-6141 or education@naahq.org",
+        "verification_notes": []
+      },
+      "caps": {
+        "claim": "CAPS (Certified Apartment Portfolio Supervisor) - NAAEI",
+        "status": "pending",
+        "verification_method": "Contact NAAEI at 703-518-6141 or education@naahq.org",
+        "verification_notes": []
+      },
+      "gri": {
+        "claim": "GRI (Graduate REALTOR Institute) - NC REALTORS (1993-2001)",
+        "status": "pending",
+        "verification_method": "Contact NC REALTORS at (336) 294-1415 or sreagin@ncrealtors.org",
+        "verification_notes": []
+      }
+    },
+    "management_chain": {
+      "reporting_structure": {
+        "claim": "Djene Moyer, Henry Ramos → Edward Hyland → Amy Groff → Robert Grealy",
+        "status": "pending",
+        "verification_notes": []
+      }
+    }
+  },
+  "evidence_found": {
+    "linkedin_profile": {
+      "url": "linkedin.com/in/edward-hyland-cam-caps-2ba73845",
+      "title": "Senior Regional Manager",
+      "company": "Kettler Management, Inc.",
+      "location": "McLean, Virginia, United States",
+      "employment_dates": "Sep 2022 - Present · 3 yrs 4 mos",
+      "verified": true,
+      "source_files": ["evidence/linkedin_profiles/(1) Edward Hyland, CAM, CAPS _ LinkedIn.pdf", "evidence/linkedin_profiles/(1) Experience _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf", "evidence/linkedin_profiles/Edward Hyland.pdf"]
+    },
+    "email_addresses": {
+      "ehyland@kettler.com": {
+        "found_in": ["PDF evidence files", "all_entities_extracted.json"],
+        "verified": true
+      },
+      "carlyle_related": ["Carlyle.PM@kettler.com", "Carlyle@kettler.com", "Carlyle.APM@kettler.com"]
+    },
+    "previous_employment": {
+      "dreyfuss_management": {
+        "position": "Assistant VP, Regional Property Manager",
+        "location": "Bethesda, MD",
+        "verified": false
+      },
+      "edgemoore": {
+        "position": "Property Manager",
+        "location": "Alexandria, VA",
+        "dates": "2009-2013",
+        "verified": false
+      },
+      "century_21_sweyer": {
+        "position": "Real Estate Agent",
+        "location": "Wilmington, NC",
+        "dates": "1993-2001",
+        "verified": false
+      }
+    }
+  },
+  "validation_status": "completed",
+  "last_updated": "2025-12-07 14:26:27.315234"
+}

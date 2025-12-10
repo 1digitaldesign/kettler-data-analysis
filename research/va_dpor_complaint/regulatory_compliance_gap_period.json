@@ -10,7 +10,7 @@
   "data_collection_status": "in_progress",
   "regulatory_issues": {
     "dpor_complaints": {
-      "status": "pending",
+      "status": "method_verified_foia_required",
       "search_period": "2014-10-31 to 2025-04-03",
       "firm_name": "Kettler Management Inc",
       "license_number": "0226025311",
@@ -20,7 +20,17 @@
         "FOIA request for complaint records",
         "Public records search"
       ],
-      "notes": "DPOR complaint database may not be publicly accessible - FOIA request may be necessary"
+      "notes": "DPOR does not provide publicly accessible complaint database. Must submit FOIA request to Information Management Section.",
+      "foia_contact": {
+        "email": "PublicRecords@dpor.virginia.gov",
+        "fax": "(866) 254-0312",
+        "complaint_analysis_email": "ComplaintAnalysis@dpor.virginia.gov",
+        "complaint_analysis_phone": "(804) 367-8504",
+        "complaint_filing_email": "complaintanalysis@dpor.virginia.gov",
+        "complaint_filing_fax": "(866) 282-3932",
+        "mailing_address": "Department of Professional and Occupational Regulation, Compliance and Investigations Division, Complaint Analysis & Resolution, 9960 Mayland Drive, Suite 400, Richmond, Virginia 23233-1485"
+      },
+      "complaint_filing_note": "Complaints must be submitted in writing within three years of the act, omission, or occurrence"
     },
     "code_violations": {
       "status": "partial",
@@ -65,7 +75,7 @@
       ]
     },
     "fair_housing_complaints": {
-      "status": "pending",
+      "status": "expanded",
       "findings": [
         {
           "case": "Equal Rights Center v. Kettler Management",
@@ -74,13 +84,34 @@
           "properties": "6 DC properties",
           "violation_type": "Source of income discrimination",
           "note": "Settlement occurred during gap period but involved DC properties, not VA"
+        },
+        {
+          "case": "ERC Investigation",
+          "investigation_period": "July 2022 to September 2023",
+          "complaint_filed": "2023-09-12",
+          "violation": "Unlawful refusal to accept housing vouchers",
+          "properties": "Multiple DC properties",
+          "significance": "Policies directed from top of organization, affecting multiple properties",
+          "source": "Equal Rights Center press release and complaint"
+        },
+        {
+          "case": "Undercover Testing",
+          "date": "2023",
+          "violation": "Voucher discrimination found at Kettler properties",
+          "significance": "Discrimination practices directed from top of organization, not just lower-level employees",
+          "source": "Washington City Paper investigation"
         }
       ],
       "search_methods": [
-        "HUD complaint database",
+        "HUD complaint database (HEMS - not publicly accessible)",
         "Fair housing organization records",
         "Court records"
-      ]
+      ],
+      "hud_database": {
+        "name": "HUD Enforcement Management System (HEMS)",
+        "status": "Not publicly accessible",
+        "note": "Documents housing discrimination complaints and investigations but requires official access"
+      }
     },
     "business_license_violations": {
       "status": "pending",

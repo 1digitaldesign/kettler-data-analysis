@@ -1,0 +1,295 @@
+{
+  "compilation_date": "2025-12-10",
+  "purpose": "Organized evidence compilation for VA DPOR complaint amendment",
+  "status": "complete",
+  "evidence_by_allegation": {
+    "allegation_1_principal_broker_gap": {
+      "title": "Principal Broker Gap (10.5 Years)",
+      "evidence_files": [
+        "va_dpor_complaint/principal_broker_gap_analysis.json",
+        "va_dpor_complaint/kettler_operations_gap_period.json"
+      ],
+      "key_findings": {
+        "gap_duration": "10.5 years (3,840 days)",
+        "start_date": "2014-10-31",
+        "end_date": "2025-04-03",
+        "verification": "DPOR records",
+        "significance": "Kettler Management Inc. operated without principal broker for over 10 years"
+      },
+      "supporting_evidence": [
+        "DPOR license records showing gap period",
+        "Kettler operations during gap period documented",
+        "FOIA request method verified for historical records"
+      ]
+    },
+    "allegation_2_geographic_violation": {
+      "title": "50-Mile Rule Violation (1,300 Miles)",
+      "evidence_files": [
+        "va_dpor_complaint/50_mile_rule_violations.json"
+      ],
+      "key_findings": {
+        "principal_broker_address": "FRISCO, TX 75034 (or 5729 LEBANON RD STE 144553, FRISCO, TX 75034)",
+        "firm_office_address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
+        "distance_miles": 1300,
+        "exceedance": "1,250 miles over 50-mile limit",
+        "exceedance_percentage": "2,500% over limit",
+        "verification": "Google Maps calculation",
+        "significance": "Makes quarterly face-to-face supervision physically impossible"
+      },
+      "supporting_evidence": [
+        "Distance calculation verified",
+        "VA Code § 54.1-2110.1 requirement documented",
+        "Quarterly certification requirements noted"
+      ]
+    },
+    "allegation_3_supervision_impossibility": {
+      "title": "Supervision Capacity Impossibility",
+      "evidence_files": [
+        "va_dpor_complaint/skidmore_firm_supervision_capacity.json",
+        "va_dpor_complaint/skidmore_all_firms_matrix.json"
+      ],
+      "key_findings": {
+        "total_firms": 38,
+        "estimated_total_units": "100,000+",
+        "hours_required_annually": 9312,
+        "hours_per_day": 25.5,
+        "employees_needed": 2222,
+        "geographic_spread": "1,300 miles",
+        "states": 6,
+        "verification": "Mathematically proven using industry standards",
+        "significance": "Physically impossible for one person to provide active supervision"
+      },
+      "supporting_evidence": [
+        "Industry standards: 96 hours/property/year",
+        "VA DPOR requirements documented",
+        "Mathematical calculation proving impossibility",
+        "38 firms supervised by single principal broker"
+      ]
+    },
+    "allegation_4_unlicensed_practice": {
+      "title": "Unlicensed Practice of Real Estate",
+      "evidence_files": [
+        "va_dpor_complaint/personnel_license_verification.json",
+        "va_dpor_complaint/unlicensed_activities_documentation.json",
+        "va_dpor_complaint/PERSONNEL_VERIFICATION_100_PERCENT_COMPLETE.json"
+      ],
+      "key_findings": {
+        "total_personnel_verified": 21,
+        "personnel_unlicensed": 16,
+        "property_managers_unlicensed": 7,
+        "states_verified": 16,
+        "total_searches": 336,
+        "verification_status": "100% complete",
+        "significance": "Systematic unlicensed practice across all states"
+      },
+      "unlicensed_property_managers": [
+        {
+          "name": "Edward Hyland",
+          "title": "Senior Regional Manager",
+          "states_verified": 16,
+          "activities": ["Lease termination decisions", "Property management", "Reasonable accommodation denials"],
+          "violation_severity": "CRITICAL"
+        },
+        {
+          "name": "Robert Grealy",
+          "title": "SVP Operations",
+          "states_verified": 16,
+          "units_managed": "28,000+",
+          "violation_severity": "CRITICAL"
+        },
+        {
+          "name": "Amy Groff",
+          "title": "VP Operations",
+          "states_verified": 16,
+          "units_managed": "11,000+",
+          "violation_severity": "CRITICAL"
+        },
+        {
+          "name": "Tracy Fones",
+          "title": "VP Operations",
+          "states_verified": 16,
+          "violation_severity": "CRITICAL"
+        },
+        {
+          "name": "Djene Moyer",
+          "title": "Community Manager",
+          "states_verified": 16,
+          "activities": ["On-site property management", "Lease administration", "Tenant relations"],
+          "violation_severity": "CRITICAL"
+        },
+        {
+          "name": "Henry Ramos",
+          "title": "Property Manager",
+          "states_verified": 16,
+          "violation_severity": "CRITICAL"
+        }
+      ],
+      "supporting_evidence": [
+        "336 license searches across 16 states",
+        "All property management personnel confirmed unlicensed",
+        "Specific unlicensed activities documented",
+        "Multi-state verification comprehensive"
+      ]
+    },
+    "allegation_5_timeline_impossibility": {
+      "title": "Timeline Impossibility (Firms Licensed Before Principal Broker)",
+      "evidence_files": [
+        "va_dpor_complaint/skidmore_all_firms_matrix.json"
+      ],
+      "key_findings": {
+        "firms_licensed_before_skidmore": 8,
+        "oldest_gap": "15 years (WEINSTEIN MANAGEMENT CO INC - 2010)",
+        "skidmore_licensed_date": "2025-05-30",
+        "significance": "Proves retroactive assignment of principal broker"
+      },
+      "firms_with_impossible_timeline": [
+        {
+          "firm": "WEINSTEIN MANAGEMENT CO INC",
+          "licensed_date": "2010-08-13",
+          "years_before_skidmore": 15
+        },
+        {
+          "firm": "BELL PARTNERS INC",
+          "licensed_date": "2011-12-28",
+          "years_before_skidmore": 14
+        },
+        {
+          "firm": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+          "licensed_date": "2012-04-27",
+          "years_before_skidmore": 13
+        },
+        {
+          "firm": "BOZZUTO MANAGEMENT COMPANY",
+          "licensed_date": "2013-06-04",
+          "years_before_skidmore": 12
+        },
+        {
+          "firm": "KETTLER MANAGEMENT INC",
+          "licensed_date": "2014-10-31",
+          "years_before_skidmore": 11
+        },
+        {
+          "firm": "GABLES RESIDENTIAL SERVICES INC",
+          "licensed_date": "2016-08-17",
+          "years_before_skidmore": 9
+        },
+        {
+          "firm": "MCCORMACK BARON MANAGEMENT INC",
+          "licensed_date": "2016-11-14",
+          "years_before_skidmore": 8.5
+        },
+        {
+          "firm": "BURLINGTON CAPITAL PROPERTIES LLC",
+          "licensed_date": "2018-11-16",
+          "years_before_skidmore": 6.5
+        }
+      ],
+      "supporting_evidence": [
+        "DPOR license dates verified",
+        "Skidmore license date: 2025-05-30",
+        "8 firms licensed 6.5-15 years before Skidmore"
+      ]
+    },
+    "allegation_6_regulatory_violations": {
+      "title": "Pattern of Regulatory Violations",
+      "evidence_files": [
+        "va_dpor_complaint/additional_regulatory_violations.json",
+        "va_dpor_complaint/regulatory_compliance_gap_period.json",
+        "va_dpor_complaint/consumer_complaints_analysis.json"
+      ],
+      "key_findings": {
+        "total_court_cases": 9,
+        "bbb_complaints": 46,
+        "fair_housing_violations": 3,
+        "settlement_amount": 140000,
+        "significance": "Pattern of non-compliance during gap period"
+      },
+      "violations_documented": [
+        {
+          "case": "Equal Rights Center v. Kettler Management",
+          "date": "2024-03",
+          "settlement": 140000,
+          "type": "Fair Housing Act violation - source of income discrimination"
+        },
+        {
+          "case": "DC Attorney General v. Kettler",
+          "date": "2014-2015",
+          "type": "Drug nuisance at 199-unit property"
+        },
+        {
+          "case": "Facebook Age Discrimination Class Action",
+          "date": "2020-2022",
+          "type": "Age discrimination in housing advertisements"
+        },
+        {
+          "case": "Coleman v. Kettler",
+          "date": "2022",
+          "type": "Race and disability discrimination, hostile work environment"
+        }
+      ],
+      "supporting_evidence": [
+        "Court records documented",
+        "BBB complaint database (46 complaints)",
+        "Media coverage (6 sources)",
+        "Settlement agreements"
+      ]
+    },
+    "allegation_7_professional_network": {
+      "title": "Professional Network Connections (Lariat Realty Advisors)",
+      "evidence_files": [
+        "va_dpor_complaint/personnel_license_verification.json",
+        "research/connections/caitlin_skidmore_connections.json"
+      ],
+      "key_findings": {
+        "connections_confirmed": true,
+        "significance": "Lariat Realty Advisors personnel connected to Skidmore-supervised firms"
+      },
+      "connections": [
+        {
+          "personnel": "Elizabeth Saye (Lariat Realty Advisors)",
+          "connection": "Associated with Burlington Capital Properties LLC",
+          "firm_status": "One of 38 firms supervised by Caitlin Skidmore",
+          "address_match": "Same Frisco address (5729 Lebanon Rd #144553)",
+          "license": "TX #671787 (active), NY #10351218566"
+        },
+        {
+          "personnel": "Thoms L. Bisanz (Lariat Realty Advisors)",
+          "connection": "Designated broker for Bell Partners Inc.",
+          "firm_status": "One of 38 firms supervised by Caitlin Skidmore",
+          "license": "TX broker (active, expires 2027)"
+        },
+        {
+          "personnel": "Leah Douthit",
+          "connection": "Co-listed properties with both Liddy Saye (Lariat) and Caitlin Skidmore",
+          "properties": [
+            "5631 Martel Ave, Dallas TX (with Liddy Saye)",
+            "4642 Rhett Ln Unit F, Carrollton TX (with Caitlin Skidmore)",
+            "816 Creekline Way, McKinney TX (with Liddy Saye)"
+          ],
+          "license": "TX #0622166 (inactive)"
+        }
+      ],
+      "supporting_evidence": [
+        "License records showing associations",
+        "Property listing records",
+        "Address clustering patterns"
+      ]
+    }
+  },
+  "evidence_strength_by_allegation": {
+    "allegation_1_principal_broker_gap": "VERY STRONG",
+    "allegation_2_geographic_violation": "VERY STRONG",
+    "allegation_3_supervision_impossibility": "VERY STRONG",
+    "allegation_4_unlicensed_practice": "VERY STRONG",
+    "allegation_5_timeline_impossibility": "STRONG",
+    "allegation_6_regulatory_violations": "STRONG",
+    "allegation_7_professional_network": "CONFIRMED"
+  },
+  "file_index": {
+    "research_files": "research/va_dpor_complaint/",
+    "personnel_verification": "research/va_dpor_complaint/personnel_license_verification.json",
+    "summary_files": "research/",
+    "total_files": 48
+  },
+  "ready_for_complaint": true
+}

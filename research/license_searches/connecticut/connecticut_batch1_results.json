@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "Connecticut",
+    "search_url": "https://www.elicense.ct.gov/lookup/licenselookup.aspx",
+    "status": "batch_1_in_progress",
+    "method": "Playwright browser automation"
+  },
+  "searches": {
+    "edward_hyland": {
+      "name": "Edward Hyland",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search submitted - results pending"
+    }
+  },
+  "remaining_searches": 14
+}

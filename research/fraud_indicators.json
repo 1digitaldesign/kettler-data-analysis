@@ -1,8 +1,76 @@
 {
+  "license_gaps": [
+    {
+      "Firm.Name": "KETTLER MANAGEMENT INC",
+      "License.Number": 226025311,
+      "Gap.Years": "11",
+      "Notes": "11-year gap; VA address"
+    },
+    {
+      "Firm.Name": "BELL PARTNERS INC",
+      "License.Number": 226023603,
+      "Gap.Years": "14",
+      "Notes": "14-year gap; NC address"
+    },
+    {
+      "Firm.Name": "BOZZUTO MANAGEMENT COMPANY",
+      "License.Number": 226024808,
+      "Gap.Years": "12",
+      "Notes": "12-year gap; SAME TX ADDRESS as Skidmore"
+    },
+    {
+      "Firm.Name": "GABLES RESIDENTIAL SERVICES INC",
+      "License.Number": 226027221,
+      "Gap.Years": "9",
+      "Notes": "9-year gap; SAME TX ADDRESS as Skidmore"
+    },
+    {
+      "Firm.Name": "MCCORMACK BARON MANAGEMENT INC",
+      "License.Number": 226027455,
+      "Gap.Years": "8.5",
+      "Notes": "8.5-year gap; MO address"
+    },
+    {
+      "Firm.Name": "BURLINGTON CAPITAL PROPERTIES LLC",
+      "License.Number": 226028898,
+      "Gap.Years": "6.5",
+      "Notes": "6.5-year gap; NE address"
+    },
+    {
+      "Firm.Name": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+      "License.Number": 226023854,
+      "Gap.Years": "13",
+      "Notes": "13-year gap; SAME TX ADDRESS as Skidmore"
+    },
+    {
+      "Firm.Name": "EDGEWOOD MANAGEMENT CORPORATION",
+      "License.Number": 226011870,
+      "Gap.Years": "UNKNOWN",
+      "Notes": "Initial Cert Date NOT SHOWN on DPOR record; MD address"
+    }
+  ],
+  "address_clusters": [
+    {
+      "Address": "5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+      "firm_count": 5
+    }
+  ],
   "principal_broker_pattern": [
     {
       "state": "VA",
       "firm_count": 11
+    }
+  ],
+  "timeline_issues": [
+    {
+      "Firm.Name": "CORTLAND MANAGEMENT LLC",
+      "Initial.Cert.Date": "2025-06-30",
+      "Skidmore.License.Date": "2025-05-30"
+    },
+    {
+      "Firm.Name": "CAPREIT RESIDENTIAL MANAGEMENT LLC",
+      "Initial.Cert.Date": "2025-07-24",
+      "Skidmore.License.Date": "2025-05-30"
     }
   ]
 }

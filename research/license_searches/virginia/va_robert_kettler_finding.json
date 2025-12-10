@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Virginia",
+    "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
+    "employee": "Robert Kettler",
+    "search_method": "Browser automation",
+    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+  },
+  "findings": {
+    "robert_kettler": {
+      "full_name": "Robert Kettler",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in Virginia for Robert Kettler - consistent with unlicensed pattern across all states."
+    }
+  },
+  "conclusion": "Robert Kettler does NOT have a real estate license in Virginia."
+}

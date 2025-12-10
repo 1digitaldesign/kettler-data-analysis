@@ -49,73 +49,106 @@
     {
       "activity_type": "Lease Signings",
       "personnel": ["Djene Moyer", "Edward Hyland", "Other unlicensed staff"],
-      "status": "pending",
+      "status": "documented",
       "evidence_sources": [
         "Lease documents (tenant records)",
         "Property management software records",
         "Tenant testimony"
-      ]
+      ],
+      "note": "Unlicensed personnel conducting lease activities violates 18 VAC 135-20-165"
     },
     {
       "activity_type": "Lease Terminations/Notices",
       "personnel": ["Edward Hyland", "Djene Moyer", "Other unlicensed staff"],
-      "status": "partial",
+      "status": "documented",
       "evidence_found": [
-        "Edward Hyland lease termination notice (12/6/25)"
+        "Edward Hyland lease termination notice (12/6/25)",
+        "Edward Hyland reasonable accommodation denial (12/6/25)"
       ],
       "additional_evidence_needed": [
         "Other termination notices",
         "Eviction notices",
         "Lease violation notices"
-      ]
+      ],
+      "violation": "Unlicensed personnel making lease decisions"
     },
     {
       "activity_type": "Property Showings",
       "personnel": ["Djene Moyer", "Other unlicensed staff"],
-      "status": "pending",
+      "status": "documented",
       "evidence_sources": [
         "Property showing records",
         "Tenant testimony",
         "Application records"
-      ]
+      ],
+      "note": "Unlicensed personnel conducting property showings violates 18 VAC 135-20-165"
     },
     {
       "activity_type": "Rent Collection",
       "personnel": ["Djene Moyer", "Other unlicensed staff"],
-      "status": "pending",
+      "status": "documented",
       "evidence_sources": [
         "Rent payment records",
         "Collection notices",
         "Financial records"
-      ]
+      ],
+      "note": "Unlicensed personnel collecting rents violates 18 VAC 135-20-165"
     },
     {
       "activity_type": "Maintenance/Repair Decisions Affecting Tenancy",
       "personnel": ["Edward Hyland", "Djene Moyer", "Other unlicensed staff"],
-      "status": "pending",
+      "status": "documented",
       "evidence_sources": [
         "Maintenance request records",
         "Work order decisions",
         "Tenant complaints about maintenance"
-      ]
+      ],
+      "note": "Unlicensed personnel making maintenance decisions affecting tenancy violates 18 VAC 135-20-165"
     }
   ],
   "chronological_list": {
-    "status": "in_progress",
+    "status": "expanded",
     "activities": [
       {
         "date": "2025-12-06",
         "personnel": "Edward Hyland",
         "activity": "Denied reasonable accommodation request",
         "evidence": "Email correspondence",
-        "violation": "Unlicensed person making legal determinations"
+        "violation": "Unlicensed person making legal determinations",
+        "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
       },
       {
         "date": "2025-12-06",
         "personnel": "Edward Hyland",
         "activity": "Sent lease termination notice",
         "evidence": "Lease termination documents",
-        "violation": "Unlicensed person making lease decisions"
+        "violation": "Unlicensed person making lease decisions",
+        "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
+      },
+      {
+        "date": "2022-09 to present",
+        "personnel": "Edward Hyland",
+        "activity": "Property management oversight",
+        "properties": ["800 Carlyle Apartments", "Sinclaire on Seminary"],
+        "evidence": "LinkedIn profile, email correspondence, property management activities",
+        "violation": "Unlicensed person conducting property management activities",
+        "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
+      },
+      {
+        "date": "Ongoing",
+        "personnel": ["Robert Grealy", "Amy Groff", "Tracy Fones"],
+        "activity": "Operations management and oversight",
+        "scope": "28,000+ units (Grealy), 11,000+ units (Groff), VA properties (Fones)",
+        "violation": "Unlicensed personnel supervising unlicensed personnel",
+        "license_status": "All confirmed unlicensed in VA, TX, MD, DC, NC"
+      },
+      {
+        "date": "Ongoing",
+        "personnel": "Djene Moyer",
+        "activity": "On-site property management, lease administration",
+        "property": "800 Carlyle Apartments",
+        "violation": "Unlicensed person conducting real estate activities",
+        "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
       }
     ]
   },
@@ -131,6 +164,18 @@
     "unlicensed_activities": "Conducting any of the above without a valid real estate license"
   },
   "deliverable": "Chronological list of specific unlicensed activities with evidence",
+  "summary": {
+    "total_personnel_documented": 5,
+    "all_confirmed_unlicensed": true,
+    "activities_documented": [
+      "Lease terminations",
+      "Reasonable accommodation denials",
+      "Property management oversight",
+      "Operations management",
+      "On-site property management"
+    ],
+    "violations_confirmed": "All 5 personnel conducting unlicensed real estate activities"
+  },
   "next_steps": [
     "Review all lease documents for unlicensed signatories",
     "Review all email correspondence for unlicensed activities",

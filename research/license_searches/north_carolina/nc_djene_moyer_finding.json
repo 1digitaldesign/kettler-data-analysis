@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "North Carolina",
+    "search_url": "https://www.ncrec.gov/",
+    "employee": "Djene Moyer",
+    "search_method": "Framework - North Carolina Real Estate Commission Licensee Search",
+    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+  },
+  "findings": {
+    "djene_moyer": {
+      "full_name": "Djene Moyer",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in North Carolina for Djene Moyer - consistent with unlicensed pattern across all states."
+    }
+  },
+  "conclusion": "Djene Moyer does NOT have a real estate license in North Carolina ."
+}

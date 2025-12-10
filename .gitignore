@@ -207,6 +207,12 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Kubernetes secrets (may contain API keys)
+kubernetes/secrets/secrets.yaml
+kubernetes/secrets/*.yaml
+kubernetes/*-secrets.yaml
+!kubernetes/*-secrets.example.yaml
+
 # DPOR Analysis Project
 # Data directories (keep structure, ignore contents)
 data/raw/*
@@ -237,10 +243,6 @@ outputs/summaries/*.csv
 
 # Browser automation temporary files
 .playwright-mcp/
-
-# Kubernetes secrets (may contain API keys)
-kubernetes/*-secrets.yaml
-!kubernetes/*-secrets.example.yaml
 
 # GCP credentials (sensitive)
 config/gcp-credentials.json

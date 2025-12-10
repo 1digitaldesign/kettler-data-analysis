@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "Connecticut",
+    "search_url": "https://www.elicense.ct.gov/lookup/licenselookup.aspx",
+    "status": "batch_2_in_progress",
+    "method": "Playwright browser automation",
+    "correct_license_types": [
+      "REAL ESTATE BROKER",
+      "REAL ESTATE SALESPERSON",
+      "REAL ESTATE TEAM"
+    ]
+  },
+  "searches": {
+    "robert_kettler": {
+      "name": "Robert Kettler",
+      "license_type": "REAL ESTATE BROKER",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed with correct license type"
+    }
+  },
+  "remaining_searches": 13,
+  "next_batch": "Continue with remaining employees using REAL ESTATE BROKER and REAL ESTATE SALESPERSON"
+}

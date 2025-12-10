@@ -1,0 +1,27 @@
+company_name,status,connection_to_lariat,notes,investigation_priority
+Redwood Communities Inc.,needs_investigation,unknown,,
+BAINBRIDGE MID-ATLANTIC MANAGEMENT LLC,needs_investigation,unknown,"Also found at Frisco TX address cluster",high
+LANDEX MANAGEMENT LLC,needs_investigation,unknown,,
+Phase V SDFH Mid-Atlantic PM LLC,needs_investigation,unknown,,
+Grubb Management LLC,needs_investigation,unknown,,
+LINCOLN EASTERN MANAGEMENT CORPORATION,needs_investigation,unknown,,
+Pinnacle Property Management Services LLC,needs_investigation,unknown,,
+B.Hom Student Living LLC,needs_investigation,unknown,,
+WINN MANAGED PROPERTIES LLC,needs_investigation,unknown,,
+CAPREIT Residential Management LLC,needs_investigation,unknown,"Also found at Frisco TX address cluster",high
+Hines Living US LLC,needs_investigation,unknown,,
+Edgewood Management Corporation,needs_investigation,unknown,,
+Up Campus Management LLC,needs_investigation,unknown,,
+Franklin Group Companies LLC,needs_investigation,unknown,,
+APT Residential LLC,needs_investigation,unknown,,
+MCCORMACK BARON MANAGEMENT INC,needs_investigation,unknown,,
+BELL PARTNERS INC.,needs_investigation,unknown,,
+BOZZUTO MANAGEMENT COMPANY,confirmed,confirmed,"Also found at Frisco TX address cluster. Caitlin Skidmore is broker for Bozzuto in CT, DC, IL, MA, RI, VA, WA",critical
+GABLES RESIDENTIAL SERVICES INC.,needs_investigation,unknown,"Also found at Frisco TX address cluster",high
+UIP Property Management Inc,needs_investigation,unknown,,
+Mill Creek Residential Services LLC,needs_investigation,unknown,,
+WINN MANAGEMENT COMPANY LLC,needs_investigation,unknown,,
+KETTLER MANAGEMENT INC,confirmed,confirmed,"Primary investigation target - confirmed using Lariat broker",critical
+LCOR ASSET MANAGEMENT LIMITED PARTNERSHIP,needs_investigation,unknown,,
+CORTLAND MANAGEMENT LLC,confirmed,confirmed,"Found in Virginia DPOR - License 0226038642, Individual License 0225273906",high
+MIDDLEBURG MANAGEMENT LLC,confirmed,confirmed,"Found in Virginia DPOR - License 0226038324, Individual License 0225258285",high

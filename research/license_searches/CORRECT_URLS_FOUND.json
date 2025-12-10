@@ -1,0 +1,34 @@
+{
+  "maryland": {
+    "url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
+    "status": "verified",
+    "note": "Requires reCAPTCHA - manual intervention needed"
+  },
+  "dc": {
+    "url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "status": "verified",
+    "note": "Working - all 15 employees searched"
+  },
+  "connecticut": {
+    "url": "https://www.elicense.ct.gov/lookup/licenselookup.aspx",
+    "status": "verified",
+    "correct_license_types": [
+      "REAL ESTATE BROKER",
+      "REAL ESTATE SALESPERSON",
+      "REAL ESTATE TEAM"
+    ],
+    "note": "Found correct license types - continuing searches"
+  },
+  "new_jersey": {
+    "url": "https://newjersey.mylicense.com/verification/",
+    "alternative_url": "https://www-dobi.nj.gov/DOBI_LicSearch/recSearch.jsp",
+    "status": "verified",
+    "note": "Verified working - uses Person Search or Business Search"
+  },
+  "new_york": {
+    "url": "https://appext20.dos.ny.gov/nydos/searchByName.do",
+    "eaccess_url": "https://www.eaccessny.com/",
+    "status": "found",
+    "note": "Found via Google - eAccessNY mentioned for real estate brokers/salespersons. Need to verify which system to use."
+  }
+}

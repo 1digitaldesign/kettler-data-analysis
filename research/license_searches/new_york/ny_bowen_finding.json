@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "New York",
+    "search_url": "https://appext20.dos.ny.gov/nydos/searchByName.do",
+    "employee": "Todd Bowen",
+    "search_method": "Individual search (searches all license types)"
+  },
+  "findings": {
+    "todd_bowen": {
+      "full_name": "Todd Bowen",
+      "search_executed": true,
+      "results_found": 0,
+      "message": "No results matched your search criteria.",
+      "real_estate_license": false,
+      "note": "No licenses found in New York for Todd Bowen. Searched all license types including real estate brokers/salespersons."
+    }
+  },
+  "conclusion": "Todd Bowen does NOT have a license in New York (searched all license types)."
+}

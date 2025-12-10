@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "New York",
+    "search_url": "https://appext20.dos.ny.gov/nydos/searchByName.do",
+    "employee": "Caitlin Skidmore",
+    "search_method": "Individual search (searches all license types)"
+  },
+  "findings": {
+    "caitlin_skidmore": {
+      "full_name": "Caitlin Skidmore",
+      "search_executed": true,
+      "results_found": 0,
+      "message": "No results matched your search criteria.",
+      "real_estate_license": false,
+      "note": "No licenses found in New York for Caitlin Skidmore. Searched all license types including real estate brokers/salespersons."
+    }
+  },
+  "conclusion": "Caitlin Skidmore does NOT have a license in New York (searched all license types), despite having 2 active licenses in DC."
+}

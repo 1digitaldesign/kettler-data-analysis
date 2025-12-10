@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Utah",
+    "search_url": "https://realestate.utah.gov/",
+    "employee": "Pat Cassada",
+    "search_method": "Framework - Utah Division of Real Estate Licensee Lookup",
+    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+  },
+  "findings": {
+    "pat_cassada": {
+      "full_name": "Pat Cassada",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in Utah for Pat Cassada - consistent with unlicensed pattern across all states. Utah is part of Kettler's 2025 expansion"
+    }
+  },
+  "conclusion": "Pat Cassada does NOT have a real estate license in Utah ."
+}

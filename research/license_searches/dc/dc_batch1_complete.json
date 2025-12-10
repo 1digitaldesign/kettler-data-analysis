@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "District of Columbia",
+    "search_url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "status": "batch_1_completed",
+    "method": "Playwright browser automation",
+    "discipline": "Real Estate Commission"
+  },
+  "searches": {
+    "edward_hyland": {
+      "name": "Edward Hyland",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed - results extracted"
+    },
+    "robert_kettler": {
+      "name": "Robert Kettler",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed - results extracted"
+    },
+    "caitlin_skidmore": {
+      "name": "Caitlin Skidmore",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed - results extracted"
+    }
+  },
+  "remaining_searches": [
+    "Cindy Fisher",
+    "Luke Davis",
+    "Pat Cassada",
+    "Sean Curtin",
+    "Amy Groff",
+    "Robert Grealy",
+    "Djene Moyer",
+    "Henry Ramos",
+    "Kristina Thoummarath",
+    "Christina Chang",
+    "Todd Bowen",
+    "Jeffrey Williams"
+  ],
+  "next_batch": "Batch 2: Cindy Fisher, Luke Davis, Pat Cassada"
+}

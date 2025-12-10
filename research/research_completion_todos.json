@@ -1,14 +1,24 @@
 {
-  "scan_date": "1765324751.7346773",
+  "scan_date": "1765324931.8953729",
   "incomplete_files": 24,
   "todos": [
     {
-      "id": "wayback-dpor-principal_broker_gap_analysis",
-      "file": "va_dpor_complaint/principal_broker_gap_analysis.json",
-      "description": "Search Wayback Machine for DPOR historical records",
-      "method": "browser",
-      "url": "https://web.archive.org",
-      "priority": "high"
+      "id": "complete-RESEARCH_EXECUTION_PROGRESS",
+      "file": "RESEARCH_EXECUTION_PROGRESS.json",
+      "description": "Complete research in RESEARCH_EXECUTION_PROGRESS.json",
+      "issues": [
+        "Status: in_progress"
+      ],
+      "priority": "medium"
+    },
+    {
+      "id": "complete-RESEARCH_PROGRESS_UPDATE",
+      "file": "RESEARCH_PROGRESS_UPDATE.json",
+      "description": "Complete research in RESEARCH_PROGRESS_UPDATE.json",
+      "issues": [
+        "Status: in_progress"
+      ],
+      "priority": "medium"
     },
     {
       "id": "property-records-kettler_operations_gap_period",
@@ -16,20 +26,6 @@
       "description": "Search property records for unit counts",
       "method": "browser",
       "priority": "high"
-    },
-    {
-      "id": "regulatory-dpor_complaints-regulatory_compliance_gap_period",
-      "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
-      "description": "Research dpor_complaints regulatory issues",
-      "method": "browser",
-      "priority": "medium"
-    },
-    {
-      "id": "regulatory-fair_housing_complaints-regulatory_compliance_gap_period",
-      "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
-      "description": "Research fair_housing_complaints regulatory issues",
-      "method": "browser",
-      "priority": "medium"
     },
     {
       "id": "regulatory-business_license_violations-regulatory_compliance_gap_period",

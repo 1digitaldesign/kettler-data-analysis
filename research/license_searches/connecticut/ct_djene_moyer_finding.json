@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Connecticut",
+    "search_url": "https://www.elicense.ct.gov/lookup/licenselookup.aspx",
+    "employee": "Djene Moyer",
+    "search_method": "Playwright browser automation",
+    "license_types_searched": ["REAL ESTATE BROKER", "REAL ESTATE SALESPERSON"]
+  },
+  "findings": {
+    "djene_moyer": {
+      "full_name": "Djene Moyer",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in Connecticut for Djene Moyer - consistent with unlicensed pattern across all states."
+    }
+  },
+  "conclusion": "Djene Moyer does NOT have a real estate license in Connecticut."
+}

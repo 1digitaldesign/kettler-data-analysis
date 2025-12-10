@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Virginia",
+    "broker": "Caitlin Skidmore",
+    "total_licenses": 40,
+    "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
+    "search_method": "Browser automation"
+  },
+  "finding": {
+    "broker_name": "SKIDMORE, CAITLIN MARIE",
+    "total_individual_licenses": 40,
+    "license_type": "Real Estate Individual - Principal Broker License",
+    "address_pattern": "FRISCO, TX 75033 / FRISCO, TX 75034",
+    "note": "Each individual license represents a different company using Lariat broker services"
+  },
+  "confirmed_companies": [
+    {
+      "license_number": "0225273913",
+      "company_name": "BOZZUTO MANAGEMENT COMPANY",
+      "firm_license": "0226024808",
+      "relation_type": "Related Firm",
+      "status": "confirmed"
+    }
+  ],
+  "sample_license_numbers": ["0225258285", "0225273785", "0225273906", "0225273907", "0225273908", "0225273909", "0225273910", "0225273911", "0225273912", "0225273913"],
+  "implications": {
+    "scale": "40 individual licenses = potentially 40 different companies",
+    "comparison": "DC: 24 companies, Virginia: 40 licenses (potentially 40 companies)",
+    "violation": "One broker cannot properly supervise 40 companies - massive supervision violation",
+    "pattern": "Each license is Principal Broker License for a different company"
+  }
+}

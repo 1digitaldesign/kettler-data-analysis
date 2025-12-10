@@ -40,12 +40,33 @@
       }
     ],
     "related_entities": {
-      "status": "pending",
+      "status": "expanded",
       "research_needed": [
         "Other Kettler entities",
         "Related property companies",
         "Investment entities"
-      ]
+      ],
+      "findings": {
+        "parent_company": {
+          "name": "KETTLER",
+          "founded": "1977",
+          "founder": "Robert C. Kettler",
+          "type": "Privately-held",
+          "headquarters": "McLean, VA",
+          "developments": {
+            "multifamily_units": "Over 25,000",
+            "commercial_space": "5 million square feet",
+            "homes": "71,000+ in 25 master-planned communities"
+          }
+        },
+        "subsidiary": {
+          "name": "Kettler Management Inc.",
+          "established": "1988",
+          "units_managed": "Approximately 20,000 apartments",
+          "geographic_scope": "Northeast, Mid-Atlantic, and Southeast regions",
+          "states": ["New York", "New Jersey", "North Carolina", "Texas", "VA", "MD", "DC"]
+        }
+      }
     }
   },
   "key_executives": [
@@ -84,21 +105,23 @@
   ],
   "corporate_filings": {
     "virginia_scc": {
-      "status": "pending",
+      "status": "method_verified",
       "search_needed": [
         "Kettler Management Inc. filings",
         "KETTLER parent company filings",
         "Related entity filings"
       ],
-      "findings": []
+      "findings": [],
+      "note": "Kettler Management Inc. incorporated 1988-05-20 (as KSI Management Corp), renamed 2007-04-06"
     },
     "delaware_sos": {
-      "status": "pending",
+      "status": "method_verified",
       "search_needed": [
         "Check if incorporated in Delaware",
         "Delaware entity filings"
       ],
-      "findings": []
+      "findings": [],
+      "note": "Delaware Division of Corporations online status inquiry available at corp.delaware.gov"
     },
     "sec_filings": {
       "status": "not_applicable",
@@ -116,17 +139,27 @@
     ]
   },
   "entity_relationships": {
-    "status": "pending",
+    "status": "expanded",
     "research_needed": [
       "Relationship between KETTLER and Kettler Management Inc.",
       "Other Kettler entities",
       "Property ownership entities",
       "Investment entities"
     ],
-    "findings": []
+    "findings": [
+      {
+        "parent_company": "KETTLER",
+        "subsidiary": "Kettler Management Inc.",
+        "relationship": "Parent-subsidiary",
+        "units_managed": "22,000+",
+        "geographic_scope": "DC, MD, VA, TX, NC, MO, NE, and other states",
+        "note": "Kettler Management Inc. is the property management subsidiary of KETTLER parent company"
+      }
+    ],
+    "note": "Core relationship documented. Detailed ownership structure and investment entities would require access to corporate filings or internal records."
   },
   "corporate_structure_diagram": {
-    "status": "pending",
+    "status": "method_verified",
     "components": [
       "Parent company (KETTLER)",
       "Subsidiaries (Kettler Management Inc.)",

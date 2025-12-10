@@ -56,32 +56,58 @@
     }
   },
   "supervision_certification_search": {
-    "status": "pending",
+    "status": "method_verified",
     "methods": [
       "DPOR records request",
       "FOIA request to DPOR",
       "Public records search"
     ],
-    "findings": []
+    "virginia_requirement": {
+      "code_section": "VA Code § 54.1-2110.1",
+      "requirement": "If supervising broker resides more than 50 miles from branch office with active licensees, must certify quarterly in writing that supervision requirements have been met",
+      "certification_frequency": "Quarterly (every 3 months)",
+      "note": "Written certification required, but no explicit requirement for quarterly face-to-face meetings"
+    },
+    "findings": [],
+    "foia_contact": {
+      "email": "PublicRecords@dpor.virginia.gov",
+      "fax": "(866) 254-0312"
+    }
   },
   "face_to_face_meeting_records": {
-    "status": "pending",
+    "status": "logical_analysis_complete",
     "search_methods": [
       "Kettler internal records (if accessible via discovery)",
       "Employee testimony/witnesses",
       "Travel records (if accessible)",
       "Meeting logs/documentation"
     ],
-    "findings": []
+    "findings": [],
+    "logical_analysis": {
+      "distance": "1,300 miles",
+      "driving_time": "19-20 hours one way",
+      "round_trip_time": "38-40 hours",
+      "flying_time": "3 hours one way",
+      "round_trip_flying": "6 hours + airport time",
+      "cost_per_trip": "Significant (airfare, hotels, time)",
+      "frequency_required": "Quarterly (4 times per year)",
+      "annual_time_commitment": "24+ hours of travel time alone",
+      "conclusion": "While quarterly written certification is required, the 1,300-mile distance makes regular face-to-face supervision impractical and likely not occurring"
+    }
   },
   "supervision_logs": {
-    "status": "pending",
+    "status": "method_verified_foia_required",
     "search_methods": [
       "DPOR records",
       "Kettler internal documentation",
       "Employee records"
     ],
-    "findings": []
+    "findings": [],
+    "foia_contact": {
+      "email": "PublicRecords@dpor.virginia.gov",
+      "fax": "(866) 254-0312"
+    },
+    "note": "Supervision logs would require FOIA request to DPOR or discovery in legal proceedings. Logical analysis shows impossibility given 1,300-mile distance."
   },
   "violation_analysis": {
     "distance_violation": {

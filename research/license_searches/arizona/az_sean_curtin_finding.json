@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Arizona",
+    "search_url": "https://services.azre.gov/PdbWeb/",
+    "employee": "Sean Curtin",
+    "search_method": "Framework - Arizona Department of Real Estate Public Database",
+    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+  },
+  "findings": {
+    "sean_curtin": {
+      "full_name": "Sean Curtin",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in Arizona for Sean Curtin - consistent with unlicensed pattern across all states. Arizona is part of Kettler's 2025 expansion"
+    }
+  },
+  "conclusion": "Sean Curtin does NOT have a real estate license in Arizona ."
+}

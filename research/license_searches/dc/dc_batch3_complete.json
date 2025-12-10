@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "District of Columbia",
+    "search_url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "status": "all_searches_completed",
+    "method": "Playwright browser automation",
+    "discipline": "Real Estate Commission",
+    "total_employees_searched": 15
+  },
+  "searches_completed": [
+    "Edward Hyland",
+    "Robert Kettler",
+    "Caitlin Skidmore",
+    "Cindy Fisher",
+    "Luke Davis",
+    "Pat Cassada",
+    "Sean Curtin",
+    "Amy Groff",
+    "Robert Grealy",
+    "Djene Moyer",
+    "Henry Ramos",
+    "Kristina Thoummarath",
+    "Christina Chang",
+    "Todd Bowen",
+    "Jeffrey Williams"
+  ],
+  "key_findings": {
+    "caitlin_skidmore": {
+      "status": "LICENSED",
+      "licenses": 2,
+      "note": "Real Estate Broker and Independent Broker - Active licenses, affiliated with KETTLER MANAGEMENT INC"
+    },
+    "robert_kettler": {
+      "status": "NO LICENSE FOUND",
+      "note": "CEO of Kettler Management but no DC real estate license"
+    },
+    "edward_hyland": {
+      "status": "NO LICENSE FOUND",
+      "note": "Consistent with Virginia finding - unlicensed"
+    }
+  },
+  "note": "All 15 employees searched. Results extraction pending for detailed analysis."
+}
