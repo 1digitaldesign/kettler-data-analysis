@@ -72,7 +72,13 @@ All detailed reports are available in:
 
 ### Active data collection tasks
 
-- [**Data Collection Todos**](reports/DATA_COLLECTION_TODOS.md) ⭐ **START HERE**
+- [**Data Collection Progress**](reports/DATA_COLLECTION_PROGRESS.md) ⭐ **TRACK PROGRESS**
+  - Real-time progress tracking with progress bars
+  - Task breakdown for all 10 categories
+  - Current status: 16/58 tasks complete (28%)
+  - Next actions and priorities
+
+- [**Data Collection Todos**](reports/DATA_COLLECTION_TODOS.md) - Detailed task descriptions
   - Comprehensive list of all data collection tasks
   - Organized by priority (High/Medium/Low)
   - Status tracking for each task

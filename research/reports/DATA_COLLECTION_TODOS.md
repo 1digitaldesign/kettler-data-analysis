@@ -13,6 +13,8 @@ This document outlines all data collection tasks needed to complete the investig
 
 **Investigation Status:** License searches complete (288 files), additional data collection needed for comprehensive investigation package.
 
+> 📊 **Track Progress:** See [DATA_COLLECTION_PROGRESS.md](DATA_COLLECTION_PROGRESS.md) for real-time progress tracking with progress bars.
+
 ---
 
 ## High Priority Data Collection
