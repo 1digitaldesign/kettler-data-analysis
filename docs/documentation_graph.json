@@ -13,6 +13,12 @@
       "category": "root"
     },
     {
+      "id": "INSTALL_PYTHON_3.14.md",
+      "label": "INSTALL_PYTHON_3.14",
+      "path": "INSTALL_PYTHON_3.14.md",
+      "category": "other"
+    },
+    {
       "id": "INVESTIGATION_READY.md",
       "label": "INVESTIGATION_READY",
       "path": "INVESTIGATION_READY.md",
@@ -223,6 +229,12 @@
       "category": "research"
     },
     {
+      "id": "research/DATA_GUIDE.md",
+      "label": "DATA_GUIDE",
+      "path": "research/DATA_GUIDE.md",
+      "category": "research"
+    },
+    {
       "id": "research/EVIDENCE_INDEX.md",
       "label": "EVIDENCE_INDEX",
       "path": "research/EVIDENCE_INDEX.md",
@@ -382,6 +394,12 @@
       "id": "research/REMAINING_LEGAL_VIOLATIONS.md",
       "label": "REMAINING_LEGAL_VIOLATIONS",
       "path": "research/REMAINING_LEGAL_VIOLATIONS.md",
+      "category": "research"
+    },
+    {
+      "id": "research/STATUS_FILES_ARCHIVE.md",
+      "label": "STATUS_FILES_ARCHIVE",
+      "path": "research/STATUS_FILES_ARCHIVE.md",
       "category": "research"
     },
     {
@@ -1043,6 +1061,48 @@
       "label": "devtools_scraping_guide",
       "path": "scripts/automation/devtools_scraping_guide.md",
       "category": "other"
+    },
+    {
+      "id": "venv314/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+      "label": "LICENSE",
+      "path": "venv314/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+      "category": "other"
+    },
+    {
+      "id": "venv314/lib/python3.14/site-packages/numpy/random/LICENSE.md",
+      "label": "LICENSE",
+      "path": "venv314/lib/python3.14/site-packages/numpy/random/LICENSE.md",
+      "category": "other"
+    },
+    {
+      "id": "venv314/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
+      "label": "LICENSE",
+      "path": "venv314/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
+      "category": "other"
+    },
+    {
+      "id": "venv314/lib/python3.14/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+      "label": "LICENSE",
+      "path": "venv314/lib/python3.14/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+      "category": "other"
+    },
+    {
+      "id": "venv314/lib/python3.14/site-packages/soupsieve-2.8.dist-info/licenses/LICENSE.md",
+      "label": "LICENSE",
+      "path": "venv314/lib/python3.14/site-packages/soupsieve-2.8.dist-info/licenses/LICENSE.md",
+      "category": "other"
+    },
+    {
+      "id": "venv314/lib/python3.14/site-packages/starlette-0.50.0.dist-info/licenses/LICENSE.md",
+      "label": "LICENSE",
+      "path": "venv314/lib/python3.14/site-packages/starlette-0.50.0.dist-info/licenses/LICENSE.md",
+      "category": "other"
+    },
+    {
+      "id": "venv314/lib/python3.14/site-packages/uvicorn-0.38.0.dist-info/licenses/LICENSE.md",
+      "label": "LICENSE",
+      "path": "venv314/lib/python3.14/site-packages/uvicorn-0.38.0.dist-info/licenses/LICENSE.md",
+      "category": "other"
     }
   ],
   "edges": [
@@ -1053,38 +1113,38 @@
     },
     {
       "source": "INSTALLATION.md",
-      "target": "docs/INDEX.md",
-      "label": "docs/INDEX.md"
+      "target": "README.md",
+      "label": "README.md"
+    },
+    {
+      "source": "INSTALLATION.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "docs/SYSTEM_ARCHITECTURE.md"
     },
     {
       "source": "INSTALLATION.md",
       "target": "QUICK_START.md",
-      "label": "QUICK_START.md"
+      "label": "Quick Start Guide"
     },
     {
       "source": "INSTALLATION.md",
-      "target": "README.md",
-      "label": "README.md"
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
     },
     {
       "source": "INSTALLATION.md",
       "target": "docs/INDEX.md",
-      "label": "docs/INDEX.md"
+      "label": "Documentation Index"
     },
     {
-      "source": "QUICK_START.md",
+      "source": "INSTALL_PYTHON_3.14.md",
       "target": "INSTALLATION.md",
-      "label": "INSTALLATION.md"
+      "label": "Installation Guide"
     },
     {
-      "source": "QUICK_START.md",
-      "target": "docs/INDEX.md",
-      "label": "docs/INDEX.md"
-    },
-    {
-      "source": "QUICK_START.md",
-      "target": "data/README.md",
-      "label": "data/README.md"
+      "source": "INSTALL_PYTHON_3.14.md",
+      "target": "QUICK_START.md",
+      "label": "Quick Start Guide"
     },
     {
       "source": "QUICK_START.md",
@@ -1098,8 +1158,43 @@
     },
     {
       "source": "QUICK_START.md",
+      "target": "docs/DATA_FLOW.md",
+      "label": "docs/DATA_FLOW.md"
+    },
+    {
+      "source": "QUICK_START.md",
+      "target": "docs/COMPONENTS.md",
+      "label": "docs/COMPONENTS.md"
+    },
+    {
+      "source": "QUICK_START.md",
+      "target": "INSTALLATION.md",
+      "label": "INSTALLATION.md"
+    },
+    {
+      "source": "QUICK_START.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "docs/SYSTEM_ARCHITECTURE.md"
+    },
+    {
+      "source": "QUICK_START.md",
       "target": "docs/INDEX.md",
-      "label": "docs/INDEX.md"
+      "label": "Documentation Index"
+    },
+    {
+      "source": "QUICK_START.md",
+      "target": "INSTALLATION.md",
+      "label": "Installation Guide"
+    },
+    {
+      "source": "QUICK_START.md",
+      "target": "docs/SYSTEM_ARCHITECTURE.md",
+      "label": "System Architecture"
+    },
+    {
+      "source": "QUICK_START.md",
+      "target": "docs/INDEX.md",
+      "label": "Documentation Index"
     },
     {
       "source": "README.md",
@@ -1172,6 +1267,11 @@
       "label": "Documentation Index"
     },
     {
+      "source": "README.md",
+      "target": "docs/DOCUMENTATION_GRAPH.md",
+      "label": "Documentation Graph"
+    },
+    {
       "source": "STATUS.md",
       "target": "README.md",
       "label": "README.md"
@@ -1179,17 +1279,17 @@
     {
       "source": "STATUS.md",
       "target": "research/README.md",
-      "label": "research/README.md"
+      "label": "Research README"
     },
     {
       "source": "STATUS.md",
       "target": "data/README.md",
-      "label": "data/README.md"
+      "label": "Data README"
     },
     {
       "source": "STATUS.md",
       "target": "docs/INDEX.md",
-      "label": "docs/INDEX.md"
+      "label": "Documentation Index"
     },
     {
       "source": "data/ANCESTRY.md",
@@ -1492,6 +1592,21 @@
       "label": "Documentation Graph"
     },
     {
+      "source": "research/DATA_GUIDE.md",
+      "target": "data/DATA_DICTIONARY.md",
+      "label": "Data Dictionary"
+    },
+    {
+      "source": "research/DATA_GUIDE.md",
+      "target": "research/README.md",
+      "label": "Research README"
+    },
+    {
+      "source": "research/DATA_GUIDE.md",
+      "target": "data/DATA_DICTIONARY.md",
+      "label": "Data Dictionary"
+    },
+    {
       "source": "research/MASTER_INDEX.md",
       "target": "research/README.md",
       "label": "README.md"
@@ -1555,6 +1670,11 @@
       "source": "research/README.md",
       "target": "data/DATA_DICTIONARY.md",
       "label": "Data Dictionary"
+    },
+    {
+      "source": "research/README.md",
+      "target": "README.md",
+      "label": "Main README"
     },
     {
       "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",

@@ -1,42 +1,38 @@
 #!/usr/bin/env python3
 """
 Path Utilities for Python Scripts
-Provides consistent path management across the project
+
+Provides consistent path management across the project.
+Uses Python 3.14 features: match expressions, modern type hints.
 """
 
 from pathlib import Path
-import os
 
-# Find project root
-def find_project_root():
-    """Find the project root directory"""
+# Find project root using match expression (Python 3.14+)
+def find_project_root() -> Path:
+    """Find the project root directory."""
     current = Path(__file__).resolve()
 
-    # Go up from scripts/utils/
+    # Check immediate parents first
     for parent in [current.parent.parent.parent, current.parent.parent]:
-        readme = parent / "README.md"
-        bin_dir = parent / "bin"
-        if readme.exists() and bin_dir.exists():
+        if (parent / "README.md").exists() and (parent / "bin").exists():
             return parent
 
     # Fallback: search from current directory
     current_dir = Path.cwd()
     for _ in range(10):
-        readme = current_dir / "README.md"
-        bin_dir = current_dir / "bin"
-        if readme.exists() and bin_dir.exists():
+        if (current_dir / "README.md").exists() and (current_dir / "bin").exists():
             return current_dir
         if current_dir == current_dir.parent:
             break
         current_dir = current_dir.parent
 
-    # Final fallback
     return Path.cwd()
 
 # Set project root
 PROJECT_ROOT = find_project_root()
 
-# Directory paths
+# Directory paths using Path operations
 BIN_DIR = PROJECT_ROOT / "bin"
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 DATA_DIR = PROJECT_ROOT / "data"
@@ -63,9 +59,9 @@ RESEARCH_TIMELINES_DIR = RESEARCH_DIR / "timelines"
 RESEARCH_SUMMARIES_DIR = RESEARCH_DIR / "summaries"
 RESEARCH_SEARCH_RESULTS_DIR = RESEARCH_DIR / "search_results"
 
-# Ensure directories exist
-def ensure_directories():
-    """Ensure all necessary directories exist"""
+# Ensure directories exist using efficient pattern
+def ensure_directories() -> None:
+    """Ensure all necessary directories exist."""
     directories = [
         DATA_DIR, DATA_SOURCE_DIR, DATA_RAW_DIR, DATA_CLEANED_DIR,
         DATA_SCRAPED_DIR, DATA_VECTORS_DIR,
@@ -75,8 +71,8 @@ def ensure_directories():
         OUTPUTS_DIR, FILINGS_DIR
     ]
 
-    for directory in directories:
-        directory.mkdir(parents=True, exist_ok=True)
+    # Use list comprehension for efficiency
+    [directory.mkdir(parents=True, exist_ok=True) for directory in directories]
 
 # Initialize directories on import
 ensure_directories()

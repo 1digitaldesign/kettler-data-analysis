@@ -19,9 +19,9 @@ Research data is organized into five main categories:
 
 ### 1. License searches
 
-**What it is:** License search results from 15 state databases  
-**Where:** `license_searches/` directory  
-**Format:** JSON files  
+**What it is:** License search results from 15 state databases
+**Where:** `license_searches/` directory
+**Format:** JSON files
 **Count:** 285 files
 
 **Purpose:** Contains search results for individuals and firms across multiple states. Each file contains license information, status, and related data.
@@ -33,9 +33,9 @@ Research data is organized into five main categories:
 
 ### 2. VA DPOR complaint
 
-**What it is:** Complete research package for Virginia DPOR complaint  
-**Where:** `va_dpor_complaint/` directory  
-**Format:** JSON files  
+**What it is:** Complete research package for Virginia DPOR complaint
+**Where:** `va_dpor_complaint/` directory
+**Format:** JSON files
 **Count:** 20 files
 
 **Purpose:** All research compiled specifically for filing a complaint with Virginia DPOR. Includes violations, evidence, and verification data.
@@ -47,9 +47,9 @@ Research data is organized into five main categories:
 
 ### 3. Reports
 
-**What it is:** Summary reports and findings  
-**Where:** `reports/` directory  
-**Format:** Markdown files  
+**What it is:** Summary reports and findings
+**Where:** `reports/` directory
+**Format:** Markdown files
 **Count:** 11 files
 
 **Purpose:** Human-readable summaries of findings, violations, and anomalies.
@@ -61,9 +61,9 @@ Research data is organized into five main categories:
 
 ### 4. Connections
 
-**What it is:** Connection analyses between firms and individuals  
-**Where:** `connections/` directory  
-**Format:** JSON files  
+**What it is:** Connection analyses between firms and individuals
+**Where:** `connections/` directory
+**Format:** JSON files
 **Count:** 1 file
 
 **Purpose:** Maps relationships between firms and licensed individuals.
@@ -75,9 +75,9 @@ Research data is organized into five main categories:
 
 ### 5. Analysis
 
-**What it is:** Processed analysis outputs  
-**Where:** `analysis/` directory  
-**Format:** JSON files  
+**What it is:** Processed analysis outputs
+**Where:** `analysis/` directory
+**Format:** JSON files
 **Count:** 15 files
 
 **Purpose:** Processed data from various analyses including nexus, evidence, and email domains.
@@ -93,20 +93,20 @@ Research data is organized into five main categories:
 
 ### JSON files
 
-**Purpose:** Structured data following `data/schema.json`  
-**Use:** Programmatic access, data analysis  
+**Purpose:** Structured data following `data/schema.json`
+**Use:** Programmatic access, data analysis
 **Examples:** License searches, violation data, evidence
 
 ### Markdown files
 
-**Purpose:** Human-readable summaries and reports  
-**Use:** Reading summaries, understanding findings  
+**Purpose:** Human-readable summaries and reports
+**Use:** Reading summaries, understanding findings
 **Examples:** Violation reports, status summaries
 
 ### Status files
 
-**Purpose:** Historical status updates (can be ignored)  
-**Use:** Historical reference only  
+**Purpose:** Historical status updates (can be ignored)
+**Use:** Historical reference only
 **Examples:** Files with names like `STATUS`, `COMPLETE`, `PROGRESS`
 
 ---

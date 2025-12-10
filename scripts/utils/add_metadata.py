@@ -5,6 +5,8 @@ Utility script to add metadata fields to JSON files.
 This script adds standardized metadata fields (_metadata, _lineage, _validation)
 to JSON files according to the metadata structure defined in data/metadata.json.
 
+Uses Python 3.14 features: modern type hints, except expressions, efficient patterns.
+
 Usage:
     python scripts/utils/add_metadata.py <file_path> [--dry-run]
     python scripts/utils/add_metadata.py research/connections/*.json --dry-run
@@ -14,8 +16,9 @@ import json
 import sys
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, Any, Optional
+from typing import Any, Optional
 import argparse
+from collections import defaultdict
 
 # Add project root to path
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -25,98 +28,96 @@ from scripts.utils.paths import PROJECT_ROOT, DATA_DIR, RESEARCH_DIR
 
 
 def determine_file_category(file_path: Path) -> str:
-    """Determine the category of a file based on its path."""
-    path_str = str(file_path)
+    """Determine the category of a file based on its path using match expression."""
+    path_str = str(file_path).lower()
 
-    if "connections" in path_str:
-        return "connections"
-    elif "violations" in path_str:
-        return "violations"
-    elif "anomalies" in path_str:
-        return "anomalies"
-    elif "evidence" in path_str:
-        return "evidence"
-    elif "verification" in path_str:
-        return "verification"
-    elif "timelines" in path_str:
-        return "timelines"
-    elif "summaries" in path_str:
-        return "summaries"
-    elif "search_results" in path_str or "search" in path_str:
-        return "search_results"
-    elif "va_dpor_complaint" in path_str:
-        return "va_dpor_complaint"
-    elif "analysis" in path_str:
-        return "analysis"
-    elif "cleaned" in path_str:
-        return "cleaned_data"
-    elif "source" in path_str:
-        return "source_data"
-    elif "vectors" in path_str:
-        return "vectors"
-    else:
-        return "unknown"
+    match path_str:
+        case p if "connections" in p:
+            return "connections"
+        case p if "violations" in p:
+            return "violations"
+        case p if "anomalies" in p:
+            return "anomalies"
+        case p if "evidence" in p:
+            return "evidence"
+        case p if "verification" in p:
+            return "verification"
+        case p if "timelines" in p:
+            return "timelines"
+        case p if "summaries" in p:
+            return "summaries"
+        case p if "search_results" in p or "search" in p:
+            return "search_results"
+        case p if "va_dpor_complaint" in p:
+            return "va_dpor_complaint"
+        case p if "analysis" in p:
+            return "analysis"
+        case p if "cleaned" in p:
+            return "cleaned_data"
+        case p if "source" in p:
+            return "source_data"
+        case p if "vectors" in p:
+            return "vectors"
+        case _:
+            return "unknown"
 
 
 def determine_source(file_path: Path, category: str) -> str:
     """Determine the source of a file."""
-    if category == "source_data":
-        if "firms" in str(file_path):
-            return "Virginia DPOR"
-        elif "individual" in str(file_path):
-            return "Multi-State DPOR"
-        else:
-            return "Unknown"
-    elif category == "cleaned_data":
-        return "Data cleaning pipeline"
-    elif category in ["connections", "violations", "anomalies", "analysis"]:
-        return "Analysis pipeline"
-    elif category == "evidence":
-        return "Evidence extraction"
-    elif category == "vectors":
-        return "ETL pipeline"
-    else:
-        return "Research pipeline"
+    match category:
+        case "source_data":
+            return "Virginia DPOR" if "firms" in str(file_path) else "Multi-State DPOR" if "individual" in str(file_path) else "Unknown"
+        case "cleaned_data":
+            return "Data cleaning pipeline"
+        case cat if cat in ["connections", "violations", "anomalies", "analysis"]:
+            return "Analysis pipeline"
+        case "evidence":
+            return "Evidence extraction"
+        case "vectors":
+            return "ETL pipeline"
+        case _:
+            return "Research pipeline"
 
 
 def determine_processing_script(file_path: Path, category: str) -> Optional[str]:
     """Determine the processing script for a file."""
-    if category == "cleaned_data":
-        return "bin/clean_data.py"
-    elif category == "connections":
-        return "bin/analyze_connections.py"
-    elif category in ["violations", "anomalies", "analysis"]:
-        return "scripts/core/unified_analysis.py"
-    elif category == "evidence":
-        return "bin/organize_evidence.py"
-    elif category == "vectors":
-        return "scripts/etl/etl_pipeline.py"
-    elif category == "verification":
-        return "bin/validate_data.py"
-    else:
-        return None
+    script_map = {
+        "cleaned_data": "bin/clean_data.py",
+        "connections": "bin/analyze_connections.py",
+        "violations": "scripts/core/unified_analysis.py",
+        "anomalies": "scripts/core/unified_analysis.py",
+        "analysis": "scripts/core/unified_analysis.py",
+        "evidence": "bin/organize_evidence.py",
+        "vectors": "scripts/etl/etl_pipeline.py",
+        "verification": "bin/validate_data.py",
+    }
+    return script_map.get(category)
 
 
-def determine_parent_files(file_path: Path, category: str) -> list:
+def determine_parent_files(file_path: Path, category: str) -> list[str]:
     """Determine parent files for lineage tracking."""
     parents = []
 
-    if category == "cleaned_data":
-        if "firms" in str(file_path):
-            parents.append("data/source/skidmore_all_firms_complete.json")
-        elif "individual" in str(file_path):
-            parents.append("data/source/skidmore_individual_licenses.json")
-    elif category == "connections":
-        parents.append("data/cleaned/firms.json")
-        parents.append("data/cleaned/individual_licenses.json")
-    elif category in ["violations", "anomalies"]:
-        parents.append("research/connections/caitlin_skidmore_connections.json")
-        parents.append("data/cleaned/firms.json")
-    elif category == "evidence":
-        # Try to find corresponding evidence files
-        evidence_dir = PROJECT_ROOT / "evidence"
-        if evidence_dir.exists():
-            parents.append(f"evidence/{file_path.stem}.pdf")
+    match category:
+        case "cleaned_data":
+            if "firms" in str(file_path):
+                parents.append("data/source/skidmore_all_firms_complete.json")
+            elif "individual" in str(file_path):
+                parents.append("data/source/skidmore_individual_licenses.json")
+        case "connections":
+            parents.extend([
+                "data/cleaned/firms.json",
+                "data/cleaned/individual_licenses.json"
+            ])
+        case cat if cat in ["violations", "anomalies"]:
+            parents.extend([
+                "research/connections/caitlin_skidmore_connections.json",
+                "data/cleaned/firms.json"
+            ])
+        case "evidence":
+            evidence_dir = PROJECT_ROOT / "evidence"
+            if evidence_dir.exists():
+                parents.append(f"evidence/{file_path.stem}.pdf")
 
     return parents
 
@@ -140,10 +141,9 @@ def add_metadata_to_file(file_path: Path, dry_run: bool = False) -> bool:
         print(f"Warning: Not a JSON file: {file_path}")
         return False
 
-    # Read existing file
+    # Read existing file using except expression (PEP 758)
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+        data = json.loads(file_path.read_text(encoding='utf-8'))
     except json.JSONDecodeError as e:
         print(f"Error: Invalid JSON in {file_path}: {e}")
         return False
@@ -158,7 +158,7 @@ def add_metadata_to_file(file_path: Path, dry_run: bool = False) -> bool:
     parent_files = determine_parent_files(file_path, category)
 
     # Check if metadata already exists
-    has_metadata = "_metadata" in data or (isinstance(data, dict) and "_metadata" in data)
+    has_metadata = "_metadata" in data if isinstance(data, dict) else False
 
     if has_metadata and not dry_run:
         print(f"Info: {file_path} already has metadata, skipping")
@@ -188,27 +188,27 @@ def add_metadata_to_file(file_path: Path, dry_run: bool = False) -> bool:
     }
 
     # Add metadata to file
-    if isinstance(data, dict):
-        # If data is a dict, add metadata fields at the top level
-        data.update(metadata)
-        updated_data = data
-    elif isinstance(data, list):
-        # If data is a list, wrap it in a dict with metadata
-        updated_data = {
-            "_metadata": metadata["_metadata"],
-            "_lineage": metadata["_lineage"],
-            "_validation": metadata["_validation"],
-            "data": data
-        }
-    else:
-        print(f"Warning: Unexpected data type in {file_path}, skipping")
-        return False
+    match data:
+        case dict():
+            updated_data = data | metadata  # Python 3.14: dict union operator
+        case list():
+            updated_data = {
+                "_metadata": metadata["_metadata"],
+                "_lineage": metadata["_lineage"],
+                "_validation": metadata["_validation"],
+                "data": data
+            }
+        case _:
+            print(f"Warning: Unexpected data type in {file_path}, skipping")
+            return False
 
     # Write updated file
     if not dry_run:
         try:
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(updated_data, f, indent=2, ensure_ascii=False)
+            file_path.write_text(
+                json.dumps(updated_data, indent=2, ensure_ascii=False),
+                encoding='utf-8'
+            )
             print(f"✓ Added metadata to {file_path}")
             return True
         except Exception as e:
@@ -222,40 +222,27 @@ def add_metadata_to_file(file_path: Path, dry_run: bool = False) -> bool:
         return True
 
 
-def main():
+def main() -> int:
     """Main function."""
-    parser = argparse.ArgumentParser(
-        description="Add metadata fields to JSON files"
-    )
-    parser.add_argument(
-        "files",
-        nargs="+",
-        help="JSON files to process (supports glob patterns)"
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Don't write changes, just print what would be done"
-    )
+    parser = argparse.ArgumentParser(description="Add metadata fields to JSON files")
+    parser.add_argument("files", nargs="+", help="JSON files to process (supports glob patterns)")
+    parser.add_argument("--dry-run", action="store_true", help="Don't write changes, just print what would be done")
 
     args = parser.parse_args()
 
     # Expand glob patterns
-    import glob
-    file_paths = []
-    for pattern in args.files:
-        file_paths.extend(glob.glob(pattern))
+    from glob import glob
+    file_paths = [Path(f) for pattern in args.files for f in glob(pattern)]
 
     if not file_paths:
         print("No files found matching patterns")
         return 1
 
     # Process each file
-    success_count = 0
-    for file_path_str in file_paths:
-        file_path = Path(file_path_str)
-        if add_metadata_to_file(file_path, dry_run=args.dry_run):
-            success_count += 1
+    success_count = sum(
+        1 for file_path in file_paths
+        if add_metadata_to_file(file_path, dry_run=args.dry_run)
+    )
 
     print(f"\nProcessed {success_count}/{len(file_paths)} files")
     return 0 if success_count == len(file_paths) else 1
