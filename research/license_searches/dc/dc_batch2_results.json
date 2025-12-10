@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "District of Columbia",
+    "search_url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "status": "batch_2_completed",
+    "method": "Playwright browser automation",
+    "discipline": "Real Estate Commission"
+  },
+  "searches": {
+    "cindy_fisher": {
+      "name": "Cindy Fisher",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed"
+    },
+    "luke_davis": {
+      "name": "Luke Davis",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed"
+    },
+    "pat_cassada": {
+      "name": "Pat Cassada",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed"
+    },
+    "sean_curtin": {
+      "name": "Sean Curtin",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed"
+    },
+    "amy_groff": {
+      "name": "Amy Groff",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed"
+    }
+  },
+  "remaining_searches": [
+    "Robert Grealy",
+    "Djene Moyer",
+    "Henry Ramos",
+    "Kristina Thoummarath",
+    "Christina Chang",
+    "Todd Bowen",
+    "Jeffrey Williams"
+  ],
+  "next_batch": "Batch 3: Robert Grealy, Djene Moyer, Henry Ramos"
+}

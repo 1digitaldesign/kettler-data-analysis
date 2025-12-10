@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "New York",
+    "search_url": "https://appext20.dos.ny.gov/nydos/searchByName.do",
+    "employee": "Amy Groff",
+    "search_method": "Individual search (searches all license types)"
+  },
+  "findings": {
+    "amy_groff": {
+      "full_name": "Amy Groff",
+      "search_executed": true,
+      "results_found": 0,
+      "message": "No results matched your search criteria.",
+      "real_estate_license": false,
+      "note": "No licenses found in New York for Amy Groff. Searched all license types including real estate brokers/salespersons."
+    }
+  },
+  "conclusion": "Amy Groff does NOT have a license in New York (searched all license types)."
+}

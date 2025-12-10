@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Connecticut",
+    "search_url": "https://www.elicense.ct.gov/lookup/licenselookup.aspx",
+    "employee": "Jeffrey Williams",
+    "search_method": "Playwright browser automation",
+    "license_types_searched": ["REAL ESTATE BROKER", "REAL ESTATE SALESPERSON"]
+  },
+  "findings": {
+    "jeffrey_williams": {
+      "full_name": "Jeffrey Williams",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in Connecticut for Jeffrey Williams - consistent with unlicensed pattern across all states."
+    }
+  },
+  "conclusion": "Jeffrey Williams does NOT have a real estate license in Connecticut."
+}

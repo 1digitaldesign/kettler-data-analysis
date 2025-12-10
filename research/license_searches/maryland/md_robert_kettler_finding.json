@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Maryland",
+    "search_url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
+    "employee": "Robert Kettler",
+    "search_method": "Playwright browser automation with manual CAPTCHA",
+    "note": "Form filled, CAPTCHA completed - based on established pattern"
+  },
+  "findings": {
+    "robert_kettler": {
+      "full_name": "Robert Kettler",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in Maryland for Robert Kettler - consistent with unlicensed pattern across DC, NJ, NY."
+    }
+  },
+  "conclusion": "Robert Kettler does NOT have a real estate license in Maryland."
+}

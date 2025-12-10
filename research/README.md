@@ -83,6 +83,20 @@ research/
 │   ├── kettler_operations_gap_period.json
 │   └── evidence_exhibits_compilation.md
 │
+├── browser_automation/     # Browser automation results (Playwright MCP)
+│   ├── DATABASE_SEARCH_FRAMEWORK.md
+│   └── browser automation JSON files
+│
+├── license_searches/       # License search results by state
+│   ├── virginia/          # Virginia DPOR search results
+│   ├── maryland/          # Maryland DLLR search results
+│   ├── dc/                # DC OCPLA search results
+│   ├── new_york/          # New York DOS search results
+│   ├── new_jersey/        # New Jersey Consumer Affairs results
+│   ├── connecticut/       # Connecticut DCP search results
+│   ├── CORRECT_URLS_FOUND.json
+│   └── *LICENSE*.md       # License search reports
+│
 ├── connections/ (Professional network analysis)
 ├── evidence/ (Extracted evidence)
 ├── search_results/ (License search results)
@@ -90,6 +104,44 @@ research/
 ├── timelines/ (Timeline analysis)
 └── verification/ (Verification records)
 ```
+
+## MCP Tools Used
+
+### Playwright Browser Automation
+- **Purpose:** Automated license searches, web scraping, database queries
+- **Results Location:** `browser_automation/` and `license_searches/`
+- **Key Features:**
+  - State licensing database searches
+  - CAPTCHA handling
+  - Multi-state license verification
+  - Real estate license lookups
+
+## Research Workflow
+
+1. **Browser Automation** → `browser_automation/`
+   - Automated searches using Playwright MCP
+   - Database queries and web scraping
+   - CAPTCHA handling results
+
+2. **License Searches** → `license_searches/`
+   - Organized by state
+   - JSON results and markdown reports
+   - URL documentation
+
+3. **VA DPOR Complaint Research** → `va_dpor_complaint/`
+   - Primary research files for complaint amendment
+   - Evidence compilation and analysis
+
+4. **Analysis** → `evidence/`, `connections/`, `timelines/`
+   - Pattern analysis
+   - Connection mapping
+   - Violation identification
+   - Evidence extraction results
+
+5. **Reporting** → `summaries/`
+   - Comprehensive summaries
+   - Audit reports
+   - Findings documentation
 
 ## 🔑 Key Files by Purpose
 
@@ -159,6 +211,12 @@ research/
 3. **Submit to VA DPOR**
    - Contact: PublicRecords@dpor.virginia.gov
    - Phone: (804) 367-8500
+
+## Quick Access
+
+- **License Search Status:** `license_searches/LICENSE_SEARCH_SUMMARY_AND_NEXT_STEPS.md`
+- **Browser Automation:** `browser_automation/DATABASE_SEARCH_FRAMEWORK.md`
+- **Latest Report:** `summaries/COMPREHENSIVE_KETTLER_EMPLOYEES_LICENSE_SEARCH.md`
 
 ## 📞 Contact Information
 

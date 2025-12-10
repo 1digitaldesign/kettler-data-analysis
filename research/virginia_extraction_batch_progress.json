@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "total_licenses": 40,
+    "extracted_count": 5,
+    "remaining_count": 35,
+    "percentage": 12.5
+  },
+  "extracted_companies": [
+    {
+      "license": "0225273913",
+      "company": "BOZZUTO MANAGEMENT COMPANY",
+      "firm": "0226024808"
+    },
+    {
+      "license": "0225273906",
+      "company": "CORTLAND MANAGEMENT LLC",
+      "firm": "0226038642"
+    },
+    {
+      "license": "0225258285",
+      "company": "MIDDLEBURG MANAGEMENT LLC",
+      "firm": "0226038324"
+    },
+    {
+      "license": "0225273785",
+      "company": "GATEWAY MANAGEMENT COMPANY LLC",
+      "firm": "0226038613"
+    },
+    {
+      "license": "0225273907",
+      "company": "CAPREIT RESIDENTIAL MANAGEMENT LLC",
+      "firm": "0226038643"
+    }
+  ],
+  "remaining_licenses": ["0225273908", "0225273909", "0225273910", "0225273911", "0225273912"],
+  "method": "Browser automation (Method 1 - FASTEST)"
+}

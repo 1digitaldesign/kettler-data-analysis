@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "District of Columbia",
+    "search_url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "status": "results_found",
+    "method": "Playwright browser automation"
+  },
+  "caitlin_skidmore": {
+    "name": "Caitlin Skidmore",
+    "results_found": 2,
+    "licenses": [
+      {
+        "license_number": "BR40000429",
+        "license_type": "Real Estate Broker",
+        "status": "Active",
+        "initial_issue_date": "02/25/2025",
+        "effective_date": "02/25/2025",
+        "expiration_date": "02/28/2027",
+        "affiliated_agencies": [
+          "Redwood Communities, Inc.",
+          "BAINBRIDGE MID-ATLANTIC MANAGEMENT LLC",
+          "LANDEX MANAGEMENT, LLC",
+          "Phase V SDFH Mid-Atlantic PM LLC",
+          "Grubb Management, LLC",
+          "LINCOLN EASTERN MANAGEMENT CORPORATION",
+          "Pinnacle Property Management Services, LLC",
+          "B.Hom Student Living, LLC",
+          "WINN MANAGED PROPERTIES, LLC",
+          "CAPREIT Residential Management, LLC",
+          "Hines Living US LLC",
+          "Edgewood Management Corporation",
+          "Up Campus Management, LLC",
+          "Franklin Group Companies LLC",
+          "APT Residential LLC",
+          "MCCORMACK BARON MANAGEMENT, INC",
+          "BELL PARTNERS INC.",
+          "BOZZUTO MANAGEMENT COMPANY",
+          "GABLES RESIDENTIAL SERVICES, INC.",
+          "UIP Property Management, Inc",
+          "Mill Creek Residential Services LLC",
+          "WINN MANAGEMENT COMPANY LLC",
+          "KETTLER MANAGEMENT INC",
+          "LCOR ASSET MANAGEMENT LIMITED PARTNERSHIP"
+        ]
+      },
+      {
+        "license_number": "IBF40000014",
+        "license_type": "Independent Broker",
+        "status": "Active",
+        "initial_issue_date": "01/19/2022",
+        "effective_date": "03/01/2025",
+        "expiration_date": "02/28/2027"
+      }
+    ],
+    "note": "CONFIRMED LICENSED in DC - Real Estate Broker and Independent Broker. Affiliated with KETTLER MANAGEMENT INC and 23 other property management companies."
+  },
+  "robert_kettler": {
+    "name": "Robert Kettler",
+    "results_found": 0,
+    "note": "No licenses found in DC Real Estate Commission"
+  },
+  "edward_hyland": {
+    "name": "Edward Hyland",
+    "results_found": 0,
+    "note": "No licenses found in DC Real Estate Commission"
+  }
+}

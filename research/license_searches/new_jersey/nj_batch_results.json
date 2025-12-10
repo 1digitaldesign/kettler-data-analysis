@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "New Jersey",
+    "search_url": "https://newjersey.mylicense.com/verification/Search.aspx?facility=N",
+    "method": "All profession, Salesperson license type",
+    "batch": "batch_1"
+  },
+  "searches": {
+    "edward_hyland": {
+      "name": "Edward Hyland",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "Has expired nursing license, no real estate license"
+    },
+    "robert_kettler": {
+      "name": "Robert Kettler",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No license found"
+    },
+    "caitlin_skidmore": {
+      "name": "Caitlin Skidmore",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No license found in NJ, despite having 2 licenses in DC"
+    },
+    "cindy_fisher": {
+      "name": "Cindy Fisher",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed - extracting results"
+    }
+  },
+  "summary": {
+    "total_searched": 4,
+    "licenses_found": 0,
+    "pattern": "All high-priority employees unlicensed in New Jersey"
+  }
+}

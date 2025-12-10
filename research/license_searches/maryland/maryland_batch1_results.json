@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "Maryland",
+    "search_url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
+    "status": "batch_1_completed",
+    "method": "Playwright browser automation"
+  },
+  "searches": {
+    "edward_hyland": {
+      "name": "Edward Hyland",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed - results extracted"
+    },
+    "robert_kettler": {
+      "name": "Robert Kettler",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed - results extracted"
+    },
+    "caitlin_skidmore": {
+      "name": "Caitlin Skidmore",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed - results extracted"
+    }
+  },
+  "remaining_searches": [
+    "Cindy Fisher",
+    "Luke Davis",
+    "Pat Cassada",
+    "Sean Curtin",
+    "Amy Groff",
+    "Robert Grealy",
+    "Djene Moyer",
+    "Henry Ramos",
+    "Kristina Thoummarath",
+    "Christina Chang",
+    "Todd Bowen",
+    "Jeffrey Williams"
+  ],
+  "next_batch": "Batch 2: Cindy Fisher, Luke Davis, Pat Cassada"
+}

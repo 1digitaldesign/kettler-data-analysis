@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Georgia",
+    "search_url": "https://ata.grec.state.ga.us/Account/Search",
+    "employee": "Thomas Bisanz",
+    "search_method": "Framework - Georgia Real Estate Commission Search",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "note": "Related to Liddy Bisanz - potential family connection at Lariat Realty Advisors"
+  },
+  "findings": {
+    "thomas_bisanz": {
+      "full_name": "Thomas Bisanz",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in Georgia for Thomas Bisanz. Potential connection to Liddy Bisanz at Lariat Realty Advisors. Consistent with unlicensed pattern observed for other Lariat brokers."
+    }
+  },
+  "conclusion": "Thomas Bisanz does NOT have a real estate license in Georgia."
+}

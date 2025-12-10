@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "Georgia",
+    "search_url": "https://www.gabar.org/membership/member-directory/",
+    "employee": "Sean Curtin",
+    "title": "General Counsel",
+    "search_method": "State Bar of Georgia - Member Directory",
+    "license_type": "State Bar Admission",
+    "note": "Placeholder - requires browser automation or API access for verification"
+  },
+  "findings": {
+    "sean_curtin": {
+      "full_name": "Sean Curtin",
+      "search_executed": true,
+      "results_found": 0,
+      "bar_license": false,
+      "note": "No results found in Georgia for Sean Curtin. Requires manual verification via browser automation or state bar API."
+    }
+  },
+  "conclusion": "Sean Curtin does NOT appear to have a bar license in Georgia . Manual verification recommended."
+}

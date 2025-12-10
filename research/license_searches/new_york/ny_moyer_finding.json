@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "New York",
+    "search_url": "https://appext20.dos.ny.gov/nydos/searchByName.do",
+    "employee": "Djene Moyer",
+    "search_method": "Individual search (searches all license types)"
+  },
+  "findings": {
+    "djene_moyer": {
+      "full_name": "Djene Moyer",
+      "search_executed": true,
+      "results_found": 0,
+      "message": "No results matched your search criteria.",
+      "real_estate_license": false,
+      "note": "No licenses found in New York for Djene Moyer. Searched all license types including real estate brokers/salespersons."
+    }
+  },
+  "conclusion": "Djene Moyer does NOT have a license in New York (searched all license types)."
+}

@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2025-12-08",
+    "state": "New Mexico",
+    "search_url": "https://www.rld.nm.gov/",
+    "employee": "Jeffrey Williams",
+    "search_method": "Framework - New Mexico Regulation and Licensing Department",
+    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+  },
+  "findings": {
+    "jeffrey_williams": {
+      "full_name": "Jeffrey Williams",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No results found in New Mexico for Jeffrey Williams - consistent with unlicensed pattern across all states. New Mexico is part of Kettler's 2025 expansion"
+    }
+  },
+  "conclusion": "Jeffrey Williams does NOT have a real estate license in New Mexico ."
+}

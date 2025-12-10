@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2025-12-07",
+    "state": "Maryland",
+    "search_url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
+    "status": "batch_2_completed",
+    "method": "Playwright browser automation"
+  },
+  "searches": {
+    "cindy_fisher": {
+      "name": "Cindy Fisher",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed"
+    },
+    "luke_davis": {
+      "name": "Luke Davis",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed"
+    },
+    "pat_cassada": {
+      "name": "Pat Cassada",
+      "search_executed": true,
+      "results_found": "checking",
+      "note": "Search completed"
+    }
+  },
+  "remaining_searches": [
+    "Sean Curtin",
+    "Amy Groff",
+    "Robert Grealy",
+    "Djene Moyer",
+    "Henry Ramos",
+    "Kristina Thoummarath",
+    "Christina Chang",
+    "Todd Bowen",
+    "Jeffrey Williams"
+  ]
+}
