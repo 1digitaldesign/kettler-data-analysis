@@ -35,9 +35,8 @@ Complete index of all documentation in the repository.
 
 ## API & Deployment
 
-- [API_REFERENCE.md](API_REFERENCE.md) - API endpoints
 - [DEPLOYMENT.md](DEPLOYMENT.md) - Deployment guide
 
-## Reference
+## Documentation Graph
 
-- [kettler-filings-quick-reference.md](reference/kettler-filings-quick-reference.md) - Filing reference
+- [DOCUMENTATION_GRAPH.md](DOCUMENTATION_GRAPH.md) - Complete documentation network graph

@@ -16,18 +16,18 @@
 <details>
 <summary><b>📋 For Filing Administrative Complaints</b></summary>
 
-- 📄 [Executive Summary](research/va_dpor_complaint/EXECUTIVE_SUMMARY.json)
-- ✅ [Complaint Readiness](research/RESEARCH_READY_FOR_COMPLAINT.json)
-- 📑 [Master Research Index](research/MASTER_RESEARCH_INDEX.json)
+- 📄 [VA DPOR Complaint Files](research/va_dpor_complaint/) - Complete complaint research
+- 📊 [Research Index](research/RESEARCH_INDEX.json) - Master research index
+- 📑 [Research README](research/README.md) - Research directory guide
 
 </details>
 
 <details>
 <summary><b>🔍 For Understanding Findings</b></summary>
 
-- ✅ [100% Verification](research/FINAL_100_PERCENT_VERIFIED.json)
-- 📊 [Research Index](research/RESEARCH_INDEX.json)
-- 📁 [VA DPOR Complaint Files](research/va_dpor_complaint/)
+- 📊 [Research Index](research/RESEARCH_INDEX.json) - Master file index
+- 📁 [VA DPOR Complaint Files](research/va_dpor_complaint/) - Complaint research
+- 📋 [Research Reports](research/reports/) - Summary reports
 
 </details>
 
@@ -36,8 +36,7 @@
 
 - 🏢 [Firm Data](data/source/skidmore_all_firms_complete.json) - 38 firms
 - 🔗 [Connections](research/connections/) - Connection analyses
-- ⚠️ [Violations](research/violations/) - Violation findings
-- 🔍 [Anomalies](research/anomalies/) - Anomaly reports
+- 📋 [Research Reports](research/reports/) - Analysis reports
 
 </details>
 
