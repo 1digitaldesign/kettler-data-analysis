@@ -211,3 +211,10 @@ results = analyzer.analyze_all()
 ```
 
 > 📘 See [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) for architecture details.
+
+## Documentation Connections
+
+This document connects to:
+- 🏗️ [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
+- 🔄 [Data Flow](DATA_FLOW.md) - Pipeline documentation
+- 📑 [Documentation Graph](DOCUMENTATION_GRAPH.md) - Complete documentation network

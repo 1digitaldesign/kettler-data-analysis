@@ -1,5 +1,9 @@
 # Installation & Setup Guide
 
+![Installation](https://img.shields.io/badge/installation-guide-blue)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Status](https://img.shields.io/badge/status-ready-brightgreen)
+
 ## Installation Flow
 
 ```mermaid
@@ -29,10 +33,23 @@ flowchart TD
 
 ## Prerequisites
 
-- Python 3.9+ (Python 3.10+ recommended)
-- pip (Python package manager)
+<details>
+<summary><b>Required</b></summary>
+
+- ✅ Python 3.9+ (Python 3.10+ recommended)
+- ✅ pip (Python package manager)
+- ✅ Git
+
+</details>
+
+<details>
+<summary><b>Optional</b></summary>
+
 - Node.js 18+ (for web frontend)
-- Git
+- Docker (for containerized deployment)
+- Kubernetes (for production deployment)
+
+</details>
 
 ## Quick Installation
 
@@ -49,154 +66,160 @@ cp .env.example .env
 # Edit .env with your API keys (GCP, HuggingFace) if needed
 ```
 
-## Detailed Setup
+## Detailed Installation
 
-### 1. Python Environment (Recommended)
+<details>
+<summary><b>Step 1: Clone Repository</b></summary>
+
+```bash
+git clone https://github.com/1digitaldesign/kettler-data-analysis.git
+cd kettler-data-analysis
+```
+
+</details>
+
+<details>
+<summary><b>Step 2: Create Virtual Environment</b> (Recommended)</summary>
 
 ```bash
 # Create virtual environment
-python3 -m venv venv
+python -m venv venv
 
 # Activate virtual environment
 # On macOS/Linux:
 source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
+```
 
-# Install dependencies
+</details>
+
+<details>
+<summary><b>Step 3: Install Dependencies</b></summary>
+
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Environment Configuration
+**Key Dependencies:**
+- `pandas` - Data manipulation
+- `transformers` - Hugging Face models
+- `fastapi` - API server (optional)
+- `uvicorn` - ASGI server (optional)
 
-Copy `.env.example` to `.env` and configure:
+</details>
+
+<details>
+<summary><b>Step 4: Configure Environment</b></summary>
 
 ```bash
 cp .env.example .env
 ```
 
-**Required (if using GCP/Google Drive):**
-- `GOOGLE_APPLICATION_CREDENTIALS` - Path to GCP credentials JSON
-- `GCP_PROJECT_ID` - Google Cloud Project ID
+**Environment Variables:**
+- `GCP_API_KEY` - Google Cloud Platform API key (optional)
+- `HF_API_KEY` - Hugging Face API key (optional)
+- `QDRANT_HOST` - Qdrant host (optional)
+- `QDRANT_PORT` - Qdrant port (optional)
 
-**Optional:**
-- `HUGGINGFACE_TOKEN` - Hugging Face API token (for private models)
-- `OPENAI_API_KEY` - OpenAI API key (if using OpenAI models)
+</details>
 
-### 3. Verify Installation
+<details>
+<summary><b>Step 5: Verify Installation</b></summary>
 
 ```bash
-# Test Python imports
-python3 -c "from scripts.core import UnifiedAnalyzer; print('✓ Core modules OK')"
+# Test Python installation
+python --version
 
-# Test data paths
-python3 -c "from scripts.utils.paths import PROJECT_ROOT; print(f'Project root: {PROJECT_ROOT}')"
+# Test imports
+python -c "import pandas; import transformers; print('✓ Dependencies installed')"
+
+# Run validation
+python scripts/utils/validate_schema.py --file data/cleaned/firms.json
 ```
+
+</details>
 
 ## System Components
 
 ```mermaid
-graph LR
-    subgraph "Entry Points"
-        A[bin/run_pipeline.py]
-        B[bin/run_all.py]
-        C[bin/analyze_connections.py]
+graph TB
+    subgraph "Installation Components"
+        A[Python Runtime]
+        B[Python Packages]
+        C[Configuration]
+        D[Data Files]
     end
 
-    subgraph "Services"
-        D[API Server]
-        E[Web Frontend]
-    end
+    A --> B
+    B --> C
+    C --> D
 
-    A --> F[Core Modules]
-    B --> F
-    C --> F
-    D --> F
-    E --> D
-
-    style A fill:#B3E5FC
-    style B fill:#B3E5FC
+    style A fill:#C8E6C9
+    style B fill:#FFF9C4
     style C fill:#B3E5FC
-    style D fill:#F8BBD0
-    style E fill:#F8BBD0
-    style F fill:#FFF9C4
+    style D fill:#E1BEE7
 ```
 
-## Running the System
+## Verification
 
-### Command Line
+<details>
+<summary><b>Check Installation</b></summary>
 
 ```bash
-# Full pipeline
-python bin/run_pipeline.py
+# Check Python version
+python --version  # Should be 3.9+
 
-# Individual components
-python bin/run_all.py              # All analyses
-python bin/analyze_connections.py   # Connection analysis
-python bin/validate_data.py         # Data validation
-python bin/generate_reports.py      # Report generation
-python bin/clean_data.py            # Data cleaning
+# Check installed packages
+pip list | grep -E "pandas|transformers|fastapi"
+
+# Test script execution
+python bin/run_pipeline.py --help
 ```
 
-### API Server
-
-```bash
-cd api
-python server.py
-# API docs: http://localhost:8000/docs
-```
-
-### Web Frontend
-
-```bash
-cd web
-npm install
-npm run dev
-# Web app: http://localhost:3000
-```
-
-## Docker Setup (Alternative)
-
-```bash
-# Build and run
-docker-compose up -d
-
-# View logs
-docker-compose logs -f
-
-# Stop
-docker-compose down
-```
+</details>
 
 ## Troubleshooting
 
-### Import Errors
+<details>
+<summary><b>Common Issues</b></summary>
 
-If you see import errors:
+**Issue: Python version too old**
 ```bash
-# Ensure scripts directory is in Python path
-export PYTHONPATH="${PYTHONPATH}:$(pwd)/scripts"
+# Install Python 3.9+ using Homebrew (macOS)
+brew install python@3.11
 ```
 
-### Missing Dependencies
-
+**Issue: pip install fails**
 ```bash
-# Reinstall requirements
-pip install --upgrade -r requirements.txt
+# Upgrade pip
+pip install --upgrade pip
+
+# Try installing with --user flag
+pip install --user -r requirements.txt
 ```
 
-### GCP Authentication
-
+**Issue: Import errors**
 ```bash
-# Set credentials path
-export GOOGLE_APPLICATION_CREDENTIALS="config/gcp-credentials.json"
+# Ensure virtual environment is activated
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate     # Windows
 
-# Or authenticate interactively
-gcloud auth application-default login
+# Reinstall dependencies
+pip install -r requirements.txt
 ```
+
+</details>
 
 ## Next Steps
 
-- Read [README.md](README.md) for system overview
-- See [QUICK_START.md](QUICK_START.md) for usage examples
-- Review [docs/INDEX.md](docs/INDEX.md) for full documentation
+1. ✅ **Verify Installation** - Run `python bin/run_pipeline.py --help`
+2. 📖 **Read Quick Start** - See [QUICK_START.md](QUICK_START.md)
+3. 🚀 **Run Pipeline** - `python bin/run_pipeline.py`
+4. 📚 **Explore Documentation** - See [docs/INDEX.md](docs/INDEX.md)
+
+## Related
+
+- [QUICK_START.md](QUICK_START.md) - Quick start guide
+- [README.md](README.md) - Project overview
+- [docs/INDEX.md](docs/INDEX.md) - Complete documentation index

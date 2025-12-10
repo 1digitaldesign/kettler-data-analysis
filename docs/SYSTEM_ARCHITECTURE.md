@@ -218,3 +218,12 @@ erDiagram
 ```
 
 > 📘 See [data/schema.json](../data/schema.json) for complete schema definition and [data/DATA_DICTIONARY.md](../data/DATA_DICTIONARY.md) for field definitions.
+
+## Documentation Connections
+
+This document connects to:
+- 📋 [Data Dictionary](../data/DATA_DICTIONARY.md) - Field definitions
+- 📊 [Schema](../data/schema.json) - Complete schema
+- 🔄 [Data Flow](DATA_FLOW.md) - Pipeline documentation
+- 🧩 [Components](COMPONENTS.md) - Component reference
+- 📑 [Documentation Graph](DOCUMENTATION_GRAPH.md) - Complete documentation network

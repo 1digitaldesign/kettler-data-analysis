@@ -33,9 +33,9 @@ graph LR
 <details>
 <summary><b>1. Virginia DPOR Firm Licenses</b></summary>
 
-**Source:** Virginia Department of Professional and Occupational Regulation (DPOR)  
-**Collection Method:** Web scraping / manual search  
-**Original Format:** HTML/CSV  
+**Source:** Virginia Department of Professional and Occupational Regulation (DPOR)
+**Collection Method:** Web scraping / manual search
+**Original Format:** HTML/CSV
 **Collection Date:** 2024-2025
 
 **Files:**
@@ -69,9 +69,9 @@ Virginia DPOR Website
 <details>
 <summary><b>2. Individual Licenses (Multi-State)</b></summary>
 
-**Source:** Multiple state DPOR databases (VA, TX, NC, MD, etc.)  
-**Collection Method:** Multi-state search scripts  
-**Original Format:** HTML/JSON  
+**Source:** Multiple state DPOR databases (VA, TX, NC, MD, etc.)
+**Collection Method:** Multi-state search scripts
+**Original Format:** HTML/JSON
 **Collection Date:** 2024-2025
 
 **Files:**
@@ -104,9 +104,9 @@ Multi-State DPOR Searches
 <details>
 <summary><b>3. Scraped Data (STR Listings, etc.)</b></summary>
 
-**Source:** Airbnb, VRBO, Front Website, etc.  
-**Collection Method:** Web scraping scripts  
-**Original Format:** JSON  
+**Source:** Airbnb, VRBO, Front Website, etc.
+**Collection Method:** Web scraping scripts
+**Original Format:** JSON
 **Collection Date:** 2024-2025
 
 **Files:**
@@ -128,8 +128,8 @@ Multi-State DPOR Searches
 <details>
 <summary><b>Step 1: Data Cleaning</b> (`bin/clean_data.py`)</summary>
 
-**Purpose:** Standardize and normalize raw data  
-**Input:** `data/raw/`, `data/source/`  
+**Purpose:** Standardize and normalize raw data
+**Input:** `data/raw/`, `data/source/`
 **Output:** `data/cleaned/`
 
 **Functions:**
@@ -153,8 +153,8 @@ Multi-State DPOR Searches
 <details>
 <summary><b>Step 2: Connection Analysis</b> (`bin/analyze_connections.py`)</summary>
 
-**Purpose:** Identify connections between firms and individuals  
-**Input:** `data/cleaned/firms.json`, `data/cleaned/individual_licenses.json`  
+**Purpose:** Identify connections between firms and individuals
+**Input:** `data/cleaned/firms.json`, `data/cleaned/individual_licenses.json`
 **Output:** `research/connections/`
 
 **Functions:**
@@ -177,8 +177,8 @@ Multi-State DPOR Searches
 <details>
 <summary><b>Step 3: Data Validation</b> (`bin/validate_data.py`)</summary>
 
-**Purpose:** Validate data quality and integrity  
-**Input:** `data/cleaned/`, `research/connections/`  
+**Purpose:** Validate data quality and integrity
+**Input:** `data/cleaned/`, `research/connections/`
 **Output:** `research/verification/`, `research/summaries/`
 
 **Functions:**
@@ -201,8 +201,8 @@ Multi-State DPOR Searches
 <details>
 <summary><b>Step 4: ETL Pipeline</b> (`scripts/etl/etl_pipeline.py`)</summary>
 
-**Purpose:** Generate vector embeddings for semantic search  
-**Input:** `data/cleaned/`, `research/`  
+**Purpose:** Generate vector embeddings for semantic search
+**Input:** `data/cleaned/`, `research/`
 **Output:** `data/vectors/`
 
 **Functions:**
@@ -226,8 +226,8 @@ Multi-State DPOR Searches
 <details>
 <summary><b>Step 5: Research Analysis</b> (`scripts/core/unified_analysis.py`)</summary>
 
-**Purpose:** Generate research outputs and findings  
-**Input:** `data/cleaned/`, `research/connections/`  
+**Purpose:** Generate research outputs and findings
+**Input:** `data/cleaned/`, `research/connections/`
 **Output:** `research/` (various categories)
 
 **Functions:**
@@ -251,8 +251,8 @@ Multi-State DPOR Searches
 <details>
 <summary><b>Step 6: Evidence Extraction</b> (`bin/organize_evidence.py`)</summary>
 
-**Purpose:** Extract entities from evidence documents  
-**Input:** `evidence/` (PDFs, Excel files)  
+**Purpose:** Extract entities from evidence documents
+**Input:** `evidence/` (PDFs, Excel files)
 **Output:** `research/evidence/`
 
 **Functions:**

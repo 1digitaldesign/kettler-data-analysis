@@ -16,11 +16,11 @@ scripts/
 
 ## Core Modules
 
-**UnifiedAnalyzer** (`core/unified_analysis.py`) - Analysis operations  
-**UnifiedInvestigator** (`core/unified_investigation.py`) - Investigation  
-**UnifiedSearcher** - Search operations  
-**UnifiedValidator** - Validation  
-**UnifiedReporter** - Report generation  
+**UnifiedAnalyzer** (`core/unified_analysis.py`) - Analysis operations
+**UnifiedInvestigator** (`core/unified_investigation.py`) - Investigation
+**UnifiedSearcher** - Search operations
+**UnifiedValidator** - Validation
+**UnifiedReporter** - Report generation
 **UnifiedScraper** - Web scraping
 
 ## Usage

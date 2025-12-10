@@ -148,3 +148,9 @@ python bin/validate_data.py        # Validation
 ```
 
 > 📘 See [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) for architecture details.
+
+## Documentation Connections
+
+This document connects to:
+- 🏗️ [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
+- 📑 [Documentation Graph](DOCUMENTATION_GRAPH.md) - Complete documentation network

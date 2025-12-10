@@ -346,3 +346,4 @@ erDiagram
 - 🧠 [Data Ontology](./ONTOLOGY.md) - Conceptual relationships
 - 🔗 [Data Ancestry](./ANCESTRY.md) - Data lineage and transformations
 - 📁 [Repository Structure](../docs/REPOSITORY_STRUCTURE.md) - File organization
+- 📑 [Documentation Graph](../docs/DOCUMENTATION_GRAPH.md) - Complete documentation network
