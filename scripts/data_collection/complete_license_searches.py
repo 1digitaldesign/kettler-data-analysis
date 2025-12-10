@@ -71,7 +71,7 @@ def create_search_template(state: str, employee: str) -> dict:
             'date': None,  # To be filled
             'state': state.title(),
             'search_url': state_info['url'],
-            'employee': employee.replace('_', ' '_, ' ').title(),
+            'employee': employee.replace('_', ' ').title(),
             'search_method': 'Browser automation or manual',
             'license_types_searched': ['Real Estate Broker', 'Real Estate Salesperson'],
         },
