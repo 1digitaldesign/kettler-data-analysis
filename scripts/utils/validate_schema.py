@@ -5,7 +5,7 @@ Schema Validation Script
 Validates FK/PK relationships, data types, constraints, and referential integrity
 for all data files according to data/schema.json.
 
-Uses Python 3.14 features: modern type hints, except expressions, efficient patterns.
+Uses Python 3.14 features and proper JSON Schema validation (jsonschema library).
 
 Usage:
     python scripts/utils/validate_schema.py [--file <file_path>] [--table <table_name>] [--verbose]
@@ -20,6 +20,14 @@ from typing import Any, Optional
 from collections import defaultdict
 import argparse
 
+try:
+    import jsonschema
+    from jsonschema import validate, ValidationError, Draft7Validator
+    JSONSCHEMA_AVAILABLE = True
+except ImportError:
+    JSONSCHEMA_AVAILABLE = False
+    print("Warning: jsonschema library not installed. Install with: pip install jsonschema>=4.23.0")
+
 # Add project root to path
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -31,12 +39,13 @@ from scripts.utils.paths import (
 
 
 class SchemaValidator:
-    """Validates data against schema definition."""
+    """Validates data against schema definition using JSON Schema standards."""
 
     def __init__(self, schema_path: Path):
         """Initialize validator with schema file."""
         self.schema_path = schema_path
         self.schema = self._load_schema()
+        self.json_schemas = self._build_json_schemas()
         self.errors = []
         self.warnings = []
         self.stats = {
@@ -49,10 +58,103 @@ class SchemaValidator:
     def _load_schema(self) -> dict[str, Any]:
         """Load schema from JSON file."""
         try:
-            return json.loads(self.schema_path.read_text(encoding='utf-8'))
+            schema_data = json.loads(self.schema_path.read_text(encoding='utf-8'))
+            # Validate the schema file itself is valid JSON Schema
+            if JSONSCHEMA_AVAILABLE and '$schema' in schema_data:
+                try:
+                    # Validate schema structure
+                    Draft7Validator.check_schema(schema_data)
+                except ValidationError as e:
+                    print(f"Warning: Schema file structure issue: {e.message}")
+            return schema_data
         except Exception as e:
             print(f"Error loading schema: {e}")
             sys.exit(1)
+
+    def _build_json_schemas(self) -> dict[str, dict[str, Any]]:
+        """Build proper JSON Schema definitions for each table."""
+        json_schemas = {}
+        tables = self.schema.get('tables', {})
+
+        for table_name, table_def in tables.items():
+            properties = {}
+            required_fields = []
+
+            # Build properties from fields
+            for field_name, field_def in table_def.get('fields', {}).items():
+                prop_schema: dict[str, Any] = {}
+
+                # Map type
+                type_mapping = {
+                    'string': 'string',
+                    'integer': 'integer',
+                    'number': 'number',
+                    'boolean': 'boolean',
+                    'array': 'array',
+                    'object': 'object'
+                }
+                prop_schema['type'] = type_mapping.get(field_def.get('type', 'string'), 'string')
+
+                # Add format
+                if 'format' in field_def:
+                    format_val = field_def['format']
+                    # Convert regex patterns to JSON Schema pattern
+                    if format_val.startswith('^') and format_val.endswith('$'):
+                        prop_schema['pattern'] = format_val
+                    elif format_val == 'date':
+                        prop_schema['format'] = 'date'
+                    else:
+                        prop_schema['pattern'] = format_val
+
+                # Add enum
+                if 'enum' in field_def:
+                    prop_schema['enum'] = field_def['enum']
+
+                # Add description
+                if 'description' in field_def:
+                    prop_schema['description'] = field_def['description']
+
+                # Add example
+                if 'example' in field_def:
+                    prop_schema['examples'] = [field_def['example']]
+
+                # Handle array items
+                if prop_schema['type'] == 'array' and 'items' in field_def:
+                    prop_schema['items'] = {'type': 'string'}  # Default to string items
+
+                properties[field_name] = prop_schema
+
+                # Track required fields
+                if field_def.get('required', False):
+                    required_fields.append(field_name)
+
+            # Build JSON Schema for this table
+            json_schemas[table_name] = {
+                '$schema': 'http://json-schema.org/draft-07/schema#',
+                'type': 'object',
+                'properties': properties,
+                'required': required_fields,
+                'additionalProperties': True  # Allow extra fields
+            }
+
+        return json_schemas
+
+    def validate_with_json_schema(self, record: dict[str, Any], table_name: str) -> list[str]:
+        """Validate a record using JSON Schema."""
+        errors = []
+        if not JSONSCHEMA_AVAILABLE:
+            return errors
+
+        if table_name not in self.json_schemas:
+            return errors
+
+        json_schema = self.json_schemas[table_name]
+        try:
+            validate(instance=record, schema=json_schema)
+        except ValidationError as e:
+            errors.append(f"JSON Schema validation error: {e.message} (path: {'.'.join(str(p) for p in e.path)})")
+
+        return errors
 
     def validate_license_number(self, value: Any, field_name: str) -> tuple[bool, Optional[str]]:
         """Validate license number format (10 digits)."""
@@ -91,7 +193,7 @@ class SchemaValidator:
         if not re.match(r'^\d{4}-\d{2}-\d{2}$', value):
             return False, f"{field_name} must be in YYYY-MM-DD format, got: {value}"
 
-        # Try to parse the date using except expression (PEP 758)
+        # Try to parse the date
         try:
             datetime.strptime(value, "%Y-%m-%d")
         except ValueError:
@@ -125,12 +227,17 @@ class SchemaValidator:
 
         # Check format-specific validators
         format_type = field_def.get('format')
-        if format_type == 'license_number':
-            return self.validate_license_number(value, field_name)
-        elif format_type == 'state_code':
-            return self.validate_state_code(value, field_name)
-        elif format_type == 'date':
-            return self.validate_date(value, field_name)
+        if format_type:
+            if format_type.startswith('^') and 'license' in field_name.lower():
+                return self.validate_license_number(value, field_name)
+            elif format_type.startswith('^') and 'state' in field_name.lower():
+                return self.validate_state_code(value, field_name)
+            elif format_type == 'date':
+                return self.validate_date(value, field_name)
+            elif format_type.startswith('^'):
+                # Regex pattern validation
+                if not re.match(format_type, str(value)):
+                    return False, f"{field_name} does not match pattern {format_type}"
 
         # Check enum values
         enum_values = field_def.get('enum')
@@ -139,11 +246,17 @@ class SchemaValidator:
 
         return True, None
 
-    def validate_record(self, record: dict[str, Any], table_def: dict[str, Any], record_id: Any = None) -> list[str]:
+    def validate_record(self, record: dict[str, Any], table_def: dict[str, Any], table_name: str, record_id: Any = None) -> list[str]:
         """Validate a single record against table definition."""
         errors = []
-        fields = table_def.get('fields', {})
 
+        # First, validate using JSON Schema
+        if JSONSCHEMA_AVAILABLE:
+            json_schema_errors = self.validate_with_json_schema(record, table_name)
+            errors.extend(json_schema_errors)
+
+        # Then validate using custom field definitions
+        fields = table_def.get('fields', {})
         for field_name, field_def in fields.items():
             value = record.get(field_name)
             is_valid, error_msg = self.validate_field(value, field_def, field_name, record_id)
@@ -252,17 +365,19 @@ class SchemaValidator:
         # Validate foreign keys
         fk_defs = table_def.get('foreign_keys', [])
         for fk_def in fk_defs:
-            fk_errors = self.validate_foreign_key(
-                records,
-                fk_def['field'],
-                fk_def['references']['table'],
-                fk_def['references']['field']
-            )
-            result['errors'].extend(fk_errors)
+            ref_parts = fk_def['references'].split('.')
+            if len(ref_parts) == 2:
+                fk_errors = self.validate_foreign_key(
+                    records,
+                    fk_def['field'],
+                    ref_parts[0],
+                    ref_parts[1]
+                )
+                result['errors'].extend(fk_errors)
 
         # Validate each record
         for idx, record in enumerate(records):
-            record_errors = self.validate_record(record, table_def, idx)
+            record_errors = self.validate_record(record, table_def, table_name, idx)
             result['errors'].extend(record_errors)
             result['records_validated'] += 1
 
@@ -288,13 +403,17 @@ class SchemaValidator:
 
 def main():
     """Main function."""
-    parser = argparse.ArgumentParser(description="Validate data files against schema")
+    parser = argparse.ArgumentParser(description="Validate data files against schema using JSON Schema standards")
     parser.add_argument('--file', type=Path, help='Specific file to validate')
     parser.add_argument('--table', type=str, help='Table name for validation')
     parser.add_argument('--verbose', action='store_true', help='Verbose output')
     parser.add_argument('--schema', type=Path, default=DATA_DIR / 'schema.json', help='Schema file path')
 
     args = parser.parse_args()
+
+    if not JSONSCHEMA_AVAILABLE:
+        print("Warning: jsonschema library not installed. Install with: pip install jsonschema>=4.23.0")
+        print("Continuing with basic validation only...")
 
     validator = SchemaValidator(args.schema)
 
