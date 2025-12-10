@@ -1,5 +1,8 @@
 # Repository Diagrams
 
+![Diagrams](https://img.shields.io/badge/diagrams-mermaid-blue)
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+
 Visual representations of the repository structure, data flow, and system architecture.
 
 ## Repository Structure
@@ -98,100 +101,17 @@ flowchart TD
 
 ```mermaid
 graph LR
-    subgraph "Entry Layer"
-        A[bin/run_pipeline.py]
-        B[bin/run_all.py]
-        C[bin/analyze_connections.py]
-        D[bin/validate_data.py]
-    end
-
-    subgraph "Core Modules"
-        E[UnifiedAnalyzer]
-        F[UnifiedSearcher]
-        G[UnifiedValidator]
-        H[UnifiedReporter]
-        I[UnifiedInvestigator]
-        J[UnifiedScraper]
-    end
-
-    subgraph "Data Sources"
-        K[data/source/]
-        L[data/cleaned/]
-        M[data/scraped/]
-    end
-
-    subgraph "Research Outputs"
-        N[research/connections/]
-        O[research/summaries/]
-        P[research/verification/]
-        Q[research/violations/]
-    end
-
-    A --> E
-    B --> E
-    C --> E
-    D --> G
-
-    E --> F
-    E --> G
-    E --> H
-    E --> I
-    E --> J
-
-    K --> E
-    L --> E
-    M --> J
-
-    E --> N
-    E --> O
-    G --> P
-    I --> Q
+    A[Entry Points] --> B[Core Modules]
+    B --> C[Analysis Scripts]
+    B --> D[ETL Pipeline]
+    C --> E[Research Outputs]
+    D --> E
 
     style A fill:#B3E5FC
-    style E fill:#FFF9C4
-    style K fill:#C8E6C9
-    style N fill:#E1BEE7
-```
-
-## File Type Distribution
-
-```mermaid
-pie title File Types in Repository
-    "Python Scripts" : 45
-    "JSON Data" : 25
-    "Markdown Docs" : 15
-    "CSV Data" : 10
-    "Other" : 5
-```
-
-## Research Output Categories
-
-```mermaid
-mindmap
-  root((Research Outputs))
-    Connections
-      dpor_skidmore_connections.csv
-      connection_matrix.json
-      nexus_patterns_analysis.json
-    Violations
-      all_violations_compiled.json
-      hyland_upl_investigation.json
-      news_violations_search.json
-    Anomalies
-      all_anomalies_consolidated.json
-      fraud_indicators.json
-      additional_anomalies.json
-    Summaries
-      analysis_summary.json
-      data_quality_report.json
-      filing_recommendations.json
-    Verification
-      dpor_validated.csv
-      kettler_verification.json
-      hyland_verification.json
-    Timelines
-      timeline_analysis.json
-      lease_abnormalities_detailed.json
+    style B fill:#FFF9C4
+    style C fill:#C8E6C9
+    style D fill:#E1BEE7
+    style E fill:#F8BBD0
 ```
 
 ## System Architecture Layers
@@ -233,22 +153,114 @@ graph TB
     ETL --> SOURCE
     ANALYSIS --> PROCESSED
     EXTRACTION --> SOURCE
-    ETL --> VECTORS
-    CORE --> RESEARCH
+    PROCESSED --> VECTORS
     ANALYSIS --> RESEARCH
+    ETL --> RESEARCH
 
-    style WEB fill:#F8BBD0
+    style WEB fill:#E1BEE7
+    style API fill:#E1BEE7
+    style BIN fill:#B3E5FC
     style CORE fill:#FFF9C4
-    style SOURCE fill:#C8E6C9
+    style ETL fill:#C8E6C9
+    style ANALYSIS fill:#C8E6C9
+    style EXTRACTION fill:#C8E6C9
+    style SOURCE fill:#C5E1A5
+    style PROCESSED fill:#FFF9C4
+    style VECTORS fill:#D1C4E9
     style RESEARCH fill:#E1BEE7
+```
+
+## Entity-Relationship Diagram (FK/PK Relationships)
+
+```mermaid
+erDiagram
+    FIRMS ||--o{ CONNECTIONS : "has"
+    INDIVIDUAL_LICENSES ||--o{ CONNECTIONS : "has"
+    FIRMS ||--o| INDIVIDUAL_LICENSES : "principal_broker"
+    FIRMS ||--o{ RESEARCH_OUTPUTS : "analyzed_in"
+    INDIVIDUAL_LICENSES ||--o{ RESEARCH_OUTPUTS : "analyzed_in"
+    FIRMS ||--o{ VIOLATIONS : "violates"
+    INDIVIDUAL_LICENSES ||--o{ VIOLATIONS : "violates"
+    VIOLATIONS ||--o{ EVIDENCE : "supported_by"
+
+    FIRMS {
+        string firm_license PK "10-digit license"
+        string firm_name
+        string address
+        string state
+        string principal_broker
+        string individual_license FK "optional"
+        date initial_cert_date
+        date expiration_date
+    }
+
+    INDIVIDUAL_LICENSES {
+        string license_number PK "10-digit license"
+        string name
+        string address
+        string state
+        string license_type
+        date expiration_date
+    }
+
+    CONNECTIONS {
+        string connection_id PK "auto-generated"
+        string firm_license FK "optional"
+        string license_number FK "optional"
+        string connection_type
+        string connection_detail
+        string state
+        boolean verified
+    }
+
+    RESEARCH_OUTPUTS {
+        string research_id PK "auto-generated"
+        string file_path
+        string category
+        string firm_license FK "optional"
+        string license_number FK "optional"
+        date analysis_date
+        string status
+    }
+
+    VIOLATIONS {
+        string violation_id PK "auto-generated"
+        string violation_type
+        string firm_license FK "optional"
+        string license_number FK "optional"
+        string severity
+        string description
+        array evidence_files
+    }
+
+    EVIDENCE {
+        string evidence_id PK "auto-generated"
+        string file_path
+        string evidence_type
+        string violation_id FK "optional"
+        object extracted_data
+        date extraction_date
+    }
 ```
 
 ## Usage
 
+<details>
+<summary><b>Viewing Diagrams</b></summary>
+
 These diagrams are rendered automatically in:
-- GitHub (native Mermaid support)
-- GitLab (native Mermaid support)
-- VS Code (with Mermaid extension)
-- Most modern markdown viewers
+- ✅ GitHub (native Mermaid support)
+- ✅ GitLab (native Mermaid support)
+- ✅ VS Code (with Mermaid extension)
+- ✅ Most modern markdown viewers
 
 To view locally, use a markdown viewer that supports Mermaid.js or visit the repository on GitHub/GitLab.
+
+</details>
+
+## Related
+
+- [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details
+- [Data Flow](DATA_FLOW.md) - Pipeline documentation
+- [Components](COMPONENTS.md) - Component reference
+- [Repository Structure](REPOSITORY_STRUCTURE.md) - Structure details
