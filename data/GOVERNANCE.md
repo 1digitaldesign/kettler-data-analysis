@@ -415,6 +415,6 @@ This governance framework establishes policies, standards, and procedures for ma
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Framework Version:** 1.0.0  
+**Last Updated:** 2025-12-10
+**Framework Version:** 1.0.0
 **Governed By:** Data Governance Committee

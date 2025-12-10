@@ -251,6 +251,8 @@
   },
   "related_documentation": {
     "schema": "data/schema.json",
+    "data_catalog": "data/DATA_CATALOG.md",
+    "governance": "data/GOVERNANCE.md",
     "data_dictionary": "data/DATA_DICTIONARY.md",
     "ontology": "data/ONTOLOGY.md",
     "ancestry": "data/ANCESTRY.md",

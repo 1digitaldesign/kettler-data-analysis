@@ -342,6 +342,6 @@ See [Data Ancestry](./ANCESTRY.md) for detailed lineage documentation.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Catalog Version:** 1.0.0  
+**Last Updated:** 2025-12-10
+**Catalog Version:** 1.0.0
 **Maintained By:** Data Governance Team
