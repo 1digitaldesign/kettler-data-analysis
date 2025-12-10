@@ -1,10 +1,13 @@
 # Documentation Index
 
+Complete index of all documentation in the repository.
+
 ## Getting Started
 
 - [README.md](../README.md) - Main overview
 - [INSTALLATION.md](../INSTALLATION.md) - Installation and setup
 - [QUICK_START.md](../QUICK_START.md) - Quick start guide
+- [STATUS.md](../STATUS.md) - Current repository status
 
 ## System Documentation
 
@@ -13,17 +16,28 @@
 - [COMPONENTS.md](COMPONENTS.md) - Component reference
 - [REPOSITORY_STRUCTURE.md](REPOSITORY_STRUCTURE.md) - Repository structure
 - [SYSTEM_ANALYST_GUIDE.md](SYSTEM_ANALYST_GUIDE.md) - System analyst guide
-- [SYSTEM_OVERVIEW.md](SYSTEM_OVERVIEW.md) - System overview
 - [ORGANIZATION.md](ORGANIZATION.md) - Repository organization
+- [DIAGRAMS.md](DIAGRAMS.md) - Visual diagrams
 
-## Guides
+## Data Documentation
 
-- [FILING_GUIDE.md](guides/FILING_GUIDE.md) - Filing complaints
-- [EVIDENCE_SUMMARY.md](guides/EVIDENCE_SUMMARY.md) - Evidence
+- [data/schema.json](../data/schema.json) - Complete schema with FK/PK
+- [data/DATA_DICTIONARY.md](../data/DATA_DICTIONARY.md) - Field definitions
+- [data/ONTOLOGY.md](../data/ONTOLOGY.md) - Conceptual relationships
+- [data/ANCESTRY.md](../data/ANCESTRY.md) - Data lineage
+- [data/metadata.json](../data/metadata.json) - Global metadata
+- [data/README.md](../data/README.md) - Data directory guide
+
+## Research Documentation
+
+- [research/README.md](../research/README.md) - Research directory guide
+- [research/RESEARCH_INDEX.json](../research/RESEARCH_INDEX.json) - Master file index
+
+## API & Deployment
+
 - [API_REFERENCE.md](API_REFERENCE.md) - API endpoints
-- [DEPLOYMENT.md](DEPLOYMENT.md) - Deployment
+- [DEPLOYMENT.md](DEPLOYMENT.md) - Deployment guide
 
 ## Reference
 
 - [kettler-filings-quick-reference.md](reference/kettler-filings-quick-reference.md) - Filing reference
-- [DIAGRAMS.md](DIAGRAMS.md) - Visual diagrams (Mermaid.js)

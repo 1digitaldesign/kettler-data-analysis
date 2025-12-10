@@ -2,28 +2,28 @@
 
 Property management licensing investigation platform. Python-first architecture.
 
-**Date:** December 9, 2025
-**Status:** Research Framework 100% Complete - Ready for Complaint Filing
+**Status:** Research Framework 100% Complete - Ready for Complaint Filing  
+**Last Updated:** December 10, 2025
 
 ---
 
 ## Quick Start
 
-### For Filing Administrative Complaints
-→ **[research/va_dpor_complaint/EXECUTIVE_SUMMARY.json](research/va_dpor_complaint/EXECUTIVE_SUMMARY.json)** - Executive summary
-→ **[research/RESEARCH_READY_FOR_COMPLAINT.json](research/RESEARCH_READY_FOR_COMPLAINT.json)** - Complaint readiness assessment
-→ **[research/MASTER_RESEARCH_INDEX.json](research/MASTER_RESEARCH_INDEX.json)** - Master research index
+### Filing Administrative Complaints
+- [Executive Summary](research/va_dpor_complaint/EXECUTIVE_SUMMARY.json)
+- [Complaint Readiness](research/RESEARCH_READY_FOR_COMPLAINT.json)
+- [Master Research Index](research/MASTER_RESEARCH_INDEX.json)
 
-### For Understanding Findings
-→ **[research/FINAL_100_PERCENT_VERIFIED.json](research/FINAL_100_PERCENT_VERIFIED.json)** - 100% completion verification
-→ **[research/MASTER_RESEARCH_INDEX.json](research/MASTER_RESEARCH_INDEX.json)** - Master navigation index
-→ **[research/va_dpor_complaint/](research/va_dpor_complaint/)** - Complete research files
+### Understanding Findings
+- [100% Verification](research/FINAL_100_PERCENT_VERIFIED.json)
+- [Research Index](research/RESEARCH_INDEX.json)
+- [VA DPOR Complaint Files](research/va_dpor_complaint/)
 
-### For Data Analysis
-→ **[data/source/skidmore_all_firms_complete.json](data/source/skidmore_all_firms_complete.json)** - Firm data (38 firms)
-→ **[research/connections/](research/connections/)** - Connection analyses
-→ **[research/violations/](research/violations/)** - Violation findings
-→ **[research/anomalies/](research/anomalies/)** - Anomaly reports
+### Data Analysis
+- [Firm Data](data/source/skidmore_all_firms_complete.json) - 38 firms
+- [Connections](research/connections/) - Connection analyses
+- [Violations](research/violations/) - Violation findings
+- [Anomalies](research/anomalies/) - Anomaly reports
 
 ---
 
@@ -31,7 +31,7 @@ Property management licensing investigation platform. Python-first architecture.
 
 **Purpose:** Multi-state license search, connection analysis, and regulatory compliance investigation.
 
-**Architecture:** Python-first with microservices, unified core modules, and React frontend.
+**Architecture:** Python-first with unified core modules, ETL pipeline, and optional API/web frontend.
 
 **Data Flow:** Source → Extract → Clean → Analyze → Research Outputs
 
@@ -41,117 +41,79 @@ Property management licensing investigation platform. Python-first architecture.
 git clone https://github.com/1digitaldesign/kettler-data-analysis.git
 cd kettler-data-analysis
 pip install -r requirements.txt
-cp .env.example .env  # Configure as needed
-```
-
-**Run:**
-```bash
 python bin/run_pipeline.py
 ```
 
-See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions.
-
-## Research Status
-
-### Key Finding
-
-**100% Research Framework Complete:** All critical areas documented, all database methods verified, comprehensive evidence compiled, ready for complaint filing.
-
-### Statistics
-
-- **Total Research Files:** 350 JSON files + 30 markdown files
-- **Research Categories:** 10 categories (connections, violations, anomalies, evidence, verification, timelines, summaries, search_results, analysis, va_dpor_complaint)
-- **License Searches:** 285 files across 15 states
-- **Evidence Categories:** 9 (5 DEFINITIVE, 4 STRONG)
-- **Completion:** 100% Framework Complete
-
-### Critical Areas: 100% Complete
-
-1. Regulatory violations (8 total, 11 states)
-2. Principal broker violations (gap + geographic)
-3. Unlicensed practice (5 personnel, 7 activities)
-4. Financial scale ($4.75B property value)
-5. Supervision capacity (mathematical proof)
-6. Consumer complaints (46 BBB, Glassdoor)
-7. Media coverage (3 sources)
-8. Court cases (8 documented)
-9. Corporate structure (12 executives)
-10. Management chain (complete)
-11. 50-mile rule (complete analysis)
-12. Personnel verification (framework complete)
-
-## System Structure
-
-```
-bin/              # Entry points
-scripts/core/     # Unified modules (UnifiedAnalyzer, UnifiedSearcher, etc.)
-scripts/analysis/ # Analysis scripts
-scripts/etl/      # ETL pipeline
-scripts/extraction/ # Evidence extraction
-api/              # FastAPI server
-web/              # React frontend
-microservices/    # Microservice implementations
-data/             # Data (source, raw, cleaned, vectors)
-research/         # Outputs (connections, violations, anomalies, evidence)
-config/           # Configuration
-```
-
-## Key Components
-
-**Entry Points:** `bin/run_pipeline.py`, `bin/run_all.py`
-**Core Modules:** `scripts/core/unified_*.py`
-**API:** `api/server.py` (FastAPI)
-**Web:** `web/` (React/TypeScript)
-**Microservices:** `microservices/` (API Gateway, Analysis Service, etc.)
+See [INSTALLATION.md](INSTALLATION.md) for detailed setup.
 
 ## Usage
 
-**Pipeline:**
+**Full Pipeline:**
 ```bash
 python bin/run_pipeline.py
 ```
 
-**Individual:**
+**Individual Scripts:**
 ```bash
-python bin/run_all.py
-python bin/analyze_connections.py
-python bin/validate_data.py
-```
-
-**API:**
-```bash
-cd api && python server.py  # http://localhost:8000/docs
-```
-
-**Web:**
-```bash
-cd web && npm run dev  # http://localhost:3000
+python bin/analyze_connections.py  # Connection analysis
+python bin/validate_data.py        # Data validation
+python bin/clean_data.py           # Data cleaning
+python bin/generate_reports.py     # Report generation
 ```
 
 ## Documentation
 
 **Getting Started:**
-- [INSTALLATION.md](INSTALLATION.md) - Installation and setup guide
-- [QUICK_START.md](QUICK_START.md) - Quick start guide
+- [INSTALLATION.md](INSTALLATION.md) - Setup guide
+- [QUICK_START.md](QUICK_START.md) - Quick start
+- [STATUS.md](STATUS.md) - Current status
 
 **System Documentation:**
-- [docs/SYSTEM_ARCHITECTURE.md](docs/SYSTEM_ARCHITECTURE.md) - System architecture
-- [docs/DATA_FLOW.md](docs/DATA_FLOW.md) - Data pipeline
-- [docs/COMPONENTS.md](docs/COMPONENTS.md) - Component reference
-- [docs/REPOSITORY_STRUCTURE.md](docs/REPOSITORY_STRUCTURE.md) - Repository structure
-- [docs/DIAGRAMS.md](docs/DIAGRAMS.md) - Visual diagrams
+- [System Architecture](docs/SYSTEM_ARCHITECTURE.md)
+- [Data Flow](docs/DATA_FLOW.md)
+- [Components](docs/COMPONENTS.md)
+- [Repository Structure](docs/REPOSITORY_STRUCTURE.md)
+- [Diagrams](docs/DIAGRAMS.md)
 
 **Data Documentation:**
-- [data/schema.json](data/schema.json) - Complete schema with FK/PK relationships
-- [data/DATA_DICTIONARY.md](data/DATA_DICTIONARY.md) - Field definitions and constraints
-- [data/ONTOLOGY.md](data/ONTOLOGY.md) - Conceptual relationships and entities
-- [data/ANCESTRY.md](data/ANCESTRY.md) - Data lineage and transformations
-- [data/metadata.json](data/metadata.json) - Global metadata
-- [data/README.md](data/README.md) - Data directory guide
+- [Schema](data/schema.json) - FK/PK relationships
+- [Data Dictionary](data/DATA_DICTIONARY.md) - Field definitions
+- [Ontology](data/ONTOLOGY.md) - Conceptual relationships
+- [Ancestry](data/ANCESTRY.md) - Data lineage
+- [Metadata](data/metadata.json) - Global metadata
 
-**Full Documentation:**
-- [docs/INDEX.md](docs/INDEX.md) - Complete documentation index
-- [STATUS.md](STATUS.md) - Current repository status
+**Complete Index:**
+- [Documentation Index](docs/INDEX.md) - All documentation
+
+## Research Status
+
+**100% Complete:** All critical areas documented, evidence compiled, ready for complaint filing.
+
+**Statistics:**
+- 350 JSON files + 30 markdown files
+- 10 research categories
+- 285 license searches across 15 states
+- 38 firms, 40+ individual licenses
+- 100+ connections identified
+
+**Key Findings:**
+- 8 regulatory violations across 11 states
+- Principal broker gap: 10.5 years
+- Geographic violation: 1,300 miles
+- 16 unlicensed personnel (7 property managers)
+- $4.75B property value under management
+
+## System Structure
+
+```
+bin/              # Entry points
+scripts/core/     # Unified modules
+scripts/analysis/ # Analysis scripts
+scripts/etl/      # ETL pipeline
+data/             # Data (source, cleaned, vectors)
+research/         # Research outputs
+docs/             # Documentation
+```
 
 ## Features
 
@@ -161,8 +123,8 @@ cd web && npm run dev  # http://localhost:3000
 - Evidence extraction (PDF/Excel)
 - Vector embeddings
 - Timeline analysis
+- Schema validation
 
 ---
 
 **Research Status:** 100% Complete - Ready for Complaint Filing
-**Last Updated:** December 9, 2025
