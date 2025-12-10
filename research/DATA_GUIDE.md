@@ -129,7 +129,7 @@ License search files use naming pattern:
 
 ### By category
 
-Use `RESEARCH_INDEX.json` to find files by category:
+Use `research_index.json` to find files by category:
 - Connections
 - Violations
 - Anomalies

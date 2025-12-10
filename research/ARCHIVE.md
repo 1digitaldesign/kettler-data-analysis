@@ -136,7 +136,7 @@ Many status files in `license_searches/` documenting search progress:
 - Use `README.md` - Main research directory guide
 - Use `DATA_GUIDE.md` - Complete data guide
 - Use `REPORTS.md` - Consolidated reports index
-- Use `RESEARCH_INDEX.json` - Master file index
+- Use `research_index.json` - Master file index
 
 **For complaint filing:**
 - Use files in `va_dpor_complaint/` directory
