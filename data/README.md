@@ -43,6 +43,8 @@ All data follows normalized schema with **Primary Keys (PK)** and **Foreign Keys
 
 ## Documentation
 
+- **[DATA_CATALOG.md](DATA_CATALOG.md)** - Comprehensive data catalog (discoverability, metadata, quality)
+- **[GOVERNANCE.md](GOVERNANCE.md)** - Data governance framework (policies, compliance, security)
 - **[schema.json](schema.json)** - Complete JSON schema with FK/PK
 - **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)** - Field definitions and constraints
 - **[ONTOLOGY.md](ONTOLOGY.md)** - Conceptual relationships
