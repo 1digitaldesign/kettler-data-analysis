@@ -9,8 +9,8 @@
 
 ### For Filing Administrative Complaints
 
-1. **Review:** `research/license_searches/EXECUTIVE_SUMMARY_FOR_FILINGS.md`
-2. **Check:** `research/license_searches/ADMINISTRATIVE_FILING_CHECKLIST.md`
+1. **Review:** `research/license_searches/reports/EXECUTIVE_SUMMARY_FOR_FILINGS.md`
+2. **Check:** `research/license_searches/reports/ADMINISTRATIVE_FILING_CHECKLIST.md`
 3. **Use:** `research/license_searches/complaint_letters/complaint_*.txt`
 4. **Attach:** Evidence files from `research/license_searches/[state]/`
 
@@ -18,7 +18,7 @@
 
 1. **Overview:** `research/COMPLETE_INVESTIGATION_SUMMARY.md`
 2. **Status:** `research/MASTER_INVESTIGATION_STATUS.md`
-3. **Details:** `research/license_searches/MASTER_INVESTIGATION_REPORT.md`
+3. **Details:** `research/license_searches/reports/MASTER_INVESTIGATION_REPORT.md`
 4. **Data:** `research/license_searches/consolidated/all_findings.csv`
 
 ---
