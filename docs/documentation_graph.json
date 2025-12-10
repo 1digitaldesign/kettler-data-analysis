@@ -2062,6 +2062,16 @@
     },
     {
       "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",
+      "target": "research/license_searches/archive/FINAL_INVESTIGATION_STATUS.md",
+      "label": "FINAL_INVESTIGATION_STATUS.md"
+    },
+    {
+      "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",
+      "target": "research/license_searches/archive/INVESTIGATION_COMPLETE_REPORT.md",
+      "label": "INVESTIGATION_COMPLETE_REPORT.md"
+    },
+    {
+      "source": "research/license_searches/COMPLETE_INVESTIGATION_PACKAGE.md",
       "target": "research/license_searches/COMPREHENSIVE_VIOLATIONS_REPORT.md",
       "label": "COMPREHENSIVE_VIOLATIONS_REPORT.md"
     },

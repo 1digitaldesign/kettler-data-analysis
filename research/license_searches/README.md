@@ -47,12 +47,13 @@ Each state directory contains:
 
 ## Historical status files
 
-Many markdown files in this directory are historical status updates from during the investigation. These document search progress but are not needed for current research.
+Many markdown files in this directory are historical status updates from during the investigation. These have been archived in `archive/` and are not needed for current research.
 
 **Focus on:**
 - JSON files (actual search results)
 - Consolidated results in `consolidated/`
 - Complaint letters in `complaint_letters/`
+- Essential guides: `README.md`, `EXECUTIVE_SUMMARY_FOR_FILINGS.md`, `COMPLETE_INVESTIGATION_PACKAGE.md`
 
 ---
 

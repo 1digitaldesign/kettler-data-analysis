@@ -20,12 +20,12 @@ This investigation package contains all documentation, evidence, and filing mate
    - Key findings and violations summary
    - Recommended actions
 
-2. **[FINAL_INVESTIGATION_STATUS.md](FINAL_INVESTIGATION_STATUS.md)**
+2. **[FINAL_INVESTIGATION_STATUS.md](archive/FINAL_INVESTIGATION_STATUS.md) (archived)**
    - Complete investigation status
    - Progress statistics
    - Next steps
 
-3. **[INVESTIGATION_COMPLETE_REPORT.md](INVESTIGATION_COMPLETE_REPORT.md)**
+3. **[INVESTIGATION_COMPLETE_REPORT.md](archive/INVESTIGATION_COMPLETE_REPORT.md) (archived)**
    - Comprehensive investigation report
    - State-by-state findings
    - Violations summary

@@ -391,6 +391,8 @@ graph TB
     research_REPORTS_md --> research_README_md
     research_REPORTS_md --> research_DATA_GUIDE_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md
+    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_archive_FINAL_INVESTIGATION_STATUS_md
+    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_archive_INVESTIGATION_COMPLETE_REPORT_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_MASTER_INVESTIGATION_REPORT_md
     research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md
