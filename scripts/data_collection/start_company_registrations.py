@@ -73,26 +73,26 @@ def get_state_sos_url(state: str) -> str:
 def create_search_templates():
     """Create search templates for all companies."""
     REGISTRATIONS_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     templates_created = 0
-    
+
     for state in STATES:
         state_dir = REGISTRATIONS_DIR / state.lower().replace(' ', '_')
         state_dir.mkdir(parents=True, exist_ok=True)
-        
+
         for company in COMPANIES:
             template = create_registration_template(state, company)
             template['metadata']['search_url'] = get_state_sos_url(state)
-            
+
             # Create filename
             company_slug = company.lower().replace(' ', '_').replace('.', '').replace(',', '')
             filename = f'{state.lower().replace(" ", "_")}_{company_slug}_registration.json'
             filepath = state_dir / filename
-            
+
             if not filepath.exists():
                 filepath.write_text(json.dumps(template, indent=2) + '\n')
                 templates_created += 1
-    
+
     print(f"Created {templates_created} company registration templates")
     return templates_created
 
@@ -100,7 +100,7 @@ def create_search_templates():
 def print_search_instructions():
     """Print instructions for conducting searches."""
     print("=== Company Registration Search Instructions ===\n")
-    
+
     for state in STATES:
         url = get_state_sos_url(state)
         print(f"{state}:")

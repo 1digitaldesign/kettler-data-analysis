@@ -169,5 +169,5 @@ python3.14 scripts/data_collection/update_progress.py
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2025-12-10
 **Next Review:** After completing Maryland and Connecticut searches

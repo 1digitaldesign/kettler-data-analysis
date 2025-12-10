@@ -16,10 +16,10 @@ PROGRESS_FILE = RESEARCH_DIR / 'reports/DATA_COLLECTION_PROGRESS.md'
 def count_license_searches() -> dict:
     """Count completed license searches."""
     license_dir = RESEARCH_DIR / 'license_searches/data'
-    
+
     states_complete = []
     states_partial = []
-    
+
     # Check all state directories
     for state_dir in license_dir.iterdir():
         if state_dir.is_dir() and state_dir.name not in ['consolidated', 'bar_licenses', 'complaint_letters']:
@@ -29,10 +29,10 @@ def count_license_searches() -> dict:
                 states_complete.append(state_dir.name)
             elif len(finding_files) > 0:
                 states_partial.append((state_dir.name, len(finding_files)))
-    
+
     total_states = len(states_complete) + len(states_partial)
     progress_pct = round((len(states_complete) / 15) * 100) if total_states > 0 else 0
-    
+
     return {
         'complete': len(states_complete),
         'partial': len(states_partial),
@@ -56,9 +56,9 @@ def update_progress_file():
     if not PROGRESS_FILE.exists():
         print(f"Progress file not found: {PROGRESS_FILE}")
         return
-    
+
     content = PROGRESS_FILE.read_text()
-    
+
     # Update license searches
     license_stats = count_license_searches()
     content = re.sub(
@@ -66,7 +66,7 @@ def update_progress_file():
         f'\\g<1>{license_stats["progress"]}% ({license_stats["complete"]}/{license_stats["total"]} states complete)',
         content
     )
-    
+
     # Update progress bars
     license_bar_length = int(license_stats['progress'] / 5)
     license_bar = '█' * license_bar_length + '░' * (20 - license_bar_length)
@@ -76,7 +76,7 @@ def update_progress_file():
         content,
         flags=re.DOTALL
     )
-    
+
     # Update other categories
     categories = {
         'company_registrations': 2,
@@ -89,7 +89,7 @@ def update_progress_file():
         'professional': 9,
         'online': 10,
     }
-    
+
     for category, num in categories.items():
         file_count = count_data_files(category)
         if file_count > 0:
@@ -99,7 +99,7 @@ def update_progress_file():
                 '\\g<1>⚠️ Partial',
                 content
             )
-    
+
     PROGRESS_FILE.write_text(content)
     print("Progress file updated")
 

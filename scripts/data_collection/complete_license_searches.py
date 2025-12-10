@@ -51,22 +51,22 @@ def check_missing_searches(state: str) -> list[str]:
     state_dir = LICENSE_DIR / state
     if not state_dir.exists():
         return EMPLOYEES.copy()
-    
+
     existing_files = {f.stem for f in state_dir.glob('*_finding.json')}
     missing = []
-    
+
     for employee in EMPLOYEES:
         expected_file = f'{state[:2]}_{employee}_finding'
         if expected_file not in existing_files:
             missing.append(employee)
-    
+
     return missing
 
 
 def create_search_template(state: str, employee: str) -> dict:
     """Create a search template for an employee."""
     state_info = STATES_TO_COMPLETE[state]
-    
+
     return {
         'metadata': {
             'date': None,  # To be filled
@@ -84,14 +84,14 @@ def create_search_template(state: str, employee: str) -> dict:
 def generate_search_list():
     """Generate list of searches needed."""
     print("=== Remaining License Searches ===\n")
-    
+
     for state, info in STATES_TO_COMPLETE.items():
         missing = check_missing_searches(state)
         print(f"{state.upper()}:")
         print(f"  Agency: {info['agency']}")
         print(f"  URL: {info['url']}")
         print(f"  Missing searches: {len(missing)}/{len(EMPLOYEES)}")
-        
+
         if missing:
             print("  Employees to search:")
             for emp in missing:
@@ -104,21 +104,21 @@ def generate_search_list():
 def create_missing_templates():
     """Create JSON templates for missing searches."""
     templates_created = 0
-    
+
     for state in STATES_TO_COMPLETE.keys():
         missing = check_missing_searches(state)
         state_dir = LICENSE_DIR / state
         state_dir.mkdir(parents=True, exist_ok=True)
-        
+
         for employee in missing:
             template = create_search_template(state, employee)
             filename = f'{state[:2]}_{employee}_finding.json'
             filepath = state_dir / filename
-            
+
             if not filepath.exists():
                 filepath.write_text(json.dumps(template, indent=2) + '\n')
                 templates_created += 1
-    
+
     print(f"Created {templates_created} search templates")
     return templates_created
 
