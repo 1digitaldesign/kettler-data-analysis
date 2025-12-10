@@ -1,6 +1,26 @@
 # Documentation Index
 
+![Index](https://img.shields.io/badge/index-complete-brightgreen)
+![Docs](https://img.shields.io/badge/docs-25%2B-blue)
+
 Complete index of all documentation in the repository.
+
+## 📑 Documentation Graph
+
+**Start here to see how all documentation connects:**
+
+```mermaid
+graph LR
+    README[README.md] --> INDEX[INDEX.md]
+    INDEX --> ARCH[SYSTEM_ARCHITECTURE.md]
+    INDEX --> DATA[DATA_DICTIONARY.md]
+    INDEX --> RESEARCH[research/README.md]
+    
+    style README fill:#C8E6C9,stroke:#4CAF50,stroke-width:3px
+    style INDEX fill:#B3E5FC,stroke:#2196F3,stroke-width:2px
+```
+
+> 📊 See [DOCUMENTATION_GRAPH.md](DOCUMENTATION_GRAPH.md) for complete interactive graph with 173 nodes and 110 edges.
 
 ## Getting Started
 
@@ -39,4 +59,4 @@ Complete index of all documentation in the repository.
 
 ## Documentation Graph
 
-- [DOCUMENTATION_GRAPH.md](DOCUMENTATION_GRAPH.md) - Complete documentation network graph
+- [DOCUMENTATION_GRAPH.md](DOCUMENTATION_GRAPH.md) - Complete documentation network graph (graph theory visualization)

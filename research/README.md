@@ -1,13 +1,13 @@
 # Research Directory
 
-**Total Files:** 350 JSON + 30 MD + 3 CSV + 5 TXT  
+**Total Files:** 350 JSON + 30 MD + 3 CSV + 5 TXT
 **Status:** 100% Complete - Ready for Complaint Filing
 
 ## Quick Navigation
 
 - **[RESEARCH_INDEX.json](./RESEARCH_INDEX.json)** - Master index of all files
-- **[MASTER_RESEARCH_INDEX.json](./MASTER_RESEARCH_INDEX.json)** - Master navigation
-- **[va_dpor_complaint/EXECUTIVE_SUMMARY.json](./va_dpor_complaint/EXECUTIVE_SUMMARY.json)** - Executive summary
+- **[va_dpor_complaint/](./va_dpor_complaint/)** - VA DPOR complaint research files
+- **[reports/](./reports/)** - Summary reports and findings
 
 ## Directory Structure
 

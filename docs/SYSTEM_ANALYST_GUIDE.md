@@ -98,8 +98,8 @@ flowchart LR
 <details>
 <summary><b>UnifiedAnalyzer</b></summary>
 
-**Input:** Source Data  
-**Operations:** Analysis operations  
+**Input:** Source Data
+**Operations:** Analysis operations
 **Output:** Results
 
 **Features:**
@@ -112,8 +112,8 @@ flowchart LR
 <details>
 <summary><b>UnifiedSearcher</b></summary>
 
-**Input:** Queries  
-**Operations:** Search operations  
+**Input:** Queries
+**Operations:** Search operations
 **Output:** Results
 
 **Features:**
@@ -126,8 +126,8 @@ flowchart LR
 <details>
 <summary><b>UnifiedValidator</b></summary>
 
-**Input:** Data  
-**Operations:** Validation  
+**Input:** Data
+**Operations:** Validation
 **Output:** Validation reports
 
 **Features:**
