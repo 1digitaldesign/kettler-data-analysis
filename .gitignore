@@ -246,3 +246,4 @@ kubernetes/*-secrets.yaml
 config/gcp-credentials.json
 config/*.json
 !config/gcp-env-template.txt
+state_dpor_registry.csv

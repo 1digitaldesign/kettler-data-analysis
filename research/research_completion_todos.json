@@ -1,0 +1,80 @@
+{
+  "scan_date": "1765324924.596908",
+  "incomplete_files": 24,
+  "todos": [
+    {
+      "id": "complete-RESEARCH_PROGRESS_UPDATE",
+      "file": "RESEARCH_PROGRESS_UPDATE.json",
+      "description": "Complete research in RESEARCH_PROGRESS_UPDATE.json",
+      "issues": [
+        "Status: in_progress"
+      ],
+      "priority": "medium"
+    },
+    {
+      "id": "complete-RESEARCH_PROGRESS_UPDATE_2",
+      "file": "RESEARCH_PROGRESS_UPDATE_2.json",
+      "description": "Complete research in RESEARCH_PROGRESS_UPDATE_2.json",
+      "issues": [
+        "Status: in_progress"
+      ],
+      "priority": "medium"
+    },
+    {
+      "id": "property-records-kettler_operations_gap_period",
+      "file": "va_dpor_complaint/kettler_operations_gap_period.json",
+      "description": "Search property records for unit counts",
+      "method": "browser",
+      "priority": "high"
+    },
+    {
+      "id": "regulatory-dpor_complaints-regulatory_compliance_gap_period",
+      "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
+      "description": "Research dpor_complaints regulatory issues",
+      "method": "browser",
+      "priority": "medium"
+    },
+    {
+      "id": "regulatory-business_license_violations-regulatory_compliance_gap_period",
+      "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
+      "description": "Research business_license_violations regulatory issues",
+      "method": "browser",
+      "priority": "medium"
+    },
+    {
+      "id": "complete-all_states_license_search_status",
+      "file": "search_results/all_states_license_search_status.json",
+      "description": "Complete research in search_results/all_states_license_search_status.json",
+      "issues": [],
+      "priority": "medium"
+    },
+    {
+      "id": "complete-kettler_employees_license_search_results",
+      "file": "search_results/kettler_employees_license_search_results.json",
+      "description": "Complete research in search_results/kettler_employees_license_search_results.json",
+      "issues": [],
+      "priority": "medium"
+    },
+    {
+      "id": "complete-kettler_employees_license_search_comprehensive",
+      "file": "search_results/kettler_employees_license_search_comprehensive.json",
+      "description": "Complete research in search_results/kettler_employees_license_search_comprehensive.json",
+      "issues": [],
+      "priority": "medium"
+    },
+    {
+      "id": "complete-all_states_search_status_update",
+      "file": "search_results/all_states_search_status_update.json",
+      "description": "Complete research in search_results/all_states_search_status_update.json",
+      "issues": [],
+      "priority": "medium"
+    },
+    {
+      "id": "complete-kettler_employees_all_states_license_search",
+      "file": "search_results/kettler_employees_all_states_license_search.json",
+      "description": "Complete research in search_results/kettler_employees_all_states_license_search.json",
+      "issues": [],
+      "priority": "medium"
+    }
+  ]
+}
