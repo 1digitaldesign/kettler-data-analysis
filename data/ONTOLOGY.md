@@ -1,25 +1,33 @@
 # Data Ontology
 
+![Ontology](https://img.shields.io/badge/ontology-complete-brightgreen)
+![Entities](https://img.shields.io/badge/entities-7-blue)
+![Relationships](https://img.shields.io/badge/relationships-9-orange)
+
 Conceptual model defining core entities, relationships, and properties in the Kettler Data Analysis domain.
 
 ## Overview
 
-This ontology describes the semantic structure of the data, focusing on **what** entities exist, **how** they relate to each other, and **what properties** they possess. It complements the [Data Dictionary](./DATA_DICTIONARY.md) (which focuses on technical field definitions) and the [Schema](./schema.json) (which focuses on FK/PK relationships).
+This ontology describes the semantic structure of the data, focusing on **what** entities exist, **how** they relate to each other, and **what properties** they possess.
+
+> 📘 Complements [Data Dictionary](./DATA_DICTIONARY.md) (technical field definitions) and [Schema](./schema.json) (FK/PK relationships).
 
 ## Core Concepts
 
 ### Entity Types
 
-#### 1. **Firm** (`Firm`)
+<details>
+<summary><b>1. Firm</b> (`Firm`)</summary>
+
 A licensed real estate firm entity.
 
 **Properties:**
-- Has a unique license number (10-digit Virginia DPOR)
-- Has a legal name
-- Has a business address
-- Has a principal broker (Individual)
-- Has license dates (initial certification, expiration)
-- Operates in a state
+- ✅ Unique license number (10-digit Virginia DPOR)
+- ✅ Legal name
+- ✅ Business address
+- ✅ Principal broker (Individual)
+- ✅ License dates (initial certification, expiration)
+- ✅ State jurisdiction
 
 **Key Characteristics:**
 - Primary identifier: `firm_license`
@@ -27,17 +35,21 @@ A licensed real estate firm entity.
 - Can be associated with violations
 - Can be analyzed in research outputs
 
-#### 2. **Individual** (`Individual`)
+</details>
+
+<details>
+<summary><b>2. Individual</b> (`Individual`)</summary>
+
 A person holding a real estate license.
 
 **Properties:**
-- Has a unique license number (10-digit)
-- Has a name
-- Has an address
-- Holds a license type
-- Licensed by a regulatory board
-- Operates in a state
-- Has license expiration date
+- ✅ Unique license number (10-digit)
+- ✅ Name
+- ✅ Address
+- ✅ License type
+- ✅ Regulatory board
+- ✅ State jurisdiction
+- ✅ License expiration date
 
 **Key Characteristics:**
 - Primary identifier: `license_number`
@@ -46,50 +58,58 @@ A person holding a real estate license.
 - Can be connected to firms
 - Can be associated with violations
 
-#### 3. **License** (`License`)
+</details>
+
+<details>
+<summary><b>3. License</b> (`License`)</summary>
+
 A regulatory authorization to practice real estate.
 
 **Properties:**
-- Has a license number
-- Has a type (Firm or Individual)
-- Has a state jurisdiction
-- Has dates (certification, expiration)
-- Issued by a regulatory board
+- ✅ License number
+- ✅ Type (Firm or Individual)
+- ✅ State jurisdiction
+- ✅ Dates (certification, expiration)
+- ✅ Regulatory board
 
 **Key Characteristics:**
 - Can be a Firm License or Individual License
 - Has temporal validity (expiration dates)
 - Subject to regulatory oversight
 
-#### 4. **Connection** (`Connection`)
+</details>
+
+<details>
+<summary><b>4. Connection</b> (`Connection`)</summary>
+
 A relationship between entities (firm-to-firm, firm-to-individual).
 
 **Properties:**
-- Has a connection type
-- Has connection details
-- Has a state context
-- Has verification status
-- Has an analysis date
+- ✅ Connection type
+- ✅ Connection details
+- ✅ State context
+- ✅ Verification status
+- ✅ Analysis date
 
 **Key Characteristics:**
-- Represents various relationship types:
-  - Principal Broker relationship
-  - Address sharing
-  - Corporate relationships
-  - Professional associations
+- Represents various relationship types
 - Can be verified or unverified
 - Temporal (can change over time)
 
-#### 5. **Violation** (`Violation`)
+</details>
+
+<details>
+<summary><b>5. Violation</b> (`Violation`)</summary>
+
 A regulatory violation identified through analysis.
 
 **Properties:**
-- Has a violation type
-- Has a severity level
-- Has a description
-- Has evidence files
-- Has an identified date
-- Occurs in a state
+- ✅ Violation type
+- ✅ Severity level
+- ✅ Description
+- ✅ Evidence files
+- ✅ Identified date
+- ✅ State jurisdiction
 
 **Key Characteristics:**
 - Can be associated with firms or individuals
@@ -97,15 +117,19 @@ A regulatory violation identified through analysis.
 - Supported by evidence
 - Temporal (identified at a specific date)
 
-#### 6. **Evidence** (`Evidence`)
+</details>
+
+<details>
+<summary><b>6. Evidence</b> (`Evidence`)</summary>
+
 A document or data source supporting research findings.
 
 **Properties:**
-- Has a file path
-- Has an evidence type
-- Has extracted data
-- Has an extraction date
-- Has a source description
+- ✅ File path
+- ✅ Evidence type
+- ✅ Extracted data
+- ✅ Extraction date
+- ✅ Source description
 
 **Key Characteristics:**
 - Can support violations
@@ -113,16 +137,20 @@ A document or data source supporting research findings.
 - Contains extracted entities and data
 - Temporal (extracted at a specific date)
 
-#### 7. **Research Output** (`ResearchOutput`)
+</details>
+
+<details>
+<summary><b>7. Research Output</b> (`ResearchOutput`)</summary>
+
 An analysis result or finding from research activities.
 
 **Properties:**
-- Has a category
-- Has a file path
-- Has an analysis date
-- Has findings summary
-- Has a status
-- Has metadata
+- ✅ Category
+- ✅ File path
+- ✅ Analysis date
+- ✅ Findings summary
+- ✅ Status
+- ✅ Metadata
 
 **Key Characteristics:**
 - Can reference firms or individuals
@@ -130,130 +158,127 @@ An analysis result or finding from research activities.
 - Has completion status
 - Temporal (analyzed at a specific date)
 
----
+</details>
 
 ## Relationships
 
 ### Primary Relationships
 
-#### 1. **Firm HAS Principal Broker** (`Firm` → `Individual`)
-- **Type:** One-to-Many (one firm has one principal broker, but an individual can be principal broker for multiple firms)
+<details>
+<summary><b>Firm HAS Principal Broker</b> (`Firm` → `Individual`)</summary>
+
+- **Type:** One-to-Many
 - **Cardinality:** Firm (1) → Individual (0..1)
-- **Properties:**
-  - Principal broker name stored on firm
-  - Optional FK: `firms.individual_license` → `individual_licenses.license_number`
-- **Business Rule:** A firm must have a principal broker, but the broker's license may not always be found in the individual licenses dataset
+- **Properties:** Principal broker name stored on firm
+- **FK:** `firms.individual_license` → `individual_licenses.license_number` (optional)
 
-#### 2. **Individual HOLDS License** (`Individual` → `License`)
-- **Type:** One-to-Many (one individual can hold multiple licenses)
+</details>
+
+<details>
+<summary><b>Individual HOLDS License</b> (`Individual` → `License`)</summary>
+
+- **Type:** One-to-Many
 - **Cardinality:** Individual (1) → License (1..*)
-- **Properties:**
-  - License number is primary identifier
-  - Each license has a state and type
-- **Business Rule:** An individual can hold licenses in multiple states
+- **Properties:** License number is primary identifier
 
-#### 3. **Firm CONNECTED_TO Firm** (`Firm` → `Firm`)
+</details>
+
+<details>
+<summary><b>Firm CONNECTED_TO Firm</b> (`Firm` → `Firm`)</summary>
+
 - **Type:** Many-to-Many (via Connection entity)
 - **Cardinality:** Firm (1) → Connection (0..*) → Firm (1)
-- **Properties:**
-  - Connection type (e.g., "Same Address", "Corporate Relationship")
-  - Connection details
-  - Verification status
-- **Business Rule:** Connections can be bidirectional
+- **Properties:** Connection type, details, verification status
 
-#### 4. **Firm CONNECTED_TO Individual** (`Firm` → `Individual`)
+</details>
+
+<details>
+<summary><b>Firm CONNECTED_TO Individual</b> (`Firm` → `Individual`)</summary>
+
 - **Type:** Many-to-Many (via Connection entity)
 - **Cardinality:** Firm (1) → Connection (0..*) → Individual (1)
-- **Properties:**
-  - Connection type (e.g., "Principal Broker")
-  - Connection details
-- **Business Rule:** Principal broker relationship is a special case of this
+- **Properties:** Connection type (e.g., "Principal Broker")
 
-#### 5. **Firm VIOLATES Regulation** (`Firm` → `Violation`)
+</details>
+
+<details>
+<summary><b>Firm VIOLATES Regulation</b> (`Firm` → `Violation`)</summary>
+
 - **Type:** One-to-Many
 - **Cardinality:** Firm (1) → Violation (0..*)
-- **Properties:**
-  - Violation type
-  - Severity
-  - Description
-- **Business Rule:** A firm can have multiple violations
+- **Properties:** Violation type, severity, description
 
-#### 6. **Individual VIOLATES Regulation** (`Individual` → `Violation`)
+</details>
+
+<details>
+<summary><b>Individual VIOLATES Regulation</b> (`Individual` → `Violation`)</summary>
+
 - **Type:** One-to-Many
 - **Cardinality:** Individual (1) → Violation (0..*)
-- **Properties:**
-  - Violation type
-  - Severity
-  - Description
-- **Business Rule:** An individual can have multiple violations
+- **Properties:** Violation type, severity, description
 
-#### 7. **Violation SUPPORTED_BY Evidence** (`Violation` → `Evidence`)
+</details>
+
+<details>
+<summary><b>Violation SUPPORTED_BY Evidence</b> (`Violation` → `Evidence`)</summary>
+
 - **Type:** One-to-Many
 - **Cardinality:** Violation (1) → Evidence (0..*)
-- **Properties:**
-  - Evidence type
-  - Extracted data
-  - Source
-- **Business Rule:** Violations should be supported by evidence
+- **Properties:** Evidence type, extracted data, source
 
-#### 8. **Firm ANALYZED_IN Research** (`Firm` → `ResearchOutput`)
+</details>
+
+<details>
+<summary><b>Firm ANALYZED_IN Research</b> (`Firm` → `ResearchOutput`)</summary>
+
 - **Type:** One-to-Many
 - **Cardinality:** Firm (1) → ResearchOutput (0..*)
-- **Properties:**
-  - Research category
-  - Findings summary
-  - Analysis date
-- **Business Rule:** Research can analyze multiple firms
+- **Properties:** Research category, findings summary, analysis date
 
-#### 9. **Individual ANALYZED_IN Research** (`Individual` → `ResearchOutput`)
+</details>
+
+<details>
+<summary><b>Individual ANALYZED_IN Research</b> (`Individual` → `ResearchOutput`)</summary>
+
 - **Type:** One-to-Many
 - **Cardinality:** Individual (1) → ResearchOutput (0..*)
-- **Properties:**
-  - Research category
-  - Findings summary
-  - Analysis date
-- **Business Rule:** Research can analyze multiple individuals
+- **Properties:** Research category, findings summary, analysis date
 
----
+</details>
 
 ## Concept Hierarchy
 
-```
-Entity
-├── Firm
-│   ├── Properties: license, name, address, principal_broker, dates
-│   └── Relationships: HAS Principal Broker, CONNECTED_TO (Firm/Individual), VIOLATES, ANALYZED_IN
-│
-├── Individual
-│   ├── Properties: license, name, address, license_type, board
-│   └── Relationships: HOLDS License, CONNECTED_TO Firm, VIOLATES, ANALYZED_IN
-│
-├── License
-│   ├── Properties: number, type, state, dates, board
-│   └── Relationships: HELD_BY Individual, ASSOCIATED_WITH Firm
-│
-├── Connection
-│   ├── Properties: type, detail, state, verified, date
-│   └── Relationships: LINKS Firm↔Firm, LINKS Firm↔Individual
-│
-├── Violation
-│   ├── Properties: type, severity, description, date
-│   └── Relationships: ASSOCIATED_WITH Firm/Individual, SUPPORTED_BY Evidence
-│
-├── Evidence
-│   ├── Properties: file_path, type, extracted_data, source
-│   └── Relationships: SUPPORTS Violation
-│
-└── ResearchOutput
-    ├── Properties: category, file_path, findings, status, date
-    └── Relationships: ANALYZES Firm/Individual
-```
+```mermaid
+graph TB
+    Entity[Entity]
+    Entity --> Firm[Firm<br/>firm_license]
+    Entity --> Individual[Individual<br/>license_number]
+    Entity --> License[License<br/>license_number]
+    Entity --> Connection[Connection<br/>connection_id]
+    Entity --> Violation[Violation<br/>violation_id]
+    Entity --> Evidence[Evidence<br/>evidence_id]
+    Entity --> Research[ResearchOutput<br/>research_id]
 
----
+    Firm -->|HAS| Individual
+    Individual -->|HOLDS| License
+    Firm -->|CONNECTED_TO| Connection
+    Individual -->|CONNECTED_TO| Connection
+    Firm -->|VIOLATES| Violation
+    Individual -->|VIOLATES| Violation
+    Violation -->|SUPPORTED_BY| Evidence
+    Firm -->|ANALYZED_IN| Research
+    Individual -->|ANALYZED_IN| Research
+
+    style Firm fill:#FFE5E5
+    style Individual fill:#E5F3FF
+    style License fill:#E5FFE5
+    style Connection fill:#FFF5E5
+    style Violation fill:#FFE5F5
+    style Evidence fill:#F5E5FF
+    style Research fill:#E5FFFF
+```
 
 ## Relationship Cardinalities
-
-### Detailed Cardinality Matrix
 
 | From Entity | Relationship | To Entity | Cardinality | Notes |
 |-------------|--------------|-----------|-------------|-------|
@@ -267,55 +292,43 @@ Entity
 | Firm | ANALYZED_IN | ResearchOutput | 1:0..* | One firm can be analyzed in multiple research outputs |
 | Individual | ANALYZED_IN | ResearchOutput | 1:0..* | One individual can be analyzed in multiple research outputs |
 
----
-
-## Property Domains
-
-### Temporal Properties
-- **Dates:** All dates use ISO 8601 format (`YYYY-MM-DD`)
-- **Temporal Entities:** Firms, Licenses, Connections, Violations, Evidence, ResearchOutputs all have temporal aspects
-
-### Geographic Properties
-- **State Codes:** Two-letter uppercase codes (`VA`, `TX`, `NC`, etc.)
-- **Addresses:** Free-form text, normalized for matching
-
-### Identifier Properties
-- **License Numbers:** Exactly 10 digits (`0226025311`)
-- **IDs:** 32-character hexadecimal hashes (for connections, violations, evidence, research)
-
-### Classification Properties
-- **Connection Types:** Enum (Principal Broker, Same Address, etc.)
-- **Violation Types:** Enum (Principal Broker Gap, Geographic Violation, etc.)
-- **Evidence Types:** Enum (PDF, Excel, Email, etc.)
-- **Research Categories:** Enum (connections, violations, anomalies, etc.)
-- **Severity Levels:** Enum (High, Medium, Low)
-- **Status Values:** Enum (complete, in_progress, pending, verified)
-
----
-
 ## Business Rules
 
-### License Rules
-1. **Firm License Requirement:** Every firm must have a principal broker
-2. **License Uniqueness:** License numbers are unique within their type (Firm vs Individual)
-3. **License Validity:** Licenses have expiration dates; expired licenses may still be relevant for historical analysis
+<details>
+<summary><b>License Rules</b></summary>
 
-### Connection Rules
-1. **Connection Verification:** Connections can be verified or unverified
-2. **Connection Types:** Connections have specific types that define the relationship
-3. **Bidirectional Connections:** Firm-to-firm connections are bidirectional
+1. ✅ Every firm must have a principal broker
+2. ✅ License numbers are unique within their type (Firm vs Individual)
+3. ✅ Licenses have expiration dates; expired licenses may still be relevant for historical analysis
 
-### Violation Rules
-1. **Violation Evidence:** Violations should be supported by evidence files
-2. **Violation Severity:** All violations have a severity classification
-3. **Violation Association:** Violations must be associated with at least one firm or individual
+</details>
 
-### Research Rules
-1. **Research Categorization:** All research outputs belong to a category
-2. **Research Status:** Research outputs have a completion status
-3. **Research Association:** Research outputs can reference firms or individuals (optional)
+<details>
+<summary><b>Connection Rules</b></summary>
 
----
+1. ✅ Connections can be verified or unverified
+2. ✅ Connections have specific types that define the relationship
+3. ✅ Firm-to-firm connections are bidirectional
+
+</details>
+
+<details>
+<summary><b>Violation Rules</b></summary>
+
+1. ✅ Violations should be supported by evidence files
+2. ✅ All violations have a severity classification
+3. ✅ Violations must be associated with at least one firm or individual
+
+</details>
+
+<details>
+<summary><b>Research Rules</b></summary>
+
+1. ✅ All research outputs belong to a category
+2. ✅ Research outputs have a completion status
+3. ✅ Research outputs can reference firms or individuals (optional)
+
+</details>
 
 ## Ontology Diagram
 
@@ -353,11 +366,9 @@ graph TB
     style Research fill:#E5FFFF
 ```
 
----
-
 ## Related Documentation
 
-- [Data Dictionary](./DATA_DICTIONARY.md) - Technical field definitions
-- [Schema Definition](./schema.json) - FK/PK relationships
-- [Data Ancestry](./ANCESTRY.md) - Data lineage and transformations
-- [Repository Structure](../docs/REPOSITORY_STRUCTURE.md) - File organization
+- 📋 [Data Dictionary](./DATA_DICTIONARY.md) - Technical field definitions
+- 📊 [Schema Definition](./schema.json) - FK/PK relationships
+- 🔗 [Data Ancestry](./ANCESTRY.md) - Data lineage and transformations
+- 📁 [Repository Structure](../docs/REPOSITORY_STRUCTURE.md) - File organization

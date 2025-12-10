@@ -1,10 +1,16 @@
 # Data Ancestry
 
-Complete data lineage documenting the origin, transformations, and dependencies of all data in the Kettler Data Analysis repository.
+![Ancestry](https://img.shields.io/badge/ancestry-documented-brightgreen)
+![Sources](https://img.shields.io/badge/sources-4-blue)
+![Transformations](https://img.shields.io/badge/transformations-6-orange)
+
+Complete data lineage documenting the origin, transformations, and dependencies of all data.
 
 ## Overview
 
-This document tracks the **lineage** of data from original sources through transformations to final research outputs. It answers: **Where did this data come from?** and **How was it transformed?**
+This document tracks the **lineage** of data from original sources through transformations to final research outputs.
+
+**Answers:** Where did this data come from? How was it transformed?
 
 ## Data Flow Pipeline
 
@@ -24,11 +30,12 @@ graph LR
 
 ## Source Data
 
-### 1. Virginia DPOR Firm Licenses
+<details>
+<summary><b>1. Virginia DPOR Firm Licenses</b></summary>
 
-**Source:** Virginia Department of Professional and Occupational Regulation (DPOR)
-**Collection Method:** Web scraping / manual search
-**Original Format:** HTML/CSV
+**Source:** Virginia Department of Professional and Occupational Regulation (DPOR)  
+**Collection Method:** Web scraping / manual search  
+**Original Format:** HTML/CSV  
 **Collection Date:** 2024-2025
 
 **Files:**
@@ -36,14 +43,16 @@ graph LR
 - `data/source/skidmore_firms_database.csv` (CSV export)
 
 **Transformation:**
-- **Script:** `bin/clean_data.py` → `clean_firm_names()`, `normalize_addresses()`, `parse_dates()`
+- **Script:** `bin/clean_data.py`
+- **Functions:** `clean_firm_names()`, `normalize_addresses()`, `parse_dates()`
 - **Output:** `data/cleaned/firms.json`
-- **Changes:**
-  - Normalized firm names (uppercase, trimmed)
-  - Standardized addresses (uppercase, normalized abbreviations)
-  - Parsed dates (ISO 8601 format: `YYYY-MM-DD`)
-  - Extracted license numbers (10-digit format)
-  - Added `gap_years` calculation (firm license date vs principal broker license date)
+
+**Changes:**
+- ✅ Normalized firm names (uppercase, trimmed)
+- ✅ Standardized addresses (uppercase, normalized abbreviations)
+- ✅ Parsed dates (ISO 8601 format: `YYYY-MM-DD`)
+- ✅ Extracted license numbers (10-digit format)
+- ✅ Added `gap_years` calculation
 
 **Lineage:**
 ```
@@ -55,11 +64,14 @@ Virginia DPOR Website
   → data/cleaned/firms.json (cleaned)
 ```
 
-### 2. Individual Licenses (Multi-State)
+</details>
 
-**Source:** Multiple state DPOR databases (VA, TX, NC, MD, etc.)
-**Collection Method:** Multi-state search scripts
-**Original Format:** HTML/JSON
+<details>
+<summary><b>2. Individual Licenses (Multi-State)</b></summary>
+
+**Source:** Multiple state DPOR databases (VA, TX, NC, MD, etc.)  
+**Collection Method:** Multi-state search scripts  
+**Original Format:** HTML/JSON  
 **Collection Date:** 2024-2025
 
 **Files:**
@@ -67,29 +79,34 @@ Virginia DPOR Website
 - `data/source/skidmore_individual_licenses.csv` (CSV export)
 
 **Transformation:**
-- **Script:** `bin/clean_data.py` → `extract_entities()`, `deduplicate_results()`
+- **Script:** `bin/clean_data.py`
+- **Functions:** `extract_entities()`, `deduplicate_results()`
 - **Output:** `data/cleaned/individual_licenses.json`
-- **Changes:**
-  - Normalized names (uppercase, standardized format)
-  - Parsed license numbers (10-digit format)
-  - Standardized addresses
-  - Removed duplicates (same license number, different states)
-  - Added state codes
+
+**Changes:**
+- ✅ Normalized names (uppercase, standardized format)
+- ✅ Parsed license numbers (10-digit format)
+- ✅ Standardized addresses
+- ✅ Removed duplicates (same license number, different states)
+- ✅ Added state codes
 
 **Lineage:**
 ```
-Multi-State DPOR Searches (search_virginia_dpor.R, search_multi_state_dpor.R)
+Multi-State DPOR Searches
   → data/raw/*.json (raw search results)
   → bin/clean_data.py::extract_entities()
   → bin/clean_data.py::deduplicate_results()
   → data/cleaned/individual_licenses.json (cleaned)
 ```
 
-### 3. Scraped Data (STR Listings, etc.)
+</details>
 
-**Source:** Airbnb, VRBO, Front Website, etc.
-**Collection Method:** Web scraping scripts
-**Original Format:** JSON
+<details>
+<summary><b>3. Scraped Data (STR Listings, etc.)</b></summary>
+
+**Source:** Airbnb, VRBO, Front Website, etc.  
+**Collection Method:** Web scraping scripts  
+**Original Format:** JSON  
 **Collection Date:** 2024-2025
 
 **Files:**
@@ -101,23 +118,18 @@ Multi-State DPOR Searches (search_virginia_dpor.R, search_multi_state_dpor.R)
 **Transformation:**
 - **Script:** `scripts/automation/*.js` (DevTools scrapers)
 - **Output:** Direct to `data/scraped/` (no cleaning step)
-- **Changes:** None (raw scraped data preserved)
 
-**Lineage:**
-```
-External Websites (Airbnb, VRBO, Front)
-  → scripts/automation/*.js (scrapers)
-  → data/scraped/*.json (raw scraped data)
-```
+**Changes:** None (raw scraped data preserved)
 
----
+</details>
 
 ## Transformation Steps
 
-### Step 1: Data Cleaning (`bin/clean_data.py`)
+<details>
+<summary><b>Step 1: Data Cleaning</b> (`bin/clean_data.py`)</summary>
 
-**Purpose:** Standardize and normalize raw data
-**Input:** `data/raw/`, `data/source/`
+**Purpose:** Standardize and normalize raw data  
+**Input:** `data/raw/`, `data/source/`  
 **Output:** `data/cleaned/`
 
 **Functions:**
@@ -136,10 +148,13 @@ External Websites (Airbnb, VRBO, Front)
 - `data/cleaned/firms.json`
 - `data/cleaned/individual_licenses.json`
 
-### Step 2: Connection Analysis (`bin/analyze_connections.py`)
+</details>
 
-**Purpose:** Identify connections between firms and individuals
-**Input:** `data/cleaned/firms.json`, `data/cleaned/individual_licenses.json`
+<details>
+<summary><b>Step 2: Connection Analysis</b> (`bin/analyze_connections.py`)</summary>
+
+**Purpose:** Identify connections between firms and individuals  
+**Input:** `data/cleaned/firms.json`, `data/cleaned/individual_licenses.json`  
 **Output:** `research/connections/`
 
 **Functions:**
@@ -157,18 +172,13 @@ External Websites (Airbnb, VRBO, Front)
 - `research/connections/dpor_skidmore_connections.csv`
 - `research/analysis/connection_matrix.json`
 
-**Lineage:**
-```
-data/cleaned/firms.json
-  → bin/analyze_connections.py::find_principal_broker_connections()
-  → bin/analyze_connections.py::find_address_connections()
-  → research/connections/caitlin_skidmore_connections.json
-```
+</details>
 
-### Step 3: Data Validation (`bin/validate_data.py`)
+<details>
+<summary><b>Step 3: Data Validation</b> (`bin/validate_data.py`)</summary>
 
-**Purpose:** Validate data quality and integrity
-**Input:** `data/cleaned/`, `research/connections/`
+**Purpose:** Validate data quality and integrity  
+**Input:** `data/cleaned/`, `research/connections/`  
 **Output:** `research/verification/`, `research/summaries/`
 
 **Functions:**
@@ -186,18 +196,13 @@ data/cleaned/firms.json
 - `research/verification/dpor_validated.json`
 - `research/summaries/data_quality_report.json`
 
-**Lineage:**
-```
-data/cleaned/firms.json
-  → bin/validate_data.py::validate_license_numbers()
-  → bin/validate_data.py::validate_fk_references()
-  → research/verification/dpor_validated.json
-```
+</details>
 
-### Step 4: ETL Pipeline (`scripts/etl/etl_pipeline.py`)
+<details>
+<summary><b>Step 4: ETL Pipeline</b> (`scripts/etl/etl_pipeline.py`)</summary>
 
-**Purpose:** Generate vector embeddings for semantic search
-**Input:** `data/cleaned/`, `research/`
+**Purpose:** Generate vector embeddings for semantic search  
+**Input:** `data/cleaned/`, `research/`  
 **Output:** `data/vectors/`
 
 **Functions:**
@@ -216,17 +221,13 @@ data/cleaned/firms.json
 - `data/vectors/research_outputs.vectors.json`
 - `data/vectors/processed_files.json`
 
-**Lineage:**
-```
-data/cleaned/firms.json
-  → scripts/etl/etl_pipeline.py::generate_embeddings()
-  → data/vectors/firms.vectors.json
-```
+</details>
 
-### Step 5: Research Analysis (`scripts/core/unified_analysis.py`)
+<details>
+<summary><b>Step 5: Research Analysis</b> (`scripts/core/unified_analysis.py`)</summary>
 
-**Purpose:** Generate research outputs and findings
-**Input:** `data/cleaned/`, `research/connections/`
+**Purpose:** Generate research outputs and findings  
+**Input:** `data/cleaned/`, `research/connections/`  
 **Output:** `research/` (various categories)
 
 **Functions:**
@@ -245,17 +246,13 @@ data/cleaned/firms.json
 - `research/timelines/*.json`
 - `research/summaries/*.json`
 
-**Lineage:**
-```
-data/cleaned/firms.json + research/connections/caitlin_skidmore_connections.json
-  → scripts/core/unified_analysis.py::analyze_violations()
-  → research/violations/principal_broker_gap_analysis.json
-```
+</details>
 
-### Step 6: Evidence Extraction (`bin/organize_evidence.py`)
+<details>
+<summary><b>Step 6: Evidence Extraction</b> (`bin/organize_evidence.py`)</summary>
 
-**Purpose:** Extract entities from evidence documents
-**Input:** `evidence/` (PDFs, Excel files)
+**Purpose:** Extract entities from evidence documents  
+**Input:** `evidence/` (PDFs, Excel files)  
 **Output:** `research/evidence/`
 
 **Functions:**
@@ -273,14 +270,7 @@ data/cleaned/firms.json + research/connections/caitlin_skidmore_connections.json
 - `research/evidence/excel_evidence_extracted.json`
 - `research/evidence/upl_evidence_extracted.json`
 
-**Lineage:**
-```
-evidence/pdfs/*.pdf
-  → bin/organize_evidence.py::extract_pdf_entities()
-  → research/evidence/pdf_evidence_extracted.json
-```
-
----
+</details>
 
 ## Complete Data Lineage Diagram
 
@@ -353,134 +343,35 @@ graph TD
     style E2 fill:#F5E5FF
 ```
 
----
-
-## File Dependencies
-
-### Firms Data
-
-**Dependencies:**
-- `data/source/skidmore_all_firms_complete.json` (source)
-- `bin/clean_data.py` (transformation script)
-
-**Dependent Files:**
-- `research/connections/caitlin_skidmore_connections.json`
-- `research/violations/principal_broker_gap_analysis.json`
-- `data/vectors/firms.vectors.json`
-
-### Individual Licenses Data
-
-**Dependencies:**
-- `data/source/skidmore_individual_licenses.json` (source)
-- `bin/clean_data.py` (transformation script)
-
-**Dependent Files:**
-- `research/connections/caitlin_skidmore_connections.json`
-- `research/violations/geographic_violation_analysis.json`
-- `data/vectors/individual_licenses.vectors.json`
-
-### Connections Data
-
-**Dependencies:**
-- `data/cleaned/firms.json`
-- `data/cleaned/individual_licenses.json`
-- `bin/analyze_connections.py` (analysis script)
-
-**Dependent Files:**
-- `research/violations/*.json` (violation analyses)
-- `research/anomalies/*.json` (anomaly reports)
-- `data/vectors/research_outputs.vectors.json`
-
-### Research Outputs
-
-**Dependencies:**
-- `data/cleaned/firms.json`
-- `data/cleaned/individual_licenses.json`
-- `research/connections/caitlin_skidmore_connections.json`
-- Various analysis scripts
-
-**Dependent Files:**
-- `data/vectors/research_outputs.vectors.json`
-- `research/summaries/*.json` (summary reports)
-
----
-
 ## Processing Scripts
-
-### Data Cleaning Scripts
 
 | Script | Purpose | Input | Output |
 |--------|---------|-------|--------|
 | `bin/clean_data.py` | Clean and normalize data | `data/source/`, `data/raw/` | `data/cleaned/` |
-
-### Analysis Scripts
-
-| Script | Purpose | Input | Output |
-|--------|---------|-------|--------|
 | `bin/analyze_connections.py` | Find connections | `data/cleaned/` | `research/connections/` |
 | `scripts/core/unified_analysis.py` | Unified analysis | `data/cleaned/`, `research/connections/` | `research/violations/`, `research/anomalies/` |
-| `scripts/core/unified_investigation.py` | Investigation | `research/connections/` | `research/` |
-
-### Validation Scripts
-
-| Script | Purpose | Input | Output |
-|--------|---------|-------|--------|
 | `bin/validate_data.py` | Validate data quality | `data/cleaned/` | `research/verification/` |
-| `scripts/utils/validate_schema.py` | Validate schema | `data/cleaned/`, `data/schema.json` | Validation reports |
-
-### ETL Scripts
-
-| Script | Purpose | Input | Output |
-|--------|---------|-------|--------|
 | `scripts/etl/etl_pipeline.py` | Generate vectors | `data/cleaned/`, `research/` | `data/vectors/` |
-
-### Evidence Scripts
-
-| Script | Purpose | Input | Output |
-|--------|---------|-------|--------|
 | `bin/organize_evidence.py` | Extract evidence | `evidence/` | `research/evidence/` |
-
----
 
 ## Data Timestamps
 
-### Collection Dates
-
-- **Virginia DPOR Firm Licenses:** 2024-10-31 to 2025-12-07
-- **Multi-State Individual Licenses:** 2024-11-01 to 2025-12-07
-- **Scraped Data:** 2024-12-01 to 2025-12-07
-- **Evidence Documents:** 2024-09-01 to 2025-12-07
-
-### Processing Dates
-
-- **Data Cleaning:** 2025-12-07
-- **Connection Analysis:** 2025-12-07
-- **Validation:** 2025-12-07
-- **ETL Pipeline:** 2025-12-07
-- **Research Analysis:** 2025-12-07
-
----
+| Stage | Date Range |
+|-------|------------|
+| **Collection** | 2024-10-31 to 2025-12-07 |
+| **Processing** | 2025-12-07 |
+| **Analysis** | 2025-12-07 |
+| **Research** | 2025-12-07 |
 
 ## Data Versions
 
-### Version 1.0 (Current)
-
-- **Firms:** 38 firms
-- **Individual Licenses:** 40+ licenses
-- **Connections:** 100+ connections
-- **Research Outputs:** 350+ JSON files
-- **Evidence Files:** 10+ PDF/Excel files
-
-### Version History
-
-- **v1.0** (2025-12-07): Initial comprehensive data collection and analysis
-
----
+| Version | Date | Description |
+|---------|------|-------------|
+| **v1.0** | 2025-12-07 | Initial comprehensive data collection and analysis |
 
 ## Related Documentation
 
-- [Data Dictionary](./DATA_DICTIONARY.md) - Field definitions
-- [Data Ontology](./ONTOLOGY.md) - Conceptual relationships
-- [Schema Definition](./schema.json) - FK/PK relationships
-- [Repository Structure](../docs/REPOSITORY_STRUCTURE.md) - File organization
-- [Data Flow](../docs/DATA_FLOW.md) - Pipeline documentation
+- 📋 [Data Dictionary](./DATA_DICTIONARY.md) - Field definitions
+- 🧠 [Data Ontology](./ONTOLOGY.md) - Conceptual relationships
+- 📊 [Schema Definition](./schema.json) - FK/PK relationships
+- 📁 [Repository Structure](../docs/REPOSITORY_STRUCTURE.md) - File organization
