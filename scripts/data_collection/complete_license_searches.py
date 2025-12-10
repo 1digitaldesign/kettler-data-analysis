@@ -54,18 +54,19 @@ def check_missing_searches(state: str) -> list[str]:
     existing_files = {f.stem for f in state_dir.glob('*_finding.json')}
     missing = []
 
-    # State code mapping
+    # State code mapping (based on actual file naming)
     state_codes = {
-        'maryland': 'md',
-        'connecticut': 'ct',
+        'maryland': 'md',  # Files use 'md_' prefix
+        'connecticut': 'ct',  # Files use 'ct_' prefix  
         'virginia': 'va',
         'dc': 'dc',
         'new_jersey': 'nj',
         'new_york': 'ny',
     }
     
+    # Use first 2 letters if not in mapping (for states like arizona -> az)
     state_code = state_codes.get(state, state[:2])
-    
+
     for employee in EMPLOYEES:
         expected_file = f'{state_code}_{employee}_finding'
         if expected_file not in existing_files:
