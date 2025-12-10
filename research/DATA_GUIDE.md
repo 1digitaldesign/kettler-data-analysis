@@ -194,6 +194,6 @@ See [Data Dictionary](../data/DATA_DICTIONARY.md) for complete field definitions
 ## Related documentation
 
 - [Research README](README.md) - Research directory overview
-- [Research Index](RESEARCH_INDEX.json) - Master file index
+- [Research Index](research_index.json) - Master file index
 - [Data Dictionary](../data/DATA_DICTIONARY.md) - Field definitions
 - [Data Schema](../data/schema.json) - Complete schema

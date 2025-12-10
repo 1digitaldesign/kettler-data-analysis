@@ -175,7 +175,7 @@
 
 1. **Review** `COMPLAINT_AMENDMENT_GUIDE.md`
 2. **Reference** `EVIDENCE_INDEX.md` for quick lookup
-3. **Use** `COMPLAINT_EVIDENCE_COMPILATION.json` for organized evidence
+3. **Use** `complaint_evidence_compilation.json` for organized evidence
 4. **Compile** evidence into formal complaint amendment
 5. **Submit** to VA DPOR
 
