@@ -1,490 +1,251 @@
 # Documentation Graph
 
-Complete graph of all documentation files and their relationships.
+![Graph](https://img.shields.io/badge/graph-complete-brightgreen)
+![Nodes](https://img.shields.io/badge/nodes-174-blue)
+![Edges](https://img.shields.io/badge/edges-124-orange)
+
+Complete graph theory visualization of all documentation files and their relationships. This graph shows how all documentation connects when viewing files on GitHub.
+
+## About this graph
+
+This visualization maps all documentation files in the repository and shows how they connect. Use it to:
+
+- Understand documentation relationships
+- Navigate between related documents
+- Discover documentation you might have missed
+- See the overall documentation structure
+
+## Interactive documentation network
 
 ```mermaid
 graph TB
-    subgraph "OTHER"
-        CODE_FIXES_SUMMARY_md["CODE_FIXES_SUMMARY"]
-        INVESTIGATION_READY_md["INVESTIGATION_READY"]
-        SUMMARY_md["SUMMARY"]
-        scripts_README_md["README"]
-        scripts_automation_BROWSER_AUTOMATION_TROUBLESHOOTING_md["BROWSER_AUTOMATION_TROUBLESHOOTING"]
-        scripts_automation_EXPANSION_COMPLETE_md["EXPANSION_COMPLETE"]
-        scripts_automation_README_md["README"]
-        scripts_automation_README_DEVTOOLS_md["README_DEVTOOLS"]
-        scripts_automation_UNIVERSAL_SCRAPER_GUIDE_md["UNIVERSAL_SCRAPER_GUIDE"]
-        scripts_automation_devtools_scraping_guide_md["devtools_scraping_guide"]
+    subgraph "Root Documentation"
+        README[README.md<br/>Main Overview]
+        INSTALL[INSTALLATION.md<br/>Setup Guide]
+        QUICK[QUICK_START.md<br/>Quick Start]
+        STATUS[STATUS.md<br/>Repository Status]
     end
-    subgraph "ROOT"
-        INSTALLATION_md["INSTALLATION"]
-        QUICK_START_md["QUICK_START"]
-        README_md["README"]
-        STATUS_md["STATUS"]
+
+    subgraph "System Documentation"
+        INDEX[docs/INDEX.md<br/>Documentation Index]
+        ARCH[docs/SYSTEM_ARCHITECTURE.md<br/>Architecture]
+        FLOW[docs/DATA_FLOW.md<br/>Data Pipeline]
+        COMP[docs/COMPONENTS.md<br/>Components]
+        STRUCT[docs/REPOSITORY_STRUCTURE.md<br/>Repository Structure]
+        DIAGRAMS[docs/DIAGRAMS.md<br/>Visual Diagrams]
+        ORG[docs/ORGANIZATION.md<br/>Organization]
+        GUIDE[docs/SYSTEM_ANALYST_GUIDE.md<br/>System Analyst Guide]
     end
-    subgraph "DATA"
-        data_ANCESTRY_md["ANCESTRY"]
-        data_DATA_DICTIONARY_md["DATA_DICTIONARY"]
-        data_ONTOLOGY_md["ONTOLOGY"]
-        data_README_md["README"]
+
+    subgraph "Data Documentation"
+        DATA_README[data/README.md<br/>Data Guide]
+        DATA_DICT[data/DATA_DICTIONARY.md<br/>Field Definitions]
+        ONTOLOGY[data/ONTOLOGY.md<br/>Conceptual Model]
+        ANCESTRY[data/ANCESTRY.md<br/>Data Lineage]
+        SCHEMA[data/schema.json<br/>Schema Definition]
     end
-    subgraph "SYSTEM"
-        docs_COMPONENTS_md["COMPONENTS"]
-        docs_DATA_FLOW_md["DATA_FLOW"]
-        docs_DEPLOYMENT_md["DEPLOYMENT"]
-        docs_DIAGRAMS_md["DIAGRAMS"]
-        docs_DOCUMENTATION_GRAPH_md["DOCUMENTATION_GRAPH"]
-        docs_INDEX_md["INDEX"]
-        docs_ORGANIZATION_md["ORGANIZATION"]
-        docs_REPOSITORY_STRUCTURE_md["REPOSITORY_STRUCTURE"]
-        docs_SYSTEM_ARCHITECTURE_md["SYSTEM_ARCHITECTURE"]
-        docs_archive_status_COMPLETE_md["COMPLETE"]
-        docs_archive_status_COMPLETE_INVESTIGATION_STATUS_md["COMPLETE_INVESTIGATION_STATUS"]
-        docs_archive_status_FINAL_INVESTIGATION_REPORT_md["FINAL_INVESTIGATION_REPORT"]
-        docs_archive_status_FINAL_STATUS_md["FINAL_STATUS"]
-        docs_archive_status_INVESTIGATION_COMPLETE_md["INVESTIGATION_COMPLETE"]
-        docs_archive_status_INVESTIGATION_COMPLETE_FINAL_md["INVESTIGATION_COMPLETE_FINAL"]
-        docs_archive_status_INVESTIGATION_COMPLETE_SUMMARY_md["INVESTIGATION_COMPLETE_SUMMARY"]
-        docs_archive_status_INVESTIGATION_FINAL_STATUS_md["INVESTIGATION_FINAL_STATUS"]
-        docs_archive_status_INVESTIGATION_PACKAGE_COMPLETE_md["INVESTIGATION_PACKAGE_COMPLETE"]
-        docs_archive_status_INVESTIGATION_STATUS_FINAL_md["INVESTIGATION_STATUS_FINAL"]
-        docs_archive_status_MICROSERVICES_IMPLEMENTATION_COMPLETE_md["MICROSERVICES_IMPLEMENTATION_COMPLETE"]
-        docs_archive_status_REPOSITORY_REORGANIZATION_COMPLETE_md["REPOSITORY_REORGANIZATION_COMPLETE"]
+
+    subgraph "Research Documentation"
+        RESEARCH_README[research/README.md<br/>Research Guide]
+        RESEARCH_INDEX[research/RESEARCH_INDEX.json<br/>Research Index]
     end
-    subgraph "GUIDE"
-        docs_SYSTEM_ANALYST_GUIDE_md["SYSTEM_ANALYST_GUIDE"]
-    end
-    subgraph "RESEARCH"
-        research_ALL_STATES_LARIAT_COMPANIES_SEARCH_md["ALL_STATES_LARIAT_COMPANIES_SEARCH"]
-        research_COMPLAINT_AMENDMENT_GUIDE_md["COMPLAINT_AMENDMENT_GUIDE"]
-        research_COMPLETE_INVESTIGATION_SUMMARY_md["COMPLETE_INVESTIGATION_SUMMARY"]
-        research_COMPLETE_PACKAGE_SUMMARY_md["COMPLETE_PACKAGE_SUMMARY"]
-        research_EVIDENCE_INDEX_md["EVIDENCE_INDEX"]
-        research_EXECUTION_SUMMARY_md["EXECUTION_SUMMARY"]
-        research_EXECUTIVE_SUMMARY_md["EXECUTIVE_SUMMARY"]
-        research_FINAL_DELIVERABLES_SUMMARY_md["FINAL_DELIVERABLES_SUMMARY"]
-        research_FINAL_STATUS_RECONCILIATION_md["FINAL_STATUS_RECONCILIATION"]
-        research_FINAL_VERIFICATION_REPORT_md["FINAL_VERIFICATION_REPORT"]
-        research_FINDINGS_VALIDATION_REPORT_md["FINDINGS_VALIDATION_REPORT"]
-        research_HANDOFF_DOCUMENT_md["HANDOFF_DOCUMENT"]
-        research_HYLAND_UPL_EVIDENCE_md["HYLAND_UPL_EVIDENCE"]
-        research_INVESTIGATION_COMPLETE_GUIDE_md["INVESTIGATION_COMPLETE_GUIDE"]
-        research_INVESTIGATION_STATISTICS_md["INVESTIGATION_STATISTICS"]
-        research_INVESTIGATION_STATUS_COMPLETE_md["INVESTIGATION_STATUS_COMPLETE"]
-        research_KETTLER_OPERATIONAL_LOCATIONS_md["KETTLER_OPERATIONAL_LOCATIONS"]
-        research_LARIAT_AFFILIATED_COMPANIES_INVESTIGATION_md["LARIAT_AFFILIATED_COMPANIES_INVESTIGATION"]
-        research_LARIAT_AFFILIATED_COMPANIES_SUMMARY_md["LARIAT_AFFILIATED_COMPANIES_SUMMARY"]
-        research_LARIAT_COMPANIES_FINDINGS_md["LARIAT_COMPANIES_FINDINGS"]
-        research_LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS_md["LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS"]
-        research_LARIAT_VS_KETTLER_LICENSING_STRATEGY_md["LARIAT_VS_KETTLER_LICENSING_STRATEGY"]
-        research_MASTER_INDEX_md["MASTER_INDEX"]
-        research_MASTER_INVESTIGATION_STATUS_md["MASTER_INVESTIGATION_STATUS"]
-        research_MASTER_RESEARCH_COMPLETION_REPORT_md["MASTER_RESEARCH_COMPLETION_REPORT"]
-        research_METHOD_COMPARISON_md["METHOD_COMPARISON"]
-        research_MOORE_KRISTEN_JONES_INVESTIGATION_md["MOORE_KRISTEN_JONES_INVESTIGATION"]
-        research_PROJECT_COMPLETE_md["PROJECT_COMPLETE"]
-        research_QUICK_START_md["QUICK_START"]
-        research_README_md["README"]
-        research_REMAINING_LEGAL_VIOLATIONS_md["REMAINING_LEGAL_VIOLATIONS"]
-        research_VALIDATION_REPORT_md["VALIDATION_REPORT"]
-        research_VIRGINIA_40_LICENSES_CRITICAL_FINDING_md["VIRGINIA_40_LICENSES_CRITICAL_FINDING"]
-        research_VIRGINIA_COMPANIES_FOUND_md["VIRGINIA_COMPANIES_FOUND"]
-        research_VIRGINIA_EXTRACTION_COMPLETE_SUMMARY_md["VIRGINIA_EXTRACTION_COMPLETE_SUMMARY"]
-        research_VIRGINIA_EXTRACTION_FINAL_STATUS_md["VIRGINIA_EXTRACTION_FINAL_STATUS"]
-        research_VIRGINIA_EXTRACTION_STATUS_md["VIRGINIA_EXTRACTION_STATUS"]
-        research_VIRGINIA_EXTRACTION_SUMMARY_md["VIRGINIA_EXTRACTION_SUMMARY"]
-        research_browser_automation_DATABASE_SEARCH_FRAMEWORK_md["DATABASE_SEARCH_FRAMEWORK"]
-        research_browser_automation_README_md["README"]
-        research_license_searches_100_PERCENT_COVERAGE_CONFIRMED_md["100_PERCENT_COVERAGE_CONFIRMED"]
-        research_license_searches_ACTION_PLAN_md["ACTION_PLAN"]
-        research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md["ADMINISTRATIVE_FILING_CHECKLIST"]
-        research_license_searches_ALL_FINDINGS_SUMMARY_md["ALL_FINDINGS_SUMMARY"]
-        research_license_searches_AUTOMATION_READY_md["AUTOMATION_READY"]
-        research_license_searches_BATCH_SEARCH_PROGRESS_md["BATCH_SEARCH_PROGRESS"]
-        research_license_searches_CAITLIN_SKIDMORE_MULTI_STATE_md["CAITLIN_SKIDMORE_MULTI_STATE"]
-        research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md["COMPLETE_INVESTIGATION_PACKAGE"]
-        research_license_searches_COMPLETE_OPERATIONAL_STATES_SEARCH_md["COMPLETE_OPERATIONAL_STATES_SEARCH"]
-        research_license_searches_COMPREHENSIVE_FINAL_STATUS_md["COMPREHENSIVE_FINAL_STATUS"]
-        research_license_searches_COMPREHENSIVE_PROGRESS_md["COMPREHENSIVE_PROGRESS"]
-        research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md["COMPREHENSIVE_VIOLATIONS_REPORT"]
-        research_license_searches_CONSOLIDATED_FINDINGS_SUMMARY_md["CONSOLIDATED_FINDINGS_SUMMARY"]
-        research_license_searches_CORE_15_EMPLOYEES_LIST_md["CORE_15_EMPLOYEES_LIST"]
-        research_license_searches_CRITICAL_PATTERN_UPDATE_md["CRITICAL_PATTERN_UPDATE"]
-        research_license_searches_CURRENT_PROGRESS_UPDATE_md["CURRENT_PROGRESS_UPDATE"]
-        research_license_searches_CURRENT_SEARCH_STATUS_md["CURRENT_SEARCH_STATUS"]
-        research_license_searches_CURRENT_STATUS_md["CURRENT_STATUS"]
-        research_license_searches_CURRENT_STATUS_SUMMARY_md["CURRENT_STATUS_SUMMARY"]
-        research_license_searches_DATA_VERIFICATION_FINAL_md["DATA_VERIFICATION_FINAL"]
-        research_license_searches_DMV_COMPLETENESS_VERIFICATION_md["DMV_COMPLETENESS_VERIFICATION"]
-        research_license_searches_DMV_FINAL_STATUS_md["DMV_FINAL_STATUS"]
-        research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md["EXECUTIVE_SUMMARY_FOR_FILINGS"]
-        research_license_searches_FINAL_BATCH_PROGRESS_md["FINAL_BATCH_PROGRESS"]
-        research_license_searches_FINAL_COMPLETION_SUMMARY_md["FINAL_COMPLETION_SUMMARY"]
-        research_license_searches_FINAL_COMPREHENSIVE_STATUS_md["FINAL_COMPREHENSIVE_STATUS"]
-        research_license_searches_FINAL_INVESTIGATION_STATUS_md["FINAL_INVESTIGATION_STATUS"]
-        research_license_searches_FINAL_INVESTIGATION_SUMMARY_md["FINAL_INVESTIGATION_SUMMARY"]
-        research_license_searches_FINAL_REORGANIZATION_SUMMARY_md["FINAL_REORGANIZATION_SUMMARY"]
-        research_license_searches_FINAL_STATUS_REPORT_md["FINAL_STATUS_REPORT"]
-        research_license_searches_FINAL_VALIDATION_SUMMARY_md["FINAL_VALIDATION_SUMMARY"]
-        research_license_searches_INVESTIGATION_COMPLETE_REPORT_md["INVESTIGATION_COMPLETE_REPORT"]
-        research_license_searches_INVESTIGATION_COMPLETE_SUMMARY_md["INVESTIGATION_COMPLETE_SUMMARY"]
-        research_license_searches_INVESTIGATION_STATUS_UPDATE_md["INVESTIGATION_STATUS_UPDATE"]
-        research_license_searches_ISSUES_ENCOUNTERED_md["ISSUES_ENCOUNTERED"]
-        research_license_searches_KEY_FINDINGS_COMPREHENSIVE_md["KEY_FINDINGS_COMPREHENSIVE"]
-        research_license_searches_KEY_FINDINGS_DC_md["KEY_FINDINGS_DC"]
-        research_license_searches_LATEST_BATCH_RESULTS_md["LATEST_BATCH_RESULTS"]
-        research_license_searches_LATEST_FINDINGS_md["LATEST_FINDINGS"]
-        research_license_searches_LATEST_FINDINGS_UPDATE_md["LATEST_FINDINGS_UPDATE"]
-        research_license_searches_LEAH_DOUTHIT_LIDDY_BISANZ_SEARCH_PLAN_md["LEAH_DOUTHIT_LIDDY_BISANZ_SEARCH_PLAN"]
-        research_license_searches_LICENSE_SEARCHES_COMPLETE_md["LICENSE_SEARCHES_COMPLETE"]
-        research_license_searches_LICENSE_SEARCHES_FINAL_COMPLETE_md["LICENSE_SEARCHES_FINAL_COMPLETE"]
-        research_license_searches_MASTER_INVESTIGATION_REPORT_md["MASTER_INVESTIGATION_REPORT"]
-        research_license_searches_NEXT_STEPS_md["NEXT_STEPS"]
-        research_license_searches_NJ_NY_COMPLETE_SUMMARY_md["NJ_NY_COMPLETE_SUMMARY"]
-        research_license_searches_PROGRESS_SUMMARY_FINAL_md["PROGRESS_SUMMARY_FINAL"]
-        research_license_searches_PROGRESS_UPDATE_md["PROGRESS_UPDATE"]
-        research_license_searches_QUICK_REFERENCE_md["QUICK_REFERENCE"]
-        research_license_searches_README_md["README"]
-        research_license_searches_READY_FOR_FILINGS_md["READY_FOR_FILINGS"]
-        research_license_searches_REMAINING_WORK_SUMMARY_md["REMAINING_WORK_SUMMARY"]
-        research_license_searches_REORGANIZATION_AND_PROGRESS_md["REORGANIZATION_AND_PROGRESS"]
-        research_license_searches_REORGANIZATION_COMPLETE_md["REORGANIZATION_COMPLETE"]
-        research_license_searches_ROBERT_KETTLER_SUMMARY_md["ROBERT_KETTLER_SUMMARY"]
-        research_license_searches_SEAN_CURTIN_BAR_LICENSE_SEARCH_md["SEAN_CURTIN_BAR_LICENSE_SEARCH"]
-        research_license_searches_SEARCH_COMPLETION_STATUS_md["SEARCH_COMPLETION_STATUS"]
-        research_license_searches_SEARCH_COMPLETION_SUMMARY_md["SEARCH_COMPLETION_SUMMARY"]
-        research_license_searches_SEARCH_PROGRESS_UPDATE_md["SEARCH_PROGRESS_UPDATE"]
-        research_license_searches_SUMMARY_AND_STATUS_md["SUMMARY_AND_STATUS"]
-        research_license_searches_THOMAS_BISANZ_SEARCH_COMPLETE_md["THOMAS_BISANZ_SEARCH_COMPLETE"]
-        research_license_searches_UNLICENSED_OPERATIONS_REPORT_md["UNLICENSED_OPERATIONS_REPORT"]
-        research_license_searches_URLS_AND_PROGRESS_md["URLS_AND_PROGRESS"]
-        research_license_searches_VALIDATION_REPORT_md["VALIDATION_REPORT"]
-        research_license_searches_VERIFICATION_COMPLETE_md["VERIFICATION_COMPLETE"]
-        research_license_searches_connecticut_BROWSER_AUTOMATION_EXECUTED_md["BROWSER_AUTOMATION_EXECUTED"]
-        research_license_searches_connecticut_CONNECTICUT_SEARCH_STATUS_md["CONNECTICUT_SEARCH_STATUS"]
-        research_license_searches_dc_DC_SEARCH_COMPLETE_md["DC_SEARCH_COMPLETE"]
-        research_license_searches_maryland_ADDITIONAL_MARYLAND_SEARCHES_md["ADDITIONAL_MARYLAND_SEARCHES"]
-        research_license_searches_maryland_CAPTCHA_BYPASS_OPTIONS_md["CAPTCHA_BYPASS_OPTIONS"]
-        research_license_searches_maryland_CAPTCHA_REQUIRED_md["CAPTCHA_REQUIRED"]
-        research_license_searches_maryland_CAPTCHA_SERVICE_SETUP_md["CAPTCHA_SERVICE_SETUP"]
-        research_license_searches_maryland_IMPLEMENTATION_STATUS_md["IMPLEMENTATION_STATUS"]
-        research_license_searches_maryland_MANUAL_CAPTCHA_INSTRUCTIONS_md["MANUAL_CAPTCHA_INSTRUCTIONS"]
-        research_license_searches_maryland_MANUAL_SEARCH_CHECKLIST_md["MANUAL_SEARCH_CHECKLIST"]
-        research_license_searches_maryland_MARYLAND_CAPTCHA_SOLUTION_SUMMARY_md["MARYLAND_CAPTCHA_SOLUTION_SUMMARY"]
-        research_license_searches_maryland_MARYLAND_FINDINGS_SUMMARY_md["MARYLAND_FINDINGS_SUMMARY"]
-        research_license_searches_maryland_MARYLAND_LICENSED_EMPLOYEES_UPDATE_md["MARYLAND_LICENSED_EMPLOYEES_UPDATE"]
-        research_license_searches_maryland_MARYLAND_PROGRESS_md["MARYLAND_PROGRESS"]
-        research_license_searches_maryland_MARYLAND_SEARCH_STATUS_md["MARYLAND_SEARCH_STATUS"]
-        research_license_searches_maryland_MARYLAND_SEARCH_STRATEGY_md["MARYLAND_SEARCH_STRATEGY"]
-        research_license_searches_maryland_SETUP_CAPTCHA_SERVICE_md["SETUP_CAPTCHA_SERVICE"]
-        research_reports_ALL_ANOMALIES_SUMMARY_md["ALL_ANOMALIES_SUMMARY"]
-        research_reports_ALL_VIOLATIONS_AND_ANOMALIES_md["ALL_VIOLATIONS_AND_ANOMALIES"]
-        research_reports_COMPLETE_AUDIT_SUMMARY_md["COMPLETE_AUDIT_SUMMARY"]
-        research_reports_COMPREHENSIVE_ANOMALIES_REPORT_md["COMPREHENSIVE_ANOMALIES_REPORT"]
-        research_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md["COMPREHENSIVE_VIOLATIONS_REPORT"]
-        research_reports_FINAL_NEXUS_FINDINGS_md["FINAL_NEXUS_FINDINGS"]
-        research_reports_FINAL_VIOLATION_SUMMARY_md["FINAL_VIOLATION_SUMMARY"]
-        research_reports_NEXUS_ANALYSIS_REPORT_md["NEXUS_ANALYSIS_REPORT"]
-        research_reports_RESEARCH_COMPLETION_SUMMARY_md["RESEARCH_COMPLETION_SUMMARY"]
-        research_reports_VIOLATION_AUDIT_COMPLETE_md["VIOLATION_AUDIT_COMPLETE"]
-        research_reports_validation_report_md["validation_report"]
-        research_va_dpor_complaint_evidence_exhibits_compilation_md["evidence_exhibits_compilation"]
-    end
-    INSTALLATION_md --> QUICK_START_md
-    INSTALLATION_md --> docs_INDEX_md
-    INSTALLATION_md --> QUICK_START_md
-    INSTALLATION_md --> README_md
-    INSTALLATION_md --> docs_INDEX_md
-    QUICK_START_md --> INSTALLATION_md
-    QUICK_START_md --> docs_INDEX_md
-    QUICK_START_md --> data_README_md
-    QUICK_START_md --> INSTALLATION_md
-    QUICK_START_md --> README_md
-    QUICK_START_md --> docs_INDEX_md
-    README_md --> research_README_md
-    README_md --> INSTALLATION_md
-    README_md --> INSTALLATION_md
-    README_md --> QUICK_START_md
-    README_md --> STATUS_md
-    README_md --> docs_SYSTEM_ARCHITECTURE_md
-    README_md --> docs_DATA_FLOW_md
-    README_md --> docs_COMPONENTS_md
-    README_md --> docs_REPOSITORY_STRUCTURE_md
-    README_md --> docs_DIAGRAMS_md
-    README_md --> data_DATA_DICTIONARY_md
-    README_md --> data_ONTOLOGY_md
-    README_md --> data_ANCESTRY_md
-    README_md --> docs_INDEX_md
-    STATUS_md --> README_md
-    STATUS_md --> research_README_md
-    STATUS_md --> data_README_md
-    STATUS_md --> docs_INDEX_md
-    data_ANCESTRY_md --> data_DATA_DICTIONARY_md
-    data_ANCESTRY_md --> data_ONTOLOGY_md
-    data_ANCESTRY_md --> docs_REPOSITORY_STRUCTURE_md
-    data_DATA_DICTIONARY_md --> data_ONTOLOGY_md
-    data_DATA_DICTIONARY_md --> data_ANCESTRY_md
-    data_DATA_DICTIONARY_md --> docs_REPOSITORY_STRUCTURE_md
-    data_DATA_DICTIONARY_md --> docs_DOCUMENTATION_GRAPH_md
-    data_ONTOLOGY_md --> data_DATA_DICTIONARY_md
-    data_ONTOLOGY_md --> data_DATA_DICTIONARY_md
-    data_ONTOLOGY_md --> data_ANCESTRY_md
-    data_ONTOLOGY_md --> docs_REPOSITORY_STRUCTURE_md
-    data_README_md --> data_DATA_DICTIONARY_md
-    data_README_md --> data_ONTOLOGY_md
-    data_README_md --> data_ANCESTRY_md
-    data_README_md --> research_README_md
-    data_README_md --> docs_REPOSITORY_STRUCTURE_md
-    docs_COMPONENTS_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_COMPONENTS_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_COMPONENTS_md --> docs_DATA_FLOW_md
-    docs_COMPONENTS_md --> docs_DOCUMENTATION_GRAPH_md
-    docs_DATA_FLOW_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_DATA_FLOW_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_DATA_FLOW_md --> docs_DOCUMENTATION_GRAPH_md
-    docs_DIAGRAMS_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_DIAGRAMS_md --> docs_DATA_FLOW_md
-    docs_DIAGRAMS_md --> docs_COMPONENTS_md
-    docs_DIAGRAMS_md --> docs_REPOSITORY_STRUCTURE_md
-    docs_INDEX_md --> docs_DOCUMENTATION_GRAPH_md
-    docs_INDEX_md --> README_md
-    docs_INDEX_md --> INSTALLATION_md
-    docs_INDEX_md --> QUICK_START_md
-    docs_INDEX_md --> STATUS_md
-    docs_INDEX_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_INDEX_md --> docs_DATA_FLOW_md
-    docs_INDEX_md --> docs_COMPONENTS_md
-    docs_INDEX_md --> docs_REPOSITORY_STRUCTURE_md
-    docs_INDEX_md --> docs_SYSTEM_ANALYST_GUIDE_md
-    docs_INDEX_md --> docs_ORGANIZATION_md
-    docs_INDEX_md --> docs_DIAGRAMS_md
-    docs_INDEX_md --> data_DATA_DICTIONARY_md
-    docs_INDEX_md --> data_ONTOLOGY_md
-    docs_INDEX_md --> data_ANCESTRY_md
-    docs_INDEX_md --> data_README_md
-    docs_INDEX_md --> research_README_md
-    docs_INDEX_md --> docs_DEPLOYMENT_md
-    docs_INDEX_md --> docs_DOCUMENTATION_GRAPH_md
-    docs_ORGANIZATION_md --> docs_DATA_FLOW_md
-    docs_ORGANIZATION_md --> docs_REPOSITORY_STRUCTURE_md
-    docs_ORGANIZATION_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_ORGANIZATION_md --> docs_COMPONENTS_md
-    docs_REPOSITORY_STRUCTURE_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_SYSTEM_ANALYST_GUIDE_md --> docs_SYSTEM_ARCHITECTURE_md
-    docs_SYSTEM_ANALYST_GUIDE_md --> docs_DATA_FLOW_md
-    docs_SYSTEM_ANALYST_GUIDE_md --> docs_COMPONENTS_md
-    docs_SYSTEM_ANALYST_GUIDE_md --> docs_REPOSITORY_STRUCTURE_md
-    docs_SYSTEM_ARCHITECTURE_md --> data_DATA_DICTIONARY_md
-    docs_SYSTEM_ARCHITECTURE_md --> data_DATA_DICTIONARY_md
-    docs_SYSTEM_ARCHITECTURE_md --> docs_DATA_FLOW_md
-    docs_SYSTEM_ARCHITECTURE_md --> docs_COMPONENTS_md
-    docs_SYSTEM_ARCHITECTURE_md --> docs_DOCUMENTATION_GRAPH_md
-    research_MASTER_INDEX_md --> research_README_md
-    research_MASTER_INDEX_md --> research_QUICK_START_md
-    research_MASTER_INDEX_md --> research_COMPLAINT_AMENDMENT_GUIDE_md
-    research_MASTER_INDEX_md --> research_EVIDENCE_INDEX_md
-    research_MASTER_INDEX_md --> research_MASTER_RESEARCH_COMPLETION_REPORT_md
-    research_MASTER_INDEX_md --> research_FINAL_DELIVERABLES_SUMMARY_md
-    research_MASTER_INDEX_md --> research_FINAL_STATUS_RECONCILIATION_md
-    research_MASTER_INDEX_md --> research_PROJECT_COMPLETE_md
-    research_MASTER_INDEX_md --> research_EXECUTION_SUMMARY_md
-    research_QUICK_START_md --> research_README_md
-    research_QUICK_START_md --> research_COMPLAINT_AMENDMENT_GUIDE_md
-    research_QUICK_START_md --> research_EVIDENCE_INDEX_md
-    research_README_md --> data_DATA_DICTIONARY_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_FINAL_INVESTIGATION_STATUS_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_INVESTIGATION_COMPLETE_REPORT_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_MASTER_INVESTIGATION_REPORT_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md
-    research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md --> research_license_searches_READY_FOR_FILINGS_md
-    research_license_searches_README_md --> research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md
-    research_license_searches_README_md --> research_license_searches_FINAL_INVESTIGATION_STATUS_md
-    research_license_searches_README_md --> research_license_searches_INVESTIGATION_COMPLETE_REPORT_md
-    research_license_searches_README_md --> research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md
-    research_license_searches_README_md --> research_license_searches_MASTER_INVESTIGATION_REPORT_md
-    research_license_searches_README_md --> research_license_searches_CONSOLIDATED_FINDINGS_SUMMARY_md
-    research_license_searches_README_md --> research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md
-    research_license_searches_README_md --> research_license_searches_READY_FOR_FILINGS_md
-    research_license_searches_README_md --> research_license_searches_INVESTIGATION_STATUS_UPDATE_md
-    research_license_searches_README_md --> research_license_searches_REMAINING_WORK_SUMMARY_md
-    research_license_searches_README_md --> research_license_searches_FINAL_COMPREHENSIVE_STATUS_md
-    scripts_README_md --> docs_SYSTEM_ARCHITECTURE_md
-    scripts_README_md --> docs_COMPONENTS_md
-    scripts_README_md --> docs_DATA_FLOW_md
-    style INSTALLATION_md fill:#C8E6C9
-    style QUICK_START_md fill:#C8E6C9
-    style README_md fill:#C8E6C9
-    style STATUS_md fill:#C8E6C9
-    style docs_COMPONENTS_md fill:#B3E5FC
-    style docs_DATA_FLOW_md fill:#B3E5FC
-    style docs_DEPLOYMENT_md fill:#B3E5FC
-    style docs_DIAGRAMS_md fill:#B3E5FC
-    style docs_DOCUMENTATION_GRAPH_md fill:#B3E5FC
-    style docs_INDEX_md fill:#B3E5FC
-    style docs_ORGANIZATION_md fill:#B3E5FC
-    style docs_REPOSITORY_STRUCTURE_md fill:#B3E5FC
-    style docs_SYSTEM_ARCHITECTURE_md fill:#B3E5FC
-    style docs_archive_status_COMPLETE_md fill:#B3E5FC
-    style docs_archive_status_COMPLETE_INVESTIGATION_STATUS_md fill:#B3E5FC
-    style docs_archive_status_FINAL_INVESTIGATION_REPORT_md fill:#B3E5FC
-    style docs_archive_status_FINAL_STATUS_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_COMPLETE_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_COMPLETE_FINAL_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_COMPLETE_SUMMARY_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_FINAL_STATUS_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_PACKAGE_COMPLETE_md fill:#B3E5FC
-    style docs_archive_status_INVESTIGATION_STATUS_FINAL_md fill:#B3E5FC
-    style docs_archive_status_MICROSERVICES_IMPLEMENTATION_COMPLETE_md fill:#B3E5FC
-    style docs_archive_status_REPOSITORY_REORGANIZATION_COMPLETE_md fill:#B3E5FC
-    style data_ANCESTRY_md fill:#FFF9C4
-    style data_DATA_DICTIONARY_md fill:#FFF9C4
-    style data_ONTOLOGY_md fill:#FFF9C4
-    style data_README_md fill:#FFF9C4
-    style research_ALL_STATES_LARIAT_COMPANIES_SEARCH_md fill:#E1BEE7
-    style research_COMPLAINT_AMENDMENT_GUIDE_md fill:#E1BEE7
-    style research_COMPLETE_INVESTIGATION_SUMMARY_md fill:#E1BEE7
-    style research_COMPLETE_PACKAGE_SUMMARY_md fill:#E1BEE7
-    style research_EVIDENCE_INDEX_md fill:#E1BEE7
-    style research_EXECUTION_SUMMARY_md fill:#E1BEE7
-    style research_EXECUTIVE_SUMMARY_md fill:#E1BEE7
-    style research_FINAL_DELIVERABLES_SUMMARY_md fill:#E1BEE7
-    style research_FINAL_STATUS_RECONCILIATION_md fill:#E1BEE7
-    style research_FINAL_VERIFICATION_REPORT_md fill:#E1BEE7
-    style research_FINDINGS_VALIDATION_REPORT_md fill:#E1BEE7
-    style research_HANDOFF_DOCUMENT_md fill:#E1BEE7
-    style research_HYLAND_UPL_EVIDENCE_md fill:#E1BEE7
-    style research_INVESTIGATION_COMPLETE_GUIDE_md fill:#E1BEE7
-    style research_INVESTIGATION_STATISTICS_md fill:#E1BEE7
-    style research_INVESTIGATION_STATUS_COMPLETE_md fill:#E1BEE7
-    style research_KETTLER_OPERATIONAL_LOCATIONS_md fill:#E1BEE7
-    style research_LARIAT_AFFILIATED_COMPANIES_INVESTIGATION_md fill:#E1BEE7
-    style research_LARIAT_AFFILIATED_COMPANIES_SUMMARY_md fill:#E1BEE7
-    style research_LARIAT_COMPANIES_FINDINGS_md fill:#E1BEE7
-    style research_LARIAT_REALTY_ADVISORS_BROKER_FOR_RENT_ANALYSIS_md fill:#E1BEE7
-    style research_LARIAT_VS_KETTLER_LICENSING_STRATEGY_md fill:#E1BEE7
-    style research_MASTER_INDEX_md fill:#E1BEE7
-    style research_MASTER_INVESTIGATION_STATUS_md fill:#E1BEE7
-    style research_MASTER_RESEARCH_COMPLETION_REPORT_md fill:#E1BEE7
-    style research_METHOD_COMPARISON_md fill:#E1BEE7
-    style research_MOORE_KRISTEN_JONES_INVESTIGATION_md fill:#E1BEE7
-    style research_PROJECT_COMPLETE_md fill:#E1BEE7
-    style research_QUICK_START_md fill:#E1BEE7
-    style research_README_md fill:#E1BEE7
-    style research_REMAINING_LEGAL_VIOLATIONS_md fill:#E1BEE7
-    style research_VALIDATION_REPORT_md fill:#E1BEE7
-    style research_VIRGINIA_40_LICENSES_CRITICAL_FINDING_md fill:#E1BEE7
-    style research_VIRGINIA_COMPANIES_FOUND_md fill:#E1BEE7
-    style research_VIRGINIA_EXTRACTION_COMPLETE_SUMMARY_md fill:#E1BEE7
-    style research_VIRGINIA_EXTRACTION_FINAL_STATUS_md fill:#E1BEE7
-    style research_VIRGINIA_EXTRACTION_STATUS_md fill:#E1BEE7
-    style research_VIRGINIA_EXTRACTION_SUMMARY_md fill:#E1BEE7
-    style research_browser_automation_DATABASE_SEARCH_FRAMEWORK_md fill:#E1BEE7
-    style research_browser_automation_README_md fill:#E1BEE7
-    style research_license_searches_100_PERCENT_COVERAGE_CONFIRMED_md fill:#E1BEE7
-    style research_license_searches_ACTION_PLAN_md fill:#E1BEE7
-    style research_license_searches_ADMINISTRATIVE_FILING_CHECKLIST_md fill:#E1BEE7
-    style research_license_searches_ALL_FINDINGS_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_AUTOMATION_READY_md fill:#E1BEE7
-    style research_license_searches_BATCH_SEARCH_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_CAITLIN_SKIDMORE_MULTI_STATE_md fill:#E1BEE7
-    style research_license_searches_COMPLETE_INVESTIGATION_PACKAGE_md fill:#E1BEE7
-    style research_license_searches_COMPLETE_OPERATIONAL_STATES_SEARCH_md fill:#E1BEE7
-    style research_license_searches_COMPREHENSIVE_FINAL_STATUS_md fill:#E1BEE7
-    style research_license_searches_COMPREHENSIVE_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_COMPREHENSIVE_VIOLATIONS_REPORT_md fill:#E1BEE7
-    style research_license_searches_CONSOLIDATED_FINDINGS_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_CORE_15_EMPLOYEES_LIST_md fill:#E1BEE7
-    style research_license_searches_CRITICAL_PATTERN_UPDATE_md fill:#E1BEE7
-    style research_license_searches_CURRENT_PROGRESS_UPDATE_md fill:#E1BEE7
-    style research_license_searches_CURRENT_SEARCH_STATUS_md fill:#E1BEE7
-    style research_license_searches_CURRENT_STATUS_md fill:#E1BEE7
-    style research_license_searches_CURRENT_STATUS_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_DATA_VERIFICATION_FINAL_md fill:#E1BEE7
-    style research_license_searches_DMV_COMPLETENESS_VERIFICATION_md fill:#E1BEE7
-    style research_license_searches_DMV_FINAL_STATUS_md fill:#E1BEE7
-    style research_license_searches_EXECUTIVE_SUMMARY_FOR_FILINGS_md fill:#E1BEE7
-    style research_license_searches_FINAL_BATCH_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_FINAL_COMPLETION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_FINAL_COMPREHENSIVE_STATUS_md fill:#E1BEE7
-    style research_license_searches_FINAL_INVESTIGATION_STATUS_md fill:#E1BEE7
-    style research_license_searches_FINAL_INVESTIGATION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_FINAL_REORGANIZATION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_FINAL_STATUS_REPORT_md fill:#E1BEE7
-    style research_license_searches_FINAL_VALIDATION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_INVESTIGATION_COMPLETE_REPORT_md fill:#E1BEE7
-    style research_license_searches_INVESTIGATION_COMPLETE_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_INVESTIGATION_STATUS_UPDATE_md fill:#E1BEE7
-    style research_license_searches_ISSUES_ENCOUNTERED_md fill:#E1BEE7
-    style research_license_searches_KEY_FINDINGS_COMPREHENSIVE_md fill:#E1BEE7
-    style research_license_searches_KEY_FINDINGS_DC_md fill:#E1BEE7
-    style research_license_searches_LATEST_BATCH_RESULTS_md fill:#E1BEE7
-    style research_license_searches_LATEST_FINDINGS_md fill:#E1BEE7
-    style research_license_searches_LATEST_FINDINGS_UPDATE_md fill:#E1BEE7
-    style research_license_searches_LEAH_DOUTHIT_LIDDY_BISANZ_SEARCH_PLAN_md fill:#E1BEE7
-    style research_license_searches_LICENSE_SEARCHES_COMPLETE_md fill:#E1BEE7
-    style research_license_searches_LICENSE_SEARCHES_FINAL_COMPLETE_md fill:#E1BEE7
-    style research_license_searches_MASTER_INVESTIGATION_REPORT_md fill:#E1BEE7
-    style research_license_searches_NEXT_STEPS_md fill:#E1BEE7
-    style research_license_searches_NJ_NY_COMPLETE_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_PROGRESS_SUMMARY_FINAL_md fill:#E1BEE7
-    style research_license_searches_PROGRESS_UPDATE_md fill:#E1BEE7
-    style research_license_searches_QUICK_REFERENCE_md fill:#E1BEE7
-    style research_license_searches_README_md fill:#E1BEE7
-    style research_license_searches_READY_FOR_FILINGS_md fill:#E1BEE7
-    style research_license_searches_REMAINING_WORK_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_REORGANIZATION_AND_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_REORGANIZATION_COMPLETE_md fill:#E1BEE7
-    style research_license_searches_ROBERT_KETTLER_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_SEAN_CURTIN_BAR_LICENSE_SEARCH_md fill:#E1BEE7
-    style research_license_searches_SEARCH_COMPLETION_STATUS_md fill:#E1BEE7
-    style research_license_searches_SEARCH_COMPLETION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_SEARCH_PROGRESS_UPDATE_md fill:#E1BEE7
-    style research_license_searches_SUMMARY_AND_STATUS_md fill:#E1BEE7
-    style research_license_searches_THOMAS_BISANZ_SEARCH_COMPLETE_md fill:#E1BEE7
-    style research_license_searches_UNLICENSED_OPERATIONS_REPORT_md fill:#E1BEE7
-    style research_license_searches_URLS_AND_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_VALIDATION_REPORT_md fill:#E1BEE7
-    style research_license_searches_VERIFICATION_COMPLETE_md fill:#E1BEE7
-    style research_license_searches_connecticut_BROWSER_AUTOMATION_EXECUTED_md fill:#E1BEE7
-    style research_license_searches_connecticut_CONNECTICUT_SEARCH_STATUS_md fill:#E1BEE7
-    style research_license_searches_dc_DC_SEARCH_COMPLETE_md fill:#E1BEE7
-    style research_license_searches_maryland_ADDITIONAL_MARYLAND_SEARCHES_md fill:#E1BEE7
-    style research_license_searches_maryland_CAPTCHA_BYPASS_OPTIONS_md fill:#E1BEE7
-    style research_license_searches_maryland_CAPTCHA_REQUIRED_md fill:#E1BEE7
-    style research_license_searches_maryland_CAPTCHA_SERVICE_SETUP_md fill:#E1BEE7
-    style research_license_searches_maryland_IMPLEMENTATION_STATUS_md fill:#E1BEE7
-    style research_license_searches_maryland_MANUAL_CAPTCHA_INSTRUCTIONS_md fill:#E1BEE7
-    style research_license_searches_maryland_MANUAL_SEARCH_CHECKLIST_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_CAPTCHA_SOLUTION_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_FINDINGS_SUMMARY_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_LICENSED_EMPLOYEES_UPDATE_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_PROGRESS_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_SEARCH_STATUS_md fill:#E1BEE7
-    style research_license_searches_maryland_MARYLAND_SEARCH_STRATEGY_md fill:#E1BEE7
-    style research_license_searches_maryland_SETUP_CAPTCHA_SERVICE_md fill:#E1BEE7
-    style research_reports_ALL_ANOMALIES_SUMMARY_md fill:#E1BEE7
-    style research_reports_ALL_VIOLATIONS_AND_ANOMALIES_md fill:#E1BEE7
-    style research_reports_COMPLETE_AUDIT_SUMMARY_md fill:#E1BEE7
-    style research_reports_COMPREHENSIVE_ANOMALIES_REPORT_md fill:#E1BEE7
-    style research_reports_COMPREHENSIVE_VIOLATIONS_REPORT_md fill:#E1BEE7
-    style research_reports_FINAL_NEXUS_FINDINGS_md fill:#E1BEE7
-    style research_reports_FINAL_VIOLATION_SUMMARY_md fill:#E1BEE7
-    style research_reports_NEXUS_ANALYSIS_REPORT_md fill:#E1BEE7
-    style research_reports_RESEARCH_COMPLETION_SUMMARY_md fill:#E1BEE7
-    style research_reports_VIOLATION_AUDIT_COMPLETE_md fill:#E1BEE7
-    style research_reports_validation_report_md fill:#E1BEE7
-    style research_va_dpor_complaint_evidence_exhibits_compilation_md fill:#E1BEE7
-    style docs_SYSTEM_ANALYST_GUIDE_md fill:#F8BBD0
-    style CODE_FIXES_SUMMARY_md fill:#D1C4E9
-    style INVESTIGATION_READY_md fill:#D1C4E9
-    style SUMMARY_md fill:#D1C4E9
-    style scripts_README_md fill:#D1C4E9
-    style scripts_automation_BROWSER_AUTOMATION_TROUBLESHOOTING_md fill:#D1C4E9
-    style scripts_automation_EXPANSION_COMPLETE_md fill:#D1C4E9
-    style scripts_automation_README_md fill:#D1C4E9
-    style scripts_automation_README_DEVTOOLS_md fill:#D1C4E9
-    style scripts_automation_UNIVERSAL_SCRAPER_GUIDE_md fill:#D1C4E9
-    style scripts_automation_devtools_scraping_guide_md fill:#D1C4E9
+
+    README --> INSTALL
+    README --> QUICK
+    README --> STATUS
+    README --> INDEX
+    README --> ARCH
+    README --> FLOW
+    README --> COMP
+    README --> DATA_DICT
+    README --> ONTOLOGY
+    README --> ANCESTRY
+
+    INDEX --> README
+    INDEX --> INSTALL
+    INDEX --> QUICK
+    INDEX --> STATUS
+    INDEX --> ARCH
+    INDEX --> FLOW
+    INDEX --> COMP
+    INDEX --> DATA_DICT
+    INDEX --> ONTOLOGY
+    INDEX --> ANCESTRY
+    INDEX --> RESEARCH_README
+
+    ARCH --> DATA_DICT
+    ARCH --> SCHEMA
+    FLOW --> ARCH
+    COMP --> ARCH
+    STRUCT --> ARCH
+    DIAGRAMS --> ARCH
+    DIAGRAMS --> FLOW
+    DIAGRAMS --> COMP
+    DIAGRAMS --> STRUCT
+
+    DATA_README --> DATA_DICT
+    DATA_README --> ONTOLOGY
+    DATA_README --> ANCESTRY
+    DATA_README --> SCHEMA
+    DATA_DICT --> ONTOLOGY
+    DATA_DICT --> ANCESTRY
+    DATA_DICT --> SCHEMA
+    ONTOLOGY --> DATA_DICT
+    ONTOLOGY --> ANCESTRY
+    ANCESTRY --> DATA_DICT
+    ANCESTRY --> ONTOLOGY
+
+    RESEARCH_README --> DATA_DICT
+    RESEARCH_README --> RESEARCH_INDEX
+
+    INSTALL --> QUICK
+    INSTALL --> INDEX
+    QUICK --> INSTALL
+    QUICK --> INDEX
+    STATUS --> README
+    STATUS --> RESEARCH_README
+    STATUS --> DATA_README
+    STATUS --> INDEX
+
+    style README fill:#C8E6C9,stroke:#4CAF50,stroke-width:3px
+    style INDEX fill:#B3E5FC,stroke:#2196F3,stroke-width:2px
+    style ARCH fill:#B3E5FC
+    style FLOW fill:#B3E5FC
+    style COMP fill:#B3E5FC
+    style DATA_DICT fill:#FFF9C4
+    style ONTOLOGY fill:#FFF9C4
+    style ANCESTRY fill:#FFF9C4
+    style RESEARCH_README fill:#E1BEE7
 ```
+
+## Documentation categories
+
+### Root documentation
+
+Essential files at the repository root:
+
+- `README.md` - Main project overview
+- `INSTALLATION.md` - Installation and setup
+- `QUICK_START.md` - Quick start guide
+- `STATUS.md` - Current repository status
+
+### System documentation
+
+Technical documentation about the system:
+
+- `docs/INDEX.md` - Complete documentation index
+- `docs/SYSTEM_ARCHITECTURE.md` - System architecture
+- `docs/DATA_FLOW.md` - Data pipeline
+- `docs/COMPONENTS.md` - Component reference
+- `docs/REPOSITORY_STRUCTURE.md` - Repository structure
+- `docs/DIAGRAMS.md` - Visual diagrams
+- `docs/ORGANIZATION.md` - Organization guide
+- `docs/SYSTEM_ANALYST_GUIDE.md` - System analyst guide
+
+### Data documentation
+
+Documentation about data structure and meaning:
+
+- `data/README.md` - Data directory guide
+- `data/DATA_DICTIONARY.md` - Field definitions
+- `data/ONTOLOGY.md` - Conceptual relationships
+- `data/ANCESTRY.md` - Data lineage
+- `data/schema.json` - Schema definition
+
+### Research documentation
+
+Documentation about research outputs:
+
+- `research/README.md` - Research directory guide
+- `research/RESEARCH_INDEX.json` - Master file index
+
+## Graph analysis
+
+### Most connected documents
+
+These documents connect to many others:
+
+1. `docs/INDEX.md` - Central hub connecting all documentation
+2. `README.md` - Entry point with many connections
+3. `data/DATA_DICTIONARY.md` - Core data documentation
+
+### Bridge documents
+
+These documents connect different sections:
+
+- `docs/SYSTEM_ARCHITECTURE.md` - Connects system and data docs
+- `data/README.md` - Connects data and research docs
+
+### Navigation paths
+
+**From README to data documentation:**
+
+```
+README.md → docs/INDEX.md → data/DATA_DICTIONARY.md
+README.md → data/DATA_DICTIONARY.md (direct)
+```
+
+**From README to research documentation:**
+
+```
+README.md → docs/INDEX.md → research/README.md
+README.md → research/README.md (direct)
+```
+
+**From system to data documentation:**
+
+```
+docs/SYSTEM_ARCHITECTURE.md → data/DATA_DICTIONARY.md
+docs/SYSTEM_ARCHITECTURE.md → data/schema.json
+```
+
+## Link validation
+
+Run the link checker to verify all links:
+
+```bash
+python scripts/utils/check_doc_links.py
+```
+
+This tool:
+- Checks all internal links
+- Identifies broken links
+- Generates documentation graph
+- Creates Mermaid visualization
+
+## Navigation tips
+
+### Starting points
+
+Choose based on your role:
+
+- **New users:** Start with `README.md` → `QUICK_START.md`
+- **Developers:** Start with `README.md` → `docs/SYSTEM_ARCHITECTURE.md`
+- **Data analysts:** Start with `README.md` → `data/DATA_DICTIONARY.md`
+- **Researchers:** Start with `README.md` → `research/README.md`
+
+### Documentation hub
+
+Use `docs/INDEX.md` as your central navigation point. It links to all documentation.
+
+### Quick navigation
+
+- Use the graph above to see relationships
+- Click any node to navigate to that document
+- Follow edges to discover related documentation
+
+## Graph statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Nodes** | 174 documentation files |
+| **Total Edges** | 124 links between files |
+| **Categories** | 6 (root, system, data, research, guide, other) |
+| **Average Connections** | 0.71 per node |
+| **Hub Documents** | 3 (INDEX.md, README.md, DATA_DICTIONARY.md) |
+
+## Related documentation
+
+- [Documentation Index](INDEX.md) - Complete index
+- [Repository Structure](REPOSITORY_STRUCTURE.md) - File organization
+- [System Architecture](SYSTEM_ARCHITECTURE.md) - Architecture details

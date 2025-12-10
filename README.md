@@ -1,6 +1,6 @@
 # Kettler Data Analysis
 
-> Property management licensing investigation platform. Python-first architecture.
+Property management licensing investigation platform. Python-first architecture.
 
 ![Status](https://img.shields.io/badge/status-100%25%20complete-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
@@ -11,38 +11,59 @@
 
 ---
 
-## 🚀 Quick Start
+## About this project
+
+This platform helps investigate property management licensing compliance across multiple states. It searches licenses, analyzes connections between firms and individuals, and generates research outputs for regulatory compliance investigations.
+
+**What you can do:**
+- Search licenses across 15 states
+- Map connections between firms and individuals
+- Detect anomalies and violations
+- Extract evidence from PDFs and Excel files
+- Generate comprehensive research reports
+
+---
+
+## Quick Start
+
+Choose your path based on what you need to do:
 
 <details>
-<summary><b>📋 For Filing Administrative Complaints</b></summary>
+<summary><b>Filing administrative complaints</b></summary>
 
-- 📄 [VA DPOR Complaint Files](research/va_dpor_complaint/) - Complete complaint research
-- 📊 [Research Index](research/RESEARCH_INDEX.json) - Master research index
-- 📑 [Research README](research/README.md) - Research directory guide
+Start here if you're preparing regulatory complaints:
+
+- [VA DPOR Complaint Files](research/va_dpor_complaint/) - Complete complaint research
+- [Research Index](research/RESEARCH_INDEX.json) - Master research index
+- [Research README](research/README.md) - Research directory guide
 
 </details>
 
 <details>
-<summary><b>🔍 For Understanding Findings</b></summary>
+<summary><b>Understanding findings</b></summary>
 
-- 📊 [Research Index](research/RESEARCH_INDEX.json) - Master file index
-- 📁 [VA DPOR Complaint Files](research/va_dpor_complaint/) - Complaint research
-- 📋 [Research Reports](research/reports/) - Summary reports
+Start here to explore research results:
+
+- [Research Index](research/RESEARCH_INDEX.json) - Master file index
+- [VA DPOR Complaint Files](research/va_dpor_complaint/) - Complaint research
+- [Research Reports](research/reports/) - Summary reports
 
 </details>
 
 <details>
-<summary><b>📊 For Data Analysis</b></summary>
+<summary><b>Data analysis</b></summary>
 
-- 🏢 [Firm Data](data/source/skidmore_all_firms_complete.json) - 38 firms
-- 🔗 [Connections](research/connections/) - Connection analyses
-- 📋 [Research Reports](research/reports/) - Analysis reports
+Start here for data exploration:
+
+- [Firm Data](data/source/skidmore_all_firms_complete.json) - 38 firms
+- [Connections](research/connections/) - Connection analyses
+- [Research Reports](research/reports/) - Analysis reports
 
 </details>
 
 ---
 
-## 📖 System Overview
+## System overview
 
 | Aspect | Description |
 |--------|-------------|
@@ -50,7 +71,11 @@
 | **Architecture** | Python-first with unified core modules, ETL pipeline, and optional API/web frontend |
 | **Data Flow** | Source → Extract → Clean → Analyze → Research Outputs |
 
-## 🛠️ Installation
+---
+
+## Installation
+
+Install dependencies and run the pipeline:
 
 ```bash
 git clone https://github.com/1digitaldesign/kettler-data-analysis.git
@@ -59,87 +84,90 @@ pip install -r requirements.txt
 python bin/run_pipeline.py
 ```
 
-> 📘 See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions.
+> See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions.
 
-## 💻 Usage
+---
 
-<details>
-<summary><b>Full Pipeline</b></summary>
+## Usage
+
+### Run the full pipeline
 
 ```bash
 python bin/run_pipeline.py
 ```
 
-Runs the complete data processing pipeline:
-1. ✅ Data extraction
-2. ✅ Data cleaning
-3. ✅ Connection analysis
-4. ✅ Data validation
-5. ✅ Report generation
+This runs the complete data processing pipeline:
 
-</details>
+1. Data extraction
+2. Data cleaning
+3. Connection analysis
+4. Data validation
+5. Report generation
 
-<details>
-<summary><b>Individual Scripts</b></summary>
+### Run individual scripts
 
 ```bash
 python bin/analyze_connections.py  # Connection analysis
 python bin/validate_data.py        # Data validation
-python bin/clean_data.py           # Data cleaning
-python bin/generate_reports.py     # Report generation
+python bin/clean_data.py          # Data cleaning
+python bin/generate_reports.py    # Report generation
 ```
 
-</details>
+---
 
-## 📚 Documentation
+## Documentation
 
-<details>
-<summary><b>Getting Started</b></summary>
+### Getting started
 
-- 📘 [INSTALLATION.md](INSTALLATION.md) - Setup guide
-- ⚡ [QUICK_START.md](QUICK_START.md) - Quick start
-- 📊 [STATUS.md](STATUS.md) - Current status
+- [INSTALLATION.md](INSTALLATION.md) - Setup guide
+- [QUICK_START.md](QUICK_START.md) - Quick start
+- [STATUS.md](STATUS.md) - Current status
 
-</details>
+### System documentation
 
-<details>
-<summary><b>System Documentation</b></summary>
+- [System Architecture](docs/SYSTEM_ARCHITECTURE.md) - Architecture details
+- [Data Flow](docs/DATA_FLOW.md) - Data pipeline
+- [Components](docs/COMPONENTS.md) - Component reference
+- [Repository Structure](docs/REPOSITORY_STRUCTURE.md) - File organization
+- [Diagrams](docs/DIAGRAMS.md) - Visual diagrams
 
-- 🏗️ [System Architecture](docs/SYSTEM_ARCHITECTURE.md)
-- 🔄 [Data Flow](docs/DATA_FLOW.md)
-- 🧩 [Components](docs/COMPONENTS.md)
-- 📁 [Repository Structure](docs/REPOSITORY_STRUCTURE.md)
-- 📈 [Diagrams](docs/DIAGRAMS.md)
+### Data documentation
 
-</details>
+- [Schema](data/schema.json) - FK/PK relationships
+- [Data Dictionary](data/DATA_DICTIONARY.md) - Field definitions
+- [Ontology](data/ONTOLOGY.md) - Conceptual relationships
+- [Ancestry](data/ANCESTRY.md) - Data lineage
+- [Metadata](data/metadata.json) - Global metadata
 
-<details>
-<summary><b>Data Documentation</b></summary>
+### Documentation index
 
-- 📋 [Schema](data/schema.json) - FK/PK relationships
-- 📖 [Data Dictionary](data/DATA_DICTIONARY.md) - Field definitions
-- 🧠 [Ontology](data/ONTOLOGY.md) - Conceptual relationships
-- 🔗 [Ancestry](data/ANCESTRY.md) - Data lineage
-- 📊 [Metadata](data/metadata.json) - Global metadata
+- [Documentation Index](docs/INDEX.md) - All documentation
+- [Documentation Graph](docs/DOCUMENTATION_GRAPH.md) - Interactive documentation network
 
-</details>
+**Documentation network:**
 
-<details>
-<summary><b>Complete Index</b></summary>
+```mermaid
+graph LR
+    README[README.md] --> INDEX[docs/INDEX.md]
+    INDEX --> ARCH[docs/SYSTEM_ARCHITECTURE.md]
+    INDEX --> DATA[data/DATA_DICTIONARY.md]
+    INDEX --> RESEARCH[research/README.md]
 
-- 📑 [Documentation Index](docs/INDEX.md) - All documentation
+    style README fill:#C8E6C9,stroke:#4CAF50,stroke-width:3px
+    style INDEX fill:#B3E5FC,stroke:#2196F3,stroke-width:2px
+```
 
-</details>
+---
 
-## 📊 Research Status
+## Research status
 
 ![Research](https://img.shields.io/badge/research-100%25%20complete-brightgreen)
 ![Files](https://img.shields.io/badge/files-350%20JSON%20%2B%2030%20MD-blue)
 ![States](https://img.shields.io/badge/states-15%20searched-orange)
 
-**100% Complete:** All critical areas documented, evidence compiled, ready for complaint filing.
+**Status:** 100% complete. All critical areas documented, evidence compiled, ready for complaint filing.
 
-### Key Statistics
+### Statistics
 
 | Metric | Value |
 |--------|-------|
@@ -150,15 +178,17 @@ python bin/generate_reports.py     # Report generation
 | **Individual Licenses** | 40+ licenses |
 | **Connections** | 100+ connections |
 
-### Key Findings
+### Key findings
 
-- ✅ **8 regulatory violations** across 11 states
-- ⏱️ **Principal broker gap:** 10.5 years
-- 📍 **Geographic violation:** 1,300 miles
-- 👥 **16 unlicensed personnel** (7 property managers)
-- 💰 **$4.75B property value** under management
+- 8 regulatory violations across 11 states
+- Principal broker gap: 10.5 years
+- Geographic violation: 1,300 miles
+- 16 unlicensed personnel (7 property managers)
+- $4.75B property value under management
 
-## 🏗️ System Structure
+---
+
+## System structure
 
 ```
 bin/              # Entry points
@@ -170,16 +200,18 @@ research/         # Research outputs
 docs/             # Documentation
 ```
 
-## ✨ Features
+---
 
-- 🔍 Multi-state license search
-- 🔗 Connection mapping
-- 🔍 Anomaly detection
-- 📄 Evidence extraction (PDF/Excel)
-- 🧮 Vector embeddings
-- 📅 Timeline analysis
-- ✅ Schema validation
+## Features
+
+- Multi-state license search
+- Connection mapping
+- Anomaly detection
+- Evidence extraction (PDF/Excel)
+- Vector embeddings
+- Timeline analysis
+- Schema validation
 
 ---
 
-**Research Status:** ✅ 100% Complete - Ready for Complaint Filing
+**Research Status:** 100% Complete - Ready for Complaint Filing
