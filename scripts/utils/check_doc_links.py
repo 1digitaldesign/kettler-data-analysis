@@ -8,14 +8,15 @@ Checks all markdown files for broken internal links and generates a documentatio
 import os
 import re
 import sys
+from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Set, Optional
+from typing import Optional
 import json
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 
 
-def find_markdown_files() -> List[Path]:
+def find_markdown_files() -> list[Path]:
     """Find all markdown files in the repository."""
     md_files = []
     for root, dirs, files in os.walk(PROJECT_ROOT):
@@ -27,7 +28,7 @@ def find_markdown_files() -> List[Path]:
     return sorted(md_files)
 
 
-def extract_links(content: str, file_path: Path) -> List[Tuple[str, str]]:
+def extract_links(content: str, file_path: Path) -> list[tuple[str, str]]:
     """Extract all markdown links from content."""
     links = []
     # Find all markdown links [text](path)
@@ -66,7 +67,7 @@ def resolve_link(link_path: str, base_file: Path) -> Tuple[bool, Path]:
     return exists, resolved
 
 
-def check_all_links() -> Dict[str, List[Dict]]:
+def check_all_links() -> dict[str, list[dict]]:
     """Check all links in all markdown files."""
     md_files = find_markdown_files()
     results = {}
@@ -159,13 +160,13 @@ def determine_category(file_path: str) -> str:
         return 'other'
 
 
-def generate_mermaid_graph(graph: Dict) -> str:
+def generate_mermaid_graph(graph: dict) -> str:
     """Generate Mermaid.js graph from documentation graph."""
     lines = ['graph TB']
 
     # Group nodes by category using defaultdict (Python 3.11+)
     from collections import defaultdict
-    categories: defaultdict[str, list[Dict]] = defaultdict(list)
+    categories: defaultdict[str, list[dict]] = defaultdict(list)
     for node in graph['nodes']:
         categories[node['category']].append(node)
 
