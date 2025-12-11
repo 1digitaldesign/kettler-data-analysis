@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:46:33.027028",
+    "company": "Kettler Management Inc",
+    "state": "New York",
+    "search_url": "https://dos.ny.gov/corporations",
+    "search_method": "Browser automation"
+  },
+  "findings": {
+    "registered": false,
+    "entity_type": null,
+    "formation_date": null,
+    "registered_agent": null,
+    "business_address": null,
+    "status": null
+  },
+  "conclusion": "Kettler Management Inc registration status in New York"
+}

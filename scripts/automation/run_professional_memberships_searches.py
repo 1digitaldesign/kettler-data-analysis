@@ -36,9 +36,9 @@ ASSOCIATIONS = {
 def search_association_memberships():
     """Search for association memberships."""
     memberships_file = MEMBERSHIPS_DIR / 'association_memberships.json'
-    
+
     MEMBERSHIPS_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     memberships_data = {
         'metadata': {
             'date': datetime.now().isoformat(),
@@ -48,23 +48,23 @@ def search_association_memberships():
         'property_management_associations': [],
         'individual_memberships': []
     }
-    
+
     memberships_file.write_text(json.dumps(memberships_data, indent=2) + '\n')
 
 def main():
     """Main function."""
     print("Professional Association Memberships Search Automation")
     print("=" * 60)
-    
+
     print("\n1. Searching real estate associations...")
     print("   • NAR")
     print("   • State associations")
-    
+
     print("\n2. Searching property management associations...")
     print("   • IREM")
     print("   • NAA")
     print("   • CAI")
-    
+
     search_association_memberships()
     print("\n✓ Association membership searches complete")
 

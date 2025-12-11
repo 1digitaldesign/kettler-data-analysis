@@ -187,7 +187,8 @@ def progress_monitor(interval: float = 1.0, running: list = None):
     while running[0]:
         progress = calculate_overall_progress()
         update_progress_file(progress)
-        display_progress(progress)
+        # Don't display in terminal - dashboard HTML handles display
+        # display_progress(progress)
         time.sleep(interval)
 
 def main():

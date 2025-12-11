@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:46:31.011018",
+    "company": "Kettler Management Inc",
+    "state": "District of Columbia",
+    "search_url": "https://corponline.dccourts.gov/",
+    "search_method": "Browser automation"
+  },
+  "findings": {
+    "registered": false,
+    "entity_type": null,
+    "formation_date": null,
+    "registered_agent": null,
+    "business_address": null,
+    "status": null
+  },
+  "conclusion": "Kettler Management Inc registration status in District of Columbia"
+}
