@@ -38,12 +38,12 @@ def search_company_registration(company: dict, state: str):
     """Search for company registration in a state."""
     state_dir = COMPANY_DIR / state.lower()
     state_dir.mkdir(parents=True, exist_ok=True)
-    
+
     result_file = state_dir / f"{company['name'].lower().replace(' ', '_')}_registration.json"
-    
+
     if result_file.exists():
         return
-    
+
     # Browser automation would happen here
     result = {
         'metadata': {
@@ -63,14 +63,14 @@ def search_company_registration(company: dict, state: str):
         },
         'conclusion': f"{company['name']} registration status in {STATES[state]['name']}"
     }
-    
+
     result_file.write_text(json.dumps(result, indent=2) + '\n')
 
 def main():
     """Main function."""
     print("Company Registration Search Automation")
     print("=" * 60)
-    
+
     for company in COMPANIES_TO_SEARCH:
         print(f"\nSearching: {company['name']}")
         for state in company['states']:

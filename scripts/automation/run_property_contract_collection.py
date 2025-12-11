@@ -16,9 +16,9 @@ CONTRACTS_DIR = PROJECT_ROOT / 'research' / 'contracts'
 def collect_property_contracts():
     """Collect property management contracts."""
     CONTRACTS_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     contracts_file = CONTRACTS_DIR / 'property_management_contracts.json'
-    
+
     # Browser automation would search for publicly available contracts
     contracts_data = {
         'metadata': {
@@ -37,13 +37,13 @@ def collect_property_contracts():
             'geographic_scope': []
         }
     }
-    
+
     contracts_file.write_text(json.dumps(contracts_data, indent=2) + '\n')
 
 def document_service_scope():
     """Document service scope and licensing requirements."""
     scope_file = CONTRACTS_DIR / 'service_scope.json'
-    
+
     scope_data = {
         'metadata': {
             'date': datetime.now().isoformat(),
@@ -62,22 +62,22 @@ def document_service_scope():
             'other_licenses': []
         }
     }
-    
+
     scope_file.write_text(json.dumps(scope_data, indent=2) + '\n')
 
 def main():
     """Main function."""
     print("Property Management Contract Collection")
     print("=" * 60)
-    
+
     print("\n1. Collecting contracts...")
     collect_property_contracts()
     print("   ✓ Contracts collected")
-    
+
     print("\n2. Documenting service scope...")
     document_service_scope()
     print("   ✓ Service scope documented")
-    
+
     print("\n✓ Collection complete")
 
 if __name__ == '__main__':

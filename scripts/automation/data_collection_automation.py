@@ -156,7 +156,7 @@ def update_progress_file(progress: dict):
     """Update progress JSON file."""
     PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
     PROGRESS_FILE.write_text(json.dumps(progress, indent=2) + '\n')
-    
+
     # Also update HTML dashboard timestamp
     dashboard_html = PROJECT_ROOT / 'outputs' / 'reports' / 'progress_dashboard.html'
     if dashboard_html.exists():
