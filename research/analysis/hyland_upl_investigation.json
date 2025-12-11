@@ -3,18 +3,61 @@
   "subject": "Edward Hyland",
   "role": "Senior Regional Manager",
   "employer": "Kettler Management Inc.",
-  "upl_indicators": [],
-  "ra_denial_analysis": [],
+  "upl_indicators": [
+    {
+      "date": "2025-12-06",
+      "activity": "Lease Termination",
+      "description": "Denied reasonable accommodation request and sent lease termination notice",
+      "violation": "Unlicensed person making lease decisions affecting tenancy",
+      "legal_basis": "18 VAC 135-20-165 defines licensed vs. unlicensed activities"
+    },
+    {
+      "date": "2025-12-06",
+      "activity": "Reasonable Accommodation Decision",
+      "description": "Denied reasonable accommodation request, stating requirements for interactive process",
+      "violation": "Unlicensed person making legal determinations about accommodation requests",
+      "legal_basis": "18 VAC 135-20-165"
+    },
+    {
+      "date": "",
+      "activity": "Property Management",
+      "description": "Senior Regional Manager overseeing multiple properties",
+      "violation": "Unlicensed person conducting property management activities",
+      "legal_basis": "18 VAC 135-20-165"
+    }
+  ],
+  "ra_denial_analysis": [
+    {
+      "date": "2025-12-06",
+      "personnel": "Edward Hyland",
+      "description": "Denied reasonable accommodation request, stating requirements for interactive process",
+      "violation": "Unlicensed person making legal determinations about accommodation requests",
+      "evidence": [
+        "Kettler denial email",
+        "Legal terminology used (ADA, FHA, Fair Housing Act)"
+      ]
+    }
+  ],
   "law_license_check": {
     "law_license_found": false,
     "note": "State bar association search needed",
     "violation_if_no_license": "Unauthorized Practice of Law (UPL)"
   },
   "conclusions": {
-    "potential_upl": false,
-    "ra_denial_found": false,
-    "interactive_process_mentioned": false,
-    "violation_type": "None identified",
-    "severity": "UNKNOWN"
+    "potential_upl": true,
+    "upl_indicators_count": 3,
+    "ra_denial_found": true,
+    "interactive_process_mentioned": true,
+    "violation_type": "Unlicensed Practice of Real Estate - Property Management Activities",
+    "severity": "HIGH",
+    "summary": "Edward Hyland (unlicensed) conducted multiple real estate activities including lease terminations, reasonable accommodation denials, and property management oversight without a license, violating 18 VAC 135-20-165"
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "hyland_upl_investigation.json",
+    "file_path": "research/analysis/hyland_upl_investigation.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
   }
 }

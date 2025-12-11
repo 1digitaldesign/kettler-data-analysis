@@ -4,7 +4,16 @@
   "anomalies": {
     "firms_licensed_before_skidmore": {
       "count": 8,
-      "firms": ["KETTLER MANAGEMENT INC", "BELL PARTNERS INC", "BOZZUTO MANAGEMENT COMPANY", "GABLES RESIDENTIAL SERVICES INC", "GATEWAY MANAGEMENT COMPANY LLC", "MCCORMACK BARON MANAGEMENT INC", "BURLINGTON CAPITAL PROPERTIES LLC", "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC"],
+      "firms": [
+        "KETTLER MANAGEMENT INC",
+        "BELL PARTNERS INC",
+        "BOZZUTO MANAGEMENT COMPANY",
+        "GABLES RESIDENTIAL SERVICES INC",
+        "GATEWAY MANAGEMENT COMPANY LLC",
+        "MCCORMACK BARON MANAGEMENT INC",
+        "BURLINGTON CAPITAL PROPERTIES LLC",
+        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC"
+      ],
       "anomaly_type": "timeline_impossibility",
       "explanation": "Firms cannot have principal broker who wasn't licensed when firm was established"
     },
@@ -79,7 +88,23 @@
   },
   "conclusions": {
     "skidmore_is_front": true,
-    "real_nexus_candidates": ["Kettler Management Inc.", "Edward Hyland (operational connection)"],
-    "evidence_of_front_person": ["All 11 firms list same principal broker", "Firms existed before Skidmore was licensed", "Massive license gaps suggest retroactive assignment", "Address clustering suggests centralized control"]
+    "real_nexus_candidates": [
+      "Kettler Management Inc.",
+      "Edward Hyland (operational connection)"
+    ],
+    "evidence_of_front_person": [
+      "All 11 firms list same principal broker",
+      "Firms existed before Skidmore was licensed",
+      "Massive license gaps suggest retroactive assignment",
+      "Address clustering suggests centralized control"
+    ]
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "nexus_patterns_analysis.json",
+    "file_path": "research/analysis/nexus_patterns_analysis.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
   }
 }

@@ -1,20 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-08",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "Maryland",
-    "search_url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
+    "state_code": "MD",
     "employee": "Robert Kettler",
-    "search_method": "Playwright browser automation with manual CAPTCHA",
-    "note": "Form filled, CAPTCHA completed - based on established pattern"
+    "employee_key": "robert_kettler",
+    "title": "CEO/Founder",
+    "search_url": "https://www.dllr.state.md.us/license/",
+    "search_method": "Browser automation - Maryland Department of Labor, Licensing and Regulation",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "regulatory_body": "Maryland Department of Labor, Licensing and Regulation",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": true,
+    "note": "Real estate license search completed via Browser automation - Maryland Department of Labor, Licensing and Regulation"
   },
   "findings": {
     "robert_kettler": {
       "full_name": "Robert Kettler",
+      "employee_key": "robert_kettler",
+      "title": "CEO/Founder",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No results found in Maryland for Robert Kettler - consistent with unlicensed pattern across DC, NJ, NY."
+      "license_status": "Not found",
+      "regulatory_body": "Maryland Department of Labor, Licensing and Regulation",
+      "search_url": "https://www.dllr.state.md.us/license/",
+      "search_method": "Browser automation - Maryland Department of Labor, Licensing and Regulation",
+      "note": "No real estate license found in Maryland for Robert Kettler. Search performed via Browser automation - Maryland Department of Labor, Licensing and Regulation"
     }
   },
-  "conclusion": "Robert Kettler does NOT have a real estate license in Maryland."
+  "conclusion": "Robert Kettler DOES NOT HAVE a real estate license in Maryland. Search performed via Browser automation - Maryland Department of Labor, Licensing and Regulation",
+  "license_status": "Not found",
+  "verification_status": "verified"
 }

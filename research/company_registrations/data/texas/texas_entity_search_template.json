@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "date": null,
+    "state": "Texas",
+    "search_url": "https://www.sos.texas.gov/corp/sosda/index.shtml",
+    "search_method": "Manual search - Texas Secretary of State",
+    "searches_performed": []
+  },
+  "lariat_entities": [
+    {
+      "search_term": "Lariat",
+      "entities_found": [],
+      "notes": "Search for Lariat Companies, Lariat Realty Advisors, and variations"
+    }
+  ],
+  "kettler_entities": [
+    {
+      "search_term": "Kettler Management",
+      "entities_found": [],
+      "notes": "Search for KETTLER MANAGEMENT INC., Kettler Management Corp., and variations"
+    }
+  ],
+  "frisco_address_entities": [
+    {
+      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
+      "entities_found": [],
+      "notes": "Shell company address cluster - multiple Virginia firms use this address"
+    },
+    {
+      "address": "2591 Dallas Parkway, Suite 300, Frisco, TX 75034",
+      "entities_found": [],
+      "notes": "Lariat Realty Advisors address"
+    }
+  ],
+  "related_entities": [
+    {
+      "name": "BAINBRIDGE MID-ATLANTIC MANAGEMENT LLC",
+      "found": false,
+      "details": null
+    },
+    {
+      "name": "CAPREIT Residential Management, LLC",
+      "found": false,
+      "details": null
+    },
+    {
+      "name": "BOZZUTO MANAGEMENT COMPANY",
+      "found": false,
+      "details": null
+    },
+    {
+      "name": "GABLES RESIDENTIAL SERVICES, INC.",
+      "found": false,
+      "details": null
+    }
+  ],
+  "summary": {
+    "total_entities_found": 0,
+    "lariat_found": false,
+    "kettler_found": false,
+    "frisco_address_cluster_found": false,
+    "related_entities_found": 0
+  },
+  "conclusion": null
+}

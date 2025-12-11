@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "analysis_date": "2025-12-11",
+    "source": "Virginia State Corporation Commission (SCC) Entity Search",
+    "entity_id": "03218674",
+    "search_url": "https://cis.scc.virginia.gov/EntitySearch/Index",
+    "file_name": "virginia_scc_abnormalities_analysis.json",
+    "file_path": "research/analysis/virginia_scc_abnormalities_analysis.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
+  },
+  "entities_found": [
+    {
+      "entity_id": "03218674",
+      "legal_name": "KETTLER MANAGEMENT INC.",
+      "name_type": "Legal Name",
+      "entity_type": "Stock Corporation",
+      "status": "Active",
+      "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
+      "registered_agent": "NATIONAL REGISTERED AGENTS, INC."
+    },
+    {
+      "entity_id": "03218674",
+      "fictitious_name": "Kettler Management Corp.",
+      "name_type": "Fictitious Name",
+      "entity_type": "Stock Corporation",
+      "status": "Active",
+      "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
+      "registered_agent": "NATIONAL REGISTERED AGENTS, INC."
+    }
+  ],
+  "abnormalities_identified": [
+    {
+      "category": "Name Inconsistency",
+      "severity": "Medium",
+      "description": "Single entity (03218674) registered with two different names: 'KETTLER MANAGEMENT INC.' (Legal Name) and 'Kettler Management Corp.' (Fictitious Name/DBA). The fictitious name uses 'Corp.' instead of 'Inc.'",
+      "implications": [
+        "Potential confusion for consumers/regulators about exact legal entity name",
+        "May indicate intentional name variation for business purposes",
+        "Could be used to obscure connection between entities"
+      ],
+      "recommendation": "Verify if 'Kettler Management Corp.' is properly registered as a DBA/fictitious name and if it's being used in operations"
+    },
+    {
+      "category": "Registered Agent",
+      "severity": "Low",
+      "description": "Uses commercial registered agent service (NATIONAL REGISTERED AGENTS, INC.) instead of in-house registered agent",
+      "implications": [
+        "Standard practice for privacy/legal purposes",
+        "May make it harder to identify actual business location",
+        "Common for multi-state operations"
+      ],
+      "recommendation": "No action needed - this is standard business practice"
+    },
+    {
+      "category": "Address Consistency",
+      "severity": "Low",
+      "description": "Both names share identical business address: 8255 Greensboro Dr Ste 200, McLean, VA",
+      "implications": [
+        "Consistent address suggests legitimate DBA registration",
+        "Address matches known Kettler operations location"
+      ],
+      "recommendation": "Verify this address matches actual business operations"
+    },
+    {
+      "category": "Entity Type",
+      "severity": "Low",
+      "description": "Registered as 'Stock Corporation' - standard for for-profit business entities",
+      "implications": [
+        "Standard entity type for property management companies",
+        "Allows for stock issuance and corporate structure"
+      ],
+      "recommendation": "No abnormality - standard registration"
+    },
+    {
+      "category": "Status",
+      "severity": "Low",
+      "description": "Status is 'Active' - entity is in good standing",
+      "implications": [
+        "Entity is current with Virginia SCC requirements",
+        "No administrative dissolution or revocation"
+      ],
+      "recommendation": "Monitor for any status changes"
+    },
+    {
+      "category": "Missing Information",
+      "severity": "Medium",
+      "description": "Formation date, last annual report date, and officers/directors information not captured in initial search",
+      "implications": [
+        "Cannot determine when entity was formed",
+        "Cannot verify current officers/directors",
+        "Cannot confirm annual report filing compliance"
+      ],
+      "recommendation": "Access detailed entity record (click Entity ID 03218674) to obtain: formation date, annual report dates, officers/directors list, and any amendments"
+    }
+  ],
+  "potential_concerns": [
+    {
+      "concern": "Name Variation Usage",
+      "description": "If 'Kettler Management Corp.' (fictitious name) is being used in business operations, contracts, or licensing without proper disclosure of the legal entity name 'KETTLER MANAGEMENT INC.', this could be a violation",
+      "regulatory_implications": [
+        "Virginia requires disclosure of legal entity name in business transactions",
+        "Real estate licensing may require use of exact legal entity name",
+        "Contracts should reference legal entity name"
+      ]
+    },
+    {
+      "concern": "Multi-State Registration",
+      "description": "Need to verify if this entity is properly registered in other states where Kettler operates (MD, DC, CT, NJ, NY, etc.)",
+      "regulatory_implications": [
+        "Foreign qualification required in states where business is conducted",
+        "Failure to qualify can result in penalties and inability to sue in state courts"
+      ]
+    }
+  ],
+  "recommended_actions": [
+    "1. Access detailed entity record via Entity ID 03218674 to obtain complete filing history",
+    "2. Verify formation date and compare with business operations timeline",
+    "3. Check annual report filing compliance",
+    "4. Obtain list of officers and directors",
+    "5. Review any amendments or name changes",
+    "6. Cross-reference with other state registrations",
+    "7. Verify if fictitious name 'Kettler Management Corp.' is properly disclosed in business operations",
+    "8. Check if entity is properly qualified as foreign entity in other operational states"
+  ],
+  "summary": {
+    "total_abnormalities": 6,
+    "high_severity": 0,
+    "medium_severity": 2,
+    "low_severity": 4,
+    "key_findings": [
+      "Single entity with two names (Legal and Fictitious)",
+      "Missing detailed filing information (formation date, officers, annual reports)",
+      "Standard registered agent and entity structure",
+      "Active status indicates good standing"
+    ]
+  }
+}

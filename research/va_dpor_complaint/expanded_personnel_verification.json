@@ -173,5 +173,12 @@
     "Search all 16 states for each personnel member",
     "Document all findings in main personnel_license_verification.json",
     "Complete verification matrix for all 21 personnel"
-  ]
+  ],
+  "metadata": {
+    "file_name": "expanded_personnel_verification.json",
+    "file_path": "research/va_dpor_complaint/expanded_personnel_verification.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

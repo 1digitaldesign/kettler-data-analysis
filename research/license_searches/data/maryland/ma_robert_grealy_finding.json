@@ -1,24 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:33:00.706185",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "Maryland",
-    "search_url": "https://www.dllr.state.md.us/license/",
+    "state_code": "MD",
     "employee": "Robert Grealy",
-    "search_method": "Browser automation",
+    "employee_key": "robert_grealy",
+    "title": "SVP Operations",
+    "search_url": "https://www.dllr.state.md.us/license/",
+    "search_method": "Browser automation - Maryland Department of Labor, Licensing and Regulation",
     "license_types_searched": [
       "Real Estate Broker",
       "Real Estate Salesperson"
-    ]
+    ],
+    "regulatory_body": "Maryland Department of Labor, Licensing and Regulation",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": true,
+    "note": "Real estate license search completed via Browser automation - Maryland Department of Labor, Licensing and Regulation"
   },
   "findings": {
     "robert_grealy": {
       "full_name": "Robert Grealy",
+      "employee_key": "robert_grealy",
+      "title": "SVP Operations",
       "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No license found in Maryland"
+      "license_status": "Not found",
+      "regulatory_body": "Maryland Department of Labor, Licensing and Regulation",
+      "search_url": "https://www.dllr.state.md.us/license/",
+      "search_method": "Browser automation - Maryland Department of Labor, Licensing and Regulation",
+      "note": "No real estate license found in Maryland for Robert Grealy. Search performed via Browser automation - Maryland Department of Labor, Licensing and Regulation"
     }
   },
-  "conclusion": "Robert Grealy DOES NOT HAVE a real estate license in Maryland."
+  "conclusion": "Robert Grealy DOES NOT HAVE a real estate license in Maryland. Search performed via Browser automation - Maryland Department of Labor, Licensing and Regulation",
+  "license_status": "Not found",
+  "verification_status": "verified"
 }

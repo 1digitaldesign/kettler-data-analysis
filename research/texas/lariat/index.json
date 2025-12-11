@@ -1,0 +1,816 @@
+{
+  "metadata": {
+    "source": "lariat_tx_filings",
+    "created": "2025-12-11T00:21:39.692737",
+    "total_entities": 14,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  },
+  "entities": [
+    {
+      "filing_number": "801459833",
+      "file": "research/texas/lariat/entities/entity_801459833.json",
+      "name": "Lariat Realty Advisors, Inc.",
+      "entity_type": null
+    },
+    {
+      "filing_number": "805759678",
+      "file": "research/texas/lariat/entities/entity_805759678.json",
+      "name": "Lariat Realty Advisors, LLC",
+      "entity_type": "Domestic Limited Liability Company (LLC)"
+    },
+    {
+      "filing_number": "46955400",
+      "file": "research/texas/lariat/entities/entity_46955400.json",
+      "name": "LARIAT INC. REALTORS",
+      "entity_type": null
+    },
+    {
+      "filing_number": "802331657",
+      "file": "research/texas/lariat/entities/entity_802331657.json",
+      "name": "Kettler Management Inc.",
+      "entity_type": null
+    },
+    {
+      "filing_number": "804700244",
+      "file": "research/texas/lariat/entities/entity_804700244.json",
+      "name": "Kettler Land Management LLC",
+      "entity_type": null
+    },
+    {
+      "filing_number": "805818075",
+      "file": "research/texas/lariat/entities/entity_805818075.json",
+      "name": "Frippmore, LLC",
+      "entity_type": null
+    },
+    {
+      "filing_number": "802961755",
+      "file": "research/texas/lariat/entities/entity_802961755.json",
+      "name": "SDS Texas Realty, LLC",
+      "entity_type": null
+    },
+    {
+      "filing_number": "60550300",
+      "file": "research/texas/lariat/entities/entity_60550300.json",
+      "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+      "entity_type": "Domestic For-Profit Corporation"
+    },
+    {
+      "filing_number": "18792700",
+      "file": "research/texas/lariat/entities/entity_18792700.json",
+      "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+      "entity_type": null
+    },
+    {
+      "filing_number": "17649900",
+      "file": "research/texas/lariat/entities/entity_17649900.json",
+      "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+      "entity_type": "Domestic For-Profit Corporation"
+    },
+    {
+      "filing_number": "804058541",
+      "file": "research/texas/lariat/entities/entity_804058541.json",
+      "name": "DIVORCE NAVIGATORS, INC.",
+      "entity_type": "Domestic Nonprofit Corporation"
+    },
+    {
+      "filing_number": "803790640",
+      "file": "research/texas/lariat/entities/entity_803790640.json",
+      "name": "CAPREIT RESIDENTIAL MANAGEMENT, LLC",
+      "entity_type": "Foreign Limited Liability Company (LLC)"
+    },
+    {
+      "filing_number": "801542892",
+      "file": "research/texas/lariat/entities/entity_801542892.json",
+      "name": "Bozzuto Contracting TX, LLC",
+      "entity_type": "Domestic Limited Liability Company (LLC)"
+    },
+    {
+      "filing_number": "129768500",
+      "file": "research/texas/lariat/entities/entity_129768500.json",
+      "name": "GABLES RESIDENTIAL SERVICES, INC.",
+      "entity_type": null
+    }
+  ],
+  "registered_agents": [
+    {
+      "filing_number": "801459833",
+      "file": "research/texas/lariat/registered_agents/registered_agent_801459833.json",
+      "agent_name": "Thoms L Bisanz"
+    },
+    {
+      "filing_number": "805759678",
+      "file": "research/texas/lariat/registered_agents/registered_agent_805759678.json",
+      "agent_name": "Thomas Bisanz"
+    },
+    {
+      "filing_number": "46955400",
+      "file": "research/texas/lariat/registered_agents/registered_agent_46955400.json",
+      "agent_name": "Monte B Hartig"
+    },
+    {
+      "filing_number": "802331657",
+      "file": "research/texas/lariat/registered_agents/registered_agent_802331657.json",
+      "agent_name": "National Registered Agents, Inc."
+    },
+    {
+      "filing_number": "804700244",
+      "file": "research/texas/lariat/registered_agents/registered_agent_804700244.json",
+      "agent_name": "United States Corporation Agents, Inc."
+    },
+    {
+      "filing_number": "805818075",
+      "file": "research/texas/lariat/registered_agents/registered_agent_805818075.json",
+      "agent_name": "Carlisle Braun"
+    },
+    {
+      "filing_number": "802961755",
+      "file": "research/texas/lariat/registered_agents/registered_agent_802961755.json",
+      "agent_name": "LEAH DOUTHIT"
+    },
+    {
+      "filing_number": "60550300",
+      "file": "research/texas/lariat/registered_agents/registered_agent_60550300.json",
+      "agent_name": "C R Skidmore"
+    },
+    {
+      "filing_number": "17649900",
+      "file": "research/texas/lariat/registered_agents/registered_agent_17649900.json",
+      "agent_name": "C L Skidmore"
+    },
+    {
+      "filing_number": "804058541",
+      "file": "research/texas/lariat/registered_agents/registered_agent_804058541.json",
+      "agent_name": "HOLLY MCKAY"
+    },
+    {
+      "filing_number": "803790640",
+      "file": "research/texas/lariat/registered_agents/registered_agent_803790640.json",
+      "agent_name": "Corporation Service Company dba CSC - Lawyers Incorporating Service Company"
+    },
+    {
+      "filing_number": "129768500",
+      "file": "research/texas/lariat/registered_agents/registered_agent_129768500.json",
+      "agent_name": "CORPORATION SERVICE COMPANY D/B/A LAWYERS INCORPORATING SERVICE COMPANY"
+    }
+  ],
+  "filing_history": [
+    {
+      "filing_number": "801459833",
+      "document_number": "379692090002",
+      "file": "research/texas/lariat/filing_history/filing_379692090002.json",
+      "filing_type": "Certificate of Formation",
+      "filing_date": "July 28, 2011"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "465240542917",
+      "file": "research/texas/lariat/filing_history/filing_465240542917.json",
+      "filing_type": "Tax Forfeiture",
+      "filing_date": "February 8, 2013"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "782373270002",
+      "file": "research/texas/lariat/filing_history/filing_782373270002.json",
+      "filing_type": "Reinstatement",
+      "filing_date": "December 18, 2017"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "802503300001",
+      "file": "research/texas/lariat/filing_history/filing_802503300001.json",
+      "filing_type": "Public Information Report (PIR)",
+      "filing_date": "December 31, 2017"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "844532980001",
+      "file": "research/texas/lariat/filing_history/filing_844532980001.json",
+      "filing_type": "Public Information Report (PIR)",
+      "filing_date": "December 31, 2018"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "908215490001",
+      "file": "research/texas/lariat/filing_history/filing_908215490001.json",
+      "filing_type": "Public Information Report (PIR)",
+      "filing_date": "December 31, 2019"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "1055238540001",
+      "file": "research/texas/lariat/filing_history/filing_1055238540001.json",
+      "filing_type": "Public Information Report (PIR)",
+      "filing_date": "December 31, 2020"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "1086160220001",
+      "file": "research/texas/lariat/filing_history/filing_1086160220001.json",
+      "filing_type": "Public Information Report (PIR)",
+      "filing_date": "December 31, 2021"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "1212752790001",
+      "file": "research/texas/lariat/filing_history/filing_1212752790001.json",
+      "filing_type": "Public Information Report (PIR)",
+      "filing_date": "December 31, 2022"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "1314642380001",
+      "file": "research/texas/lariat/filing_history/filing_1314642380001.json",
+      "filing_type": "Public Information Report (PIR)",
+      "filing_date": "December 31, 2023"
+    },
+    {
+      "filing_number": "801459833",
+      "document_number": "1406952510001",
+      "file": "research/texas/lariat/filing_history/filing_1406952510001.json",
+      "filing_type": "Public Information Report (PIR)",
+      "filing_date": "December 31, 2024"
+    },
+    {
+      "filing_number": "46955400",
+      "document_number": "N/A",
+      "file": "research/texas/lariat/filing_history/filing_N/A.json",
+      "filing_type": "4390503",
+      "filing_date": "Legacy Filing"
+    },
+    {
+      "filing_number": "60550300",
+      "document_number": "N/A",
+      "file": "research/texas/lariat/filing_history/filing_N/A.json",
+      "filing_type": "4789141",
+      "filing_date": "Legacy Filing"
+    },
+    {
+      "filing_number": "60550300",
+      "document_number": "WAYNE EATON, INC.",
+      "file": "research/texas/lariat/filing_history/filing_WAYNE EATON, INC..json",
+      "filing_type": "Inactive",
+      "filing_date": "Legal"
+    },
+    {
+      "filing_number": "801542892",
+      "document_number": "1476558470002",
+      "file": "research/texas/lariat/filing_history/filing_1476558470002.json",
+      "filing_type": "Certificate of Formation",
+      "filing_date": "April 30, 2025"
+    }
+  ],
+  "names": [
+    {
+      "filing_number": "801459833",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_801459833_0.json",
+      "name": "Lariat Realty Advisors, Inc.",
+      "name_status": "Inactive"
+    },
+    {
+      "filing_number": "801459833",
+      "index": 1,
+      "file": "research/texas/lariat/names/name_801459833_1.json",
+      "name": "Lariat Realty Advisors, Inc.",
+      "name_status": "In use"
+    },
+    {
+      "filing_number": "805759678",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_805759678_0.json",
+      "name": "Lariat Realty Advisors, LLC",
+      "name_status": "In use"
+    },
+    {
+      "filing_number": "46955400",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_46955400_0.json",
+      "name": "LARIAT INC. REALTORS",
+      "name_status": "Inactive"
+    },
+    {
+      "filing_number": "802331657",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_802331657_0.json",
+      "name": "Kettler Management Inc.",
+      "name_status": "In use"
+    },
+    {
+      "filing_number": "804700244",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_804700244_0.json",
+      "name": "Kettler Land Management LLC",
+      "name_status": "Inactive"
+    },
+    {
+      "filing_number": "805818075",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_805818075_0.json",
+      "name": "Frippmore, LLC",
+      "name_status": "In use"
+    },
+    {
+      "filing_number": "802961755",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_802961755_0.json",
+      "name": "SDS Texas Realty, LLC",
+      "name_status": "In use"
+    },
+    {
+      "filing_number": "18792700",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_18792700_0.json",
+      "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+      "name_status": "Inactive"
+    },
+    {
+      "filing_number": "17649900",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_17649900_0.json",
+      "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+      "name_status": "Inactive"
+    },
+    {
+      "filing_number": "17649900",
+      "index": 1,
+      "file": "research/texas/lariat/names/name_17649900_1.json",
+      "name": "BARWOOD FABRICATING CO., INC.",
+      "name_status": "Prior"
+    },
+    {
+      "filing_number": "804058541",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_804058541_0.json",
+      "name": "DIVORCE NAVIGATORS, INC.",
+      "name_status": "Inactive"
+    },
+    {
+      "filing_number": "803790640",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_803790640_0.json",
+      "name": "Bainbridge Mid-Atlantic Management, LLC",
+      "name_status": "Inactive"
+    },
+    {
+      "filing_number": "803790640",
+      "index": 1,
+      "file": "research/texas/lariat/names/name_803790640_1.json",
+      "name": "Bainbridge Mid-Atlantic Management, LLC",
+      "name_status": "In use"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 0,
+      "file": "research/texas/lariat/names/name_129768500_0.json",
+      "name": "GABLES RESIDENTIAL SERVICES, INC.",
+      "name_status": "In use"
+    }
+  ],
+  "management": [
+    {
+      "filing_number": "801459833",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_801459833_0.json",
+      "name": "Thomas Bisanz",
+      "title": "Manager"
+    },
+    {
+      "filing_number": "805759678",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_805759678_0.json",
+      "name": "Thomas Bisanz",
+      "title": "Manager"
+    },
+    {
+      "filing_number": "802331657",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_802331657_0.json",
+      "name": "ROBERT KETTLER",
+      "title": "OFFICER"
+    },
+    {
+      "filing_number": "804700244",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_804700244_0.json",
+      "name": "William Kyle Kettler",
+      "title": "Managing Member"
+    },
+    {
+      "filing_number": "805818075",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_805818075_0.json",
+      "name": "Caitlin Skidmore",
+      "title": "Manager"
+    },
+    {
+      "filing_number": "805818075",
+      "index": 1,
+      "file": "research/texas/lariat/management/management_805818075_1.json",
+      "name": "Troy Skidmore",
+      "title": "Manager"
+    },
+    {
+      "filing_number": "802961755",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_802961755_0.json",
+      "name": "Leah Douthit",
+      "title": "Manager"
+    },
+    {
+      "filing_number": "802961755",
+      "index": 1,
+      "file": "research/texas/lariat/management/management_802961755_1.json",
+      "name": "Caitlin Skidmore",
+      "title": "Manager"
+    },
+    {
+      "filing_number": "802961755",
+      "index": 2,
+      "file": "research/texas/lariat/management/management_802961755_2.json",
+      "name": "Elizabeth Saye",
+      "title": "Manager"
+    },
+    {
+      "filing_number": "60550300",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_60550300_0.json",
+      "name": "S",
+      "title": "1400 HILLCREST"
+    },
+    {
+      "filing_number": "60550300",
+      "index": 1,
+      "file": "research/texas/lariat/management/management_60550300_1.json",
+      "name": "Director",
+      "title": "1400 HILLCREST"
+    },
+    {
+      "filing_number": "60550300",
+      "index": 2,
+      "file": "research/texas/lariat/management/management_60550300_2.json",
+      "name": "VP",
+      "title": "1400 HILLCREST"
+    },
+    {
+      "filing_number": "60550300",
+      "index": 3,
+      "file": "research/texas/lariat/management/management_60550300_3.json",
+      "name": "P",
+      "title": "1400 HILLCREST"
+    },
+    {
+      "filing_number": "60550300",
+      "index": 4,
+      "file": "research/texas/lariat/management/management_60550300_4.json",
+      "name": "T",
+      "title": "1400 HILLCREST"
+    },
+    {
+      "filing_number": "60550300",
+      "index": 5,
+      "file": "research/texas/lariat/management/management_60550300_5.json",
+      "name": "18792700",
+      "title": "Entity Type:"
+    },
+    {
+      "filing_number": "804058541",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_804058541_0.json",
+      "name": "HOLLY MCKAY",
+      "title": "Director"
+    },
+    {
+      "filing_number": "804058541",
+      "index": 1,
+      "file": "research/texas/lariat/management/management_804058541_1.json",
+      "name": "LEAH DOUTHIT",
+      "title": "Director"
+    },
+    {
+      "filing_number": "804058541",
+      "index": 2,
+      "file": "research/texas/lariat/management/management_804058541_2.json",
+      "name": "LIDDY SAYE",
+      "title": "Director"
+    },
+    {
+      "filing_number": "804058541",
+      "index": 3,
+      "file": "research/texas/lariat/management/management_804058541_3.json",
+      "name": "CAITLIN SKIDMORE",
+      "title": "Director"
+    },
+    {
+      "filing_number": "803790640",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_803790640_0.json",
+      "name": "RAS MANAGER, LLC",
+      "title": "ITS MANAGER"
+    },
+    {
+      "filing_number": "803790640",
+      "index": 1,
+      "file": "research/texas/lariat/management/management_803790640_1.json",
+      "name": "801542892",
+      "title": "Entity Type:"
+    },
+    {
+      "filing_number": "801542892",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_801542892_0.json",
+      "name": "CAPREIT OPERATING LIMITED P",
+      "title": "MEMBER"
+    },
+    {
+      "filing_number": "801542892",
+      "index": 1,
+      "file": "research/texas/lariat/management/management_801542892_1.json",
+      "name": "806015816",
+      "title": "Entity Type:"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 0,
+      "file": "research/texas/lariat/management/management_129768500_0.json",
+      "name": "Susan M Ansel",
+      "title": "President, CEO"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 1,
+      "file": "research/texas/lariat/management/management_129768500_1.json",
+      "name": "Susan M Ansel",
+      "title": "DIRECTOR"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 2,
+      "file": "research/texas/lariat/management/management_129768500_2.json",
+      "name": "Dawn H Severt",
+      "title": "EVP, CFO, Secretary, Treasurer"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 3,
+      "file": "research/texas/lariat/management/management_129768500_3.json",
+      "name": "Dawn H Severt",
+      "title": "DIRECTOR"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 4,
+      "file": "research/texas/lariat/management/management_129768500_4.json",
+      "name": "Dennis E Rainosek",
+      "title": "SVP, Asst Secretary, Asst Treasu"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 5,
+      "file": "research/texas/lariat/management/management_129768500_5.json",
+      "name": "David K Reece",
+      "title": "SVP, Asst. Secretary"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 6,
+      "file": "research/texas/lariat/management/management_129768500_6.json",
+      "name": "Philip E Altschuler",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 7,
+      "file": "research/texas/lariat/management/management_129768500_7.json",
+      "name": "Donna E Summers",
+      "title": "DIRECTOR"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 8,
+      "file": "research/texas/lariat/management/management_129768500_8.json",
+      "name": "Charles L Elliott",
+      "title": "EVP, Chief Investment Officer"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 9,
+      "file": "research/texas/lariat/management/management_129768500_9.json",
+      "name": "Kenna R Coulter",
+      "title": "VP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 10,
+      "file": "research/texas/lariat/management/management_129768500_10.json",
+      "name": "F Gregory Gasior",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 11,
+      "file": "research/texas/lariat/management/management_129768500_11.json",
+      "name": "Genevieve Giannoni",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 12,
+      "file": "research/texas/lariat/management/management_129768500_12.json",
+      "name": "William A Gosnell",
+      "title": "VP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 13,
+      "file": "research/texas/lariat/management/management_129768500_13.json",
+      "name": "Mary O Hollands",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 14,
+      "file": "research/texas/lariat/management/management_129768500_14.json",
+      "name": "Teresa R Meuter",
+      "title": "VP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 15,
+      "file": "research/texas/lariat/management/management_129768500_15.json",
+      "name": "Robert K Presley",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 16,
+      "file": "research/texas/lariat/management/management_129768500_16.json",
+      "name": "Melanie M Trapnell",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 17,
+      "file": "research/texas/lariat/management/management_129768500_17.json",
+      "name": "Michael L Brown",
+      "title": "RVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 18,
+      "file": "research/texas/lariat/management/management_129768500_18.json",
+      "name": "Jorgen Punda",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 19,
+      "file": "research/texas/lariat/management/management_129768500_19.json",
+      "name": "Timothy R Hutchinson",
+      "title": "VP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 20,
+      "file": "research/texas/lariat/management/management_129768500_20.json",
+      "name": "Thomas L Bisanz",
+      "title": "VP with limited authority"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 21,
+      "file": "research/texas/lariat/management/management_129768500_21.json",
+      "name": "James W Hamrick",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 22,
+      "file": "research/texas/lariat/management/management_129768500_22.json",
+      "name": "Ryan L Brown",
+      "title": "RVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 23,
+      "file": "research/texas/lariat/management/management_129768500_23.json",
+      "name": "Lynn Riley-Stokes",
+      "title": "RVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 24,
+      "file": "research/texas/lariat/management/management_129768500_24.json",
+      "name": "Beau W Terhaar",
+      "title": "RVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 25,
+      "file": "research/texas/lariat/management/management_129768500_25.json",
+      "name": "Brian D Mosley",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 26,
+      "file": "research/texas/lariat/management/management_129768500_26.json",
+      "name": "Matthew P Seaman",
+      "title": "VP with limited authority"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 27,
+      "file": "research/texas/lariat/management/management_129768500_27.json",
+      "name": "Matthew C Bearden",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 28,
+      "file": "research/texas/lariat/management/management_129768500_28.json",
+      "name": "Carrie L Billiam",
+      "title": "SVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 29,
+      "file": "research/texas/lariat/management/management_129768500_29.json",
+      "name": "Shane A Polk",
+      "title": "VP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 30,
+      "file": "research/texas/lariat/management/management_129768500_30.json",
+      "name": "Robert T Rector",
+      "title": "VP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 31,
+      "file": "research/texas/lariat/management/management_129768500_31.json",
+      "name": "Edward L Meder",
+      "title": "AVP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 32,
+      "file": "research/texas/lariat/management/management_129768500_32.json",
+      "name": "Jun H Lee",
+      "title": "VP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 33,
+      "file": "research/texas/lariat/management/management_129768500_33.json",
+      "name": "Kristyn Monticup",
+      "title": "VP"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 34,
+      "file": "research/texas/lariat/management/management_129768500_34.json",
+      "name": "Puy Thai",
+      "title": "VP"
+    }
+  ],
+  "assumed_names": [
+    {
+      "filing_number": "802961755",
+      "index": 0,
+      "file": "research/texas/lariat/assumed_names/assumed_name_802961755_0.json",
+      "assumed_name": "One Legacy Group"
+    },
+    {
+      "filing_number": "803790640",
+      "index": 0,
+      "file": "research/texas/lariat/assumed_names/assumed_name_803790640_0.json",
+      "assumed_name": "BAINBRIDGE COMPANIES"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 0,
+      "file": "research/texas/lariat/assumed_names/assumed_name_129768500_0.json",
+      "assumed_name": "Affinity Temporary Housing"
+    }
+  ],
+  "associated_entities": [
+    {
+      "filing_number": "17649900",
+      "index": 0,
+      "file": "research/texas/lariat/associated_entities/associated_entity_17649900_0.json",
+      "name": "AMERICAN VITRIFIED PRODUCTS COMPANY",
+      "entity_type": "Other Entity/Organization"
+    },
+    {
+      "filing_number": "129768500",
+      "index": 0,
+      "file": "research/texas/lariat/associated_entities/associated_entity_129768500_0.json",
+      "name": "H.G. SMITHY COMPANY",
+      "entity_type": "Foreign For-Profit Corporation"
+    }
+  ],
+  "initial_addresses": []
+}

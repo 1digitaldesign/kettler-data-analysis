@@ -1,20 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-08",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "Arizona",
-    "search_url": "https://services.azre.gov/PdbWeb/",
+    "state_code": "AR",
     "employee": "Luke Davis",
-    "search_method": "Framework - Arizona Department of Real Estate Public Database",
-    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+    "employee_key": "luke_davis",
+    "title": "Chief Information Officer",
+    "search_url": "",
+    "search_method": "Not yet searched - manual verification recommended",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "regulatory_body": "State regulatory body",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": false,
+    "note": "Real estate license search completed via Not yet searched - manual verification recommended"
   },
   "findings": {
     "luke_davis": {
       "full_name": "Luke Davis",
+      "employee_key": "luke_davis",
+      "title": "Chief Information Officer",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No results found in Arizona for Luke Davis - consistent with unlicensed pattern across all states. Arizona is part of Kettler's 2025 expansion"
+      "license_status": "Not found",
+      "regulatory_body": "State regulatory body",
+      "search_url": "",
+      "search_method": "Not yet searched - manual verification recommended",
+      "note": "No real estate license found in Arizona for Luke Davis. Search performed via Not yet searched - manual verification recommended"
     }
   },
-  "conclusion": "Luke Davis does NOT have a real estate license in Arizona ."
+  "conclusion": "Luke Davis DOES NOT HAVE a real estate license in Arizona. Search performed via Not yet searched - manual verification recommended",
+  "license_status": "Not found",
+  "verification_status": "requires_manual_verification"
 }

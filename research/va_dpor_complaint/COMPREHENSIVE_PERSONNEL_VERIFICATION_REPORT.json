@@ -23,7 +23,15 @@
     },
     "substantial_verification_7_states": {
       "count": 11,
-      "states_searched": ["VA", "TX", "MD", "DC", "NC", "FL", "GA"],
+      "states_searched": [
+        "VA",
+        "TX",
+        "MD",
+        "DC",
+        "NC",
+        "FL",
+        "GA"
+      ],
       "personnel": [
         "Henry Ramos",
         "Robert C. Kettler",
@@ -46,17 +54,24 @@
         {
           "name": "Elizabeth Saye",
           "company": "Lariat Realty Advisors",
-          "licenses": ["TX #671787 (active)", "NY #10351218566"]
+          "licenses": [
+            "TX #671787 (active)",
+            "NY #10351218566"
+          ]
         },
         {
           "name": "Thoms L. Bisanz",
           "company": "Lariat Realty Advisors",
-          "licenses": ["TX broker (active, expires 2027)"]
+          "licenses": [
+            "TX broker (active, expires 2027)"
+          ]
         },
         {
           "name": "Leah Douthit",
           "company": "Monument Realty",
-          "licenses": ["TX #0622166 (inactive)"]
+          "licenses": [
+            "TX #0622166 (inactive)"
+          ]
         }
       ]
     },
@@ -66,7 +81,11 @@
         {
           "name": "Sean Curtin",
           "title": "General Counsel",
-          "bar_licenses": ["VA (1990)", "CA", "DC"],
+          "bar_licenses": [
+            "VA (1990)",
+            "CA",
+            "DC"
+          ],
           "real_estate_licenses": "None"
         }
       ]
@@ -81,42 +100,61 @@
           "title": "Senior Regional Manager",
           "states_verified": 16,
           "violation_severity": "high",
-          "activities": ["Lease termination decisions", "Property management", "Reasonable accommodation denials"]
+          "activities": [
+            "Lease termination decisions",
+            "Property management",
+            "Reasonable accommodation denials"
+          ]
         },
         {
           "name": "Robert Grealy",
           "title": "SVP Operations",
           "states_verified": 16,
           "violation_severity": "high",
-          "activities": ["Operations management", "Oversight of 28,000+ units"]
+          "activities": [
+            "Operations management",
+            "Oversight of 28,000+ units"
+          ]
         },
         {
           "name": "Amy Groff",
           "title": "VP Operations",
           "states_verified": 16,
           "violation_severity": "high",
-          "activities": ["Operations management", "Oversight of 11,000+ units"]
+          "activities": [
+            "Operations management",
+            "Oversight of 11,000+ units"
+          ]
         },
         {
           "name": "Tracy Fones",
           "title": "VP Operations",
           "states_verified": 16,
           "violation_severity": "high",
-          "activities": ["Operations management", "VA property oversight"]
+          "activities": [
+            "Operations management",
+            "VA property oversight"
+          ]
         },
         {
           "name": "Djene Moyer",
           "title": "Community Manager",
           "states_verified": 16,
           "violation_severity": "high",
-          "activities": ["On-site property management", "Lease administration", "Tenant relations"]
+          "activities": [
+            "On-site property management",
+            "Lease administration",
+            "Tenant relations"
+          ]
         },
         {
           "name": "Henry Ramos",
           "title": "Property Manager",
           "states_verified": 7,
           "violation_severity": "high",
-          "activities": ["Property management"]
+          "activities": [
+            "Property management"
+          ]
         }
       ],
       "conclusion": "All 7 property management personnel are confirmed unlicensed, supporting complaint allegations of unlicensed practice of real estate"
@@ -197,5 +235,12 @@
       "Investigate relationship between Lariat Realty Advisors and Kettler-supervised firms",
       "Document specific unlicensed activities for each personnel member"
     ]
+  },
+  "metadata": {
+    "file_name": "COMPREHENSIVE_PERSONNEL_VERIFICATION_REPORT.json",
+    "file_path": "research/va_dpor_complaint/COMPREHENSIVE_PERSONNEL_VERIFICATION_REPORT.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
   }
 }

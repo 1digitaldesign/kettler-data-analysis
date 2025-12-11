@@ -4,13 +4,35 @@
     {
       "address": "5729 LEBANON RD STE 144553 FRISCO TX 75034",
       "firm_count": 5,
-      "firms": ["BOZZUTO MANAGEMENT COMPANY", "CORTLAND MANAGEMENT LLC", "GABLES RESIDENTIAL SERVICES INC", "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC"]
+      "firms": [
+        "BOZZUTO MANAGEMENT COMPANY",
+        "CORTLAND MANAGEMENT LLC",
+        "GABLES RESIDENTIAL SERVICES INC",
+        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+        "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+      ]
     }
   ],
   "shared_address_count": 1,
-  "email_domains_found": ["gmail.com", "kettler.com", "airbnb.com", "reply.airbnb.com", "scale.com", "nearfutu.re", "contractors.scale.com"],
+  "email_domains_found": [
+    "gmail.com",
+    "kettler.com",
+    "airbnb.com",
+    "reply.airbnb.com",
+    "scale.com",
+    "nearfutu.re",
+    "contractors.scale.com"
+  ],
   "summary": {
     "firms_sharing_addresses": 1,
     "largest_address_cluster": 5
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "shared_resources_analysis.json",
+    "file_path": "research/analysis/shared_resources_analysis.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
   }
 }

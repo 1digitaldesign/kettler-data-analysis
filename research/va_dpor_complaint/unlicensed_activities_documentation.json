@@ -48,7 +48,11 @@
   "activities_to_research": [
     {
       "activity_type": "Lease Signings",
-      "personnel": ["Djene Moyer", "Edward Hyland", "Other unlicensed staff"],
+      "personnel": [
+        "Djene Moyer",
+        "Edward Hyland",
+        "Other unlicensed staff"
+      ],
       "status": "documented",
       "evidence_sources": [
         "Lease documents (tenant records)",
@@ -59,7 +63,11 @@
     },
     {
       "activity_type": "Lease Terminations/Notices",
-      "personnel": ["Edward Hyland", "Djene Moyer", "Other unlicensed staff"],
+      "personnel": [
+        "Edward Hyland",
+        "Djene Moyer",
+        "Other unlicensed staff"
+      ],
       "status": "documented",
       "evidence_found": [
         "Edward Hyland lease termination notice (12/6/25)",
@@ -74,7 +82,10 @@
     },
     {
       "activity_type": "Property Showings",
-      "personnel": ["Djene Moyer", "Other unlicensed staff"],
+      "personnel": [
+        "Djene Moyer",
+        "Other unlicensed staff"
+      ],
       "status": "documented",
       "evidence_sources": [
         "Property showing records",
@@ -85,7 +96,10 @@
     },
     {
       "activity_type": "Rent Collection",
-      "personnel": ["Djene Moyer", "Other unlicensed staff"],
+      "personnel": [
+        "Djene Moyer",
+        "Other unlicensed staff"
+      ],
       "status": "documented",
       "evidence_sources": [
         "Rent payment records",
@@ -96,7 +110,11 @@
     },
     {
       "activity_type": "Maintenance/Repair Decisions Affecting Tenancy",
-      "personnel": ["Edward Hyland", "Djene Moyer", "Other unlicensed staff"],
+      "personnel": [
+        "Edward Hyland",
+        "Djene Moyer",
+        "Other unlicensed staff"
+      ],
       "status": "documented",
       "evidence_sources": [
         "Maintenance request records",
@@ -129,14 +147,21 @@
         "date": "2022-09 to present",
         "personnel": "Edward Hyland",
         "activity": "Property management oversight",
-        "properties": ["800 Carlyle Apartments", "Sinclaire on Seminary"],
+        "properties": [
+          "800 Carlyle Apartments",
+          "Sinclaire on Seminary"
+        ],
         "evidence": "LinkedIn profile, email correspondence, property management activities",
         "violation": "Unlicensed person conducting property management activities",
         "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
       },
       {
         "date": "Ongoing",
-        "personnel": ["Robert Grealy", "Amy Groff", "Tracy Fones"],
+        "personnel": [
+          "Robert Grealy",
+          "Amy Groff",
+          "Tracy Fones"
+        ],
         "activity": "Operations management and oversight",
         "scope": "28,000+ units (Grealy), 11,000+ units (Groff), VA properties (Fones)",
         "violation": "Unlicensed personnel supervising unlicensed personnel",
@@ -183,5 +208,12 @@
     "Review property management software records (if accessible)",
     "Compile chronological list with evidence",
     "Categorize by activity type and personnel"
-  ]
+  ],
+  "metadata": {
+    "file_name": "unlicensed_activities_documentation.json",
+    "file_path": "research/va_dpor_complaint/unlicensed_activities_documentation.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

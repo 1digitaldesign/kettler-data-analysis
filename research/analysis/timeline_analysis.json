@@ -162,28 +162,51 @@
   "anomalies": {
     "firms_before_broker": {
       "count": 8,
-      "firms": ["BELL PARTNERS INC", "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC", "BOZZUTO MANAGEMENT COMPANY", "KETTLER MANAGEMENT INC", "GABLES RESIDENTIAL SERVICES INC", "MCCORMACK BARON MANAGEMENT INC", "BURLINGTON CAPITAL PROPERTIES LLC", "GATEWAY MANAGEMENT COMPANY LLC"],
+      "firms": [
+        "BELL PARTNERS INC",
+        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+        "BOZZUTO MANAGEMENT COMPANY",
+        "KETTLER MANAGEMENT INC",
+        "GABLES RESIDENTIAL SERVICES INC",
+        "MCCORMACK BARON MANAGEMENT INC",
+        "BURLINGTON CAPITAL PROPERTIES LLC",
+        "GATEWAY MANAGEMENT COMPANY LLC"
+      ],
       "anomaly": "Firms cannot have principal broker who wasn't licensed when firm was established"
     },
     "firms_after_broker": {
       "count": 2,
-      "firms": ["CORTLAND MANAGEMENT LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC"],
+      "firms": [
+        "CORTLAND MANAGEMENT LLC",
+        "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+      ],
       "anomaly": "Firms licensed after Skidmore but she's listed as principal broker from start"
     },
     "firms_after_hyland_start": {
       "count": 3,
-      "firms": ["GATEWAY MANAGEMENT COMPANY LLC", "CORTLAND MANAGEMENT LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC"],
+      "firms": [
+        "GATEWAY MANAGEMENT COMPANY LLC",
+        "CORTLAND MANAGEMENT LLC",
+        "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+      ],
       "anomaly": "Firms licensed after Hyland started at Kettler - suggests operational connection"
     }
   },
   "patterns": {
     "license_clustering": {
-      "peak_years": ["2016", "2025"],
+      "peak_years": [
+        "2016",
+        "2025"
+      ],
       "explanation": "Multiple firms licensed in same year suggests coordinated effort"
     },
     "recent_activity": {
       "count": 3,
-      "dates": ["2025-06-30", "2025-03-26", "2025-07-24"],
+      "dates": [
+        "2025-06-30",
+        "2025-03-26",
+        "2025-07-24"
+      ],
       "explanation": "Recent licensing activity may indicate scheme expansion"
     }
   },
@@ -204,5 +227,13 @@
     "firms_after_broker": 2,
     "firms_after_hyland": 3,
     "recent_activity": 3
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "timeline_analysis.json",
+    "file_path": "research/analysis/timeline_analysis.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
   }
 }

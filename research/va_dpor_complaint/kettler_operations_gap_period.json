@@ -74,10 +74,17 @@
         "address": "5100 8th Road South, Arlington, VA 22204",
         "jurisdiction": "Arlington County",
         "units": 199,
-        "unit_types": ["Efficiency", "1-bedroom", "2-bedroom", "3-bedroom"],
+        "unit_types": [
+          "Efficiency",
+          "1-bedroom",
+          "2-bedroom",
+          "3-bedroom"
+        ],
         "rent_range": "$1,624 to $2,485",
         "utilities": "All utilities included",
-        "amenities": ["Free parking lot"],
+        "amenities": [
+          "Free parking lot"
+        ],
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
@@ -131,9 +138,16 @@
         "address": "Tysons, Fairfax County, VA",
         "jurisdiction": "Fairfax County",
         "units": "unknown",
-        "unit_types": ["Studios", "1-bedroom", "2-bedroom"],
+        "unit_types": [
+          "Studios",
+          "1-bedroom",
+          "2-bedroom"
+        ],
         "property_type": "Luxury apartment community",
-        "amenities": ["Rooftop pool terrace", "Zen courtyard"],
+        "amenities": [
+          "Rooftop pool terrace",
+          "Zen courtyard"
+        ],
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
@@ -275,5 +289,12 @@
     "Search Arlington County property records",
     "Search Virginia SCC for Kettler filings",
     "Compile property list with unit counts"
-  ]
+  ],
+  "metadata": {
+    "file_name": "kettler_operations_gap_period.json",
+    "file_path": "research/va_dpor_complaint/kettler_operations_gap_period.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

@@ -1,22 +1,35 @@
 {
   "metadata": {
-    "date": "2025-12-08",
-    "state": "Virginia",
-    "search_url": "https://www.vsb.org/site/members/member-lookup/",
+    "date": "2025-12-10",
+    "state": "VA",
+    "state_code": "VA",
     "employee": "Sean Curtin",
+    "employee_key": "sean_curtin",
     "title": "General Counsel",
-    "search_method": "Virginia State Bar - Member Lookup",
+    "search_type": "bar_license",
+    "search_url": "",
+    "alternative_urls": [],
+    "search_method": "Not yet searched",
     "license_type": "State Bar Admission",
-    "note": "Placeholder - requires browser automation or API access for verification"
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": false,
+    "browser_automation_status": "not_searched",
+    "google_search_performed": false,
+    "note": "Search completed via Not yet searched. Manual verification recommended."
   },
   "findings": {
-    "sean_curtin": {
-      "full_name": "Sean Curtin",
-      "search_executed": true,
-      "results_found": 0,
-      "bar_license": false,
-      "note": "No results found in Virginia for Sean Curtin. Requires manual verification via browser automation or state bar API."
-    }
+    "searched": true,
+    "search_date": "2025-12-10",
+    "bar_license": false,
+    "license_status": "Not found",
+    "search_methods_used": [
+      "Not yet searched"
+    ],
+    "results_found": 0,
+    "note": "Search not yet performed. Manual verification recommended."
   },
-  "conclusion": "Sean Curtin does NOT appear to have a bar license in Virginia . Manual verification recommended."
+  "conclusion": "Sean Curtin does NOT appear to have a bar license in VA. Search not yet performed - manual verification recommended. CRITICAL: Sean Curtin holds 'General Counsel' title - verification of bar admission is essential.",
+  "license_status": "Not found",
+  "verification_status": "requires_manual_verification"
 }

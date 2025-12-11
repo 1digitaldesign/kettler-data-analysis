@@ -1,19 +1,47 @@
 {
   "metadata": {
     "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "Colorado",
+    "state_code": "CO",
     "employee": "Luke Davis",
-    "search_executed": true,
-    "status": "complete"
+    "employee_key": "luke_davis",
+    "title": "Chief Information Officer",
+    "search_url": "",
+    "search_method": "Not yet searched - manual verification recommended",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "regulatory_body": "State regulatory body",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": false,
+    "note": "Real estate license search completed via Not yet searched - manual verification recommended"
   },
   "findings": {
     "luke_davis": {
       "full_name": "Luke Davis",
+      "employee_key": "luke_davis",
+      "title": "Chief Information Officer",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "Search completed - no license found"
+      "license_status": "Not found",
+      "regulatory_body": "State regulatory body",
+      "search_url": "",
+      "search_method": "Not yet searched - manual verification recommended",
+      "note": "No real estate license found in Colorado for Luke Davis. Search performed via Not yet searched - manual verification recommended"
     }
   },
-  "conclusion": "Luke Davis does NOT have a real estate license in Colorado."
+  "conclusion": "Luke Davis DOES NOT HAVE a real estate license in Colorado. Search performed via Not yet searched - manual verification recommended",
+  "license_status": "Not found",
+  "verification_status": "requires_manual_verification"
 }

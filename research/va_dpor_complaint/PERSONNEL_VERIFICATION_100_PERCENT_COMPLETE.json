@@ -87,7 +87,11 @@
         {
           "name": "Sean Curtin",
           "title": "Executive Vice President & General Counsel",
-          "bar_licenses": ["Virginia (1990)", "California", "District of Columbia"],
+          "bar_licenses": [
+            "Virginia (1990)",
+            "California",
+            "District of Columbia"
+          ],
           "real_estate_licenses": "None"
         }
       ]
@@ -101,42 +105,61 @@
           "name": "Edward Hyland",
           "title": "Senior Regional Manager",
           "states_verified": 16,
-          "activities": ["Lease termination decisions", "Property management", "Reasonable accommodation denials"],
+          "activities": [
+            "Lease termination decisions",
+            "Property management",
+            "Reasonable accommodation denials"
+          ],
           "violation_severity": "CRITICAL"
         },
         {
           "name": "Robert Grealy",
           "title": "SVP Operations",
           "states_verified": 16,
-          "activities": ["Operations management", "Oversight of 28,000+ units"],
+          "activities": [
+            "Operations management",
+            "Oversight of 28,000+ units"
+          ],
           "violation_severity": "CRITICAL"
         },
         {
           "name": "Amy Groff",
           "title": "VP Operations",
           "states_verified": 16,
-          "activities": ["Operations management", "Oversight of 11,000+ units"],
+          "activities": [
+            "Operations management",
+            "Oversight of 11,000+ units"
+          ],
           "violation_severity": "CRITICAL"
         },
         {
           "name": "Tracy Fones",
           "title": "VP Operations",
           "states_verified": 16,
-          "activities": ["Operations management", "VA property oversight"],
+          "activities": [
+            "Operations management",
+            "VA property oversight"
+          ],
           "violation_severity": "CRITICAL"
         },
         {
           "name": "Djene Moyer",
           "title": "Community Manager",
           "states_verified": 16,
-          "activities": ["On-site property management", "Lease administration", "Tenant relations"],
+          "activities": [
+            "On-site property management",
+            "Lease administration",
+            "Tenant relations"
+          ],
           "violation_severity": "CRITICAL"
         },
         {
           "name": "Henry Ramos",
           "title": "Property Manager",
           "states_verified": 16,
-          "activities": ["Property management"],
+          "activities": [
+            "Property management"
+          ],
           "violation_severity": "CRITICAL"
         }
       ],
@@ -202,5 +225,12 @@
       "Note that property management roles typically require real estate licenses in most states",
       "Include verification methodology and comprehensive coverage"
     ]
+  },
+  "metadata": {
+    "file_name": "PERSONNEL_VERIFICATION_100_PERCENT_COMPLETE.json",
+    "file_path": "research/va_dpor_complaint/PERSONNEL_VERIFICATION_100_PERCENT_COMPLETE.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
   }
 }

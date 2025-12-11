@@ -10,7 +10,13 @@
       {
         "address": "5729 LEBANON RD STE 144553 FRISCO TX 75034",
         "firm_count": 5,
-        "firms": ["BOZZUTO MANAGEMENT COMPANY", "CORTLAND MANAGEMENT LLC", "GABLES RESIDENTIAL SERVICES INC", "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC"]
+        "firms": [
+          "BOZZUTO MANAGEMENT COMPANY",
+          "CORTLAND MANAGEMENT LLC",
+          "GABLES RESIDENTIAL SERVICES INC",
+          "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+          "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+        ]
       }
     ],
     "cluster_count": 1
@@ -21,11 +27,43 @@
     "principal_broker": "SKIDMORE CAITLIN MARIE",
     "connection_type": "direct_license_match"
   },
-  "violation_entity_connections": [],
+  "violation_entity_connections": [
+    {
+      "personnel": "Edward Hyland",
+      "activity_type": "Lease Termination",
+      "date": "2025-12-06",
+      "violation": "Unlicensed person making lease decisions affecting tenancy",
+      "connection_type": "unlicensed_activity"
+    },
+    {
+      "personnel": "Edward Hyland",
+      "activity_type": "Reasonable Accommodation Decision",
+      "date": "2025-12-06",
+      "violation": "Unlicensed person making legal determinations about accommodation requests",
+      "connection_type": "unlicensed_activity"
+    },
+    {
+      "personnel": "Edward Hyland",
+      "activity_type": "Property Management",
+      "date": "",
+      "violation": "Unlicensed person conducting property management activities",
+      "connection_type": "unlicensed_activity"
+    }
+  ],
   "summary": {
     "total_firms": 11,
     "hyland_connections": 3,
     "firm_firm_clusters": 1,
     "kettler_connected": true
-  }
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "connection_matrix.json",
+    "file_path": "research/analysis/connection_matrix.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
+  },
+  "employee_count": 15,
+  "unlicensed_employee_count": 9
 }

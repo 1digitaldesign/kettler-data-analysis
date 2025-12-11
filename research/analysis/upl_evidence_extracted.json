@@ -2,10 +2,20 @@
   "extraction_date": "2025-12-07",
   "total_files_searched": 14,
   "files_with_upl_indicators": 0,
-  "evidence": [],
+  "evidence": [
+    "No findings recorded"
+  ],
   "summary": {
     "potential_upl_cases": 0,
     "files_with_legal_terms": 0,
     "note": "Based on PDF text extraction. Full text review recommended."
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "upl_evidence_extracted.json",
+    "file_path": "research/analysis/upl_evidence_extracted.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
   }
 }

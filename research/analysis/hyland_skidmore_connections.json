@@ -3,7 +3,12 @@
   "email_connections": {
     "hyland_email_found": true,
     "hyland_email_count": 2,
-    "carlyle_emails": ["Carlyle.PM@kettler.com", "carlyle.pm@kettler.com", "Carlyle@kettler.com", "Carlyle.APM@kettler.com"],
+    "carlyle_emails": [
+      "Carlyle.PM@kettler.com",
+      "carlyle.pm@kettler.com",
+      "Carlyle@kettler.com",
+      "Carlyle.APM@kettler.com"
+    ],
     "carlyle_connection": true
   },
   "address_connections": {
@@ -18,11 +23,23 @@
   },
   "timeline_connections": {
     "firms_licensed_after_hyland_start": 3,
-    "firm_names_after_hyland": ["CORTLAND MANAGEMENT LLC", "GATEWAY MANAGEMENT COMPANY LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC"]
+    "firm_names_after_hyland": [
+      "CORTLAND MANAGEMENT LLC",
+      "GATEWAY MANAGEMENT COMPANY LLC",
+      "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+    ]
   },
   "summary": {
     "email_connection_found": true,
     "address_matches": 1,
     "firms_licensed_after_hyland": 3
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "hyland_skidmore_connections.json",
+    "file_path": "research/analysis/hyland_skidmore_connections.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
   }
 }

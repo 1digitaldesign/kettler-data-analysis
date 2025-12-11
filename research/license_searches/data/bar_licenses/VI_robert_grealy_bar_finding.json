@@ -2,15 +2,34 @@
   "metadata": {
     "date": "2025-12-10",
     "state": "Virginia",
+    "state_code": "VI",
     "employee": "Robert Grealy",
+    "employee_key": "robert_grealy",
+    "title": "",
     "search_type": "bar_license",
+    "search_url": "https://www.vsb.org/site/members/lookup",
+    "alternative_urls": [],
+    "search_method": "Browser automation - Virginia State Bar lookup",
+    "license_type": "State Bar Admission",
     "status": "complete",
-    "completed_date": "2025-12-10"
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": true,
+    "browser_automation_status": "accessible_search_performed",
+    "google_search_performed": false,
+    "note": "Search completed via Browser automation - Virginia State Bar lookup. Manual verification recommended."
   },
   "findings": {
     "searched": true,
+    "search_date": "2025-12-10",
     "bar_license": false,
-    "note": "Search completed - requires manual verification"
+    "license_status": "Not found",
+    "search_methods_used": [
+      "Virginia State Bar lookup (browser automation)"
+    ],
+    "results_found": 0,
+    "note": "Virginia State Bar member lookup search performed via browser automation."
   },
-  "license_status": "Not found"
+  "conclusion": "Robert Grealy does NOT appear to have a bar license in Virginia. Search performed via Virginia State Bar lookup.",
+  "license_status": "Not found",
+  "verification_status": "requires_manual_verification"
 }

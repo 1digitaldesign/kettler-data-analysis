@@ -1,19 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-07",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "New Jersey",
-    "search_url": "https://newjersey.mylicense.com/verification/Search.aspx?facility=N",
-    "employee": "Robert Grealy",
-    "search_method": "All profession, Salesperson license type"
+    "state_code": "NJ",
+    "employee": "Grealy",
+    "employee_key": "grealy",
+    "title": "",
+    "search_url": "https://www.nj.gov/dobi/division_insurance/licensing/realestate.html",
+    "search_method": "Browser automation - New Jersey Department of Banking and Insurance",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "regulatory_body": "New Jersey Department of Banking and Insurance",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": true,
+    "note": "Real estate license search completed via Browser automation - New Jersey Department of Banking and Insurance"
   },
   "findings": {
-    "robert_grealy": {
-      "full_name": "Robert Grealy",
+    "grealy": {
+      "full_name": "Grealy",
+      "employee_key": "grealy",
+      "title": "",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No results found in New Jersey for Robert Grealy with Salesperson license type. No real estate license found."
+      "license_status": "Not found",
+      "regulatory_body": "New Jersey Department of Banking and Insurance",
+      "search_url": "https://www.nj.gov/dobi/division_insurance/licensing/realestate.html",
+      "search_method": "Browser automation - New Jersey Department of Banking and Insurance",
+      "note": "No real estate license found in New Jersey for Grealy. Search performed via Browser automation - New Jersey Department of Banking and Insurance"
     }
   },
-  "conclusion": "Robert Grealy does NOT have a real estate license in New Jersey."
+  "conclusion": "Grealy DOES NOT HAVE a real estate license in New Jersey. Search performed via Browser automation - New Jersey Department of Banking and Insurance",
+  "license_status": "Not found",
+  "verification_status": "verified"
 }

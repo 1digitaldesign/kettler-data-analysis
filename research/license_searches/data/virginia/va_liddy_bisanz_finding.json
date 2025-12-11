@@ -1,23 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-08",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "Virginia",
-    "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
+    "state_code": "VA",
     "employee": "Liddy Bisanz",
-    "search_method": "Browser automation framework (same as core employees)",
+    "employee_key": "liddy_bisanz",
+    "title": "Operations Connection",
+    "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
+    "search_method": "Browser automation - Virginia Department of Professional and Occupational Regulation",
     "license_types_searched": [
       "Real Estate Broker",
       "Real Estate Salesperson"
-    ]
+    ],
+    "regulatory_body": "Virginia Department of Professional and Occupational Regulation",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": true,
+    "note": "Real estate license search completed via Browser automation - Virginia Department of Professional and Occupational Regulation"
   },
   "findings": {
     "liddy_bisanz": {
       "full_name": "Liddy Bisanz",
+      "employee_key": "liddy_bisanz",
+      "title": "Operations Connection",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No results found in Virginia for Liddy Bisanz. Co-broker with Caitlin Skidmore at Lariat Realty Advisors. Consistent with unlicensed pattern observed in DC, New Jersey, New York, and Maryland."
+      "license_status": "Not found",
+      "regulatory_body": "Virginia Department of Professional and Occupational Regulation",
+      "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
+      "search_method": "Browser automation - Virginia Department of Professional and Occupational Regulation",
+      "note": "No real estate license found in Virginia for Liddy Bisanz. Search performed via Browser automation - Virginia Department of Professional and Occupational Regulation"
     }
   },
-  "conclusion": "Liddy Bisanz does NOT have a real estate license in Virginia."
+  "conclusion": "Liddy Bisanz DOES NOT HAVE a real estate license in Virginia. Search performed via Browser automation - Virginia Department of Professional and Occupational Regulation",
+  "license_status": "Not found",
+  "verification_status": "verified"
 }

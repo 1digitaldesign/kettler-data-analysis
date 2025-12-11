@@ -6,7 +6,11 @@
       "claim": "Senior Regional Manager at Kettler Management Inc.",
       "location": "8255 Greensboro Drive, Suite 200, McLean, VA 22102",
       "status": "verified",
-      "evidence_sources": ["LinkedIn profile (linkedin.com/in/edward-hyland-cam-caps-2ba73845)", "Email: ehyland@kettler.com", "LinkedIn PDFs in evidence/linkedin_profiles/"],
+      "evidence_sources": [
+        "LinkedIn profile (linkedin.com/in/edward-hyland-cam-caps-2ba73845)",
+        "Email: ehyland@kettler.com",
+        "LinkedIn PDFs in evidence/linkedin_profiles/"
+      ],
       "verification_notes": [
         "Email found in evidence files: ehyland@kettler.com, Ehyland@kettler.com",
         "LinkedIn PDFs found: 5 files",
@@ -20,7 +24,11 @@
       "800_carlyle": {
         "claim": "Hyland manages 800 Carlyle (800 John Carlyle Street, Alexandria, VA 22314)",
         "status": "verified",
-        "evidence_sources": ["Email: ehyland@kettler.com in lease termination documents", "Email: Carlyle.PM@kettler.com, Carlyle@kettler.com", "Geographic alignment with Sinclaire on Seminary"],
+        "evidence_sources": [
+          "Email: ehyland@kettler.com in lease termination documents",
+          "Email: Carlyle.PM@kettler.com, Carlyle@kettler.com",
+          "Geographic alignment with Sinclaire on Seminary"
+        ],
         "verification_notes": [
           "Carlyle emails found: Carlyle.PM@kettler.com, carlyle.pm@kettler.com, Carlyle@kettler.com, Carlyle.APM@kettler.com",
           "Addresses found: 850 John Carlyle St Apt 533, Alexandria, VA 22314"
@@ -29,8 +37,13 @@
       "sinclaire_on_seminary": {
         "claim": "Hyland manages Sinclaire on Seminary (4900 Seminary Road, Alexandria, VA 22311)",
         "status": "pending",
-        "evidence_sources": ["LinkedIn post February 2023 promoting open house", "LinkedIn PDFs"],
-        "verification_notes": []
+        "evidence_sources": [
+          "LinkedIn post February 2023 promoting open house",
+          "LinkedIn PDFs"
+        ],
+        "verification_notes": [
+          "No notes recorded"
+        ]
       }
     },
     "licensing_status": {
@@ -46,10 +59,30 @@
       },
       "all_states": {
         "claim": "No license found in any state",
-        "status": "pending",
+        "status": "partial",
         "search_performed": false,
-        "states_searched": [],
-        "verification_notes": []
+        "states_searched": [
+          "virginia",
+          "texas",
+          "maryland",
+          "dc",
+          "north_carolina",
+          "missouri",
+          "nebraska",
+          "california",
+          "arizona",
+          "connecticut",
+          "florida",
+          "georgia",
+          "new_mexico",
+          "pennsylvania",
+          "south_carolina",
+          "utah",
+          "all_states"
+        ],
+        "verification_notes": [
+          "No notes recorded"
+        ]
       }
     },
     "credentials": {
@@ -57,26 +90,34 @@
         "claim": "CAM (Certified Apartment Manager) - NAAEI",
         "status": "pending",
         "verification_method": "Contact NAAEI at 703-518-6141 or education@naahq.org",
-        "verification_notes": []
+        "verification_notes": [
+          "No notes recorded"
+        ]
       },
       "caps": {
         "claim": "CAPS (Certified Apartment Portfolio Supervisor) - NAAEI",
         "status": "pending",
         "verification_method": "Contact NAAEI at 703-518-6141 or education@naahq.org",
-        "verification_notes": []
+        "verification_notes": [
+          "No notes recorded"
+        ]
       },
       "gri": {
         "claim": "GRI (Graduate REALTOR Institute) - NC REALTORS (1993-2001)",
         "status": "pending",
         "verification_method": "Contact NC REALTORS at (336) 294-1415 or sreagin@ncrealtors.org",
-        "verification_notes": []
+        "verification_notes": [
+          "No notes recorded"
+        ]
       }
     },
     "management_chain": {
       "reporting_structure": {
         "claim": "Djene Moyer, Henry Ramos → Edward Hyland → Amy Groff → Robert Grealy",
         "status": "pending",
-        "verification_notes": []
+        "verification_notes": [
+          "No notes recorded"
+        ]
       }
     }
   },
@@ -88,14 +129,25 @@
       "location": "McLean, Virginia, United States",
       "employment_dates": "Sep 2022 - Present · 3 yrs 4 mos",
       "verified": true,
-      "source_files": ["evidence/linkedin_profiles/(1) Edward Hyland, CAM, CAPS _ LinkedIn.pdf", "evidence/linkedin_profiles/(1) Experience _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf", "evidence/linkedin_profiles/Edward Hyland.pdf"]
+      "source_files": [
+        "evidence/linkedin_profiles/(1) Edward Hyland, CAM, CAPS _ LinkedIn.pdf",
+        "evidence/linkedin_profiles/(1) Experience _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf",
+        "evidence/linkedin_profiles/Edward Hyland.pdf"
+      ]
     },
     "email_addresses": {
       "ehyland@kettler.com": {
-        "found_in": ["PDF evidence files", "all_entities_extracted.json"],
+        "found_in": [
+          "PDF evidence files",
+          "all_entities_extracted.json"
+        ],
         "verified": true
       },
-      "carlyle_related": ["Carlyle.PM@kettler.com", "Carlyle@kettler.com", "Carlyle.APM@kettler.com"]
+      "carlyle_related": [
+        "Carlyle.PM@kettler.com",
+        "Carlyle@kettler.com",
+        "Carlyle.APM@kettler.com"
+      ]
     },
     "previous_employment": {
       "dreyfuss_management": {
@@ -118,5 +170,13 @@
     }
   },
   "validation_status": "completed",
-  "last_updated": "2025-12-07 14:26:27.315234"
+  "last_updated": "2025-12-07 14:26:27.315234",
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "hyland_verification.json",
+    "file_path": "research/analysis/hyland_verification.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
+  }
 }

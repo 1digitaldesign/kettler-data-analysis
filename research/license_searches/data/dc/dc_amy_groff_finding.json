@@ -1,20 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-08",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "District of Columbia",
-    "search_url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "state_code": "DC",
     "employee": "Amy Groff",
-    "search_method": "Browser automation",
-    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+    "employee_key": "amy_groff",
+    "title": "VP Operations",
+    "search_url": "https://dcra.dc.gov/service/real-estate-license-lookup",
+    "search_method": "Browser automation - DC Department of Consumer and Regulatory Affairs",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "regulatory_body": "DC Department of Consumer and Regulatory Affairs",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": true,
+    "note": "Real estate license search completed via Browser automation - DC Department of Consumer and Regulatory Affairs"
   },
   "findings": {
     "amy_groff": {
       "full_name": "Amy Groff",
+      "employee_key": "amy_groff",
+      "title": "VP Operations",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No licenses found in DC Real Estate Commission for Amy Groff - consistent with unlicensed pattern. Only Caitlin Skidmore is licensed in DC."
+      "license_status": "Not found",
+      "regulatory_body": "DC Department of Consumer and Regulatory Affairs",
+      "search_url": "https://dcra.dc.gov/service/real-estate-license-lookup",
+      "search_method": "Browser automation - DC Department of Consumer and Regulatory Affairs",
+      "note": "No real estate license found in District of Columbia for Amy Groff. Search performed via Browser automation - DC Department of Consumer and Regulatory Affairs"
     }
   },
-  "conclusion": "Amy Groff does NOT have a real estate license in District of Columbia."
+  "conclusion": "Amy Groff DOES NOT HAVE a real estate license in District of Columbia. Search performed via Browser automation - DC Department of Consumer and Regulatory Affairs",
+  "license_status": "Not found",
+  "verification_status": "verified"
 }

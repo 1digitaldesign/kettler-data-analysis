@@ -64,7 +64,15 @@
           "established": "1988",
           "units_managed": "Approximately 20,000 apartments",
           "geographic_scope": "Northeast, Mid-Atlantic, and Southeast regions",
-          "states": ["New York", "New Jersey", "North Carolina", "Texas", "VA", "MD", "DC"]
+          "states": [
+            "New York",
+            "New Jersey",
+            "North Carolina",
+            "Texas",
+            "VA",
+            "MD",
+            "DC"
+          ]
         }
       }
     }
@@ -176,5 +184,12 @@
     "Map ownership structure",
     "Create corporate structure diagram",
     "Document entity relationships"
-  ]
+  ],
+  "metadata": {
+    "file_name": "corporate_structure_analysis.json",
+    "file_path": "research/va_dpor_complaint/corporate_structure_analysis.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

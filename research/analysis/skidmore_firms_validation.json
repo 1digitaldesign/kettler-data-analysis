@@ -11,7 +11,14 @@
   "address_clustering": {
     "status": "verified",
     "count": 6,
-    "firms": ["BOZZUTO MANAGEMENT COMPANY", "CORTLAND MANAGEMENT LLC", "GABLES RESIDENTIAL SERVICES INC", "GATEWAY MANAGEMENT COMPANY LLC", "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC"]
+    "firms": [
+      "BOZZUTO MANAGEMENT COMPANY",
+      "CORTLAND MANAGEMENT LLC",
+      "GABLES RESIDENTIAL SERVICES INC",
+      "GATEWAY MANAGEMENT COMPANY LLC",
+      "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+      "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+    ]
   },
   "license_gaps": {
     "status": "verified",
@@ -20,6 +27,17 @@
   "timeline_anomalies": {
     "status": "anomalies_found",
     "count": 2,
-    "firms": ["CORTLAND MANAGEMENT LLC", "CAPREIT RESIDENTIAL MANAGEMENT LLC"]
+    "firms": [
+      "CORTLAND MANAGEMENT LLC",
+      "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+    ]
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "skidmore_firms_validation.json",
+    "file_path": "research/analysis/skidmore_firms_validation.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
   }
 }

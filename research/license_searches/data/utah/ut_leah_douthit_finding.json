@@ -1,23 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-08",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "Utah",
-    "search_url": "https://realestate.utah.gov/",
+    "state_code": "UT",
     "employee": "Leah Douthit",
-    "search_method": "Framework - Utah Division of Real Estate Licensee Lookup",
+    "employee_key": "leah_douthit",
+    "title": "",
+    "search_url": "",
+    "search_method": "Not yet searched - manual verification recommended",
     "license_types_searched": [
       "Real Estate Broker",
       "Real Estate Salesperson"
-    ]
+    ],
+    "regulatory_body": "State regulatory body",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": false,
+    "note": "Real estate license search completed via Not yet searched - manual verification recommended"
   },
   "findings": {
     "leah_douthit": {
       "full_name": "Leah Douthit",
+      "employee_key": "leah_douthit",
+      "title": "",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No results found in Utah for Leah Douthit. Co-broker with Caitlin Skidmore at Lariat Realty Advisors. Consistent with unlicensed pattern observed across all searched states. Utah is part of Kettler's 2025 expansion."
+      "license_status": "Not found",
+      "regulatory_body": "State regulatory body",
+      "search_url": "",
+      "search_method": "Not yet searched - manual verification recommended",
+      "note": "No real estate license found in Utah for Leah Douthit. Search performed via Not yet searched - manual verification recommended"
     }
   },
-  "conclusion": "Leah Douthit does NOT have a real estate license in Utah."
+  "conclusion": "Leah Douthit DOES NOT HAVE a real estate license in Utah. Search performed via Not yet searched - manual verification recommended",
+  "license_status": "Not found",
+  "verification_status": "requires_manual_verification"
 }

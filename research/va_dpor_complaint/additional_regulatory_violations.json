@@ -307,5 +307,12 @@
     "Search DOL/EEOC records",
     "Compile comprehensive violation timeline",
     "Analyze patterns across violations"
-  ]
+  ],
+  "metadata": {
+    "file_name": "additional_regulatory_violations.json",
+    "file_path": "research/va_dpor_complaint/additional_regulatory_violations.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

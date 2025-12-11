@@ -1,24 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-08",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "New Jersey",
-    "search_url": "https://www.njconsumeraffairs.gov/rec/Pages/default.aspx",
+    "state_code": "NJ",
     "employee": "Thomas Bisanz",
-    "search_method": "Framework - New Jersey Real Estate Commission",
+    "employee_key": "thomas_bisanz",
+    "title": "",
+    "search_url": "https://www.nj.gov/dobi/division_insurance/licensing/realestate.html",
+    "search_method": "Browser automation - New Jersey Department of Banking and Insurance",
     "license_types_searched": [
       "Real Estate Broker",
       "Real Estate Salesperson"
     ],
-    "note": "Related to Liddy Bisanz - potential family connection at Lariat Realty Advisors"
+    "regulatory_body": "New Jersey Department of Banking and Insurance",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": true,
+    "note": "Real estate license search completed via Browser automation - New Jersey Department of Banking and Insurance"
   },
   "findings": {
     "thomas_bisanz": {
       "full_name": "Thomas Bisanz",
+      "employee_key": "thomas_bisanz",
+      "title": "",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No results found in New Jersey for Thomas Bisanz with Salesperson license type. Potential connection to Liddy Bisanz at Lariat Realty Advisors. Consistent with unlicensed pattern observed for other Lariat brokers."
+      "license_status": "Not found",
+      "regulatory_body": "New Jersey Department of Banking and Insurance",
+      "search_url": "https://www.nj.gov/dobi/division_insurance/licensing/realestate.html",
+      "search_method": "Browser automation - New Jersey Department of Banking and Insurance",
+      "note": "No real estate license found in New Jersey for Thomas Bisanz. Search performed via Browser automation - New Jersey Department of Banking and Insurance"
     }
   },
-  "conclusion": "Thomas Bisanz does NOT have a real estate license in New Jersey."
+  "conclusion": "Thomas Bisanz DOES NOT HAVE a real estate license in New Jersey. Search performed via Browser automation - New Jersey Department of Banking and Insurance",
+  "license_status": "Not found",
+  "verification_status": "verified"
 }

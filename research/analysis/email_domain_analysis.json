@@ -1,12 +1,27 @@
 {
   "analysis_date": "2025-12-07",
   "total_emails": 23,
-  "unique_domains": ["gmail.com", "kettler.com", "airbnb.com", "reply.airbnb.com", "scale.com", "nearfutu.re", "contractors.scale.com"],
+  "unique_domains": [
+    "gmail.com",
+    "kettler.com",
+    "airbnb.com",
+    "reply.airbnb.com",
+    "scale.com",
+    "nearfutu.re",
+    "contractors.scale.com"
+  ],
   "domain_count": 7,
   "email_patterns": {
     "kettler": {
       "count": 6,
-      "emails": ["ehyland@kettler.com", "Carlyle.PM@kettler.com", "Ehyland@kettler.com", "carlyle.pm@kettler.com", "Carlyle@kettler.com", "Carlyle.APM@kettler.com"],
+      "emails": [
+        "ehyland@kettler.com",
+        "Carlyle.PM@kettler.com",
+        "Ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "Carlyle@kettler.com",
+        "Carlyle.APM@kettler.com"
+      ],
       "patterns": [
         {
           "email": "ehyland@kettler.com",
@@ -46,5 +61,13 @@
   "summary": {
     "kettler_emails_found": 6,
     "domains_linked_to_firms": 1
+  },
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "email_domain_analysis.json",
+    "file_path": "research/analysis/email_domain_analysis.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
   }
 }

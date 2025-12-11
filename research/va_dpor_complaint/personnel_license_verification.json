@@ -13,7 +13,11 @@
         "virginia": {
           "status": "not_found",
           "search_performed": true,
-          "search_terms": ["Edward Hyland", "Ed Hyland", "E. Hyland"],
+          "search_terms": [
+            "Edward Hyland",
+            "Ed Hyland",
+            "E. Hyland"
+          ],
           "result": "No license found",
           "verified_date": "2025-12-07",
           "confirmed_unlicensed": true
@@ -154,7 +158,24 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
@@ -253,7 +274,24 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
@@ -300,7 +338,24 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
@@ -395,7 +450,24 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
@@ -490,7 +562,24 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
@@ -524,7 +613,24 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
@@ -548,8 +654,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10"
         }
@@ -589,15 +713,36 @@
               "note": "DC Bar member"
             }
           ],
-          "states_not_licensed": ["Maryland", "Texas"],
+          "states_not_licensed": [
+            "Maryland",
+            "Texas"
+          ],
           "education": "University of Virginia (BA magna cum laude 1984, JD 1987)",
           "experience": "38+ years in business, corporate law, and real estate"
         },
         "all_states": {
           "status": "partial",
           "search_performed": true,
-          "states_searched": ["TX"],
-          "states_pending": ["VA", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "TX"
+          ],
+          "states_pending": [
+            "VA",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "real_estate_licenses_found": 0,
           "bar_licenses_found": 3,
           "verification_date": "2025-12-10",
@@ -620,8 +765,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10"
         }
@@ -642,8 +805,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10"
         }
@@ -663,8 +844,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10",
           "note": "Asset Management role may involve real estate activities - No licenses found in all 16 states. Verification complete."
@@ -686,8 +885,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10",
           "note": "Capital Markets & Strategy role - No licenses found in all 16 states. Verification complete."
@@ -708,8 +925,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10",
           "note": "Development & Construction role may involve real estate activities - No licenses found in 7 key states. Remaining states pending."
@@ -731,8 +966,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10"
         }
@@ -752,8 +1005,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10",
           "note": "Asset Management role may involve real estate activities - No licenses found in all 16 states. Verification complete."
@@ -775,8 +1046,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10"
         }
@@ -797,8 +1086,26 @@
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
-          "states_searched": ["VA"],
-          "states_pending": ["TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA"
+          ],
+          "states_pending": [
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "licenses_found": 0,
           "verification_date": "2025-12-10"
         }
@@ -862,7 +1169,24 @@
         "all_states": {
           "status": "substantially_complete",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "FL", "GA", "MO", "NE", "CA", "AZ", "CT", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "FL",
+            "GA",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
@@ -882,7 +1206,7 @@
       "connection": "Associated with Caitlin Skidmore",
       "license_verification": {
         "texas": {
-          "status": "found",
+          "status": "Active",
           "search_performed": true,
           "search_date": "2025-12-10",
           "result": "ACTIVE LICENSE FOUND",
@@ -890,7 +1214,6 @@
           "license_type": "Real Estate Broker",
           "issue_date": "2020-08-13",
           "expiration_date": "2026-08-31",
-          "status": "Active",
           "associated_firm": "Burlington Capital Properties LLC",
           "firm_license_number": "9012840",
           "firm_address": "5729 Lebanon Rd #144553, Frisco, TX 75034",
@@ -915,10 +1238,31 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT", "NY"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT",
+            "NY"
+          ],
           "total_states": 17,
           "licenses_found": 2,
-          "states_with_licenses": ["TX", "NY"],
+          "states_with_licenses": [
+            "TX",
+            "NY"
+          ],
           "verification_date": "2025-12-10",
           "note": "Lariat Realty Advisors broker - HAS ACTIVE LICENSES in Texas and New York. Licensed personnel expected for brokerage firm. Verification complete."
         }
@@ -932,13 +1276,12 @@
       "address": "6700 Antioch Road, Frisco, TX",
       "license_verification": {
         "texas": {
-          "status": "found",
+          "status": "Active",
           "search_performed": true,
           "search_date": "2025-12-10",
           "result": "ACTIVE LICENSE FOUND",
           "license_type": "Real Estate Broker",
           "expiration_date": "2027-09-30",
-          "status": "Active",
           "note": "Licensed real estate broker in Texas, Executive Director of Lariat Realty Advisors"
         },
         "virginia": {
@@ -948,10 +1291,29 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 1,
-          "states_with_licenses": ["TX"],
+          "states_with_licenses": [
+            "TX"
+          ],
           "verification_date": "2025-12-10",
           "note": "Lariat Realty Advisors Executive Director - HAS ACTIVE TEXAS LICENSE. Also associated with Bell Partners Inc. (designated broker) and Knightvest Management LLC. Licensed personnel expected for brokerage firm. Verification complete."
         }
@@ -969,13 +1331,12 @@
       "note": "Search indicates she is with Monument Realty, not Lariat Realty Advisors",
       "license_verification": {
         "texas": {
-          "status": "inactive",
+          "status": "Inactive",
           "search_performed": true,
           "search_date": "2025-12-10",
           "result": "INACTIVE LICENSE FOUND",
           "license_number": "0622166",
           "license_type": "Real Estate Agent",
-          "status": "Inactive",
           "associated_firm": "Monument Realty",
           "significance": "Has inactive Texas license, co-listed properties with both Liddy Saye and Caitlin Skidmore",
           "connections": [
@@ -988,11 +1349,30 @@
         "all_states": {
           "status": "completed",
           "search_performed": true,
-          "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+          "states_searched": [
+            "VA",
+            "TX",
+            "MD",
+            "DC",
+            "NC",
+            "MO",
+            "NE",
+            "CA",
+            "AZ",
+            "CT",
+            "FL",
+            "GA",
+            "NM",
+            "PA",
+            "SC",
+            "UT"
+          ],
           "total_states": 16,
           "licenses_found": 1,
           "license_status": "inactive",
-          "states_with_licenses": ["TX"],
+          "states_with_licenses": [
+            "TX"
+          ],
           "verification_date": "2025-12-10",
           "note": "Has INACTIVE Texas license. Co-listed properties with both Liddy Saye (Lariat) and Caitlin Skidmore, indicating professional connections despite different firm affiliations. Verification complete."
         }
@@ -1122,7 +1502,24 @@
   "search_methodology": {
     "multi_state_dpor_databases": {
       "status": "completed",
-      "states_searched": ["VA", "TX", "MD", "DC", "NC", "MO", "NE", "CA", "AZ", "CT", "FL", "GA", "NM", "PA", "SC", "UT"],
+      "states_searched": [
+        "VA",
+        "TX",
+        "MD",
+        "DC",
+        "NC",
+        "MO",
+        "NE",
+        "CA",
+        "AZ",
+        "CT",
+        "FL",
+        "GA",
+        "NM",
+        "PA",
+        "SC",
+        "UT"
+      ],
       "total_states": 16,
       "states_completed": 16,
       "results": "No licenses found in any searched state for any personnel",
@@ -1131,7 +1528,9 @@
     },
     "property_management_license_databases": {
       "status": "completed",
-      "sources": ["State real estate licensing boards (included in DPOR searches)"],
+      "sources": [
+        "State real estate licensing boards (included in DPOR searches)"
+      ],
       "note": "Real estate licenses required for property management activities in searched states"
     },
     "real_estate_license_databases": {
@@ -1163,7 +1562,13 @@
     "completion": "100%",
     "summary": {
       "total_personnel": 5,
-      "states_searched": ["VA", "TX", "MD", "DC", "NC"],
+      "states_searched": [
+        "VA",
+        "TX",
+        "MD",
+        "DC",
+        "NC"
+      ],
       "licenses_found": 0,
       "confirmed_unlicensed": 5,
       "verification_date": "2025-12-09"
@@ -1274,7 +1679,9 @@
     "personnel_verified_complete_16_states": 16,
     "personnel_with_active_licenses": 2,
     "personnel_with_inactive_licenses": 1,
-    "personnel_with_bar_licenses": 1,
+    "personnel_with_bar_licenses": [
+      "Sean Curtin - VA, CA, DC bar licenses (no real estate licenses)"
+    ],
     "personnel_verified_unlicensed": 16,
     "personnel_pending": 0,
     "total_personnel": 21,
@@ -1288,9 +1695,6 @@
       "Elizabeth Saye (Lariat) - TX #671787 (active), NY #10351218566",
       "Thoms L. Bisanz (Lariat) - TX broker (active, expires 2027)",
       "Leah Douthit - TX #0622166 (inactive, Monument Realty)"
-    ],
-    "personnel_with_bar_licenses": [
-      "Sean Curtin - VA, CA, DC bar licenses (no real estate licenses)"
     ],
     "completion_date": "2025-12-10",
     "verification_strength": "comprehensive - all states where Kettler operates",
@@ -1313,5 +1717,12 @@
       "South Carolina (SC)",
       "Utah (UT)"
     ]
+  },
+  "metadata": {
+    "file_name": "personnel_license_verification.json",
+    "file_path": "research/va_dpor_complaint/personnel_license_verification.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
   }
 }

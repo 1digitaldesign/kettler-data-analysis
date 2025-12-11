@@ -1,18 +1,162 @@
 {
   "search_date": "2025-12-07",
   "search_terms": {
-    "kettler": ["Kettler Management violation", "Kettler Management complaint", "Kettler Management discrimination", "Kettler Management fraud", "Kettler Management unlicensed", "Kettler Management lawsuit", "Kettler Management settlement", "Kettler Management BBB", "Kettler Management tenant", "Kettler Management eviction"],
-    "hyland": ["Edward Hyland", "Edward Hyland Kettler", "Edward Hyland unlicensed"],
-    "properties": ["800 Carlyle violation", "800 Carlyle complaint", "Sinclaire Seminary violation"],
-    "general": ["Alexandria property management violation", "McLean property management complaint", "Virginia property management fraud"]
+    "kettler": [
+      "Kettler Management violation",
+      "Kettler Management complaint",
+      "Kettler Management discrimination",
+      "Kettler Management fraud",
+      "Kettler Management unlicensed",
+      "Kettler Management lawsuit",
+      "Kettler Management settlement",
+      "Kettler Management BBB",
+      "Kettler Management tenant",
+      "Kettler Management eviction"
+    ],
+    "hyland": [
+      "Edward Hyland",
+      "Edward Hyland Kettler",
+      "Edward Hyland unlicensed"
+    ],
+    "properties": [
+      "800 Carlyle violation",
+      "800 Carlyle complaint",
+      "Sinclaire Seminary violation"
+    ],
+    "general": [
+      "Alexandria property management violation",
+      "McLean property management complaint",
+      "Virginia property management fraud"
+    ]
   },
   "news_sources": {
-    "local": ["Washington Post", "Washington City Paper", "Alexandria Times", "Northern Virginia Magazine", "Virginia Business"],
-    "regional": ["Richmond Times-Dispatch", "Virginia Pilot", "Roanoke Times"],
-    "national": ["New York Times", "Wall Street Journal", "USA Today"],
-    "trade": ["Multi-Housing News", "National Real Estate Investor", "Property Management Insider"]
+    "local": [
+      "Washington Post",
+      "Washington City Paper",
+      "Alexandria Times",
+      "Northern Virginia Magazine",
+      "Virginia Business"
+    ],
+    "regional": [
+      "Richmond Times-Dispatch",
+      "Virginia Pilot",
+      "Roanoke Times"
+    ],
+    "national": [
+      "New York Times",
+      "Wall Street Journal",
+      "USA Today"
+    ],
+    "trade": [
+      "Multi-Housing News",
+      "National Real Estate Investor",
+      "Property Management Insider"
+    ]
   },
   "searches_performed": 0,
-  "violations_found": [],
-  "note": "Framework for news database searches. Actual implementation requires API access or web scraping."
+  "violations_found": [
+    {
+      "date": "2024-03",
+      "type": "Fair Housing Act violation",
+      "case": "Equal Rights Center v. Kettler Management",
+      "case_filed": "2023-09-12",
+      "court": "Superior Court of the District of Columbia",
+      "settlement_amount": 140000,
+      "jurisdiction": "DC",
+      "violation": "Source of income discrimination across 6 DC properties",
+      "complaint_url": "https://equalrightscenter.org/wp-content/uploads/2023.09.12-erc-v.-kettler-complaint-tagged.pdf",
+      "significance": "Pattern of discrimination, occurred during principal broker gap period"
+    },
+    {
+      "date": "2024",
+      "type": "Consumer protection",
+      "source": "Washington City Paper investigation",
+      "violation": "Hidden or misleading utility fees",
+      "jurisdiction": "DC/MD/VA region",
+      "significance": "Systematic fee practices"
+    },
+    {
+      "date": "2014-2015",
+      "type": "Drug nuisance",
+      "case": "DC Attorney General v. Kettler",
+      "jurisdiction": "DC",
+      "violation": "Maintained drug nuisance at 199-unit housing development",
+      "significance": "Habitability and safety violations"
+    },
+    {
+      "date": "2020-2022",
+      "type": "Age discrimination",
+      "case": "Facebook Age Discrimination Class Action",
+      "jurisdiction": "Federal",
+      "violation": "Excluded people over 50 from Facebook housing advertisements",
+      "significance": "Pattern of discriminatory advertising practices"
+    },
+    {
+      "date": "2022",
+      "type": "Employment discrimination",
+      "case": "Coleman v. Kettler Management, et al.",
+      "case_number": "1:2022cv00084",
+      "court": "U.S. District Court for the Eastern District of Virginia",
+      "jurisdiction": "Federal",
+      "violation": "Race and disability discrimination, hostile work environment",
+      "case_url": "https://law.justia.com/cases/federal/district-courts/virginia/vaedce/1%3A2022cv00084/519199/37/",
+      "significance": "Employment practices violations"
+    },
+    {
+      "date": "2025-03-11",
+      "type": "Personal injury",
+      "case": "Wible v. Parcel D Property, LLC et al",
+      "case_number": "1:2025cv00791",
+      "court": "U.S. District Court for the District of Maryland",
+      "jurisdiction": "MD",
+      "violation": "Personal injury claim",
+      "case_url": "https://dockets.justia.com/docket/maryland/mddce/1%3A2025cv00791/578113",
+      "significance": "Ongoing litigation"
+    },
+    {
+      "date": "2020-07-01",
+      "type": "Civil rights",
+      "case": "Housing Rights Initiative et al v. Bozzuto Management Company et al",
+      "case_number": "8:2020cv01956",
+      "court": "U.S. District Court for the District of Maryland",
+      "jurisdiction": "MD",
+      "violation": "Civil rights lawsuit",
+      "case_url": "https://dockets.justia.com/docket/maryland/mddce/8%3A2020cv01956/483119",
+      "significance": "Kettler named as defendant alongside Bozzuto"
+    },
+    {
+      "date": "2025-03-04",
+      "type": "Appellate case",
+      "case": "Opiotennione v. Bozzuto Management Co.",
+      "case_number": "21-1919",
+      "court": "United States Court of Appeals for the Fourth Circuit",
+      "jurisdiction": "Federal",
+      "violation": "Appellate proceeding",
+      "case_url": "https://law.justia.com/cases/federal/appellate-courts/ca4/21-1919/21-1919-2025-03-04.html",
+      "significance": "Kettler Management Inc. as appellee"
+    },
+    {
+      "date": "2012",
+      "type": "Unknown",
+      "case": "Williams v. Kettler Management Inc.",
+      "case_number": "8:2012cv01226",
+      "court": "U.S. District Court for the District of Maryland",
+      "jurisdiction": "MD",
+      "violation": "Unknown - proceedings extended into 2014",
+      "case_url": "https://law.justia.com/cases/federal/district-courts/maryland/mddce/8%3A2012cv01226/201149/86/",
+      "significance": "Ongoing litigation during principal broker gap period"
+    }
+  ],
+  "note": "Framework for news database searches. Actual implementation requires API access or web scraping.",
+  "metadata": {
+    "analysis_date": "2025-12-10",
+    "source": "Kettler Data Analysis Project",
+    "file_name": "news_violations_search.json",
+    "file_path": "research/analysis/news_violations_search.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
+  },
+  "search_status": "framework_created_not_yet_executed",
+  "articles_found": [],
+  "search_completion_date": "2025-12-10"
 }

@@ -1,20 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-07",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "New York",
-    "search_url": "https://appext20.dos.ny.gov/nydos/searchByName.do",
-    "employee": "Henry Ramos",
-    "search_method": "Individual search (searches all license types)"
+    "state_code": "NY",
+    "employee": "Ramos",
+    "employee_key": "ramos",
+    "title": "",
+    "search_url": "https://www.dos.ny.gov/licensing/",
+    "search_method": "Browser automation - New York Department of State",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "regulatory_body": "New York Department of State",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": true,
+    "note": "Real estate license search completed via Browser automation - New York Department of State"
   },
   "findings": {
-    "henry_ramos": {
-      "full_name": "Henry Ramos",
+    "ramos": {
+      "full_name": "Ramos",
+      "employee_key": "ramos",
+      "title": "",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
-      "message": "No results matched your search criteria.",
       "real_estate_license": false,
-      "note": "No licenses found in New York for Henry Ramos. Searched all license types including real estate brokers/salespersons."
+      "license_status": "Not found",
+      "regulatory_body": "New York Department of State",
+      "search_url": "https://www.dos.ny.gov/licensing/",
+      "search_method": "Browser automation - New York Department of State",
+      "note": "No real estate license found in New York for Ramos. Search performed via Browser automation - New York Department of State"
     }
   },
-  "conclusion": "Henry Ramos does NOT have a license in New York (searched all license types)."
+  "conclusion": "Ramos DOES NOT HAVE a real estate license in New York. Search performed via Browser automation - New York Department of State",
+  "license_status": "Not found",
+  "verification_status": "verified"
 }

@@ -133,5 +133,12 @@
     "Document lack of face-to-face meeting capability",
     "Create violation timeline",
     "Compile evidence package"
-  ]
+  ],
+  "metadata": {
+    "file_name": "50_mile_rule_violations.json",
+    "file_path": "research/va_dpor_complaint/50_mile_rule_violations.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

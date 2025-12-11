@@ -149,5 +149,12 @@
     "Compile revenue estimates",
     "Create financial scale analysis document",
     "Document significance for complaint"
-  ]
+  ],
+  "metadata": {
+    "file_name": "financial_scale_analysis.json",
+    "file_path": "research/va_dpor_complaint/financial_scale_analysis.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

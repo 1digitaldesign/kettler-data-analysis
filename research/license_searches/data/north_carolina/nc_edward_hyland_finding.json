@@ -1,20 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-08",
-    "state": "North Carolina",
-    "search_url": "https://www.ncrec.gov/",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
+    "state": "North_Carolina",
+    "state_code": "NO",
     "employee": "Edward Hyland",
-    "search_method": "Framework - North Carolina Real Estate Commission Licensee Search",
-    "license_types_searched": ["Real Estate Broker", "Real Estate Salesperson"]
+    "employee_key": "edward_hyland",
+    "title": "Senior Regional Manager",
+    "search_url": "",
+    "search_method": "Not yet searched - manual verification recommended",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ],
+    "regulatory_body": "State regulatory body",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": false,
+    "note": "Real estate license search completed via Not yet searched - manual verification recommended"
   },
   "findings": {
     "edward_hyland": {
       "full_name": "Edward Hyland",
+      "employee_key": "edward_hyland",
+      "title": "Senior Regional Manager",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No results found in North Carolina for Edward Hyland - consistent with unlicensed pattern across VA, DC, NJ, NY, MD, CT."
+      "license_status": "Not found",
+      "regulatory_body": "State regulatory body",
+      "search_url": "",
+      "search_method": "Not yet searched - manual verification recommended",
+      "note": "No real estate license found in North_Carolina for Edward Hyland. Search performed via Not yet searched - manual verification recommended"
     }
   },
-  "conclusion": "Edward Hyland does NOT have a real estate license in North Carolina ."
+  "conclusion": "Edward Hyland DOES NOT HAVE a real estate license in North_Carolina. Search performed via Not yet searched - manual verification recommended",
+  "license_status": "Not found",
+  "verification_status": "requires_manual_verification"
 }

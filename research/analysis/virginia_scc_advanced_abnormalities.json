@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "analysis_date": "2025-12-10T21:53:30.810078",
+    "source": "Virginia SCC Advanced Pattern Analysis",
+    "entity_id": "03218674",
+    "analysis_method": "Pattern matching and semantic analysis",
+    "file_name": "virginia_scc_advanced_abnormalities.json",
+    "file_path": "research/analysis/virginia_scc_advanced_abnormalities.json",
+    "last_updated": "2025-12-10 23:49:49",
+    "status": "complete"
+  },
+  "entity_data": {
+    "entity_id": "03218674",
+    "legal_name": "KETTLER MANAGEMENT INC.",
+    "fictitious_name": "Kettler Management Corp.",
+    "name_type": "Legal Name",
+    "entity_type": "Stock Corporation",
+    "status": "Active",
+    "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
+    "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
+    "formation_date": "2025-12-10",
+    "last_annual_report": "",
+    "notes": "Single entity ID with both legal name and fictitious name/DBA"
+  },
+  "abnormalities": [
+    {
+      "category": "Corporate Suffix Mismatch",
+      "severity": "Medium",
+      "description": "Legal name uses 'INC' but fictitious name uses 'CORP'. High similarity (50.00%) suggests intentional variation.",
+      "legal_name": "KETTLER MANAGEMENT INC.",
+      "fictitious_name": "Kettler Management Corp.",
+      "similarity_score": 0.5,
+      "legal_suffix": "INC",
+      "fictitious_suffix": "CORP",
+      "implication": "May be used to create confusion or separate business identities. Verify proper DBA registration and disclosure."
+    },
+    {
+      "category": "Suite Address Pattern",
+      "severity": "Low",
+      "description": "Business address uses suite designation",
+      "address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
+      "pattern": "Suite/Ste",
+      "implication": "Common for office buildings, but verify if this is actual business location vs. mail forwarding service"
+    },
+    {
+      "category": "Registered Agent Address Mismatch",
+      "severity": "Low",
+      "description": "Uses commercial registered agent but address may not match agent location",
+      "address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
+      "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
+      "implication": "Standard practice, but verify actual business location"
+    },
+    {
+      "category": "Commercial Registered Agent",
+      "severity": "Low",
+      "description": "Uses commercial registered agent service",
+      "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
+      "implication": "Standard practice for privacy/legal purposes, but may obscure actual business location and control"
+    },
+    {
+      "category": "Missing Critical Information",
+      "severity": "Medium",
+      "description": "Missing fields: Formation Date, Last Annual Report Date",
+      "missing_fields": [
+        "Formation Date",
+        "Last Annual Report Date"
+      ],
+      "implication": "Cannot verify entity history, compliance timeline, or annual report filing status without this information"
+    },
+    {
+      "category": "Stock Corporation Structure",
+      "severity": "Low",
+      "description": "Entity is a Stock Corporation",
+      "entity_type": "Stock Corporation",
+      "implication": "Stock corporations typically have shareholders and board of directors. Verify shareholder structure and control."
+    }
+  ],
+  "summary": {
+    "total_abnormalities": 6,
+    "high_severity": 0,
+    "medium_severity": 2,
+    "low_severity": 4,
+    "abnormalities_by_category": {
+      "Corporate Suffix Mismatch": 1,
+      "Suite Address Pattern": 1,
+      "Registered Agent Address Mismatch": 1,
+      "Commercial Registered Agent": 1,
+      "Missing Critical Information": 1,
+      "Stock Corporation Structure": 1
+    }
+  }
+}

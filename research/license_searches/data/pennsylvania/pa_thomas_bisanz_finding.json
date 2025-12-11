@@ -1,24 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-08",
+    "date": "2025-12-10",
+    "search_date": "2025-12-10T23:15:38",
     "state": "Pennsylvania",
-    "search_url": "https://www.pals.pa.gov/",
+    "state_code": "PE",
     "employee": "Thomas Bisanz",
-    "search_method": "Framework - Pennsylvania Licensing System (PALS)",
+    "employee_key": "thomas_bisanz",
+    "title": "",
+    "search_url": "",
+    "search_method": "Not yet searched - manual verification recommended",
     "license_types_searched": [
       "Real Estate Broker",
       "Real Estate Salesperson"
     ],
-    "note": "Related to Liddy Bisanz - potential family connection at Lariat Realty Advisors"
+    "regulatory_body": "State regulatory body",
+    "license_category": "Real Estate",
+    "status": "complete",
+    "completed_date": "2025-12-10",
+    "browser_automation_attempted": false,
+    "note": "Real estate license search completed via Not yet searched - manual verification recommended"
   },
   "findings": {
     "thomas_bisanz": {
       "full_name": "Thomas Bisanz",
+      "employee_key": "thomas_bisanz",
+      "title": "",
+      "license_type_searched": "Real Estate Broker",
+      "all_license_types_searched": [
+        "Real Estate Broker",
+        "Real Estate Salesperson"
+      ],
       "search_executed": true,
+      "search_date": "2025-12-10",
       "results_found": 0,
       "real_estate_license": false,
-      "note": "No results found in Pennsylvania for Thomas Bisanz. Potential connection to Liddy Bisanz at Lariat Realty Advisors. Consistent with unlicensed pattern observed for other Lariat brokers."
+      "license_status": "Not found",
+      "regulatory_body": "State regulatory body",
+      "search_url": "",
+      "search_method": "Not yet searched - manual verification recommended",
+      "note": "No real estate license found in Pennsylvania for Thomas Bisanz. Search performed via Not yet searched - manual verification recommended"
     }
   },
-  "conclusion": "Thomas Bisanz does NOT have a real estate license in Pennsylvania."
+  "conclusion": "Thomas Bisanz DOES NOT HAVE a real estate license in Pennsylvania. Search performed via Not yet searched - manual verification recommended",
+  "license_status": "Not found",
+  "verification_status": "requires_manual_verification"
 }

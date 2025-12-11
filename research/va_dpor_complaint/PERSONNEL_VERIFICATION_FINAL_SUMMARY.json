@@ -131,73 +131,99 @@
       {
         "name": "Henry Ramos",
         "title": "Property Manager",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia (property manager role likely requires license)"
       },
       {
         "name": "Robert C. Kettler",
         "title": "Founder & CEO",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       },
       {
         "name": "Cynthia Fisher",
         "title": "President",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       },
       {
         "name": "Patrick Cassada",
         "title": "CFO",
-        "states_verified": ["VA", "TX"],
+        "states_verified": [
+          "VA",
+          "TX"
+        ],
         "result": "No licenses found"
       },
       {
         "name": "Luke Davis",
         "title": "CIO",
-        "states_verified": ["VA", "TX"],
+        "states_verified": [
+          "VA",
+          "TX"
+        ],
         "result": "No licenses found"
       },
       {
         "name": "Greg Slang",
         "title": "EVP Asset Management",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       },
       {
         "name": "J.D. Sitton",
         "title": "EVP Capital Markets & Strategy",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       },
       {
         "name": "Pamela Tyrrell",
         "title": "EVP Multifamily Development & Construction",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       },
       {
         "name": "Kristina Thoummarath",
         "title": "Chief of Staff",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       },
       {
         "name": "Christina Chang",
         "title": "Head of Asset Management",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       },
       {
         "name": "Todd Bowen",
         "title": "SVP Strategic Services",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       },
       {
         "name": "Jeffrey Williams",
         "title": "VP Human Resources",
-        "states_verified": ["VA"],
+        "states_verified": [
+          "VA"
+        ],
         "result": "No license found in Virginia"
       }
     ]
@@ -250,5 +276,12 @@
     "Expand searches to all 16 states for high-priority property management roles",
     "Document all findings in final verification matrix",
     "Compile evidence package for complaint documentation"
-  ]
+  ],
+  "metadata": {
+    "file_name": "PERSONNEL_VERIFICATION_FINAL_SUMMARY.json",
+    "file_path": "research/va_dpor_complaint/PERSONNEL_VERIFICATION_FINAL_SUMMARY.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

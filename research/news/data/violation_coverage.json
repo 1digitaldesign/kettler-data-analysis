@@ -1,12 +1,130 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:49:09.701036",
-    "search_method": "Browser automation",
+    "date": "2025-12-11T02:18:23.037000",
+    "search_method": "Browser automation - Google News",
     "sources": [
       "Google News",
-      "Local news outlets",
-      "Real estate industry publications"
+      "Multi-Housing News",
+      "PR Newswire",
+      "Business Wire",
+      "Tampa Bay Business & Wealth",
+      "St Pete Catalyst"
+    ],
+    "search_terms": [
+      "Kettler Management",
+      "Kettler Companies",
+      "Kettler violations",
+      "Kettler legal proceedings"
     ]
   },
-  "articles": []
+  "articles": [
+    {
+      "title": "Kettler names James Nozar president of development, to lead Gasworx in Tampa",
+      "source": "Tampa Bay Business & Wealth",
+      "date": "2024-09-09",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "company_announcement",
+      "relevance": "company_news"
+    },
+    {
+      "title": "KETTLER Lands $182M for Tampa Expansion",
+      "source": "Multi-Housing News",
+      "date": "2024-02-12",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "financial_news",
+      "relevance": "company_news"
+    },
+    {
+      "title": "KETTLER Signs Property Management Agreement with Tokyu Land US Corporation and Capital Security Advisors for Madison House in Dupont Circle",
+      "source": "PR Newswire",
+      "date": "2021-03-31",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "contract_news",
+      "relevance": "property_management"
+    },
+    {
+      "title": "KETTLER Hires Industry Veteran J.D. Sitton and Sets Sight on Investment Management",
+      "source": "Business Wire",
+      "date": "2024-04-12",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "company_announcement",
+      "relevance": "company_news"
+    },
+    {
+      "title": "What you need to know about Kettler's St. Pete project",
+      "source": "St Pete Catalyst",
+      "date": "2023-07-15",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "development_news",
+      "relevance": "company_news"
+    },
+    {
+      "title": "KETTLER Tapped to Manage Washington, DC Community",
+      "source": "Multi-Housing News",
+      "date": "2019-12-16",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "property_management",
+      "relevance": "property_management"
+    },
+    {
+      "title": "Kettler team planning 21-story tower in Edge District",
+      "source": "St Pete Catalyst",
+      "date": "2023-07-13",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "development_news",
+      "relevance": "company_news"
+    },
+    {
+      "title": "KETTLER Wins 6 PACE Awards for Multifamily Management",
+      "source": "PR Newswire",
+      "date": "2019-11-05",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "award_news",
+      "relevance": "company_news"
+    },
+    {
+      "title": "Kettler Announces New President",
+      "source": "Multi-Housing News",
+      "date": "2017-11-13",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "company_announcement",
+      "relevance": "company_news"
+    },
+    {
+      "title": "KETTLER breaks ground in celebration with first development in Florida",
+      "source": "PR Newswire",
+      "date": "2019-11-21",
+      "author": "Robert C. Kettler",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "development_news",
+      "relevance": "company_news"
+    },
+    {
+      "title": "Kettler Management President Cindy Clare Elected 2013 Secretary for the National Apartment Association",
+      "source": "Multi-Housing News",
+      "date": "2013-03-13",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "association_news",
+      "relevance": "professional_membership"
+    },
+    {
+      "title": "KETTLER Pays $119M for Raleigh-Area Apartments",
+      "source": "Multi-Housing News",
+      "date": "2019-08-08",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "acquisition_news",
+      "relevance": "financial_news"
+    },
+    {
+      "title": "Kettler Hires Usha Chaudhary as COO",
+      "source": "Multi-Housing News",
+      "date": "2024",
+      "url": "https://news.google.com/search?q=Kettler+Management",
+      "type": "company_announcement",
+      "relevance": "company_news"
+    }
+  ],
+  "violation_coverage": [],
+  "legal_proceedings_coverage": [],
+  "summary": "Google News search found 13 articles about Kettler Management/Companies. All articles are positive company news, announcements, and business developments. No violations or legal proceedings found in initial search. Additional searches recommended for 'Kettler violations', 'Kettler complaints', 'Kettler legal', and state-specific searches."
 }

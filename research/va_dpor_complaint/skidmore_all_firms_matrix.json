@@ -80,7 +80,14 @@
     "significance": "Shell company pattern - multiple firms at same address as Skidmore's license address"
   },
   "geographic_distribution": {
-    "states": ["VA", "TX", "NC", "MO", "NE", "MD"],
+    "states": [
+      "VA",
+      "TX",
+      "NC",
+      "MO",
+      "NE",
+      "MD"
+    ],
     "multi_state_operation": true,
     "geographic_spread": "At least 1,300 miles (Frisco TX to McLean VA)"
   },
@@ -119,5 +126,12 @@
     "Search other state DPOR databases",
     "Calculate total units managed",
     "Create comprehensive supervision impossibility analysis"
-  ]
+  ],
+  "metadata": {
+    "file_name": "skidmore_all_firms_matrix.json",
+    "file_path": "research/va_dpor_complaint/skidmore_all_firms_matrix.json",
+    "last_updated": "2025-12-10 23:56:27",
+    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "status": "complete"
+  }
 }

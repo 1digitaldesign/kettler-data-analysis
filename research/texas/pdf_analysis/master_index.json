@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "created": "2025-12-11T00:33:42.018739",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  },
+  "pdfs": [
+    {
+      "pdf_name": "lariat-merged",
+      "source_file": "/Users/machine/Documents/kettler-data-analysis/data/raw/tx/lariat-merged.pdf",
+      "index_file": "research/texas/pdf_analysis/lariat-merged/index.json",
+      "total_pages": 242
+    },
+    {
+      "pdf_name": "MERGED-Kettler",
+      "source_file": "/Users/machine/Documents/kettler-data-analysis/data/raw/tx/MERGED-Kettler.pdf",
+      "index_file": "research/texas/pdf_analysis/MERGED-Kettler/index.json",
+      "total_pages": 2372
+    }
+  ],
+  "lariat_txt": {
+    "source_file": "/Users/machine/Documents/kettler-data-analysis/data/raw/lariat.txt",
+    "processed_file": "research/company_registrations/data/texas/lariat_tx_filings.json",
+    "total_entities": 14,
+    "recursive_index": "research/texas/lariat/index.json"
+  }
+}
