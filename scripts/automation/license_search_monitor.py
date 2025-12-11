@@ -35,7 +35,7 @@ def count_completed_searches(state: str) -> int:
     state_dir = LICENSE_DIR / state
     if not state_dir.exists():
         return 0
-    
+
     finding_files = list(state_dir.glob('*_finding.json'))
     return len(finding_files)
 
@@ -52,15 +52,15 @@ def calculate_progress() -> dict:
         },
         'states': {}
     }
-    
+
     total_completed = 0
     completed_states = 0
-    
+
     for state_code, state_info in STATES.items():
         completed = count_completed_searches(state_code)
         total = len(EMPLOYEES)
         percent = round(completed / total * 100, 1) if total > 0 else 0.0
-        
+
         progress['states'][state_code] = {
             'name': state_info['name'],
             'completed': completed,
@@ -68,15 +68,15 @@ def calculate_progress() -> dict:
             'percent': percent,
             'status': 'complete' if completed >= total else 'in_progress' if completed > 0 else 'not_started'
         }
-        
+
         total_completed += completed
         if completed >= total:
             completed_states += 1
-    
+
     progress['overall']['completed_searches'] = total_completed
     progress['overall']['completed_states'] = completed_states
     progress['overall']['percent'] = round(total_completed / progress['overall']['total_searches'] * 100, 1) if progress['overall']['total_searches'] > 0 else 0.0
-    
+
     return progress
 
 def update_progress_file(progress: dict) -> None:
@@ -95,11 +95,11 @@ def display_progress(progress: dict) -> None:
     print(f"\n{'='*60}")
     print(f"License Search Progress - {progress['timestamp']}")
     print(f"{'='*60}\n")
-    
+
     overall = progress['overall']
     print(f"Overall: {overall['completed_searches']}/{overall['total_searches']} searches")
     print(f"{print_progress_bar(overall['percent'])}\n")
-    
+
     for state_code, state_data in progress['states'].items():
         status_icon = '✅' if state_data['status'] == 'complete' else '⚠️' if state_data['status'] == 'in_progress' else '❌'
         print(f"{status_icon} {state_data['name']}: {state_data['completed']}/{state_data['total']} employees")
@@ -110,7 +110,7 @@ def monitor_loop(interval: float = 1.0) -> None:
     print("Starting license search progress monitor...")
     print(f"Monitoring every {interval} second(s)")
     print("Press Ctrl+C to stop\n")
-    
+
     try:
         while True:
             progress = calculate_progress()

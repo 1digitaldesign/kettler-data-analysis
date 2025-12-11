@@ -71,7 +71,7 @@ def save_finding(employee: dict, finding: dict):
 def search_with_browser(employee: dict):
     """
     Search using browser automation.
-    
+
     This function uses browser automation tools to:
     1. Navigate to Maryland DPOR website
     2. Enter employee name
@@ -82,14 +82,14 @@ def search_with_browser(employee: dict):
     if check_existing(employee):
         print(f"  ✓ Already exists: {employee['first']} {employee['last']}")
         return
-    
+
     print(f"  Searching: {employee['first']} {employee['last']}...", end=' ')
-    
+
     # Browser automation would happen here
     # For demonstration, creating template
     finding = create_finding(employee, license_found=False)
     save_finding(employee, finding)
-    
+
     print("✓ Saved")
 
 def main():
@@ -98,11 +98,11 @@ def main():
     print("=" * 60)
     print(f"URL: {MARYLAND_URL}")
     print(f"Employees to search: {len(EMPLOYEES)}\n")
-    
+
     for employee in EMPLOYEES:
         search_with_browser(employee)
         time.sleep(1)  # Rate limiting
-    
+
     print(f"\n✓ Completed {len(EMPLOYEES)} searches")
 
 if __name__ == '__main__':

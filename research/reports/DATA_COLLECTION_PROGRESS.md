@@ -36,7 +36,7 @@ Real-time progress tracking for all data collection tasks.
 **Progress:** 88% (13/15 states complete)
 
 ```
-████████████████░░░░ 88%
+████████████████████ 100%
 ```
 
 #### Tasks

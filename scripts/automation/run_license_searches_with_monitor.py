@@ -31,20 +31,20 @@ def main():
     print("License Search Automation with Real-Time Monitoring")
     print("=" * 60)
     print("\nStarting progress monitor...")
-    
+
     # Start monitor in background thread
     monitor_thread = threading.Thread(target=run_monitor, daemon=True)
     monitor_thread.start()
-    
+
     # Give monitor time to start
     time.sleep(2)
-    
+
     print("\nStarting license searches...")
     print("Progress will update every 1 second\n")
-    
+
     # Run searches (this would use browser automation)
     run_searches()
-    
+
     print("\nSearches complete. Monitor will continue running.")
     print("Press Ctrl+C to stop monitor.")
 
