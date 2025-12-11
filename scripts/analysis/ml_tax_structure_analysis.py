@@ -548,21 +548,21 @@ def generate_visualizations(clustering_results: Dict[str, Any],
     try:
         from scripts.analysis.utils.advanced_visualizations import AdvancedVisualizer
         import pandas as pd
-        
+
         viz = AdvancedVisualizer(output_dir)
-        
+
         # Create comprehensive visualization suite
         if len(features) > 0:
             # Prepare data for visualizations
             df_features = pd.DataFrame(features)
-            
+
             # Get cluster labels if available
             cluster_labels = None
             if 'kmeans' in clustering_results:
                 kmeans_data = clustering_results['kmeans']
                 if 'cluster_labels' in kmeans_data:
                     cluster_labels = np.array(kmeans_data['cluster_labels'])
-            
+
             # Create comprehensive suite
             viz_suite = viz.create_comprehensive_visualization_suite(
                 data=df_features,
@@ -571,7 +571,7 @@ def generate_visualizations(clustering_results: Dict[str, Any],
                 graph_data=relationship_graph
             )
             visualizations.update(viz_suite)
-            
+
             # Additional specific visualizations
             if PLOTLY_AVAILABLE and cluster_labels is not None and len(cluster_labels) > 0:
                 # 3D scatter if we have enough dimensions
@@ -582,7 +582,7 @@ def generate_visualizations(clustering_results: Dict[str, Any],
                     )
                     if viz_path:
                         visualizations['3d_cluster_plotly'] = viz_path
-                
+
                 # Anomaly detection visualization
                 if 'isolation_forest' in anomaly_results:
                     anomaly_data = anomaly_results['isolation_forest']
@@ -593,7 +593,7 @@ def generate_visualizations(clustering_results: Dict[str, Any],
                         )
                         if viz_path:
                             visualizations['anomaly_detection_plotly'] = viz_path
-            
+
             # Correlation heatmap
             if PLOTLY_AVAILABLE and len(df_features.columns) > 1:
                 viz_path = viz.create_heatmap_plotly(
@@ -601,7 +601,7 @@ def generate_visualizations(clustering_results: Dict[str, Any],
                 )
                 if viz_path:
                     visualizations['correlation_heatmap_plotly'] = viz_path
-            
+
             # Box plots for key features
             if PLOTLY_AVAILABLE and cluster_labels is not None:
                 df_with_clusters = df_features.copy()
@@ -613,7 +613,7 @@ def generate_visualizations(clustering_results: Dict[str, Any],
                     )
                     if viz_path:
                         visualizations[f'box_plot_{col}_plotly'] = viz_path
-        
+
         # Network graph
         if relationship_graph:
             viz_path = viz.create_network_graph_plotly(
@@ -621,7 +621,7 @@ def generate_visualizations(clustering_results: Dict[str, Any],
             )
             if viz_path:
                 visualizations['network_graph_plotly'] = viz_path
-            
+
             # Bokeh network graph
             if BOKEH_AVAILABLE:
                 viz_path = viz.create_network_graph_bokeh(
@@ -629,7 +629,7 @@ def generate_visualizations(clustering_results: Dict[str, Any],
                 )
                 if viz_path:
                     visualizations['network_graph_bokeh'] = viz_path
-        
+
         # Create dashboard
         if visualizations:
             dashboard_path = viz.create_dashboard_html(
@@ -637,7 +637,7 @@ def generate_visualizations(clustering_results: Dict[str, Any],
             )
             if dashboard_path:
                 visualizations['comprehensive_dashboard'] = dashboard_path
-                
+
     except Exception as e:
         print(f"Advanced visualizations not available: {e}")
         import traceback

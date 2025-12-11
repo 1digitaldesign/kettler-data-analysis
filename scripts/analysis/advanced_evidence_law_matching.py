@@ -357,26 +357,32 @@ class AdvancedEvidenceLawMatcher:
 
     def match_all_evidence_fast(self, top_k: int = 5) -> Dict[str, Any]:
         """Fast matching using FAISS for vector similarity search"""
-        print("\n🔗 Fast matching using FAISS vector similarity search...")
+        print("\n🔗 Fast matching using optimized libraries...")
 
         law_embeddings = self.extract_law_embeddings()
+
+        # Initialize variables
+        faiss_index = None
+        law_ids = []
 
         if FAISS_AVAILABLE and len(law_embeddings) > 0:
             # Build FAISS index for fast similarity search
             dimension = len(list(law_embeddings.values())[0]["embedding"])
-            index = faiss.IndexFlatIP(dimension)  # Inner product (cosine similarity for normalized vectors)
+            faiss_index = faiss.IndexFlatIP(dimension)  # Inner product (cosine similarity for normalized vectors)
 
             # Add law embeddings to index
-            law_ids = []
             law_vectors = []
             for law_id, law_info in law_embeddings.items():
                 law_vectors.append(law_info["embedding"].astype('float32'))
                 law_ids.append(law_id)
 
             law_matrix = np.vstack(law_vectors)
-            index.add(law_matrix)
+            faiss_index.add(law_matrix)
 
-            print(f"   Built FAISS index with {index.ntotal} vectors")
+            print(f"   ✅ Built FAISS index with {faiss_index.ntotal} vectors")
+        else:
+            # Prepare law_ids for non-FAISS path
+            law_ids = list(law_embeddings.keys())
 
         violations_data = self.violations.get("violations", {})
         all_matches = []
@@ -402,7 +408,7 @@ class AdvancedEvidenceLawMatcher:
 
         print(f"   Processing {len(evidence_texts)} evidence items...")
 
-        def process_evidence_fast_batch(batch_indices, evidence_embeddings_array, law_embeddings_dict, law_ids_list):
+        def process_evidence_fast_batch(batch_indices, evidence_embeddings_array, law_embeddings_dict, law_ids_list, faiss_idx=None):
             """Process batch using FAISS for fast similarity search"""
             batch_matches = []
 
@@ -410,14 +416,14 @@ class AdvancedEvidenceLawMatcher:
                 evidence_embedding = evidence_embeddings_array[idx]
                 evidence_meta = evidence_metadata[idx]
 
-                if FAISS_AVAILABLE:
+                if faiss_idx is not None:
                     # Use FAISS for fast similarity search
                     evidence_vector = evidence_embedding.astype('float32').reshape(1, -1)
-                    similarities, indices = index.search(evidence_vector, min(top_k * 2, len(law_ids)))  # Get more for filtering
+                    distances, indices = faiss_idx.search(evidence_vector, min(top_k * 2, len(law_ids_list)))  # Get more for filtering
 
                     matches = []
-                    for sim_score, law_idx in zip(similarities[0], indices[0]):
-                        if law_idx < len(law_ids):
+                    for sim_score, law_idx in zip(distances[0], indices[0]):
+                        if law_idx < len(law_ids_list):
                             law_id = law_ids_list[law_idx]
                             law_info = law_embeddings_dict[law_id]
 
@@ -485,16 +491,9 @@ class AdvancedEvidenceLawMatcher:
                         for i in range(0, len(evidence_texts), batch_size)]
 
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-            if FAISS_AVAILABLE:
-                futures = [executor.submit(process_evidence_fast_batch, batch_idx,
-                                          evidence_embeddings, law_embeddings, law_ids)
-                          for batch_idx in batch_indices]
-            else:
-                # Fallback: create embeddings dict for each evidence
-                evidence_embeddings_dict = {i: emb for i, emb in enumerate(evidence_embeddings)}
-                futures = [executor.submit(process_evidence_fast_batch, batch_idx,
-                                          evidence_embeddings, law_embeddings, law_ids)
-                          for batch_idx in batch_indices]
+            futures = [executor.submit(process_evidence_fast_batch, batch_idx,
+                                      evidence_embeddings, law_embeddings, law_ids, faiss_index)
+                      for batch_idx in batch_indices]
 
             completed = 0
             for future in as_completed(futures):

@@ -16,6 +16,20 @@ beautifulsoup4>=4.12.0
 fastapi>=0.115.0
 uvicorn>=0.32.0
 
+# High-performance ML libraries
+sentence-transformers>=2.2.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Fast similarity search (optional but recommended)
+faiss-cpu>=1.7.4
+
+# JIT compilation for speed (optional but recommended)
+numba>=0.58.0
+
+# Graph analysis
+networkx>=3.1
+
 # Advanced Visualization Libraries (Modern & Interactive)
 plotly>=5.18.0              # Interactive web-based visualizations
 plotly-express>=0.4.1      # High-level Plotly interface
