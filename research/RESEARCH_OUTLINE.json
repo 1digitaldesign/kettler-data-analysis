@@ -1,0 +1,305 @@
+{
+  "_metadata": {
+    "version": "1.0.0",
+    "created": "2025-12-10",
+    "description": "Master research outline defining all search types, data folder structure, and completion criteria",
+    "total_searches": 10
+  },
+  "searches": {
+    "license_searches": {
+      "id": "license_searches",
+      "name": "License Searches",
+      "description": "Multi-state license searches for real estate brokers, salespersons, and bar licenses",
+      "priority": "high",
+      "data_folder": "research/license_searches/data",
+      "file_patterns": {
+        "state_findings": "research/license_searches/data/{state}/*_finding.json",
+        "bar_findings": "research/license_searches/data/bar_licenses/*_bar_finding.json",
+        "consolidated": "research/license_searches/data/consolidated/*.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/license_searches/data"
+        ],
+        "minimum_files": 200,
+        "required_states": [
+          "virginia", "maryland", "connecticut", "dc", "new_jersey", "new_york",
+          "arizona", "florida", "georgia", "new_mexico", "north_carolina",
+          "pennsylvania", "south_carolina", "utah"
+        ],
+        "file_pattern_checks": [
+          "**/*_finding.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": true,
+        "bar_licenses": true,
+        "consolidated": true
+      }
+    },
+    "company_registrations": {
+      "id": "company_registrations",
+      "name": "Company Registrations",
+      "description": "Business entity registration searches across operational states",
+      "priority": "high",
+      "data_folder": "research/company_registrations/data",
+      "file_patterns": {
+        "state_registrations": "research/company_registrations/data/{state}/*_registration.json",
+        "all_registrations": "research/company_registrations/data/**/*_registration.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/company_registrations/data"
+        ],
+        "minimum_files": 6,
+        "required_states": [
+          "dc", "md", "va", "nj", "ny", "ct"
+        ],
+        "file_pattern_checks": [
+          "**/*_registration.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": true
+      }
+    },
+    "property_contracts": {
+      "id": "property_contracts",
+      "name": "Property Management Contracts",
+      "description": "Property management contracts, service agreements, and property lists",
+      "priority": "high",
+      "data_folder": "research/contracts/data",
+      "file_patterns": {
+        "contracts": "research/contracts/data/property_management_contracts.json",
+        "service_scope": "research/contracts/data/service_scope.json",
+        "property_lists": "research/contracts/data/property_lists_by_state.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/contracts/data"
+        ],
+        "minimum_files": 3,
+        "required_files": [
+          "research/contracts/data/property_management_contracts.json",
+          "research/contracts/data/service_scope.json",
+          "research/contracts/data/property_lists_by_state.json"
+        ],
+        "file_pattern_checks": [
+          "*.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": false
+      }
+    },
+    "employee_roles": {
+      "id": "employee_roles",
+      "name": "Employee Role Documentation",
+      "description": "Employee job descriptions, organizational charts, and role verification",
+      "priority": "high",
+      "data_folder": "research/employees/data",
+      "file_patterns": {
+        "employee_roles": "research/employees/data/employee_roles.json",
+        "job_descriptions": "research/employees/data/job_descriptions.json",
+        "org_chart": "research/employees/data/organizational_chart.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/employees/data"
+        ],
+        "minimum_files": 3,
+        "required_files": [
+          "research/employees/data/employee_roles.json",
+          "research/employees/data/job_descriptions.json",
+          "research/employees/data/organizational_chart.json"
+        ],
+        "file_pattern_checks": [
+          "*.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": false
+      }
+    },
+    "regulatory_complaints": {
+      "id": "regulatory_complaints",
+      "name": "Regulatory Complaint History",
+      "description": "State regulatory complaints, consumer complaints, and enforcement actions",
+      "priority": "high",
+      "data_folder": "research/complaints/data",
+      "file_patterns": {
+        "state_complaints": "research/complaints/data/{state}/regulatory_complaints.json",
+        "bbb_complaints": "research/complaints/data/bbb_complaints.json",
+        "all_complaints": "research/complaints/data/**/regulatory_complaints.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/complaints/data"
+        ],
+        "minimum_files": 7,
+        "required_states": [
+          "dc", "md", "va", "nj", "ny", "ct"
+        ],
+        "required_files": [
+          "research/complaints/data/bbb_complaints.json"
+        ],
+        "file_pattern_checks": [
+          "**/regulatory_complaints.json",
+          "bbb_complaints.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": true
+      }
+    },
+    "financial_records": {
+      "id": "financial_records",
+      "name": "Financial Records",
+      "description": "SEC filings, state business filings, and property value assessments",
+      "priority": "medium",
+      "data_folder": "research/financial/data",
+      "file_patterns": {
+        "sec_filings": "research/financial/data/sec_filings.json",
+        "state_filings": "research/financial/data/{state}_business_filings.json",
+        "property_assessments": "research/financial/data/property_value_assessments.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/financial/data"
+        ],
+        "minimum_files": 3,
+        "required_files": [
+          "research/financial/data/sec_filings.json",
+          "research/financial/data/property_value_assessments.json"
+        ],
+        "file_pattern_checks": [
+          "sec_filings.json",
+          "*_business_filings.json",
+          "property_value_assessments.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": false
+      }
+    },
+    "news_coverage": {
+      "id": "news_coverage",
+      "name": "News and Media Coverage",
+      "description": "News articles about violations, legal proceedings, and media coverage",
+      "priority": "medium",
+      "data_folder": "research/news/data",
+      "file_patterns": {
+        "violation_coverage": "research/news/data/violation_coverage.json",
+        "legal_proceedings": "research/news/data/legal_proceedings.json",
+        "all_news": "research/news/data/*.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/news/data"
+        ],
+        "minimum_files": 2,
+        "required_files": [
+          "research/news/data/violation_coverage.json",
+          "research/news/data/legal_proceedings.json"
+        ],
+        "file_pattern_checks": [
+          "violation_coverage.json",
+          "legal_proceedings.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": false
+      }
+    },
+    "fair_housing": {
+      "id": "fair_housing",
+      "name": "Fair Housing Records",
+      "description": "HUD complaints, EEOC records, and state discrimination complaints",
+      "priority": "medium",
+      "data_folder": "research/discrimination/data",
+      "file_patterns": {
+        "hud_complaints": "research/discrimination/data/hud_complaints.json",
+        "eeoc_records": "research/discrimination/data/eeoc_records.json",
+        "state_complaints": "research/discrimination/data/{state}_discrimination_complaints.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/discrimination/data"
+        ],
+        "minimum_files": 8,
+        "required_files": [
+          "research/discrimination/data/hud_complaints.json",
+          "research/discrimination/data/eeoc_records.json"
+        ],
+        "required_states": [
+          "dc", "md", "va", "nj", "ny", "ct"
+        ],
+        "file_pattern_checks": [
+          "hud_complaints.json",
+          "eeoc_records.json",
+          "*_discrimination_complaints.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": false
+      }
+    },
+    "professional_memberships": {
+      "id": "professional_memberships",
+      "name": "Professional Memberships",
+      "description": "Real estate and property management association memberships",
+      "priority": "low",
+      "data_folder": "research/memberships/data",
+      "file_patterns": {
+        "associations": "research/memberships/data/association_memberships.json",
+        "all_memberships": "research/memberships/data/*.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/memberships/data"
+        ],
+        "minimum_files": 1,
+        "required_files": [
+          "research/memberships/data/association_memberships.json"
+        ],
+        "file_pattern_checks": [
+          "association_memberships.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": false
+      }
+    },
+    "social_media": {
+      "id": "social_media",
+      "name": "Social Media and Online Presence",
+      "description": "Company websites, LinkedIn profiles, and online reviews",
+      "priority": "low",
+      "data_folder": "research/social_media/data",
+      "file_patterns": {
+        "company_websites": "research/social_media/data/company_websites.json",
+        "linkedin_profiles": "research/social_media/data/linkedin_profiles.json",
+        "online_reviews": "research/social_media/data/online_reviews.json"
+      },
+      "completion_criteria": {
+        "required_folders": [
+          "research/social_media/data"
+        ],
+        "minimum_files": 3,
+        "required_files": [
+          "research/social_media/data/company_websites.json",
+          "research/social_media/data/linkedin_profiles.json",
+          "research/social_media/data/online_reviews.json"
+        ],
+        "file_pattern_checks": [
+          "company_websites.json",
+          "linkedin_profiles.json",
+          "online_reviews.json"
+        ]
+      },
+      "subdirectories": {
+        "by_state": false
+      }
+    }
+  }
+}

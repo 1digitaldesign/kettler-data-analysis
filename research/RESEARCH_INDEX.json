@@ -183,6 +183,9 @@
     "txt": 5
   },
   "key_files": {
+    "research_outline": "research/RESEARCH_OUTLINE.json",
+    "consolidation_view": "research/CONSOLIDATION_VIEW.json",
+    "outline_documentation": "research/RESEARCH_OUTLINE.md",
     "master_index": "research/MASTER_research_index.json",
     "executive_summary": "research/va_dpor_complaint/EXECUTIVE_SUMMARY.json",
     "complaint_ready": "research/RESEARCH_READY_FOR_COMPLAINT.json",

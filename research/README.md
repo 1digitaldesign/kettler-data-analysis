@@ -29,8 +29,28 @@ This directory contains all research outputs from investigating property managem
 | **Find specific data** | [Research Index](RESEARCH_INDEX.json) |
 | **View summaries** | [Reports](REPORTS.md) |
 | **Search licenses** | [License Searches](license_searches/) |
+| **Check search completion** | [Research Outline](RESEARCH_OUTLINE.md) |
+| **View consolidation** | [Consolidation View](CONSOLIDATION_VIEW.json) |
 
 ---
+
+## Research Outline System
+
+All searches are organized using a standardized outline system:
+
+- **[RESEARCH_OUTLINE.json](RESEARCH_OUTLINE.json)** - Master definition of all 10 search categories
+- **[CONSOLIDATION_VIEW.json](CONSOLIDATION_VIEW.json)** - Consolidated view with statistics and completion status
+- **[RESEARCH_OUTLINE.md](RESEARCH_OUTLINE.md)** - Complete documentation
+
+**Check completion status:**
+```bash
+python3.14 scripts/research/check_search_completion.py
+```
+
+**Generate consolidation view:**
+```bash
+python3.14 scripts/research/generate_consolidation_view.py
+```
 
 ## Data organization
 
