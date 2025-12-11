@@ -39,7 +39,7 @@ Choose your path based on what you need to do:
 Start here if you're preparing regulatory complaints:
 
 - [VA DPOR Complaint Files](research/va_dpor_complaint/) - Complete complaint research
-- [Research Index](research/research_index.json) - Master research index
+- [Research Index](research/RESEARCH_INDEX.json) - Master research index
 - [Research README](research/README.md) - Research directory guide
 
 </details>

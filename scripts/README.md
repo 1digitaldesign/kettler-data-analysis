@@ -88,5 +88,6 @@ Use `bin/` scripts to run analyses:
 
 ## Related
 
-- [System Architecture](../docs/SYSTEM_ARCHITECTURE.md)
 - [System Architecture](../docs/SYSTEM_ARCHITECTURE.md) - Complete architecture (includes components and data flow)
+- [Documentation Index](../docs/INDEX.md) - All documentation
+- [README](../README.md) - Main project overview

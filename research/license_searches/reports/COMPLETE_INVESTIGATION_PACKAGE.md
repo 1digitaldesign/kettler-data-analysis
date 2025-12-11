@@ -46,40 +46,46 @@ This investigation package contains all documentation, evidence, and filing mate
 ## 📊 Data Files
 
 ### Consolidated Data
-6. **[consolidated/all_findings.csv](consolidated/all_findings.csv)**
+6. **[consolidated/all_findings.csv](../data/consolidated/)**
    - All 33 findings in CSV format
    - Complete search results
    - Ready for analysis
+   - *Note: CSV files are in `data/consolidated/` directory*
 
-7. **[consolidated/summary_by_state.csv](consolidated/summary_by_state.csv)**
+7. **[consolidated/summary_by_state.csv](../data/consolidated/)**
    - Summary statistics by state
    - Violation counts
    - Completion rates
+   - *Note: CSV files are in `data/consolidated/` directory*
 
-8. **[consolidated/summary_by_employee.csv](consolidated/summary_by_employee.csv)**
+8. **[consolidated/summary_by_employee.csv](../data/consolidated/)**
    - Summary by employee
    - License status by state
    - Violation patterns
+   - *Note: CSV files are in `data/consolidated/` directory*
 
 ---
 
 ## 📝 Filing Documents
 
 ### Complaint Letters
-9. **[complaint_letters/complaint_new_jersey.txt](complaint_letters/complaint_new_jersey.txt)**
+9. **[complaint_letters/complaint_new_jersey.txt](../data/complaint_letters/)**
    - Ready-to-submit complaint letter for New Jersey
    - 15 violations documented
    - Agency contact information included
+   - *Note: Complaint letters are in `data/complaint_letters/` directory*
 
-10. **[complaint_letters/complaint_new_york.txt](complaint_letters/complaint_new_york.txt)**
+10. **[complaint_letters/complaint_new_york.txt](../data/complaint_letters/)**
     - Ready-to-submit complaint letter for New York
     - 14 violations documented
     - Agency contact information included
+    - *Note: Complaint letters are in `data/complaint_letters/` directory*
 
-11. **[complaint_letters/complaint_dc.txt](complaint_letters/complaint_dc.txt)**
+11. **[complaint_letters/complaint_dc.txt](../data/complaint_letters/)**
     - Ready-to-submit complaint letter for DC
     - 2 violations documented
     - Agency contact information included
+    - *Note: Complaint letters are in `data/complaint_letters/` directory*
 
 ### Filing Checklists
 12. **[ADMINISTRATIVE_FILING_CHECKLIST.md](ADMINISTRATIVE_FILING_CHECKLIST.md)**

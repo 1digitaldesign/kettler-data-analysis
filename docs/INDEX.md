@@ -75,7 +75,7 @@ Documentation about data structure, governance, and management:
 Documentation about research outputs:
 
 - [research/README.md](../research/README.md) - Research directory guide
-- [research/research_index.json](../research/research_index.json) - Master file index
+- [research/RESEARCH_INDEX.json](../research/RESEARCH_INDEX.json) - Master file index
 
 ## Analysis & Visualization
 

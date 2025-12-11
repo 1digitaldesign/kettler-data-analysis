@@ -184,7 +184,7 @@ Many markdown files in this directory are historical status updates from during 
 
 1. Start with [VA DPOR Complaint Files](va_dpor_complaint/)
 2. Review [Reports](REPORTS.md) for key findings
-3. Use [Research Index](research_index.json) to find specific evidence
+3. Use [Research Index](RESEARCH_INDEX.json) to find specific evidence
 
 ### For data analysis
 
