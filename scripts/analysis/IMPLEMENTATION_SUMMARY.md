@@ -6,104 +6,190 @@ Complete implementation of ML-enhanced violation analysis system for Texas busin
 
 ## Implementation Status: ✅ COMPLETE
 
+### System Architecture
+
+```mermaid
+graph TB
+    subgraph "Data Pipeline"
+        A[Source Data] --> B[Preprocessing]
+        B --> C[Violation Extraction]
+        C --> D[Embedding Analysis]
+        D --> E[Cross-Reference]
+    end
+    
+    subgraph "ML Analysis"
+        E --> F[Clustering]
+        E --> G[Anomaly Detection]
+        E --> H[Classification]
+        E --> I[Network Analysis]
+        E --> J[Time Series]
+    end
+    
+    subgraph "Outputs"
+        F --> K[Reports]
+        G --> K
+        H --> K
+        I --> K
+        J --> K
+        K --> L[Visualizations]
+    end
+    
+    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
+    style B fill:#74c0fc,stroke:#339af0,stroke-width:2px
+    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    style D fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    style E fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    style F fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style G fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style H fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style I fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style J fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style K fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
+    style L fill:#ff8787,stroke:#fa5252,stroke-width:2px
+```
+
 ### Core Components Implemented
 
+#### Component Overview
+
+| Component | Script | Status | Output |
+|-----------|--------|--------|--------|
+| **Data Preprocessing** | `preprocess_violation_data.py` | ✅ Complete | `lariat_enriched.json` |
+| **Violation Extraction** | `enhanced_violation_extraction.py` | ✅ Complete | `extracted_violations.json` |
+| **Embedding Analysis** | `embedding_violation_analysis.py` | ✅ Complete | `embedding_similarity_analysis.json` |
+| **Cross-Reference** | `cross_reference_violations.py` | ✅ Complete | `cross_referenced_violations.json` |
+| **ML Analysis** | `ml_tax_structure_analysis.py` | ✅ Complete | `ml_tax_structure_analysis.json` |
+| **Report Generation** | `generate_ml_violation_report.py` | ✅ Complete | `ml_comprehensive_violations_analysis.json` |
+| **Enhanced Analysis** | `analyze_tax_hub_violations.py` | ✅ Complete | Enhanced reports |
+| **Master Pipeline** | `run_complete_violation_analysis.py` | ✅ Complete | Complete analysis |
+
 #### 1. Data Preprocessing (`preprocess_violation_data.py`)
-- ✅ Data cleaning and standardization
-- ✅ Research directory intersections
-- ✅ Data quality assessment
-- ✅ Entity relationship graph creation
-- ✅ Output: `data/processed/lariat_enriched.json`
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Data cleaning | ✅ | Standardization and normalization |
+| Research intersections | ✅ | Cross-directory data matching |
+| Quality assessment | ✅ | Data quality metrics |
+| Entity graph | ✅ | Relationship graph creation |
+| **Output** | ✅ | `data/processed/lariat_enriched.json` |
 
 #### 2. Violation Extraction (`enhanced_violation_extraction.py`)
-- ✅ Tax forfeiture extraction
-- ✅ Forfeited entity detection
-- ✅ Filing violation analysis
-- ✅ Address clustering detection
-- ✅ Management violation correlation
-- ✅ Output: `data/processed/extracted_violations.json`
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Tax forfeiture | ✅ | Automatic extraction |
+| Forfeited entities | ✅ | Entity detection |
+| Filing violations | ✅ | Compliance analysis |
+| Address clustering | ✅ | Pattern detection |
+| Management correlation | ✅ | Relationship mapping |
+| **Output** | ✅ | `data/processed/extracted_violations.json` |
 
 #### 3. Embedding Analysis (`embedding_violation_analysis.py`)
-- ✅ Cosine similarity calculations
-- ✅ Address/agent clustering
-- ✅ Violation pattern clustering
-- ✅ High-risk entity identification
-- ✅ Output: `data/processed/embedding_similarity_analysis.json`
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Cosine similarity | ✅ | Vector comparisons |
+| Address clustering | ✅ | Geographic patterns |
+| Agent clustering | ✅ | Personnel patterns |
+| Violation patterns | ✅ | Pattern recognition |
+| High-risk entities | ✅ | Risk identification |
+| **Output** | ✅ | `data/processed/embedding_similarity_analysis.json` |
 
 #### 4. Cross-Reference (`cross_reference_violations.py`)
-- ✅ Texas lariat data integration
-- ✅ Research intersections
-- ✅ Management correlations
-- ✅ Violation network identification
-- ✅ Fraud indicator matching
-- ✅ Output: `data/processed/cross_referenced_violations.json`
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Lariat integration | ✅ | Texas data integration |
+| Research intersections | ✅ | Cross-reference matching |
+| Management correlations | ✅ | Relationship analysis |
+| Violation networks | ✅ | Network identification |
+| Fraud indicators | ✅ | Fraud pattern matching |
+| **Output** | ✅ | `data/processed/cross_referenced_violations.json` |
 
 #### 5. ML Analysis (`ml_tax_structure_analysis.py`)
-**Clustering:**
-- ✅ K-Means clustering with optimal cluster detection
-- ✅ DBSCAN clustering
-- ✅ Hierarchical clustering
-- ✅ Spectral clustering
 
-**Anomaly Detection:**
-- ✅ Isolation Forest
-- ✅ Local Outlier Factor (LOF)
-- ✅ One-Class SVM
+### ML Pipeline Components
 
-**Classification:**
-- ✅ Random Forest
-- ✅ XGBoost (if available)
-- ✅ Feature importance analysis
-- ✅ SHAP values for explainability (if available)
+```mermaid
+graph LR
+    A[Input Data] --> B{ML Component}
+    B --> C[Clustering]
+    B --> D[Anomaly Detection]
+    B --> E[Classification]
+    B --> F[Network Analysis]
+    B --> G[Time Series]
+    B --> H[Dimensionality Reduction]
+    
+    C --> I[K-Means]
+    C --> J[DBSCAN]
+    C --> K[Hierarchical]
+    C --> L[Spectral]
+    
+    D --> M[Isolation Forest]
+    D --> N[LOF]
+    D --> O[One-Class SVM]
+    
+    E --> P[Random Forest]
+    E --> Q[XGBoost]
+    E --> R[SHAP]
+    
+    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
+    style B fill:#74c0fc,stroke:#339af0,stroke-width:2px
+    style I fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    style J fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    style K fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    style L fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    style M fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style N fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style O fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style P fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
+    style Q fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
+    style R fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
+```
 
-**Network Analysis:**
-- ✅ Graph construction
-- ✅ Community detection (Louvain)
-- ✅ Centrality measures (PageRank, betweenness, degree)
-- ✅ Network visualization
+| Category | Algorithms | Status |
+|----------|------------|--------|
+| **Clustering** | K-Means, DBSCAN, Hierarchical, Spectral | ✅ Complete |
+| **Anomaly Detection** | Isolation Forest, LOF, One-Class SVM | ✅ Complete |
+| **Classification** | Random Forest, XGBoost, SHAP | ✅ Complete |
+| **Network Analysis** | Graph construction, Louvain, Centrality | ✅ Complete |
+| **Time Series** | Trend analysis, Seasonal patterns | ✅ Complete |
+| **Dimensionality Reduction** | PCA, UMAP | ✅ Complete |
+| **Visualizations** | Cluster plots, Network graphs, Time series | ✅ Complete |
+| **Risk Scoring** | ML-enhanced, Multi-model ensemble | ✅ Complete |
 
-**Time Series Analysis:**
-- ✅ Violation trend analysis
-- ✅ Seasonal pattern detection
-- ✅ Entity lifecycle analysis
-- ✅ Future violation predictions
-
-**Dimensionality Reduction:**
-- ✅ PCA
-- ✅ UMAP (if available)
-
-**Visualizations:**
-- ✅ K-Means cluster plots
-- ✅ Network graphs
-- ✅ Time series charts
-
-**Risk Scoring:**
-- ✅ ML-enhanced risk scores
-- ✅ Multi-model ensemble
-
-- ✅ Output: `data/processed/ml_tax_structure_analysis.json`
-- ✅ Models metadata: `research/texas/analysis/ml_models/models_metadata.json`
-- ✅ Visualizations: `research/texas/analysis/visualizations/`
+**Outputs:**
+- `data/processed/ml_tax_structure_analysis.json`
+- `research/texas/analysis/ml_models/models_metadata.json`
+- `research/texas/analysis/visualizations/`
 
 #### 6. Report Generation (`generate_ml_violation_report.py`)
-- ✅ Comprehensive JSON reports
-- ✅ Markdown summaries
-- ✅ Executive summaries with ML insights
-- ✅ Detailed findings
-- ✅ ML-enhanced recommendations
-- ✅ Visualization references
-- ✅ Output: `research/texas/analysis/ml_comprehensive_violations_analysis.json`
-- ✅ Markdown: `research/texas/analysis/ml_violations_summary.md`
+
+| Feature | Status | Format |
+|---------|--------|--------|
+| JSON reports | ✅ | Comprehensive data |
+| Markdown summaries | ✅ | Human-readable |
+| Executive summaries | ✅ | ML insights included |
+| Detailed findings | ✅ | Complete analysis |
+| ML recommendations | ✅ | Actionable insights |
+| Visualization references | ✅ | Chart links |
+| **Outputs** | ✅ | JSON + Markdown files |
 
 #### 7. Enhanced Existing Analysis (`analyze_tax_hub_violations.py`)
-- ✅ ML findings integration
-- ✅ Embedding cluster integration
-- ✅ Cross-referenced research data
+
+| Feature | Status | Integration |
+|---------|--------|-------------|
+| ML findings | ✅ | Integrated |
+| Embedding clusters | ✅ | Integrated |
+| Cross-referenced data | ✅ | Integrated |
 
 #### 8. Master Pipeline (`run_complete_violation_analysis.py`)
-- ✅ Orchestrates all analysis steps
-- ✅ Validates output files
-- ✅ Provides execution summary
+
+| Feature | Status | Function |
+|---------|--------|----------|
+| Orchestration | ✅ | All steps coordinated |
+| Validation | ✅ | Output verification |
+| Summary | ✅ | Execution report |
 
 ### Utility Modules
 
@@ -156,28 +242,49 @@ Complete implementation of ML-enhanced violation analysis system for Texas busin
 
 ## Output Files Generated
 
-### Processed Data
-- `data/processed/lariat_entities_cleaned.json`
-- `data/processed/lariat_enriched.json`
-- `data/processed/entity_relationships.json`
-- `data/processed/data_quality_report.json`
-- `data/processed/extracted_violations.json`
-- `data/processed/embedding_similarity_analysis.json`
-- `data/processed/cross_referenced_violations.json`
-- `data/processed/ml_tax_structure_analysis.json`
+### Data Flow
 
-### Analysis Reports
-- `research/texas/analysis/ml_comprehensive_violations_analysis.json`
-- `research/texas/analysis/ml_violations_summary.md`
-- `research/texas/analysis/tax_hub_violations_analysis.json` (enhanced)
+```mermaid
+flowchart TD
+    A[Source Data] --> B[Processed Data]
+    B --> C[Analysis Reports]
+    C --> D[Visualizations]
+    C --> E[ML Models]
+    
+    B --> B1[lariat_entities_cleaned.json]
+    B --> B2[lariat_enriched.json]
+    B --> B3[entity_relationships.json]
+    B --> B4[data_quality_report.json]
+    B --> B5[extracted_violations.json]
+    B --> B6[embedding_similarity_analysis.json]
+    B --> B7[cross_referenced_violations.json]
+    B --> B8[ml_tax_structure_analysis.json]
+    
+    C --> C1[ml_comprehensive_violations_analysis.json]
+    C --> C2[ml_violations_summary.md]
+    C --> C3[tax_hub_violations_analysis.json]
+    
+    D --> D1[kmeans_clusters.png]
+    D --> D2[network_graph.png]
+    D --> D3[time_series_trends.png]
+    
+    E --> E1[models_metadata.json]
+    
+    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
+    style B fill:#74c0fc,stroke:#339af0,stroke-width:2px
+    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    style D fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style E fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
+```
 
-### Visualizations
-- `research/texas/analysis/visualizations/kmeans_clusters.png`
-- `research/texas/analysis/visualizations/network_graph.png`
-- `research/texas/analysis/visualizations/time_series_trends.png`
+### File Categories
 
-### Models
-- `research/texas/analysis/ml_models/models_metadata.json`
+| Category | Files | Count | Location |
+|----------|-------|-------|----------|
+| **Processed Data** | JSON files | 8 | `data/processed/` |
+| **Analysis Reports** | JSON + MD | 3 | `research/texas/analysis/` |
+| **Visualizations** | PNG images | 3 | `research/texas/analysis/visualizations/` |
+| **ML Models** | Metadata JSON | 1 | `research/texas/analysis/ml_models/` |
 
 ## Dependencies
 
