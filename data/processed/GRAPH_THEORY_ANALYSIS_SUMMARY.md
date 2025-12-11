@@ -2,7 +2,7 @@
 
 ## Overview
 
-Comprehensive graph theory analysis using NetworkX to analyze connections between violations, laws, and reporting forms. Uses multiple shortest path algorithms (Dijkstra, all simple paths) to find optimal pathways.
+**AI-Powered** graph theory analysis using NetworkX and machine learning to analyze connections between violations, laws, and reporting forms. Combines traditional graph algorithms with ML-enhanced similarity matching to find optimal pathways and discover hidden patterns.
 
 ## Graph Network Visualization
 
@@ -165,7 +165,7 @@ graph TB
         E --> F["➡️ 39 Direct<br/><a href='data/processed/graph_theory_analysis.json#pathways'>View</a>"]
         E --> G["🔄 2 Indirect<br/><a href='data/processed/graph_theory_analysis.json#pathways'>View</a>"]
     end
-    
+
     style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
     style C fill:#10b981,stroke:#059669,stroke-width:4px
     style D fill:#ef4444,stroke:#dc2626,stroke-width:3px
@@ -182,12 +182,14 @@ graph TB
 | **Direct Connections** | 13 high-similarity edges (threshold: 0.6) | Immediate reporting pathways available |
 | **Path Optimization** | Weighted by similarity scores | Optimal routes identified algorithmically |
 
-## Applications
+## AI/ML-Enhanced Applications
 
-1. **Compliance Reporting**: Find optimal forms for specific violations
-2. **Pathway Discovery**: Identify all possible reporting routes
-3. **Network Analysis**: Understand violation-law-form relationships
-4. **Pattern Recognition**: Discover common reporting patterns
+1. **🤖 ML-Powered Compliance Reporting**: AI-enhanced form matching using vector embeddings and similarity scores
+2. **🔍 Intelligent Pathway Discovery**: ML algorithms identify optimal reporting routes
+3. **🌐 Advanced Network Analysis**: Graph theory combined with ML clustering for pattern discovery
+4. **📊 Pattern Recognition**: Machine learning discovers common reporting patterns and anomalies
+5. **🧠 Semantic Similarity Matching**: Sentence transformers match violations to relevant laws and forms
+6. **🚨 Anomaly Detection**: ML models identify unusual violation patterns in the network
 
 ## Output Files
 
