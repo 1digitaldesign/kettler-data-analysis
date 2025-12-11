@@ -1,79 +1,79 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.622194",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/anomalies/anomalies_page_0197.json",
+    "created": "2025_12_11t00:52:02.622194",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/anomalies/anomalies_page_0197.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 197,
-    "source": "lariat-merged",
+    "source": "lariat_merged",
     "address_clusters": [
       {
         "count": 6,
         "addresses": [
           {
-            "full_match": "Stui\nXT 77042",
+            "full_match": "stui_xt_77042",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77042"
             ],
             "start": 245,
             "end": 258
           },
           {
-            "full_match": "Stui\nXT 75201",
+            "full_match": "stui_xt_75201",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75201"
             ],
             "start": 353,
             "end": 366
           },
           {
-            "full_match": "Stui\nXT 75201",
+            "full_match": "stui_xt_75201",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75201"
             ],
             "start": 604,
             "end": 617
           },
           {
-            "full_match": "Stui\nDallas, TX 75201",
+            "full_match": "stui_dallas,_tx_75201",
             "groups": [
-              "Stui\nDallas",
-              "TX",
+              "stui_dallas",
+              "tx",
               "75201"
             ],
             "start": 789,
             "end": 810
           },
           {
-            "full_match": "Stui\nXT 77092",
+            "full_match": "stui_xt_77092",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77092"
             ],
             "start": 862,
             "end": 875
           },
           {
-            "full_match": "Stui\nXT 75201",
+            "full_match": "stui_xt_75201",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75201"
             ],
             "start": 1045,
             "end": 1058
           }
         ],
-        "pattern": "Multiple addresses clustered",
+        "pattern": "multiple_addresses_clustered",
         "severity": "medium"
       }
     ],
@@ -81,7 +81,7 @@
     "date_sequences": [],
     "suspicious_patterns": []
   },
-  "text_representation": "page_number: 197 | source: lariat-merged | address_clusters: 1 items",
+  "text_representation": "page_number:_197_|_source:_lariat_merged_|_address_clusters:_1_items",
   "embedding": [
     0.02837187610566616,
     -0.062310345470905304,

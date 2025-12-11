@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:33.785885",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1196.json",
+    "created": "2025_12_11t00:54:33.785885",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1196.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1196,
-    "text": "1004210128\nPage 1 10-03-30 11:13:25\n358899\nINPUT CORPORATIONS\nLIC’S 313704\n12524\n,p’,\n4078\nVET’S 301\nTOTAL INPUT 689506\nUPDATED CORPORATIONS 6443\nLIC’S 7047\n279\nJP’,\nsp’\nVBT ’ S\nTOTAL UPDATED 1379!\nALICIE OO",
+    "text": "1004210128_page_1_10_03_30_11:13:25_358899_input_corporations_lic’s_313704_12524_,p’,_4078_vet’s_301_total_input_689506_updated_corporations_6443_lic’s_7047_279_jp’,_sp’_vbt_’_s_total_updated_1379!_alicie_oo",
     "char_count": 207,
     "word_count": 34,
     "anomalies": {
       "page_number": 1196,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 1196 | text: 1004210128\nPage 1 10-03-30 11:13:25\n358899\nINPUT CORPORATIONS\nLIC’S 313704\n12524\n,p’,\n4078\nVET’S 301\nTOTAL INPUT 689506\nUPDATED CORPORATIONS 6443\nLIC’S 7047\n279\nJP’,\nsp’\nVBT ’ S\nTOTAL UPDATED 1379!\nALICIE OO | char_count: 207 | word_count: 34 | anomalies: {\"page_number\":1196,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_1196_|_text:_1004210128_page_1_10_03_30_11:13:25_358899_input_corporations_lic’s_313704_12524_,p’,_4078_vet’s_301_total_input_689506_updated_corporations_6443_lic’s_7047_279_jp’,_sp’_vbt_’_s_total_updated_1379!_alicie_oo_|_char_count:_207_|_word_count:_34_|_anomalies:_{\"page_number\":1196,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.054214224219322205,
     0.01749475672841072,

@@ -1,144 +1,152 @@
 {
   "metadata": {
-    "date": "2025-12-08",
-    "source": "DC Real Estate Commission License Search",
-    "broker": "Caitlin Skidmore",
-    "license_number": "BR40000429",
+    "date": "2025_12_08",
+    "source": "dc_real_estate_commission_license_search",
+    "broker": "caitlin_skidmore",
+    "license_number": "br40000429",
     "total_affiliated_companies": 26,
     "investigation_status": "in_progress"
   },
   "affiliated_companies": [
     {
-      "name": "Redwood Communities, Inc.",
+      "name": "redwood_communities,_inc.",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "BAINBRIDGE MID-ATLANTIC MANAGEMENT LLC",
+      "name": "bainbridge_mid_atlantic_management_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown",
-      "note": "Also found at Frisco TX address cluster"
+      "note": "also_found_at_frisco_tx_address_cluster"
     },
     {
-      "name": "LANDEX MANAGEMENT, LLC",
+      "name": "landex_management,_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "Phase V SDFH Mid-Atlantic PM LLC",
+      "name": "phase_v_sdfh_mid_atlantic_pm_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "Grubb Management, LLC",
+      "name": "grubb_management,_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "LINCOLN EASTERN MANAGEMENT CORPORATION",
+      "name": "lincoln_eastern_management_corporation",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "Pinnacle Property Management Services, LLC",
+      "name": "pinnacle_property_management_services,_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "B.Hom Student Living, LLC",
+      "name": "b.hom_student_living,_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "WINN MANAGED PROPERTIES, LLC",
+      "name": "winn_managed_properties,_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "CAPREIT Residential Management, LLC",
+      "name": "capreit_residential_management,_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown",
-      "note": "Also found at Frisco TX address cluster"
+      "note": "also_found_at_frisco_tx_address_cluster"
     },
     {
-      "name": "Hines Living US LLC",
+      "name": "hines_living_us_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "Edgewood Management Corporation",
+      "name": "edgewood_management_corporation",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "Up Campus Management, LLC",
+      "name": "up_campus_management,_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "Franklin Group Companies LLC",
+      "name": "franklin_group_companies_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "APT Residential LLC",
+      "name": "apt_residential_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "MCCORMACK BARON MANAGEMENT, INC",
+      "name": "mccormack_baron_management,_inc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "BELL PARTNERS INC.",
+      "name": "bell_partners_inc.",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "BOZZUTO MANAGEMENT COMPANY",
+      "name": "bozzuto_management_company",
       "status": "confirmed",
       "connection_to_lariat": "confirmed",
-      "note": "Also found at Frisco TX address cluster. Caitlin Skidmore is broker for Bozzuto in CT, DC, IL, MA, RI, VA, WA",
-      "broker_states": ["Connecticut", "DC", "Illinois", "Massachusetts", "Rhode Island", "Virginia", "Washington"]
+      "note": "also_found_at_frisco_tx_address_cluster._caitlin_skidmore_is_broker_for_bozzuto_in_ct,_dc,_il,_ma,_ri,_va,_wa",
+      "broker_states": [
+        "ct",
+        "dc",
+        "il",
+        "ma",
+        "rhode_island",
+        "va",
+        "wa"
+      ]
     },
     {
-      "name": "GABLES RESIDENTIAL SERVICES, INC.",
+      "name": "gables_residential_services,_inc.",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown",
-      "note": "Also found at Frisco TX address cluster"
+      "note": "also_found_at_frisco_tx_address_cluster"
     },
     {
-      "name": "UIP Property Management, Inc",
+      "name": "uip_property_management,_inc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "Mill Creek Residential Services LLC",
+      "name": "mill_creek_residential_services_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "WINN MANAGEMENT COMPANY LLC",
+      "name": "winn_management_company_llc",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     },
     {
-      "name": "KETTLER MANAGEMENT INC",
+      "name": "kettler_management_inc",
       "status": "confirmed",
       "connection_to_lariat": "confirmed",
-      "note": "Primary investigation target - confirmed using Lariat broker"
+      "note": "primary_investigation_target_confirmed_using_lariat_broker"
     },
     {
-      "name": "LCOR ASSET MANAGEMENT LIMITED PARTNERSHIP",
+      "name": "lcor_asset_management_limited_partnership",
       "status": "needs_investigation",
       "connection_to_lariat": "unknown"
     }
   ],
   "investigation_plan": {
-    "step_1": "Search each company's website for Lariat Realty Advisors mentions",
-    "step_2": "Search state licensing databases for broker affiliations",
-    "step_3": "Search for shared addresses or contact information",
-    "step_4": "Document findings and connections"
+    "step_1": "search_each_company's_website_for_lariat_realty_advisors_mentions",
+    "step_2": "search_state_licensing_databases_for_broker_affiliations",
+    "step_3": "search_for_shared_addresses_or_contact_information",
+    "step_4": "document_findings_and_connections"
   }
 }

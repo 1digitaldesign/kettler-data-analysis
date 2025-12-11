@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.485166",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_46955400_0.json",
+    "created": "2025_12_11t00:21:40.485166",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_46955400_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "LARIAT INC. REALTORS",
-    "name_status": "Inactive",
-    "name_type": "Legal",
-    "name_inactive_date": "August 16, 1993",
+    "name": "lariat_inc._realtors",
+    "name_status": "inactive",
+    "name_type": "legal",
+    "name_inactive_date": "august_16,_1993",
     "consent_filing_number": null
   },
-  "text_representation": "name: LARIAT INC. REALTORS | name_status: Inactive | name_type: Legal | name_inactive_date: August 16, 1993",
+  "text_representation": "name:_lariat_inc._realtors_|_name_status:_inactive_|_name_type:_legal_|_name_inactive_date:_august_16,_1993",
   "embedding": [
     0.04336915537714958,
     -0.045183755457401276,

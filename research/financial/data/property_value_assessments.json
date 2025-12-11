@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:49:09.515193",
-    "search_method": "Browser automation",
+    "date": "2025_12_10t20:49:09.515193",
+    "search_method": "browser_automation",
     "sources": [
-      "County assessor records",
-      "Property tax records",
-      "Public property databases"
+      "county_assessor_records",
+      "property_tax_records",
+      "public_property_databases"
     ]
   },
   "properties": [],

@@ -1,32 +1,40 @@
 {
   "metadata": {
-    "date": "2025-12-08",
-    "method": "Browser automation / Manual extraction",
+    "date": "2025_12_08",
+    "method": "browser_automation_/_manual_extraction",
     "status": "in_progress"
   },
   "extracted": [
     {
       "license": "0225273913",
-      "company": "BOZZUTO MANAGEMENT COMPANY",
+      "company": "bozzuto_management_company",
       "firm_license": "0226024808"
     },
     {
       "license": "0225273906",
-      "company": "CORTLAND MANAGEMENT LLC",
+      "company": "cortland_management_llc",
       "firm_license": "0226038642"
     },
     {
       "license": "0225258285",
-      "company": "MIDDLEBURG MANAGEMENT LLC",
+      "company": "middleburg_management_llc",
       "firm_license": "0226038324"
     }
   ],
-  "remaining": ["0225273785", "0225273907", "0225273908", "0225273909", "0225273910", "0225273911", "0225273912"],
+  "remaining": [
+    "0225273785",
+    "0225273907",
+    "0225273908",
+    "0225273909",
+    "0225273910",
+    "0225273911",
+    "0225273912"
+  ],
   "instructions": {
-    "step1": "Navigate to https://www.dpor.virginia.gov/LicenseLookup",
-    "step2": "Search for license number",
-    "step3": "Click on license number button",
-    "step4": "Click 'Related Licenses' tab",
-    "step5": "Extract company name from table (second column)"
+    "step1": "navigate_to_https://www.dpor.virginia.gov/licenselookup",
+    "step2": "search_for_license_number",
+    "step3": "click_on_license_number_button",
+    "step4": "click_'related_licenses'_tab",
+    "step5": "extract_company_name_from_table_(second_column)"
   }
 }

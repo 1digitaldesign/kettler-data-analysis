@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:01.961197",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0174.json",
+    "created": "2025_12_11t00:52:01.961197",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0174.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 174,
-    "text": ". D5/10P\nMAR-31-20000 74:8 NOSTBO CT\nDaetdMa rch32 1 0,00. GABLES RESIDENTIAL SERVICES, INC.\ncubise\nBy: -\nName:\nChris D. Wheeler\nTitle: President\nEAST APARTMENT MANAGEMENT, INC.\nDated March 31, 2000\nBy: -\nName: Chris D. Wheeler\nTitle: President\nDOCS 862318 1",
+    "text": "._d5/10p_mar_31_20000_74:8_nostbo_ct_daetdma_rch32_1_0,00._gables_residential_services,_inc._cubise_by:_name:_chris_d._wheeler_title:_president_east_apartment_management,_inc._dated_march_31,_2000_by:_name:_chris_d._wheeler_title:_president_docs_862318_1",
     "char_count": 258,
     "word_count": 42,
     "anomalies": {
       "page_number": 174,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 174 | text: . D5/10P\nMAR-31-20000 74:8 NOSTBO CT\nDaetdMa rch32 1 0,00. GABLES RESIDENTIAL SERVICES, INC.\ncubise\nBy: -\nName:\nChris D. Wheeler\nTitle: President\nEAST APARTMENT MANAGEMENT, INC.\nDated March 31, 2000\nBy: -\nName: Chris D. Wheeler\nTitle: President\nDOCS 862318 1 | char_count: 258 | word_count: 42 | anomalies: {\"page_number\":174,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_174_|_text:_._d5/10p_mar_31_20000_74:8_nostbo_ct_daetdma_rch32_1_0,00._gables_residential_services,_inc._cubise_by:_name:_chris_d._wheeler_title:_president_east_apartment_management,_inc._dated_march_31,_2000_by:_name:_chris_d._wheeler_title:_president_docs_862318_1_|_char_count:_258_|_word_count:_42_|_anomalies:_{\"page_number\":174,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.038220904767513275,
     0.04020765796303749,

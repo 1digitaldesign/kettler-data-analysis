@@ -1,94 +1,136 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Kettler Data Analysis Global Metadata",
-  "description": "Global metadata for all data in the repository",
+  "$schema": "http://json_schema.org/draft_07/schema#",
+  "title": "kettler_data_analysis_global_metadata",
+  "description": "global_metadata_for_all_data_in_the_repository",
   "version": "1.0.0",
-  "last_updated": "2025-12-07",
+  "last_updated": "2025_12_07",
   "data_collection": {
-    "start_date": "2024-10-31",
-    "end_date": "2025-12-07",
+    "start_date": "2024_10_31",
+    "end_date": "2025_12_07",
     "collection_methods": [
-      "Web scraping",
-      "Manual search",
-      "API queries",
-      "Evidence extraction"
+      "web_scraping",
+      "manual_search",
+      "api_queries",
+      "evidence_extraction"
     ],
     "sources": [
       {
-        "name": "Virginia DPOR",
+        "name": "virginia_dpor",
         "url": "https://www.dpor.virginia.gov",
-        "type": "Regulatory database",
-        "data_types": ["firm_licenses", "individual_licenses"]
+        "type": "regulatory_database",
+        "data_types": [
+          "firm_licenses",
+          "individual_licenses"
+        ]
       },
       {
-        "name": "Multi-State DPOR Databases",
-        "states": ["VA", "TX", "NC", "MD", "DC", "FL", "GA", "SC", "TN", "WV", "KY"],
-        "type": "Regulatory databases",
-        "data_types": ["individual_licenses"]
+        "name": "multi_state_dpor_databases",
+        "states": [
+          "va",
+          "tx",
+          "nc",
+          "md",
+          "dc",
+          "fl",
+          "ga",
+          "sc",
+          "tn",
+          "wv",
+          "ky"
+        ],
+        "type": "regulatory_databases",
+        "data_types": [
+          "individual_licenses"
+        ]
       },
       {
-        "name": "Airbnb",
+        "name": "airbnb",
         "url": "https://www.airbnb.com",
-        "type": "Short-term rental platform",
-        "data_types": ["str_listings"]
+        "type": "short_term_rental_platform",
+        "data_types": [
+          "str_listings"
+        ]
       },
       {
-        "name": "VRBO",
+        "name": "vrbo",
         "url": "https://www.vrbo.com",
-        "type": "Short-term rental platform",
-        "data_types": ["str_listings"]
+        "type": "short_term_rental_platform",
+        "data_types": [
+          "str_listings"
+        ]
       },
       {
-        "name": "Evidence Documents",
-        "type": "PDF/Excel files",
-        "data_types": ["legal_documents", "correspondence", "lease_agreements"]
+        "name": "evidence_documents",
+        "type": "pdf/excel_files",
+        "data_types": [
+          "legal_documents",
+          "correspondence",
+          "lease_agreements"
+        ]
       }
     ]
   },
   "data_processing": {
-    "processing_date": "2025-12-07",
+    "processing_date": "2025_12_07",
     "processing_scripts": [
       {
         "script": "bin/clean_data.py",
-        "purpose": "Data cleaning and normalization",
-        "input": "data/source/, data/raw/",
+        "purpose": "data_cleaning_and_normalization",
+        "input": "data/source/,_data/raw/",
         "output": "data/cleaned/",
-        "dependencies": ["pandas", "transformers", "re"]
+        "dependencies": [
+          "pandas",
+          "transformers",
+          "re"
+        ]
       },
       {
         "script": "bin/analyze_connections.py",
-        "purpose": "Connection analysis",
+        "purpose": "connection_analysis",
         "input": "data/cleaned/",
         "output": "research/connections/",
-        "dependencies": ["scripts/core/unified_analysis.py"]
+        "dependencies": [
+          "scripts/core/unified_analysis.py"
+        ]
       },
       {
         "script": "bin/validate_data.py",
-        "purpose": "Data validation",
+        "purpose": "data_validation",
         "input": "data/cleaned/",
         "output": "research/verification/",
-        "dependencies": ["scripts/utils/validate_schema.py"]
+        "dependencies": [
+          "scripts/utils/validate_schema.py"
+        ]
       },
       {
         "script": "scripts/etl/etl_pipeline.py",
-        "purpose": "ETL and vectorization",
-        "input": "data/cleaned/, research/",
+        "purpose": "etl_and_vectorization",
+        "input": "data/cleaned/,_research/",
         "output": "data/vectors/",
-        "dependencies": ["transformers", "faiss"]
+        "dependencies": [
+          "transformers",
+          "faiss"
+        ]
       },
       {
         "script": "scripts/core/unified_analysis.py",
-        "purpose": "Unified analysis",
-        "input": "data/cleaned/, research/connections/",
-        "output": "research/violations/, research/anomalies/",
-        "dependencies": ["scripts/core/unified_investigation.py"]
+        "purpose": "unified_analysis",
+        "input": "data/cleaned/,_research/connections/",
+        "output": "research/violations/,_research/anomalies/",
+        "dependencies": [
+          "scripts/core/unified_investigation.py"
+        ]
       },
       {
         "script": "bin/organize_evidence.py",
-        "purpose": "Evidence extraction",
+        "purpose": "evidence_extraction",
         "input": "evidence/",
         "output": "research/evidence/",
-        "dependencies": ["pdf parsing", "pandas", "transformers"]
+        "dependencies": [
+          "pdf_parsing",
+          "pandas",
+          "transformers"
+        ]
       }
     ]
   },
@@ -97,32 +139,46 @@
       "total_count": 38,
       "source_file": "data/source/skidmore_all_firms_complete.json",
       "cleaned_file": "data/cleaned/firms.json",
-      "states": ["VA"],
+      "states": [
+        "va"
+      ],
       "date_range": {
-        "earliest_license": "2014-10-31",
-        "latest_license": "2025-12-07"
+        "earliest_license": "2014_10_31",
+        "latest_license": "2025_12_07"
       }
     },
     "individual_licenses": {
       "total_count": 40,
       "source_file": "data/source/skidmore_individual_licenses.json",
       "cleaned_file": "data/cleaned/individual_licenses.json",
-      "states": ["VA", "TX", "NC", "MD", "DC", "FL", "GA", "SC", "TN", "WV", "KY"],
+      "states": [
+        "va",
+        "tx",
+        "nc",
+        "md",
+        "dc",
+        "fl",
+        "ga",
+        "sc",
+        "tn",
+        "wv",
+        "ky"
+      ],
       "date_range": {
-        "earliest_license": "2014-10-31",
-        "latest_license": "2025-12-07"
+        "earliest_license": "2014_10_31",
+        "latest_license": "2025_12_07"
       }
     },
     "connections": {
       "total_count": 100,
       "source_file": "research/connections/caitlin_skidmore_connections.json",
       "connection_types": [
-        "Principal Broker",
-        "Same Address",
-        "Same Address as Known Firm",
-        "Known Firm Match",
-        "Professional Association",
-        "Corporate Relationship"
+        "principal_broker",
+        "same_address",
+        "same_address_as_known_firm",
+        "known_firm_match",
+        "professional_association",
+        "corporate_relationship"
       ]
     },
     "research_outputs": {
@@ -154,28 +210,28 @@
     "vectors": {
       "total_files": 5,
       "directory": "data/vectors/",
-      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+      "embedding_model": "sentence_transformers/all_minilm_l6_v2"
     }
   },
   "data_quality": {
     "validation_status": "complete",
-    "validation_date": "2025-12-07",
+    "validation_date": "2025_12_07",
     "validation_script": "bin/validate_data.py",
     "quality_metrics": {
       "license_number_completeness": 1.0,
       "address_completeness": 0.95,
-      "date_completeness": 0.90,
+      "date_completeness": 0.9,
       "fk_integrity": 0.98,
       "duplicate_rate": 0.02
     },
     "known_issues": [
       {
-        "issue": "Some addresses missing state codes",
+        "issue": "some_addresses_missing_state_codes",
         "severity": "low",
         "affected_records": 5
       },
       {
-        "issue": "Some expiration dates missing",
+        "issue": "some_expiration_dates_missing",
         "severity": "low",
         "affected_records": 8
       }
@@ -184,7 +240,7 @@
   "schema_version": {
     "version": "1.0.0",
     "schema_file": "data/schema.json",
-    "last_updated": "2025-12-07",
+    "last_updated": "2025_12_07",
     "tables": [
       "firms",
       "individual_licenses",
@@ -195,55 +251,59 @@
     ]
   },
   "version_control": {
-    "git_repository": "https://github.com/1digitaldesign/kettler-data-analysis.git",
+    "git_repository": "https://github.com/1digitaldesign/kettler_data_analysis.git",
     "current_branch": "main",
-    "last_commit": "2025-12-07",
+    "last_commit": "2025_12_07",
     "data_files_tracked": true,
     "research_files_tracked": true,
     "evidence_files_tracked": false
   },
   "metadata_structure": {
-    "description": "Metadata fields that should be added to individual JSON files",
+    "description": "metadata_fields_that_should_be_added_to_individual_json_files",
     "fields": {
       "_metadata": {
-        "creation_date": "ISO 8601 date (YYYY-MM-DD)",
-        "source": "Source of the data",
-        "version": "Version number",
-        "processing_script": "Script that generated this file",
-        "description": "Brief description of the file contents"
+        "creation_date": "iso_8601_date_(yyyy_mm_dd)",
+        "source": "source_of_the_data",
+        "version": "version_number",
+        "processing_script": "script_that_generated_this_file",
+        "description": "brief_description_of_the_file_contents"
       },
       "_lineage": {
-        "parent_files": "Array of parent file paths",
-        "transformation_steps": "Array of transformation step descriptions",
-        "dependencies": "Array of dependency file paths"
+        "parent_files": "array_of_parent_file_paths",
+        "transformation_steps": "array_of_transformation_step_descriptions",
+        "dependencies": "array_of_dependency_file_paths"
       },
       "_validation": {
-        "validated": "Boolean indicating if file has been validated",
-        "validation_date": "ISO 8601 date",
-        "validation_script": "Script used for validation",
-        "issues": "Array of validation issues found"
+        "validated": "boolean_indicating_if_file_has_been_validated",
+        "validation_date": "iso_8601_date",
+        "validation_script": "script_used_for_validation",
+        "issues": "array_of_validation_issues_found"
       }
     },
     "example": {
       "_metadata": {
-        "creation_date": "2025-12-07",
-        "source": "Virginia DPOR",
+        "creation_date": "2025_12_07",
+        "source": "virginia_dpor",
         "version": "1.0.0",
         "processing_script": "bin/clean_data.py",
-        "description": "Cleaned firm license data"
+        "description": "cleaned_firm_license_data"
       },
       "_lineage": {
-        "parent_files": ["data/source/skidmore_all_firms_complete.json"],
-        "transformation_steps": [
-          "Normalized firm names",
-          "Standardized addresses",
-          "Parsed dates"
+        "parent_files": [
+          "data/source/skidmore_all_firms_complete.json"
         ],
-        "dependencies": ["bin/clean_data.py"]
+        "transformation_steps": [
+          "normalized_firm_names",
+          "standardized_addresses",
+          "parsed_dates"
+        ],
+        "dependencies": [
+          "bin/clean_data.py"
+        ]
       },
       "_validation": {
         "validated": true,
-        "validation_date": "2025-12-07",
+        "validation_date": "2025_12_07",
         "validation_script": "bin/validate_data.py",
         "issues": []
       }
@@ -251,12 +311,12 @@
   },
   "related_documentation": {
     "schema": "data/schema.json",
-    "data_catalog": "data/DATA_CATALOG.md",
-    "governance": "data/GOVERNANCE.md",
-    "data_dictionary": "data/DATA_DICTIONARY.md",
-    "ontology": "data/ONTOLOGY.md",
-    "ancestry": "data/ANCESTRY.md",
-    "repository_structure": "docs/REPOSITORY_STRUCTURE.md",
-    "data_flow": "docs/SYSTEM_ARCHITECTURE.md"
+    "data_catalog": "data/data_catalog.md",
+    "governance": "data/governance.md",
+    "data_dictionary": "data/data_dictionary.md",
+    "ontology": "data/ontology.md",
+    "ancestry": "data/ancestry.md",
+    "repository_structure": "docs/repository_structure.md",
+    "data_flow": "docs/system_architecture.md"
   }
 }

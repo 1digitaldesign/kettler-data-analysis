@@ -1,5 +1,5 @@
 {
-  "status_date": "2025-12-10",
+  "status_date": "2025_12_10",
   "verification_status": "in_progress",
   "completion_percentage": "33.3%",
   "key_findings": {
@@ -10,89 +10,89 @@
   },
   "licenses_found": [
     {
-      "name": "Elizabeth Saye (Liddy Bisanz saye)",
-      "company": "Lariat Realty Advisors",
+      "name": "elizabeth_saye_(liddy_bisanz_saye)",
+      "company": "lariat_realty_advisors",
       "licenses": [
         {
-          "state": "Texas",
+          "state": "tx",
           "license_number": "671787",
-          "type": "Real Estate Broker",
-          "status": "Active",
-          "issue_date": "2020-08-13",
-          "expiration_date": "2026-08-31",
-          "associated_firm": "Burlington Capital Properties LLC",
+          "type": "real_estate_broker",
+          "status": "active",
+          "issue_date": "2020_08_13",
+          "expiration_date": "2026_08_31",
+          "associated_firm": "burlington_capital_properties_llc",
           "firm_license": "9012840",
-          "firm_address": "5729 Lebanon Rd #144553, Frisco, TX 75034",
-          "significance": "Lariat broker associated with Burlington Capital Properties (one of Skidmore's supervised firms)"
+          "firm_address": "5729_lebanon_rd_#144553,_frisco,_tx_75034",
+          "significance": "lariat_broker_associated_with_burlington_capital_properties_(one_of_skidmore's_supervised_firms)"
         },
         {
-          "state": "New York",
+          "state": "new_york",
           "license_number": "10351218566",
-          "type": "Broker",
-          "associated_firm": "Willow Bridge Apartment Management, L.P.",
-          "significance": "Also licensed in New York"
+          "type": "broker",
+          "associated_firm": "willow_bridge_apartment_management,_l.p.",
+          "significance": "also_licensed_in_new_york"
         }
       ]
     },
     {
-      "name": "Thoms L. Bisanz (Thomas L. Bisanz)",
-      "company": "Lariat Realty Advisors",
-      "title": "Executive Director",
+      "name": "thoms_l._bisanz_(thomas_l._bisanz)",
+      "company": "lariat_realty_advisors",
+      "title": "executive_director",
       "licenses": [
         {
-          "state": "Texas",
-          "type": "Real Estate Broker",
-          "status": "Active",
-          "expiration_date": "2027-09-30",
-          "significance": "Executive Director of Lariat Realty Advisors, also designated broker for Bell Partners Inc."
+          "state": "tx",
+          "type": "real_estate_broker",
+          "status": "active",
+          "expiration_date": "2027_09_30",
+          "significance": "executive_director_of_lariat_realty_advisors,_also_designated_broker_for_bell_partners_inc."
         }
       ],
       "additional_affiliations": [
-        "Bell Partners, Inc. - Designated Broker",
-        "Knightvest Management, LLC - Manager",
-        "Associated with 48 companies over 23 years (26 currently active)"
+        "bell_partners,_inc._designated_broker",
+        "knightvest_management,_llc_manager",
+        "associated_with_48_companies_over_23_years_(26_currently_active)"
       ]
     }
   ],
   "verified_unlicensed": [
-    "Edward Hyland (Senior Regional Manager) - 16 states",
-    "Robert Grealy (SVP Operations) - 16 states",
-    "Amy Groff (VP Operations) - 16 states",
-    "Tracy Fones (VP Operations) - 16 states",
-    "Djene Moyer (Community Manager) - 16 states",
-    "Henry Ramos (Property Manager) - VA verified, pending other states",
-    "Robert C. Kettler (CEO) - VA verified, pending other states",
-    "Cynthia Fisher (President) - VA verified, pending other states"
+    "edward_hyland_(senior_regional_manager)_16_states",
+    "robert_grealy_(svp_operations)_16_states",
+    "amy_groff_(vp_operations)_16_states",
+    "tracy_fones_(vp_operations)_16_states",
+    "djene_moyer_(community_manager)_16_states",
+    "henry_ramos_(property_manager)_va_verified,_pending_other_states",
+    "robert_c._kettler_(ceo)_va_verified,_pending_other_states",
+    "cynthia_fisher_(president)_va_verified,_pending_other_states"
   ],
   "pending_verification": [
-    "Sean Curtin (EVP & General Counsel) - needs bar check",
-    "Patrick Cassada (CFO)",
-    "Luke Davis (CIO)",
-    "Greg Slang (EVP Asset Management)",
-    "J.D. Sitton (EVP Capital Markets & Strategy)",
-    "Pamela Tyrrell (EVP Multifamily Development & Construction)",
-    "Kristina Thoummarath (Chief of Staff)",
-    "Christina Chang (Head of Asset Management)",
-    "Todd Bowen (SVP Strategic Services)",
-    "Jeffrey Williams (VP Human Resources)",
-    "Leah Douthit (Monument Realty - possible Lariat connection)"
+    "sean_curtin_(evp_&_general_counsel)_needs_bar_check",
+    "patrick_cassada_(cfo)",
+    "luke_davis_(cio)",
+    "greg_slang_(evp_asset_management)",
+    "j.d._sitton_(evp_capital_markets_&_strategy)",
+    "pamela_tyrrell_(evp_multifamily_development_&_construction)",
+    "kristina_thoummarath_(chief_of_staff)",
+    "christina_chang_(head_of_asset_management)",
+    "todd_bowen_(svp_strategic_services)",
+    "jeffrey_williams_(vp_human_resources)",
+    "leah_douthit_(monument_realty_possible_lariat_connection)"
   ],
   "significance": {
-    "lariat_licenses": "Lariat Realty Advisors personnel (Elizabeth Saye, Thoms Bisanz) have active real estate licenses, which is expected for a brokerage firm. However, Elizabeth Saye is associated with Burlington Capital Properties, one of the firms that Caitlin Skidmore supervises, creating a potential conflict or connection.",
-    "kettler_unlicensed": "Multiple Kettler personnel in property management roles (Edward Hyland, Robert Grealy, Amy Groff, Tracy Fones, Djene Moyer, Henry Ramos) are confirmed unlicensed, which supports the complaint's allegations of unlicensed practice.",
-    "executives": "Kettler executives (CEO, President) do not have real estate licenses in Virginia, which may be expected for corporate roles, but verification across all states is needed."
+    "lariat_licenses": "lariat_realty_advisors_personnel_(elizabeth_saye,_thoms_bisanz)_have_active_real_estate_licenses,_which_is_expected_for_a_brokerage_firm._however,_elizabeth_saye_is_associated_with_burlington_capital_properties,_one_of_the_firms_that_caitlin_skidmore_supervises,_creating_a_potential_conflict_or_connection.",
+    "kettler_unlicensed": "multiple_kettler_personnel_in_property_management_roles_(edward_hyland,_robert_grealy,_amy_groff,_tracy_fones,_djene_moyer,_henry_ramos)_are_confirmed_unlicensed,_which_supports_the_complaint's_allegations_of_unlicensed_practice.",
+    "executives": "kettler_executives_(ceo,_president)_do_not_have_real_estate_licenses_in_virginia,_which_may_be_expected_for_corporate_roles,_but_verification_across_all_states_is_needed."
   },
   "next_steps": [
-    "Complete Virginia searches for remaining 12 personnel",
-    "Expand searches to all 16 states for personnel with property management roles",
-    "Perform bar association searches for Sean Curtin",
-    "Complete verification matrix for all 21 personnel"
+    "complete_virginia_searches_for_remaining_12_personnel",
+    "expand_searches_to_all_16_states_for_personnel_with_property_management_roles",
+    "perform_bar_association_searches_for_sean_curtin",
+    "complete_verification_matrix_for_all_21_personnel"
   ],
   "metadata": {
-    "file_name": "PERSONNEL_VERIFICATION_PROGRESS.json",
-    "file_path": "research/va_dpor_complaint/PERSONNEL_VERIFICATION_PROGRESS.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "file_name": "personnel_verification_progress.json",
+    "file_path": "research/va_dpor_complaint/personnel_verification_progress.json",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

@@ -1,102 +1,102 @@
 {
   "metadata": {
-    "date": "2025-12-10",
+    "date": "2025_12_10",
     "total_employees": 15,
-    "source": "License search investigation"
+    "source": "license_search_investigation"
   },
   "employees": {
     "robert_kettler": {
-      "name": "Robert Kettler",
-      "title": "CEO/Founder",
-      "category": "Executive Leadership",
+      "name": "robert_kettler",
+      "title": "ceo/founder",
+      "category": "executive_leadership",
       "performs_licensed_activities": true
     },
     "cindy_fisher": {
-      "name": "Cindy Fisher",
-      "title": "President",
-      "category": "Executive Leadership",
+      "name": "cindy_fisher",
+      "title": "president",
+      "category": "executive_leadership",
       "performs_licensed_activities": true
     },
     "luke_davis": {
-      "name": "Luke Davis",
-      "title": "Chief Information Officer",
-      "category": "Executive Leadership",
+      "name": "luke_davis",
+      "title": "chief_information_officer",
+      "category": "executive_leadership",
       "performs_licensed_activities": false
     },
     "pat_cassada": {
-      "name": "Pat Cassada",
-      "title": "Chief Financial Officer",
-      "category": "Executive Leadership",
+      "name": "pat_cassada",
+      "title": "chief_financial_officer",
+      "category": "executive_leadership",
       "performs_licensed_activities": false
     },
     "sean_curtin": {
-      "name": "Sean Curtin",
-      "title": "General Counsel",
-      "category": "Executive Leadership",
+      "name": "sean_curtin",
+      "title": "general_counsel",
+      "category": "executive_leadership",
       "performs_licensed_activities": false
     },
     "edward_hyland": {
-      "name": "Edward Hyland",
-      "title": "Senior Regional Manager",
-      "category": "Operations Management",
+      "name": "edward_hyland",
+      "title": "senior_regional_manager",
+      "category": "operations_management",
       "performs_licensed_activities": true
     },
     "amy_groff": {
-      "name": "Amy Groff",
-      "title": "VP Operations",
-      "category": "Operations Management",
+      "name": "amy_groff",
+      "title": "vp_operations",
+      "category": "operations_management",
       "performs_licensed_activities": true
     },
     "robert_grealy": {
-      "name": "Robert Grealy",
-      "title": "SVP Operations",
-      "category": "Operations Management",
+      "name": "robert_grealy",
+      "title": "svp_operations",
+      "category": "operations_management",
       "performs_licensed_activities": true
     },
     "todd_bowen": {
-      "name": "Todd Bowen",
-      "title": "SVP Strategic Services",
-      "category": "Operations Management",
+      "name": "todd_bowen",
+      "title": "svp_strategic_services",
+      "category": "operations_management",
       "performs_licensed_activities": true
     },
     "djene_moyer": {
-      "name": "Djene Moyer",
-      "title": "Community Manager",
-      "category": "Property Management Staff",
+      "name": "djene_moyer",
+      "title": "community_manager",
+      "category": "property_management_staff",
       "performs_licensed_activities": true
     },
     "henry_ramos": {
-      "name": "Henry Ramos",
-      "title": "Property Manager",
-      "category": "Property Management Staff",
+      "name": "henry_ramos",
+      "title": "property_manager",
+      "category": "property_management_staff",
       "performs_licensed_activities": true
     },
     "kristina_thoummarath": {
-      "name": "Kristina Thoummarath",
-      "title": "Chief of Staff",
-      "category": "Other Key Personnel",
+      "name": "kristina_thoummarath",
+      "title": "chief_of_staff",
+      "category": "other_key_personnel",
       "performs_licensed_activities": false
     },
     "christina_chang": {
-      "name": "Christina Chang",
-      "title": "Head of Asset Management",
-      "category": "Other Key Personnel",
+      "name": "christina_chang",
+      "title": "head_of_asset_management",
+      "category": "other_key_personnel",
       "performs_licensed_activities": true
     },
     "liddy_bisanz": {
-      "name": "Liddy Bisanz",
-      "title": "Operations Connection",
-      "category": "Other Key Personnel",
+      "name": "liddy_bisanz",
+      "title": "operations_connection",
+      "category": "other_key_personnel",
       "performs_licensed_activities": false
     },
     "caitlin_skidmore": {
-      "name": "Caitlin Skidmore",
-      "title": "Principal Broker",
-      "category": "Licensed Employee",
+      "name": "caitlin_skidmore",
+      "title": "principal_broker",
+      "category": "licensed_employee",
       "performs_licensed_activities": true,
       "licensed": true,
       "license_states": [
-        "District of Columbia"
+        "dc"
       ]
     }
   },

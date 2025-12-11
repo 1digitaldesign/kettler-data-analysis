@@ -1,175 +1,175 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 4.1: Additional Regulatory Violations",
-  "objective": "Document pattern of regulatory non-compliance",
+  "research_date": "2025_12_09",
+  "priority": "priority_4.1:_additional_regulatory_violations",
+  "objective": "document_pattern_of_regulatory_non_compliance",
   "known_violations": [
     {
-      "date": "2024-03",
-      "type": "Fair Housing Act violation",
-      "case": "Equal Rights Center v. Kettler Management",
-      "case_filed": "2023-09-12",
-      "court": "Superior Court of the District of Columbia",
+      "date": "2024_03",
+      "type": "fair_housing_act_violation",
+      "case": "equal_rights_center_v._kettler_management",
+      "case_filed": "2023_09_12",
+      "court": "superior_court_of_the_district_of_columbia",
       "settlement_amount": 140000,
-      "jurisdiction": "DC",
-      "violation": "Source of income discrimination across 6 DC properties",
-      "complaint_url": "https://equalrightscenter.org/wp-content/uploads/2023.09.12-erc-v.-kettler-complaint-tagged.pdf",
-      "significance": "Pattern of discrimination, occurred during principal broker gap period"
+      "jurisdiction": "dc",
+      "violation": "source_of_income_discrimination_across_6_dc_properties",
+      "complaint_url": "https://equalrightscenter.org/wp_content/uploads/2023.09.12_erc_v._kettler_complaint_tagged.pdf",
+      "significance": "pattern_of_discrimination,_occurred_during_principal_broker_gap_period"
     },
     {
       "date": "2024",
-      "type": "Consumer protection",
-      "source": "Washington City Paper investigation",
-      "violation": "Hidden or misleading utility fees",
-      "jurisdiction": "DC/MD/VA region",
-      "significance": "Systematic fee practices"
+      "type": "consumer_protection",
+      "source": "washington_city_paper_investigation",
+      "violation": "hidden_or_misleading_utility_fees",
+      "jurisdiction": "dc/md/va_region",
+      "significance": "systematic_fee_practices"
     },
     {
-      "date": "2014-2015",
-      "type": "Drug nuisance",
-      "case": "DC Attorney General v. Kettler",
-      "jurisdiction": "DC",
-      "violation": "Maintained drug nuisance at 199-unit housing development",
-      "significance": "Habitability and safety violations"
+      "date": "2014_2015",
+      "type": "drug_nuisance",
+      "case": "dc_attorney_general_v._kettler",
+      "jurisdiction": "dc",
+      "violation": "maintained_drug_nuisance_at_199_unit_housing_development",
+      "significance": "habitability_and_safety_violations"
     },
     {
-      "date": "2020-2022",
-      "type": "Age discrimination",
-      "case": "Facebook Age Discrimination Class Action",
-      "jurisdiction": "Federal",
-      "violation": "Excluded people over 50 from Facebook housing advertisements",
-      "significance": "Pattern of discriminatory advertising practices"
+      "date": "2020_2022",
+      "type": "age_discrimination",
+      "case": "facebook_age_discrimination_class_action",
+      "jurisdiction": "federal",
+      "violation": "excluded_people_over_50_from_facebook_housing_advertisements",
+      "significance": "pattern_of_discriminatory_advertising_practices"
     },
     {
       "date": "2022",
-      "type": "Employment discrimination",
-      "case": "Coleman v. Kettler Management, et al.",
+      "type": "employment_discrimination",
+      "case": "coleman_v._kettler_management,_et_al.",
       "case_number": "1:2022cv00084",
-      "court": "U.S. District Court for the Eastern District of Virginia",
-      "jurisdiction": "Federal",
-      "violation": "Race and disability discrimination, hostile work environment",
-      "case_url": "https://law.justia.com/cases/federal/district-courts/virginia/vaedce/1%3A2022cv00084/519199/37/",
-      "significance": "Employment practices violations"
+      "court": "u.s._district_court_for_the_eastern_district_of_virginia",
+      "jurisdiction": "federal",
+      "violation": "race_and_disability_discrimination,_hostile_work_environment",
+      "case_url": "https://law.justia.com/cases/federal/district_courts/virginia/vaedce/1%3a2022cv00084/519199/37/",
+      "significance": "employment_practices_violations"
     },
     {
-      "date": "2025-03-11",
-      "type": "Personal injury",
-      "case": "Wible v. Parcel D Property, LLC et al",
+      "date": "2025_03_11",
+      "type": "personal_injury",
+      "case": "wible_v._parcel_d_property,_llc_et_al",
       "case_number": "1:2025cv00791",
-      "court": "U.S. District Court for the District of Maryland",
-      "jurisdiction": "MD",
-      "violation": "Personal injury claim",
-      "case_url": "https://dockets.justia.com/docket/maryland/mddce/1%3A2025cv00791/578113",
-      "significance": "Ongoing litigation"
+      "court": "u.s._district_court_for_the_district_of_maryland",
+      "jurisdiction": "md",
+      "violation": "personal_injury_claim",
+      "case_url": "https://dockets.justia.com/docket/maryland/mddce/1%3a2025cv00791/578113",
+      "significance": "ongoing_litigation"
     },
     {
-      "date": "2020-07-01",
-      "type": "Civil rights",
-      "case": "Housing Rights Initiative et al v. Bozzuto Management Company et al",
+      "date": "2020_07_01",
+      "type": "civil_rights",
+      "case": "housing_rights_initiative_et_al_v._bozzuto_management_company_et_al",
       "case_number": "8:2020cv01956",
-      "court": "U.S. District Court for the District of Maryland",
-      "jurisdiction": "MD",
-      "violation": "Civil rights lawsuit",
-      "case_url": "https://dockets.justia.com/docket/maryland/mddce/8%3A2020cv01956/483119",
-      "significance": "Kettler named as defendant alongside Bozzuto"
+      "court": "u.s._district_court_for_the_district_of_maryland",
+      "jurisdiction": "md",
+      "violation": "civil_rights_lawsuit",
+      "case_url": "https://dockets.justia.com/docket/maryland/mddce/8%3a2020cv01956/483119",
+      "significance": "kettler_named_as_defendant_alongside_bozzuto"
     },
     {
-      "date": "2025-03-04",
-      "type": "Appellate case",
-      "case": "Opiotennione v. Bozzuto Management Co.",
-      "case_number": "21-1919",
-      "court": "United States Court of Appeals for the Fourth Circuit",
-      "jurisdiction": "Federal",
-      "violation": "Appellate proceeding",
-      "case_url": "https://law.justia.com/cases/federal/appellate-courts/ca4/21-1919/21-1919-2025-03-04.html",
-      "significance": "Kettler Management Inc. as appellee"
+      "date": "2025_03_04",
+      "type": "appellate_case",
+      "case": "opiotennione_v._bozzuto_management_co.",
+      "case_number": "21_1919",
+      "court": "united_states_court_of_appeals_for_the_fourth_circuit",
+      "jurisdiction": "federal",
+      "violation": "appellate_proceeding",
+      "case_url": "https://law.justia.com/cases/federal/appellate_courts/ca4/21_1919/21_1919_2025_03_04.html",
+      "significance": "kettler_management_inc._as_appellee"
     },
     {
       "date": "2012",
-      "type": "Unknown",
-      "case": "Williams v. Kettler Management Inc.",
+      "type": "unknown",
+      "case": "williams_v._kettler_management_inc.",
       "case_number": "8:2012cv01226",
-      "court": "U.S. District Court for the District of Maryland",
-      "jurisdiction": "MD",
-      "violation": "Unknown - proceedings extended into 2014",
-      "case_url": "https://law.justia.com/cases/federal/district-courts/maryland/mddce/8%3A2012cv01226/201149/86/",
-      "significance": "Ongoing litigation during principal broker gap period"
+      "court": "u.s._district_court_for_the_district_of_maryland",
+      "jurisdiction": "md",
+      "violation": "unknown_proceedings_extended_into_2014",
+      "case_url": "https://law.justia.com/cases/federal/district_courts/maryland/mddce/8%3a2012cv01226/201149/86/",
+      "significance": "ongoing_litigation_during_principal_broker_gap_period"
     }
   ],
   "violations_to_research": {
     "dpor_complaints_other_states": {
       "status": "method_verified",
       "states_to_search": [
-        "TX",
-        "MD",
-        "NC",
-        "DC",
-        "MO",
-        "NE",
-        "CA",
-        "All other states where Kettler operates"
+        "tx",
+        "md",
+        "nc",
+        "dc",
+        "mo",
+        "ne",
+        "ca",
+        "all_other_states_where_kettler_operates"
       ],
       "findings": [],
-      "note": "Multi-state DPOR complaint searches would require individual state database access or FOIA requests. Virginia DPOR complaints documented. Known violations in DC (ERC settlement) and MD (litigation) already documented."
+      "note": "multi_state_dpor_complaint_searches_would_require_individual_state_database_access_or_foia_requests._virginia_dpor_complaints_documented._known_violations_in_dc_(erc_settlement)_and_md_(litigation)_already_documented."
     },
     "code_violations": {
       "status": "method_verified",
       "jurisdictions": [
-        "City of Alexandria",
-        "Fairfax County",
-        "Arlington County",
-        "Other Virginia jurisdictions",
-        "DC",
-        "Maryland jurisdictions"
+        "city_of_alexandria",
+        "fairfax_county",
+        "arlington_county",
+        "other_virginia_jurisdictions",
+        "dc",
+        "maryland_jurisdictions"
       ],
       "findings": [],
       "search_methods": [
-        "Local code enforcement databases",
-        "Property inspection records",
-        "Building code violation databases"
+        "local_code_enforcement_databases",
+        "property_inspection_records",
+        "building_code_violation_databases"
       ],
-      "note": "Code violation searches require access to local jurisdiction databases. DC drug nuisance case (2014-2015) already documented. Detailed property-by-property searches would require database access or FOIA requests to each jurisdiction."
+      "note": "code_violation_searches_require_access_to_local_jurisdiction_databases._dc_drug_nuisance_case_(2014_2015)_already_documented._detailed_property_by_property_searches_would_require_database_access_or_foia_requests_to_each_jurisdiction."
     },
     "business_license_violations": {
       "status": "expanded",
       "findings": [
         {
-          "jurisdiction": "Virginia",
-          "license_type": "Proprietary School Certification",
+          "jurisdiction": "va",
+          "license_type": "proprietary_school_certification",
           "license_number": "0211001070",
-          "status": "Inactive",
-          "source": "BuildZoom",
-          "note": "Inactive license may indicate compliance issues"
+          "status": "inactive",
+          "source": "buildzoom",
+          "note": "inactive_license_may_indicate_compliance_issues"
         }
       ],
       "search_methods": [
-        "Local business license databases",
-        "Business registration records",
-        "License renewal records"
+        "local_business_license_databases",
+        "business_registration_records",
+        "license_renewal_records"
       ],
-      "note": "Kettler holds inactive Proprietary School Certification license in Virginia"
+      "note": "kettler_holds_inactive_proprietary_school_certification_license_in_virginia"
     },
     "tax_violations": {
       "status": "method_verified",
       "findings": [],
       "search_methods": [
-        "State tax authority records",
-        "IRS records (if accessible)",
-        "Property tax records"
+        "state_tax_authority_records",
+        "irs_records_(if_accessible)",
+        "property_tax_records"
       ],
-      "note": "Tax violation records are generally not publicly accessible. Would require FOIA requests to state tax authorities or IRS records (if accessible through legal proceedings). Property tax records may be accessible through local assessor offices."
+      "note": "tax_violation_records_are_generally_not_publicly_accessible._would_require_foia_requests_to_state_tax_authorities_or_irs_records_(if_accessible_through_legal_proceedings)._property_tax_records_may_be_accessible_through_local_assessor_offices."
     },
     "employment_violations": {
       "status": "partial",
       "known_cases": [
         {
-          "case": "Coleman v. Kettler (2022)",
-          "violation": "Race and disability discrimination"
+          "case": "coleman_v._kettler_(2022)",
+          "violation": "race_and_disability_discrimination"
         }
       ],
       "additional_research": [
-        "DOL records",
-        "EEOC records",
-        "State employment agencies"
+        "dol_records",
+        "eeoc_records",
+        "state_employment_agencies"
       ]
     }
   },
@@ -177,94 +177,94 @@
     "status": "completed",
     "timeline": [
       {
-        "date": "2010-08-13",
-        "event": "WEINSTEIN MANAGEMENT CO INC licensed (15 years before Skidmore)",
-        "violation_type": "Timeline impossibility"
+        "date": "2010_08_13",
+        "event": "weinstein_management_co_inc_licensed_(15_years_before_skidmore)",
+        "violation_type": "timeline_impossibility"
       },
       {
-        "date": "2011-12-28",
-        "event": "BELL PARTNERS INC licensed (14 years before Skidmore)",
-        "violation_type": "Timeline impossibility"
+        "date": "2011_12_28",
+        "event": "bell_partners_inc_licensed_(14_years_before_skidmore)",
+        "violation_type": "timeline_impossibility"
       },
       {
-        "date": "2012-04-27",
-        "event": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC licensed (13 years before Skidmore)",
-        "violation_type": "Timeline impossibility"
+        "date": "2012_04_27",
+        "event": "bainbridge_mid_atlantic_management_llc_licensed_(13_years_before_skidmore)",
+        "violation_type": "timeline_impossibility"
       },
       {
-        "date": "2013-06-04",
-        "event": "BOZZUTO MANAGEMENT COMPANY licensed (12 years before Skidmore)",
-        "violation_type": "Timeline impossibility"
+        "date": "2013_06_04",
+        "event": "bozzuto_management_company_licensed_(12_years_before_skidmore)",
+        "violation_type": "timeline_impossibility"
       },
       {
-        "date": "2014-10-31",
-        "event": "KETTLER MANAGEMENT INC licensed (11 years before Skidmore)",
-        "violation_type": "Principal broker gap begins"
+        "date": "2014_10_31",
+        "event": "kettler_management_inc_licensed_(11_years_before_skidmore)",
+        "violation_type": "principal_broker_gap_begins"
       },
       {
-        "date": "2014-2015",
-        "event": "DC Attorney General lawsuit - drug nuisance",
-        "violation_type": "Habitability violations"
+        "date": "2014_2015",
+        "event": "dc_attorney_general_lawsuit_drug_nuisance",
+        "violation_type": "habitability_violations"
       },
       {
-        "date": "2016-08-17",
-        "event": "GABLES RESIDENTIAL SERVICES INC licensed (9 years before Skidmore)",
-        "violation_type": "Timeline impossibility"
+        "date": "2016_08_17",
+        "event": "gables_residential_services_inc_licensed_(9_years_before_skidmore)",
+        "violation_type": "timeline_impossibility"
       },
       {
-        "date": "2020-2022",
-        "event": "Facebook Age Discrimination Class Action",
-        "violation_type": "Discrimination"
+        "date": "2020_2022",
+        "event": "facebook_age_discrimination_class_action",
+        "violation_type": "discrimination"
       },
       {
         "date": "2022",
-        "event": "Coleman v. Kettler - employment discrimination",
-        "violation_type": "Employment violations"
+        "event": "coleman_v._kettler_employment_discrimination",
+        "violation_type": "employment_violations"
       },
       {
-        "date": "2022-09",
-        "event": "Edward Hyland starts at Kettler (unlicensed)",
-        "violation_type": "Unlicensed practice begins"
+        "date": "2022_09",
+        "event": "edward_hyland_starts_at_kettler_(unlicensed)",
+        "violation_type": "unlicensed_practice_begins"
       },
       {
-        "date": "2024-03",
-        "event": "Equal Rights Center v. Kettler settlement ($140K)",
-        "violation_type": "Fair Housing Act violation"
+        "date": "2024_03",
+        "event": "equal_rights_center_v._kettler_settlement_($140k)",
+        "violation_type": "fair_housing_act_violation"
       },
       {
         "date": "2024",
-        "event": "Washington City Paper utility fee investigation",
-        "violation_type": "Consumer protection"
+        "event": "washington_city_paper_utility_fee_investigation",
+        "violation_type": "consumer_protection"
       },
       {
-        "date": "2025-04-03",
-        "event": "Skidmore assigned as Principal Broker",
-        "violation_type": "Geographic impossibility (1,300 miles)"
+        "date": "2025_04_03",
+        "event": "skidmore_assigned_as_principal_broker",
+        "violation_type": "geographic_impossibility_(1,300_miles)"
       },
       {
-        "date": "2025-12-06",
-        "event": "Edward Hyland denies reasonable accommodation (unlicensed)",
-        "violation_type": "Unlicensed practice"
+        "date": "2025_12_06",
+        "event": "edward_hyland_denies_reasonable_accommodation_(unlicensed)",
+        "violation_type": "unlicensed_practice"
       },
       {
-        "date": "2025-03-11",
-        "event": "Wible v. Parcel D Property - Kettler named as defendant",
-        "violation_type": "Personal injury litigation"
+        "date": "2025_03_11",
+        "event": "wible_v._parcel_d_property_kettler_named_as_defendant",
+        "violation_type": "personal_injury_litigation"
       },
       {
-        "date": "2025-03-04",
-        "event": "Opiotennione v. Bozzuto - Kettler as appellee",
-        "violation_type": "Appellate proceeding"
+        "date": "2025_03_04",
+        "event": "opiotennione_v._bozzuto_kettler_as_appellee",
+        "violation_type": "appellate_proceeding"
       },
       {
-        "date": "2020-07-01",
-        "event": "Housing Rights Initiative v. Bozzuto - Kettler as defendant",
-        "violation_type": "Civil rights litigation"
+        "date": "2020_07_01",
+        "event": "housing_rights_initiative_v._bozzuto_kettler_as_defendant",
+        "violation_type": "civil_rights_litigation"
       },
       {
         "date": "2012",
-        "event": "Williams v. Kettler Management Inc. - proceedings extended to 2014",
-        "violation_type": "Litigation during gap period"
+        "event": "williams_v._kettler_management_inc._proceedings_extended_to_2014",
+        "violation_type": "litigation_during_gap_period"
       }
     ]
   },
@@ -272,47 +272,47 @@
     "discrimination_pattern": {
       "count": 3,
       "types": [
-        "Source of income discrimination",
-        "Age discrimination",
-        "Race and disability discrimination"
+        "source_of_income_discrimination",
+        "age_discrimination",
+        "race_and_disability_discrimination"
       ],
-      "significance": "Systematic pattern of discriminatory practices"
+      "significance": "systematic_pattern_of_discriminatory_practices"
     },
     "supervision_violations": {
-      "count": "Multiple",
+      "count": "multiple",
       "types": [
-        "Principal broker gap (10.5 years)",
-        "Geographic impossibility (1,300 miles)",
-        "Multiple firm supervision (38+ firms)",
-        "Unlicensed supervision"
+        "principal_broker_gap_(10.5_years)",
+        "geographic_impossibility_(1,300_miles)",
+        "multiple_firm_supervision_(38+_firms)",
+        "unlicensed_supervision"
       ],
-      "significance": "Systematic supervision failures"
+      "significance": "systematic_supervision_failures"
     },
     "unlicensed_practice": {
-      "count": "Multiple personnel",
+      "count": "multiple_personnel",
       "types": [
-        "Unlicensed property management",
-        "Unlicensed lease decisions",
-        "Unlicensed accommodation denials"
+        "unlicensed_property_management",
+        "unlicensed_lease_decisions",
+        "unlicensed_accommodation_denials"
       ],
-      "significance": "Systematic unlicensed practice"
+      "significance": "systematic_unlicensed_practice"
     }
   },
-  "deliverable": "Comprehensive violation timeline across all jurisdictions",
+  "deliverable": "comprehensive_violation_timeline_across_all_jurisdictions",
   "next_steps": [
-    "Search multi-state DPOR databases for complaints",
-    "Search local code enforcement databases",
-    "Search business license violation records",
-    "Search tax violation records",
-    "Search DOL/EEOC records",
-    "Compile comprehensive violation timeline",
-    "Analyze patterns across violations"
+    "search_multi_state_dpor_databases_for_complaints",
+    "search_local_code_enforcement_databases",
+    "search_business_license_violation_records",
+    "search_tax_violation_records",
+    "search_dol/eeoc_records",
+    "compile_comprehensive_violation_timeline",
+    "analyze_patterns_across_violations"
   ],
   "metadata": {
     "file_name": "additional_regulatory_violations.json",
     "file_path": "research/va_dpor_complaint/additional_regulatory_violations.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

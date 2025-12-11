@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.512467",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_129768500_26.json",
+    "created": "2025_12_11t00:21:41.512467",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_129768500_26.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 29, 2024",
-    "name": "Matthew P Seaman",
-    "title": "VP with limited authority",
-    "address": "6901 E Chauncey Lane"
+    "last_update": "march_29,_2024",
+    "name": "matthew_p_seaman",
+    "title": "vp_with_limited_authority",
+    "address": "6901_e_chauncey_lane"
   },
-  "text_representation": "last_update: March 29, 2024 | name: Matthew P Seaman | title: VP with limited authority | address: 6901 E Chauncey Lane",
+  "text_representation": "last_update:_march_29,_2024_|_name:_matthew_p_seaman_|_title:_vp_with_limited_authority_|_address:_6901_e_chauncey_lane",
   "embedding": [
     -0.056949976831674576,
     0.007024068851023912,

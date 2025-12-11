@@ -137,7 +137,7 @@ def start_property_contracts():
         },
     }
 
-    states = ['District of Columbia', 'Maryland', 'Virginia', 'New Jersey', 'New York', 'Connecticut']
+    states = ['dc', 'Maryland', 'Virginia', 'New Jersey', 'New York', 'Connecticut']
     for state in states:
         data['properties_by_state'][state] = {
             'properties': [],
@@ -170,7 +170,7 @@ def start_regulatory_complaints():
         'violations': [],
     }
 
-    states = ['District of Columbia', 'Maryland', 'Virginia', 'New Jersey', 'New York', 'Connecticut']
+    states = ['dc', 'Maryland', 'Virginia', 'New Jersey', 'New York', 'Connecticut']
     for state in states:
         data['complaints_by_state'][state] = {
             'regulatory_complaints': [],
@@ -209,7 +209,7 @@ def start_financial_records():
         },
     }
 
-    states = ['District of Columbia', 'Maryland', 'Virginia', 'New Jersey', 'New York', 'Connecticut']
+    states = ['dc', 'Maryland', 'Virginia', 'New Jersey', 'New York', 'Connecticut']
     for state in states:
         data['state_business_filings'][state] = {
             'annual_reports': [],

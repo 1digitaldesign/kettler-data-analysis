@@ -20,7 +20,7 @@ COMPANIES = [
 
 # States and their SOS URLs
 STATE_SOS_URLS = {
-    'District of Columbia': 'https://corponline.dccorporations.gov/',
+    'dc': 'https://corponline.dccorporations.gov/',
     'Maryland': 'https://egov.maryland.gov/BusinessExpress/EntitySearch',
     'Virginia': 'https://cis.scc.virginia.gov/EntitySearch/Index',
     'New Jersey': 'https://www.njportal.com/DOR/BusinessNameSearch/',

@@ -14,7 +14,7 @@ FINANCIAL_DIR = PROJECT_ROOT / 'research/financial'
 
 # States to search
 STATES = [
-    'District of Columbia',
+    'dc',
     'Maryland',
     'Virginia',
     'New Jersey',

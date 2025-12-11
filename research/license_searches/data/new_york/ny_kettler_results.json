@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "state": "New York",
-    "search_url": "https://appext20.dos.ny.gov/nydos/searchByName.do",
-    "employee": "Robert Kettler",
-    "search_method": "Individual search (searches all license types)"
+    "date": "2025_12_07",
+    "state": "new_york",
+    "search_url": "https://appext20.dos.ny.gov/nydos/searchbyname.do",
+    "employee": "robert_kettler",
+    "search_method": "individual_search_(searches_all_license_types)"
   },
   "search_executed": true,
   "results_found": "checking",
-  "note": "Search completed - results being extracted"
+  "note": "search_completed_results_being_extracted"
 }

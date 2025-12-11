@@ -1,97 +1,106 @@
 {
-  "analysis_date": "2025-12-07",
+  "analysis_date": "2025_12_07",
   "individuals_identified": {
     "edward_hyland": {
-      "name": "Edward Hyland",
-      "role": "Senior Regional Manager",
-      "employer": "Kettler Management Inc.",
+      "name": "edward_hyland",
+      "role": "senior_regional_manager",
+      "employer": "kettler_management_inc.",
       "email": "ehyland@kettler.com",
-      "license_status": "No Virginia license",
+      "license_status": "no_virginia_license",
       "connection_type": "operational_nexus"
     },
     "caitlin_skidmore": {
-      "name": "Caitlin Skidmore",
-      "role": "Principal Broker (Front Person)",
+      "name": "caitlin_skidmore",
+      "role": "principal_broker_(front_person)",
       "firms": 11,
-      "license_date": "2025-05-30",
+      "license_date": "2025_05_30",
       "connection_type": "front_person"
     },
     "djene_moyer": {
-      "name": "Djene Moyer",
-      "role": "Community Manager",
-      "property": "800 Carlyle",
-      "employer": "Kettler Management",
+      "name": "djene_moyer",
+      "role": "community_manager",
+      "property": "800_carlyle",
+      "employer": "kettler_management",
       "connection_type": "on_site_management"
     },
     "henry_ramos": {
-      "name": "Henry Ramos",
-      "role": "Property Manager",
-      "property": "800 Carlyle",
-      "employer": "Kettler Management",
+      "name": "henry_ramos",
+      "role": "property_manager",
+      "property": "800_carlyle",
+      "employer": "kettler_management",
       "connection_type": "on_site_management"
     },
     "robert_kettler": {
-      "name": "Robert C. Kettler",
-      "role": "Chairman, Founder & CEO",
-      "employer": "Kettler",
+      "name": "robert_c._kettler",
+      "role": "chairman,_founder_&_ceo",
+      "employer": "kettler",
       "connection_type": "corporate_leadership"
     },
     "cindy_fisher": {
-      "name": "Cindy Fisher",
-      "role": "President",
-      "employer": "Kettler",
+      "name": "cindy_fisher",
+      "role": "president",
+      "employer": "kettler",
       "connection_type": "corporate_leadership"
     },
     "luke_davis": {
-      "name": "Luke Davis",
-      "role": "Chief Investment Officer",
-      "employer": "Kettler",
+      "name": "luke_davis",
+      "role": "chief_investment_officer",
+      "employer": "kettler",
       "connection_type": "corporate_leadership"
     },
     "pat_cassada": {
-      "name": "Pat Cassada",
-      "role": "CFO",
-      "employer": "Kettler",
+      "name": "pat_cassada",
+      "role": "cfo",
+      "employer": "kettler",
       "connection_type": "corporate_leadership"
     },
     "sean_curtin": {
-      "name": "Sean Curtin",
-      "role": "General Counsel",
-      "employer": "Kettler",
+      "name": "sean_curtin",
+      "role": "general_counsel",
+      "employer": "kettler",
       "connection_type": "corporate_leadership"
     },
     "amy_groff": {
-      "name": "Amy Groff",
-      "role": "VP of Operations",
-      "employer": "Kettler",
+      "name": "amy_groff",
+      "role": "vp_of_operations",
+      "employer": "kettler",
       "connection_type": "management_chain"
     },
     "robert_grealy": {
-      "name": "Robert Grealy",
-      "role": "SVP of Operations",
-      "employer": "Kettler",
+      "name": "robert_grealy",
+      "role": "svp_of_operations",
+      "employer": "kettler",
       "connection_type": "management_chain"
     }
   },
   "connections": {
     "kettler_management_chain": {
-      "ceo": "Robert C. Kettler",
-      "president": "Cindy Fisher",
-      "svp_operations": "Robert Grealy",
-      "vp_operations": "Amy Groff",
-      "senior_regional_manager": "Edward Hyland",
-      "community_manager": "Djene Moyer",
-      "property_manager": "Henry Ramos",
+      "ceo": "robert_c._kettler",
+      "president": "cindy_fisher",
+      "svp_operations": "robert_grealy",
+      "vp_operations": "amy_groff",
+      "senior_regional_manager": "edward_hyland",
+      "community_manager": "djene_moyer",
+      "property_manager": "henry_ramos",
       "connection_type": "organizational_hierarchy"
     },
     "operational_connections": {
-      "unlicensed_operator": "Edward Hyland",
-      "front_person": "Caitlin Skidmore",
-      "on_site_staff": ["Djene Moyer", "Henry Ramos"],
+      "unlicensed_operator": "edward_hyland",
+      "front_person": "caitlin_skidmore",
+      "on_site_staff": [
+        "djene_moyer",
+        "henry_ramos"
+      ],
       "connection_type": "operational_nexus"
     },
     "corporate_connections": {
-      "executives": ["Robert C. Kettler", "Cindy Fisher", "Luke Davis", "Pat Cassada", "Sean Curtin"],
+      "executives": [
+        "robert_c._kettler",
+        "cindy_fisher",
+        "luke_davis",
+        "pat_cassada",
+        "sean_curtin"
+      ],
       "connection_type": "corporate_control"
     }
   },

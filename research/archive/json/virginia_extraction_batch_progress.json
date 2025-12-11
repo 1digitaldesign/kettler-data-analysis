@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "date": "2025-12-08",
+    "date": "2025_12_08",
     "total_licenses": 40,
     "extracted_count": 5,
     "remaining_count": 35,
@@ -9,30 +9,36 @@
   "extracted_companies": [
     {
       "license": "0225273913",
-      "company": "BOZZUTO MANAGEMENT COMPANY",
+      "company": "bozzuto_management_company",
       "firm": "0226024808"
     },
     {
       "license": "0225273906",
-      "company": "CORTLAND MANAGEMENT LLC",
+      "company": "cortland_management_llc",
       "firm": "0226038642"
     },
     {
       "license": "0225258285",
-      "company": "MIDDLEBURG MANAGEMENT LLC",
+      "company": "middleburg_management_llc",
       "firm": "0226038324"
     },
     {
       "license": "0225273785",
-      "company": "GATEWAY MANAGEMENT COMPANY LLC",
+      "company": "gateway_management_company_llc",
       "firm": "0226038613"
     },
     {
       "license": "0225273907",
-      "company": "CAPREIT RESIDENTIAL MANAGEMENT LLC",
+      "company": "capreit_residential_management_llc",
       "firm": "0226038643"
     }
   ],
-  "remaining_licenses": ["0225273908", "0225273909", "0225273910", "0225273911", "0225273912"],
-  "method": "Browser automation (Method 1 - FASTEST)"
+  "remaining_licenses": [
+    "0225273908",
+    "0225273909",
+    "0225273910",
+    "0225273911",
+    "0225273912"
+  ],
+  "method": "browser_automation_(method_1_fastest)"
 }

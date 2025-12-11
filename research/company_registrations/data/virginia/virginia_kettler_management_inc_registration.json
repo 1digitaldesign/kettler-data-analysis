@@ -1,35 +1,35 @@
 {
   "metadata": {
-    "date": "2025-12-11T02:25:33.000000",
-    "state": "Virginia",
-    "company": "Kettler Management Inc.",
-    "search_url": "https://cis.scc.virginia.gov/EntitySearch/Index",
-    "search_method": "Browser automation - Virginia SCC database",
-    "search_term": "Kettler Management"
+    "date": "2025_12_11t02:25:33.000000",
+    "state": "va",
+    "company": "kettler_management_inc.",
+    "search_url": "https://cis.scc.virginia.gov/entitysearch/index",
+    "search_method": "browser_automation_virginia_scc_database",
+    "search_term": "kettler_management"
   },
   "findings": [
     {
       "entity_id": "03218674",
-      "entity_name": "KETTLER MANAGEMENT INC.",
-      "name_type": "Legal Name",
-      "entity_type": "Stock Corporation",
-      "status": "Active",
-      "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-      "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
+      "entity_name": "kettler_management_inc.",
+      "name_type": "legal_name",
+      "entity_type": "stock_corporation",
+      "status": "active",
+      "business_address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+      "registered_agent": "national_registered_agents,_inc.",
       "registration_date": null,
-      "notes": "Found via Virginia SCC entity search"
+      "notes": "found_via_virginia_scc_entity_search"
     },
     {
       "entity_id": "03218674",
-      "entity_name": "Kettler Management Corp.",
-      "name_type": "Fictitious Name",
-      "entity_type": "Stock Corporation",
-      "status": "Active",
-      "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-      "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
+      "entity_name": "kettler_management_corp.",
+      "name_type": "fictitious_name",
+      "entity_type": "stock_corporation",
+      "status": "active",
+      "business_address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+      "registered_agent": "national_registered_agents,_inc.",
       "registration_date": null,
-      "notes": "Fictitious name/DBA for KETTLER MANAGEMENT INC."
+      "notes": "fictitious_name/dba_for_kettler_management_inc."
     }
   ],
-  "conclusion": "KETTLER MANAGEMENT INC. is registered in Virginia as a Stock Corporation (Entity ID: 03218674). Status: Active. Also operates under fictitious name 'Kettler Management Corp.'. Registered agent: NATIONAL REGISTERED AGENTS, INC. Business address: 8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944."
+  "conclusion": "kettler_management_inc._is_registered_in_virginia_as_a_stock_corporation_(entity_id:_03218674)._status:_active._also_operates_under_fictitious_name_'kettler_management_corp.'._registered_agent:_national_registered_agents,_inc._business_address:_8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944."
 }

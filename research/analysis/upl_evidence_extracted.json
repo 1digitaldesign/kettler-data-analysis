@@ -1,21 +1,21 @@
 {
-  "extraction_date": "2025-12-07",
+  "extraction_date": "2025_12_07",
   "total_files_searched": 14,
   "files_with_upl_indicators": 0,
   "evidence": [
-    "No findings recorded"
+    "no_findings_recorded"
   ],
   "summary": {
     "potential_upl_cases": 0,
     "files_with_legal_terms": 0,
-    "note": "Based on PDF text extraction. Full text review recommended."
+    "note": "based_on_pdf_text_extraction._full_text_review_recommended."
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "upl_evidence_extracted.json",
     "file_path": "research/analysis/upl_evidence_extracted.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

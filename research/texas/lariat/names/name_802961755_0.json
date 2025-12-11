@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.800729",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_802961755_0.json",
+    "created": "2025_12_11t00:21:40.800729",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_802961755_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "SDS Texas Realty, LLC",
-    "name_status": "In use",
-    "name_type": "Legal",
+    "name": "sds_texas_realty,_llc",
+    "name_status": "in_use",
+    "name_type": "legal",
     "name_inactive_date": "0",
     "consent_filing_number": null
   },
-  "text_representation": "name: SDS Texas Realty, LLC | name_status: In use | name_type: Legal | name_inactive_date: 0",
+  "text_representation": "name:_sds_texas_realty,_llc_|_name_status:_in_use_|_name_type:_legal_|_name_inactive_date:_0",
   "embedding": [
     0.013808081857860088,
     -0.005502591375261545,

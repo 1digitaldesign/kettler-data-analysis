@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:01.883083",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0170.json",
+    "created": "2025_12_11t00:52:01.883083",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0170.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 170,
-    "text": "MAR-31-2020 07:47 NOSTBO CT . 02/10P\n=..\nLIEDF\nfO eht nI (cid:222) hteceo f\nexasTaeo SeStt fcreao try f\nAMENDMENT CFILOTES AR MAR312 000\nFO\nNCIC o .rp,oraitonSeis ctonMANEMEN AGTMENTTARAP CENRTAL\nMarch 31, 2000\nPursuant to the provisions of the Texas Business Corporation Act, Central Apartment\nManagement, Inc. (the \"Corporation\") hereby amends its Articles of Incorporatlon, and for\nthat purpose, submits the following statement\nThe name of the corporation is Central Apartment Management, Inc.\n2. Article 1 of the Articles of Incorporation is hereby amended so as to read as\nfollows:\nThe name of the corporation is Gables Residential Services, Inc (the\n\"Corporation\").\nThe amendment is adopted as of the date of the filing of these Articles of\nAmendment with the Seceeny o Storted the Sta i of the\n4. There are 100 shares of Class A Common stock, par value $.01 per share.\noutstanding and entitled to vote. The amendment was adopted by the unanimous written\nconsent of stockholders on March 31, 2000 In accordance with Article 9.10 of the Texas\nBusiness Corporation Act and any written notice required by such Article has been given.",
+    "text": "mar_31_2020_07:47_nostbo_ct_._02/10p_=.._liedf_fo_eht_ni_(cid:222)_hteceo_f_exastaeo_sestt_fcreao_try_f_amendment_cfilotes_ar_mar312_000_fo_ncic_o_.rp,oraitonseis_ctonmanemen_agtmenttarap_cenrtal_march_31,_2000_pursuant_to_the_provisions_of_the_texas_business_corporation_act,_central_apartment_management,_inc._(the_\"corporation\")_hereby_amends_its_articles_of_incorporatlon,_and_for_that_purpose,_submits_the_following_statement_the_name_of_the_corporation_is_central_apartment_management,_inc._2._article_1_of_the_articles_of_incorporation_is_hereby_amended_so_as_to_read_as_follows:_the_name_of_the_corporation_is_gables_residential_services,_inc_(the_\"corporation\")._the_amendment_is_adopted_as_of_the_date_of_the_filing_of_these_articles_of_amendment_with_the_seceeny_o_storted_the_sta_i_of_the_4._there_are_100_shares_of_class_a_common_stock,_par_value_$.01_per_share._outstanding_and_entitled_to_vote._the_amendment_was_adopted_by_the_unanimous_written_consent_of_stockholders_on_march_31,_2000_in_accordance_with_article_9.10_of_the_texas_business_corporation_act_and_any_written_notice_required_by_such_article_has_been_given.",
     "char_count": 1136,
     "word_count": 186,
     "anomalies": {
       "page_number": 170,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 170 | text: MAR-31-2020 07:47 NOSTBO CT . 02/10P\n=..\nLIEDF\nfO eht nI (cid:222) hteceo f\nexasTaeo SeStt fcreao try f\nAMENDMENT CFILOTES AR MAR312 000\nFO\nNCIC o .rp,oraitonSeis ctonMANEMEN AGTMENTTARAP CENRTAL\nMarch 31, 2000\nPursuant to the provisions of the Texas Business Corporation Act, Central Apartment\nManagement, Inc. (the \"Corporation\") hereby amends its Articles of Incorporatlon, and for\nthat purpose, submits the following statement\nThe name of the corporation is Central Apartment Management, Inc.\n2. Article 1 of the Articles of Incorporation is hereby amended so as to read as\nfollows:\nThe name of the corporation is Gables Residential Services, Inc (the\n\"Corporation\").\nThe amendment is adopted as of the date of the filing of these Articles of\nAmendment with the Seceeny o Storted the Sta i of the\n4. There are 100 shares of Class A Common stock, par value $.01 per share.\noutstanding and entitled to vote. The amendment was adopted by the unanimous written\nconsent of stockholders on March 31, 2000 In accordance with Article 9.10 of the Texas\nBusiness Corporation Act and any written notice required by such Article has been given. | char_count: 1136 | word_count: 186 | anomalies: {\"page_number\":170,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_170_|_text:_mar_31_2020_07:47_nostbo_ct_._02/10p_=.._liedf_fo_eht_ni_(cid:222)_hteceo_f_exastaeo_sestt_fcreao_try_f_amendment_cfilotes_ar_mar312_000_fo_ncic_o_.rp,oraitonseis_ctonmanemen_agtmenttarap_cenrtal_march_31,_2000_pursuant_to_the_provisions_of_the_texas_business_corporation_act,_central_apartment_management,_inc._(the_\"corporation\")_hereby_amends_its_articles_of_incorporatlon,_and_for_that_purpose,_submits_the_following_statement_the_name_of_the_corporation_is_central_apartment_management,_inc._2._article_1_of_the_articles_of_incorporation_is_hereby_amended_so_as_to_read_as_follows:_the_name_of_the_corporation_is_gables_residential_services,_inc_(the_\"corporation\")._the_amendment_is_adopted_as_of_the_date_of_the_filing_of_these_articles_of_amendment_with_the_seceeny_o_storted_the_sta_i_of_the_4._there_are_100_shares_of_class_a_common_stock,_par_value_$.01_per_share._outstanding_and_entitled_to_vote._the_amendment_was_adopted_by_the_unanimous_written_consent_of_stockholders_on_march_31,_2000_in_accordance_with_article_9.10_of_the_texas_business_corporation_act_and_any_written_notice_required_by_such_article_has_been_given._|_char_count:_1136_|_word_count:_186_|_anomalies:_{\"page_number\":170,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.048265375196933746,
     0.00726298475638032,

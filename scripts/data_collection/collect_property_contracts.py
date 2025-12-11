@@ -14,7 +14,7 @@ CONTRACTS_DIR = PROJECT_ROOT / 'research/contracts'
 
 # Operational states
 STATES = [
-    'District of Columbia',
+    'dc',
     'Maryland',
     'Virginia',
     'New Jersey',

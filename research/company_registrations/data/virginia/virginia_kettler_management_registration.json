@@ -1,10 +1,10 @@
 {
   "metadata": {
     "date": null,
-    "state": "Virginia",
-    "company": "Kettler Management",
-    "search_url": "https://cis.scc.virginia.gov/EntitySearch/Index",
-    "search_method": "Secretary of State database"
+    "state": "va",
+    "company": "kettler_management",
+    "search_url": "https://cis.scc.virginia.gov/entitysearch/index",
+    "search_method": "secretary_of_state_database"
   },
   "findings": {
     "registered": null,

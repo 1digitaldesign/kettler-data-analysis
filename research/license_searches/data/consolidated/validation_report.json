@@ -1,12 +1,12 @@
 {
-  "date": "2025-12-08",
+  "date": "2025_12_08",
   "findings_file": "research/license_searches/consolidated/all_findings.csv",
   "total_entries": 252,
   "errors": [],
   "warnings": [
     {
-      "check": "File Count Mismatch",
-      "message": "Expected 252 files, found 249",
+      "check": "file_count_mismatch",
+      "message": "expected_252_files,_found_249",
       "difference": -3
     }
   ],
@@ -22,8 +22,18 @@
       }
     ],
     {
-      "type": "Violations",
-      "violation_states": ["Arizona", "Florida", "Georgia", "New Mexico", "North Carolina", "Pennsylvania", "South Carolina", "Utah", "Virginia"],
+      "type": "violations",
+      "violation_states": [
+        "az",
+        "fl",
+        "ga",
+        "new_mexico",
+        "north_carolina",
+        "pa",
+        "south_carolina",
+        "ut",
+        "va"
+      ],
       "count": 9
     }
   ],
@@ -39,7 +49,7 @@
   ],
   "violations": [
     {
-      "state": "Arizona",
+      "state": "az",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,
@@ -47,7 +57,7 @@
       "has_violation": true
     },
     {
-      "state": "DC",
+      "state": "dc",
       "total": 15,
       "licensed": 1,
       "unlicensed": 0,
@@ -55,7 +65,7 @@
       "has_violation": false
     },
     {
-      "state": "Florida",
+      "state": "fl",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,
@@ -63,7 +73,7 @@
       "has_violation": true
     },
     {
-      "state": "Georgia",
+      "state": "ga",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,
@@ -71,7 +81,7 @@
       "has_violation": true
     },
     {
-      "state": "Maryland",
+      "state": "md",
       "total": 15,
       "licensed": 2,
       "unlicensed": 0,
@@ -79,7 +89,7 @@
       "has_violation": false
     },
     {
-      "state": "New Mexico",
+      "state": "new_mexico",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,
@@ -87,7 +97,7 @@
       "has_violation": true
     },
     {
-      "state": "North Carolina",
+      "state": "north_carolina",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,
@@ -95,7 +105,7 @@
       "has_violation": true
     },
     {
-      "state": "Pennsylvania",
+      "state": "pa",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,
@@ -103,7 +113,7 @@
       "has_violation": true
     },
     {
-      "state": "South Carolina",
+      "state": "south_carolina",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,
@@ -111,7 +121,7 @@
       "has_violation": true
     },
     {
-      "state": "Utah",
+      "state": "ut",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,
@@ -119,7 +129,7 @@
       "has_violation": true
     },
     {
-      "state": "Virginia",
+      "state": "va",
       "total": 15,
       "licensed": 0,
       "unlicensed": 1,

@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "state": "New Jersey",
-    "search_url": "https://newjersey.mylicense.com/verification/Search.aspx?facility=N",
-    "employee": "Robert Kettler",
-    "search_method": "All profession, Salesperson license type"
+    "date": "2025_12_07",
+    "state": "new_jersey",
+    "search_url": "https://newjersey.mylicense.com/verification/search.aspx?facility=n",
+    "employee": "robert_kettler",
+    "search_method": "all_profession,_salesperson_license_type"
   },
   "search_executed": true,
   "results_found": "checking",
-  "note": "Search completed - results being extracted"
+  "note": "search_completed_results_being_extracted"
 }

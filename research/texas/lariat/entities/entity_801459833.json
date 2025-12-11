@@ -1,148 +1,148 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:39.770971",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_801459833.json",
+    "created": "2025_12_11t00:21:39.770971",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_801459833.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "801459833",
     "entity_type": null,
-    "original_date_of_filing": "July 28, 2011",
-    "entity_status": "In existence",
+    "original_date_of_filing": "july_28,_2011",
+    "entity_status": "in_existence",
     "formation_date": null,
     "tax_id": "32044752940",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "Lariat Realty Advisors, Inc.",
-    "address": "4600 FIRESTONE DR\nFRISCO, TX 75034 USA",
+    "duration": "perpetual",
+    "name": "lariat_realty_advisors,_inc.",
+    "address": "4600_firestone_dr_frisco,_tx_75034_usa",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "Thoms L Bisanz",
-      "address": "4600 Firestone Drive",
+      "name": "thoms_l_bisanz",
+      "address": "4600_firestone_drive",
       "inactive_date": null
     },
     "filing_history": [
       {
         "document_number": "379692090002",
-        "filing_type": "Certificate of Formation",
-        "filing_date": "July 28, 2011",
-        "effective_date": "July 28, 2011",
-        "eff_cond": "No",
+        "filing_type": "certificate_of_formation",
+        "filing_date": "july_28,_2011",
+        "effective_date": "july_28,_2011",
+        "eff_cond": "no",
         "page_count": "3"
       },
       {
         "document_number": "465240542917",
-        "filing_type": "Tax Forfeiture",
-        "filing_date": "February 8, 2013",
-        "effective_date": "February 8, 2013",
-        "eff_cond": "No",
+        "filing_type": "tax_forfeiture",
+        "filing_date": "february_8,_2013",
+        "effective_date": "february_8,_2013",
+        "eff_cond": "no",
         "page_count": "1"
       },
       {
         "document_number": "782373270002",
-        "filing_type": "Reinstatement",
-        "filing_date": "December 18, 2017",
-        "effective_date": "December 18, 2017",
-        "eff_cond": "No",
+        "filing_type": "reinstatement",
+        "filing_date": "december_18,_2017",
+        "effective_date": "december_18,_2017",
+        "eff_cond": "no",
         "page_count": "2"
       },
       {
         "document_number": "802503300001",
-        "filing_type": "Public Information Report (PIR)",
-        "filing_date": "December 31, 2017",
-        "effective_date": "March 23, 2018",
-        "eff_cond": "No",
+        "filing_type": "public_information_report_(pir)",
+        "filing_date": "december_31,_2017",
+        "effective_date": "march_23,_2018",
+        "eff_cond": "no",
         "page_count": "1"
       },
       {
         "document_number": "844532980001",
-        "filing_type": "Public Information Report (PIR)",
-        "filing_date": "December 31, 2018",
-        "effective_date": "October 21, 2018",
-        "eff_cond": "No",
+        "filing_type": "public_information_report_(pir)",
+        "filing_date": "december_31,_2018",
+        "effective_date": "october_21,_2018",
+        "eff_cond": "no",
         "page_count": "1"
       },
       {
         "document_number": "908215490001",
-        "filing_type": "Public Information Report (PIR)",
-        "filing_date": "December 31, 2019",
-        "effective_date": "August 20, 2019",
-        "eff_cond": "No",
+        "filing_type": "public_information_report_(pir)",
+        "filing_date": "december_31,_2019",
+        "effective_date": "august_20,_2019",
+        "eff_cond": "no",
         "page_count": "1"
       },
       {
         "document_number": "1055238540001",
-        "filing_type": "Public Information Report (PIR)",
-        "filing_date": "December 31, 2020",
-        "effective_date": "June 1, 2021",
-        "eff_cond": "No",
+        "filing_type": "public_information_report_(pir)",
+        "filing_date": "december_31,_2020",
+        "effective_date": "june_1,_2021",
+        "eff_cond": "no",
         "page_count": "1"
       },
       {
         "document_number": "1086160220001",
-        "filing_type": "Public Information Report (PIR)",
-        "filing_date": "December 31, 2021",
-        "effective_date": "October 13, 2021",
-        "eff_cond": "No",
+        "filing_type": "public_information_report_(pir)",
+        "filing_date": "december_31,_2021",
+        "effective_date": "october_13,_2021",
+        "eff_cond": "no",
         "page_count": "1"
       },
       {
         "document_number": "1212752790001",
-        "filing_type": "Public Information Report (PIR)",
-        "filing_date": "December 31, 2022",
-        "effective_date": "January 12, 2023",
-        "eff_cond": "No",
+        "filing_type": "public_information_report_(pir)",
+        "filing_date": "december_31,_2022",
+        "effective_date": "january_12,_2023",
+        "eff_cond": "no",
         "page_count": "1"
       },
       {
         "document_number": "1314642380001",
-        "filing_type": "Public Information Report (PIR)",
-        "filing_date": "December 31, 2023",
-        "effective_date": "December 15, 2023",
-        "eff_cond": "No",
+        "filing_type": "public_information_report_(pir)",
+        "filing_date": "december_31,_2023",
+        "effective_date": "december_15,_2023",
+        "eff_cond": "no",
         "page_count": "1"
       },
       {
         "document_number": "1406952510001",
-        "filing_type": "Public Information Report (PIR)",
-        "filing_date": "December 31, 2024",
-        "effective_date": "September 25, 2024",
-        "eff_cond": "No",
+        "filing_type": "public_information_report_(pir)",
+        "filing_date": "december_31,_2024",
+        "effective_date": "september_25,_2024",
+        "eff_cond": "no",
         "page_count": "1"
       }
     ],
     "names": [
       {
-        "name": "Lariat Realty Advisors, Inc.",
-        "name_status": "Inactive",
-        "name_type": "Legal",
-        "name_inactive_date": "December 19, 2017",
+        "name": "lariat_realty_advisors,_inc.",
+        "name_status": "inactive",
+        "name_type": "legal",
+        "name_inactive_date": "december_19,_2017",
         "consent_filing_number": "0"
       },
       {
-        "name": "Lariat Realty Advisors, Inc.",
-        "name_status": "In use",
-        "name_type": "Legal",
+        "name": "lariat_realty_advisors,_inc.",
+        "name_status": "in_use",
+        "name_type": "legal",
         "name_inactive_date": "0",
         "consent_filing_number": null
       }
     ],
     "management": [
       {
-        "last_update": "September 25, 2024",
-        "name": "Thomas Bisanz",
-        "title": "Manager",
-        "address": "4600 Firestone Drive"
+        "last_update": "september_25,_2024",
+        "name": "thomas_bisanz",
+        "title": "manager",
+        "address": "4600_firestone_drive"
       }
     ],
     "assumed_names": [],
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 801459833 | original_date_of_filing: July 28, 2011 | entity_status: In existence | tax_id: 32044752940 | duration: Perpetual | name: Lariat Realty Advisors, Inc. | address: 4600 FIRESTONE DR\nFRISCO, TX 75034 USA | registered_agent: {\"name\":\"Thoms L Bisanz\",\"address\":\"4600 Firestone Drive\",\"inactive_date\":null} | filing_history: 11 items | names: 2 items | management: 1 items",
+  "text_representation": "filing_number:_801459833_|_original_date_of_filing:_july_28,_2011_|_entity_status:_in_existence_|_tax_id:_32044752940_|_duration:_perpetual_|_name:_lariat_realty_advisors,_inc._|_address:_4600_firestone_dr_frisco,_tx_75034_usa_|_registered_agent:_{\"name\":\"thoms_l_bisanz\",\"address\":\"4600_firestone_drive\",\"inactive_date\":null}_|_filing_history:_11_items_|_names:_2_items_|_management:_1_items",
   "embedding": [
     -0.022549137473106384,
     0.04583724960684776,

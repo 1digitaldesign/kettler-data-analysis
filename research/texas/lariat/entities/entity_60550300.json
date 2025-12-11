@@ -1,43 +1,43 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.880799",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_60550300.json",
+    "created": "2025_12_11t00:21:40.880799",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_60550300.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "60550300",
-    "entity_type": "Domestic For-Profit Corporation",
-    "original_date_of_filing": "October 25, 1962",
-    "entity_status": "Voluntarily terminated",
+    "entity_type": "domestic_for_profit_corporation",
+    "original_date_of_filing": "october_25,_1962",
+    "entity_status": "voluntarily_terminated",
     "formation_date": null,
     "tax_id": "00000000000",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-    "address": "[ADDRESS NOT PROVIDED]",
+    "duration": "perpetual",
+    "name": "delta_southern_acceptance_corporation",
+    "address": "[address_not_provided]",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "C R Skidmore",
-      "address": "RT 1 144 RED OAK",
+      "name": "c_r_skidmore",
+      "address": "rt_1_144_red_oak",
       "inactive_date": null
     },
     "filing_history": [
       {
-        "document_number": "N/A",
+        "document_number": "n/a",
         "filing_type": "4789141",
-        "filing_date": "Legacy Filing",
-        "effective_date": "April 26, 1982",
-        "eff_cond": "April 26, 1982",
-        "page_count": "No"
+        "filing_date": "legacy_filing",
+        "effective_date": "april_26,_1982",
+        "eff_cond": "april_26,_1982",
+        "page_count": "no"
       },
       {
-        "document_number": "WAYNE EATON, INC.",
-        "filing_type": "Inactive",
-        "filing_date": "Legal",
-        "effective_date": "February 11, 2000",
+        "document_number": "wayne_eaton,_inc.",
+        "filing_type": "inactive",
+        "filing_date": "legal",
+        "effective_date": "february_11,_2000",
         "eff_cond": null,
         "page_count": null
       }
@@ -45,47 +45,47 @@
     "names": [],
     "management": [
       {
-        "last_update": "Sue Eaton",
-        "name": "S",
-        "title": "1400 HILLCREST",
-        "address": "Gainesville, TX 76240-0000 USA\nSue Eaton \tDirector \t1400 HILLCREST"
+        "last_update": "sue_eaton",
+        "name": "s",
+        "title": "1400_hillcrest",
+        "address": "gainesville,_tx_76240_0000_usa_sue_eaton_director_1400_hillcrest"
       },
       {
-        "last_update": "Sue Eaton",
-        "name": "Director",
-        "title": "1400 HILLCREST",
-        "address": "Gainesville, TX 76240-0000 USA\nWayne Eaton \tVP \t1400 HILLCREST"
+        "last_update": "sue_eaton",
+        "name": "director",
+        "title": "1400_hillcrest",
+        "address": "gainesville,_tx_76240_0000_usa_wayne_eaton_vp_1400_hillcrest"
       },
       {
-        "last_update": "Wayne Eaton",
-        "name": "VP",
-        "title": "1400 HILLCREST",
-        "address": "Gainesville, TX 76240-0000 USA\nWayne Eaton \tDirector \t1400 HILLCREST"
+        "last_update": "wayne_eaton",
+        "name": "vp",
+        "title": "1400_hillcrest",
+        "address": "gainesville,_tx_76240_0000_usa_wayne_eaton_director_1400_hillcrest"
       },
       {
-        "last_update": "Wayne Eaton",
-        "name": "P",
-        "title": "1400 HILLCREST",
-        "address": "Gainesville, TX 76240-0000 USA\nWayne Eaton \tDirector \t1400 HILLCREST"
+        "last_update": "wayne_eaton",
+        "name": "p",
+        "title": "1400_hillcrest",
+        "address": "gainesville,_tx_76240_0000_usa_wayne_eaton_director_1400_hillcrest"
       },
       {
-        "last_update": "Sue Eaton",
-        "name": "T",
-        "title": "1400 HILLCREST",
-        "address": "Gainesville, TX 76240-0000 USA\nSue Eaton \tDirector \t1400 HILLCREST"
+        "last_update": "sue_eaton",
+        "name": "t",
+        "title": "1400_hillcrest",
+        "address": "gainesville,_tx_76240_0000_usa_sue_eaton_director_1400_hillcrest"
       },
       {
-        "last_update": "iling Number:",
+        "last_update": "iling_number:",
         "name": "18792700",
-        "title": "Entity Type:",
-        "address": "Domestic For-Profit Corporation"
+        "title": "entity_type:",
+        "address": "domestic_for_profit_corporation"
       }
     ],
     "assumed_names": [],
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 60550300 | entity_type: Domestic For-Profit Corporation | original_date_of_filing: October 25, 1962 | entity_status: Voluntarily terminated | tax_id: 00000000000 | duration: Perpetual | name: DELTA SOUTHERN ACCEPTANCE CORPORATION | address: [ADDRESS NOT PROVIDED] | registered_agent: {\"name\":\"C R Skidmore\",\"address\":\"RT 1 144 RED OAK\",\"inactive_date\":null} | filing_history: 2 items | management: 6 items",
+  "text_representation": "filing_number:_60550300_|_entity_type:_domestic_for_profit_corporation_|_original_date_of_filing:_october_25,_1962_|_entity_status:_voluntarily_terminated_|_tax_id:_00000000000_|_duration:_perpetual_|_name:_delta_southern_acceptance_corporation_|_address:_[address_not_provided]_|_registered_agent:_{\"name\":\"c_r_skidmore\",\"address\":\"rt_1_144_red_oak\",\"inactive_date\":null}_|_filing_history:_2_items_|_management:_6_items",
   "embedding": [
     0.0026932209730148315,
     0.03440169245004654,

@@ -1,56 +1,56 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 2.2: 50-Mile Rule Compliance",
-  "objective": "Document violations of 18 VAC 135-20-60 (quarterly face-to-face supervision)",
+  "research_date": "2025_12_09",
+  "priority": "priority_2.2:_50_mile_rule_compliance",
+  "objective": "document_violations_of_18_vac_135_20_60_(quarterly_face_to_face_supervision)",
   "regulation": {
-    "code": "18 VAC 135-20-60",
-    "title": "Quarterly face-to-face supervision certification",
-    "requirement": "Requires quarterly face-to-face supervision certification for licensees located more than 50 miles from the principal broker's office"
+    "code": "18_vac_135_20_60",
+    "title": "quarterly_face_to_face_supervision_certification",
+    "requirement": "requires_quarterly_face_to_face_supervision_certification_for_licensees_located_more_than_50_miles_from_the_principal_broker's_office"
   },
   "distance_analysis": {
-    "principal_broker_address": "FRISCO, TX 75034 (or 5729 LEBANON RD STE 144553, FRISCO, TX 75034)",
-    "firm_office_address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
-    "distance_miles": "approximately 1,300 miles",
-    "distance_km": "approximately 2,092 km",
+    "principal_broker_address": "frisco,_tx_75034_(or_5729_lebanon_rd_ste_144553,_frisco,_tx_75034)",
+    "firm_office_address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
+    "distance_miles": "approximately_1,300_miles",
+    "distance_km": "approximately_2,092_km",
     "exceeds_50_mile_limit": true,
-    "exceedance_amount": "1,250 miles over the 50-mile limit",
-    "exceedance_percentage": "2,500% over limit",
-    "calculation_date": "2025-12-09",
-    "calculation_method": "Google Maps distance calculator",
-    "verification": "verified via Google Maps",
-    "driving_time": "approximately 19-20 hours",
-    "flying_time": "approximately 3 hours",
-    "significance": "Makes quarterly face-to-face supervision physically impossible"
+    "exceedance_amount": "1,250_miles_over_the_50_mile_limit",
+    "exceedance_percentage": "2,500%_over_limit",
+    "calculation_date": "2025_12_09",
+    "calculation_method": "google_maps_distance_calculator",
+    "verification": "verified_via_google_maps",
+    "driving_time": "approximately_19_20_hours",
+    "flying_time": "approximately_3_hours",
+    "significance": "makes_quarterly_face_to_face_supervision_physically_impossible"
   },
   "supervision_certification_requirements": {
-    "frequency": "Quarterly (every 3 months)",
-    "requirement": "Face-to-face supervision certification must be filed with DPOR",
+    "frequency": "quarterly_(every_3_months)",
+    "requirement": "face_to_face_supervision_certification_must_be_filed_with_dpor",
     "certification_periods_since_assignment": {
-      "assignment_date": "2025-04-03",
+      "assignment_date": "2025_04_03",
       "certification_periods": [
         {
-          "period": "Q2 2025",
-          "start_date": "2025-04-03",
-          "end_date": "2025-06-30",
+          "period": "q2_2025",
+          "start_date": "2025_04_03",
+          "end_date": "2025_06_30",
           "certification_required": true,
           "certification_filed": "unknown",
-          "status": "pending verification"
+          "status": "pending_verification"
         },
         {
-          "period": "Q3 2025",
-          "start_date": "2025-07-01",
-          "end_date": "2025-09-30",
+          "period": "q3_2025",
+          "start_date": "2025_07_01",
+          "end_date": "2025_09_30",
           "certification_required": true,
           "certification_filed": "unknown",
-          "status": "pending verification"
+          "status": "pending_verification"
         },
         {
-          "period": "Q4 2025",
-          "start_date": "2025-10-01",
-          "end_date": "2025-12-31",
+          "period": "q4_2025",
+          "start_date": "2025_10_01",
+          "end_date": "2025_12_31",
           "certification_required": true,
           "certification_filed": "unknown",
-          "status": "pending verification"
+          "status": "pending_verification"
         }
       ]
     }
@@ -58,87 +58,87 @@
   "supervision_certification_search": {
     "status": "method_verified",
     "methods": [
-      "DPOR records request",
-      "FOIA request to DPOR",
-      "Public records search"
+      "dpor_records_request",
+      "foia_request_to_dpor",
+      "public_records_search"
     ],
     "virginia_requirement": {
-      "code_section": "VA Code § 54.1-2110.1",
-      "requirement": "If supervising broker resides more than 50 miles from branch office with active licensees, must certify quarterly in writing that supervision requirements have been met",
-      "certification_frequency": "Quarterly (every 3 months)",
-      "note": "Written certification required, but no explicit requirement for quarterly face-to-face meetings"
+      "code_section": "va_code_§_54.1_2110.1",
+      "requirement": "if_supervising_broker_resides_more_than_50_miles_from_branch_office_with_active_licensees,_must_certify_quarterly_in_writing_that_supervision_requirements_have_been_met",
+      "certification_frequency": "quarterly_(every_3_months)",
+      "note": "written_certification_required,_but_no_explicit_requirement_for_quarterly_face_to_face_meetings"
     },
     "findings": [],
     "foia_contact": {
-      "email": "PublicRecords@dpor.virginia.gov",
-      "fax": "(866) 254-0312"
+      "email": "publicrecords@dpor.virginia.gov",
+      "fax": "(866)_254_0312"
     }
   },
   "face_to_face_meeting_records": {
     "status": "logical_analysis_complete",
     "search_methods": [
-      "Kettler internal records (if accessible via discovery)",
-      "Employee testimony/witnesses",
-      "Travel records (if accessible)",
-      "Meeting logs/documentation"
+      "kettler_internal_records_(if_accessible_via_discovery)",
+      "employee_testimony/witnesses",
+      "travel_records_(if_accessible)",
+      "meeting_logs/documentation"
     ],
     "findings": [],
     "logical_analysis": {
-      "distance": "1,300 miles",
-      "driving_time": "19-20 hours one way",
-      "round_trip_time": "38-40 hours",
-      "flying_time": "3 hours one way",
-      "round_trip_flying": "6 hours + airport time",
-      "cost_per_trip": "Significant (airfare, hotels, time)",
-      "frequency_required": "Quarterly (4 times per year)",
-      "annual_time_commitment": "24+ hours of travel time alone",
-      "conclusion": "While quarterly written certification is required, the 1,300-mile distance makes regular face-to-face supervision impractical and likely not occurring"
+      "distance": "1,300_miles",
+      "driving_time": "19_20_hours_one_way",
+      "round_trip_time": "38_40_hours",
+      "flying_time": "3_hours_one_way",
+      "round_trip_flying": "6_hours_+_airport_time",
+      "cost_per_trip": "significant_(airfare,_hotels,_time)",
+      "frequency_required": "quarterly_(4_times_per_year)",
+      "annual_time_commitment": "24+_hours_of_travel_time_alone",
+      "conclusion": "while_quarterly_written_certification_is_required,_the_1,300_mile_distance_makes_regular_face_to_face_supervision_impractical_and_likely_not_occurring"
     }
   },
   "supervision_logs": {
     "status": "method_verified_foia_required",
     "search_methods": [
-      "DPOR records",
-      "Kettler internal documentation",
-      "Employee records"
+      "dpor_records",
+      "kettler_internal_documentation",
+      "employee_records"
     ],
     "findings": [],
     "foia_contact": {
-      "email": "PublicRecords@dpor.virginia.gov",
-      "fax": "(866) 254-0312"
+      "email": "publicrecords@dpor.virginia.gov",
+      "fax": "(866)_254_0312"
     },
-    "note": "Supervision logs would require FOIA request to DPOR or discovery in legal proceedings. Logical analysis shows impossibility given 1,300-mile distance."
+    "note": "supervision_logs_would_require_foia_request_to_dpor_or_discovery_in_legal_proceedings._logical_analysis_shows_impossibility_given_1,300_mile_distance."
   },
   "violation_analysis": {
     "distance_violation": {
       "status": "confirmed",
-      "distance": "1,300 miles (exceeds 50-mile limit by 1,250 miles)",
+      "distance": "1,300_miles_(exceeds_50_mile_limit_by_1,250_miles)",
       "violation_severity": "extreme"
     },
     "certification_violations": {
-      "status": "pending verification",
-      "potential_violations": "3+ quarterly periods without certification",
+      "status": "pending_verification",
+      "potential_violations": "3+_quarterly_periods_without_certification",
       "verification_needed": true
     },
     "face_to_face_meeting_violations": {
-      "status": "pending verification",
-      "logical_impossibility": "1,300-mile distance makes quarterly face-to-face meetings impractical",
+      "status": "pending_verification",
+      "logical_impossibility": "1,300_mile_distance_makes_quarterly_face_to_face_meetings_impractical",
       "verification_needed": true
     }
   },
-  "deliverable": "Analysis showing distance violation and lack of supervision certifications",
+  "deliverable": "analysis_showing_distance_violation_and_lack_of_supervision_certifications",
   "next_steps": [
-    "Calculate exact distance from Frisco TX to McLean VA",
-    "Submit FOIA request to DPOR for supervision certifications",
-    "Document lack of face-to-face meeting capability",
-    "Create violation timeline",
-    "Compile evidence package"
+    "calculate_exact_distance_from_frisco_tx_to_mclean_va",
+    "submit_foia_request_to_dpor_for_supervision_certifications",
+    "document_lack_of_face_to_face_meeting_capability",
+    "create_violation_timeline",
+    "compile_evidence_package"
   ],
   "metadata": {
     "file_name": "50_mile_rule_violations.json",
     "file_path": "research/va_dpor_complaint/50_mile_rule_violations.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

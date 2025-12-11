@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:46:33.528405",
-    "company": "Kettler Management Inc",
-    "state": "Connecticut",
-    "search_url": "https://www.concord-sots.ct.gov/CONCORD/",
-    "search_method": "Browser automation"
+    "date": "2025_12_10t20:46:33.528405",
+    "company": "kettler_management_inc",
+    "state": "ct",
+    "search_url": "https://www.concord_sots.ct.gov/concord/",
+    "search_method": "browser_automation"
   },
   "findings": {
     "registered": false,
@@ -14,5 +14,5 @@
     "business_address": null,
     "status": null
   },
-  "conclusion": "Kettler Management Inc registration status in Connecticut"
+  "conclusion": "kettler_management_inc_registration_status_in_connecticut"
 }

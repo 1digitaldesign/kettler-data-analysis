@@ -1,127 +1,127 @@
 {
   "metadata": {
-    "analysis_date": "2025-12-11",
-    "source": "Virginia State Corporation Commission (SCC) Entity Search",
+    "analysis_date": "2025_12_11",
+    "source": "virginia_state_corporation_commission_(scc)_entity_search",
     "entity_id": "03218674",
-    "search_url": "https://cis.scc.virginia.gov/EntitySearch/Index",
+    "search_url": "https://cis.scc.virginia.gov/entitysearch/index",
     "file_name": "virginia_scc_abnormalities_analysis.json",
     "file_path": "research/analysis/virginia_scc_abnormalities_analysis.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   },
   "entities_found": [
     {
       "entity_id": "03218674",
-      "legal_name": "KETTLER MANAGEMENT INC.",
-      "name_type": "Legal Name",
-      "entity_type": "Stock Corporation",
-      "status": "Active",
-      "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-      "registered_agent": "NATIONAL REGISTERED AGENTS, INC."
+      "legal_name": "kettler_management_inc.",
+      "name_type": "legal_name",
+      "entity_type": "stock_corporation",
+      "status": "active",
+      "business_address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+      "registered_agent": "national_registered_agents,_inc."
     },
     {
       "entity_id": "03218674",
-      "fictitious_name": "Kettler Management Corp.",
-      "name_type": "Fictitious Name",
-      "entity_type": "Stock Corporation",
-      "status": "Active",
-      "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-      "registered_agent": "NATIONAL REGISTERED AGENTS, INC."
+      "fictitious_name": "kettler_management_corp.",
+      "name_type": "fictitious_name",
+      "entity_type": "stock_corporation",
+      "status": "active",
+      "business_address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+      "registered_agent": "national_registered_agents,_inc."
     }
   ],
   "abnormalities_identified": [
     {
-      "category": "Name Inconsistency",
-      "severity": "Medium",
-      "description": "Single entity (03218674) registered with two different names: 'KETTLER MANAGEMENT INC.' (Legal Name) and 'Kettler Management Corp.' (Fictitious Name/DBA). The fictitious name uses 'Corp.' instead of 'Inc.'",
+      "category": "name_inconsistency",
+      "severity": "medium",
+      "description": "single_entity_(03218674)_registered_with_two_different_names:_'kettler_management_inc.'_(legal_name)_and_'kettler_management_corp.'_(fictitious_name/dba)._the_fictitious_name_uses_'corp.'_instead_of_'inc.'",
       "implications": [
-        "Potential confusion for consumers/regulators about exact legal entity name",
-        "May indicate intentional name variation for business purposes",
-        "Could be used to obscure connection between entities"
+        "potential_confusion_for_consumers/regulators_about_exact_legal_entity_name",
+        "may_indicate_intentional_name_variation_for_business_purposes",
+        "could_be_used_to_obscure_connection_between_entities"
       ],
-      "recommendation": "Verify if 'Kettler Management Corp.' is properly registered as a DBA/fictitious name and if it's being used in operations"
+      "recommendation": "verify_if_'kettler_management_corp.'_is_properly_registered_as_a_dba/fictitious_name_and_if_it's_being_used_in_operations"
     },
     {
-      "category": "Registered Agent",
-      "severity": "Low",
-      "description": "Uses commercial registered agent service (NATIONAL REGISTERED AGENTS, INC.) instead of in-house registered agent",
+      "category": "registered_agent",
+      "severity": "low",
+      "description": "uses_commercial_registered_agent_service_(national_registered_agents,_inc.)_instead_of_in_house_registered_agent",
       "implications": [
-        "Standard practice for privacy/legal purposes",
-        "May make it harder to identify actual business location",
-        "Common for multi-state operations"
+        "standard_practice_for_privacy/legal_purposes",
+        "may_make_it_harder_to_identify_actual_business_location",
+        "common_for_multi_state_operations"
       ],
-      "recommendation": "No action needed - this is standard business practice"
+      "recommendation": "no_action_needed_this_is_standard_business_practice"
     },
     {
-      "category": "Address Consistency",
-      "severity": "Low",
-      "description": "Both names share identical business address: 8255 Greensboro Dr Ste 200, McLean, VA",
+      "category": "address_consistency",
+      "severity": "low",
+      "description": "both_names_share_identical_business_address:_8255_greensboro_dr_ste_200,_mclean,_va",
       "implications": [
-        "Consistent address suggests legitimate DBA registration",
-        "Address matches known Kettler operations location"
+        "consistent_address_suggests_legitimate_dba_registration",
+        "address_matches_known_kettler_operations_location"
       ],
-      "recommendation": "Verify this address matches actual business operations"
+      "recommendation": "verify_this_address_matches_actual_business_operations"
     },
     {
-      "category": "Entity Type",
-      "severity": "Low",
-      "description": "Registered as 'Stock Corporation' - standard for for-profit business entities",
+      "category": "entity_type",
+      "severity": "low",
+      "description": "registered_as_'stock_corporation'_standard_for_for_profit_business_entities",
       "implications": [
-        "Standard entity type for property management companies",
-        "Allows for stock issuance and corporate structure"
+        "standard_entity_type_for_property_management_companies",
+        "allows_for_stock_issuance_and_corporate_structure"
       ],
-      "recommendation": "No abnormality - standard registration"
+      "recommendation": "no_abnormality_standard_registration"
     },
     {
-      "category": "Status",
-      "severity": "Low",
-      "description": "Status is 'Active' - entity is in good standing",
+      "category": "status",
+      "severity": "low",
+      "description": "status_is_'active'_entity_is_in_good_standing",
       "implications": [
-        "Entity is current with Virginia SCC requirements",
-        "No administrative dissolution or revocation"
+        "entity_is_current_with_virginia_scc_requirements",
+        "no_administrative_dissolution_or_revocation"
       ],
-      "recommendation": "Monitor for any status changes"
+      "recommendation": "monitor_for_any_status_changes"
     },
     {
-      "category": "Missing Information",
-      "severity": "Medium",
-      "description": "Formation date, last annual report date, and officers/directors information not captured in initial search",
+      "category": "missing_information",
+      "severity": "medium",
+      "description": "formation_date,_last_annual_report_date,_and_officers/directors_information_not_captured_in_initial_search",
       "implications": [
-        "Cannot determine when entity was formed",
-        "Cannot verify current officers/directors",
-        "Cannot confirm annual report filing compliance"
+        "cannot_determine_when_entity_was_formed",
+        "cannot_verify_current_officers/directors",
+        "cannot_confirm_annual_report_filing_compliance"
       ],
-      "recommendation": "Access detailed entity record (click Entity ID 03218674) to obtain: formation date, annual report dates, officers/directors list, and any amendments"
+      "recommendation": "access_detailed_entity_record_(click_entity_id_03218674)_to_obtain:_formation_date,_annual_report_dates,_officers/directors_list,_and_any_amendments"
     }
   ],
   "potential_concerns": [
     {
-      "concern": "Name Variation Usage",
-      "description": "If 'Kettler Management Corp.' (fictitious name) is being used in business operations, contracts, or licensing without proper disclosure of the legal entity name 'KETTLER MANAGEMENT INC.', this could be a violation",
+      "concern": "name_variation_usage",
+      "description": "if_'kettler_management_corp.'_(fictitious_name)_is_being_used_in_business_operations,_contracts,_or_licensing_without_proper_disclosure_of_the_legal_entity_name_'kettler_management_inc.',_this_could_be_a_violation",
       "regulatory_implications": [
-        "Virginia requires disclosure of legal entity name in business transactions",
-        "Real estate licensing may require use of exact legal entity name",
-        "Contracts should reference legal entity name"
+        "virginia_requires_disclosure_of_legal_entity_name_in_business_transactions",
+        "real_estate_licensing_may_require_use_of_exact_legal_entity_name",
+        "contracts_should_reference_legal_entity_name"
       ]
     },
     {
-      "concern": "Multi-State Registration",
-      "description": "Need to verify if this entity is properly registered in other states where Kettler operates (MD, DC, CT, NJ, NY, etc.)",
+      "concern": "multi_state_registration",
+      "description": "need_to_verify_if_this_entity_is_properly_registered_in_other_states_where_kettler_operates_(md,_dc,_ct,_nj,_ny,_etc.)",
       "regulatory_implications": [
-        "Foreign qualification required in states where business is conducted",
-        "Failure to qualify can result in penalties and inability to sue in state courts"
+        "foreign_qualification_required_in_states_where_business_is_conducted",
+        "failure_to_qualify_can_result_in_penalties_and_inability_to_sue_in_state_courts"
       ]
     }
   ],
   "recommended_actions": [
-    "1. Access detailed entity record via Entity ID 03218674 to obtain complete filing history",
-    "2. Verify formation date and compare with business operations timeline",
-    "3. Check annual report filing compliance",
-    "4. Obtain list of officers and directors",
-    "5. Review any amendments or name changes",
-    "6. Cross-reference with other state registrations",
-    "7. Verify if fictitious name 'Kettler Management Corp.' is properly disclosed in business operations",
-    "8. Check if entity is properly qualified as foreign entity in other operational states"
+    "1._access_detailed_entity_record_via_entity_id_03218674_to_obtain_complete_filing_history",
+    "2._verify_formation_date_and_compare_with_business_operations_timeline",
+    "3._check_annual_report_filing_compliance",
+    "4._obtain_list_of_officers_and_directors",
+    "5._review_any_amendments_or_name_changes",
+    "6._cross_reference_with_other_state_registrations",
+    "7._verify_if_fictitious_name_'kettler_management_corp.'_is_properly_disclosed_in_business_operations",
+    "8._check_if_entity_is_properly_qualified_as_foreign_entity_in_other_operational_states"
   ],
   "summary": {
     "total_abnormalities": 6,
@@ -129,10 +129,10 @@
     "medium_severity": 2,
     "low_severity": 4,
     "key_findings": [
-      "Single entity with two names (Legal and Fictitious)",
-      "Missing detailed filing information (formation date, officers, annual reports)",
-      "Standard registered agent and entity structure",
-      "Active status indicates good standing"
+      "single_entity_with_two_names_(legal_and_fictitious)",
+      "missing_detailed_filing_information_(formation_date,_officers,_annual_reports)",
+      "standard_registered_agent_and_entity_structure",
+      "active_status_indicates_good_standing"
     ]
   }
 }

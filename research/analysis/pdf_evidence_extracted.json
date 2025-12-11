@@ -1,169 +1,594 @@
 [
   {
-    "file": ["Gmail - RE_ Formal Notice of Lease Termination - Unit 533 - Addendum with Additional Documentation.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/pdfs/Gmail - RE_ Formal Notice of Lease Termination - Unit 533 - Addendum with Additional Documentation.pdf"],
+    "file": [
+      "gmail_re_formal_notice_of_lease_termination_unit_533_addendum_with_additional_documentation.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/pdfs/gmail_re_formal_notice_of_lease_termination_unit_533_addendum_with_additional_documentation.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-07 13:36:46"],
-      "modification_date": ["2025-12-07 13:36:46"],
-      "pages": [4],
-      "file_size": [488368]
+      "creation_date": [
+        "2025_12_07_13:36:46"
+      ],
+      "modification_date": [
+        "2025_12_07_13:36:46"
+      ],
+      "pages": [
+        4
+      ],
+      "file_size": [
+        488368
+      ]
     },
-    "text_length": [20590],
-    "text_preview": ["                                                                                                                                                                                                                                                      Betty <bettyctai@gmail.com>\n\n\n\nRE: Formal Notice of Lease Termination - Unit 533 - Addendum with Additional Documentation\n1 message\n\nBetty <bettyctai@gmail.com>                                                                                              "],
+    "text_length": [
+      20590
+    ],
+    "text_preview": [
+      "betty_<bettyctai@gmail.com>_re:_formal_notice_of_lease_termination_unit_533_addendum_with_additional_documentation_1_message_betty_<bettyctai@gmail.com>"
+    ],
     "entities": {
-      "emails": ["bettyctai@gmail.com", "ehyland@kettler.com", "Carlyle.PM@kettler.com", "joranbailey465@gmail.com", "Ehyland@kettler.com", "carlyle.pm@kettler.com", "Carlyle@kettler.com", "Carlyle.APM@kettler.com"],
-      "phones": ["516-246-0305", "703-641-9000", "301-509-7458", "703.299.7599"],
-      "dates": ["December 31, 2025", "December 13, 2025", "October 14, 2025", "June 12, 2025", "October 1, 2025", "October 10, 2025", "September 25, 2025", "October 17, 2025", "02/01/2026", "December 5, 2025", "December 3, 2025"],
-      "addresses": ["8255 Greensboro Drive #200, McLean, VA 22102"],
-      "units": ["Unit 533", "Unit 433", "Unit 147", "unit 533"],
-      "license_numbers": ["001792", "09252025"],
-      "firms": ["Dear Kettler Management"]
+      "emails": [
+        "bettyctai@gmail.com",
+        "ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "joranbailey465@gmail.com",
+        "ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "carlyle@kettler.com",
+        "carlyle.apm@kettler.com"
+      ],
+      "phones": [
+        "516_246_0305",
+        "703_641_9000",
+        "301_509_7458",
+        "703.299.7599"
+      ],
+      "dates": [
+        "december_31,_2025",
+        "december_13,_2025",
+        "october_14,_2025",
+        "june_12,_2025",
+        "october_1,_2025",
+        "october_10,_2025",
+        "september_25,_2025",
+        "october_17,_2025",
+        "02/01/2026",
+        "december_5,_2025",
+        "december_3,_2025"
+      ],
+      "addresses": [
+        "8255_greensboro_drive_#200,_mclean,_va_22102"
+      ],
+      "units": [
+        "unit_533",
+        "unit_433",
+        "unit_147",
+        "unit_533"
+      ],
+      "license_numbers": [
+        "001792",
+        "09252025"
+      ],
+      "firms": [
+        "dear_kettler_management"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [1, 0, 0, 0, 0, 0, 4, 0, 2, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 1, 0, 0, 0, 13, 0, 1, 0, 0, 0, 0, 0],
-      "lease_mentions": [18, 0, 3, 3, 6, 11, 3, 9, 0, 0]
+      "violation_mentions": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        13,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        18,
+        0,
+        3,
+        3,
+        6,
+        11,
+        3,
+        9,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Email thread with Djene Moyer.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/emails/Email thread with Djene Moyer.pdf"],
+    "file": [
+      "email_thread_with_djene_moyer.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/emails/email_thread_with_djene_moyer.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 13:57:02"],
-      "modification_date": ["2025-12-06 13:57:02"],
-      "pages": [2],
-      "file_size": [371537]
+      "creation_date": [
+        "2025_12_06_13:57:02"
+      ],
+      "modification_date": [
+        "2025_12_06_13:57:02"
+      ],
+      "pages": [
+        2
+      ],
+      "file_size": [
+        371537
+      ]
     },
-    "text_length": [11672],
-    "text_preview": ["                                                                                                                                                                                                                                                          Betty <bettyctai@gmail.com>\n\n\n\nDisturbing Behavior from VRBO guests in 800 John Carlyle\n4 messages\n\nBetty <bettyctai@gmail.com>                                                                                                                           "],
+    "text_length": [
+      11672
+    ],
+    "text_preview": [
+      "betty_<bettyctai@gmail.com>_disturbing_behavior_from_vrbo_guests_in_800_john_carlyle_4_messages_betty_<bettyctai@gmail.com>"
+    ],
     "entities": {
-      "emails": ["bettyctai@gmail.com", "Carlyle.PM@kettler.com", "joranbailey465@gmail.com", "carlyle.pm@kettler.com"],
-      "phones": ["703.299.7599"],
-      "dates": ["January 10, 2025"],
+      "emails": [
+        "bettyctai@gmail.com",
+        "carlyle.pm@kettler.com",
+        "joranbailey465@gmail.com",
+        "carlyle.pm@kettler.com"
+      ],
+      "phones": [
+        "703.299.7599"
+      ],
+      "dates": [
+        "january_10,_2025"
+      ],
       "addresses": [],
       "units": [],
       "license_numbers": [],
-      "firms": ["Listings\n Pure Voyage LLC", "Pure Voyage Holdings Inc", "Listings\n    Pure Voyage LLC", "Listings\n\n    Pure Voyage LLC"]
+      "firms": [
+        "listings_pure_voyage_llc",
+        "pure_voyage_holdings_inc",
+        "listings_pure_voyage_llc",
+        "listings_pure_voyage_llc"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Gmail - Formal Notice of Lease Termination - Unit 533.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/legal_documents/Gmail - Formal Notice of Lease Termination - Unit 533.pdf"],
+    "file": [
+      "gmail_formal_notice_of_lease_termination_unit_533.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/legal_documents/gmail_formal_notice_of_lease_termination_unit_533.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 13:44:06"],
-      "modification_date": ["2025-12-06 13:44:06"],
-      "pages": [1],
-      "file_size": [143199]
+      "creation_date": [
+        "2025_12_06_13:44:06"
+      ],
+      "modification_date": [
+        "2025_12_06_13:44:06"
+      ],
+      "pages": [
+        1
+      ],
+      "file_size": [
+        143199
+      ]
     },
-    "text_length": [5423],
-    "text_preview": ["                                                                                                                                                                                                                                                       Betty <bettyctai@gmail.com>\n\n\n\nFormal Notice of Lease Termination - Unit 533\nBetty <bettyctai@gmail.com>                                                                                                                                                     "],
+    "text_length": [
+      5423
+    ],
+    "text_preview": [
+      "betty_<bettyctai@gmail.com>_formal_notice_of_lease_termination_unit_533_betty_<bettyctai@gmail.com>"
+    ],
     "entities": {
-      "emails": ["bettyctai@gmail.com", "ehyland@kettler.com", "Carlyle.PM@kettler.com", "joranbailey465@gmail.com"],
-      "phones": ["516-246-0305"],
-      "dates": ["October 1, 2025", "October 10, 2025", "September 25, 2025", "October 17, 2025", "December 31, 2025", "December 13, 2025"],
+      "emails": [
+        "bettyctai@gmail.com",
+        "ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "joranbailey465@gmail.com"
+      ],
+      "phones": [
+        "516_246_0305"
+      ],
+      "dates": [
+        "october_1,_2025",
+        "october_10,_2025",
+        "september_25,_2025",
+        "october_17,_2025",
+        "december_31,_2025",
+        "december_13,_2025"
+      ],
       "addresses": [],
-      "units": ["Unit 533", "Unit 433"],
+      "units": [
+        "unit_533",
+        "unit_433"
+      ],
       "license_numbers": [],
       "firms": []
     },
     "regulatory_info": {
-      "violation_mentions": [1, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
-      "lease_mentions": [4, 0, 1, 1, 4, 4, 1, 1, 0, 0]
+      "violation_mentions": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        4,
+        0,
+        1,
+        1,
+        4,
+        4,
+        1,
+        1,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Gmail - RE_ Formal Notice of Lease Termination - Unit 533 - Addendum with Additional Documentation.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/legal_documents/Gmail - RE_ Formal Notice of Lease Termination - Unit 533 - Addendum with Additional Documentation.pdf"],
+    "file": [
+      "gmail_re_formal_notice_of_lease_termination_unit_533_addendum_with_additional_documentation.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/legal_documents/gmail_re_formal_notice_of_lease_termination_unit_533_addendum_with_additional_documentation.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-07 13:36:46"],
-      "modification_date": ["2025-12-07 13:36:46"],
-      "pages": [4],
-      "file_size": [488368]
+      "creation_date": [
+        "2025_12_07_13:36:46"
+      ],
+      "modification_date": [
+        "2025_12_07_13:36:46"
+      ],
+      "pages": [
+        4
+      ],
+      "file_size": [
+        488368
+      ]
     },
-    "text_length": [20590],
-    "text_preview": ["                                                                                                                                                                                                                                                      Betty <bettyctai@gmail.com>\n\n\n\nRE: Formal Notice of Lease Termination - Unit 533 - Addendum with Additional Documentation\n1 message\n\nBetty <bettyctai@gmail.com>                                                                                              "],
+    "text_length": [
+      20590
+    ],
+    "text_preview": [
+      "betty_<bettyctai@gmail.com>_re:_formal_notice_of_lease_termination_unit_533_addendum_with_additional_documentation_1_message_betty_<bettyctai@gmail.com>"
+    ],
     "entities": {
-      "emails": ["bettyctai@gmail.com", "ehyland@kettler.com", "Carlyle.PM@kettler.com", "joranbailey465@gmail.com", "Ehyland@kettler.com", "carlyle.pm@kettler.com", "Carlyle@kettler.com", "Carlyle.APM@kettler.com"],
-      "phones": ["516-246-0305", "703-641-9000", "301-509-7458", "703.299.7599"],
-      "dates": ["December 31, 2025", "December 13, 2025", "October 14, 2025", "June 12, 2025", "October 1, 2025", "October 10, 2025", "September 25, 2025", "October 17, 2025", "02/01/2026", "December 5, 2025", "December 3, 2025"],
-      "addresses": ["8255 Greensboro Drive #200, McLean, VA 22102"],
-      "units": ["Unit 533", "Unit 433", "Unit 147", "unit 533"],
-      "license_numbers": ["001792", "09252025"],
-      "firms": ["Dear Kettler Management"]
+      "emails": [
+        "bettyctai@gmail.com",
+        "ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "joranbailey465@gmail.com",
+        "ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "carlyle@kettler.com",
+        "carlyle.apm@kettler.com"
+      ],
+      "phones": [
+        "516_246_0305",
+        "703_641_9000",
+        "301_509_7458",
+        "703.299.7599"
+      ],
+      "dates": [
+        "december_31,_2025",
+        "december_13,_2025",
+        "october_14,_2025",
+        "june_12,_2025",
+        "october_1,_2025",
+        "october_10,_2025",
+        "september_25,_2025",
+        "october_17,_2025",
+        "02/01/2026",
+        "december_5,_2025",
+        "december_3,_2025"
+      ],
+      "addresses": [
+        "8255_greensboro_drive_#200,_mclean,_va_22102"
+      ],
+      "units": [
+        "unit_533",
+        "unit_433",
+        "unit_147",
+        "unit_533"
+      ],
+      "license_numbers": [
+        "001792",
+        "09252025"
+      ],
+      "firms": [
+        "dear_kettler_management"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [1, 0, 0, 0, 0, 0, 4, 0, 2, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 1, 0, 0, 0, 13, 0, 1, 0, 0, 0, 0, 0],
-      "lease_mentions": [18, 0, 3, 3, 6, 11, 3, 9, 0, 0]
+      "violation_mentions": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        13,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        18,
+        0,
+        3,
+        3,
+        6,
+        11,
+        3,
+        9,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Notice of Acknowledgement Letter - 533.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/legal_documents/Notice of Acknowledgement Letter - 533.pdf"],
+    "file": [
+      "notice_of_acknowledgement_letter_533.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/legal_documents/notice_of_acknowledgement_letter_533.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-05 19:32:51"],
-      "modification_date": ["2025-12-05 19:32:51"],
-      "pages": [5],
-      "file_size": [219871]
+      "creation_date": [
+        "2025_12_05_19:32:51"
+      ],
+      "modification_date": [
+        "2025_12_05_19:32:51"
+      ],
+      "pages": [
+        5
+      ],
+      "file_size": [
+        219871
+      ]
     },
-    "text_length": [10600],
-    "text_preview": ["                                 Notice to Vacate Acknowledgment\n\nDecember 5th, 2025\n\nJoran Bailey & Betty Tai\n850 John Carlyle Street #533\nAlexandria, VA 22314\n\nDear Resident,\n\nThis is to inform you that we received your notice indicating that you are planning on vacating your\napartment home on 02/01/2026. Should there be an error with this date listed, please contact the office\nfor additional assistance. Below you will find your current account status and all applicable charges\npursuant to you"],
+    "text_length": [
+      10600
+    ],
+    "text_preview": [
+      "notice_to_vacate_acknowledgment_december_5th,_2025_joran_bailey_&_betty_tai_850_john_carlyle_street_#533_alexandria,_va_22314_dear_resident,_this_is_to_inform_you_that_we_received_your_notice_indicating_that_you_are_planning_on_vacating_your_apartment_home_on_02/01/2026._should_there_be_an_error_with_this_date_listed,_please_contact_the_office_for_additional_assistance._below_you_will_find_your_current_account_status_and_all_applicable_charges_pursuant_to_you"
+    ],
     "entities": {
       "emails": [],
-      "phones": ["703-299-7599"],
-      "dates": ["02/01/2026", "12/05/2025"],
+      "phones": [
+        "703_299_7599"
+      ],
+      "dates": [
+        "02/01/2026",
+        "12/05/2025"
+      ],
       "addresses": [],
       "units": [],
       "license_numbers": [],
-      "firms": ["Carlyle Management"]
+      "firms": [
+        "carlyle_management"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0],
-      "lease_mentions": [8, 3, 0, 0, 0, 2, 6, 3, 3, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        8,
+        3,
+        0,
+        0,
+        0,
+        2,
+        6,
+        3,
+        3,
+        0
+      ]
     }
   },
   {
-    "file": ["(1) Edward Hyland, CAM, CAPS _ LinkedIn.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/linkedin_profiles/(1) Edward Hyland, CAM, CAPS _ LinkedIn.pdf"],
+    "file": [
+      "(1)_edward_hyland,_cam,_caps_linkedin.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/linkedin_profiles/(1)_edward_hyland,_cam,_caps_linkedin.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 22:35:08"],
-      "modification_date": ["2025-12-06 22:35:08"],
-      "pages": [3],
-      "file_size": [515626]
+      "creation_date": [
+        "2025_12_06_22:35:08"
+      ],
+      "modification_date": [
+        "2025_12_06_22:35:08"
+      ],
+      "pages": [
+        3
+      ],
+      "file_size": [
+        515626
+      ]
     },
-    "text_length": [4604],
-    "text_preview": ["                                                                                1\n                              Home      My Network     Jobs   Messaging Notifications   Me   For Business   Learning\n\n\n\n\nEdward      Hyland, CAM, CAPS · 3rd\nSenior Regional Manager\nKettler Management, Inc.\n\nUniversity of North Carolina at Wilmington\nMcLean, Virginia, United States · Contact info\n243 connections\n     Message            Follow        More\n\nAbout\nResidential Property Management Leader.\n\nActivity\n249 f"],
+    "text_length": [
+      4604
+    ],
+    "text_preview": [
+      "1_home_my_network_jobs_messaging_notifications_me_for_business_learning_edward_hyland,_cam,_caps_·_3rd_senior_regional_manager_kettler_management,_inc._university_of_north_carolina_at_wilmington_mclean,_virginia,_united_states_·_contact_info_243_connections_message_follow_more_about_residential_property_management_leader._activity_249_f"
+    ],
     "entities": {
       "emails": [],
       "phones": [],
@@ -171,29 +596,99 @@
       "addresses": [],
       "units": [],
       "license_numbers": [],
-      "firms": ["Senior Regional Manager\nKettler Management", "Message            Follow        More\n\nAbout\nResidential Property Management", "Experience\n        Senior Regional Manager\n        Kettler Management", "United States\n        Dreyfuss Management", "Alexandria Virginia\n        Assistant Property Manager\n        Riverstone Residential", "Property Manager\n        Riverstone Residential", "Interests\nCompanies         Groups\n         Fairfield Residential", "Project Management", "Jordan Birdsell\n        Strategic Client Management", "Research Services"]
+      "firms": [
+        "senior_regional_manager_kettler_management",
+        "message_follow_more_about_residential_property_management",
+        "experience_senior_regional_manager_kettler_management",
+        "united_states_dreyfuss_management",
+        "alexandria_virginia_assistant_property_manager_riverstone_residential",
+        "property_manager_riverstone_residential",
+        "interests_companies_groups_fairfield_residential",
+        "project_management",
+        "jordan_birdsell_strategic_client_management",
+        "research_services"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["(1) Experience _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/linkedin_profiles/(1) Experience _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf"],
+    "file": [
+      "(1)_experience_edward_hyland,_cam,_caps_linkedin.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/linkedin_profiles/(1)_experience_edward_hyland,_cam,_caps_linkedin.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 22:35:18"],
-      "modification_date": ["2025-12-06 22:35:18"],
-      "pages": [2],
-      "file_size": [359571]
+      "creation_date": [
+        "2025_12_06_22:35:18"
+      ],
+      "modification_date": [
+        "2025_12_06_22:35:18"
+      ],
+      "pages": [
+        2
+      ],
+      "file_size": [
+        359571
+      ]
     },
-    "text_length": [4652],
-    "text_preview": ["                                                                                  1\n                             Home      My Network      Jobs     Messaging Notifications   Me   For Business   Learning\n\n\n   Edward Hyland, CAM, CAPS                   More             Follow           Message\n   Senior Regional Manager\n\n      Experience\n       Senior Regional Manager\n       Kettler Management, Inc. · Full-time\n       Sep 2022 - Present · 3 yrs 4 mos\n       Virginia, United States\n       Dreyfuss "],
+    "text_length": [
+      4652
+    ],
+    "text_preview": [
+      "1_home_my_network_jobs_messaging_notifications_me_for_business_learning_edward_hyland,_cam,_caps_more_follow_message_senior_regional_manager_experience_senior_regional_manager_kettler_management,_inc._·_full_time_sep_2022_present_·_3_yrs_4_mos_virginia,_united_states_dreyfuss"
+    ],
     "entities": {
       "emails": [],
       "phones": [],
@@ -201,29 +696,97 @@
       "addresses": [],
       "units": [],
       "license_numbers": [],
-      "firms": ["More             Follow           Message\n   Senior Regional Manager\n\n      Experience\n       Senior Regional Manager\n       Kettler Management", "United States\n       Dreyfuss Management", "Alexandria Virginia\n       Assistant Property Manager\n       Riverstone Residential", "Property Manager\n       Riverstone Residential", "Finance Manager\n       Riverstone Residential", "Assistant Property Manager\n       Trammell Crow Residential Services", "Senior Leasing Consultant\n       Trammell Crow Residential Services", "Project Management"]
+      "firms": [
+        "more_follow_message_senior_regional_manager_experience_senior_regional_manager_kettler_management",
+        "united_states_dreyfuss_management",
+        "alexandria_virginia_assistant_property_manager_riverstone_residential",
+        "property_manager_riverstone_residential",
+        "finance_manager_riverstone_residential",
+        "assistant_property_manager_trammell_crow_residential_services",
+        "senior_leasing_consultant_trammell_crow_residential_services",
+        "project_management"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["(1) Interests _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/linkedin_profiles/(1) Interests _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf"],
+    "file": [
+      "(1)_interests_edward_hyland,_cam,_caps_linkedin.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/linkedin_profiles/(1)_interests_edward_hyland,_cam,_caps_linkedin.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 22:35:28"],
-      "modification_date": ["2025-12-06 22:35:28"],
-      "pages": [3],
-      "file_size": [497551]
+      "creation_date": [
+        "2025_12_06_22:35:28"
+      ],
+      "modification_date": [
+        "2025_12_06_22:35:28"
+      ],
+      "pages": [
+        3
+      ],
+      "file_size": [
+        497551
+      ]
     },
-    "text_length": [4574],
-    "text_preview": ["                                                                                    1\n                                 Home       My Network    Jobs    Messaging Notifications   Me   For Business   Learning\n\n\n    Edward Hyland, CAM, CAPS                       More          Follow         Message\n    Senior Regional Manager Promoted\n\n       Last Chance - Save 65%\n       Interests\n     Don’t forget to add Bloomberg’s data-\n     driven context to your cart.\nCompaniesKenny     & 7 other connections\n"],
+    "text_length": [
+      4574
+    ],
+    "text_preview": [
+      "1_home_my_network_jobs_messaging_notifications_me_for_business_learning_edward_hyland,_cam,_caps_more_follow_message_senior_regional_manager_promoted_last_chance_save_65%_interests_don’t_forget_to_add_bloomberg’s_data_driven_context_to_your_cart._companieskenny_&_7_other_connections"
+    ],
     "entities": {
       "emails": [],
       "phones": [],
@@ -231,29 +794,97 @@
       "addresses": [],
       "units": [],
       "license_numbers": [],
-      "firms": ["Follow\n         Stellar Management", "Follow\n         Harbor Group Management Company", "Follow\n         Virginia Apartment Management", "Follow\n         Dreyfuss Management", "Follow\n       Bruno Clay Management", "Follow\n       Kettler Management", "Follow\n       Management", "Project Management"]
+      "firms": [
+        "follow_stellar_management",
+        "follow_harbor_group_management_company",
+        "follow_virginia_apartment_management",
+        "follow_dreyfuss_management",
+        "follow_bruno_clay_management",
+        "follow_kettler_management",
+        "follow_management",
+        "project_management"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["2 (1) Interests _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/linkedin_profiles/2 (1) Interests _ Edward Hyland, CAM, CAPS _ LinkedIn.pdf"],
+    "file": [
+      "2_(1)_interests_edward_hyland,_cam,_caps_linkedin.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/linkedin_profiles/2_(1)_interests_edward_hyland,_cam,_caps_linkedin.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 22:35:41"],
-      "modification_date": ["2025-12-06 22:35:41"],
-      "pages": [2],
-      "file_size": [270121]
+      "creation_date": [
+        "2025_12_06_22:35:41"
+      ],
+      "modification_date": [
+        "2025_12_06_22:35:41"
+      ],
+      "pages": [
+        2
+      ],
+      "file_size": [
+        270121
+      ]
     },
-    "text_length": [1602],
-    "text_preview": ["                                                                                 1\n                             Home     My Network      Jobs     Messaging Notifications   Me   For Business   Learning\n\n\n   Edward Hyland, CAM, CAPS                   More            Follow         Message\n   Senior Regional Manager\n\n      Interests\nCompanies        Groups\n       AI Innovators Group\n       16,107 members\n          Join\n       Property Management Executive Career Connection hosted\n       by Willy Bu"],
+    "text_length": [
+      1602
+    ],
+    "text_preview": [
+      "1_home_my_network_jobs_messaging_notifications_me_for_business_learning_edward_hyland,_cam,_caps_more_follow_message_senior_regional_manager_interests_companies_groups_ai_innovators_group_16,107_members_join_property_management_executive_career_connection_hosted_by_willy_bu"
+    ],
     "entities": {
       "emails": [],
       "phones": [],
@@ -261,29 +892,92 @@
       "addresses": [],
       "units": [],
       "license_numbers": [],
-      "firms": ["Join\n       Property Management", "Join\n       Residential Property Management", "Project Management"]
+      "firms": [
+        "join_property_management",
+        "join_residential_property_management",
+        "project_management"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Edward Hyland.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/linkedin_profiles/Edward Hyland.pdf"],
+    "file": [
+      "edward_hyland.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/linkedin_profiles/edward_hyland.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 18:46:20"],
-      "modification_date": ["1969-12-31 18:59:59"],
-      "pages": [2],
-      "file_size": [48817]
+      "creation_date": [
+        "2025_12_06_18:46:20"
+      ],
+      "modification_date": [
+        "1969_12_31_18:59:59"
+      ],
+      "pages": [
+        2
+      ],
+      "file_size": [
+        48817
+      ]
     },
-    "text_length": [2799],
-    "text_preview": ["Contact\n                              Edward Hyland, CAM, CAPS\nwww.linkedin.com/in/edward-   Senior Regional Manager\nhyland-cam-caps-2ba73845      McLean, Virginia, United States\n(LinkedIn)\n\n                              Summary\nTop Skills\nLeadership                    Residential Property Management Leader.\nFinance\nStrategy\n                              Experience\nCertifications\n                              Kettler Management, Inc.\nCertified Apartment Manager\n                              Seni"],
+    "text_length": [
+      2799
+    ],
+    "text_preview": [
+      "contact_edward_hyland,_cam,_caps_www.linkedin.com/in/edward_senior_regional_manager_hyland_cam_caps_2ba73845_mclean,_virginia,_united_states_(linkedin)_summary_top_skills_leadership_residential_property_management_leader._finance_strategy_experience_certifications_kettler_management,_inc._certified_apartment_manager_seni"
+    ],
     "entities": {
       "emails": [],
       "phones": [],
@@ -291,59 +985,203 @@
       "addresses": [],
       "units": [],
       "license_numbers": [],
-      "firms": ["Summary\nTop Skills\nLeadership                    Residential Property Management", "Finance\nStrategy\n                              Experience\nCertifications\n                              Kettler Management", "United States\n\n\n                              Dreyfuss Management", "Alexandria Virginia\n\n\n                              Riverstone Residential", "Riverstone Residential", "Trammell Crow Residential Services"]
+      "firms": [
+        "summary_top_skills_leadership_residential_property_management",
+        "finance_strategy_experience_certifications_kettler_management",
+        "united_states_dreyfuss_management",
+        "alexandria_virginia_riverstone_residential",
+        "riverstone_residential",
+        "trammell_crow_residential_services"
+      ]
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Airbnb booking receipt.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/airbnb/Airbnb booking receipt.pdf"],
+    "file": [
+      "airbnb_booking_receipt.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/airbnb/airbnb_booking_receipt.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 13:58:19"],
-      "modification_date": ["2025-12-06 13:58:19"],
-      "pages": [5],
-      "file_size": [501858]
+      "creation_date": [
+        "2025_12_06_13:58:19"
+      ],
+      "modification_date": [
+        "2025_12_06_13:58:19"
+      ],
+      "pages": [
+        5
+      ],
+      "file_size": [
+        501858
+      ]
     },
-    "text_length": [26082],
-    "text_preview": ["                                                                                                                                                              Betty <bettyctai@gmail.com>\n\n\n\nRE: Reservation at Ideal & Stunning 2BR in Old Town w Free Parking for Jun 17 - 19, 2025\n11 messages\n\nAirbnb <express@airbnb.com>                                                                                                                                    Wed, Jun 11, 2025 at 9:39 PM\nReply-To: \"Dee (Airbn"],
+    "text_length": [
+      26082
+    ],
+    "text_preview": [
+      "betty_<bettyctai@gmail.com>_re:_reservation_at_ideal_&_stunning_2br_in_old_town_w_free_parking_for_jun_17_19,_2025_11_messages_airbnb_<express@airbnb.com>_wed,_jun_11,_2025_at_9:39_pm_reply_to:_\"dee_(airbn"
+    ],
     "entities": {
-      "emails": ["bettyctai@gmail.com", "express@airbnb.com", "4jix53pjzty5wce8o4a20m07t6nzn0ggtewu@reply.airbnb.com", "4srzzczt938f6moiyekcawah3l3f30tkz3or@reply.airbnb.com", "4or22f2wc6bi9prl1hnfdzdk6o6i61b5ukg1@reply.airbnb.com", "4rann0nhxrw3uac6m280yky5r9r3r12xj519@reply.airbnb.com", "4jxbbob5lfkriy0uaqwom8mtfxfrf0p5mnra@reply.airbnb.com", "481nn0nhxrw3uac6m280yky5r9r3r0e3d61e@reply.airbnb.com", "4eobbob5lfkriy0uaqwom8mtfxfrf0nxdp41@reply.airbnb.com", "4oaxxaxr716d4kmgwcia8u8f1j1d11yk7jio@reply.airbnb.com", "joranbailey465@gmail.com", "4uhd9xlfvpu1s8a4k06ywiw3p8q2q008n509@reply.airbnb.com", "4ozba6uo4y3a1hjdt9f75r5cyi0c01r2ckut@reply.airbnb.com"],
+      "emails": [
+        "bettyctai@gmail.com",
+        "express@airbnb.com",
+        "4jix53pjzty5wce8o4a20m07t6nzn0ggtewu@reply.airbnb.com",
+        "4srzzczt938f6moiyekcawah3l3f30tkz3or@reply.airbnb.com",
+        "4or22f2wc6bi9prl1hnfdzdk6o6i61b5ukg1@reply.airbnb.com",
+        "4rann0nhxrw3uac6m280yky5r9r3r12xj519@reply.airbnb.com",
+        "4jxbbob5lfkriy0uaqwom8mtfxfrf0p5mnra@reply.airbnb.com",
+        "481nn0nhxrw3uac6m280yky5r9r3r0e3d61e@reply.airbnb.com",
+        "4eobbob5lfkriy0uaqwom8mtfxfrf0nxdp41@reply.airbnb.com",
+        "4oaxxaxr716d4kmgwcia8u8f1j1d11yk7jio@reply.airbnb.com",
+        "joranbailey465@gmail.com",
+        "4uhd9xlfvpu1s8a4k06ywiw3p8q2q008n509@reply.airbnb.com",
+        "4ozba6uo4y3a1hjdt9f75r5cyi0c01r2ckut@reply.airbnb.com"
+      ],
       "phones": [],
-      "dates": ["June 17, 2025", "June 19, 2025"],
-      "addresses": ["00 PM\n\n\n\n\n                                                                                   Guests\n                                                                                   1 adult\n\n                                                                                                                 Get the app.\n                                                                                                      The fastest, easiest way to Airbnb.\n\n\n\n\n                                                                                             Airbnb, Inc., 888 Brannan St., San Francisco, CA 94103"],
+      "dates": [
+        "june_17,_2025",
+        "june_19,_2025"
+      ],
+      "addresses": [
+        "00_pm_guests_1_adult_get_the_app._the_fastest,_easiest_way_to_airbnb._airbnb,_inc.,_888_brannan_st.,_san_francisco,_ca_94103"
+      ],
       "units": [],
       "license_numbers": [],
       "firms": []
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Ideal & Stunning 2BR in Old Town w Free Parking - Apartments for Rent in Alexandria, Virginia, United States - Airbnb.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/airbnb/Ideal & Stunning 2BR in Old Town w Free Parking - Apartments for Rent in Alexandria, Virginia, United States - Airbnb.pdf"],
+    "file": [
+      "ideal_&_stunning_2br_in_old_town_w_free_parking_apartments_for_rent_in_alexandria,_virginia,_united_states_airbnb.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/airbnb/ideal_&_stunning_2br_in_old_town_w_free_parking_apartments_for_rent_in_alexandria,_virginia,_united_states_airbnb.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 14:07:04"],
-      "modification_date": ["2025-12-06 14:07:04"],
-      "pages": [3],
-      "file_size": [3273395]
+      "creation_date": [
+        "2025_12_06_14:07:04"
+      ],
+      "modification_date": [
+        "2025_12_06_14:07:04"
+      ],
+      "pages": [
+        3
+      ],
+      "file_size": [
+        3273395
+      ]
     },
-    "text_length": [12644],
-    "text_preview": ["                                                                                           Anywhere    Any week     Add guests                                    Become a host\n\n\n\n\n                                      Ideal & Stunning 2BR in Old Town w Free Parking                                                            Share         Save\n\n\n\n\n                                                                                                                                             Show all ph"],
+    "text_length": [
+      12644
+    ],
+    "text_preview": [
+      "anywhere_any_week_add_guests_become_a_host_ideal_&_stunning_2br_in_old_town_w_free_parking_share_save_show_all_ph"
+    ],
     "entities": {
       "emails": [],
       "phones": [],
@@ -354,26 +1192,85 @@
       "firms": []
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Reasonable Modification or Accommodation Form 2022 (Fillable) (1).pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/accommodation_forms/Reasonable Modification or Accommodation Form 2022 (Fillable) (1).pdf"],
+    "file": [
+      "reasonable_modification_or_accommodation_form_2022_(fillable)_(1).pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/accommodation_forms/reasonable_modification_or_accommodation_form_2022_(fillable)_(1).pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2022-09-02 11:01:44"],
-      "modification_date": ["2022-09-02 11:04:36"],
-      "pages": [2],
-      "file_size": [163342]
+      "creation_date": [
+        "2022_09_02_11:01:44"
+      ],
+      "modification_date": [
+        "2022_09_02_11:04:36"
+      ],
+      "pages": [
+        2
+      ],
+      "file_size": [
+        163342
+      ]
     },
-    "text_length": [5662],
-    "text_preview": ["                   REASONABLE ACCOMMODATION/MODIFICATION REQUEST FORM\n\nThis property is committed to the letter and spirit of the Fair Housing Act, which, among other things,\nprohibits discrimination against persons with disabilities. In accordance with our statutory responsibilities\nand management policies, we will make reasonable accommodations to our rules, policies, practices, or\nservices, when such accommodations may be necessary to afford persons with disabilities an equal\nopportunity to u"],
+    "text_length": [
+      5662
+    ],
+    "text_preview": [
+      "reasonable_accommodation/modification_request_form_this_property_is_committed_to_the_letter_and_spirit_of_the_fair_housing_act,_which,_among_other_things,_prohibits_discrimination_against_persons_with_disabilities._in_accordance_with_our_statutory_responsibilities_and_management_policies,_we_will_make_reasonable_accommodations_to_our_rules,_policies,_practices,_or_services,_when_such_accommodations_may_be_necessary_to_afford_persons_with_disabilities_an_equal_opportunity_to_u"
+    ],
     "entities": {
       "emails": [],
       "phones": [],
@@ -384,39 +1281,157 @@
       "firms": []
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "lease_mentions": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   },
   {
-    "file": ["Scale AI correspondence.pdf"],
-    "file_path": ["/Users/machine/Documents/kettler-data-analysis/evidence/correspondence/Scale AI correspondence.pdf"],
+    "file": [
+      "scale_ai_correspondence.pdf"
+    ],
+    "file_path": [
+      "/users/machine/documents/kettler_data_analysis/evidence/correspondence/scale_ai_correspondence.pdf"
+    ],
     "metadata": {
       "title": {},
       "author": {},
       "creator": {},
       "producer": {},
-      "creation_date": ["2025-12-06 14:04:28"],
-      "modification_date": ["2025-12-06 14:04:28"],
-      "pages": [7],
-      "file_size": [3020088]
+      "creation_date": [
+        "2025_12_06_14:04:28"
+      ],
+      "modification_date": [
+        "2025_12_06_14:04:28"
+      ],
+      "pages": [
+        7
+      ],
+      "file_size": [
+        3020088
+      ]
     },
-    "text_length": [27317],
-    "text_preview": ["                                                                                                                                                                                                                                                          Betty <bettyctai@gmail.com>\n\n\n\nJune 18th filming!\n35 messages\n\nFiorella Riccobono <fiorella.riccobono@scale.com>                                                                                                                                          "],
+    "text_length": [
+      27317
+    ],
+    "text_preview": [
+      "betty_<bettyctai@gmail.com>_june_18th_filming!_35_messages_fiorella_riccobono_<fiorella.riccobono@scale.com>"
+    ],
     "entities": {
-      "emails": ["bettyctai@gmail.com", "fiorella.riccobono@scale.com", "james@nearfutu.re", "cumhur.aygar@scale.com", "oscar.kavanagh@contractors.scale.com"],
-      "phones": ["954-864-0451", "516-246-0305"],
-      "dates": ["May 1, 2025"],
-      "addresses": ["850 John Carlyle St Apt 533, Alexandria, VA 22314"],
+      "emails": [
+        "bettyctai@gmail.com",
+        "fiorella.riccobono@scale.com",
+        "james@nearfutu.re",
+        "cumhur.aygar@scale.com",
+        "oscar.kavanagh@contractors.scale.com"
+      ],
+      "phones": [
+        "954_864_0451",
+        "516_246_0305"
+      ],
+      "dates": [
+        "may_1,_2025"
+      ],
+      "addresses": [
+        "850_john_carlyle_st_apt_533,_alexandria,_va_22314"
+      ],
       "units": [],
-      "license_numbers": ["46392090", "97189113696"],
+      "license_numbers": [
+        "46392090",
+        "97189113696"
+      ],
       "firms": []
     },
     "regulatory_info": {
-      "violation_mentions": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "agency_mentions": [0, 0, 0, 0, 0, 1, 0, 3, 0, 3, 0, 0, 0, 0, 0],
-      "lease_mentions": [2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      "violation_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agency_mentions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lease_mentions": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   }
 ]

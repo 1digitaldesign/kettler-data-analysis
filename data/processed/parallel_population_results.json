@@ -1,0 +1,1328 @@
+{
+  "records_processed": 100,
+  "records_populated": 40,
+  "fields_populated": 40,
+  "api_calls": 0,
+  "browser_searches": 0,
+  "errors": [],
+  "population_log": [
+    {
+      "record": {
+        "firm_license": "0226025311",
+        "firm_name": "kettler_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "8255_greensboro_dr_ste_200,_mclean,_va_22102",
+        "expiration_date": "2026_10_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "va",
+        "individual_license": null,
+        "initial_cert_date": "2014_10_31",
+        "gap_years": 11,
+        "status": "va",
+        "name": "Kettler Management Inc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Kettler Management Inc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226023603",
+        "firm_name": "bell_partners_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "300_north_greene_st_suite_1000,_greensboro,_nc_27401",
+        "expiration_date": "2025_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "nc",
+        "individual_license": null,
+        "initial_cert_date": "2011_12_28",
+        "gap_years": 14,
+        "status": "nc",
+        "name": "Bell Partners Inc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Bell Partners Inc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226024808",
+        "firm_name": "bozzuto_management_company",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2013_06_04",
+        "gap_years": 12,
+        "status": "tx",
+        "name": "Bozzuto Management Company"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Bozzuto Management Company",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038642",
+        "firm_name": "cortland_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_06_30",
+        "gap_years": 0,
+        "status": "tx",
+        "name": "Cortland Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Cortland Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226027221",
+        "firm_name": "gables_residential_services_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2016_08_17",
+        "gap_years": 9,
+        "status": "tx",
+        "name": "Gables Residential Services Inc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Gables Residential Services Inc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038613",
+        "firm_name": "gateway_management_company_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_03_26",
+        "gap_years": 0,
+        "status": "tx",
+        "name": "Gateway Management Company Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Gateway Management Company Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226027455",
+        "firm_name": "mccormack_baron_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "100_n_broadway_ste_100,_saint_louis,_mo_63102",
+        "expiration_date": "2026_11_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "mo",
+        "individual_license": null,
+        "initial_cert_date": "2016_11_14",
+        "gap_years": 8.5,
+        "status": "mo",
+        "name": "Mccormack Baron Management Inc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Mccormack Baron Management Inc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226028898",
+        "firm_name": "burlington_capital_properties_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "1004_farnam_st_ste_400,_omaha,_ne_68102",
+        "expiration_date": "2026_11_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "ne",
+        "individual_license": null,
+        "initial_cert_date": "2018_11_16",
+        "gap_years": 6.5,
+        "status": "ne",
+        "name": "Burlington Capital Properties Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Burlington Capital Properties Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226023854",
+        "firm_name": "bainbridge_mid_atlantic_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_04_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2012_04_27",
+        "gap_years": 13,
+        "status": "tx",
+        "name": "Bainbridge Mid Atlantic Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Bainbridge Mid Atlantic Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038643",
+        "firm_name": "capreit_residential_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_07_24",
+        "gap_years": 0,
+        "status": "tx",
+        "name": "Capreit Residential Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Capreit Residential Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226011870",
+        "firm_name": "edgewood_management_corporation",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "9711_washington_blvd_ste_200,_gaithersburg,_md_20878",
+        "expiration_date": "2027_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "md",
+        "individual_license": null,
+        "dba_name": "pratum_companies_management_and_advisory_services",
+        "initial_cert_date": null,
+        "verification_date": "2025_12_08",
+        "status": "md",
+        "name": "Edgewood Management Corporation"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Edgewood Management Corporation",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038324",
+        "firm_name": "middleburg_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_12_04",
+        "gap_years": 0.5,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Middleburg Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Middleburg Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226036814",
+        "firm_name": "capstone_on_campus_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_07_24",
+        "gap_years": 2,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Capstone On Campus Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Capstone On Campus Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226036650",
+        "firm_name": "core_campus_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_07_05",
+        "gap_years": 2,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Core Campus Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Core Campus Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038008",
+        "firm_name": "drhr_property_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_08_09",
+        "gap_years": 0.3,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Drhr Property Management Inc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Drhr Property Management Inc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226036708",
+        "firm_name": "envolve_client_services_va_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_23",
+        "gap_years": 2,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Envolve Client Services Va Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Envolve Client Services Va Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226035195",
+        "firm_name": "evergreen_real_estate_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2022_08_01",
+        "gap_years": 3,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Evergreen Real Estate Services Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Evergreen Real Estate Services Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226024621",
+        "firm_name": "fairmark_properties_of_virginia_lp",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "lp_limited_partnership",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "ff_properties_lp",
+        "initial_cert_date": "2013_06_13",
+        "gap_years": 12,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Fairmark Properties Of Virginia Lp"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Fairmark Properties Of Virginia Lp",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038078",
+        "firm_name": "fca_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "vest_residential",
+        "initial_cert_date": "2024_08_20",
+        "gap_years": 0.3,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Fca Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Fca Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226031583",
+        "firm_name": "ff_properties_ii_lp",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "lp_limited_partnership",
+        "address": "5510_morehouse_dr_suite_200,_san_diego,_ca_92121",
+        "expiration_date": "2025_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "ca",
+        "individual_license": null,
+        "initial_cert_date": "2019_12_03",
+        "gap_years": 5.5,
+        "verification_date": "2025_12_08",
+        "status": "ca",
+        "name": "Ff Properties Ii Lp"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Ff Properties Ii Lp",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226033119",
+        "firm_name": "fogelman_properties_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_04_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2021_04_06",
+        "gap_years": 4,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Fogelman Properties Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Fogelman Properties Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226036622",
+        "firm_name": "grubb_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_16",
+        "gap_years": 2,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Grubb Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Grubb Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226037106",
+        "firm_name": "lcor_lamlp_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_10_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_10_26",
+        "gap_years": 1.5,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Lcor Lamlp Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Lcor Lamlp Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226002838",
+        "firm_name": "lcor_asset_management_limited_partnership",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "lp_limited_partnership",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "1995_03_22",
+        "gap_years": 30,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Lcor Asset Management Limited Partnership"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Lcor Asset Management Limited Partnership",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226026414",
+        "firm_name": "lincoln_apartment_management_limited_partnership",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llp_limited_liability_partnership",
+        "address": "2000_mckinney_ave_suite_1000,_dallas,_tx_75201",
+        "expiration_date": "2026_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2016_03_21",
+        "gap_years": 9,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Lincoln Apartment Management Limited Partnership"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Lincoln Apartment Management Limited Partnership",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226031657",
+        "firm_name": "landmark_venture_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2020_07_15",
+        "gap_years": 5,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Landmark Venture Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Landmark Venture Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226031104",
+        "firm_name": "lmc_living_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "433_e_colinas_blvd_suite_450,_irving,_tx_75039",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "quarterra_living,_llc",
+        "initial_cert_date": "2019_06_28",
+        "gap_years": 6,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Lmc Living Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Lmc Living Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226029441",
+        "firm_name": "mission_rock_residential_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2018_06_11",
+        "gap_years": 7,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Mission Rock Residential Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Mission Rock Residential Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226037138",
+        "firm_name": "nrp_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_11_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "the_nrp_group",
+        "initial_cert_date": "2023_11_09",
+        "gap_years": 1.5,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Nrp Management Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Nrp Management Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038088",
+        "firm_name": "pegasus_residential_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_09_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_09_05",
+        "gap_years": 0.6,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Pegasus Residential Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Pegasus Residential Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226035194",
+        "firm_name": "pennrose_management_company",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2022_08_19",
+        "gap_years": 2.7,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Pennrose Management Company"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Pennrose Management Company",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226035674",
+        "firm_name": "pinnacle_property_management_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_13",
+        "gap_years": 1.8,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Pinnacle Property Management Services Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Pinnacle Property Management Services Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226032341",
+        "firm_name": "preferred_apartment_advisors_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2020_07_21",
+        "gap_years": 5,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Preferred Apartment Advisors Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Preferred Apartment Advisors Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226034268",
+        "firm_name": "tishco_properties_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2021_12_21",
+        "gap_years": 3.3,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Tishco Properties Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Tishco Properties Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226035780",
+        "firm_name": "uip_property_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_01_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_01_04",
+        "gap_years": 2.3,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Uip Property Management Inc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Uip Property Management Inc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226022513",
+        "firm_name": "weinstein_management_co_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "weinstein_properties",
+        "initial_cert_date": "2010_08_13",
+        "gap_years": 15,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Weinstein Management Co Inc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Weinstein Management Co Inc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038480",
+        "firm_name": "mill_creek_residential_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_02_28",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_02_12",
+        "gap_years": -0.2,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Mill Creek Residential Services Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Mill Creek Residential Services Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "firm_license": "0226038564",
+        "firm_name": "capital_square_living_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebannon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_03_25",
+        "gap_years": -0.4,
+        "verification_date": "2025_12_08",
+        "status": "tx",
+        "name": "Capital Square Living Llc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Capital Square Living Llc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "verification_date": "2025_12_07",
+        "firms_existence": {
+          "status": "verified",
+          "missing": []
+        },
+        "principal_broker": {
+          "status": "verified",
+          "count": 11
+        },
+        "address_clustering": {
+          "status": "verified",
+          "count": 6,
+          "firms": [
+            "bozzuto_management_company",
+            "cortland_management_llc",
+            "gables_residential_services_inc",
+            "gateway_management_company_llc",
+            "bainbridge_mid_atlantic_management_llc",
+            "capreit_residential_management_llc"
+          ]
+        },
+        "license_gaps": {
+          "status": "verified",
+          "count": 10
+        },
+        "timeline_anomalies": {
+          "status": "anomalies_found",
+          "count": 2,
+          "firms": [
+            "cortland_management_llc",
+            "capreit_residential_management_llc"
+          ]
+        },
+        "metadata": {
+          "analysis_date": "2025_12_10",
+          "source": "kettler_data_analysis_project",
+          "file_name": "skidmore_firms_validation.json",
+          "file_path": "research/analysis/skidmore_firms_validation.json",
+          "last_updated": "2025_12_10_23:49:49",
+          "status": "complete"
+        },
+        "name": "{'Status': 'Verified', 'Count': 11}"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "{'Status': 'Verified', 'Count': 11}",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "record": {
+        "research_date": "2025_12_09",
+        "complaint_focus": "va_dpor_complaint_kettler_management_inc._license_#0226025311",
+        "priority": "priority_1:_principal_broker_gap_evidence_(2014_2025)",
+        "firm_license": "0226025311",
+        "firm_name": "kettler_management_inc",
+        "initial_cert_date": "2014_10_31",
+        "current_principal_broker": "skidmore_caitlin_marie",
+        "principal_broker_license": "0225273926",
+        "principal_broker_assigned_date": "2025_04_03",
+        "gap_period": {
+          "start_date": "2014_10_31",
+          "end_date": "2025_04_03",
+          "duration_years": 10.5,
+          "duration_days": 3840
+        },
+        "historical_principal_broker_search": {
+          "status": "method_verified_foia_required",
+          "methods": [
+            "va_dpor_historical_database_searches",
+            "foia_request_to_dpor_for_historical_license_records",
+            "wayback_machine_searches_of_dpor_website_snapshots"
+          ],
+          "data_points_sought": [
+            "previous_principal_broker_names_(if_any)",
+            "license_amendment_dates",
+            "principal_broker_change_notifications",
+            "any_disciplinary_actions_during_gap_period"
+          ],
+          "findings": {
+            "previous_principal_brokers": [],
+            "license_amendments": [],
+            "principal_broker_changes": [],
+            "disciplinary_actions": [],
+            "notes": "historical_records_from_2014_2015_not_accessible_online._dpor_information_management_section_can_provide_regulant_lists_with_historical_data._contact:_publicrecords@dpor.virginia.gov_or_(866)_254_0312._regulant_lists_available_free_in_electronic_format."
+          },
+          "wayback_machine_snapshots": {
+            "status": "method_verified",
+            "urls_to_check": [
+              "https://www.dpor.virginia.gov/licenselookup/",
+              "https://www.dpor.virginia.gov/boards/realestate/"
+            ],
+            "snapshot_dates": [
+              "2014_10_31",
+              "2015_01_01",
+              "2016_01_01",
+              "2017_01_01",
+              "2018_01_01",
+              "2019_01_01",
+              "2020_01_01",
+              "2021_01_01",
+              "2022_01_01",
+              "2023_01_01",
+              "2024_01_01",
+              "2025_04_02"
+            ],
+            "method": "use_wayback_machine_(archive.org)_to_access_historical_dpor_website_snapshots",
+            "note": "interactive_features_like_search_may_not_work_in_archived_versions",
+            "wayback_machine_url": "https://web.archive.org"
+          },
+          "foia_request": {
+            "status": "ready_to_submit",
+            "request_text": "request_for_historical_principal_broker_records_for_kettler_management_inc._(license_#0226025311)_from_october_31,_2014_through_april_3,_2025,_including_all_principal_broker_assignments,_license_amendments,_and_disciplinary_actions.",
+            "agency": "virginia_department_of_professional_and_occupational_regulation",
+            "foia_email": "publicrecords@dpor.virginia.gov",
+            "foia_fax": "(866)_254_0312",
+            "response_time": "5_working_days_(day_one_is_day_after_receipt)",
+            "fees": "license_transcript:_$40.00_per_entity_request",
+            "foia_website": "https://www.dpor.virginia.gov/recordsanddocuments",
+            "foia_council": {
+              "email": "foiacouncil@dls.virginia.gov",
+              "phone": "(804)_225_3056",
+              "toll_free": "1_866_448_4100"
+            },
+            "specificity_requirement": "must_identify_records_with_'reasonable_specificity'",
+            "note": "foia_does_not_require_dpor_to_create_records_that_don't_exist_request_must_be_for_existing_records",
+            "firm_change_form": {
+              "form_name": "firm_principal_broker/officer_change_form",
+              "form_code": "a490_02pbochg",
+              "url": "https://www.dpor.virginia.gov/sites/default/files/boards/real_estate/a490_02pbochg.pdf",
+              "requirement": "firms_must_notify_board_in_writing_and_return_current_licenses_when_principal_broker_changes"
+            },
+            "real_estate_board_contact": {
+              "phone": "(804)_367_8526",
+              "website": "www.dpor.virginia.gov"
+            }
+          }
+        },
+        "legal_implications": {
+          "virginia_code_section": "54.1_2106.1",
+          "requirement": "principal_broker_must_exercise_active_supervision_of_the_firm's_real_estate_activities",
+          "violation_period": "10.5_years_without_identifiable_principal_broker",
+          "potential_penalties": "civil_penalties_up_to_$1,000_per_transaction_under_va_code_§_54.1_2105.2"
+        },
+        "next_steps": [
+          "submit_foia_request_to_dpor_for_historical_records",
+          "search_wayback_machine_for_dpor_website_snapshots",
+          "document_any_principal_broker_assignments_found",
+          "create_timeline_visualization_of_gap_period"
+        ],
+        "metadata": {
+          "file_name": "principal_broker_gap_analysis.json",
+          "file_path": "research/va_dpor_complaint/principal_broker_gap_analysis.json",
+          "last_updated": "2025_12_10_23:56:27",
+          "source": "kettler_data_analysis_project_va_dpor_complaint_research",
+          "status": "complete"
+        },
+        "name": "Kettler Management Inc"
+      },
+      "fields_populated": [
+        {
+          "field": "name",
+          "value": "Kettler Management Inc",
+          "method": "field_mapping"
+        }
+      ],
+      "methods_used": [
+        "name_mapping"
+      ],
+      "success": true,
+      "error": null
+    }
+  ],
+  "populated_records_path": "/Users/machine/Documents/kettler-data-analysis/data/processed/populated_records.json",
+  "browser_script_path": "/Users/machine/Documents/kettler-data-analysis/data/processed/browser_automation_population.py"
+}

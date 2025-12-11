@@ -53,7 +53,7 @@
     "vector_store_stats": {
       "total_embeddings": 11600,
       "vector_store_size": 11600,
-      "model": "all-MiniLM-L6-v2",
+      "model": "all_minilm_l6_v2",
       "dimension": 384
     }
   }

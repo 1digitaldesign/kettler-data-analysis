@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.302232",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0189.json",
+    "created": "2025_12_11t00:52:02.302232",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0189.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 189,
-    "text": "04308 150405\nadeW A.Pamela nt PsdeereiciV No 104e, StluidwlieTs etW7025\nXT 77092Houson, t\nont Jtra. BrirbaBa ryatreA Scsntessait No amaoRt oaSud ie5,t 10Y777\nBo3caRL 3 aoF.4tn 3,1\norylaTJ oe nt PsdeereiciV No 2859PaeR ceFrry os aSud ie1.t 450\n3 0339lAAtaGna t,\nll SaKmmi nt PsdeereiciV lonagiRe No 2925Bri arpSua ie1rk,t 220\n7X 7T042Houostn ,\nse RuggllGia nt PsdeereiciV lonagiRe No 828re0Ge nsboroD riSuve ie6,t 05\n2 2102AMcLeaVn ,\nnBrui. de ErtRobe nt PsdeereiciV lonagiRe No venuSue ie1,t 400A3500Ma ple\n7X 5T219Dalla s,\non DnttetBre nt PsdeereiciV lonagiRe No AuistnC eSuneBl ie2tr vd,t 0.06850\nXT 78731An, usit\nNo\nJl. GngeihaMci nt PsdeereiciV lonagiRe amaoRt oaSud ie5,t 10Y777\n3 3431BocaRL aoFtn ,\nrnoneVMrk a nt PsdeereiciV lonagiRe No 2859PaeR ceFrry os aSud ie1,t 450\n30339, GaAntaAlt",
+    "text": "04308_150405_adew_a.pamela_nt_psdeereiciv_no_104e,_stluidwliets_etw7025_xt_77092houson,_t_ont_jtra._brirbaba_ryatrea_scsntessait_no_amaort_oasud_ie5,t_10y777_bo3carl_3_aof.4tn_3,1_orylatj_oe_nt_psdeereiciv_no_2859paer_cefrry_os_asud_ie1.t_450_3_0339laatagna_t,_ll_sakmmi_nt_psdeereiciv_lonagire_no_2925bri_arpsua_ie1rk,t_220_7x_7t042houostn_,_se_ruggllgia_nt_psdeereiciv_lonagire_no_828re0ge_nsborod_risuve_ie6,t_05_2_2102amcleavn_,_nbrui._de_ertrobe_nt_psdeereiciv_lonagire_no_venusue_ie1,t_400a3500ma_ple_7x_5t219dalla_s,_on_dnttetbre_nt_psdeereiciv_lonagire_no_auistnc_esunebl_ie2tr_vd,t_0.06850_xt_78731an,_usit_no_jl._gngeihamci_nt_psdeereiciv_lonagire_amaort_oasud_ie5,t_10y777_3_3431bocarl_aoftn_,_rnonevmrk_a_nt_psdeereiciv_lonagire_no_2859paer_cefrry_os_asud_ie1,t_450_30339,_gaantaalt",
     "char_count": 794,
     "word_count": 124,
     "anomalies": {
       "page_number": 189,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 189 | text: 04308 150405\nadeW A.Pamela nt PsdeereiciV No 104e, StluidwlieTs etW7025\nXT 77092Houson, t\nont Jtra. BrirbaBa ryatreA Scsntessait No amaoRt oaSud ie5,t 10Y777\nBo3caRL 3 aoF.4tn 3,1\norylaTJ oe nt PsdeereiciV No 2859PaeR ceFrry os aSud ie1.t 450\n3 0339lAAtaGna t,\nll SaKmmi nt PsdeereiciV lonagiRe No 2925Bri arpSua ie1rk,t 220\n7X 7T042Houostn ,\nse RuggllGia nt PsdeereiciV lonagiRe No 828re0Ge nsboroD riSuve ie6,t 05\n2 2102AMcLeaVn ,\nnBrui. de ErtRobe nt PsdeereiciV lonagiRe No venuSue ie1,t 400A3500Ma ple\n7X 5T219Dalla s,\non DnttetBre nt PsdeereiciV lonagiRe No AuistnC eSuneBl ie2tr vd,t 0.06850\nXT 78731An, usit\nNo\nJl. GngeihaMci nt PsdeereiciV lonagiRe amaoRt oaSud ie5,t 10Y777\n3 3431BocaRL aoFtn ,\nrnoneVMrk a nt PsdeereiciV lonagiRe No 2859PaeR ceFrry os aSud ie1,t 450\n30339, GaAntaAlt | char_count: 794 | word_count: 124 | anomalies: {\"page_number\":189,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_189_|_text:_04308_150405_adew_a.pamela_nt_psdeereiciv_no_104e,_stluidwliets_etw7025_xt_77092houson,_t_ont_jtra._brirbaba_ryatrea_scsntessait_no_amaort_oasud_ie5,t_10y777_bo3carl_3_aof.4tn_3,1_orylatj_oe_nt_psdeereiciv_no_2859paer_cefrry_os_asud_ie1.t_450_3_0339laatagna_t,_ll_sakmmi_nt_psdeereiciv_lonagire_no_2925bri_arpsua_ie1rk,t_220_7x_7t042houostn_,_se_ruggllgia_nt_psdeereiciv_lonagire_no_828re0ge_nsborod_risuve_ie6,t_05_2_2102amcleavn_,_nbrui._de_ertrobe_nt_psdeereiciv_lonagire_no_venusue_ie1,t_400a3500ma_ple_7x_5t219dalla_s,_on_dnttetbre_nt_psdeereiciv_lonagire_no_auistnc_esunebl_ie2tr_vd,t_0.06850_xt_78731an,_usit_no_jl._gngeihamci_nt_psdeereiciv_lonagire_amaort_oasud_ie5,t_10y777_3_3431bocarl_aoftn_,_rnonevmrk_a_nt_psdeereiciv_lonagire_no_2859paer_cefrry_os_asud_ie1,t_450_30339,_gaantaalt_|_char_count:_794_|_word_count:_124_|_anomalies:_{\"page_number\":189,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.05070675164461136,
     -0.027108987793326378,

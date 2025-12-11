@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.078185",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_804058541.json",
+    "created": "2025_12_11t00:21:41.078185",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_804058541.json",
     "has_embedding": true
   },
   "data": {
-    "name": "HOLLY MCKAY",
-    "address": "2872 Breezy Point Lane",
+    "name": "holly_mckay",
+    "address": "2872_breezy_point_lane",
     "inactive_date": null
   },
-  "text_representation": "name: HOLLY MCKAY | address: 2872 Breezy Point Lane",
+  "text_representation": "name:_holly_mckay_|_address:_2872_breezy_point_lane",
   "embedding": [
     -0.0443679541349411,
     -0.04868884012103081,

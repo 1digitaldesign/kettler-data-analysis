@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.127659",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_804058541_1.json",
+    "created": "2025_12_11t00:21:41.127659",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_804058541_1.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "May 10, 2021",
-    "name": "LEAH DOUTHIT",
-    "title": "Director",
-    "address": "818 Creekline Way"
+    "last_update": "may_10,_2021",
+    "name": "leah_douthit",
+    "title": "director",
+    "address": "818_creekline_way"
   },
-  "text_representation": "last_update: May 10, 2021 | name: LEAH DOUTHIT | title: Director | address: 818 Creekline Way",
+  "text_representation": "last_update:_may_10,_2021_|_name:_leah_douthit_|_title:_director_|_address:_818_creekline_way",
   "embedding": [
     -0.04168672114610672,
     -0.08496572822332382,

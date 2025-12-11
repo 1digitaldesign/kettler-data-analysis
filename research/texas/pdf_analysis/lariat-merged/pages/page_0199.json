@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.540848",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0199.json",
+    "created": "2025_12_11t00:52:02.540848",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0199.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 199,
-    "text": "...rf\n00001967661\ns.e, Incc Srvileaintssdee ReiGbla\norstcDrei\nName eltiT Asddres 4\nortcDrei 2650C edaSpr ringRs oad\nSusan M. Ansel\nSuie8t 00\n7X 5T201Dalla s,\nDwan Hrt. Svee ortcDrei 2859PaeR ceFrry os ad\n1450eStui 7\n30339, GaAntaAlt\nhd DcDvi. Ftai ortcDrei sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nrss1-15-08.doce a oflcfirse 2008 GcRSfi ofsOnt\\fe DumloconaitaznigasK|e O:Gblra",
+    "text": "...rf_00001967661_s.e,_incc_srvileaintssdee_reigbla_orstcdrei_name_eltit_asddres_4_ortcdrei_2650c_edaspr_ringrs_oad_susan_m._ansel_suie8t_00_7x_5t201dalla_s,_dwan_hrt._svee_ortcdrei_2859paer_cefrry_os_ad_1450estui_7_30339,_gaantaalt_hd_dcdvi._ftai_ortcdrei_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_rss1_15_08.doce_a_oflcfirse_2008_gcrsfi_ofsont\\fe_dumloconaitaznigask|e_o:gblra",
     "char_count": 385,
     "word_count": 55,
     "anomalies": {
       "page_number": 199,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 199 | text: ...rf\n00001967661\ns.e, Incc Srvileaintssdee ReiGbla\norstcDrei\nName eltiT Asddres 4\nortcDrei 2650C edaSpr ringRs oad\nSusan M. Ansel\nSuie8t 00\n7X 5T201Dalla s,\nDwan Hrt. Svee ortcDrei 2859PaeR ceFrry os ad\n1450eStui 7\n30339, GaAntaAlt\nhd DcDvi. Ftai ortcDrei sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nrss1-15-08.doce a oflcfirse 2008 GcRSfi ofsOnt\\fe DumloconaitaznigasK|e O:Gblra | char_count: 385 | word_count: 55 | anomalies: {\"page_number\":199,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_199_|_text:_...rf_00001967661_s.e,_incc_srvileaintssdee_reigbla_orstcdrei_name_eltit_asddres_4_ortcdrei_2650c_edaspr_ringrs_oad_susan_m._ansel_suie8t_00_7x_5t201dalla_s,_dwan_hrt._svee_ortcdrei_2859paer_cefrry_os_ad_1450estui_7_30339,_gaantaalt_hd_dcdvi._ftai_ortcdrei_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_rss1_15_08.doce_a_oflcfirse_2008_gcrsfi_ofsont\\fe_dumloconaitaznigask|e_o:gblra_|_char_count:_385_|_word_count:_55_|_anomalies:_{\"page_number\":199,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.1070062667131424,
     0.0025033990386873484,

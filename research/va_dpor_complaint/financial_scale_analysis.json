@@ -1,160 +1,160 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 5.2: Financial Scale Documentation",
-  "objective": "Quantify financial scale of operations",
+  "research_date": "2025_12_09",
+  "priority": "priority_5.2:_financial_scale_documentation",
+  "objective": "quantify_financial_scale_of_operations",
   "units_managed": {
     "kettler_claimed": 22000,
-    "source": "Complaint and corporate information",
+    "source": "complaint_and_corporate_information",
     "verification": "verified",
-    "verified_date": "2025-12-09",
-    "verified_source": "MultifamilyBiz.com July 2025 press release",
-    "verified_units": "More than 22,000 units across 10 states",
+    "verified_date": "2025_12_09",
+    "verified_source": "multifamilybiz.com_july_2025_press_release",
+    "verified_units": "more_than_22,000_units_across_10_states",
     "research_needed": [
-      "Breakdown by state",
-      "Breakdown by property"
+      "breakdown_by_state",
+      "breakdown_by_property"
     ]
   },
   "units_owned": {
     "claimed": 29000,
-    "source": "Corporate information",
+    "source": "corporate_information",
     "verification": "pending"
   },
   "properties_managed": {
     "claimed": 97,
-    "source": "Corporate information",
+    "source": "corporate_information",
     "verification": "pending",
     "research_needed": [
-      "List all properties",
-      "Verify property counts",
-      "Geographic distribution"
+      "list_all_properties",
+      "verify_property_counts",
+      "geographic_distribution"
     ]
   },
   "geographic_distribution": {
     "states": 10,
     "states_list": [
-      "Virginia (primary market)",
-      "Washington, D.C.",
-      "Maryland",
-      "Pennsylvania",
-      "North Carolina",
-      "Texas",
-      "Missouri",
-      "Nebraska",
-      "California",
-      "Other states"
+      "virginia_(primary_market)",
+      "washington,_d.c.",
+      "md",
+      "pa",
+      "north_carolina",
+      "tx",
+      "mo",
+      "ne",
+      "ca",
+      "other_states"
     ],
     "primary_markets": [
-      "McLean, Tysons, Reston, Alexandria, Arlington, Fairfax (VA)",
-      "Baltimore, Columbia, Bethesda (MD)",
-      "Washington, D.C."
+      "mclean,_tysons,_reston,_alexandria,_arlington,_fairfax_(va)",
+      "baltimore,_columbia,_bethesda_(md)",
+      "washington,_d.c."
     ]
   },
   "revenue_estimates": {
     "sources": [
       {
-        "source": "RocketReach 2025",
+        "source": "rocketreach_2025",
         "estimate": 80700000,
-        "currency": "USD"
+        "currency": "usd"
       },
       {
-        "source": "LeadIQ 2024",
+        "source": "leadiq_2024",
         "estimate": 750000000,
-        "currency": "USD"
+        "currency": "usd"
       },
       {
-        "source": "Wikipedia (2010 data)",
+        "source": "wikipedia_(2010_data)",
         "estimate": 407500000,
-        "currency": "USD"
+        "currency": "usd"
       }
     ],
-    "note": "Wide variance due to private company status and different measurement methodologies",
-    "verification": "Limited - private company, no SEC filings"
+    "note": "wide_variance_due_to_private_company_status_and_different_measurement_methodologies",
+    "verification": "limited_private_company,_no_sec_filings"
   },
   "property_values": {
     "status": "partial",
     "research_needed": [
-      "Average property value",
-      "Property value by jurisdiction"
+      "average_property_value",
+      "property_value_by_jurisdiction"
     ],
     "methods": [
-      "Property tax records",
-      "Real estate databases",
-      "Property assessment records"
+      "property_tax_records",
+      "real_estate_databases",
+      "property_assessment_records"
     ],
     "investment_value": {
       "gross_invested_value": 4600000000,
-      "currency": "USD",
+      "currency": "usd",
       "investments": 93,
       "units": 24193,
-      "source": "Kettler.com investments page",
-      "note": "Investment activities, not necessarily all managed properties"
+      "source": "kettler.com_investments_page",
+      "note": "investment_activities,_not_necessarily_all_managed_properties"
     }
   },
   "employees": {
-    "estimated": "485-500",
-    "source": "Corporate information",
+    "estimated": "485_500",
+    "source": "corporate_information",
     "verification": "pending",
     "research_needed": [
-      "Exact employee count",
-      "Breakdown by department",
-      "Breakdown by location"
+      "exact_employee_count",
+      "breakdown_by_department",
+      "breakdown_by_location"
     ]
   },
   "financial_transparency": {
-    "status": "Limited",
-    "reason": "Private company - no SEC disclosures required",
+    "status": "limited",
+    "reason": "private_company_no_sec_disclosures_required",
     "available_information": [
-      "Revenue estimates (varies widely)",
-      "Unit counts (claimed)",
-      "Property counts (claimed)",
-      "Employee estimates"
+      "revenue_estimates_(varies_widely)",
+      "unit_counts_(claimed)",
+      "property_counts_(claimed)",
+      "employee_estimates"
     ],
     "unavailable_information": [
-      "Detailed financial statements",
-      "Profit/loss information",
-      "Debt structure",
-      "Investment structure"
+      "detailed_financial_statements",
+      "profit/loss_information",
+      "debt_structure",
+      "investment_structure"
     ]
   },
   "financial_scale_analysis": {
     "status": "completed",
     "components": [
-      "Total units managed: 22,000+ (verified)",
-      "Revenue estimates: $80.7M - $750M (wide variance)",
-      "Property values: $4.6B gross invested value (93 investments, 24,193 units)",
-      "Number of employees: 500-1,000 (verified range)",
-      "Geographic scale: 10 states, 97 properties",
-      "Market presence: Significant - major property management company"
+      "total_units_managed:_22,000+_(verified)",
+      "revenue_estimates:_$80.7m_$750m_(wide_variance)",
+      "property_values:_$4.6b_gross_invested_value_(93_investments,_24,193_units)",
+      "number_of_employees:_500_1,000_(verified_range)",
+      "geographic_scale:_10_states,_97_properties",
+      "market_presence:_significant_major_property_management_company"
     ],
     "summary": {
       "units_managed": "22,000+",
       "properties_managed": "97",
       "states": 10,
-      "employees": "500-1,000",
-      "investment_value": "$4.6B",
-      "significance": "Large-scale operations requiring proper supervision"
+      "employees": "500_1,000",
+      "investment_value": "$4.6b",
+      "significance": "large_scale_operations_requiring_proper_supervision"
     }
   },
   "significance_for_complaint": {
-    "scale_of_operations": "22,000+ units managed demonstrates significant scope requiring proper supervision",
-    "geographic_spread": "10 states demonstrates interstate operations",
-    "financial_impact": "Large-scale operations increase potential for violations affecting many tenants",
-    "supervision_requirements": "Scale makes supervision failures more significant"
+    "scale_of_operations": "22,000+_units_managed_demonstrates_significant_scope_requiring_proper_supervision",
+    "geographic_spread": "10_states_demonstrates_interstate_operations",
+    "financial_impact": "large_scale_operations_increase_potential_for_violations_affecting_many_tenants",
+    "supervision_requirements": "scale_makes_supervision_failures_more_significant"
   },
-  "deliverable": "Financial scale analysis document",
+  "deliverable": "financial_scale_analysis_document",
   "next_steps": [
-    "Verify unit counts through property records",
-    "Research property values",
-    "Verify employee counts",
-    "Compile revenue estimates",
-    "Create financial scale analysis document",
-    "Document significance for complaint"
+    "verify_unit_counts_through_property_records",
+    "research_property_values",
+    "verify_employee_counts",
+    "compile_revenue_estimates",
+    "create_financial_scale_analysis_document",
+    "document_significance_for_complaint"
   ],
   "metadata": {
     "file_name": "financial_scale_analysis.json",
     "file_path": "research/va_dpor_complaint/financial_scale_analysis.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

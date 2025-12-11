@@ -1,47 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "search_date": "2025-12-10T23:15:38",
-    "state": "District of Columbia",
-    "state_code": "DC",
-    "employee": "Henry Ramos",
+    "date": "2025_12_10",
+    "search_date": "2025_12_10t23:15:38",
+    "state": "dc",
+    "state_code": "dc",
+    "employee": "henry_ramos",
     "employee_key": "henry_ramos",
-    "title": "Property Manager",
-    "search_url": "https://dcra.dc.gov/service/real-estate-license-lookup",
-    "search_method": "Browser automation - DC Department of Consumer and Regulatory Affairs",
+    "title": "property_manager",
+    "search_url": "https://dcra.dc.gov/service/real_estate_license_lookup",
+    "search_method": "browser_automation_dc_department_of_consumer_and_regulatory_affairs",
     "license_types_searched": [
-      "Real Estate Broker",
-      "Real Estate Salesperson"
+      "real_estate_broker",
+      "real_estate_salesperson"
     ],
-    "regulatory_body": "DC Department of Consumer and Regulatory Affairs",
-    "license_category": "Real Estate",
+    "regulatory_body": "dc_department_of_consumer_and_regulatory_affairs",
+    "license_category": "real_estate",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
-    "note": "Real estate license search completed via Browser automation - DC Department of Consumer and Regulatory Affairs"
+    "note": "real_estate_license_search_completed_via_browser_automation_dc_department_of_consumer_and_regulatory_affairs"
   },
   "findings": {
     "henry_ramos": {
-      "full_name": "Henry Ramos",
+      "full_name": "henry_ramos",
       "employee_key": "henry_ramos",
-      "title": "Property Manager",
-      "license_type_searched": "Real Estate Broker",
+      "title": "property_manager",
+      "license_type_searched": "real_estate_broker",
       "all_license_types_searched": [
-        "Real Estate Broker",
-        "Real Estate Salesperson"
+        "real_estate_broker",
+        "real_estate_salesperson"
       ],
       "search_executed": true,
-      "search_date": "2025-12-10",
+      "search_date": "2025_12_10",
       "results_found": 0,
       "real_estate_license": false,
-      "license_status": "Not found",
-      "regulatory_body": "DC Department of Consumer and Regulatory Affairs",
-      "search_url": "https://dcra.dc.gov/service/real-estate-license-lookup",
-      "search_method": "Browser automation - DC Department of Consumer and Regulatory Affairs",
-      "note": "No real estate license found in District of Columbia for Henry Ramos. Search performed via Browser automation - DC Department of Consumer and Regulatory Affairs"
+      "license_status": "not_found",
+      "regulatory_body": "dc_department_of_consumer_and_regulatory_affairs",
+      "search_url": "https://dcra.dc.gov/service/real_estate_license_lookup",
+      "search_method": "browser_automation_dc_department_of_consumer_and_regulatory_affairs",
+      "note": "no_real_estate_license_found_in_district_of_columbia_for_henry_ramos._search_performed_via_browser_automation_dc_department_of_consumer_and_regulatory_affairs"
     }
   },
-  "conclusion": "Henry Ramos DOES NOT HAVE a real estate license in District of Columbia. Search performed via Browser automation - DC Department of Consumer and Regulatory Affairs",
-  "license_status": "Not found",
+  "conclusion": "henry_ramos_does_not_have_a_real_estate_license_in_district_of_columbia._search_performed_via_browser_automation_dc_department_of_consumer_and_regulatory_affairs",
+  "license_status": "not_found",
   "verification_status": "verified"
 }

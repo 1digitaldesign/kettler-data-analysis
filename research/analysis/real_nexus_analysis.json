@@ -1,44 +1,44 @@
 {
-  "analysis_date": "2025-12-07",
-  "hypothesis": "Caitlin Skidmore is a front person - real nexus involves Kettler Management and operational connections",
+  "analysis_date": "2025_12_07",
+  "hypothesis": "caitlin_skidmore_is_a_front_person_real_nexus_involves_kettler_management_and_operational_connections",
   "beneficiaries": {
     "kettler": {
-      "firm_name": "KETTLER MANAGEMENT INC",
-      "address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
+      "firm_name": "kettler_management_inc",
+      "address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
       "license_number": 226025311,
       "benefits": [
-        "Operates properties through unlicensed manager (Hyland)",
-        "Uses front person (Skidmore) as principal broker",
-        "Evidence connection to lease termination documents",
-        "Email domain (kettler.com) appears in evidence"
+        "operates_properties_through_unlicensed_manager_(hyland)",
+        "uses_front_person_(skidmore)_as_principal_broker",
+        "evidence_connection_to_lease_termination_documents",
+        "email_domain_(kettler.com)_appears_in_evidence"
       ],
-      "nexus_score": "HIGH"
+      "nexus_score": "high"
     },
     "frisco_cluster": {
-      "address": "5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+      "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
       "firm_count": 6,
       "firms": [
-        "BOZZUTO MANAGEMENT COMPANY",
-        "CORTLAND MANAGEMENT LLC",
-        "GABLES RESIDENTIAL SERVICES INC",
-        "GATEWAY MANAGEMENT COMPANY LLC",
-        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
-        "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+        "bozzuto_management_company",
+        "cortland_management_llc",
+        "gables_residential_services_inc",
+        "gateway_management_company_llc",
+        "bainbridge_mid_atlantic_management_llc",
+        "capreit_residential_management_llc"
       ],
       "benefits": [
-        "Multiple firms at same address suggests shell company operation",
-        "All list same principal broker (front person)",
-        "May be used to obscure true ownership"
+        "multiple_firms_at_same_address_suggests_shell_company_operation",
+        "all_list_same_principal_broker_(front_person)",
+        "may_be_used_to_obscure_true_ownership"
       ],
-      "nexus_score": "MEDIUM-HIGH"
+      "nexus_score": "medium_high"
     }
   },
   "control_structure": {
     "single_broker_pattern": {
-      "broker_name": "SKIDMORE CAITLIN MARIE",
+      "broker_name": "skidmore_caitlin_marie",
       "firm_count": 11,
       "pattern_type": "front_person_structure",
-      "explanation": "All firms use same principal broker - classic front person pattern"
+      "explanation": "all_firms_use_same_principal_broker_classic_front_person_pattern"
     },
     "centralized_addresses": {
       "cluster_count": 1,
@@ -46,86 +46,86 @@
         "5729 LEBANON RD STE 144553, FRISCO, TX 75034": 5
       },
       "pattern_type": "centralized_control",
-      "explanation": "Multiple firms at same addresses suggest centralized operation"
+      "explanation": "multiple_firms_at_same_addresses_suggest_centralized_operation"
     },
     "retroactive_assignment": {
       "large_gap_count": 4,
       "firms": [
-        "KETTLER MANAGEMENT INC",
-        "BELL PARTNERS INC",
-        "BOZZUTO MANAGEMENT COMPANY",
-        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC"
+        "kettler_management_inc",
+        "bell_partners_inc",
+        "bozzuto_management_company",
+        "bainbridge_mid_atlantic_management_llc"
       ],
       "pattern_type": "retroactive_broker_assignment",
-      "explanation": "Firms existed years before principal broker was licensed - suggests retroactive assignment"
+      "explanation": "firms_existed_years_before_principal_broker_was_licensed_suggests_retroactive_assignment"
     }
   },
   "operational_connections": {
     "hyland_operational": {
-      "role": "Senior Regional Manager",
-      "employer": "Kettler Management Inc.",
+      "role": "senior_regional_manager",
+      "employer": "kettler_management_inc.",
       "unlicensed": true,
       "properties_managed": [
-        "800 Carlyle",
-        "Sinclaire on Seminary"
+        "800_carlyle",
+        "sinclaire_on_seminary"
       ],
       "connection_type": "operational_nexus",
-      "explanation": "Hyland operates properties without license, connecting Kettler to operations"
+      "explanation": "hyland_operates_properties_without_license,_connecting_kettler_to_operations"
     },
     "email_domain": {
       "domain": "kettler.com",
       "email_count": 6,
       "connection_type": "communication_nexus",
-      "explanation": "All operational emails use kettler.com domain"
+      "explanation": "all_operational_emails_use_kettler.com_domain"
     }
   },
   "financial_patterns": {
     "all_property_management": true,
-    "revenue_stream": "Property management fees, rental income",
+    "revenue_stream": "property_management_fees,_rental_income",
     "interstate_operation": {
       "state_count": 6,
       "states": [
-        "VA",
-        "NC",
-        "TX",
-        "MO",
-        "NE",
-        "MD"
+        "va",
+        "nc",
+        "tx",
+        "mo",
+        "ne",
+        "md"
       ],
-      "explanation": "Operations across multiple states suggest larger financial operation"
+      "explanation": "operations_across_multiple_states_suggest_larger_financial_operation"
     },
     "average_gap_years": 7.4,
-    "financial_implication": "Firms generated revenue for years before principal broker was assigned"
+    "financial_implication": "firms_generated_revenue_for_years_before_principal_broker_was_assigned"
   },
   "conclusions": {
     "real_nexus_candidates": [
-      "Kettler Management Inc. (HIGH) - Evidence connection, email domain, property operations",
-      "Edward Hyland (MEDIUM-HIGH) - Operational connection, unlicensed practice",
-      "Frisco TX Address Cluster (MEDIUM) - Shell company pattern"
+      "kettler_management_inc._(high)_evidence_connection,_email_domain,_property_operations",
+      "edward_hyland_(medium_high)_operational_connection,_unlicensed_practice",
+      "frisco_tx_address_cluster_(medium)_shell_company_pattern"
     ],
-    "skidmore_role": "Front person - listed as principal broker but firms existed before she was licensed",
+    "skidmore_role": "front_person_listed_as_principal_broker_but_firms_existed_before_she_was_licensed",
     "evidence_summary": [
-      "8 firms licensed BEFORE Skidmore was licensed",
-      "Average 7.4 year gap between firm establishment and Skidmore license",
-      "All firms use same principal broker (front person pattern)",
-      "Kettler email domain appears in evidence",
-      "Hyland operates without license, connecting Kettler to properties",
-      "Address clustering suggests centralized control"
+      "8_firms_licensed_before_skidmore_was_licensed",
+      "average_7.4_year_gap_between_firm_establishment_and_skidmore_license",
+      "all_firms_use_same_principal_broker_(front_person_pattern)",
+      "kettler_email_domain_appears_in_evidence",
+      "hyland_operates_without_license,_connecting_kettler_to_properties",
+      "address_clustering_suggests_centralized_control"
     ],
     "recommended_investigations": [
-      "Corporate ownership of all 11 firms",
-      "Financial connections between firms",
-      "Kettler Management corporate structure and subsidiaries",
-      "Edward Hyland's role and decision-making authority",
-      "Who actually owns/controls the Frisco TX address cluster"
+      "corporate_ownership_of_all_11_firms",
+      "financial_connections_between_firms",
+      "kettler_management_corporate_structure_and_subsidiaries",
+      "edward_hyland's_role_and_decision_making_authority",
+      "who_actually_owns/controls_the_frisco_tx_address_cluster"
     ]
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "real_nexus_analysis.json",
     "file_path": "research/analysis/real_nexus_analysis.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

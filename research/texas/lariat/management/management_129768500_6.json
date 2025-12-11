@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.412110",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_129768500_6.json",
+    "created": "2025_12_11t00:21:41.412110",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_129768500_6.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 29, 2024",
-    "name": "Philip E Altschuler",
-    "title": "SVP",
-    "address": "8300 Greensboro Drive Suite 650"
+    "last_update": "march_29,_2024",
+    "name": "philip_e_altschuler",
+    "title": "svp",
+    "address": "8300_greensboro_drive_suite_650"
   },
-  "text_representation": "last_update: March 29, 2024 | name: Philip E Altschuler | title: SVP | address: 8300 Greensboro Drive Suite 650",
+  "text_representation": "last_update:_march_29,_2024_|_name:_philip_e_altschuler_|_title:_svp_|_address:_8300_greensboro_drive_suite_650",
   "embedding": [
     -0.010447408072650433,
     0.018996311351656914,

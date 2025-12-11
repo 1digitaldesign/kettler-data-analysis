@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:01.999964",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0180.json",
+    "created": "2025_12_11t00:52:01.999964",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0180.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 180,
-    "text": "DEC-27-2002 16:23\nP. 03/04\nFURTHER RESOLVED, anything in these resolutions or elsewhere to the\ncontrary notwithstanding, the Merger may be amended or terminated and abandoned by the\nBoard of Directors of the Corporation at any time prior to the date of filing (i) the Certificate of\nOwnership and Merger with the Secretary of State of Delaware or (ii) the Articles of Merger\nThe total number of outstanding shares identified by class, series or group of the\nSubsidiary and the number of shares in each class, series or group owned by the Corporation is:\nNumber of\nNumber of Shares\nClass. Series or Group\nShares Outstanding Owned by the Corporation\nCommon Stock, no par value 30,000 30,000\nThe Surviving Corporation will be responsible for the payment of all fees and\nfranchise taxes of the merged copration and will be obligated to pay such fees and franchise\ntaxes if the same are not timely paid.\n4.\nThe Merger provided for herein shall become effective at 5:00 p.m. Eastern\nStandard Time on December 31, 2002.\nLIBC/1331650.3",
+    "text": "dec_27_2002_16:23_p._03/04_further_resolved,_anything_in_these_resolutions_or_elsewhere_to_the_contrary_notwithstanding,_the_merger_may_be_amended_or_terminated_and_abandoned_by_the_board_of_directors_of_the_corporation_at_any_time_prior_to_the_date_of_filing_(i)_the_certificate_of_ownership_and_merger_with_the_secretary_of_state_of_delaware_or_(ii)_the_articles_of_merger_the_total_number_of_outstanding_shares_identified_by_class,_series_or_group_of_the_subsidiary_and_the_number_of_shares_in_each_class,_series_or_group_owned_by_the_corporation_is:_number_of_number_of_shares_class._series_or_group_shares_outstanding_owned_by_the_corporation_common_stock,_no_par_value_30,000_30,000_the_surviving_corporation_will_be_responsible_for_the_payment_of_all_fees_and_franchise_taxes_of_the_merged_copration_and_will_be_obligated_to_pay_such_fees_and_franchise_taxes_if_the_same_are_not_timely_paid._4._the_merger_provided_for_herein_shall_become_effective_at_5:00_p.m._eastern_standard_time_on_december_31,_2002._libc/1331650.3",
     "char_count": 1027,
     "word_count": 172,
     "anomalies": {
       "page_number": 180,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 180 | text: DEC-27-2002 16:23\nP. 03/04\nFURTHER RESOLVED, anything in these resolutions or elsewhere to the\ncontrary notwithstanding, the Merger may be amended or terminated and abandoned by the\nBoard of Directors of the Corporation at any time prior to the date of filing (i) the Certificate of\nOwnership and Merger with the Secretary of State of Delaware or (ii) the Articles of Merger\nThe total number of outstanding shares identified by class, series or group of the\nSubsidiary and the number of shares in each class, series or group owned by the Corporation is:\nNumber of\nNumber of Shares\nClass. Series or Group\nShares Outstanding Owned by the Corporation\nCommon Stock, no par value 30,000 30,000\nThe Surviving Corporation will be responsible for the payment of all fees and\nfranchise taxes of the merged copration and will be obligated to pay such fees and franchise\ntaxes if the same are not timely paid.\n4.\nThe Merger provided for herein shall become effective at 5:00 p.m. Eastern\nStandard Time on December 31, 2002.\nLIBC/1331650.3 | char_count: 1027 | word_count: 172 | anomalies: {\"page_number\":180,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_180_|_text:_dec_27_2002_16:23_p._03/04_further_resolved,_anything_in_these_resolutions_or_elsewhere_to_the_contrary_notwithstanding,_the_merger_may_be_amended_or_terminated_and_abandoned_by_the_board_of_directors_of_the_corporation_at_any_time_prior_to_the_date_of_filing_(i)_the_certificate_of_ownership_and_merger_with_the_secretary_of_state_of_delaware_or_(ii)_the_articles_of_merger_the_total_number_of_outstanding_shares_identified_by_class,_series_or_group_of_the_subsidiary_and_the_number_of_shares_in_each_class,_series_or_group_owned_by_the_corporation_is:_number_of_number_of_shares_class._series_or_group_shares_outstanding_owned_by_the_corporation_common_stock,_no_par_value_30,000_30,000_the_surviving_corporation_will_be_responsible_for_the_payment_of_all_fees_and_franchise_taxes_of_the_merged_copration_and_will_be_obligated_to_pay_such_fees_and_franchise_taxes_if_the_same_are_not_timely_paid._4._the_merger_provided_for_herein_shall_become_effective_at_5:00_p.m._eastern_standard_time_on_december_31,_2002._libc/1331650.3_|_char_count:_1027_|_word_count:_172_|_anomalies:_{\"page_number\":180,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.054106924682855606,
     -0.06387975066900253,

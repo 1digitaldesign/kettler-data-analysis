@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.326173",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0193.json",
+    "created": "2025_12_11t00:52:02.326173",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0193.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 193,
-    "text": "N\ns.e, Incc Srvileaintssdee ReiGbla\norstcDrei\nName eltiT Asddres\n10\nAnsleSusn Ma. ortcDrei venueA3500Ma ple\nSuite 435\nDallas, TX 75219\nDwan Hrt. Svee ortcDrei 2859 Paces Ferry Road\nSuite 1450\nAtlanta, GA 30339\nhd DcDvi. Ftai ortcDrei 2859 Paces Ferry Road\n1450eStui\n30339, GaAntaAlt",
+    "text": "n_s.e,_incc_srvileaintssdee_reigbla_orstcdrei_name_eltit_asddres_10_anslesusn_ma._ortcdrei_venuea3500ma_ple_suite_435_dallas,_tx_75219_dwan_hrt._svee_ortcdrei_2859_paces_ferry_road_suite_1450_atlanta,_ga_30339_hd_dcdvi._ftai_ortcdrei_2859_paces_ferry_road_1450estui_30339,_gaantaalt",
     "char_count": 282,
     "word_count": 44,
     "anomalies": {
       "page_number": 193,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 193 | text: N\ns.e, Incc Srvileaintssdee ReiGbla\norstcDrei\nName eltiT Asddres\n10\nAnsleSusn Ma. ortcDrei venueA3500Ma ple\nSuite 435\nDallas, TX 75219\nDwan Hrt. Svee ortcDrei 2859 Paces Ferry Road\nSuite 1450\nAtlanta, GA 30339\nhd DcDvi. Ftai ortcDrei 2859 Paces Ferry Road\n1450eStui\n30339, GaAntaAlt | char_count: 282 | word_count: 44 | anomalies: {\"page_number\":193,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_193_|_text:_n_s.e,_incc_srvileaintssdee_reigbla_orstcdrei_name_eltit_asddres_10_anslesusn_ma._ortcdrei_venuea3500ma_ple_suite_435_dallas,_tx_75219_dwan_hrt._svee_ortcdrei_2859_paces_ferry_road_suite_1450_atlanta,_ga_30339_hd_dcdvi._ftai_ortcdrei_2859_paces_ferry_road_1450estui_30339,_gaantaalt_|_char_count:_282_|_word_count:_44_|_anomalies:_{\"page_number\":193,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.08043621480464935,
     -0.0028090255800634623,

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.262364",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0053.json",
+    "created": "2025_12_11t00:51:59.262364",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0053.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 53,
-    "text": "THE STATE OF TEXAS S\nCOUNTY OF HARRIS\nI, Greece 2. Buckle a Notary Publlo, do hereby\ncertify that on this d3 day of Oedalu 1962, per-\nsonally appeared before me S. I. BARBER, G. H. LOCKWOOD\nand C. I. SKIDNORE, who each being by me first duly sworn,\ndeclared that they are the persons who signed the fore-\ngoing document as incorporators and that the statements\ntherein contained are true\nNotary ¥ Public in and for\nHarris County, TEX A S.\n(Seal)\nMILORED L, BUERKLE\nlotary Public in and for Hastis County, Texi\nlCy ommissionExp ireJus n1e1 96 , .",
+    "text": "the_state_of_texas_s_county_of_harris_i,_greece_2._buckle_a_notary_publlo,_do_hereby_certify_that_on_this_d3_day_of_oedalu_1962,_per_sonally_appeared_before_me_s._i._barber,_g._h._lockwood_and_c._i._skidnore,_who_each_being_by_me_first_duly_sworn,_declared_that_they_are_the_persons_who_signed_the_fore_going_document_as_incorporators_and_that_the_statements_therein_contained_are_true_notary_¥_public_in_and_for_harris_county,_tex_a_s._(seal)_milored_l,_buerkle_lotary_public_in_and_for_hastis_county,_texi_lcy_ommissionexp_irejus_n1e1_96_,_.",
     "char_count": 545,
     "word_count": 101,
     "anomalies": {
       "page_number": 53,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 53 | text: THE STATE OF TEXAS S\nCOUNTY OF HARRIS\nI, Greece 2. Buckle a Notary Publlo, do hereby\ncertify that on this d3 day of Oedalu 1962, per-\nsonally appeared before me S. I. BARBER, G. H. LOCKWOOD\nand C. I. SKIDNORE, who each being by me first duly sworn,\ndeclared that they are the persons who signed the fore-\ngoing document as incorporators and that the statements\ntherein contained are true\nNotary ¥ Public in and for\nHarris County, TEX A S.\n(Seal)\nMILORED L, BUERKLE\nlotary Public in and for Hastis County, Texi\nlCy ommissionExp ireJus n1e1 96 , . | char_count: 545 | word_count: 101 | anomalies: {\"page_number\":53,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_53_|_text:_the_state_of_texas_s_county_of_harris_i,_greece_2._buckle_a_notary_publlo,_do_hereby_certify_that_on_this_d3_day_of_oedalu_1962,_per_sonally_appeared_before_me_s._i._barber,_g._h._lockwood_and_c._i._skidnore,_who_each_being_by_me_first_duly_sworn,_declared_that_they_are_the_persons_who_signed_the_fore_going_document_as_incorporators_and_that_the_statements_therein_contained_are_true_notary_¥_public_in_and_for_harris_county,_tex_a_s._(seal)_milored_l,_buerkle_lotary_public_in_and_for_hastis_county,_texi_lcy_ommissionexp_irejus_n1e1_96_,_._|_char_count:_545_|_word_count:_101_|_anomalies:_{\"page_number\":53,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.049011602997779846,
     0.021006477996706963,

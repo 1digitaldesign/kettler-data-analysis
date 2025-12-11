@@ -1,0 +1,1220 @@
+{
+  "metadata": {
+    "generated": "2025-12-11T03:45:05.957661",
+    "graph_nodes": 206,
+    "graph_edges": 134,
+    "violations": 48,
+    "laws": 61,
+    "forms": 19
+  },
+  "graph_statistics": {
+    "density": 0.00317309969216197,
+    "is_connected": false,
+    "is_weakly_connected": false,
+    "number_of_components": 118,
+    "average_clustering": 0.0
+  },
+  "pathways": {
+    "total_violation_form_pairs": 14,
+    "total_paths_found": 41,
+    "direct_paths": 39,
+    "indirect_paths": 2
+  },
+  "centrality": {
+    "degree": {
+      "law_states.va.civil.code_title_54_1": 0.22926829268292684,
+      "law_states.va.criminal.code_title_58_1": 0.14146341463414633,
+      "law_states.va.criminal.code_title_18_2": 0.06341463414634146,
+      "law_states.md.civil.business_occupations": 0.06341463414634146,
+      "form_upl_complaint_1": 0.06341463414634146,
+      "law_states.md.civil.real_property": 0.024390243902439025,
+      "violation_other_violations_Fair Housing_33": 0.024390243902439025,
+      "violation_other_violations_Verification Needed_2": 0.024390243902439025,
+      "violation_other_violations_Verification Needed_14": 0.024390243902439025,
+      "violation_licensing_violations_Tracy Fones_45": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_46": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_47": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_36": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_37": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_38": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_39": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_40": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_41": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_42": 0.01951219512195122,
+      "violation_licensing_violations_Tracy Fones_43": 0.01951219512195122
+    },
+    "betweenness": {
+      "violation_licensing_violations_Edward Hyland": 0.0,
+      "violation_licensing_violations_Robert Grealy": 0.0,
+      "violation_licensing_violations_Amy Groff": 0.0,
+      "violation_licensing_violations_Tracy Fones": 0.0,
+      "violation_licensing_violations_Djene Moyer": 0.0,
+      "violation_licensing_violations_Robert C. Kettler": 0.0,
+      "violation_licensing_violations_Cynthia Fisher": 0.0,
+      "violation_licensing_violations_Sean Curtin": 0.0,
+      "violation_licensing_violations_Patrick Cassada": 0.0,
+      "violation_licensing_violations_Luke Davis": 0.0,
+      "violation_licensing_violations_Greg Slang": 0.0,
+      "violation_licensing_violations_J.D. Sitton": 0.0,
+      "violation_licensing_violations_Pamela Tyrrell": 0.0,
+      "violation_licensing_violations_Kristina Thoummarath": 0.0,
+      "violation_licensing_violations_Christina Chang": 0.0,
+      "violation_licensing_violations_Todd Bowen": 0.0,
+      "violation_licensing_violations_Jeffrey Williams": 0.0,
+      "violation_licensing_violations_Henry Ramos": 0.0,
+      "violation_address_violations_unknown": 0.0,
+      "violation_fraud_violations_Interstate Commerce": 0.0
+    },
+    "closeness": {
+      "law_states.va.civil.code_title_54_1": 0.5421348478434264,
+      "law_states.va.criminal.code_title_58_1": 0.33049389417904196,
+      "form_upl_complaint_1": 0.16104913356765094,
+      "law_states.md.civil.business_occupations": 0.14899071056301266,
+      "law_states.va.criminal.code_title_18_2": 0.14316346587802675,
+      "law_states.md.civil.real_property": 0.06394860809765862,
+      "law_states.ma.civil.real_estate_licensing": 0.024289482647358314,
+      "form_consumer_complaint_0": 0.02348607895099646,
+      "law_states.dc.civil.municipal_regulations": 0.023437376364851926,
+      "law_states.md.criminal.criminal_law": 0.02233729309024732,
+      "form_sos_complaint_0": 0.01931938833533565,
+      "form_tcr_0": 0.017739033585303772,
+      "form_consumer_complaint_1": 0.01730585813497848,
+      "form_trec_complaint_0": 0.01686635222589277,
+      "law_states.va.civil.code_title_55_1": 0.01384839207169827,
+      "law_states.va.civil.code_title_59_1": 0.012895235770943472,
+      "law_states.az.civil.real_estate_licensing": 0.011092650522716326,
+      "violation_licensing_violations_Edward Hyland": 0.0,
+      "violation_licensing_violations_Robert Grealy": 0.0,
+      "violation_licensing_violations_Amy Groff": 0.0
+    },
+    "pagerank": {
+      "law_states.va.civil.code_title_54_1": 0.10735415710606955,
+      "law_states.va.criminal.code_title_58_1": 0.05866894443633605,
+      "law_states.md.civil.business_occupations": 0.03524262000384492,
+      "law_states.va.criminal.code_title_18_2": 0.014614496631291081,
+      "form_upl_complaint_1": 0.013401647748440625,
+      "law_states.md.civil.real_property": 0.009628421521104286,
+      "law_states.md.criminal.criminal_law": 0.00789710390580882,
+      "form_consumer_complaint_0": 0.007383499665074391,
+      "form_tcr_0": 0.006832717776483935,
+      "form_trec_complaint_0": 0.006832717776483935,
+      "law_states.dc.civil.municipal_regulations": 0.005436832878339777,
+      "form_consumer_complaint_1": 0.005349428459119968,
+      "form_sos_complaint_0": 0.0051768482950457625,
+      "law_states.ma.civil.real_estate_licensing": 0.004986460215995097,
+      "law_states.va.civil.code_title_59_1": 0.004389172470568886,
+      "law_states.az.civil.real_estate_licensing": 0.004380989501427084,
+      "law_states.va.civil.code_title_55_1": 0.004341294826709394,
+      "violation_licensing_violations_Edward Hyland": 0.0036935589776817958,
+      "violation_licensing_violations_Robert Grealy": 0.0036935589776817958,
+      "violation_licensing_violations_Amy Groff": 0.0036935589776817958
+    }
+  },
+  "communities": {
+    "communities": {
+      "0": [
+        "violation_licensing_violations_Jeffrey Williams_73",
+        "violation_licensing_violations_Robert Grealy_17",
+        "violation_licensing_violations_Robert Grealy_19",
+        "violation_licensing_violations_Amy Groff_31",
+        "violation_other_violations_Recommended Filings_19",
+        "violation_other_violations_Database Search_27",
+        "violation_licensing_violations_Amy Groff_33",
+        "violation_licensing_violations_Robert C. Kettler_62",
+        "violation_licensing_violations_Amy Groff_34",
+        "violation_licensing_violations_Amy Groff_32",
+        "violation_licensing_violations_J.D. Sitton_68",
+        "violation_licensing_violations_Robert Grealy_18",
+        "violation_other_violations_Recommended Filings_10",
+        "violation_licensing_violations_Robert C. Kettler_61",
+        "violation_licensing_violations_Robert Grealy_21",
+        "violation_licensing_violations_Robert Grealy_25",
+        "violation_licensing_violations_Robert Grealy_23",
+        "violation_licensing_violations_Robert Grealy_24",
+        "violation_licensing_violations_Luke Davis_66",
+        "violation_other_violations_Recommended Actions_37",
+        "violation_licensing_violations_Patrick Cassada_65",
+        "violation_licensing_violations_Robert Grealy_27",
+        "violation_licensing_violations_Robert Grealy_29",
+        "violation_licensing_violations_Robert Grealy_22",
+        "violation_licensing_violations_Robert Grealy_28",
+        "violation_other_violations_Database Search_36",
+        "violation_other_violations_Recommended Immediate_28",
+        "violation_licensing_violations_Robert Grealy_20",
+        "violation_licensing_violations_Robert Grealy_26",
+        "law_states.va.civil.code_title_54_1",
+        "violation_licensing_violations_Amy Groff_30"
+      ],
+      "1": [
+        "violation_licensing_violations_Tracy Fones_41",
+        "violation_licensing_violations_Djene Moyer_48",
+        "violation_licensing_violations_Djene Moyer_60",
+        "violation_licensing_violations_Tracy Fones_43",
+        "law_states.va.criminal.code_title_58_1",
+        "violation_licensing_violations_Djene Moyer_53",
+        "violation_licensing_violations_Tracy Fones_44",
+        "violation_licensing_violations_Djene Moyer_55",
+        "violation_licensing_violations_Djene Moyer_58",
+        "violation_licensing_violations_Djene Moyer_59",
+        "violation_licensing_violations_Tracy Fones_38",
+        "violation_licensing_violations_Tracy Fones_40",
+        "violation_licensing_violations_Tracy Fones_45",
+        "violation_licensing_violations_Tracy Fones_35",
+        "violation_licensing_violations_Tracy Fones_37",
+        "violation_licensing_violations_Djene Moyer_56",
+        "violation_licensing_violations_Tracy Fones_47",
+        "violation_licensing_violations_Tracy Fones_46",
+        "violation_licensing_violations_Tracy Fones_42",
+        "violation_licensing_violations_Djene Moyer_52",
+        "violation_licensing_violations_Djene Moyer_51",
+        "violation_licensing_violations_Djene Moyer_57",
+        "violation_licensing_violations_Djene Moyer_50",
+        "violation_licensing_violations_Tracy Fones_39",
+        "violation_licensing_violations_Djene Moyer_49",
+        "violation_licensing_violations_Djene Moyer_54",
+        "law_states.va.criminal.code_title_18_2",
+        "form_upl_complaint_1",
+        "violation_licensing_violations_Tracy Fones_36"
+      ],
+      "2": [
+        "violation_other_violations_Violation Summary_38",
+        "law_states.az.civil.real_estate_licensing",
+        "violation_other_violations_Kettler Management_32",
+        "violation_other_violations_Property Manager_23",
+        "violation_other_violations_Verification Needed_14",
+        "law_states.dc.civil.municipal_regulations",
+        "violation_other_violations_Verification Needed_2",
+        "law_states.ma.civil.real_estate_licensing",
+        "violation_other_violations_Local Violations_6",
+        "violation_other_violations_Needs Verification_9",
+        "law_states.md.civil.real_property",
+        "violation_other_violations_Henry Ramos_3",
+        "law_states.md.civil.business_occupations",
+        "violation_other_violations_Community Manager_22",
+        "violation_other_violations_Henry Ramos_15",
+        "violation_other_violations_Local Violations_18",
+        "violation_other_violations_Local Violations_35",
+        "violation_other_violations_Confirmed Violations_12"
+      ],
+      "3": [
+        "violation_other_violations_Fair Housing_33",
+        "law_states.va.civil.code_title_59_1",
+        "form_consumer_complaint_0",
+        "law_states.va.civil.code_title_55_1"
+      ],
+      "4": [
+        "form_sos_complaint_0",
+        "form_consumer_complaint_1",
+        "law_states.tx.civil.business_organizations_code"
+      ],
+      "5": [
+        "violation_other_violations_General Counsel_24",
+        "violation_licensing_violations_Henry Ramos_76",
+        "law_states.md.criminal.criminal_law"
+      ],
+      "6": [
+        "form_tcr_0",
+        "law_federal.criminal.title_15"
+      ],
+      "7": [
+        "law_states.tx.civil.occupations_code",
+        "form_trec_complaint_0"
+      ],
+      "8": [
+        "violation_licensing_violations_Edward Hyland"
+      ],
+      "9": [
+        "violation_licensing_violations_Robert Grealy"
+      ],
+      "10": [
+        "violation_licensing_violations_Amy Groff"
+      ],
+      "11": [
+        "violation_licensing_violations_Tracy Fones"
+      ],
+      "12": [
+        "violation_licensing_violations_Djene Moyer"
+      ],
+      "13": [
+        "violation_licensing_violations_Robert C. Kettler"
+      ],
+      "14": [
+        "violation_licensing_violations_Cynthia Fisher"
+      ],
+      "15": [
+        "violation_licensing_violations_Sean Curtin"
+      ],
+      "16": [
+        "violation_licensing_violations_Patrick Cassada"
+      ],
+      "17": [
+        "violation_licensing_violations_Luke Davis"
+      ],
+      "18": [
+        "violation_licensing_violations_Greg Slang"
+      ],
+      "19": [
+        "violation_licensing_violations_J.D. Sitton"
+      ],
+      "20": [
+        "violation_licensing_violations_Pamela Tyrrell"
+      ],
+      "21": [
+        "violation_licensing_violations_Kristina Thoummarath"
+      ],
+      "22": [
+        "violation_licensing_violations_Christina Chang"
+      ],
+      "23": [
+        "violation_licensing_violations_Todd Bowen"
+      ],
+      "24": [
+        "violation_licensing_violations_Jeffrey Williams"
+      ],
+      "25": [
+        "violation_licensing_violations_Henry Ramos"
+      ],
+      "26": [
+        "violation_address_violations_unknown"
+      ],
+      "27": [
+        "violation_fraud_violations_Interstate Commerce"
+      ],
+      "28": [
+        "violation_fraud_violations_News Database"
+      ],
+      "29": [
+        "violation_filing_violations_lariat_realty_advisors,_inc."
+      ],
+      "30": [
+        "violation_tax_forfeitures_lariat_realty_advisors,_inc."
+      ],
+      "31": [
+        "violation_tax_forfeitures_wayne_eaton,_inc."
+      ],
+      "32": [
+        "violation_forfeited_entities_kettler_land_management_llc"
+      ],
+      "33": [
+        "violation_forfeited_entities_wayne_eaton,_inc."
+      ],
+      "34": [
+        "violation_forfeited_entities_divorce_navigators,_inc."
+      ],
+      "35": [
+        "violation_other_violations_Edward Hyland"
+      ],
+      "36": [
+        "violation_other_violations_Senior Regional"
+      ],
+      "37": [
+        "violation_other_violations_Verification Needed"
+      ],
+      "38": [
+        "violation_other_violations_Henry Ramos"
+      ],
+      "39": [
+        "violation_other_violations_Sean Curtin"
+      ],
+      "40": [
+        "violation_other_violations_State Violations"
+      ],
+      "41": [
+        "violation_other_violations_Local Violations"
+      ],
+      "42": [
+        "violation_other_violations_Operational Anomalies"
+      ],
+      "43": [
+        "violation_other_violations_Database Search"
+      ],
+      "44": [
+        "violation_other_violations_Needs Verification"
+      ],
+      "45": [
+        "violation_other_violations_Recommended Filings"
+      ],
+      "46": [
+        "violation_other_violations_Executive Summary"
+      ],
+      "47": [
+        "violation_other_violations_Confirmed Violations"
+      ],
+      "48": [
+        "violation_other_violations_Community Manager"
+      ],
+      "49": [
+        "violation_other_violations_Property Manager"
+      ],
+      "50": [
+        "violation_other_violations_General Counsel"
+      ],
+      "51": [
+        "violation_other_violations_Recommended Immediate"
+      ],
+      "52": [
+        "violation_other_violations_Kettler Management"
+      ],
+      "53": [
+        "violation_other_violations_Fair Housing"
+      ],
+      "54": [
+        "violation_other_violations_Recommended Actions"
+      ],
+      "55": [
+        "violation_other_violations_Violation Summary"
+      ],
+      "56": [
+        "law_federal.criminal.title_18"
+      ],
+      "57": [
+        "law_federal.criminal.title_26"
+      ],
+      "58": [
+        "law_federal.civil.title_15"
+      ],
+      "59": [
+        "law_federal.civil.title_42"
+      ],
+      "60": [
+        "law_federal.civil.title_28"
+      ],
+      "61": [
+        "law_states.tx.criminal.penal_code"
+      ],
+      "62": [
+        "law_states.tx.criminal.tax_code"
+      ],
+      "63": [
+        "law_states.tx.civil.property_code"
+      ],
+      "64": [
+        "law_states.dc.criminal.criminal_code"
+      ],
+      "65": [
+        "law_states.pa.criminal.crimes_code"
+      ],
+      "66": [
+        "law_states.pa.civil.real_estate_licensing"
+      ],
+      "67": [
+        "law_states.north_carolina.criminal.general_statutes"
+      ],
+      "68": [
+        "law_states.north_carolina.civil.real_estate_licensing"
+      ],
+      "69": [
+        "law_states.new_jersey.criminal.criminal_code"
+      ],
+      "70": [
+        "law_states.new_jersey.civil.real_estate_licensing"
+      ],
+      "71": [
+        "law_states.new_york.criminal.penal_law"
+      ],
+      "72": [
+        "law_states.new_york.civil.real_property_law"
+      ],
+      "73": [
+        "law_states.ct.criminal.general_statutes"
+      ],
+      "74": [
+        "law_states.ct.civil.real_estate_licensing"
+      ],
+      "75": [
+        "law_states.al.criminal.criminal_code"
+      ],
+      "76": [
+        "law_states.al.civil.real_estate_licensing"
+      ],
+      "77": [
+        "law_states.az.criminal.criminal_code"
+      ],
+      "78": [
+        "law_states.ca.criminal.penal_code"
+      ],
+      "79": [
+        "law_states.ca.civil.business_professions_code"
+      ],
+      "80": [
+        "law_states.co.criminal.criminal_code"
+      ],
+      "81": [
+        "law_states.co.civil.real_estate_licensing"
+      ],
+      "82": [
+        "law_states.de.criminal.criminal_code"
+      ],
+      "83": [
+        "law_states.de.civil.real_estate_licensing"
+      ],
+      "84": [
+        "law_states.fl.criminal.criminal_code"
+      ],
+      "85": [
+        "law_states.fl.civil.real_estate_licensing"
+      ],
+      "86": [
+        "law_states.ga.criminal.criminal_code"
+      ],
+      "87": [
+        "law_states.ga.civil.real_estate_licensing"
+      ],
+      "88": [
+        "law_states.ma.criminal.criminal_code"
+      ],
+      "89": [
+        "law_states.new_mexico.criminal.criminal_code"
+      ],
+      "90": [
+        "law_states.new_mexico.civil.real_estate_licensing"
+      ],
+      "91": [
+        "law_states.south_carolina.criminal.criminal_code"
+      ],
+      "92": [
+        "law_states.south_carolina.civil.real_estate_licensing"
+      ],
+      "93": [
+        "law_states.ut.criminal.criminal_code"
+      ],
+      "94": [
+        "law_states.ut.civil.real_estate_licensing"
+      ],
+      "95": [
+        "law_localities.va.fairfax_county"
+      ],
+      "96": [
+        "law_localities.va.arlington_county"
+      ],
+      "97": [
+        "law_localities.va.alexandria"
+      ],
+      "98": [
+        "law_localities.tx.dallas_county"
+      ],
+      "99": [
+        "law_localities.tx.harris_county"
+      ],
+      "100": [
+        "law_localities.md.montgomery_county"
+      ],
+      "101": [
+        "law_localities.md.prince_georges_county"
+      ],
+      "102": [
+        "law_localities.dc.dc_municipal"
+      ],
+      "103": [
+        "form_online_tip"
+      ],
+      "104": [
+        "form_ic3"
+      ],
+      "105": [
+        "form_ps_form_2017"
+      ],
+      "106": [
+        "form_sar"
+      ],
+      "107": [
+        "form_3949_a"
+      ],
+      "108": [
+        "form_form_211"
+      ],
+      "109": [
+        "form_phone_report"
+      ],
+      "110": [
+        "form_tcr"
+      ],
+      "111": [
+        "form_form_tcr"
+      ],
+      "112": [
+        "form_online_complaint"
+      ],
+      "113": [
+        "form_antitrust_complaint"
+      ],
+      "114": [
+        "form_consumer_complaint"
+      ],
+      "115": [
+        "form_hud_903.1"
+      ],
+      "116": [
+        "form_eeoc_form_5"
+      ],
+      "117": [
+        "form_dpor_complaint"
+      ],
+      "118": [
+        "form_upl_complaint"
+      ],
+      "119": [
+        "form_varies_by_locality"
+      ],
+      "120": [
+        "form_trec_complaint"
+      ],
+      "121": [
+        "form_sos_complaint"
+      ]
+    },
+    "n_communities": 122,
+    "modularity": 0.5145795122442898
+  },
+  "optimal_pathways": {
+    "shortest_paths": [
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_38→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_38",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_other_violations_Fair Housing_33→form_consumer_complaint_0",
+        "path": [
+          "violation_other_violations_Fair Housing_33",
+          "law_states.va.civil.code_title_55_1",
+          "form_consumer_complaint_0"
+        ],
+        "weight": 0.5915224552154541,
+        "hops": 2
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_35→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_35",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_37→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_37",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_44→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_44",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_47→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_47",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_46→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_46",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_45→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_45",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_41→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_41",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_40→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_40",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_39→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_39",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_43→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_43",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_42→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_42",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_36→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_36",
+          "form_upl_complaint_1"
+        ],
+        "weight": 0.393759548664093,
+        "hops": 0
+      }
+    ],
+    "highest_similarity_paths": [
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_38→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_38",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_35→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_35",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_37→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_37",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_44→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_44",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_47→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_47",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_46→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_46",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_45→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_45",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_41→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_41",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_40→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_40",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_39→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_39",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_43→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_43",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_42→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_42",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      },
+      {
+        "pair": "violation_licensing_violations_Tracy Fones_36→form_upl_complaint_1",
+        "path": [
+          "violation_licensing_violations_Tracy Fones_36",
+          "form_upl_complaint_1"
+        ],
+        "similarity": 0.606240451335907,
+        "hops": 0
+      }
+    ],
+    "most_common_paths": [
+      {
+        "path": "violation_licensing_violations_Tracy Fones_38→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_35→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_37→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_44→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_47→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_46→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_45→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_41→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_40→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_39→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_43→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_42→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_licensing_violations_Tracy Fones_36→form_upl_complaint_1",
+        "frequency": 3,
+        "avg_weight": 0.393759548664093,
+        "avg_similarity": 0.606240451335907
+      },
+      {
+        "path": "violation_other_violations_Fair Housing_33→law_states.va.civil.code_title_55_1→form_consumer_complaint_0",
+        "frequency": 2,
+        "avg_weight": 0.5915224552154541,
+        "avg_similarity": NaN
+      }
+    ],
+    "violation_form_matrix": {}
+  },
+  "sample_paths": {
+    "violation_licensing_violations_Tracy Fones_38→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_38",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_38",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_38",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ],
+    "violation_other_violations_Fair Housing_33→form_consumer_complaint_0": [
+      {
+        "path": [
+          "violation_other_violations_Fair Housing_33",
+          "law_states.va.civil.code_title_55_1",
+          "form_consumer_complaint_0"
+        ],
+        "length": 2,
+        "algorithm": "dijkstra",
+        "weight": 0.5915224552154541,
+        "hops": 2
+      },
+      {
+        "path": [
+          "violation_other_violations_Fair Housing_33",
+          "law_states.va.civil.code_title_55_1",
+          "form_consumer_complaint_0"
+        ],
+        "length": 2,
+        "algorithm": "all_simple_paths",
+        "weight": 0.5915224552154541,
+        "hops": 2
+      }
+    ],
+    "violation_licensing_violations_Tracy Fones_35→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_35",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_35",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_35",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ],
+    "violation_licensing_violations_Tracy Fones_37→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_37",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_37",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_37",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ],
+    "violation_licensing_violations_Tracy Fones_44→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_44",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_44",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_44",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ],
+    "violation_licensing_violations_Tracy Fones_47→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_47",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_47",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_47",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ],
+    "violation_licensing_violations_Tracy Fones_46→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_46",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_46",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_46",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ],
+    "violation_licensing_violations_Tracy Fones_45→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_45",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_45",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_45",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ],
+    "violation_licensing_violations_Tracy Fones_41→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_41",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_41",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_41",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ],
+    "violation_licensing_violations_Tracy Fones_40→form_upl_complaint_1": [
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_40",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "direct",
+        "weight": 0.393759548664093,
+        "similarity": 0.606240451335907
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_40",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "dijkstra",
+        "weight": 0.393759548664093,
+        "hops": 1
+      },
+      {
+        "path": [
+          "violation_licensing_violations_Tracy Fones_40",
+          "form_upl_complaint_1"
+        ],
+        "length": 1,
+        "algorithm": "all_simple_paths",
+        "weight": 0.393759548664093,
+        "hops": 1
+      }
+    ]
+  }
+}

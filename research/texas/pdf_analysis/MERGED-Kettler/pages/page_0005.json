@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:53:58.150072",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_0005.json",
+    "created": "2025_12_11t00:53:58.150072",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_0005.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 5,
-    "text": "Commonwealth of Virginia\nState Corporation Commission\nOffice of the Clerk\nEntity ID: 03218674\niFlingN umb2e 5r:03058339265Filing Number: 2503058339265\nAMi0me 30:/52/0250 83:3 iFlingD aeTt/ Filing Date/Time: 03/05/2025 08:33 AM\nAMi0me 30:/52/0250 83:3 eifctveD aeTt/Ef Effective Date/Time: 03/05/2025 08:33 AM\niiiFcttouNiiis aFcttome- uN s ameC eirtFictitious Name - Fictitious Name Certif(cid:222)iccaet ate\nnoIfrmaiEniy tottnEntity Information\nNEniy attme:Entity Name: lKeteMatr nagenmeIc.n t Kettler Management Inc. oCypStck oe rp:oraitonTEniy ttEntity Type: Stock Corporation\niiiFcttouNs ameFictitious Name\niiiFcttouNls aKeteMame tr n:agemeCn otrp.Fictitious Name: Kettler Management Corp.\nSignaunotreIfrmai tonSignature Information\nDaeSit gne0d 30:/52/025Date Signed: 03/05/2025\nuretSgnai itleT\nPrinetdN amePrinted Name Signature Title\nSeanHC uirtnSean H Curtin SeanHC uirtnSean H Curtin a ndSe creatryEVPEVP and Secretary",
+    "text": "commonwealth_of_virginia_state_corporation_commission_office_of_the_clerk_entity_id:_03218674_iflingn_umb2e_5r:03058339265filing_number:_2503058339265_ami0me_30:/52/0250_83:3_iflingd_aett/_filing_date/time:_03/05/2025_08:33_am_ami0me_30:/52/0250_83:3_eifctved_aett/ef_effective_date/time:_03/05/2025_08:33_am_iiifcttouniiis_afcttome_un_s_amec_eirtfictitious_name_fictitious_name_certif(cid:222)iccaet_ate_noifrmaieniy_tottnentity_information_neniy_attme:entity_name:_lketematr_nagenmeic.n_t_kettler_management_inc._ocypstck_oe_rp:oraitonteniy_ttentity_type:_stock_corporation_iiifcttouns_amefictitious_name_iiifcttounls_aketemame_tr_n:agemecn_otrp.fictitious_name:_kettler_management_corp._signaunotreifrmai_tonsignature_information_daesit_gne0d_30:/52/025date_signed:_03/05/2025_uretsgnai_itlet_prinetdn_ameprinted_name_signature_title_seanhc_uirtnsean_h_curtin_seanhc_uirtnsean_h_curtin_a_ndse_creatryevpevp_and_secretary",
     "char_count": 926,
     "word_count": 109,
     "anomalies": {
       "page_number": 5,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 5 | text: Commonwealth of Virginia\nState Corporation Commission\nOffice of the Clerk\nEntity ID: 03218674\niFlingN umb2e 5r:03058339265Filing Number: 2503058339265\nAMi0me 30:/52/0250 83:3 iFlingD aeTt/ Filing Date/Time: 03/05/2025 08:33 AM\nAMi0me 30:/52/0250 83:3 eifctveD aeTt/Ef Effective Date/Time: 03/05/2025 08:33 AM\niiiFcttouNiiis aFcttome- uN s ameC eirtFictitious Name - Fictitious Name Certif(cid:222)iccaet ate\nnoIfrmaiEniy tottnEntity Information\nNEniy attme:Entity Name: lKeteMatr nagenmeIc.n t Kettler Management Inc. oCypStck oe rp:oraitonTEniy ttEntity Type: Stock Corporation\niiiFcttouNs ameFictitious Name\niiiFcttouNls aKeteMame tr n:agemeCn otrp.Fictitious Name: Kettler Management Corp.\nSignaunotreIfrmai tonSignature Information\nDaeSit gne0d 30:/52/025Date Signed: 03/05/2025\nuretSgnai itleT\nPrinetdN amePrinted Name Signature Title\nSeanHC uirtnSean H Curtin SeanHC uirtnSean H Curtin a ndSe creatryEVPEVP and Secretary | char_count: 926 | word_count: 109 | anomalies: {\"page_number\":5,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_5_|_text:_commonwealth_of_virginia_state_corporation_commission_office_of_the_clerk_entity_id:_03218674_iflingn_umb2e_5r:03058339265filing_number:_2503058339265_ami0me_30:/52/0250_83:3_iflingd_aett/_filing_date/time:_03/05/2025_08:33_am_ami0me_30:/52/0250_83:3_eifctved_aett/ef_effective_date/time:_03/05/2025_08:33_am_iiifcttouniiis_afcttome_un_s_amec_eirtfictitious_name_fictitious_name_certif(cid:222)iccaet_ate_noifrmaieniy_tottnentity_information_neniy_attme:entity_name:_lketematr_nagenmeic.n_t_kettler_management_inc._ocypstck_oe_rp:oraitonteniy_ttentity_type:_stock_corporation_iiifcttouns_amefictitious_name_iiifcttounls_aketemame_tr_n:agemecn_otrp.fictitious_name:_kettler_management_corp._signaunotreifrmai_tonsignature_information_daesit_gne0d_30:/52/025date_signed:_03/05/2025_uretsgnai_itlet_prinetdn_ameprinted_name_signature_title_seanhc_uirtnsean_h_curtin_seanhc_uirtnsean_h_curtin_a_ndse_creatryevpevp_and_secretary_|_char_count:_926_|_word_count:_109_|_anomalies:_{\"page_number\":5,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.0899331346154213,
     0.03198559582233429,

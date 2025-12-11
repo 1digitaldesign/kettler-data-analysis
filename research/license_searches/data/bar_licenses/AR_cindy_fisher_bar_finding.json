@@ -1,35 +1,35 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "state": "AR",
-    "state_code": "AR",
-    "employee": "Cindy Fisher",
+    "date": "2025_12_10",
+    "state": "ar",
+    "state_code": "ar",
+    "employee": "cindy_fisher",
     "employee_key": "cindy_fisher",
     "title": "",
     "search_type": "bar_license",
     "search_url": "",
     "alternative_urls": [],
-    "search_method": "Not yet searched",
-    "license_type": "State Bar Admission",
+    "search_method": "not_yet_searched",
+    "license_type": "state_bar_admission",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": false,
     "browser_automation_status": "not_searched",
     "google_search_performed": false,
-    "note": "Search completed via Not yet searched. Manual verification recommended."
+    "note": "search_completed_via_not_yet_searched._manual_verification_recommended."
   },
   "findings": {
     "searched": true,
-    "search_date": "2025-12-10",
+    "search_date": "2025_12_10",
     "bar_license": false,
-    "license_status": "Not found",
+    "license_status": "not_found",
     "search_methods_used": [
-      "Not yet searched"
+      "not_yet_searched"
     ],
     "results_found": 0,
-    "note": "Search not yet performed. Manual verification recommended."
+    "note": "search_not_yet_performed._manual_verification_recommended."
   },
-  "conclusion": "Cindy Fisher does NOT appear to have a bar license in AR. Search not yet performed - manual verification recommended.",
-  "license_status": "Not found",
+  "conclusion": "cindy_fisher_does_not_appear_to_have_a_bar_license_in_ar._search_not_yet_performed_manual_verification_recommended.",
+  "license_status": "not_found",
   "verification_status": "requires_manual_verification"
 }

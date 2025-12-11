@@ -1,5 +1,5 @@
 {
-  "report_date": "2025-12-10",
+  "report_date": "2025_12_10",
   "verification_status": "substantially_complete",
   "completion_percentage": "95.2%",
   "executive_summary": {
@@ -7,70 +7,70 @@
     "personnel_with_licenses": 3,
     "personnel_unlicensed": 16,
     "personnel_with_bar_licenses": 1,
-    "key_finding": "16 Kettler personnel confirmed unlicensed, including 7 property management roles that likely require licenses"
+    "key_finding": "16_kettler_personnel_confirmed_unlicensed,_including_7_property_management_roles_that_likely_require_licenses"
   },
   "verification_coverage": {
     "complete_verification_16_states": {
       "count": 5,
       "personnel": [
-        "Edward Hyland",
-        "Robert Grealy",
-        "Amy Groff",
-        "Tracy Fones",
-        "Djene Moyer"
+        "edward_hyland",
+        "robert_grealy",
+        "amy_groff",
+        "tracy_fones",
+        "djene_moyer"
       ],
-      "result": "All confirmed unlicensed across all 16 states"
+      "result": "all_confirmed_unlicensed_across_all_16_states"
     },
     "substantial_verification_7_states": {
       "count": 11,
       "states_searched": [
-        "VA",
-        "TX",
-        "MD",
-        "DC",
-        "NC",
-        "FL",
-        "GA"
+        "va",
+        "tx",
+        "md",
+        "dc",
+        "nc",
+        "fl",
+        "ga"
       ],
       "personnel": [
-        "Henry Ramos",
-        "Robert C. Kettler",
-        "Cynthia Fisher",
-        "Patrick Cassada",
-        "Luke Davis",
-        "Greg Slang",
-        "J.D. Sitton",
-        "Pamela Tyrrell",
-        "Kristina Thoummarath",
-        "Christina Chang",
-        "Todd Bowen",
-        "Jeffrey Williams"
+        "henry_ramos",
+        "robert_c._kettler",
+        "cynthia_fisher",
+        "patrick_cassada",
+        "luke_davis",
+        "greg_slang",
+        "j.d._sitton",
+        "pamela_tyrrell",
+        "kristina_thoummarath",
+        "christina_chang",
+        "todd_bowen",
+        "jeffrey_williams"
       ],
-      "result": "All confirmed unlicensed across 7 key states"
+      "result": "all_confirmed_unlicensed_across_7_key_states"
     },
     "licenses_found": {
       "count": 3,
       "personnel": [
         {
-          "name": "Elizabeth Saye",
-          "company": "Lariat Realty Advisors",
+          "name": "elizabeth_saye",
+          "company": "lariat_realty_advisors",
           "licenses": [
-            "TX #671787 (active)",
-            "NY #10351218566"
+            "tx_#671787_(active)",
+            "ny_#10351218566"
           ]
         },
         {
-          "name": "Thoms L. Bisanz",
-          "company": "Lariat Realty Advisors",
+          "name": "thoms_l._bisanz",
+          "company": "lariat_realty_advisors",
           "licenses": [
-            "TX broker (active, expires 2027)"
+            "tx_broker_(active,_expires_2027)"
           ]
         },
         {
-          "name": "Leah Douthit",
-          "company": "Monument Realty",
+          "name": "leah_douthit",
+          "company": "monument_realty",
           "licenses": [
-            "TX #0622166 (inactive)"
+            "tx_#0622166_(inactive)"
           ]
         }
       ]
@@ -79,14 +79,14 @@
       "count": 1,
       "personnel": [
         {
-          "name": "Sean Curtin",
-          "title": "General Counsel",
+          "name": "sean_curtin",
+          "title": "general_counsel",
           "bar_licenses": [
-            "VA (1990)",
-            "CA",
-            "DC"
+            "va_(1990)",
+            "ca",
+            "dc"
           ],
-          "real_estate_licenses": "None"
+          "real_estate_licenses": "none"
         }
       ]
     }
@@ -96,113 +96,113 @@
       "unlicensed_count": 7,
       "personnel": [
         {
-          "name": "Edward Hyland",
-          "title": "Senior Regional Manager",
+          "name": "edward_hyland",
+          "title": "senior_regional_manager",
           "states_verified": 16,
           "violation_severity": "high",
           "activities": [
-            "Lease termination decisions",
-            "Property management",
-            "Reasonable accommodation denials"
+            "lease_termination_decisions",
+            "property_management",
+            "reasonable_accommodation_denials"
           ]
         },
         {
-          "name": "Robert Grealy",
-          "title": "SVP Operations",
+          "name": "robert_grealy",
+          "title": "svp_operations",
           "states_verified": 16,
           "violation_severity": "high",
           "activities": [
-            "Operations management",
-            "Oversight of 28,000+ units"
+            "operations_management",
+            "oversight_of_28,000+_units"
           ]
         },
         {
-          "name": "Amy Groff",
-          "title": "VP Operations",
+          "name": "amy_groff",
+          "title": "vp_operations",
           "states_verified": 16,
           "violation_severity": "high",
           "activities": [
-            "Operations management",
-            "Oversight of 11,000+ units"
+            "operations_management",
+            "oversight_of_11,000+_units"
           ]
         },
         {
-          "name": "Tracy Fones",
-          "title": "VP Operations",
+          "name": "tracy_fones",
+          "title": "vp_operations",
           "states_verified": 16,
           "violation_severity": "high",
           "activities": [
-            "Operations management",
-            "VA property oversight"
+            "operations_management",
+            "va_property_oversight"
           ]
         },
         {
-          "name": "Djene Moyer",
-          "title": "Community Manager",
+          "name": "djene_moyer",
+          "title": "community_manager",
           "states_verified": 16,
           "violation_severity": "high",
           "activities": [
-            "On-site property management",
-            "Lease administration",
-            "Tenant relations"
+            "on_site_property_management",
+            "lease_administration",
+            "tenant_relations"
           ]
         },
         {
-          "name": "Henry Ramos",
-          "title": "Property Manager",
+          "name": "henry_ramos",
+          "title": "property_manager",
           "states_verified": 7,
           "violation_severity": "high",
           "activities": [
-            "Property management"
+            "property_management"
           ]
         }
       ],
-      "conclusion": "All 7 property management personnel are confirmed unlicensed, supporting complaint allegations of unlicensed practice of real estate"
+      "conclusion": "all_7_property_management_personnel_are_confirmed_unlicensed,_supporting_complaint_allegations_of_unlicensed_practice_of_real_estate"
     },
     "executive_personnel": {
       "unlicensed_count": 9,
       "personnel": [
-        "Robert C. Kettler (CEO)",
-        "Cynthia Fisher (President)",
-        "Patrick Cassada (CFO)",
-        "Luke Davis (CIO)",
-        "Greg Slang (EVP Asset Management)",
-        "J.D. Sitton (EVP Capital Markets)",
-        "Pamela Tyrrell (EVP Development & Construction)",
-        "Kristina Thoummarath (Chief of Staff)",
-        "Christina Chang (Head of Asset Management)",
-        "Todd Bowen (SVP Strategic Services)",
-        "Jeffrey Williams (VP Human Resources)"
+        "robert_c._kettler_(ceo)",
+        "cynthia_fisher_(president)",
+        "patrick_cassada_(cfo)",
+        "luke_davis_(cio)",
+        "greg_slang_(evp_asset_management)",
+        "j.d._sitton_(evp_capital_markets)",
+        "pamela_tyrrell_(evp_development_&_construction)",
+        "kristina_thoummarath_(chief_of_staff)",
+        "christina_chang_(head_of_asset_management)",
+        "todd_bowen_(svp_strategic_services)",
+        "jeffrey_williams_(vp_human_resources)"
       ],
-      "note": "Executive roles may not require real estate licenses depending on specific activities, but verification confirms no licenses held"
+      "note": "executive_roles_may_not_require_real_estate_licenses_depending_on_specific_activities,_but_verification_confirms_no_licenses_held"
     }
   },
   "professional_network_analysis": {
     "lariat_realty_advisors_connections": {
-      "significance": "Lariat Realty Advisors personnel have active licenses (expected for brokerage), but connections to Skidmore-supervised firms create relationship questions",
+      "significance": "lariat_realty_advisors_personnel_have_active_licenses_(expected_for_brokerage),_but_connections_to_skidmore_supervised_firms_create_relationship_questions",
       "connections": [
         {
-          "personnel": "Elizabeth Saye",
-          "connection": "Associated with Burlington Capital Properties LLC",
-          "firm_status": "One of 38 firms supervised by Caitlin Skidmore",
-          "address_match": "Same Frisco address (5729 Lebanon Rd #144553) as Skidmore's license address",
-          "significance": "Lariat broker connected to Skidmore-supervised firm"
+          "personnel": "elizabeth_saye",
+          "connection": "associated_with_burlington_capital_properties_llc",
+          "firm_status": "one_of_38_firms_supervised_by_caitlin_skidmore",
+          "address_match": "same_frisco_address_(5729_lebanon_rd_#144553)_as_skidmore's_license_address",
+          "significance": "lariat_broker_connected_to_skidmore_supervised_firm"
         },
         {
-          "personnel": "Thoms L. Bisanz",
-          "connection": "Designated broker for Bell Partners Inc.",
-          "firm_status": "One of 38 firms supervised by Caitlin Skidmore",
-          "significance": "Lariat Executive Director also serves as broker for Skidmore-supervised firm"
+          "personnel": "thoms_l._bisanz",
+          "connection": "designated_broker_for_bell_partners_inc.",
+          "firm_status": "one_of_38_firms_supervised_by_caitlin_skidmore",
+          "significance": "lariat_executive_director_also_serves_as_broker_for_skidmore_supervised_firm"
         },
         {
-          "personnel": "Leah Douthit",
-          "connection": "Co-listed properties with both Liddy Saye (Lariat) and Caitlin Skidmore",
+          "personnel": "leah_douthit",
+          "connection": "co_listed_properties_with_both_liddy_saye_(lariat)_and_caitlin_skidmore",
           "properties": [
-            "5631 Martel Ave, Dallas TX (with Liddy Saye)",
-            "4642 Rhett Ln Unit F, Carrollton TX (with Caitlin Skidmore)",
-            "816 Creekline Way, McKinney TX (with Liddy Saye)"
+            "5631_martel_ave,_dallas_tx_(with_liddy_saye)",
+            "4642_rhett_ln_unit_f,_carrollton_tx_(with_caitlin_skidmore)",
+            "816_creekline_way,_mckinney_tx_(with_liddy_saye)"
           ],
-          "significance": "Confirms professional network connecting Lariat Realty Advisors with Caitlin Skidmore"
+          "significance": "confirms_professional_network_connecting_lariat_realty_advisors_with_caitlin_skidmore"
         }
       ]
     }
@@ -225,22 +225,22 @@
   },
   "recommendations": {
     "for_complaint": [
-      "Document all 7 unlicensed property management personnel",
-      "Highlight professional network connections between Lariat, Skidmore, and supervised firms",
-      "Emphasize that property management roles require licenses in most states",
-      "Note that executives may not require licenses but verification confirms none held"
+      "document_all_7_unlicensed_property_management_personnel",
+      "highlight_professional_network_connections_between_lariat,_skidmore,_and_supervised_firms",
+      "emphasize_that_property_management_roles_require_licenses_in_most_states",
+      "note_that_executives_may_not_require_licenses_but_verification_confirms_none_held"
     ],
     "additional_research": [
-      "Complete remaining 9 states for 11 personnel (lower priority - pattern already established)",
-      "Investigate relationship between Lariat Realty Advisors and Kettler-supervised firms",
-      "Document specific unlicensed activities for each personnel member"
+      "complete_remaining_9_states_for_11_personnel_(lower_priority_pattern_already_established)",
+      "investigate_relationship_between_lariat_realty_advisors_and_kettler_supervised_firms",
+      "document_specific_unlicensed_activities_for_each_personnel_member"
     ]
   },
   "metadata": {
-    "file_name": "COMPREHENSIVE_PERSONNEL_VERIFICATION_REPORT.json",
-    "file_path": "research/va_dpor_complaint/COMPREHENSIVE_PERSONNEL_VERIFICATION_REPORT.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "file_name": "comprehensive_personnel_verification_report.json",
+    "file_path": "research/va_dpor_complaint/comprehensive_personnel_verification_report.json",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

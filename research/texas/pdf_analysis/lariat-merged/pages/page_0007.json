@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:58.326292",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0007.json",
+    "created": "2025_12_11t00:51:58.326292",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0007.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 7,
-    "text": "112/18/2017 15:1 2146189723 0E 3AGP\nJHLALFEG\nGLENN HEGAR TEXAS COMPTROLLER OF PUBLIC ACCOUNTS\n! .O. Box 13B28 ¥ Austin, TX 78711-3828\nDecember 18, 2027\nLARIAT REALTY ADVISORS, INC.\n4600 FIRESTONE DR\nFRISCO TX 75034-6847\naCx learanoRceLefr e etr itnaesttmen*tT\nTo: Texas Secretary Of State\nCorporations Section\nLARIAT REALTY ADVISORS, INC.\nTaxpayer number: 32044752940\nFile number: 0801459833\nForfeiture: 2/8/2013\nThe referenced entity has met all franchise tax requirements and is\neligible for reinstatement through 5/15/2018.\nDamaris Levi\nFranchise Tax Section\nAccount Maintenance Division\n1-000-531-5441, ext. 5-0045\nThis reins ate his us, inite is a ting out mens must me, and ration daquest\nfor tax clearance must be submitted.\nouca n Y (cid:222) esotxag.s.s.ocov/rpso/sdai/noadFrms neshml dx.t.loreefr i neesttmeon ntlinwea w tw\nucoo.s/rpfrms_aet/osostt.pi.s.tonshml.tobr yinruistctoorenfr is naesttmean reat vailablwea w tw\nhaclTitx es aranbacelemu eatchh etr st teoteretdt i naeosttmefrms.n tcalling5 12-463-5555 .\n5.-104/)o0Frm 8-377(R ov",
+    "text": "112/18/2017_15:1_2146189723_0e_3agp_jhlalfeg_glenn_hegar_texas_comptroller_of_public_accounts_!_.o._box_13b28_¥_austin,_tx_78711_3828_december_18,_2027_lariat_realty_advisors,_inc._4600_firestone_dr_frisco_tx_75034_6847_acx_learanorcelefr_e_etr_itnaesttmen*tt_to:_texas_secretary_of_state_corporations_section_lariat_realty_advisors,_inc._taxpayer_number:_32044752940_file_number:_0801459833_forfeiture:_2/8/2013_the_referenced_entity_has_met_all_franchise_tax_requirements_and_is_eligible_for_reinstatement_through_5/15/2018._damaris_levi_franchise_tax_section_account_maintenance_division_1_000_531_5441,_ext._5_0045_this_reins_ate_his_us,_inite_is_a_ting_out_mens_must_me,_and_ration_daquest_for_tax_clearance_must_be_submitted._ouca_n_y_(cid:222)_esotxag.s.s.ocov/rpso/sdai/noadfrms_neshml_dx.t.loreefr_i_neesttmeon_ntlinwea_w_tw_ucoo.s/rpfrms_aet/osostt.pi.s.tonshml.tobr_yinruistctoorenfr_is_naesttmean_reat_vailablwea_w_tw_hacltitx_es_aranbacelemu_eatchh_etr_st_teoteretdt_i_naeosttmefrms.n_tcalling5_12_463_5555_._5._104/)o0frm_8_377(r_ov",
     "char_count": 1046,
     "word_count": 142,
     "anomalies": {
       "page_number": 7,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 7 | text: 112/18/2017 15:1 2146189723 0E 3AGP\nJHLALFEG\nGLENN HEGAR TEXAS COMPTROLLER OF PUBLIC ACCOUNTS\n! .O. Box 13B28 ¥ Austin, TX 78711-3828\nDecember 18, 2027\nLARIAT REALTY ADVISORS, INC.\n4600 FIRESTONE DR\nFRISCO TX 75034-6847\naCx learanoRceLefr e etr itnaesttmen*tT\nTo: Texas Secretary Of State\nCorporations Section\nLARIAT REALTY ADVISORS, INC.\nTaxpayer number: 32044752940\nFile number: 0801459833\nForfeiture: 2/8/2013\nThe referenced entity has met all franchise tax requirements and is\neligible for reinstatement through 5/15/2018.\nDamaris Levi\nFranchise Tax Section\nAccount Maintenance Division\n1-000-531-5441, ext. 5-0045\nThis reins ate his us, inite is a ting out mens must me, and ration daquest\nfor tax clearance must be submitted.\nouca n Y (cid:222) esotxag.s.s.ocov/rpso/sdai/noadFrms neshml dx.t.loreefr i neesttmeon ntlinwea w tw\nucoo.s/rpfrms_aet/osostt.pi.s.tonshml.tobr yinruistctoorenfr is naesttmean reat vailablwea w tw\nhaclTitx es aranbacelemu eatchh etr st teoteretdt i naeosttmefrms.n tcalling5 12-463-5555 .\n5.-104/)o0Frm 8-377(R ov | char_count: 1046 | word_count: 142 | anomalies: {\"page_number\":7,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_7_|_text:_112/18/2017_15:1_2146189723_0e_3agp_jhlalfeg_glenn_hegar_texas_comptroller_of_public_accounts_!_.o._box_13b28_¥_austin,_tx_78711_3828_december_18,_2027_lariat_realty_advisors,_inc._4600_firestone_dr_frisco_tx_75034_6847_acx_learanorcelefr_e_etr_itnaesttmen*tt_to:_texas_secretary_of_state_corporations_section_lariat_realty_advisors,_inc._taxpayer_number:_32044752940_file_number:_0801459833_forfeiture:_2/8/2013_the_referenced_entity_has_met_all_franchise_tax_requirements_and_is_eligible_for_reinstatement_through_5/15/2018._damaris_levi_franchise_tax_section_account_maintenance_division_1_000_531_5441,_ext._5_0045_this_reins_ate_his_us,_inite_is_a_ting_out_mens_must_me,_and_ration_daquest_for_tax_clearance_must_be_submitted._ouca_n_y_(cid:222)_esotxag.s.s.ocov/rpso/sdai/noadfrms_neshml_dx.t.loreefr_i_neesttmeon_ntlinwea_w_tw_ucoo.s/rpfrms_aet/osostt.pi.s.tonshml.tobr_yinruistctoorenfr_is_naesttmean_reat_vailablwea_w_tw_hacltitx_es_aranbacelemu_eatchh_etr_st_teoteretdt_i_naeosttmefrms.n_tcalling5_12_463_5555_._5._104/)o0frm_8_377(r_ov_|_char_count:_1046_|_word_count:_142_|_anomalies:_{\"page_number\":7,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.13894452154636383,
     -0.07062044739723206,

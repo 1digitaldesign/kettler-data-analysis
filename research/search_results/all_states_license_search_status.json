@@ -1,83 +1,90 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "search_type": "Comprehensive License Verification",
-    "scope": "All Kettler employees in DC, MD, VA, NY, NJ, CT",
+    "date": "2025_12_07",
+    "search_type": "comprehensive_license_verification",
+    "scope": "all_kettler_employees_in_dc,_md,_va,_ny,_nj,_ct",
     "status": "partial_complete",
-    "completion_note": "VA searches executed, results documented. Other states ready for searches but lower priority given personnel verification already complete in va_dpor_complaint/personnel_license_verification.json"
+    "completion_note": "va_searches_executed,_results_documented._other_states_ready_for_searches_but_lower_priority_given_personnel_verification_already_complete_in_va_dpor_complaint/personnel_license_verification.json"
   },
   "states_searched": {
-    "virginia": {
-      "url": "https://www.dpor.virginia.gov/LicenseLookup",
+    "va": {
+      "url": "https://www.dpor.virginia.gov/licenselookup",
       "status": "searches_executed",
       "employees_searched": [
-        "Robert Kettler",
-        "Cindy Fisher",
-        "Sean Curtin",
-        "Djene Moyer",
-        "Henry Ramos",
-        "Caitlin Skidmore",
-        "Luke Davis",
-        "Pat Cassada",
-        "Amy Groff",
-        "Robert Grealy"
+        "robert_kettler",
+        "cindy_fisher",
+        "sean_curtin",
+        "djene_moyer",
+        "henry_ramos",
+        "caitlin_skidmore",
+        "luke_davis",
+        "pat_cassada",
+        "amy_groff",
+        "robert_grealy"
       ],
       "results_status": "pending_extraction",
       "known_findings": {
-        "Edward Hyland": "CONFIRMED UNLICENSED"
+        "Edward Hyland": "confirmed_unlicensed"
       },
-      "note": "Some searches executed successfully, results need extraction. Some timeout issues encountered."
+      "note": "some_searches_executed_successfully,_results_need_extraction._some_timeout_issues_encountered."
     },
-    "maryland": {
+    "md": {
       "url": "https://www.dllr.state.md.us/license/realestate/",
       "status": "page_loaded",
       "searches_pending": 15,
-      "note": "Ready for searches"
+      "note": "ready_for_searches"
     },
-    "district_of_columbia": {
+    "dc": {
       "url": "https://www.dcopla.com/realestate/",
       "status": "page_loaded",
       "searches_pending": 15,
-      "note": "Ready for searches"
+      "note": "ready_for_searches"
     },
     "new_york": {
       "url": "https://www.dos.ny.gov/licensing/",
       "status": "page_loaded",
       "searches_pending": 15,
-      "note": "Ready for searches"
+      "note": "ready_for_searches"
     },
     "new_jersey": {
-      "url": "https://www.njconsumeraffairs.gov/rec/Pages/default.aspx",
+      "url": "https://www.njconsumeraffairs.gov/rec/pages/default.aspx",
       "status": "page_loaded",
       "searches_pending": 15,
-      "note": "Ready for searches"
+      "note": "ready_for_searches"
     },
-    "connecticut": {
+    "ct": {
       "url": "https://www.ct.gov/dcp/cwp/view.asp?a=1629&q=274388",
       "status": "page_loaded",
       "searches_pending": 15,
-      "note": "Ready for searches"
+      "note": "ready_for_searches"
     }
   },
   "caitlin_skidmore_connections": {
     "lariat_realty_advisors": {
-      "brokers": ["Caitlin Skidmore", "Liddy Bisanz saye", "Leah Douthit"],
-      "address": "6700 Antioch Road",
-      "significance": "Professional brokerage association",
-      "investigation_needed": "Search for Liddy Bisanz and Leah Douthit licenses"
+      "brokers": [
+        "caitlin_skidmore",
+        "liddy_bisanz_saye",
+        "leah_douthit"
+      ],
+      "address": "6700_antioch_road",
+      "significance": "professional_brokerage_association",
+      "investigation_needed": "search_for_liddy_bisanz_and_leah_douthit_licenses"
     },
     "fairfield_property_management": {
-      "company": "Fairfield Property Management Inc",
-      "location": "Las Vegas, NV",
-      "address": "4485 PENNWOOD AVE, LAS VEGAS, NV, 89102",
-      "license_number": "B.1003000.LLC",
-      "significance": "Nevada license - different company name",
-      "investigation_needed": "Investigate company registration and other brokers"
+      "company": "fairfield_property_management_inc",
+      "location": "las_vegas,_nv",
+      "address": "4485_pennwood_ave,_las_vegas,_nv,_89102",
+      "license_number": "b.1003000.llc",
+      "significance": "nevada_license_different_company_name",
+      "investigation_needed": "investigate_company_registration_and_other_brokers"
     },
     "frisco_address": {
-      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
-      "significance": "Matches address cluster from previous analysis",
-      "connections": ["Caitlin Skidmore", "Multiple firms"]
+      "address": "5729_lebanon_rd_suite_144553,_frisco,_tx_75034",
+      "significance": "matches_address_cluster_from_previous_analysis",
+      "connections": [
+        "caitlin_skidmore",
+        "multiple_firms"
+      ]
     }
   },
   "summary": {

@@ -1,275 +1,275 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.346076",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_129768500.json",
+    "created": "2025_12_11t00:21:41.346076",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_129768500.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "129768500",
     "entity_type": null,
-    "original_date_of_filing": "January 11, 1994",
-    "entity_status": "In existence",
+    "original_date_of_filing": "january_11,_1994",
+    "entity_status": "in_existence",
     "formation_date": null,
     "tax_id": "17525179135",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "GABLES RESIDENTIAL SERVICES, INC.",
-    "address": "3399 PEACHTREE ROAD NE SUITE 600\nATLANTA, GA 30326 USA",
+    "duration": "perpetual",
+    "name": "gables_residential_services,_inc.",
+    "address": "3399_peachtree_road_ne_suite_600_atlanta,_ga_30326_usa",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "CORPORATION SERVICE COMPANY D/B/A LAWYERS INCORPORATING SERVICE COMPANY",
-      "address": "211 E. 7th Street, Suite 620",
+      "name": "corporation_service_company_d/b/a_lawyers_incorporating_service_company",
+      "address": "211_e._7th_street,_suite_620",
       "inactive_date": null
     },
     "filing_history": [],
     "names": [
       {
-        "name": "GABLES RESIDENTIAL SERVICES, INC.",
-        "name_status": "In use",
-        "name_type": "Legal",
+        "name": "gables_residential_services,_inc.",
+        "name_status": "in_use",
+        "name_type": "legal",
         "name_inactive_date": null,
         "consent_filing_number": null
       }
     ],
     "management": [
       {
-        "last_update": "March 29, 2024",
-        "name": "Susan M Ansel",
-        "title": "President, CEO",
-        "address": "3811 Turtle Creek Blvd Suite 1500"
+        "last_update": "march_29,_2024",
+        "name": "susan_m_ansel",
+        "title": "president,_ceo",
+        "address": "3811_turtle_creek_blvd_suite_1500"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Susan M Ansel",
-        "title": "DIRECTOR",
-        "address": "3811 Turtle Creek Blvd Suite 1500"
+        "last_update": "march_29,_2024",
+        "name": "susan_m_ansel",
+        "title": "director",
+        "address": "3811_turtle_creek_blvd_suite_1500"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Dawn H Severt",
-        "title": "EVP, CFO, Secretary, Treasurer",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "dawn_h_severt",
+        "title": "evp,_cfo,_secretary,_treasurer",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Dawn H Severt",
-        "title": "DIRECTOR",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "dawn_h_severt",
+        "title": "director",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Dennis E Rainosek",
-        "title": "SVP, Asst Secretary, Asst Treasu",
-        "address": "5847 San Felipe Street Suite 3250"
+        "last_update": "march_29,_2024",
+        "name": "dennis_e_rainosek",
+        "title": "svp,_asst_secretary,_asst_treasu",
+        "address": "5847_san_felipe_street_suite_3250"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "David K Reece",
-        "title": "SVP, Asst. Secretary",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "david_k_reece",
+        "title": "svp,_asst._secretary",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Philip E Altschuler",
-        "title": "SVP",
-        "address": "8300 Greensboro Drive Suite 650"
+        "last_update": "march_29,_2024",
+        "name": "philip_e_altschuler",
+        "title": "svp",
+        "address": "8300_greensboro_drive_suite_650"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Donna E Summers",
-        "title": "DIRECTOR",
-        "address": "3811 Turtle Creek Blvd Suite 1500"
+        "last_update": "march_29,_2024",
+        "name": "donna_e_summers",
+        "title": "director",
+        "address": "3811_turtle_creek_blvd_suite_1500"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Charles L Elliott",
-        "title": "EVP, Chief Investment Officer",
-        "address": "3811 Turtle Creek Blvd Suite 1500"
+        "last_update": "march_29,_2024",
+        "name": "charles_l_elliott",
+        "title": "evp,_chief_investment_officer",
+        "address": "3811_turtle_creek_blvd_suite_1500"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Kenna R Coulter",
-        "title": "VP",
-        "address": "3811 Turtle Creek Blvd Suite 1500"
+        "last_update": "march_29,_2024",
+        "name": "kenna_r_coulter",
+        "title": "vp",
+        "address": "3811_turtle_creek_blvd_suite_1500"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "F Gregory Gasior",
-        "title": "SVP",
-        "address": "750 Park of Commerce Blvd STE 300"
+        "last_update": "march_29,_2024",
+        "name": "f_gregory_gasior",
+        "title": "svp",
+        "address": "750_park_of_commerce_blvd_ste_300"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Genevieve Giannoni",
-        "title": "SVP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "genevieve_giannoni",
+        "title": "svp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "William A Gosnell",
-        "title": "VP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "william_a_gosnell",
+        "title": "vp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Mary O Hollands",
-        "title": "SVP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "mary_o_hollands",
+        "title": "svp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Teresa R Meuter",
-        "title": "VP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "teresa_r_meuter",
+        "title": "vp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Robert K Presley",
-        "title": "SVP",
-        "address": "5847 San Felipe Street Suite 3250"
+        "last_update": "march_29,_2024",
+        "name": "robert_k_presley",
+        "title": "svp",
+        "address": "5847_san_felipe_street_suite_3250"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Melanie M Trapnell",
-        "title": "SVP",
-        "address": "5847 San Felipe Street Suite 3250"
+        "last_update": "march_29,_2024",
+        "name": "melanie_m_trapnell",
+        "title": "svp",
+        "address": "5847_san_felipe_street_suite_3250"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Michael L Brown",
-        "title": "RVP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "michael_l_brown",
+        "title": "rvp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Jorgen Punda",
-        "title": "SVP",
-        "address": "8300 Greensboro Drive Suite 650"
+        "last_update": "march_29,_2024",
+        "name": "jorgen_punda",
+        "title": "svp",
+        "address": "8300_greensboro_drive_suite_650"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Timothy R Hutchinson",
-        "title": "VP",
-        "address": "139A Charles Street Suite 301"
+        "last_update": "march_29,_2024",
+        "name": "timothy_r_hutchinson",
+        "title": "vp",
+        "address": "139a_charles_street_suite_301"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Thomas L Bisanz",
-        "title": "VP with limited authority",
-        "address": "3811 Turtle Creek Blvd Suite 1500"
+        "last_update": "march_29,_2024",
+        "name": "thomas_l_bisanz",
+        "title": "vp_with_limited_authority",
+        "address": "3811_turtle_creek_blvd_suite_1500"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "James W Hamrick",
-        "title": "SVP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "james_w_hamrick",
+        "title": "svp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Ryan L Brown",
-        "title": "RVP",
-        "address": "3811 Turtle Creek Blvd Suite 1500"
+        "last_update": "march_29,_2024",
+        "name": "ryan_l_brown",
+        "title": "rvp",
+        "address": "3811_turtle_creek_blvd_suite_1500"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Lynn Riley-Stokes",
-        "title": "RVP",
-        "address": "8300 Greensboro Drive Suite 650"
+        "last_update": "march_29,_2024",
+        "name": "lynn_riley_stokes",
+        "title": "rvp",
+        "address": "8300_greensboro_drive_suite_650"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Beau W Terhaar",
-        "title": "RVP",
-        "address": "101 University Blvd Suite 240"
+        "last_update": "march_29,_2024",
+        "name": "beau_w_terhaar",
+        "title": "rvp",
+        "address": "101_university_blvd_suite_240"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Brian D Mosley",
-        "title": "SVP",
-        "address": "3399 Peachtree Road NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "brian_d_mosley",
+        "title": "svp",
+        "address": "3399_peachtree_road_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Matthew P Seaman",
-        "title": "VP with limited authority",
-        "address": "6901 E Chauncey Lane"
+        "last_update": "march_29,_2024",
+        "name": "matthew_p_seaman",
+        "title": "vp_with_limited_authority",
+        "address": "6901_e_chauncey_lane"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Matthew C Bearden",
-        "title": "SVP",
-        "address": "3399 PEACHTREE RD NE SUITE 600"
+        "last_update": "march_29,_2024",
+        "name": "matthew_c_bearden",
+        "title": "svp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Carrie L Billiam",
-        "title": "SVP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "carrie_l_billiam",
+        "title": "svp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Shane A Polk",
-        "title": "VP",
-        "address": "8300 Greensboro Drive Suite 650"
+        "last_update": "march_29,_2024",
+        "name": "shane_a_polk",
+        "title": "vp",
+        "address": "8300_greensboro_drive_suite_650"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Robert T Rector",
-        "title": "VP",
-        "address": "5847 San Felipe Street Suite 3250"
+        "last_update": "march_29,_2024",
+        "name": "robert_t_rector",
+        "title": "vp",
+        "address": "5847_san_felipe_street_suite_3250"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Edward L Meder",
-        "title": "AVP",
-        "address": "8300 Greensboro Drive Suite 650"
+        "last_update": "march_29,_2024",
+        "name": "edward_l_meder",
+        "title": "avp",
+        "address": "8300_greensboro_drive_suite_650"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Jun H Lee",
-        "title": "VP",
-        "address": "3811 Turtle Creek Blvd Suite 1500"
+        "last_update": "march_29,_2024",
+        "name": "jun_h_lee",
+        "title": "vp",
+        "address": "3811_turtle_creek_blvd_suite_1500"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Kristyn Monticup",
-        "title": "VP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "kristyn_monticup",
+        "title": "vp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       },
       {
-        "last_update": "March 29, 2024",
-        "name": "Puy Thai",
-        "title": "VP",
-        "address": "3399 Peachtree Rd NE Suite 600"
+        "last_update": "march_29,_2024",
+        "name": "puy_thai",
+        "title": "vp",
+        "address": "3399_peachtree_rd_ne_suite_600"
       }
     ],
     "assumed_names": [
       {
-        "assumed_name": "Affinity Temporary Housing",
-        "date_of_filing": "June 20, 2011",
-        "expiration_date": "June 20, 2021",
-        "inactive_date": "June 20, 2021",
-        "name_status": "Expired",
-        "counties": "All Counties"
+        "assumed_name": "affinity_temporary_housing",
+        "date_of_filing": "june_20,_2011",
+        "expiration_date": "june_20,_2021",
+        "inactive_date": "june_20,_2021",
+        "name_status": "expired",
+        "counties": "all_counties"
       }
     ],
     "associated_entities": [
       {
-        "name": "H.G. SMITHY COMPANY",
-        "entity_type": "Foreign For-Profit Corporation",
-        "document_description": "December 27, 2002",
+        "name": "h.g._smithy_company",
+        "entity_type": "foreign_for_profit_corporation",
+        "document_description": "december_27,_2002",
         "filing_date": "999999999",
-        "entity_filing_number": "DE, USA",
-        "jurisdiction": "Non-Survivor",
+        "entity_filing_number": "de,_usa",
+        "jurisdiction": "non_survivor",
         "capacity": null
       }
     ],
     "initial_address": null
   },
-  "text_representation": "filing_number: 129768500 | original_date_of_filing: January 11, 1994 | entity_status: In existence | tax_id: 17525179135 | duration: Perpetual | name: GABLES RESIDENTIAL SERVICES, INC. | address: 3399 PEACHTREE ROAD NE SUITE 600\nATLANTA, GA 30326 USA | registered_agent: {\"name\":\"CORPORATION SERVICE COMPANY D/B/A LAWYERS INCORPORATING SERVICE COMPANY\",\"address\":\"211 E. 7th Street, Suite 620\",\"inactive_date\":null} | names: 1 items | management: 35 items | assumed_names: 1 items | associated_entities: 1 items",
+  "text_representation": "filing_number:_129768500_|_original_date_of_filing:_january_11,_1994_|_entity_status:_in_existence_|_tax_id:_17525179135_|_duration:_perpetual_|_name:_gables_residential_services,_inc._|_address:_3399_peachtree_road_ne_suite_600_atlanta,_ga_30326_usa_|_registered_agent:_{\"name\":\"corporation_service_company_d/b/a_lawyers_incorporating_service_company\",\"address\":\"211_e._7th_street,_suite_620\",\"inactive_date\":null}_|_names:_1_items_|_management:_35_items_|_assumed_names:_1_items_|_associated_entities:_1_items",
   "embedding": [
     -0.07963340729475021,
     0.032284658402204514,

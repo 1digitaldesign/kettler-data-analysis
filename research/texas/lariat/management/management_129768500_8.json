@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.422135",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_129768500_8.json",
+    "created": "2025_12_11t00:21:41.422135",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_129768500_8.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 29, 2024",
-    "name": "Charles L Elliott",
-    "title": "EVP, Chief Investment Officer",
-    "address": "3811 Turtle Creek Blvd Suite 1500"
+    "last_update": "march_29,_2024",
+    "name": "charles_l_elliott",
+    "title": "evp,_chief_investment_officer",
+    "address": "3811_turtle_creek_blvd_suite_1500"
   },
-  "text_representation": "last_update: March 29, 2024 | name: Charles L Elliott | title: EVP, Chief Investment Officer | address: 3811 Turtle Creek Blvd Suite 1500",
+  "text_representation": "last_update:_march_29,_2024_|_name:_charles_l_elliott_|_title:_evp,_chief_investment_officer_|_address:_3811_turtle_creek_blvd_suite_1500",
   "embedding": [
     -0.020552411675453186,
     0.01081906445324421,

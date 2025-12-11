@@ -1,5 +1,5 @@
 {
-  "creation_date": "2025-12-07",
+  "creation_date": "2025_12_07",
   "hyland_firm_connections": {
     "email_connection": true,
     "address_match": 1,
@@ -8,14 +8,14 @@
   "firm_firm_connections": {
     "shared_addresses": [
       {
-        "address": "5729 LEBANON RD STE 144553 FRISCO TX 75034",
+        "address": "5729_lebanon_rd_ste_144553_frisco_tx_75034",
         "firm_count": 5,
         "firms": [
-          "BOZZUTO MANAGEMENT COMPANY",
-          "CORTLAND MANAGEMENT LLC",
-          "GABLES RESIDENTIAL SERVICES INC",
-          "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
-          "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+          "bozzuto_management_company",
+          "cortland_management_llc",
+          "gables_residential_services_inc",
+          "bainbridge_mid_atlantic_management_llc",
+          "capreit_residential_management_llc"
         ]
       }
     ],
@@ -23,30 +23,30 @@
   },
   "kettler_firm_connections": {
     "kettler_license_number": 226025311,
-    "kettler_address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
-    "principal_broker": "SKIDMORE CAITLIN MARIE",
+    "kettler_address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
+    "principal_broker": "skidmore_caitlin_marie",
     "connection_type": "direct_license_match"
   },
   "violation_entity_connections": [
     {
-      "personnel": "Edward Hyland",
-      "activity_type": "Lease Termination",
-      "date": "2025-12-06",
-      "violation": "Unlicensed person making lease decisions affecting tenancy",
+      "personnel": "edward_hyland",
+      "activity_type": "lease_termination",
+      "date": "2025_12_06",
+      "violation": "unlicensed_person_making_lease_decisions_affecting_tenancy",
       "connection_type": "unlicensed_activity"
     },
     {
-      "personnel": "Edward Hyland",
-      "activity_type": "Reasonable Accommodation Decision",
-      "date": "2025-12-06",
-      "violation": "Unlicensed person making legal determinations about accommodation requests",
+      "personnel": "edward_hyland",
+      "activity_type": "reasonable_accommodation_decision",
+      "date": "2025_12_06",
+      "violation": "unlicensed_person_making_legal_determinations_about_accommodation_requests",
       "connection_type": "unlicensed_activity"
     },
     {
-      "personnel": "Edward Hyland",
-      "activity_type": "Property Management",
+      "personnel": "edward_hyland",
+      "activity_type": "property_management",
       "date": "",
-      "violation": "Unlicensed person conducting property management activities",
+      "violation": "unlicensed_person_conducting_property_management_activities",
       "connection_type": "unlicensed_activity"
     }
   ],
@@ -57,11 +57,11 @@
     "kettler_connected": true
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "connection_matrix.json",
     "file_path": "research/analysis/connection_matrix.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   },
   "employee_count": 15,

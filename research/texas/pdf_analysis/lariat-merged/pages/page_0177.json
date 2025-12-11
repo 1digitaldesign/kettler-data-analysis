@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:01.957380",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0177.json",
+    "created": "2025_12_11t00:52:01.957380",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0177.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 177,
-    "text": "MAR-31-2000 07:49 NOSTBO CT .09/10P\nabove we BE HE Me, sing many an ere ene empty date fist\nSURVIVING COMPANY\nGABLES RESIDENTIAL SERVICES, INC.\n-\nName: Chits D. Wheeler\nTitle: President\nMERGING COMPANY\nEAST APARTMENT MANAGEMENT, INC\nBy: -\n- Name: Chris D. Wheeler\nTitle: President\nDOCS 863135 1",
+    "text": "mar_31_2000_07:49_nostbo_ct_.09/10p_above_we_be_he_me,_sing_many_an_ere_ene_empty_date_fist_surviving_company_gables_residential_services,_inc._name:_chits_d._wheeler_title:_president_merging_company_east_apartment_management,_inc_by:_name:_chris_d._wheeler_title:_president_docs_863135_1",
     "char_count": 294,
     "word_count": 49,
     "anomalies": {
       "page_number": 177,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 177 | text: MAR-31-2000 07:49 NOSTBO CT .09/10P\nabove we BE HE Me, sing many an ere ene empty date fist\nSURVIVING COMPANY\nGABLES RESIDENTIAL SERVICES, INC.\n-\nName: Chits D. Wheeler\nTitle: President\nMERGING COMPANY\nEAST APARTMENT MANAGEMENT, INC\nBy: -\n- Name: Chris D. Wheeler\nTitle: President\nDOCS 863135 1 | char_count: 294 | word_count: 49 | anomalies: {\"page_number\":177,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_177_|_text:_mar_31_2000_07:49_nostbo_ct_.09/10p_above_we_be_he_me,_sing_many_an_ere_ene_empty_date_fist_surviving_company_gables_residential_services,_inc._name:_chits_d._wheeler_title:_president_merging_company_east_apartment_management,_inc_by:_name:_chris_d._wheeler_title:_president_docs_863135_1_|_char_count:_294_|_word_count:_49_|_anomalies:_{\"page_number\":177,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.013342556543648243,
     0.03533794358372688,

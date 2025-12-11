@@ -1,14 +1,14 @@
 {
   "_metadata": {
-    "creation_date": "2025-12-07",
+    "creation_date": "2025_12_07",
     "version": "1.0.0",
-    "description": "Master index of all research files organized by category",
+    "description": "master_index_of_all_research_files_organized_by_category",
     "total_files": 350,
-    "last_updated": "2025-12-07"
+    "last_updated": "2025_12_07"
   },
   "categories": {
     "connections": {
-      "description": "Connection analyses between firms and individuals",
+      "description": "connection_analyses_between_firms_and_individuals",
       "directory": "research/connections/",
       "files": [
         "caitlin_skidmore_connections.json"
@@ -16,7 +16,7 @@
       "count": 1
     },
     "analysis": {
-      "description": "General analysis outputs",
+      "description": "general_analysis_outputs",
       "directory": "research/analysis/",
       "files": [
         "all_evidence_summary.json",
@@ -28,127 +28,127 @@
       "count": 15
     },
     "license_searches": {
-      "description": "Multi-state license search results",
+      "description": "multi_state_license_search_results",
       "directory": "research/license_searches/",
       "subdirectories": {
-        "arizona": {
+        "az": {
           "count": 18,
-          "description": "Arizona DPOR license searches"
+          "description": "arizona_dpor_license_searches"
         },
-        "connecticut": {
+        "ct": {
           "count": 22,
-          "description": "Connecticut license searches"
+          "description": "connecticut_license_searches"
         },
         "dc": {
           "count": 21,
-          "description": "DC license searches"
+          "description": "dc_license_searches"
         },
-        "florida": {
+        "fl": {
           "count": 18,
-          "description": "Florida license searches"
+          "description": "florida_license_searches"
         },
-        "georgia": {
+        "ga": {
           "count": 18,
-          "description": "Georgia license searches"
+          "description": "georgia_license_searches"
         },
-        "maryland": {
+        "md": {
           "count": 37,
-          "description": "Maryland license searches"
+          "description": "maryland_license_searches"
         },
         "new_jersey": {
           "count": 22,
-          "description": "New Jersey license searches"
+          "description": "new_jersey_license_searches"
         },
         "new_mexico": {
           "count": 18,
-          "description": "New Mexico license searches"
+          "description": "new_mexico_license_searches"
         },
         "new_york": {
           "count": 21,
-          "description": "New York license searches"
+          "description": "new_york_license_searches"
         },
         "north_carolina": {
           "count": 18,
-          "description": "North Carolina license searches"
+          "description": "north_carolina_license_searches"
         },
-        "pennsylvania": {
+        "pa": {
           "count": 18,
-          "description": "Pennsylvania license searches"
+          "description": "pennsylvania_license_searches"
         },
         "south_carolina": {
           "count": 18,
-          "description": "South Carolina license searches"
+          "description": "south_carolina_license_searches"
         },
-        "utah": {
+        "ut": {
           "count": 18,
-          "description": "Utah license searches"
+          "description": "utah_license_searches"
         },
-        "virginia": {
+        "va": {
           "count": 19,
-          "description": "Virginia license searches"
+          "description": "virginia_license_searches"
         },
         "bar_licenses": {
           "count": 14,
-          "description": "Bar license searches"
+          "description": "bar_license_searches"
         },
         "consolidated": {
           "count": 5,
-          "description": "Consolidated search results"
+          "description": "consolidated_search_results"
         }
       },
       "total_count": 285
     },
     "va_dpor_complaint": {
-      "description": "VA DPOR complaint research and evidence",
+      "description": "va_dpor_complaint_research_and_evidence",
       "directory": "research/va_dpor_complaint/",
       "count": 20,
       "files": [
-        "EXECUTIVE_SUMMARY.json",
-        "PRINCIPAL_BROKER_GAP_ANALYSIS.json",
-        "GEOGRAPHIC_VIOLATION_ANALYSIS.json",
-        "UNLICENSED_PRACTICE_EVIDENCE.json"
+        "executive_summary.json",
+        "principal_broker_gap_analysis.json",
+        "geographic_violation_analysis.json",
+        "unlicensed_practice_evidence.json"
       ]
     },
     "reports": {
-      "description": "Summary reports and findings",
+      "description": "summary_reports_and_findings",
       "directory": "research/reports/",
       "count": 11,
       "files": [
-        "ALL_ANOMALIES_SUMMARY.md",
-        "ALL_VIOLATIONS_AND_ANOMALIES.md",
-        "COMPLETE_AUDIT_SUMMARY.md",
-        "COMPREHENSIVE_ANOMALIES_REPORT.md",
-        "COMPREHENSIVE_VIOLATIONS_REPORT.md",
-        "FINAL_NEXUS_FINDINGS.md",
-        "FINAL_VIOLATION_SUMMARY.md",
-        "NEXUS_ANALYSIS_REPORT.md",
-        "RESEARCH_COMPLETION_SUMMARY.md",
+        "all_anomalies_summary.md",
+        "all_violations_and_anomalies.md",
+        "complete_audit_summary.md",
+        "comprehensive_anomalies_report.md",
+        "comprehensive_violations_report.md",
+        "final_nexus_findings.md",
+        "final_violation_summary.md",
+        "nexus_analysis_report.md",
+        "research_completion_summary.md",
         "validation_report.md",
-        "VIOLATION_AUDIT_COMPLETE.md"
+        "violation_audit_complete.md"
       ]
     },
     "search_results": {
-      "description": "General search results",
+      "description": "general_search_results",
       "directory": "research/search_results/",
       "count": 3
     },
     "address_clusters": {
-      "description": "Address clustering analyses",
+      "description": "address_clustering_analyses",
       "directory": "research/address_clusters/",
       "count": 0
     },
     "browser_automation": {
-      "description": "Browser automation documentation",
+      "description": "browser_automation_documentation",
       "directory": "research/browser_automation/",
       "count": 2
     },
     "regulatory_agencies": {
-      "description": "Regulatory agency information",
+      "description": "regulatory_agency_information",
       "directory": "research/regulatory_agencies/",
       "count": 0
     },
     "root_files": {
-      "description": "Root-level research files",
+      "description": "root_level_research_files",
       "directory": "research/",
       "count": 13,
       "files": [
@@ -156,18 +156,18 @@
         "all_individuals_identified.json",
         "complaint_evidence_compilation.json",
         "complete_research_inventory.json",
-        "FINAL_COMPLETION_REPORT.json",
-        "FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.json",
-        "FINAL_RESEARCH_EXECUTION_SUMMARY.json",
-        "FINAL_VERIFICATION_REPORT.json",
+        "final_completion_report.json",
+        "final_comprehensive_research_summary.json",
+        "final_research_execution_summary.json",
+        "final_verification_report.json",
         "fraud_indicators.json",
         "lariat_affiliated_companies.json",
-        "RESEARCH_COMPLETION_FINAL.json",
-        "RESEARCH_EXECUTION_COMPLETE.json",
-        "RESEARCH_EXECUTION_FINAL_STATUS.json",
-        "RESEARCH_EXECUTION_PROGRESS.json",
-        "RESEARCH_PROGRESS_UPDATE.json",
-        "TODO_INVENTORY.json",
+        "research_completion_final.json",
+        "research_execution_complete.json",
+        "research_execution_final_status.json",
+        "research_execution_progress.json",
+        "research_progress_update.json",
+        "todo_inventory.json",
         "virginia_all_companies_list.json",
         "virginia_companies_extraction_progress.json",
         "virginia_dpor_skidmore_companies.json",
@@ -183,19 +183,19 @@
     "txt": 5
   },
   "key_files": {
-    "research_outline": "research/RESEARCH_OUTLINE.json",
-    "consolidation_view": "research/CONSOLIDATION_VIEW.json",
-    "outline_documentation": "research/RESEARCH_OUTLINE.md",
-    "master_index": "research/MASTER_research_index.json",
-    "executive_summary": "research/va_dpor_complaint/EXECUTIVE_SUMMARY.json",
-    "complaint_ready": "research/RESEARCH_READY_FOR_COMPLAINT.json",
+    "research_outline": "research/research_outline.json",
+    "consolidation_view": "research/consolidation_view.json",
+    "outline_documentation": "research/research_outline.md",
+    "master_index": "research/master_research_index.json",
+    "executive_summary": "research/va_dpor_complaint/executive_summary.json",
+    "complaint_ready": "research/research_ready_for_complaint.json",
     "connections": "research/connections/caitlin_skidmore_connections.json",
     "complete_inventory": "research/complete_research_inventory.json"
   },
   "navigation": {
-    "by_category": "Use categories object to find files by research type",
-    "by_state": "Use license_searches subdirectories for state-specific searches",
-    "by_file_type": "Use file_types object for file type counts",
-    "key_files": "Use key_files object for important navigation files"
+    "by_category": "use_categories_object_to_find_files_by_research_type",
+    "by_state": "use_license_searches_subdirectories_for_state_specific_searches",
+    "by_file_type": "use_file_types_object_for_file_type_counts",
+    "key_files": "use_key_files_object_for_important_navigation_files"
   }
 }

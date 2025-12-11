@@ -1,0 +1,3363 @@
+{
+  "generated_date": "2025-12-11T03:27:16.578471",
+  "total_searches": 38,
+  "searches": [
+    {
+      "record_id": 0,
+      "record": {
+        "firm_license": "0226025311",
+        "firm_name": "kettler_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "8255_greensboro_dr_ste_200,_mclean,_va_22102",
+        "expiration_date": "2026_10_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "va",
+        "individual_license": null,
+        "initial_cert_date": "2014_10_31",
+        "gap_years": 11,
+        "status": "va"
+      },
+      "state": "va",
+      "url": "https://www.dpor.virginia.gov/LicenseLookup/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.dpor.virginia.gov/LicenseLookup/"
+          },
+          "description": "Navigate to VA license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Kettler Management Inc",
+            "description": "Enter name: kettler_management_inc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226025311",
+            "description": "Enter license number: 0226025311"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 1,
+      "record": {
+        "firm_license": "0226023603",
+        "firm_name": "bell_partners_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "300_north_greene_st_suite_1000,_greensboro,_nc_27401",
+        "expiration_date": "2025_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "nc",
+        "individual_license": null,
+        "initial_cert_date": "2011_12_28",
+        "gap_years": 14,
+        "status": "nc"
+      },
+      "state": "nc",
+      "url": "https://www.ncrec.gov/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.ncrec.gov/"
+          },
+          "description": "Navigate to NC license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Bell Partners Inc",
+            "description": "Enter name: bell_partners_inc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226023603",
+            "description": "Enter license number: 0226023603"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 2,
+      "record": {
+        "firm_license": "0226024808",
+        "firm_name": "bozzuto_management_company",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2013_06_04",
+        "gap_years": 12,
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Bozzuto Management Company",
+            "description": "Enter name: bozzuto_management_company"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226024808",
+            "description": "Enter license number: 0226024808"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 3,
+      "record": {
+        "firm_license": "0226038642",
+        "firm_name": "cortland_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_06_30",
+        "gap_years": 0,
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Cortland Management Llc",
+            "description": "Enter name: cortland_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038642",
+            "description": "Enter license number: 0226038642"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 4,
+      "record": {
+        "firm_license": "0226027221",
+        "firm_name": "gables_residential_services_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2016_08_17",
+        "gap_years": 9,
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Gables Residential Services Inc",
+            "description": "Enter name: gables_residential_services_inc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226027221",
+            "description": "Enter license number: 0226027221"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 5,
+      "record": {
+        "firm_license": "0226038613",
+        "firm_name": "gateway_management_company_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_03_26",
+        "gap_years": 0,
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Gateway Management Company Llc",
+            "description": "Enter name: gateway_management_company_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038613",
+            "description": "Enter license number: 0226038613"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 8,
+      "record": {
+        "firm_license": "0226023854",
+        "firm_name": "bainbridge_mid_atlantic_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_04_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2012_04_27",
+        "gap_years": 13,
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Bainbridge Mid Atlantic Management Llc",
+            "description": "Enter name: bainbridge_mid_atlantic_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226023854",
+            "description": "Enter license number: 0226023854"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 9,
+      "record": {
+        "firm_license": "0226038643",
+        "firm_name": "capreit_residential_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_07_24",
+        "gap_years": 0,
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Capreit Residential Management Llc",
+            "description": "Enter name: capreit_residential_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038643",
+            "description": "Enter license number: 0226038643"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 10,
+      "record": {
+        "firm_license": "0226011870",
+        "firm_name": "edgewood_management_corporation",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "9711_washington_blvd_ste_200,_gaithersburg,_md_20878",
+        "expiration_date": "2027_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "md",
+        "individual_license": null,
+        "dba_name": "pratum_companies_management_and_advisory_services",
+        "initial_cert_date": null,
+        "verification_date": "2025_12_08",
+        "status": "md"
+      },
+      "state": "md",
+      "url": "https://www.dllr.state.md.us/cgi_bin/electroniclicensing/op_search/op_search.cgi",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.dllr.state.md.us/cgi_bin/electroniclicensing/op_search/op_search.cgi"
+          },
+          "description": "Navigate to MD license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Edgewood Management Corporation",
+            "description": "Enter name: edgewood_management_corporation"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226011870",
+            "description": "Enter license number: 0226011870"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 11,
+      "record": {
+        "firm_license": "0226038324",
+        "firm_name": "middleburg_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_12_04",
+        "gap_years": 0.5,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Middleburg Management Llc",
+            "description": "Enter name: middleburg_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038324",
+            "description": "Enter license number: 0226038324"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 12,
+      "record": {
+        "firm_license": "0226036814",
+        "firm_name": "capstone_on_campus_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_07_24",
+        "gap_years": 2,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Capstone On Campus Management Llc",
+            "description": "Enter name: capstone_on_campus_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226036814",
+            "description": "Enter license number: 0226036814"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 13,
+      "record": {
+        "firm_license": "0226036650",
+        "firm_name": "core_campus_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_07_05",
+        "gap_years": 2,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Core Campus Management Llc",
+            "description": "Enter name: core_campus_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226036650",
+            "description": "Enter license number: 0226036650"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 14,
+      "record": {
+        "firm_license": "0226038008",
+        "firm_name": "drhr_property_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_08_09",
+        "gap_years": 0.3,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Drhr Property Management Inc",
+            "description": "Enter name: drhr_property_management_inc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038008",
+            "description": "Enter license number: 0226038008"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 15,
+      "record": {
+        "firm_license": "0226036708",
+        "firm_name": "envolve_client_services_va_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_23",
+        "gap_years": 2,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Envolve Client Services Va Llc",
+            "description": "Enter name: envolve_client_services_va_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226036708",
+            "description": "Enter license number: 0226036708"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 16,
+      "record": {
+        "firm_license": "0226035195",
+        "firm_name": "evergreen_real_estate_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2022_08_01",
+        "gap_years": 3,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Evergreen Real Estate Services Llc",
+            "description": "Enter name: evergreen_real_estate_services_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226035195",
+            "description": "Enter license number: 0226035195"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 17,
+      "record": {
+        "firm_license": "0226024621",
+        "firm_name": "fairmark_properties_of_virginia_lp",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "lp_limited_partnership",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "ff_properties_lp",
+        "initial_cert_date": "2013_06_13",
+        "gap_years": 12,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Fairmark Properties Of Virginia Lp",
+            "description": "Enter name: fairmark_properties_of_virginia_lp"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226024621",
+            "description": "Enter license number: 0226024621"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 18,
+      "record": {
+        "firm_license": "0226038078",
+        "firm_name": "fca_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "vest_residential",
+        "initial_cert_date": "2024_08_20",
+        "gap_years": 0.3,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Fca Management Llc",
+            "description": "Enter name: fca_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038078",
+            "description": "Enter license number: 0226038078"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 20,
+      "record": {
+        "firm_license": "0226033119",
+        "firm_name": "fogelman_properties_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_04_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2021_04_06",
+        "gap_years": 4,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Fogelman Properties Llc",
+            "description": "Enter name: fogelman_properties_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226033119",
+            "description": "Enter license number: 0226033119"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 21,
+      "record": {
+        "firm_license": "0226036622",
+        "firm_name": "grubb_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_16",
+        "gap_years": 2,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Grubb Management Llc",
+            "description": "Enter name: grubb_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226036622",
+            "description": "Enter license number: 0226036622"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 22,
+      "record": {
+        "firm_license": "0226037106",
+        "firm_name": "lcor_lamlp_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_10_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_10_26",
+        "gap_years": 1.5,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Lcor Lamlp Llc",
+            "description": "Enter name: lcor_lamlp_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226037106",
+            "description": "Enter license number: 0226037106"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 23,
+      "record": {
+        "firm_license": "0226002838",
+        "firm_name": "lcor_asset_management_limited_partnership",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "lp_limited_partnership",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "1995_03_22",
+        "gap_years": 30,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Lcor Asset Management Limited Partnership",
+            "description": "Enter name: lcor_asset_management_limited_partnership"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226002838",
+            "description": "Enter license number: 0226002838"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 24,
+      "record": {
+        "firm_license": "0226026414",
+        "firm_name": "lincoln_apartment_management_limited_partnership",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llp_limited_liability_partnership",
+        "address": "2000_mckinney_ave_suite_1000,_dallas,_tx_75201",
+        "expiration_date": "2026_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2016_03_21",
+        "gap_years": 9,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Lincoln Apartment Management Limited Partnership",
+            "description": "Enter name: lincoln_apartment_management_limited_partnership"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226026414",
+            "description": "Enter license number: 0226026414"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 25,
+      "record": {
+        "firm_license": "0226031657",
+        "firm_name": "landmark_venture_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2020_07_15",
+        "gap_years": 5,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Landmark Venture Management Llc",
+            "description": "Enter name: landmark_venture_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226031657",
+            "description": "Enter license number: 0226031657"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 26,
+      "record": {
+        "firm_license": "0226031104",
+        "firm_name": "lmc_living_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "433_e_colinas_blvd_suite_450,_irving,_tx_75039",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "quarterra_living,_llc",
+        "initial_cert_date": "2019_06_28",
+        "gap_years": 6,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Lmc Living Llc",
+            "description": "Enter name: lmc_living_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226031104",
+            "description": "Enter license number: 0226031104"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 27,
+      "record": {
+        "firm_license": "0226029441",
+        "firm_name": "mission_rock_residential_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2018_06_11",
+        "gap_years": 7,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Mission Rock Residential Llc",
+            "description": "Enter name: mission_rock_residential_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226029441",
+            "description": "Enter license number: 0226029441"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 28,
+      "record": {
+        "firm_license": "0226037138",
+        "firm_name": "nrp_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_11_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "the_nrp_group",
+        "initial_cert_date": "2023_11_09",
+        "gap_years": 1.5,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Nrp Management Llc",
+            "description": "Enter name: nrp_management_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226037138",
+            "description": "Enter license number: 0226037138"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 29,
+      "record": {
+        "firm_license": "0226038088",
+        "firm_name": "pegasus_residential_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_09_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_09_05",
+        "gap_years": 0.6,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Pegasus Residential Llc",
+            "description": "Enter name: pegasus_residential_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038088",
+            "description": "Enter license number: 0226038088"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 30,
+      "record": {
+        "firm_license": "0226035194",
+        "firm_name": "pennrose_management_company",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2022_08_19",
+        "gap_years": 2.7,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Pennrose Management Company",
+            "description": "Enter name: pennrose_management_company"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226035194",
+            "description": "Enter license number: 0226035194"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 31,
+      "record": {
+        "firm_license": "0226035674",
+        "firm_name": "pinnacle_property_management_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_13",
+        "gap_years": 1.8,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Pinnacle Property Management Services Llc",
+            "description": "Enter name: pinnacle_property_management_services_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226035674",
+            "description": "Enter license number: 0226035674"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 32,
+      "record": {
+        "firm_license": "0226032341",
+        "firm_name": "preferred_apartment_advisors_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2020_07_21",
+        "gap_years": 5,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Preferred Apartment Advisors Llc",
+            "description": "Enter name: preferred_apartment_advisors_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226032341",
+            "description": "Enter license number: 0226032341"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 33,
+      "record": {
+        "firm_license": "0226034268",
+        "firm_name": "tishco_properties_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2021_12_21",
+        "gap_years": 3.3,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Tishco Properties Llc",
+            "description": "Enter name: tishco_properties_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226034268",
+            "description": "Enter license number: 0226034268"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 34,
+      "record": {
+        "firm_license": "0226035780",
+        "firm_name": "uip_property_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_01_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_01_04",
+        "gap_years": 2.3,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Uip Property Management Inc",
+            "description": "Enter name: uip_property_management_inc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226035780",
+            "description": "Enter license number: 0226035780"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 35,
+      "record": {
+        "firm_license": "0226022513",
+        "firm_name": "weinstein_management_co_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "weinstein_properties",
+        "initial_cert_date": "2010_08_13",
+        "gap_years": 15,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Weinstein Management Co Inc",
+            "description": "Enter name: weinstein_management_co_inc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226022513",
+            "description": "Enter license number: 0226022513"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 36,
+      "record": {
+        "firm_license": "0226038480",
+        "firm_name": "mill_creek_residential_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_02_28",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_02_12",
+        "gap_years": -0.2,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Mill Creek Residential Services Llc",
+            "description": "Enter name: mill_creek_residential_services_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038480",
+            "description": "Enter license number: 0226038480"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    },
+    {
+      "record_id": 37,
+      "record": {
+        "firm_license": "0226038564",
+        "firm_name": "capital_square_living_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebannon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_03_25",
+        "gap_years": -0.4,
+        "verification_date": "2025_12_08",
+        "status": "tx"
+      },
+      "state": "tx",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "tool": "browser_navigate",
+          "params": {
+            "url": "https://www.trec.texas.gov/apps/license_holder_search/"
+          },
+          "description": "Navigate to TX license lookup"
+        },
+        {
+          "step": 2,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture page snapshot to identify form fields"
+        },
+        {
+          "step": 3,
+          "action": "wait",
+          "tool": "browser_wait_for",
+          "params": {
+            "time": 2
+          },
+          "description": "Wait for page to fully load"
+        },
+        {
+          "step": 4,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "name_input_field",
+            "text": "Capital Square Living Llc",
+            "description": "Enter name: capital_square_living_llc"
+          },
+          "description": "Type name into search form"
+        },
+        {
+          "step": 5,
+          "action": "type",
+          "tool": "browser_type",
+          "params": {
+            "element": "license_input_field",
+            "text": "0226038564",
+            "description": "Enter license number: 0226038564"
+          },
+          "description": "Type license number into search form"
+        },
+        {
+          "step": 6,
+          "action": "click",
+          "tool": "browser_click",
+          "params": {
+            "element": "submit_button",
+            "description": "Submit search form"
+          },
+          "description": "Click submit/search button"
+        },
+        {
+          "step": 7,
+          "action": "wait_for_results",
+          "tool": "browser_wait_for",
+          "params": {
+            "text": "License",
+            "time": 5
+          },
+          "description": "Wait for search results to appear"
+        },
+        {
+          "step": 8,
+          "action": "snapshot",
+          "tool": "browser_snapshot",
+          "params": {},
+          "description": "Capture results page snapshot for data extraction"
+        }
+      ]
+    }
+  ]
+}

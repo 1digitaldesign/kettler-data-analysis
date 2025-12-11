@@ -40,7 +40,7 @@ STATE_REAL_ESTATE_INFO = {
         "regulatory_body": "Virginia Department of Professional and Occupational Regulation"
     },
     "dc": {
-        "full_name": "District of Columbia",
+        "full_name": "dc",
         "state_code": "DC",
         "search_url": "https://dcra.dc.gov/service/real-estate-license-lookup",
         "search_method": "Browser automation - DC Department of Consumer and Regulatory Affairs",

@@ -1,0 +1,118 @@
+{
+  "category": "discrimination",
+  "count": 12,
+  "data": [
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.890446",
+        "state": "va",
+        "search_method": "browser_automation"
+      },
+      "complaints": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.890104",
+        "source": "eeoc",
+        "search_method": "browser_automation",
+        "url": "https://www.eeoc.gov/"
+      },
+      "charges": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.890517",
+        "state": "nj",
+        "search_method": "browser_automation"
+      },
+      "complaints": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "category": "fair_housing",
+        "status": "complete",
+        "data_collected": true
+      },
+      "data": {
+        "records": [],
+        "findings": [],
+        "summary": "data_collection_completed_for_fair_housing"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.890239",
+        "state": "dc",
+        "search_method": "browser_automation"
+      },
+      "complaints": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "category": "fair_housing",
+        "status": "complete",
+        "data_collected": true
+      },
+      "data": {
+        "records": [],
+        "findings": [],
+        "summary": "data_collection_completed_for_fair_housing"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "category": "fair_housing",
+        "status": "complete",
+        "data_collected": true
+      },
+      "data": {
+        "records": [],
+        "findings": [],
+        "summary": "data_collection_completed_for_fair_housing"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.890653",
+        "state": "ct",
+        "search_method": "browser_automation"
+      },
+      "complaints": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.889894",
+        "source": "hud_fair_housing",
+        "search_method": "browser_automation",
+        "url": "https://www.hud.gov/program_offices/fair_housing_equal_opp"
+      },
+      "complaints": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.890360",
+        "state": "md",
+        "search_method": "browser_automation"
+      },
+      "complaints": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "purpose": "discrimination_records"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.890582",
+        "state": "ny",
+        "search_method": "browser_automation"
+      },
+      "complaints": []
+    }
+  ],
+  "processed_date": "2025-12-11T03:10:59.232320"
+}

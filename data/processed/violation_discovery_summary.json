@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "generated": "2025-12-11T03:30:38.535402",
+    "total_violations": 146,
+    "categories": 8,
+    "matched_to_laws": 310
+  },
+  "by_category": {
+    "licensing_violations": 82,
+    "address_violations": 11,
+    "fraud_violations": 5,
+    "filing_violations": 4,
+    "tax_forfeitures": 2,
+    "forfeited_entities": 3,
+    "other_violations": 39,
+    "management_violations": 0
+  },
+  "by_severity": {
+    "HIGH": 110,
+    "MEDIUM": 36
+  },
+  "top_entities": {
+    "Edward Hyland": 19,
+    "Robert Grealy": 13,
+    "Tracy Fones": 13,
+    "Djene Moyer": 13,
+    "Unknown": 11,
+    "Henry Ramos": 10,
+    "Amy Groff": 5,
+    "lariat_realty_advisors,_inc.": 5,
+    "News Database": 4,
+    "State Violations": 4
+  },
+  "top_laws": {
+    "": 265,
+    "maryland_business_occupations_and_professions_code": 27,
+    "maryland_real_property_code": 5,
+    "texas_occupations_code": 3,
+    "maryland_criminal_law_code": 2,
+    "virginia_code_title_54.1_professions_and_occupations": 2,
+    "title_26_internal_revenue_code_(criminal_provisions)": 2,
+    "district_of_columbia_criminal_code": 1,
+    "title_18_crimes_and_criminal_procedure": 1,
+    "virginia_code_title_58.1_taxation_(criminal_provisions)": 1
+  }
+}

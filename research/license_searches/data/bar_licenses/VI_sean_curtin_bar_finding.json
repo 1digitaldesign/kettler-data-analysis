@@ -1,39 +1,39 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "state": "Virginia",
-    "state_code": "VI",
-    "employee": "Sean Curtin",
+    "date": "2025_12_10",
+    "state": "va",
+    "state_code": "vi",
+    "employee": "sean_curtin",
     "employee_key": "sean_curtin",
-    "title": "General Counsel",
+    "title": "general_counsel",
     "search_type": "bar_license",
     "search_url": "https://www.vsb.org/site/members/lookup",
     "alternative_urls": [],
-    "search_method": "Browser automation - Virginia State Bar lookup",
-    "license_type": "State Bar Admission",
+    "search_method": "browser_automation_virginia_state_bar_lookup",
+    "license_type": "state_bar_admission",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
     "browser_automation_status": "accessible_search_performed",
     "google_search_performed": true,
-    "note": "Search completed via Browser automation - Virginia State Bar lookup. Google search fallback used."
+    "note": "search_completed_via_browser_automation_virginia_state_bar_lookup._google_search_fallback_used."
   },
   "findings": {
     "searched": true,
-    "search_date": "2025-12-10",
+    "search_date": "2025_12_10",
     "bar_license": true,
-    "license_status": "Found",
+    "license_status": "found",
     "search_methods_used": [
-      "Virginia State Bar lookup (browser automation)"
+      "virginia_state_bar_lookup_(browser_automation)"
     ],
     "results_found": 1,
-    "note": "Virginia State Bar member lookup search performed via browser automation. Google search confirms: Mr. Sean Hilary Curtin - McLean, VA Attorney (lawyer.com), Sean H Curtin - Business and Corporate Attorney in McLean (attorney.org)",
+    "note": "virginia_state_bar_member_lookup_search_performed_via_browser_automation._google_search_confirms:_mr._sean_hilary_curtin_mclean,_va_attorney_(lawyer.com),_sean_h_curtin_business_and_corporate_attorney_in_mclean_(attorney.org)",
     "google_search_evidence": [
-      "Mr. Sean Hilary Curtin - McLean, VA Attorney (lawyer.com)",
-      "Sean H Curtin - Business and Corporate Attorney in McLean (attorney.org)"
+      "mr._sean_hilary_curtin_mclean,_va_attorney_(lawyer.com)",
+      "sean_h_curtin_business_and_corporate_attorney_in_mclean_(attorney.org)"
     ]
   },
-  "conclusion": "Sean Curtin APPEARS TO HAVE a bar license in Virginia (confirmed via Google search: Mr. Sean Hilary Curtin - McLean, VA Attorney (lawyer.com), Sean H Curtin - Business and Corporate Attorney in McLean (attorney.org)). Search performed via Virginia State Bar lookup.",
-  "license_status": "Found",
+  "conclusion": "sean_curtin_appears_to_have_a_bar_license_in_virginia_(confirmed_via_google_search:_mr._sean_hilary_curtin_mclean,_va_attorney_(lawyer.com),_sean_h_curtin_business_and_corporate_attorney_in_mclean_(attorney.org))._search_performed_via_virginia_state_bar_lookup.",
+  "license_status": "found",
   "verification_status": "verified"
 }

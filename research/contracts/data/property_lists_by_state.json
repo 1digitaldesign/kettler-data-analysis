@@ -1,130 +1,130 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:50:00.000000",
-    "source": "Property management analysis",
-    "method": "Analysis of operational states and property management activities"
+    "date": "2025_12_10t20:50:00.000000",
+    "source": "property_management_analysis",
+    "method": "analysis_of_operational_states_and_property_management_activities"
   },
   "properties_by_state": {
-    "district_of_columbia": {
-      "state": "DC",
-      "properties_managed": "Multiple",
+    "dc": {
+      "state": "dc",
+      "properties_managed": "multiple",
       "property_types": [
-        "Residential apartments",
-        "Commercial properties",
-        "Mixed-use properties"
+        "residential_apartments",
+        "commercial_properties",
+        "mixed_use_properties"
       ],
       "management_activities": [
-        "Leasing",
-        "Property maintenance",
-        "Tenant relations",
-        "Financial management"
+        "leasing",
+        "property_maintenance",
+        "tenant_relations",
+        "financial_management"
       ],
       "license_requirements": {
         "real_estate_broker": true,
         "property_manager": true,
-        "notes": "DC requires real estate broker license for property management activities"
+        "notes": "dc_requires_real_estate_broker_license_for_property_management_activities"
       },
-      "compliance_status": "Under investigation - unlicensed practice suspected"
+      "compliance_status": "under_investigation_unlicensed_practice_suspected"
     },
-    "maryland": {
-      "state": "MD",
-      "properties_managed": "Multiple",
+    "md": {
+      "state": "md",
+      "properties_managed": "multiple",
       "property_types": [
-        "Residential apartments",
-        "Commercial properties"
+        "residential_apartments",
+        "commercial_properties"
       ],
       "management_activities": [
-        "Leasing",
-        "Property maintenance",
-        "Tenant relations"
+        "leasing",
+        "property_maintenance",
+        "tenant_relations"
       ],
       "license_requirements": {
         "real_estate_broker": true,
         "property_manager": true,
-        "notes": "Maryland requires real estate broker license for property management"
+        "notes": "maryland_requires_real_estate_broker_license_for_property_management"
       },
-      "compliance_status": "Under investigation - unlicensed practice suspected"
+      "compliance_status": "under_investigation_unlicensed_practice_suspected"
     },
-    "virginia": {
-      "state": "VA",
-      "properties_managed": "Multiple",
+    "va": {
+      "state": "va",
+      "properties_managed": "multiple",
       "property_types": [
-        "Residential apartments",
-        "Commercial properties"
+        "residential_apartments",
+        "commercial_properties"
       ],
       "management_activities": [
-        "Leasing",
-        "Property maintenance",
-        "Tenant relations"
+        "leasing",
+        "property_maintenance",
+        "tenant_relations"
       ],
       "license_requirements": {
         "real_estate_broker": true,
         "property_manager": true,
-        "notes": "Virginia requires real estate broker license for property management"
+        "notes": "virginia_requires_real_estate_broker_license_for_property_management"
       },
-      "compliance_status": "Under investigation - unlicensed practice suspected"
+      "compliance_status": "under_investigation_unlicensed_practice_suspected"
     },
     "new_jersey": {
-      "state": "NJ",
-      "properties_managed": "Multiple",
+      "state": "nj",
+      "properties_managed": "multiple",
       "property_types": [
-        "Residential apartments",
-        "Commercial properties"
+        "residential_apartments",
+        "commercial_properties"
       ],
       "management_activities": [
-        "Leasing",
-        "Property maintenance",
-        "Tenant relations"
+        "leasing",
+        "property_maintenance",
+        "tenant_relations"
       ],
       "license_requirements": {
         "real_estate_broker": true,
         "property_manager": true,
-        "notes": "New Jersey requires real estate broker license for property management"
+        "notes": "new_jersey_requires_real_estate_broker_license_for_property_management"
       },
-      "compliance_status": "Under investigation - unlicensed practice suspected"
+      "compliance_status": "under_investigation_unlicensed_practice_suspected"
     },
     "new_york": {
-      "state": "NY",
-      "properties_managed": "Multiple",
+      "state": "ny",
+      "properties_managed": "multiple",
       "property_types": [
-        "Residential apartments",
-        "Commercial properties"
+        "residential_apartments",
+        "commercial_properties"
       ],
       "management_activities": [
-        "Leasing",
-        "Property maintenance",
-        "Tenant relations"
+        "leasing",
+        "property_maintenance",
+        "tenant_relations"
       ],
       "license_requirements": {
         "real_estate_broker": true,
         "property_manager": true,
-        "notes": "New York requires real estate broker license for property management"
+        "notes": "new_york_requires_real_estate_broker_license_for_property_management"
       },
-      "compliance_status": "Under investigation - unlicensed practice suspected"
+      "compliance_status": "under_investigation_unlicensed_practice_suspected"
     },
-    "connecticut": {
-      "state": "CT",
-      "properties_managed": "Multiple",
+    "ct": {
+      "state": "ct",
+      "properties_managed": "multiple",
       "property_types": [
-        "Residential apartments",
-        "Commercial properties"
+        "residential_apartments",
+        "commercial_properties"
       ],
       "management_activities": [
-        "Leasing",
-        "Property maintenance",
-        "Tenant relations"
+        "leasing",
+        "property_maintenance",
+        "tenant_relations"
       ],
       "license_requirements": {
         "real_estate_broker": true,
         "property_manager": true,
-        "notes": "Connecticut requires real estate broker license for property management"
+        "notes": "connecticut_requires_real_estate_broker_license_for_property_management"
       },
-      "compliance_status": "Under investigation - unlicensed practice suspected"
+      "compliance_status": "under_investigation_unlicensed_practice_suspected"
     }
   },
   "summary": {
     "total_states": 6,
     "states_requiring_license": 6,
-    "compliance_issues": "All operational states require real estate broker license for property management activities. Only 1 of 15 employees is licensed, indicating widespread unlicensed practice."
+    "compliance_issues": "all_operational_states_require_real_estate_broker_license_for_property_management_activities._only_1_of_15_employees_is_licensed,_indicating_widespread_unlicensed_practice."
   }
 }

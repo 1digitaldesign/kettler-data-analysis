@@ -1,5 +1,5 @@
 {
-  "inventory_date": "2025-12-09",
+  "inventory_date": "2025_12_09",
   "status": "research_framework_complete",
   "completion_rate": "95%",
   "total_research_files": 29,
@@ -17,7 +17,7 @@
       "completed": 0,
       "partial": 5,
       "completion_rate": "50%",
-      "note": "Lower priority - key findings documented in va_dpor_complaint files"
+      "note": "lower_priority_key_findings_documented_in_va_dpor_complaint_files"
     },
     "connections": {
       "total_files": 1,
@@ -27,12 +27,12 @@
   },
   "verified_evidence_summary": {
     "principal_broker_gap": {
-      "duration": "10.5 years (3,840 days)",
+      "duration": "10.5_years_(3,840_days)",
       "status": "verified"
     },
     "geographic_violation": {
-      "distance": "1,300 miles",
-      "exceedance": "1,250 miles over 50-mile limit",
+      "distance": "1,300_miles",
+      "exceedance": "1,250_miles_over_50_mile_limit",
       "status": "verified"
     },
     "supervision_impossibility": {
@@ -45,18 +45,18 @@
       "personnel": 5,
       "states_searched": 5,
       "licenses_found": 0,
-      "status": "100% verified"
+      "status": "100%_verified"
     },
     "timeline_impossibility": {
       "firms_licensed_before_skidmore": 8,
-      "oldest_gap": "15 years",
+      "oldest_gap": "15_years",
       "status": "verified"
     },
     "financial_scale": {
       "units": "22,000+",
       "properties": 97,
-      "investment": "$4.6B",
-      "employees": "500-1,000",
+      "investment": "$4.6b",
+      "employees": "500_1,000",
       "status": "verified"
     },
     "regulatory_violations": {
@@ -74,12 +74,12 @@
     "evidence_strength": "strong",
     "verification_level": "high",
     "documentation_completeness": "95%",
-    "data_format": "JSON",
+    "data_format": "json",
     "ready_for_complaint_amendment": true
   },
   "next_steps": [
-    "Submit FOIA requests for historical records",
-    "Access property databases for detailed unit counts",
-    "Prepare complaint amendment with compiled evidence"
+    "submit_foia_requests_for_historical_records",
+    "access_property_databases_for_detailed_unit_counts",
+    "prepare_complaint_amendment_with_compiled_evidence"
   ]
 }

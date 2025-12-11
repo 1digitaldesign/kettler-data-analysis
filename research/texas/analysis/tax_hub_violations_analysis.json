@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated": "2025-12-11T01:48:10.027034",
-    "analysis_type": "Tax Hub Violations and Anomalies Analysis",
-    "scope": "Texas business filings and PDF anomalies"
+    "generated": "2025_12_11t01:48:10.027034",
+    "analysis_type": "tax_hub_violations_and_anomalies_analysis",
+    "scope": "texas_business_filings_and_pdf_anomalies"
   },
   "executive_summary": {
     "total_tax_forfeitures": 2,
     "total_forfeited_entities": 9,
     "suspicious_pages_detected": 196,
     "shell_company_indicators": 6,
-    "risk_level": "HIGH"
+    "risk_level": "high"
   },
   "detailed_findings": {
     "summary": {
@@ -24,66 +24,66 @@
     "tax_forfeitures": [
       {
         "document_number": "465240542917",
-        "filing_type": "Tax Forfeiture",
-        "filing_date": "February 8, 2013",
-        "effective_date": "February 8, 2013",
-        "entity_name": "Lariat Realty Advisors, Inc.",
+        "filing_type": "tax_forfeiture",
+        "filing_date": "february_8,_2013",
+        "effective_date": "february_8,_2013",
+        "entity_name": "lariat_realty_advisors,_inc.",
         "filing_number": "801459833"
       },
       {
-        "document_number": "N/A",
-        "filing_type": "Tax Forfeiture",
-        "filing_date": "Tax Forfeiture",
-        "effective_date": "February 11, 2000",
-        "entity_name": "WAYNE EATON, INC.",
+        "document_number": "n/a",
+        "filing_type": "tax_forfeiture",
+        "filing_date": "tax_forfeiture",
+        "effective_date": "february_11,_2000",
+        "entity_name": "wayne_eaton,_inc.",
         "filing_number": "60550300"
       }
     ],
     "forfeited_entities": [
       {
         "filing_number": "804700244",
-        "name": "Kettler Land Management LLC",
-        "status": "Forfeited existence"
+        "name": "kettler_land_management_llc",
+        "status": "forfeited_existence"
       },
       {
         "filing_number": "804700244",
-        "name": "Kettler Land Management LLC",
-        "status": "Forfeited existence"
+        "name": "kettler_land_management_llc",
+        "status": "forfeited_existence"
       },
       {
         "filing_number": "804700244",
-        "name": "Kettler Land Management LLC",
-        "status": "Forfeited existence"
+        "name": "kettler_land_management_llc",
+        "status": "forfeited_existence"
       },
       {
         "filing_number": "804700244",
-        "name": "Kettler Land Management LLC",
-        "status": "Forfeited existence"
+        "name": "kettler_land_management_llc",
+        "status": "forfeited_existence"
       },
       {
         "filing_number": "60550300",
-        "name": "WAYNE EATON, INC.",
-        "status": "Forfeited existence"
+        "name": "wayne_eaton,_inc.",
+        "status": "forfeited_existence"
       },
       {
         "filing_number": "60550300",
-        "name": "WAYNE EATON, INC.",
-        "status": "Forfeited existence"
+        "name": "wayne_eaton,_inc.",
+        "status": "forfeited_existence"
       },
       {
         "filing_number": "804058541",
-        "name": "DIVORCE NAVIGATORS, INC.",
-        "status": "Forfeited existence"
+        "name": "divorce_navigators,_inc.",
+        "status": "forfeited_existence"
       },
       {
         "filing_number": "804058541",
-        "name": "DIVORCE NAVIGATORS, INC.",
-        "status": "Forfeited existence"
+        "name": "divorce_navigators,_inc.",
+        "status": "forfeited_existence"
       },
       {
         "filing_number": "804058541",
-        "name": "DIVORCE NAVIGATORS, INC.",
-        "status": "Forfeited existence"
+        "name": "divorce_navigators,_inc.",
+        "status": "forfeited_existence"
       }
     ],
     "suspicious_patterns": {
@@ -100,7 +100,7 @@
           "page_number": 2,
           "patterns": [
             {
-              "pattern": "Possible shell company indicators",
+              "pattern": "possible_shell_company_indicators",
               "indicators_found": 3,
               "severity": "high"
             }
@@ -110,7 +110,7 @@
           "page_number": 6,
           "patterns": [
             {
-              "pattern": "Possible shell company indicators",
+              "pattern": "possible_shell_company_indicators",
               "indicators_found": 3,
               "severity": "high"
             }
@@ -120,7 +120,7 @@
           "page_number": 7,
           "patterns": [
             {
-              "pattern": "Possible shell company indicators",
+              "pattern": "possible_shell_company_indicators",
               "indicators_found": 3,
               "severity": "high"
             }
@@ -130,7 +130,7 @@
           "page_number": 8,
           "patterns": [
             {
-              "pattern": "Possible shell company indicators",
+              "pattern": "possible_shell_company_indicators",
               "indicators_found": 3,
               "severity": "high"
             }
@@ -140,7 +140,7 @@
           "page_number": 9,
           "patterns": [
             {
-              "pattern": "Possible shell company indicators",
+              "pattern": "possible_shell_company_indicators",
               "indicators_found": 3,
               "severity": "high"
             }
@@ -150,7 +150,7 @@
           "page_number": 10,
           "patterns": [
             {
-              "pattern": "Possible shell company indicators",
+              "pattern": "possible_shell_company_indicators",
               "indicators_found": 3,
               "severity": "high"
             }
@@ -160,81 +160,81 @@
     },
     "key_findings": [
       {
-        "finding": "Tax Forfeiture Events",
+        "finding": "tax_forfeiture_events",
         "count": 2,
         "details": [
           {
             "document_number": "465240542917",
-            "filing_type": "Tax Forfeiture",
-            "filing_date": "February 8, 2013",
-            "effective_date": "February 8, 2013",
-            "entity_name": "Lariat Realty Advisors, Inc.",
+            "filing_type": "tax_forfeiture",
+            "filing_date": "february_8,_2013",
+            "effective_date": "february_8,_2013",
+            "entity_name": "lariat_realty_advisors,_inc.",
             "filing_number": "801459833"
           },
           {
-            "document_number": "N/A",
-            "filing_type": "Tax Forfeiture",
-            "filing_date": "Tax Forfeiture",
-            "effective_date": "February 11, 2000",
-            "entity_name": "WAYNE EATON, INC.",
+            "document_number": "n/a",
+            "filing_type": "tax_forfeiture",
+            "filing_date": "tax_forfeiture",
+            "effective_date": "february_11,_2000",
+            "entity_name": "wayne_eaton,_inc.",
             "filing_number": "60550300"
           }
         ]
       },
       {
-        "finding": "Shell Company Indicators",
+        "finding": "shell_company_indicators",
         "count": 6,
         "severity": "high",
-        "details": "Found 6 pages with shell company indicators"
+        "details": "found_6_pages_with_shell_company_indicators"
       },
       {
-        "finding": "Forfeited Entities",
+        "finding": "forfeited_entities",
         "count": 9,
         "details": [
           {
             "filing_number": "804700244",
-            "name": "Kettler Land Management LLC",
-            "status": "Forfeited existence"
+            "name": "kettler_land_management_llc",
+            "status": "forfeited_existence"
           },
           {
             "filing_number": "804700244",
-            "name": "Kettler Land Management LLC",
-            "status": "Forfeited existence"
+            "name": "kettler_land_management_llc",
+            "status": "forfeited_existence"
           },
           {
             "filing_number": "804700244",
-            "name": "Kettler Land Management LLC",
-            "status": "Forfeited existence"
+            "name": "kettler_land_management_llc",
+            "status": "forfeited_existence"
           },
           {
             "filing_number": "804700244",
-            "name": "Kettler Land Management LLC",
-            "status": "Forfeited existence"
+            "name": "kettler_land_management_llc",
+            "status": "forfeited_existence"
           },
           {
             "filing_number": "60550300",
-            "name": "WAYNE EATON, INC.",
-            "status": "Forfeited existence"
+            "name": "wayne_eaton,_inc.",
+            "status": "forfeited_existence"
           },
           {
             "filing_number": "60550300",
-            "name": "WAYNE EATON, INC.",
-            "status": "Forfeited existence"
+            "name": "wayne_eaton,_inc.",
+            "status": "forfeited_existence"
           },
           {
             "filing_number": "804058541",
-            "name": "DIVORCE NAVIGATORS, INC.",
-            "status": "Forfeited existence"
+            "name": "divorce_navigators,_inc.",
+            "status": "forfeited_existence"
           },
           {
             "filing_number": "804058541",
-            "name": "DIVORCE NAVIGATORS, INC.",
-            "status": "Forfeited existence"
+            "name": "divorce_navigators,_inc.",
+            "status": "forfeited_existence"
           },
           {
             "filing_number": "804058541",
-            "name": "DIVORCE NAVIGATORS, INC.",
-            "status": "Forfeited existence"
+            "name": "divorce_navigators,_inc.",
+            "status": "forfeited_existence"
           }
         ]
       }
@@ -600,27 +600,27 @@
       },
       "embedding_clusters": [
         {
-          "address": "[ADDRESS NOT PROVIDED]",
+          "address": "[address_not_provided]",
           "entity_count": 4,
           "entities": [
             {
               "entity_id": "46955400",
-              "name": "LARIAT INC. REALTORS",
+              "name": "lariat_inc._realtors",
               "filing_number": "46955400"
             },
             {
               "entity_id": "60550300",
-              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+              "name": "delta_southern_acceptance_corporation",
               "filing_number": "60550300"
             },
             {
               "entity_id": "18792700",
-              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+              "name": "delta_southern_acceptance_corporation",
               "filing_number": "18792700"
             },
             {
               "entity_id": "17649900",
-              "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+              "name": "southwest_fabricating_&_welding_co.,_inc.",
               "filing_number": "17649900"
             }
           ],
@@ -632,67 +632,67 @@
           "entities": [
             {
               "entity_id": "805759678",
-              "name": "Lariat Realty Advisors, LLC",
+              "name": "lariat_realty_advisors,_llc",
               "filing_number": "805759678",
               "pattern": []
             },
             {
               "entity_id": "46955400",
-              "name": "LARIAT INC. REALTORS",
+              "name": "lariat_inc._realtors",
               "filing_number": "46955400",
               "pattern": []
             },
             {
               "entity_id": "802331657",
-              "name": "N/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988",
+              "name": "n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
               "filing_number": "802331657",
               "pattern": []
             },
             {
               "entity_id": "805818075",
-              "name": "Frippmore, LLC",
+              "name": "frippmore,_llc",
               "filing_number": "805818075",
               "pattern": []
             },
             {
               "entity_id": "802961755",
-              "name": "SDS Texas Realty, LLC",
+              "name": "sds_texas_realty,_llc",
               "filing_number": "802961755",
               "pattern": []
             },
             {
               "entity_id": "60550300",
-              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+              "name": "delta_southern_acceptance_corporation",
               "filing_number": "60550300",
               "pattern": []
             },
             {
               "entity_id": "18792700",
-              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+              "name": "delta_southern_acceptance_corporation",
               "filing_number": "18792700",
               "pattern": []
             },
             {
               "entity_id": "17649900",
-              "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+              "name": "southwest_fabricating_&_welding_co.,_inc.",
               "filing_number": "17649900",
               "pattern": []
             },
             {
               "entity_id": "803790640",
-              "name": "N/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001",
+              "name": "n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001",
               "filing_number": "803790640",
               "pattern": []
             },
             {
               "entity_id": "801542892",
-              "name": "Bozzuto Contracting TX, LLC",
+              "name": "bozzuto_contracting_tx,_llc",
               "filing_number": "801542892",
               "pattern": []
             },
             {
               "entity_id": "129768500",
-              "name": "GABLES RESIDENTIAL SERVICES, INC.",
+              "name": "gables_residential_services,_inc.",
               "filing_number": "129768500",
               "pattern": []
             }
@@ -705,7 +705,7 @@
           "entities": [
             {
               "entity_id": "804700244",
-              "name": "Kettler Land Management LLC",
+              "name": "kettler_land_management_llc",
               "filing_number": "804700244",
               "pattern": [
                 "forfeited_status"
@@ -713,7 +713,7 @@
             },
             {
               "entity_id": "804058541",
-              "name": "DIVORCE NAVIGATORS, INC.",
+              "name": "divorce_navigators,_inc.",
               "filing_number": "804058541",
               "pattern": [
                 "forfeited_status"
@@ -732,10 +732,10 @@
               "similarity": 0.9276757252940373,
               "entity1_info": {
                 "filing_number": "801459833",
-                "name": "Lariat Realty Advisors, Inc.",
-                "address": "4600 FIRESTONE DR FRISCO, TX 75034 USA",
-                "status": "In existence",
-                "registered_agent": "Thoms L Bisanz - 4600 Firestone Drive",
+                "name": "lariat_realty_advisors,_inc.",
+                "address": "4600_firestone_dr_frisco,_tx_75034_usa",
+                "status": "in_existence",
+                "registered_agent": "thoms_l_bisanz_4600_firestone_drive",
                 "tax_id": "32044752940",
                 "has_tax_forfeiture": true,
                 "has_reinstatement": true,
@@ -743,10 +743,10 @@
               },
               "entity2_info": {
                 "filing_number": "805759678",
-                "name": "Lariat Realty Advisors, LLC",
-                "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-                "status": "In existence",
-                "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+                "name": "lariat_realty_advisors,_llc",
+                "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+                "status": "in_existence",
+                "registered_agent": "thomas_bisanz_4600_firestone_drive",
                 "tax_id": "32097336583",
                 "original_id": "lariat_tx_805759678"
               }
@@ -757,43 +757,43 @@
               "similarity": 0.8867110624834238,
               "entity1_info": {
                 "filing_number": "60550300",
-                "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-                "address": "[ADDRESS NOT PROVIDED]",
-                "status": "Voluntarily terminated",
-                "registered_agent": "C R Skidmore - RT 1 144 RED OAK",
+                "name": "delta_southern_acceptance_corporation",
+                "address": "[address_not_provided]",
+                "status": "voluntarily_terminated",
+                "registered_agent": "c_r_skidmore_rt_1_144_red_oak",
                 "tax_id": "00000000000",
                 "original_id": "lariat_tx_60550300"
               },
               "entity2_info": {
                 "filing_number": "18792700",
-                "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-                "address": "[ADDRESS NOT PROVIDED]",
-                "status": "Voluntarily terminated",
+                "name": "delta_southern_acceptance_corporation",
+                "address": "[address_not_provided]",
+                "status": "voluntarily_terminated",
                 "tax_id": "00000000000",
                 "original_id": "lariat_tx_18792700"
               }
             }
           ],
-          "description": "Entities with very high embedding similarity (>=0.85)"
+          "description": "entities_with_very_high_embedding_similarity_(>=0.85)"
         }
       ]
     }
   },
   "recommendations": [
     {
-      "priority": "HIGH",
-      "recommendation": "Investigate tax forfeiture events for potential tax evasion or non-compliance",
-      "details": "2 tax forfeiture events identified"
+      "priority": "high",
+      "recommendation": "investigate_tax_forfeiture_events_for_potential_tax_evasion_or_non_compliance",
+      "details": "2_tax_forfeiture_events_identified"
     },
     {
-      "priority": "HIGH",
-      "recommendation": "Review shell company indicators for potential fraud or money laundering",
-      "details": "6 pages contain shell company indicators"
+      "priority": "high",
+      "recommendation": "review_shell_company_indicators_for_potential_fraud_or_money_laundering",
+      "details": "6_pages_contain_shell_company_indicators"
     },
     {
-      "priority": "MEDIUM",
-      "recommendation": "Examine forfeited entities for patterns of business violations",
-      "details": "9 entities with forfeited status"
+      "priority": "medium",
+      "recommendation": "examine_forfeited_entities_for_patterns_of_business_violations",
+      "details": "9_entities_with_forfeited_status"
     }
   ]
 }

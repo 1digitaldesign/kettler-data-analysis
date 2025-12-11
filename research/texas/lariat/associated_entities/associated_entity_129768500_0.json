@@ -1,20 +1,20 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.580050",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/associated_entities/associated_entity_129768500_0.json",
+    "created": "2025_12_11t00:21:41.580050",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/associated_entities/associated_entity_129768500_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "H.G. SMITHY COMPANY",
-    "entity_type": "Foreign For-Profit Corporation",
-    "document_description": "December 27, 2002",
+    "name": "h.g._smithy_company",
+    "entity_type": "foreign_for_profit_corporation",
+    "document_description": "december_27,_2002",
     "filing_date": "999999999",
-    "entity_filing_number": "DE, USA",
-    "jurisdiction": "Non-Survivor",
+    "entity_filing_number": "de,_usa",
+    "jurisdiction": "non_survivor",
     "capacity": null
   },
-  "text_representation": "name: H.G. SMITHY COMPANY | entity_type: Foreign For-Profit Corporation | document_description: December 27, 2002 | filing_date: 999999999 | entity_filing_number: DE, USA | jurisdiction: Non-Survivor",
+  "text_representation": "name:_h.g._smithy_company_|_entity_type:_foreign_for_profit_corporation_|_document_description:_december_27,_2002_|_filing_date:_999999999_|_entity_filing_number:_de,_usa_|_jurisdiction:_non_survivor",
   "embedding": [
     -0.026799863204360008,
     0.003364980686455965,

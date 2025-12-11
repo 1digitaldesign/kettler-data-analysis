@@ -1,72 +1,72 @@
 {
-  "verification_date": "2025-12-07",
-  "subject": "Kettler Management Inc.",
+  "verification_date": "2025_12_07",
+  "subject": "kettler_management_inc.",
   "claims_to_verify": {
     "corporate_structure": {
-      "claim": "Kettler Management Inc. is a subsidiary, headquartered at 8255 Greensboro Drive, Suite 200, McLean, VA 22102",
+      "claim": "kettler_management_inc._is_a_subsidiary,_headquartered_at_8255_greensboro_drive,_suite_200,_mclean,_va_22102",
       "status": "verified",
       "evidence_sources": [
-        "Virginia DPOR license records",
-        "Evidence files showing address matches",
-        "Corporate records"
+        "virginia_dpor_license_records",
+        "evidence_files_showing_address_matches",
+        "corporate_records"
       ],
       "verification_notes": [
-        "Address verified in DPOR records: 8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
-        "License Number: 226025311",
-        "Address found in evidence files: 8255 Greensboro Drive #200, McLean, VA 22102"
+        "address_verified_in_dpor_records:_8255_greensboro_dr_ste_#200,_mclean,_va_22102",
+        "license_number:_226025311",
+        "address_found_in_evidence_files:_8255_greensboro_drive_#200,_mclean,_va_22102"
       ]
     },
     "discrimination_settlement": {
-      "claim": "Equal Rights Center v. Kettler Management - $140K settlement in March 2024",
+      "claim": "equal_rights_center_v._kettler_management_$140k_settlement_in_march_2024",
       "status": "pending",
       "evidence_sources": [
-        "Court records",
-        "ERC press releases",
-        "Legal databases"
+        "court_records",
+        "erc_press_releases",
+        "legal_databases"
       ],
       "verification_notes": [
-        "No notes recorded"
+        "no_notes_recorded"
       ]
     },
     "bbb_complaints": {
-      "claim": "46 complaints over 3 years, 16 in last 12 months, 57% unanswered (26 complaints)",
+      "claim": "46_complaints_over_3_years,_16_in_last_12_months,_57%_unanswered_(26_complaints)",
       "status": "pending",
       "evidence_sources": [
-        "BBB.org profile",
-        "BBB database"
+        "bbb.org_profile",
+        "bbb_database"
       ],
       "verification_notes": [
-        "No notes recorded"
+        "no_notes_recorded"
       ]
     },
     "property_portfolio": {
-      "claim": "22,000+ managed units across 97 properties in 10 states",
+      "claim": "22,000+_managed_units_across_97_properties_in_10_states",
       "status": "pending",
       "evidence_sources": [
-        "Company website",
-        "Property databases",
-        "Marketing materials"
+        "company_website",
+        "property_databases",
+        "marketing_materials"
       ],
       "verification_notes": [
-        "No notes recorded"
+        "no_notes_recorded"
       ]
     },
     "executive_team": {
-      "claim": "Robert C. Kettler (Chairman/Founder/CEO), Cindy Fisher (President), Luke Davis (CIO), Pat Cassada (CFO), Sean Curtin (General Counsel)",
+      "claim": "robert_c._kettler_(chairman/founder/ceo),_cindy_fisher_(president),_luke_davis_(cio),_pat_cassada_(cfo),_sean_curtin_(general_counsel)",
       "status": "pending",
       "evidence_sources": [
-        "Company website",
-        "LinkedIn profiles",
-        "Corporate filings"
+        "company_website",
+        "linkedin_profiles",
+        "corporate_filings"
       ],
       "verification_notes": [
-        "No notes recorded"
+        "no_notes_recorded"
       ]
     }
   },
   "evidence_found": {
     "license_address": {
-      "address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
+      "address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
       "license_number": "0226025311",
       "verified": true,
       "source": "data/source/skidmore_all_firms_complete.csv"
@@ -75,28 +75,28 @@
       "kettler.com": {
         "emails_found": [
           "ehyland@kettler.com",
-          "Carlyle.PM@kettler.com",
-          "Ehyland@kettler.com",
           "carlyle.pm@kettler.com",
-          "Carlyle@kettler.com",
-          "Carlyle.APM@kettler.com"
+          "ehyland@kettler.com",
+          "carlyle.pm@kettler.com",
+          "carlyle@kettler.com",
+          "carlyle.apm@kettler.com"
         ],
         "verified": true
       }
     }
   },
   "validation_status": "partial_complete",
-  "last_updated": "2025-12-07 14:26:40.428855",
+  "last_updated": "2025_12_07_14:26:40.428855",
   "notes": [
-    "Corporate structure and email domain verified from existing evidence.",
-    "Discrimination settlement, BBB complaints, property portfolio, and executive team require external verification."
+    "corporate_structure_and_email_domain_verified_from_existing_evidence.",
+    "discrimination_settlement,_bbb_complaints,_property_portfolio,_and_executive_team_require_external_verification."
   ],
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "kettler_verification.json",
     "file_path": "research/analysis/kettler_verification.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

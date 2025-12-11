@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:38.963874",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1473.json",
+    "created": "2025_12_11t00:54:38.963874",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1473.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1473,
-    "text": "1310210013\nMR(\nETTAZTCAOI\nSepetmbe22r 6 0,13\nRachelEme rson\naeCStt orporaitonC ommission\n13Ma0 ire0E.nSte t\n2 3219ARichmonVd ,\nY)#CNE HOLPRC(SUTANE OESS IGFCOVIE RSERO F ENAGTAD DFROESS CFR HOE:ANE G\nDEmee rsoaMs.nr\nimon s viAgIc.noane gt ens, wSut ie#t .oeictb2fctveOe4 0 r ,1N3 ai,tonalR egiestred Pleaseb ea dvisehedta f t\n2 306o0t: AAlleVn ,hTea dhdteareo gosess fefr rvin cept roceichss s angi4nro 7gfm:0 1C oRx oaSud ie3l,t 0Ge1 n,\nnAgIc.e ns,tNaitonalR egiestred\n4701C oRx oaSud ie2,t 85\n2 3060AAlleVn ,lGen\nPleasea dviseuw s hehntea ddrechss angeh abs eenn oetda ndi ssuew haetveer videnceo f (cid:222) linhmabgta y eu t sual.\nhTanyok u,\nnAgIc.e ns,tNaitonalR egiestred\nSe crea.tryAsstRaveH am-\nAgeSen rvitcesMa n,ager MarieH auer\nvenu1le 3hFo,t orA18h t 11\n11 001No Yrk,YNew\nco.mmarieh.auer@woletrskluwer\ns.Ant, Incged resegit RelonaiNta\ndn RoaamthiW tlaW1660 1747 1, NeYlviMle\n(631) 752-9100:phoneeleT om.cinra@zAstddres kfri: trneeInt (631) 752-9200Fx:a",
+    "text": "1310210013_mr(_ettaztcaoi_sepetmbe22r_6_0,13_racheleme_rson_aecstt_orporaitonc_ommission_13ma0_ire0e.nste_t_2_3219arichmonvd_,_y)#cne_holprc(sutane_oess_igfcovie_rsero_f_enagtad_dfroess_cfr_hoe:ane_g_demee_rsoams.nr_imon_s_viagic.noane_gt_ens,_wsut_ie#t_.oeictb2fctveoe4_0_r_,1n3_ai,tonalr_egiestred_pleaseb_ea_dvisehedta_f_t_2_306o0t:_aallevn_,htea_dhdteareo_gosess_fefr_rvin_cept_roceichss_s_angi4nro_7gfm:0_1c_orx_oasud_ie3l,t_0ge1_n,_nagic.e_ns,tnaitonalr_egiestred_4701c_orx_oasud_ie2,t_85_2_3060aallevn_,lgen_pleasea_dviseuw_s_hehntea_ddrechss_angeh_abs_eenn_oetda_ndi_ssuew_haetveer_videnceo_f_(cid:222)_linhmabgta_y_eu_t_sual._htanyok_u,_nagic.e_ns,tnaitonalr_egiestred_se_crea.tryasstraveh_am_agesen_rvitcesma_n,ager_marieh_auer_venu1le_3hfo,t_ora18h_t_11_11_001no_yrk,ynew_co.mmarieh.auer@woletrskluwer_s.ant,_incged_resegit_relonainta_dn_roaamthiw_tlaw1660_1747_1,_neylvimle_(631)_752_9100:phoneelet_om.cinra@zastddres_kfri:_trneeint_(631)_752_9200fx:a",
     "char_count": 964,
     "word_count": 137,
     "anomalies": {
       "page_number": 1473,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 1473 | text: 1310210013\nMR(\nETTAZTCAOI\nSepetmbe22r 6 0,13\nRachelEme rson\naeCStt orporaitonC ommission\n13Ma0 ire0E.nSte t\n2 3219ARichmonVd ,\nY)#CNE HOLPRC(SUTANE OESS IGFCOVIE RSERO F ENAGTAD DFROESS CFR HOE:ANE G\nDEmee rsoaMs.nr\nimon s viAgIc.noane gt ens, wSut ie#t .oeictb2fctveOe4 0 r ,1N3 ai,tonalR egiestred Pleaseb ea dvisehedta f t\n2 306o0t: AAlleVn ,hTea dhdteareo gosess fefr rvin cept roceichss s angi4nro 7gfm:0 1C oRx oaSud ie3l,t 0Ge1 n,\nnAgIc.e ns,tNaitonalR egiestred\n4701C oRx oaSud ie2,t 85\n2 3060AAlleVn ,lGen\nPleasea dviseuw s hehntea ddrechss angeh abs eenn oetda ndi ssuew haetveer videnceo f (cid:222) linhmabgta y eu t sual.\nhTanyok u,\nnAgIc.e ns,tNaitonalR egiestred\nSe crea.tryAsstRaveH am-\nAgeSen rvitcesMa n,ager MarieH auer\nvenu1le 3hFo,t orA18h t 11\n11 001No Yrk,YNew\nco.mmarieh.auer@woletrskluwer\ns.Ant, Incged resegit RelonaiNta\ndn RoaamthiW tlaW1660 1747 1, NeYlviMle\n(631) 752-9100:phoneeleT om.cinra@zAstddres kfri: trneeInt (631) 752-9200Fx:a | char_count: 964 | word_count: 137 | anomalies: {\"page_number\":1473,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_1473_|_text:_1310210013_mr(_ettaztcaoi_sepetmbe22r_6_0,13_racheleme_rson_aecstt_orporaitonc_ommission_13ma0_ire0e.nste_t_2_3219arichmonvd_,_y)#cne_holprc(sutane_oess_igfcovie_rsero_f_enagtad_dfroess_cfr_hoe:ane_g_demee_rsoams.nr_imon_s_viagic.noane_gt_ens,_wsut_ie#t_.oeictb2fctveoe4_0_r_,1n3_ai,tonalr_egiestred_pleaseb_ea_dvisehedta_f_t_2_306o0t:_aallevn_,htea_dhdteareo_gosess_fefr_rvin_cept_roceichss_s_angi4nro_7gfm:0_1c_orx_oasud_ie3l,t_0ge1_n,_nagic.e_ns,tnaitonalr_egiestred_4701c_orx_oasud_ie2,t_85_2_3060aallevn_,lgen_pleasea_dviseuw_s_hehntea_ddrechss_angeh_abs_eenn_oetda_ndi_ssuew_haetveer_videnceo_f_(cid:222)_linhmabgta_y_eu_t_sual._htanyok_u,_nagic.e_ns,tnaitonalr_egiestred_se_crea.tryasstraveh_am_agesen_rvitcesma_n,ager_marieh_auer_venu1le_3hfo,t_ora18h_t_11_11_001no_yrk,ynew_co.mmarieh.auer@woletrskluwer_s.ant,_incged_resegit_relonainta_dn_roaamthiw_tlaw1660_1747_1,_neylvimle_(631)_752_9100:phoneelet_om.cinra@zastddres_kfri:_trneeint_(631)_752_9200fx:a_|_char_count:_964_|_word_count:_137_|_anomalies:_{\"page_number\":1473,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.023735180497169495,
     -0.004487419500946999,

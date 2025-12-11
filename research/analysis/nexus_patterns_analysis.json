@@ -1,48 +1,48 @@
 {
-  "analysis_date": "2025-12-07",
-  "hypothesis": "Caitlin Skidmore is NOT the nexus - she appears to be a front person",
+  "analysis_date": "2025_12_07",
+  "hypothesis": "caitlin_skidmore_is_not_the_nexus_she_appears_to_be_a_front_person",
   "anomalies": {
     "firms_licensed_before_skidmore": {
       "count": 8,
       "firms": [
-        "KETTLER MANAGEMENT INC",
-        "BELL PARTNERS INC",
-        "BOZZUTO MANAGEMENT COMPANY",
-        "GABLES RESIDENTIAL SERVICES INC",
-        "GATEWAY MANAGEMENT COMPANY LLC",
-        "MCCORMACK BARON MANAGEMENT INC",
-        "BURLINGTON CAPITAL PROPERTIES LLC",
-        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC"
+        "kettler_management_inc",
+        "bell_partners_inc",
+        "bozzuto_management_company",
+        "gables_residential_services_inc",
+        "gateway_management_company_llc",
+        "mccormack_baron_management_inc",
+        "burlington_capital_properties_llc",
+        "bainbridge_mid_atlantic_management_llc"
       ],
       "anomaly_type": "timeline_impossibility",
-      "explanation": "Firms cannot have principal broker who wasn't licensed when firm was established"
+      "explanation": "firms_cannot_have_principal_broker_who_wasn't_licensed_when_firm_was_established"
     },
     "large_license_gaps": {
       "count": 4,
       "firms": [
         {
-          "Firm.Name": "KETTLER MANAGEMENT INC",
+          "Firm.Name": "kettler_management_inc",
           "Gap.Years": "11",
-          "Initial.Cert.Date": "2014-10-31"
+          "Initial.Cert.Date": "2014_10_31"
         },
         {
-          "Firm.Name": "BELL PARTNERS INC",
+          "Firm.Name": "bell_partners_inc",
           "Gap.Years": "14",
-          "Initial.Cert.Date": "2011-12-28"
+          "Initial.Cert.Date": "2011_12_28"
         },
         {
-          "Firm.Name": "BOZZUTO MANAGEMENT COMPANY",
+          "Firm.Name": "bozzuto_management_company",
           "Gap.Years": "12",
-          "Initial.Cert.Date": "2013-06-04"
+          "Initial.Cert.Date": "2013_06_04"
         },
         {
-          "Firm.Name": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+          "Firm.Name": "bainbridge_mid_atlantic_management_llc",
           "Gap.Years": "13",
-          "Initial.Cert.Date": "2012-04-27"
+          "Initial.Cert.Date": "2012_04_27"
         }
       ],
       "anomaly_type": "suspicious_timing",
-      "explanation": "Firms existed for 10+ years before principal broker was licensed"
+      "explanation": "firms_existed_for_10+_years_before_principal_broker_was_licensed"
     },
     "address_clustering": {
       "cluster_count": 1,
@@ -50,18 +50,18 @@
         "5729 LEBANON RD STE 144553, FRISCO, TX 75034": 5
       },
       "anomaly_type": "shell_company_pattern",
-      "explanation": "Multiple firms at same address suggests shell company scheme"
+      "explanation": "multiple_firms_at_same_address_suggests_shell_company_scheme"
     },
     "missing_cert_dates": {
       "count": 1,
-      "firms": "EDGEWOOD MANAGEMENT CORPORATION",
+      "firms": "edgewood_management_corporation",
       "anomaly_type": "data_obfuscation",
-      "explanation": "Missing dates may hide timeline inconsistencies"
+      "explanation": "missing_dates_may_hide_timeline_inconsistencies"
     }
   },
   "kettler_as_nexus": {
     "kettler_firm_found": true,
-    "kettler_address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
+    "kettler_address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
     "kettler_license_number": 226025311,
     "address_in_evidence": true,
     "license_gap": "11",
@@ -72,13 +72,13 @@
     "employment_verified": true,
     "no_license": true,
     "property_connection": true,
-    "nexus_indicator": "Hyland operates without license, connecting Kettler to properties",
+    "nexus_indicator": "hyland_operates_without_license,_connecting_kettler_to_properties",
     "timeline_connection": 3
   },
   "control_patterns": {
     "single_principal_broker": true,
-    "broker_name": "SKIDMORE CAITLIN MARIE",
-    "front_person_indicator": "All 11 firms use same principal broker - suggests front person",
+    "broker_name": "skidmore_caitlin_marie",
+    "front_person_indicator": "all_11_firms_use_same_principal_broker_suggests_front_person",
     "largest_cluster_size": 5,
     "centralized_control_indicator": true,
     "average_license_gap": 7.4,
@@ -89,22 +89,22 @@
   "conclusions": {
     "skidmore_is_front": true,
     "real_nexus_candidates": [
-      "Kettler Management Inc.",
-      "Edward Hyland (operational connection)"
+      "kettler_management_inc.",
+      "edward_hyland_(operational_connection)"
     ],
     "evidence_of_front_person": [
-      "All 11 firms list same principal broker",
-      "Firms existed before Skidmore was licensed",
-      "Massive license gaps suggest retroactive assignment",
-      "Address clustering suggests centralized control"
+      "all_11_firms_list_same_principal_broker",
+      "firms_existed_before_skidmore_was_licensed",
+      "massive_license_gaps_suggest_retroactive_assignment",
+      "address_clustering_suggests_centralized_control"
     ]
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "nexus_patterns_analysis.json",
     "file_path": "research/analysis/nexus_patterns_analysis.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

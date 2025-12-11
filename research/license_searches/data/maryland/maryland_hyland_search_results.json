@@ -1,45 +1,45 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "state": "Maryland",
-    "search_url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
-    "search_term": "Hyland",
-    "method": "Manual CAPTCHA + Browser Automation",
+    "date": "2025_12_07",
+    "state": "md",
+    "search_url": "https://www.dllr.state.md.us/cgi_bin/electroniclicensing/op_search/op_search.cgi?calling_app=re::re_personal_name",
+    "search_term": "hyland",
+    "method": "manual_captcha_+_browser_automation",
     "total_results_found": 2
   },
   "findings": {
     "edward_hyland": {
       "found": false,
-      "note": "Edward Hyland NOT found in Maryland real estate licenses"
+      "note": "edward_hyland_not_found_in_maryland_real_estate_licenses"
     },
     "other_hylands_found": [
       {
-        "name": "KRISTINA L HYLAND",
+        "name": "kristina_l_hyland",
         "license_number": "665817",
-        "category": "SALESPERSON",
-        "trade_name": "COLDWELL BANKER CHESAPEAKE REAL",
-        "address": "114 B S CROSS STREET",
-        "city": "CHESTERTOWN",
-        "state": "MD",
+        "category": "salesperson",
+        "trade_name": "coldwell_banker_chesapeake_real",
+        "address": "114_b_s_cross_street",
+        "city": "chestertown",
+        "state": "md",
         "zip": "21620",
-        "expiration": "2027-01-29",
-        "status": "Active",
-        "note": "Different person - not Edward Hyland"
+        "expiration": "2027_01_29",
+        "status": "active",
+        "note": "different_person_not_edward_hyland"
       },
       {
-        "name": "WILLIAM H HYLAND, JR",
+        "name": "william_h_hyland,_jr",
         "license_number": "528745",
-        "category": "ASSOCIATE BROKER",
-        "trade_name": "ANNE ARUNDEL PROPERTIES INC.",
-        "address": "175 ADMIRAL COCHRANE DRIVE SUITE 112",
-        "city": "ANNAPOLIS",
-        "state": "MD",
+        "category": "associate_broker",
+        "trade_name": "anne_arundel_properties_inc.",
+        "address": "175_admiral_cochrane_drive_suite_112",
+        "city": "annapolis",
+        "state": "md",
         "zip": "21401",
-        "expiration": "2027-03-31",
-        "status": "Active",
-        "note": "Different person - not Edward Hyland"
+        "expiration": "2027_03_31",
+        "status": "active",
+        "note": "different_person_not_edward_hyland"
       }
     ]
   },
-  "conclusion": "Edward Hyland does NOT have a real estate license in Maryland. Two other people with the surname 'Hyland' were found, but neither is Edward Hyland."
+  "conclusion": "edward_hyland_does_not_have_a_real_estate_license_in_maryland._two_other_people_with_the_surname_'hyland'_were_found,_but_neither_is_edward_hyland."
 }

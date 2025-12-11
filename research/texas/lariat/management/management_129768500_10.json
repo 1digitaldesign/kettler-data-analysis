@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.432382",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_129768500_10.json",
+    "created": "2025_12_11t00:21:41.432382",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_129768500_10.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 29, 2024",
-    "name": "F Gregory Gasior",
-    "title": "SVP",
-    "address": "750 Park of Commerce Blvd STE 300"
+    "last_update": "march_29,_2024",
+    "name": "f_gregory_gasior",
+    "title": "svp",
+    "address": "750_park_of_commerce_blvd_ste_300"
   },
-  "text_representation": "last_update: March 29, 2024 | name: F Gregory Gasior | title: SVP | address: 750 Park of Commerce Blvd STE 300",
+  "text_representation": "last_update:_march_29,_2024_|_name:_f_gregory_gasior_|_title:_svp_|_address:_750_park_of_commerce_blvd_ste_300",
   "embedding": [
     -0.003611746709793806,
     0.009425024501979351,

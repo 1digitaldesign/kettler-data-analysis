@@ -1,70 +1,70 @@
 {
-  "documentation_date": "2025-12-07",
-  "subject": "Edward Hyland - Unlicensed Practice Scope",
+  "documentation_date": "2025_12_07",
+  "subject": "edward_hyland_unlicensed_practice_scope",
   "summary": {
-    "total_properties_under_authority": "8-15 apartment communities",
-    "total_units_under_authority": "1,500-3,000+ units",
-    "estimated_virginia_tenants_affected": "Thousands over tenure",
-    "license_status": "No Virginia real estate license found",
-    "verification_status": "Verified via DPOR search"
+    "total_properties_under_authority": "8_15_apartment_communities",
+    "total_units_under_authority": "1,500_3,000+_units",
+    "estimated_virginia_tenants_affected": "thousands_over_tenure",
+    "license_status": "no_virginia_real_estate_license_found",
+    "verification_status": "verified_via_dpor_search"
   },
   "properties_identified": {
     "800_carlyle": {
-      "address": "800 John Carlyle Street, Alexandria, VA 22314",
+      "address": "800_john_carlyle_street,_alexandria,_va_22314",
       "units": 280,
       "connection_evidence": [
-        "Email: ehyland@kettler.com in lease termination documents",
-        "Email: Carlyle.PM@kettler.com, Carlyle@kettler.com",
-        "Address found in evidence: 850 John Carlyle St Apt 533"
+        "email:_ehyland@kettler.com_in_lease_termination_documents",
+        "email:_carlyle.pm@kettler.com,_carlyle@kettler.com",
+        "address_found_in_evidence:_850_john_carlyle_st_apt_533"
       ],
       "status": "verified"
     },
     "sinclaire_on_seminary": {
-      "address": "4900 Seminary Road, Alexandria, VA 22311",
+      "address": "4900_seminary_road,_alexandria,_va_22311",
       "connection_evidence": [
-        "LinkedIn post February 2023 promoting open house",
-        "LinkedIn PDFs confirm management"
+        "linkedin_post_february_2023_promoting_open_house",
+        "linkedin_pdfs_confirm_management"
       ],
       "status": "verified"
     },
     "other_properties": {
-      "estimated_count": "6-13 additional properties",
-      "location": "Northern Virginia region",
-      "note": "Based on Kettler regional structure and Hyland's role as Senior Regional Manager"
+      "estimated_count": "6_13_additional_properties",
+      "location": "northern_virginia_region",
+      "note": "based_on_kettler_regional_structure_and_hyland's_role_as_senior_regional_manager"
     }
   },
   "decision_authority_evidence": {
     "lease_termination_letter": {
-      "document": "Gmail - RE_ Formal Notice of Lease Termination - Unit 533 - Addendum with Additional Documentation.pdf",
-      "evidence_type": "Denial letter signed by Hyland",
-      "authority_demonstrated": "Senior Regional Manager making lease decisions",
+      "document": "gmail_re_formal_notice_of_lease_termination_unit_533_addendum_with_additional_documentation.pdf",
+      "evidence_type": "denial_letter_signed_by_hyland",
+      "authority_demonstrated": "senior_regional_manager_making_lease_decisions",
       "requires_license": true
     },
     "email_correspondence": {
-      "evidence": "ehyland@kettler.com in multiple evidence files",
-      "authority_demonstrated": "Property management decisions via email",
+      "evidence": "ehyland@kettler.com_in_multiple_evidence_files",
+      "authority_demonstrated": "property_management_decisions_via_email",
       "requires_license": true
     }
   },
   "types_of_decisions_affected": [
-    "Lease approvals/denials",
-    "Rental increases",
-    "Lease enforcement",
-    "Eviction recommendations",
-    "Tenant screening criteria",
-    "Property management operations"
+    "lease_approvals/denials",
+    "rental_increases",
+    "lease_enforcement",
+    "eviction_recommendations",
+    "tenant_screening_criteria",
+    "property_management_operations"
   ],
   "legal_implications": {
-    "virginia_code": "Code of Virginia § 54.1-2100 et seq.",
-    "requirement": "Real estate license required for property management activities for compensation",
-    "violation_type": "Unlicensed practice",
-    "scope": "Affects all Virginia tenants under Hyland's authority"
+    "virginia_code": "code_of_virginia_§_54.1_2100_et_seq.",
+    "requirement": "real_estate_license_required_for_property_management_activities_for_compensation",
+    "violation_type": "unlicensed_practice",
+    "scope": "affects_all_virginia_tenants_under_hyland's_authority"
   },
   "timeline": {
-    "employment_start": "2022-09-01",
-    "current_status": "Active",
-    "duration": "3+ years",
+    "employment_start": "2022_09_01",
+    "current_status": "active",
+    "duration": "3+_years",
     "firms_licensed_after_start": 3,
-    "correlation": "Firms licensed after Hyland started at Kettler suggests operational connection"
+    "correlation": "firms_licensed_after_hyland_started_at_kettler_suggests_operational_connection"
   }
 }

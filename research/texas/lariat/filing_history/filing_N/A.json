@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.891597",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/filing_history/filing_N/A.json",
+    "created": "2025_12_11t00:21:40.891597",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/filing_history/filing_n/a.json",
     "has_embedding": true
   },
   "data": {
-    "document_number": "N/A",
+    "document_number": "n/a",
     "filing_type": "4789141",
-    "filing_date": "Legacy Filing",
-    "effective_date": "April 26, 1982",
-    "eff_cond": "April 26, 1982",
-    "page_count": "No"
+    "filing_date": "legacy_filing",
+    "effective_date": "april_26,_1982",
+    "eff_cond": "april_26,_1982",
+    "page_count": "no"
   },
-  "text_representation": "document_number: N/A | filing_type: 4789141 | filing_date: Legacy Filing | effective_date: April 26, 1982 | eff_cond: April 26, 1982 | page_count: No",
+  "text_representation": "document_number:_n/a_|_filing_type:_4789141_|_filing_date:_legacy_filing_|_effective_date:_april_26,_1982_|_eff_cond:_april_26,_1982_|_page_count:_no",
   "embedding": [
     -0.04458741843700409,
     0.03708112612366676,

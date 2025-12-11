@@ -1,10 +1,10 @@
 {
   "metadata": {
     "date": null,
-    "state": "New York",
-    "company": "Kettler Management",
-    "search_url": "https://apps.dos.ny.gov/publicInquiry/",
-    "search_method": "Secretary of State database"
+    "state": "new_york",
+    "company": "kettler_management",
+    "search_url": "https://apps.dos.ny.gov/publicinquiry/",
+    "search_method": "secretary_of_state_database"
   },
   "findings": {
     "registered": null,

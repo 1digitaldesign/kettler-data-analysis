@@ -1,1215 +1,1215 @@
 {
-  "source_file": "/Users/machine/Documents/kettler-data-analysis/data/raw/tx/lariat-merged.pdf",
+  "source_file": "/users/machine/documents/kettler_data_analysis/data/raw/tx/lariat_merged.pdf",
   "total_pages": 242,
   "pages": [
     {
       "page_number": 1,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0001.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0001.json",
       "anomalies_count": 2
     },
     {
       "page_number": 2,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0002.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0002.json",
       "anomalies_count": 2
     },
     {
       "page_number": 3,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0003.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0003.json",
       "anomalies_count": 2
     },
     {
       "page_number": 4,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0004.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0004.json",
       "anomalies_count": 2
     },
     {
       "page_number": 5,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0005.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0005.json",
       "anomalies_count": 2
     },
     {
       "page_number": 6,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0006.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0006.json",
       "anomalies_count": 2
     },
     {
       "page_number": 7,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0007.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0007.json",
       "anomalies_count": 2
     },
     {
       "page_number": 8,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0008.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0008.json",
       "anomalies_count": 2
     },
     {
       "page_number": 9,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0009.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0009.json",
       "anomalies_count": 2
     },
     {
       "page_number": 10,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0010.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0010.json",
       "anomalies_count": 2
     },
     {
       "page_number": 11,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0011.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0011.json",
       "anomalies_count": 2
     },
     {
       "page_number": 12,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0012.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0012.json",
       "anomalies_count": 2
     },
     {
       "page_number": 13,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0013.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0013.json",
       "anomalies_count": 2
     },
     {
       "page_number": 14,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0014.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0014.json",
       "anomalies_count": 2
     },
     {
       "page_number": 15,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0015.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0015.json",
       "anomalies_count": 2
     },
     {
       "page_number": 16,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0016.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0016.json",
       "anomalies_count": 2
     },
     {
       "page_number": 17,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0017.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0017.json",
       "anomalies_count": 2
     },
     {
       "page_number": 18,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0018.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0018.json",
       "anomalies_count": 2
     },
     {
       "page_number": 19,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0019.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0019.json",
       "anomalies_count": 2
     },
     {
       "page_number": 20,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0020.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0020.json",
       "anomalies_count": 2
     },
     {
       "page_number": 21,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0021.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0021.json",
       "anomalies_count": 2
     },
     {
       "page_number": 22,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0022.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0022.json",
       "anomalies_count": 2
     },
     {
       "page_number": 23,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0023.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0023.json",
       "anomalies_count": 2
     },
     {
       "page_number": 24,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0024.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0024.json",
       "anomalies_count": 2
     },
     {
       "page_number": 25,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0025.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0025.json",
       "anomalies_count": 2
     },
     {
       "page_number": 26,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0026.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0026.json",
       "anomalies_count": 2
     },
     {
       "page_number": 27,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0027.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0027.json",
       "anomalies_count": 2
     },
     {
       "page_number": 28,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0028.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0028.json",
       "anomalies_count": 2
     },
     {
       "page_number": 29,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0029.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0029.json",
       "anomalies_count": 2
     },
     {
       "page_number": 30,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0030.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0030.json",
       "anomalies_count": 2
     },
     {
       "page_number": 31,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0031.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0031.json",
       "anomalies_count": 2
     },
     {
       "page_number": 32,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0032.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0032.json",
       "anomalies_count": 2
     },
     {
       "page_number": 33,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0033.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0033.json",
       "anomalies_count": 2
     },
     {
       "page_number": 34,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0034.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0034.json",
       "anomalies_count": 2
     },
     {
       "page_number": 35,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0035.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0035.json",
       "anomalies_count": 2
     },
     {
       "page_number": 36,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0036.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0036.json",
       "anomalies_count": 2
     },
     {
       "page_number": 37,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0037.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0037.json",
       "anomalies_count": 2
     },
     {
       "page_number": 38,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0038.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0038.json",
       "anomalies_count": 2
     },
     {
       "page_number": 39,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0039.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0039.json",
       "anomalies_count": 2
     },
     {
       "page_number": 40,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0040.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0040.json",
       "anomalies_count": 2
     },
     {
       "page_number": 41,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0041.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0041.json",
       "anomalies_count": 2
     },
     {
       "page_number": 42,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0042.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0042.json",
       "anomalies_count": 2
     },
     {
       "page_number": 43,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0043.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0043.json",
       "anomalies_count": 2
     },
     {
       "page_number": 44,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0044.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0044.json",
       "anomalies_count": 2
     },
     {
       "page_number": 45,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0045.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0045.json",
       "anomalies_count": 2
     },
     {
       "page_number": 46,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0046.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0046.json",
       "anomalies_count": 3
     },
     {
       "page_number": 47,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0047.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0047.json",
       "anomalies_count": 2
     },
     {
       "page_number": 48,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0048.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0048.json",
       "anomalies_count": 2
     },
     {
       "page_number": 49,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0049.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0049.json",
       "anomalies_count": 2
     },
     {
       "page_number": 50,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0050.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0050.json",
       "anomalies_count": 2
     },
     {
       "page_number": 51,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0051.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0051.json",
       "anomalies_count": 2
     },
     {
       "page_number": 52,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0052.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0052.json",
       "anomalies_count": 2
     },
     {
       "page_number": 53,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0053.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0053.json",
       "anomalies_count": 2
     },
     {
       "page_number": 54,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0054.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0054.json",
       "anomalies_count": 2
     },
     {
       "page_number": 55,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0055.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0055.json",
       "anomalies_count": 2
     },
     {
       "page_number": 56,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0056.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0056.json",
       "anomalies_count": 2
     },
     {
       "page_number": 57,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0057.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0057.json",
       "anomalies_count": 2
     },
     {
       "page_number": 58,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0058.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0058.json",
       "anomalies_count": 2
     },
     {
       "page_number": 59,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0059.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0059.json",
       "anomalies_count": 2
     },
     {
       "page_number": 60,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0060.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0060.json",
       "anomalies_count": 2
     },
     {
       "page_number": 61,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0061.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0061.json",
       "anomalies_count": 2
     },
     {
       "page_number": 62,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0062.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0062.json",
       "anomalies_count": 2
     },
     {
       "page_number": 63,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0063.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0063.json",
       "anomalies_count": 2
     },
     {
       "page_number": 64,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0064.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0064.json",
       "anomalies_count": 2
     },
     {
       "page_number": 65,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0065.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0065.json",
       "anomalies_count": 2
     },
     {
       "page_number": 66,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0066.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0066.json",
       "anomalies_count": 2
     },
     {
       "page_number": 67,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0067.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0067.json",
       "anomalies_count": 2
     },
     {
       "page_number": 68,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0068.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0068.json",
       "anomalies_count": 2
     },
     {
       "page_number": 69,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0069.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0069.json",
       "anomalies_count": 2
     },
     {
       "page_number": 70,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0070.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0070.json",
       "anomalies_count": 2
     },
     {
       "page_number": 71,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0071.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0071.json",
       "anomalies_count": 2
     },
     {
       "page_number": 72,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0072.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0072.json",
       "anomalies_count": 2
     },
     {
       "page_number": 73,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0073.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0073.json",
       "anomalies_count": 2
     },
     {
       "page_number": 74,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0074.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0074.json",
       "anomalies_count": 2
     },
     {
       "page_number": 75,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0075.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0075.json",
       "anomalies_count": 2
     },
     {
       "page_number": 76,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0076.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0076.json",
       "anomalies_count": 2
     },
     {
       "page_number": 77,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0077.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0077.json",
       "anomalies_count": 2
     },
     {
       "page_number": 78,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0078.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0078.json",
       "anomalies_count": 2
     },
     {
       "page_number": 79,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0079.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0079.json",
       "anomalies_count": 2
     },
     {
       "page_number": 80,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0080.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0080.json",
       "anomalies_count": 2
     },
     {
       "page_number": 81,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0081.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0081.json",
       "anomalies_count": 2
     },
     {
       "page_number": 82,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0082.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0082.json",
       "anomalies_count": 2
     },
     {
       "page_number": 83,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0083.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0083.json",
       "anomalies_count": 2
     },
     {
       "page_number": 84,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0084.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0084.json",
       "anomalies_count": 2
     },
     {
       "page_number": 85,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0085.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0085.json",
       "anomalies_count": 2
     },
     {
       "page_number": 86,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0086.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0086.json",
       "anomalies_count": 2
     },
     {
       "page_number": 87,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0087.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0087.json",
       "anomalies_count": 2
     },
     {
       "page_number": 88,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0088.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0088.json",
       "anomalies_count": 2
     },
     {
       "page_number": 89,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0089.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0089.json",
       "anomalies_count": 2
     },
     {
       "page_number": 90,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0090.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0090.json",
       "anomalies_count": 2
     },
     {
       "page_number": 91,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0091.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0091.json",
       "anomalies_count": 2
     },
     {
       "page_number": 92,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0092.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0092.json",
       "anomalies_count": 2
     },
     {
       "page_number": 93,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0093.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0093.json",
       "anomalies_count": 2
     },
     {
       "page_number": 94,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0094.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0094.json",
       "anomalies_count": 2
     },
     {
       "page_number": 95,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0095.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0095.json",
       "anomalies_count": 2
     },
     {
       "page_number": 96,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0096.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0096.json",
       "anomalies_count": 2
     },
     {
       "page_number": 97,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0097.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0097.json",
       "anomalies_count": 2
     },
     {
       "page_number": 98,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0098.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0098.json",
       "anomalies_count": 2
     },
     {
       "page_number": 99,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0099.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0099.json",
       "anomalies_count": 2
     },
     {
       "page_number": 100,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0100.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0100.json",
       "anomalies_count": 2
     },
     {
       "page_number": 101,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0101.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0101.json",
       "anomalies_count": 2
     },
     {
       "page_number": 102,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0102.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0102.json",
       "anomalies_count": 2
     },
     {
       "page_number": 103,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0103.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0103.json",
       "anomalies_count": 2
     },
     {
       "page_number": 104,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0104.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0104.json",
       "anomalies_count": 2
     },
     {
       "page_number": 105,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0105.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0105.json",
       "anomalies_count": 2
     },
     {
       "page_number": 106,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0106.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0106.json",
       "anomalies_count": 2
     },
     {
       "page_number": 107,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0107.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0107.json",
       "anomalies_count": 2
     },
     {
       "page_number": 108,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0108.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0108.json",
       "anomalies_count": 2
     },
     {
       "page_number": 109,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0109.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0109.json",
       "anomalies_count": 2
     },
     {
       "page_number": 110,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0110.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0110.json",
       "anomalies_count": 2
     },
     {
       "page_number": 111,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0111.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0111.json",
       "anomalies_count": 2
     },
     {
       "page_number": 112,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0112.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0112.json",
       "anomalies_count": 2
     },
     {
       "page_number": 113,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0113.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0113.json",
       "anomalies_count": 2
     },
     {
       "page_number": 114,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0114.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0114.json",
       "anomalies_count": 2
     },
     {
       "page_number": 115,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0115.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0115.json",
       "anomalies_count": 2
     },
     {
       "page_number": 116,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0116.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0116.json",
       "anomalies_count": 2
     },
     {
       "page_number": 117,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0117.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0117.json",
       "anomalies_count": 2
     },
     {
       "page_number": 118,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0118.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0118.json",
       "anomalies_count": 2
     },
     {
       "page_number": 119,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0119.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0119.json",
       "anomalies_count": 2
     },
     {
       "page_number": 120,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0120.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0120.json",
       "anomalies_count": 2
     },
     {
       "page_number": 121,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0121.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0121.json",
       "anomalies_count": 2
     },
     {
       "page_number": 122,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0122.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0122.json",
       "anomalies_count": 2
     },
     {
       "page_number": 123,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0123.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0123.json",
       "anomalies_count": 2
     },
     {
       "page_number": 124,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0124.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0124.json",
       "anomalies_count": 2
     },
     {
       "page_number": 125,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0125.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0125.json",
       "anomalies_count": 2
     },
     {
       "page_number": 126,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0126.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0126.json",
       "anomalies_count": 2
     },
     {
       "page_number": 127,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0127.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0127.json",
       "anomalies_count": 2
     },
     {
       "page_number": 128,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0128.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0128.json",
       "anomalies_count": 2
     },
     {
       "page_number": 129,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0129.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0129.json",
       "anomalies_count": 2
     },
     {
       "page_number": 130,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0130.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0130.json",
       "anomalies_count": 2
     },
     {
       "page_number": 131,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0131.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0131.json",
       "anomalies_count": 2
     },
     {
       "page_number": 132,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0132.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0132.json",
       "anomalies_count": 2
     },
     {
       "page_number": 133,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0133.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0133.json",
       "anomalies_count": 2
     },
     {
       "page_number": 134,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0134.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0134.json",
       "anomalies_count": 2
     },
     {
       "page_number": 135,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0135.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0135.json",
       "anomalies_count": 2
     },
     {
       "page_number": 136,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0136.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0136.json",
       "anomalies_count": 2
     },
     {
       "page_number": 137,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0137.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0137.json",
       "anomalies_count": 2
     },
     {
       "page_number": 138,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0138.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0138.json",
       "anomalies_count": 2
     },
     {
       "page_number": 139,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0139.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0139.json",
       "anomalies_count": 2
     },
     {
       "page_number": 140,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0140.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0140.json",
       "anomalies_count": 2
     },
     {
       "page_number": 141,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0141.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0141.json",
       "anomalies_count": 2
     },
     {
       "page_number": 142,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0142.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0142.json",
       "anomalies_count": 2
     },
     {
       "page_number": 143,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0143.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0143.json",
       "anomalies_count": 2
     },
     {
       "page_number": 144,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0144.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0144.json",
       "anomalies_count": 2
     },
     {
       "page_number": 145,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0145.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0145.json",
       "anomalies_count": 2
     },
     {
       "page_number": 146,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0146.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0146.json",
       "anomalies_count": 2
     },
     {
       "page_number": 147,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0147.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0147.json",
       "anomalies_count": 2
     },
     {
       "page_number": 148,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0148.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0148.json",
       "anomalies_count": 2
     },
     {
       "page_number": 149,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0149.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0149.json",
       "anomalies_count": 2
     },
     {
       "page_number": 150,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0150.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0150.json",
       "anomalies_count": 2
     },
     {
       "page_number": 151,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0151.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0151.json",
       "anomalies_count": 2
     },
     {
       "page_number": 152,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0152.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0152.json",
       "anomalies_count": 2
     },
     {
       "page_number": 153,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0153.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0153.json",
       "anomalies_count": 2
     },
     {
       "page_number": 154,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0154.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0154.json",
       "anomalies_count": 2
     },
     {
       "page_number": 155,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0155.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0155.json",
       "anomalies_count": 2
     },
     {
       "page_number": 156,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0156.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0156.json",
       "anomalies_count": 2
     },
     {
       "page_number": 157,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0157.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0157.json",
       "anomalies_count": 2
     },
     {
       "page_number": 158,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0158.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0158.json",
       "anomalies_count": 2
     },
     {
       "page_number": 159,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0159.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0159.json",
       "anomalies_count": 2
     },
     {
       "page_number": 160,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0160.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0160.json",
       "anomalies_count": 2
     },
     {
       "page_number": 161,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0161.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0161.json",
       "anomalies_count": 3
     },
     {
       "page_number": 162,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0162.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0162.json",
       "anomalies_count": 2
     },
     {
       "page_number": 163,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0163.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0163.json",
       "anomalies_count": 2
     },
     {
       "page_number": 164,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0164.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0164.json",
       "anomalies_count": 2
     },
     {
       "page_number": 165,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0165.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0165.json",
       "anomalies_count": 3
     },
     {
       "page_number": 166,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0166.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0166.json",
       "anomalies_count": 2
     },
     {
       "page_number": 167,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0167.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0167.json",
       "anomalies_count": 2
     },
     {
       "page_number": 168,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0168.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0168.json",
       "anomalies_count": 3
     },
     {
       "page_number": 169,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0169.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0169.json",
       "anomalies_count": 2
     },
     {
       "page_number": 170,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0170.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0170.json",
       "anomalies_count": 2
     },
     {
       "page_number": 171,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0171.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0171.json",
       "anomalies_count": 2
     },
     {
       "page_number": 172,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0172.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0172.json",
       "anomalies_count": 2
     },
     {
       "page_number": 173,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0173.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0173.json",
       "anomalies_count": 2
     },
     {
       "page_number": 174,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0174.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0174.json",
       "anomalies_count": 2
     },
     {
       "page_number": 175,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0175.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0175.json",
       "anomalies_count": 2
     },
     {
       "page_number": 176,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0176.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0176.json",
       "anomalies_count": 2
     },
     {
       "page_number": 177,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0177.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0177.json",
       "anomalies_count": 2
     },
     {
       "page_number": 178,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0178.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0178.json",
       "anomalies_count": 2
     },
     {
       "page_number": 179,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0179.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0179.json",
       "anomalies_count": 2
     },
     {
       "page_number": 180,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0180.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0180.json",
       "anomalies_count": 2
     },
     {
       "page_number": 181,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0181.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0181.json",
       "anomalies_count": 2
     },
     {
       "page_number": 182,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0182.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0182.json",
       "anomalies_count": 2
     },
     {
       "page_number": 183,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0183.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0183.json",
       "anomalies_count": 2
     },
     {
       "page_number": 184,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0184.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0184.json",
       "anomalies_count": 2
     },
     {
       "page_number": 185,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0185.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0185.json",
       "anomalies_count": 2
     },
     {
       "page_number": 186,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0186.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0186.json",
       "anomalies_count": 2
     },
     {
       "page_number": 187,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0187.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0187.json",
       "anomalies_count": 2
     },
     {
       "page_number": 188,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0188.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0188.json",
       "anomalies_count": 2
     },
     {
       "page_number": 189,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0189.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0189.json",
       "anomalies_count": 2
     },
     {
       "page_number": 190,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0190.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0190.json",
       "anomalies_count": 2
     },
     {
       "page_number": 191,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0191.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0191.json",
       "anomalies_count": 4
     },
     {
       "page_number": 192,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0192.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0192.json",
       "anomalies_count": 3
     },
     {
       "page_number": 193,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0193.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0193.json",
       "anomalies_count": 2
     },
     {
       "page_number": 194,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0194.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0194.json",
       "anomalies_count": 2
     },
     {
       "page_number": 195,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0195.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0195.json",
       "anomalies_count": 2
     },
     {
       "page_number": 196,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0196.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0196.json",
       "anomalies_count": 2
     },
     {
       "page_number": 197,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0197.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0197.json",
       "anomalies_count": 3
     },
     {
       "page_number": 198,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0198.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0198.json",
       "anomalies_count": 2
     },
     {
       "page_number": 199,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0199.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0199.json",
       "anomalies_count": 2
     },
     {
       "page_number": 200,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0200.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0200.json",
       "anomalies_count": 2
     },
     {
       "page_number": 201,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0201.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0201.json",
       "anomalies_count": 2
     },
     {
       "page_number": 202,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0202.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0202.json",
       "anomalies_count": 3
     },
     {
       "page_number": 203,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0203.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0203.json",
       "anomalies_count": 2
     },
     {
       "page_number": 204,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0204.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0204.json",
       "anomalies_count": 2
     },
     {
       "page_number": 205,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0205.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0205.json",
       "anomalies_count": 2
     },
     {
       "page_number": 206,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0206.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0206.json",
       "anomalies_count": 2
     },
     {
       "page_number": 207,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0207.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0207.json",
       "anomalies_count": 2
     },
     {
       "page_number": 208,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0208.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0208.json",
       "anomalies_count": 2
     },
     {
       "page_number": 209,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0209.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0209.json",
       "anomalies_count": 3
     },
     {
       "page_number": 210,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0210.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0210.json",
       "anomalies_count": 2
     },
     {
       "page_number": 211,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0211.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0211.json",
       "anomalies_count": 2
     },
     {
       "page_number": 212,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0212.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0212.json",
       "anomalies_count": 2
     },
     {
       "page_number": 213,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0213.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0213.json",
       "anomalies_count": 2
     },
     {
       "page_number": 214,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0214.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0214.json",
       "anomalies_count": 3
     },
     {
       "page_number": 215,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0215.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0215.json",
       "anomalies_count": 2
     },
     {
       "page_number": 216,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0216.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0216.json",
       "anomalies_count": 2
     },
     {
       "page_number": 217,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0217.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0217.json",
       "anomalies_count": 2
     },
     {
       "page_number": 218,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0218.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0218.json",
       "anomalies_count": 2
     },
     {
       "page_number": 219,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0219.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0219.json",
       "anomalies_count": 3
     },
     {
       "page_number": 220,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0220.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0220.json",
       "anomalies_count": 2
     },
     {
       "page_number": 221,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0221.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0221.json",
       "anomalies_count": 2
     },
     {
       "page_number": 222,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0222.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0222.json",
       "anomalies_count": 2
     },
     {
       "page_number": 223,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0223.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0223.json",
       "anomalies_count": 3
     },
     {
       "page_number": 224,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0224.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0224.json",
       "anomalies_count": 2
     },
     {
       "page_number": 225,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0225.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0225.json",
       "anomalies_count": 2
     },
     {
       "page_number": 226,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0226.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0226.json",
       "anomalies_count": 2
     },
     {
       "page_number": 227,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0227.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0227.json",
       "anomalies_count": 2
     },
     {
       "page_number": 228,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0228.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0228.json",
       "anomalies_count": 2
     },
     {
       "page_number": 229,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0229.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0229.json",
       "anomalies_count": 2
     },
     {
       "page_number": 230,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0230.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0230.json",
       "anomalies_count": 2
     },
     {
       "page_number": 231,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0231.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0231.json",
       "anomalies_count": 2
     },
     {
       "page_number": 232,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0232.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0232.json",
       "anomalies_count": 2
     },
     {
       "page_number": 233,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0233.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0233.json",
       "anomalies_count": 4
     },
     {
       "page_number": 234,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0234.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0234.json",
       "anomalies_count": 3
     },
     {
       "page_number": 235,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0235.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0235.json",
       "anomalies_count": 3
     },
     {
       "page_number": 236,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0236.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0236.json",
       "anomalies_count": 2
     },
     {
       "page_number": 237,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0237.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0237.json",
       "anomalies_count": 2
     },
     {
       "page_number": 238,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0238.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0238.json",
       "anomalies_count": 2
     },
     {
       "page_number": 239,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0239.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0239.json",
       "anomalies_count": 2
     },
     {
       "page_number": 240,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0240.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0240.json",
       "anomalies_count": 2
     },
     {
       "page_number": 241,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0241.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0241.json",
       "anomalies_count": 2
     },
     {
       "page_number": 242,
-      "file": "research/texas/pdf_analysis/lariat-merged/pages/page_0242.json",
+      "file": "research/texas/pdf_analysis/lariat_merged/pages/page_0242.json",
       "anomalies_count": 2
     }
   ]

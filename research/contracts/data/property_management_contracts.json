@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:49:09.177366",
-    "collection_method": "Browser automation",
+    "date": "2025_12_10t20:49:09.177366",
+    "collection_method": "browser_automation",
     "sources": [
-      "Property management company websites",
-      "Public records",
-      "Court filings (if available)"
+      "property_management_company_websites",
+      "public_records",
+      "court_filings_(if_available)"
     ]
   },
   "contracts": [],

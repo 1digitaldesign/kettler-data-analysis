@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.179026",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_803790640_0.json",
+    "created": "2025_12_11t00:21:41.179026",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_803790640_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "Bainbridge Mid-Atlantic Management, LLC",
-    "name_status": "Inactive",
-    "name_type": "Legal",
-    "name_inactive_date": "July 24, 2024",
+    "name": "bainbridge_mid_atlantic_management,_llc",
+    "name_status": "inactive",
+    "name_type": "legal",
+    "name_inactive_date": "july_24,_2024",
     "consent_filing_number": "0"
   },
-  "text_representation": "name: Bainbridge Mid-Atlantic Management, LLC | name_status: Inactive | name_type: Legal | name_inactive_date: July 24, 2024 | consent_filing_number: 0",
+  "text_representation": "name:_bainbridge_mid_atlantic_management,_llc_|_name_status:_inactive_|_name_type:_legal_|_name_inactive_date:_july_24,_2024_|_consent_filing_number:_0",
   "embedding": [
     -0.006947773974388838,
     -0.0510345995426178,

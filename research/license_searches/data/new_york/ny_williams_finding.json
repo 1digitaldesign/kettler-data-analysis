@@ -1,47 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "search_date": "2025-12-10T23:15:38",
-    "state": "New York",
-    "state_code": "NY",
-    "employee": "Williams",
+    "date": "2025_12_10",
+    "search_date": "2025_12_10t23:15:38",
+    "state": "new_york",
+    "state_code": "ny",
+    "employee": "williams",
     "employee_key": "williams",
     "title": "",
     "search_url": "https://www.dos.ny.gov/licensing/",
-    "search_method": "Browser automation - New York Department of State",
+    "search_method": "browser_automation_new_york_department_of_state",
     "license_types_searched": [
-      "Real Estate Broker",
-      "Real Estate Salesperson"
+      "real_estate_broker",
+      "real_estate_salesperson"
     ],
-    "regulatory_body": "New York Department of State",
-    "license_category": "Real Estate",
+    "regulatory_body": "new_york_department_of_state",
+    "license_category": "real_estate",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
-    "note": "Real estate license search completed via Browser automation - New York Department of State"
+    "note": "real_estate_license_search_completed_via_browser_automation_new_york_department_of_state"
   },
   "findings": {
     "williams": {
-      "full_name": "Williams",
+      "full_name": "williams",
       "employee_key": "williams",
       "title": "",
-      "license_type_searched": "Real Estate Broker",
+      "license_type_searched": "real_estate_broker",
       "all_license_types_searched": [
-        "Real Estate Broker",
-        "Real Estate Salesperson"
+        "real_estate_broker",
+        "real_estate_salesperson"
       ],
       "search_executed": true,
-      "search_date": "2025-12-10",
+      "search_date": "2025_12_10",
       "results_found": 0,
       "real_estate_license": false,
-      "license_status": "Not found",
-      "regulatory_body": "New York Department of State",
+      "license_status": "not_found",
+      "regulatory_body": "new_york_department_of_state",
       "search_url": "https://www.dos.ny.gov/licensing/",
-      "search_method": "Browser automation - New York Department of State",
-      "note": "No real estate license found in New York for Williams. Search performed via Browser automation - New York Department of State"
+      "search_method": "browser_automation_new_york_department_of_state",
+      "note": "no_real_estate_license_found_in_new_york_for_williams._search_performed_via_browser_automation_new_york_department_of_state"
     }
   },
-  "conclusion": "Williams DOES NOT HAVE a real estate license in New York. Search performed via Browser automation - New York Department of State",
-  "license_status": "Not found",
+  "conclusion": "williams_does_not_have_a_real_estate_license_in_new_york._search_performed_via_browser_automation_new_york_department_of_state",
+  "license_status": "not_found",
   "verification_status": "verified"
 }

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:00.751458",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0107.json",
+    "created": "2025_12_11t00:52:00.751458",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0107.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 107,
-    "text": "boload r ireo neeo noi nateBo nDdo iaomad ftts y oes\n3IXTII: The Corporation may have one or more offices within or without the State o\nYew Jersey at which the boaks of the Corporation may be kept, but the Corporation sha\n!\nsuch meeting\nEIcHTa. The period for the duration of the Corporation is perpetua).\n10",
+    "text": "boload_r_ireo_neeo_noi_natebo_nddo_iaomad_ftts_y_oes_3ixtii:_the_corporation_may_have_one_or_more_offices_within_or_without_the_state_o_yew_jersey_at_which_the_boaks_of_the_corporation_may_be_kept,_but_the_corporation_sha_!_such_meeting_eichta._the_period_for_the_duration_of_the_corporation_is_perpetua)._10",
     "char_count": 308,
     "word_count": 57,
     "anomalies": {
       "page_number": 107,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 107 | text: boload r ireo neeo noi nateBo nDdo iaomad ftts y oes\n3IXTII: The Corporation may have one or more offices within or without the State o\nYew Jersey at which the boaks of the Corporation may be kept, but the Corporation sha\n!\nsuch meeting\nEIcHTa. The period for the duration of the Corporation is perpetua).\n10 | char_count: 308 | word_count: 57 | anomalies: {\"page_number\":107,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_107_|_text:_boload_r_ireo_neeo_noi_natebo_nddo_iaomad_ftts_y_oes_3ixtii:_the_corporation_may_have_one_or_more_offices_within_or_without_the_state_o_yew_jersey_at_which_the_boaks_of_the_corporation_may_be_kept,_but_the_corporation_sha_!_such_meeting_eichta._the_period_for_the_duration_of_the_corporation_is_perpetua)._10_|_char_count:_308_|_word_count:_57_|_anomalies:_{\"page_number\":107,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06303128600120544,
     0.0307839997112751,

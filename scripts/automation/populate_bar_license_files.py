@@ -16,7 +16,7 @@ BAR_LICENSES_DIR = PROJECT_ROOT / "research" / "license_searches" / "data" / "ba
 # State information mapping
 STATE_INFO = {
     "DC": {
-        "full_name": "District of Columbia",
+        "full_name": "dc",
         "search_url": "https://www.dcbar.org/find-a-member",
         "alternative_urls": [
             "https://www.dcbar.org/member-directory/",

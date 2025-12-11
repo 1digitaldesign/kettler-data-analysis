@@ -1,52 +1,52 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.508613",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_802331657.json",
+    "created": "2025_12_11t00:21:40.508613",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_802331657.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "802331657",
     "entity_type": null,
-    "original_date_of_filing": "November 13, 2015",
-    "entity_status": "In existence",
-    "formation_date": "May 20, 1988",
+    "original_date_of_filing": "november_13,_2015",
+    "entity_status": "in_existence",
+    "formation_date": "may_20,_1988",
     "tax_id": "32058814248",
     "fein": null,
     "duration": null,
-    "name": "Kettler Management Inc.",
-    "address": "1751 Pinnacle Dr, Ste 700\nMclean, VA 22102 USA\nFictitious Name: \tN/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988",
-    "jurisdiction": "VA, USA",
+    "name": "kettler_management_inc.",
+    "address": "1751_pinnacle_dr,_ste_700_mclean,_va_22102_usa_fictitious_name:_n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
+    "jurisdiction": "va,_usa",
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "National Registered Agents, Inc.",
-      "address": "1999 Bryan St., Ste. 900",
+      "name": "national_registered_agents,_inc.",
+      "address": "1999_bryan_st.,_ste._900",
       "inactive_date": null
     },
     "filing_history": [],
     "names": [
       {
-        "name": "Kettler Management Inc.",
-        "name_status": "In use",
-        "name_type": "Legal",
+        "name": "kettler_management_inc.",
+        "name_status": "in_use",
+        "name_type": "legal",
         "name_inactive_date": "0",
         "consent_filing_number": null
       }
     ],
     "management": [
       {
-        "last_update": "May 15, 2019",
-        "name": "ROBERT KETTLER",
-        "title": "OFFICER",
-        "address": "8255 GREENSBORO DRIVE"
+        "last_update": "may_15,_2019",
+        "name": "robert_kettler",
+        "title": "officer",
+        "address": "8255_greensboro_drive"
       }
     ],
     "assumed_names": [],
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 802331657 | original_date_of_filing: November 13, 2015 | entity_status: In existence | formation_date: May 20, 1988 | tax_id: 32058814248 | name: Kettler Management Inc. | address: 1751 Pinnacle Dr, Ste 700\nMclean, VA 22102 USA\nFictitious Name: \tN/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988 | jurisdiction: VA, USA | registered_agent: {\"name\":\"National Registered Agents, Inc.\",\"address\":\"1999 Bryan St., Ste. 900\",\"inactive_date\":null} | names: 1 items | management: 1 items",
+  "text_representation": "filing_number:_802331657_|_original_date_of_filing:_november_13,_2015_|_entity_status:_in_existence_|_formation_date:_may_20,_1988_|_tax_id:_32058814248_|_name:_kettler_management_inc._|_address:_1751_pinnacle_dr,_ste_700_mclean,_va_22102_usa_fictitious_name:_n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988_|_jurisdiction:_va,_usa_|_registered_agent:_{\"name\":\"national_registered_agents,_inc.\",\"address\":\"1999_bryan_st.,_ste._900\",\"inactive_date\":null}_|_names:_1_items_|_management:_1_items",
   "embedding": [
     -0.07623428851366043,
     0.008631384000182152,

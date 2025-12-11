@@ -1,40 +1,40 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:53:59.787578",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/anomalies/anomalies_page_0044.json",
+    "created": "2025_12_11t00:53:59.787578",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/anomalies/anomalies_page_0044.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 44,
-    "source": "MERGED-Kettler",
+    "source": "merged_kettler",
     "address_clusters": [],
     "entity_variations": [
       {
-        "entity_name": "CT CORPORATION",
+        "entity_name": "ct_corporation",
         "occurrences": 7,
-        "pattern": "Repeated entity name",
+        "pattern": "repeated_entity_name",
         "severity": "low"
       }
     ],
     "date_sequences": [],
     "suspicious_patterns": [
       {
-        "pattern": "Multiple states mentioned",
+        "pattern": "multiple_states_mentioned",
         "states": [
-          "CO",
-          "CT",
-          "AR",
-          "NC",
-          "VA",
-          "IN"
+          "co",
+          "ct",
+          "ar",
+          "nc",
+          "va",
+          "in"
         ],
         "count": 18,
         "severity": "medium"
       }
     ]
   },
-  "text_representation": "page_number: 44 | source: MERGED-Kettler | entity_variations: 1 items | suspicious_patterns: 1 items",
+  "text_representation": "page_number:_44_|_source:_merged_kettler_|_entity_variations:_1_items_|_suspicious_patterns:_1_items",
   "embedding": [
     -0.05885731801390648,
     0.013434834778308868,

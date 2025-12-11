@@ -14,7 +14,7 @@ COMPLAINTS_DIR = PROJECT_ROOT / 'research/complaints'
 
 # States to search
 STATES = [
-    'District of Columbia',
+    'dc',
     'Maryland',
     'Virginia',
     'New Jersey',
@@ -24,7 +24,7 @@ STATES = [
 
 # Regulatory agency URLs
 AGENCY_URLS = {
-    'District of Columbia': {
+    'dc': {
         'real_estate': 'https://www.dcopla.com/',
         'consumer_affairs': 'https://dcra.dc.gov/',
     },

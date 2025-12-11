@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:55:08.541603",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_2372.json",
+    "created": "2025_12_11t00:55:08.541603",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_2372.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 2372,
-    "text": "8 8 0 5 0 0 0 2 0\nCIS090\n321867\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\nMa21y 0 9,88\nNOITNICRR OPOAFOE TCIAFITCER\nhaeCTeStt o rporaitonC ommissionho afus nhdtea ccompanyingai rtclesus bemitdt\non behalf of\nMa nKS!agemeCn otrp.\na n,dco nocot mplwhy ihteret quirelmeo ans fwt (cid:222) prms aaymeo ln flret laeetdfe s.\nhTeioreoi s rdfre teh,rehtidta s t\nCERTIFICATE OF INCORPORATION\nbe issued, and admitted to record with the articles in this office of the Commission,\neffective May 20, 1988.\nhTeco rporaitonig s ranehtdtea uhtocoriy netfrredobl ni y a twi na ccordancew iht\n.hteai rtclsuhe botecos,jt ne dctiitonas ndrerii stctonis mposedbl y aw\nNOSSINCMMIO OITCRRE OPOATAST\nCammissioner\nCoNu urtmber: 143\n01519NEW",
+    "text": "8_8_0_5_0_0_0_2_0_cis090_321867_nariivig_fhot_nealcmmowo_nossincmmio_oitcrre_opoatast_ma21y_0_9,88_noitnicrr_opoafoe_tciafitcer_haectestt_o_rporaitonc_ommissionho_afus_nhdtea_ccompanyingai_rtclesus_bemitdt_on_behalf_of_ma_nks!agemecn_otrp._a_n,dco_nocot_mplwhy_ihteret_quirelmeo_ans_fwt_(cid:222)_prms_aaymeo_ln_flret_laeetdfe_s._hteioreoi_s_rdfre_teh,rehtidta_s_t_certificate_of_incorporation_be_issued,_and_admitted_to_record_with_the_articles_in_this_office_of_the_commission,_effective_may_20,_1988._hteco_rporaitonig_s_ranehtdtea_uhtocoriy_netfrredobl_ni_y_a_twi_na_ccordancew_iht_.hteai_rtclsuhe_botecos,jt_ne_dctiitonas_ndrerii_stctonis_mposedbl_y_aw_nossincmmio_oitcrre_opoatast_cammissioner_conu_urtmber:_143_01519new",
     "char_count": 726,
     "word_count": 112,
     "anomalies": {
       "page_number": 2372,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 2372 | text: 8 8 0 5 0 0 0 2 0\nCIS090\n321867\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\nMa21y 0 9,88\nNOITNICRR OPOAFOE TCIAFITCER\nhaeCTeStt o rporaitonC ommissionho afus nhdtea ccompanyingai rtclesus bemitdt\non behalf of\nMa nKS!agemeCn otrp.\na n,dco nocot mplwhy ihteret quirelmeo ans fwt (cid:222) prms aaymeo ln flret laeetdfe s.\nhTeioreoi s rdfre teh,rehtidta s t\nCERTIFICATE OF INCORPORATION\nbe issued, and admitted to record with the articles in this office of the Commission,\neffective May 20, 1988.\nhTeco rporaitonig s ranehtdtea uhtocoriy netfrredobl ni y a twi na ccordancew iht\n.hteai rtclsuhe botecos,jt ne dctiitonas ndrerii stctonis mposedbl y aw\nNOSSINCMMIO OITCRRE OPOATAST\nCammissioner\nCoNu urtmber: 143\n01519NEW | char_count: 726 | word_count: 112 | anomalies: {\"page_number\":2372,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_2372_|_text:_8_8_0_5_0_0_0_2_0_cis090_321867_nariivig_fhot_nealcmmowo_nossincmmio_oitcrre_opoatast_ma21y_0_9,88_noitnicrr_opoafoe_tciafitcer_haectestt_o_rporaitonc_ommissionho_afus_nhdtea_ccompanyingai_rtclesus_bemitdt_on_behalf_of_ma_nks!agemecn_otrp._a_n,dco_nocot_mplwhy_ihteret_quirelmeo_ans_fwt_(cid:222)_prms_aaymeo_ln_flret_laeetdfe_s._hteioreoi_s_rdfre_teh,rehtidta_s_t_certificate_of_incorporation_be_issued,_and_admitted_to_record_with_the_articles_in_this_office_of_the_commission,_effective_may_20,_1988._hteco_rporaitonig_s_ranehtdtea_uhtocoriy_netfrredobl_ni_y_a_twi_na_ccordancew_iht_.hteai_rtclsuhe_botecos,jt_ne_dctiitonas_ndrerii_stctonis_mposedbl_y_aw_nossincmmio_oitcrre_opoatast_cammissioner_conu_urtmber:_143_01519new_|_char_count:_726_|_word_count:_112_|_anomalies:_{\"page_number\":2372,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.055624812841415405,
     0.04895629361271858,

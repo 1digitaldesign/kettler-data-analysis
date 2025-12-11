@@ -1,33 +1,44 @@
 {
   "metadata": {
-    "date": "2025-12-08",
-    "state": "Virginia",
-    "broker": "Caitlin Skidmore",
+    "date": "2025_12_08",
+    "state": "va",
+    "broker": "caitlin_skidmore",
     "total_licenses": 40,
-    "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
-    "search_method": "Browser automation"
+    "search_url": "https://www.dpor.virginia.gov/licenselookup",
+    "search_method": "browser_automation"
   },
   "finding": {
-    "broker_name": "SKIDMORE, CAITLIN MARIE",
+    "broker_name": "skidmore,_caitlin_marie",
     "total_individual_licenses": 40,
-    "license_type": "Real Estate Individual - Principal Broker License",
-    "address_pattern": "FRISCO, TX 75033 / FRISCO, TX 75034",
-    "note": "Each individual license represents a different company using Lariat broker services"
+    "license_type": "real_estate_individual_principal_broker_license",
+    "address_pattern": "frisco,_tx_75033_/_frisco,_tx_75034",
+    "note": "each_individual_license_represents_a_different_company_using_lariat_broker_services"
   },
   "confirmed_companies": [
     {
       "license_number": "0225273913",
-      "company_name": "BOZZUTO MANAGEMENT COMPANY",
+      "company_name": "bozzuto_management_company",
       "firm_license": "0226024808",
-      "relation_type": "Related Firm",
+      "relation_type": "related_firm",
       "status": "confirmed"
     }
   ],
-  "sample_license_numbers": ["0225258285", "0225273785", "0225273906", "0225273907", "0225273908", "0225273909", "0225273910", "0225273911", "0225273912", "0225273913"],
+  "sample_license_numbers": [
+    "0225258285",
+    "0225273785",
+    "0225273906",
+    "0225273907",
+    "0225273908",
+    "0225273909",
+    "0225273910",
+    "0225273911",
+    "0225273912",
+    "0225273913"
+  ],
   "implications": {
-    "scale": "40 individual licenses = potentially 40 different companies",
-    "comparison": "DC: 24 companies, Virginia: 40 licenses (potentially 40 companies)",
-    "violation": "One broker cannot properly supervise 40 companies - massive supervision violation",
-    "pattern": "Each license is Principal Broker License for a different company"
+    "scale": "40_individual_licenses_=_potentially_40_different_companies",
+    "comparison": "dc:_24_companies,_virginia:_40_licenses_(potentially_40_companies)",
+    "violation": "one_broker_cannot_properly_supervise_40_companies_massive_supervision_violation",
+    "pattern": "each_license_is_principal_broker_license_for_a_different_company"
   }
 }

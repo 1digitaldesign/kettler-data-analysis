@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat.txt",
-    "state": "Texas",
-    "model": "all-MiniLM-L6-v2",
+    "state": "tx",
+    "model": "all_minilm_l6_v2",
     "dimension": 384,
     "count": 14,
-    "created": "2025-12-11T00:17:55.860748"
+    "created": "2025_12_11t00:17:55.860748"
   },
   "vectors": [
     {
       "id": "lariat_tx_801459833",
-      "text": "Filing Number: 801459833 | Name: Lariat Realty Advisors, Inc. | Status: In existence | Address: 4600 FIRESTONE DR\nFRISCO, TX 75034 USA | Registered Agent: Thoms L Bisanz - 4600 Firestone Drive | Tax ID: 32044752940 | Original Filing Date: July 28, 2011 | Management: Thomas Bisanz (Manager) | Filing History: Certificate of Formation on July 28, 2011; Tax Forfeiture on February 8, 2013; Reinstatement on December 18, 2017; Public Information Report (PIR) on December 31, 2017; Public Information Report (PIR) on December 31, 2018",
+      "text": "filing_number:_801459833_|_name:_lariat_realty_advisors,_inc._|_status:_in_existence_|_address:_4600_firestone_dr_frisco,_tx_75034_usa_|_registered_agent:_thoms_l_bisanz_4600_firestone_drive_|_tax_id:_32044752940_|_original_filing_date:_july_28,_2011_|_management:_thomas_bisanz_(manager)_|_filing_history:_certificate_of_formation_on_july_28,_2011;_tax_forfeiture_on_february_8,_2013;_reinstatement_on_december_18,_2017;_public_information_report_(pir)_on_december_31,_2017;_public_information_report_(pir)_on_december_31,_2018",
       "embedding": [
         -0.017527656629681587,
         -0.03211869299411774,
@@ -399,15 +399,15 @@
       ],
       "metadata": {
         "filing_number": "801459833",
-        "entity_name": "Lariat Realty Advisors, Inc.",
+        "entity_name": "lariat_realty_advisors,_inc.",
         "entity_type": null,
-        "entity_status": "In existence",
-        "address": "4600 FIRESTONE DR\nFRISCO, TX 75034 USA"
+        "entity_status": "in_existence",
+        "address": "4600_firestone_dr_frisco,_tx_75034_usa"
       }
     },
     {
       "id": "lariat_tx_805759678",
-      "text": "Filing Number: 805759678 | Name: Lariat Realty Advisors, LLC | Entity Type: Domestic Limited Liability Company (LLC) | Status: In existence | Address: 4600 FIRESTONE DR\nFRISCO, TX 75034-6847 USA | Registered Agent: Thomas Bisanz - 4600 Firestone Drive | Tax ID: 32097336583 | Original Filing Date: October 24, 2024 | Management: Thomas Bisanz (Manager)",
+      "text": "filing_number:_805759678_|_name:_lariat_realty_advisors,_llc_|_entity_type:_domestic_limited_liability_company_(llc)_|_status:_in_existence_|_address:_4600_firestone_dr_frisco,_tx_75034_6847_usa_|_registered_agent:_thomas_bisanz_4600_firestone_drive_|_tax_id:_32097336583_|_original_filing_date:_october_24,_2024_|_management:_thomas_bisanz_(manager)",
       "embedding": [
         -0.014683329500257969,
         -0.006933950819075108,
@@ -796,15 +796,15 @@
       ],
       "metadata": {
         "filing_number": "805759678",
-        "entity_name": "Lariat Realty Advisors, LLC",
-        "entity_type": "Domestic Limited Liability Company (LLC)",
-        "entity_status": "In existence",
-        "address": "4600 FIRESTONE DR\nFRISCO, TX 75034-6847 USA"
+        "entity_name": "lariat_realty_advisors,_llc",
+        "entity_type": "domestic_limited_liability_company_(llc)",
+        "entity_status": "in_existence",
+        "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa"
       }
     },
     {
       "id": "lariat_tx_46955400",
-      "text": "Filing Number: 46955400 | Name: LARIAT INC. REALTORS | Status: Voluntarily terminated | Address: [ADDRESS NOT PROVIDED] | Registered Agent: Monte B Hartig - 4139 GARDENDALE | Tax ID: 17420431391 | Original Filing Date: March 30, 1979 | Filing History: 4390503 on Legacy Filing",
+      "text": "filing_number:_46955400_|_name:_lariat_inc._realtors_|_status:_voluntarily_terminated_|_address:_[address_not_provided]_|_registered_agent:_monte_b_hartig_4139_gardendale_|_tax_id:_17420431391_|_original_filing_date:_march_30,_1979_|_filing_history:_4390503_on_legacy_filing",
       "embedding": [
         0.006286471150815487,
         -0.06463184952735901,
@@ -1193,15 +1193,15 @@
       ],
       "metadata": {
         "filing_number": "46955400",
-        "entity_name": "LARIAT INC. REALTORS",
+        "entity_name": "lariat_inc._realtors",
         "entity_type": null,
-        "entity_status": "Voluntarily terminated",
-        "address": "[ADDRESS NOT PROVIDED]"
+        "entity_status": "voluntarily_terminated",
+        "address": "[address_not_provided]"
       }
     },
     {
       "id": "lariat_tx_802331657",
-      "text": "Filing Number: 802331657 | Name: Kettler Management Inc. | Status: In existence | Address: 1751 Pinnacle Dr, Ste 700\nMclean, VA 22102 USA\nFictitious Name: \tN/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988 | Registered Agent: National Registered Agents, Inc. - 1999 Bryan St., Ste. 900 | Tax ID: 32058814248 | Jurisdiction: VA, USA | Formation Date: May 20, 1988 | Original Filing Date: November 13, 2015 | Management: ROBERT KETTLER (OFFICER)",
+      "text": "filing_number:_802331657_|_name:_kettler_management_inc._|_status:_in_existence_|_address:_1751_pinnacle_dr,_ste_700_mclean,_va_22102_usa_fictitious_name:_n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988_|_registered_agent:_national_registered_agents,_inc._1999_bryan_st.,_ste._900_|_tax_id:_32058814248_|_jurisdiction:_va,_usa_|_formation_date:_may_20,_1988_|_original_filing_date:_november_13,_2015_|_management:_robert_kettler_(officer)",
       "embedding": [
         -0.09261120110750198,
         -0.04292045161128044,
@@ -1590,15 +1590,15 @@
       ],
       "metadata": {
         "filing_number": "802331657",
-        "entity_name": "Kettler Management Inc.",
+        "entity_name": "kettler_management_inc.",
         "entity_type": null,
-        "entity_status": "In existence",
-        "address": "1751 Pinnacle Dr, Ste 700\nMclean, VA 22102 USA\nFictitious Name: \tN/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988"
+        "entity_status": "in_existence",
+        "address": "1751_pinnacle_dr,_ste_700_mclean,_va_22102_usa_fictitious_name:_n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988"
       }
     },
     {
       "id": "lariat_tx_804700244",
-      "text": "Filing Number: 804700244 | Name: Kettler Land Management LLC | Status: Forfeited existence | Address: 2812 SAN PEDRO ST\nAUSTIN, TX 78705-3602 USA | Registered Agent: United States Corporation Agents, Inc. - 10601 Clarence Dr. Suite 250 | Tax ID: 32086023994 | Original Filing Date: August 24, 2022 | Management: William Kyle Kettler (Managing Member)",
+      "text": "filing_number:_804700244_|_name:_kettler_land_management_llc_|_status:_forfeited_existence_|_address:_2812_san_pedro_st_austin,_tx_78705_3602_usa_|_registered_agent:_united_states_corporation_agents,_inc._10601_clarence_dr._suite_250_|_tax_id:_32086023994_|_original_filing_date:_august_24,_2022_|_management:_william_kyle_kettler_(managing_member)",
       "embedding": [
         -0.06029737368226051,
         -0.03529292345046997,
@@ -1987,15 +1987,15 @@
       ],
       "metadata": {
         "filing_number": "804700244",
-        "entity_name": "Kettler Land Management LLC",
+        "entity_name": "kettler_land_management_llc",
         "entity_type": null,
-        "entity_status": "Forfeited existence",
-        "address": "2812 SAN PEDRO ST\nAUSTIN, TX 78705-3602 USA"
+        "entity_status": "forfeited_existence",
+        "address": "2812_san_pedro_st_austin,_tx_78705_3602_usa"
       }
     },
     {
       "id": "lariat_tx_805818075",
-      "text": "Filing Number: 805818075 | Name: Frippmore, LLC | Status: In existence | Address: 13902 NICOLLET DR\nFRISCO, TX 75033-1717 USA | Registered Agent: Carlisle Braun - 7300 State Highway 121, Suite 300 | Tax ID: 32097939857 | Original Filing Date: December 12, 2024 | Management: Caitlin Skidmore (Manager); Troy Skidmore (Manager)",
+      "text": "filing_number:_805818075_|_name:_frippmore,_llc_|_status:_in_existence_|_address:_13902_nicollet_dr_frisco,_tx_75033_1717_usa_|_registered_agent:_carlisle_braun_7300_state_highway_121,_suite_300_|_tax_id:_32097939857_|_original_filing_date:_december_12,_2024_|_management:_caitlin_skidmore_(manager);_troy_skidmore_(manager)",
       "embedding": [
         -0.06534533202648163,
         0.01997685618698597,
@@ -2384,15 +2384,15 @@
       ],
       "metadata": {
         "filing_number": "805818075",
-        "entity_name": "Frippmore, LLC",
+        "entity_name": "frippmore,_llc",
         "entity_type": null,
-        "entity_status": "In existence",
-        "address": "13902 NICOLLET DR\nFRISCO, TX 75033-1717 USA"
+        "entity_status": "in_existence",
+        "address": "13902_nicollet_dr_frisco,_tx_75033_1717_usa"
       }
     },
     {
       "id": "lariat_tx_802961755",
-      "text": "Filing Number: 802961755 | Name: SDS Texas Realty, LLC | Status: In existence | Address: 5729 LEBANON RD STE 144553\nFRISCO, TX 75034-7260 USA | Registered Agent: LEAH DOUTHIT - 5152 Loma Alta Dr. | Tax ID: 32066517577 | Original Filing Date: March 13, 2018 | Management: Leah Douthit (Manager); Caitlin Skidmore (Manager); Elizabeth Saye (Manager)",
+      "text": "filing_number:_802961755_|_name:_sds_texas_realty,_llc_|_status:_in_existence_|_address:_5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa_|_registered_agent:_leah_douthit_5152_loma_alta_dr._|_tax_id:_32066517577_|_original_filing_date:_march_13,_2018_|_management:_leah_douthit_(manager);_caitlin_skidmore_(manager);_elizabeth_saye_(manager)",
       "embedding": [
         -0.04342145100235939,
         -0.019748659804463387,
@@ -2781,15 +2781,15 @@
       ],
       "metadata": {
         "filing_number": "802961755",
-        "entity_name": "SDS Texas Realty, LLC",
+        "entity_name": "sds_texas_realty,_llc",
         "entity_type": null,
-        "entity_status": "In existence",
-        "address": "5729 LEBANON RD STE 144553\nFRISCO, TX 75034-7260 USA"
+        "entity_status": "in_existence",
+        "address": "5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa"
       }
     },
     {
       "id": "lariat_tx_60550300",
-      "text": "Filing Number: 60550300 | Name: DELTA SOUTHERN ACCEPTANCE CORPORATION | Entity Type: Domestic For-Profit Corporation | Status: Voluntarily terminated | Address: [ADDRESS NOT PROVIDED] | Registered Agent: C R Skidmore - RT 1 144 RED OAK | Tax ID: 00000000000 | Original Filing Date: October 25, 1962 | Management: S (1400 HILLCREST); Director (1400 HILLCREST); VP (1400 HILLCREST); P (1400 HILLCREST); T (1400 HILLCREST); 18792700 (Entity Type:) | Filing History: 4789141 on Legacy Filing; Inactive on Legal",
+      "text": "filing_number:_60550300_|_name:_delta_southern_acceptance_corporation_|_entity_type:_domestic_for_profit_corporation_|_status:_voluntarily_terminated_|_address:_[address_not_provided]_|_registered_agent:_c_r_skidmore_rt_1_144_red_oak_|_tax_id:_00000000000_|_original_filing_date:_october_25,_1962_|_management:_s_(1400_hillcrest);_director_(1400_hillcrest);_vp_(1400_hillcrest);_p_(1400_hillcrest);_t_(1400_hillcrest);_18792700_(entity_type:)_|_filing_history:_4789141_on_legacy_filing;_inactive_on_legal",
       "embedding": [
         -0.020485268905758858,
         -0.0020888815633952618,
@@ -3178,15 +3178,15 @@
       ],
       "metadata": {
         "filing_number": "60550300",
-        "entity_name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-        "entity_type": "Domestic For-Profit Corporation",
-        "entity_status": "Voluntarily terminated",
-        "address": "[ADDRESS NOT PROVIDED]"
+        "entity_name": "delta_southern_acceptance_corporation",
+        "entity_type": "domestic_for_profit_corporation",
+        "entity_status": "voluntarily_terminated",
+        "address": "[address_not_provided]"
       }
     },
     {
       "id": "lariat_tx_18792700",
-      "text": "Filing Number: 18792700 | Name: DELTA SOUTHERN ACCEPTANCE CORPORATION | Status: Voluntarily terminated | Address: [ADDRESS NOT PROVIDED] | Tax ID: 00000000000 | Original Filing Date: October 25, 1962",
+      "text": "filing_number:_18792700_|_name:_delta_southern_acceptance_corporation_|_status:_voluntarily_terminated_|_address:_[address_not_provided]_|_tax_id:_00000000000_|_original_filing_date:_october_25,_1962",
       "embedding": [
         -0.0236340519040823,
         0.03333146125078201,
@@ -3575,15 +3575,15 @@
       ],
       "metadata": {
         "filing_number": "18792700",
-        "entity_name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+        "entity_name": "delta_southern_acceptance_corporation",
         "entity_type": null,
-        "entity_status": "Voluntarily terminated",
-        "address": "[ADDRESS NOT PROVIDED]"
+        "entity_status": "voluntarily_terminated",
+        "address": "[address_not_provided]"
       }
     },
     {
       "id": "lariat_tx_17649900",
-      "text": "Filing Number: 17649900 | Name: SOUTHWEST FABRICATING & WELDING CO., INC. | Entity Type: Domestic For-Profit Corporation | Status: Merged | Address: [ADDRESS NOT PROVIDED] | Registered Agent: C L Skidmore - 7525 SHERMAN | Tax ID: 00000000000 | Original Filing Date: July 28, 1961",
+      "text": "filing_number:_17649900_|_name:_southwest_fabricating_&_welding_co.,_inc._|_entity_type:_domestic_for_profit_corporation_|_status:_merged_|_address:_[address_not_provided]_|_registered_agent:_c_l_skidmore_7525_sherman_|_tax_id:_00000000000_|_original_filing_date:_july_28,_1961",
       "embedding": [
         -0.0811227485537529,
         -0.017417896538972855,
@@ -3972,15 +3972,15 @@
       ],
       "metadata": {
         "filing_number": "17649900",
-        "entity_name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
-        "entity_type": "Domestic For-Profit Corporation",
-        "entity_status": "Merged",
-        "address": "[ADDRESS NOT PROVIDED]"
+        "entity_name": "southwest_fabricating_&_welding_co.,_inc.",
+        "entity_type": "domestic_for_profit_corporation",
+        "entity_status": "merged",
+        "address": "[address_not_provided]"
       }
     },
     {
       "id": "lariat_tx_804058541",
-      "text": "Filing Number: 804058541 | Name: DIVORCE NAVIGATORS, INC. | Entity Type: Domestic Nonprofit Corporation | Status: Forfeited existence | Address: 2872 BREEZY POINT LN\nFRISCO, TX 75034-4686 USA | Registered Agent: HOLLY MCKAY - 2872 Breezy Point Lane | Tax ID: 32079104280 | Formation Date: N/A \tNon-Profit Type: \tN/A | Original Filing Date: May 5, 2021 | Management: HOLLY MCKAY (Director); LEAH DOUTHIT (Director); LIDDY SAYE (Director); CAITLIN SKIDMORE (Director)",
+      "text": "filing_number:_804058541_|_name:_divorce_navigators,_inc._|_entity_type:_domestic_nonprofit_corporation_|_status:_forfeited_existence_|_address:_2872_breezy_point_ln_frisco,_tx_75034_4686_usa_|_registered_agent:_holly_mckay_2872_breezy_point_lane_|_tax_id:_32079104280_|_formation_date:_n/a_non_profit_type:_n/a_|_original_filing_date:_may_5,_2021_|_management:_holly_mckay_(director);_leah_douthit_(director);_liddy_saye_(director);_caitlin_skidmore_(director)",
       "embedding": [
         -0.06515560299158096,
         -0.06462522596120834,
@@ -4369,15 +4369,15 @@
       ],
       "metadata": {
         "filing_number": "804058541",
-        "entity_name": "DIVORCE NAVIGATORS, INC.",
-        "entity_type": "Domestic Nonprofit Corporation",
-        "entity_status": "Forfeited existence",
-        "address": "2872 BREEZY POINT LN\nFRISCO, TX 75034-4686 USA"
+        "entity_name": "divorce_navigators,_inc.",
+        "entity_type": "domestic_nonprofit_corporation",
+        "entity_status": "forfeited_existence",
+        "address": "2872_breezy_point_ln_frisco,_tx_75034_4686_usa"
       }
     },
     {
       "id": "lariat_tx_803790640",
-      "text": "Filing Number: 803790640 | Name: CAPREIT RESIDENTIAL MANAGEMENT, LLC | Entity Type: Foreign Limited Liability Company (LLC) | Status: In existence | Address: 11200 ROCKVILLE PIKE SUITE 100\nROCKVILLE, MD 20852 USA\nFictitious Name: \tN/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001 | Registered Agent: Corporation Service Company dba CSC - Lawyers Incorporating Service Company - 211 E. 7th Street, Suite 620 | Tax ID: 32046799311 | Jurisdiction: MD, USA | Formation Date: October 4, 2001 | Original Filing Date: January 31, 2012 | Management: RAS MANAGER, LLC (ITS MANAGER); 801542892 (Entity Type:)",
+      "text": "filing_number:_803790640_|_name:_capreit_residential_management,_llc_|_entity_type:_foreign_limited_liability_company_(llc)_|_status:_in_existence_|_address:_11200_rockville_pike_suite_100_rockville,_md_20852_usa_fictitious_name:_n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001_|_registered_agent:_corporation_service_company_dba_csc_lawyers_incorporating_service_company_211_e._7th_street,_suite_620_|_tax_id:_32046799311_|_jurisdiction:_md,_usa_|_formation_date:_october_4,_2001_|_original_filing_date:_january_31,_2012_|_management:_ras_manager,_llc_(its_manager);_801542892_(entity_type:)",
       "embedding": [
         -0.06809236854314804,
         -0.015433445572853088,
@@ -4766,15 +4766,15 @@
       ],
       "metadata": {
         "filing_number": "803790640",
-        "entity_name": "CAPREIT RESIDENTIAL MANAGEMENT, LLC",
-        "entity_type": "Foreign Limited Liability Company (LLC)",
-        "entity_status": "In existence",
-        "address": "11200 ROCKVILLE PIKE SUITE 100\nROCKVILLE, MD 20852 USA\nFictitious Name: \tN/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001"
+        "entity_name": "capreit_residential_management,_llc",
+        "entity_type": "foreign_limited_liability_company_(llc)",
+        "entity_status": "in_existence",
+        "address": "11200_rockville_pike_suite_100_rockville,_md_20852_usa_fictitious_name:_n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001"
       }
     },
     {
       "id": "lariat_tx_801542892",
-      "text": "Filing Number: 801542892 | Name: Bozzuto Contracting TX, LLC | Entity Type: Domestic Limited Liability Company (LLC) | Status: In existence | Address: 6406 IVY LN STE 700\nGREENBELT, MD 20770-1435 USA | Tax ID: 32099994678 | Jurisdiction: MD, USA | Original Filing Date: April 30, 2025 | Management: CAPREIT OPERATING LIMITED P (MEMBER); 806015816 (Entity Type:) | Filing History: Certificate of Formation on April 30, 2025",
+      "text": "filing_number:_801542892_|_name:_bozzuto_contracting_tx,_llc_|_entity_type:_domestic_limited_liability_company_(llc)_|_status:_in_existence_|_address:_6406_ivy_ln_ste_700_greenbelt,_md_20770_1435_usa_|_tax_id:_32099994678_|_jurisdiction:_md,_usa_|_original_filing_date:_april_30,_2025_|_management:_capreit_operating_limited_p_(member);_806015816_(entity_type:)_|_filing_history:_certificate_of_formation_on_april_30,_2025",
       "embedding": [
         -0.05402999371290207,
         -0.005896420683711767,
@@ -5163,15 +5163,15 @@
       ],
       "metadata": {
         "filing_number": "801542892",
-        "entity_name": "Bozzuto Contracting TX, LLC",
-        "entity_type": "Domestic Limited Liability Company (LLC)",
-        "entity_status": "In existence",
-        "address": "6406 IVY LN STE 700\nGREENBELT, MD 20770-1435 USA"
+        "entity_name": "bozzuto_contracting_tx,_llc",
+        "entity_type": "domestic_limited_liability_company_(llc)",
+        "entity_status": "in_existence",
+        "address": "6406_ivy_ln_ste_700_greenbelt,_md_20770_1435_usa"
       }
     },
     {
       "id": "lariat_tx_129768500",
-      "text": "Filing Number: 129768500 | Name: GABLES RESIDENTIAL SERVICES, INC. | Status: In existence | Address: 3399 PEACHTREE ROAD NE SUITE 600\nATLANTA, GA 30326 USA | Registered Agent: CORPORATION SERVICE COMPANY D/B/A LAWYERS INCORPORATING SERVICE COMPANY - 211 E. 7th Street, Suite 620 | Tax ID: 17525179135 | Original Filing Date: January 11, 1994 | Management: Susan M Ansel (President, CEO); Susan M Ansel (DIRECTOR); Dawn H Severt (EVP, CFO, Secretary, Treasurer); Dawn H Severt (DIRECTOR); Dennis E Rainosek (SVP, Asst Secretary, Asst Treasu); David K Reece (SVP, Asst. Secretary); Philip E Altschuler (SVP); Donna E Summers (DIRECTOR); Charles L Elliott (EVP, Chief Investment Officer); Kenna R Coulter (VP); F Gregory Gasior (SVP); Genevieve Giannoni (SVP); William A Gosnell (VP); Mary O Hollands (SVP); Teresa R Meuter (VP); Robert K Presley (SVP); Melanie M Trapnell (SVP); Michael L Brown (RVP); Jorgen Punda (SVP); Timothy R Hutchinson (VP); Thomas L Bisanz (VP with limited authority); James W Hamrick (SVP); Ryan L Brown (RVP); Lynn Riley-Stokes (RVP); Beau W Terhaar (RVP); Brian D Mosley (SVP); Matthew P Seaman (VP with limited authority); Matthew C Bearden (SVP); Carrie L Billiam (SVP); Shane A Polk (VP); Robert T Rector (VP); Edward L Meder (AVP); Jun H Lee (VP); Kristyn Monticup (VP); Puy Thai (VP)",
+      "text": "filing_number:_129768500_|_name:_gables_residential_services,_inc._|_status:_in_existence_|_address:_3399_peachtree_road_ne_suite_600_atlanta,_ga_30326_usa_|_registered_agent:_corporation_service_company_d/b/a_lawyers_incorporating_service_company_211_e._7th_street,_suite_620_|_tax_id:_17525179135_|_original_filing_date:_january_11,_1994_|_management:_susan_m_ansel_(president,_ceo);_susan_m_ansel_(director);_dawn_h_severt_(evp,_cfo,_secretary,_treasurer);_dawn_h_severt_(director);_dennis_e_rainosek_(svp,_asst_secretary,_asst_treasu);_david_k_reece_(svp,_asst._secretary);_philip_e_altschuler_(svp);_donna_e_summers_(director);_charles_l_elliott_(evp,_chief_investment_officer);_kenna_r_coulter_(vp);_f_gregory_gasior_(svp);_genevieve_giannoni_(svp);_william_a_gosnell_(vp);_mary_o_hollands_(svp);_teresa_r_meuter_(vp);_robert_k_presley_(svp);_melanie_m_trapnell_(svp);_michael_l_brown_(rvp);_jorgen_punda_(svp);_timothy_r_hutchinson_(vp);_thomas_l_bisanz_(vp_with_limited_authority);_james_w_hamrick_(svp);_ryan_l_brown_(rvp);_lynn_riley_stokes_(rvp);_beau_w_terhaar_(rvp);_brian_d_mosley_(svp);_matthew_p_seaman_(vp_with_limited_authority);_matthew_c_bearden_(svp);_carrie_l_billiam_(svp);_shane_a_polk_(vp);_robert_t_rector_(vp);_edward_l_meder_(avp);_jun_h_lee_(vp);_kristyn_monticup_(vp);_puy_thai_(vp)",
       "embedding": [
         -0.10350953787565231,
         -0.002108984161168337,
@@ -5560,10 +5560,10 @@
       ],
       "metadata": {
         "filing_number": "129768500",
-        "entity_name": "GABLES RESIDENTIAL SERVICES, INC.",
+        "entity_name": "gables_residential_services,_inc.",
         "entity_type": null,
-        "entity_status": "In existence",
-        "address": "3399 PEACHTREE ROAD NE SUITE 600\nATLANTA, GA 30326 USA"
+        "entity_status": "in_existence",
+        "address": "3399_peachtree_road_ne_suite_600_atlanta,_ga_30326_usa"
       }
     }
   ]

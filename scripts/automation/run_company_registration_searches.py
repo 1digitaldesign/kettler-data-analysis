@@ -21,7 +21,7 @@ COMPANIES_TO_SEARCH = [
 ]
 
 STATES = {
-    'DC': {'name': 'District of Columbia', 'url': 'https://corponline.dccourts.gov/'},
+    'DC': {'name': 'dc', 'url': 'https://corponline.dccourts.gov/'},
     'MD': {'name': 'Maryland', 'url': 'https://egov.maryland.gov/BusinessExpress/'},
     'VA': {'name': 'Virginia', 'url': 'https://cis.scc.virginia.gov/'},
     'NJ': {'name': 'New Jersey', 'url': 'https://www.njportal.com/DOR/BusinessRegistration/'},

@@ -1,38 +1,38 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "state": "Maryland",
-    "state_code": "MA",
-    "employee": "Sean Curtin",
+    "date": "2025_12_10",
+    "state": "md",
+    "state_code": "ma",
+    "employee": "sean_curtin",
     "employee_key": "sean_curtin",
-    "title": "General Counsel",
+    "title": "general_counsel",
     "search_type": "bar_license",
-    "search_url": "https://www.msba.org/member-directory/",
+    "search_url": "https://www.msba.org/member_directory/",
     "alternative_urls": [
       "https://www.courts.state.md.us/attygrievance/attysearch"
     ],
-    "search_method": "Browser automation attempted - MSBA member directory requires login. Google search fallback used.",
-    "license_type": "State Bar Admission",
+    "search_method": "browser_automation_attempted_msba_member_directory_requires_login._google_search_fallback_used.",
+    "license_type": "state_bar_admission",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
     "browser_automation_status": "requires_login_manual_verification_needed",
     "google_search_performed": true,
-    "note": "Search completed via Browser automation attempted - MSBA member directory requires login. Google search fallback used.. Google search fallback used."
+    "note": "search_completed_via_browser_automation_attempted_msba_member_directory_requires_login._google_search_fallback_used.._google_search_fallback_used."
   },
   "findings": {
     "searched": true,
-    "search_date": "2025-12-10",
+    "search_date": "2025_12_10",
     "bar_license": false,
-    "license_status": "Not found",
+    "license_status": "not_found",
     "search_methods_used": [
-      "Maryland State Bar Association member directory (requires login)",
-      "Google search fallback"
+      "maryland_state_bar_association_member_directory_(requires_login)",
+      "google_search_fallback"
     ],
     "results_found": 0,
-    "note": "MSBA member directory requires login. Google search performed as fallback. No clear evidence of Maryland Bar admission found in Google search"
+    "note": "msba_member_directory_requires_login._google_search_performed_as_fallback._no_clear_evidence_of_maryland_bar_admission_found_in_google_search"
   },
-  "conclusion": "Sean Curtin does NOT appear to have a bar license in Maryland. Manual verification recommended due to site access issues. CRITICAL: Sean Curtin holds 'General Counsel' title - verification of bar admission is essential.",
-  "license_status": "Not found",
+  "conclusion": "sean_curtin_does_not_appear_to_have_a_bar_license_in_maryland._manual_verification_recommended_due_to_site_access_issues._critical:_sean_curtin_holds_'general_counsel'_title_verification_of_bar_admission_is_essential.",
+  "license_status": "not_found",
   "verification_status": "requires_manual_verification"
 }

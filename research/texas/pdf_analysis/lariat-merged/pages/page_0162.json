@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:01.717525",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0162.json",
+    "created": "2025_12_11t00:52:01.717525",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0162.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 162,
-    "text": "VERPERNONN SOGIG ALINTII\nh(EnetenJAME tr aemeo ih ftear ni ndividualoa r no rganizaitobnbn u o oh,ttt\nIF INDIVIDUAI\nM.I. Last Name Sxufi\nFirst Name\nOR\nIF ORGANIZATION\nOrganization Name\nADDSRES\nStale p Codeiry ZCount\nAsddresng il or MitaeSret ytCi\nGOVRNEING PRSEON 3.INIAITL\nh. bot noton, butitaznigan or or alduavindin ir aheti of eem naher tNeAntM (EE\nIF INDIVIDUAL\nM.I. es NmataL xfiSuf\nFirst Name OR\nIOTNIF ORGANAIZ\nrgOanizaitonN ame\nADDSRES\np Codeiry Z CountetSat\nAsddresng il or MitaeSret ytCi\n4 - PeurposlecAirt\nw purpossafule for lllnd any aon of aitnscraa tshed i for tseny i formpaom cheh t purpos for wcheehiT\nons.i Codetaznigassxa Busnesei OrT her td undeezniga ory beany mpaomy ctilbiaid letimi lh awchi\nAsddresng il MilaaitIni\n(Providhetema ilinga ddowret hrass iaefnchstt ch iacosetx rre spondencesh ouldb ese) n.t\nMD\n64L0vy a6InSu e ie7,t 00 reGenbelt 20770 USA\nAddressMailing City Zip Code ryCount\nState\nonita PsonsInformlrovii/antemSeuppl\n.]encrefen by reired heetorporasnc, i inyf a, indumdded ahecatt aheT :Aare xteT\nz\nF 205orm\nrse Kuwr OnellerdiolWX2821 T060BO17/C -12/",
+    "text": "verpernonn_sogig_alintii_h(enetenjame_tr_aemeo_ih_ftear_ni_ndividualoa_r_no_rganizaitobnbn_u_o_oh,ttt_if_individuai_m.i._last_name_sxufi_first_name_or_if_organization_organization_name_addsres_stale_p_codeiry_zcount_asddresng_il_or_mitaesret_ytci_govrneing_prseon_3.iniaitl_h._bot_noton,_butitaznigan_or_or_alduavindin_ir_aheti_of_eem_naher_tneantm_(ee_if_individual_m.i._es_nmatal_xfisuf_first_name_or_iotnif_organaiz_rgoanizaitonn_ame_addsres_p_codeiry_z_countetsat_asddresng_il_or_mitaesret_ytci_4_peurposlecairt_w_purpossafule_for_lllnd_any_aon_of_aitnscraa_tshed_i_for_tseny_i_formpaom_cheh_t_purpos_for_wcheehit_ons.i_codetaznigassxa_busnesei_ort_her_td_undeezniga_ory_beany_mpaomy_ctilbiaid_letimi_lh_awchi_asddresng_il_milaaitini_(providhetema_ilinga_ddowret_hrass_iaefnchstt_ch_iacosetx_rre_spondencesh_ouldb_ese)_n.t_md_64l0vy_a6insu_e_ie7,t_00_regenbelt_20770_usa_addressmailing_city_zip_code_rycount_state_onita_psonsinformlrovii/antemseuppl_.]encrefen_by_reired_heetorporasnc,_i_inyf_a,_indumdded_ahecatt_ahet_:aare_xtet_z_f_205orm_rse_kuwr_onellerdiolwx2821_t060bo17/c_12/",
     "char_count": 1089,
     "word_count": 167,
     "anomalies": {
       "page_number": 162,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 162 | text: VERPERNONN SOGIG ALINTII\nh(EnetenJAME tr aemeo ih ftear ni ndividualoa r no rganizaitobnbn u o oh,ttt\nIF INDIVIDUAI\nM.I. Last Name Sxufi\nFirst Name\nOR\nIF ORGANIZATION\nOrganization Name\nADDSRES\nStale p Codeiry ZCount\nAsddresng il or MitaeSret ytCi\nGOVRNEING PRSEON 3.INIAITL\nh. bot noton, butitaznigan or or alduavindin ir aheti of eem naher tNeAntM (EE\nIF INDIVIDUAL\nM.I. es NmataL xfiSuf\nFirst Name OR\nIOTNIF ORGANAIZ\nrgOanizaitonN ame\nADDSRES\np Codeiry Z CountetSat\nAsddresng il or MitaeSret ytCi\n4 - PeurposlecAirt\nw purpossafule for lllnd any aon of aitnscraa tshed i for tseny i formpaom cheh t purpos for wcheehiT\nons.i Codetaznigassxa Busnesei OrT her td undeezniga ory beany mpaomy ctilbiaid letimi lh awchi\nAsddresng il MilaaitIni\n(Providhetema ilinga ddowret hrass iaefnchstt ch iacosetx rre spondencesh ouldb ese) n.t\nMD\n64L0vy a6InSu e ie7,t 00 reGenbelt 20770 USA\nAddressMailing City Zip Code ryCount\nState\nonita PsonsInformlrovii/antemSeuppl\n.]encrefen by reired heetorporasnc, i inyf a, indumdded ahecatt aheT :Aare xteT\nz\nF 205orm\nrse Kuwr OnellerdiolWX2821 T060BO17/C -12/ | char_count: 1089 | word_count: 167 | anomalies: {\"page_number\":162,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_162_|_text:_verpernonn_sogig_alintii_h(enetenjame_tr_aemeo_ih_ftear_ni_ndividualoa_r_no_rganizaitobnbn_u_o_oh,ttt_if_individuai_m.i._last_name_sxufi_first_name_or_if_organization_organization_name_addsres_stale_p_codeiry_zcount_asddresng_il_or_mitaesret_ytci_govrneing_prseon_3.iniaitl_h._bot_noton,_butitaznigan_or_or_alduavindin_ir_aheti_of_eem_naher_tneantm_(ee_if_individual_m.i._es_nmatal_xfisuf_first_name_or_iotnif_organaiz_rgoanizaitonn_ame_addsres_p_codeiry_z_countetsat_asddresng_il_or_mitaesret_ytci_4_peurposlecairt_w_purpossafule_for_lllnd_any_aon_of_aitnscraa_tshed_i_for_tseny_i_formpaom_cheh_t_purpos_for_wcheehit_ons.i_codetaznigassxa_busnesei_ort_her_td_undeezniga_ory_beany_mpaomy_ctilbiaid_letimi_lh_awchi_asddresng_il_milaaitini_(providhetema_ilinga_ddowret_hrass_iaefnchstt_ch_iacosetx_rre_spondencesh_ouldb_ese)_n.t_md_64l0vy_a6insu_e_ie7,t_00_regenbelt_20770_usa_addressmailing_city_zip_code_rycount_state_onita_psonsinformlrovii/antemseuppl_.]encrefen_by_reired_heetorporasnc,_i_inyf_a,_indumdded_ahecatt_ahet_:aare_xtet_z_f_205orm_rse_kuwr_onellerdiolwx2821_t060bo17/c_12/_|_char_count:_1089_|_word_count:_167_|_anomalies:_{\"page_number\":162,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.12639406323432922,
     -0.039788421243429184,

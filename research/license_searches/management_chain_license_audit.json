@@ -1,137 +1,167 @@
 {
-  "audit_date": "2025-12-07",
+  "audit_date": "2025_12_07",
   "total_individuals_audited": 11,
   "violations_found": 1,
   "needs_verification": 3,
   "audits": [
     {
-      "name": "Edward Hyland",
-      "role": "Senior Regional Manager",
-      "employer": "Kettler Management Inc.",
+      "name": "edward_hyland",
+      "role": "senior_regional_manager",
+      "employer": "kettler_management_inc.",
       "license_requirements": {
-        "required_licenses": ["Real Estate Broker", "Property Management License"],
-        "activities": ["Property management", "Lease decisions", "Tenant relations", "Property operations"],
-        "jurisdiction": "State where properties are located",
-        "violation_type": "Unlicensed practice of real estate"
+        "required_licenses": [
+          "real_estate_broker",
+          "property_management_license"
+        ],
+        "activities": [
+          "property_management",
+          "lease_decisions",
+          "tenant_relations",
+          "property_operations"
+        ],
+        "jurisdiction": "state_where_properties_are_located",
+        "violation_type": "unlicensed_practice_of_real_estate"
       },
       "licenses_found": {
-        "virginia_real_estate": "NOT FOUND"
+        "virginia_real_estate": "not_found"
       },
       "violations": [
         {
-          "violation_type": "Unlicensed practice of real estate",
-          "jurisdiction": "Virginia",
-          "evidence": "DPOR search confirmed no license",
-          "severity": "HIGH",
-          "activities_performed": ["Property management", "Lease decisions", "Tenant relations"]
+          "violation_type": "unlicensed_practice_of_real_estate",
+          "jurisdiction": "va",
+          "evidence": "dpor_search_confirmed_no_license",
+          "severity": "high",
+          "activities_performed": [
+            "property_management",
+            "lease_decisions",
+            "tenant_relations"
+          ]
         }
       ],
-      "status": "VIOLATION_FOUND"
+      "status": "violation_found"
     },
     {
-      "name": "Caitlin Skidmore",
-      "role": "Principal Broker (Front Person)",
-      "employer": "Unknown",
+      "name": "caitlin_skidmore",
+      "role": "principal_broker_(front_person)",
+      "employer": "unknown",
       "license_requirements": {},
       "licenses_found": [],
       "violations": [],
-      "status": "NO_REQUIREMENTS_DEFINED"
+      "status": "no_requirements_defined"
     },
     {
-      "name": "Djene Moyer",
-      "role": "Community Manager",
-      "employer": "Kettler Management",
+      "name": "djene_moyer",
+      "role": "community_manager",
+      "employer": "kettler_management",
       "license_requirements": {
-        "required_licenses": ["Property Management License", "Real Estate License"],
-        "activities": ["Property operations", "Tenant relations", "Lease administration"],
-        "jurisdiction": "State where property is located",
-        "violation_type": "Unlicensed property management"
+        "required_licenses": [
+          "property_management_license",
+          "real_estate_license"
+        ],
+        "activities": [
+          "property_operations",
+          "tenant_relations",
+          "lease_administration"
+        ],
+        "jurisdiction": "state_where_property_is_located",
+        "violation_type": "unlicensed_property_management"
       },
       "licenses_found": [],
       "violations": [],
-      "status": "NEEDS_VERIFICATION"
+      "status": "needs_verification"
     },
     {
-      "name": "Henry Ramos",
-      "role": "Property Manager",
-      "employer": "Kettler Management",
+      "name": "henry_ramos",
+      "role": "property_manager",
+      "employer": "kettler_management",
       "license_requirements": {
-        "required_licenses": ["Property Management License", "Real Estate License"],
-        "activities": ["Property operations", "Tenant relations", "Lease administration"],
-        "jurisdiction": "State where property is located",
-        "violation_type": "Unlicensed property management"
+        "required_licenses": [
+          "property_management_license",
+          "real_estate_license"
+        ],
+        "activities": [
+          "property_operations",
+          "tenant_relations",
+          "lease_administration"
+        ],
+        "jurisdiction": "state_where_property_is_located",
+        "violation_type": "unlicensed_property_management"
       },
       "licenses_found": [],
       "violations": [],
-      "status": "NEEDS_VERIFICATION"
+      "status": "needs_verification"
     },
     {
-      "name": "Robert C. Kettler",
-      "role": "Chairman, Founder & CEO",
-      "employer": "Kettler",
+      "name": "robert_c._kettler",
+      "role": "chairman,_founder_&_ceo",
+      "employer": "kettler",
       "license_requirements": {},
       "licenses_found": [],
       "violations": [],
-      "status": "NO_REQUIREMENTS_DEFINED"
+      "status": "no_requirements_defined"
     },
     {
-      "name": "Cindy Fisher",
-      "role": "President",
-      "employer": "Kettler",
+      "name": "cindy_fisher",
+      "role": "president",
+      "employer": "kettler",
       "license_requirements": {},
       "licenses_found": [],
       "violations": [],
-      "status": "NO_REQUIREMENTS_DEFINED"
+      "status": "no_requirements_defined"
     },
     {
-      "name": "Luke Davis",
-      "role": "Chief Investment Officer",
-      "employer": "Kettler",
+      "name": "luke_davis",
+      "role": "chief_investment_officer",
+      "employer": "kettler",
       "license_requirements": {},
       "licenses_found": [],
       "violations": [],
-      "status": "NO_REQUIREMENTS_DEFINED"
+      "status": "no_requirements_defined"
     },
     {
-      "name": "Pat Cassada",
-      "role": "CFO",
-      "employer": "Kettler",
+      "name": "pat_cassada",
+      "role": "cfo",
+      "employer": "kettler",
       "license_requirements": {},
       "licenses_found": [],
       "violations": [],
-      "status": "NO_REQUIREMENTS_DEFINED"
+      "status": "no_requirements_defined"
     },
     {
-      "name": "Sean Curtin",
-      "role": "General Counsel",
-      "employer": "Kettler",
+      "name": "sean_curtin",
+      "role": "general_counsel",
+      "employer": "kettler",
       "license_requirements": {
-        "required_licenses": "State Bar Admission",
-        "activities": ["Legal advice", "Legal representation", "Contract review"],
-        "jurisdiction": "State where legal services provided",
-        "violation_type": "Unauthorized practice of law"
+        "required_licenses": "state_bar_admission",
+        "activities": [
+          "legal_advice",
+          "legal_representation",
+          "contract_review"
+        ],
+        "jurisdiction": "state_where_legal_services_provided",
+        "violation_type": "unauthorized_practice_of_law"
       },
       "licenses_found": [],
       "violations": [],
-      "status": "NEEDS_VERIFICATION"
+      "status": "needs_verification"
     },
     {
-      "name": "Amy Groff",
-      "role": "VP of Operations",
-      "employer": "Kettler",
+      "name": "amy_groff",
+      "role": "vp_of_operations",
+      "employer": "kettler",
       "license_requirements": {},
       "licenses_found": [],
       "violations": [],
-      "status": "NO_REQUIREMENTS_DEFINED"
+      "status": "no_requirements_defined"
     },
     {
-      "name": "Robert Grealy",
-      "role": "SVP of Operations",
-      "employer": "Kettler",
+      "name": "robert_grealy",
+      "role": "svp_of_operations",
+      "employer": "kettler",
       "license_requirements": {},
       "licenses_found": [],
       "violations": [],
-      "status": "NO_REQUIREMENTS_DEFINED"
+      "status": "no_requirements_defined"
     }
   ],
   "summary": {

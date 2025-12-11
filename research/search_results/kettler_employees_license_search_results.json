@@ -1,51 +1,58 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "search_type": "Kettler Employees License Verification",
-    "states": ["DC", "MD", "VA", "NY", "NJ", "CT"],
+    "date": "2025_12_07",
+    "search_type": "kettler_employees_license_verification",
+    "states": [
+      "dc",
+      "md",
+      "va",
+      "ny",
+      "nj",
+      "ct"
+    ],
     "status": "partial_complete",
-    "completion_note": "VA searches executed. Comprehensive verification completed in va_dpor_complaint/personnel_license_verification.json showing all 5 key personnel unlicensed in VA, TX, MD, DC, NC"
+    "completion_note": "va_searches_executed._comprehensive_verification_completed_in_va_dpor_complaint/personnel_license_verification.json_showing_all_5_key_personnel_unlicensed_in_va,_tx,_md,_dc,_nc"
   },
   "employees_searched": [
-    "Robert C. Kettler",
-    "Cindy Fisher",
-    "Luke Davis",
-    "Pat Cassada",
-    "Sean Curtin",
-    "Amy Groff",
-    "Robert Grealy",
-    "Edward Hyland",
-    "Djene Moyer",
-    "Henry Ramos",
-    "Caitlin Skidmore",
-    "Kristina Thoummarath",
-    "Christina Chang",
-    "Todd Bowen",
-    "Jeffrey Williams"
+    "robert_c._kettler",
+    "cindy_fisher",
+    "luke_davis",
+    "pat_cassada",
+    "sean_curtin",
+    "amy_groff",
+    "robert_grealy",
+    "edward_hyland",
+    "djene_moyer",
+    "henry_ramos",
+    "caitlin_skidmore",
+    "kristina_thoummarath",
+    "christina_chang",
+    "todd_bowen",
+    "jeffrey_williams"
   ],
   "virginia_dpor_searches": {
     "status": "searches_executed",
-    "note": "Searches executed via browser automation",
-    "results_pending": "Extraction from results pages"
+    "note": "searches_executed_via_browser_automation",
+    "results_pending": "extraction_from_results_pages"
   },
   "maryland_dllr": {
     "url": "https://www.dllr.state.md.us/license/",
     "status": "page_loaded",
-    "note": "Ready for searches"
+    "note": "ready_for_searches"
   },
   "dc_ocpla": {
     "url": "https://www.dcopla.com/",
     "status": "page_loaded",
-    "note": "Ready for searches"
+    "note": "ready_for_searches"
   },
   "next_steps": [
-    "Complete Virginia DPOR searches for all employees",
-    "Search Maryland DLLR for all employees",
-    "Search DC OCPLA for all employees",
-    "Search New York DOS for all employees",
-    "Search New Jersey Consumer Affairs for all employees",
-    "Search Connecticut DCP for all employees",
-    "Search state bar associations for Sean Curtin (General Counsel)",
-    "Search for Caitlin Skidmore connections in all states"
+    "complete_virginia_dpor_searches_for_all_employees",
+    "search_maryland_dllr_for_all_employees",
+    "search_dc_ocpla_for_all_employees",
+    "search_new_york_dos_for_all_employees",
+    "search_new_jersey_consumer_affairs_for_all_employees",
+    "search_connecticut_dcp_for_all_employees",
+    "search_state_bar_associations_for_sean_curtin_(general_counsel)",
+    "search_for_caitlin_skidmore_connections_in_all_states"
   ]
 }

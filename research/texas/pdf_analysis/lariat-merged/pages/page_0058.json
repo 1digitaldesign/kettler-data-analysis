@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.289434",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0058.json",
+    "created": "2025_12_11t00:51:59.289434",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0058.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 58,
-    "text": "adi Barkers\n1961, personally appeared before me\nBrews tockure and Satto.\nwho each being by me firot auly sworn, severally declared that they\nare the persons who signed the foregoing document as incorporators,\nand that the statements therein contained are true.\nNotary Public In\nHarris County, Texa:\n. r\nSewall Myer\n;..",
+    "text": "adi_barkers_1961,_personally_appeared_before_me_brews_tockure_and_satto._who_each_being_by_me_firot_auly_sworn,_severally_declared_that_they_are_the_persons_who_signed_the_foregoing_document_as_incorporators,_and_that_the_statements_therein_contained_are_true._notary_public_in_harris_county,_texa:_._r_sewall_myer_;..",
     "char_count": 318,
     "word_count": 52,
     "anomalies": {
       "page_number": 58,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 58 | text: adi Barkers\n1961, personally appeared before me\nBrews tockure and Satto.\nwho each being by me firot auly sworn, severally declared that they\nare the persons who signed the foregoing document as incorporators,\nand that the statements therein contained are true.\nNotary Public In\nHarris County, Texa:\n. r\nSewall Myer\n;.. | char_count: 318 | word_count: 52 | anomalies: {\"page_number\":58,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_58_|_text:_adi_barkers_1961,_personally_appeared_before_me_brews_tockure_and_satto._who_each_being_by_me_firot_auly_sworn,_severally_declared_that_they_are_the_persons_who_signed_the_foregoing_document_as_incorporators,_and_that_the_statements_therein_contained_are_true._notary_public_in_harris_county,_texa:_._r_sewall_myer_;.._|_char_count:_318_|_word_count:_52_|_anomalies:_{\"page_number\":58,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.0672692209482193,
     0.062212396413087845,

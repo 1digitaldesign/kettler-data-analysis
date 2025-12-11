@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "source_file": "/Users/machine/Documents/kettler-data-analysis/data/raw/lariat.txt",
-    "processing_date": "2025-12-11T00:17:55.181639",
-    "state": "Texas",
+    "source_file": "/users/machine/documents/kettler_data_analysis/data/raw/lariat.txt",
+    "processing_date": "2025_12_11t00:17:55.181639",
+    "state": "tx",
     "total_entities": 14,
-    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_model": "all_minilm_l6_v2",
     "embedding_dimension": 384,
     "total_embeddings": 14
   },
@@ -12,134 +12,134 @@
     {
       "filing_number": "801459833",
       "entity_type": null,
-      "original_date_of_filing": "July 28, 2011",
-      "entity_status": "In existence",
+      "original_date_of_filing": "july_28,_2011",
+      "entity_status": "in_existence",
       "formation_date": null,
       "tax_id": "32044752940",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "Lariat Realty Advisors, Inc.",
-      "address": "4600 FIRESTONE DR\nFRISCO, TX 75034 USA",
+      "duration": "perpetual",
+      "name": "lariat_realty_advisors,_inc.",
+      "address": "4600_firestone_dr_frisco,_tx_75034_usa",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "Thoms L Bisanz",
-        "address": "4600 Firestone Drive",
+        "name": "thoms_l_bisanz",
+        "address": "4600_firestone_drive",
         "inactive_date": null
       },
       "filing_history": [
         {
           "document_number": "379692090002",
-          "filing_type": "Certificate of Formation",
-          "filing_date": "July 28, 2011",
-          "effective_date": "July 28, 2011",
-          "eff_cond": "No",
+          "filing_type": "certificate_of_formation",
+          "filing_date": "july_28,_2011",
+          "effective_date": "july_28,_2011",
+          "eff_cond": "no",
           "page_count": "3"
         },
         {
           "document_number": "465240542917",
-          "filing_type": "Tax Forfeiture",
-          "filing_date": "February 8, 2013",
-          "effective_date": "February 8, 2013",
-          "eff_cond": "No",
+          "filing_type": "tax_forfeiture",
+          "filing_date": "february_8,_2013",
+          "effective_date": "february_8,_2013",
+          "eff_cond": "no",
           "page_count": "1"
         },
         {
           "document_number": "782373270002",
-          "filing_type": "Reinstatement",
-          "filing_date": "December 18, 2017",
-          "effective_date": "December 18, 2017",
-          "eff_cond": "No",
+          "filing_type": "reinstatement",
+          "filing_date": "december_18,_2017",
+          "effective_date": "december_18,_2017",
+          "eff_cond": "no",
           "page_count": "2"
         },
         {
           "document_number": "802503300001",
-          "filing_type": "Public Information Report (PIR)",
-          "filing_date": "December 31, 2017",
-          "effective_date": "March 23, 2018",
-          "eff_cond": "No",
+          "filing_type": "public_information_report_(pir)",
+          "filing_date": "december_31,_2017",
+          "effective_date": "march_23,_2018",
+          "eff_cond": "no",
           "page_count": "1"
         },
         {
           "document_number": "844532980001",
-          "filing_type": "Public Information Report (PIR)",
-          "filing_date": "December 31, 2018",
-          "effective_date": "October 21, 2018",
-          "eff_cond": "No",
+          "filing_type": "public_information_report_(pir)",
+          "filing_date": "december_31,_2018",
+          "effective_date": "october_21,_2018",
+          "eff_cond": "no",
           "page_count": "1"
         },
         {
           "document_number": "908215490001",
-          "filing_type": "Public Information Report (PIR)",
-          "filing_date": "December 31, 2019",
-          "effective_date": "August 20, 2019",
-          "eff_cond": "No",
+          "filing_type": "public_information_report_(pir)",
+          "filing_date": "december_31,_2019",
+          "effective_date": "august_20,_2019",
+          "eff_cond": "no",
           "page_count": "1"
         },
         {
           "document_number": "1055238540001",
-          "filing_type": "Public Information Report (PIR)",
-          "filing_date": "December 31, 2020",
-          "effective_date": "June 1, 2021",
-          "eff_cond": "No",
+          "filing_type": "public_information_report_(pir)",
+          "filing_date": "december_31,_2020",
+          "effective_date": "june_1,_2021",
+          "eff_cond": "no",
           "page_count": "1"
         },
         {
           "document_number": "1086160220001",
-          "filing_type": "Public Information Report (PIR)",
-          "filing_date": "December 31, 2021",
-          "effective_date": "October 13, 2021",
-          "eff_cond": "No",
+          "filing_type": "public_information_report_(pir)",
+          "filing_date": "december_31,_2021",
+          "effective_date": "october_13,_2021",
+          "eff_cond": "no",
           "page_count": "1"
         },
         {
           "document_number": "1212752790001",
-          "filing_type": "Public Information Report (PIR)",
-          "filing_date": "December 31, 2022",
-          "effective_date": "January 12, 2023",
-          "eff_cond": "No",
+          "filing_type": "public_information_report_(pir)",
+          "filing_date": "december_31,_2022",
+          "effective_date": "january_12,_2023",
+          "eff_cond": "no",
           "page_count": "1"
         },
         {
           "document_number": "1314642380001",
-          "filing_type": "Public Information Report (PIR)",
-          "filing_date": "December 31, 2023",
-          "effective_date": "December 15, 2023",
-          "eff_cond": "No",
+          "filing_type": "public_information_report_(pir)",
+          "filing_date": "december_31,_2023",
+          "effective_date": "december_15,_2023",
+          "eff_cond": "no",
           "page_count": "1"
         },
         {
           "document_number": "1406952510001",
-          "filing_type": "Public Information Report (PIR)",
-          "filing_date": "December 31, 2024",
-          "effective_date": "September 25, 2024",
-          "eff_cond": "No",
+          "filing_type": "public_information_report_(pir)",
+          "filing_date": "december_31,_2024",
+          "effective_date": "september_25,_2024",
+          "eff_cond": "no",
           "page_count": "1"
         }
       ],
       "names": [
         {
-          "name": "Lariat Realty Advisors, Inc.",
-          "name_status": "Inactive",
-          "name_type": "Legal",
-          "name_inactive_date": "December 19, 2017",
+          "name": "lariat_realty_advisors,_inc.",
+          "name_status": "inactive",
+          "name_type": "legal",
+          "name_inactive_date": "december_19,_2017",
           "consent_filing_number": "0"
         },
         {
-          "name": "Lariat Realty Advisors, Inc.",
-          "name_status": "In use",
-          "name_type": "Legal",
+          "name": "lariat_realty_advisors,_inc.",
+          "name_status": "in_use",
+          "name_type": "legal",
           "name_inactive_date": "0",
           "consent_filing_number": null
         }
       ],
       "management": [
         {
-          "last_update": "September 25, 2024",
-          "name": "Thomas Bisanz",
-          "title": "Manager",
-          "address": "4600 Firestone Drive"
+          "last_update": "september_25,_2024",
+          "name": "thomas_bisanz",
+          "title": "manager",
+          "address": "4600_firestone_drive"
         }
       ],
       "assumed_names": [],
@@ -148,39 +148,39 @@
     },
     {
       "filing_number": "805759678",
-      "entity_type": "Domestic Limited Liability Company (LLC)",
-      "original_date_of_filing": "October 24, 2024",
-      "entity_status": "In existence",
+      "entity_type": "domestic_limited_liability_company_(llc)",
+      "original_date_of_filing": "october_24,_2024",
+      "entity_status": "in_existence",
       "formation_date": null,
       "tax_id": "32097336583",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "Lariat Realty Advisors, LLC",
-      "address": "4600 FIRESTONE DR\nFRISCO, TX 75034-6847 USA",
+      "duration": "perpetual",
+      "name": "lariat_realty_advisors,_llc",
+      "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "Thomas Bisanz",
-        "address": "4600 Firestone Drive",
+        "name": "thomas_bisanz",
+        "address": "4600_firestone_drive",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "Lariat Realty Advisors, LLC",
-          "name_status": "In use",
-          "name_type": "Legal",
+          "name": "lariat_realty_advisors,_llc",
+          "name_status": "in_use",
+          "name_type": "legal",
           "name_inactive_date": null,
           "consent_filing_number": null
         }
       ],
       "management": [
         {
-          "last_update": "October 24, 2024",
-          "name": "Thomas Bisanz",
-          "title": "Manager",
-          "address": "4600 Firestone Drive"
+          "last_update": "october_24,_2024",
+          "name": "thomas_bisanz",
+          "title": "manager",
+          "address": "4600_firestone_drive"
         }
       ],
       "assumed_names": [],
@@ -190,38 +190,38 @@
     {
       "filing_number": "46955400",
       "entity_type": null,
-      "original_date_of_filing": "March 30, 1979",
-      "entity_status": "Voluntarily terminated",
+      "original_date_of_filing": "march_30,_1979",
+      "entity_status": "voluntarily_terminated",
       "formation_date": null,
       "tax_id": "17420431391",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "LARIAT INC. REALTORS",
-      "address": "[ADDRESS NOT PROVIDED]",
+      "duration": "perpetual",
+      "name": "lariat_inc._realtors",
+      "address": "[address_not_provided]",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "Monte B Hartig",
-        "address": "4139 GARDENDALE",
+        "name": "monte_b_hartig",
+        "address": "4139_gardendale",
         "inactive_date": null
       },
       "filing_history": [
         {
-          "document_number": "N/A",
+          "document_number": "n/a",
           "filing_type": "4390503",
-          "filing_date": "Legacy Filing",
-          "effective_date": "March 30, 1979",
-          "eff_cond": "March 30, 1979",
-          "page_count": "No"
+          "filing_date": "legacy_filing",
+          "effective_date": "march_30,_1979",
+          "eff_cond": "march_30,_1979",
+          "page_count": "no"
         }
       ],
       "names": [
         {
-          "name": "LARIAT INC. REALTORS",
-          "name_status": "Inactive",
-          "name_type": "Legal",
-          "name_inactive_date": "August 16, 1993",
+          "name": "lariat_inc._realtors",
+          "name_status": "inactive",
+          "name_type": "legal",
+          "name_inactive_date": "august_16,_1993",
           "consent_filing_number": null
         }
       ],
@@ -233,38 +233,38 @@
     {
       "filing_number": "802331657",
       "entity_type": null,
-      "original_date_of_filing": "November 13, 2015",
-      "entity_status": "In existence",
-      "formation_date": "May 20, 1988",
+      "original_date_of_filing": "november_13,_2015",
+      "entity_status": "in_existence",
+      "formation_date": "may_20,_1988",
       "tax_id": "32058814248",
       "fein": null,
       "duration": null,
-      "name": "Kettler Management Inc.",
-      "address": "1751 Pinnacle Dr, Ste 700\nMclean, VA 22102 USA\nFictitious Name: \tN/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988",
-      "jurisdiction": "VA, USA",
+      "name": "kettler_management_inc.",
+      "address": "1751_pinnacle_dr,_ste_700_mclean,_va_22102_usa_fictitious_name:_n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
+      "jurisdiction": "va,_usa",
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "National Registered Agents, Inc.",
-        "address": "1999 Bryan St., Ste. 900",
+        "name": "national_registered_agents,_inc.",
+        "address": "1999_bryan_st.,_ste._900",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "Kettler Management Inc.",
-          "name_status": "In use",
-          "name_type": "Legal",
+          "name": "kettler_management_inc.",
+          "name_status": "in_use",
+          "name_type": "legal",
           "name_inactive_date": "0",
           "consent_filing_number": null
         }
       ],
       "management": [
         {
-          "last_update": "May 15, 2019",
-          "name": "ROBERT KETTLER",
-          "title": "OFFICER",
-          "address": "8255 GREENSBORO DRIVE"
+          "last_update": "may_15,_2019",
+          "name": "robert_kettler",
+          "title": "officer",
+          "address": "8255_greensboro_drive"
         }
       ],
       "assumed_names": [],
@@ -274,38 +274,38 @@
     {
       "filing_number": "804700244",
       "entity_type": null,
-      "original_date_of_filing": "August 24, 2022",
-      "entity_status": "Forfeited existence",
+      "original_date_of_filing": "august_24,_2022",
+      "entity_status": "forfeited_existence",
       "formation_date": null,
       "tax_id": "32086023994",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "Kettler Land Management LLC",
-      "address": "2812 SAN PEDRO ST\nAUSTIN, TX 78705-3602 USA",
+      "duration": "perpetual",
+      "name": "kettler_land_management_llc",
+      "address": "2812_san_pedro_st_austin,_tx_78705_3602_usa",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "United States Corporation Agents, Inc.",
-        "address": "10601 Clarence Dr. Suite 250",
+        "name": "united_states_corporation_agents,_inc.",
+        "address": "10601_clarence_dr._suite_250",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "Kettler Land Management LLC",
-          "name_status": "Inactive",
-          "name_type": "Legal",
-          "name_inactive_date": "February 23, 2024",
+          "name": "kettler_land_management_llc",
+          "name_status": "inactive",
+          "name_type": "legal",
+          "name_inactive_date": "february_23,_2024",
           "consent_filing_number": null
         }
       ],
       "management": [
         {
-          "last_update": "August 24, 2022",
-          "name": "William Kyle Kettler",
-          "title": "Managing Member",
-          "address": "2812 San Pedro St"
+          "last_update": "august_24,_2022",
+          "name": "william_kyle_kettler",
+          "title": "managing_member",
+          "address": "2812_san_pedro_st"
         }
       ],
       "assumed_names": [],
@@ -315,44 +315,44 @@
     {
       "filing_number": "805818075",
       "entity_type": null,
-      "original_date_of_filing": "December 12, 2024",
-      "entity_status": "In existence",
+      "original_date_of_filing": "december_12,_2024",
+      "entity_status": "in_existence",
       "formation_date": null,
       "tax_id": "32097939857",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "Frippmore, LLC",
-      "address": "13902 NICOLLET DR\nFRISCO, TX 75033-1717 USA",
+      "duration": "perpetual",
+      "name": "frippmore,_llc",
+      "address": "13902_nicollet_dr_frisco,_tx_75033_1717_usa",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "Carlisle Braun",
-        "address": "7300 State Highway 121, Suite 300",
+        "name": "carlisle_braun",
+        "address": "7300_state_highway_121,_suite_300",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "Frippmore, LLC",
-          "name_status": "In use",
-          "name_type": "Legal",
+          "name": "frippmore,_llc",
+          "name_status": "in_use",
+          "name_type": "legal",
           "name_inactive_date": null,
           "consent_filing_number": null
         }
       ],
       "management": [
         {
-          "last_update": "December 12, 2024",
-          "name": "Caitlin Skidmore",
-          "title": "Manager",
-          "address": "13902 Nicollet Drive"
+          "last_update": "december_12,_2024",
+          "name": "caitlin_skidmore",
+          "title": "manager",
+          "address": "13902_nicollet_drive"
         },
         {
-          "last_update": "December 12, 2024",
-          "name": "Troy Skidmore",
-          "title": "Manager",
-          "address": "13902 Nicollet Drive"
+          "last_update": "december_12,_2024",
+          "name": "troy_skidmore",
+          "title": "manager",
+          "address": "13902_nicollet_drive"
         }
       ],
       "assumed_names": [],
@@ -362,60 +362,60 @@
     {
       "filing_number": "802961755",
       "entity_type": null,
-      "original_date_of_filing": "March 13, 2018",
-      "entity_status": "In existence",
+      "original_date_of_filing": "march_13,_2018",
+      "entity_status": "in_existence",
       "formation_date": null,
       "tax_id": "32066517577",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "SDS Texas Realty, LLC",
-      "address": "5729 LEBANON RD STE 144553\nFRISCO, TX 75034-7260 USA",
+      "duration": "perpetual",
+      "name": "sds_texas_realty,_llc",
+      "address": "5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "LEAH DOUTHIT",
-        "address": "5152 Loma Alta Dr.",
+        "name": "leah_douthit",
+        "address": "5152_loma_alta_dr.",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "SDS Texas Realty, LLC",
-          "name_status": "In use",
-          "name_type": "Legal",
+          "name": "sds_texas_realty,_llc",
+          "name_status": "in_use",
+          "name_type": "legal",
           "name_inactive_date": "0",
           "consent_filing_number": null
         }
       ],
       "management": [
         {
-          "last_update": "August 7, 2024",
-          "name": "Leah Douthit",
-          "title": "Manager",
-          "address": "5729 Lebanon Rd Suite 14"
+          "last_update": "august_7,_2024",
+          "name": "leah_douthit",
+          "title": "manager",
+          "address": "5729_lebanon_rd_suite_14"
         },
         {
-          "last_update": "August 7, 2024",
-          "name": "Caitlin Skidmore",
-          "title": "Manager",
-          "address": "2021 Triton Dr"
+          "last_update": "august_7,_2024",
+          "name": "caitlin_skidmore",
+          "title": "manager",
+          "address": "2021_triton_dr"
         },
         {
-          "last_update": "August 7, 2024",
-          "name": "Elizabeth Saye",
-          "title": "Manager",
-          "address": "5152 Loma Alta Dr"
+          "last_update": "august_7,_2024",
+          "name": "elizabeth_saye",
+          "title": "manager",
+          "address": "5152_loma_alta_dr"
         }
       ],
       "assumed_names": [
         {
-          "assumed_name": "One Legacy Group",
-          "date_of_filing": "March 27, 2018",
-          "expiration_date": "March 27, 2028",
-          "inactive_date": "December 18, 2023",
-          "name_status": "Abandoned",
-          "counties": "All Counties"
+          "assumed_name": "one_legacy_group",
+          "date_of_filing": "march_27,_2018",
+          "expiration_date": "march_27,_2028",
+          "inactive_date": "december_18,_2023",
+          "name_status": "abandoned",
+          "counties": "all_counties"
         }
       ],
       "associated_entities": [],
@@ -423,37 +423,37 @@
     },
     {
       "filing_number": "60550300",
-      "entity_type": "Domestic For-Profit Corporation",
-      "original_date_of_filing": "October 25, 1962",
-      "entity_status": "Voluntarily terminated",
+      "entity_type": "domestic_for_profit_corporation",
+      "original_date_of_filing": "october_25,_1962",
+      "entity_status": "voluntarily_terminated",
       "formation_date": null,
       "tax_id": "00000000000",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-      "address": "[ADDRESS NOT PROVIDED]",
+      "duration": "perpetual",
+      "name": "delta_southern_acceptance_corporation",
+      "address": "[address_not_provided]",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "C R Skidmore",
-        "address": "RT 1 144 RED OAK",
+        "name": "c_r_skidmore",
+        "address": "rt_1_144_red_oak",
         "inactive_date": null
       },
       "filing_history": [
         {
-          "document_number": "N/A",
+          "document_number": "n/a",
           "filing_type": "4789141",
-          "filing_date": "Legacy Filing",
-          "effective_date": "April 26, 1982",
-          "eff_cond": "April 26, 1982",
-          "page_count": "No"
+          "filing_date": "legacy_filing",
+          "effective_date": "april_26,_1982",
+          "eff_cond": "april_26,_1982",
+          "page_count": "no"
         },
         {
-          "document_number": "WAYNE EATON, INC.",
-          "filing_type": "Inactive",
-          "filing_date": "Legal",
-          "effective_date": "February 11, 2000",
+          "document_number": "wayne_eaton,_inc.",
+          "filing_type": "inactive",
+          "filing_date": "legal",
+          "effective_date": "february_11,_2000",
           "eff_cond": null,
           "page_count": null
         }
@@ -461,40 +461,40 @@
       "names": [],
       "management": [
         {
-          "last_update": "Sue Eaton",
-          "name": "S",
-          "title": "1400 HILLCREST",
-          "address": "Gainesville, TX 76240-0000 USA\nSue Eaton \tDirector \t1400 HILLCREST"
+          "last_update": "sue_eaton",
+          "name": "s",
+          "title": "1400_hillcrest",
+          "address": "gainesville,_tx_76240_0000_usa_sue_eaton_director_1400_hillcrest"
         },
         {
-          "last_update": "Sue Eaton",
-          "name": "Director",
-          "title": "1400 HILLCREST",
-          "address": "Gainesville, TX 76240-0000 USA\nWayne Eaton \tVP \t1400 HILLCREST"
+          "last_update": "sue_eaton",
+          "name": "director",
+          "title": "1400_hillcrest",
+          "address": "gainesville,_tx_76240_0000_usa_wayne_eaton_vp_1400_hillcrest"
         },
         {
-          "last_update": "Wayne Eaton",
-          "name": "VP",
-          "title": "1400 HILLCREST",
-          "address": "Gainesville, TX 76240-0000 USA\nWayne Eaton \tDirector \t1400 HILLCREST"
+          "last_update": "wayne_eaton",
+          "name": "vp",
+          "title": "1400_hillcrest",
+          "address": "gainesville,_tx_76240_0000_usa_wayne_eaton_director_1400_hillcrest"
         },
         {
-          "last_update": "Wayne Eaton",
-          "name": "P",
-          "title": "1400 HILLCREST",
-          "address": "Gainesville, TX 76240-0000 USA\nWayne Eaton \tDirector \t1400 HILLCREST"
+          "last_update": "wayne_eaton",
+          "name": "p",
+          "title": "1400_hillcrest",
+          "address": "gainesville,_tx_76240_0000_usa_wayne_eaton_director_1400_hillcrest"
         },
         {
-          "last_update": "Sue Eaton",
-          "name": "T",
-          "title": "1400 HILLCREST",
-          "address": "Gainesville, TX 76240-0000 USA\nSue Eaton \tDirector \t1400 HILLCREST"
+          "last_update": "sue_eaton",
+          "name": "t",
+          "title": "1400_hillcrest",
+          "address": "gainesville,_tx_76240_0000_usa_sue_eaton_director_1400_hillcrest"
         },
         {
-          "last_update": "iling Number:",
+          "last_update": "iling_number:",
           "name": "18792700",
-          "title": "Entity Type:",
-          "address": "Domestic For-Profit Corporation"
+          "title": "entity_type:",
+          "address": "domestic_for_profit_corporation"
         }
       ],
       "assumed_names": [],
@@ -504,14 +504,14 @@
     {
       "filing_number": "18792700",
       "entity_type": null,
-      "original_date_of_filing": "October 25, 1962",
-      "entity_status": "Voluntarily terminated",
+      "original_date_of_filing": "october_25,_1962",
+      "entity_status": "voluntarily_terminated",
       "formation_date": null,
       "tax_id": "00000000000",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-      "address": "[ADDRESS NOT PROVIDED]",
+      "duration": "perpetual",
+      "name": "delta_southern_acceptance_corporation",
+      "address": "[address_not_provided]",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
@@ -519,10 +519,10 @@
       "filing_history": [],
       "names": [
         {
-          "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-          "name_status": "Inactive",
-          "name_type": "Legal",
-          "name_inactive_date": "March 31, 1967",
+          "name": "delta_southern_acceptance_corporation",
+          "name_status": "inactive",
+          "name_type": "legal",
+          "name_inactive_date": "march_31,_1967",
           "consent_filing_number": null
         }
       ],
@@ -533,37 +533,37 @@
     },
     {
       "filing_number": "17649900",
-      "entity_type": "Domestic For-Profit Corporation",
-      "original_date_of_filing": "July 28, 1961",
-      "entity_status": "Merged",
+      "entity_type": "domestic_for_profit_corporation",
+      "original_date_of_filing": "july_28,_1961",
+      "entity_status": "merged",
       "formation_date": null,
       "tax_id": "00000000000",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
-      "address": "[ADDRESS NOT PROVIDED]",
+      "duration": "perpetual",
+      "name": "southwest_fabricating_&_welding_co.,_inc.",
+      "address": "[address_not_provided]",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "C L Skidmore",
-        "address": "7525 SHERMAN",
+        "name": "c_l_skidmore",
+        "address": "7525_sherman",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
-          "name_status": "Inactive",
-          "name_type": "Legal",
-          "name_inactive_date": "January 2, 1969",
+          "name": "southwest_fabricating_&_welding_co.,_inc.",
+          "name_status": "inactive",
+          "name_type": "legal",
+          "name_inactive_date": "january_2,_1969",
           "consent_filing_number": null
         },
         {
-          "name": "BARWOOD FABRICATING CO., INC.",
-          "name_status": "Prior",
-          "name_type": "Legal",
-          "name_inactive_date": "September 22, 1961",
+          "name": "barwood_fabricating_co.,_inc.",
+          "name_status": "prior",
+          "name_type": "legal",
+          "name_inactive_date": "september_22,_1961",
           "consent_filing_number": null
         }
       ],
@@ -571,10 +571,10 @@
       "assumed_names": [],
       "associated_entities": [
         {
-          "name": "AMERICAN VITRIFIED PRODUCTS COMPANY",
-          "entity_type": "Other Entity/Organization",
+          "name": "american_vitrified_products_company",
+          "entity_type": "other_entity/organization",
           "document_description": "0",
-          "filing_date": "Survivor",
+          "filing_date": "survivor",
           "entity_filing_number": null,
           "jurisdiction": null,
           "capacity": null
@@ -584,57 +584,57 @@
     },
     {
       "filing_number": "804058541",
-      "entity_type": "Domestic Nonprofit Corporation",
-      "original_date_of_filing": "May 5, 2021",
-      "entity_status": "Forfeited existence",
-      "formation_date": "N/A \tNon-Profit Type: \tN/A",
+      "entity_type": "domestic_nonprofit_corporation",
+      "original_date_of_filing": "may_5,_2021",
+      "entity_status": "forfeited_existence",
+      "formation_date": "n/a_non_profit_type:_n/a",
       "tax_id": "32079104280",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "DIVORCE NAVIGATORS, INC.",
-      "address": "2872 BREEZY POINT LN\nFRISCO, TX 75034-4686 USA",
+      "duration": "perpetual",
+      "name": "divorce_navigators,_inc.",
+      "address": "2872_breezy_point_ln_frisco,_tx_75034_4686_usa",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "HOLLY MCKAY",
-        "address": "2872 Breezy Point Lane",
+        "name": "holly_mckay",
+        "address": "2872_breezy_point_lane",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "DIVORCE NAVIGATORS, INC.",
-          "name_status": "Inactive",
-          "name_type": "Legal",
-          "name_inactive_date": "March 10, 2023",
+          "name": "divorce_navigators,_inc.",
+          "name_status": "inactive",
+          "name_type": "legal",
+          "name_inactive_date": "march_10,_2023",
           "consent_filing_number": "0"
         }
       ],
       "management": [
         {
-          "last_update": "May 10, 2021",
-          "name": "HOLLY MCKAY",
-          "title": "Director",
-          "address": "2872 Breezy Point Lane"
+          "last_update": "may_10,_2021",
+          "name": "holly_mckay",
+          "title": "director",
+          "address": "2872_breezy_point_lane"
         },
         {
-          "last_update": "May 10, 2021",
-          "name": "LEAH DOUTHIT",
-          "title": "Director",
-          "address": "818 Creekline Way"
+          "last_update": "may_10,_2021",
+          "name": "leah_douthit",
+          "title": "director",
+          "address": "818_creekline_way"
         },
         {
-          "last_update": "May 10, 2021",
-          "name": "LIDDY SAYE",
-          "title": "Director",
-          "address": "5152 Loma Alta Drive"
+          "last_update": "may_10,_2021",
+          "name": "liddy_saye",
+          "title": "director",
+          "address": "5152_loma_alta_drive"
         },
         {
-          "last_update": "May 10, 2021",
-          "name": "CAITLIN SKIDMORE",
-          "title": "Director",
-          "address": "2021 Triton Drive"
+          "last_update": "may_10,_2021",
+          "name": "caitlin_skidmore",
+          "title": "director",
+          "address": "2021_triton_drive"
         }
       ],
       "assumed_names": [],
@@ -643,61 +643,61 @@
     },
     {
       "filing_number": "803790640",
-      "entity_type": "Foreign Limited Liability Company (LLC)",
-      "original_date_of_filing": "January 31, 2012",
-      "entity_status": "In existence",
-      "formation_date": "October 4, 2001",
+      "entity_type": "foreign_limited_liability_company_(llc)",
+      "original_date_of_filing": "january_31,_2012",
+      "entity_status": "in_existence",
+      "formation_date": "october_4,_2001",
       "tax_id": "32046799311",
       "fein": null,
       "duration": null,
-      "name": "CAPREIT RESIDENTIAL MANAGEMENT, LLC",
-      "address": "11200 ROCKVILLE PIKE SUITE 100\nROCKVILLE, MD 20852 USA\nFictitious Name: \tN/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001",
-      "jurisdiction": "MD, USA",
+      "name": "capreit_residential_management,_llc",
+      "address": "11200_rockville_pike_suite_100_rockville,_md_20852_usa_fictitious_name:_n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001",
+      "jurisdiction": "md,_usa",
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "Corporation Service Company dba CSC - Lawyers Incorporating Service Company",
-        "address": "211 E. 7th Street, Suite 620",
+        "name": "corporation_service_company_dba_csc_lawyers_incorporating_service_company",
+        "address": "211_e._7th_street,_suite_620",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "Bainbridge Mid-Atlantic Management, LLC",
-          "name_status": "Inactive",
-          "name_type": "Legal",
-          "name_inactive_date": "July 24, 2024",
+          "name": "bainbridge_mid_atlantic_management,_llc",
+          "name_status": "inactive",
+          "name_type": "legal",
+          "name_inactive_date": "july_24,_2024",
           "consent_filing_number": "0"
         },
         {
-          "name": "Bainbridge Mid-Atlantic Management, LLC",
-          "name_status": "In use",
-          "name_type": "Legal",
+          "name": "bainbridge_mid_atlantic_management,_llc",
+          "name_status": "in_use",
+          "name_type": "legal",
           "name_inactive_date": "0",
           "consent_filing_number": null
         }
       ],
       "management": [
         {
-          "last_update": "November 3, 2024",
-          "name": "RAS MANAGER, LLC",
-          "title": "ITS MANAGER",
-          "address": "12765 W. FOREST HILL BLVD, STE. 1307"
+          "last_update": "november_3,_2024",
+          "name": "ras_manager,_llc",
+          "title": "its_manager",
+          "address": "12765_w._forest_hill_blvd,_ste._1307"
         },
         {
-          "last_update": "iling Number:",
+          "last_update": "iling_number:",
           "name": "801542892",
-          "title": "Entity Type:",
-          "address": "Foreign Limited Liability Company (LLC)"
+          "title": "entity_type:",
+          "address": "foreign_limited_liability_company_(llc)"
         }
       ],
       "assumed_names": [
         {
-          "assumed_name": "BAINBRIDGE COMPANIES",
-          "date_of_filing": "March 31, 2025",
-          "expiration_date": "March 31, 2035",
-          "inactive_date": "Active",
-          "name_status": "All Counties",
+          "assumed_name": "bainbridge_companies",
+          "date_of_filing": "march_31,_2025",
+          "expiration_date": "march_31,_2035",
+          "inactive_date": "active",
+          "name_status": "all_counties",
           "counties": null
         }
       ],
@@ -706,42 +706,42 @@
     },
     {
       "filing_number": "801542892",
-      "entity_type": "Domestic Limited Liability Company (LLC)",
-      "original_date_of_filing": "April 30, 2025",
-      "entity_status": "In existence",
+      "entity_type": "domestic_limited_liability_company_(llc)",
+      "original_date_of_filing": "april_30,_2025",
+      "entity_status": "in_existence",
       "formation_date": null,
       "tax_id": "32099994678",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "Bozzuto Contracting TX, LLC",
-      "address": "6406 IVY LN STE 700\nGREENBELT, MD 20770-1435 USA",
-      "jurisdiction": "MD, USA",
+      "duration": "perpetual",
+      "name": "bozzuto_contracting_tx,_llc",
+      "address": "6406_ivy_ln_ste_700_greenbelt,_md_20770_1435_usa",
+      "jurisdiction": "md,_usa",
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": null,
       "filing_history": [
         {
           "document_number": "1476558470002",
-          "filing_type": "Certificate of Formation",
-          "filing_date": "April 30, 2025",
-          "effective_date": "April 30, 2025",
-          "eff_cond": "No",
-          "page_count": "N/A"
+          "filing_type": "certificate_of_formation",
+          "filing_date": "april_30,_2025",
+          "effective_date": "april_30,_2025",
+          "eff_cond": "no",
+          "page_count": "n/a"
         }
       ],
       "names": [],
       "management": [
         {
-          "last_update": "March 2, 2022",
-          "name": "CAPREIT OPERATING LIMITED P",
-          "title": "MEMBER",
-          "address": "6116 EXECUTIVE BLVD STE 100"
+          "last_update": "march_2,_2022",
+          "name": "capreit_operating_limited_p",
+          "title": "member",
+          "address": "6116_executive_blvd_ste_100"
         },
         {
-          "last_update": "iling Number:",
+          "last_update": "iling_number:",
           "name": "806015816",
-          "title": "Entity Type:",
-          "address": "Domestic Limited Liability Company (LLC)"
+          "title": "entity_type:",
+          "address": "domestic_limited_liability_company_(llc)"
         }
       ],
       "assumed_names": [],
@@ -751,262 +751,262 @@
     {
       "filing_number": "129768500",
       "entity_type": null,
-      "original_date_of_filing": "January 11, 1994",
-      "entity_status": "In existence",
+      "original_date_of_filing": "january_11,_1994",
+      "entity_status": "in_existence",
       "formation_date": null,
       "tax_id": "17525179135",
       "fein": null,
-      "duration": "Perpetual",
-      "name": "GABLES RESIDENTIAL SERVICES, INC.",
-      "address": "3399 PEACHTREE ROAD NE SUITE 600\nATLANTA, GA 30326 USA",
+      "duration": "perpetual",
+      "name": "gables_residential_services,_inc.",
+      "address": "3399_peachtree_road_ne_suite_600_atlanta,_ga_30326_usa",
       "jurisdiction": null,
       "foreign_formation_date": null,
       "fictitious_name": null,
       "registered_agent": {
-        "name": "CORPORATION SERVICE COMPANY D/B/A LAWYERS INCORPORATING SERVICE COMPANY",
-        "address": "211 E. 7th Street, Suite 620",
+        "name": "corporation_service_company_d/b/a_lawyers_incorporating_service_company",
+        "address": "211_e._7th_street,_suite_620",
         "inactive_date": null
       },
       "filing_history": [],
       "names": [
         {
-          "name": "GABLES RESIDENTIAL SERVICES, INC.",
-          "name_status": "In use",
-          "name_type": "Legal",
+          "name": "gables_residential_services,_inc.",
+          "name_status": "in_use",
+          "name_type": "legal",
           "name_inactive_date": null,
           "consent_filing_number": null
         }
       ],
       "management": [
         {
-          "last_update": "March 29, 2024",
-          "name": "Susan M Ansel",
-          "title": "President, CEO",
-          "address": "3811 Turtle Creek Blvd Suite 1500"
+          "last_update": "march_29,_2024",
+          "name": "susan_m_ansel",
+          "title": "president,_ceo",
+          "address": "3811_turtle_creek_blvd_suite_1500"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Susan M Ansel",
-          "title": "DIRECTOR",
-          "address": "3811 Turtle Creek Blvd Suite 1500"
+          "last_update": "march_29,_2024",
+          "name": "susan_m_ansel",
+          "title": "director",
+          "address": "3811_turtle_creek_blvd_suite_1500"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Dawn H Severt",
-          "title": "EVP, CFO, Secretary, Treasurer",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "dawn_h_severt",
+          "title": "evp,_cfo,_secretary,_treasurer",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Dawn H Severt",
-          "title": "DIRECTOR",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "dawn_h_severt",
+          "title": "director",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Dennis E Rainosek",
-          "title": "SVP, Asst Secretary, Asst Treasu",
-          "address": "5847 San Felipe Street Suite 3250"
+          "last_update": "march_29,_2024",
+          "name": "dennis_e_rainosek",
+          "title": "svp,_asst_secretary,_asst_treasu",
+          "address": "5847_san_felipe_street_suite_3250"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "David K Reece",
-          "title": "SVP, Asst. Secretary",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "david_k_reece",
+          "title": "svp,_asst._secretary",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Philip E Altschuler",
-          "title": "SVP",
-          "address": "8300 Greensboro Drive Suite 650"
+          "last_update": "march_29,_2024",
+          "name": "philip_e_altschuler",
+          "title": "svp",
+          "address": "8300_greensboro_drive_suite_650"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Donna E Summers",
-          "title": "DIRECTOR",
-          "address": "3811 Turtle Creek Blvd Suite 1500"
+          "last_update": "march_29,_2024",
+          "name": "donna_e_summers",
+          "title": "director",
+          "address": "3811_turtle_creek_blvd_suite_1500"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Charles L Elliott",
-          "title": "EVP, Chief Investment Officer",
-          "address": "3811 Turtle Creek Blvd Suite 1500"
+          "last_update": "march_29,_2024",
+          "name": "charles_l_elliott",
+          "title": "evp,_chief_investment_officer",
+          "address": "3811_turtle_creek_blvd_suite_1500"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Kenna R Coulter",
-          "title": "VP",
-          "address": "3811 Turtle Creek Blvd Suite 1500"
+          "last_update": "march_29,_2024",
+          "name": "kenna_r_coulter",
+          "title": "vp",
+          "address": "3811_turtle_creek_blvd_suite_1500"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "F Gregory Gasior",
-          "title": "SVP",
-          "address": "750 Park of Commerce Blvd STE 300"
+          "last_update": "march_29,_2024",
+          "name": "f_gregory_gasior",
+          "title": "svp",
+          "address": "750_park_of_commerce_blvd_ste_300"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Genevieve Giannoni",
-          "title": "SVP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "genevieve_giannoni",
+          "title": "svp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "William A Gosnell",
-          "title": "VP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "william_a_gosnell",
+          "title": "vp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Mary O Hollands",
-          "title": "SVP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "mary_o_hollands",
+          "title": "svp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Teresa R Meuter",
-          "title": "VP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "teresa_r_meuter",
+          "title": "vp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Robert K Presley",
-          "title": "SVP",
-          "address": "5847 San Felipe Street Suite 3250"
+          "last_update": "march_29,_2024",
+          "name": "robert_k_presley",
+          "title": "svp",
+          "address": "5847_san_felipe_street_suite_3250"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Melanie M Trapnell",
-          "title": "SVP",
-          "address": "5847 San Felipe Street Suite 3250"
+          "last_update": "march_29,_2024",
+          "name": "melanie_m_trapnell",
+          "title": "svp",
+          "address": "5847_san_felipe_street_suite_3250"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Michael L Brown",
-          "title": "RVP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "michael_l_brown",
+          "title": "rvp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Jorgen Punda",
-          "title": "SVP",
-          "address": "8300 Greensboro Drive Suite 650"
+          "last_update": "march_29,_2024",
+          "name": "jorgen_punda",
+          "title": "svp",
+          "address": "8300_greensboro_drive_suite_650"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Timothy R Hutchinson",
-          "title": "VP",
-          "address": "139A Charles Street Suite 301"
+          "last_update": "march_29,_2024",
+          "name": "timothy_r_hutchinson",
+          "title": "vp",
+          "address": "139a_charles_street_suite_301"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Thomas L Bisanz",
-          "title": "VP with limited authority",
-          "address": "3811 Turtle Creek Blvd Suite 1500"
+          "last_update": "march_29,_2024",
+          "name": "thomas_l_bisanz",
+          "title": "vp_with_limited_authority",
+          "address": "3811_turtle_creek_blvd_suite_1500"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "James W Hamrick",
-          "title": "SVP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "james_w_hamrick",
+          "title": "svp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Ryan L Brown",
-          "title": "RVP",
-          "address": "3811 Turtle Creek Blvd Suite 1500"
+          "last_update": "march_29,_2024",
+          "name": "ryan_l_brown",
+          "title": "rvp",
+          "address": "3811_turtle_creek_blvd_suite_1500"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Lynn Riley-Stokes",
-          "title": "RVP",
-          "address": "8300 Greensboro Drive Suite 650"
+          "last_update": "march_29,_2024",
+          "name": "lynn_riley_stokes",
+          "title": "rvp",
+          "address": "8300_greensboro_drive_suite_650"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Beau W Terhaar",
-          "title": "RVP",
-          "address": "101 University Blvd Suite 240"
+          "last_update": "march_29,_2024",
+          "name": "beau_w_terhaar",
+          "title": "rvp",
+          "address": "101_university_blvd_suite_240"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Brian D Mosley",
-          "title": "SVP",
-          "address": "3399 Peachtree Road NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "brian_d_mosley",
+          "title": "svp",
+          "address": "3399_peachtree_road_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Matthew P Seaman",
-          "title": "VP with limited authority",
-          "address": "6901 E Chauncey Lane"
+          "last_update": "march_29,_2024",
+          "name": "matthew_p_seaman",
+          "title": "vp_with_limited_authority",
+          "address": "6901_e_chauncey_lane"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Matthew C Bearden",
-          "title": "SVP",
-          "address": "3399 PEACHTREE RD NE SUITE 600"
+          "last_update": "march_29,_2024",
+          "name": "matthew_c_bearden",
+          "title": "svp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Carrie L Billiam",
-          "title": "SVP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "carrie_l_billiam",
+          "title": "svp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Shane A Polk",
-          "title": "VP",
-          "address": "8300 Greensboro Drive Suite 650"
+          "last_update": "march_29,_2024",
+          "name": "shane_a_polk",
+          "title": "vp",
+          "address": "8300_greensboro_drive_suite_650"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Robert T Rector",
-          "title": "VP",
-          "address": "5847 San Felipe Street Suite 3250"
+          "last_update": "march_29,_2024",
+          "name": "robert_t_rector",
+          "title": "vp",
+          "address": "5847_san_felipe_street_suite_3250"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Edward L Meder",
-          "title": "AVP",
-          "address": "8300 Greensboro Drive Suite 650"
+          "last_update": "march_29,_2024",
+          "name": "edward_l_meder",
+          "title": "avp",
+          "address": "8300_greensboro_drive_suite_650"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Jun H Lee",
-          "title": "VP",
-          "address": "3811 Turtle Creek Blvd Suite 1500"
+          "last_update": "march_29,_2024",
+          "name": "jun_h_lee",
+          "title": "vp",
+          "address": "3811_turtle_creek_blvd_suite_1500"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Kristyn Monticup",
-          "title": "VP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "kristyn_monticup",
+          "title": "vp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         },
         {
-          "last_update": "March 29, 2024",
-          "name": "Puy Thai",
-          "title": "VP",
-          "address": "3399 Peachtree Rd NE Suite 600"
+          "last_update": "march_29,_2024",
+          "name": "puy_thai",
+          "title": "vp",
+          "address": "3399_peachtree_rd_ne_suite_600"
         }
       ],
       "assumed_names": [
         {
-          "assumed_name": "Affinity Temporary Housing",
-          "date_of_filing": "June 20, 2011",
-          "expiration_date": "June 20, 2021",
-          "inactive_date": "June 20, 2021",
-          "name_status": "Expired",
-          "counties": "All Counties"
+          "assumed_name": "affinity_temporary_housing",
+          "date_of_filing": "june_20,_2011",
+          "expiration_date": "june_20,_2021",
+          "inactive_date": "june_20,_2021",
+          "name_status": "expired",
+          "counties": "all_counties"
         }
       ],
       "associated_entities": [
         {
-          "name": "H.G. SMITHY COMPANY",
-          "entity_type": "Foreign For-Profit Corporation",
-          "document_description": "December 27, 2002",
+          "name": "h.g._smithy_company",
+          "entity_type": "foreign_for_profit_corporation",
+          "document_description": "december_27,_2002",
           "filing_date": "999999999",
-          "entity_filing_number": "DE, USA",
-          "jurisdiction": "Non-Survivor",
+          "entity_filing_number": "de,_usa",
+          "jurisdiction": "non_survivor",
           "capacity": null
         }
       ],
@@ -1016,8 +1016,8 @@
   "embeddings": [
     {
       "filing_number": "801459833",
-      "entity_name": "Lariat Realty Advisors, Inc.",
-      "text": "Filing Number: 801459833 | Name: Lariat Realty Advisors, Inc. | Status: In existence | Address: 4600 FIRESTONE DR\nFRISCO, TX 75034 USA | Registered Agent: Thoms L Bisanz - 4600 Firestone Drive | Tax ID: 32044752940 | Original Filing Date: July 28, 2011 | Management: Thomas Bisanz (Manager) | Filing History: Certificate of Formation on July 28, 2011; Tax Forfeiture on February 8, 2013; Reinstatement on December 18, 2017; Public Information Report (PIR) on December 31, 2017; Public Information Report (PIR) on December 31, 2018",
+      "entity_name": "lariat_realty_advisors,_inc.",
+      "text": "filing_number:_801459833_|_name:_lariat_realty_advisors,_inc._|_status:_in_existence_|_address:_4600_firestone_dr_frisco,_tx_75034_usa_|_registered_agent:_thoms_l_bisanz_4600_firestone_drive_|_tax_id:_32044752940_|_original_filing_date:_july_28,_2011_|_management:_thomas_bisanz_(manager)_|_filing_history:_certificate_of_formation_on_july_28,_2011;_tax_forfeiture_on_february_8,_2013;_reinstatement_on_december_18,_2017;_public_information_report_(pir)_on_december_31,_2017;_public_information_report_(pir)_on_december_31,_2018",
       "embedding": [
         -0.017527656629681587,
         -0.03211869299411774,
@@ -1407,8 +1407,8 @@
     },
     {
       "filing_number": "805759678",
-      "entity_name": "Lariat Realty Advisors, LLC",
-      "text": "Filing Number: 805759678 | Name: Lariat Realty Advisors, LLC | Entity Type: Domestic Limited Liability Company (LLC) | Status: In existence | Address: 4600 FIRESTONE DR\nFRISCO, TX 75034-6847 USA | Registered Agent: Thomas Bisanz - 4600 Firestone Drive | Tax ID: 32097336583 | Original Filing Date: October 24, 2024 | Management: Thomas Bisanz (Manager)",
+      "entity_name": "lariat_realty_advisors,_llc",
+      "text": "filing_number:_805759678_|_name:_lariat_realty_advisors,_llc_|_entity_type:_domestic_limited_liability_company_(llc)_|_status:_in_existence_|_address:_4600_firestone_dr_frisco,_tx_75034_6847_usa_|_registered_agent:_thomas_bisanz_4600_firestone_drive_|_tax_id:_32097336583_|_original_filing_date:_october_24,_2024_|_management:_thomas_bisanz_(manager)",
       "embedding": [
         -0.014683329500257969,
         -0.006933950819075108,
@@ -1798,8 +1798,8 @@
     },
     {
       "filing_number": "46955400",
-      "entity_name": "LARIAT INC. REALTORS",
-      "text": "Filing Number: 46955400 | Name: LARIAT INC. REALTORS | Status: Voluntarily terminated | Address: [ADDRESS NOT PROVIDED] | Registered Agent: Monte B Hartig - 4139 GARDENDALE | Tax ID: 17420431391 | Original Filing Date: March 30, 1979 | Filing History: 4390503 on Legacy Filing",
+      "entity_name": "lariat_inc._realtors",
+      "text": "filing_number:_46955400_|_name:_lariat_inc._realtors_|_status:_voluntarily_terminated_|_address:_[address_not_provided]_|_registered_agent:_monte_b_hartig_4139_gardendale_|_tax_id:_17420431391_|_original_filing_date:_march_30,_1979_|_filing_history:_4390503_on_legacy_filing",
       "embedding": [
         0.006286471150815487,
         -0.06463184952735901,
@@ -2189,8 +2189,8 @@
     },
     {
       "filing_number": "802331657",
-      "entity_name": "Kettler Management Inc.",
-      "text": "Filing Number: 802331657 | Name: Kettler Management Inc. | Status: In existence | Address: 1751 Pinnacle Dr, Ste 700\nMclean, VA 22102 USA\nFictitious Name: \tN/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988 | Registered Agent: National Registered Agents, Inc. - 1999 Bryan St., Ste. 900 | Tax ID: 32058814248 | Jurisdiction: VA, USA | Formation Date: May 20, 1988 | Original Filing Date: November 13, 2015 | Management: ROBERT KETTLER (OFFICER)",
+      "entity_name": "kettler_management_inc.",
+      "text": "filing_number:_802331657_|_name:_kettler_management_inc._|_status:_in_existence_|_address:_1751_pinnacle_dr,_ste_700_mclean,_va_22102_usa_fictitious_name:_n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988_|_registered_agent:_national_registered_agents,_inc._1999_bryan_st.,_ste._900_|_tax_id:_32058814248_|_jurisdiction:_va,_usa_|_formation_date:_may_20,_1988_|_original_filing_date:_november_13,_2015_|_management:_robert_kettler_(officer)",
       "embedding": [
         -0.09261120110750198,
         -0.04292045161128044,
@@ -2580,8 +2580,8 @@
     },
     {
       "filing_number": "804700244",
-      "entity_name": "Kettler Land Management LLC",
-      "text": "Filing Number: 804700244 | Name: Kettler Land Management LLC | Status: Forfeited existence | Address: 2812 SAN PEDRO ST\nAUSTIN, TX 78705-3602 USA | Registered Agent: United States Corporation Agents, Inc. - 10601 Clarence Dr. Suite 250 | Tax ID: 32086023994 | Original Filing Date: August 24, 2022 | Management: William Kyle Kettler (Managing Member)",
+      "entity_name": "kettler_land_management_llc",
+      "text": "filing_number:_804700244_|_name:_kettler_land_management_llc_|_status:_forfeited_existence_|_address:_2812_san_pedro_st_austin,_tx_78705_3602_usa_|_registered_agent:_united_states_corporation_agents,_inc._10601_clarence_dr._suite_250_|_tax_id:_32086023994_|_original_filing_date:_august_24,_2022_|_management:_william_kyle_kettler_(managing_member)",
       "embedding": [
         -0.06029737368226051,
         -0.03529292345046997,
@@ -2971,8 +2971,8 @@
     },
     {
       "filing_number": "805818075",
-      "entity_name": "Frippmore, LLC",
-      "text": "Filing Number: 805818075 | Name: Frippmore, LLC | Status: In existence | Address: 13902 NICOLLET DR\nFRISCO, TX 75033-1717 USA | Registered Agent: Carlisle Braun - 7300 State Highway 121, Suite 300 | Tax ID: 32097939857 | Original Filing Date: December 12, 2024 | Management: Caitlin Skidmore (Manager); Troy Skidmore (Manager)",
+      "entity_name": "frippmore,_llc",
+      "text": "filing_number:_805818075_|_name:_frippmore,_llc_|_status:_in_existence_|_address:_13902_nicollet_dr_frisco,_tx_75033_1717_usa_|_registered_agent:_carlisle_braun_7300_state_highway_121,_suite_300_|_tax_id:_32097939857_|_original_filing_date:_december_12,_2024_|_management:_caitlin_skidmore_(manager);_troy_skidmore_(manager)",
       "embedding": [
         -0.06534533202648163,
         0.01997685618698597,
@@ -3362,8 +3362,8 @@
     },
     {
       "filing_number": "802961755",
-      "entity_name": "SDS Texas Realty, LLC",
-      "text": "Filing Number: 802961755 | Name: SDS Texas Realty, LLC | Status: In existence | Address: 5729 LEBANON RD STE 144553\nFRISCO, TX 75034-7260 USA | Registered Agent: LEAH DOUTHIT - 5152 Loma Alta Dr. | Tax ID: 32066517577 | Original Filing Date: March 13, 2018 | Management: Leah Douthit (Manager); Caitlin Skidmore (Manager); Elizabeth Saye (Manager)",
+      "entity_name": "sds_texas_realty,_llc",
+      "text": "filing_number:_802961755_|_name:_sds_texas_realty,_llc_|_status:_in_existence_|_address:_5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa_|_registered_agent:_leah_douthit_5152_loma_alta_dr._|_tax_id:_32066517577_|_original_filing_date:_march_13,_2018_|_management:_leah_douthit_(manager);_caitlin_skidmore_(manager);_elizabeth_saye_(manager)",
       "embedding": [
         -0.04342145100235939,
         -0.019748659804463387,
@@ -3753,8 +3753,8 @@
     },
     {
       "filing_number": "60550300",
-      "entity_name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-      "text": "Filing Number: 60550300 | Name: DELTA SOUTHERN ACCEPTANCE CORPORATION | Entity Type: Domestic For-Profit Corporation | Status: Voluntarily terminated | Address: [ADDRESS NOT PROVIDED] | Registered Agent: C R Skidmore - RT 1 144 RED OAK | Tax ID: 00000000000 | Original Filing Date: October 25, 1962 | Management: S (1400 HILLCREST); Director (1400 HILLCREST); VP (1400 HILLCREST); P (1400 HILLCREST); T (1400 HILLCREST); 18792700 (Entity Type:) | Filing History: 4789141 on Legacy Filing; Inactive on Legal",
+      "entity_name": "delta_southern_acceptance_corporation",
+      "text": "filing_number:_60550300_|_name:_delta_southern_acceptance_corporation_|_entity_type:_domestic_for_profit_corporation_|_status:_voluntarily_terminated_|_address:_[address_not_provided]_|_registered_agent:_c_r_skidmore_rt_1_144_red_oak_|_tax_id:_00000000000_|_original_filing_date:_october_25,_1962_|_management:_s_(1400_hillcrest);_director_(1400_hillcrest);_vp_(1400_hillcrest);_p_(1400_hillcrest);_t_(1400_hillcrest);_18792700_(entity_type:)_|_filing_history:_4789141_on_legacy_filing;_inactive_on_legal",
       "embedding": [
         -0.020485268905758858,
         -0.0020888815633952618,
@@ -4144,8 +4144,8 @@
     },
     {
       "filing_number": "18792700",
-      "entity_name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-      "text": "Filing Number: 18792700 | Name: DELTA SOUTHERN ACCEPTANCE CORPORATION | Status: Voluntarily terminated | Address: [ADDRESS NOT PROVIDED] | Tax ID: 00000000000 | Original Filing Date: October 25, 1962",
+      "entity_name": "delta_southern_acceptance_corporation",
+      "text": "filing_number:_18792700_|_name:_delta_southern_acceptance_corporation_|_status:_voluntarily_terminated_|_address:_[address_not_provided]_|_tax_id:_00000000000_|_original_filing_date:_october_25,_1962",
       "embedding": [
         -0.0236340519040823,
         0.03333146125078201,
@@ -4535,8 +4535,8 @@
     },
     {
       "filing_number": "17649900",
-      "entity_name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
-      "text": "Filing Number: 17649900 | Name: SOUTHWEST FABRICATING & WELDING CO., INC. | Entity Type: Domestic For-Profit Corporation | Status: Merged | Address: [ADDRESS NOT PROVIDED] | Registered Agent: C L Skidmore - 7525 SHERMAN | Tax ID: 00000000000 | Original Filing Date: July 28, 1961",
+      "entity_name": "southwest_fabricating_&_welding_co.,_inc.",
+      "text": "filing_number:_17649900_|_name:_southwest_fabricating_&_welding_co.,_inc._|_entity_type:_domestic_for_profit_corporation_|_status:_merged_|_address:_[address_not_provided]_|_registered_agent:_c_l_skidmore_7525_sherman_|_tax_id:_00000000000_|_original_filing_date:_july_28,_1961",
       "embedding": [
         -0.0811227485537529,
         -0.017417896538972855,
@@ -4926,8 +4926,8 @@
     },
     {
       "filing_number": "804058541",
-      "entity_name": "DIVORCE NAVIGATORS, INC.",
-      "text": "Filing Number: 804058541 | Name: DIVORCE NAVIGATORS, INC. | Entity Type: Domestic Nonprofit Corporation | Status: Forfeited existence | Address: 2872 BREEZY POINT LN\nFRISCO, TX 75034-4686 USA | Registered Agent: HOLLY MCKAY - 2872 Breezy Point Lane | Tax ID: 32079104280 | Formation Date: N/A \tNon-Profit Type: \tN/A | Original Filing Date: May 5, 2021 | Management: HOLLY MCKAY (Director); LEAH DOUTHIT (Director); LIDDY SAYE (Director); CAITLIN SKIDMORE (Director)",
+      "entity_name": "divorce_navigators,_inc.",
+      "text": "filing_number:_804058541_|_name:_divorce_navigators,_inc._|_entity_type:_domestic_nonprofit_corporation_|_status:_forfeited_existence_|_address:_2872_breezy_point_ln_frisco,_tx_75034_4686_usa_|_registered_agent:_holly_mckay_2872_breezy_point_lane_|_tax_id:_32079104280_|_formation_date:_n/a_non_profit_type:_n/a_|_original_filing_date:_may_5,_2021_|_management:_holly_mckay_(director);_leah_douthit_(director);_liddy_saye_(director);_caitlin_skidmore_(director)",
       "embedding": [
         -0.06515560299158096,
         -0.06462522596120834,
@@ -5317,8 +5317,8 @@
     },
     {
       "filing_number": "803790640",
-      "entity_name": "CAPREIT RESIDENTIAL MANAGEMENT, LLC",
-      "text": "Filing Number: 803790640 | Name: CAPREIT RESIDENTIAL MANAGEMENT, LLC | Entity Type: Foreign Limited Liability Company (LLC) | Status: In existence | Address: 11200 ROCKVILLE PIKE SUITE 100\nROCKVILLE, MD 20852 USA\nFictitious Name: \tN/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001 | Registered Agent: Corporation Service Company dba CSC - Lawyers Incorporating Service Company - 211 E. 7th Street, Suite 620 | Tax ID: 32046799311 | Jurisdiction: MD, USA | Formation Date: October 4, 2001 | Original Filing Date: January 31, 2012 | Management: RAS MANAGER, LLC (ITS MANAGER); 801542892 (Entity Type:)",
+      "entity_name": "capreit_residential_management,_llc",
+      "text": "filing_number:_803790640_|_name:_capreit_residential_management,_llc_|_entity_type:_foreign_limited_liability_company_(llc)_|_status:_in_existence_|_address:_11200_rockville_pike_suite_100_rockville,_md_20852_usa_fictitious_name:_n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001_|_registered_agent:_corporation_service_company_dba_csc_lawyers_incorporating_service_company_211_e._7th_street,_suite_620_|_tax_id:_32046799311_|_jurisdiction:_md,_usa_|_formation_date:_october_4,_2001_|_original_filing_date:_january_31,_2012_|_management:_ras_manager,_llc_(its_manager);_801542892_(entity_type:)",
       "embedding": [
         -0.06809236854314804,
         -0.015433445572853088,
@@ -5708,8 +5708,8 @@
     },
     {
       "filing_number": "801542892",
-      "entity_name": "Bozzuto Contracting TX, LLC",
-      "text": "Filing Number: 801542892 | Name: Bozzuto Contracting TX, LLC | Entity Type: Domestic Limited Liability Company (LLC) | Status: In existence | Address: 6406 IVY LN STE 700\nGREENBELT, MD 20770-1435 USA | Tax ID: 32099994678 | Jurisdiction: MD, USA | Original Filing Date: April 30, 2025 | Management: CAPREIT OPERATING LIMITED P (MEMBER); 806015816 (Entity Type:) | Filing History: Certificate of Formation on April 30, 2025",
+      "entity_name": "bozzuto_contracting_tx,_llc",
+      "text": "filing_number:_801542892_|_name:_bozzuto_contracting_tx,_llc_|_entity_type:_domestic_limited_liability_company_(llc)_|_status:_in_existence_|_address:_6406_ivy_ln_ste_700_greenbelt,_md_20770_1435_usa_|_tax_id:_32099994678_|_jurisdiction:_md,_usa_|_original_filing_date:_april_30,_2025_|_management:_capreit_operating_limited_p_(member);_806015816_(entity_type:)_|_filing_history:_certificate_of_formation_on_april_30,_2025",
       "embedding": [
         -0.05402999371290207,
         -0.005896420683711767,
@@ -6099,8 +6099,8 @@
     },
     {
       "filing_number": "129768500",
-      "entity_name": "GABLES RESIDENTIAL SERVICES, INC.",
-      "text": "Filing Number: 129768500 | Name: GABLES RESIDENTIAL SERVICES, INC. | Status: In existence | Address: 3399 PEACHTREE ROAD NE SUITE 600\nATLANTA, GA 30326 USA | Registered Agent: CORPORATION SERVICE COMPANY D/B/A LAWYERS INCORPORATING SERVICE COMPANY - 211 E. 7th Street, Suite 620 | Tax ID: 17525179135 | Original Filing Date: January 11, 1994 | Management: Susan M Ansel (President, CEO); Susan M Ansel (DIRECTOR); Dawn H Severt (EVP, CFO, Secretary, Treasurer); Dawn H Severt (DIRECTOR); Dennis E Rainosek (SVP, Asst Secretary, Asst Treasu); David K Reece (SVP, Asst. Secretary); Philip E Altschuler (SVP); Donna E Summers (DIRECTOR); Charles L Elliott (EVP, Chief Investment Officer); Kenna R Coulter (VP); F Gregory Gasior (SVP); Genevieve Giannoni (SVP); William A Gosnell (VP); Mary O Hollands (SVP); Teresa R Meuter (VP); Robert K Presley (SVP); Melanie M Trapnell (SVP); Michael L Brown (RVP); Jorgen Punda (SVP); Timothy R Hutchinson (VP); Thomas L Bisanz (VP with limited authority); James W Hamrick (SVP); Ryan L Brown (RVP); Lynn Riley-Stokes (RVP); Beau W Terhaar (RVP); Brian D Mosley (SVP); Matthew P Seaman (VP with limited authority); Matthew C Bearden (SVP); Carrie L Billiam (SVP); Shane A Polk (VP); Robert T Rector (VP); Edward L Meder (AVP); Jun H Lee (VP); Kristyn Monticup (VP); Puy Thai (VP)",
+      "entity_name": "gables_residential_services,_inc.",
+      "text": "filing_number:_129768500_|_name:_gables_residential_services,_inc._|_status:_in_existence_|_address:_3399_peachtree_road_ne_suite_600_atlanta,_ga_30326_usa_|_registered_agent:_corporation_service_company_d/b/a_lawyers_incorporating_service_company_211_e._7th_street,_suite_620_|_tax_id:_17525179135_|_original_filing_date:_january_11,_1994_|_management:_susan_m_ansel_(president,_ceo);_susan_m_ansel_(director);_dawn_h_severt_(evp,_cfo,_secretary,_treasurer);_dawn_h_severt_(director);_dennis_e_rainosek_(svp,_asst_secretary,_asst_treasu);_david_k_reece_(svp,_asst._secretary);_philip_e_altschuler_(svp);_donna_e_summers_(director);_charles_l_elliott_(evp,_chief_investment_officer);_kenna_r_coulter_(vp);_f_gregory_gasior_(svp);_genevieve_giannoni_(svp);_william_a_gosnell_(vp);_mary_o_hollands_(svp);_teresa_r_meuter_(vp);_robert_k_presley_(svp);_melanie_m_trapnell_(svp);_michael_l_brown_(rvp);_jorgen_punda_(svp);_timothy_r_hutchinson_(vp);_thomas_l_bisanz_(vp_with_limited_authority);_james_w_hamrick_(svp);_ryan_l_brown_(rvp);_lynn_riley_stokes_(rvp);_beau_w_terhaar_(rvp);_brian_d_mosley_(svp);_matthew_p_seaman_(vp_with_limited_authority);_matthew_c_bearden_(svp);_carrie_l_billiam_(svp);_shane_a_polk_(vp);_robert_t_rector_(vp);_edward_l_meder_(avp);_jun_h_lee_(vp);_kristyn_monticup_(vp);_puy_thai_(vp)",
       "embedding": [
         -0.10350953787565231,
         -0.002108984161168337,

@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.043994",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_17649900_1.json",
+    "created": "2025_12_11t00:21:41.043994",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_17649900_1.json",
     "has_embedding": true
   },
   "data": {
-    "name": "BARWOOD FABRICATING CO., INC.",
-    "name_status": "Prior",
-    "name_type": "Legal",
-    "name_inactive_date": "September 22, 1961",
+    "name": "barwood_fabricating_co.,_inc.",
+    "name_status": "prior",
+    "name_type": "legal",
+    "name_inactive_date": "september_22,_1961",
     "consent_filing_number": null
   },
-  "text_representation": "name: BARWOOD FABRICATING CO., INC. | name_status: Prior | name_type: Legal | name_inactive_date: September 22, 1961",
+  "text_representation": "name:_barwood_fabricating_co.,_inc._|_name_status:_prior_|_name_type:_legal_|_name_inactive_date:_september_22,_1961",
   "embedding": [
     -0.05699283629655838,
     -0.020610764622688293,

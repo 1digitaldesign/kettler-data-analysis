@@ -1,23 +1,23 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 2.3: Multiple Firm Supervision Capacity",
-  "objective": "Quantify impossibility of supervising 24+ firms simultaneously",
+  "research_date": "2025_12_09",
+  "priority": "priority_2.3:_multiple_firm_supervision_capacity",
+  "objective": "quantify_impossibility_of_supervising_24+_firms_simultaneously",
   "current_data": {
     "va_dpor_firms": 38,
     "dc_dlcp_firms": 24,
     "total_firms_known": 38,
-    "note": "DC DLCP list may be incomplete - need to expand search"
+    "note": "dc_dlcp_list_may_be_incomplete_need_to_expand_search"
   },
   "firms_listing_skidmore": {
-    "source": "VA DPOR - skidmore_all_firms_complete.json",
+    "source": "va_dpor_skidmore_all_firms_complete.json",
     "total_firms": 38,
     "firms_by_state": {
-      "VA": 11,
-      "TX": 6,
-      "NC": 1,
-      "MO": 1,
-      "NE": 1,
-      "MD": 1,
+      "va": 11,
+      "tx": 6,
+      "nc": 1,
+      "mo": 1,
+      "ne": 1,
+      "md": 1,
       "other": 17
     },
     "firms_list": []
@@ -25,32 +25,32 @@
   "unit_counts": {
     "status": "pending",
     "data_needed": [
-      "Total units managed across all firms",
-      "Units per firm",
-      "Geographic distribution of units"
+      "total_units_managed_across_all_firms",
+      "units_per_firm",
+      "geographic_distribution_of_units"
     ],
-    "estimated_total_units": "100,000+ (conservative estimate)",
+    "estimated_total_units": "100,000+_(conservative_estimate)",
     "kettler_verified_units": 22000,
-    "kettler_verified_date": "2025-12-09",
+    "kettler_verified_date": "2025_12_09",
     "calculation": {
       "kettler_units": 22000,
-      "other_37_firms_estimate": "Minimum 2,000 units per firm average",
-      "conservative_total": "22,000 + (37 × 2,000) = 96,000+",
-      "realistic_total": "Likely exceeds 100,000 units"
+      "other_37_firms_estimate": "minimum_2,000_units_per_firm_average",
+      "conservative_total": "22,000_+_(37_×_2,000)_=_96,000+",
+      "realistic_total": "likely_exceeds_100,000_units"
     },
-    "note": "Kettler alone manages 22,000+ verified units. With 37 other firms, total likely exceeds 100,000+ units across multiple states"
+    "note": "kettler_alone_manages_22,000+_verified_units._with_37_other_firms,_total_likely_exceeds_100,000+_units_across_multiple_states"
   },
   "geographic_distribution": {
     "states": [
-      "VA",
-      "TX",
-      "NC",
-      "MO",
-      "NE",
-      "MD"
+      "va",
+      "tx",
+      "nc",
+      "mo",
+      "ne",
+      "md"
     ],
-    "properties_distribution": "unknown - research needed",
-    "geographic_spread": "Multi-state (at least 6 states)"
+    "properties_distribution": "unknown_research_needed",
+    "geographic_spread": "multi_state_(at_least_6_states)"
   },
   "supervision_time_requirements": {
     "industry_standards": {
@@ -62,26 +62,26 @@
         "total_hours_per_property_per_year": 96
       },
       "units_per_manager": {
-        "multifamily": "80-120 units per manager",
-        "commercial": "10-20 properties per manager",
-        "employee_to_unit_ratio": "1 employee per 45 units (NAA 2019 average)"
+        "multifamily": "80_120_units_per_manager",
+        "commercial": "10_20_properties_per_manager",
+        "employee_to_unit_ratio": "1_employee_per_45_units_(naa_2019_average)"
       },
       "virginia_requirements": {
-        "code_section": "VA Code § 54.1-2110.1",
-        "requirement": "Reasonable and adequate supervision",
+        "code_section": "va_code_§_54.1_2110.1",
+        "requirement": "reasonable_and_adequate_supervision",
         "responsibilities": [
-          "Review and approve all documents affecting clients",
-          "Ensure training availability",
-          "Maintain written procedures and policies",
-          "Supervise unlicensed assistants",
-          "Ensure compliance with fair housing laws",
-          "Oversee advertising and marketing",
-          "Oversee contract and lease negotiations"
+          "review_and_approve_all_documents_affecting_clients",
+          "ensure_training_availability",
+          "maintain_written_procedures_and_policies",
+          "supervise_unlicensed_assistants",
+          "ensure_compliance_with_fair_housing_laws",
+          "oversee_advertising_and_marketing",
+          "oversee_contract_and_lease_negotiations"
         ]
       }
     },
-    "estimated_time_per_firm": "Varies by firm size and units",
-    "estimated_time_per_unit": "96 hours per property per year (industry standard)",
+    "estimated_time_per_firm": "varies_by_firm_size_and_units",
+    "estimated_time_per_unit": "96_hours_per_property_per_year_(industry_standard)",
     "total_time_required": {
       "calculation": {
         "properties": 97,
@@ -89,84 +89,84 @@
         "total_hours": 9312,
         "hours_per_week": 179,
         "hours_per_day": 25.5,
-        "conclusion": "Impossible - exceeds 24 hours per day"
+        "conclusion": "impossible_exceeds_24_hours_per_day"
       },
       "alternative_calculation": {
         "units": 100000,
-        "employee_ratio": "1 per 45 units",
+        "employee_ratio": "1_per_45_units",
         "required_employees": 2222,
-        "conclusion": "Would require 2,222+ employees for proper supervision"
+        "conclusion": "would_require_2,222+_employees_for_proper_supervision"
       }
     },
-    "logical_analysis": "Supervising 38+ firms across 6+ states with 100,000+ units is physically impossible for one person. Industry standards show 96 hours per property per year = 9,312 hours annually = 25.5 hours per day (impossible). Alternative calculation: 100,000 units ÷ 45 units per employee = 2,222 employees needed.",
+    "logical_analysis": "supervising_38+_firms_across_6+_states_with_100,000+_units_is_physically_impossible_for_one_person._industry_standards_show_96_hours_per_property_per_year_=_9,312_hours_annually_=_25.5_hours_per_day_(impossible)._alternative_calculation:_100,000_units_÷_45_units_per_employee_=_2,222_employees_needed.",
     "verified_scale": {
       "firms": 38,
       "units_minimum": 100000,
       "states": 6,
-      "geographic_spread": "1,300+ miles (Frisco TX to McLean VA)",
-      "conclusion": "Physically and logistically impossible for one person to provide active supervision"
+      "geographic_spread": "1,300+_miles_(frisco_tx_to_mclean_va)",
+      "conclusion": "physically_and_logistically_impossible_for_one_person_to_provide_active_supervision"
     }
   },
   "dc_dlcp_expansion": {
     "status": "method_verified",
     "current_count": 24,
-    "search_needed": "Expand DC DLCP database search beyond initial 24 firms",
+    "search_needed": "expand_dc_dlcp_database_search_beyond_initial_24_firms",
     "methods": [
-      "DC DLCP database comprehensive search",
-      "Cross-reference with VA DPOR findings",
-      "Multi-state DPOR searches"
+      "dc_dlcp_database_comprehensive_search",
+      "cross_reference_with_va_dpor_findings",
+      "multi_state_dpor_searches"
     ],
-    "note": "VA DPOR shows 38 firms. DC DLCP may have additional firms not in VA database."
+    "note": "va_dpor_shows_38_firms._dc_dlcp_may_have_additional_firms_not_in_va_database."
   },
   "multi_state_searches": {
     "status": "in_progress",
     "states_to_search": [
-      "TX",
-      "NC",
-      "MD",
-      "MO",
-      "NE",
-      "DC",
-      "Other states where Kettler operates"
+      "tx",
+      "nc",
+      "md",
+      "mo",
+      "ne",
+      "dc",
+      "other_states_where_kettler_operates"
     ],
-    "current_findings": "38 firms from VA DPOR",
+    "current_findings": "38_firms_from_va_dpor",
     "additional_findings": []
   },
   "comprehensive_matrix": {
     "status": "completed",
     "components": [
-      "Complete list of all Skidmore-affiliated firms: 38 firms (verified)",
-      "Unit counts per firm: Kettler 22,000+ verified, others estimated",
-      "Geographic distribution: 6+ states, 1,300+ mile spread",
-      "Supervision time requirements: Industry standards verified (96 hours/property/year = 9,312 hours = 25.5 hours/day - impossible)",
-      "Impossibility analysis: Verified - physically impossible"
+      "complete_list_of_all_skidmore_affiliated_firms:_38_firms_(verified)",
+      "unit_counts_per_firm:_kettler_22,000+_verified,_others_estimated",
+      "geographic_distribution:_6+_states,_1,300+_mile_spread",
+      "supervision_time_requirements:_industry_standards_verified_(96_hours/property/year_=_9,312_hours_=_25.5_hours/day_impossible)",
+      "impossibility_analysis:_verified_physically_impossible"
     ],
     "verified_data": {
       "total_firms": 38,
       "kettler_units": 22000,
       "estimated_total_units": "100,000+",
-      "geographic_spread": "1,300+ miles",
+      "geographic_spread": "1,300+_miles",
       "supervision_hours_required": 9312,
       "hours_per_day_required": 25.5,
       "employees_needed": 2222,
-      "conclusion": "Supervision physically impossible - exceeds 24 hours per day, would require 2,222+ employees"
+      "conclusion": "supervision_physically_impossible_exceeds_24_hours_per_day,_would_require_2,222+_employees"
     }
   },
-  "deliverable": "Comprehensive matrix showing all Skidmore-affiliated firms with unit counts and geographic spread",
+  "deliverable": "comprehensive_matrix_showing_all_skidmore_affiliated_firms_with_unit_counts_and_geographic_spread",
   "next_steps": [
-    "Expand DC DLCP search beyond 24 firms",
-    "Search additional state DPOR databases",
-    "Research unit counts for each firm",
-    "Calculate geographic distribution",
-    "Research industry supervision standards",
-    "Create impossibility analysis",
-    "Compile comprehensive matrix"
+    "expand_dc_dlcp_search_beyond_24_firms",
+    "search_additional_state_dpor_databases",
+    "research_unit_counts_for_each_firm",
+    "calculate_geographic_distribution",
+    "research_industry_supervision_standards",
+    "create_impossibility_analysis",
+    "compile_comprehensive_matrix"
   ],
   "metadata": {
     "file_name": "skidmore_firm_supervision_capacity.json",
     "file_path": "research/va_dpor_complaint/skidmore_firm_supervision_capacity.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

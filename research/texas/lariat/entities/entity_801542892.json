@@ -1,55 +1,55 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.280528",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_801542892.json",
+    "created": "2025_12_11t00:21:41.280528",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_801542892.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "801542892",
-    "entity_type": "Domestic Limited Liability Company (LLC)",
-    "original_date_of_filing": "April 30, 2025",
-    "entity_status": "In existence",
+    "entity_type": "domestic_limited_liability_company_(llc)",
+    "original_date_of_filing": "april_30,_2025",
+    "entity_status": "in_existence",
     "formation_date": null,
     "tax_id": "32099994678",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "Bozzuto Contracting TX, LLC",
-    "address": "6406 IVY LN STE 700\nGREENBELT, MD 20770-1435 USA",
-    "jurisdiction": "MD, USA",
+    "duration": "perpetual",
+    "name": "bozzuto_contracting_tx,_llc",
+    "address": "6406_ivy_ln_ste_700_greenbelt,_md_20770_1435_usa",
+    "jurisdiction": "md,_usa",
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": null,
     "filing_history": [
       {
         "document_number": "1476558470002",
-        "filing_type": "Certificate of Formation",
-        "filing_date": "April 30, 2025",
-        "effective_date": "April 30, 2025",
-        "eff_cond": "No",
-        "page_count": "N/A"
+        "filing_type": "certificate_of_formation",
+        "filing_date": "april_30,_2025",
+        "effective_date": "april_30,_2025",
+        "eff_cond": "no",
+        "page_count": "n/a"
       }
     ],
     "names": [],
     "management": [
       {
-        "last_update": "March 2, 2022",
-        "name": "CAPREIT OPERATING LIMITED P",
-        "title": "MEMBER",
-        "address": "6116 EXECUTIVE BLVD STE 100"
+        "last_update": "march_2,_2022",
+        "name": "capreit_operating_limited_p",
+        "title": "member",
+        "address": "6116_executive_blvd_ste_100"
       },
       {
-        "last_update": "iling Number:",
+        "last_update": "iling_number:",
         "name": "806015816",
-        "title": "Entity Type:",
-        "address": "Domestic Limited Liability Company (LLC)"
+        "title": "entity_type:",
+        "address": "domestic_limited_liability_company_(llc)"
       }
     ],
     "assumed_names": [],
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 801542892 | entity_type: Domestic Limited Liability Company (LLC) | original_date_of_filing: April 30, 2025 | entity_status: In existence | tax_id: 32099994678 | duration: Perpetual | name: Bozzuto Contracting TX, LLC | address: 6406 IVY LN STE 700\nGREENBELT, MD 20770-1435 USA | jurisdiction: MD, USA | filing_history: 1 items | management: 2 items",
+  "text_representation": "filing_number:_801542892_|_entity_type:_domestic_limited_liability_company_(llc)_|_original_date_of_filing:_april_30,_2025_|_entity_status:_in_existence_|_tax_id:_32099994678_|_duration:_perpetual_|_name:_bozzuto_contracting_tx,_llc_|_address:_6406_ivy_ln_ste_700_greenbelt,_md_20770_1435_usa_|_jurisdiction:_md,_usa_|_filing_history:_1_items_|_management:_2_items",
   "embedding": [
     -0.05050521716475487,
     0.014939278364181519,

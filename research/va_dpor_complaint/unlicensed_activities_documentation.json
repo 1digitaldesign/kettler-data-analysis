@@ -1,219 +1,219 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 3.2: Scope of Unlicensed Activities",
-  "objective": "Document specific real estate activities conducted without licenses",
+  "research_date": "2025_12_09",
+  "priority": "priority_3.2:_scope_of_unlicensed_activities",
+  "objective": "document_specific_real_estate_activities_conducted_without_licenses",
   "activities_documented": [
     {
-      "activity_type": "Lease Termination",
-      "personnel": "Edward Hyland",
-      "date": "2025-12-06",
-      "description": "Denied reasonable accommodation request and sent lease termination notice",
+      "activity_type": "lease_termination",
+      "personnel": "edward_hyland",
+      "date": "2025_12_06",
+      "description": "denied_reasonable_accommodation_request_and_sent_lease_termination_notice",
       "evidence": [
-        "Kettler denial email (12/6/25 - Edward Hyland)",
-        "Lease termination documents",
-        "Email: ehyland@kettler.com"
+        "kettler_denial_email_(12/6/25_edward_hyland)",
+        "lease_termination_documents",
+        "email:_ehyland@kettler.com"
       ],
-      "violation": "Unlicensed person making lease decisions affecting tenancy",
-      "legal_basis": "18 VAC 135-20-165 defines licensed vs. unlicensed activities"
+      "violation": "unlicensed_person_making_lease_decisions_affecting_tenancy",
+      "legal_basis": "18_vac_135_20_165_defines_licensed_vs._unlicensed_activities"
     },
     {
-      "activity_type": "Reasonable Accommodation Decision",
-      "personnel": "Edward Hyland",
-      "date": "2025-12-06",
-      "description": "Denied reasonable accommodation request, stating requirements for interactive process",
+      "activity_type": "reasonable_accommodation_decision",
+      "personnel": "edward_hyland",
+      "date": "2025_12_06",
+      "description": "denied_reasonable_accommodation_request,_stating_requirements_for_interactive_process",
       "evidence": [
-        "Kettler denial email",
-        "Legal terminology used (ADA, FHA, Fair Housing Act)"
+        "kettler_denial_email",
+        "legal_terminology_used_(ada,_fha,_fair_housing_act)"
       ],
-      "violation": "Unlicensed person making legal determinations about accommodation requests",
-      "legal_basis": "18 VAC 135-20-165"
+      "violation": "unlicensed_person_making_legal_determinations_about_accommodation_requests",
+      "legal_basis": "18_vac_135_20_165"
     },
     {
-      "activity_type": "Property Management",
-      "personnel": "Edward Hyland",
+      "activity_type": "property_management",
+      "personnel": "edward_hyland",
       "properties": [
-        "800 Carlyle Apartments, Alexandria VA",
-        "Sinclaire on Seminary, Alexandria VA"
+        "800_carlyle_apartments,_alexandria_va",
+        "sinclaire_on_seminary,_alexandria_va"
       ],
-      "description": "Senior Regional Manager overseeing multiple properties",
+      "description": "senior_regional_manager_overseeing_multiple_properties",
       "evidence": [
-        "LinkedIn profile",
-        "Email correspondence",
-        "Property management activities"
+        "linkedin_profile",
+        "email_correspondence",
+        "property_management_activities"
       ],
-      "violation": "Unlicensed person conducting property management activities",
-      "legal_basis": "18 VAC 135-20-165"
+      "violation": "unlicensed_person_conducting_property_management_activities",
+      "legal_basis": "18_vac_135_20_165"
     }
   ],
   "activities_to_research": [
     {
-      "activity_type": "Lease Signings",
+      "activity_type": "lease_signings",
       "personnel": [
-        "Djene Moyer",
-        "Edward Hyland",
-        "Other unlicensed staff"
+        "djene_moyer",
+        "edward_hyland",
+        "other_unlicensed_staff"
       ],
       "status": "documented",
       "evidence_sources": [
-        "Lease documents (tenant records)",
-        "Property management software records",
-        "Tenant testimony"
+        "lease_documents_(tenant_records)",
+        "property_management_software_records",
+        "tenant_testimony"
       ],
-      "note": "Unlicensed personnel conducting lease activities violates 18 VAC 135-20-165"
+      "note": "unlicensed_personnel_conducting_lease_activities_violates_18_vac_135_20_165"
     },
     {
-      "activity_type": "Lease Terminations/Notices",
+      "activity_type": "lease_terminations/notices",
       "personnel": [
-        "Edward Hyland",
-        "Djene Moyer",
-        "Other unlicensed staff"
+        "edward_hyland",
+        "djene_moyer",
+        "other_unlicensed_staff"
       ],
       "status": "documented",
       "evidence_found": [
-        "Edward Hyland lease termination notice (12/6/25)",
-        "Edward Hyland reasonable accommodation denial (12/6/25)"
+        "edward_hyland_lease_termination_notice_(12/6/25)",
+        "edward_hyland_reasonable_accommodation_denial_(12/6/25)"
       ],
       "additional_evidence_needed": [
-        "Other termination notices",
-        "Eviction notices",
-        "Lease violation notices"
+        "other_termination_notices",
+        "eviction_notices",
+        "lease_violation_notices"
       ],
-      "violation": "Unlicensed personnel making lease decisions"
+      "violation": "unlicensed_personnel_making_lease_decisions"
     },
     {
-      "activity_type": "Property Showings",
+      "activity_type": "property_showings",
       "personnel": [
-        "Djene Moyer",
-        "Other unlicensed staff"
+        "djene_moyer",
+        "other_unlicensed_staff"
       ],
       "status": "documented",
       "evidence_sources": [
-        "Property showing records",
-        "Tenant testimony",
-        "Application records"
+        "property_showing_records",
+        "tenant_testimony",
+        "application_records"
       ],
-      "note": "Unlicensed personnel conducting property showings violates 18 VAC 135-20-165"
+      "note": "unlicensed_personnel_conducting_property_showings_violates_18_vac_135_20_165"
     },
     {
-      "activity_type": "Rent Collection",
+      "activity_type": "rent_collection",
       "personnel": [
-        "Djene Moyer",
-        "Other unlicensed staff"
+        "djene_moyer",
+        "other_unlicensed_staff"
       ],
       "status": "documented",
       "evidence_sources": [
-        "Rent payment records",
-        "Collection notices",
-        "Financial records"
+        "rent_payment_records",
+        "collection_notices",
+        "financial_records"
       ],
-      "note": "Unlicensed personnel collecting rents violates 18 VAC 135-20-165"
+      "note": "unlicensed_personnel_collecting_rents_violates_18_vac_135_20_165"
     },
     {
-      "activity_type": "Maintenance/Repair Decisions Affecting Tenancy",
+      "activity_type": "maintenance/repair_decisions_affecting_tenancy",
       "personnel": [
-        "Edward Hyland",
-        "Djene Moyer",
-        "Other unlicensed staff"
+        "edward_hyland",
+        "djene_moyer",
+        "other_unlicensed_staff"
       ],
       "status": "documented",
       "evidence_sources": [
-        "Maintenance request records",
-        "Work order decisions",
-        "Tenant complaints about maintenance"
+        "maintenance_request_records",
+        "work_order_decisions",
+        "tenant_complaints_about_maintenance"
       ],
-      "note": "Unlicensed personnel making maintenance decisions affecting tenancy violates 18 VAC 135-20-165"
+      "note": "unlicensed_personnel_making_maintenance_decisions_affecting_tenancy_violates_18_vac_135_20_165"
     }
   ],
   "chronological_list": {
     "status": "expanded",
     "activities": [
       {
-        "date": "2025-12-06",
-        "personnel": "Edward Hyland",
-        "activity": "Denied reasonable accommodation request",
-        "evidence": "Email correspondence",
-        "violation": "Unlicensed person making legal determinations",
-        "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
+        "date": "2025_12_06",
+        "personnel": "edward_hyland",
+        "activity": "denied_reasonable_accommodation_request",
+        "evidence": "email_correspondence",
+        "violation": "unlicensed_person_making_legal_determinations",
+        "license_status": "confirmed_unlicensed_in_va,_tx,_md,_dc,_nc"
       },
       {
-        "date": "2025-12-06",
-        "personnel": "Edward Hyland",
-        "activity": "Sent lease termination notice",
-        "evidence": "Lease termination documents",
-        "violation": "Unlicensed person making lease decisions",
-        "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
+        "date": "2025_12_06",
+        "personnel": "edward_hyland",
+        "activity": "sent_lease_termination_notice",
+        "evidence": "lease_termination_documents",
+        "violation": "unlicensed_person_making_lease_decisions",
+        "license_status": "confirmed_unlicensed_in_va,_tx,_md,_dc,_nc"
       },
       {
-        "date": "2022-09 to present",
-        "personnel": "Edward Hyland",
-        "activity": "Property management oversight",
+        "date": "2022_09_to_present",
+        "personnel": "edward_hyland",
+        "activity": "property_management_oversight",
         "properties": [
-          "800 Carlyle Apartments",
-          "Sinclaire on Seminary"
+          "800_carlyle_apartments",
+          "sinclaire_on_seminary"
         ],
-        "evidence": "LinkedIn profile, email correspondence, property management activities",
-        "violation": "Unlicensed person conducting property management activities",
-        "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
+        "evidence": "linkedin_profile,_email_correspondence,_property_management_activities",
+        "violation": "unlicensed_person_conducting_property_management_activities",
+        "license_status": "confirmed_unlicensed_in_va,_tx,_md,_dc,_nc"
       },
       {
-        "date": "Ongoing",
+        "date": "ongoing",
         "personnel": [
-          "Robert Grealy",
-          "Amy Groff",
-          "Tracy Fones"
+          "robert_grealy",
+          "amy_groff",
+          "tracy_fones"
         ],
-        "activity": "Operations management and oversight",
-        "scope": "28,000+ units (Grealy), 11,000+ units (Groff), VA properties (Fones)",
-        "violation": "Unlicensed personnel supervising unlicensed personnel",
-        "license_status": "All confirmed unlicensed in VA, TX, MD, DC, NC"
+        "activity": "operations_management_and_oversight",
+        "scope": "28,000+_units_(grealy),_11,000+_units_(groff),_va_properties_(fones)",
+        "violation": "unlicensed_personnel_supervising_unlicensed_personnel",
+        "license_status": "all_confirmed_unlicensed_in_va,_tx,_md,_dc,_nc"
       },
       {
-        "date": "Ongoing",
-        "personnel": "Djene Moyer",
-        "activity": "On-site property management, lease administration",
-        "property": "800 Carlyle Apartments",
-        "violation": "Unlicensed person conducting real estate activities",
-        "license_status": "Confirmed unlicensed in VA, TX, MD, DC, NC"
+        "date": "ongoing",
+        "personnel": "djene_moyer",
+        "activity": "on_site_property_management,_lease_administration",
+        "property": "800_carlyle_apartments",
+        "violation": "unlicensed_person_conducting_real_estate_activities",
+        "license_status": "confirmed_unlicensed_in_va,_tx,_md,_dc,_nc"
       }
     ]
   },
   "legal_basis": {
-    "regulation": "18 VAC 135-20-165",
-    "title": "Defines licensed vs. unlicensed activities in property management",
+    "regulation": "18_vac_135_20_165",
+    "title": "defines_licensed_vs._unlicensed_activities_in_property_management",
     "licensed_activities": [
-      "Negotiating leases",
-      "Collecting rents",
-      "Managing properties",
-      "Making lease decisions"
+      "negotiating_leases",
+      "collecting_rents",
+      "managing_properties",
+      "making_lease_decisions"
     ],
-    "unlicensed_activities": "Conducting any of the above without a valid real estate license"
+    "unlicensed_activities": "conducting_any_of_the_above_without_a_valid_real_estate_license"
   },
-  "deliverable": "Chronological list of specific unlicensed activities with evidence",
+  "deliverable": "chronological_list_of_specific_unlicensed_activities_with_evidence",
   "summary": {
     "total_personnel_documented": 5,
     "all_confirmed_unlicensed": true,
     "activities_documented": [
-      "Lease terminations",
-      "Reasonable accommodation denials",
-      "Property management oversight",
-      "Operations management",
-      "On-site property management"
+      "lease_terminations",
+      "reasonable_accommodation_denials",
+      "property_management_oversight",
+      "operations_management",
+      "on_site_property_management"
     ],
-    "violations_confirmed": "All 5 personnel conducting unlicensed real estate activities"
+    "violations_confirmed": "all_5_personnel_conducting_unlicensed_real_estate_activities"
   },
   "next_steps": [
-    "Review all lease documents for unlicensed signatories",
-    "Review all email correspondence for unlicensed activities",
-    "Collect tenant testimony about unlicensed activities",
-    "Review property management software records (if accessible)",
-    "Compile chronological list with evidence",
-    "Categorize by activity type and personnel"
+    "review_all_lease_documents_for_unlicensed_signatories",
+    "review_all_email_correspondence_for_unlicensed_activities",
+    "collect_tenant_testimony_about_unlicensed_activities",
+    "review_property_management_software_records_(if_accessible)",
+    "compile_chronological_list_with_evidence",
+    "categorize_by_activity_type_and_personnel"
   ],
   "metadata": {
     "file_name": "unlicensed_activities_documentation.json",
     "file_path": "research/va_dpor_complaint/unlicensed_activities_documentation.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

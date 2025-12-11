@@ -1,44 +1,44 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "state": "Maryland",
-    "search_url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_Search/OP_search.cgi?calling_app=RE::RE_personal_name",
+    "date": "2025_12_07",
+    "state": "md",
+    "search_url": "https://www.dllr.state.md.us/cgi_bin/electroniclicensing/op_search/op_search.cgi?calling_app=re::re_personal_name",
     "status": "batch_1_completed",
-    "method": "Playwright browser automation"
+    "method": "playwright_browser_automation"
   },
   "searches": {
     "edward_hyland": {
-      "name": "Edward Hyland",
+      "name": "edward_hyland",
       "search_executed": true,
       "results_found": "checking",
-      "note": "Search completed - results extracted"
+      "note": "search_completed_results_extracted"
     },
     "robert_kettler": {
-      "name": "Robert Kettler",
+      "name": "robert_kettler",
       "search_executed": true,
       "results_found": "checking",
-      "note": "Search completed - results extracted"
+      "note": "search_completed_results_extracted"
     },
     "caitlin_skidmore": {
-      "name": "Caitlin Skidmore",
+      "name": "caitlin_skidmore",
       "search_executed": true,
       "results_found": "checking",
-      "note": "Search completed - results extracted"
+      "note": "search_completed_results_extracted"
     }
   },
   "remaining_searches": [
-    "Cindy Fisher",
-    "Luke Davis",
-    "Pat Cassada",
-    "Sean Curtin",
-    "Amy Groff",
-    "Robert Grealy",
-    "Djene Moyer",
-    "Henry Ramos",
-    "Kristina Thoummarath",
-    "Christina Chang",
-    "Todd Bowen",
-    "Jeffrey Williams"
+    "cindy_fisher",
+    "luke_davis",
+    "pat_cassada",
+    "sean_curtin",
+    "amy_groff",
+    "robert_grealy",
+    "djene_moyer",
+    "henry_ramos",
+    "kristina_thoummarath",
+    "christina_chang",
+    "todd_bowen",
+    "jeffrey_williams"
   ],
-  "next_batch": "Batch 2: Cindy Fisher, Luke Davis, Pat Cassada"
+  "next_batch": "batch_2:_cindy_fisher,_luke_davis,_pat_cassada"
 }

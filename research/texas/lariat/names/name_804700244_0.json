@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.613810",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_804700244_0.json",
+    "created": "2025_12_11t00:21:40.613810",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_804700244_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "Kettler Land Management LLC",
-    "name_status": "Inactive",
-    "name_type": "Legal",
-    "name_inactive_date": "February 23, 2024",
+    "name": "kettler_land_management_llc",
+    "name_status": "inactive",
+    "name_type": "legal",
+    "name_inactive_date": "february_23,_2024",
     "consent_filing_number": null
   },
-  "text_representation": "name: Kettler Land Management LLC | name_status: Inactive | name_type: Legal | name_inactive_date: February 23, 2024",
+  "text_representation": "name:_kettler_land_management_llc_|_name_status:_inactive_|_name_type:_legal_|_name_inactive_date:_february_23,_2024",
   "embedding": [
     -0.03265564516186714,
     -0.02044234238564968,

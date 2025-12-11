@@ -1,6 +1,6 @@
 {
   "extraction_date": [
-    "2025-12-07"
+    "2025_12_07"
   ],
   "total_pdfs": [
     14
@@ -31,35 +31,35 @@
   "key_findings": {
     "kettler_email_addresses": [
       "ehyland@kettler.com",
-      "Carlyle.PM@kettler.com",
-      "Ehyland@kettler.com",
       "carlyle.pm@kettler.com",
-      "Carlyle@kettler.com",
-      "Carlyle.APM@kettler.com"
+      "ehyland@kettler.com",
+      "carlyle.pm@kettler.com",
+      "carlyle@kettler.com",
+      "carlyle.apm@kettler.com"
     ],
     "matched_addresses": [
       {
-        "address": "8255 Greensboro Drive #200, McLean, VA 22102",
-        "Firm.Name": "KETTLER MANAGEMENT INC",
+        "address": "8255_greensboro_drive_#200,_mclean,_va_22102",
+        "Firm.Name": "kettler_management_inc",
         "License.Number": 226025311,
-        "License.Type": "Real Estate Firm License",
-        "Firm.Type": "Corporation",
-        "Address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
-        "Initial.Cert.Date": "2014-10-31",
-        "Expiration.Date": "2026-10-31",
-        "Principal.Broker": "SKIDMORE CAITLIN MARIE",
-        "Skidmore.License.Date": "2025-05-30",
+        "License.Type": "real_estate_firm_license",
+        "Firm.Type": "corporation",
+        "Address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
+        "Initial.Cert.Date": "2014_10_31",
+        "Expiration.Date": "2026_10_31",
+        "Principal.Broker": "skidmore_caitlin_marie",
+        "Skidmore.License.Date": "2025_05_30",
         "Gap.Years": "11",
-        "Notes": "11-year gap; VA address"
+        "Notes": "11_year_gap;_va_address"
       }
     ]
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "all_evidence_summary.json",
     "file_path": "research/analysis/all_evidence_summary.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2025-12-11T01:48:09.824281",
+    "generated": "2025_12_11t01:48:09.824281",
     "sources": [
       "embeddings",
       "raw_text",
@@ -34,7 +34,7 @@
       "mean": 0.5
     },
     "anomalies_detected": 2,
-    "risk_level": "HIGH"
+    "risk_level": "high"
   },
   "detailed_findings": {
     "violations_by_entity": {
@@ -42,70 +42,70 @@
         {
           "type": "tax_forfeitures",
           "violation": {
-            "violation_type": "Tax Forfeiture",
-            "severity": "HIGH",
+            "violation_type": "tax_forfeiture",
+            "severity": "high",
             "document_number": "465240542917",
-            "filing_date": "2013-02-08T00:00:00",
-            "effective_date": "2013-02-08T00:00:00",
-            "entity_name": "Lariat Realty Advisors, Inc.",
+            "filing_date": "2013_02_08t00:00:00",
+            "effective_date": "2013_02_08t00:00:00",
+            "entity_name": "lariat_realty_advisors,_inc.",
             "filing_number": "801459833",
-            "description": "Tax forfeiture for Lariat Realty Advisors, Inc. on February 8, 2013"
+            "description": "tax_forfeiture_for_lariat_realty_advisors,_inc._on_february_8,_2013"
           }
         },
         {
           "type": "filing_violations",
           "violation": {
-            "violation_type": "Late Filing",
-            "severity": "MEDIUM",
-            "entity_name": "Lariat Realty Advisors, Inc.",
+            "violation_type": "late_filing",
+            "severity": "medium",
+            "entity_name": "lariat_realty_advisors,_inc.",
             "filing_number": "801459833",
-            "filing_type": "Public Information Report (PIR)",
-            "filing_date": "2018-12-31T00:00:00",
-            "effective_date": "2018-10-21T00:00:00",
+            "filing_type": "public_information_report_(pir)",
+            "filing_date": "2018_12_31t00:00:00",
+            "effective_date": "2018_10_21t00:00:00",
             "days_late": 71,
-            "description": "Late filing: 71 days after effective date"
+            "description": "late_filing:_71_days_after_effective_date"
           }
         },
         {
           "type": "filing_violations",
           "violation": {
-            "violation_type": "Late Filing",
-            "severity": "MEDIUM",
-            "entity_name": "Lariat Realty Advisors, Inc.",
+            "violation_type": "late_filing",
+            "severity": "medium",
+            "entity_name": "lariat_realty_advisors,_inc.",
             "filing_number": "801459833",
-            "filing_type": "Public Information Report (PIR)",
-            "filing_date": "2019-12-31T00:00:00",
-            "effective_date": "2019-08-20T00:00:00",
+            "filing_type": "public_information_report_(pir)",
+            "filing_date": "2019_12_31t00:00:00",
+            "effective_date": "2019_08_20t00:00:00",
             "days_late": 133,
-            "description": "Late filing: 133 days after effective date"
+            "description": "late_filing:_133_days_after_effective_date"
           }
         },
         {
           "type": "filing_violations",
           "violation": {
-            "violation_type": "Late Filing",
-            "severity": "MEDIUM",
-            "entity_name": "Lariat Realty Advisors, Inc.",
+            "violation_type": "late_filing",
+            "severity": "medium",
+            "entity_name": "lariat_realty_advisors,_inc.",
             "filing_number": "801459833",
-            "filing_type": "Public Information Report (PIR)",
-            "filing_date": "2021-12-31T00:00:00",
-            "effective_date": "2021-10-13T00:00:00",
+            "filing_type": "public_information_report_(pir)",
+            "filing_date": "2021_12_31t00:00:00",
+            "effective_date": "2021_10_13t00:00:00",
             "days_late": 79,
-            "description": "Late filing: 79 days after effective date"
+            "description": "late_filing:_79_days_after_effective_date"
           }
         },
         {
           "type": "filing_violations",
           "violation": {
-            "violation_type": "Late Filing",
-            "severity": "MEDIUM",
-            "entity_name": "Lariat Realty Advisors, Inc.",
+            "violation_type": "late_filing",
+            "severity": "medium",
+            "entity_name": "lariat_realty_advisors,_inc.",
             "filing_number": "801459833",
-            "filing_type": "Public Information Report (PIR)",
-            "filing_date": "2024-12-31T00:00:00",
-            "effective_date": "2024-09-25T00:00:00",
+            "filing_type": "public_information_report_(pir)",
+            "filing_date": "2024_12_31t00:00:00",
+            "effective_date": "2024_09_25t00:00:00",
             "days_late": 97,
-            "description": "Late filing: 97 days after effective date"
+            "description": "late_filing:_97_days_after_effective_date"
           }
         }
       ],
@@ -113,26 +113,26 @@
         {
           "type": "tax_forfeitures",
           "violation": {
-            "violation_type": "Tax Forfeiture",
-            "severity": "HIGH",
+            "violation_type": "tax_forfeiture",
+            "severity": "high",
             "document_number": null,
             "filing_date": null,
-            "effective_date": "2000-02-11T00:00:00",
-            "entity_name": "WAYNE EATON, INC.",
+            "effective_date": "2000_02_11t00:00:00",
+            "entity_name": "wayne_eaton,_inc.",
             "filing_number": "60550300",
-            "description": "Tax forfeiture for WAYNE EATON, INC. on February 11, 2000"
+            "description": "tax_forfeiture_for_wayne_eaton,_inc._on_february_11,_2000"
           }
         },
         {
           "type": "forfeited_entities",
           "violation": {
-            "violation_type": "Forfeited Existence",
-            "severity": "HIGH",
-            "entity_name": "WAYNE EATON, INC.",
+            "violation_type": "forfeited_existence",
+            "severity": "high",
+            "entity_name": "wayne_eaton,_inc.",
             "filing_number": "60550300",
-            "status": "Forfeited existence",
-            "original_filing_date": "1982-04-26T00:00:00",
-            "description": "Entity WAYNE EATON, INC. has forfeited existence status"
+            "status": "forfeited_existence",
+            "original_filing_date": "1982_04_26t00:00:00",
+            "description": "entity_wayne_eaton,_inc._has_forfeited_existence_status"
           }
         }
       ],
@@ -140,13 +140,13 @@
         {
           "type": "forfeited_entities",
           "violation": {
-            "violation_type": "Forfeited Existence",
-            "severity": "HIGH",
-            "entity_name": "Kettler Land Management LLC",
+            "violation_type": "forfeited_existence",
+            "severity": "high",
+            "entity_name": "kettler_land_management_llc",
             "filing_number": "804700244",
-            "status": "Forfeited existence",
-            "original_filing_date": "2022-08-24T00:00:00",
-            "description": "Entity Kettler Land Management LLC has forfeited existence status"
+            "status": "forfeited_existence",
+            "original_filing_date": "2022_08_24t00:00:00",
+            "description": "entity_kettler_land_management_llc_has_forfeited_existence_status"
           }
         }
       ],
@@ -154,13 +154,13 @@
         {
           "type": "forfeited_entities",
           "violation": {
-            "violation_type": "Forfeited Existence",
-            "severity": "HIGH",
-            "entity_name": "DIVORCE NAVIGATORS, INC.",
+            "violation_type": "forfeited_existence",
+            "severity": "high",
+            "entity_name": "divorce_navigators,_inc.",
             "filing_number": "804058541",
-            "status": "Forfeited existence",
-            "original_filing_date": "2021-05-05T00:00:00",
-            "description": "Entity DIVORCE NAVIGATORS, INC. has forfeited existence status"
+            "status": "forfeited_existence",
+            "original_filing_date": "2021_05_05t00:00:00",
+            "description": "entity_divorce_navigators,_inc._has_forfeited_existence_status"
           }
         }
       ]
@@ -392,12 +392,12 @@
         "kmeans": {
           "n_clusters": 5,
           "silhouette_score": 0.32754517053139914,
-          "interpretation": "K-Means identified 5 distinct tax structure groups"
+          "interpretation": "k_means_identified_5_distinct_tax_structure_groups"
         },
         "dbscan": {
           "n_clusters": 0,
           "n_outliers": 14,
-          "interpretation": "DBSCAN found 0 clusters and 14 outliers"
+          "interpretation": "dbscan_found_0_clusters_and_14_outliers"
         }
       }
     },
@@ -561,12 +561,12 @@
       },
       "seasonal_patterns": {
         "months": [
-          "2000-02",
-          "2013-02",
-          "2018-12",
-          "2019-12",
-          "2021-12",
-          "2024-12"
+          "2000_02",
+          "2013_02",
+          "2018_12",
+          "2019_12",
+          "2021_12",
+          "2024_12"
         ],
         "counts": [
           1,
@@ -611,27 +611,27 @@
     },
     "violation_clusters": [
       {
-        "address": "[ADDRESS NOT PROVIDED]",
+        "address": "[address_not_provided]",
         "entity_count": 4,
         "entities": [
           {
             "entity_id": "46955400",
-            "name": "LARIAT INC. REALTORS",
+            "name": "lariat_inc._realtors",
             "filing_number": "46955400"
           },
           {
             "entity_id": "60550300",
-            "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+            "name": "delta_southern_acceptance_corporation",
             "filing_number": "60550300"
           },
           {
             "entity_id": "18792700",
-            "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+            "name": "delta_southern_acceptance_corporation",
             "filing_number": "18792700"
           },
           {
             "entity_id": "17649900",
-            "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+            "name": "southwest_fabricating_&_welding_co.,_inc.",
             "filing_number": "17649900"
           }
         ],
@@ -643,67 +643,67 @@
         "entities": [
           {
             "entity_id": "805759678",
-            "name": "Lariat Realty Advisors, LLC",
+            "name": "lariat_realty_advisors,_llc",
             "filing_number": "805759678",
             "pattern": []
           },
           {
             "entity_id": "46955400",
-            "name": "LARIAT INC. REALTORS",
+            "name": "lariat_inc._realtors",
             "filing_number": "46955400",
             "pattern": []
           },
           {
             "entity_id": "802331657",
-            "name": "N/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988",
+            "name": "n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
             "filing_number": "802331657",
             "pattern": []
           },
           {
             "entity_id": "805818075",
-            "name": "Frippmore, LLC",
+            "name": "frippmore,_llc",
             "filing_number": "805818075",
             "pattern": []
           },
           {
             "entity_id": "802961755",
-            "name": "SDS Texas Realty, LLC",
+            "name": "sds_texas_realty,_llc",
             "filing_number": "802961755",
             "pattern": []
           },
           {
             "entity_id": "60550300",
-            "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+            "name": "delta_southern_acceptance_corporation",
             "filing_number": "60550300",
             "pattern": []
           },
           {
             "entity_id": "18792700",
-            "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+            "name": "delta_southern_acceptance_corporation",
             "filing_number": "18792700",
             "pattern": []
           },
           {
             "entity_id": "17649900",
-            "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+            "name": "southwest_fabricating_&_welding_co.,_inc.",
             "filing_number": "17649900",
             "pattern": []
           },
           {
             "entity_id": "803790640",
-            "name": "N/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001",
+            "name": "n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001",
             "filing_number": "803790640",
             "pattern": []
           },
           {
             "entity_id": "801542892",
-            "name": "Bozzuto Contracting TX, LLC",
+            "name": "bozzuto_contracting_tx,_llc",
             "filing_number": "801542892",
             "pattern": []
           },
           {
             "entity_id": "129768500",
-            "name": "GABLES RESIDENTIAL SERVICES, INC.",
+            "name": "gables_residential_services,_inc.",
             "filing_number": "129768500",
             "pattern": []
           }
@@ -716,7 +716,7 @@
         "entities": [
           {
             "entity_id": "804700244",
-            "name": "Kettler Land Management LLC",
+            "name": "kettler_land_management_llc",
             "filing_number": "804700244",
             "pattern": [
               "forfeited_status"
@@ -724,7 +724,7 @@
           },
           {
             "entity_id": "804058541",
-            "name": "DIVORCE NAVIGATORS, INC.",
+            "name": "divorce_navigators,_inc.",
             "filing_number": "804058541",
             "pattern": [
               "forfeited_status"
@@ -743,10 +743,10 @@
             "similarity": 0.9276757252940373,
             "entity1_info": {
               "filing_number": "801459833",
-              "name": "Lariat Realty Advisors, Inc.",
-              "address": "4600 FIRESTONE DR FRISCO, TX 75034 USA",
-              "status": "In existence",
-              "registered_agent": "Thoms L Bisanz - 4600 Firestone Drive",
+              "name": "lariat_realty_advisors,_inc.",
+              "address": "4600_firestone_dr_frisco,_tx_75034_usa",
+              "status": "in_existence",
+              "registered_agent": "thoms_l_bisanz_4600_firestone_drive",
               "tax_id": "32044752940",
               "has_tax_forfeiture": true,
               "has_reinstatement": true,
@@ -754,10 +754,10 @@
             },
             "entity2_info": {
               "filing_number": "805759678",
-              "name": "Lariat Realty Advisors, LLC",
-              "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-              "status": "In existence",
-              "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+              "name": "lariat_realty_advisors,_llc",
+              "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+              "status": "in_existence",
+              "registered_agent": "thomas_bisanz_4600_firestone_drive",
               "tax_id": "32097336583",
               "original_id": "lariat_tx_805759678"
             }
@@ -768,24 +768,24 @@
             "similarity": 0.8867110624834238,
             "entity1_info": {
               "filing_number": "60550300",
-              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-              "address": "[ADDRESS NOT PROVIDED]",
-              "status": "Voluntarily terminated",
-              "registered_agent": "C R Skidmore - RT 1 144 RED OAK",
+              "name": "delta_southern_acceptance_corporation",
+              "address": "[address_not_provided]",
+              "status": "voluntarily_terminated",
+              "registered_agent": "c_r_skidmore_rt_1_144_red_oak",
               "tax_id": "00000000000",
               "original_id": "lariat_tx_60550300"
             },
             "entity2_info": {
               "filing_number": "18792700",
-              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-              "address": "[ADDRESS NOT PROVIDED]",
-              "status": "Voluntarily terminated",
+              "name": "delta_southern_acceptance_corporation",
+              "address": "[address_not_provided]",
+              "status": "voluntarily_terminated",
               "tax_id": "00000000000",
               "original_id": "lariat_tx_18792700"
             }
           }
         ],
-        "description": "Entities with very high embedding similarity (>=0.85)"
+        "description": "entities_with_very_high_embedding_similarity_(>=0.85)"
       }
     ],
     "similarity_analysis": {
@@ -796,10 +796,10 @@
           "similarity": 0.9276757252940373,
           "entity1_info": {
             "filing_number": "801459833",
-            "name": "Lariat Realty Advisors, Inc.",
-            "address": "4600 FIRESTONE DR FRISCO, TX 75034 USA",
-            "status": "In existence",
-            "registered_agent": "Thoms L Bisanz - 4600 Firestone Drive",
+            "name": "lariat_realty_advisors,_inc.",
+            "address": "4600_firestone_dr_frisco,_tx_75034_usa",
+            "status": "in_existence",
+            "registered_agent": "thoms_l_bisanz_4600_firestone_drive",
             "tax_id": "32044752940",
             "has_tax_forfeiture": true,
             "has_reinstatement": true,
@@ -807,10 +807,10 @@
           },
           "entity2_info": {
             "filing_number": "805759678",
-            "name": "Lariat Realty Advisors, LLC",
-            "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-            "status": "In existence",
-            "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+            "name": "lariat_realty_advisors,_llc",
+            "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+            "status": "in_existence",
+            "registered_agent": "thomas_bisanz_4600_firestone_drive",
             "tax_id": "32097336583",
             "original_id": "lariat_tx_805759678"
           }
@@ -821,18 +821,18 @@
           "similarity": 0.8867110624834238,
           "entity1_info": {
             "filing_number": "60550300",
-            "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-            "address": "[ADDRESS NOT PROVIDED]",
-            "status": "Voluntarily terminated",
-            "registered_agent": "C R Skidmore - RT 1 144 RED OAK",
+            "name": "delta_southern_acceptance_corporation",
+            "address": "[address_not_provided]",
+            "status": "voluntarily_terminated",
+            "registered_agent": "c_r_skidmore_rt_1_144_red_oak",
             "tax_id": "00000000000",
             "original_id": "lariat_tx_60550300"
           },
           "entity2_info": {
             "filing_number": "18792700",
-            "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-            "address": "[ADDRESS NOT PROVIDED]",
-            "status": "Voluntarily terminated",
+            "name": "delta_southern_acceptance_corporation",
+            "address": "[address_not_provided]",
+            "status": "voluntarily_terminated",
             "tax_id": "00000000000",
             "original_id": "lariat_tx_18792700"
           }
@@ -843,19 +843,19 @@
           "similarity": 0.8178891291244704,
           "entity1_info": {
             "filing_number": "802331657",
-            "name": "N/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988",
-            "address": "1751 Pinnacle Dr, Ste 700 Mclean, VA 22102 USA Fictitious Name: \tN/A Jurisdiction: \tVA, USA Foreign Formation Date: \tMay 20, 1988",
-            "status": "In existence",
-            "registered_agent": "National Registered Agents, Inc. - 1999 Bryan St., Ste. 900",
+            "name": "n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
+            "address": "1751_pinnacle_dr,_ste_700_mclean,_va_22102_usa_fictitious_name:_n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
+            "status": "in_existence",
+            "registered_agent": "national_registered_agents,_inc._1999_bryan_st.,_ste._900",
             "tax_id": "32058814248",
             "original_id": "lariat_tx_802331657"
           },
           "entity2_info": {
             "filing_number": "804700244",
-            "name": "Kettler Land Management LLC",
-            "address": "2812 SAN PEDRO ST AUSTIN, TX 78705-3602 USA",
-            "status": "Forfeited existence",
-            "registered_agent": "United States Corporation Agents, Inc. - 10601 Clarence Dr. Suite 250",
+            "name": "kettler_land_management_llc",
+            "address": "2812_san_pedro_st_austin,_tx_78705_3602_usa",
+            "status": "forfeited_existence",
+            "registered_agent": "united_states_corporation_agents,_inc._10601_clarence_dr._suite_250",
             "tax_id": "32086023994",
             "has_forfeited_status": true,
             "original_id": "lariat_tx_804700244"
@@ -867,19 +867,19 @@
           "similarity": 0.7324269459276435,
           "entity1_info": {
             "filing_number": "805759678",
-            "name": "Lariat Realty Advisors, LLC",
-            "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-            "status": "In existence",
-            "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+            "name": "lariat_realty_advisors,_llc",
+            "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+            "status": "in_existence",
+            "registered_agent": "thomas_bisanz_4600_firestone_drive",
             "tax_id": "32097336583",
             "original_id": "lariat_tx_805759678"
           },
           "entity2_info": {
             "filing_number": "802961755",
-            "name": "SDS Texas Realty, LLC",
-            "address": "5729 LEBANON RD STE 144553 FRISCO, TX 75034-7260 USA",
-            "status": "In existence",
-            "registered_agent": "LEAH DOUTHIT - 5152 Loma Alta Dr.",
+            "name": "sds_texas_realty,_llc",
+            "address": "5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa",
+            "status": "in_existence",
+            "registered_agent": "leah_douthit_5152_loma_alta_dr.",
             "tax_id": "32066517577",
             "original_id": "lariat_tx_802961755"
           }
@@ -890,10 +890,10 @@
           "similarity": 0.7310506873905497,
           "entity1_info": {
             "filing_number": "801459833",
-            "name": "Lariat Realty Advisors, Inc.",
-            "address": "4600 FIRESTONE DR FRISCO, TX 75034 USA",
-            "status": "In existence",
-            "registered_agent": "Thoms L Bisanz - 4600 Firestone Drive",
+            "name": "lariat_realty_advisors,_inc.",
+            "address": "4600_firestone_dr_frisco,_tx_75034_usa",
+            "status": "in_existence",
+            "registered_agent": "thoms_l_bisanz_4600_firestone_drive",
             "tax_id": "32044752940",
             "has_tax_forfeiture": true,
             "has_reinstatement": true,
@@ -901,10 +901,10 @@
           },
           "entity2_info": {
             "filing_number": "46955400",
-            "name": "LARIAT INC. REALTORS",
-            "address": "[ADDRESS NOT PROVIDED]",
-            "status": "Voluntarily terminated",
-            "registered_agent": "Monte B Hartig - 4139 GARDENDALE",
+            "name": "lariat_inc._realtors",
+            "address": "[address_not_provided]",
+            "status": "voluntarily_terminated",
+            "registered_agent": "monte_b_hartig_4139_gardendale",
             "tax_id": "17420431391",
             "original_id": "lariat_tx_46955400"
           }
@@ -915,19 +915,19 @@
           "similarity": 0.7279902976137175,
           "entity1_info": {
             "filing_number": "805759678",
-            "name": "Lariat Realty Advisors, LLC",
-            "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-            "status": "In existence",
-            "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+            "name": "lariat_realty_advisors,_llc",
+            "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+            "status": "in_existence",
+            "registered_agent": "thomas_bisanz_4600_firestone_drive",
             "tax_id": "32097336583",
             "original_id": "lariat_tx_805759678"
           },
           "entity2_info": {
             "filing_number": "46955400",
-            "name": "LARIAT INC. REALTORS",
-            "address": "[ADDRESS NOT PROVIDED]",
-            "status": "Voluntarily terminated",
-            "registered_agent": "Monte B Hartig - 4139 GARDENDALE",
+            "name": "lariat_inc._realtors",
+            "address": "[address_not_provided]",
+            "status": "voluntarily_terminated",
+            "registered_agent": "monte_b_hartig_4139_gardendale",
             "tax_id": "17420431391",
             "original_id": "lariat_tx_46955400"
           }
@@ -938,19 +938,19 @@
           "similarity": 0.7138234798613854,
           "entity1_info": {
             "filing_number": "802961755",
-            "name": "SDS Texas Realty, LLC",
-            "address": "5729 LEBANON RD STE 144553 FRISCO, TX 75034-7260 USA",
-            "status": "In existence",
-            "registered_agent": "LEAH DOUTHIT - 5152 Loma Alta Dr.",
+            "name": "sds_texas_realty,_llc",
+            "address": "5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa",
+            "status": "in_existence",
+            "registered_agent": "leah_douthit_5152_loma_alta_dr.",
             "tax_id": "32066517577",
             "original_id": "lariat_tx_802961755"
           },
           "entity2_info": {
             "filing_number": "804058541",
-            "name": "DIVORCE NAVIGATORS, INC.",
-            "address": "2872 BREEZY POINT LN FRISCO, TX 75034-4686 USA",
-            "status": "Forfeited existence",
-            "registered_agent": "HOLLY MCKAY - 2872 Breezy Point Lane",
+            "name": "divorce_navigators,_inc.",
+            "address": "2872_breezy_point_ln_frisco,_tx_75034_4686_usa",
+            "status": "forfeited_existence",
+            "registered_agent": "holly_mckay_2872_breezy_point_lane",
             "tax_id": "32079104280",
             "has_forfeited_status": true,
             "original_id": "lariat_tx_804058541"
@@ -980,24 +980,24 @@
       "high_risk_entities": []
     },
     "visualizations": {
-      "error": "matplotlib not available"
+      "error": "matplotlib_not_available"
     }
   },
   "recommendations": [
     {
-      "priority": "HIGH",
-      "recommendation": "Investigate tax forfeiture events for potential tax evasion",
-      "details": "20 violations identified"
+      "priority": "high",
+      "recommendation": "investigate_tax_forfeiture_events_for_potential_tax_evasion",
+      "details": "20_violations_identified"
     },
     {
-      "priority": "HIGH",
-      "recommendation": "Review ML-detected anomalies for unusual tax structures",
-      "details": "2 anomalies detected by Isolation Forest and LOF"
+      "priority": "high",
+      "recommendation": "review_ml_detected_anomalies_for_unusual_tax_structures",
+      "details": "2_anomalies_detected_by_isolation_forest_and_lof"
     },
     {
-      "priority": "MEDIUM",
-      "recommendation": "Examine DBSCAN outliers for potential shell companies",
-      "details": "14 outliers detected"
+      "priority": "medium",
+      "recommendation": "examine_dbscan_outliers_for_potential_shell_companies",
+      "details": "14_outliers_detected"
     }
   ]
 }

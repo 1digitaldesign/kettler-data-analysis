@@ -1,206 +1,206 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 1.2: Kettler Operations During Gap Period",
+  "research_date": "2025_12_09",
+  "priority": "priority_1.2:_kettler_operations_during_gap_period",
   "gap_period": {
-    "start_date": "2014-10-31",
-    "end_date": "2025-04-03",
+    "start_date": "2014_10_31",
+    "end_date": "2025_04_03",
     "duration_years": 10.5
   },
-  "objective": "Quantify scope of operations without principal broker supervision",
+  "objective": "quantify_scope_of_operations_without_principal_broker_supervision",
   "data_collection_status": "in_progress",
   "virginia_properties": {
     "known_properties": [
       {
-        "property_name": "800 Carlyle Apartments",
-        "address": "800 John Carlyle Street, Alexandria, VA 22314",
-        "jurisdiction": "City of Alexandria",
+        "property_name": "800_carlyle_apartments",
+        "address": "800_john_carlyle_street,_alexandria,_va_22314",
+        "jurisdiction": "city_of_alexandria",
         "units": 280,
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
         "amenities": [
-          "Fitness center",
-          "Swimming pool with sundeck",
-          "Clubroom",
-          "Game room",
-          "Resident lounge",
-          "Underground garage parking"
+          "fitness_center",
+          "swimming_pool_with_sundeck",
+          "clubroom",
+          "game_room",
+          "resident_lounge",
+          "underground_garage_parking"
         ],
-        "location": "Near U.S. Patent and Trademark Office, walking distance to King Street and Eisenhower Metro stations",
+        "location": "near_u.s._patent_and_trademark_office,_walking_distance_to_king_street_and_eisenhower_metro_stations",
         "evidence_sources": [
-          "Lease termination documents",
-          "Email correspondence (Carlyle.PM@kettler.com)",
-          "Kettler.com property listing",
-          "Google Maps"
+          "lease_termination_documents",
+          "email_correspondence_(carlyle.pm@kettler.com)",
+          "kettler.com_property_listing",
+          "google_maps"
         ],
         "reviews": {
           "status": "mixed",
-          "note": "Rated 5 stars 2016-2022, decline around 2023, current manager Djene and Eddy mentioned",
-          "source": "Birdeye reviews"
+          "note": "rated_5_stars_2016_2022,_decline_around_2023,_current_manager_djene_and_eddy_mentioned",
+          "source": "birdeye_reviews"
         }
       },
       {
-        "property_name": "850 Carlyle Apartments",
-        "address": "850 John Carlyle Street, Alexandria, VA 22314",
-        "jurisdiction": "City of Alexandria",
+        "property_name": "850_carlyle_apartments",
+        "address": "850_john_carlyle_street,_alexandria,_va_22314",
+        "jurisdiction": "city_of_alexandria",
         "units": "unknown",
-        "note": "May be part of same complex as 800 Carlyle or adjacent building",
+        "note": "may_be_part_of_same_complex_as_800_carlyle_or_adjacent_building",
         "management_start": "unknown",
         "management_end": "present",
         "verified": false,
         "evidence_sources": [
-          "Short-term rental listings",
-          "Evidence files",
-          "Property records search"
+          "short_term_rental_listings",
+          "evidence_files",
+          "property_records_search"
         ]
       },
       {
-        "property_name": "Sinclaire on Seminary",
-        "address": "4900 Seminary Road, Alexandria, VA 22311",
-        "jurisdiction": "City of Alexandria",
+        "property_name": "sinclaire_on_seminary",
+        "address": "4900_seminary_road,_alexandria,_va_22311",
+        "jurisdiction": "city_of_alexandria",
         "units": "unknown",
         "management_start": "unknown",
         "management_end": "present",
-        "manager": "Edward Hyland (unlicensed)",
+        "manager": "edward_hyland_(unlicensed)",
         "verified": true,
         "evidence_sources": [
-          "LinkedIn posts by Edward Hyland",
-          "Property management records",
-          "Google Maps"
+          "linkedin_posts_by_edward_hyland",
+          "property_management_records",
+          "google_maps"
         ]
       },
       {
-        "property_name": "The Fields of Arlington",
-        "address": "5100 8th Road South, Arlington, VA 22204",
-        "jurisdiction": "Arlington County",
+        "property_name": "the_fields_of_arlington",
+        "address": "5100_8th_road_south,_arlington,_va_22204",
+        "jurisdiction": "arlington_county",
         "units": 199,
         "unit_types": [
-          "Efficiency",
-          "1-bedroom",
-          "2-bedroom",
-          "3-bedroom"
+          "efficiency",
+          "1_bedroom",
+          "2_bedroom",
+          "3_bedroom"
         ],
-        "rent_range": "$1,624 to $2,485",
-        "utilities": "All utilities included",
+        "rent_range": "$1,624_to_$2,485",
+        "utilities": "all_utilities_included",
         "amenities": [
-          "Free parking lot"
+          "free_parking_lot"
         ],
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
         "evidence_sources": [
-          "Arlington County affordable housing documents",
-          "AHC partnership announcement (September 2025)",
-          "Arlington County Housing Indicators CAF Inventory"
+          "arlington_county_affordable_housing_documents",
+          "ahc_partnership_announcement_(september_2025)",
+          "arlington_county_housing_indicators_caf_inventory"
         ]
       },
       {
-        "property_name": "Garfield Park",
-        "address": "Arlington, VA",
-        "jurisdiction": "Arlington County",
+        "property_name": "garfield_park",
+        "address": "arlington,_va",
+        "jurisdiction": "arlington_county",
         "units": "unknown",
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
         "evidence_sources": [
-          "Arlington County documents"
+          "arlington_county_documents"
         ]
       },
       {
-        "property_name": "Acadia at Metropolitan Park",
-        "address": "Arlington, VA",
-        "jurisdiction": "Arlington County",
+        "property_name": "acadia_at_metropolitan_park",
+        "address": "arlington,_va",
+        "jurisdiction": "arlington_county",
         "units": "unknown",
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
         "evidence_sources": [
-          "Arlington County documents"
+          "arlington_county_documents"
         ]
       },
       {
-        "property_name": "m.flats Crystal City",
-        "address": "Crystal City, Arlington, VA",
-        "jurisdiction": "Arlington County",
+        "property_name": "m.flats_crystal_city",
+        "address": "crystal_city,_arlington,_va",
+        "jurisdiction": "arlington_county",
         "units": 198,
-        "building_type": "11-story high-rise apartment building",
-        "location": "Crystal City neighborhood, near Crystal City Metro",
+        "building_type": "11_story_high_rise_apartment_building",
+        "location": "crystal_city_neighborhood,_near_crystal_city_metro",
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
         "evidence_sources": [
-          "Kettler.com news",
-          "Property listings"
+          "kettler.com_news",
+          "property_listings"
         ]
       },
       {
-        "property_name": "Highgate at Metropolitan Mile",
-        "address": "Tysons, Fairfax County, VA",
-        "jurisdiction": "Fairfax County",
+        "property_name": "highgate_at_metropolitan_mile",
+        "address": "tysons,_fairfax_county,_va",
+        "jurisdiction": "fairfax_county",
         "units": "unknown",
         "unit_types": [
-          "Studios",
-          "1-bedroom",
-          "2-bedroom"
+          "studios",
+          "1_bedroom",
+          "2_bedroom"
         ],
-        "property_type": "Luxury apartment community",
+        "property_type": "luxury_apartment_community",
         "amenities": [
-          "Rooftop pool terrace",
-          "Zen courtyard"
+          "rooftop_pool_terrace",
+          "zen_courtyard"
         ],
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
         "evidence_sources": [
-          "Kettler.com news"
+          "kettler.com_news"
         ]
       },
       {
-        "property_name": "The Sully at Westfields Apartments",
-        "address": "14400 Glen Manor Drive, Chantilly, Fairfax County, VA",
-        "jurisdiction": "Fairfax County",
+        "property_name": "the_sully_at_westfields_apartments",
+        "address": "14400_glen_manor_drive,_chantilly,_fairfax_county,_va",
+        "jurisdiction": "fairfax_county",
         "units": "unknown",
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
         "evidence_sources": [
-          "Westfields Center website"
+          "westfields_center_website"
         ]
       },
       {
-        "property_name": "Waterside at Reston",
-        "address": "Reston, Fairfax County, VA",
-        "jurisdiction": "Fairfax County",
+        "property_name": "waterside_at_reston",
+        "address": "reston,_fairfax_county,_va",
+        "jurisdiction": "fairfax_county",
         "units": 276,
-        "property_type": "Garden-style community",
-        "location": "Minutes from Reston Town Center and Silver Line Metro",
+        "property_type": "garden_style_community",
+        "location": "minutes_from_reston_town_center_and_silver_line_metro",
         "management_start": "unknown",
         "management_end": "present",
         "verified": true,
         "evidence_sources": [
-          "PR Newswire",
-          "Property listings"
+          "pr_newswire",
+          "property_listings"
         ]
       }
     ],
     "properties_to_research": [
-      "Fairfax County properties",
-      "Additional Arlington County properties",
-      "Other Alexandria properties",
-      "Prince William County properties",
-      "Loudoun County properties"
+      "fairfax_county_properties",
+      "additional_arlington_county_properties",
+      "other_alexandria_properties",
+      "prince_william_county_properties",
+      "loudoun_county_properties"
     ],
     "arlington_county_findings": {
       "fields_of_arlington": {
-        "address": "5100 8th Road South, Arlington, VA 22204",
+        "address": "5100_8th_road_south,_arlington,_va_22204",
         "units": "unknown",
         "verified": true
       },
       "ahc_partnership": {
-        "date": "2025-09",
+        "date": "2025_09",
         "properties": 24,
-        "units": "approximately 3,000 apartments",
-        "significance": "Significant expansion of Kettler portfolio in Arlington"
+        "units": "approximately_3,000_apartments",
+        "significance": "significant_expansion_of_kettler_portfolio_in_arlington"
       }
     }
   },
@@ -208,57 +208,57 @@
     "property_records": {
       "status": "method_verified",
       "jurisdictions": [
-        "City of Alexandria",
-        "Fairfax County",
-        "Arlington County",
-        "Prince William County",
-        "Loudoun County"
+        "city_of_alexandria",
+        "fairfax_county",
+        "arlington_county",
+        "prince_william_county",
+        "loudoun_county"
       ],
       "search_methods": [
-        "Property tax records",
-        "Business license records",
-        "Rental property registrations"
+        "property_tax_records",
+        "business_license_records",
+        "rental_property_registrations"
       ],
       "alexandria": {
-        "tool": "Real Estate Assessment Search",
+        "tool": "real_estate_assessment_search",
         "contact": {
           "email": "realestate@alexandriava.gov",
           "phone": "703.746.4646",
-          "address": "301 King Street, Room 2600, Alexandria, VA 22314"
+          "address": "301_king_street,_room_2600,_alexandria,_va_22314"
         },
-        "note": "Historical records available from 1939 at Alexandria Library Local History/Special Collections"
+        "note": "historical_records_available_from_1939_at_alexandria_library_local_history/special_collections"
       },
       "fairfax_county": {
-        "tool": "Fairfax County Real Estate Assessment Site",
+        "tool": "fairfax_county_real_estate_assessment_site",
         "url": "https://www.fairfaxcounty.gov/taxes/realestate",
-        "note": "Provides unit counts, building characteristics, assessment values"
+        "note": "provides_unit_counts,_building_characteristics,_assessment_values"
       },
       "arlington_county": {
-        "tool": "Arlington County property records",
-        "note": "Unit counts available through property assessment records"
+        "tool": "arlington_county_property_records",
+        "note": "unit_counts_available_through_property_assessment_records"
       }
     },
     "business_license_records": {
       "status": "method_verified",
       "sources": [
-        "Virginia SCC (State Corporation Commission)",
-        "Local business license databases"
+        "virginia_scc_(state_corporation_commission)",
+        "local_business_license_databases"
       ],
-      "note": "Virginia SCC search methods verified. Kettler Management Inc. incorporation date (2014-10-31) already documented. Additional business license searches would require access to local jurisdiction databases."
+      "note": "virginia_scc_search_methods_verified._kettler_management_inc._incorporation_date_(2014_10_31)_already_documented._additional_business_license_searches_would_require_access_to_local_jurisdiction_databases."
     },
     "real_estate_transactions": {
       "status": "method_verified",
       "sources": [
-        "Property management contracts",
-        "Lease transaction records"
+        "property_management_contracts",
+        "lease_transaction_records"
       ],
-      "note": "Property management contracts and lease records would require access to internal company records or discovery in legal proceedings. Property counts (97 properties) and unit counts (22,000+) already verified through public sources."
+      "note": "property_management_contracts_and_lease_records_would_require_access_to_internal_company_records_or_discovery_in_legal_proceedings._property_counts_(97_properties)_and_unit_counts_(22,000+)_already_verified_through_public_sources."
     },
     "corporate_filings": {
       "status": "method_verified",
       "sources": [
-        "Virginia SCC filings",
-        "Delaware SOS filings (if applicable)"
+        "virginia_scc_filings",
+        "delaware_sos_filings_(if_applicable)"
       ]
     }
   },
@@ -273,28 +273,28 @@
       "acadia_metropolitan_park": "unknown",
       "highgate_metropolitan_mile": "unknown",
       "sully_westfields": "unknown",
-      "ahc_partnership_arlington": "approximately 3,000",
+      "ahc_partnership_arlington": "approximately_3,000",
       "total_verified_minimum": 754,
-      "total_with_ahc": "approximately 3,754"
+      "total_with_ahc": "approximately_3,754"
     },
-    "virginia_units_estimate": "3,953+ (minimum verified with AHC partnership)",
+    "virginia_units_estimate": "3,953+_(minimum_verified_with_ahc_partnership)",
     "properties_managed_verified": 3,
-    "properties_managed_estimate": "97 total (per corporate info), Virginia subset unknown",
-    "lease_transactions_estimate": "unknown - research needed"
+    "properties_managed_estimate": "97_total_(per_corporate_info),_virginia_subset_unknown",
+    "lease_transactions_estimate": "unknown_research_needed"
   },
-  "deliverable": "Spreadsheet of Virginia properties managed during gap period with unit counts",
+  "deliverable": "spreadsheet_of_virginia_properties_managed_during_gap_period_with_unit_counts",
   "next_steps": [
-    "Search Alexandria property records",
-    "Search Fairfax County property records",
-    "Search Arlington County property records",
-    "Search Virginia SCC for Kettler filings",
-    "Compile property list with unit counts"
+    "search_alexandria_property_records",
+    "search_fairfax_county_property_records",
+    "search_arlington_county_property_records",
+    "search_virginia_scc_for_kettler_filings",
+    "compile_property_list_with_unit_counts"
   ],
   "metadata": {
     "file_name": "kettler_operations_gap_period.json",
     "file_path": "research/va_dpor_complaint/kettler_operations_gap_period.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

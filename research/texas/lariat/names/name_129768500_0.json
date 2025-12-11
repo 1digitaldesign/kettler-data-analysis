@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.357004",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_129768500_0.json",
+    "created": "2025_12_11t00:21:41.357004",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_129768500_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "GABLES RESIDENTIAL SERVICES, INC.",
-    "name_status": "In use",
-    "name_type": "Legal",
+    "name": "gables_residential_services,_inc.",
+    "name_status": "in_use",
+    "name_type": "legal",
     "name_inactive_date": null,
     "consent_filing_number": null
   },
-  "text_representation": "name: GABLES RESIDENTIAL SERVICES, INC. | name_status: In use | name_type: Legal",
+  "text_representation": "name:_gables_residential_services,_inc._|_name_status:_in_use_|_name_type:_legal",
   "embedding": [
     -0.0463750846683979,
     0.012661508284509182,

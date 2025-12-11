@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "state": "New York",
-    "search_url": "https://appext20.dos.ny.gov/nydos/searchByName.do",
+    "date": "2025_12_07",
+    "state": "new_york",
+    "search_url": "https://appext20.dos.ny.gov/nydos/searchbyname.do",
     "status": "batch_1_in_progress",
-    "method": "Playwright browser automation",
-    "system": "eAccessNY",
-    "note": "This is the eAccessNY system - searches all license types by name. Real estate brokers/salespersons should appear in results if licensed."
+    "method": "playwright_browser_automation",
+    "system": "eaccessny",
+    "note": "this_is_the_eaccessny_system_searches_all_license_types_by_name._real_estate_brokers/salespersons_should_appear_in_results_if_licensed."
   },
   "searches": {
     "edward_hyland": {
-      "name": "Edward Hyland",
-      "search_type": "Individual",
+      "name": "edward_hyland",
+      "search_type": "individual",
       "search_executed": true,
       "results_found": "checking",
-      "note": "Search completed - checking results"
+      "note": "search_completed_checking_results"
     }
   },
   "remaining_searches": 14,
-  "next_batch": "Continue with remaining employees using Individual search"
+  "next_batch": "continue_with_remaining_employees_using_individual_search"
 }

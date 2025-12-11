@@ -631,12 +631,12 @@
     },
     "seasonal_patterns": {
       "months": [
-        "2000-02",
-        "2013-02",
-        "2018-12",
-        "2019-12",
-        "2021-12",
-        "2024-12"
+        "2000_02",
+        "2013_02",
+        "2018_12",
+        "2019_12",
+        "2021_12",
+        "2024_12"
       ],
       "counts": [
         1,
@@ -696,7 +696,7 @@
     "129768500": 0.5
   },
   "visualizations": {
-    "error": "matplotlib not available"
+    "error": "matplotlib_not_available"
   },
   "feature_normalization": {
     "mean": [
@@ -759,7 +759,7 @@
     "time_series_violations": 6
   },
   "metadata": {
-    "generated": "2025-12-11T01:48:09.717543",
+    "generated": "2025_12_11t01:48:09.717543",
     "source": "ml_tax_structure_analysis.py",
     "ml_libraries": {
       "sklearn": true,

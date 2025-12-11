@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.417147",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_129768500_7.json",
+    "created": "2025_12_11t00:21:41.417147",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_129768500_7.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 29, 2024",
-    "name": "Donna E Summers",
-    "title": "DIRECTOR",
-    "address": "3811 Turtle Creek Blvd Suite 1500"
+    "last_update": "march_29,_2024",
+    "name": "donna_e_summers",
+    "title": "director",
+    "address": "3811_turtle_creek_blvd_suite_1500"
   },
-  "text_representation": "last_update: March 29, 2024 | name: Donna E Summers | title: DIRECTOR | address: 3811 Turtle Creek Blvd Suite 1500",
+  "text_representation": "last_update:_march_29,_2024_|_name:_donna_e_summers_|_title:_director_|_address:_3811_turtle_creek_blvd_suite_1500",
   "embedding": [
     -0.07063190639019012,
     -0.0935480147600174,

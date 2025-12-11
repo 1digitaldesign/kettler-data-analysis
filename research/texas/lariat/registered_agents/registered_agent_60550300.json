@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.886632",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_60550300.json",
+    "created": "2025_12_11t00:21:40.886632",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_60550300.json",
     "has_embedding": true
   },
   "data": {
-    "name": "C R Skidmore",
-    "address": "RT 1 144 RED OAK",
+    "name": "c_r_skidmore",
+    "address": "rt_1_144_red_oak",
     "inactive_date": null
   },
-  "text_representation": "name: C R Skidmore | address: RT 1 144 RED OAK",
+  "text_representation": "name:_c_r_skidmore_|_address:_rt_1_144_red_oak",
   "embedding": [
     -0.03770376369357109,
     -0.013814471662044525,

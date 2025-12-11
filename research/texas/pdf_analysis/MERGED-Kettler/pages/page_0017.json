@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:53:58.562564",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_0017.json",
+    "created": "2025_12_11t00:53:58.562564",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_0017.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 17,
-    "text": "1310210013\nNARIIVIG FHOT NEALCMMOWO\nCRROPOA\nNOSSINCMMIO OITCRRE OPOATAST\nfO (cid:222) hteCceo l ferk\n32021991\n:DI\nfoOFr (cid:222) ceUn seOl y\nRAC\nMicro (cid:222) ype:Tlm\nC ofrpCI orreicton(CR ORp) rovideD CN# :\nypeNN o eteded)TeifctveD aet-Micr ve(OrrideEf\n10/4/13\neifctveD aet:Ef\nAllPa ges:Numbeo r f\nn(Icludinhgtip s age)",
+    "text": "1310210013_nariivig_fhot_nealcmmowo_crropoa_nossincmmio_oitcrre_opoatast_fo_(cid:222)_htecceo_l_ferk_32021991_:di_foofr_(cid:222)_ceun_seol_y_rac_micro_(cid:222)_ype:tlm_c_ofrpci_orreicton(cr_orp)_rovided_cn#_:_ypenn_o_eteded)teifctved_aet_micr_ve(orrideef_10/4/13_eifctved_aet:ef_allpa_ges:numbeo_r_f_n(icludinhgtip_s_age)",
     "char_count": 323,
     "word_count": 46,
     "anomalies": {
       "page_number": 17,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 17 | text: 1310210013\nNARIIVIG FHOT NEALCMMOWO\nCRROPOA\nNOSSINCMMIO OITCRRE OPOATAST\nfO (cid:222) hteCceo l ferk\n32021991\n:DI\nfoOFr (cid:222) ceUn seOl y\nRAC\nMicro (cid:222) ype:Tlm\nC ofrpCI orreicton(CR ORp) rovideD CN# :\nypeNN o eteded)TeifctveD aet-Micr ve(OrrideEf\n10/4/13\neifctveD aet:Ef\nAllPa ges:Numbeo r f\nn(Icludinhgtip s age) | char_count: 323 | word_count: 46 | anomalies: {\"page_number\":17,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_17_|_text:_1310210013_nariivig_fhot_nealcmmowo_crropoa_nossincmmio_oitcrre_opoatast_fo_(cid:222)_htecceo_l_ferk_32021991_:di_foofr_(cid:222)_ceun_seol_y_rac_micro_(cid:222)_ype:tlm_c_ofrpci_orreicton(cr_orp)_rovided_cn#_:_ypenn_o_eteded)teifctved_aet_micr_ve(orrideef_10/4/13_eifctved_aet:ef_allpa_ges:numbeo_r_f_n(icludinhgtip_s_age)_|_char_count:_323_|_word_count:_46_|_anomalies:_{\"page_number\":17,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06624721735715866,
     0.041743770241737366,

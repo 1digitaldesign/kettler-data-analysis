@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.138147",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_804058541_3.json",
+    "created": "2025_12_11t00:21:41.138147",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_804058541_3.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "May 10, 2021",
-    "name": "CAITLIN SKIDMORE",
-    "title": "Director",
-    "address": "2021 Triton Drive"
+    "last_update": "may_10,_2021",
+    "name": "caitlin_skidmore",
+    "title": "director",
+    "address": "2021_triton_drive"
   },
-  "text_representation": "last_update: May 10, 2021 | name: CAITLIN SKIDMORE | title: Director | address: 2021 Triton Drive",
+  "text_representation": "last_update:_may_10,_2021_|_name:_caitlin_skidmore_|_title:_director_|_address:_2021_triton_drive",
   "embedding": [
     -0.04827849194407463,
     -0.06332356482744217,

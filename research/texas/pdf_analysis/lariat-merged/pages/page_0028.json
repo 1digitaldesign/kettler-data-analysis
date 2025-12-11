@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:58.818601",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0028.json",
+    "created": "2025_12_11t00:51:58.818601",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0028.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 28,
-    "text": "onionsti ScteCorpora s NlonJneea\n.O.Box 13697P\netry of SaattreSce\n1-3697sxa 7871eTAn, usit\netry of Saattre Schee of tecfiOf\nry 21, 2023Fbruae\n, 07, 2022Otc\n32058814248\n. Incntemger Mnaealt Kt :eRE\nr : NbeeumFli 802331657\n----\n.rrorn ed iety wsita forfeintd eencrefe rehe ttha tetry of saattre scheesd tsdvie ha aecfir’esl ofrolpt ComheT\n.estusshi dat a of t savetitco ad turnetn resey ha betint eheT\n,ylreeSnci\nonionsti ScteCorpora\nngssoni Dviiory FliutitSat\n(512) 463-5555\ns.sxa.gov/ose.tw/wps/wt:ht (atrnee Int ushest on t viieCom\n(512) 463-5555 AX (512) 463-5709F 7-1-1YTT",
+    "text": "onionsti_sctecorpora_s_nlonjneea_.o.box_13697p_etry_of_saattresce_1_3697sxa_7871etan,_usit_etry_of_saattre_schee_of_tecfiof_ry_21,_2023fbruae_,_07,_2022otc_32058814248_._incntemger_mnaealt_kt_:ere_r_:_nbeeumfli_802331657_.rrorn_ed_iety_wsita_forfeintd_eencrefe_rehe_ttha_tetry_of_saattre_scheesd_tsdvie_ha_aecfir’esl_ofrolpt_comhet_.estusshi_dat_a_of_t_savetitco_ad_turnetn_resey_ha_betint_ehet_,ylreesnci_onionsti_sctecorpora_ngssoni_dviiory_fliutitsat_(512)_463_5555_s.sxa.gov/ose.tw/wps/wt:ht_(atrnee_int_ushest_on_t_viiecom_(512)_463_5555_ax_(512)_463_5709f_7_1_1ytt",
     "char_count": 575,
     "word_count": 85,
     "anomalies": {
       "page_number": 28,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 28 | text: onionsti ScteCorpora s NlonJneea\n.O.Box 13697P\netry of SaattreSce\n1-3697sxa 7871eTAn, usit\netry of Saattre Schee of tecfiOf\nry 21, 2023Fbruae\n, 07, 2022Otc\n32058814248\n. Incntemger Mnaealt Kt :eRE\nr : NbeeumFli 802331657\n----\n.rrorn ed iety wsita forfeintd eencrefe rehe ttha tetry of saattre scheesd tsdvie ha aecfir’esl ofrolpt ComheT\n.estusshi dat a of t savetitco ad turnetn resey ha betint eheT\n,ylreeSnci\nonionsti ScteCorpora\nngssoni Dviiory FliutitSat\n(512) 463-5555\ns.sxa.gov/ose.tw/wps/wt:ht (atrnee Int ushest on t viieCom\n(512) 463-5555 AX (512) 463-5709F 7-1-1YTT | char_count: 575 | word_count: 85 | anomalies: {\"page_number\":28,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_28_|_text:_onionsti_sctecorpora_s_nlonjneea_.o.box_13697p_etry_of_saattresce_1_3697sxa_7871etan,_usit_etry_of_saattre_schee_of_tecfiof_ry_21,_2023fbruae_,_07,_2022otc_32058814248_._incntemger_mnaealt_kt_:ere_r_:_nbeeumfli_802331657_.rrorn_ed_iety_wsita_forfeintd_eencrefe_rehe_ttha_tetry_of_saattre_scheesd_tsdvie_ha_aecfir’esl_ofrolpt_comhet_.estusshi_dat_a_of_t_savetitco_ad_turnetn_resey_ha_betint_ehet_,ylreesnci_onionsti_sctecorpora_ngssoni_dviiory_fliutitsat_(512)_463_5555_s.sxa.gov/ose.tw/wps/wt:ht_(atrnee_int_ushest_on_t_viiecom_(512)_463_5555_ax_(512)_463_5709f_7_1_1ytt_|_char_count:_575_|_word_count:_85_|_anomalies:_{\"page_number\":28,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.12340860813856125,
     0.022208789363503456,

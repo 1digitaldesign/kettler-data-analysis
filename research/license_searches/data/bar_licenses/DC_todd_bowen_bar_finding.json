@@ -1,36 +1,36 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "state": "District of Columbia",
-    "state_code": "DC",
-    "employee": "Todd Bowen",
+    "date": "2025_12_10",
+    "state": "dc",
+    "state_code": "dc",
+    "employee": "todd_bowen",
     "employee_key": "todd_bowen",
-    "title": "SVP Strategic Services",
+    "title": "svp_strategic_services",
     "search_type": "bar_license",
-    "search_url": "https://www.dcbar.org/find-a-member",
+    "search_url": "https://www.dcbar.org/find_a_member",
     "alternative_urls": [
-      "https://www.dcbar.org/member-directory/",
-      "https://www.dccourts.gov/services/attorney-services/attorney-search"
+      "https://www.dcbar.org/member_directory/",
+      "https://www.dccourts.gov/services/attorney_services/attorney_search"
     ],
-    "search_method": "Browser automation attempted - site requires login or has restricted access. Google search fallback used.",
-    "license_type": "State Bar Admission",
+    "search_method": "browser_automation_attempted_site_requires_login_or_has_restricted_access._google_search_fallback_used.",
+    "license_type": "state_bar_admission",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
     "browser_automation_status": "manual_verification_completed",
     "google_search_performed": false,
     "manual_verification_performed": true,
-    "manual_verification_date": "2025-12-11",
-    "note": "Search completed via manual verification of DC Bar member directory. Search criteria: First Name 'todd', Last Name 'bowen'. Result: No results found - confirmed no DC Bar license."
+    "manual_verification_date": "2025_12_11",
+    "note": "search_completed_via_manual_verification_of_dc_bar_member_directory._search_criteria:_first_name_'todd',_last_name_'bowen'._result:_no_results_found_confirmed_no_dc_bar_license."
   },
   "findings": {
     "searched": true,
-    "search_date": "2025-12-11",
+    "search_date": "2025_12_11",
     "bar_license": false,
-    "license_status": "Not found - Verified",
+    "license_status": "not_found_verified",
     "search_methods_used": [
-      "DC Bar member directory (manual verification)",
-      "DC Bar member search - First Name: todd, Last Name: bowen"
+      "dc_bar_member_directory_(manual_verification)",
+      "dc_bar_member_search_first_name:_todd,_last_name:_bowen"
     ],
     "results_found": 0,
     "search_criteria": {
@@ -38,10 +38,10 @@
       "middle_name": null,
       "last_name": "bowen"
     },
-    "search_result": "No results were found based on the criteria you provided",
-    "note": "DC Bar member directory search performed via manual verification. Search criteria: First Name 'todd', Last Name 'bowen'. Result: No results found - confirmed Todd Bowen does NOT have a DC Bar license."
+    "search_result": "no_results_were_found_based_on_the_criteria_you_provided",
+    "note": "dc_bar_member_directory_search_performed_via_manual_verification._search_criteria:_first_name_'todd',_last_name_'bowen'._result:_no_results_found_confirmed_todd_bowen_does_not_have_a_dc_bar_license."
   },
-  "conclusion": "Todd Bowen does NOT have a bar license in District of Columbia. Verified via DC Bar member directory search (First Name: todd, Last Name: bowen) - No results found.",
-  "license_status": "Not found - Verified",
+  "conclusion": "todd_bowen_does_not_have_a_bar_license_in_district_of_columbia._verified_via_dc_bar_member_directory_search_(first_name:_todd,_last_name:_bowen)_no_results_found.",
+  "license_status": "not_found_verified",
   "verification_status": "verified"
 }

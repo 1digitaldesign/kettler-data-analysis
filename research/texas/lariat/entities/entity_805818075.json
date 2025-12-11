@@ -1,58 +1,58 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.658864",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_805818075.json",
+    "created": "2025_12_11t00:21:40.658864",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_805818075.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "805818075",
     "entity_type": null,
-    "original_date_of_filing": "December 12, 2024",
-    "entity_status": "In existence",
+    "original_date_of_filing": "december_12,_2024",
+    "entity_status": "in_existence",
     "formation_date": null,
     "tax_id": "32097939857",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "Frippmore, LLC",
-    "address": "13902 NICOLLET DR\nFRISCO, TX 75033-1717 USA",
+    "duration": "perpetual",
+    "name": "frippmore,_llc",
+    "address": "13902_nicollet_dr_frisco,_tx_75033_1717_usa",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "Carlisle Braun",
-      "address": "7300 State Highway 121, Suite 300",
+      "name": "carlisle_braun",
+      "address": "7300_state_highway_121,_suite_300",
       "inactive_date": null
     },
     "filing_history": [],
     "names": [
       {
-        "name": "Frippmore, LLC",
-        "name_status": "In use",
-        "name_type": "Legal",
+        "name": "frippmore,_llc",
+        "name_status": "in_use",
+        "name_type": "legal",
         "name_inactive_date": null,
         "consent_filing_number": null
       }
     ],
     "management": [
       {
-        "last_update": "December 12, 2024",
-        "name": "Caitlin Skidmore",
-        "title": "Manager",
-        "address": "13902 Nicollet Drive"
+        "last_update": "december_12,_2024",
+        "name": "caitlin_skidmore",
+        "title": "manager",
+        "address": "13902_nicollet_drive"
       },
       {
-        "last_update": "December 12, 2024",
-        "name": "Troy Skidmore",
-        "title": "Manager",
-        "address": "13902 Nicollet Drive"
+        "last_update": "december_12,_2024",
+        "name": "troy_skidmore",
+        "title": "manager",
+        "address": "13902_nicollet_drive"
       }
     ],
     "assumed_names": [],
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 805818075 | original_date_of_filing: December 12, 2024 | entity_status: In existence | tax_id: 32097939857 | duration: Perpetual | name: Frippmore, LLC | address: 13902 NICOLLET DR\nFRISCO, TX 75033-1717 USA | registered_agent: {\"name\":\"Carlisle Braun\",\"address\":\"7300 State Highway 121, Suite 300\",\"inactive_date\":null} | names: 1 items | management: 2 items",
+  "text_representation": "filing_number:_805818075_|_original_date_of_filing:_december_12,_2024_|_entity_status:_in_existence_|_tax_id:_32097939857_|_duration:_perpetual_|_name:_frippmore,_llc_|_address:_13902_nicollet_dr_frisco,_tx_75033_1717_usa_|_registered_agent:_{\"name\":\"carlisle_braun\",\"address\":\"7300_state_highway_121,_suite_300\",\"inactive_date\":null}_|_names:_1_items_|_management:_2_items",
   "embedding": [
     -0.039641622453927994,
     0.06494607031345367,

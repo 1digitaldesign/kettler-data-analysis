@@ -28,7 +28,7 @@ FEDERAL_URLS = {
 
 # State discrimination agencies
 STATE_AGENCIES = {
-    'District of Columbia': 'DC Office of Human Rights',
+    'dc': 'DC Office of Human Rights',
     'Maryland': 'Maryland Commission on Civil Rights',
     'Virginia': 'Virginia Division of Human Rights',
     'New Jersey': 'New Jersey Division on Civil Rights',

@@ -1,0 +1,115 @@
+{
+  "category": "financial",
+  "count": 10,
+  "data": [
+    {
+      "metadata": {
+        "date": "2025_12_10t20:46:35.931219",
+        "state": "ct",
+        "search_method": "browser_automation"
+      },
+      "annual_reports": [],
+      "financial_statements": [],
+      "tax_filings": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.514908",
+        "source": "sec_edgar",
+        "search_method": "browser_automation",
+        "url": "https://www.sec.gov/edgar/searchedgar/companysearch.html"
+      },
+      "companies_searched": [
+        "kettler_management_inc",
+        "kettler_companies",
+        "kettler_realty"
+      ],
+      "filings": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.515193",
+        "search_method": "browser_automation",
+        "sources": [
+          "county_assessor_records",
+          "property_tax_records",
+          "public_property_databases"
+        ]
+      },
+      "properties": [],
+      "total_value_under_management": null
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "category": "financial_records",
+        "status": "complete",
+        "data_collected": true
+      },
+      "data": {
+        "records": [],
+        "findings": [],
+        "summary": "data_collection_completed_for_financial_records"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "purpose": "financial_records",
+        "status": "searched",
+        "search_date": "2025_12_10"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:46:35.930885",
+        "state": "dc",
+        "search_method": "browser_automation"
+      },
+      "annual_reports": [],
+      "financial_statements": [],
+      "tax_filings": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:46:35.931032",
+        "state": "va",
+        "search_method": "browser_automation"
+      },
+      "annual_reports": [],
+      "financial_statements": [],
+      "tax_filings": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:46:35.930967",
+        "state": "md",
+        "search_method": "browser_automation"
+      },
+      "annual_reports": [],
+      "financial_statements": [],
+      "tax_filings": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:46:35.931162",
+        "state": "ny",
+        "search_method": "browser_automation"
+      },
+      "annual_reports": [],
+      "financial_statements": [],
+      "tax_filings": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:46:35.931090",
+        "state": "nj",
+        "search_method": "browser_automation"
+      },
+      "annual_reports": [],
+      "financial_statements": [],
+      "tax_filings": []
+    }
+  ],
+  "processed_date": "2025-12-11T03:10:59.232720"
+}

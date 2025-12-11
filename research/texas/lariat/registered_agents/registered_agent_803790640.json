@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.174000",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_803790640.json",
+    "created": "2025_12_11t00:21:41.174000",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_803790640.json",
     "has_embedding": true
   },
   "data": {
-    "name": "Corporation Service Company dba CSC - Lawyers Incorporating Service Company",
-    "address": "211 E. 7th Street, Suite 620",
+    "name": "corporation_service_company_dba_csc_lawyers_incorporating_service_company",
+    "address": "211_e._7th_street,_suite_620",
     "inactive_date": null
   },
-  "text_representation": "name: Corporation Service Company dba CSC - Lawyers Incorporating Service Company | address: 211 E. 7th Street, Suite 620",
+  "text_representation": "name:_corporation_service_company_dba_csc_lawyers_incorporating_service_company_|_address:_211_e._7th_street,_suite_620",
   "embedding": [
     -0.1349564641714096,
     -0.0047318702563643456,

@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "state": "District of Columbia",
-    "search_url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "date": "2025_12_07",
+    "state": "dc",
+    "search_url": "https://govservices.dcra.dc.gov/oplaportal/home/getlicensesearchdetails",
     "status": "batch_1_in_progress",
-    "method": "Playwright browser automation"
+    "method": "playwright_browser_automation"
   },
   "searches": {
     "edward_hyland": {
-      "name": "Edward Hyland",
+      "name": "edward_hyland",
       "search_executed": true,
       "results_found": "checking",
-      "note": "Search submitted - results pending"
+      "note": "search_submitted_results_pending"
     }
   },
   "remaining_searches": 14

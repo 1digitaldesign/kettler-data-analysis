@@ -1,21 +1,21 @@
 {
   "metadata": {
-    "date": "2025-12-11T02:18:23.037000",
-    "search_method": "Browser automation - Google News",
+    "date": "2025_12_11t02:18:23.037000",
+    "search_method": "browser_automation_google_news",
     "sources": [
-      "Google News",
-      "Court records (not yet searched)",
-      "PACER (federal courts - not yet searched)",
-      "State court databases (not yet searched)",
-      "Legal news sites"
+      "google_news",
+      "court_records_(not_yet_searched)",
+      "pacer_(federal_courts_not_yet_searched)",
+      "state_court_databases_(not_yet_searched)",
+      "legal_news_sites"
     ],
     "search_terms": [
-      "Kettler Management legal",
-      "Kettler Management lawsuit",
-      "Kettler Management court case",
-      "Kettler Management violation"
+      "kettler_management_legal",
+      "kettler_management_lawsuit",
+      "kettler_management_court_case",
+      "kettler_management_violation"
     ]
   },
   "cases": [],
-  "note": "Initial Google News search did not find legal proceedings. Comprehensive searches of court databases (PACER, state courts) recommended for complete coverage."
+  "note": "initial_google_news_search_did_not_find_legal_proceedings._comprehensive_searches_of_court_databases_(pacer,_state_courts)_recommended_for_complete_coverage."
 }

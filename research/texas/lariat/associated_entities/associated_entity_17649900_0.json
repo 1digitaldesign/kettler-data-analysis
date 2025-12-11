@@ -1,20 +1,20 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.049651",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/associated_entities/associated_entity_17649900_0.json",
+    "created": "2025_12_11t00:21:41.049651",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/associated_entities/associated_entity_17649900_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "AMERICAN VITRIFIED PRODUCTS COMPANY",
-    "entity_type": "Other Entity/Organization",
+    "name": "american_vitrified_products_company",
+    "entity_type": "other_entity/organization",
     "document_description": "0",
-    "filing_date": "Survivor",
+    "filing_date": "survivor",
     "entity_filing_number": null,
     "jurisdiction": null,
     "capacity": null
   },
-  "text_representation": "name: AMERICAN VITRIFIED PRODUCTS COMPANY | entity_type: Other Entity/Organization | document_description: 0 | filing_date: Survivor",
+  "text_representation": "name:_american_vitrified_products_company_|_entity_type:_other_entity/organization_|_document_description:_0_|_filing_date:_survivor",
   "embedding": [
     -0.008622588589787483,
     0.018684206530451775,

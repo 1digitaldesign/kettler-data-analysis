@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:58.836503",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0039.json",
+    "created": "2025_12_11t00:51:58.836503",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0039.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 39,
-    "text": "03/26/2018 17:10 2145189723 JHLALFEG 0E 3AGP\n-..\nAssumedN ameU sedCouoCny r otunlteis nw hich\nhTeco uocony r utnitews hereb usineopss r roefssionalse rviceas reb eingoa r rel ob eco nduectdo r8 .\nrenderedu ndhetear ssumedn amea re:\nAllco unites¥\nAllco unitewhs ihteet xcepihototeflno l fowingco unites:¥\nnhoOltefl¥ y lowingco unites:\nExecuiton\nThe undersigned signs this document subject to the penalties imposed by law for the submission of a\no sgn ond tiezhorirssut peon i ahe ttshae tfiirtselo cnd a antensrum itnteuduls or fraley fallarietam\nhe for ttcn fay iornettn ay of aticpaa chen tng iitscd i arsgne undeihe. If tytintd eefiintde ihef of tlhabe\nng 10in wtd irirsgne undeihed tezhoriutsy ay ha dultint ehe ttshafe tirted crsgne undeihe, tytinte\n.ntesumhi doc teutcxee\nDatc: 3/26/18\nLeak Douthit\nSignature of a person authorized by law to sign on bchalf of the\nideotified entity (see instrictions)\nForm 300",
+    "text": "03/26/2018_17:10_2145189723_jhlalfeg_0e_3agp_.._assumedn_ameu_sedcouocny_r_otunlteis_nw_hich_hteco_uocony_r_utnitews_hereb_usineopss_r_roefssionalse_rviceas_reb_eingoa_r_rel_ob_eco_nduectdo_r8_._renderedu_ndhetear_ssumedn_amea_re:_allco_unites¥_allco_unitewhs_ihteet_xcepihototeflno_l_fowingco_unites:¥_nhooltefl¥_y_lowingco_unites:_execuiton_the_undersigned_signs_this_document_subject_to_the_penalties_imposed_by_law_for_the_submission_of_a_o_sgn_ond_tiezhorirssut_peon_i_ahe_ttshae_tfiirtselo_cnd_a_antensrum_itnteuduls_or_fraley_fallarietam_he_for_ttcn_fay_iornettn_ay_of_aticpaa_chen_tng_iitscd_i_arsgne_undeihe._if_tytintd_eefiintde_ihef_of_tlhabe_ng_10in_wtd_irirsgne_undeihed_tezhoriutsy_ay_ha_dultint_ehe_ttshafe_tirted_crsgne_undeihe,_tytinte_.ntesumhi_doc_teutcxee_datc:_3/26/18_leak_douthit_signature_of_a_person_authorized_by_law_to_sign_on_bchalf_of_the_ideotified_entity_(see_instrictions)_form_300",
     "char_count": 914,
     "word_count": 145,
     "anomalies": {
       "page_number": 39,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 39 | text: 03/26/2018 17:10 2145189723 JHLALFEG 0E 3AGP\n-..\nAssumedN ameU sedCouoCny r otunlteis nw hich\nhTeco uocony r utnitews hereb usineopss r roefssionalse rviceas reb eingoa r rel ob eco nduectdo r8 .\nrenderedu ndhetear ssumedn amea re:\nAllco unites¥\nAllco unitewhs ihteet xcepihototeflno l fowingco unites:¥\nnhoOltefl¥ y lowingco unites:\nExecuiton\nThe undersigned signs this document subject to the penalties imposed by law for the submission of a\no sgn ond tiezhorirssut peon i ahe ttshae tfiirtselo cnd a antensrum itnteuduls or fraley fallarietam\nhe for ttcn fay iornettn ay of aticpaa chen tng iitscd i arsgne undeihe. If tytintd eefiintde ihef of tlhabe\nng 10in wtd irirsgne undeihed tezhoriutsy ay ha dultint ehe ttshafe tirted crsgne undeihe, tytinte\n.ntesumhi doc teutcxee\nDatc: 3/26/18\nLeak Douthit\nSignature of a person authorized by law to sign on bchalf of the\nideotified entity (see instrictions)\nForm 300 | char_count: 914 | word_count: 145 | anomalies: {\"page_number\":39,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_39_|_text:_03/26/2018_17:10_2145189723_jhlalfeg_0e_3agp_.._assumedn_ameu_sedcouocny_r_otunlteis_nw_hich_hteco_uocony_r_utnitews_hereb_usineopss_r_roefssionalse_rviceas_reb_eingoa_r_rel_ob_eco_nduectdo_r8_._renderedu_ndhetear_ssumedn_amea_re:_allco_unites¥_allco_unitewhs_ihteet_xcepihototeflno_l_fowingco_unites:¥_nhooltefl¥_y_lowingco_unites:_execuiton_the_undersigned_signs_this_document_subject_to_the_penalties_imposed_by_law_for_the_submission_of_a_o_sgn_ond_tiezhorirssut_peon_i_ahe_ttshae_tfiirtselo_cnd_a_antensrum_itnteuduls_or_fraley_fallarietam_he_for_ttcn_fay_iornettn_ay_of_aticpaa_chen_tng_iitscd_i_arsgne_undeihe._if_tytintd_eefiintde_ihef_of_tlhabe_ng_10in_wtd_irirsgne_undeihed_tezhoriutsy_ay_ha_dultint_ehe_ttshafe_tirted_crsgne_undeihe,_tytinte_.ntesumhi_doc_teutcxee_datc:_3/26/18_leak_douthit_signature_of_a_person_authorized_by_law_to_sign_on_bchalf_of_the_ideotified_entity_(see_instrictions)_form_300_|_char_count:_914_|_word_count:_145_|_anomalies:_{\"page_number\":39,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.049710821360349655,
     0.02923906221985817,

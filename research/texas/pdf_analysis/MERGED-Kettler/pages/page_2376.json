@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:55:08.556554",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_2376.json",
+    "created": "2025_12_11t00:55:08.556554",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_2376.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 2376,
-    "text": "VIRGINIAHT OF COMMOANELW\nCI$070\nCRONCE W. SAYANT, IN.\nON C. SHANNONFSRET CLERK OF THIE OAPMTSSION\nCHRAIMAN\nBOX 1177\nNJA. AHCD ,WO,AUIBRFTAS\nRICHMOMO, VIRGIMIA 21201\nNCMMLOEROSSI\nL ACA.YARHELZET I\nNOEKSSICMMIO\n321867 NOSSINCMMIO OITCRRE OPOATAST\nMa21y 0 9,88\nSLIYERSANER& EW G UTCLKERF\nH e.ahtTaGin lt: At\nSu ie4,t 00Nre WSte, t1615L\nashingoDtn C2, 0036W\nMa nKSIagemeCn otrp.\nRe:\nDeaSioMar r r dam:\nhTiiyos s urer ceo$ifr 4p 50t.0co verinheogtefefr s (cid:222) linhgteC eirt (cid:222) caeot f\nnIcorporaiton applicaitonw iht htios f (cid:222) ce,\neihfctvedtea aeo pt fplicaitoniMa21 s y 0 9,88.hTee f\nSincerelyoy urs,\nheork of teGoClrgheteC ommission\n01519NWE",
+    "text": "virginiaht_of_commoanelw_ci$070_cronce_w._sayant,_in._on_c._shannonfsret_clerk_of_thie_oapmtssion_chraiman_box_1177_nja._ahcd_,wo,auibrftas_richmomo,_virgimia_21201_ncmmloerossi_l_aca.yarhelzet_i_noekssicmmio_321867_nossincmmio_oitcrre_opoatast_ma21y_0_9,88_sliyersaner&_ew_g_utclkerf_h_e.ahttagin_lt:_at_su_ie4,t_00nre_wste,_t1615l_ashingodtn_c2,_0036w_ma_nksiagemecn_otrp._re:_deasiomar_r_r_dam:_htiiyos_s_urer_ceo$ifr_4p_50t.0co_verinheogtefefr_s_(cid:222)_linhgtec_eirt_(cid:222)_caeot_f_nicorporaiton_applicaitonw_iht_htios_f_(cid:222)_ce,_eihfctvedtea_aeo_pt_fplicaitonima21_s_y_0_9,88.htee_f_sincerelyoy_urs,_heork_of_tegoclrghetec_ommission_01519nwe",
     "char_count": 657,
     "word_count": 97,
     "anomalies": {
       "page_number": 2376,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 2376 | text: VIRGINIAHT OF COMMOANELW\nCI$070\nCRONCE W. SAYANT, IN.\nON C. SHANNONFSRET CLERK OF THIE OAPMTSSION\nCHRAIMAN\nBOX 1177\nNJA. AHCD ,WO,AUIBRFTAS\nRICHMOMO, VIRGIMIA 21201\nNCMMLOEROSSI\nL ACA.YARHELZET I\nNOEKSSICMMIO\n321867 NOSSINCMMIO OITCRRE OPOATAST\nMa21y 0 9,88\nSLIYERSANER& EW G UTCLKERF\nH e.ahtTaGin lt: At\nSu ie4,t 00Nre WSte, t1615L\nashingoDtn C2, 0036W\nMa nKSIagemeCn otrp.\nRe:\nDeaSioMar r r dam:\nhTiiyos s urer ceo$ifr 4p 50t.0co verinheogtefefr s (cid:222) linhgteC eirt (cid:222) caeot f\nnIcorporaiton applicaitonw iht htios f (cid:222) ce,\neihfctvedtea aeo pt fplicaitoniMa21 s y 0 9,88.hTee f\nSincerelyoy urs,\nheork of teGoClrgheteC ommission\n01519NWE | char_count: 657 | word_count: 97 | anomalies: {\"page_number\":2376,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_2376_|_text:_virginiaht_of_commoanelw_ci$070_cronce_w._sayant,_in._on_c._shannonfsret_clerk_of_thie_oapmtssion_chraiman_box_1177_nja._ahcd_,wo,auibrftas_richmomo,_virgimia_21201_ncmmloerossi_l_aca.yarhelzet_i_noekssicmmio_321867_nossincmmio_oitcrre_opoatast_ma21y_0_9,88_sliyersaner&_ew_g_utclkerf_h_e.ahttagin_lt:_at_su_ie4,t_00nre_wste,_t1615l_ashingodtn_c2,_0036w_ma_nksiagemecn_otrp._re:_deasiomar_r_r_dam:_htiiyos_s_urer_ceo$ifr_4p_50t.0co_verinheogtefefr_s_(cid:222)_linhgtec_eirt_(cid:222)_caeot_f_nicorporaiton_applicaitonw_iht_htios_f_(cid:222)_ce,_eihfctvedtea_aeo_pt_fplicaitonima21_s_y_0_9,88.htee_f_sincerelyoy_urs,_heork_of_tegoclrghetec_ommission_01519nwe_|_char_count:_657_|_word_count:_97_|_anomalies:_{\"page_number\":2376,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.040473949164152145,
     0.05769664794206619,

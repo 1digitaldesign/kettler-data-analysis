@@ -1,50 +1,50 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "state": "District of Columbia",
-    "state_code": "DC",
-    "employee": "Sean Curtin",
+    "date": "2025_12_10",
+    "state": "dc",
+    "state_code": "dc",
+    "employee": "sean_curtin",
     "employee_key": "sean_curtin",
-    "title": "General Counsel",
+    "title": "general_counsel",
     "search_type": "bar_license",
-    "search_url": "https://www.dcbar.org/find-a-member",
+    "search_url": "https://www.dcbar.org/find_a_member",
     "alternative_urls": [
-      "https://www.dcbar.org/member-directory/",
-      "https://www.dccourts.gov/services/attorney-services/attorney-search"
+      "https://www.dcbar.org/member_directory/",
+      "https://www.dccourts.gov/services/attorney_services/attorney_search"
     ],
-    "search_method": "Browser automation attempted - site requires login or has restricted access. Google search fallback used.",
-    "license_type": "State Bar Admission",
+    "search_method": "browser_automation_attempted_site_requires_login_or_has_restricted_access._google_search_fallback_used.",
+    "license_type": "state_bar_admission",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
     "browser_automation_status": "manual_verification_completed",
     "google_search_performed": false,
     "manual_verification_performed": true,
-    "manual_verification_date": "2025-12-11",
-    "note": "Search completed via manual verification of DC Bar member directory. Member found: Sean H Curtin, Status: GOOD STANDING (Inactive), Admitted: 10/4/1989."
+    "manual_verification_date": "2025_12_11",
+    "note": "search_completed_via_manual_verification_of_dc_bar_member_directory._member_found:_sean_h_curtin,_status:_good_standing_(inactive),_admitted:_10/4/1989."
   },
   "findings": {
     "searched": true,
-    "search_date": "2025-12-11",
+    "search_date": "2025_12_11",
     "bar_license": true,
-    "license_status": "Found - Inactive",
+    "license_status": "found_inactive",
     "search_methods_used": [
-      "DC Bar member directory (manual verification)",
-      "DC Bar member search"
+      "dc_bar_member_directory_(manual_verification)",
+      "dc_bar_member_search"
     ],
     "results_found": 1,
     "member_details": {
-      "full_name": "Mr. Sean H Curtin",
-      "dc_bar_member_status": "GOOD STANDING",
-      "member_type": "Inactive",
+      "full_name": "mr._sean_h_curtin",
+      "dc_bar_member_status": "good_standing",
+      "member_type": "inactive",
       "admit_date": "10/4/1989",
       "business_address": null,
       "business_email": null,
       "business_phone": null
     },
-    "note": "DC Bar member found via manual verification. Member status: GOOD STANDING, Member Type: Inactive, Admit Date: 10/4/1989. License exists but is inactive."
+    "note": "dc_bar_member_found_via_manual_verification._member_status:_good_standing,_member_type:_inactive,_admit_date:_10/4/1989._license_exists_but_is_inactive."
   },
-  "conclusion": "Sean Curtin HAS a bar license in District of Columbia. Member status: GOOD STANDING, Member Type: Inactive, Admit Date: 10/4/1989. License verified via DC Bar member directory.",
-  "license_status": "Found - Inactive",
+  "conclusion": "sean_curtin_has_a_bar_license_in_district_of_columbia._member_status:_good_standing,_member_type:_inactive,_admit_date:_10/4/1989._license_verified_via_dc_bar_member_directory.",
+  "license_status": "found_inactive",
   "verification_status": "verified"
 }

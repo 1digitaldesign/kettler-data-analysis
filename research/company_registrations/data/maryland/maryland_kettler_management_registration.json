@@ -1,10 +1,10 @@
 {
   "metadata": {
     "date": null,
-    "state": "Maryland",
-    "company": "Kettler Management",
-    "search_url": "https://egov.maryland.gov/BusinessExpress/EntitySearch",
-    "search_method": "Secretary of State database"
+    "state": "md",
+    "company": "kettler_management",
+    "search_url": "https://egov.maryland.gov/businessexpress/entitysearch",
+    "search_method": "secretary_of_state_database"
   },
   "findings": {
     "registered": null,

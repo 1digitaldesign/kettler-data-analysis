@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.744423",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_802961755.json",
+    "created": "2025_12_11t00:21:40.744423",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_802961755.json",
     "has_embedding": true
   },
   "data": {
-    "name": "LEAH DOUTHIT",
-    "address": "5152 Loma Alta Dr.",
+    "name": "leah_douthit",
+    "address": "5152_loma_alta_dr.",
     "inactive_date": null
   },
-  "text_representation": "name: LEAH DOUTHIT | address: 5152 Loma Alta Dr.",
+  "text_representation": "name:_leah_douthit_|_address:_5152_loma_alta_dr.",
   "embedding": [
     -0.06702443957328796,
     -0.009007814340293407,

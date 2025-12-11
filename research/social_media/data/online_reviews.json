@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:49:10.225420",
-    "search_method": "Browser automation",
+    "date": "2025_12_10t20:49:10.225420",
+    "search_method": "browser_automation",
     "sources": [
-      "Google Reviews",
-      "Yelp",
-      "BBB Reviews",
-      "Apartment review sites"
+      "google_reviews",
+      "yelp",
+      "bbb_reviews",
+      "apartment_review_sites"
     ]
   },
   "reviews": []

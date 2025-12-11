@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.351625",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_129768500.json",
+    "created": "2025_12_11t00:21:41.351625",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_129768500.json",
     "has_embedding": true
   },
   "data": {
-    "name": "CORPORATION SERVICE COMPANY D/B/A LAWYERS INCORPORATING SERVICE COMPANY",
-    "address": "211 E. 7th Street, Suite 620",
+    "name": "corporation_service_company_d/b/a_lawyers_incorporating_service_company",
+    "address": "211_e._7th_street,_suite_620",
     "inactive_date": null
   },
-  "text_representation": "name: CORPORATION SERVICE COMPANY D/B/A LAWYERS INCORPORATING SERVICE COMPANY | address: 211 E. 7th Street, Suite 620",
+  "text_representation": "name:_corporation_service_company_d/b/a_lawyers_incorporating_service_company_|_address:_211_e._7th_street,_suite_620",
   "embedding": [
     -0.14868181943893433,
     0.01664097048342228,

@@ -1,52 +1,52 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.048696",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_805759678.json",
+    "created": "2025_12_11t00:21:40.048696",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_805759678.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "805759678",
-    "entity_type": "Domestic Limited Liability Company (LLC)",
-    "original_date_of_filing": "October 24, 2024",
-    "entity_status": "In existence",
+    "entity_type": "domestic_limited_liability_company_(llc)",
+    "original_date_of_filing": "october_24,_2024",
+    "entity_status": "in_existence",
     "formation_date": null,
     "tax_id": "32097336583",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "Lariat Realty Advisors, LLC",
-    "address": "4600 FIRESTONE DR\nFRISCO, TX 75034-6847 USA",
+    "duration": "perpetual",
+    "name": "lariat_realty_advisors,_llc",
+    "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "Thomas Bisanz",
-      "address": "4600 Firestone Drive",
+      "name": "thomas_bisanz",
+      "address": "4600_firestone_drive",
       "inactive_date": null
     },
     "filing_history": [],
     "names": [
       {
-        "name": "Lariat Realty Advisors, LLC",
-        "name_status": "In use",
-        "name_type": "Legal",
+        "name": "lariat_realty_advisors,_llc",
+        "name_status": "in_use",
+        "name_type": "legal",
         "name_inactive_date": null,
         "consent_filing_number": null
       }
     ],
     "management": [
       {
-        "last_update": "October 24, 2024",
-        "name": "Thomas Bisanz",
-        "title": "Manager",
-        "address": "4600 Firestone Drive"
+        "last_update": "october_24,_2024",
+        "name": "thomas_bisanz",
+        "title": "manager",
+        "address": "4600_firestone_drive"
       }
     ],
     "assumed_names": [],
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 805759678 | entity_type: Domestic Limited Liability Company (LLC) | original_date_of_filing: October 24, 2024 | entity_status: In existence | tax_id: 32097336583 | duration: Perpetual | name: Lariat Realty Advisors, LLC | address: 4600 FIRESTONE DR\nFRISCO, TX 75034-6847 USA | registered_agent: {\"name\":\"Thomas Bisanz\",\"address\":\"4600 Firestone Drive\",\"inactive_date\":null} | names: 1 items | management: 1 items",
+  "text_representation": "filing_number:_805759678_|_entity_type:_domestic_limited_liability_company_(llc)_|_original_date_of_filing:_october_24,_2024_|_entity_status:_in_existence_|_tax_id:_32097336583_|_duration:_perpetual_|_name:_lariat_realty_advisors,_llc_|_address:_4600_firestone_dr_frisco,_tx_75034_6847_usa_|_registered_agent:_{\"name\":\"thomas_bisanz\",\"address\":\"4600_firestone_drive\",\"inactive_date\":null}_|_names:_1_items_|_management:_1_items",
   "embedding": [
     -0.009768975898623466,
     0.06178378313779831,

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.599004",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0204.json",
+    "created": "2025_12_11t00:52:02.599004",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0204.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 204,
-    "text": "00004981015\ns.e, Incc Srvileaintssdee ReiGbla\norstcDrei\nName eltiT Asddres\nAnsleSusn Ma. ortcDrei r Sngsddapri Roa2650 Ce\n800eStui\nXT 75201sa, lDla\nDwan Hrt. Svee ortcDrei sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nhd DcDvi. Ftai ortcDrei sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt",
+    "text": "00004981015_s.e,_incc_srvileaintssdee_reigbla_orstcdrei_name_eltit_asddres_anslesusn_ma._ortcdrei_r_sngsddapri_roa2650_ce_800estui_xt_75201sa,_ldla_dwan_hrt._svee_ortcdrei_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_hd_dcdvi._ftai_ortcdrei_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt",
     "char_count": 293,
     "word_count": 42,
     "anomalies": {
       "page_number": 204,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 204 | text: 00004981015\ns.e, Incc Srvileaintssdee ReiGbla\norstcDrei\nName eltiT Asddres\nAnsleSusn Ma. ortcDrei r Sngsddapri Roa2650 Ce\n800eStui\nXT 75201sa, lDla\nDwan Hrt. Svee ortcDrei sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nhd DcDvi. Ftai ortcDrei sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt | char_count: 293 | word_count: 42 | anomalies: {\"page_number\":204,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_204_|_text:_00004981015_s.e,_incc_srvileaintssdee_reigbla_orstcdrei_name_eltit_asddres_anslesusn_ma._ortcdrei_r_sngsddapri_roa2650_ce_800estui_xt_75201sa,_ldla_dwan_hrt._svee_ortcdrei_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_hd_dcdvi._ftai_ortcdrei_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_|_char_count:_293_|_word_count:_42_|_anomalies:_{\"page_number\":204,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.07598353177309036,
     0.018082840368151665,

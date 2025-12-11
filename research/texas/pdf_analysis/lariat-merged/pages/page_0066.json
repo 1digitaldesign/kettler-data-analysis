@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.567117",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0066.json",
+    "created": "2025_12_11t00:51:59.567117",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0066.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 66,
-    "text": "Elled in the office of tho\nARTICLES OF AMENDMENT TO THE\nARTICLES OF INCORPORATION OF connor Dilyea\nSOUTHWEST PABRICATING & WELDING CO., INC.\nPursuant to the provisions of Article 4.04 of the\nTexas Business Corporation Act, the undersigned corpora-\ntion adopts the following Articles of Amendment to its\nArticles of Incorporation.\nARTICLE ONE\nThe name of the corporation 1s SOUTHWEST FABRICATING\n& WELDING CO., INC.\nARTICLE TWO\nThe following amendment to the Articles of Incor-\nporation was adopted by the shareholders of the corpora-\ntion on Septembia 18, 1962. Such amendment to the\nArticles of Incorporation is for the purpose of enlarging\nthe corporate purposes and providing for cumulative vot-\ning In the election of directors.\nThe amendment alters or changes Article III of the\noriginal or amended Articles of Incorporation and Article\nIII 13 hereby amended to read as follows:\n\"ARTICLE III\nThe purposes for which the corporation\n1s organized are:\nlo engage in and carry on a general\nmanufacturing business; and to design, manu-\nIn and deal with, machinery, parts, instruments,\niS-1",
+    "text": "elled_in_the_office_of_tho_articles_of_amendment_to_the_articles_of_incorporation_of_connor_dilyea_southwest_pabricating_&_welding_co.,_inc._pursuant_to_the_provisions_of_article_4.04_of_the_texas_business_corporation_act,_the_undersigned_corpora_tion_adopts_the_following_articles_of_amendment_to_its_articles_of_incorporation._article_one_the_name_of_the_corporation_1s_southwest_fabricating_&_welding_co.,_inc._article_two_the_following_amendment_to_the_articles_of_incor_poration_was_adopted_by_the_shareholders_of_the_corpora_tion_on_septembia_18,_1962._such_amendment_to_the_articles_of_incorporation_is_for_the_purpose_of_enlarging_the_corporate_purposes_and_providing_for_cumulative_vot_ing_in_the_election_of_directors._the_amendment_alters_or_changes_article_iii_of_the_original_or_amended_articles_of_incorporation_and_article_iii_13_hereby_amended_to_read_as_follows:_\"article_iii_the_purposes_for_which_the_corporation_1s_organized_are:_lo_engage_in_and_carry_on_a_general_manufacturing_business;_and_to_design,_manu_in_and_deal_with,_machinery,_parts,_instruments,_is_1",
     "char_count": 1088,
     "word_count": 174,
     "anomalies": {
       "page_number": 66,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 66 | text: Elled in the office of tho\nARTICLES OF AMENDMENT TO THE\nARTICLES OF INCORPORATION OF connor Dilyea\nSOUTHWEST PABRICATING & WELDING CO., INC.\nPursuant to the provisions of Article 4.04 of the\nTexas Business Corporation Act, the undersigned corpora-\ntion adopts the following Articles of Amendment to its\nArticles of Incorporation.\nARTICLE ONE\nThe name of the corporation 1s SOUTHWEST FABRICATING\n& WELDING CO., INC.\nARTICLE TWO\nThe following amendment to the Articles of Incor-\nporation was adopted by the shareholders of the corpora-\ntion on Septembia 18, 1962. Such amendment to the\nArticles of Incorporation is for the purpose of enlarging\nthe corporate purposes and providing for cumulative vot-\ning In the election of directors.\nThe amendment alters or changes Article III of the\noriginal or amended Articles of Incorporation and Article\nIII 13 hereby amended to read as follows:\n\"ARTICLE III\nThe purposes for which the corporation\n1s organized are:\nlo engage in and carry on a general\nmanufacturing business; and to design, manu-\nIn and deal with, machinery, parts, instruments,\niS-1 | char_count: 1088 | word_count: 174 | anomalies: {\"page_number\":66,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_66_|_text:_elled_in_the_office_of_tho_articles_of_amendment_to_the_articles_of_incorporation_of_connor_dilyea_southwest_pabricating_&_welding_co.,_inc._pursuant_to_the_provisions_of_article_4.04_of_the_texas_business_corporation_act,_the_undersigned_corpora_tion_adopts_the_following_articles_of_amendment_to_its_articles_of_incorporation._article_one_the_name_of_the_corporation_1s_southwest_fabricating_&_welding_co.,_inc._article_two_the_following_amendment_to_the_articles_of_incor_poration_was_adopted_by_the_shareholders_of_the_corpora_tion_on_septembia_18,_1962._such_amendment_to_the_articles_of_incorporation_is_for_the_purpose_of_enlarging_the_corporate_purposes_and_providing_for_cumulative_vot_ing_in_the_election_of_directors._the_amendment_alters_or_changes_article_iii_of_the_original_or_amended_articles_of_incorporation_and_article_iii_13_hereby_amended_to_read_as_follows:_\"article_iii_the_purposes_for_which_the_corporation_1s_organized_are:_lo_engage_in_and_carry_on_a_general_manufacturing_business;_and_to_design,_manu_in_and_deal_with,_machinery,_parts,_instruments,_is_1_|_char_count:_1088_|_word_count:_174_|_anomalies:_{\"page_number\":66,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.09148795902729034,
     -0.06275017559528351,

@@ -1,1439 +1,1439 @@
 {
   "metadata": {
-    "check_date": "2025-12-10",
-    "completion_date": "2025-12-10",
-    "method": "Browser automation + File analysis",
+    "check_date": "2025_12_10",
+    "completion_date": "2025_12_10",
+    "method": "browser_automation_+_file_analysis",
     "status": "done",
-    "source": "Kettler Data Analysis Project",
+    "source": "kettler_data_analysis_project",
     "file_name": "bar_license_browser_check_results.json",
     "file_path": "research/analysis/bar_license_browser_check_results.json",
-    "last_updated": "2025-12-10 23:49:49"
+    "last_updated": "2025_12_10_23:49:49"
   },
   "sites_attempted": {
     "dc_bar_directory": {
-      "url": "https://www.dcbar.org/member-directory/",
-      "status": "404_ERROR",
-      "note": "DC Bar member directory returns 404 error - site may be broken or restructured"
+      "url": "https://www.dcbar.org/member_directory/",
+      "status": "404_error",
+      "note": "dc_bar_member_directory_returns_404_error_site_may_be_broken_or_restructured"
     },
     "dc_courts_attorney_search": {
-      "url": "https://www.dccourts.gov/services/attorney-services/attorney-search",
-      "status": "404_ERROR",
-      "note": "DC Courts attorney search page returns 404 error"
+      "url": "https://www.dccourts.gov/services/attorney_services/attorney_search",
+      "status": "404_error",
+      "note": "dc_courts_attorney_search_page_returns_404_error"
     },
     "virginia_state_bar": {
       "url": "https://www.vsb.org/site/members/lookup",
-      "status": "ACCESSIBLE",
-      "note": "Virginia State Bar lookup page accessible, search attempted for Sean Curtin",
+      "status": "accessible",
+      "note": "virginia_state_bar_lookup_page_accessible,_search_attempted_for_sean_curtin",
       "search_performed": true,
-      "search_term": "Sean Curtin",
-      "results": "Awaiting page response"
+      "search_term": "sean_curtin",
+      "results": "awaiting_page_response"
     }
   },
   "employees_checked": {
     "sean_curtin": {
-      "title": "General Counsel",
-      "priority": "HIGH",
-      "reason": "General Counsel typically requires bar admission",
+      "title": "general_counsel",
+      "priority": "high",
+      "reason": "general_counsel_typically_requires_bar_admission",
       "states_checked": [
-        "AL",
-        "AK",
-        "AZ",
-        "AR",
-        "CA",
-        "CO",
-        "CT",
-        "DE",
-        "FL",
-        "GA",
-        "HI",
-        "ID",
-        "IL",
-        "IN",
-        "IA",
-        "KS",
-        "KY",
-        "LA",
-        "ME",
-        "MD",
-        "MA",
-        "MI",
-        "MN",
-        "MS",
-        "MO",
-        "MT",
-        "NE",
-        "NV",
-        "NH",
-        "NJ",
-        "NM",
-        "NY",
-        "NC",
-        "ND",
-        "OH",
-        "OK",
-        "OR",
-        "PA",
-        "RI",
-        "SC",
-        "SD",
-        "TN",
-        "TX",
-        "UT",
-        "VT",
-        "VA",
-        "WA",
-        "WV",
-        "WI",
-        "WY",
-        "DC",
-        "GE",
-        "VI",
-        "PE"
+        "al",
+        "ak",
+        "az",
+        "ar",
+        "ca",
+        "co",
+        "ct",
+        "de",
+        "fl",
+        "ga",
+        "hi",
+        "id",
+        "il",
+        "in",
+        "ia",
+        "ks",
+        "ky",
+        "la",
+        "me",
+        "md",
+        "ma",
+        "mi",
+        "mn",
+        "ms",
+        "mo",
+        "mt",
+        "ne",
+        "nv",
+        "nh",
+        "nj",
+        "nm",
+        "ny",
+        "nc",
+        "nd",
+        "oh",
+        "ok",
+        "or",
+        "pa",
+        "ri",
+        "sc",
+        "sd",
+        "tn",
+        "tx",
+        "ut",
+        "vt",
+        "va",
+        "wa",
+        "wv",
+        "wi",
+        "wy",
+        "dc",
+        "ge",
+        "vi",
+        "pe"
       ],
       "total_states_checked": 54,
       "licenses_found": 2,
       "licenses_not_found": 52,
-      "bar_license_status": "Found",
+      "bar_license_status": "found",
       "states": {
-        "AL": {
+        "al": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/AL_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/al_sean_curtin_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "AK": {
+        "ak": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "AZ": {
+        "az": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/az_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "AR": {
+        "ar": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/AR_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ar_sean_curtin_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CA": {
+        "ca": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/CA_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ca_sean_curtin_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CO": {
+        "co": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/CO_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/co_sean_curtin_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CT": {
+        "ct": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/ct_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "DE": {
+        "de": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/DE_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/de_sean_curtin_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "FL": {
+        "fl": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/fl_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "GA": {
+        "ga": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/ga_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "HI": {
+        "hi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "ID": {
+        "id": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IL": {
+        "il": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IN": {
+        "in": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IA": {
+        "ia": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "KS": {
+        "ks": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "KY": {
+        "ky": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "LA": {
+        "la": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "ME": {
+        "me": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MD": {
+        "md": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/md_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "MA": {
+        "ma": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/MA_sean_curtin_bar_finding.json",
-          "note": "MSBA member directory requires login. Google search performed as fallback. No clear evidence of Maryland Bar admission found in Google search"
+          "file_path": "research/license_searches/data/bar_licenses/ma_sean_curtin_bar_finding.json",
+          "note": "msba_member_directory_requires_login._google_search_performed_as_fallback._no_clear_evidence_of_maryland_bar_admission_found_in_google_search"
         },
-        "MI": {
+        "mi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MN": {
+        "mn": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MS": {
+        "ms": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MO": {
+        "mo": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MT": {
+        "mt": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NE": {
+        "ne": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/NE_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ne_sean_curtin_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "NV": {
+        "nv": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NH": {
+        "nh": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NJ": {
+        "nj": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/nj_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "NM": {
+        "nm": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/nm_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "NY": {
+        "ny": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/ny_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "NC": {
+        "nc": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/nc_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "ND": {
+        "nd": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OH": {
+        "oh": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OK": {
+        "ok": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OR": {
+        "or": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "PA": {
+        "pa": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/pa_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "RI": {
+        "ri": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "SC": {
+        "sc": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/sc_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "SD": {
+        "sd": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "TN": {
+        "tn": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "TX": {
+        "tx": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "UT": {
+        "ut": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/ut_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "VT": {
+        "vt": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "VA": {
+        "va": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
           "file_path": "research/license_searches/data/bar_licenses/va_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "WA": {
+        "wa": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WV": {
+        "wv": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WI": {
+        "wi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WY": {
+        "wy": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "DC": {
+        "dc": {
           "bar_license": true,
-          "license_status": "Found - Inactive",
+          "license_status": "found_inactive",
           "verification_status": "verified",
           "file_path": "research/license_searches/data/bar_licenses/dc_sean_curtin_bar_finding.json",
-          "note": "DC Bar member found via manual verification. Member status: GOOD STANDING, Member Type: Inactive, Admit Date: 10/4/1989. License exists but is inactive."
+          "note": "dc_bar_member_found_via_manual_verification._member_status:_good_standing,_member_type:_inactive,_admit_date:_10/4/1989._license_exists_but_is_inactive."
         },
-        "GE": {
+        "ge": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/GE_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ge_sean_curtin_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "VI": {
+        "vi": {
           "bar_license": true,
-          "license_status": "Found",
+          "license_status": "found",
           "verification_status": "verified",
-          "file_path": "research/license_searches/data/bar_licenses/VI_sean_curtin_bar_finding.json",
-          "note": "Virginia State Bar member lookup search performed via browser automation. Google search confirms: Mr. Sean Hilary Curtin - McLean, VA Attorney (lawyer.com), Sean H Curtin - Business and Corporate Attorney in McLean (attorney.org)"
+          "file_path": "research/license_searches/data/bar_licenses/vi_sean_curtin_bar_finding.json",
+          "note": "virginia_state_bar_member_lookup_search_performed_via_browser_automation._google_search_confirms:_mr._sean_hilary_curtin_mclean,_va_attorney_(lawyer.com),_sean_h_curtin_business_and_corporate_attorney_in_mclean_(attorney.org)"
         },
-        "PE": {
+        "pe": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/PE_sean_curtin_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/pe_sean_curtin_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         }
       },
-      "summary": "2 bar license(s) found out of 54 states checked"
+      "summary": "2_bar_license(s)_found_out_of_54_states_checked"
     },
     "todd_bowen": {
-      "title": "SVP Strategic Services",
-      "priority": "MEDIUM",
+      "title": "svp_strategic_services",
+      "priority": "medium",
       "reason": "",
       "states_checked": [
-        "AL",
-        "AK",
-        "AZ",
-        "AR",
-        "CA",
-        "CO",
-        "CT",
-        "DE",
-        "FL",
-        "GA",
-        "HI",
-        "ID",
-        "IL",
-        "IN",
-        "IA",
-        "KS",
-        "KY",
-        "LA",
-        "ME",
-        "MD",
-        "MA",
-        "MI",
-        "MN",
-        "MS",
-        "MO",
-        "MT",
-        "NE",
-        "NV",
-        "NH",
-        "NJ",
-        "NM",
-        "NY",
-        "NC",
-        "ND",
-        "OH",
-        "OK",
-        "OR",
-        "PA",
-        "RI",
-        "SC",
-        "SD",
-        "TN",
-        "TX",
-        "UT",
-        "VT",
-        "VA",
-        "WA",
-        "WV",
-        "WI",
-        "WY",
-        "DC",
-        "VI",
-        "PE",
-        "GE"
+        "al",
+        "ak",
+        "az",
+        "ar",
+        "ca",
+        "co",
+        "ct",
+        "de",
+        "fl",
+        "ga",
+        "hi",
+        "id",
+        "il",
+        "in",
+        "ia",
+        "ks",
+        "ky",
+        "la",
+        "me",
+        "md",
+        "ma",
+        "mi",
+        "mn",
+        "ms",
+        "mo",
+        "mt",
+        "ne",
+        "nv",
+        "nh",
+        "nj",
+        "nm",
+        "ny",
+        "nc",
+        "nd",
+        "oh",
+        "ok",
+        "or",
+        "pa",
+        "ri",
+        "sc",
+        "sd",
+        "tn",
+        "tx",
+        "ut",
+        "vt",
+        "va",
+        "wa",
+        "wv",
+        "wi",
+        "wy",
+        "dc",
+        "vi",
+        "pe",
+        "ge"
       ],
       "total_states_checked": 54,
       "licenses_found": 0,
       "licenses_not_found": 54,
-      "bar_license_status": "Not found",
+      "bar_license_status": "not_found",
       "states": {
-        "AL": {
+        "al": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/AL_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/al_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "AK": {
+        "ak": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "AZ": {
+        "az": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "AR": {
+        "ar": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/AR_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ar_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CA": {
+        "ca": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/CA_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ca_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CO": {
+        "co": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/CO_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/co_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CT": {
+        "ct": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "DE": {
+        "de": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/DE_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/de_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "FL": {
+        "fl": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/FL_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/fl_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "GA": {
+        "ga": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/GE_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ge_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "HI": {
+        "hi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "ID": {
+        "id": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IL": {
+        "il": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IN": {
+        "in": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IA": {
+        "ia": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "KS": {
+        "ks": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "KY": {
+        "ky": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "LA": {
+        "la": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "ME": {
+        "me": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MD": {
+        "md": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/MA_todd_bowen_bar_finding.json",
-          "note": "MSBA member directory requires login. Google search performed as fallback."
+          "file_path": "research/license_searches/data/bar_licenses/ma_todd_bowen_bar_finding.json",
+          "note": "msba_member_directory_requires_login._google_search_performed_as_fallback."
         },
-        "MA": {
+        "ma": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/MA_todd_bowen_bar_finding.json",
-          "note": "MSBA member directory requires login. Google search performed as fallback."
+          "file_path": "research/license_searches/data/bar_licenses/ma_todd_bowen_bar_finding.json",
+          "note": "msba_member_directory_requires_login._google_search_performed_as_fallback."
         },
-        "MI": {
+        "mi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MN": {
+        "mn": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MS": {
+        "ms": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MO": {
+        "mo": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MT": {
+        "mt": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NE": {
+        "ne": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/NE_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ne_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "NV": {
+        "nv": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NH": {
+        "nh": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NJ": {
+        "nj": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NM": {
+        "nm": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NY": {
+        "ny": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NC": {
+        "nc": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "ND": {
+        "nd": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OH": {
+        "oh": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OK": {
+        "ok": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OR": {
+        "or": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "PA": {
+        "pa": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/PE_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/pe_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "RI": {
+        "ri": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "SC": {
+        "sc": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "SD": {
+        "sd": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "TN": {
+        "tn": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "TX": {
+        "tx": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "UT": {
+        "ut": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "VT": {
+        "vt": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "VA": {
+        "va": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/VI_todd_bowen_bar_finding.json",
-          "note": "Virginia State Bar member lookup search performed via browser automation."
+          "file_path": "research/license_searches/data/bar_licenses/vi_todd_bowen_bar_finding.json",
+          "note": "virginia_state_bar_member_lookup_search_performed_via_browser_automation."
         },
-        "WA": {
+        "wa": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WV": {
+        "wv": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WI": {
+        "wi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WY": {
+        "wy": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "DC": {
+        "dc": {
           "bar_license": false,
-          "license_status": "Not found - Verified",
+          "license_status": "not_found_verified",
           "verification_status": "verified",
-          "file_path": "research/license_searches/data/bar_licenses/DC_todd_bowen_bar_finding.json",
-          "note": "DC Bar member directory search performed via manual verification. Search criteria: First Name 'todd', Last Name 'bowen'. Result: No results found - confirmed Todd Bowen does NOT have a DC Bar license."
+          "file_path": "research/license_searches/data/bar_licenses/dc_todd_bowen_bar_finding.json",
+          "note": "dc_bar_member_directory_search_performed_via_manual_verification._search_criteria:_first_name_'todd',_last_name_'bowen'._result:_no_results_found_confirmed_todd_bowen_does_not_have_a_dc_bar_license."
         },
-        "VI": {
+        "vi": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/VI_todd_bowen_bar_finding.json",
-          "note": "Virginia State Bar member lookup search performed via browser automation."
+          "file_path": "research/license_searches/data/bar_licenses/vi_todd_bowen_bar_finding.json",
+          "note": "virginia_state_bar_member_lookup_search_performed_via_browser_automation."
         },
-        "PE": {
+        "pe": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/PE_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/pe_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "GE": {
+        "ge": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/GE_todd_bowen_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ge_todd_bowen_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         }
       },
-      "summary": "0 bar license(s) found out of 54 states checked"
+      "summary": "0_bar_license(s)_found_out_of_54_states_checked"
     },
     "edward_hyland": {
-      "title": "Senior Regional Manager",
-      "priority": "MEDIUM",
+      "title": "senior_regional_manager",
+      "priority": "medium",
       "reason": "",
       "states_checked": [
-        "AL",
-        "AK",
-        "AZ",
-        "AR",
-        "CA",
-        "CO",
-        "CT",
-        "DE",
-        "FL",
-        "GA",
-        "HI",
-        "ID",
-        "IL",
-        "IN",
-        "IA",
-        "KS",
-        "KY",
-        "LA",
-        "ME",
-        "MD",
-        "MA",
-        "MI",
-        "MN",
-        "MS",
-        "MO",
-        "MT",
-        "NE",
-        "NV",
-        "NH",
-        "NJ",
-        "NM",
-        "NY",
-        "NC",
-        "ND",
-        "OH",
-        "OK",
-        "OR",
-        "PA",
-        "RI",
-        "SC",
-        "SD",
-        "TN",
-        "TX",
-        "UT",
-        "VT",
-        "VA",
-        "WA",
-        "WV",
-        "WI",
-        "WY",
-        "DC",
-        "GE",
-        "VI",
-        "PE"
+        "al",
+        "ak",
+        "az",
+        "ar",
+        "ca",
+        "co",
+        "ct",
+        "de",
+        "fl",
+        "ga",
+        "hi",
+        "id",
+        "il",
+        "in",
+        "ia",
+        "ks",
+        "ky",
+        "la",
+        "me",
+        "md",
+        "ma",
+        "mi",
+        "mn",
+        "ms",
+        "mo",
+        "mt",
+        "ne",
+        "nv",
+        "nh",
+        "nj",
+        "nm",
+        "ny",
+        "nc",
+        "nd",
+        "oh",
+        "ok",
+        "or",
+        "pa",
+        "ri",
+        "sc",
+        "sd",
+        "tn",
+        "tx",
+        "ut",
+        "vt",
+        "va",
+        "wa",
+        "wv",
+        "wi",
+        "wy",
+        "dc",
+        "ge",
+        "vi",
+        "pe"
       ],
       "total_states_checked": 54,
       "licenses_found": 0,
       "licenses_not_found": 54,
-      "bar_license_status": "Not found",
+      "bar_license_status": "not_found",
       "states": {
-        "AL": {
+        "al": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/AL_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/al_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "AK": {
+        "ak": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "AZ": {
+        "az": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "AR": {
+        "ar": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/AR_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ar_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CA": {
+        "ca": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/CA_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ca_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CO": {
+        "co": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/CO_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/co_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "CT": {
+        "ct": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "DE": {
+        "de": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/DE_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/de_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "FL": {
+        "fl": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/FL_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/fl_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "GA": {
+        "ga": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/GE_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ge_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "HI": {
+        "hi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "ID": {
+        "id": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IL": {
+        "il": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IN": {
+        "in": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "IA": {
+        "ia": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "KS": {
+        "ks": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "KY": {
+        "ky": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "LA": {
+        "la": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "ME": {
+        "me": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MD": {
+        "md": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/MA_edward_hyland_bar_finding.json",
-          "note": "MSBA member directory requires login. Google search performed as fallback."
+          "file_path": "research/license_searches/data/bar_licenses/ma_edward_hyland_bar_finding.json",
+          "note": "msba_member_directory_requires_login._google_search_performed_as_fallback."
         },
-        "MA": {
+        "ma": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/MA_edward_hyland_bar_finding.json",
-          "note": "MSBA member directory requires login. Google search performed as fallback."
+          "file_path": "research/license_searches/data/bar_licenses/ma_edward_hyland_bar_finding.json",
+          "note": "msba_member_directory_requires_login._google_search_performed_as_fallback."
         },
-        "MI": {
+        "mi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MN": {
+        "mn": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MS": {
+        "ms": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MO": {
+        "mo": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "MT": {
+        "mt": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NE": {
+        "ne": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/NE_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ne_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "NV": {
+        "nv": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NH": {
+        "nh": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NJ": {
+        "nj": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NM": {
+        "nm": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NY": {
+        "ny": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "NC": {
+        "nc": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "ND": {
+        "nd": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OH": {
+        "oh": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OK": {
+        "ok": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "OR": {
+        "or": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "PA": {
+        "pa": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/PE_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/pe_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "RI": {
+        "ri": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "SC": {
+        "sc": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "SD": {
+        "sd": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "TN": {
+        "tn": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "TX": {
+        "tx": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "UT": {
+        "ut": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "VT": {
+        "vt": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "VA": {
+        "va": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/VI_edward_hyland_bar_finding.json",
-          "note": "Virginia State Bar member lookup search performed via browser automation."
+          "file_path": "research/license_searches/data/bar_licenses/vi_edward_hyland_bar_finding.json",
+          "note": "virginia_state_bar_member_lookup_search_performed_via_browser_automation."
         },
-        "WA": {
+        "wa": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WV": {
+        "wv": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WI": {
+        "wi": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "WY": {
+        "wy": {
           "bar_license": false,
-          "license_status": "Not searched",
+          "license_status": "not_searched",
           "verification_status": "not_searched",
           "file_path": "",
-          "note": "No bar license file found for this state"
+          "note": "no_bar_license_file_found_for_this_state"
         },
-        "DC": {
+        "dc": {
           "bar_license": false,
-          "license_status": "Not found - Verified",
+          "license_status": "not_found_verified",
           "verification_status": "verified",
-          "file_path": "research/license_searches/data/bar_licenses/DC_edward_hyland_bar_finding.json",
-          "note": "DC Bar member directory search performed via manual verification. Search criteria: First Name 'edward', Last Name 'hyland'. Result: No results found - confirmed Edward Hyland does NOT have a DC Bar license."
+          "file_path": "research/license_searches/data/bar_licenses/dc_edward_hyland_bar_finding.json",
+          "note": "dc_bar_member_directory_search_performed_via_manual_verification._search_criteria:_first_name_'edward',_last_name_'hyland'._result:_no_results_found_confirmed_edward_hyland_does_not_have_a_dc_bar_license."
         },
-        "GE": {
+        "ge": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/GE_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/ge_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         },
-        "VI": {
+        "vi": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/VI_edward_hyland_bar_finding.json",
-          "note": "Virginia State Bar member lookup search performed via browser automation."
+          "file_path": "research/license_searches/data/bar_licenses/vi_edward_hyland_bar_finding.json",
+          "note": "virginia_state_bar_member_lookup_search_performed_via_browser_automation."
         },
-        "PE": {
+        "pe": {
           "bar_license": false,
-          "license_status": "Not found",
+          "license_status": "not_found",
           "verification_status": "requires_manual_verification",
-          "file_path": "research/license_searches/data/bar_licenses/PE_edward_hyland_bar_finding.json",
-          "note": "Search not yet performed. Manual verification recommended."
+          "file_path": "research/license_searches/data/bar_licenses/pe_edward_hyland_bar_finding.json",
+          "note": "search_not_yet_performed._manual_verification_recommended."
         }
       },
-      "summary": "0 bar license(s) found out of 54 states checked"
+      "summary": "0_bar_license(s)_found_out_of_54_states_checked"
     }
   },
   "bar_association_urls": {
-    "district_of_columbia": {
-      "dc_bar": "https://www.dcbar.org/member-directory/",
-      "status": "404_ERROR",
-      "alternative": "Google search: 'DC Bar member directory' or search DC Bar website directly"
+    "dc": {
+      "dc_bar": "https://www.dcbar.org/member_directory/",
+      "status": "404_error",
+      "alternative": "google_search:_'dc_bar_member_directory'_or_search_dc_bar_website_directly"
     },
-    "virginia": {
+    "va": {
       "vsb_lookup": "https://www.vsb.org/site/members/lookup",
-      "status": "ACCESSIBLE",
-      "note": "Keyword search available"
+      "status": "accessible",
+      "note": "keyword_search_available"
     },
-    "maryland": {
-      "msba_directory": "https://www.msba.org/member-directory/",
+    "md": {
+      "msba_directory": "https://www.msba.org/member_directory/",
       "attorney_search": "https://www.courts.state.md.us/attygrievance/attysearch",
-      "status": "NOT_ATTEMPTED"
+      "status": "not_attempted"
     },
     "new_york": {
-      "nysba_directory": "https://www.nysba.org/member-directory/",
-      "attorney_search": "https://iapps.courts.state.ny.us/attorney/AttorneySearch",
-      "status": "NOT_ATTEMPTED"
+      "nysba_directory": "https://www.nysba.org/member_directory/",
+      "attorney_search": "https://iapps.courts.state.ny.us/attorney/attorneysearch",
+      "status": "not_attempted"
     },
-    "connecticut": {
-      "ct_bar": "https://www.ctbar.org/member-directory/",
+    "ct": {
+      "ct_bar": "https://www.ctbar.org/member_directory/",
       "attorney_search": "https://www.jud.ct.gov/attorney/",
-      "status": "NOT_ATTEMPTED"
+      "status": "not_attempted"
     },
     "new_jersey": {
-      "njsba": "https://www.njsba.com/member-directory/",
-      "attorney_search": "https://www.njcourts.gov/attorneys/attorney-search",
-      "status": "NOT_ATTEMPTED"
+      "njsba": "https://www.njsba.com/member_directory/",
+      "attorney_search": "https://www.njcourts.gov/attorneys/attorney_search",
+      "status": "not_attempted"
     }
   },
   "browser_automation_challenges": [
-    "DC Bar directory returns 404 error - site may be broken or restructured",
-    "DC Courts attorney search returns 404 error",
-    "Some state bar websites require login or CAPTCHA",
-    "Complex search forms with dynamic fields",
-    "Some sites may require manual navigation"
+    "dc_bar_directory_returns_404_error_site_may_be_broken_or_restructured",
+    "dc_courts_attorney_search_returns_404_error",
+    "some_state_bar_websites_require_login_or_captcha",
+    "complex_search_forms_with_dynamic_fields",
+    "some_sites_may_require_manual_navigation"
   ],
   "recommendations": {
     "immediate": [
-      "Manually search DC Bar website for Sean Curtin (General Counsel)",
-      "Verify Virginia State Bar search results for Sean Curtin",
-      "Search Maryland, New York, Connecticut, New Jersey bar associations manually"
+      "manually_search_dc_bar_website_for_sean_curtin_(general_counsel)",
+      "verify_virginia_state_bar_search_results_for_sean_curtin",
+      "search_maryland,_new_york,_connecticut,_new_jersey_bar_associations_manually"
     ],
     "alternative_methods": [
-      "Google search: '[Name] attorney [State] bar'",
-      "LinkedIn profiles for bar admission information",
-      "State bar association member directories",
-      "Court records for attorney admissions"
+      "google_search:_'[name]_attorney_[state]_bar'",
+      "linkedin_profiles_for_bar_admission_information",
+      "state_bar_association_member_directories",
+      "court_records_for_attorney_admissions"
     ],
     "priority_employees": [
-      "Sean Curtin (General Counsel) - HIGHEST PRIORITY",
-      "Todd Bowen - MEDIUM PRIORITY",
-      "Edward Hyland - MEDIUM PRIORITY"
+      "sean_curtin_(general_counsel)_highest_priority",
+      "todd_bowen_medium_priority",
+      "edward_hyland_medium_priority"
     ]
   },
   "summary": {
     "status": "done",
-    "completion_date": "2025-12-10",
+    "completion_date": "2025_12_10",
     "total_employees_checked": 3,
     "total_states_checked": 162,
     "total_bar_licenses_found": 2,
     "total_bar_licenses_not_found": 160,
-    "critical_finding": "Sean Curtin (General Counsel) has bar license in Virginia. Other states require manual verification.",
+    "critical_finding": "sean_curtin_(general_counsel)_has_bar_license_in_virginia._other_states_require_manual_verification.",
     "all_data_points_have_bar_license_status": true
   }
 }

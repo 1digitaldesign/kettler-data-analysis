@@ -1,5 +1,5 @@
 {
-  "validation_date": "2025-12-11",
+  "validation_date": "2025_12_11",
   "status": "validated_and_cleaned",
   "total_files": 21,
   "files_validated": 21,
@@ -8,27 +8,27 @@
   "data_population_status": {
     "from_dpor_website": {
       "status": "requires_manual_access",
-      "note": "DPOR License Lookup website requires specific navigation to Real Estate board section. Current license information (0226025311) already documented in files.",
-      "url": "https://www.dpor.virginia.gov/LicenseLookup",
+      "note": "dpor_license_lookup_website_requires_specific_navigation_to_real_estate_board_section._current_license_information_(0226025311)_already_documented_in_files.",
+      "url": "https://www.dpor.virginia.gov/licenselookup",
       "license_number": "0226025311",
-      "firm_name": "KETTLER MANAGEMENT INC",
+      "firm_name": "kettler_management_inc",
       "principal_broker_license": "0225273926",
-      "principal_broker_name": "SKIDMORE CAITLIN MARIE",
-      "assigned_date": "2025-04-03"
+      "principal_broker_name": "skidmore_caitlin_marie",
+      "assigned_date": "2025_04_03"
     },
     "historical_data": {
       "status": "requires_foia_request",
-      "note": "Historical principal broker records from 2014-2025 require FOIA request to DPOR",
-      "foia_email": "PublicRecords@dpor.virginia.gov",
-      "foia_fax": "(866) 254-0312",
-      "foia_website": "https://www.dpor.virginia.gov/RecordsandDocuments",
-      "cost": "$40.00 per entity request"
+      "note": "historical_principal_broker_records_from_2014_2025_require_foia_request_to_dpor",
+      "foia_email": "publicrecords@dpor.virginia.gov",
+      "foia_fax": "(866)_254_0312",
+      "foia_website": "https://www.dpor.virginia.gov/recordsanddocuments",
+      "cost": "$40.00_per_entity_request"
     },
     "supervision_certifications": {
       "status": "requires_foia_request",
-      "note": "Quarterly supervision certifications require FOIA request",
-      "regulation": "18 VAC 135-20-60",
-      "requirement": "Quarterly face-to-face supervision certification for licensees >50 miles from principal broker"
+      "note": "quarterly_supervision_certifications_require_foia_request",
+      "regulation": "18_vac_135_20_60",
+      "requirement": "quarterly_face_to_face_supervision_certification_for_licensees_>50_miles_from_principal_broker"
     }
   },
   "files_summary": {
@@ -36,121 +36,121 @@
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains gap period analysis, FOIA request template, Wayback Machine search plan"
+      "note": "contains_gap_period_analysis,_foia_request_template,_wayback_machine_search_plan"
     },
     "kettler_operations_gap_period.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains Virginia properties list, unit counts, data sources"
+      "note": "contains_virginia_properties_list,_unit_counts,_data_sources"
     },
     "50_mile_rule_violations.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains distance analysis (1,300 miles), supervision certification requirements"
+      "note": "contains_distance_analysis_(1,300_miles),_supervision_certification_requirements"
     },
     "unlicensed_activities_documentation.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains documented unlicensed activities by Edward Hyland and others"
+      "note": "contains_documented_unlicensed_activities_by_edward_hyland_and_others"
     },
     "texas_regulatory_violations_analysis.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Comprehensive analysis of Texas-related regulatory violations including foreign qualification issues, 50-mile rule violations, shell company structure, and Lariat Realty Advisors connections"
+      "note": "comprehensive_analysis_of_texas_related_regulatory_violations_including_foreign_qualification_issues,_50_mile_rule_violations,_shell_company_structure,_and_lariat_realty_advisors_connections"
     },
     "personnel_license_verification.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains license verification for all personnel across multiple states"
+      "note": "contains_license_verification_for_all_personnel_across_multiple_states"
     },
     "regulatory_compliance_gap_period.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains regulatory compliance analysis during gap period"
+      "note": "contains_regulatory_compliance_analysis_during_gap_period"
     },
     "skidmore_all_firms_matrix.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains matrix of all 38 firms with Skidmore as principal broker"
+      "note": "contains_matrix_of_all_38_firms_with_skidmore_as_principal_broker"
     },
     "skidmore_firm_supervision_capacity.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains analysis of supervision capacity across 38 firms"
+      "note": "contains_analysis_of_supervision_capacity_across_38_firms"
     },
     "additional_regulatory_violations.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains additional regulatory violations beyond principal broker gap"
+      "note": "contains_additional_regulatory_violations_beyond_principal_broker_gap"
     },
     "consumer_complaints_analysis.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains consumer complaints analysis"
+      "note": "contains_consumer_complaints_analysis"
     },
     "corporate_structure_analysis.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains corporate structure analysis"
+      "note": "contains_corporate_structure_analysis"
     },
     "financial_scale_analysis.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains financial scale analysis (22,000+ units, 97 properties)"
+      "note": "contains_financial_scale_analysis_(22,000+_units,_97_properties)"
     },
     "media_coverage_analysis.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains media coverage analysis"
+      "note": "contains_media_coverage_analysis"
     },
     "expanded_personnel_verification.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Contains expanded personnel verification data"
+      "note": "contains_expanded_personnel_verification_data"
     },
     "COMPREHENSIVE_PERSONNEL_VERIFICATION_REPORT.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Comprehensive personnel verification report"
+      "note": "comprehensive_personnel_verification_report"
     },
     "EXPANDED_PERSONNEL_VERIFICATION_STATUS.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Expanded personnel verification status"
+      "note": "expanded_personnel_verification_status"
     },
     "PERSONNEL_VERIFICATION_100_PERCENT_COMPLETE.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "100% complete personnel verification"
+      "note": "100%_complete_personnel_verification"
     },
     "PERSONNEL_VERIFICATION_FINAL_SUMMARY.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Final summary of personnel verification"
+      "note": "final_summary_of_personnel_verification"
     },
     "PERSONNEL_VERIFICATION_PROGRESS.json": {
       "status": "complete",
       "has_metadata": true,
       "data_complete": true,
-      "note": "Personnel verification progress tracking"
+      "note": "personnel_verification_progress_tracking"
     }
   },
   "validation_results": {
@@ -158,53 +158,53 @@
     "all_files_cleaned": true,
     "structural_issues": [
       {
-        "file": "COMPREHENSIVE_PERSONNEL_VERIFICATION_REPORT.json",
-        "issue": "Missing personnel or verification data field (acceptable - file contains report structure)"
+        "file": "comprehensive_personnel_verification_report.json",
+        "issue": "missing_personnel_or_verification_data_field_(acceptable_file_contains_report_structure)"
       },
       {
-        "file": "EXPANDED_PERSONNEL_VERIFICATION_STATUS.json",
-        "issue": "Missing personnel or verification data field (acceptable - file contains status structure)"
+        "file": "expanded_personnel_verification_status.json",
+        "issue": "missing_personnel_or_verification_data_field_(acceptable_file_contains_status_structure)"
       },
       {
-        "file": "PERSONNEL_VERIFICATION_100_PERCENT_COMPLETE.json",
-        "issue": "Missing personnel or verification data field (acceptable - file contains completion structure)"
+        "file": "personnel_verification_100_percent_complete.json",
+        "issue": "missing_personnel_or_verification_data_field_(acceptable_file_contains_completion_structure)"
       },
       {
-        "file": "PERSONNEL_VERIFICATION_FINAL_SUMMARY.json",
-        "issue": "Missing personnel or verification data field (acceptable - file contains summary structure)"
+        "file": "personnel_verification_final_summary.json",
+        "issue": "missing_personnel_or_verification_data_field_(acceptable_file_contains_summary_structure)"
       },
       {
-        "file": "PERSONNEL_VERIFICATION_PROGRESS.json",
-        "issue": "Missing personnel or verification data field (acceptable - file contains progress structure)"
+        "file": "personnel_verification_progress.json",
+        "issue": "missing_personnel_or_verification_data_field_(acceptable_file_contains_progress_structure)"
       },
       {
         "file": "expanded_personnel_verification.json",
-        "issue": "Missing personnel or verification data field (acceptable - file contains verification structure)"
+        "issue": "missing_personnel_or_verification_data_field_(acceptable_file_contains_verification_structure)"
       },
       {
         "file": "personnel_license_verification.json",
-        "issue": "Missing personnel or verification data field (acceptable - file contains license verification structure)"
+        "issue": "missing_personnel_or_verification_data_field_(acceptable_file_contains_license_verification_structure)"
       },
       {
         "file": "additional_regulatory_violations.json",
-        "issue": "Missing violation_analysis or regulation field (acceptable - file contains violations list)"
+        "issue": "missing_violation_analysis_or_regulation_field_(acceptable_file_contains_violations_list)"
       }
     ],
-    "note": "Structural 'issues' are acceptable - files use different field names appropriate to their content"
+    "note": "structural_'issues'_are_acceptable_files_use_different_field_names_appropriate_to_their_content"
   },
   "next_steps": [
-    "All files validated and cleaned with complete metadata",
-    "DPOR website access may require navigating to Real Estate board section specifically",
-    "Historical data requires FOIA request to DPOR",
-    "Supervision certifications require FOIA request",
-    "All current license information already documented in files",
-    "Texas regulatory violations analysis added - includes foreign qualification issues, shell company structure, and Lariat Realty Advisors connections"
+    "all_files_validated_and_cleaned_with_complete_metadata",
+    "dpor_website_access_may_require_navigating_to_real_estate_board_section_specifically",
+    "historical_data_requires_foia_request_to_dpor",
+    "supervision_certifications_require_foia_request",
+    "all_current_license_information_already_documented_in_files",
+    "texas_regulatory_violations_analysis_added_includes_foreign_qualification_issues,_shell_company_structure,_and_lariat_realty_advisors_connections"
   ],
   "metadata": {
-    "file_name": "VA_DPOR_COMPLAINT_DATA_STATUS.json",
-    "file_path": "research/va_dpor_complaint/VA_DPOR_COMPLAINT_DATA_STATUS.json",
-    "last_updated": "2025-12-11 04:58:00",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "file_name": "va_dpor_complaint_data_status.json",
+    "file_path": "research/va_dpor_complaint/va_dpor_complaint_data_status.json",
+    "last_updated": "2025_12_11_04:58:00",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

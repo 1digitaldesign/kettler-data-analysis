@@ -1,85 +1,85 @@
 {
   "metadata": {
-    "date": "2025-12-08",
-    "state": "Virginia",
-    "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
-    "broker": "Caitlin Skidmore",
+    "date": "2025_12_08",
+    "state": "va",
+    "search_url": "https://www.dpor.virginia.gov/licenselookup",
+    "broker": "caitlin_skidmore",
     "total_licenses_found": 40,
-    "search_method": "Browser automation",
+    "search_method": "browser_automation",
     "status": "in_progress"
   },
   "finding": {
-    "broker_name": "SKIDMORE, CAITLIN MARIE",
+    "broker_name": "skidmore,_caitlin_marie",
     "total_licenses": 40,
-    "license_type": "Real Estate Individual - Principal Broker License",
-    "address": "FRISCO, TX 75033 / FRISCO, TX 75034",
-    "note": "CRITICAL FINDING: Caitlin Skidmore has 40 individual Principal Broker licenses in Virginia. Each license likely represents a different property management company using Lariat's broker services."
+    "license_type": "real_estate_individual_principal_broker_license",
+    "address": "frisco,_tx_75033_/_frisco,_tx_75034",
+    "note": "critical_finding:_caitlin_skidmore_has_40_individual_principal_broker_licenses_in_virginia._each_license_likely_represents_a_different_property_management_company_using_lariat's_broker_services."
   },
   "sample_licenses": [
     {
       "license_number": "0225258285",
-      "address": "FRISCO, TX 75034",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75034",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273785",
-      "address": "FRISCO, TX 75033",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75033",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273906",
-      "address": "FRISCO, TX 75033",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75033",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273907",
-      "address": "FRISCO, TX 75033",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75033",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273908",
-      "address": "FRISCO, TX 75033",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75033",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273909",
-      "address": "FRISCO, TX 75033",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75033",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273910",
-      "address": "FRISCO, TX 75034",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75034",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273911",
-      "address": "FRISCO, TX 75033",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75033",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273912",
-      "address": "FRISCO, TX 75033",
-      "type": "Real Estate Individual"
+      "address": "frisco,_tx_75033",
+      "type": "real_estate_individual"
     },
     {
       "license_number": "0225273913",
-      "address": "FRISCO, TX 75033",
-      "type": "Real Estate Individual - Principal Broker License",
-      "status": "Active",
-      "initial_certification_date": "2025-04-02",
-      "expiration_date": "2026-02-28"
+      "address": "frisco,_tx_75033",
+      "type": "real_estate_individual_principal_broker_license",
+      "status": "active",
+      "initial_certification_date": "2025_04_02",
+      "expiration_date": "2026_02_28"
     }
   ],
   "implications": {
-    "scale": "40 individual licenses suggests 40 different property management companies",
-    "pattern": "Each license is a Principal Broker License, indicating each represents a different company",
-    "comparison": "DC has 24 companies, Virginia has 40 licenses - potentially 40 different companies",
-    "violation_potential": "One broker cannot properly supervise 40 companies - massive supervision violation"
+    "scale": "40_individual_licenses_suggests_40_different_property_management_companies",
+    "pattern": "each_license_is_a_principal_broker_license,_indicating_each_represents_a_different_company",
+    "comparison": "dc_has_24_companies,_virginia_has_40_licenses_potentially_40_different_companies",
+    "violation_potential": "one_broker_cannot_properly_supervise_40_companies_massive_supervision_violation"
   },
   "next_steps": [
-    "Extract company names from each license detail page",
-    "Compare with DC list to identify new companies",
-    "Search other states (CT, IL, MA, RI, WA) for additional companies",
-    "Document all findings"
+    "extract_company_names_from_each_license_detail_page",
+    "compare_with_dc_list_to_identify_new_companies",
+    "search_other_states_(ct,_il,_ma,_ri,_wa)_for_additional_companies",
+    "document_all_findings"
   ]
 }

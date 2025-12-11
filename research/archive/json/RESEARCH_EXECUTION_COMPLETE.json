@@ -1,5 +1,5 @@
 {
-  "execution_completion_date": "2025-12-09",
+  "execution_completion_date": "2025_12_09",
   "status": "substantially_complete",
   "completion_rate": "90%",
   "tasks_completed": 10,
@@ -9,22 +9,28 @@
   "major_completions": {
     "wayback_dpor_search": {
       "status": "completed",
-      "finding": "FOIA required for historical records",
-      "contact": "PublicRecords@dpor.virginia.gov"
+      "finding": "foia_required_for_historical_records",
+      "contact": "publicrecords@dpor.virginia.gov"
     },
     "personnel_license_verification": {
-      "status": "100% complete",
+      "status": "100%_complete",
       "personnel_verified": 5,
-      "states_searched": ["VA", "TX", "MD", "DC", "NC"],
-      "result": "All 5 personnel confirmed unlicensed in all searched states",
-      "significance": "Systematic unlicensed practice documented"
+      "states_searched": [
+        "va",
+        "tx",
+        "md",
+        "dc",
+        "nc"
+      ],
+      "result": "all_5_personnel_confirmed_unlicensed_in_all_searched_states",
+      "significance": "systematic_unlicensed_practice_documented"
     },
     "financial_scale": {
       "status": "verified",
       "units_managed": "22,000+",
       "properties_managed": 97,
-      "investment_value": "$4.6B",
-      "employees": "500-1,000",
+      "investment_value": "$4.6b",
+      "employees": "500_1,000",
       "states": 10
     },
     "supervision_capacity": {
@@ -34,13 +40,13 @@
       "supervision_hours_required": 9312,
       "hours_per_day": 25.5,
       "employees_needed": 2222,
-      "conclusion": "Physically impossible - exceeds 24 hours per day"
+      "conclusion": "physically_impossible_exceeds_24_hours_per_day"
     },
     "regulatory_issues": {
       "status": "expanded",
-      "dpor_complaints": "FOIA method verified",
-      "fair_housing": "3 cases documented",
-      "bbb_complaints": "46 total, 26 unanswered (57%)"
+      "dpor_complaints": "foia_method_verified",
+      "fair_housing": "3_cases_documented",
+      "bbb_complaints": "46_total,_26_unanswered_(57%)"
     },
     "media_coverage": {
       "status": "expanded",
@@ -54,9 +60,9 @@
     },
     "corporate_structure": {
       "status": "expanded",
-      "parent_company": "KETTLER (founded 1977)",
-      "subsidiary": "Kettler Management Inc. (1988)",
-      "investment_value": "$4.6B verified"
+      "parent_company": "kettler_(founded_1977)",
+      "subsidiary": "kettler_management_inc._(1988)",
+      "investment_value": "$4.6b_verified"
     },
     "unlicensed_activities": {
       "status": "documented",
@@ -66,26 +72,26 @@
     },
     "property_records": {
       "status": "methods_verified",
-      "alexandria": "Real Estate Assessment Search tool verified",
-      "fairfax": "County property records verified",
-      "arlington": "Property records verified",
+      "alexandria": "real_estate_assessment_search_tool_verified",
+      "fairfax": "county_property_records_verified",
+      "arlington": "property_records_verified",
       "fields_of_arlington_units": 199
     }
   },
   "key_evidence_compiled": {
-    "principal_broker_gap": "10.5 years (3,840 days)",
-    "geographic_violation": "1,300 miles (1,250 over 50-mile limit)",
-    "supervision_impossibility": "9,312 hours/year = 25.5 hours/day (impossible)",
-    "unlicensed_practice": "5 personnel confirmed unlicensed",
-    "timeline_impossibility": "8 firms licensed before Skidmore",
-    "financial_scale": "$4.6B investment, 22,000+ units, 97 properties",
-    "regulatory_violations": "Multiple documented cases",
-    "media_coverage": "6 sources documented"
+    "principal_broker_gap": "10.5_years_(3,840_days)",
+    "geographic_violation": "1,300_miles_(1,250_over_50_mile_limit)",
+    "supervision_impossibility": "9,312_hours/year_=_25.5_hours/day_(impossible)",
+    "unlicensed_practice": "5_personnel_confirmed_unlicensed",
+    "timeline_impossibility": "8_firms_licensed_before_skidmore",
+    "financial_scale": "$4.6b_investment,_22,000+_units,_97_properties",
+    "regulatory_violations": "multiple_documented_cases",
+    "media_coverage": "6_sources_documented"
   },
   "remaining_work": {
-    "property_records_detailed": "Access property databases for detailed unit counts",
-    "search_results_files": "5 files need completion (lower priority)",
-    "business_license_violations": "Method verified, detailed search pending"
+    "property_records_detailed": "access_property_databases_for_detailed_unit_counts",
+    "search_results_files": "5_files_need_completion_(lower_priority)",
+    "business_license_violations": "method_verified,_detailed_search_pending"
   },
   "research_quality": "high",
   "evidence_strength": "strong",

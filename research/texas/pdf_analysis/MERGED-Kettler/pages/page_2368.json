@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:55:08.496377",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_2368.json",
+    "created": "2025_12_11t00:55:08.496377",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_2368.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 2368,
-    "text": "1303040135\nROF CRPIK-UHLO PODF\nNICAL .S,UCCRREV ETI\nCL OLNISYMARD OMAN/O RGTAC I N/EI HEPSTBET\nder\n7288HR ANVERGEENDO R.\n112 31AMECHANCLVISVIL E,\n(8045) 595.919\nNOSSINCMMIO OITCRRE OPOATAST\n130308 1233#200\nRNSTEETMAI 1300EAST\n1972 3209-1ARCIHNMODV\nMARC2H7 0 ,13\ni 5..\n!E!EXPEDT IYD ANEXT\n871KAR-\nDREARSIS,\nNOLN IIGRFENO CU CF ONILSE FSEL ONRNO,ISTUOS CIOTT PURSUANT\n:FBEHOAL F\nL LCMANEMEN AGTASSETLTERKET\nNOITARANZOGI CFILOTES AR\nUYOE TAPPRECAIUOLWDAREN E CILSED O.HRUREES TE EQIEDF FO YMENTACHNPECI K(S)\nMEADSE VI OTAND LN IIGFHS TIHT IPRBLW OEM AHS TERIE (8 045) 59-59 1F9I TAELME TEPHNN OIG\n.CPIKEDUBE P OTLAIABLE VADHEVIENS TE CIE HWEN\nRARHS EGDTI.ANNCI E STASSIUYOR RO UFYO HTANK\n,YNSICEREL\nNEIHEPSTBET\n4100\nIFF 100\nDN ae.rxt\n200\n5445020-3",
+    "text": "1303040135_rof_crpik_uhlo_podf_nical_.s,uccrrev_eti_cl_olnisymard_oman/o_rgtac_i_n/ei_hepstbet_der_7288hr_anvergeendo_r._112_31amechanclvisvil_e,_(8045)_595.919_nossincmmio_oitcrre_opoatast_130308_1233#200_rnsteetmai_1300east_1972_3209_1arcihnmodv_marc2h7_0_,13_i_5.._!e!expedt_iyd_anext_871kar_drearsis,_noln_iigrfeno_cu_cf_onilse_fsel_onrno,istuos_ciott_pursuant_:fbehoal_f_l_lcmanemen_agtassetlterket_noitaranzogi_cfilotes_ar_uyoe_tapprecaiuolwdaren_e_cilsed_o.hrurees_te_eqiedf_fo_ymentachnpeci_k(s)_meadse_vi_otand_ln_iigfhs_tiht_iprblw_oem_ahs_terie_(8_045)_59_59_1f9i_taelme_tephnn_oig_.cpikedube_p_otlaiable_vadheviens_te_cie_hwen_rarhs_egdti.annci_e_stassiuyor_ro_ufyo_htank_,ynsicerel_neihepstbet_4100_iff_100_dn_ae.rxt_200_5445020_3",
     "char_count": 744,
     "word_count": 109,
     "anomalies": {
       "page_number": 2368,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 2368 | text: 1303040135\nROF CRPIK-UHLO PODF\nNICAL .S,UCCRREV ETI\nCL OLNISYMARD OMAN/O RGTAC I N/EI HEPSTBET\nder\n7288HR ANVERGEENDO R.\n112 31AMECHANCLVISVIL E,\n(8045) 595.919\nNOSSINCMMIO OITCRRE OPOATAST\n130308 1233#200\nRNSTEETMAI 1300EAST\n1972 3209-1ARCIHNMODV\nMARC2H7 0 ,13\ni 5..\n!E!EXPEDT IYD ANEXT\n871KAR-\nDREARSIS,\nNOLN IIGRFENO CU CF ONILSE FSEL ONRNO,ISTUOS CIOTT PURSUANT\n:FBEHOAL F\nL LCMANEMEN AGTASSETLTERKET\nNOITARANZOGI CFILOTES AR\nUYOE TAPPRECAIUOLWDAREN E CILSED O.HRUREES TE EQIEDF FO YMENTACHNPECI K(S)\nMEADSE VI OTAND LN IIGFHS TIHT IPRBLW OEM AHS TERIE (8 045) 59-59 1F9I TAELME TEPHNN OIG\n.CPIKEDUBE P OTLAIABLE VADHEVIENS TE CIE HWEN\nRARHS EGDTI.ANNCI E STASSIUYOR RO UFYO HTANK\n,YNSICEREL\nNEIHEPSTBET\n4100\nIFF 100\nDN ae.rxt\n200\n5445020-3 | char_count: 744 | word_count: 109 | anomalies: {\"page_number\":2368,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_2368_|_text:_1303040135_rof_crpik_uhlo_podf_nical_.s,uccrrev_eti_cl_olnisymard_oman/o_rgtac_i_n/ei_hepstbet_der_7288hr_anvergeendo_r._112_31amechanclvisvil_e,_(8045)_595.919_nossincmmio_oitcrre_opoatast_130308_1233#200_rnsteetmai_1300east_1972_3209_1arcihnmodv_marc2h7_0_,13_i_5.._!e!expedt_iyd_anext_871kar_drearsis,_noln_iigrfeno_cu_cf_onilse_fsel_onrno,istuos_ciott_pursuant_:fbehoal_f_l_lcmanemen_agtassetlterket_noitaranzogi_cfilotes_ar_uyoe_tapprecaiuolwdaren_e_cilsed_o.hrurees_te_eqiedf_fo_ymentachnpeci_k(s)_meadse_vi_otand_ln_iigfhs_tiht_iprblw_oem_ahs_terie_(8_045)_59_59_1f9i_taelme_tephnn_oig_.cpikedube_p_otlaiable_vadheviens_te_cie_hwen_rarhs_egdti.annci_e_stassiuyor_ro_ufyo_htank_,ynsicerel_neihepstbet_4100_iff_100_dn_ae.rxt_200_5445020_3_|_char_count:_744_|_word_count:_109_|_anomalies:_{\"page_number\":2368,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.10646545886993408,
     0.05375947058200836,

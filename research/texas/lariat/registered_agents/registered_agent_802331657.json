@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.529826",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_802331657.json",
+    "created": "2025_12_11t00:21:40.529826",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_802331657.json",
     "has_embedding": true
   },
   "data": {
-    "name": "National Registered Agents, Inc.",
-    "address": "1999 Bryan St., Ste. 900",
+    "name": "national_registered_agents,_inc.",
+    "address": "1999_bryan_st.,_ste._900",
     "inactive_date": null
   },
-  "text_representation": "name: National Registered Agents, Inc. | address: 1999 Bryan St., Ste. 900",
+  "text_representation": "name:_national_registered_agents,_inc._|_address:_1999_bryan_st.,_ste._900",
   "embedding": [
     -0.09826955199241638,
     -0.04979613423347473,

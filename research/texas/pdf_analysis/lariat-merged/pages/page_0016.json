@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:58.594286",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0016.json",
+    "created": "2025_12_11t00:51:58.594286",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0016.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 16,
-    "text": "iima ine\nF 509orm\n19)sd 05/vie(Re\nngil fintvaelh re wttiSiubm HTISA\n.ntensrumit\no U tsConsntee\ner Nmaaliof Smi\nN:oneng FeieFli\n.ssnza I. BiahomTng HAsi801459833 - dviors. - Fl, Inciy tla Retaria(1) L\netry of saattre scheeh t wteil on fiemng nasixit e wdshelho hol tduavindiy or itint eher of tbe numelnd fi aeNma\nus ofheeso tonsnt tce\nAsdviorsC, ILy tla Retaria(2) L\nePmroposd nae\nas the name of a filing entity or foreign filing entity in Texas for the purpose of submitting a filing\ninstrument to the secretary of state.\nhTeu ndersignedcei rt(3) (cid:222) obet es inga uhtorizehdbteh y olhdteeeo xiir fstngn aogmet ih veti s\nhTeu ndersignedsi ghntids s ocumesuhn boteptjt ee nctaliteis mposedblh y aotewfr conse n.t\nsubmissioamaeno tri falalflray seofu r dulein nrutstmen.t\n10/23/24\nDate:\nsosh onoBiet a no\nhToBimaL sas .nz\nAuhtorizedPe rsoypn(teop r rin)tNameo f\nDirector\nTitle of Authorized Person, if any (type or print)\nState of Texas\nCounty of Dentor\n(name of authorized person)\nThis instrument was acknowledged before me on 10/23/24 by Thomas L, Bisanza:\nSUSAN BASANZ\n(Seal) My Notary ID # 126775257 Huan Brang\n4 67 Expires January 16, 2025 Notary Public’s signature\nForm 509",
+    "text": "iima_ine_f_509orm_19)sd_05/vie(re_ngil_fintvaelh_re_wttisiubm_htisa_.ntensrumit_o_u_tsconsntee_er_nmaaliof_smi_n:oneng_feiefli_.ssnza_i._biahomtng_hasi801459833_dviors._fl,_inciy_tla_retaria(1)_l_etry_of_saattre_scheeh_t_wteil_on_fiemng_nasixit_e_wdshelho_hol_tduavindiy_or_itint_eher_of_tbe_numelnd_fi_aenma_us_ofheeso_tonsnt_tce_asdviorsc,_ily_tla_retaria(2)_l_epmroposd_nae_as_the_name_of_a_filing_entity_or_foreign_filing_entity_in_texas_for_the_purpose_of_submitting_a_filing_instrument_to_the_secretary_of_state._hteu_ndersignedcei_rt(3)_(cid:222)_obet_es_inga_uhtorizehdbteh_y_olhdteeeo_xiir_fstngn_aogmet_ih_veti_s_hteu_ndersignedsi_ghntids_s_ocumesuhn_boteptjt_ee_nctaliteis_mposedblh_y_aotewfr_conse_n.t_submissioamaeno_tri_falalflray_seofu_r_dulein_nrutstmen.t_10/23/24_date:_sosh_onobiet_a_no_htobimal_sas_.nz_auhtorizedpe_rsoypn(teop_r_rin)tnameo_f_director_title_of_authorized_person,_if_any_(type_or_print)_state_of_texas_county_of_dentor_(name_of_authorized_person)_this_instrument_was_acknowledged_before_me_on_10/23/24_by_thomas_l,_bisanza:_susan_basanz_(seal)_my_notary_id_#_126775257_huan_brang_4_67_expires_january_16,_2025_notary_public’s_signature_form_509",
     "char_count": 1183,
     "word_count": 193,
     "anomalies": {
       "page_number": 16,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 16 | text: iima ine\nF 509orm\n19)sd 05/vie(Re\nngil fintvaelh re wttiSiubm HTISA\n.ntensrumit\no U tsConsntee\ner Nmaaliof Smi\nN:oneng FeieFli\n.ssnza I. BiahomTng HAsi801459833 - dviors. - Fl, Inciy tla Retaria(1) L\netry of saattre scheeh t wteil on fiemng nasixit e wdshelho hol tduavindiy or itint eher of tbe numelnd fi aeNma\nus ofheeso tonsnt tce\nAsdviorsC, ILy tla Retaria(2) L\nePmroposd nae\nas the name of a filing entity or foreign filing entity in Texas for the purpose of submitting a filing\ninstrument to the secretary of state.\nhTeu ndersignedcei rt(3) (cid:222) obet es inga uhtorizehdbteh y olhdteeeo xiir fstngn aogmet ih veti s\nhTeu ndersignedsi ghntids s ocumesuhn boteptjt ee nctaliteis mposedblh y aotewfr conse n.t\nsubmissioamaeno tri falalflray seofu r dulein nrutstmen.t\n10/23/24\nDate:\nsosh onoBiet a no\nhToBimaL sas .nz\nAuhtorizedPe rsoypn(teop r rin)tNameo f\nDirector\nTitle of Authorized Person, if any (type or print)\nState of Texas\nCounty of Dentor\n(name of authorized person)\nThis instrument was acknowledged before me on 10/23/24 by Thomas L, Bisanza:\nSUSAN BASANZ\n(Seal) My Notary ID # 126775257 Huan Brang\n4 67 Expires January 16, 2025 Notary Public’s signature\nForm 509 | char_count: 1183 | word_count: 193 | anomalies: {\"page_number\":16,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_16_|_text:_iima_ine_f_509orm_19)sd_05/vie(re_ngil_fintvaelh_re_wttisiubm_htisa_.ntensrumit_o_u_tsconsntee_er_nmaaliof_smi_n:oneng_feiefli_.ssnza_i._biahomtng_hasi801459833_dviors._fl,_inciy_tla_retaria(1)_l_etry_of_saattre_scheeh_t_wteil_on_fiemng_nasixit_e_wdshelho_hol_tduavindiy_or_itint_eher_of_tbe_numelnd_fi_aenma_us_ofheeso_tonsnt_tce_asdviorsc,_ily_tla_retaria(2)_l_epmroposd_nae_as_the_name_of_a_filing_entity_or_foreign_filing_entity_in_texas_for_the_purpose_of_submitting_a_filing_instrument_to_the_secretary_of_state._hteu_ndersignedcei_rt(3)_(cid:222)_obet_es_inga_uhtorizehdbteh_y_olhdteeeo_xiir_fstngn_aogmet_ih_veti_s_hteu_ndersignedsi_ghntids_s_ocumesuhn_boteptjt_ee_nctaliteis_mposedblh_y_aotewfr_conse_n.t_submissioamaeno_tri_falalflray_seofu_r_dulein_nrutstmen.t_10/23/24_date:_sosh_onobiet_a_no_htobimal_sas_.nz_auhtorizedpe_rsoypn(teop_r_rin)tnameo_f_director_title_of_authorized_person,_if_any_(type_or_print)_state_of_texas_county_of_dentor_(name_of_authorized_person)_this_instrument_was_acknowledged_before_me_on_10/23/24_by_thomas_l,_bisanza:_susan_basanz_(seal)_my_notary_id_#_126775257_huan_brang_4_67_expires_january_16,_2025_notary_public’s_signature_form_509_|_char_count:_1183_|_word_count:_193_|_anomalies:_{\"page_number\":16,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06801780313253403,
     0.059189390391111374,

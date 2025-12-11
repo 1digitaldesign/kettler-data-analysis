@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:17.885542",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/anomalies/anomalies_page_0592.json",
+    "created": "2025_12_11t00:54:17.885542",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/anomalies/anomalies_page_0592.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 592,
-    "source": "MERGED-Kettler",
+    "source": "merged_kettler",
     "address_clusters": [],
     "entity_variations": [],
     "date_sequences": [],
     "suspicious_patterns": []
   },
-  "text_representation": "page_number: 592 | source: MERGED-Kettler",
+  "text_representation": "page_number:_592_|_source:_merged_kettler",
   "embedding": [
     -0.11646391451358795,
     -0.0067609744146466255,

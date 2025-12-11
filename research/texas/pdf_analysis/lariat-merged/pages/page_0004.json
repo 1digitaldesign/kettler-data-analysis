@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:58.324932",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0004.json",
+    "created": "2025_12_11t00:51:58.324932",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0004.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 4,
-    "text": "....\nreznigaOr\nThe name and address of the organizer:\nThomas L. Bisanz\nName\n4600 Firestone Drive Frisco TX 75034\nStreet or Mailing Address Ciry State Zip Code\nA, B, or C.)r heti etcesng (Slnesieve of FliitcfefE\n.etry of saattre scheed by tesl i finteum doche wn tveheitcfesfe eomc bentesumhi docTA . &\nysy (90) da fromtnen niha tores mh i not, wcehitr daeta l at aveitcfesfe eomc bentesumhi docTB. [\ns i:et daveitcfefd eyeal deheTng. of sgnieit dahet\nhen thar the, ottc or fantve eure fut of aencurrec oche upon ttcfesfke ea tntesumhi docTC. [\nsng i: of sgnieit daher tefty a 90* daheT. emis of tpasgea\nowl:d bebesrir decnnea mhen t itcfef ekeao t tnteum docheus tae cl wltic or fantveowng eli folheT\noniutcxeE\nheo td tesonsnt ha centged aresesgitd a reetrssgna peon deihe ttsharm tfifd arsgne undeiheT\nhe tty haasd by lie meilsae mirted ce situ tsusehi no ct ts or frarslea fae tsasison. mubmi\n.ntensrumng itil fihe teutcxeo ed tezhorisutd i arsgneundei\nDate: 1125/7/\nsnzs. Biaa LhomT\nrezniga of oremd nayped or tePntri\nF 201orm 6",
+    "text": "...._reznigaor_the_name_and_address_of_the_organizer:_thomas_l._bisanz_name_4600_firestone_drive_frisco_tx_75034_street_or_mailing_address_ciry_state_zip_code_a,_b,_or_c.)r_heti_etcesng_(slnesieve_of_fliitcfefe_.etry_of_saattre_scheed_by_tesl_i_finteum_doche_wn_tveheitcfesfe_eomc_bentesumhi_docta_._&_ysy_(90)_da_fromtnen_niha_tores_mh_i_not,_wcehitr_daeta_l_at_aveitcfesfe_eomc_bentesumhi_doctb._[_s_i:et_daveitcfefd_eyeal_dehetng._of_sgnieit_dahet_hen_thar_the,_ottc_or_fantve_eure_fut_of_aencurrec_oche_upon_ttcfesfke_ea_tntesumhi_doctc._[_sng_i:_of_sgnieit_daher_tefty_a_90*_dahet._emis_of_tpasgea_owl:d_bebesrir_decnnea_mhen_t_itcfef_ekeao_t_tnteum_docheus_tae_cl_wltic_or_fantveowng_eli_folhet_oniutcxee_heo_td_tesonsnt_ha_centged_aresesgitd_a_reetrssgna_peon_deihe_ttsharm_tfifd_arsgne_undeihet_he_tty_haasd_by_lie_meilsae_mirted_ce_situ_tsusehi_no_ct_ts_or_frarslea_fae_tsasison._mubmi_.ntensrumng_itil_fihe_teutcxeo_ed_tezhorisutd_i_arsgneundei_date:_1125/7/_snzs._biaa_lhomt_rezniga_of_oremd_nayped_or_tepntri_f_201orm_6",
     "char_count": 1031,
     "word_count": 179,
     "anomalies": {
       "page_number": 4,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 4 | text: ....\nreznigaOr\nThe name and address of the organizer:\nThomas L. Bisanz\nName\n4600 Firestone Drive Frisco TX 75034\nStreet or Mailing Address Ciry State Zip Code\nA, B, or C.)r heti etcesng (Slnesieve of FliitcfefE\n.etry of saattre scheed by tesl i finteum doche wn tveheitcfesfe eomc bentesumhi docTA . &\nysy (90) da fromtnen niha tores mh i not, wcehitr daeta l at aveitcfesfe eomc bentesumhi docTB. [\ns i:et daveitcfefd eyeal deheTng. of sgnieit dahet\nhen thar the, ottc or fantve eure fut of aencurrec oche upon ttcfesfke ea tntesumhi docTC. [\nsng i: of sgnieit daher tefty a 90* daheT. emis of tpasgea\nowl:d bebesrir decnnea mhen t itcfef ekeao t tnteum docheus tae cl wltic or fantveowng eli folheT\noniutcxeE\nheo td tesonsnt ha centged aresesgitd a reetrssgna peon deihe ttsharm tfifd arsgne undeiheT\nhe tty haasd by lie meilsae mirted ce situ tsusehi no ct ts or frarslea fae tsasison. mubmi\n.ntensrumng itil fihe teutcxeo ed tezhorisutd i arsgneundei\nDate: 1125/7/\nsnzs. Biaa LhomT\nrezniga of oremd nayped or tePntri\nF 201orm 6 | char_count: 1031 | word_count: 179 | anomalies: {\"page_number\":4,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_4_|_text:_...._reznigaor_the_name_and_address_of_the_organizer:_thomas_l._bisanz_name_4600_firestone_drive_frisco_tx_75034_street_or_mailing_address_ciry_state_zip_code_a,_b,_or_c.)r_heti_etcesng_(slnesieve_of_fliitcfefe_.etry_of_saattre_scheed_by_tesl_i_finteum_doche_wn_tveheitcfesfe_eomc_bentesumhi_docta_._&_ysy_(90)_da_fromtnen_niha_tores_mh_i_not,_wcehitr_daeta_l_at_aveitcfesfe_eomc_bentesumhi_doctb._[_s_i:et_daveitcfefd_eyeal_dehetng._of_sgnieit_dahet_hen_thar_the,_ottc_or_fantve_eure_fut_of_aencurrec_oche_upon_ttcfesfke_ea_tntesumhi_doctc._[_sng_i:_of_sgnieit_daher_tefty_a_90*_dahet._emis_of_tpasgea_owl:d_bebesrir_decnnea_mhen_t_itcfef_ekeao_t_tnteum_docheus_tae_cl_wltic_or_fantveowng_eli_folhet_oniutcxee_heo_td_tesonsnt_ha_centged_aresesgitd_a_reetrssgna_peon_deihe_ttsharm_tfifd_arsgne_undeihet_he_tty_haasd_by_lie_meilsae_mirted_ce_situ_tsusehi_no_ct_ts_or_frarslea_fae_tsasison._mubmi_.ntensrumng_itil_fihe_teutcxeo_ed_tezhorisutd_i_arsgneundei_date:_1125/7/_snzs._biaa_lhomt_rezniga_of_oremd_nayped_or_tepntri_f_201orm_6_|_char_count:_1031_|_word_count:_179_|_anomalies:_{\"page_number\":4,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.07884060591459274,
     0.05784348398447037,

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.312255",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0063.json",
+    "created": "2025_12_11t00:51:59.312255",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0063.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 63,
-    "text": "Dated September 28, 1961.\nSOUTHWEST FABRICATING & WELDING CO., INC.\nBY\nIts Presider\nAnd I. Stanl 0L01\nIts Secretary\n8/14\n(CORPORATE SEAL)\n41/9\nUNI-FLEX MANUFACTURING & ENCINEERING CO., INC.\nBy 580 a\nAnd IT. 1. Barty\nIts Secretary\n(CORPORATE SEAL)\nSTATE OF TEXAS\n)SS\nCOUNTY OF HARRIS\nI, MILDRED L. BUERKLE, a notary public, do hereby certify\nthat on this 29th day of September, 1961, personally appeared before me\nS. L. BARBER and C. L. SKIDMORE, who, being by me first duly sworn,\ndeclared that they are the president and secretary, respectively, of\nSOUTHWEST FABRICATING & WELDING CO., INC., that they signed the\nforegoing document as president and secretary of said corporation, and\n’\", That the statements therein contained are true.\nNickel D. Buckle\nNotary Public in and for\nsaid County and State,\n(Notarial Seal)\nX-3",
+    "text": "dated_september_28,_1961._southwest_fabricating_&_welding_co.,_inc._by_its_presider_and_i._stanl_0l01_its_secretary_8/14_(corporate_seal)_41/9_uni_flex_manufacturing_&_encineering_co.,_inc._by_580_a_and_it._1._barty_its_secretary_(corporate_seal)_state_of_texas_)ss_county_of_harris_i,_mildred_l._buerkle,_a_notary_public,_do_hereby_certify_that_on_this_29th_day_of_september,_1961,_personally_appeared_before_me_s._l._barber_and_c._l._skidmore,_who,_being_by_me_first_duly_sworn,_declared_that_they_are_the_president_and_secretary,_respectively,_of_southwest_fabricating_&_welding_co.,_inc.,_that_they_signed_the_foregoing_document_as_president_and_secretary_of_said_corporation,_and_’\",_that_the_statements_therein_contained_are_true._nickel_d._buckle_notary_public_in_and_for_said_county_and_state,_(notarial_seal)_x_3",
     "char_count": 821,
     "word_count": 136,
     "anomalies": {
       "page_number": 63,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 63 | text: Dated September 28, 1961.\nSOUTHWEST FABRICATING & WELDING CO., INC.\nBY\nIts Presider\nAnd I. Stanl 0L01\nIts Secretary\n8/14\n(CORPORATE SEAL)\n41/9\nUNI-FLEX MANUFACTURING & ENCINEERING CO., INC.\nBy 580 a\nAnd IT. 1. Barty\nIts Secretary\n(CORPORATE SEAL)\nSTATE OF TEXAS\n)SS\nCOUNTY OF HARRIS\nI, MILDRED L. BUERKLE, a notary public, do hereby certify\nthat on this 29th day of September, 1961, personally appeared before me\nS. L. BARBER and C. L. SKIDMORE, who, being by me first duly sworn,\ndeclared that they are the president and secretary, respectively, of\nSOUTHWEST FABRICATING & WELDING CO., INC., that they signed the\nforegoing document as president and secretary of said corporation, and\n’\", That the statements therein contained are true.\nNickel D. Buckle\nNotary Public in and for\nsaid County and State,\n(Notarial Seal)\nX-3 | char_count: 821 | word_count: 136 | anomalies: {\"page_number\":63,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_63_|_text:_dated_september_28,_1961._southwest_fabricating_&_welding_co.,_inc._by_its_presider_and_i._stanl_0l01_its_secretary_8/14_(corporate_seal)_41/9_uni_flex_manufacturing_&_encineering_co.,_inc._by_580_a_and_it._1._barty_its_secretary_(corporate_seal)_state_of_texas_)ss_county_of_harris_i,_mildred_l._buerkle,_a_notary_public,_do_hereby_certify_that_on_this_29th_day_of_september,_1961,_personally_appeared_before_me_s._l._barber_and_c._l._skidmore,_who,_being_by_me_first_duly_sworn,_declared_that_they_are_the_president_and_secretary,_respectively,_of_southwest_fabricating_&_welding_co.,_inc.,_that_they_signed_the_foregoing_document_as_president_and_secretary_of_said_corporation,_and_’\",_that_the_statements_therein_contained_are_true._nickel_d._buckle_notary_public_in_and_for_said_county_and_state,_(notarial_seal)_x_3_|_char_count:_821_|_word_count:_136_|_anomalies:_{\"page_number\":63,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.10327864438295364,
     -0.007872766815125942,

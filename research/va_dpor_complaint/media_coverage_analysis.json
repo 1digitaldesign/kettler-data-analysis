@@ -1,126 +1,126 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 4.3: Media Coverage Analysis",
-  "objective": "Document media coverage of violations",
+  "research_date": "2025_12_09",
+  "priority": "priority_4.3:_media_coverage_analysis",
+  "objective": "document_media_coverage_of_violations",
   "known_media_coverage": [
     {
-      "publication": "Washington City Paper",
+      "publication": "washington_city_paper",
       "date": "2024",
-      "title": "Corporate Landlords Nickel and Dime D.C. Tenants with Deceptive and Hidden Utility Fees",
-      "type": "Investigative journalism",
-      "focus": "Hidden or misleading utility fees",
-      "url": "https://washingtoncitypaper.com/article/747728/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
+      "title": "corporate_landlords_nickel_and_dime_d.c._tenants_with_deceptive_and_hidden_utility_fees",
+      "type": "investigative_journalism",
+      "focus": "hidden_or_misleading_utility_fees",
+      "url": "https://washingtoncitypaper.com/article/747728/corporate_landlords_nickel_and_dime_d_c_tenants_with_deceptive_and_hidden_utility_fees/",
       "findings": [
-        "Pervasive pattern of charging tenants hidden or misleading utility fees",
-        "Kettler properties included in investigation of 20 buildings",
-        "Jamison at Dakota Crossing: tenants received bills of nearly $1,500 for 9 months of water charges",
-        "Many tenants pay rent with government housing subsidies",
-        "Kettler would not provide rent history until water bill paid",
-        "Excessive bills motivated tenants to move out",
-        "Tenant LaShawn Melton: Lease specified water charges based on actual usage, but bills didn't match",
-        "Tenant had to seek Emergency Rental Assistance Program to settle balance",
-        "Concern for elderly and disabled tenants who lack means to advocate",
-        "Complaints filed with Office of the People's Counsel (OPC)",
-        "One case: $13,000 water bill",
-        "Another disabled tenant: $631 water bill from Studebaker"
+        "pervasive_pattern_of_charging_tenants_hidden_or_misleading_utility_fees",
+        "kettler_properties_included_in_investigation_of_20_buildings",
+        "jamison_at_dakota_crossing:_tenants_received_bills_of_nearly_$1,500_for_9_months_of_water_charges",
+        "many_tenants_pay_rent_with_government_housing_subsidies",
+        "kettler_would_not_provide_rent_history_until_water_bill_paid",
+        "excessive_bills_motivated_tenants_to_move_out",
+        "tenant_lashawn_melton:_lease_specified_water_charges_based_on_actual_usage,_but_bills_didn't_match",
+        "tenant_had_to_seek_emergency_rental_assistance_program_to_settle_balance",
+        "concern_for_elderly_and_disabled_tenants_who_lack_means_to_advocate",
+        "complaints_filed_with_office_of_the_people's_counsel_(opc)",
+        "one_case:_$13,000_water_bill",
+        "another_disabled_tenant:_$631_water_bill_from_studebaker"
       ],
-      "significance": "Documents systematic fee practices affecting subsidized housing tenants",
+      "significance": "documents_systematic_fee_practices_affecting_subsidized_housing_tenants",
       "status": "verified"
     }
   ],
   "settlement_coverage": {
     "equal_rights_center_settlement": {
-      "date": "2024-03",
+      "date": "2024_03",
       "settlement_amount": 140000,
       "coverage_status": "found",
-      "source": "Equal Rights Center press release",
-      "url": "https://equalrightscenter.org/press-release-kettler-2024/",
+      "source": "equal_rights_center_press_release",
+      "url": "https://equalrightscenter.org/press_release_kettler_2024/",
       "details": {
-        "violation": "Unlawfully refused to accept housing vouchers at Washington D.C. properties",
-        "agreement_duration": "3 years",
-        "applies_to": "All multi-family rental properties in D.C. managed by Kettler",
+        "violation": "unlawfully_refused_to_accept_housing_vouchers_at_washington_d.c._properties",
+        "agreement_duration": "3_years",
+        "applies_to": "all_multi_family_rental_properties_in_d.c._managed_by_kettler",
         "key_terms": [
-          "Affirmative marketing that properties accept voucher holders",
-          "No minimum income or credit score requirements for voucher holders",
-          "Mandatory fair housing training for leasing agents and property management staff",
-          "Regular compliance testing conducted by ERC",
-          "$140,000 payment to ERC (damages, attorneys' fees, training costs)",
-          "Affirmation and distribution of non-discrimination policy",
-          "Designation of Housing Choice Voucher liaison within Kettler's compliance department"
+          "affirmative_marketing_that_properties_accept_voucher_holders",
+          "no_minimum_income_or_credit_score_requirements_for_voucher_holders",
+          "mandatory_fair_housing_training_for_leasing_agents_and_property_management_staff",
+          "regular_compliance_testing_conducted_by_erc",
+          "$140,000_payment_to_erc_(damages,_attorneys'_fees,_training_costs)",
+          "affirmation_and_distribution_of_non_discrimination_policy",
+          "designation_of_housing_choice_voucher_liaison_within_kettler's_compliance_department"
         ],
         "legal_basis": [
-          "D.C. Human Rights Act violation",
-          "D.C. Consumer Protection Procedures Act violation"
+          "d.c._human_rights_act_violation",
+          "d.c._consumer_protection_procedures_act_violation"
         ],
-        "allegations": "Kettler used unlawful minimum income and credit history requirements to reject applicants with housing vouchers"
+        "allegations": "kettler_used_unlawful_minimum_income_and_credit_history_requirements_to_reject_applicants_with_housing_vouchers"
       },
       "search_terms": [
-        "Equal Rights Center Kettler settlement",
-        "Kettler Management discrimination settlement 2024",
-        "Kettler $140,000 settlement"
+        "equal_rights_center_kettler_settlement",
+        "kettler_management_discrimination_settlement_2024",
+        "kettler_$140,000_settlement"
       ],
       "potential_sources": [
-        "Local news (DC, VA, MD)",
-        "Fair housing organization websites",
-        "Legal news publications"
+        "local_news_(dc,_va,_md)",
+        "fair_housing_organization_websites",
+        "legal_news_publications"
       ]
     },
     "dc_attorney_general_settlement": {
-      "date": "2014-2015",
+      "date": "2014_2015",
       "coverage_status": "pending",
       "search_terms": [
-        "DC Attorney General Kettler drug nuisance",
-        "Sursum Corda Kettler settlement"
+        "dc_attorney_general_kettler_drug_nuisance",
+        "sursum_corda_kettler_settlement"
       ]
     }
   },
   "investigative_journalism": {
     "status": "expanded",
     "search_terms": [
-      "Kettler Management investigation",
-      "Kettler property management violations",
-      "Kettler tenant complaints",
-      "Kettler discrimination",
-      "Kettler unlicensed practice"
+      "kettler_management_investigation",
+      "kettler_property_management_violations",
+      "kettler_tenant_complaints",
+      "kettler_discrimination",
+      "kettler_unlicensed_practice"
     ],
     "potential_sources": [
-      "Washington Post",
-      "Washington City Paper",
-      "Washington Business Journal",
-      "Local news outlets (Alexandria, Fairfax, Arlington)",
-      "Investigative journalism databases"
+      "washington_post",
+      "washington_city_paper",
+      "washington_business_journal",
+      "local_news_outlets_(alexandria,_fairfax,_arlington)",
+      "investigative_journalism_databases"
     ],
     "findings": [
       {
-        "publication": "Washington City Paper",
+        "publication": "washington_city_paper",
         "date": "2024",
-        "title": "Corporate Landlords Nickel and Dime D.C. Tenants with Deceptive and Hidden Utility Fees",
-        "url": "https://washingtoncitypaper.com/article/747728/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
-        "focus": "Utility fee practices",
+        "title": "corporate_landlords_nickel_and_dime_d.c._tenants_with_deceptive_and_hidden_utility_fees",
+        "url": "https://washingtoncitypaper.com/article/747728/corporate_landlords_nickel_and_dime_d_c_tenants_with_deceptive_and_hidden_utility_fees/",
+        "focus": "utility_fee_practices",
         "status": "verified"
       },
       {
-        "publication": "Washington City Paper",
+        "publication": "washington_city_paper",
         "date": "2023",
-        "title": "Undercover Voucher Housing Discrimination",
-        "url": "https://washingtoncitypaper.com/article/769534/undercover-voucher-housing-discrimination/",
-        "focus": "Voucher discrimination at Kettler properties",
+        "title": "undercover_voucher_housing_discrimination",
+        "url": "https://washingtoncitypaper.com/article/769534/undercover_voucher_housing_discrimination/",
+        "focus": "voucher_discrimination_at_kettler_properties",
         "status": "verified"
       },
       {
-        "publication": "Spotlight DC",
+        "publication": "spotlight_dc",
         "date": "2024",
-        "title": "Corporate Landlords Nickel and Dime D.C. Tenants",
-        "url": "https://spotlightdc.org/corporate-landlords-nickel-and-dime-d-c-tenants-with-deceptive-and-hidden-utility-fees/",
-        "focus": "Utility billing issues, Jamison at Dakota Crossing",
+        "title": "corporate_landlords_nickel_and_dime_d.c._tenants",
+        "url": "https://spotlightdc.org/corporate_landlords_nickel_and_dime_d_c_tenants_with_deceptive_and_hidden_utility_fees/",
+        "focus": "utility_billing_issues,_jamison_at_dakota_crossing",
         "status": "verified"
       },
       {
-        "publication": "CBS News Baltimore",
-        "date": "2020-2022",
-        "title": "Lawsuit Accuses Property Managers of Ageist Facebook Ads",
-        "url": "https://www.cbsnews.com/baltimore/news/lawsuit-accuses-property-managers-of-ageist-facebook-ads/",
-        "focus": "Age discrimination via Facebook advertising",
+        "publication": "cbs_news_baltimore",
+        "date": "2020_2022",
+        "title": "lawsuit_accuses_property_managers_of_ageist_facebook_ads",
+        "url": "https://www.cbsnews.com/baltimore/news/lawsuit_accuses_property_managers_of_ageist_facebook_ads/",
+        "focus": "age_discrimination_via_facebook_advertising",
         "status": "verified"
       }
     ]
@@ -128,38 +128,38 @@
   "news_coverage": {
     "status": "expanded",
     "search_methods": [
-      "Google News searches",
-      "LexisNexis database",
-      "News database searches",
-      "Local news archives"
+      "google_news_searches",
+      "lexisnexis_database",
+      "news_database_searches",
+      "local_news_archives"
     ],
     "time_periods": [
-      "2014-2015 (DC AG lawsuit)",
-      "2020-2022 (Facebook age discrimination)",
-      "2022 (Employment discrimination)",
-      "2024 (Discrimination settlement, utility fees)"
+      "2014_2015_(dc_ag_lawsuit)",
+      "2020_2022_(facebook_age_discrimination)",
+      "2022_(employment_discrimination)",
+      "2024_(discrimination_settlement,_utility_fees)"
     ],
     "findings": [
       {
         "period": "2024",
         "coverage": [
-          "Equal Rights Center settlement ($140,000)",
-          "Utility fee investigation",
-          "Voucher discrimination investigation"
+          "equal_rights_center_settlement_($140,000)",
+          "utility_fee_investigation",
+          "voucher_discrimination_investigation"
         ]
       },
       {
         "period": "2023",
         "coverage": [
-          "Undercover testing revealing voucher discrimination",
-          "ERC complaint filing (September 2023)"
+          "undercover_testing_revealing_voucher_discrimination",
+          "erc_complaint_filing_(september_2023)"
         ]
       },
       {
-        "period": "2020-2022",
+        "period": "2020_2022",
         "coverage": [
-          "Facebook age discrimination lawsuit",
-          "Employment discrimination case (Coleman v. Kettler)"
+          "facebook_age_discrimination_lawsuit",
+          "employment_discrimination_case_(coleman_v._kettler)"
         ]
       }
     ]
@@ -167,62 +167,62 @@
   "industry_publications": {
     "status": "method_verified",
     "potential_sources": [
-      "Multi-Housing News",
-      "National Apartment Association publications",
-      "Property management industry publications",
-      "Real estate industry publications"
+      "multi_housing_news",
+      "national_apartment_association_publications",
+      "property_management_industry_publications",
+      "real_estate_industry_publications"
     ],
     "focus_areas": [
-      "Industry best practices violations",
-      "Regulatory compliance issues",
-      "Supervision requirements"
+      "industry_best_practices_violations",
+      "regulatory_compliance_issues",
+      "supervision_requirements"
     ],
     "findings": [],
-    "note": "Industry publication searches would require subscription access or manual searches. Key media coverage (6 sources) already documented including Washington City Paper, Spotlight DC, CBS News Baltimore, and Equal Rights Center."
+    "note": "industry_publication_searches_would_require_subscription_access_or_manual_searches._key_media_coverage_(6_sources)_already_documented_including_washington_city_paper,_spotlight_dc,_cbs_news_baltimore,_and_equal_rights_center."
   },
   "social_media_coverage": {
     "status": "method_verified",
     "platforms": [
-      "Twitter/X",
-      "Facebook",
-      "LinkedIn",
-      "Reddit"
+      "twitter/x",
+      "facebook",
+      "linkedin",
+      "reddit"
     ],
     "search_terms": [
-      "Kettler Management complaints",
-      "Kettler violations",
-      "Kettler unlicensed"
+      "kettler_management_complaints",
+      "kettler_violations",
+      "kettler_unlicensed"
     ],
     "findings": [],
-    "note": "Social media searches would require platform-specific access and may have limited historical data. BBB reviews (46 complaints) and Google/Yelp reviews already documented. Facebook age discrimination case (2020-2022) already documented."
+    "note": "social_media_searches_would_require_platform_specific_access_and_may_have_limited_historical_data._bbb_reviews_(46_complaints)_and_google/yelp_reviews_already_documented._facebook_age_discrimination_case_(2020_2022)_already_documented."
   },
   "media_coverage_compilation": {
     "status": "completed",
-    "format": "Chronological list with links and dates",
+    "format": "chronological_list_with_links_and_dates",
     "components": [
-      "Publication name",
-      "Article title",
-      "Date",
-      "URL",
-      "Key findings",
-      "Relevance to complaint"
+      "publication_name",
+      "article_title",
+      "date",
+      "url",
+      "key_findings",
+      "relevance_to_complaint"
     ]
   },
-  "deliverable": "Media coverage compilation with links and dates",
+  "deliverable": "media_coverage_compilation_with_links_and_dates",
   "next_steps": [
-    "Search Google News for Kettler coverage",
-    "Search LexisNexis/Westlaw for news articles",
-    "Locate Washington City Paper utility fee article",
-    "Search for settlement coverage",
-    "Search industry publications",
-    "Compile media coverage with links and dates",
-    "Categorize by violation type"
+    "search_google_news_for_kettler_coverage",
+    "search_lexisnexis/westlaw_for_news_articles",
+    "locate_washington_city_paper_utility_fee_article",
+    "search_for_settlement_coverage",
+    "search_industry_publications",
+    "compile_media_coverage_with_links_and_dates",
+    "categorize_by_violation_type"
   ],
   "metadata": {
     "file_name": "media_coverage_analysis.json",
     "file_path": "research/va_dpor_complaint/media_coverage_analysis.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

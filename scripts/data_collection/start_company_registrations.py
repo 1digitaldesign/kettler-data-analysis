@@ -20,7 +20,7 @@ COMPANIES = [
 
 # States to search (primary operational states)
 STATES = [
-    'District of Columbia',
+    'dc',
     'Maryland',
     'Virginia',
     'New Jersey',
@@ -60,7 +60,7 @@ def create_registration_template(state: str, company: str) -> dict:
 def get_state_sos_url(state: str) -> str:
     """Get Secretary of State URL for state."""
     urls = {
-        'District of Columbia': 'https://corponline.dccorporations.gov/',
+        'dc': 'https://corponline.dccorporations.gov/',
         'Maryland': 'https://egov.maryland.gov/BusinessExpress/EntitySearch',
         'Virginia': 'https://cis.scc.virginia.gov/EntitySearch/Index',
         'New Jersey': 'https://www.njportal.com/DOR/BusinessNameSearch/',

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.961371",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0220.json",
+    "created": "2025_12_11t00:52:02.961371",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0220.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 220,
-    "text": "-\n00019319588\ns.e, Incc Srvileaintssdee ReiGbla\norstcDrei\nName eltiT Asddres 15104333031\nAnsleSusn Ma. ortcDrei vdk Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nDwan Hrt. Svee ortcDrei Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nnvai. Slul FnasiCrit ortcDrei vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc",
+    "text": "_00019319588_s.e,_incc_srvileaintssdee_reigbla_orstcdrei_name_eltit_asddres_15104333031_anslesusn_ma._ortcdrei_vdk_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_dwan_hrt._svee_ortcdrei_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_nvai._slul_fnasicrit_ortcdrei_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc",
     "char_count": 314,
     "word_count": 44,
     "anomalies": {
       "page_number": 220,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 220 | text: -\n00019319588\ns.e, Incc Srvileaintssdee ReiGbla\norstcDrei\nName eltiT Asddres 15104333031\nAnsleSusn Ma. ortcDrei vdk Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nDwan Hrt. Svee ortcDrei Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nnvai. Slul FnasiCrit ortcDrei vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc | char_count: 314 | word_count: 44 | anomalies: {\"page_number\":220,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_220_|_text:_00019319588_s.e,_incc_srvileaintssdee_reigbla_orstcdrei_name_eltit_asddres_15104333031_anslesusn_ma._ortcdrei_vdk_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_dwan_hrt._svee_ortcdrei_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_nvai._slul_fnasicrit_ortcdrei_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_|_char_count:_314_|_word_count:_44_|_anomalies:_{\"page_number\":220,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.07715148478746414,
     0.014057709835469723,

@@ -1,30 +1,30 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:38.549880",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1459.json",
+    "created": "2025_12_11t00:54:38.549880",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1459.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1459,
-    "text": "200291315\nTRR EPOANNUAL2000\n04/24/2000\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\n200031/05/\nE:AMINVO ITCRROPOA :ETDU DEA\n.CR OPMANEMEN AGTKSI\nIOTN ID 0321867-4:CORPORA\nADDSRES:AND NAM EAGNETDGRE 2 REISET OFF CR. IOTN:OCK INFORMA S'T\nHDTOERIZ TA\nA CLSSL\nHAURSELWRICHARD\nRD 300 SETOFRAWLTP8081\n22182AVVNIENA, COMMON 1,000\n@ CITY ORCOUNTY OF VA REGISTERED OFFICE:\nCUAX ONYTRAIF129-F\nNO:ITNICRR OPOAFO YRCLO ONRE TTAST O\nNARIIA-VIGV\n. Ifynk onlk icah bl wtnti or priypend t aton seihetnsrucd ithecatt ahed tay relfulreCa\nnk, yousask i blddresoc a. If blecfi oflpainc prihedd tus ank, you mtsak i blocBl\non.itanformor itcreor dind/r aecfi ofhedd tus amt\nADDSRES OFF ICEAL¥ PRINCIP\nY COULMN ONLADDIOITNSCH/ANGSE IN RIGHTMAK E\nADDSRESNO CHANG [XM E] REONIREV ETE\nADDSRES:\nADDSRES: RD., #300OFRAWLTP8081\n22182AVVNIENA, IPZ:YS/CIT/T\nIPZ:YS/CIT/T\nORSAND DCTIRE OFFRSICE AL P@RINCIP\nY COULMN ONLADDIOITNSCH/ANGSE IN RIGHTMAK E\nNO CHANGE M NREONIREAAV ETM/DEEDSRES\nOFFR XICE OR LDCTIRE OFFRICE ORDCTIRE\nNAME: RICHARD | KNAPP NAME:\nnt PsdeereiciVor Sni:eEILT\n:ELITT PSREIDNET\nADDSRES: ROADOFRAWLTP8081 ADDSRES:\n#300\n22182AVVNIENA, IPZ:YS/CIT/T\n71PYS/:CIT/T\n.ETACCURA IS THTISP REORAINDE IN IOTN CONT INEFLOTRMTAHTAAFFIRM\nsa 1-5000mLILW\n0810/4/ I:TDA\nU:TRESIGNA PDRINE NTAMI:\n.THTISP REORDOISE INR LT AN OFFR OICER DCTIRE S BEIGNDE BYMUST 213\nB2683",
+    "text": "200291315_trr_epoannual2000_04/24/2000_nariivig_fhot_nealcmmowo_nossincmmio_oitcrre_opoatast_200031/05/_e:aminvo_itcrropoa_:etdu_dea_.cr_opmanemen_agtksi_iotn_id_0321867_4:corpora_addsres:and_nam_eagnetdgre_2_reiset_off_cr._iotn:ock_informa_s't_hdtoeriz_ta_a_clssl_haurselwrichard_rd_300_setofrawltp8081_22182avvniena,_common_1,000_@_city_orcounty_of_va_registered_office:_cuax_onytraif129_f_no:itnicrr_opoafo_yrclo_onre_ttast_o_nariia_vigv_._ifynk_onlk_icah_bl_wtnti_or_priypend_t_aton_seihetnsrucd_ithecatt_ahed_tay_relfulreca_nk,_yousask_i_blddresoc_a._if_blecfi_oflpainc_prihedd_tus_ank,_you_mtsak_i_blocbl_on.itanformor_itcreor_dind/r_aecfi_ofhedd_tus_amt_addsres_off_iceal¥_princip_y_coulmn_onladdioitnsch/angse_in_rightmak_e_addsresno_chang_[xm_e]_reonirev_ete_addsres:_addsres:_rd.,_#300ofrawltp8081_22182avvniena,_ipz:ys/cit/t_ipz:ys/cit/t_orsand_dctire_offrsice_al_p@rincip_y_coulmn_onladdioitnsch/angse_in_rightmak_e_no_change_m_nreonireaav_etm/deedsres_offr_xice_or_ldctire_offrice_ordctire_name:_richard_|_knapp_name:_nt_psdeereicivor_sni:eeilt_:elitt_psreidnet_addsres:_roadofrawltp8081_addsres:_#300_22182avvniena,_ipz:ys/cit/t_71pys/:cit/t_.etaccura_is_thtisp_reorainde_in_iotn_cont_ineflotrmtahtaaffirm_sa_1_5000mlilw_0810/4/_i:tda_u:tresigna_pdrine_ntami:_.thtisp_reordoise_inr_lt_an_offr_oicer_dctire_s_beignde_bymust_213_b2683",
     "char_count": 1346,
     "word_count": 185,
     "anomalies": {
       "page_number": 1459,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": [
         {
-          "pattern": "Multiple states mentioned",
+          "pattern": "multiple_states_mentioned",
           "states": [
-            "AL",
-            "OR",
-            "VA",
-            "ID",
-            "IN"
+            "al",
+            "or",
+            "va",
+            "id",
+            "in"
           ],
           "count": 7,
           "severity": "medium"
@@ -32,7 +32,7 @@
       ]
     }
   },
-  "text_representation": "page_number: 1459 | text: 200291315\nTRR EPOANNUAL2000\n04/24/2000\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\n200031/05/\nE:AMINVO ITCRROPOA :ETDU DEA\n.CR OPMANEMEN AGTKSI\nIOTN ID 0321867-4:CORPORA\nADDSRES:AND NAM EAGNETDGRE 2 REISET OFF CR. IOTN:OCK INFORMA S'T\nHDTOERIZ TA\nA CLSSL\nHAURSELWRICHARD\nRD 300 SETOFRAWLTP8081\n22182AVVNIENA, COMMON 1,000\n@ CITY ORCOUNTY OF VA REGISTERED OFFICE:\nCUAX ONYTRAIF129-F\nNO:ITNICRR OPOAFO YRCLO ONRE TTAST O\nNARIIA-VIGV\n. Ifynk onlk icah bl wtnti or priypend t aton seihetnsrucd ithecatt ahed tay relfulreCa\nnk, yousask i blddresoc a. If blecfi oflpainc prihedd tus ank, you mtsak i blocBl\non.itanformor itcreor dind/r aecfi ofhedd tus amt\nADDSRES OFF ICEAL¥ PRINCIP\nY COULMN ONLADDIOITNSCH/ANGSE IN RIGHTMAK E\nADDSRESNO CHANG [XM E] REONIREV ETE\nADDSRES:\nADDSRES: RD., #300OFRAWLTP8081\n22182AVVNIENA, IPZ:YS/CIT/T\nIPZ:YS/CIT/T\nORSAND DCTIRE OFFRSICE AL P@RINCIP\nY COULMN ONLADDIOITNSCH/ANGSE IN RIGHTMAK E\nNO CHANGE M NREONIREAAV ETM/DEEDSRES\nOFFR XICE OR LDCTIRE OFFRICE ORDCTIRE\nNAME: RICHARD | KNAPP NAME:\nnt PsdeereiciVor Sni:eEILT\n:ELITT PSREIDNET\nADDSRES: ROADOFRAWLTP8081 ADDSRES:\n#300\n22182AVVNIENA, IPZ:YS/CIT/T\n71PYS/:CIT/T\n.ETACCURA IS THTISP REORAINDE IN IOTN CONT INEFLOTRMTAHTAAFFIRM\nsa 1-5000mLILW\n0810/4/ I:TDA\nU:TRESIGNA PDRINE NTAMI:\n.THTISP REORDOISE INR LT AN OFFR OICER DCTIRE S BEIGNDE BYMUST 213\nB2683 | char_count: 1346 | word_count: 185 | anomalies: {\"page_number\":1459,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[{\"pattern\":\"Multiple states mentioned\",\"states\":[\"AL\",\"OR\",\"VA\",\"ID\",\"IN\"],\"count\":7,\"severity\":\"medium\"}]}",
+  "text_representation": "page_number:_1459_|_text:_200291315_trr_epoannual2000_04/24/2000_nariivig_fhot_nealcmmowo_nossincmmio_oitcrre_opoatast_200031/05/_e:aminvo_itcrropoa_:etdu_dea_.cr_opmanemen_agtksi_iotn_id_0321867_4:corpora_addsres:and_nam_eagnetdgre_2_reiset_off_cr._iotn:ock_informa_s't_hdtoeriz_ta_a_clssl_haurselwrichard_rd_300_setofrawltp8081_22182avvniena,_common_1,000_@_city_orcounty_of_va_registered_office:_cuax_onytraif129_f_no:itnicrr_opoafo_yrclo_onre_ttast_o_nariia_vigv_._ifynk_onlk_icah_bl_wtnti_or_priypend_t_aton_seihetnsrucd_ithecatt_ahed_tay_relfulreca_nk,_yousask_i_blddresoc_a._if_blecfi_oflpainc_prihedd_tus_ank,_you_mtsak_i_blocbl_on.itanformor_itcreor_dind/r_aecfi_ofhedd_tus_amt_addsres_off_iceal¥_princip_y_coulmn_onladdioitnsch/angse_in_rightmak_e_addsresno_chang_[xm_e]_reonirev_ete_addsres:_addsres:_rd.,_#300ofrawltp8081_22182avvniena,_ipz:ys/cit/t_ipz:ys/cit/t_orsand_dctire_offrsice_al_p@rincip_y_coulmn_onladdioitnsch/angse_in_rightmak_e_no_change_m_nreonireaav_etm/deedsres_offr_xice_or_ldctire_offrice_ordctire_name:_richard_|_knapp_name:_nt_psdeereicivor_sni:eeilt_:elitt_psreidnet_addsres:_roadofrawltp8081_addsres:_#300_22182avvniena,_ipz:ys/cit/t_71pys/:cit/t_.etaccura_is_thtisp_reorainde_in_iotn_cont_ineflotrmtahtaaffirm_sa_1_5000mlilw_0810/4/_i:tda_u:tresigna_pdrine_ntami:_.thtisp_reordoise_inr_lt_an_offr_oicer_dctire_s_beignde_bymust_213_b2683_|_char_count:_1346_|_word_count:_185_|_anomalies:_{\"page_number\":1459,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[{\"pattern\":\"multiple_states_mentioned\",\"states\":[\"al\",\"or\",\"va\",\"id\",\"in\"],\"count\":7,\"severity\":\"medium\"}]}",
   "embedding": [
     -0.04896700382232666,
     -0.0007395136053673923,

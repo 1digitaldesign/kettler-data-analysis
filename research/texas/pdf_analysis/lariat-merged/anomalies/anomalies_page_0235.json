@@ -1,99 +1,99 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.449551",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/anomalies/anomalies_page_0235.json",
+    "created": "2025_12_11t00:52:03.449551",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/anomalies/anomalies_page_0235.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 235,
-    "source": "lariat-merged",
+    "source": "lariat_merged",
     "address_clusters": [
       {
         "count": 8,
         "addresses": [
           {
-            "full_match": "Lean, VA 22102",
+            "full_match": "lean,_va_22102",
             "groups": [
-              "Lean",
-              "VA",
+              "lean",
+              "va",
               "22102"
             ],
             "start": 191,
             "end": 205
           },
           {
-            "full_match": "Stui\nXT 77057",
+            "full_match": "stui_xt_77057",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77057"
             ],
             "start": 279,
             "end": 292
           },
           {
-            "full_match": "Stui\n, CO 80206",
+            "full_match": "stui_,_co_80206",
             "groups": [
-              "Stui",
-              "CO",
+              "stui",
+              "co",
               "80206"
             ],
             "start": 364,
             "end": 379
           },
           {
-            "full_match": "Lean, VA 22102",
+            "full_match": "lean,_va_22102",
             "groups": [
-              "Lean",
-              "VA",
+              "lean",
+              "va",
               "22102"
             ],
             "start": 461,
             "end": 475
           },
           {
-            "full_match": "Houston, TX 77057",
+            "full_match": "houston,_tx_77057",
             "groups": [
-              "Houston",
-              "TX",
+              "houston",
+              "tx",
               "77057"
             ],
             "start": 547,
             "end": 564
           },
           {
-            "full_match": "Dallas, TX 75219",
+            "full_match": "dallas,_tx_75219",
             "groups": [
-              "Dallas",
-              "TX",
+              "dallas",
+              "tx",
               "75219"
             ],
             "start": 640,
             "end": 656
           },
           {
-            "full_match": "Austin, TX 78731",
+            "full_match": "austin,_tx_78731",
             "groups": [
-              "Austin",
-              "TX",
+              "austin",
+              "tx",
               "78731"
             ],
             "start": 734,
             "end": 750
           },
           {
-            "full_match": "Stui\nXT 75219",
+            "full_match": "stui_xt_75219",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75219"
             ],
             "start": 838,
             "end": 851
           }
         ],
-        "pattern": "Multiple addresses clustered",
+        "pattern": "multiple_addresses_clustered",
         "severity": "medium"
       }
     ],
@@ -101,7 +101,7 @@
     "date_sequences": [],
     "suspicious_patterns": []
   },
-  "text_representation": "page_number: 235 | source: lariat-merged | address_clusters: 1 items",
+  "text_representation": "page_number:_235_|_source:_lariat_merged_|_address_clusters:_1_items",
   "embedding": [
     0.02665308676660061,
     -0.060047559440135956,

@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.591154",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_804700244.json",
+    "created": "2025_12_11t00:21:40.591154",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_804700244.json",
     "has_embedding": true
   },
   "data": {
-    "name": "United States Corporation Agents, Inc.",
-    "address": "10601 Clarence Dr. Suite 250",
+    "name": "united_states_corporation_agents,_inc.",
+    "address": "10601_clarence_dr._suite_250",
     "inactive_date": null
   },
-  "text_representation": "name: United States Corporation Agents, Inc. | address: 10601 Clarence Dr. Suite 250",
+  "text_representation": "name:_united_states_corporation_agents,_inc._|_address:_10601_clarence_dr._suite_250",
   "embedding": [
     -0.08031821250915527,
     0.04441525414586067,

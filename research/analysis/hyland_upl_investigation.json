@@ -1,63 +1,63 @@
 {
-  "investigation_date": "2025-12-07",
-  "subject": "Edward Hyland",
-  "role": "Senior Regional Manager",
-  "employer": "Kettler Management Inc.",
+  "investigation_date": "2025_12_07",
+  "subject": "edward_hyland",
+  "role": "senior_regional_manager",
+  "employer": "kettler_management_inc.",
   "upl_indicators": [
     {
-      "date": "2025-12-06",
-      "activity": "Lease Termination",
-      "description": "Denied reasonable accommodation request and sent lease termination notice",
-      "violation": "Unlicensed person making lease decisions affecting tenancy",
-      "legal_basis": "18 VAC 135-20-165 defines licensed vs. unlicensed activities"
+      "date": "2025_12_06",
+      "activity": "lease_termination",
+      "description": "denied_reasonable_accommodation_request_and_sent_lease_termination_notice",
+      "violation": "unlicensed_person_making_lease_decisions_affecting_tenancy",
+      "legal_basis": "18_vac_135_20_165_defines_licensed_vs._unlicensed_activities"
     },
     {
-      "date": "2025-12-06",
-      "activity": "Reasonable Accommodation Decision",
-      "description": "Denied reasonable accommodation request, stating requirements for interactive process",
-      "violation": "Unlicensed person making legal determinations about accommodation requests",
-      "legal_basis": "18 VAC 135-20-165"
+      "date": "2025_12_06",
+      "activity": "reasonable_accommodation_decision",
+      "description": "denied_reasonable_accommodation_request,_stating_requirements_for_interactive_process",
+      "violation": "unlicensed_person_making_legal_determinations_about_accommodation_requests",
+      "legal_basis": "18_vac_135_20_165"
     },
     {
       "date": "",
-      "activity": "Property Management",
-      "description": "Senior Regional Manager overseeing multiple properties",
-      "violation": "Unlicensed person conducting property management activities",
-      "legal_basis": "18 VAC 135-20-165"
+      "activity": "property_management",
+      "description": "senior_regional_manager_overseeing_multiple_properties",
+      "violation": "unlicensed_person_conducting_property_management_activities",
+      "legal_basis": "18_vac_135_20_165"
     }
   ],
   "ra_denial_analysis": [
     {
-      "date": "2025-12-06",
-      "personnel": "Edward Hyland",
-      "description": "Denied reasonable accommodation request, stating requirements for interactive process",
-      "violation": "Unlicensed person making legal determinations about accommodation requests",
+      "date": "2025_12_06",
+      "personnel": "edward_hyland",
+      "description": "denied_reasonable_accommodation_request,_stating_requirements_for_interactive_process",
+      "violation": "unlicensed_person_making_legal_determinations_about_accommodation_requests",
       "evidence": [
-        "Kettler denial email",
-        "Legal terminology used (ADA, FHA, Fair Housing Act)"
+        "kettler_denial_email",
+        "legal_terminology_used_(ada,_fha,_fair_housing_act)"
       ]
     }
   ],
   "law_license_check": {
     "law_license_found": false,
-    "note": "State bar association search needed",
-    "violation_if_no_license": "Unauthorized Practice of Law (UPL)"
+    "note": "state_bar_association_search_needed",
+    "violation_if_no_license": "unauthorized_practice_of_law_(upl)"
   },
   "conclusions": {
     "potential_upl": true,
     "upl_indicators_count": 3,
     "ra_denial_found": true,
     "interactive_process_mentioned": true,
-    "violation_type": "Unlicensed Practice of Real Estate - Property Management Activities",
-    "severity": "HIGH",
-    "summary": "Edward Hyland (unlicensed) conducted multiple real estate activities including lease terminations, reasonable accommodation denials, and property management oversight without a license, violating 18 VAC 135-20-165"
+    "violation_type": "unlicensed_practice_of_real_estate_property_management_activities",
+    "severity": "high",
+    "summary": "edward_hyland_(unlicensed)_conducted_multiple_real_estate_activities_including_lease_terminations,_reasonable_accommodation_denials,_and_property_management_oversight_without_a_license,_violating_18_vac_135_20_165"
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "hyland_upl_investigation.json",
     "file_path": "research/analysis/hyland_upl_investigation.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "state": "New Jersey",
+    "date": "2025_12_10",
+    "state": "new_jersey",
     "search_type": "consolidated",
     "employees_searched": [
       "caitlin_skidmore",
@@ -21,84 +21,84 @@
       "liddy_bisanz"
     ],
     "status": "complete",
-    "completed_date": "2025-12-10"
+    "completed_date": "2025_12_10"
   },
   "findings": {
     "caitlin_skidmore": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "robert_kettler": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "cindy_fisher": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "luke_davis": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "pat_cassada": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "sean_curtin": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "edward_hyland": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "amy_groff": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "robert_grealy": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "todd_bowen": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "djene_moyer": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "henry_ramos": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "kristina_thoummarath": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "christina_chang": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     },
     "liddy_bisanz": {
       "searched": true,
       "license_found": false,
-      "note": "Search completed - requires manual verification"
+      "note": "search_completed_requires_manual_verification"
     }
   },
-  "summary": "Consolidated license search completed for New Jersey. All employees checked."
+  "summary": "consolidated_license_search_completed_for_new_jersey._all_employees_checked."
 }

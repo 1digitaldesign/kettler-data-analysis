@@ -1,33 +1,33 @@
 {
   "metadata": {
-    "date": "2025-12-08",
-    "state": "Virginia",
-    "broker": "Caitlin Skidmore",
+    "date": "2025_12_08",
+    "state": "va",
+    "broker": "caitlin_skidmore",
     "total_licenses": 40,
-    "extraction_method": "Browser automation - Related Licenses tab",
+    "extraction_method": "browser_automation_related_licenses_tab",
     "status": "in_progress"
   },
   "extracted_companies": [
     {
       "individual_license": "0225273913",
-      "company_name": "BOZZUTO MANAGEMENT COMPANY",
+      "company_name": "bozzuto_management_company",
       "firm_license": "0226024808",
       "status": "confirmed",
-      "note": "Also in DC list"
+      "note": "also_in_dc_list"
     },
     {
       "individual_license": "0225273906",
-      "company_name": "CORTLAND MANAGEMENT LLC",
+      "company_name": "cortland_management_llc",
       "firm_license": "0226038642",
       "status": "confirmed",
-      "note": "NEW - not in DC list"
+      "note": "new_not_in_dc_list"
     },
     {
       "individual_license": "0225258285",
-      "company_name": "MIDDLEBURG MANAGEMENT LLC",
+      "company_name": "middleburg_management_llc",
       "firm_license": "0226038324",
       "status": "confirmed",
-      "note": "NEW - not in DC list"
+      "note": "new_not_in_dc_list"
     }
   ],
   "remaining_licenses_to_extract": [

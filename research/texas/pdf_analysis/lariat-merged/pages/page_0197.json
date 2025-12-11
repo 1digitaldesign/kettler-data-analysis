@@ -1,84 +1,84 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.512357",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0197.json",
+    "created": "2025_12_11t00:52:02.512357",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0197.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 197,
-    "text": "00001967661\nName Asddres\nTitle\nRobert D. Lamb Vice President vd.r Blne225 N. Mz.Ei\n400eStui\n3 3432BocaRL aoFtn ,\nRosemary LaPrete Vice President 2Mi2 zn5NE.eBl .r vd.\nSuie4t 00\n3 3432BocaRL aoFtn , 5\nJana Muma Vice President 2925Bri arpark\n1220eStui\nXT 77042Houson, t\nCullen P. Ramsey nt PsdeereiciV r Sngsddapri Roa2650 Ce\ny)thoriutd aetimih l(wti 800eStui\nXT 75201sa, lDla\nDavid L. Skelton nt PsdeereiciV sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nr R. SurdasophemChrit nt PsdeereiciV sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\n....\nrseD Smonnaum nt PsdeereiciV r Sngsddapri Roa2650 Ce\n800eStui\nXT 75201sa, lDla\nlwleeTAy I. sehl Asntssaitnd ant PsdeereiciV sde Frry Roa2859 Pcea\nryatreSce 1450eStui\n30339, GaAntaAlt\nsyleiW Se. Jiul nt PsdeereiciV r Sngsddapri Roa2650 Ce\n800eStui\nDallas, TX 75201\nadeW A.Pamela icePre sidentV 7025 West Tidwell\n104eStui\nXT 77092Houson, t\nnt PsdeereiciV lonagiRe sde Frry Roa2859 Pcea\nhMateBetwC a .rden\n1450eStui\n30339, GaAntaAlt\nlwlskeea BahomT nt PsdeereiciV lonagiRe 2650C edaSpr ringRs oad\n800eStui\nXT 75201sa, lDla\nn Hsa. DvisiaChrit nt PsdeereiciV lonagiRe 9909Mi raMe saBl vd\n350eStui\n92131go, CASn Deai\n1-15-08.docrsse a of1cfirse 2008 GcRSfi ofsnt|eO Dumfloconaitaznigase OK Gblr:a",
+    "text": "00001967661_name_asddres_title_robert_d._lamb_vice_president_vd.r_blne225_n._mz.ei_400estui_3_3432bocarl_aoftn_,_rosemary_laprete_vice_president_2mi2_zn5ne.ebl_.r_vd._suie4t_00_3_3432bocarl_aoftn_,_5_jana_muma_vice_president_2925bri_arpark_1220estui_xt_77042houson,_t_cullen_p._ramsey_nt_psdeereiciv_r_sngsddapri_roa2650_ce_y)thoriutd_aetimih_l(wti_800estui_xt_75201sa,_ldla_david_l._skelton_nt_psdeereiciv_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_r_r._surdasophemchrit_nt_psdeereiciv_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_...._rsed_smonnaum_nt_psdeereiciv_r_sngsddapri_roa2650_ce_800estui_xt_75201sa,_ldla_lwleetay_i._sehl_asntssaitnd_ant_psdeereiciv_sde_frry_roa2859_pcea_ryatresce_1450estui_30339,_gaantaalt_syleiw_se._jiul_nt_psdeereiciv_r_sngsddapri_roa2650_ce_800estui_dallas,_tx_75201_adew_a.pamela_icepre_sidentv_7025_west_tidwell_104estui_xt_77092houson,_t_nt_psdeereiciv_lonagire_sde_frry_roa2859_pcea_hmatebetwc_a_.rden_1450estui_30339,_gaantaalt_lwlskeea_bahomt_nt_psdeereiciv_lonagire_2650c_edaspr_ringrs_oad_800estui_xt_75201sa,_ldla_n_hsa._dvisiachrit_nt_psdeereiciv_lonagire_9909mi_rame_sabl_vd_350estui_92131go,_casn_deai_1_15_08.docrsse_a_of1cfirse_2008_gcrsfi_ofsnt|eo_dumfloconaitaznigase_ok_gblr:a",
     "char_count": 1237,
     "word_count": 183,
     "anomalies": {
       "page_number": 197,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [
         {
           "count": 6,
           "addresses": [
             {
-              "full_match": "Stui\nXT 77042",
+              "full_match": "stui_xt_77042",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "77042"
               ],
               "start": 245,
               "end": 258
             },
             {
-              "full_match": "Stui\nXT 75201",
+              "full_match": "stui_xt_75201",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75201"
               ],
               "start": 353,
               "end": 366
             },
             {
-              "full_match": "Stui\nXT 75201",
+              "full_match": "stui_xt_75201",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75201"
               ],
               "start": 604,
               "end": 617
             },
             {
-              "full_match": "Stui\nDallas, TX 75201",
+              "full_match": "stui_dallas,_tx_75201",
               "groups": [
-                "Stui\nDallas",
-                "TX",
+                "stui_dallas",
+                "tx",
                 "75201"
               ],
               "start": 789,
               "end": 810
             },
             {
-              "full_match": "Stui\nXT 77092",
+              "full_match": "stui_xt_77092",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "77092"
               ],
               "start": 862,
               "end": 875
             },
             {
-              "full_match": "Stui\nXT 75201",
+              "full_match": "stui_xt_75201",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75201"
               ],
               "start": 1045,
               "end": 1058
             }
           ],
-          "pattern": "Multiple addresses clustered",
+          "pattern": "multiple_addresses_clustered",
           "severity": "medium"
         }
       ],
@@ -87,7 +87,7 @@
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 197 | text: 00001967661\nName Asddres\nTitle\nRobert D. Lamb Vice President vd.r Blne225 N. Mz.Ei\n400eStui\n3 3432BocaRL aoFtn ,\nRosemary LaPrete Vice President 2Mi2 zn5NE.eBl .r vd.\nSuie4t 00\n3 3432BocaRL aoFtn , 5\nJana Muma Vice President 2925Bri arpark\n1220eStui\nXT 77042Houson, t\nCullen P. Ramsey nt PsdeereiciV r Sngsddapri Roa2650 Ce\ny)thoriutd aetimih l(wti 800eStui\nXT 75201sa, lDla\nDavid L. Skelton nt PsdeereiciV sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nr R. SurdasophemChrit nt PsdeereiciV sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\n....\nrseD Smonnaum nt PsdeereiciV r Sngsddapri Roa2650 Ce\n800eStui\nXT 75201sa, lDla\nlwleeTAy I. sehl Asntssaitnd ant PsdeereiciV sde Frry Roa2859 Pcea\nryatreSce 1450eStui\n30339, GaAntaAlt\nsyleiW Se. Jiul nt PsdeereiciV r Sngsddapri Roa2650 Ce\n800eStui\nDallas, TX 75201\nadeW A.Pamela icePre sidentV 7025 West Tidwell\n104eStui\nXT 77092Houson, t\nnt PsdeereiciV lonagiRe sde Frry Roa2859 Pcea\nhMateBetwC a .rden\n1450eStui\n30339, GaAntaAlt\nlwlskeea BahomT nt PsdeereiciV lonagiRe 2650C edaSpr ringRs oad\n800eStui\nXT 75201sa, lDla\nn Hsa. DvisiaChrit nt PsdeereiciV lonagiRe 9909Mi raMe saBl vd\n350eStui\n92131go, CASn Deai\n1-15-08.docrsse a of1cfirse 2008 GcRSfi ofsnt|eO Dumfloconaitaznigase OK Gblr:a | char_count: 1237 | word_count: 183 | anomalies: {\"page_number\":197,\"source\":\"lariat-merged\",\"address_clusters\":[{\"count\":6,\"addresses\":[{\"full_match\":\"Stui\\nXT 77042\",\"groups\":[\"Stui\",\"XT\",\"77042\"],\"start\":245,\"end\":258},{\"full_match\":\"Stui\\nXT 75201\",\"groups\":[\"Stui\",\"XT\",\"75201\"],\"start\":353,\"end\":366},{\"full_match\":\"Stui\\nXT 75201\",\"groups\":[\"Stui\",\"XT\",\"75201\"],\"start\":604,\"end\":617},{\"full_match\":\"Stui\\nDallas, TX 75201\",\"groups\":[\"Stui\\nDallas\",\"TX\",\"75201\"],\"start\":789,\"end\":810},{\"full_match\":\"Stui\\nXT 77092\",\"groups\":[\"Stui\",\"XT\",\"77092\"],\"start\":862,\"end\":875},{\"full_match\":\"Stui\\nXT 75201\",\"groups\":[\"Stui\",\"XT\",\"75201\"],\"start\":1045,\"end\":1058}],\"pattern\":\"Multiple addresses clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_197_|_text:_00001967661_name_asddres_title_robert_d._lamb_vice_president_vd.r_blne225_n._mz.ei_400estui_3_3432bocarl_aoftn_,_rosemary_laprete_vice_president_2mi2_zn5ne.ebl_.r_vd._suie4t_00_3_3432bocarl_aoftn_,_5_jana_muma_vice_president_2925bri_arpark_1220estui_xt_77042houson,_t_cullen_p._ramsey_nt_psdeereiciv_r_sngsddapri_roa2650_ce_y)thoriutd_aetimih_l(wti_800estui_xt_75201sa,_ldla_david_l._skelton_nt_psdeereiciv_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_r_r._surdasophemchrit_nt_psdeereiciv_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_...._rsed_smonnaum_nt_psdeereiciv_r_sngsddapri_roa2650_ce_800estui_xt_75201sa,_ldla_lwleetay_i._sehl_asntssaitnd_ant_psdeereiciv_sde_frry_roa2859_pcea_ryatresce_1450estui_30339,_gaantaalt_syleiw_se._jiul_nt_psdeereiciv_r_sngsddapri_roa2650_ce_800estui_dallas,_tx_75201_adew_a.pamela_icepre_sidentv_7025_west_tidwell_104estui_xt_77092houson,_t_nt_psdeereiciv_lonagire_sde_frry_roa2859_pcea_hmatebetwc_a_.rden_1450estui_30339,_gaantaalt_lwlskeea_bahomt_nt_psdeereiciv_lonagire_2650c_edaspr_ringrs_oad_800estui_xt_75201sa,_ldla_n_hsa._dvisiachrit_nt_psdeereiciv_lonagire_9909mi_rame_sabl_vd_350estui_92131go,_casn_deai_1_15_08.docrsse_a_of1cfirse_2008_gcrsfi_ofsnt|eo_dumfloconaitaznigase_ok_gblr:a_|_char_count:_1237_|_word_count:_183_|_anomalies:_{\"page_number\":197,\"source\":\"lariat_merged\",\"address_clusters\":[{\"count\":6,\"addresses\":[{\"full_match\":\"stui\\nxt_77042\",\"groups\":[\"stui\",\"xt\",\"77042\"],\"start\":245,\"end\":258},{\"full_match\":\"stui\\nxt_75201\",\"groups\":[\"stui\",\"xt\",\"75201\"],\"start\":353,\"end\":366},{\"full_match\":\"stui\\nxt_75201\",\"groups\":[\"stui\",\"xt\",\"75201\"],\"start\":604,\"end\":617},{\"full_match\":\"stui\\ndallas,_tx_75201\",\"groups\":[\"stui\\ndallas\",\"tx\",\"75201\"],\"start\":789,\"end\":810},{\"full_match\":\"stui\\nxt_77092\",\"groups\":[\"stui\",\"xt\",\"77092\"],\"start\":862,\"end\":875},{\"full_match\":\"stui\\nxt_75201\",\"groups\":[\"stui\",\"xt\",\"75201\"],\"start\":1045,\"end\":1058}],\"pattern\":\"multiple_addresses_clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.08982816338539124,
     -0.014379876665771008,

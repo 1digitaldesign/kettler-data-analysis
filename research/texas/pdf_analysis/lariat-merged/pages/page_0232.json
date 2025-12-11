@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.273497",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0232.json",
+    "created": "2025_12_11t00:52:03.273497",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0232.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 232,
-    "text": "aGbleRs esidenitalSen rviIc.ce s, 180726141046\nao0tchoFrm 5Atmet -1n 0t2\nearY2017R epo rt\naeoStt f\neSxaSOs T % Owned\nAfLegalN ameo f (cid:222) liate oFrmaiton\naGbleCs onruistctonnIc. XT 0129950700 100.00%\naUGbaL rblk/ Gan)eU/nPanIc.s rb(f rte an rs,nIc. XT 0800181366 100.00%\nRL eGsidenitalSe rviceLs LC XT 0800580537 100.00%\nMaL gGnoliaL P XT 800778333 99.99%\nvenutraR esidenitalL PA DE none 20.00%\nC’oreOnaeSte ntr toLr PW DE 1627080231 20.00%\nenuLtre L,CCRRRG eP/publiSqc uareH oetlV DE none 25.00%\nSummeParse reLtn itC DE none 49.99%",
+    "text": "agblers_esidenitalsen_rviic.ce_s,_180726141046_ao0tchofrm_5atmet_1n_0t2_eary2017r_epo_rt_aeostt_f_esxasos_t_%_owned_aflegaln_ameo_f_(cid:222)_liate_ofrmaiton_agblecs_onruistctonnic._xt_0129950700_100.00%_augbal_rblk/_gan)eu/npanic.s_rb(f_rte_an_rs,nic._xt_0800181366_100.00%_rl_egsidenitalse_rvicels_lc_xt_0800580537_100.00%_mal_ggnolial_p_xt_800778333_99.99%_venutrar_esidenitall_pa_de_none_20.00%_c’oreonaeste_ntr_tolr_pw_de_1627080231_20.00%_enultre_l,ccrrrg_ep/publisqc_uareh_oetlv_de_none_25.00%_summeparse_reltn_itc_de_none_49.99%",
     "char_count": 537,
     "word_count": 79,
     "anomalies": {
       "page_number": 232,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 232 | text: aGbleRs esidenitalSen rviIc.ce s, 180726141046\nao0tchoFrm 5Atmet -1n 0t2\nearY2017R epo rt\naeoStt f\neSxaSOs T % Owned\nAfLegalN ameo f (cid:222) liate oFrmaiton\naGbleCs onruistctonnIc. XT 0129950700 100.00%\naUGbaL rblk/ Gan)eU/nPanIc.s rb(f rte an rs,nIc. XT 0800181366 100.00%\nRL eGsidenitalSe rviceLs LC XT 0800580537 100.00%\nMaL gGnoliaL P XT 800778333 99.99%\nvenutraR esidenitalL PA DE none 20.00%\nC’oreOnaeSte ntr toLr PW DE 1627080231 20.00%\nenuLtre L,CCRRRG eP/publiSqc uareH oetlV DE none 25.00%\nSummeParse reLtn itC DE none 49.99% | char_count: 537 | word_count: 79 | anomalies: {\"page_number\":232,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_232_|_text:_agblers_esidenitalsen_rviic.ce_s,_180726141046_ao0tchofrm_5atmet_1n_0t2_eary2017r_epo_rt_aeostt_f_esxasos_t_%_owned_aflegaln_ameo_f_(cid:222)_liate_ofrmaiton_agblecs_onruistctonnic._xt_0129950700_100.00%_augbal_rblk/_gan)eu/npanic.s_rb(f_rte_an_rs,nic._xt_0800181366_100.00%_rl_egsidenitalse_rvicels_lc_xt_0800580537_100.00%_mal_ggnolial_p_xt_800778333_99.99%_venutrar_esidenitall_pa_de_none_20.00%_c’oreonaeste_ntr_tolr_pw_de_1627080231_20.00%_enultre_l,ccrrrg_ep/publisqc_uareh_oetlv_de_none_25.00%_summeparse_reltn_itc_de_none_49.99%_|_char_count:_537_|_word_count:_79_|_anomalies:_{\"page_number\":232,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.03969845175743103,
     -0.004561244510114193,

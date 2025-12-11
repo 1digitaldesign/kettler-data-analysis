@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.608172",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0074.json",
+    "created": "2025_12_11t00:51:59.608172",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0074.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 74,
-    "text": "under the provisions of the Texas Business Corporation Act with\nrespect to the rights of dissenting shareholders.\nDATED this 2nd day of January 1969.\nAMERICAN VITRIFIED PRODUCTS COMPANY\nBy:\nit tediers\nSecretary\nSOUTHWEST FABRICATING & WELDING CO., INC.\nBy:\nLiBrikle\nShic\nTHE STATE OF TENAS\nCOUNTY OF\na notary public, do hereby\ncertify that my Blaund\nor January\n= 1969, per-\nsonally appeared before me\nMA Minute pRo otare Maud a breadent of being\nAMERICAN VITRIFIED PRODUCIS COMPANY, that he signed the foregoing\ndocument as President of the corporation, and that the statements\ntherein contained are true.\nPublic in and for state dOleD\nL AtotrnAtey Me C J.hR,MAS iI.Ql I, laPuory beoo lStt fi- c\nTHE STATE OR TEXAS :COUNTY OF coMy mmiscion1 7cao0 fnd3. ae t.\nendn oaptry ublidc oh erebyT\nsonallay ppeareTdbO eoLCOfreme_H OKW 6 .. declaredLhh o eitePret s sidenhbto e,ing\nhhta esiN t gIC,n .ehC.dteMELN O & IG ABRCTIASYOF UHESTSOT hteco rporaitoahn nhte,dta t\ntailinali\nsta and for\nHarris County, Texas\nAluxandoLr ovellBondedb y",
+    "text": "under_the_provisions_of_the_texas_business_corporation_act_with_respect_to_the_rights_of_dissenting_shareholders._dated_this_2nd_day_of_january_1969._american_vitrified_products_company_by:_it_tediers_secretary_southwest_fabricating_&_welding_co.,_inc._by:_librikle_shic_the_state_of_tenas_county_of_a_notary_public,_do_hereby_certify_that_my_blaund_or_january_=_1969,_per_sonally_appeared_before_me_ma_minute_pro_otare_maud_a_breadent_of_being_american_vitrified_producis_company,_that_he_signed_the_foregoing_document_as_president_of_the_corporation,_and_that_the_statements_therein_contained_are_true._public_in_and_for_state_doled_l_atotrnatey_me_c_j.hr,mas_ii.ql_i,_lapuory_beoo_lstt_fi_c_the_state_or_texas_:county_of_comy_mmiscion1_7cao0_fnd3._ae_t._endn_oaptry_ublidc_oh_erebyt_sonallay_ppearetdbo_eolcofreme_h_okw_6_.._declaredlhh_o_eitepret_s_sidenhbto_e,ing_hhta_esin_t_gic,n_.ehc.dtemeln_o_&_ig_abrctiasyof_uhestsot_hteco_rporaitoahn_nhte,dta_t_tailinali_sta_and_for_harris_county,_texas_aluxandolr_ovellbondedb_y",
     "char_count": 1027,
     "word_count": 168,
     "anomalies": {
       "page_number": 74,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 74 | text: under the provisions of the Texas Business Corporation Act with\nrespect to the rights of dissenting shareholders.\nDATED this 2nd day of January 1969.\nAMERICAN VITRIFIED PRODUCTS COMPANY\nBy:\nit tediers\nSecretary\nSOUTHWEST FABRICATING & WELDING CO., INC.\nBy:\nLiBrikle\nShic\nTHE STATE OF TENAS\nCOUNTY OF\na notary public, do hereby\ncertify that my Blaund\nor January\n= 1969, per-\nsonally appeared before me\nMA Minute pRo otare Maud a breadent of being\nAMERICAN VITRIFIED PRODUCIS COMPANY, that he signed the foregoing\ndocument as President of the corporation, and that the statements\ntherein contained are true.\nPublic in and for state dOleD\nL AtotrnAtey Me C J.hR,MAS iI.Ql I, laPuory beoo lStt fi- c\nTHE STATE OR TEXAS :COUNTY OF coMy mmiscion1 7cao0 fnd3. ae t.\nendn oaptry ublidc oh erebyT\nsonallay ppeareTdbO eoLCOfreme_H OKW 6 .. declaredLhh o eitePret s sidenhbto e,ing\nhhta esiN t gIC,n .ehC.dteMELN O & IG ABRCTIASYOF UHESTSOT hteco rporaitoahn nhte,dta t\ntailinali\nsta and for\nHarris County, Texas\nAluxandoLr ovellBondedb y | char_count: 1027 | word_count: 168 | anomalies: {\"page_number\":74,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_74_|_text:_under_the_provisions_of_the_texas_business_corporation_act_with_respect_to_the_rights_of_dissenting_shareholders._dated_this_2nd_day_of_january_1969._american_vitrified_products_company_by:_it_tediers_secretary_southwest_fabricating_&_welding_co.,_inc._by:_librikle_shic_the_state_of_tenas_county_of_a_notary_public,_do_hereby_certify_that_my_blaund_or_january_=_1969,_per_sonally_appeared_before_me_ma_minute_pro_otare_maud_a_breadent_of_being_american_vitrified_producis_company,_that_he_signed_the_foregoing_document_as_president_of_the_corporation,_and_that_the_statements_therein_contained_are_true._public_in_and_for_state_doled_l_atotrnatey_me_c_j.hr,mas_ii.ql_i,_lapuory_beoo_lstt_fi_c_the_state_or_texas_:county_of_comy_mmiscion1_7cao0_fnd3._ae_t._endn_oaptry_ublidc_oh_erebyt_sonallay_ppearetdbo_eolcofreme_h_okw_6_.._declaredlhh_o_eitepret_s_sidenhbto_e,ing_hhta_esin_t_gic,n_.ehc.dtemeln_o_&_ig_abrctiasyof_uhestsot_hteco_rporaitoahn_nhte,dta_t_tailinali_sta_and_for_harris_county,_texas_aluxandolr_ovellbondedb_y_|_char_count:_1027_|_word_count:_168_|_anomalies:_{\"page_number\":74,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06993667781352997,
     -0.012231643311679363,

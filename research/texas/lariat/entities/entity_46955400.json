@@ -1,45 +1,45 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.166656",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_46955400.json",
+    "created": "2025_12_11t00:21:40.166656",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_46955400.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "46955400",
     "entity_type": null,
-    "original_date_of_filing": "March 30, 1979",
-    "entity_status": "Voluntarily terminated",
+    "original_date_of_filing": "march_30,_1979",
+    "entity_status": "voluntarily_terminated",
     "formation_date": null,
     "tax_id": "17420431391",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "LARIAT INC. REALTORS",
-    "address": "[ADDRESS NOT PROVIDED]",
+    "duration": "perpetual",
+    "name": "lariat_inc._realtors",
+    "address": "[address_not_provided]",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "Monte B Hartig",
-      "address": "4139 GARDENDALE",
+      "name": "monte_b_hartig",
+      "address": "4139_gardendale",
       "inactive_date": null
     },
     "filing_history": [
       {
-        "document_number": "N/A",
+        "document_number": "n/a",
         "filing_type": "4390503",
-        "filing_date": "Legacy Filing",
-        "effective_date": "March 30, 1979",
-        "eff_cond": "March 30, 1979",
-        "page_count": "No"
+        "filing_date": "legacy_filing",
+        "effective_date": "march_30,_1979",
+        "eff_cond": "march_30,_1979",
+        "page_count": "no"
       }
     ],
     "names": [
       {
-        "name": "LARIAT INC. REALTORS",
-        "name_status": "Inactive",
-        "name_type": "Legal",
-        "name_inactive_date": "August 16, 1993",
+        "name": "lariat_inc._realtors",
+        "name_status": "inactive",
+        "name_type": "legal",
+        "name_inactive_date": "august_16,_1993",
         "consent_filing_number": null
       }
     ],
@@ -48,7 +48,7 @@
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 46955400 | original_date_of_filing: March 30, 1979 | entity_status: Voluntarily terminated | tax_id: 17420431391 | duration: Perpetual | name: LARIAT INC. REALTORS | address: [ADDRESS NOT PROVIDED] | registered_agent: {\"name\":\"Monte B Hartig\",\"address\":\"4139 GARDENDALE\",\"inactive_date\":null} | filing_history: 1 items | names: 1 items",
+  "text_representation": "filing_number:_46955400_|_original_date_of_filing:_march_30,_1979_|_entity_status:_voluntarily_terminated_|_tax_id:_17420431391_|_duration:_perpetual_|_name:_lariat_inc._realtors_|_address:_[address_not_provided]_|_registered_agent:_{\"name\":\"monte_b_hartig\",\"address\":\"4139_gardendale\",\"inactive_date\":null}_|_filing_history:_1_items_|_names:_1_items",
   "embedding": [
     0.007753509096801281,
     0.03232378140091896,

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.073349",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0052.json",
+    "created": "2025_12_11t00:51:59.073349",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0052.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 52,
-    "text": "Inc right to cunulate voteo in the clection of\ndirectors is expresoly prohibited.\nARTICLE EIGHT\nThe names and addresses of the incorporators are:\nS. I. Barber 7525Sh erman\nexasTHouostn ,\nLH o .ckw.oGod 7525Sh erman\nexasTHouostn ,\nSkiL dC .mo.re 7525Sh erman\nexasTHouostn ,\nCILNNTE IEAR\nhTeb oadhrdo itico freoo s rpctrs foraiton1e s x-\npressly authorized to alter, amend, or repeal the bylaws\nor to adopt new bylaws of this corporation, without any\naction on the part of the stockholders; but the bylaws\nmade by the directors and the powers so conferred may be\naltered or repealed by the stockholders.\nIN WITNESS WHEREOF, we have hereunto set our hands,\nZ3\nthis day of Octuber, 1962.\n51 Band\nS. L. Barber\n24 Jokers\nG. H. Lockrood\nonmC.I. Hle\nore. SdmC. Lki\n-3-",
+    "text": "inc_right_to_cunulate_voteo_in_the_clection_of_directors_is_expresoly_prohibited._article_eight_the_names_and_addresses_of_the_incorporators_are:_s._i._barber_7525sh_erman_exasthouostn_,_lh_o_.ckw.ogod_7525sh_erman_exasthouostn_,_skil_dc_.mo.re_7525sh_erman_exasthouostn_,_cilnnte_iear_hteb_oadhrdo_itico_freoo_s_rpctrs_foraiton1e_s_x_pressly_authorized_to_alter,_amend,_or_repeal_the_bylaws_or_to_adopt_new_bylaws_of_this_corporation,_without_any_action_on_the_part_of_the_stockholders;_but_the_bylaws_made_by_the_directors_and_the_powers_so_conferred_may_be_altered_or_repealed_by_the_stockholders._in_witness_whereof,_we_have_hereunto_set_our_hands,_z3_this_day_of_octuber,_1962._51_band_s._l._barber_24_jokers_g._h._lockrood_onmc.i._hle_ore._sdmc._lki_3_",
     "char_count": 760,
     "word_count": 132,
     "anomalies": {
       "page_number": 52,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 52 | text: Inc right to cunulate voteo in the clection of\ndirectors is expresoly prohibited.\nARTICLE EIGHT\nThe names and addresses of the incorporators are:\nS. I. Barber 7525Sh erman\nexasTHouostn ,\nLH o .ckw.oGod 7525Sh erman\nexasTHouostn ,\nSkiL dC .mo.re 7525Sh erman\nexasTHouostn ,\nCILNNTE IEAR\nhTeb oadhrdo itico freoo s rpctrs foraiton1e s x-\npressly authorized to alter, amend, or repeal the bylaws\nor to adopt new bylaws of this corporation, without any\naction on the part of the stockholders; but the bylaws\nmade by the directors and the powers so conferred may be\naltered or repealed by the stockholders.\nIN WITNESS WHEREOF, we have hereunto set our hands,\nZ3\nthis day of Octuber, 1962.\n51 Band\nS. L. Barber\n24 Jokers\nG. H. Lockrood\nonmC.I. Hle\nore. SdmC. Lki\n-3- | char_count: 760 | word_count: 132 | anomalies: {\"page_number\":52,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_52_|_text:_inc_right_to_cunulate_voteo_in_the_clection_of_directors_is_expresoly_prohibited._article_eight_the_names_and_addresses_of_the_incorporators_are:_s._i._barber_7525sh_erman_exasthouostn_,_lh_o_.ckw.ogod_7525sh_erman_exasthouostn_,_skil_dc_.mo.re_7525sh_erman_exasthouostn_,_cilnnte_iear_hteb_oadhrdo_itico_freoo_s_rpctrs_foraiton1e_s_x_pressly_authorized_to_alter,_amend,_or_repeal_the_bylaws_or_to_adopt_new_bylaws_of_this_corporation,_without_any_action_on_the_part_of_the_stockholders;_but_the_bylaws_made_by_the_directors_and_the_powers_so_conferred_may_be_altered_or_repealed_by_the_stockholders._in_witness_whereof,_we_have_hereunto_set_our_hands,_z3_this_day_of_octuber,_1962._51_band_s._l._barber_24_jokers_g._h._lockrood_onmc.i._hle_ore._sdmc._lki_3_|_char_count:_760_|_word_count:_132_|_anomalies:_{\"page_number\":52,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.11825747042894363,
     -0.00443991320207715,

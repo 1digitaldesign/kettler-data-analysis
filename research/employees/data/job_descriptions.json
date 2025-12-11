@@ -1,194 +1,194 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:50:00.000000",
-    "source": "Employee role documentation",
-    "method": "Analysis of company structure and license records"
+    "date": "2025_12_10t20:50:00.000000",
+    "source": "employee_role_documentation",
+    "method": "analysis_of_company_structure_and_license_records"
   },
   "job_descriptions": [
     {
-      "name": "Robert Kettler",
-      "title": "CEO/Founder",
-      "role": "Executive",
+      "name": "robert_kettler",
+      "title": "ceo/founder",
+      "role": "executive",
       "responsibilities": [
-        "Overall company strategy",
-        "Business development",
-        "Executive oversight"
+        "overall_company_strategy",
+        "business_development",
+        "executive_oversight"
       ],
       "license_required": false,
-      "notes": "Founder and chief executive"
+      "notes": "founder_and_chief_executive"
     },
     {
-      "name": "Cindy Fisher",
-      "title": "President",
-      "role": "Executive",
+      "name": "cindy_fisher",
+      "title": "president",
+      "role": "executive",
       "responsibilities": [
-        "Day-to-day operations",
-        "Strategic planning",
-        "Executive management"
+        "day_to_day_operations",
+        "strategic_planning",
+        "executive_management"
       ],
       "license_required": false,
-      "notes": "President of operations"
+      "notes": "president_of_operations"
     },
     {
-      "name": "Luke Davis",
-      "title": "CIO",
-      "role": "Executive",
+      "name": "luke_davis",
+      "title": "cio",
+      "role": "executive",
       "responsibilities": [
-        "Information technology",
-        "Systems management",
-        "Technology strategy"
+        "information_technology",
+        "systems_management",
+        "technology_strategy"
       ],
       "license_required": false,
-      "notes": "Chief Information Officer"
+      "notes": "chief_information_officer"
     },
     {
-      "name": "Pat Cassada",
-      "title": "CFO",
-      "role": "Executive",
+      "name": "pat_cassada",
+      "title": "cfo",
+      "role": "executive",
       "responsibilities": [
-        "Financial management",
-        "Accounting oversight",
-        "Financial strategy"
+        "financial_management",
+        "accounting_oversight",
+        "financial_strategy"
       ],
       "license_required": false,
-      "notes": "Chief Financial Officer"
+      "notes": "chief_financial_officer"
     },
     {
-      "name": "Sean Curtin",
-      "title": "General Counsel",
-      "role": "Legal",
+      "name": "sean_curtin",
+      "title": "general_counsel",
+      "role": "legal",
       "responsibilities": [
-        "Legal compliance",
-        "Contract review",
-        "Regulatory matters"
+        "legal_compliance",
+        "contract_review",
+        "regulatory_matters"
       ],
       "license_required": true,
       "bar_license": true,
-      "notes": "Legal counsel - requires bar license"
+      "notes": "legal_counsel_requires_bar_license"
     },
     {
-      "name": "Edward Hyland",
-      "title": "Senior Regional Manager",
-      "role": "Operations",
+      "name": "edward_hyland",
+      "title": "senior_regional_manager",
+      "role": "operations",
       "responsibilities": [
-        "Regional property management",
-        "Operations oversight",
-        "Team supervision"
+        "regional_property_management",
+        "operations_oversight",
+        "team_supervision"
       ],
       "license_required": true,
       "real_estate_license": false,
-      "notes": "May require real estate license for property management activities"
+      "notes": "may_require_real_estate_license_for_property_management_activities"
     },
     {
-      "name": "Amy Groff",
-      "title": "VP Operations",
-      "role": "Operations",
+      "name": "amy_groff",
+      "title": "vp_operations",
+      "role": "operations",
       "responsibilities": [
-        "Operations management",
-        "Process improvement",
-        "Team leadership"
+        "operations_management",
+        "process_improvement",
+        "team_leadership"
       ],
       "license_required": false,
-      "notes": "Vice President of Operations"
+      "notes": "vice_president_of_operations"
     },
     {
-      "name": "Robert Grealy",
-      "title": "SVP Operations",
-      "role": "Operations",
+      "name": "robert_grealy",
+      "title": "svp_operations",
+      "role": "operations",
       "responsibilities": [
-        "Senior operations oversight",
-        "Strategic operations planning",
-        "Executive operations management"
+        "senior_operations_oversight",
+        "strategic_operations_planning",
+        "executive_operations_management"
       ],
       "license_required": false,
-      "notes": "Senior Vice President of Operations"
+      "notes": "senior_vice_president_of_operations"
     },
     {
-      "name": "Todd Bowen",
-      "title": "SVP Strategic Services",
-      "role": "Operations",
+      "name": "todd_bowen",
+      "title": "svp_strategic_services",
+      "role": "operations",
       "responsibilities": [
-        "Strategic services",
-        "Business development",
-        "Client relations"
+        "strategic_services",
+        "business_development",
+        "client_relations"
       ],
       "license_required": false,
-      "notes": "Senior Vice President of Strategic Services"
+      "notes": "senior_vice_president_of_strategic_services"
     },
     {
-      "name": "Djene Moyer",
-      "title": "Community Manager",
-      "role": "Property Management",
+      "name": "djene_moyer",
+      "title": "community_manager",
+      "role": "property_management",
       "responsibilities": [
-        "Property management",
-        "Tenant relations",
-        "Property operations"
+        "property_management",
+        "tenant_relations",
+        "property_operations"
       ],
       "license_required": true,
       "real_estate_license": false,
-      "notes": "Community manager - may require real estate license"
+      "notes": "community_manager_may_require_real_estate_license"
     },
     {
-      "name": "Henry Ramos",
-      "title": "Property Manager",
-      "role": "Property Management",
+      "name": "henry_ramos",
+      "title": "property_manager",
+      "role": "property_management",
       "responsibilities": [
-        "Property management",
-        "Leasing activities",
-        "Property maintenance coordination"
+        "property_management",
+        "leasing_activities",
+        "property_maintenance_coordination"
       ],
       "license_required": true,
       "real_estate_license": false,
-      "notes": "Property manager - likely requires real estate license for leasing"
+      "notes": "property_manager_likely_requires_real_estate_license_for_leasing"
     },
     {
-      "name": "Kristina Thoummarath",
-      "title": "Chief of Staff",
-      "role": "Administrative",
+      "name": "kristina_thoummarath",
+      "title": "chief_of_staff",
+      "role": "administrative",
       "responsibilities": [
-        "Executive support",
-        "Administrative coordination",
-        "Internal operations"
+        "executive_support",
+        "administrative_coordination",
+        "internal_operations"
       ],
       "license_required": false,
-      "notes": "Chief of Staff"
+      "notes": "chief_of_staff"
     },
     {
-      "name": "Christina Chang",
-      "title": "Head of Asset Management",
-      "role": "Operations",
+      "name": "christina_chang",
+      "title": "head_of_asset_management",
+      "role": "operations",
       "responsibilities": [
-        "Asset management",
-        "Property portfolio oversight",
-        "Investment management"
+        "asset_management",
+        "property_portfolio_oversight",
+        "investment_management"
       ],
       "license_required": false,
-      "notes": "Head of Asset Management"
+      "notes": "head_of_asset_management"
     },
     {
-      "name": "Liddy Bisanz",
-      "title": "Operations Connection",
-      "role": "Operations",
+      "name": "liddy_bisanz",
+      "title": "operations_connection",
+      "role": "operations",
       "responsibilities": [
-        "Operations coordination",
-        "Internal communications",
-        "Process management"
+        "operations_coordination",
+        "internal_communications",
+        "process_management"
       ],
       "license_required": false,
-      "notes": "Operations Connection role"
+      "notes": "operations_connection_role"
     },
     {
-      "name": "Caitlin Skidmore",
-      "title": "VP/General Manager",
-      "role": "Property Management",
+      "name": "caitlin_skidmore",
+      "title": "vp/general_manager",
+      "role": "property_management",
       "responsibilities": [
-        "Property management oversight",
-        "Regional management",
-        "Operations management"
+        "property_management_oversight",
+        "regional_management",
+        "operations_management"
       ],
       "license_required": true,
       "real_estate_license": true,
-      "notes": "Only licensed employee - DC real estate broker license"
+      "notes": "only_licensed_employee_dc_real_estate_broker_license"
     }
   ],
   "summary": {

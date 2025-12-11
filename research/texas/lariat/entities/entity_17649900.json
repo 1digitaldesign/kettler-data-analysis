@@ -1,43 +1,43 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.993304",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_17649900.json",
+    "created": "2025_12_11t00:21:40.993304",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_17649900.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "17649900",
-    "entity_type": "Domestic For-Profit Corporation",
-    "original_date_of_filing": "July 28, 1961",
-    "entity_status": "Merged",
+    "entity_type": "domestic_for_profit_corporation",
+    "original_date_of_filing": "july_28,_1961",
+    "entity_status": "merged",
     "formation_date": null,
     "tax_id": "00000000000",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
-    "address": "[ADDRESS NOT PROVIDED]",
+    "duration": "perpetual",
+    "name": "southwest_fabricating_&_welding_co.,_inc.",
+    "address": "[address_not_provided]",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "C L Skidmore",
-      "address": "7525 SHERMAN",
+      "name": "c_l_skidmore",
+      "address": "7525_sherman",
       "inactive_date": null
     },
     "filing_history": [],
     "names": [
       {
-        "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
-        "name_status": "Inactive",
-        "name_type": "Legal",
-        "name_inactive_date": "January 2, 1969",
+        "name": "southwest_fabricating_&_welding_co.,_inc.",
+        "name_status": "inactive",
+        "name_type": "legal",
+        "name_inactive_date": "january_2,_1969",
         "consent_filing_number": null
       },
       {
-        "name": "BARWOOD FABRICATING CO., INC.",
-        "name_status": "Prior",
-        "name_type": "Legal",
-        "name_inactive_date": "September 22, 1961",
+        "name": "barwood_fabricating_co.,_inc.",
+        "name_status": "prior",
+        "name_type": "legal",
+        "name_inactive_date": "september_22,_1961",
         "consent_filing_number": null
       }
     ],
@@ -45,10 +45,10 @@
     "assumed_names": [],
     "associated_entities": [
       {
-        "name": "AMERICAN VITRIFIED PRODUCTS COMPANY",
-        "entity_type": "Other Entity/Organization",
+        "name": "american_vitrified_products_company",
+        "entity_type": "other_entity/organization",
         "document_description": "0",
-        "filing_date": "Survivor",
+        "filing_date": "survivor",
         "entity_filing_number": null,
         "jurisdiction": null,
         "capacity": null
@@ -56,7 +56,7 @@
     ],
     "initial_address": null
   },
-  "text_representation": "filing_number: 17649900 | entity_type: Domestic For-Profit Corporation | original_date_of_filing: July 28, 1961 | entity_status: Merged | tax_id: 00000000000 | duration: Perpetual | name: SOUTHWEST FABRICATING & WELDING CO., INC. | address: [ADDRESS NOT PROVIDED] | registered_agent: {\"name\":\"C L Skidmore\",\"address\":\"7525 SHERMAN\",\"inactive_date\":null} | names: 2 items | associated_entities: 1 items",
+  "text_representation": "filing_number:_17649900_|_entity_type:_domestic_for_profit_corporation_|_original_date_of_filing:_july_28,_1961_|_entity_status:_merged_|_tax_id:_00000000000_|_duration:_perpetual_|_name:_southwest_fabricating_&_welding_co.,_inc._|_address:_[address_not_provided]_|_registered_agent:_{\"name\":\"c_l_skidmore\",\"address\":\"7525_sherman\",\"inactive_date\":null}_|_names:_2_items_|_associated_entities:_1_items",
   "embedding": [
     -0.040406275540590286,
     0.01557758916169405,

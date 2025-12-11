@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.502359",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_129768500_24.json",
+    "created": "2025_12_11t00:21:41.502359",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_129768500_24.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 29, 2024",
-    "name": "Beau W Terhaar",
-    "title": "RVP",
-    "address": "101 University Blvd Suite 240"
+    "last_update": "march_29,_2024",
+    "name": "beau_w_terhaar",
+    "title": "rvp",
+    "address": "101_university_blvd_suite_240"
   },
-  "text_representation": "last_update: March 29, 2024 | name: Beau W Terhaar | title: RVP | address: 101 University Blvd Suite 240",
+  "text_representation": "last_update:_march_29,_2024_|_name:_beau_w_terhaar_|_title:_rvp_|_address:_101_university_blvd_suite_240",
   "embedding": [
     -0.05794515833258629,
     0.04812980443239212,

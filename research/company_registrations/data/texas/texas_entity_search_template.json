@@ -1,55 +1,55 @@
 {
   "metadata": {
     "date": null,
-    "state": "Texas",
+    "state": "tx",
     "search_url": "https://www.sos.texas.gov/corp/sosda/index.shtml",
-    "search_method": "Manual search - Texas Secretary of State",
+    "search_method": "manual_search_texas_secretary_of_state",
     "searches_performed": []
   },
   "lariat_entities": [
     {
-      "search_term": "Lariat",
+      "search_term": "lariat",
       "entities_found": [],
-      "notes": "Search for Lariat Companies, Lariat Realty Advisors, and variations"
+      "notes": "search_for_lariat_companies,_lariat_realty_advisors,_and_variations"
     }
   ],
   "kettler_entities": [
     {
-      "search_term": "Kettler Management",
+      "search_term": "kettler_management",
       "entities_found": [],
-      "notes": "Search for KETTLER MANAGEMENT INC., Kettler Management Corp., and variations"
+      "notes": "search_for_kettler_management_inc.,_kettler_management_corp.,_and_variations"
     }
   ],
   "frisco_address_entities": [
     {
-      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
+      "address": "5729_lebanon_rd_suite_144553,_frisco,_tx_75034",
       "entities_found": [],
-      "notes": "Shell company address cluster - multiple Virginia firms use this address"
+      "notes": "shell_company_address_cluster_multiple_virginia_firms_use_this_address"
     },
     {
-      "address": "2591 Dallas Parkway, Suite 300, Frisco, TX 75034",
+      "address": "2591_dallas_parkway,_suite_300,_frisco,_tx_75034",
       "entities_found": [],
-      "notes": "Lariat Realty Advisors address"
+      "notes": "lariat_realty_advisors_address"
     }
   ],
   "related_entities": [
     {
-      "name": "BAINBRIDGE MID-ATLANTIC MANAGEMENT LLC",
+      "name": "bainbridge_mid_atlantic_management_llc",
       "found": false,
       "details": null
     },
     {
-      "name": "CAPREIT Residential Management, LLC",
+      "name": "capreit_residential_management,_llc",
       "found": false,
       "details": null
     },
     {
-      "name": "BOZZUTO MANAGEMENT COMPANY",
+      "name": "bozzuto_management_company",
       "found": false,
       "details": null
     },
     {
-      "name": "GABLES RESIDENTIAL SERVICES, INC.",
+      "name": "gables_residential_services,_inc.",
       "found": false,
       "details": null
     }

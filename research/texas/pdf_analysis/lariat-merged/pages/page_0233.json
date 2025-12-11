@@ -1,114 +1,114 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.282102",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0233.json",
+    "created": "2025_12_11t00:52:03.282102",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0233.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 233,
-    "text": "Gables Residential Services, Inc.\nDirectors and Officers\nAsddres\nName Title\nAnselSusa nM. Director vd.,k Ble CreelurtT1 381\n1500eStui\nDallas, TX 75219\nDawn H. Severt Director 3399 Peachtree Rd. NE\nSuite 600\nAtlanta, GA 30326\nCristina F. Sullivan Director 225 N. E. Mizner Blvd.,\nSuite 400\nBoca Raton, FL 33432\nName Address\nTitle\nSusan M. Ansel President and\n3811 Turtle Creek Blvd.,\nChief Executive Officer Suite 1500\nDallas, TX 75219\nExecutive Vice President, 3399 Peachtree Rd., NE\nDawn H. Severt\n,recfi Olfaincf FnaeiChi 600eStui\n30326, GaAntaAlt\nSecretary and Treasurer\nnvai. Slul FnasiCrit vd.,r Blne225 N. Mz.Ei\nExecutive Vice President -\n400eStui\nChief Operations Officer\n33432on, FtL RaaBoc\nand Assistant Secretary\nRd., NeErehtc3399 Pae\nJohn R. Akin Executive Vice President\n600eStui\nand Chief Investment\n30326, GaAntaAlt\nOfficer\nte Srepeti5847 Sn Flae\nDennis E. Rainosek Senior Vice President,\n3250eStui\nAssistant Secretary, and\nXT 77057Houson, t\nAssistant Treasurer\nRd., NeErehtc3399 Pae\nDavid K. Reece Senior Vice President and\n600eStui\nAssistant Secretary\n30326, GaAntaAlt\nPhilip E. Altschuler Senior Vice President 8300 Greensboro Drive\nSuite 650\nMcLean, VA 22102\nDonna E. Summers Senior Vice President\n3811 Turtle Creek Blvd.,\nSuite 1500\nDallas, TX 75219\nnt PsdeereiciVor Snie\nJoseph G. Wilber 3399 Peachtree Rd., NE\nSuite 600\nAtlanta, GA 30326\nnt PsdeereiciV\nJean M. Anton 225 N.E. Mizner Blvd.,\nSuite 400\nBoca Raton, FL 33442\nnt PsdeereiciV\nJennifer B. Antos 225 N.E. Mizner Blvd.,\nSuite 400\nBoca Raton, FL 33432",
+    "text": "gables_residential_services,_inc._directors_and_officers_asddres_name_title_anselsusa_nm._director_vd.,k_ble_creelurtt1_381_1500estui_dallas,_tx_75219_dawn_h._severt_director_3399_peachtree_rd._ne_suite_600_atlanta,_ga_30326_cristina_f._sullivan_director_225_n._e._mizner_blvd.,_suite_400_boca_raton,_fl_33432_name_address_title_susan_m._ansel_president_and_3811_turtle_creek_blvd.,_chief_executive_officer_suite_1500_dallas,_tx_75219_executive_vice_president,_3399_peachtree_rd.,_ne_dawn_h._severt_,recfi_olfaincf_fnaeichi_600estui_30326,_gaantaalt_secretary_and_treasurer_nvai._slul_fnasicrit_vd.,r_blne225_n._mz.ei_executive_vice_president_400estui_chief_operations_officer_33432on,_ftl_raaboc_and_assistant_secretary_rd.,_neerehtc3399_pae_john_r._akin_executive_vice_president_600estui_and_chief_investment_30326,_gaantaalt_officer_te_srepeti5847_sn_flae_dennis_e._rainosek_senior_vice_president,_3250estui_assistant_secretary,_and_xt_77057houson,_t_assistant_treasurer_rd.,_neerehtc3399_pae_david_k._reece_senior_vice_president_and_600estui_assistant_secretary_30326,_gaantaalt_philip_e._altschuler_senior_vice_president_8300_greensboro_drive_suite_650_mclean,_va_22102_donna_e._summers_senior_vice_president_3811_turtle_creek_blvd.,_suite_1500_dallas,_tx_75219_nt_psdeereicivor_snie_joseph_g._wilber_3399_peachtree_rd.,_ne_suite_600_atlanta,_ga_30326_nt_psdeereiciv_jean_m._anton_225_n.e._mizner_blvd.,_suite_400_boca_raton,_fl_33442_nt_psdeereiciv_jennifer_b._antos_225_n.e._mizner_blvd.,_suite_400_boca_raton,_fl_33432",
     "char_count": 1528,
     "word_count": 233,
     "anomalies": {
       "page_number": 233,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [
         {
           "count": 9,
           "addresses": [
             {
-              "full_match": "Stui\nDallas, TX 75219",
+              "full_match": "stui_dallas,_tx_75219",
               "groups": [
-                "Stui\nDallas",
-                "TX",
+                "stui_dallas",
+                "tx",
                 "75219"
               ],
               "start": 129,
               "end": 150
             },
             {
-              "full_match": "Atlanta, GA 30326",
+              "full_match": "atlanta,_ga_30326",
               "groups": [
-                "Atlanta",
-                "GA",
+                "atlanta",
+                "ga",
                 "30326"
               ],
               "start": 207,
               "end": 224
             },
             {
-              "full_match": "Boca Raton, FL 33432",
+              "full_match": "boca_raton,_fl_33432",
               "groups": [
-                "Boca Raton",
-                "FL",
+                "boca_raton",
+                "fl",
                 "33432"
               ],
               "start": 289,
               "end": 309
             },
             {
-              "full_match": "Dallas, TX 75219",
+              "full_match": "dallas,_tx_75219",
               "groups": [
-                "Dallas",
-                "TX",
+                "dallas",
+                "tx",
                 "75219"
               ],
               "start": 418,
               "end": 434
             },
             {
-              "full_match": "Lean, VA 22102",
+              "full_match": "lean,_va_22102",
               "groups": [
-                "Lean",
-                "VA",
+                "lean",
+                "va",
                 "22102"
               ],
               "start": 1162,
               "end": 1176
             },
             {
-              "full_match": "Dallas, TX 75219",
+              "full_match": "dallas,_tx_75219",
               "groups": [
-                "Dallas",
-                "TX",
+                "dallas",
+                "tx",
                 "75219"
               ],
               "start": 1252,
               "end": 1268
             },
             {
-              "full_match": "Atlanta, GA 30326",
+              "full_match": "atlanta,_ga_30326",
               "groups": [
-                "Atlanta",
-                "GA",
+                "atlanta",
+                "ga",
                 "30326"
               ],
               "start": 1341,
               "end": 1358
             },
             {
-              "full_match": "Boca Raton, FL 33442",
+              "full_match": "boca_raton,_fl_33442",
               "groups": [
-                "Boca Raton",
-                "FL",
+                "boca_raton",
+                "fl",
                 "33442"
               ],
               "start": 1421,
               "end": 1441
             },
             {
-              "full_match": "Boca Raton, FL 33432",
+              "full_match": "boca_raton,_fl_33432",
               "groups": [
-                "Boca Raton",
-                "FL",
+                "boca_raton",
+                "fl",
                 "33432"
               ],
               "start": 1508,
               "end": 1528
             }
           ],
-          "pattern": "Multiple addresses clustered",
+          "pattern": "multiple_addresses_clustered",
           "severity": "medium"
         }
       ],
@@ -116,13 +116,13 @@
       "date_sequences": [],
       "suspicious_patterns": [
         {
-          "pattern": "Multiple states mentioned",
+          "pattern": "multiple_states_mentioned",
           "states": [
-            "GA",
-            "FL",
-            "TX",
-            "NE",
-            "VA"
+            "ga",
+            "fl",
+            "tx",
+            "ne",
+            "va"
           ],
           "count": 12,
           "severity": "medium"
@@ -130,7 +130,7 @@
       ]
     }
   },
-  "text_representation": "page_number: 233 | text: Gables Residential Services, Inc.\nDirectors and Officers\nAsddres\nName Title\nAnselSusa nM. Director vd.,k Ble CreelurtT1 381\n1500eStui\nDallas, TX 75219\nDawn H. Severt Director 3399 Peachtree Rd. NE\nSuite 600\nAtlanta, GA 30326\nCristina F. Sullivan Director 225 N. E. Mizner Blvd.,\nSuite 400\nBoca Raton, FL 33432\nName Address\nTitle\nSusan M. Ansel President and\n3811 Turtle Creek Blvd.,\nChief Executive Officer Suite 1500\nDallas, TX 75219\nExecutive Vice President, 3399 Peachtree Rd., NE\nDawn H. Severt\n,recfi Olfaincf FnaeiChi 600eStui\n30326, GaAntaAlt\nSecretary and Treasurer\nnvai. Slul FnasiCrit vd.,r Blne225 N. Mz.Ei\nExecutive Vice President -\n400eStui\nChief Operations Officer\n33432on, FtL RaaBoc\nand Assistant Secretary\nRd., NeErehtc3399 Pae\nJohn R. Akin Executive Vice President\n600eStui\nand Chief Investment\n30326, GaAntaAlt\nOfficer\nte Srepeti5847 Sn Flae\nDennis E. Rainosek Senior Vice President,\n3250eStui\nAssistant Secretary, and\nXT 77057Houson, t\nAssistant Treasurer\nRd., NeErehtc3399 Pae\nDavid K. Reece Senior Vice President and\n600eStui\nAssistant Secretary\n30326, GaAntaAlt\nPhilip E. Altschuler Senior Vice President 8300 Greensboro Drive\nSuite 650\nMcLean, VA 22102\nDonna E. Summers Senior Vice President\n3811 Turtle Creek Blvd.,\nSuite 1500\nDallas, TX 75219\nnt PsdeereiciVor Snie\nJoseph G. Wilber 3399 Peachtree Rd., NE\nSuite 600\nAtlanta, GA 30326\nnt PsdeereiciV\nJean M. Anton 225 N.E. Mizner Blvd.,\nSuite 400\nBoca Raton, FL 33442\nnt PsdeereiciV\nJennifer B. Antos 225 N.E. Mizner Blvd.,\nSuite 400\nBoca Raton, FL 33432 | char_count: 1528 | word_count: 233 | anomalies: {\"page_number\":233,\"source\":\"lariat-merged\",\"address_clusters\":[{\"count\":9,\"addresses\":[{\"full_match\":\"Stui\\nDallas, TX 75219\",\"groups\":[\"Stui\\nDallas\",\"TX\",\"75219\"],\"start\":129,\"end\":150},{\"full_match\":\"Atlanta, GA 30326\",\"groups\":[\"Atlanta\",\"GA\",\"30326\"],\"start\":207,\"end\":224},{\"full_match\":\"Boca Raton, FL 33432\",\"groups\":[\"Boca Raton\",\"FL\",\"33432\"],\"start\":289,\"end\":309},{\"full_match\":\"Dallas, TX 75219\",\"groups\":[\"Dallas\",\"TX\",\"75219\"],\"start\":418,\"end\":434},{\"full_match\":\"Lean, VA 22102\",\"groups\":[\"Lean\",\"VA\",\"22102\"],\"start\":1162,\"end\":1176},{\"full_match\":\"Dallas, TX 75219\",\"groups\":[\"Dallas\",\"TX\",\"75219\"],\"start\":1252,\"end\":1268},{\"full_match\":\"Atlanta, GA 30326\",\"groups\":[\"Atlanta\",\"GA\",\"30326\"],\"start\":1341,\"end\":1358},{\"full_match\":\"Boca Raton, FL 33442\",\"groups\":[\"Boca Raton\",\"FL\",\"33442\"],\"start\":1421,\"end\":1441},{\"full_match\":\"Boca Raton, FL 33432\",\"groups\":[\"Boca Raton\",\"FL\",\"33432\"],\"start\":1508,\"end\":1528}],\"pattern\":\"Multiple addresses clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[{\"pattern\":\"Multiple states mentioned\",\"states\":[\"GA\",\"FL\",\"TX\",\"NE\",\"VA\"],\"count\":12,\"severity\":\"medium\"}]}",
+  "text_representation": "page_number:_233_|_text:_gables_residential_services,_inc._directors_and_officers_asddres_name_title_anselsusa_nm._director_vd.,k_ble_creelurtt1_381_1500estui_dallas,_tx_75219_dawn_h._severt_director_3399_peachtree_rd._ne_suite_600_atlanta,_ga_30326_cristina_f._sullivan_director_225_n._e._mizner_blvd.,_suite_400_boca_raton,_fl_33432_name_address_title_susan_m._ansel_president_and_3811_turtle_creek_blvd.,_chief_executive_officer_suite_1500_dallas,_tx_75219_executive_vice_president,_3399_peachtree_rd.,_ne_dawn_h._severt_,recfi_olfaincf_fnaeichi_600estui_30326,_gaantaalt_secretary_and_treasurer_nvai._slul_fnasicrit_vd.,r_blne225_n._mz.ei_executive_vice_president_400estui_chief_operations_officer_33432on,_ftl_raaboc_and_assistant_secretary_rd.,_neerehtc3399_pae_john_r._akin_executive_vice_president_600estui_and_chief_investment_30326,_gaantaalt_officer_te_srepeti5847_sn_flae_dennis_e._rainosek_senior_vice_president,_3250estui_assistant_secretary,_and_xt_77057houson,_t_assistant_treasurer_rd.,_neerehtc3399_pae_david_k._reece_senior_vice_president_and_600estui_assistant_secretary_30326,_gaantaalt_philip_e._altschuler_senior_vice_president_8300_greensboro_drive_suite_650_mclean,_va_22102_donna_e._summers_senior_vice_president_3811_turtle_creek_blvd.,_suite_1500_dallas,_tx_75219_nt_psdeereicivor_snie_joseph_g._wilber_3399_peachtree_rd.,_ne_suite_600_atlanta,_ga_30326_nt_psdeereiciv_jean_m._anton_225_n.e._mizner_blvd.,_suite_400_boca_raton,_fl_33442_nt_psdeereiciv_jennifer_b._antos_225_n.e._mizner_blvd.,_suite_400_boca_raton,_fl_33432_|_char_count:_1528_|_word_count:_233_|_anomalies:_{\"page_number\":233,\"source\":\"lariat_merged\",\"address_clusters\":[{\"count\":9,\"addresses\":[{\"full_match\":\"stui\\ndallas,_tx_75219\",\"groups\":[\"stui\\ndallas\",\"tx\",\"75219\"],\"start\":129,\"end\":150},{\"full_match\":\"atlanta,_ga_30326\",\"groups\":[\"atlanta\",\"ga\",\"30326\"],\"start\":207,\"end\":224},{\"full_match\":\"boca_raton,_fl_33432\",\"groups\":[\"boca_raton\",\"fl\",\"33432\"],\"start\":289,\"end\":309},{\"full_match\":\"dallas,_tx_75219\",\"groups\":[\"dallas\",\"tx\",\"75219\"],\"start\":418,\"end\":434},{\"full_match\":\"lean,_va_22102\",\"groups\":[\"lean\",\"va\",\"22102\"],\"start\":1162,\"end\":1176},{\"full_match\":\"dallas,_tx_75219\",\"groups\":[\"dallas\",\"tx\",\"75219\"],\"start\":1252,\"end\":1268},{\"full_match\":\"atlanta,_ga_30326\",\"groups\":[\"atlanta\",\"ga\",\"30326\"],\"start\":1341,\"end\":1358},{\"full_match\":\"boca_raton,_fl_33442\",\"groups\":[\"boca_raton\",\"fl\",\"33442\"],\"start\":1421,\"end\":1441},{\"full_match\":\"boca_raton,_fl_33432\",\"groups\":[\"boca_raton\",\"fl\",\"33432\"],\"start\":1508,\"end\":1528}],\"pattern\":\"multiple_addresses_clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[{\"pattern\":\"multiple_states_mentioned\",\"states\":[\"ga\",\"fl\",\"tx\",\"ne\",\"va\"],\"count\":12,\"severity\":\"medium\"}]}",
   "embedding": [
     -0.06330961734056473,
     -0.051888737827539444,

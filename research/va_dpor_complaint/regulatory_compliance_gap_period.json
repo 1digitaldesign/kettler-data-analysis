@@ -1,124 +1,124 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 1.3: Regulatory Compliance During Gap Period",
+  "research_date": "2025_12_09",
+  "priority": "priority_1.3:_regulatory_compliance_during_gap_period",
   "gap_period": {
-    "start_date": "2014-10-31",
-    "end_date": "2025-04-03",
+    "start_date": "2014_10_31",
+    "end_date": "2025_04_03",
     "duration_years": 10.5
   },
-  "objective": "Document any regulatory issues or violations during gap period",
+  "objective": "document_any_regulatory_issues_or_violations_during_gap_period",
   "data_collection_status": "in_progress",
   "regulatory_issues": {
     "dpor_complaints": {
       "status": "method_verified_foia_required",
-      "search_period": "2014-10-31 to 2025-04-03",
-      "firm_name": "Kettler Management Inc",
+      "search_period": "2014_10_31_to_2025_04_03",
+      "firm_name": "kettler_management_inc",
       "license_number": "0226025311",
       "findings": [],
       "search_methods": [
-        "DPOR complaint database (if accessible)",
-        "FOIA request for complaint records",
-        "Public records search"
+        "dpor_complaint_database_(if_accessible)",
+        "foia_request_for_complaint_records",
+        "public_records_search"
       ],
-      "notes": "DPOR does not provide publicly accessible complaint database. Must submit FOIA request to Information Management Section.",
+      "notes": "dpor_does_not_provide_publicly_accessible_complaint_database._must_submit_foia_request_to_information_management_section.",
       "foia_contact": {
-        "email": "PublicRecords@dpor.virginia.gov",
-        "fax": "(866) 254-0312",
-        "complaint_analysis_email": "ComplaintAnalysis@dpor.virginia.gov",
-        "complaint_analysis_phone": "(804) 367-8504",
+        "email": "publicrecords@dpor.virginia.gov",
+        "fax": "(866)_254_0312",
+        "complaint_analysis_email": "complaintanalysis@dpor.virginia.gov",
+        "complaint_analysis_phone": "(804)_367_8504",
         "complaint_filing_email": "complaintanalysis@dpor.virginia.gov",
-        "complaint_filing_fax": "(866) 282-3932",
-        "mailing_address": "Department of Professional and Occupational Regulation, Compliance and Investigations Division, Complaint Analysis & Resolution, 9960 Mayland Drive, Suite 400, Richmond, Virginia 23233-1485"
+        "complaint_filing_fax": "(866)_282_3932",
+        "mailing_address": "department_of_professional_and_occupational_regulation,_compliance_and_investigations_division,_complaint_analysis_&_resolution,_9960_mayland_drive,_suite_400,_richmond,_virginia_23233_1485"
       },
-      "complaint_filing_note": "Complaints must be submitted in writing within three years of the act, omission, or occurrence"
+      "complaint_filing_note": "complaints_must_be_submitted_in_writing_within_three_years_of_the_act,_omission,_or_occurrence"
     },
     "code_violations": {
       "status": "partial",
       "jurisdictions": [
-        "City of Alexandria",
-        "Fairfax County",
-        "Arlington County"
+        "city_of_alexandria",
+        "fairfax_county",
+        "arlington_county"
       ],
       "findings": [
         {
-          "property": "800 Carlyle, Alexandria",
-          "date": "2025-07",
-          "type": "Maintenance issues",
-          "details": "BBB complaint: leaks, uncleaned carpets, inadequate management response",
-          "source": "BBB complaint records"
+          "property": "800_carlyle,_alexandria",
+          "date": "2025_07",
+          "type": "maintenance_issues",
+          "details": "bbb_complaint:_leaks,_uncleaned_carpets,_inadequate_management_response",
+          "source": "bbb_complaint_records"
         },
         {
-          "property": "800 Carlyle, Alexandria",
-          "type": "General maintenance",
-          "details": "Reviews mention noise disturbances, cleanliness problems, management responsiveness issues",
-          "source": "Apartments.com reviews"
+          "property": "800_carlyle,_alexandria",
+          "type": "general_maintenance",
+          "details": "reviews_mention_noise_disturbances,_cleanliness_problems,_management_responsiveness_issues",
+          "source": "apartments.com_reviews"
         }
       ],
       "reporting_contacts": {
         "alexandria_code_admin": {
-          "phone": "311 or 703.746.4311",
-          "division": "Maintenance Code Division",
-          "enforces": "Virginia Maintenance Code and local ordinances"
+          "phone": "311_or_703.746.4311",
+          "division": "maintenance_code_division",
+          "enforces": "virginia_maintenance_code_and_local_ordinances"
         },
         "alexandria_nuisance_hotline": {
           "phone": "703.746.4311",
-          "hours": "24-hour",
-          "addresses": "Trash accumulation, poorly maintained properties, rodent problems"
+          "hours": "24_hour",
+          "addresses": "trash_accumulation,_poorly_maintained_properties,_rodent_problems"
         }
       },
       "search_methods": [
-        "Local code enforcement records",
-        "Property inspection records",
-        "Building code violation databases",
-        "BBB complaints",
-        "Online reviews"
+        "local_code_enforcement_records",
+        "property_inspection_records",
+        "building_code_violation_databases",
+        "bbb_complaints",
+        "online_reviews"
       ]
     },
     "fair_housing_complaints": {
       "status": "expanded",
       "findings": [
         {
-          "case": "Equal Rights Center v. Kettler Management",
-          "settlement_date": "2024-03",
+          "case": "equal_rights_center_v._kettler_management",
+          "settlement_date": "2024_03",
           "settlement_amount": 140000,
-          "properties": "6 DC properties",
-          "violation_type": "Source of income discrimination",
-          "note": "Settlement occurred during gap period but involved DC properties, not VA"
+          "properties": "6_dc_properties",
+          "violation_type": "source_of_income_discrimination",
+          "note": "settlement_occurred_during_gap_period_but_involved_dc_properties,_not_va"
         },
         {
-          "case": "ERC Investigation",
-          "investigation_period": "July 2022 to September 2023",
-          "complaint_filed": "2023-09-12",
-          "violation": "Unlawful refusal to accept housing vouchers",
-          "properties": "Multiple DC properties",
-          "significance": "Policies directed from top of organization, affecting multiple properties",
-          "source": "Equal Rights Center press release and complaint"
+          "case": "erc_investigation",
+          "investigation_period": "july_2022_to_september_2023",
+          "complaint_filed": "2023_09_12",
+          "violation": "unlawful_refusal_to_accept_housing_vouchers",
+          "properties": "multiple_dc_properties",
+          "significance": "policies_directed_from_top_of_organization,_affecting_multiple_properties",
+          "source": "equal_rights_center_press_release_and_complaint"
         },
         {
-          "case": "Undercover Testing",
+          "case": "undercover_testing",
           "date": "2023",
-          "violation": "Voucher discrimination found at Kettler properties",
-          "significance": "Discrimination practices directed from top of organization, not just lower-level employees",
-          "source": "Washington City Paper investigation"
+          "violation": "voucher_discrimination_found_at_kettler_properties",
+          "significance": "discrimination_practices_directed_from_top_of_organization,_not_just_lower_level_employees",
+          "source": "washington_city_paper_investigation"
         }
       ],
       "search_methods": [
-        "HUD complaint database (HEMS - not publicly accessible)",
-        "Fair housing organization records",
-        "Court records"
+        "hud_complaint_database_(hems_not_publicly_accessible)",
+        "fair_housing_organization_records",
+        "court_records"
       ],
       "hud_database": {
-        "name": "HUD Enforcement Management System (HEMS)",
-        "status": "Not publicly accessible",
-        "note": "Documents housing discrimination complaints and investigations but requires official access"
+        "name": "hud_enforcement_management_system_(hems)",
+        "status": "not_publicly_accessible",
+        "note": "documents_housing_discrimination_complaints_and_investigations_but_requires_official_access"
       }
     },
     "business_license_violations": {
       "status": "pending",
       "findings": [],
       "search_methods": [
-        "Local business license databases",
-        "Business registration records"
+        "local_business_license_databases",
+        "business_registration_records"
       ]
     },
     "bbb_complaints": {
@@ -126,7 +126,7 @@
       "total_complaints": 46,
       "unanswered_complaints": 26,
       "unanswered_percentage": 57,
-      "complaint_period": "3 years",
+      "complaint_period": "3_years",
       "recent_complaints_12_months": 16,
       "complaint_types": {
         "service_repair": 24,
@@ -135,40 +135,40 @@
         "order_issues": 4,
         "sales_advertising": 2
       },
-      "source": "Better Business Bureau profile",
-      "note": "BBB complaints span gap period but exact dates need verification"
+      "source": "better_business_bureau_profile",
+      "note": "bbb_complaints_span_gap_period_but_exact_dates_need_verification"
     }
   },
   "known_violations_during_gap": [
     {
-      "date": "2024-03",
-      "type": "Fair Housing Act violation",
-      "case": "Equal Rights Center v. Kettler Management",
+      "date": "2024_03",
+      "type": "fair_housing_act_violation",
+      "case": "equal_rights_center_v._kettler_management",
       "settlement": 140000,
-      "jurisdiction": "DC (not VA, but shows pattern)",
-      "violation": "Source of income discrimination"
+      "jurisdiction": "dc_(not_va,_but_shows_pattern)",
+      "violation": "source_of_income_discrimination"
     },
     {
       "date": "2024",
-      "type": "Consumer protection",
-      "source": "Washington City Paper investigation",
-      "violation": "Hidden or misleading utility fees",
-      "jurisdiction": "DC/MD/VA region"
+      "type": "consumer_protection",
+      "source": "washington_city_paper_investigation",
+      "violation": "hidden_or_misleading_utility_fees",
+      "jurisdiction": "dc/md/va_region"
     }
   ],
-  "deliverable": "Chronological list of regulatory issues during gap period",
+  "deliverable": "chronological_list_of_regulatory_issues_during_gap_period",
   "next_steps": [
-    "Submit FOIA request to DPOR for complaint records",
-    "Search local code enforcement databases",
-    "Search HUD complaint database",
-    "Expand BBB complaint analysis with dates",
-    "Compile chronological violation timeline"
+    "submit_foia_request_to_dpor_for_complaint_records",
+    "search_local_code_enforcement_databases",
+    "search_hud_complaint_database",
+    "expand_bbb_complaint_analysis_with_dates",
+    "compile_chronological_violation_timeline"
   ],
   "metadata": {
     "file_name": "regulatory_compliance_gap_period.json",
     "file_path": "research/va_dpor_complaint/regulatory_compliance_gap_period.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

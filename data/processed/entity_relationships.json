@@ -3,86 +3,86 @@
     "nodes": [
       {
         "id": "801459833",
-        "name": "Lariat Realty Advisors, Inc.",
-        "status": "In existence",
+        "name": "lariat_realty_advisors,_inc.",
+        "status": "in_existence",
         "entity_type": null
       },
       {
         "id": "805759678",
-        "name": "Lariat Realty Advisors, Llc",
-        "status": "In existence",
-        "entity_type": "Domestic Limited Liability Company (LLC)"
+        "name": "lariat_realty_advisors,_llc",
+        "status": "in_existence",
+        "entity_type": "domestic_limited_liability_company_(llc)"
       },
       {
         "id": "46955400",
-        "name": "Lariat Inc. Realtors",
-        "status": "Voluntarily terminated",
+        "name": "lariat_inc._realtors",
+        "status": "voluntarily_terminated",
         "entity_type": null
       },
       {
         "id": "802331657",
-        "name": "Kettler Management Inc.",
-        "status": "In existence",
+        "name": "kettler_management_inc.",
+        "status": "in_existence",
         "entity_type": null
       },
       {
         "id": "804700244",
-        "name": "Kettler Land Management Llc",
-        "status": "Forfeited existence",
+        "name": "kettler_land_management_llc",
+        "status": "forfeited_existence",
         "entity_type": null
       },
       {
         "id": "805818075",
-        "name": "Frippmore, Llc",
-        "status": "In existence",
+        "name": "frippmore,_llc",
+        "status": "in_existence",
         "entity_type": null
       },
       {
         "id": "802961755",
-        "name": "Sds Texas Realty, Llc",
-        "status": "In existence",
+        "name": "sds_texas_realty,_llc",
+        "status": "in_existence",
         "entity_type": null
       },
       {
         "id": "60550300",
-        "name": "Wayne Eaton, Inc.",
-        "status": "Voluntarily terminated",
-        "entity_type": "Domestic For-Profit Corporation"
+        "name": "wayne_eaton,_inc.",
+        "status": "voluntarily_terminated",
+        "entity_type": "domestic_for_profit_corporation"
       },
       {
         "id": "18792700",
-        "name": "Delta Southern Acceptance Corporation",
-        "status": "Voluntarily terminated",
+        "name": "delta_southern_acceptance_corporation",
+        "status": "voluntarily_terminated",
         "entity_type": null
       },
       {
         "id": "17649900",
-        "name": "Southwest Fabricating & Welding Co., Inc.",
-        "status": "Merged",
-        "entity_type": "Domestic For-Profit Corporation"
+        "name": "southwest_fabricating_&_welding_co.,_inc.",
+        "status": "merged",
+        "entity_type": "domestic_for_profit_corporation"
       },
       {
         "id": "804058541",
-        "name": "Divorce Navigators, Inc.",
-        "status": "Forfeited existence",
-        "entity_type": "Domestic Nonprofit Corporation"
+        "name": "divorce_navigators,_inc.",
+        "status": "forfeited_existence",
+        "entity_type": "domestic_nonprofit_corporation"
       },
       {
         "id": "803790640",
-        "name": "Bainbridge Mid-Atlantic Management, Llc",
-        "status": "In existence",
-        "entity_type": "Foreign Limited Liability Company (LLC)"
+        "name": "bainbridge_mid_atlantic_management,_llc",
+        "status": "in_existence",
+        "entity_type": "foreign_limited_liability_company_(llc)"
       },
       {
         "id": "801542892",
-        "name": "Capreit Residential Management, Llc",
-        "status": "In existence",
-        "entity_type": "Domestic Limited Liability Company (LLC)"
+        "name": "capreit_residential_management,_llc",
+        "status": "in_existence",
+        "entity_type": "domestic_limited_liability_company_(llc)"
       },
       {
         "id": "129768500",
-        "name": "Gables Residential Services, Inc.",
-        "status": "In existence",
+        "name": "gables_residential_services,_inc.",
+        "status": "in_existence",
         "entity_type": null
       }
     ],
@@ -139,7 +139,7 @@
     ]
   },
   "metadata": {
-    "generated": "2025-12-11T01:48:08.692833",
+    "generated": "2025_12_11t01:48:08.692833",
     "node_count": 14,
     "edge_count": 7
   }

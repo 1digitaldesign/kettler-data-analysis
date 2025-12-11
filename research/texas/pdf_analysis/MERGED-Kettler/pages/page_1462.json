@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:38.559343",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1462.json",
+    "created": "2025_12_11t00:54:38.559343",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1462.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1462,
-    "text": "VIRGINIAHT OF COMMOANELW\nJRRN .MORSO, I.HDRVTEOOE\nCHRAIMAN\nH. PCEOLE\nOSSIHCMMITE O LFEROK\nHURLOELNMOHSIS ENMI\n1972 3218-1NARCRIIIHNVIGMOD ,\nLNMILO ERCLNIT\nNOERSSICMMIO\nNOSSINCMMIO OITCRRE OPOATAST\nDecembe11r 6 9,99\nDSECOMAN YO,LGILAM WI\nCR OPMANEMEN AGTKSI\n8081 WOLFTRAP RD STE 300\n2 2182AENVVIN A,\nRE: .CR OPMANEMEN AGTKSI\n:DI\n03218647-\nDCN: 99-12-16-1637\nhTiiyos s urer ceo$ifr 1p 0t00ocoheo.0t vetefefr r s (cid:222) linga na pplicaitoorenfr i naesttmewn ihtt\nhtios f (cid:222) ce.\neihfctvedtea aeo pt fplicaitoniD s ecembe11r 6 9,99.hTee f\nyo uhf aIvea nqy ueistopn ls,easeca ll(8 043) 71-9733.\n,Sincerely\npelitleck\nJoePelH ck .\nChlteCeo ork fmmission\nRECPTEI\nRNEI\nCSLLIEG\nTYLER BUILDING, 1300 EAST MAIN STREET, RICHMOND, VA 23219-3630 TELECOMMUNICATIONS DEVICE FOR THE DEAF-TDDVOICE: (804) 371-9206",
+    "text": "virginiaht_of_commoanelw_jrrn_.morso,_i.hdrvteooe_chraiman_h._pceole_ossihcmmite_o_lferok_hurloelnmohsis_enmi_1972_3218_1narcriiihnvigmod_,_lnmilo_erclnit_noerssicmmio_nossincmmio_oitcrre_opoatast_decembe11r_6_9,99_dsecoman_yo,lgilam_wi_cr_opmanemen_agtksi_8081_wolftrap_rd_ste_300_2_2182aenvvin_a,_re:_.cr_opmanemen_agtksi_:di_03218647_dcn:_99_12_16_1637_htiiyos_s_urer_ceo$ifr_1p_0t00ocoheo.0t_vetefefr_r_s_(cid:222)_linga_na_pplicaitoorenfr_i_naesttmewn_ihtt_htios_f_(cid:222)_ce._eihfctvedtea_aeo_pt_fplicaitonid_s_ecembe11r_6_9,99.htee_f_yo_uhf_aivea_nqy_ueistopn_ls,easeca_ll(8_043)_71_9733._,sincerely_pelitleck_joepelh_ck_._chlteceo_ork_fmmission_recptei_rnei_csllieg_tyler_building,_1300_east_main_street,_richmond,_va_23219_3630_telecommunications_device_for_the_deaf_tddvoice:_(804)_371_9206",
     "char_count": 803,
     "word_count": 113,
     "anomalies": {
       "page_number": 1462,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 1462 | text: VIRGINIAHT OF COMMOANELW\nJRRN .MORSO, I.HDRVTEOOE\nCHRAIMAN\nH. PCEOLE\nOSSIHCMMITE O LFEROK\nHURLOELNMOHSIS ENMI\n1972 3218-1NARCRIIIHNVIGMOD ,\nLNMILO ERCLNIT\nNOERSSICMMIO\nNOSSINCMMIO OITCRRE OPOATAST\nDecembe11r 6 9,99\nDSECOMAN YO,LGILAM WI\nCR OPMANEMEN AGTKSI\n8081 WOLFTRAP RD STE 300\n2 2182AENVVIN A,\nRE: .CR OPMANEMEN AGTKSI\n:DI\n03218647-\nDCN: 99-12-16-1637\nhTiiyos s urer ceo$ifr 1p 0t00ocoheo.0t vetefefr r s (cid:222) linga na pplicaitoorenfr i naesttmewn ihtt\nhtios f (cid:222) ce.\neihfctvedtea aeo pt fplicaitoniD s ecembe11r 6 9,99.hTee f\nyo uhf aIvea nqy ueistopn ls,easeca ll(8 043) 71-9733.\n,Sincerely\npelitleck\nJoePelH ck .\nChlteCeo ork fmmission\nRECPTEI\nRNEI\nCSLLIEG\nTYLER BUILDING, 1300 EAST MAIN STREET, RICHMOND, VA 23219-3630 TELECOMMUNICATIONS DEVICE FOR THE DEAF-TDDVOICE: (804) 371-9206 | char_count: 803 | word_count: 113 | anomalies: {\"page_number\":1462,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_1462_|_text:_virginiaht_of_commoanelw_jrrn_.morso,_i.hdrvteooe_chraiman_h._pceole_ossihcmmite_o_lferok_hurloelnmohsis_enmi_1972_3218_1narcriiihnvigmod_,_lnmilo_erclnit_noerssicmmio_nossincmmio_oitcrre_opoatast_decembe11r_6_9,99_dsecoman_yo,lgilam_wi_cr_opmanemen_agtksi_8081_wolftrap_rd_ste_300_2_2182aenvvin_a,_re:_.cr_opmanemen_agtksi_:di_03218647_dcn:_99_12_16_1637_htiiyos_s_urer_ceo$ifr_1p_0t00ocoheo.0t_vetefefr_r_s_(cid:222)_linga_na_pplicaitoorenfr_i_naesttmewn_ihtt_htios_f_(cid:222)_ce._eihfctvedtea_aeo_pt_fplicaitonid_s_ecembe11r_6_9,99.htee_f_yo_uhf_aivea_nqy_ueistopn_ls,easeca_ll(8_043)_71_9733._,sincerely_pelitleck_joepelh_ck_._chlteceo_ork_fmmission_recptei_rnei_csllieg_tyler_building,_1300_east_main_street,_richmond,_va_23219_3630_telecommunications_device_for_the_deaf_tddvoice:_(804)_371_9206_|_char_count:_803_|_word_count:_113_|_anomalies:_{\"page_number\":1462,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.05446463078260422,
     0.057742536067962646,

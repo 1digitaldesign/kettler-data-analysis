@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:58.591257",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0022.json",
+    "created": "2025_12_11t00:51:58.591257",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0022.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 22,
-    "text": "ER11RT D= TANT SMI\nL0TN= 0 038264915",
+    "text": "er11rt_d=_tant_smi_l0tn=_0_038264915",
     "char_count": 36,
     "word_count": 7,
     "anomalies": {
       "page_number": 22,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 22 | text: ER11RT D= TANT SMI\nL0TN= 0 038264915 | char_count: 36 | word_count: 7 | anomalies: {\"page_number\":22,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_22_|_text:_er11rt_d=_tant_smi_l0tn=_0_038264915_|_char_count:_36_|_word_count:_7_|_anomalies:_{\"page_number\":22,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.03942519426345825,
     0.02256077155470848,

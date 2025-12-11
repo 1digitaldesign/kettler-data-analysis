@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.896503",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/filing_history/filing_WAYNE EATON, INC..json",
+    "created": "2025_12_11t00:21:40.896503",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/filing_history/filing_wayne_eaton,_inc..json",
     "has_embedding": true
   },
   "data": {
-    "document_number": "WAYNE EATON, INC.",
-    "filing_type": "Inactive",
-    "filing_date": "Legal",
-    "effective_date": "February 11, 2000",
+    "document_number": "wayne_eaton,_inc.",
+    "filing_type": "inactive",
+    "filing_date": "legal",
+    "effective_date": "february_11,_2000",
     "eff_cond": null,
     "page_count": null
   },
-  "text_representation": "document_number: WAYNE EATON, INC. | filing_type: Inactive | filing_date: Legal | effective_date: February 11, 2000",
+  "text_representation": "document_number:_wayne_eaton,_inc._|_filing_type:_inactive_|_filing_date:_legal_|_effective_date:_february_11,_2000",
   "embedding": [
     -0.0750323235988617,
     -0.03755085915327072,

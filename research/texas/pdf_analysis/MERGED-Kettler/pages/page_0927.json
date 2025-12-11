@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:28.561374",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_0927.json",
+    "created": "2025_12_11t00:54:28.561374",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_0927.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 927,
-    "text": "1910102101\nNOALITNA\nERSTEDRIEG\nNIC .ENS,AGT\nn.raico.mwww\n190192101\nNovemb2e3 0r ,10\nR aMs.chelEme rson\n104 0678101\naeCStt orporaitonC ommission\necfirk’esCl Of\nngdilr BuieylT\nten Sres Mitata1300 E\n23219AVond, hmcRi\nAsddresnge Cha :Re\n,lhecr RaDae\ns. (\"Ant, IncNgeRAI\"l) wlid resegit Relonai Nttaha tecsir a notettsehi l tpteccs aaePel\no 22314 tAV, andrixaAel 140, e, Sttui 201 Ne from. Uon Sreenitcfi ofanigiriVst iovem\nl wleicfid ofresewgit ne reheT 22203. AVon, ngtAirl 227, e, Sttuieh Sre4001 Nh Nnttorti\nnolons wli butitaocsh le botupicy oclon. NntngtRAurreAiI crly of ti chen td ietaoc lbe\nsddres ahe tkeas maer 31, 2010. Pebelmer Dceestddresl a ate Uon Srehenit tt ar beongel\nheush tt wtr saisitd by NesheeRArdl of tsntJgaspree ree reitint ell for angehac\nh.tlonwameCom\nsf yount or iemonsomsi or cny quet ave18 sd you hahoul 888-366-41t ae mtcaonts caePel\n.sngeddresha a che teteplomo con titanformr iheny furtd aene\ny yoursrul,ry teV\nhcimiWJospKe K.\nnt PsdeereiciV\n:jmeJKW\n05353VTownsnd, heTd, n Roaid Makeount141 Pae\n18 Fx 802.365.7959a 802.365.41phoneeleT\ntixpe, Eveitd, InnovarusetT",
+    "text": "1910102101_noalitna_erstedrieg_nic_.ens,agt_n.raico.mwww_190192101_novemb2e3_0r_,10_r_ams.cheleme_rson_104_0678101_aecstt_orporaitonc_ommission_ecfirk’escl_of_ngdilr_buieylt_ten_sres_mitata1300_e_23219avond,_hmcri_asddresnge_cha_:re_,lhecr_radae_s._(\"ant,_incngerai\"l)_wlid_resegit_relonai_nttaha_tecsir_a_notettsehi_l_tpteccs_aaepel_o_22314_tav,_andrixaael_140,_e,_sttui_201_ne_from._uon_sreenitcfi_ofanigirivst_iovem_l_wleicfid_ofresewgit_ne_rehet_22203._avon,_ngtairl_227,_e,_sttuieh_sre4001_nh_nnttorti_nolons_wli_butitaocsh_le_botupicy_oclon._nntngtraurreaii_crly_of_ti_chen_td_ietaoc_lbe_sddres_ahe_tkeas_maer_31,_2010._pebelmer_dceestddresl_a_ate_uon_srehenit_tt_ar_beongel_heush_tt_wtr_saisitd_by_nesheerardl_of_tsntjgaspree_ree_reitint_ell_for_angehac_h.tlonwamecom_sf_yount_or_iemonsomsi_or_cny_quet_ave18_sd_you_hahoul_888_366_41t_ae_mtcaonts_caepel_.sngeddresha_a_che_teteplomo_con_titanformr_iheny_furtd_aene_y_yoursrul,ry_tev_hcimiwjospke_k._nt_psdeereiciv_:jmejkw_05353vtownsnd,_hetd,_n_roaid_makeount141_pae_18_fx_802.365.7959a_802.365.41phoneelet_tixpe,_eveitd,_innovarusett",
     "char_count": 1091,
     "word_count": 162,
     "anomalies": {
       "page_number": 927,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 927 | text: 1910102101\nNOALITNA\nERSTEDRIEG\nNIC .ENS,AGT\nn.raico.mwww\n190192101\nNovemb2e3 0r ,10\nR aMs.chelEme rson\n104 0678101\naeCStt orporaitonC ommission\necfirk’esCl Of\nngdilr BuieylT\nten Sres Mitata1300 E\n23219AVond, hmcRi\nAsddresnge Cha :Re\n,lhecr RaDae\ns. (\"Ant, IncNgeRAI\"l) wlid resegit Relonai Nttaha tecsir a notettsehi l tpteccs aaePel\no 22314 tAV, andrixaAel 140, e, Sttui 201 Ne from. Uon Sreenitcfi ofanigiriVst iovem\nl wleicfid ofresewgit ne reheT 22203. AVon, ngtAirl 227, e, Sttuieh Sre4001 Nh Nnttorti\nnolons wli butitaocsh le botupicy oclon. NntngtRAurreAiI crly of ti chen td ietaoc lbe\nsddres ahe tkeas maer 31, 2010. Pebelmer Dceestddresl a ate Uon Srehenit tt ar beongel\nheush tt wtr saisitd by NesheeRArdl of tsntJgaspree ree reitint ell for angehac\nh.tlonwameCom\nsf yount or iemonsomsi or cny quet ave18 sd you hahoul 888-366-41t ae mtcaonts caePel\n.sngeddresha a che teteplomo con titanformr iheny furtd aene\ny yoursrul,ry teV\nhcimiWJospKe K.\nnt PsdeereiciV\n:jmeJKW\n05353VTownsnd, heTd, n Roaid Makeount141 Pae\n18 Fx 802.365.7959a 802.365.41phoneeleT\ntixpe, Eveitd, InnovarusetT | char_count: 1091 | word_count: 162 | anomalies: {\"page_number\":927,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_927_|_text:_1910102101_noalitna_erstedrieg_nic_.ens,agt_n.raico.mwww_190192101_novemb2e3_0r_,10_r_ams.cheleme_rson_104_0678101_aecstt_orporaitonc_ommission_ecfirk’escl_of_ngdilr_buieylt_ten_sres_mitata1300_e_23219avond,_hmcri_asddresnge_cha_:re_,lhecr_radae_s._(\"ant,_incngerai\"l)_wlid_resegit_relonai_nttaha_tecsir_a_notettsehi_l_tpteccs_aaepel_o_22314_tav,_andrixaael_140,_e,_sttui_201_ne_from._uon_sreenitcfi_ofanigirivst_iovem_l_wleicfid_ofresewgit_ne_rehet_22203._avon,_ngtairl_227,_e,_sttuieh_sre4001_nh_nnttorti_nolons_wli_butitaocsh_le_botupicy_oclon._nntngtraurreaii_crly_of_ti_chen_td_ietaoc_lbe_sddres_ahe_tkeas_maer_31,_2010._pebelmer_dceestddresl_a_ate_uon_srehenit_tt_ar_beongel_heush_tt_wtr_saisitd_by_nesheerardl_of_tsntjgaspree_ree_reitint_ell_for_angehac_h.tlonwamecom_sf_yount_or_iemonsomsi_or_cny_quet_ave18_sd_you_hahoul_888_366_41t_ae_mtcaonts_caepel_.sngeddresha_a_che_teteplomo_con_titanformr_iheny_furtd_aene_y_yoursrul,ry_tev_hcimiwjospke_k._nt_psdeereiciv_:jmejkw_05353vtownsnd,_hetd,_n_roaid_makeount141_pae_18_fx_802.365.7959a_802.365.41phoneelet_tixpe,_eveitd,_innovarusett_|_char_count:_1091_|_word_count:_162_|_anomalies:_{\"page_number\":927,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.0817469134926796,
     0.01198882982134819,

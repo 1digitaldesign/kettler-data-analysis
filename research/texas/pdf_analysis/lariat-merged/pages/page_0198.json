@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.543399",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0198.json",
+    "created": "2025_12_11t00:52:02.543399",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0198.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 198,
-    "text": "00001967661\n0\nAsddres\nName\nTitle\nPeter G. Mullen nt PsdeereiciV lonagiRe vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\n. Mrrd EungehacRi nt PsdeereiciV lonagiRe sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nkn C. PsaiiklmanjBe nt PsdeereiciV lonagiRe 2925Bri arpark\nSuie1t 220\n7X 7T042Houostn ,\nn PgeundaJor nt PsdeereiciV lonagiRe 828re0Ge nsboroD rive\nSuie6t 05\n2 2102AMcLeaVn ,\nse RuggllGia nt PsdeereiciV lonagiRe 2859PaeR ceFrry os ad\nSuie1t 450\n3 0339lAAtaGna t,\nroppaaTd C. Dvia nt PsdeereiciV lonagiRe 828re0Ge nsboroD rive\n605eStui\n22102AVn, aeMLc\nonrthaWny fafiT nt PsdeereiciV lonagiRe r Sngsddapri Roa2650 Ce\n800eStui\nXT 75201sa, lDla\n-\n1-15-08.docrsse a of1cfirse 2008 GcRSfi ofsnt|eO Dumfloconaitaznigase OK Gblr:a",
+    "text": "00001967661_0_asddres_name_title_peter_g._mullen_nt_psdeereiciv_lonagire_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_._mrrd_eungehacri_nt_psdeereiciv_lonagire_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_kn_c._psaiiklmanjbe_nt_psdeereiciv_lonagire_2925bri_arpark_suie1t_220_7x_7t042houostn_,_n_pgeundajor_nt_psdeereiciv_lonagire_828re0ge_nsborod_rive_suie6t_05_2_2102amcleavn_,_se_ruggllgia_nt_psdeereiciv_lonagire_2859paer_cefrry_os_ad_suie1t_450_3_0339laatagna_t,_roppaatd_c._dvia_nt_psdeereiciv_lonagire_828re0ge_nsborod_rive_605estui_22102avn,_aemlc_onrthawny_fafit_nt_psdeereiciv_lonagire_r_sngsddapri_roa2650_ce_800estui_xt_75201sa,_ldla_1_15_08.docrsse_a_of1cfirse_2008_gcrsfi_ofsnt|eo_dumfloconaitaznigase_ok_gblr:a",
     "char_count": 736,
     "word_count": 107,
     "anomalies": {
       "page_number": 198,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 198 | text: 00001967661\n0\nAsddres\nName\nTitle\nPeter G. Mullen nt PsdeereiciV lonagiRe vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\n. Mrrd EungehacRi nt PsdeereiciV lonagiRe sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nkn C. PsaiiklmanjBe nt PsdeereiciV lonagiRe 2925Bri arpark\nSuie1t 220\n7X 7T042Houostn ,\nn PgeundaJor nt PsdeereiciV lonagiRe 828re0Ge nsboroD rive\nSuie6t 05\n2 2102AMcLeaVn ,\nse RuggllGia nt PsdeereiciV lonagiRe 2859PaeR ceFrry os ad\nSuie1t 450\n3 0339lAAtaGna t,\nroppaaTd C. Dvia nt PsdeereiciV lonagiRe 828re0Ge nsboroD rive\n605eStui\n22102AVn, aeMLc\nonrthaWny fafiT nt PsdeereiciV lonagiRe r Sngsddapri Roa2650 Ce\n800eStui\nXT 75201sa, lDla\n-\n1-15-08.docrsse a of1cfirse 2008 GcRSfi ofsnt|eO Dumfloconaitaznigase OK Gblr:a | char_count: 736 | word_count: 107 | anomalies: {\"page_number\":198,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_198_|_text:_00001967661_0_asddres_name_title_peter_g._mullen_nt_psdeereiciv_lonagire_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_._mrrd_eungehacri_nt_psdeereiciv_lonagire_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_kn_c._psaiiklmanjbe_nt_psdeereiciv_lonagire_2925bri_arpark_suie1t_220_7x_7t042houostn_,_n_pgeundajor_nt_psdeereiciv_lonagire_828re0ge_nsborod_rive_suie6t_05_2_2102amcleavn_,_se_ruggllgia_nt_psdeereiciv_lonagire_2859paer_cefrry_os_ad_suie1t_450_3_0339laatagna_t,_roppaatd_c._dvia_nt_psdeereiciv_lonagire_828re0ge_nsborod_rive_605estui_22102avn,_aemlc_onrthawny_fafit_nt_psdeereiciv_lonagire_r_sngsddapri_roa2650_ce_800estui_xt_75201sa,_ldla_1_15_08.docrsse_a_of1cfirse_2008_gcrsfi_ofsnt|eo_dumfloconaitaznigase_ok_gblr:a_|_char_count:_736_|_word_count:_107_|_anomalies:_{\"page_number\":198,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06415172666311264,
     0.01818961463868618,

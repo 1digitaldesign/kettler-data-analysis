@@ -1,11 +1,11 @@
 {
-  "final_report_date": "2025-12-10",
-  "overall_status": "COMPLETE",
+  "final_report_date": "2025_12_10",
+  "overall_status": "complete",
   "completion_percentage": "98%",
   "executive_summary": {
-    "research_phase": "COMPLETE",
-    "verification_phase": "100% COMPLETE",
-    "evidence_compilation": "COMPLETE",
+    "research_phase": "complete",
+    "verification_phase": "100%_complete",
+    "evidence_compilation": "complete",
     "ready_for_complaint": true
   },
   "research_completion": {
@@ -30,22 +30,22 @@
   },
   "verified_evidence_summary": {
     "principal_broker_gap": {
-      "duration": "10.5 years (3,840 days)",
+      "duration": "10.5_years_(3,840_days)",
       "status": "verified",
-      "evidence": "DPOR records"
+      "evidence": "dpor_records"
     },
     "geographic_violation": {
-      "distance": "1,300 miles",
-      "exceedance": "1,250 miles over 50-mile limit",
+      "distance": "1,300_miles",
+      "exceedance": "1,250_miles_over_50_mile_limit",
       "status": "verified",
-      "evidence": "Google Maps calculation"
+      "evidence": "google_maps_calculation"
     },
     "supervision_impossibility": {
       "hours_required_annually": 9312,
       "hours_per_day": 25.5,
       "employees_needed": 2222,
       "status": "mathematically_proven",
-      "evidence": "Industry standards calculation"
+      "evidence": "industry_standards_calculation"
     },
     "unlicensed_practice": {
       "total_personnel_verified": 21,
@@ -53,51 +53,51 @@
       "property_managers_unlicensed": 7,
       "states_verified": 16,
       "total_searches": 336,
-      "status": "100% verified",
-      "evidence": "Comprehensive multi-state DPOR searches",
+      "status": "100%_verified",
+      "evidence": "comprehensive_multi_state_dpor_searches",
       "critical_findings": [
-        "All 7 property management personnel confirmed unlicensed",
-        "Edward Hyland: Unlicensed across all 16 states",
-        "Robert Grealy: Unlicensed, manages 28,000+ units",
-        "Amy Groff: Unlicensed, manages 11,000+ units",
-        "Tracy Fones, Djene Moyer, Henry Ramos: All unlicensed"
+        "all_7_property_management_personnel_confirmed_unlicensed",
+        "edward_hyland:_unlicensed_across_all_16_states",
+        "robert_grealy:_unlicensed,_manages_28,000+_units",
+        "amy_groff:_unlicensed,_manages_11,000+_units",
+        "tracy_fones,_djene_moyer,_henry_ramos:_all_unlicensed"
       ]
     },
     "timeline_impossibility": {
       "firms_licensed_before_skidmore": 8,
-      "oldest_gap": "15 years",
+      "oldest_gap": "15_years",
       "status": "verified",
-      "evidence": "DPOR license dates"
+      "evidence": "dpor_license_dates"
     },
     "financial_scale": {
       "units_managed": "22,000+",
       "properties_managed": 97,
-      "investment_value": "$4.6B",
-      "employees": "500-1,000",
+      "investment_value": "$4.6b",
+      "employees": "500_1,000",
       "status": "verified",
-      "evidence": "Public records, company website"
+      "evidence": "public_records,_company_website"
     },
     "regulatory_violations": {
       "total_court_cases": 9,
       "bbb_complaints": 46,
       "fair_housing_violations": 3,
       "status": "documented",
-      "evidence": "Court records, BBB, media, settlements"
+      "evidence": "court_records,_bbb,_media,_settlements"
     },
     "media_coverage": {
       "sources": 6,
       "status": "verified",
-      "evidence": "News articles, investigations"
+      "evidence": "news_articles,_investigations"
     },
     "professional_network": {
       "connections_confirmed": true,
       "lariat_connections": [
-        "Elizabeth Saye ↔ Burlington Capital Properties (Skidmore-supervised)",
-        "Thoms Bisanz ↔ Bell Partners Inc. (Skidmore-supervised)",
-        "Leah Douthit ↔ Co-listed with both Liddy Saye and Caitlin Skidmore"
+        "elizabeth_saye_↔_burlington_capital_properties_(skidmore_supervised)",
+        "thoms_bisanz_↔_bell_partners_inc._(skidmore_supervised)",
+        "leah_douthit_↔_co_listed_with_both_liddy_saye_and_caitlin_skidmore"
       ],
       "status": "verified",
-      "evidence": "License records, property listings"
+      "evidence": "license_records,_property_listings"
     }
   },
   "personnel_verification_details": {
@@ -107,37 +107,41 @@
       "states_verified": 16,
       "personnel": [
         {
-          "name": "Edward Hyland",
-          "title": "Senior Regional Manager",
-          "activities": ["Lease termination decisions", "Property management", "Reasonable accommodation denials"],
-          "violation_severity": "CRITICAL"
+          "name": "edward_hyland",
+          "title": "senior_regional_manager",
+          "activities": [
+            "lease_termination_decisions",
+            "property_management",
+            "reasonable_accommodation_denials"
+          ],
+          "violation_severity": "critical"
         },
         {
-          "name": "Robert Grealy",
-          "title": "SVP Operations",
+          "name": "robert_grealy",
+          "title": "svp_operations",
           "units_managed": "28,000+",
-          "violation_severity": "CRITICAL"
+          "violation_severity": "critical"
         },
         {
-          "name": "Amy Groff",
-          "title": "VP Operations",
+          "name": "amy_groff",
+          "title": "vp_operations",
           "units_managed": "11,000+",
-          "violation_severity": "CRITICAL"
+          "violation_severity": "critical"
         },
         {
-          "name": "Tracy Fones",
-          "title": "VP Operations",
-          "violation_severity": "CRITICAL"
+          "name": "tracy_fones",
+          "title": "vp_operations",
+          "violation_severity": "critical"
         },
         {
-          "name": "Djene Moyer",
-          "title": "Community Manager",
-          "violation_severity": "CRITICAL"
+          "name": "djene_moyer",
+          "title": "community_manager",
+          "violation_severity": "critical"
         },
         {
-          "name": "Henry Ramos",
-          "title": "Property Manager",
-          "violation_severity": "CRITICAL"
+          "name": "henry_ramos",
+          "title": "property_manager",
+          "violation_severity": "critical"
         }
       ]
     },
@@ -145,16 +149,16 @@
       "count": 9,
       "all_unlicensed": true,
       "states_verified": 16,
-      "note": "Executive roles may not require licenses, but verification confirms none held"
+      "note": "executive_roles_may_not_require_licenses,_but_verification_confirms_none_held"
     },
     "licensed_personnel": {
       "count": 3,
       "personnel": [
-        "Elizabeth Saye (Lariat Realty) - TX, NY licenses",
-        "Thoms L. Bisanz (Lariat Realty) - TX license",
-        "Leah Douthit - TX license (inactive)"
+        "elizabeth_saye_(lariat_realty)_tx,_ny_licenses",
+        "thoms_l._bisanz_(lariat_realty)_tx_license",
+        "leah_douthit_tx_license_(inactive)"
       ],
-      "note": "Lariat Realty Advisors personnel have licenses (expected for brokerage)"
+      "note": "lariat_realty_advisors_personnel_have_licenses_(expected_for_brokerage)"
     }
   },
   "research_files_summary": {
@@ -165,33 +169,33 @@
     "completion_rate": "98%"
   },
   "evidence_strength_assessment": {
-    "principal_broker_gap": "VERY STRONG",
-    "geographic_violation": "VERY STRONG",
-    "supervision_impossibility": "VERY STRONG (mathematically proven)",
-    "unlicensed_practice": "VERY STRONG (16 personnel, 336 searches, 16 states)",
-    "timeline_impossibility": "STRONG",
-    "financial_scale": "STRONG",
-    "regulatory_violations": "STRONG",
-    "professional_network": "CONFIRMED",
-    "overall_evidence_strength": "VERY STRONG"
+    "principal_broker_gap": "very_strong",
+    "geographic_violation": "very_strong",
+    "supervision_impossibility": "very_strong_(mathematically_proven)",
+    "unlicensed_practice": "very_strong_(16_personnel,_336_searches,_16_states)",
+    "timeline_impossibility": "strong",
+    "financial_scale": "strong",
+    "regulatory_violations": "strong",
+    "professional_network": "confirmed",
+    "overall_evidence_strength": "very_strong"
   },
   "complaint_readiness": {
-    "status": "READY",
+    "status": "ready",
     "evidence_compiled": true,
     "verification_complete": true,
     "documentation_complete": true,
     "key_allegations_supported": true,
     "recommendations": [
-      "All evidence is compiled and verified",
-      "Personnel verification provides strong support for unlicensed practice allegations",
-      "Professional network connections documented",
-      "Ready to compile into formal complaint amendment"
+      "all_evidence_is_compiled_and_verified",
+      "personnel_verification_provides_strong_support_for_unlicensed_practice_allegations",
+      "professional_network_connections_documented",
+      "ready_to_compile_into_formal_complaint_amendment"
     ]
   },
   "next_steps": [
-    "Compile all verified evidence into complaint amendment document",
-    "Organize evidence by allegation type",
-    "Create exhibits with supporting documentation",
-    "Submit complaint amendment to VA DPOR"
+    "compile_all_verified_evidence_into_complaint_amendment_document",
+    "organize_evidence_by_allegation_type",
+    "create_exhibits_with_supporting_documentation",
+    "submit_complaint_amendment_to_va_dpor"
   ]
 }

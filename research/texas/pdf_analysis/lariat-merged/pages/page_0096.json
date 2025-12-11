@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:00.456284",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0096.json",
+    "created": "2025_12_11t00:52:00.456284",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0096.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 96,
-    "text": "orstcre dihey of ttorinj md by an sgnesei ha bentemAegreshi , tHRFWEOrNSITESW IN\nusdonssaei ha ct Corporantuet Consiheth of tcaonsnd ei at Corporantuetit Corahe sh of toluc\nn iry n¡atsret Sc of ieuret sgnaheid by tseetltnd asd afiefo auntrc heo he t snleetsorporat ci\n(aN ewJe rsecoy rporaiton)\nAle:tst\nenSa k TJah ckee e:nGt hTuT\neldinngCIc. o ,DiSoreoo uhactrs ftwFbe risteaitnWg&\nexacos rporaiton)T(n’\nSBALE IT(CRROPOA\ne:tstAt\nElrasetgs ed,\nEXECUTION OF\nAND PALN ON MORGRE AGDREMNET JOINT\nnd of Sh-ny aoutspad Pl ComerodueilritiVn acriAemrse of cfid ofezhoriutowng ali folheT\nsietscr repeihed by tey wnttahoriuto a t., pursntng Co, IneuadileW ng &itachriws raet\nndr agen of Mrnd Pae alntemAegre ng Jntgoioi forehe teutexcby eorsret, hescri of DreBonai\nn.et wtboverirs ay fit dashe a of tlsll, a saeetorpora cveilscr repehrio ttrehefox tfa\nHT SA]EL[CORPORA VRIFITICD PRODUSCTAMRICAEN\nndih Cawclas Esa:e\n[CORPORATE SEAL]\nBI Sound",
+    "text": "orstcre_dihey_of_ttorinj_md_by_an_sgnesei_ha_bentemaegreshi_,_thrfweornsitesw_in_usdonssaei_ha_ct_corporantuet_consiheth_of_tcaonsnd_ei_at_corporantuetit_corahe_sh_of_toluc_n_iry_n¡atsret_sc_of_ieuret_sgnaheid_by_tseetltnd_asd_afiefo_auntrc_heo_he_t_snleetsorporat_ci_(an_ewje_rsecoy_rporaiton)_ale:tst_ensa_k_tjah_ckee_e:ngt_htut_eldinngcic._o_,disoreoo_uhactrs_ftwfbe_risteaitnwg&_exacos_rporaiton)t(n’_sbale_it(crropoa_e:tstat_elrasetgs_ed,_execution_of_and_paln_on_morgre_agdremnet_joint_nd_of_sh_ny_aoutspad_pl_comerodueilritivn_acriaemrse_of_cfid_ofezhoriutowng_ali_folhet_sietscr_repeihed_by_tey_wnttahoriuto_a_t.,_pursntng_co,_ineuadilew_ng_&itachriws_raet_ndr_agen_of_mrnd_pae_alntemaegre_ng_jntgoioi_forehe_teutexcby_eorsret,_hescri_of_drebonai_n.et_wtboverirs_ay_fit_dashe_a_of_tlsll,_a_saeetorpora_cveilscr_repehrio_ttrehefox_tfa_ht_sa]el[corpora_vrifiticd_produsctamricaen_ndih_cawclas_esa:e_[corporate_seal]_bi_sound",
     "char_count": 930,
     "word_count": 140,
     "anomalies": {
       "page_number": 96,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 96 | text: orstcre dihey of ttorinj md by an sgnesei ha bentemAegreshi , tHRFWEOrNSITESW IN\nusdonssaei ha ct Corporantuet Consiheth of tcaonsnd ei at Corporantuetit Corahe sh of toluc\nn iry n¡atsret Sc of ieuret sgnaheid by tseetltnd asd afiefo auntrc heo he t snleetsorporat ci\n(aN ewJe rsecoy rporaiton)\nAle:tst\nenSa k TJah ckee e:nGt hTuT\neldinngCIc. o ,DiSoreoo uhactrs ftwFbe risteaitnWg&\nexacos rporaiton)T(n’\nSBALE IT(CRROPOA\ne:tstAt\nElrasetgs ed,\nEXECUTION OF\nAND PALN ON MORGRE AGDREMNET JOINT\nnd of Sh-ny aoutspad Pl ComerodueilritiVn acriAemrse of cfid ofezhoriutowng ali folheT\nsietscr repeihed by tey wnttahoriuto a t., pursntng Co, IneuadileW ng &itachriws raet\nndr agen of Mrnd Pae alntemAegre ng Jntgoioi forehe teutexcby eorsret, hescri of DreBonai\nn.et wtboverirs ay fit dashe a of tlsll, a saeetorpora cveilscr repehrio ttrehefox tfa\nHT SA]EL[CORPORA VRIFITICD PRODUSCTAMRICAEN\nndih Cawclas Esa:e\n[CORPORATE SEAL]\nBI Sound | char_count: 930 | word_count: 140 | anomalies: {\"page_number\":96,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_96_|_text:_orstcre_dihey_of_ttorinj_md_by_an_sgnesei_ha_bentemaegreshi_,_thrfweornsitesw_in_usdonssaei_ha_ct_corporantuet_consiheth_of_tcaonsnd_ei_at_corporantuetit_corahe_sh_of_toluc_n_iry_n¡atsret_sc_of_ieuret_sgnaheid_by_tseetltnd_asd_afiefo_auntrc_heo_he_t_snleetsorporat_ci_(an_ewje_rsecoy_rporaiton)_ale:tst_ensa_k_tjah_ckee_e:ngt_htut_eldinngcic._o_,disoreoo_uhactrs_ftwfbe_risteaitnwg&_exacos_rporaiton)t(n’_sbale_it(crropoa_e:tstat_elrasetgs_ed,_execution_of_and_paln_on_morgre_agdremnet_joint_nd_of_sh_ny_aoutspad_pl_comerodueilritivn_acriaemrse_of_cfid_ofezhoriutowng_ali_folhet_sietscr_repeihed_by_tey_wnttahoriuto_a_t.,_pursntng_co,_ineuadilew_ng_&itachriws_raet_ndr_agen_of_mrnd_pae_alntemaegre_ng_jntgoioi_forehe_teutexcby_eorsret,_hescri_of_drebonai_n.et_wtboverirs_ay_fit_dashe_a_of_tlsll,_a_saeetorpora_cveilscr_repehrio_ttrehefox_tfa_ht_sa]el[corpora_vrifiticd_produsctamricaen_ndih_cawclas_esa:e_[corporate_seal]_bi_sound_|_char_count:_930_|_word_count:_140_|_anomalies:_{\"page_number\":96,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06510723382234573,
     0.029591470956802368,

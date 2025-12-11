@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.021459",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_17649900_0.json",
+    "created": "2025_12_11t00:21:41.021459",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_17649900_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
-    "name_status": "Inactive",
-    "name_type": "Legal",
-    "name_inactive_date": "January 2, 1969",
+    "name": "southwest_fabricating_&_welding_co.,_inc.",
+    "name_status": "inactive",
+    "name_type": "legal",
+    "name_inactive_date": "january_2,_1969",
     "consent_filing_number": null
   },
-  "text_representation": "name: SOUTHWEST FABRICATING & WELDING CO., INC. | name_status: Inactive | name_type: Legal | name_inactive_date: January 2, 1969",
+  "text_representation": "name:_southwest_fabricating_&_welding_co.,_inc._|_name_status:_inactive_|_name_type:_legal_|_name_inactive_date:_january_2,_1969",
   "embedding": [
     -0.051542606204748154,
     -0.009887654334306717,

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.312225",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0065.json",
+    "created": "2025_12_11t00:51:59.312225",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0065.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 65,
-    "text": "STATE OF TEXAS\nSS\nCOUNTY OF HARRIS\nI, MILDRED I. BUERKLE, a notary public, do hereby certify\nthat on this 29th day of September, 1961, personally appeared before me\nS. L. BARBER, who, being by me first duly sworn, declared that he 1s\nthe president of UNI-FLEX MANUFACTURING & ENGINEERING CO.,\nING., that he signed the foregoing document as president of said corpora-\ntion, and that the statements therein contained are true.\nMedied L.Brukle\nNotary Public in and for said\nCounty and State.\n(Notarial Seal)\n0F\nSTATE OF CALIFORNIA\nSS\nCOUNTY OF LOS ANGELES\nI, CYRUS J. DOHERTY, IR., a notary public, do hereby certi-\nfy that on this 28th day of September, 1961, personally appeared before me\nH. S. BARBER, who, being by me first duly sworz, declared that he is\nthe secretary of UNI-FLEX MANUFACTURING & ENGINEERING CO., INC.,\nthat he signed the foregoing document as secretary of said corporation,\nand that the statements therein contained are true,\nCounty and State.\n(Notarial Seal)\nCMy ommissionExp ire5s -14-65,\nX-s.",
+    "text": "state_of_texas_ss_county_of_harris_i,_mildred_i._buerkle,_a_notary_public,_do_hereby_certify_that_on_this_29th_day_of_september,_1961,_personally_appeared_before_me_s._l._barber,_who,_being_by_me_first_duly_sworn,_declared_that_he_1s_the_president_of_uni_flex_manufacturing_&_engineering_co.,_ing.,_that_he_signed_the_foregoing_document_as_president_of_said_corpora_tion,_and_that_the_statements_therein_contained_are_true._medied_l.brukle_notary_public_in_and_for_said_county_and_state._(notarial_seal)_0f_state_of_california_ss_county_of_los_angeles_i,_cyrus_j._doherty,_ir.,_a_notary_public,_do_hereby_certi_fy_that_on_this_28th_day_of_september,_1961,_personally_appeared_before_me_h._s._barber,_who,_being_by_me_first_duly_sworz,_declared_that_he_is_the_secretary_of_uni_flex_manufacturing_&_engineering_co.,_inc.,_that_he_signed_the_foregoing_document_as_secretary_of_said_corporation,_and_that_the_statements_therein_contained_are_true,_county_and_state._(notarial_seal)_cmy_ommissionexp_ire5s_14_65,_x_s.",
     "char_count": 1015,
     "word_count": 170,
     "anomalies": {
       "page_number": 65,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 65 | text: STATE OF TEXAS\nSS\nCOUNTY OF HARRIS\nI, MILDRED I. BUERKLE, a notary public, do hereby certify\nthat on this 29th day of September, 1961, personally appeared before me\nS. L. BARBER, who, being by me first duly sworn, declared that he 1s\nthe president of UNI-FLEX MANUFACTURING & ENGINEERING CO.,\nING., that he signed the foregoing document as president of said corpora-\ntion, and that the statements therein contained are true.\nMedied L.Brukle\nNotary Public in and for said\nCounty and State.\n(Notarial Seal)\n0F\nSTATE OF CALIFORNIA\nSS\nCOUNTY OF LOS ANGELES\nI, CYRUS J. DOHERTY, IR., a notary public, do hereby certi-\nfy that on this 28th day of September, 1961, personally appeared before me\nH. S. BARBER, who, being by me first duly sworz, declared that he is\nthe secretary of UNI-FLEX MANUFACTURING & ENGINEERING CO., INC.,\nthat he signed the foregoing document as secretary of said corporation,\nand that the statements therein contained are true,\nCounty and State.\n(Notarial Seal)\nCMy ommissionExp ire5s -14-65,\nX-s. | char_count: 1015 | word_count: 170 | anomalies: {\"page_number\":65,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_65_|_text:_state_of_texas_ss_county_of_harris_i,_mildred_i._buerkle,_a_notary_public,_do_hereby_certify_that_on_this_29th_day_of_september,_1961,_personally_appeared_before_me_s._l._barber,_who,_being_by_me_first_duly_sworn,_declared_that_he_1s_the_president_of_uni_flex_manufacturing_&_engineering_co.,_ing.,_that_he_signed_the_foregoing_document_as_president_of_said_corpora_tion,_and_that_the_statements_therein_contained_are_true._medied_l.brukle_notary_public_in_and_for_said_county_and_state._(notarial_seal)_0f_state_of_california_ss_county_of_los_angeles_i,_cyrus_j._doherty,_ir.,_a_notary_public,_do_hereby_certi_fy_that_on_this_28th_day_of_september,_1961,_personally_appeared_before_me_h._s._barber,_who,_being_by_me_first_duly_sworz,_declared_that_he_is_the_secretary_of_uni_flex_manufacturing_&_engineering_co.,_inc.,_that_he_signed_the_foregoing_document_as_secretary_of_said_corporation,_and_that_the_statements_therein_contained_are_true,_county_and_state._(notarial_seal)_cmy_ommissionexp_ire5s_14_65,_x_s._|_char_count:_1015_|_word_count:_170_|_anomalies:_{\"page_number\":65,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.10876301676034927,
     0.003494571428745985,

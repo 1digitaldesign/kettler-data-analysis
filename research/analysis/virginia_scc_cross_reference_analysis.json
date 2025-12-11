@@ -1,202 +1,202 @@
 {
   "metadata": {
-    "analysis_date": "2025-12-11",
-    "analysis_type": "Cross-State Registration Analysis",
-    "primary_entity": "KETTLER MANAGEMENT INC.",
+    "analysis_date": "2025_12_11",
+    "analysis_type": "cross_state_registration_analysis",
+    "primary_entity": "kettler_management_inc.",
     "virginia_entity_id": "03218674",
-    "source": "Kettler Data Analysis Project",
+    "source": "kettler_data_analysis_project",
     "file_name": "virginia_scc_cross_reference_analysis.json",
     "file_path": "research/analysis/virginia_scc_cross_reference_analysis.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   },
   "virginia_registration": {
     "entity_id": "03218674",
-    "legal_name": "KETTLER MANAGEMENT INC.",
-    "fictitious_name": "Kettler Management Corp.",
-    "entity_type": "Stock Corporation",
-    "status": "Active",
-    "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-    "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
-    "formation_date": "NOT AVAILABLE (requires detailed record access)",
-    "last_annual_report": "NOT AVAILABLE (requires detailed record access)",
-    "officers_directors": "NOT AVAILABLE (requires detailed record access)"
+    "legal_name": "kettler_management_inc.",
+    "fictitious_name": "kettler_management_corp.",
+    "entity_type": "stock_corporation",
+    "status": "active",
+    "business_address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+    "registered_agent": "national_registered_agents,_inc.",
+    "formation_date": "not_available_(requires_detailed_record_access)",
+    "last_annual_report": "not_available_(requires_detailed_record_access)",
+    "officers_directors": "not_available_(requires_detailed_record_access)"
   },
   "cross_state_analysis": {
-    "maryland": {
-      "status": "NOT REGISTERED",
+    "md": {
+      "status": "not_registered",
       "registered": false,
       "entity_type": "",
       "formation_date": null,
       "registered_agent": "",
       "business_address": "",
       "status_detail": "not_registered",
-      "abnormality": "CRITICAL - NOT REGISTERED - verified via Maryland business database search. Kettler operates in Maryland but entity is not registered/qualified.",
-      "search_url": "https://egov.maryland.gov/BusinessExpress/",
-      "recommendation": "URGENT: Search Maryland business database to verify foreign qualification status",
-      "search_method": "Browser automation",
-      "search_date": "2025-12-10T20:46:31.516338"
+      "abnormality": "critical_not_registered_verified_via_maryland_business_database_search._kettler_operates_in_maryland_but_entity_is_not_registered/qualified.",
+      "search_url": "https://egov.maryland.gov/businessexpress/",
+      "recommendation": "urgent:_search_maryland_business_database_to_verify_foreign_qualification_status",
+      "search_method": "browser_automation",
+      "search_date": "2025_12_10t20:46:31.516338"
     },
-    "district_of_columbia": {
-      "status": "NOT REGISTERED",
+    "dc": {
+      "status": "not_registered",
       "registered": false,
       "entity_type": "",
       "formation_date": null,
       "registered_agent": "",
       "business_address": "",
       "status_detail": "not_registered",
-      "abnormality": "CRITICAL - Entity not registered in DC. Kettler operates properties in DC but entity is not registered/qualified.",
+      "abnormality": "critical_entity_not_registered_in_dc._kettler_operates_properties_in_dc_but_entity_is_not_registered/qualified.",
       "search_url": "https://corponline.dccourts.gov/",
-      "recommendation": "URGENT: Verify if foreign qualification required and if entity is operating without proper registration",
-      "search_method": "Browser automation",
-      "search_date": "2025-12-10T20:46:31.011018"
+      "recommendation": "urgent:_verify_if_foreign_qualification_required_and_if_entity_is_operating_without_proper_registration",
+      "search_method": "browser_automation",
+      "search_date": "2025_12_10t20:46:31.011018"
     },
     "new_jersey": {
-      "status": "NOT REGISTERED",
+      "status": "not_registered",
       "registered": false,
       "entity_type": "",
       "formation_date": null,
       "registered_agent": "",
       "business_address": "",
       "status_detail": "not_registered",
-      "abnormality": "CRITICAL - NOT REGISTERED - verified via New Jersey business database search. Kettler operates in New Jersey but entity is not registered/qualified.",
-      "search_url": "https://www.njportal.com/DOR/BusinessRegistration/",
-      "recommendation": "URGENT: Search New Jersey business database to verify foreign qualification status",
-      "search_method": "Browser automation",
-      "search_date": "2025-12-10T20:46:32.525132"
+      "abnormality": "critical_not_registered_verified_via_new_jersey_business_database_search._kettler_operates_in_new_jersey_but_entity_is_not_registered/qualified.",
+      "search_url": "https://www.njportal.com/dor/businessregistration/",
+      "recommendation": "urgent:_search_new_jersey_business_database_to_verify_foreign_qualification_status",
+      "search_method": "browser_automation",
+      "search_date": "2025_12_10t20:46:32.525132"
     },
     "new_york": {
-      "status": "NOT REGISTERED",
+      "status": "not_registered",
       "registered": false,
       "entity_type": "",
       "formation_date": null,
       "registered_agent": "",
       "business_address": "",
       "status_detail": "not_registered",
-      "abnormality": "CRITICAL - NOT REGISTERED - verified via New York business database search. Kettler operates in New York but entity is not registered/qualified.",
+      "abnormality": "critical_not_registered_verified_via_new_york_business_database_search._kettler_operates_in_new_york_but_entity_is_not_registered/qualified.",
       "search_url": "https://dos.ny.gov/corporations",
-      "recommendation": "URGENT: Search New York business database to verify foreign qualification status",
-      "search_method": "Browser automation",
-      "search_date": "2025-12-10T20:46:33.027028"
+      "recommendation": "urgent:_search_new_york_business_database_to_verify_foreign_qualification_status",
+      "search_method": "browser_automation",
+      "search_date": "2025_12_10t20:46:33.027028"
     },
-    "connecticut": {
-      "status": "NOT REGISTERED",
+    "ct": {
+      "status": "not_registered",
       "registered": false,
       "entity_type": "",
       "formation_date": null,
       "registered_agent": "",
       "business_address": "",
       "status_detail": "not_registered",
-      "abnormality": "CRITICAL - NOT REGISTERED - verified via Connecticut business database search. Kettler operates in Connecticut but entity is not registered/qualified.",
-      "search_url": "https://www.concord-sots.ct.gov/CONCORD/",
-      "recommendation": "URGENT: Search Connecticut business database to verify foreign qualification status",
-      "search_method": "Browser automation",
-      "search_date": "2025-12-10T20:46:33.528405"
+      "abnormality": "critical_not_registered_verified_via_connecticut_business_database_search._kettler_operates_in_connecticut_but_entity_is_not_registered/qualified.",
+      "search_url": "https://www.concord_sots.ct.gov/concord/",
+      "recommendation": "urgent:_search_connecticut_business_database_to_verify_foreign_qualification_status",
+      "search_method": "browser_automation",
+      "search_date": "2025_12_10t20:46:33.528405"
     }
   },
   "critical_findings": [
     {
-      "finding": "Foreign Qualification Gap",
-      "severity": "HIGH",
-      "description": "KETTLER MANAGEMENT INC. is registered in Virginia but registration status is unknown or missing in 5 operational states (MD, DC, CT, NJ, NY). DC search explicitly shows 'registered: false'.",
+      "finding": "foreign_qualification_gap",
+      "severity": "high",
+      "description": "kettler_management_inc._is_registered_in_virginia_but_registration_status_is_unknown_or_missing_in_5_operational_states_(md,_dc,_ct,_nj,_ny)._dc_search_explicitly_shows_'registered:_false'.",
       "regulatory_implications": [
-        "Failure to qualify as foreign entity can result in:",
-        "- Inability to sue in state courts",
-        "- Fines and penalties",
-        "- Personal liability for officers/directors",
-        "- Contract enforcement issues",
-        "- Regulatory violations"
+        "failure_to_qualify_as_foreign_entity_can_result_in:",
+        "_inability_to_sue_in_state_courts",
+        "_fines_and_penalties",
+        "_personal_liability_for_officers/directors",
+        "_contract_enforcement_issues",
+        "_regulatory_violations"
       ],
       "states_affected": [
-        "Maryland",
-        "District of Columbia",
-        "Connecticut",
-        "New Jersey",
-        "New York"
+        "md",
+        "dc",
+        "ct",
+        "new_jersey",
+        "new_york"
       ],
-      "recommendation": "URGENT: Verify foreign qualification status in all operational states"
+      "recommendation": "urgent:_verify_foreign_qualification_status_in_all_operational_states"
     },
     {
-      "finding": "Missing Virginia Entity Details",
-      "severity": "MEDIUM",
-      "description": "Virginia registration exists but critical details missing: formation date, annual report dates, officers/directors list",
-      "recommendation": "Access detailed entity record via Entity ID 03218674 to obtain complete filing history"
+      "finding": "missing_virginia_entity_details",
+      "severity": "medium",
+      "description": "virginia_registration_exists_but_critical_details_missing:_formation_date,_annual_report_dates,_officers/directors_list",
+      "recommendation": "access_detailed_entity_record_via_entity_id_03218674_to_obtain_complete_filing_history"
     },
     {
-      "finding": "Name Variation Across States",
-      "severity": "MEDIUM",
-      "description": "Virginia entity uses both 'KETTLER MANAGEMENT INC.' (legal) and 'Kettler Management Corp.' (fictitious). Need to verify which name is used in other state registrations.",
-      "recommendation": "Cross-reference entity names across all state registrations to identify inconsistencies"
+      "finding": "name_variation_across_states",
+      "severity": "medium",
+      "description": "virginia_entity_uses_both_'kettler_management_inc.'_(legal)_and_'kettler_management_corp.'_(fictitious)._need_to_verify_which_name_is_used_in_other_state_registrations.",
+      "recommendation": "cross_reference_entity_names_across_all_state_registrations_to_identify_inconsistencies"
     }
   ],
   "recommended_actions": [
     {
-      "priority": "URGENT",
-      "action": "Search Maryland business database for KETTLER MANAGEMENT INC. foreign qualification",
-      "url": "https://egov.maryland.gov/BusinessExpress/EntitySearch",
+      "priority": "urgent",
+      "action": "search_maryland_business_database_for_kettler_management_inc._foreign_qualification",
+      "url": "https://egov.maryland.gov/businessexpress/entitysearch",
       "search_terms": [
-        "Kettler Management Inc",
-        "Kettler Management",
+        "kettler_management_inc",
+        "kettler_management",
         "03218674"
       ]
     },
     {
-      "priority": "URGENT",
-      "action": "Verify DC registration status - search shows 'registered: false'",
+      "priority": "urgent",
+      "action": "verify_dc_registration_status_search_shows_'registered:_false'",
       "url": "https://corponline.dccourts.gov/",
       "search_terms": [
-        "Kettler Management Inc",
-        "Kettler Management"
+        "kettler_management_inc",
+        "kettler_management"
       ]
     },
     {
-      "priority": "URGENT",
-      "action": "Search New Jersey business database for foreign qualification",
-      "url": "https://www.njportal.com/DOR/BusinessNameSearch/",
+      "priority": "urgent",
+      "action": "search_new_jersey_business_database_for_foreign_qualification",
+      "url": "https://www.njportal.com/dor/businessnamesearch/",
       "search_terms": [
-        "Kettler Management Inc",
-        "Kettler Management"
+        "kettler_management_inc",
+        "kettler_management"
       ]
     },
     {
-      "priority": "URGENT",
-      "action": "Search New York business database for foreign qualification",
-      "url": "https://apps.dos.ny.gov/publicInquiry/",
+      "priority": "urgent",
+      "action": "search_new_york_business_database_for_foreign_qualification",
+      "url": "https://apps.dos.ny.gov/publicinquiry/",
       "search_terms": [
-        "Kettler Management Inc",
-        "Kettler Management"
+        "kettler_management_inc",
+        "kettler_management"
       ]
     },
     {
-      "priority": "URGENT",
-      "action": "Search Connecticut business database for foreign qualification",
-      "url": "https://www.concord-sots.ct.gov/CONCORD/PublicInquiry",
+      "priority": "urgent",
+      "action": "search_connecticut_business_database_for_foreign_qualification",
+      "url": "https://www.concord_sots.ct.gov/concord/publicinquiry",
       "search_terms": [
-        "Kettler Management Inc",
-        "Kettler Management"
+        "kettler_management_inc",
+        "kettler_management"
       ]
     },
     {
-      "priority": "HIGH",
-      "action": "Access detailed Virginia entity record (Entity ID: 03218674)",
-      "url": "https://cis.scc.virginia.gov/EntitySearch/BusinessInformation?entityId=03218674",
+      "priority": "high",
+      "action": "access_detailed_virginia_entity_record_(entity_id:_03218674)",
+      "url": "https://cis.scc.virginia.gov/entitysearch/businessinformation?entityid=03218674",
       "information_needed": [
-        "Formation date",
-        "Annual report filing history",
-        "Officers and directors list",
-        "Filing amendments",
-        "Registered agent details"
+        "formation_date",
+        "annual_report_filing_history",
+        "officers_and_directors_list",
+        "filing_amendments",
+        "registered_agent_details"
       ]
     },
     {
-      "priority": "MEDIUM",
-      "action": "Verify fictitious name 'Kettler Management Corp.' registration",
-      "description": "Check if DBA is properly registered in Virginia and other states"
+      "priority": "medium",
+      "action": "verify_fictitious_name_'kettler_management_corp.'_registration",
+      "description": "check_if_dba_is_properly_registered_in_virginia_and_other_states"
     },
     {
-      "priority": "MEDIUM",
-      "action": "Cross-reference entity names across all states",
-      "description": "Verify consistent use of legal entity name vs. fictitious names"
+      "priority": "medium",
+      "action": "cross_reference_entity_names_across_all_states",
+      "description": "verify_consistent_use_of_legal_entity_name_vs._fictitious_names"
     }
   ],
   "summary": {
@@ -205,7 +205,7 @@
     "states_without_data": 5,
     "critical_abnormalities": 3,
     "urgent_actions_required": 6,
-    "foreign_qualification_risk": "HIGH",
-    "compliance_risk": "HIGH"
+    "foreign_qualification_risk": "high",
+    "compliance_risk": "high"
   }
 }

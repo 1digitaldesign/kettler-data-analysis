@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.264364",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0230.json",
+    "created": "2025_12_11t00:52:03.264364",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0230.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 230,
-    "text": "00034749505\nName eltiT Asddres\nrd SnneDvikia nt PsdeereiciV lonagiRe ns8300 Geboro Dvereri\n650eStui\n1633523131531\n22102AVn, aeMLc\nusnghaeVsa R. holNci nt PsdeereiciV lonagiRe te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nleA R. Fnznnare nt PsdeereiciV Aare vd.y Blrst101 Uveini\n240eStui\n, CO 80206rDnvee\nnshionhy R. HcotutmiT nt PsdeereiciV Aare ns8300 Geboro Dvereri\n650eStui\n22102AVn, aeMLc\nndryJaos Lhua nt PsdeereiciV Aare te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nsnzs. Biaa LhomT detimih l (wtnti PsdeereiciV vd.k Ble CreelurtT1 381\ny)thoriuta 1500eStui\nXT 75219sa, lDla\nsyme. Ran PelCul detimih l (wtnti PsdeereiciV vd.k Ble CreelurtT1 381\ny)thoriuta 1500eStui\nXT 75219sa, lDla",
+    "text": "00034749505_name_eltit_asddres_rd_snnedvikia_nt_psdeereiciv_lonagire_ns8300_geboro_dvereri_650estui_1633523131531_22102avn,_aemlc_usnghaevsa_r._holnci_nt_psdeereiciv_lonagire_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_lea_r._fnznnare_nt_psdeereiciv_aare_vd.y_blrst101_uveini_240estui_,_co_80206rdnvee_nshionhy_r._hcotutmit_nt_psdeereiciv_aare_ns8300_geboro_dvereri_650estui_22102avn,_aemlc_ndryjaos_lhua_nt_psdeereiciv_aare_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_snzs._biaa_lhomt_detimih_l_(wtnti_psdeereiciv_vd.k_ble_creelurtt1_381_y)thoriuta_1500estui_xt_75219sa,_ldla_syme._ran_pelcul_detimih_l_(wtnti_psdeereiciv_vd.k_ble_creelurtt1_381_y)thoriuta_1500estui_xt_75219sa,_ldla",
     "char_count": 698,
     "word_count": 100,
     "anomalies": {
       "page_number": 230,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 230 | text: 00034749505\nName eltiT Asddres\nrd SnneDvikia nt PsdeereiciV lonagiRe ns8300 Geboro Dvereri\n650eStui\n1633523131531\n22102AVn, aeMLc\nusnghaeVsa R. holNci nt PsdeereiciV lonagiRe te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nleA R. Fnznnare nt PsdeereiciV Aare vd.y Blrst101 Uveini\n240eStui\n, CO 80206rDnvee\nnshionhy R. HcotutmiT nt PsdeereiciV Aare ns8300 Geboro Dvereri\n650eStui\n22102AVn, aeMLc\nndryJaos Lhua nt PsdeereiciV Aare te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nsnzs. Biaa LhomT detimih l (wtnti PsdeereiciV vd.k Ble CreelurtT1 381\ny)thoriuta 1500eStui\nXT 75219sa, lDla\nsyme. Ran PelCul detimih l (wtnti PsdeereiciV vd.k Ble CreelurtT1 381\ny)thoriuta 1500eStui\nXT 75219sa, lDla | char_count: 698 | word_count: 100 | anomalies: {\"page_number\":230,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_230_|_text:_00034749505_name_eltit_asddres_rd_snnedvikia_nt_psdeereiciv_lonagire_ns8300_geboro_dvereri_650estui_1633523131531_22102avn,_aemlc_usnghaevsa_r._holnci_nt_psdeereiciv_lonagire_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_lea_r._fnznnare_nt_psdeereiciv_aare_vd.y_blrst101_uveini_240estui_,_co_80206rdnvee_nshionhy_r._hcotutmit_nt_psdeereiciv_aare_ns8300_geboro_dvereri_650estui_22102avn,_aemlc_ndryjaos_lhua_nt_psdeereiciv_aare_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_snzs._biaa_lhomt_detimih_l_(wtnti_psdeereiciv_vd.k_ble_creelurtt1_381_y)thoriuta_1500estui_xt_75219sa,_ldla_syme._ran_pelcul_detimih_l_(wtnti_psdeereiciv_vd.k_ble_creelurtt1_381_y)thoriuta_1500estui_xt_75219sa,_ldla_|_char_count:_698_|_word_count:_100_|_anomalies:_{\"page_number\":230,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.034298449754714966,
     0.01923607662320137,

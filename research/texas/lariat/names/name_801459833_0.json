@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:39.984959",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_801459833_0.json",
+    "created": "2025_12_11t00:21:39.984959",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_801459833_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "Lariat Realty Advisors, Inc.",
-    "name_status": "Inactive",
-    "name_type": "Legal",
-    "name_inactive_date": "December 19, 2017",
+    "name": "lariat_realty_advisors,_inc.",
+    "name_status": "inactive",
+    "name_type": "legal",
+    "name_inactive_date": "december_19,_2017",
     "consent_filing_number": "0"
   },
-  "text_representation": "name: Lariat Realty Advisors, Inc. | name_status: Inactive | name_type: Legal | name_inactive_date: December 19, 2017 | consent_filing_number: 0",
+  "text_representation": "name:_lariat_realty_advisors,_inc._|_name_status:_inactive_|_name_type:_legal_|_name_inactive_date:_december_19,_2017_|_consent_filing_number:_0",
   "embedding": [
     -0.0009180853958241642,
     -0.057692550122737885,

@@ -1,314 +1,328 @@
 {
-  "research_date": "2025-12-11",
-  "priority": "PRIORITY 2.3: Texas Regulatory Violations and Foreign Qualification Issues",
-  "complaint_focus": "VA DPOR Complaint - Texas Incorporation Strategy Violations",
-  "objective": "Document Texas-related regulatory violations affecting Virginia operations",
+  "research_date": "2025_12_11",
+  "priority": "priority_2.3:_texas_regulatory_violations_and_foreign_qualification_issues",
+  "complaint_focus": "va_dpor_complaint_texas_incorporation_strategy_violations",
+  "objective": "document_texas_related_regulatory_violations_affecting_virginia_operations",
   "texas_incorporation_strategy": {
-    "primary_state": "Texas",
+    "primary_state": "tx",
     "rationale": [
-      "Lariat Realty Advisors (broker service provider) is Texas-based",
-      "Business advantages (no state income tax, low costs, flexible laws)",
-      "Shell company structure (Frisco address cluster)",
-      "Privacy and asset protection benefits",
-      "Multi-state operations strategy (incorporate in TX, operate elsewhere)"
+      "lariat_realty_advisors_(broker_service_provider)_is_texas_based",
+      "business_advantages_(no_state_income_tax,_low_costs,_flexible_laws)",
+      "shell_company_structure_(frisco_address_cluster)",
+      "privacy_and_asset_protection_benefits",
+      "multi_state_operations_strategy_(incorporate_in_tx,_operate_elsewhere)"
     ],
     "operational_states": [
-      "Virginia",
-      "Maryland",
-      "DC",
-      "Connecticut",
-      "New Jersey",
-      "New York",
-      "North Carolina",
-      "South Carolina",
-      "Georgia",
-      "Florida",
-      "Arizona",
-      "New Mexico",
-      "Utah"
+      "va",
+      "md",
+      "dc",
+      "ct",
+      "new_jersey",
+      "new_york",
+      "north_carolina",
+      "south_carolina",
+      "ga",
+      "fl",
+      "az",
+      "new_mexico",
+      "ut"
     ],
-    "compliance_requirement": "Foreign qualification in each operational state",
-    "compliance_status": "UNKNOWN - Needs verification"
+    "compliance_requirement": "foreign_qualification_in_each_operational_state",
+    "compliance_status": "unknown_needs_verification"
   },
   "texas_entities": {
     "lariat_realty_advisors_inc": {
-      "name": "Lariat Realty Advisors, Inc.",
+      "name": "lariat_realty_advisors,_inc.",
       "filing_number": "801459833",
-      "formation_date": "2011-07-28",
-      "entity_type": "Domestic For-Profit Corporation",
-      "status": "In existence",
-      "address": "4600 Firestone Drive, Frisco, TX 75034",
-      "manager": "Thomas Bisanz",
+      "formation_date": "2011_07_28",
+      "entity_type": "domestic_for_profit_corporation",
+      "status": "in_existence",
+      "address": "4600_firestone_drive,_frisco,_tx_75034",
+      "manager": "thomas_bisanz",
       "tax_id": "32044752940",
       "history": {
-        "tax_forfeiture": "2013-02-08",
-        "reinstatement": "2017-12-18",
-        "annual_reports": "2017-2024 (filed)"
+        "tax_forfeiture": "2013_02_08",
+        "reinstatement": "2017_12_18",
+        "annual_reports": "2017_2024_(filed)"
       },
-      "role": "Broker service provider for Kettler Management Inc. and 24+ other property management companies",
-      "broker": "Caitlin Skidmore (DC license #0225273926)"
+      "role": "broker_service_provider_for_kettler_management_inc._and_24+_other_property_management_companies",
+      "broker": "caitlin_skidmore_(dc_license_#0225273926)"
     },
     "lariat_realty_advisors_llc": {
-      "name": "Lariat Realty Advisors, LLC",
+      "name": "lariat_realty_advisors,_llc",
       "filing_number": "805759678",
-      "formation_date": "2024-10-24",
-      "entity_type": "Domestic Limited Liability Company",
-      "status": "In existence",
-      "address": "4600 Firestone Drive, Frisco, TX 75034"
+      "formation_date": "2024_10_24",
+      "entity_type": "domestic_limited_liability_company",
+      "status": "in_existence",
+      "address": "4600_firestone_drive,_frisco,_tx_75034"
     },
     "frisco_address_cluster": {
-      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
+      "address": "5729_lebanon_rd_suite_144553,_frisco,_tx_75034",
       "companies_count": 6,
-      "pattern": "Shell company cluster",
+      "pattern": "shell_company_cluster",
       "companies": [
-        "BOZZUTO MANAGEMENT COMPANY",
-        "CORTLAND MANAGEMENT LLC",
-        "GABLES RESIDENTIAL SERVICES INC",
-        "GATEWAY MANAGEMENT COMPANY LLC",
-        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
-        "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+        "bozzuto_management_company",
+        "cortland_management_llc",
+        "gables_residential_services_inc",
+        "gateway_management_company_llc",
+        "bainbridge_mid_atlantic_management_llc",
+        "capreit_residential_management_llc"
       ],
-      "also_used_by": "Caitlin Skidmore (individual license addresses)",
-      "significance": "Multiple firms at same address suggests shell company operation"
+      "also_used_by": "caitlin_skidmore_(individual_license_addresses)",
+      "significance": "multiple_firms_at_same_address_suggests_shell_company_operation"
     }
   },
   "violations": {
     "foreign_qualification": {
-      "violation_type": "Operating without foreign qualification",
-      "severity": "HIGH",
-      "description": "Texas-incorporated entities operating in Virginia and other states must qualify as foreign entities",
-      "requirement": "Must qualify as foreign entity in each operational state",
-      "risk": "HIGH",
-      "finding": "Kettler may not be properly qualified in operational states (VA, MD, DC, CT, NJ, NY)",
+      "violation_type": "operating_without_foreign_qualification",
+      "severity": "high",
+      "description": "texas_incorporated_entities_operating_in_virginia_and_other_states_must_qualify_as_foreign_entities",
+      "requirement": "must_qualify_as_foreign_entity_in_each_operational_state",
+      "risk": "high",
+      "finding": "kettler_may_not_be_properly_qualified_in_operational_states_(va,_md,_dc,_ct,_nj,_ny)",
       "regulatory_implications": [
-        "Failure to qualify can result in inability to sue in state courts",
-        "Fines and penalties",
-        "Personal liability for officers/directors",
-        "Contract enforcement issues",
-        "Regulatory violations"
+        "failure_to_qualify_can_result_in_inability_to_sue_in_state_courts",
+        "fines_and_penalties",
+        "personal_liability_for_officers/directors",
+        "contract_enforcement_issues",
+        "regulatory_violations"
       ],
       "evidence": {
-        "virginia_scc_search": "Kettler Management Inc. registered in Virginia (Entity ID: 03218674)",
-        "cross_state_analysis": "NOT REGISTERED in MD, DC, CT, NJ, NY (verified via state database searches)",
-        "note": "Virginia registration exists, but foreign qualification status in other operational states unknown"
+        "virginia_scc_search": "kettler_management_inc._registered_in_virginia_(entity_id:_03218674)",
+        "cross_state_analysis": "not_registered_in_md,_dc,_ct,_nj,_ny_(verified_via_state_database_searches)",
+        "note": "virginia_registration_exists,_but_foreign_qualification_status_in_other_operational_states_unknown"
       }
     },
     "distance_violation": {
-      "violation_type": "50-Mile Rule Violation",
-      "severity": "EXTREME",
-      "regulation": "18 VAC 135-20-60",
-      "requirement": "Quarterly face-to-face supervision certification for licensees located more than 50 miles from principal broker's office",
-      "principal_broker_address": "FRISCO, TX 75034 (or 5729 LEBANON RD STE 144553, FRISCO, TX 75034)",
-      "firm_office_address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
-      "distance_miles": "approximately 1,300 miles",
-      "distance_km": "approximately 2,092 km",
+      "violation_type": "50_mile_rule_violation",
+      "severity": "extreme",
+      "regulation": "18_vac_135_20_60",
+      "requirement": "quarterly_face_to_face_supervision_certification_for_licensees_located_more_than_50_miles_from_principal_broker's_office",
+      "principal_broker_address": "frisco,_tx_75034_(or_5729_lebanon_rd_ste_144553,_frisco,_tx_75034)",
+      "firm_office_address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
+      "distance_miles": "approximately_1,300_miles",
+      "distance_km": "approximately_2,092_km",
       "exceeds_50_mile_limit": true,
-      "exceedance_amount": "1,250 miles over the 50-mile limit",
-      "exceedance_percentage": "2,500% over limit",
-      "driving_time": "approximately 19-20 hours one way",
-      "round_trip_time": "38-40 hours",
-      "flying_time": "approximately 3 hours one way",
-      "round_trip_flying": "6 hours + airport time",
-      "frequency_required": "Quarterly (4 times per year)",
-      "annual_time_commitment": "24+ hours of travel time alone",
-      "conclusion": "1,300-mile distance makes quarterly face-to-face supervision physically impossible",
+      "exceedance_amount": "1,250_miles_over_the_50_mile_limit",
+      "exceedance_percentage": "2,500%_over_limit",
+      "driving_time": "approximately_19_20_hours_one_way",
+      "round_trip_time": "38_40_hours",
+      "flying_time": "approximately_3_hours_one_way",
+      "round_trip_flying": "6_hours_+_airport_time",
+      "frequency_required": "quarterly_(4_times_per_year)",
+      "annual_time_commitment": "24+_hours_of_travel_time_alone",
+      "conclusion": "1,300_mile_distance_makes_quarterly_face_to_face_supervision_physically_impossible",
       "violation_severity": "extreme"
     },
     "shell_company_structure": {
-      "violation_type": "Shell Company Pattern",
-      "severity": "MEDIUM-HIGH",
-      "pattern": "Multiple companies at same address",
-      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
+      "violation_type": "shell_company_pattern",
+      "severity": "medium_high",
+      "pattern": "multiple_companies_at_same_address",
+      "address": "5729_lebanon_rd_suite_144553,_frisco,_tx_75034",
       "companies_count": 6,
-      "concern": "May obscure true ownership and control",
-      "implication": "Could indicate fraudulent or deceptive practices",
-      "regulatory_interest": "Shell companies are subject to increased scrutiny",
+      "concern": "may_obscure_true_ownership_and_control",
+      "implication": "could_indicate_fraudulent_or_deceptive_practices",
+      "regulatory_interest": "shell_companies_are_subject_to_increased_scrutiny",
       "benefits_to_operator": [
-        "Mail forwarding service location",
-        "Virtual office service",
-        "Shared registered agent service",
-        "Privacy - obscures actual business location",
-        "Cost-effective - single address for multiple entities"
+        "mail_forwarding_service_location",
+        "virtual_office_service",
+        "shared_registered_agent_service",
+        "privacy_obscures_actual_business_location",
+        "cost_effective_single_address_for_multiple_entities"
       ],
-      "regulatory_risk": "MEDIUM-HIGH"
+      "regulatory_risk": "medium_high"
     },
     "broker_supervision": {
-      "violation_type": "Inadequate Broker Supervision",
-      "severity": "MEDIUM-HIGH",
-      "issue": "One broker (Caitlin Skidmore) serving multiple companies from Texas location",
-      "broker_name": "Caitlin Skidmore",
-      "broker_license": "0225273926 (DC)",
-      "broker_address": "5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+      "violation_type": "inadequate_broker_supervision",
+      "severity": "medium_high",
+      "issue": "one_broker_(caitlin_skidmore)_serving_multiple_companies_from_texas_location",
+      "broker_name": "caitlin_skidmore",
+      "broker_license": "0225273926_(dc)",
+      "broker_address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
       "firms_supervised": 38,
-      "geographic_spread": "1,300+ miles (Frisco TX to McLean VA)",
-      "concern": "May violate supervision requirements",
-      "question": "Can one broker properly supervise 38 property management companies across 1,300+ miles?",
-      "regulatory_risk": "MEDIUM-HIGH",
-      "supervision_impossibility": "1,300-mile distance makes active supervision physically impossible"
+      "geographic_spread": "1,300+_miles_(frisco_tx_to_mclean_va)",
+      "concern": "may_violate_supervision_requirements",
+      "question": "can_one_broker_properly_supervise_38_property_management_companies_across_1,300+_miles?",
+      "regulatory_risk": "medium_high",
+      "supervision_impossibility": "1,300_mile_distance_makes_active_supervision_physically_impossible"
     },
     "privacy_vs_transparency": {
-      "violation_type": "Beneficial Ownership Disclosure",
-      "severity": "MEDIUM",
-      "benefit": "Texas incorporation provides privacy",
-      "concern": "May hide beneficial ownership",
-      "implication": "Regulatory agencies may have difficulty tracking ownership",
-      "regulatory_trend": "Increased transparency requirements (beneficial ownership reporting)",
-      "compliance_risk": "MEDIUM"
+      "violation_type": "beneficial_ownership_disclosure",
+      "severity": "medium",
+      "benefit": "texas_incorporation_provides_privacy",
+      "concern": "may_hide_beneficial_ownership",
+      "implication": "regulatory_agencies_may_have_difficulty_tracking_ownership",
+      "regulatory_trend": "increased_transparency_requirements_(beneficial_ownership_reporting)",
+      "compliance_risk": "medium"
     }
   },
   "lariat_realty_advisors_connections": {
     "broker_service_provider": {
-      "company": "Lariat Realty Advisors",
-      "location": "Frisco, TX",
-      "service": "Provides licensed brokers to property management companies",
-      "coverage": "46 states + DC",
+      "company": "lariat_realty_advisors",
+      "location": "frisco,_tx",
+      "service": "provides_licensed_brokers_to_property_management_companies",
+      "coverage": "46_states_+_dc",
       "clients": [
-        "Kettler Management Inc",
-        "Bozzuto",
-        "Bainbridge",
-        "CAPREIT",
-        "Gables",
-        "24+ others"
+        "kettler_management_inc",
+        "bozzuto",
+        "bainbridge",
+        "capreit",
+        "gables",
+        "24+_others"
       ],
-      "broker": "Caitlin Skidmore (DC license #0225273926)"
+      "broker": "caitlin_skidmore_(dc_license_#0225273926)"
     },
     "professional_network": {
       "elizabeth_saye": {
-        "name": "Elizabeth Saye (Liddy Bisanz Saye)",
-        "role": "Broker, Lariat Realty Advisors",
-        "texas_license": "TX #671787 (active)",
-        "new_york_license": "NY #10351218566 (active)",
-        "connection": "Associated with Burlington Capital Properties (one of Skidmore's supervised firms)",
-        "address_match": "Same Frisco address (5729 Lebanon Rd #144553) as Skidmore's license address",
-        "significance": "Direct connection between Lariat and Skidmore-supervised firm"
+        "name": "elizabeth_saye_(liddy_bisanz_saye)",
+        "role": "broker,_lariat_realty_advisors",
+        "texas_license": "tx_#671787_(active)",
+        "new_york_license": "ny_#10351218566_(active)",
+        "connection": "associated_with_burlington_capital_properties_(one_of_skidmore's_supervised_firms)",
+        "address_match": "same_frisco_address_(5729_lebanon_rd_#144553)_as_skidmore's_license_address",
+        "significance": "direct_connection_between_lariat_and_skidmore_supervised_firm"
       },
       "thoms_bisanz": {
-        "name": "Thoms L. Bisanz",
-        "role": "Executive Director, Lariat Realty Advisors",
-        "texas_license": "TX broker (active, expires 2027)",
-        "connection": "Also serves as designated broker for Bell Partners Inc. (one of Skidmore's supervised firms)",
-        "significance": "Lariat leadership also brokers for Skidmore-supervised firm"
+        "name": "thoms_l._bisanz",
+        "role": "executive_director,_lariat_realty_advisors",
+        "texas_license": "tx_broker_(active,_expires_2027)",
+        "connection": "also_serves_as_designated_broker_for_bell_partners_inc._(one_of_skidmore's_supervised_firms)",
+        "significance": "lariat_leadership_also_brokers_for_skidmore_supervised_firm"
       },
       "leah_douthit": {
-        "name": "Leah Douthit",
-        "company": "Monument Realty (not Lariat)",
-        "texas_license": "TX #0622166 (inactive)",
-        "connection": "Co-listed properties with both Liddy Saye (Lariat) and Caitlin Skidmore",
+        "name": "leah_douthit",
+        "company": "monument_realty_(not_lariat)",
+        "texas_license": "tx_#0622166_(inactive)",
+        "connection": "co_listed_properties_with_both_liddy_saye_(lariat)_and_caitlin_skidmore",
         "properties": [
-          "5631 Martel Ave, Dallas TX (with Liddy Saye)",
-          "4642 Rhett Ln Unit F, Carrollton TX (with Caitlin Skidmore)",
-          "816 Creekline Way, McKinney TX (with Liddy Saye)"
+          "5631_martel_ave,_dallas_tx_(with_liddy_saye)",
+          "4642_rhett_ln_unit_f,_carrollton_tx_(with_caitlin_skidmore)",
+          "816_creekline_way,_mckinney_tx_(with_liddy_saye)"
         ],
-        "significance": "Confirms professional network connecting Lariat Realty Advisors with Caitlin Skidmore"
+        "significance": "confirms_professional_network_connecting_lariat_realty_advisors_with_caitlin_skidmore"
       }
     },
     "coordination_evidence": {
-      "assessment": "HIGH",
+      "assessment": "high",
       "evidence": [
-        "Multiple companies share same Frisco addresses",
-        "All use same principal broker (Caitlin Skidmore)",
-        "All use same broker service provider (Lariat)",
-        "Coordinated incorporation strategy",
-        "Shared registered agent services",
-        "Professional network connections between Lariat and Skidmore-supervised firms"
+        "multiple_companies_share_same_frisco_addresses",
+        "all_use_same_principal_broker_(caitlin_skidmore)",
+        "all_use_same_broker_service_provider_(lariat)",
+        "coordinated_incorporation_strategy",
+        "shared_registered_agent_services",
+        "professional_network_connections_between_lariat_and_skidmore_supervised_firms"
       ],
-      "implication": "Suggests coordinated operation, not independent companies"
+      "implication": "suggests_coordinated_operation,_not_independent_companies"
     }
   },
   "regulatory_implications": {
     "virginia_dpor": {
-      "violation": "50-mile rule violation (1,300 miles)",
-      "regulation": "18 VAC 135-20-60",
-      "penalty": "Civil penalties up to $1,000 per transaction under VA Code § 54.1-2105.2",
-      "supervision_requirement": "Principal Broker must exercise active supervision per VA Code § 54.1-2106.1",
-      "impossibility": "1,300-mile distance makes active supervision physically impossible"
+      "violation": "50_mile_rule_violation_(1,300_miles)",
+      "regulation": "18_vac_135_20_60",
+      "penalty": "civil_penalties_up_to_$1,000_per_transaction_under_va_code_§_54.1_2105.2",
+      "supervision_requirement": "principal_broker_must_exercise_active_supervision_per_va_code_§_54.1_2106.1",
+      "impossibility": "1,300_mile_distance_makes_active_supervision_physically_impossible"
     },
     "multi_state_compliance": {
-      "foreign_qualification": "Texas-incorporated entities must qualify as foreign entities in operational states",
-      "violation_risk": "HIGH - May not be properly qualified",
-      "states_at_risk": ["VA", "MD", "DC", "CT", "NJ", "NY", "NC", "SC", "GA", "FL", "AZ", "NM", "UT"],
+      "foreign_qualification": "texas_incorporated_entities_must_qualify_as_foreign_entities_in_operational_states",
+      "violation_risk": "high_may_not_be_properly_qualified",
+      "states_at_risk": [
+        "va",
+        "md",
+        "dc",
+        "ct",
+        "nj",
+        "ny",
+        "nc",
+        "sc",
+        "ga",
+        "fl",
+        "az",
+        "nm",
+        "ut"
+      ],
       "penalties": [
-        "Inability to sue in state courts",
-        "Fines and penalties",
-        "Personal liability for officers/directors",
-        "Contract enforcement issues"
+        "inability_to_sue_in_state_courts",
+        "fines_and_penalties",
+        "personal_liability_for_officers/directors",
+        "contract_enforcement_issues"
       ]
     },
     "shell_company_concerns": {
-      "pattern": "Multiple companies at same Frisco address",
-      "regulatory_interest": "Shell companies are subject to increased scrutiny",
-      "transparency_requirements": "Beneficial ownership reporting requirements increasing"
+      "pattern": "multiple_companies_at_same_frisco_address",
+      "regulatory_interest": "shell_companies_are_subject_to_increased_scrutiny",
+      "transparency_requirements": "beneficial_ownership_reporting_requirements_increasing"
     }
   },
   "evidence_sources": {
     "texas_sos": {
-      "source": "Texas Secretary of State",
+      "source": "texas_secretary_of_state",
       "entities_found": [
-        "Lariat Realty Advisors, Inc. (filing #801459833)",
-        "Lariat Realty Advisors, LLC (filing #805759678)"
+        "lariat_realty_advisors,_inc._(filing_#801459833)",
+        "lariat_realty_advisors,_llc_(filing_#805759678)"
       ],
-      "note": "Additional Frisco address entities may exist"
+      "note": "additional_frisco_address_entities_may_exist"
     },
     "texas_trec": {
-      "source": "Texas Real Estate Commission License Holder Search",
-      "url": "https://www.trec.texas.gov/apps/license-holder-search/",
+      "source": "texas_real_estate_commission_license_holder_search",
+      "url": "https://www.trec.texas.gov/apps/license_holder_search/",
       "licenses_found": [
-        "Elizabeth Saye - TX #671787 (active)",
-        "Thoms L. Bisanz - TX broker (active, expires 2027)",
-        "Leah Douthit - TX #0622166 (inactive)"
+        "elizabeth_saye_tx_#671787_(active)",
+        "thoms_l._bisanz_tx_broker_(active,_expires_2027)",
+        "leah_douthit_tx_#0622166_(inactive)"
       ]
     },
     "virginia_scc": {
-      "source": "Virginia State Corporation Commission",
+      "source": "virginia_state_corporation_commission",
       "entity_id": "03218674",
-      "firm_name": "KETTLER MANAGEMENT INC.",
-      "status": "Active",
-      "address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA"
+      "firm_name": "kettler_management_inc.",
+      "status": "active",
+      "address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa"
     },
     "cross_state_searches": {
-      "maryland": "NOT REGISTERED (verified via state database)",
-      "district_of_columbia": "NOT REGISTERED (verified via state database)",
-      "connecticut": "NOT REGISTERED (verified via state database)",
-      "new_jersey": "NOT REGISTERED (verified via state database)",
-      "new_york": "NOT REGISTERED (verified via state database)"
+      "md": "not_registered_(verified_via_state_database)",
+      "dc": "not_registered_(verified_via_state_database)",
+      "ct": "not_registered_(verified_via_state_database)",
+      "new_jersey": "not_registered_(verified_via_state_database)",
+      "new_york": "not_registered_(verified_via_state_database)"
     }
   },
   "recommendations": {
     "immediate": [
-      "Verify foreign qualification status in all operational states",
-      "Document shell company structure and ownership",
-      "Investigate Lariat's business model and client relationships",
-      "Calculate exact distance from Frisco TX to McLean VA",
-      "Document lack of face-to-face meeting capability"
+      "verify_foreign_qualification_status_in_all_operational_states",
+      "document_shell_company_structure_and_ownership",
+      "investigate_lariat's_business_model_and_client_relationships",
+      "calculate_exact_distance_from_frisco_tx_to_mclean_va",
+      "document_lack_of_face_to_face_meeting_capability"
     ],
     "investigation": [
-      "Identify beneficial owners of Frisco address entities",
-      "Trace financial connections between entities",
-      "Document broker supervision arrangements",
-      "Verify compliance with multi-state regulations",
-      "Search Texas SOS database for all Frisco address entities"
+      "identify_beneficial_owners_of_frisco_address_entities",
+      "trace_financial_connections_between_entities",
+      "document_broker_supervision_arrangements",
+      "verify_compliance_with_multi_state_regulations",
+      "search_texas_sos_database_for_all_frisco_address_entities"
     ],
     "regulatory": [
-      "Report foreign qualification violations to each operational state",
-      "Document shell company patterns to regulatory agencies",
-      "Investigate broker supervision compliance",
-      "Review beneficial ownership disclosure requirements",
-      "Report 50-mile rule violation to Virginia DPOR"
+      "report_foreign_qualification_violations_to_each_operational_state",
+      "document_shell_company_patterns_to_regulatory_agencies",
+      "investigate_broker_supervision_compliance",
+      "review_beneficial_ownership_disclosure_requirements",
+      "report_50_mile_rule_violation_to_virginia_dpor"
     ]
   },
-  "deliverable": "Comprehensive analysis of Texas-related regulatory violations affecting Virginia operations",
+  "deliverable": "comprehensive_analysis_of_texas_related_regulatory_violations_affecting_virginia_operations",
   "next_steps": [
-    "Search Texas SOS database for all Frisco address entities",
-    "Verify foreign qualification status in operational states",
-    "Document shell company structure and ownership",
-    "Investigate Lariat's business model and client relationships",
-    "Compile evidence package for regulatory agencies"
+    "search_texas_sos_database_for_all_frisco_address_entities",
+    "verify_foreign_qualification_status_in_operational_states",
+    "document_shell_company_structure_and_ownership",
+    "investigate_lariat's_business_model_and_client_relationships",
+    "compile_evidence_package_for_regulatory_agencies"
   ],
   "metadata": {
     "file_name": "texas_regulatory_violations_analysis.json",
     "file_path": "research/va_dpor_complaint/texas_regulatory_violations_analysis.json",
-    "last_updated": "2025-12-11 05:00:00",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_11_05:00:00",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "inventory_date": "2025-12-09",
+  "inventory_date": "2025_12_09",
   "total_todos": 10,
   "by_priority": {
     "high": 2,
@@ -13,141 +13,141 @@
   },
   "todos": [
     {
-      "id": "wayback-dpor-principal_broker_gap_analysis",
+      "id": "wayback_dpor_principal_broker_gap_analysis",
       "status": "completed",
       "priority": "high",
       "file": "va_dpor_complaint/principal_broker_gap_analysis.json",
-      "description": "Search Wayback Machine for DPOR historical records",
+      "description": "search_wayback_machine_for_dpor_historical_records",
       "method": "browser",
       "url": "https://web.archive.org",
-      "completion_note": "Method verified. FOIA request required for historical records. Contact info documented."
+      "completion_note": "method_verified._foia_request_required_for_historical_records._contact_info_documented."
     },
     {
-      "id": "property-records-kettler_operations_gap_period",
+      "id": "property_records_kettler_operations_gap_period",
       "status": "in_progress",
       "priority": "high",
       "file": "va_dpor_complaint/kettler_operations_gap_period.json",
-      "description": "Search property records for unit counts",
+      "description": "search_property_records_for_unit_counts",
       "method": "browser",
-      "progress": "Methods verified for Alexandria, Arlington, Fairfax. Fields of Arlington updated to 199 units. Need to access property databases."
+      "progress": "methods_verified_for_alexandria,_arlington,_fairfax._fields_of_arlington_updated_to_199_units._need_to_access_property_databases."
     },
     {
-      "id": "regulatory-dpor_complaints-regulatory_compliance_gap_period",
+      "id": "regulatory_dpor_complaints_regulatory_compliance_gap_period",
       "status": "pending",
       "priority": "medium",
       "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
-      "description": "Research dpor_complaints regulatory issues",
+      "description": "research_dpor_complaints_regulatory_issues",
       "method": "browser",
-      "note": "DPOR complaint database may require FOIA request"
+      "note": "dpor_complaint_database_may_require_foia_request"
     },
     {
-      "id": "regulatory-fair_housing_complaints-regulatory_compliance_gap_period",
+      "id": "regulatory_fair_housing_complaints_regulatory_compliance_gap_period",
       "status": "pending",
       "priority": "medium",
       "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
-      "description": "Research fair_housing_complaints regulatory issues",
+      "description": "research_fair_housing_complaints_regulatory_issues",
       "method": "browser",
-      "note": "HUD complaint database, fair housing organization records"
+      "note": "hud_complaint_database,_fair_housing_organization_records"
     },
     {
-      "id": "regulatory-business_license_violations-regulatory_compliance_gap_period",
+      "id": "regulatory_business_license_violations_regulatory_compliance_gap_period",
       "status": "pending",
       "priority": "medium",
       "file": "va_dpor_complaint/regulatory_compliance_gap_period.json",
-      "description": "Research business_license_violations regulatory issues",
+      "description": "research_business_license_violations_regulatory_issues",
       "method": "browser",
-      "note": "Local business license databases, business registration records"
+      "note": "local_business_license_databases,_business_registration_records"
     },
     {
-      "id": "complete-all_states_license_search_status",
+      "id": "complete_all_states_license_search_status",
       "status": "pending",
       "priority": "medium",
       "file": "search_results/all_states_license_search_status.json",
-      "description": "Complete research in search_results/all_states_license_search_status.json",
+      "description": "complete_research_in_search_results/all_states_license_search_status.json",
       "issues": []
     },
     {
-      "id": "complete-kettler_employees_license_search_results",
+      "id": "complete_kettler_employees_license_search_results",
       "status": "pending",
       "priority": "medium",
       "file": "search_results/kettler_employees_license_search_results.json",
-      "description": "Complete research in search_results/kettler_employees_license_search_results.json",
+      "description": "complete_research_in_search_results/kettler_employees_license_search_results.json",
       "issues": []
     },
     {
-      "id": "complete-kettler_employees_license_search_comprehensive",
+      "id": "complete_kettler_employees_license_search_comprehensive",
       "status": "pending",
       "priority": "medium",
       "file": "search_results/kettler_employees_license_search_comprehensive.json",
-      "description": "Complete research in search_results/kettler_employees_license_search_comprehensive.json",
+      "description": "complete_research_in_search_results/kettler_employees_license_search_comprehensive.json",
       "issues": []
     },
     {
-      "id": "complete-all_states_search_status_update",
+      "id": "complete_all_states_search_status_update",
       "status": "pending",
       "priority": "medium",
       "file": "search_results/all_states_search_status_update.json",
-      "description": "Complete research in search_results/all_states_search_status_update.json",
+      "description": "complete_research_in_search_results/all_states_search_status_update.json",
       "issues": []
     },
     {
-      "id": "complete-kettler_employees_all_states_license_search",
+      "id": "complete_kettler_employees_all_states_license_search",
       "status": "pending",
       "priority": "medium",
       "file": "search_results/kettler_employees_all_states_license_search.json",
-      "description": "Complete research in search_results/kettler_employees_all_states_license_search.json",
+      "description": "complete_research_in_search_results/kettler_employees_all_states_license_search.json",
       "issues": []
     }
   ],
   "additional_todos_from_active_list": [
     {
-      "id": "personnel-license-verification",
+      "id": "personnel_license_verification",
       "status": "in_progress",
       "priority": "high",
-      "description": "Complete multi-state license verification for all Kettler personnel",
-      "progress": "VA verification complete (no licenses found for 4 personnel). Need TX, MD, DC, NC searches."
+      "description": "complete_multi_state_license_verification_for_all_kettler_personnel",
+      "progress": "va_verification_complete_(no_licenses_found_for_4_personnel)._need_tx,_md,_dc,_nc_searches."
     },
     {
-      "id": "regulatory-issues-research",
+      "id": "regulatory_issues_research",
       "status": "pending",
       "priority": "medium",
-      "description": "Research DPOR complaints, fair housing, and business license violations"
+      "description": "research_dpor_complaints,_fair_housing,_and_business_license_violations"
     },
     {
-      "id": "media-coverage-expansion",
+      "id": "media_coverage_expansion",
       "status": "pending",
       "priority": "medium",
-      "description": "Expand media coverage analysis with additional sources"
+      "description": "expand_media_coverage_analysis_with_additional_sources"
     },
     {
-      "id": "corporate-structure-details",
+      "id": "corporate_structure_details",
       "status": "pending",
       "priority": "medium",
-      "description": "Complete corporate structure analysis with detailed filings"
+      "description": "complete_corporate_structure_analysis_with_detailed_filings"
     },
     {
-      "id": "financial-scale-verification",
+      "id": "financial_scale_verification",
       "status": "pending",
       "priority": "medium",
-      "description": "Verify financial scale data through property records"
+      "description": "verify_financial_scale_data_through_property_records"
     },
     {
-      "id": "supervision-capacity-analysis",
+      "id": "supervision_capacity_analysis",
       "status": "pending",
       "priority": "medium",
-      "description": "Complete supervision capacity analysis"
+      "description": "complete_supervision_capacity_analysis"
     },
     {
-      "id": "unlicensed-activities-documentation",
+      "id": "unlicensed_activities_documentation",
       "status": "pending",
       "priority": "medium",
-      "description": "Complete documentation of all unlicensed activities"
+      "description": "complete_documentation_of_all_unlicensed_activities"
     },
     {
-      "id": "consumer-complaints-expansion",
+      "id": "consumer_complaints_expansion",
       "status": "pending",
       "priority": "medium",
-      "description": "Expand consumer complaints analysis with detailed dates"
+      "description": "expand_consumer_complaints_analysis_with_detailed_dates"
     }
   ],
   "summary": {
@@ -161,9 +161,9 @@
   },
   "incomplete_files_count": 24,
   "next_actions": [
-    "Continue property records search (high priority)",
-    "Complete multi-state license verification (high priority)",
-    "Research regulatory issues (medium priority)",
-    "Complete search_results files (medium priority)"
+    "continue_property_records_search_(high_priority)",
+    "complete_multi_state_license_verification_(high_priority)",
+    "research_regulatory_issues_(medium_priority)",
+    "complete_search_results_files_(medium_priority)"
   ]
 }

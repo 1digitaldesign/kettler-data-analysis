@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.574597",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/assumed_names/assumed_name_129768500_0.json",
+    "created": "2025_12_11t00:21:41.574597",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/assumed_names/assumed_name_129768500_0.json",
     "has_embedding": true
   },
   "data": {
-    "assumed_name": "Affinity Temporary Housing",
-    "date_of_filing": "June 20, 2011",
-    "expiration_date": "June 20, 2021",
-    "inactive_date": "June 20, 2021",
-    "name_status": "Expired",
-    "counties": "All Counties"
+    "assumed_name": "affinity_temporary_housing",
+    "date_of_filing": "june_20,_2011",
+    "expiration_date": "june_20,_2021",
+    "inactive_date": "june_20,_2021",
+    "name_status": "expired",
+    "counties": "all_counties"
   },
-  "text_representation": "assumed_name: Affinity Temporary Housing | date_of_filing: June 20, 2011 | expiration_date: June 20, 2021 | inactive_date: June 20, 2021 | name_status: Expired | counties: All Counties",
+  "text_representation": "assumed_name:_affinity_temporary_housing_|_date_of_filing:_june_20,_2011_|_expiration_date:_june_20,_2021_|_inactive_date:_june_20,_2021_|_name_status:_expired_|_counties:_all_counties",
   "embedding": [
     -0.0040152003057301044,
     -0.02416655793786049,

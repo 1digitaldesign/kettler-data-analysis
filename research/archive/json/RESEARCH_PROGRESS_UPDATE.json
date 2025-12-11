@@ -1,39 +1,39 @@
 {
-  "update_date": "2025-12-09",
+  "update_date": "2025_12_09",
   "status": "in_progress",
   "completed_tasks": [
     {
-      "task": "wayback-dpor-search",
+      "task": "wayback_dpor_search",
       "status": "completed",
-      "findings": "Historical DPOR records not accessible online. FOIA request required. Contact: PublicRecords@dpor.virginia.gov"
+      "findings": "historical_dpor_records_not_accessible_online._foia_request_required._contact:_publicrecords@dpor.virginia.gov"
     },
     {
-      "task": "property-records-methods",
+      "task": "property_records_methods",
       "status": "completed",
-      "findings": "Verified property record access methods for Alexandria, Arlington, and Fairfax County"
+      "findings": "verified_property_record_access_methods_for_alexandria,_arlington,_and_fairfax_county"
     },
     {
-      "task": "personnel-license-verification-va",
+      "task": "personnel_license_verification_va",
       "status": "in_progress",
-      "findings": "Robert Grealy, Amy Groff, Tracy Fones, Djene Moyer - no Virginia licenses found"
+      "findings": "robert_grealy,_amy_groff,_tracy_fones,_djene_moyer_no_virginia_licenses_found"
     }
   ],
   "in_progress_tasks": [
     {
-      "task": "property-records-search",
+      "task": "property_records_search",
       "priority": "high",
       "next_steps": [
-        "Access Alexandria Real Estate Assessment Search",
-        "Access Fairfax County property records",
-        "Access Arlington County property records"
+        "access_alexandria_real_estate_assessment_search",
+        "access_fairfax_county_property_records",
+        "access_arlington_county_property_records"
       ]
     },
     {
-      "task": "personnel-license-verification",
+      "task": "personnel_license_verification",
       "priority": "high",
       "next_steps": [
-        "Search TX, MD, DC, NC license databases",
-        "Complete multi-state verification matrix"
+        "search_tx,_md,_dc,_nc_license_databases",
+        "complete_multi_state_verification_matrix"
       ]
     }
   ],

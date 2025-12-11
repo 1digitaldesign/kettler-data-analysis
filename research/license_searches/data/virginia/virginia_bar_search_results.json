@@ -1,20 +1,20 @@
 {
-  "search_date": "2025-12-07",
+  "search_date": "2025_12_07",
   "searches": {
     "Edward Hyland": {
-      "name": "Edward Hyland",
+      "name": "edward_hyland",
       "search_performed": false,
       "license_found": false,
-      "note": "Requires manual search at https://www.vsb.org/site/members/member-directory",
-      "violation_if_no_license": "Unauthorized Practice of Law (UPL)"
+      "note": "requires_manual_search_at_https://www.vsb.org/site/members/member_directory",
+      "violation_if_no_license": "unauthorized_practice_of_law_(upl)"
     },
     "Sean Curtin": {
-      "name": "Sean Curtin",
+      "name": "sean_curtin",
       "search_performed": false,
       "license_found": false,
-      "note": "Requires manual search at https://www.vsb.org/site/members/member-directory",
-      "violation_if_no_license": "None"
+      "note": "requires_manual_search_at_https://www.vsb.org/site/members/member_directory",
+      "violation_if_no_license": "none"
     }
   },
-  "note": "Manual search required at Virginia State Bar website"
+  "note": "manual_search_required_at_virginia_state_bar_website"
 }

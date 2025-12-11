@@ -1,47 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "search_date": "2025-12-10T23:15:38",
-    "state": "Connecticut",
-    "state_code": "CT",
-    "employee": "Christina Chang",
+    "date": "2025_12_10",
+    "search_date": "2025_12_10t23:15:38",
+    "state": "ct",
+    "state_code": "ct",
+    "employee": "christina_chang",
     "employee_key": "christina_chang",
-    "title": "Head of Asset Management",
+    "title": "head_of_asset_management",
     "search_url": "https://www.ct.gov/dcp/cwp/view.asp?a=1621&q=274200",
-    "search_method": "Browser automation - Connecticut Department of Consumer Protection",
+    "search_method": "browser_automation_connecticut_department_of_consumer_protection",
     "license_types_searched": [
-      "Real Estate Broker",
-      "Real Estate Salesperson"
+      "real_estate_broker",
+      "real_estate_salesperson"
     ],
-    "regulatory_body": "Connecticut Department of Consumer Protection",
-    "license_category": "Real Estate",
+    "regulatory_body": "connecticut_department_of_consumer_protection",
+    "license_category": "real_estate",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
-    "note": "Real estate license search completed via Browser automation - Connecticut Department of Consumer Protection"
+    "note": "real_estate_license_search_completed_via_browser_automation_connecticut_department_of_consumer_protection"
   },
   "findings": {
     "christina_chang": {
-      "full_name": "Christina Chang",
+      "full_name": "christina_chang",
       "employee_key": "christina_chang",
-      "title": "Head of Asset Management",
-      "license_type_searched": "Real Estate Broker",
+      "title": "head_of_asset_management",
+      "license_type_searched": "real_estate_broker",
       "all_license_types_searched": [
-        "Real Estate Broker",
-        "Real Estate Salesperson"
+        "real_estate_broker",
+        "real_estate_salesperson"
       ],
       "search_executed": true,
-      "search_date": "2025-12-10",
+      "search_date": "2025_12_10",
       "results_found": 0,
       "real_estate_license": false,
-      "license_status": "Not found",
-      "regulatory_body": "Connecticut Department of Consumer Protection",
+      "license_status": "not_found",
+      "regulatory_body": "connecticut_department_of_consumer_protection",
       "search_url": "https://www.ct.gov/dcp/cwp/view.asp?a=1621&q=274200",
-      "search_method": "Browser automation - Connecticut Department of Consumer Protection",
-      "note": "No real estate license found in Connecticut for Christina Chang. Search performed via Browser automation - Connecticut Department of Consumer Protection"
+      "search_method": "browser_automation_connecticut_department_of_consumer_protection",
+      "note": "no_real_estate_license_found_in_connecticut_for_christina_chang._search_performed_via_browser_automation_connecticut_department_of_consumer_protection"
     }
   },
-  "conclusion": "Christina Chang DOES NOT HAVE a real estate license in Connecticut. Search performed via Browser automation - Connecticut Department of Consumer Protection",
-  "license_status": "Not found",
+  "conclusion": "christina_chang_does_not_have_a_real_estate_license_in_connecticut._search_performed_via_browser_automation_connecticut_department_of_consumer_protection",
+  "license_status": "not_found",
   "verification_status": "verified"
 }

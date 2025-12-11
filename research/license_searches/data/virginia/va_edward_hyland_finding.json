@@ -1,47 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "search_date": "2025-12-10T23:15:38",
-    "state": "Virginia",
-    "state_code": "VA",
-    "employee": "Edward Hyland",
+    "date": "2025_12_10",
+    "search_date": "2025_12_10t23:15:38",
+    "state": "va",
+    "state_code": "va",
+    "employee": "edward_hyland",
     "employee_key": "edward_hyland",
-    "title": "Senior Regional Manager",
-    "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
-    "search_method": "Browser automation - Virginia Department of Professional and Occupational Regulation",
+    "title": "senior_regional_manager",
+    "search_url": "https://www.dpor.virginia.gov/licenselookup",
+    "search_method": "browser_automation_virginia_department_of_professional_and_occupational_regulation",
     "license_types_searched": [
-      "Real Estate Broker",
-      "Real Estate Salesperson"
+      "real_estate_broker",
+      "real_estate_salesperson"
     ],
-    "regulatory_body": "Virginia Department of Professional and Occupational Regulation",
-    "license_category": "Real Estate",
+    "regulatory_body": "virginia_department_of_professional_and_occupational_regulation",
+    "license_category": "real_estate",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
-    "note": "Real estate license search completed via Browser automation - Virginia Department of Professional and Occupational Regulation"
+    "note": "real_estate_license_search_completed_via_browser_automation_virginia_department_of_professional_and_occupational_regulation"
   },
   "findings": {
     "edward_hyland": {
-      "full_name": "Edward Hyland",
+      "full_name": "edward_hyland",
       "employee_key": "edward_hyland",
-      "title": "Senior Regional Manager",
-      "license_type_searched": "Real Estate Broker",
+      "title": "senior_regional_manager",
+      "license_type_searched": "real_estate_broker",
       "all_license_types_searched": [
-        "Real Estate Broker",
-        "Real Estate Salesperson"
+        "real_estate_broker",
+        "real_estate_salesperson"
       ],
       "search_executed": true,
-      "search_date": "2025-12-10",
+      "search_date": "2025_12_10",
       "results_found": 0,
       "real_estate_license": false,
-      "license_status": "Not found",
-      "regulatory_body": "Virginia Department of Professional and Occupational Regulation",
-      "search_url": "https://www.dpor.virginia.gov/LicenseLookup",
-      "search_method": "Browser automation - Virginia Department of Professional and Occupational Regulation",
-      "note": "No real estate license found in Virginia for Edward Hyland. Search performed via Browser automation - Virginia Department of Professional and Occupational Regulation"
+      "license_status": "not_found",
+      "regulatory_body": "virginia_department_of_professional_and_occupational_regulation",
+      "search_url": "https://www.dpor.virginia.gov/licenselookup",
+      "search_method": "browser_automation_virginia_department_of_professional_and_occupational_regulation",
+      "note": "no_real_estate_license_found_in_virginia_for_edward_hyland._search_performed_via_browser_automation_virginia_department_of_professional_and_occupational_regulation"
     }
   },
-  "conclusion": "Edward Hyland DOES NOT HAVE a real estate license in Virginia. Search performed via Browser automation - Virginia Department of Professional and Occupational Regulation",
-  "license_status": "Not found",
+  "conclusion": "edward_hyland_does_not_have_a_real_estate_license_in_virginia._search_performed_via_browser_automation_virginia_department_of_professional_and_occupational_regulation",
+  "license_status": "not_found",
   "verification_status": "verified"
 }

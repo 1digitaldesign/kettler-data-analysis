@@ -25,7 +25,7 @@ EMPLOYEES = [
 ]
 
 STATES = [
-    'District of Columbia', 'Maryland', 'Virginia', 'New Jersey',
+    'dc', 'Maryland', 'Virginia', 'New Jersey',
     'New York', 'Connecticut'
 ]
 

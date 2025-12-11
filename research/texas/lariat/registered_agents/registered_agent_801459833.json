@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:39.795558",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_801459833.json",
+    "created": "2025_12_11t00:21:39.795558",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_801459833.json",
     "has_embedding": true
   },
   "data": {
-    "name": "Thoms L Bisanz",
-    "address": "4600 Firestone Drive",
+    "name": "thoms_l_bisanz",
+    "address": "4600_firestone_drive",
     "inactive_date": null
   },
-  "text_representation": "name: Thoms L Bisanz | address: 4600 Firestone Drive",
+  "text_representation": "name:_thoms_l_bisanz_|_address:_4600_firestone_drive",
   "embedding": [
     -0.009446494281291962,
     0.07301420718431473,

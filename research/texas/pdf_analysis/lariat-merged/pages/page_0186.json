@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.284479",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0186.json",
+    "created": "2025_12_11t00:52:02.284479",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0186.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 186,
-    "text": "¥ .s.\n03287161831\nhowrceVry MCa. icePre sidentRegionalV No 2925Bri arpSua ie1rk,t 220\n7X 7T042Houostn ,\ndeaWA. alePma icePre sidentV No idwelSul ie1.t 04Te st7025W\n7X 7T092Houostn ,\noni Jtra. BrirbaBa No\nAssiaSestn creattry amaoRt oaSud ie5,t 10Y777\n3 3431BocaRL aoFtn ,\norylaTJ oe\nicePre sidentRegionalV No 2859PaeR ceFrry os aSud ie1,t 450\n3 0339lAAtaGna t,\nKiSmam ll nt PsdeereiciV lonagiRe No 2925Bri arpSua ie1rk,t 220\n7X 7T042Houostn ,\nLaoaGeret gtler nt PsdeereiciV lonagiRe No 828re0Ge nsboroD riSuve ie6,t 05\n2 2102AMcLeaVn ,\nRdo ebE.Brue irtn nt PsdeereiciV lonagiRe No venuSue ie1,t 400A3500Ma ple\n7X 5T219Dalla s,\nD eBretnottn nt PsdeereiciV lonagiRe No\nAuistnC eSuneBl ie2tr vd,t 0.06850\n7X 8T731Auistn ,\nnt PsdeereiciV lonagiRe No\nMichiaGne glJ.\namaoRt oaSud ie5,t 10Y777\n3 3431BocaRL aoFtn ,",
+    "text": "¥_.s._03287161831_howrcevry_mca._icepre_sidentregionalv_no_2925bri_arpsua_ie1rk,t_220_7x_7t042houostn_,_deawa._alepma_icepre_sidentv_no_idwelsul_ie1.t_04te_st7025w_7x_7t092houostn_,_oni_jtra._brirbaba_no_assiasestn_creattry_amaort_oasud_ie5,t_10y777_3_3431bocarl_aoftn_,_orylatj_oe_icepre_sidentregionalv_no_2859paer_cefrry_os_asud_ie1,t_450_3_0339laatagna_t,_kismam_ll_nt_psdeereiciv_lonagire_no_2925bri_arpsua_ie1rk,t_220_7x_7t042houostn_,_laoageret_gtler_nt_psdeereiciv_lonagire_no_828re0ge_nsborod_risuve_ie6,t_05_2_2102amcleavn_,_rdo_ebe.brue_irtn_nt_psdeereiciv_lonagire_no_venusue_ie1,t_400a3500ma_ple_7x_5t219dalla_s,_d_ebretnottn_nt_psdeereiciv_lonagire_no_auistnc_esunebl_ie2tr_vd,t_0.06850_7x_8t731auistn_,_nt_psdeereiciv_lonagire_no_michiagne_glj._amaort_oasud_ie5,t_10y777_3_3431bocarl_aoftn_,",
     "char_count": 806,
     "word_count": 124,
     "anomalies": {
       "page_number": 186,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 186 | text: ¥ .s.\n03287161831\nhowrceVry MCa. icePre sidentRegionalV No 2925Bri arpSua ie1rk,t 220\n7X 7T042Houostn ,\ndeaWA. alePma icePre sidentV No idwelSul ie1.t 04Te st7025W\n7X 7T092Houostn ,\noni Jtra. BrirbaBa No\nAssiaSestn creattry amaoRt oaSud ie5,t 10Y777\n3 3431BocaRL aoFtn ,\norylaTJ oe\nicePre sidentRegionalV No 2859PaeR ceFrry os aSud ie1,t 450\n3 0339lAAtaGna t,\nKiSmam ll nt PsdeereiciV lonagiRe No 2925Bri arpSua ie1rk,t 220\n7X 7T042Houostn ,\nLaoaGeret gtler nt PsdeereiciV lonagiRe No 828re0Ge nsboroD riSuve ie6,t 05\n2 2102AMcLeaVn ,\nRdo ebE.Brue irtn nt PsdeereiciV lonagiRe No venuSue ie1,t 400A3500Ma ple\n7X 5T219Dalla s,\nD eBretnottn nt PsdeereiciV lonagiRe No\nAuistnC eSuneBl ie2tr vd,t 0.06850\n7X 8T731Auistn ,\nnt PsdeereiciV lonagiRe No\nMichiaGne glJ.\namaoRt oaSud ie5,t 10Y777\n3 3431BocaRL aoFtn , | char_count: 806 | word_count: 124 | anomalies: {\"page_number\":186,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_186_|_text:_¥_.s._03287161831_howrcevry_mca._icepre_sidentregionalv_no_2925bri_arpsua_ie1rk,t_220_7x_7t042houostn_,_deawa._alepma_icepre_sidentv_no_idwelsul_ie1.t_04te_st7025w_7x_7t092houostn_,_oni_jtra._brirbaba_no_assiasestn_creattry_amaort_oasud_ie5,t_10y777_3_3431bocarl_aoftn_,_orylatj_oe_icepre_sidentregionalv_no_2859paer_cefrry_os_asud_ie1,t_450_3_0339laatagna_t,_kismam_ll_nt_psdeereiciv_lonagire_no_2925bri_arpsua_ie1rk,t_220_7x_7t042houostn_,_laoageret_gtler_nt_psdeereiciv_lonagire_no_828re0ge_nsborod_risuve_ie6,t_05_2_2102amcleavn_,_rdo_ebe.brue_irtn_nt_psdeereiciv_lonagire_no_venusue_ie1,t_400a3500ma_ple_7x_5t219dalla_s,_d_ebretnottn_nt_psdeereiciv_lonagire_no_auistnc_esunebl_ie2tr_vd,t_0.06850_7x_8t731auistn_,_nt_psdeereiciv_lonagire_no_michiagne_glj._amaort_oasud_ie5,t_10y777_3_3431bocarl_aoftn_,_|_char_count:_806_|_word_count:_124_|_anomalies:_{\"page_number\":186,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06679782271385193,
     0.0021995375864207745,

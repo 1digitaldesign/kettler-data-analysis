@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.589381",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0071.json",
+    "created": "2025_12_11t00:51:59.589381",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0071.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 71,
-    "text": "THE STATE OF TEXAS\nCOUNTY OF HARRIS\nI, a notary public, do hereby certify that on this\nday of February, 1965, personally appeared before me\nGROVER H. LOCKWOOD, who declared to me that he is Executive Vice-\nPresident of the corporation executing the foregoing document,\nand being first duly sworn, acknowledged that he signed the fore-\ngoing document in the capacity therein set forth and declared\nthat the statements therein contained are true.\nIN WITNESS WHEREOF, I have hereunto set my hand and\ni a ena day and year before written.\nand for\nHarris County, TE X A S\ni Soy commission expires:\nfrise! 1905 CMy ommissionExp ireJus n1e1 9 ,6.5..",
+    "text": "the_state_of_texas_county_of_harris_i,_a_notary_public,_do_hereby_certify_that_on_this_day_of_february,_1965,_personally_appeared_before_me_grover_h._lockwood,_who_declared_to_me_that_he_is_executive_vice_president_of_the_corporation_executing_the_foregoing_document,_and_being_first_duly_sworn,_acknowledged_that_he_signed_the_fore_going_document_in_the_capacity_therein_set_forth_and_declared_that_the_statements_therein_contained_are_true._in_witness_whereof,_i_have_hereunto_set_my_hand_and_i_a_ena_day_and_year_before_written._and_for_harris_county,_te_x_a_s_i_soy_commission_expires:_frise!_1905_cmy_ommissionexp_irejus_n1e1_9_,6.5..",
     "char_count": 641,
     "word_count": 111,
     "anomalies": {
       "page_number": 71,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 71 | text: THE STATE OF TEXAS\nCOUNTY OF HARRIS\nI, a notary public, do hereby certify that on this\nday of February, 1965, personally appeared before me\nGROVER H. LOCKWOOD, who declared to me that he is Executive Vice-\nPresident of the corporation executing the foregoing document,\nand being first duly sworn, acknowledged that he signed the fore-\ngoing document in the capacity therein set forth and declared\nthat the statements therein contained are true.\nIN WITNESS WHEREOF, I have hereunto set my hand and\ni a ena day and year before written.\nand for\nHarris County, TE X A S\ni Soy commission expires:\nfrise! 1905 CMy ommissionExp ireJus n1e1 9 ,6.5.. | char_count: 641 | word_count: 111 | anomalies: {\"page_number\":71,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_71_|_text:_the_state_of_texas_county_of_harris_i,_a_notary_public,_do_hereby_certify_that_on_this_day_of_february,_1965,_personally_appeared_before_me_grover_h._lockwood,_who_declared_to_me_that_he_is_executive_vice_president_of_the_corporation_executing_the_foregoing_document,_and_being_first_duly_sworn,_acknowledged_that_he_signed_the_fore_going_document_in_the_capacity_therein_set_forth_and_declared_that_the_statements_therein_contained_are_true._in_witness_whereof,_i_have_hereunto_set_my_hand_and_i_a_ena_day_and_year_before_written._and_for_harris_county,_te_x_a_s_i_soy_commission_expires:_frise!_1905_cmy_ommissionexp_irejus_n1e1_9_,6.5.._|_char_count:_641_|_word_count:_111_|_anomalies:_{\"page_number\":71,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.07258374243974686,
     0.02017100527882576,

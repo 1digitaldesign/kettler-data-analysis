@@ -1,18 +1,18 @@
 {
-  "research_date": "2025-12-10",
-  "priority": "EXPANDED: Complete License Verification for All Kettler and Lariat Personnel",
-  "objective": "Verify licenses for all identified Kettler employees, executives, and Lariat Realty Advisors personnel across all 16 states",
+  "research_date": "2025_12_10",
+  "priority": "expanded:_complete_license_verification_for_all_kettler_and_lariat_personnel",
+  "objective": "verify_licenses_for_all_identified_kettler_employees,_executives,_and_lariat_realty_advisors_personnel_across_all_16_states",
   "status": "in_progress",
   "personnel_categories": {
     "verified_personnel": {
       "count": 5,
-      "status": "100% complete - all 16 states verified",
+      "status": "100%_complete_all_16_states_verified",
       "personnel": [
-        "Edward Hyland",
-        "Robert Grealy",
-        "Amy Groff",
-        "Tracy Fones",
-        "Djene Moyer"
+        "edward_hyland",
+        "robert_grealy",
+        "amy_groff",
+        "tracy_fones",
+        "djene_moyer"
       ]
     },
     "kettler_executives": {
@@ -20,51 +20,51 @@
       "status": "pending_verification",
       "personnel": [
         {
-          "name": "Robert C. Kettler",
-          "title": "Founder & CEO",
+          "name": "robert_c._kettler",
+          "title": "founder_&_ceo",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Cynthia Fisher",
-          "title": "President",
+          "name": "cynthia_fisher",
+          "title": "president",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Sean Curtin",
-          "title": "Executive Vice President & General Counsel",
+          "name": "sean_curtin",
+          "title": "executive_vice_president_&_general_counsel",
           "needs_bar_check": true,
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Patrick Cassada",
-          "title": "Chief Financial Officer",
+          "name": "patrick_cassada",
+          "title": "chief_financial_officer",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Luke Davis",
-          "title": "Chief Investment Officer",
+          "name": "luke_davis",
+          "title": "chief_investment_officer",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Greg Slang",
-          "title": "Executive Vice President, Asset Management",
+          "name": "greg_slang",
+          "title": "executive_vice_president,_asset_management",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "J.D. Sitton",
-          "title": "Executive Vice President, Capital Markets & Strategy",
+          "name": "j.d._sitton",
+          "title": "executive_vice_president,_capital_markets_&_strategy",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Pamela Tyrrell",
-          "title": "Executive Vice President, Multifamily Development & Construction",
+          "name": "pamela_tyrrell",
+          "title": "executive_vice_president,_multifamily_development_&_construction",
           "verification_status": "pending",
           "states_to_search": 16
         }
@@ -75,32 +75,32 @@
       "status": "pending_verification",
       "personnel": [
         {
-          "name": "Kristina Thoummarath",
-          "title": "Chief of Staff",
+          "name": "kristina_thoummarath",
+          "title": "chief_of_staff",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Christina Chang",
-          "title": "Head of Asset Management",
+          "name": "christina_chang",
+          "title": "head_of_asset_management",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Todd Bowen",
-          "title": "SVP Strategic Services",
+          "name": "todd_bowen",
+          "title": "svp_strategic_services",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Jeffrey Williams",
-          "title": "VP Human Resources",
+          "name": "jeffrey_williams",
+          "title": "vp_human_resources",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Henry Ramos",
-          "title": "Property Manager",
+          "name": "henry_ramos",
+          "title": "property_manager",
           "verification_status": "pending",
           "states_to_search": 16
         }
@@ -111,30 +111,30 @@
       "status": "pending_verification",
       "personnel": [
         {
-          "name": "Elizabeth Saye",
-          "also_known_as": "Liddy Bisanz saye",
-          "title": "Broker",
-          "company": "Lariat Realty Advisors",
+          "name": "elizabeth_saye",
+          "also_known_as": "liddy_bisanz_saye",
+          "title": "broker",
+          "company": "lariat_realty_advisors",
           "email": "liddy@lariatrealtyadvisors.com",
-          "phone": "(214) 210-2117",
-          "address": "6700 Antioch Road, Frisco, TX",
-          "connection": "Associated with Caitlin Skidmore",
+          "phone": "(214)_210_2117",
+          "address": "6700_antioch_road,_frisco,_tx",
+          "connection": "associated_with_caitlin_skidmore",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Thoms L. Bisanz",
-          "title": "Executive Director",
-          "company": "Lariat Realty Advisors",
-          "address": "6700 Antioch Road, Frisco, TX",
+          "name": "thoms_l._bisanz",
+          "title": "executive_director",
+          "company": "lariat_realty_advisors",
+          "address": "6700_antioch_road,_frisco,_tx",
           "verification_status": "pending",
           "states_to_search": 16
         },
         {
-          "name": "Leah Douthit",
-          "title": "Real Estate Agent",
-          "company": "Monument Realty (not Lariat)",
-          "note": "Search indicates she is with Monument Realty, not Lariat Realty Advisors",
+          "name": "leah_douthit",
+          "title": "real_estate_agent",
+          "company": "monument_realty_(not_lariat)",
+          "note": "search_indicates_she_is_with_monument_realty,_not_lariat_realty_advisors",
           "verification_status": "pending",
           "states_to_search": 16
         }
@@ -151,34 +151,34 @@
     "completion_percentage": "23.8%"
   },
   "states_to_search": [
-    "Virginia (VA)",
-    "Texas (TX)",
-    "Maryland (MD)",
-    "District of Columbia (DC)",
-    "North Carolina (NC)",
-    "Missouri (MO)",
-    "Nebraska (NE)",
-    "California (CA)",
-    "Arizona (AZ)",
-    "Connecticut (CT)",
-    "Florida (FL)",
-    "Georgia (GA)",
-    "New Mexico (NM)",
-    "Pennsylvania (PA)",
-    "South Carolina (SC)",
-    "Utah (UT)"
+    "virginia_(va)",
+    "texas_(tx)",
+    "maryland_(md)",
+    "district_of_columbia_(dc)",
+    "north_carolina_(nc)",
+    "missouri_(mo)",
+    "nebraska_(ne)",
+    "california_(ca)",
+    "arizona_(az)",
+    "connecticut_(ct)",
+    "florida_(fl)",
+    "georgia_(ga)",
+    "new_mexico_(nm)",
+    "pennsylvania_(pa)",
+    "south_carolina_(sc)",
+    "utah_(ut)"
   ],
   "next_steps": [
-    "Begin systematic license verification for all 16 pending personnel",
-    "Search all 16 states for each personnel member",
-    "Document all findings in main personnel_license_verification.json",
-    "Complete verification matrix for all 21 personnel"
+    "begin_systematic_license_verification_for_all_16_pending_personnel",
+    "search_all_16_states_for_each_personnel_member",
+    "document_all_findings_in_main_personnel_license_verification.json",
+    "complete_verification_matrix_for_all_21_personnel"
   ],
   "metadata": {
     "file_name": "expanded_personnel_verification.json",
     "file_path": "research/va_dpor_complaint/expanded_personnel_verification.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

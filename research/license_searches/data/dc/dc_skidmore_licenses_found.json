@@ -1,68 +1,68 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "state": "District of Columbia",
-    "search_url": "https://govservices.dcra.dc.gov/oplaportal/Home/GetLicenseSearchDetails",
+    "date": "2025_12_07",
+    "state": "dc",
+    "search_url": "https://govservices.dcra.dc.gov/oplaportal/home/getlicensesearchdetails",
     "status": "results_found",
-    "method": "Playwright browser automation"
+    "method": "playwright_browser_automation"
   },
   "caitlin_skidmore": {
-    "name": "Caitlin Skidmore",
+    "name": "caitlin_skidmore",
     "results_found": 2,
     "licenses": [
       {
-        "license_number": "BR40000429",
-        "license_type": "Real Estate Broker",
-        "status": "Active",
+        "license_number": "br40000429",
+        "license_type": "real_estate_broker",
+        "status": "active",
         "initial_issue_date": "02/25/2025",
         "effective_date": "02/25/2025",
         "expiration_date": "02/28/2027",
         "affiliated_agencies": [
-          "Redwood Communities, Inc.",
-          "BAINBRIDGE MID-ATLANTIC MANAGEMENT LLC",
-          "LANDEX MANAGEMENT, LLC",
-          "Phase V SDFH Mid-Atlantic PM LLC",
-          "Grubb Management, LLC",
-          "LINCOLN EASTERN MANAGEMENT CORPORATION",
-          "Pinnacle Property Management Services, LLC",
-          "B.Hom Student Living, LLC",
-          "WINN MANAGED PROPERTIES, LLC",
-          "CAPREIT Residential Management, LLC",
-          "Hines Living US LLC",
-          "Edgewood Management Corporation",
-          "Up Campus Management, LLC",
-          "Franklin Group Companies LLC",
-          "APT Residential LLC",
-          "MCCORMACK BARON MANAGEMENT, INC",
-          "BELL PARTNERS INC.",
-          "BOZZUTO MANAGEMENT COMPANY",
-          "GABLES RESIDENTIAL SERVICES, INC.",
-          "UIP Property Management, Inc",
-          "Mill Creek Residential Services LLC",
-          "WINN MANAGEMENT COMPANY LLC",
-          "KETTLER MANAGEMENT INC",
-          "LCOR ASSET MANAGEMENT LIMITED PARTNERSHIP"
+          "redwood_communities,_inc.",
+          "bainbridge_mid_atlantic_management_llc",
+          "landex_management,_llc",
+          "phase_v_sdfh_mid_atlantic_pm_llc",
+          "grubb_management,_llc",
+          "lincoln_eastern_management_corporation",
+          "pinnacle_property_management_services,_llc",
+          "b.hom_student_living,_llc",
+          "winn_managed_properties,_llc",
+          "capreit_residential_management,_llc",
+          "hines_living_us_llc",
+          "edgewood_management_corporation",
+          "up_campus_management,_llc",
+          "franklin_group_companies_llc",
+          "apt_residential_llc",
+          "mccormack_baron_management,_inc",
+          "bell_partners_inc.",
+          "bozzuto_management_company",
+          "gables_residential_services,_inc.",
+          "uip_property_management,_inc",
+          "mill_creek_residential_services_llc",
+          "winn_management_company_llc",
+          "kettler_management_inc",
+          "lcor_asset_management_limited_partnership"
         ]
       },
       {
-        "license_number": "IBF40000014",
-        "license_type": "Independent Broker",
-        "status": "Active",
+        "license_number": "ibf40000014",
+        "license_type": "independent_broker",
+        "status": "active",
         "initial_issue_date": "01/19/2022",
         "effective_date": "03/01/2025",
         "expiration_date": "02/28/2027"
       }
     ],
-    "note": "CONFIRMED LICENSED in DC - Real Estate Broker and Independent Broker. Affiliated with KETTLER MANAGEMENT INC and 23 other property management companies."
+    "note": "confirmed_licensed_in_dc_real_estate_broker_and_independent_broker._affiliated_with_kettler_management_inc_and_23_other_property_management_companies."
   },
   "robert_kettler": {
-    "name": "Robert Kettler",
+    "name": "robert_kettler",
     "results_found": 0,
-    "note": "No licenses found in DC Real Estate Commission"
+    "note": "no_licenses_found_in_dc_real_estate_commission"
   },
   "edward_hyland": {
-    "name": "Edward Hyland",
+    "name": "edward_hyland",
     "results_found": 0,
-    "note": "No licenses found in DC Real Estate Commission"
+    "note": "no_licenses_found_in_dc_real_estate_commission"
   }
 }

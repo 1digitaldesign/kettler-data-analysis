@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-07",
+  "analysis_date": "2025_12_07",
   "total_emails": 23,
   "unique_domains": [
     "gmail.com",
@@ -16,11 +16,11 @@
       "count": 6,
       "emails": [
         "ehyland@kettler.com",
-        "Carlyle.PM@kettler.com",
-        "Ehyland@kettler.com",
         "carlyle.pm@kettler.com",
-        "Carlyle@kettler.com",
-        "Carlyle.APM@kettler.com"
+        "ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "carlyle@kettler.com",
+        "carlyle.apm@kettler.com"
       ],
       "patterns": [
         {
@@ -28,11 +28,11 @@
           "pattern": "firstname"
         },
         {
-          "email": "Carlyle.PM@kettler.com",
+          "email": "carlyle.pm@kettler.com",
           "pattern": "firstname.lastname"
         },
         {
-          "email": "Ehyland@kettler.com",
+          "email": "ehyland@kettler.com",
           "pattern": "firstname"
         },
         {
@@ -40,11 +40,11 @@
           "pattern": "firstname.lastname"
         },
         {
-          "email": "Carlyle@kettler.com",
+          "email": "carlyle@kettler.com",
           "pattern": "firstname"
         },
         {
-          "email": "Carlyle.APM@kettler.com",
+          "email": "carlyle.apm@kettler.com",
           "pattern": "firstname.lastname"
         }
       ]
@@ -53,7 +53,7 @@
   "firm_connections": {
     "kettler": {
       "domain": "kettler.com",
-      "firm": "KETTLER MANAGEMENT INC",
+      "firm": "kettler_management_inc",
       "license_number": 226025311,
       "connection_type": "direct_match"
     }
@@ -63,11 +63,11 @@
     "domains_linked_to_firms": 1
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "email_domain_analysis.json",
     "file_path": "research/analysis/email_domain_analysis.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

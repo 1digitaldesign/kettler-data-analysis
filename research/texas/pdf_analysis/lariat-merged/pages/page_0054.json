@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.262526",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0054.json",
+    "created": "2025_12_11t00:51:59.262526",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0054.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 54,
-    "text": "PliedihrS nteO\naertr\nNOITNICRR OPOACFILOTES AR\n0F\nBARWOOD FABRICATING CO., INC.\nWe, the undersigned, natural persons of the age of twenty-\none years or more, all of whom are citizens of the State of Texas,\nacting as incorporators of a corporation under the Texas Business\nCorporation Act, do hereby adopt the following Articles of Incor-\nporation for such corporation:\nARTICLE I.\nThe name of the corporation is BARWOOD FABRICATING CO.,\nINC.\nARTICLE II.\nThe corporation 1s to have perpetual existence.\nARTICLE III.\nThe purposes for which the corporation is organized are:\nund description made in whole or in part of plasti\nr synthetic materials of any and all kinds\nARTICLE IV.\nThe total number of shares which the corporation shall have\nauthority to issue 1s 500,000 of the par value of Ten Dollars ($10.00)\neach.",
+    "text": "pliedihrs_nteo_aertr_noitnicrr_opoacfilotes_ar_0f_barwood_fabricating_co.,_inc._we,_the_undersigned,_natural_persons_of_the_age_of_twenty_one_years_or_more,_all_of_whom_are_citizens_of_the_state_of_texas,_acting_as_incorporators_of_a_corporation_under_the_texas_business_corporation_act,_do_hereby_adopt_the_following_articles_of_incor_poration_for_such_corporation:_article_i._the_name_of_the_corporation_is_barwood_fabricating_co.,_inc._article_ii._the_corporation_1s_to_have_perpetual_existence._article_iii._the_purposes_for_which_the_corporation_is_organized_are:_und_description_made_in_whole_or_in_part_of_plasti_r_synthetic_materials_of_any_and_all_kinds_article_iv._the_total_number_of_shares_which_the_corporation_shall_have_authority_to_issue_1s_500,000_of_the_par_value_of_ten_dollars_($10.00)_each.",
     "char_count": 813,
     "word_count": 135,
     "anomalies": {
       "page_number": 54,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 54 | text: PliedihrS nteO\naertr\nNOITNICRR OPOACFILOTES AR\n0F\nBARWOOD FABRICATING CO., INC.\nWe, the undersigned, natural persons of the age of twenty-\none years or more, all of whom are citizens of the State of Texas,\nacting as incorporators of a corporation under the Texas Business\nCorporation Act, do hereby adopt the following Articles of Incor-\nporation for such corporation:\nARTICLE I.\nThe name of the corporation is BARWOOD FABRICATING CO.,\nINC.\nARTICLE II.\nThe corporation 1s to have perpetual existence.\nARTICLE III.\nThe purposes for which the corporation is organized are:\nund description made in whole or in part of plasti\nr synthetic materials of any and all kinds\nARTICLE IV.\nThe total number of shares which the corporation shall have\nauthority to issue 1s 500,000 of the par value of Ten Dollars ($10.00)\neach. | char_count: 813 | word_count: 135 | anomalies: {\"page_number\":54,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_54_|_text:_pliedihrs_nteo_aertr_noitnicrr_opoacfilotes_ar_0f_barwood_fabricating_co.,_inc._we,_the_undersigned,_natural_persons_of_the_age_of_twenty_one_years_or_more,_all_of_whom_are_citizens_of_the_state_of_texas,_acting_as_incorporators_of_a_corporation_under_the_texas_business_corporation_act,_do_hereby_adopt_the_following_articles_of_incor_poration_for_such_corporation:_article_i._the_name_of_the_corporation_is_barwood_fabricating_co.,_inc._article_ii._the_corporation_1s_to_have_perpetual_existence._article_iii._the_purposes_for_which_the_corporation_is_organized_are:_und_description_made_in_whole_or_in_part_of_plasti_r_synthetic_materials_of_any_and_all_kinds_article_iv._the_total_number_of_shares_which_the_corporation_shall_have_authority_to_issue_1s_500,000_of_the_par_value_of_ten_dollars_($10.00)_each._|_char_count:_813_|_word_count:_135_|_anomalies:_{\"page_number\":54,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06570373475551605,
     -0.022601183503866196,

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:38.552229",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1460.json",
+    "created": "2025_12_11t00:54:38.552229",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1460.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1460,
-    "text": "9912 5 0857\n03218647-\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\nDecembe11r 6 9,99\nEMENTTARNR EISTODFERO\nad o,meico.stc rporaitown aa,s uotmaitcaleltrmiy naetdo rCR OPMANEMEN AGT(cid:220)SI\nhTeco rporaitonh as Sepetmbe31r 0 9,99 . (cid:222) leda na pplicaitoorenfr i naesusttme ben,mitdatt r\nannualrea p no,dreert mitdat llpa a naastdcuetxe n rrefe s,dpn s, etnaliteds ueare s quiredb\nhRTeiODreoi s ERhfre tEDta, l .aw\nhteco rporaitonire s inaesttd.\neifctveo nD ecembe11r 6 9,99.hTere inaesttmeien s ft\nNOSSINCMMIO OITCRRE OPOATAST\nCommissioner\nCC: DSECOMAN YO,LGILAM WI\nCR OPMANEMEN AGTKSI\n8081 WOLFTRAP RD STE 300\n2 2182AENVVIN A,\nRNEIACPT\nCSLLIEG\n99-12-16-1637",
+    "text": "9912_5_0857_03218647_nariivig_fhot_nealcmmowo_nossincmmio_oitcrre_opoatast_decembe11r_6_9,99_ementtarnr_eistodfero_ad_o,meico.stc_rporaitown_aa,s_uotmaitcaleltrmiy_naetdo_rcr_opmanemen_agt(cid:220)si_hteco_rporaitonh_as_sepetmbe31r_0_9,99_._(cid:222)_leda_na_pplicaitoorenfr_i_naesusttme_ben,mitdatt_r_annualrea_p_no,dreert_mitdat_llpa_a_naastdcuetxe_n_rrefe_s,dpn_s,_etnaliteds_ueare_s_quiredb_hrteiodreoi_s_erhfre_tedta,_l_.aw_hteco_rporaitonire_s_inaesttd._eifctveo_nd_ecembe11r_6_9,99.htere_inaesttmeien_s_ft_nossincmmio_oitcrre_opoatast_commissioner_cc:_dsecoman_yo,lgilam_wi_cr_opmanemen_agtksi_8081_wolftrap_rd_ste_300_2_2182aenvvin_a,_rneiacpt_csllieg_99_12_16_1637",
     "char_count": 674,
     "word_count": 94,
     "anomalies": {
       "page_number": 1460,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 1460 | text: 9912 5 0857\n03218647-\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\nDecembe11r 6 9,99\nEMENTTARNR EISTODFERO\nad o,meico.stc rporaitown aa,s uotmaitcaleltrmiy naetdo rCR OPMANEMEN AGT(cid:220)SI\nhTeco rporaitonh as Sepetmbe31r 0 9,99 . (cid:222) leda na pplicaitoorenfr i naesusttme ben,mitdatt r\nannualrea p no,dreert mitdat llpa a naastdcuetxe n rrefe s,dpn s, etnaliteds ueare s quiredb\nhRTeiODreoi s ERhfre tEDta, l .aw\nhteco rporaitonire s inaesttd.\neifctveo nD ecembe11r 6 9,99.hTere inaesttmeien s ft\nNOSSINCMMIO OITCRRE OPOATAST\nCommissioner\nCC: DSECOMAN YO,LGILAM WI\nCR OPMANEMEN AGTKSI\n8081 WOLFTRAP RD STE 300\n2 2182AENVVIN A,\nRNEIACPT\nCSLLIEG\n99-12-16-1637 | char_count: 674 | word_count: 94 | anomalies: {\"page_number\":1460,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_1460_|_text:_9912_5_0857_03218647_nariivig_fhot_nealcmmowo_nossincmmio_oitcrre_opoatast_decembe11r_6_9,99_ementtarnr_eistodfero_ad_o,meico.stc_rporaitown_aa,s_uotmaitcaleltrmiy_naetdo_rcr_opmanemen_agt(cid:220)si_hteco_rporaitonh_as_sepetmbe31r_0_9,99_._(cid:222)_leda_na_pplicaitoorenfr_i_naesusttme_ben,mitdatt_r_annualrea_p_no,dreert_mitdat_llpa_a_naastdcuetxe_n_rrefe_s,dpn_s,_etnaliteds_ueare_s_quiredb_hrteiodreoi_s_erhfre_tedta,_l_.aw_hteco_rporaitonire_s_inaesttd._eifctveo_nd_ecembe11r_6_9,99.htere_inaesttmeien_s_ft_nossincmmio_oitcrre_opoatast_commissioner_cc:_dsecoman_yo,lgilam_wi_cr_opmanemen_agtksi_8081_wolftrap_rd_ste_300_2_2182aenvvin_a,_rneiacpt_csllieg_99_12_16_1637_|_char_count:_674_|_word_count:_94_|_anomalies:_{\"page_number\":1460,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.04936825484037399,
     0.08016161620616913,

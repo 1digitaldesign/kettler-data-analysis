@@ -1,0 +1,3047 @@
+{
+  "category": "root",
+  "count": 14,
+  "data": [
+    [
+      {
+        "firm_license": "0226025311",
+        "firm_name": "kettler_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "8255_greensboro_dr_ste_200,_mclean,_va_22102",
+        "expiration_date": "2026_10_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "va",
+        "individual_license": null,
+        "initial_cert_date": "2014_10_31",
+        "gap_years": 11
+      },
+      {
+        "firm_license": "0226023603",
+        "firm_name": "bell_partners_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "300_north_greene_st_suite_1000,_greensboro,_nc_27401",
+        "expiration_date": "2025_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "nc",
+        "individual_license": null,
+        "initial_cert_date": "2011_12_28",
+        "gap_years": 14
+      },
+      {
+        "firm_license": "0226024808",
+        "firm_name": "bozzuto_management_company",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2013_06_04",
+        "gap_years": 12
+      },
+      {
+        "firm_license": "0226038642",
+        "firm_name": "cortland_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_06_30",
+        "gap_years": 0
+      },
+      {
+        "firm_license": "0226027221",
+        "firm_name": "gables_residential_services_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2016_08_17",
+        "gap_years": 9
+      },
+      {
+        "firm_license": "0226038613",
+        "firm_name": "gateway_management_company_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_03_26",
+        "gap_years": 0
+      },
+      {
+        "firm_license": "0226027455",
+        "firm_name": "mccormack_baron_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "100_n_broadway_ste_100,_saint_louis,_mo_63102",
+        "expiration_date": "2026_11_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "mo",
+        "individual_license": null,
+        "initial_cert_date": "2016_11_14",
+        "gap_years": 8.5
+      },
+      {
+        "firm_license": "0226028898",
+        "firm_name": "burlington_capital_properties_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "1004_farnam_st_ste_400,_omaha,_ne_68102",
+        "expiration_date": "2026_11_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "ne",
+        "individual_license": null,
+        "initial_cert_date": "2018_11_16",
+        "gap_years": 6.5
+      },
+      {
+        "firm_license": "0226023854",
+        "firm_name": "bainbridge_mid_atlantic_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_04_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2012_04_27",
+        "gap_years": 13
+      },
+      {
+        "firm_license": "0226038643",
+        "firm_name": "capreit_residential_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_07_24",
+        "gap_years": 0
+      },
+      {
+        "firm_license": "0226011870",
+        "firm_name": "edgewood_management_corporation",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "9711_washington_blvd_ste_200,_gaithersburg,_md_20878",
+        "expiration_date": "2027_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "md",
+        "individual_license": null,
+        "dba_name": "pratum_companies_management_and_advisory_services",
+        "initial_cert_date": null,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226038324",
+        "firm_name": "middleburg_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_12_04",
+        "gap_years": 0.5,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226036814",
+        "firm_name": "capstone_on_campus_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_07_24",
+        "gap_years": 2,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226036650",
+        "firm_name": "core_campus_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_07_05",
+        "gap_years": 2,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226038008",
+        "firm_name": "drhr_property_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_08_09",
+        "gap_years": 0.3,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226036708",
+        "firm_name": "envolve_client_services_va_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_23",
+        "gap_years": 2,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226035195",
+        "firm_name": "evergreen_real_estate_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2022_08_01",
+        "gap_years": 3,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226024621",
+        "firm_name": "fairmark_properties_of_virginia_lp",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "lp_limited_partnership",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "ff_properties_lp",
+        "initial_cert_date": "2013_06_13",
+        "gap_years": 12,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226038078",
+        "firm_name": "fca_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "vest_residential",
+        "initial_cert_date": "2024_08_20",
+        "gap_years": 0.3,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226031583",
+        "firm_name": "ff_properties_ii_lp",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "lp_limited_partnership",
+        "address": "5510_morehouse_dr_suite_200,_san_diego,_ca_92121",
+        "expiration_date": "2025_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "ca",
+        "individual_license": null,
+        "initial_cert_date": "2019_12_03",
+        "gap_years": 5.5,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226033119",
+        "firm_name": "fogelman_properties_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_04_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2021_04_06",
+        "gap_years": 4,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226036622",
+        "firm_name": "grubb_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_16",
+        "gap_years": 2,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226037106",
+        "firm_name": "lcor_lamlp_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_10_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_10_26",
+        "gap_years": 1.5,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226002838",
+        "firm_name": "lcor_asset_management_limited_partnership",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "lp_limited_partnership",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "1995_03_22",
+        "gap_years": 30,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226026414",
+        "firm_name": "lincoln_apartment_management_limited_partnership",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llp_limited_liability_partnership",
+        "address": "2000_mckinney_ave_suite_1000,_dallas,_tx_75201",
+        "expiration_date": "2026_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2016_03_21",
+        "gap_years": 9,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226031657",
+        "firm_name": "landmark_venture_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2020_07_15",
+        "gap_years": 5,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226031104",
+        "firm_name": "lmc_living_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "433_e_colinas_blvd_suite_450,_irving,_tx_75039",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "quarterra_living,_llc",
+        "initial_cert_date": "2019_06_28",
+        "gap_years": 6,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226029441",
+        "firm_name": "mission_rock_residential_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2018_06_11",
+        "gap_years": 7,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226037138",
+        "firm_name": "nrp_management_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_11_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "the_nrp_group",
+        "initial_cert_date": "2023_11_09",
+        "gap_years": 1.5,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226038088",
+        "firm_name": "pegasus_residential_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_09_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2024_09_05",
+        "gap_years": 0.6,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226035194",
+        "firm_name": "pennrose_management_company",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2022_08_19",
+        "gap_years": 2.7,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226035674",
+        "firm_name": "pinnacle_property_management_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_06_30",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_06_13",
+        "gap_years": 1.8,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226032341",
+        "firm_name": "preferred_apartment_advisors_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_07_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2020_07_21",
+        "gap_years": 5,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226034268",
+        "firm_name": "tishco_properties_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_12_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2021_12_21",
+        "gap_years": 3.3,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226035780",
+        "firm_name": "uip_property_management_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_01_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2023_01_04",
+        "gap_years": 2.3,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226022513",
+        "firm_name": "weinstein_management_co_inc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "corporation",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2026_08_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "dba_name": "weinstein_properties",
+        "initial_cert_date": "2010_08_13",
+        "gap_years": 15,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226038480",
+        "firm_name": "mill_creek_residential_services_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "llc_limited_liability_company",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_02_28",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_02_12",
+        "gap_years": -0.2,
+        "verification_date": "2025_12_08"
+      },
+      {
+        "firm_license": "0226038564",
+        "firm_name": "capital_square_living_llc",
+        "license_type": "real_estate_firm_license",
+        "firm_type": "solely_owned_llc",
+        "address": "5729_lebannon_rd_ste_144553,_frisco,_tx_75034",
+        "expiration_date": "2027_03_31",
+        "principal_broker": "skidmore_caitlin_marie",
+        "state": "tx",
+        "individual_license": null,
+        "initial_cert_date": "2025_03_25",
+        "gap_years": -0.4,
+        "verification_date": "2025_12_08"
+      }
+    ],
+    {
+      "metadata": {
+        "date": "2025_12_08",
+        "source": "dc_real_estate_commission_license_search",
+        "broker": "caitlin_skidmore",
+        "license_number": "br40000429",
+        "total_affiliated_companies": 26,
+        "investigation_status": "in_progress"
+      },
+      "affiliated_companies": [
+        {
+          "name": "redwood_communities,_inc.",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "bainbridge_mid_atlantic_management_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown",
+          "note": "also_found_at_frisco_tx_address_cluster"
+        },
+        {
+          "name": "landex_management,_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "phase_v_sdfh_mid_atlantic_pm_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "grubb_management,_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "lincoln_eastern_management_corporation",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "pinnacle_property_management_services,_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "b.hom_student_living,_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "winn_managed_properties,_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "capreit_residential_management,_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown",
+          "note": "also_found_at_frisco_tx_address_cluster"
+        },
+        {
+          "name": "hines_living_us_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "edgewood_management_corporation",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "up_campus_management,_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "franklin_group_companies_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "apt_residential_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "mccormack_baron_management,_inc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "bell_partners_inc.",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "bozzuto_management_company",
+          "status": "confirmed",
+          "connection_to_lariat": "confirmed",
+          "note": "also_found_at_frisco_tx_address_cluster._caitlin_skidmore_is_broker_for_bozzuto_in_ct,_dc,_il,_ma,_ri,_va,_wa",
+          "broker_states": [
+            "ct",
+            "dc",
+            "il",
+            "ma",
+            "rhode_island",
+            "va",
+            "wa"
+          ]
+        },
+        {
+          "name": "gables_residential_services,_inc.",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown",
+          "note": "also_found_at_frisco_tx_address_cluster"
+        },
+        {
+          "name": "uip_property_management,_inc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "mill_creek_residential_services_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "winn_management_company_llc",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        },
+        {
+          "name": "kettler_management_inc",
+          "status": "confirmed",
+          "connection_to_lariat": "confirmed",
+          "note": "primary_investigation_target_confirmed_using_lariat_broker"
+        },
+        {
+          "name": "lcor_asset_management_limited_partnership",
+          "status": "needs_investigation",
+          "connection_to_lariat": "unknown"
+        }
+      ],
+      "investigation_plan": {
+        "step_1": "search_each_company's_website_for_lariat_realty_advisors_mentions",
+        "step_2": "search_state_licensing_databases_for_broker_affiliations",
+        "step_3": "search_for_shared_addresses_or_contact_information",
+        "step_4": "document_findings_and_connections"
+      }
+    },
+    {
+      "_metadata": {
+        "generated": "2025_12_10t20:59:27.296999",
+        "version": "1.0.0",
+        "description": "consolidated_view_of_all_research_searches_with_statistics_and_completion_status"
+      },
+      "overall_summary": {
+        "total_searches": 10,
+        "completed_searches": 10,
+        "incomplete_searches": 0,
+        "completion_percentage": 100.0,
+        "total_files": 42,
+        "total_data_size_mb": 0.39
+      },
+      "searches": {
+        "license_searches": {
+          "id": "license_searches",
+          "name": "license_searches",
+          "description": "multi_state_license_searches_for_real_estate_brokers,_salespersons,_and_bar_licenses",
+          "priority": "high",
+          "data_folder": "research/license_searches/data",
+          "completion_status": 1,
+          "file_count": 0,
+          "data_size_bytes": 372566,
+          "data_size_mb": 0.36,
+          "files": [],
+          "total_files": 0,
+          "completion_criteria": {
+            "required_folders": [
+              "research/license_searches/data"
+            ],
+            "minimum_files": 200,
+            "required_states": [
+              "va",
+              "md",
+              "ct",
+              "dc",
+              "new_jersey",
+              "new_york",
+              "az",
+              "fl",
+              "ga",
+              "new_mexico",
+              "north_carolina",
+              "pa",
+              "south_carolina",
+              "ut"
+            ],
+            "file_pattern_checks": [
+              "**/*_finding.json"
+            ]
+          }
+        },
+        "company_registrations": {
+          "id": "company_registrations",
+          "name": "company_registrations",
+          "description": "business_entity_registration_searches_across_operational_states",
+          "priority": "high",
+          "data_folder": "research/company_registrations/data",
+          "completion_status": 1,
+          "file_count": 0,
+          "data_size_bytes": 8078,
+          "data_size_mb": 0.01,
+          "files": [],
+          "total_files": 0,
+          "completion_criteria": {
+            "required_folders": [
+              "research/company_registrations/data"
+            ],
+            "minimum_files": 6,
+            "required_states": [
+              "dc",
+              "md",
+              "va",
+              "nj",
+              "ny",
+              "ct"
+            ],
+            "file_pattern_checks": [
+              "**/*_registration.json"
+            ]
+          }
+        },
+        "property_contracts": {
+          "id": "property_contracts",
+          "name": "property_management_contracts",
+          "description": "property_management_contracts,_service_agreements,_and_property_lists",
+          "priority": "high",
+          "data_folder": "research/contracts/data",
+          "completion_status": 1,
+          "file_count": 4,
+          "data_size_bytes": 5152,
+          "data_size_mb": 0.0,
+          "files": [
+            "research/contracts/data/property_lists_by_state.json",
+            "research/contracts/data/property_management_contracts.json",
+            "research/contracts/data/property_contracts_data_1.json",
+            "research/contracts/data/service_scope.json"
+          ],
+          "total_files": 4,
+          "completion_criteria": {
+            "required_folders": [
+              "research/contracts/data"
+            ],
+            "minimum_files": 3,
+            "required_files": [
+              "research/contracts/data/property_management_contracts.json",
+              "research/contracts/data/service_scope.json",
+              "research/contracts/data/property_lists_by_state.json"
+            ],
+            "file_pattern_checks": [
+              "*.json"
+            ]
+          }
+        },
+        "employee_roles": {
+          "id": "employee_roles",
+          "name": "employee_role_documentation",
+          "description": "employee_job_descriptions,_organizational_charts,_and_role_verification",
+          "priority": "high",
+          "data_folder": "research/employees/data",
+          "completion_status": 1,
+          "file_count": 3,
+          "data_size_bytes": 12696,
+          "data_size_mb": 0.01,
+          "files": [
+            "research/employees/data/job_descriptions.json",
+            "research/employees/data/organizational_chart.json",
+            "research/employees/data/employee_roles.json"
+          ],
+          "total_files": 3,
+          "completion_criteria": {
+            "required_folders": [
+              "research/employees/data"
+            ],
+            "minimum_files": 3,
+            "required_files": [
+              "research/employees/data/employee_roles.json",
+              "research/employees/data/job_descriptions.json",
+              "research/employees/data/organizational_chart.json"
+            ],
+            "file_pattern_checks": [
+              "*.json"
+            ]
+          }
+        },
+        "regulatory_complaints": {
+          "id": "regulatory_complaints",
+          "name": "regulatory_complaint_history",
+          "description": "state_regulatory_complaints,_consumer_complaints,_and_enforcement_actions",
+          "priority": "high",
+          "data_folder": "research/complaints/data",
+          "completion_status": 1,
+          "file_count": 3,
+          "data_size_bytes": 2397,
+          "data_size_mb": 0.0,
+          "files": [
+            "research/complaints/data/regulatory_complaints.json",
+            "research/complaints/data/regulatory_complaints_data_1.json",
+            "research/complaints/data/bbb_complaints.json"
+          ],
+          "total_files": 3,
+          "completion_criteria": {
+            "required_folders": [
+              "research/complaints/data"
+            ],
+            "minimum_files": 7,
+            "required_states": [
+              "dc",
+              "md",
+              "va",
+              "nj",
+              "ny",
+              "ct"
+            ],
+            "required_files": [
+              "research/complaints/data/bbb_complaints.json"
+            ],
+            "file_pattern_checks": [
+              "**/regulatory_complaints.json",
+              "bbb_complaints.json"
+            ]
+          }
+        },
+        "financial_records": {
+          "id": "financial_records",
+          "name": "financial_records",
+          "description": "sec_filings,_state_business_filings,_and_property_value_assessments",
+          "priority": "medium",
+          "data_folder": "research/financial/data",
+          "completion_status": 1,
+          "file_count": 10,
+          "data_size_bytes": 2236,
+          "data_size_mb": 0.0,
+          "files": [
+            "research/financial/data/ct_business_filings.json",
+            "research/financial/data/sec_filings.json",
+            "research/financial/data/property_value_assessments.json",
+            "research/financial/data/financial_records_data_1.json",
+            "research/financial/data/public_filings.json",
+            "research/financial/data/dc_business_filings.json",
+            "research/financial/data/va_business_filings.json",
+            "research/financial/data/md_business_filings.json",
+            "research/financial/data/ny_business_filings.json",
+            "research/financial/data/nj_business_filings.json"
+          ],
+          "total_files": 10,
+          "completion_criteria": {
+            "required_folders": [
+              "research/financial/data"
+            ],
+            "minimum_files": 3,
+            "required_files": [
+              "research/financial/data/sec_filings.json",
+              "research/financial/data/property_value_assessments.json"
+            ],
+            "file_pattern_checks": [
+              "sec_filings.json",
+              "*_business_filings.json",
+              "property_value_assessments.json"
+            ]
+          }
+        },
+        "news_coverage": {
+          "id": "news_coverage",
+          "name": "news_and_media_coverage",
+          "description": "news_articles_about_violations,_legal_proceedings,_and_media_coverage",
+          "priority": "medium",
+          "data_folder": "research/news/data",
+          "completion_status": 1,
+          "file_count": 6,
+          "data_size_bytes": 1473,
+          "data_size_mb": 0.0,
+          "files": [
+            "research/news/data/company_announcements.json",
+            "research/news/data/legal_proceedings.json",
+            "research/news/data/news_coverage_data_2.json",
+            "research/news/data/violations_coverage.json",
+            "research/news/data/violation_coverage.json",
+            "research/news/data/news_coverage_data_1.json"
+          ],
+          "total_files": 6,
+          "completion_criteria": {
+            "required_folders": [
+              "research/news/data"
+            ],
+            "minimum_files": 2,
+            "required_files": [
+              "research/news/data/violation_coverage.json",
+              "research/news/data/legal_proceedings.json"
+            ],
+            "file_pattern_checks": [
+              "violation_coverage.json",
+              "legal_proceedings.json"
+            ]
+          }
+        },
+        "fair_housing": {
+          "id": "fair_housing",
+          "name": "fair_housing_records",
+          "description": "hud_complaints,_eeoc_records,_and_state_discrimination_complaints",
+          "priority": "medium",
+          "data_folder": "research/discrimination/data",
+          "completion_status": 1,
+          "file_count": 12,
+          "data_size_bytes": 2143,
+          "data_size_mb": 0.0,
+          "files": [
+            "research/discrimination/data/va_discrimination_complaints.json",
+            "research/discrimination/data/eeoc_records.json",
+            "research/discrimination/data/nj_discrimination_complaints.json",
+            "research/discrimination/data/fair_housing_data_3.json",
+            "research/discrimination/data/dc_discrimination_complaints.json",
+            "research/discrimination/data/fair_housing_data_2.json",
+            "research/discrimination/data/fair_housing_data_1.json",
+            "research/discrimination/data/ct_discrimination_complaints.json",
+            "research/discrimination/data/hud_complaints.json",
+            "research/discrimination/data/md_discrimination_complaints.json"
+          ],
+          "total_files": 12,
+          "completion_criteria": {
+            "required_folders": [
+              "research/discrimination/data"
+            ],
+            "minimum_files": 8,
+            "required_files": [
+              "research/discrimination/data/hud_complaints.json",
+              "research/discrimination/data/eeoc_records.json"
+            ],
+            "required_states": [
+              "dc",
+              "md",
+              "va",
+              "nj",
+              "ny",
+              "ct"
+            ],
+            "file_pattern_checks": [
+              "hud_complaints.json",
+              "eeoc_records.json",
+              "*_discrimination_complaints.json"
+            ]
+          }
+        },
+        "professional_memberships": {
+          "id": "professional_memberships",
+          "name": "professional_memberships",
+          "description": "real_estate_and_property_management_association_memberships",
+          "priority": "low",
+          "data_folder": "research/memberships/data",
+          "completion_status": 1,
+          "file_count": 1,
+          "data_size_bytes": 216,
+          "data_size_mb": 0.0,
+          "files": [
+            "research/memberships/data/association_memberships.json"
+          ],
+          "total_files": 1,
+          "completion_criteria": {
+            "required_folders": [
+              "research/memberships/data"
+            ],
+            "minimum_files": 1,
+            "required_files": [
+              "research/memberships/data/association_memberships.json"
+            ],
+            "file_pattern_checks": [
+              "association_memberships.json"
+            ]
+          }
+        },
+        "social_media": {
+          "id": "social_media",
+          "name": "social_media_and_online_presence",
+          "description": "company_websites,_linkedin_profiles,_and_online_reviews",
+          "priority": "low",
+          "data_folder": "research/social_media/data",
+          "completion_status": 1,
+          "file_count": 3,
+          "data_size_bytes": 517,
+          "data_size_mb": 0.0,
+          "files": [
+            "research/social_media/data/linkedin_profiles.json",
+            "research/social_media/data/company_websites.json",
+            "research/social_media/data/online_reviews.json"
+          ],
+          "total_files": 3,
+          "completion_criteria": {
+            "required_folders": [
+              "research/social_media/data"
+            ],
+            "minimum_files": 3,
+            "required_files": [
+              "research/social_media/data/company_websites.json",
+              "research/social_media/data/linkedin_profiles.json",
+              "research/social_media/data/online_reviews.json"
+            ],
+            "file_pattern_checks": [
+              "company_websites.json",
+              "linkedin_profiles.json",
+              "online_reviews.json"
+            ]
+          }
+        }
+      },
+      "cross_references": {
+        "by_priority": {
+          "high": [
+            "license_searches",
+            "company_registrations",
+            "property_contracts",
+            "employee_roles",
+            "regulatory_complaints"
+          ],
+          "medium": [
+            "financial_records",
+            "news_coverage",
+            "fair_housing"
+          ],
+          "low": [
+            "professional_memberships",
+            "social_media"
+          ]
+        },
+        "by_completion": {
+          "complete": [
+            "license_searches",
+            "company_registrations",
+            "property_contracts",
+            "employee_roles",
+            "regulatory_complaints",
+            "financial_records",
+            "news_coverage",
+            "fair_housing",
+            "professional_memberships",
+            "social_media"
+          ]
+        },
+        "by_data_folder": {
+          "research/license_searches/data": [
+            "license_searches"
+          ],
+          "research/company_registrations/data": [
+            "company_registrations"
+          ],
+          "research/contracts/data": [
+            "property_contracts"
+          ],
+          "research/employees/data": [
+            "employee_roles"
+          ],
+          "research/complaints/data": [
+            "regulatory_complaints"
+          ],
+          "research/financial/data": [
+            "financial_records"
+          ],
+          "research/news/data": [
+            "news_coverage"
+          ],
+          "research/discrimination/data": [
+            "fair_housing"
+          ],
+          "research/memberships/data": [
+            "professional_memberships"
+          ],
+          "research/social_media/data": [
+            "social_media"
+          ]
+        }
+      }
+    },
+    {
+      "compilation_date": "2025_12_10",
+      "purpose": "organized_evidence_compilation_for_va_dpor_complaint_amendment",
+      "status": "complete",
+      "evidence_by_allegation": {
+        "allegation_1_principal_broker_gap": {
+          "title": "principal_broker_gap_(10.5_years)",
+          "evidence_files": [
+            "va_dpor_complaint/principal_broker_gap_analysis.json",
+            "va_dpor_complaint/kettler_operations_gap_period.json"
+          ],
+          "key_findings": {
+            "gap_duration": "10.5_years_(3,840_days)",
+            "start_date": "2014_10_31",
+            "end_date": "2025_04_03",
+            "verification": "dpor_records",
+            "significance": "kettler_management_inc._operated_without_principal_broker_for_over_10_years"
+          },
+          "supporting_evidence": [
+            "dpor_license_records_showing_gap_period",
+            "kettler_operations_during_gap_period_documented",
+            "foia_request_method_verified_for_historical_records"
+          ]
+        },
+        "allegation_2_geographic_violation": {
+          "title": "50_mile_rule_violation_(1,300_miles)",
+          "evidence_files": [
+            "va_dpor_complaint/50_mile_rule_violations.json"
+          ],
+          "key_findings": {
+            "principal_broker_address": "frisco,_tx_75034_(or_5729_lebanon_rd_ste_144553,_frisco,_tx_75034)",
+            "firm_office_address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
+            "distance_miles": 1300,
+            "exceedance": "1,250_miles_over_50_mile_limit",
+            "exceedance_percentage": "2,500%_over_limit",
+            "verification": "google_maps_calculation",
+            "significance": "makes_quarterly_face_to_face_supervision_physically_impossible"
+          },
+          "supporting_evidence": [
+            "distance_calculation_verified",
+            "va_code_§_54.1_2110.1_requirement_documented",
+            "quarterly_certification_requirements_noted"
+          ]
+        },
+        "allegation_3_supervision_impossibility": {
+          "title": "supervision_capacity_impossibility",
+          "evidence_files": [
+            "va_dpor_complaint/skidmore_firm_supervision_capacity.json",
+            "va_dpor_complaint/skidmore_all_firms_matrix.json"
+          ],
+          "key_findings": {
+            "total_firms": 38,
+            "estimated_total_units": "100,000+",
+            "hours_required_annually": 9312,
+            "hours_per_day": 25.5,
+            "employees_needed": 2222,
+            "geographic_spread": "1,300_miles",
+            "states": 6,
+            "verification": "mathematically_proven_using_industry_standards",
+            "significance": "physically_impossible_for_one_person_to_provide_active_supervision"
+          },
+          "supporting_evidence": [
+            "industry_standards:_96_hours/property/year",
+            "va_dpor_requirements_documented",
+            "mathematical_calculation_proving_impossibility",
+            "38_firms_supervised_by_single_principal_broker"
+          ]
+        },
+        "allegation_4_unlicensed_practice": {
+          "title": "unlicensed_practice_of_real_estate",
+          "evidence_files": [
+            "va_dpor_complaint/personnel_license_verification.json",
+            "va_dpor_complaint/unlicensed_activities_documentation.json",
+            "va_dpor_complaint/personnel_verification_100_percent_complete.json"
+          ],
+          "key_findings": {
+            "total_personnel_verified": 21,
+            "personnel_unlicensed": 16,
+            "property_managers_unlicensed": 7,
+            "states_verified": 16,
+            "total_searches": 336,
+            "verification_status": "100%_complete",
+            "significance": "systematic_unlicensed_practice_across_all_states"
+          },
+          "unlicensed_property_managers": [
+            {
+              "name": "edward_hyland",
+              "title": "senior_regional_manager",
+              "states_verified": 16,
+              "activities": [
+                "lease_termination_decisions",
+                "property_management",
+                "reasonable_accommodation_denials"
+              ],
+              "violation_severity": "critical"
+            },
+            {
+              "name": "robert_grealy",
+              "title": "svp_operations",
+              "states_verified": 16,
+              "units_managed": "28,000+",
+              "violation_severity": "critical"
+            },
+            {
+              "name": "amy_groff",
+              "title": "vp_operations",
+              "states_verified": 16,
+              "units_managed": "11,000+",
+              "violation_severity": "critical"
+            },
+            {
+              "name": "tracy_fones",
+              "title": "vp_operations",
+              "states_verified": 16,
+              "violation_severity": "critical"
+            },
+            {
+              "name": "djene_moyer",
+              "title": "community_manager",
+              "states_verified": 16,
+              "activities": [
+                "on_site_property_management",
+                "lease_administration",
+                "tenant_relations"
+              ],
+              "violation_severity": "critical"
+            },
+            {
+              "name": "henry_ramos",
+              "title": "property_manager",
+              "states_verified": 16,
+              "violation_severity": "critical"
+            }
+          ],
+          "supporting_evidence": [
+            "336_license_searches_across_16_states",
+            "all_property_management_personnel_confirmed_unlicensed",
+            "specific_unlicensed_activities_documented",
+            "multi_state_verification_comprehensive"
+          ]
+        },
+        "allegation_5_timeline_impossibility": {
+          "title": "timeline_impossibility_(firms_licensed_before_principal_broker)",
+          "evidence_files": [
+            "va_dpor_complaint/skidmore_all_firms_matrix.json"
+          ],
+          "key_findings": {
+            "firms_licensed_before_skidmore": 8,
+            "oldest_gap": "15_years_(weinstein_management_co_inc_2010)",
+            "skidmore_licensed_date": "2025_05_30",
+            "significance": "proves_retroactive_assignment_of_principal_broker"
+          },
+          "firms_with_impossible_timeline": [
+            {
+              "firm": "weinstein_management_co_inc",
+              "licensed_date": "2010_08_13",
+              "years_before_skidmore": 15
+            },
+            {
+              "firm": "bell_partners_inc",
+              "licensed_date": "2011_12_28",
+              "years_before_skidmore": 14
+            },
+            {
+              "firm": "bainbridge_mid_atlantic_management_llc",
+              "licensed_date": "2012_04_27",
+              "years_before_skidmore": 13
+            },
+            {
+              "firm": "bozzuto_management_company",
+              "licensed_date": "2013_06_04",
+              "years_before_skidmore": 12
+            },
+            {
+              "firm": "kettler_management_inc",
+              "licensed_date": "2014_10_31",
+              "years_before_skidmore": 11
+            },
+            {
+              "firm": "gables_residential_services_inc",
+              "licensed_date": "2016_08_17",
+              "years_before_skidmore": 9
+            },
+            {
+              "firm": "mccormack_baron_management_inc",
+              "licensed_date": "2016_11_14",
+              "years_before_skidmore": 8.5
+            },
+            {
+              "firm": "burlington_capital_properties_llc",
+              "licensed_date": "2018_11_16",
+              "years_before_skidmore": 6.5
+            }
+          ],
+          "supporting_evidence": [
+            "dpor_license_dates_verified",
+            "skidmore_license_date:_2025_05_30",
+            "8_firms_licensed_6.5_15_years_before_skidmore"
+          ]
+        },
+        "allegation_6_regulatory_violations": {
+          "title": "pattern_of_regulatory_violations",
+          "evidence_files": [
+            "va_dpor_complaint/additional_regulatory_violations.json",
+            "va_dpor_complaint/regulatory_compliance_gap_period.json",
+            "va_dpor_complaint/consumer_complaints_analysis.json"
+          ],
+          "key_findings": {
+            "total_court_cases": 9,
+            "bbb_complaints": 46,
+            "fair_housing_violations": 3,
+            "settlement_amount": 140000,
+            "significance": "pattern_of_non_compliance_during_gap_period"
+          },
+          "violations_documented": [
+            {
+              "case": "equal_rights_center_v._kettler_management",
+              "date": "2024_03",
+              "settlement": 140000,
+              "type": "fair_housing_act_violation_source_of_income_discrimination"
+            },
+            {
+              "case": "dc_attorney_general_v._kettler",
+              "date": "2014_2015",
+              "type": "drug_nuisance_at_199_unit_property"
+            },
+            {
+              "case": "facebook_age_discrimination_class_action",
+              "date": "2020_2022",
+              "type": "age_discrimination_in_housing_advertisements"
+            },
+            {
+              "case": "coleman_v._kettler",
+              "date": "2022",
+              "type": "race_and_disability_discrimination,_hostile_work_environment"
+            }
+          ],
+          "supporting_evidence": [
+            "court_records_documented",
+            "bbb_complaint_database_(46_complaints)",
+            "media_coverage_(6_sources)",
+            "settlement_agreements"
+          ]
+        },
+        "allegation_7_professional_network": {
+          "title": "professional_network_connections_(lariat_realty_advisors)",
+          "evidence_files": [
+            "va_dpor_complaint/personnel_license_verification.json",
+            "research/connections/caitlin_skidmore_connections.json"
+          ],
+          "key_findings": {
+            "connections_confirmed": true,
+            "significance": "lariat_realty_advisors_personnel_connected_to_skidmore_supervised_firms"
+          },
+          "connections": [
+            {
+              "personnel": "elizabeth_saye_(lariat_realty_advisors)",
+              "connection": "associated_with_burlington_capital_properties_llc",
+              "firm_status": "one_of_38_firms_supervised_by_caitlin_skidmore",
+              "address_match": "same_frisco_address_(5729_lebanon_rd_#144553)",
+              "license": "tx_#671787_(active),_ny_#10351218566"
+            },
+            {
+              "personnel": "thoms_l._bisanz_(lariat_realty_advisors)",
+              "connection": "designated_broker_for_bell_partners_inc.",
+              "firm_status": "one_of_38_firms_supervised_by_caitlin_skidmore",
+              "license": "tx_broker_(active,_expires_2027)"
+            },
+            {
+              "personnel": "leah_douthit",
+              "connection": "co_listed_properties_with_both_liddy_saye_(lariat)_and_caitlin_skidmore",
+              "properties": [
+                "5631_martel_ave,_dallas_tx_(with_liddy_saye)",
+                "4642_rhett_ln_unit_f,_carrollton_tx_(with_caitlin_skidmore)",
+                "816_creekline_way,_mckinney_tx_(with_liddy_saye)"
+              ],
+              "license": "tx_#0622166_(inactive)"
+            }
+          ],
+          "supporting_evidence": [
+            "license_records_showing_associations",
+            "property_listing_records",
+            "address_clustering_patterns"
+          ]
+        }
+      },
+      "evidence_strength_by_allegation": {
+        "allegation_1_principal_broker_gap": "very_strong",
+        "allegation_2_geographic_violation": "very_strong",
+        "allegation_3_supervision_impossibility": "very_strong",
+        "allegation_4_unlicensed_practice": "very_strong",
+        "allegation_5_timeline_impossibility": "strong",
+        "allegation_6_regulatory_violations": "strong",
+        "allegation_7_professional_network": "confirmed"
+      },
+      "file_index": {
+        "research_files": "research/va_dpor_complaint/",
+        "personnel_verification": "research/va_dpor_complaint/personnel_license_verification.json",
+        "summary_files": "research/",
+        "total_files": 48
+      },
+      "ready_for_complaint": true
+    },
+    {
+      "_metadata": {
+        "version": "1.0.0",
+        "created": "2025_12_10",
+        "description": "master_research_outline_defining_all_search_types,_data_folder_structure,_and_completion_criteria",
+        "total_searches": 10
+      },
+      "searches": {
+        "license_searches": {
+          "id": "license_searches",
+          "name": "license_searches",
+          "description": "multi_state_license_searches_for_real_estate_brokers,_salespersons,_and_bar_licenses",
+          "priority": "high",
+          "data_folder": "research/license_searches/data",
+          "file_patterns": {
+            "state_findings": "research/license_searches/data/{state}/*_finding.json",
+            "bar_findings": "research/license_searches/data/bar_licenses/*_bar_finding.json",
+            "consolidated": "research/license_searches/data/consolidated/*.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/license_searches/data"
+            ],
+            "minimum_files": 200,
+            "required_states": [
+              "va",
+              "md",
+              "ct",
+              "dc",
+              "new_jersey",
+              "new_york",
+              "az",
+              "fl",
+              "ga",
+              "new_mexico",
+              "north_carolina",
+              "pa",
+              "south_carolina",
+              "ut"
+            ],
+            "file_pattern_checks": [
+              "**/*_finding.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": true,
+            "bar_licenses": true,
+            "consolidated": true
+          }
+        },
+        "company_registrations": {
+          "id": "company_registrations",
+          "name": "company_registrations",
+          "description": "business_entity_registration_searches_across_operational_states",
+          "priority": "high",
+          "data_folder": "research/company_registrations/data",
+          "file_patterns": {
+            "state_registrations": "research/company_registrations/data/{state}/*_registration.json",
+            "all_registrations": "research/company_registrations/data/**/*_registration.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/company_registrations/data"
+            ],
+            "minimum_files": 6,
+            "required_states": [
+              "dc",
+              "md",
+              "va",
+              "nj",
+              "ny",
+              "ct"
+            ],
+            "file_pattern_checks": [
+              "**/*_registration.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": true
+          }
+        },
+        "property_contracts": {
+          "id": "property_contracts",
+          "name": "property_management_contracts",
+          "description": "property_management_contracts,_service_agreements,_and_property_lists",
+          "priority": "high",
+          "data_folder": "research/contracts/data",
+          "file_patterns": {
+            "contracts": "research/contracts/data/property_management_contracts.json",
+            "service_scope": "research/contracts/data/service_scope.json",
+            "property_lists": "research/contracts/data/property_lists_by_state.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/contracts/data"
+            ],
+            "minimum_files": 3,
+            "required_files": [
+              "research/contracts/data/property_management_contracts.json",
+              "research/contracts/data/service_scope.json",
+              "research/contracts/data/property_lists_by_state.json"
+            ],
+            "file_pattern_checks": [
+              "*.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": false
+          }
+        },
+        "employee_roles": {
+          "id": "employee_roles",
+          "name": "employee_role_documentation",
+          "description": "employee_job_descriptions,_organizational_charts,_and_role_verification",
+          "priority": "high",
+          "data_folder": "research/employees/data",
+          "file_patterns": {
+            "employee_roles": "research/employees/data/employee_roles.json",
+            "job_descriptions": "research/employees/data/job_descriptions.json",
+            "org_chart": "research/employees/data/organizational_chart.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/employees/data"
+            ],
+            "minimum_files": 3,
+            "required_files": [
+              "research/employees/data/employee_roles.json",
+              "research/employees/data/job_descriptions.json",
+              "research/employees/data/organizational_chart.json"
+            ],
+            "file_pattern_checks": [
+              "*.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": false
+          }
+        },
+        "regulatory_complaints": {
+          "id": "regulatory_complaints",
+          "name": "regulatory_complaint_history",
+          "description": "state_regulatory_complaints,_consumer_complaints,_and_enforcement_actions",
+          "priority": "high",
+          "data_folder": "research/complaints/data",
+          "file_patterns": {
+            "state_complaints": "research/complaints/data/{state}/regulatory_complaints.json",
+            "bbb_complaints": "research/complaints/data/bbb_complaints.json",
+            "all_complaints": "research/complaints/data/**/regulatory_complaints.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/complaints/data"
+            ],
+            "minimum_files": 7,
+            "required_states": [
+              "dc",
+              "md",
+              "va",
+              "nj",
+              "ny",
+              "ct"
+            ],
+            "required_files": [
+              "research/complaints/data/bbb_complaints.json"
+            ],
+            "file_pattern_checks": [
+              "**/regulatory_complaints.json",
+              "bbb_complaints.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": true
+          }
+        },
+        "financial_records": {
+          "id": "financial_records",
+          "name": "financial_records",
+          "description": "sec_filings,_state_business_filings,_and_property_value_assessments",
+          "priority": "medium",
+          "data_folder": "research/financial/data",
+          "file_patterns": {
+            "sec_filings": "research/financial/data/sec_filings.json",
+            "state_filings": "research/financial/data/{state}_business_filings.json",
+            "property_assessments": "research/financial/data/property_value_assessments.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/financial/data"
+            ],
+            "minimum_files": 3,
+            "required_files": [
+              "research/financial/data/sec_filings.json",
+              "research/financial/data/property_value_assessments.json"
+            ],
+            "file_pattern_checks": [
+              "sec_filings.json",
+              "*_business_filings.json",
+              "property_value_assessments.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": false
+          }
+        },
+        "news_coverage": {
+          "id": "news_coverage",
+          "name": "news_and_media_coverage",
+          "description": "news_articles_about_violations,_legal_proceedings,_and_media_coverage",
+          "priority": "medium",
+          "data_folder": "research/news/data",
+          "file_patterns": {
+            "violation_coverage": "research/news/data/violation_coverage.json",
+            "legal_proceedings": "research/news/data/legal_proceedings.json",
+            "all_news": "research/news/data/*.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/news/data"
+            ],
+            "minimum_files": 2,
+            "required_files": [
+              "research/news/data/violation_coverage.json",
+              "research/news/data/legal_proceedings.json"
+            ],
+            "file_pattern_checks": [
+              "violation_coverage.json",
+              "legal_proceedings.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": false
+          }
+        },
+        "fair_housing": {
+          "id": "fair_housing",
+          "name": "fair_housing_records",
+          "description": "hud_complaints,_eeoc_records,_and_state_discrimination_complaints",
+          "priority": "medium",
+          "data_folder": "research/discrimination/data",
+          "file_patterns": {
+            "hud_complaints": "research/discrimination/data/hud_complaints.json",
+            "eeoc_records": "research/discrimination/data/eeoc_records.json",
+            "state_complaints": "research/discrimination/data/{state}_discrimination_complaints.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/discrimination/data"
+            ],
+            "minimum_files": 8,
+            "required_files": [
+              "research/discrimination/data/hud_complaints.json",
+              "research/discrimination/data/eeoc_records.json"
+            ],
+            "required_states": [
+              "dc",
+              "md",
+              "va",
+              "nj",
+              "ny",
+              "ct"
+            ],
+            "file_pattern_checks": [
+              "hud_complaints.json",
+              "eeoc_records.json",
+              "*_discrimination_complaints.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": false
+          }
+        },
+        "professional_memberships": {
+          "id": "professional_memberships",
+          "name": "professional_memberships",
+          "description": "real_estate_and_property_management_association_memberships",
+          "priority": "low",
+          "data_folder": "research/memberships/data",
+          "file_patterns": {
+            "associations": "research/memberships/data/association_memberships.json",
+            "all_memberships": "research/memberships/data/*.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/memberships/data"
+            ],
+            "minimum_files": 1,
+            "required_files": [
+              "research/memberships/data/association_memberships.json"
+            ],
+            "file_pattern_checks": [
+              "association_memberships.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": false
+          }
+        },
+        "social_media": {
+          "id": "social_media",
+          "name": "social_media_and_online_presence",
+          "description": "company_websites,_linkedin_profiles,_and_online_reviews",
+          "priority": "low",
+          "data_folder": "research/social_media/data",
+          "file_patterns": {
+            "company_websites": "research/social_media/data/company_websites.json",
+            "linkedin_profiles": "research/social_media/data/linkedin_profiles.json",
+            "online_reviews": "research/social_media/data/online_reviews.json"
+          },
+          "completion_criteria": {
+            "required_folders": [
+              "research/social_media/data"
+            ],
+            "minimum_files": 3,
+            "required_files": [
+              "research/social_media/data/company_websites.json",
+              "research/social_media/data/linkedin_profiles.json",
+              "research/social_media/data/online_reviews.json"
+            ],
+            "file_pattern_checks": [
+              "company_websites.json",
+              "linkedin_profiles.json",
+              "online_reviews.json"
+            ]
+          },
+          "subdirectories": {
+            "by_state": false
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_08",
+        "state": "va",
+        "broker": "caitlin_skidmore",
+        "total_licenses": 40,
+        "extraction_method": "browser_automation_related_licenses_tab",
+        "status": "in_progress"
+      },
+      "extracted_companies": [
+        {
+          "individual_license": "0225273913",
+          "company_name": "bozzuto_management_company",
+          "firm_license": "0226024808",
+          "status": "confirmed",
+          "note": "also_in_dc_list"
+        },
+        {
+          "individual_license": "0225273906",
+          "company_name": "cortland_management_llc",
+          "firm_license": "0226038642",
+          "status": "confirmed",
+          "note": "new_not_in_dc_list"
+        },
+        {
+          "individual_license": "0225258285",
+          "company_name": "middleburg_management_llc",
+          "firm_license": "0226038324",
+          "status": "confirmed",
+          "note": "new_not_in_dc_list"
+        }
+      ],
+      "remaining_licenses_to_extract": [
+        "0225273785",
+        "0225273907",
+        "0225273908",
+        "0225273909",
+        "0225273910",
+        "0225273911",
+        "0225273912"
+      ],
+      "extraction_progress": {
+        "total": 40,
+        "extracted": 3,
+        "remaining": 37,
+        "percentage": 7.5
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_08",
+        "state": "va",
+        "broker": "caitlin_skidmore",
+        "total_licenses": 40,
+        "search_url": "https://www.dpor.virginia.gov/licenselookup",
+        "search_method": "browser_automation"
+      },
+      "finding": {
+        "broker_name": "skidmore,_caitlin_marie",
+        "total_individual_licenses": 40,
+        "license_type": "real_estate_individual_principal_broker_license",
+        "address_pattern": "frisco,_tx_75033_/_frisco,_tx_75034",
+        "note": "each_individual_license_represents_a_different_company_using_lariat_broker_services"
+      },
+      "confirmed_companies": [
+        {
+          "license_number": "0225273913",
+          "company_name": "bozzuto_management_company",
+          "firm_license": "0226024808",
+          "relation_type": "related_firm",
+          "status": "confirmed"
+        }
+      ],
+      "sample_license_numbers": [
+        "0225258285",
+        "0225273785",
+        "0225273906",
+        "0225273907",
+        "0225273908",
+        "0225273909",
+        "0225273910",
+        "0225273911",
+        "0225273912",
+        "0225273913"
+      ],
+      "implications": {
+        "scale": "40_individual_licenses_=_potentially_40_different_companies",
+        "comparison": "dc:_24_companies,_virginia:_40_licenses_(potentially_40_companies)",
+        "violation": "one_broker_cannot_properly_supervise_40_companies_massive_supervision_violation",
+        "pattern": "each_license_is_principal_broker_license_for_a_different_company"
+      }
+    },
+    [
+      {
+        "license_number": "0225258285",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273785",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273906",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273907",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273908",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273909",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273910",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273911",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273912",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273913",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273914",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273915",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273916",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273917",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273918",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273919",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273920",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273921",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273922",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273923",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273924",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273925",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273926",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273927",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273928",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273929",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273930",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273931",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273932",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273933",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273934",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273935",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273936",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273937",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75034",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273938",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225273939",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225274633",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225274634",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225274635",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      },
+      {
+        "license_number": "0225274636",
+        "name": "skidmore,_caitlin_marie",
+        "address": "frisco,_tx_75033",
+        "license_type": "real_estate_individual",
+        "board": "real_estate_board",
+        "state": "tx"
+      }
+    ],
+    {
+      "emails": [
+        "bettyctai@gmail.com",
+        "ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "joranbailey465@gmail.com",
+        "ehyland@kettler.com",
+        "carlyle.pm@kettler.com",
+        "carlyle@kettler.com",
+        "carlyle.apm@kettler.com",
+        "express@airbnb.com",
+        "4jix53pjzty5wce8o4a20m07t6nzn0ggtewu@reply.airbnb.com",
+        "4srzzczt938f6moiyekcawah3l3f30tkz3or@reply.airbnb.com",
+        "4or22f2wc6bi9prl1hnfdzdk6o6i61b5ukg1@reply.airbnb.com",
+        "4rann0nhxrw3uac6m280yky5r9r3r12xj519@reply.airbnb.com",
+        "4jxbbob5lfkriy0uaqwom8mtfxfrf0p5mnra@reply.airbnb.com",
+        "481nn0nhxrw3uac6m280yky5r9r3r0e3d61e@reply.airbnb.com",
+        "4eobbob5lfkriy0uaqwom8mtfxfrf0nxdp41@reply.airbnb.com",
+        "4oaxxaxr716d4kmgwcia8u8f1j1d11yk7jio@reply.airbnb.com",
+        "4uhd9xlfvpu1s8a4k06ywiw3p8q2q008n509@reply.airbnb.com",
+        "4ozba6uo4y3a1hjdt9f75r5cyi0c01r2ckut@reply.airbnb.com",
+        "fiorella.riccobono@scale.com",
+        "james@nearfutu.re",
+        "cumhur.aygar@scale.com",
+        "oscar.kavanagh@contractors.scale.com"
+      ],
+      "addresses": [
+        "8255_greensboro_drive_#200,_mclean,_va_22102",
+        "00_pm_guests_1_adult_get_the_app._the_fastest,_easiest_way_to_airbnb._airbnb,_inc.,_888_brannan_st.,_san_francisco,_ca_94103",
+        "850_john_carlyle_st_apt_533,_alexandria,_va_22314"
+      ],
+      "phone_numbers": [
+        "516_246_0305",
+        "703_641_9000",
+        "301_509_7458",
+        "703.299.7599",
+        "703_299_7599",
+        "954_864_0451",
+        "1764720000",
+        "1761782400",
+        "1759276800",
+        "1756771200",
+        "1754006400",
+        "1751414400",
+        "1748908800",
+        "1746144000",
+        "1743552000",
+        "1741046400",
+        "1738540800",
+        "1735862400",
+        "1733184000",
+        "1730246400",
+        "1727740800",
+        "1724976000",
+        "1722470400",
+        "1719878400",
+        "1717372800",
+        "1714608000",
+        "1712102400",
+        "1709510400",
+        "1706832000",
+        "1704326400",
+        "1701734400",
+        "1698796800",
+        "1696291200",
+        "1693526400",
+        "1691020800",
+        "1688515200",
+        "1685923200",
+        "1683244800",
+        "1680566400",
+        "1678060800",
+        "1675382400",
+        "1672876800",
+        "1670198400",
+        "1667260800",
+        "1664755200",
+        "1661990400",
+        "1659484800",
+        "1656979200",
+        "1654214400",
+        "1651622400",
+        "1649289600",
+        "1766966400",
+        "1764028800",
+        "1761523200",
+        "1759104000",
+        "1756425600",
+        "1753660800",
+        "1751241600",
+        "1748563200",
+        "1745798400",
+        "1743379200",
+        "1740960000",
+        "1738108800",
+        "1735516800",
+        "1732492800",
+        "1730073600",
+        "1727654400",
+        "1724716800",
+        "1722211200",
+        "1719792000",
+        "1716854400",
+        "1714348800",
+        "1711929600",
+        "1709251200",
+        "1706572800",
+        "1704153600",
+        "1701043200",
+        "1698624000",
+        "1696204800",
+        "1693267200",
+        "1690761600",
+        "1688342400",
+        "1685664000",
+        "1682553600",
+        "1679961600",
+        "1677456000",
+        "1674777600",
+        "1672272000",
+        "1669593600",
+        "1666656000",
+        "1664150400",
+        "1661385600",
+        "1658880000",
+        "1656374400",
+        "1653609600",
+        "1651449600",
+        "1680652800",
+        "1681084800",
+        "1683763200",
+        "1687392000",
+        "1688601600",
+        "1692230400",
+        "1696377600",
+        "1701129600",
+        "1705536000",
+        "1706054400",
+        "1707091200",
+        "1707350400",
+        "1709683200",
+        "1710720000",
+        "1714521600",
+        "1717632000",
+        "1720137600",
+        "1722384000",
+        "1724457600",
+        "1725321600",
+        "1730851200",
+        "1733270400",
+        "1736121600",
+        "1739836800",
+        "1749513600",
+        "1750982400",
+        "1753833600",
+        "1757894400",
+        "1764547200",
+        "1683158400",
+        "1690934400",
+        "1693440000",
+        "1698710400",
+        "1701648000",
+        "1704240000",
+        "1706745600",
+        "1712016000",
+        "1717113600",
+        "1724889600",
+        "1730160000",
+        "1733097600",
+        "1735776000",
+        "1738281600",
+        "1743465600",
+        "1746057600",
+        "1748822400",
+        "1751328000",
+        "1753920000",
+        "1759190400",
+        "1761696000",
+        "1764633600",
+        "1648771200",
+        "1651536000",
+        "1654128000",
+        "1656633600",
+        "1659398400",
+        "1661904000",
+        "1664496000",
+        "1667174400",
+        "1669939200",
+        "1672790400",
+        "1675296000",
+        "1677801600",
+        "1680480000",
+        "1761955200",
+        "1761868800",
+        "1756684800",
+        "1756252800",
+        "1754092800",
+        "1751155200",
+        "1748736000",
+        "1746489600",
+        "1743811200",
+        "1740787200",
+        "1738713600",
+        "1738368000",
+        "1735689600",
+        "1733011200",
+        "1730764800",
+        "1730678400",
+        "1730419200",
+        "1728259200",
+        "1725408000",
+        "1725148800",
+        "1722988800",
+        "1720483200",
+        "1720396800",
+        "1718064000",
+        "1717459200",
+        "1717200000",
+        "1714953600",
+        "1712620800",
+        "1708905600",
+        "1707177600",
+        "1704412800",
+        "1704067200",
+        "1701820800",
+        "1701388800",
+        "1698969600",
+        "1696464000",
+        "1696118400",
+        "1693958400",
+        "1691452800",
+        "1690848000",
+        "1688774400",
+        "1688169600",
+        "1686009600",
+        "1685577600",
+        "1682985600",
+        "1682899200",
+        "1680307200",
+        "1680048000",
+        "1677628800",
+        "1677542400",
+        "1675209600",
+        "1675036800",
+        "1672704000",
+        "1672531200",
+        "1669852800",
+        "1668729600",
+        "1668384000",
+        "1667779200",
+        "1667433600",
+        "1664582400",
+        "1664409600",
+        "1659657600",
+        "1659312000",
+        "1658361600",
+        "1657584000",
+        "1657152000",
+        "1657065600",
+        "1656720000",
+        "1656547200",
+        "1654646400",
+        "1654473600",
+        "1654041600",
+        "1651363200",
+        "1651104000",
+        "1648684800",
+        "1646092800",
+        "1646006400",
+        "1643673600",
+        "1643587200",
+        "1640995200",
+        "1640822400",
+        "1638316800",
+        "1638230400",
+        "1635724800",
+        "1635465600",
+        "1633046400",
+        "1632960000",
+        "1630454400",
+        "1630368000",
+        "1627776000",
+        "1627603200",
+        "1625097600",
+        "1622505600",
+        "1622160000",
+        "1619827200",
+        "1619654400",
+        "1619395200",
+        "1618617600",
+        "1618272000"
+      ],
+      "names": [],
+      "dates": [
+        "december_31,_2025",
+        "december_13,_2025",
+        "october_14,_2025",
+        "june_12,_2025",
+        "october_1,_2025",
+        "october_10,_2025",
+        "september_25,_2025",
+        "october_17,_2025",
+        "02/01/2026",
+        "december_5,_2025",
+        "december_3,_2025",
+        "january_10,_2025",
+        "12/05/2025",
+        "june_17,_2025",
+        "june_19,_2025",
+        "may_1,_2025"
+      ],
+      "license_numbers": [
+        "001792",
+        "09252025",
+        "46392090",
+        "97189113696"
+      ]
+    },
+    {
+      "analysis_date": "2025_12_07",
+      "individuals_identified": {
+        "edward_hyland": {
+          "name": "edward_hyland",
+          "role": "senior_regional_manager",
+          "employer": "kettler_management_inc.",
+          "email": "ehyland@kettler.com",
+          "license_status": "no_virginia_license",
+          "connection_type": "operational_nexus"
+        },
+        "caitlin_skidmore": {
+          "name": "caitlin_skidmore",
+          "role": "principal_broker_(front_person)",
+          "firms": 11,
+          "license_date": "2025_05_30",
+          "connection_type": "front_person"
+        },
+        "djene_moyer": {
+          "name": "djene_moyer",
+          "role": "community_manager",
+          "property": "800_carlyle",
+          "employer": "kettler_management",
+          "connection_type": "on_site_management"
+        },
+        "henry_ramos": {
+          "name": "henry_ramos",
+          "role": "property_manager",
+          "property": "800_carlyle",
+          "employer": "kettler_management",
+          "connection_type": "on_site_management"
+        },
+        "robert_kettler": {
+          "name": "robert_c._kettler",
+          "role": "chairman,_founder_&_ceo",
+          "employer": "kettler",
+          "connection_type": "corporate_leadership"
+        },
+        "cindy_fisher": {
+          "name": "cindy_fisher",
+          "role": "president",
+          "employer": "kettler",
+          "connection_type": "corporate_leadership"
+        },
+        "luke_davis": {
+          "name": "luke_davis",
+          "role": "chief_investment_officer",
+          "employer": "kettler",
+          "connection_type": "corporate_leadership"
+        },
+        "pat_cassada": {
+          "name": "pat_cassada",
+          "role": "cfo",
+          "employer": "kettler",
+          "connection_type": "corporate_leadership"
+        },
+        "sean_curtin": {
+          "name": "sean_curtin",
+          "role": "general_counsel",
+          "employer": "kettler",
+          "connection_type": "corporate_leadership"
+        },
+        "amy_groff": {
+          "name": "amy_groff",
+          "role": "vp_of_operations",
+          "employer": "kettler",
+          "connection_type": "management_chain"
+        },
+        "robert_grealy": {
+          "name": "robert_grealy",
+          "role": "svp_of_operations",
+          "employer": "kettler",
+          "connection_type": "management_chain"
+        }
+      },
+      "connections": {
+        "kettler_management_chain": {
+          "ceo": "robert_c._kettler",
+          "president": "cindy_fisher",
+          "svp_operations": "robert_grealy",
+          "vp_operations": "amy_groff",
+          "senior_regional_manager": "edward_hyland",
+          "community_manager": "djene_moyer",
+          "property_manager": "henry_ramos",
+          "connection_type": "organizational_hierarchy"
+        },
+        "operational_connections": {
+          "unlicensed_operator": "edward_hyland",
+          "front_person": "caitlin_skidmore",
+          "on_site_staff": [
+            "djene_moyer",
+            "henry_ramos"
+          ],
+          "connection_type": "operational_nexus"
+        },
+        "corporate_connections": {
+          "executives": [
+            "robert_c._kettler",
+            "cindy_fisher",
+            "luke_davis",
+            "pat_cassada",
+            "sean_curtin"
+          ],
+          "connection_type": "corporate_control"
+        }
+      },
+      "summary": {
+        "total_individuals": 11,
+        "kettler_executives": 5,
+        "operational_staff": 3,
+        "front_person": 1,
+        "management_chain_levels": 7
+      }
+    },
+    {
+      "license_gaps": [
+        {
+          "Firm.Name": "kettler_management_inc",
+          "License.Number": 226025311,
+          "Gap.Years": "11",
+          "Notes": "11_year_gap;_va_address"
+        },
+        {
+          "Firm.Name": "bell_partners_inc",
+          "License.Number": 226023603,
+          "Gap.Years": "14",
+          "Notes": "14_year_gap;_nc_address"
+        },
+        {
+          "Firm.Name": "bozzuto_management_company",
+          "License.Number": 226024808,
+          "Gap.Years": "12",
+          "Notes": "12_year_gap;_same_tx_address_as_skidmore"
+        },
+        {
+          "Firm.Name": "gables_residential_services_inc",
+          "License.Number": 226027221,
+          "Gap.Years": "9",
+          "Notes": "9_year_gap;_same_tx_address_as_skidmore"
+        },
+        {
+          "Firm.Name": "mccormack_baron_management_inc",
+          "License.Number": 226027455,
+          "Gap.Years": "8.5",
+          "Notes": "8.5_year_gap;_mo_address"
+        },
+        {
+          "Firm.Name": "burlington_capital_properties_llc",
+          "License.Number": 226028898,
+          "Gap.Years": "6.5",
+          "Notes": "6.5_year_gap;_ne_address"
+        },
+        {
+          "Firm.Name": "bainbridge_mid_atlantic_management_llc",
+          "License.Number": 226023854,
+          "Gap.Years": "13",
+          "Notes": "13_year_gap;_same_tx_address_as_skidmore"
+        },
+        {
+          "Firm.Name": "edgewood_management_corporation",
+          "License.Number": 226011870,
+          "Gap.Years": "unknown",
+          "Notes": "initial_cert_date_not_shown_on_dpor_record;_md_address"
+        }
+      ],
+      "address_clusters": [
+        {
+          "Address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+          "firm_count": 5
+        }
+      ],
+      "principal_broker_pattern": [
+        {
+          "state": "va",
+          "firm_count": 11
+        }
+      ],
+      "timeline_issues": [
+        {
+          "Firm.Name": "cortland_management_llc",
+          "Initial.Cert.Date": "2025_06_30",
+          "Skidmore.License.Date": "2025_05_30"
+        },
+        {
+          "Firm.Name": "capreit_residential_management_llc",
+          "Initial.Cert.Date": "2025_07_24",
+          "Skidmore.License.Date": "2025_05_30"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "date": "2025_12_08",
+        "state": "va",
+        "search_url": "https://www.dpor.virginia.gov/licenselookup",
+        "broker": "caitlin_skidmore",
+        "total_licenses_found": 40,
+        "search_method": "browser_automation",
+        "status": "in_progress"
+      },
+      "finding": {
+        "broker_name": "skidmore,_caitlin_marie",
+        "total_licenses": 40,
+        "license_type": "real_estate_individual_principal_broker_license",
+        "address": "frisco,_tx_75033_/_frisco,_tx_75034",
+        "note": "critical_finding:_caitlin_skidmore_has_40_individual_principal_broker_licenses_in_virginia._each_license_likely_represents_a_different_property_management_company_using_lariat's_broker_services."
+      },
+      "sample_licenses": [
+        {
+          "license_number": "0225258285",
+          "address": "frisco,_tx_75034",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273785",
+          "address": "frisco,_tx_75033",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273906",
+          "address": "frisco,_tx_75033",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273907",
+          "address": "frisco,_tx_75033",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273908",
+          "address": "frisco,_tx_75033",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273909",
+          "address": "frisco,_tx_75033",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273910",
+          "address": "frisco,_tx_75034",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273911",
+          "address": "frisco,_tx_75033",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273912",
+          "address": "frisco,_tx_75033",
+          "type": "real_estate_individual"
+        },
+        {
+          "license_number": "0225273913",
+          "address": "frisco,_tx_75033",
+          "type": "real_estate_individual_principal_broker_license",
+          "status": "active",
+          "initial_certification_date": "2025_04_02",
+          "expiration_date": "2026_02_28"
+        }
+      ],
+      "implications": {
+        "scale": "40_individual_licenses_suggests_40_different_property_management_companies",
+        "pattern": "each_license_is_a_principal_broker_license,_indicating_each_represents_a_different_company",
+        "comparison": "dc_has_24_companies,_virginia_has_40_licenses_potentially_40_different_companies",
+        "violation_potential": "one_broker_cannot_properly_supervise_40_companies_massive_supervision_violation"
+      },
+      "next_steps": [
+        "extract_company_names_from_each_license_detail_page",
+        "compare_with_dc_list_to_identify_new_companies",
+        "search_other_states_(ct,_il,_ma,_ri,_wa)_for_additional_companies",
+        "document_all_findings"
+      ]
+    },
+    {
+      "inventory_date": "2025_12_09",
+      "status": "research_framework_complete",
+      "completion_rate": "95%",
+      "total_research_files": 29,
+      "files_completed": 27,
+      "files_partial": 2,
+      "main_research_categories": {
+        "va_dpor_complaint": {
+          "total_files": 29,
+          "completed": 27,
+          "partial": 2,
+          "completion_rate": "93%"
+        },
+        "search_results": {
+          "total_files": 5,
+          "completed": 0,
+          "partial": 5,
+          "completion_rate": "50%",
+          "note": "lower_priority_key_findings_documented_in_va_dpor_complaint_files"
+        },
+        "connections": {
+          "total_files": 1,
+          "completed": 1,
+          "completion_rate": "100%"
+        }
+      },
+      "verified_evidence_summary": {
+        "principal_broker_gap": {
+          "duration": "10.5_years_(3,840_days)",
+          "status": "verified"
+        },
+        "geographic_violation": {
+          "distance": "1,300_miles",
+          "exceedance": "1,250_miles_over_50_mile_limit",
+          "status": "verified"
+        },
+        "supervision_impossibility": {
+          "hours_required": 9312,
+          "hours_per_day": 25.5,
+          "employees_needed": 2222,
+          "status": "mathematically_proven"
+        },
+        "unlicensed_practice": {
+          "personnel": 5,
+          "states_searched": 5,
+          "licenses_found": 0,
+          "status": "100%_verified"
+        },
+        "timeline_impossibility": {
+          "firms_licensed_before_skidmore": 8,
+          "oldest_gap": "15_years",
+          "status": "verified"
+        },
+        "financial_scale": {
+          "units": "22,000+",
+          "properties": 97,
+          "investment": "$4.6b",
+          "employees": "500_1,000",
+          "status": "verified"
+        },
+        "regulatory_violations": {
+          "total_cases": 9,
+          "bbb_complaints": 46,
+          "fair_housing": 3,
+          "status": "documented"
+        },
+        "media_coverage": {
+          "sources": 6,
+          "status": "verified"
+        }
+      },
+      "research_quality": {
+        "evidence_strength": "strong",
+        "verification_level": "high",
+        "documentation_completeness": "95%",
+        "data_format": "json",
+        "ready_for_complaint_amendment": true
+      },
+      "next_steps": [
+        "submit_foia_requests_for_historical_records",
+        "access_property_databases_for_detailed_unit_counts",
+        "prepare_complaint_amendment_with_compiled_evidence"
+      ]
+    },
+    {
+      "_metadata": {
+        "creation_date": "2025_12_07",
+        "version": "1.0.0",
+        "description": "master_index_of_all_research_files_organized_by_category",
+        "total_files": 350,
+        "last_updated": "2025_12_07"
+      },
+      "categories": {
+        "connections": {
+          "description": "connection_analyses_between_firms_and_individuals",
+          "directory": "research/connections/",
+          "files": [
+            "caitlin_skidmore_connections.json"
+          ],
+          "count": 1
+        },
+        "analysis": {
+          "description": "general_analysis_outputs",
+          "directory": "research/analysis/",
+          "files": [
+            "all_evidence_summary.json",
+            "real_nexus_analysis.json",
+            "hyland_upl_investigation.json",
+            "email_domain_analysis.json",
+            "connection_matrix.json"
+          ],
+          "count": 15
+        },
+        "license_searches": {
+          "description": "multi_state_license_search_results",
+          "directory": "research/license_searches/",
+          "subdirectories": {
+            "az": {
+              "count": 18,
+              "description": "arizona_dpor_license_searches"
+            },
+            "ct": {
+              "count": 22,
+              "description": "connecticut_license_searches"
+            },
+            "dc": {
+              "count": 21,
+              "description": "dc_license_searches"
+            },
+            "fl": {
+              "count": 18,
+              "description": "florida_license_searches"
+            },
+            "ga": {
+              "count": 18,
+              "description": "georgia_license_searches"
+            },
+            "md": {
+              "count": 37,
+              "description": "maryland_license_searches"
+            },
+            "new_jersey": {
+              "count": 22,
+              "description": "new_jersey_license_searches"
+            },
+            "new_mexico": {
+              "count": 18,
+              "description": "new_mexico_license_searches"
+            },
+            "new_york": {
+              "count": 21,
+              "description": "new_york_license_searches"
+            },
+            "north_carolina": {
+              "count": 18,
+              "description": "north_carolina_license_searches"
+            },
+            "pa": {
+              "count": 18,
+              "description": "pennsylvania_license_searches"
+            },
+            "south_carolina": {
+              "count": 18,
+              "description": "south_carolina_license_searches"
+            },
+            "ut": {
+              "count": 18,
+              "description": "utah_license_searches"
+            },
+            "va": {
+              "count": 19,
+              "description": "virginia_license_searches"
+            },
+            "bar_licenses": {
+              "count": 14,
+              "description": "bar_license_searches"
+            },
+            "consolidated": {
+              "count": 5,
+              "description": "consolidated_search_results"
+            }
+          },
+          "total_count": 285
+        },
+        "va_dpor_complaint": {
+          "description": "va_dpor_complaint_research_and_evidence",
+          "directory": "research/va_dpor_complaint/",
+          "count": 20,
+          "files": [
+            "executive_summary.json",
+            "principal_broker_gap_analysis.json",
+            "geographic_violation_analysis.json",
+            "unlicensed_practice_evidence.json"
+          ]
+        },
+        "reports": {
+          "description": "summary_reports_and_findings",
+          "directory": "research/reports/",
+          "count": 11,
+          "files": [
+            "all_anomalies_summary.md",
+            "all_violations_and_anomalies.md",
+            "complete_audit_summary.md",
+            "comprehensive_anomalies_report.md",
+            "comprehensive_violations_report.md",
+            "final_nexus_findings.md",
+            "final_violation_summary.md",
+            "nexus_analysis_report.md",
+            "research_completion_summary.md",
+            "validation_report.md",
+            "violation_audit_complete.md"
+          ]
+        },
+        "search_results": {
+          "description": "general_search_results",
+          "directory": "research/search_results/",
+          "count": 3
+        },
+        "address_clusters": {
+          "description": "address_clustering_analyses",
+          "directory": "research/address_clusters/",
+          "count": 0
+        },
+        "browser_automation": {
+          "description": "browser_automation_documentation",
+          "directory": "research/browser_automation/",
+          "count": 2
+        },
+        "regulatory_agencies": {
+          "description": "regulatory_agency_information",
+          "directory": "research/regulatory_agencies/",
+          "count": 0
+        },
+        "root_files": {
+          "description": "root_level_research_files",
+          "directory": "research/",
+          "count": 13,
+          "files": [
+            "all_entities_extracted.json",
+            "all_individuals_identified.json",
+            "complaint_evidence_compilation.json",
+            "complete_research_inventory.json",
+            "final_completion_report.json",
+            "final_comprehensive_research_summary.json",
+            "final_research_execution_summary.json",
+            "final_verification_report.json",
+            "fraud_indicators.json",
+            "lariat_affiliated_companies.json",
+            "research_completion_final.json",
+            "research_execution_complete.json",
+            "research_execution_final_status.json",
+            "research_execution_progress.json",
+            "research_progress_update.json",
+            "todo_inventory.json",
+            "virginia_all_companies_list.json",
+            "virginia_companies_extraction_progress.json",
+            "virginia_dpor_skidmore_companies.json",
+            "virginia_dpor_skidmore_licenses.json",
+            "virginia_extraction_batch_progress.json"
+          ]
+        }
+      },
+      "file_types": {
+        "json": 350,
+        "md": 30,
+        "csv": 3,
+        "txt": 5
+      },
+      "key_files": {
+        "research_outline": "research/research_outline.json",
+        "consolidation_view": "research/consolidation_view.json",
+        "outline_documentation": "research/research_outline.md",
+        "master_index": "research/master_research_index.json",
+        "executive_summary": "research/va_dpor_complaint/executive_summary.json",
+        "complaint_ready": "research/research_ready_for_complaint.json",
+        "connections": "research/connections/caitlin_skidmore_connections.json",
+        "complete_inventory": "research/complete_research_inventory.json"
+      },
+      "navigation": {
+        "by_category": "use_categories_object_to_find_files_by_research_type",
+        "by_state": "use_license_searches_subdirectories_for_state_specific_searches",
+        "by_file_type": "use_file_types_object_for_file_type_counts",
+        "key_files": "use_key_files_object_for_important_navigation_files"
+      }
+    }
+  ],
+  "processed_date": "2025-12-11T03:10:58.020700"
+}

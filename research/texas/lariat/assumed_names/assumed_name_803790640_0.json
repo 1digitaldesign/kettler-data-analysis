@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.256211",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/assumed_names/assumed_name_803790640_0.json",
+    "created": "2025_12_11t00:21:41.256211",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/assumed_names/assumed_name_803790640_0.json",
     "has_embedding": true
   },
   "data": {
-    "assumed_name": "BAINBRIDGE COMPANIES",
-    "date_of_filing": "March 31, 2025",
-    "expiration_date": "March 31, 2035",
-    "inactive_date": "Active",
-    "name_status": "All Counties",
+    "assumed_name": "bainbridge_companies",
+    "date_of_filing": "march_31,_2025",
+    "expiration_date": "march_31,_2035",
+    "inactive_date": "active",
+    "name_status": "all_counties",
     "counties": null
   },
-  "text_representation": "assumed_name: BAINBRIDGE COMPANIES | date_of_filing: March 31, 2025 | expiration_date: March 31, 2035 | inactive_date: Active | name_status: All Counties",
+  "text_representation": "assumed_name:_bainbridge_companies_|_date_of_filing:_march_31,_2025_|_expiration_date:_march_31,_2035_|_inactive_date:_active_|_name_status:_all_counties",
   "embedding": [
     -0.009321209974586964,
     -0.09054046124219894,

@@ -1,94 +1,94 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.142840",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0223.json",
+    "created": "2025_12_11t00:52:03.142840",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0223.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 223,
-    "text": "00024216182\nName eltiT Asddres 3030077\nguson R. FreeCol nt PsdeereiciV Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\n. Ggory GsorreaiF nt PsdeereiciV vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nnnoni GaveieviGnee nt PsdeereiciV Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nndsMry Oaa. Hlol nt PsdeereiciV Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nbm Dart. LRobe nt PsdeereiciV vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nePtarery LaRosme nt PsdeereiciV vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nSng Ha. Prka nt PsdeereiciV ns8300 Geboro Dvereri\n650eStui\n22102AVn, aeMLc\nKyrt. PseRoberel nt PsdeereiciV te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nsla. Ri LoniT nt PsdeereiciV vd.k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nsyme. Ran PelCul nt PsdeereiciV vdk Ble CreelurtT1 381\ny)thoriutd aetimih l(wti 1500eStui\nXT 75219sa, lDla\nt. Soty LclKle nt PsdeereiciV te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nnt PsdeereiciV vd.k Ble CreelurtT1 381\nrse. SmD Eumonna\n1500eStui\nXT 75219sa, lDla\ndeaWA. alePma nt PsdeereiciV te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nsyleiW Se. Jiul nt PsdeereiciV vd.k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\n. Brow LnlehaMci nt PsdeereiciV lonagiRe Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt",
+    "text": "00024216182_name_eltit_asddres_3030077_guson_r._freecol_nt_psdeereiciv_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_._ggory_gsorreaif_nt_psdeereiciv_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_nnoni_gaveievignee_nt_psdeereiciv_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_ndsmry_oaa._hlol_nt_psdeereiciv_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_bm_dart._lrobe_nt_psdeereiciv_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_eptarery_larosme_nt_psdeereiciv_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_sng_ha._prka_nt_psdeereiciv_ns8300_geboro_dvereri_650estui_22102avn,_aemlc_kyrt._pseroberel_nt_psdeereiciv_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_sla._ri_lonit_nt_psdeereiciv_vd.k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_syme._ran_pelcul_nt_psdeereiciv_vdk_ble_creelurtt1_381_y)thoriutd_aetimih_l(wti_1500estui_xt_75219sa,_ldla_t._soty_lclkle_nt_psdeereiciv_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_nt_psdeereiciv_vd.k_ble_creelurtt1_381_rse._smd_eumonna_1500estui_xt_75219sa,_ldla_deawa._alepma_nt_psdeereiciv_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_syleiw_se._jiul_nt_psdeereiciv_vd.k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_._brow_lnlehamci_nt_psdeereiciv_lonagire_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt",
     "char_count": 1288,
     "word_count": 190,
     "anomalies": {
       "page_number": 223,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [
         {
           "count": 7,
           "addresses": [
             {
-              "full_match": "Stui\nXT 77057",
+              "full_match": "stui_xt_77057",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "77057"
               ],
               "start": 664,
               "end": 677
             },
             {
-              "full_match": "Stui\nXT 75219",
+              "full_match": "stui_xt_75219",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75219"
               ],
               "start": 745,
               "end": 758
             },
             {
-              "full_match": "Stui\nXT 75219",
+              "full_match": "stui_xt_75219",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75219"
               ],
               "start": 852,
               "end": 865
             },
             {
-              "full_match": "Stui\nXT 77057",
+              "full_match": "stui_xt_77057",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "77057"
               ],
               "start": 932,
               "end": 945
             },
             {
-              "full_match": "Stui\nXT 75219",
+              "full_match": "stui_xt_75219",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75219"
               ],
               "start": 1016,
               "end": 1029
             },
             {
-              "full_match": "Stui\nXT 77057",
+              "full_match": "stui_xt_77057",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "77057"
               ],
               "start": 1095,
               "end": 1108
             },
             {
-              "full_match": "Stui\nXT 75219",
+              "full_match": "stui_xt_75219",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75219"
               ],
               "start": 1178,
               "end": 1191
             }
           ],
-          "pattern": "Multiple addresses clustered",
+          "pattern": "multiple_addresses_clustered",
           "severity": "medium"
         }
       ],
@@ -97,7 +97,7 @@
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 223 | text: 00024216182\nName eltiT Asddres 3030077\nguson R. FreeCol nt PsdeereiciV Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\n. Ggory GsorreaiF nt PsdeereiciV vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nnnoni GaveieviGnee nt PsdeereiciV Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nndsMry Oaa. Hlol nt PsdeereiciV Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nbm Dart. LRobe nt PsdeereiciV vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nePtarery LaRosme nt PsdeereiciV vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nSng Ha. Prka nt PsdeereiciV ns8300 Geboro Dvereri\n650eStui\n22102AVn, aeMLc\nKyrt. PseRoberel nt PsdeereiciV te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nsla. Ri LoniT nt PsdeereiciV vd.k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nsyme. Ran PelCul nt PsdeereiciV vdk Ble CreelurtT1 381\ny)thoriutd aetimih l(wti 1500eStui\nXT 75219sa, lDla\nt. Soty LclKle nt PsdeereiciV te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nnt PsdeereiciV vd.k Ble CreelurtT1 381\nrse. SmD Eumonna\n1500eStui\nXT 75219sa, lDla\ndeaWA. alePma nt PsdeereiciV te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nsyleiW Se. Jiul nt PsdeereiciV vd.k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\n. Brow LnlehaMci nt PsdeereiciV lonagiRe Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt | char_count: 1288 | word_count: 190 | anomalies: {\"page_number\":223,\"source\":\"lariat-merged\",\"address_clusters\":[{\"count\":7,\"addresses\":[{\"full_match\":\"Stui\\nXT 77057\",\"groups\":[\"Stui\",\"XT\",\"77057\"],\"start\":664,\"end\":677},{\"full_match\":\"Stui\\nXT 75219\",\"groups\":[\"Stui\",\"XT\",\"75219\"],\"start\":745,\"end\":758},{\"full_match\":\"Stui\\nXT 75219\",\"groups\":[\"Stui\",\"XT\",\"75219\"],\"start\":852,\"end\":865},{\"full_match\":\"Stui\\nXT 77057\",\"groups\":[\"Stui\",\"XT\",\"77057\"],\"start\":932,\"end\":945},{\"full_match\":\"Stui\\nXT 75219\",\"groups\":[\"Stui\",\"XT\",\"75219\"],\"start\":1016,\"end\":1029},{\"full_match\":\"Stui\\nXT 77057\",\"groups\":[\"Stui\",\"XT\",\"77057\"],\"start\":1095,\"end\":1108},{\"full_match\":\"Stui\\nXT 75219\",\"groups\":[\"Stui\",\"XT\",\"75219\"],\"start\":1178,\"end\":1191}],\"pattern\":\"Multiple addresses clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_223_|_text:_00024216182_name_eltit_asddres_3030077_guson_r._freecol_nt_psdeereiciv_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_._ggory_gsorreaif_nt_psdeereiciv_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_nnoni_gaveievignee_nt_psdeereiciv_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_ndsmry_oaa._hlol_nt_psdeereiciv_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_bm_dart._lrobe_nt_psdeereiciv_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_eptarery_larosme_nt_psdeereiciv_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_sng_ha._prka_nt_psdeereiciv_ns8300_geboro_dvereri_650estui_22102avn,_aemlc_kyrt._pseroberel_nt_psdeereiciv_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_sla._ri_lonit_nt_psdeereiciv_vd.k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_syme._ran_pelcul_nt_psdeereiciv_vdk_ble_creelurtt1_381_y)thoriutd_aetimih_l(wti_1500estui_xt_75219sa,_ldla_t._soty_lclkle_nt_psdeereiciv_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_nt_psdeereiciv_vd.k_ble_creelurtt1_381_rse._smd_eumonna_1500estui_xt_75219sa,_ldla_deawa._alepma_nt_psdeereiciv_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_syleiw_se._jiul_nt_psdeereiciv_vd.k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_._brow_lnlehamci_nt_psdeereiciv_lonagire_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_|_char_count:_1288_|_word_count:_190_|_anomalies:_{\"page_number\":223,\"source\":\"lariat_merged\",\"address_clusters\":[{\"count\":7,\"addresses\":[{\"full_match\":\"stui\\nxt_77057\",\"groups\":[\"stui\",\"xt\",\"77057\"],\"start\":664,\"end\":677},{\"full_match\":\"stui\\nxt_75219\",\"groups\":[\"stui\",\"xt\",\"75219\"],\"start\":745,\"end\":758},{\"full_match\":\"stui\\nxt_75219\",\"groups\":[\"stui\",\"xt\",\"75219\"],\"start\":852,\"end\":865},{\"full_match\":\"stui\\nxt_77057\",\"groups\":[\"stui\",\"xt\",\"77057\"],\"start\":932,\"end\":945},{\"full_match\":\"stui\\nxt_75219\",\"groups\":[\"stui\",\"xt\",\"75219\"],\"start\":1016,\"end\":1029},{\"full_match\":\"stui\\nxt_77057\",\"groups\":[\"stui\",\"xt\",\"77057\"],\"start\":1095,\"end\":1108},{\"full_match\":\"stui\\nxt_75219\",\"groups\":[\"stui\",\"xt\",\"75219\"],\"start\":1178,\"end\":1191}],\"pattern\":\"multiple_addresses_clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.09459463506937027,
     -0.001510180183686316,

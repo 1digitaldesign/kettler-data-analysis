@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.576517",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0203.json",
+    "created": "2025_12_11t00:52:02.576517",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0203.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 203,
-    "text": "00004981015\nName\neltiT\nonrthaWny fafiT Asddres\nnt PsdeereiciV lonagiRe\nr Sngsddapri Roa2650 Ce 800eStui\nXT 75201sa, lDla",
+    "text": "00004981015_name_eltit_onrthawny_fafit_asddres_nt_psdeereiciv_lonagire_r_sngsddapri_roa2650_ce_800estui_xt_75201sa,_ldla",
     "char_count": 120,
     "word_count": 17,
     "anomalies": {
       "page_number": 203,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 203 | text: 00004981015\nName\neltiT\nonrthaWny fafiT Asddres\nnt PsdeereiciV lonagiRe\nr Sngsddapri Roa2650 Ce 800eStui\nXT 75201sa, lDla | char_count: 120 | word_count: 17 | anomalies: {\"page_number\":203,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_203_|_text:_00004981015_name_eltit_onrthawny_fafit_asddres_nt_psdeereiciv_lonagire_r_sngsddapri_roa2650_ce_800estui_xt_75201sa,_ldla_|_char_count:_120_|_word_count:_17_|_anomalies:_{\"page_number\":203,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.05904479697346687,
     0.014610426500439644,

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.571805",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0069.json",
+    "created": "2025_12_11t00:51:59.571805",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0069.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 69,
-    "text": "THE STATE OF TEXAS\n$\nCOUNTY OF. HARRIS\nI, Triedrel L. Buerble, a Notary Publio, do\nhereby certify that on this the 28 t day of\nPeptentio.\n1962, personally appeared before me S. I. BARBER, who de-\nclared that he 1s President of the corporation executing\nthe foregoing document, and being first duly sworn, acknowl-\nedged that he signed the foregoing document in the capacity\ntherein set forth, and declared that the statements therein\ncontained are true.\nIN WITNESS WHEREOF, I have hereunto set my hand and\nseal the day and year before written.\nTered 2. Duckle\notary Public in and fo\n10E234 Harris County, TEXAS.\n¥ A L)\nLMIDRBUEDL ER .KLE\nexiT ,loaPutry blnaiI noHc dfr a rriCs ounyt\nCy ommissionExp iraJus n1e1 96 ,",
+    "text": "the_state_of_texas_$_county_of._harris_i,_triedrel_l._buerble,_a_notary_publio,_do_hereby_certify_that_on_this_the_28_t_day_of_peptentio._1962,_personally_appeared_before_me_s._i._barber,_who_de_clared_that_he_1s_president_of_the_corporation_executing_the_foregoing_document,_and_being_first_duly_sworn,_acknowl_edged_that_he_signed_the_foregoing_document_in_the_capacity_therein_set_forth,_and_declared_that_the_statements_therein_contained_are_true._in_witness_whereof,_i_have_hereunto_set_my_hand_and_seal_the_day_and_year_before_written._tered_2._duckle_otary_public_in_and_fo_10e234_harris_county,_texas._¥_a_l)_lmidrbuedl_er_.kle_exit_,loaputry_blnaii_nohc_dfr_a_rrics_ounyt_cy_ommissionexp_irajus_n1e1_96_,",
     "char_count": 715,
     "word_count": 126,
     "anomalies": {
       "page_number": 69,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 69 | text: THE STATE OF TEXAS\n$\nCOUNTY OF. HARRIS\nI, Triedrel L. Buerble, a Notary Publio, do\nhereby certify that on this the 28 t day of\nPeptentio.\n1962, personally appeared before me S. I. BARBER, who de-\nclared that he 1s President of the corporation executing\nthe foregoing document, and being first duly sworn, acknowl-\nedged that he signed the foregoing document in the capacity\ntherein set forth, and declared that the statements therein\ncontained are true.\nIN WITNESS WHEREOF, I have hereunto set my hand and\nseal the day and year before written.\nTered 2. Duckle\notary Public in and fo\n10E234 Harris County, TEXAS.\n¥ A L)\nLMIDRBUEDL ER .KLE\nexiT ,loaPutry blnaiI noHc dfr a rriCs ounyt\nCy ommissionExp iraJus n1e1 96 , | char_count: 715 | word_count: 126 | anomalies: {\"page_number\":69,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_69_|_text:_the_state_of_texas_$_county_of._harris_i,_triedrel_l._buerble,_a_notary_publio,_do_hereby_certify_that_on_this_the_28_t_day_of_peptentio._1962,_personally_appeared_before_me_s._i._barber,_who_de_clared_that_he_1s_president_of_the_corporation_executing_the_foregoing_document,_and_being_first_duly_sworn,_acknowl_edged_that_he_signed_the_foregoing_document_in_the_capacity_therein_set_forth,_and_declared_that_the_statements_therein_contained_are_true._in_witness_whereof,_i_have_hereunto_set_my_hand_and_seal_the_day_and_year_before_written._tered_2._duckle_otary_public_in_and_fo_10e234_harris_county,_texas._¥_a_l)_lmidrbuedl_er_.kle_exit_,loaputry_blnaii_nohc_dfr_a_rrics_ounyt_cy_ommissionexp_irajus_n1e1_96_,_|_char_count:_715_|_word_count:_126_|_anomalies:_{\"page_number\":69,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.07891447842121124,
     0.036982398480176926,

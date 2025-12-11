@@ -1,0 +1,120 @@
+{
+  "category": "complaints",
+  "count": 9,
+  "data": [
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "purpose": "regulatory_complaints",
+        "status": "searched",
+        "search_date": "2025_12_10"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "category": "regulatory_complaints",
+        "status": "complete",
+        "data_collected": true
+      },
+      "data": {
+        "records": [],
+        "findings": [],
+        "summary": "data_collection_completed_for_regulatory_complaints"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:12.390407",
+        "source": "better_business_bureau",
+        "search_method": "browser_automation"
+      },
+      "complaints": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:10.374164",
+        "state": "va",
+        "search_method": "browser_automation",
+        "sources": [
+          "state_licensing_boards",
+          "consumer_protection_agencies",
+          "real_estate_commissions"
+        ]
+      },
+      "complaints": [],
+      "enforcement_actions": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:11.885192",
+        "state": "ct",
+        "search_method": "browser_automation",
+        "sources": [
+          "state_licensing_boards",
+          "consumer_protection_agencies",
+          "real_estate_commissions"
+        ]
+      },
+      "complaints": [],
+      "enforcement_actions": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:10.875056",
+        "state": "nj",
+        "search_method": "browser_automation",
+        "sources": [
+          "state_licensing_boards",
+          "consumer_protection_agencies",
+          "real_estate_commissions"
+        ]
+      },
+      "complaints": [],
+      "enforcement_actions": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.367566",
+        "state": "dc",
+        "search_method": "browser_automation",
+        "sources": [
+          "state_licensing_boards",
+          "consumer_protection_agencies",
+          "real_estate_commissions"
+        ]
+      },
+      "complaints": [],
+      "enforcement_actions": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.868190",
+        "state": "md",
+        "search_method": "browser_automation",
+        "sources": [
+          "state_licensing_boards",
+          "consumer_protection_agencies",
+          "real_estate_commissions"
+        ]
+      },
+      "complaints": [],
+      "enforcement_actions": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:11.380360",
+        "state": "ny",
+        "search_method": "browser_automation",
+        "sources": [
+          "state_licensing_boards",
+          "consumer_protection_agencies",
+          "real_estate_commissions"
+        ]
+      },
+      "complaints": [],
+      "enforcement_actions": []
+    }
+  ],
+  "processed_date": "2025-12-11T03:10:59.233982"
+}

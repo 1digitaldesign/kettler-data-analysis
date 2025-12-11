@@ -1,255 +1,255 @@
 {
   "metadata": {
-    "date": "2025-12-08",
-    "state": "Virginia",
-    "broker": "Caitlin Skidmore",
+    "date": "2025_12_08",
+    "state": "va",
+    "broker": "caitlin_skidmore",
     "total_licenses": 40,
-    "extraction_method": "Browser automation - Related Licenses tab"
+    "extraction_method": "browser_automation_related_licenses_tab"
   },
   "extracted_companies": [
     {
       "individual_license": "0225273913",
-      "company_name": "BOZZUTO MANAGEMENT COMPANY",
+      "company_name": "bozzuto_management_company",
       "firm_license": "0226024808",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273906",
-      "company_name": "CORTLAND MANAGEMENT LLC",
+      "company_name": "cortland_management_llc",
       "firm_license": "0226038642",
       "status": "confirmed"
     },
     {
       "individual_license": "0225258285",
-      "company_name": "MIDDLEBURG MANAGEMENT LLC",
+      "company_name": "middleburg_management_llc",
       "firm_license": "0226038324",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273785",
-      "company_name": "GATEWAY MANAGEMENT COMPANY LLC",
+      "company_name": "gateway_management_company_llc",
       "firm_license": "0226038613",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273907",
-      "company_name": "CAPREIT RESIDENTIAL MANAGEMENT LLC",
+      "company_name": "capreit_residential_management_llc",
       "firm_license": "0226038643",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273909",
-      "company_name": "MCCORMACK BARON MANAGEMENT INC",
+      "company_name": "mccormack_baron_management_inc",
       "firm_license": "0226027455",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273910",
-      "company_name": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
+      "company_name": "bainbridge_mid_atlantic_management_llc",
       "firm_license": "0226023854",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273911",
-      "company_name": "BELL PARTNERS INC",
+      "company_name": "bell_partners_inc",
       "firm_license": "0226023603",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273914",
-      "company_name": "BURLINGTON CAPITAL PROPERTIES LLC",
+      "company_name": "burlington_capital_properties_llc",
       "firm_license": "0226028898",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273915",
-      "company_name": "CAPSTONE ON-CAMPUS MANAGEMENT LLC",
+      "company_name": "capstone_on_campus_management_llc",
       "firm_license": "0226036814",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273916",
-      "company_name": "CORE CAMPUS MANAGEMENT LLC",
+      "company_name": "core_campus_management_llc",
       "firm_license": "0226036650",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273917",
-      "company_name": "DRHR PROPERTY MANAGEMENT INC",
+      "company_name": "drhr_property_management_inc",
       "firm_license": "0226038008",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273918",
-      "company_name": "ENVOLVE CLIENT SERVICES VA LLC",
+      "company_name": "envolve_client_services_va_llc",
       "firm_license": "0226036708",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273919",
-      "company_name": "EVERGREEN REAL ESTATE SERVICES LLC",
+      "company_name": "evergreen_real_estate_services_llc",
       "firm_license": "0226035195",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273920",
-      "company_name": "FAIRMARK PROPERTIES OF VIRGINIA LP",
+      "company_name": "fairmark_properties_of_virginia_lp",
       "firm_license": "0226024621",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273921",
-      "company_name": "FCA MANAGEMENT LLC",
+      "company_name": "fca_management_llc",
       "firm_license": "0226038078",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273922",
-      "company_name": "FF PROPERTIES II LP",
+      "company_name": "ff_properties_ii_lp",
       "firm_license": "0226031583",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273923",
-      "company_name": "FOGELMAN PROPERTIES LLC",
+      "company_name": "fogelman_properties_llc",
       "firm_license": "0226033119",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273924",
-      "company_name": "GABLES RESIDENTIAL SERVICES INC",
+      "company_name": "gables_residential_services_inc",
       "firm_license": "0226027221",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273925",
-      "company_name": "GRUBB MANAGEMENT LLC",
+      "company_name": "grubb_management_llc",
       "firm_license": "0226036622",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273926",
-      "company_name": "KETTLER MANAGEMENT INC",
+      "company_name": "kettler_management_inc",
       "firm_license": "0226025311",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273927",
-      "company_name": "LCOR LAMLP LLC",
+      "company_name": "lcor_lamlp_llc",
       "firm_license": "0226037106",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273928",
-      "company_name": "LCOR ASSET MANAGEMENT LIMITED PARTNERSHIP",
+      "company_name": "lcor_asset_management_limited_partnership",
       "firm_license": "0226002838",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273929",
-      "company_name": "LINCOLN APARTMENT MANAGEMENT LIMITED PARTNERSHIP",
+      "company_name": "lincoln_apartment_management_limited_partnership",
       "firm_license": "0226026414",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273930",
-      "company_name": "LANDMARK VENTURE MANAGEMENT LLC",
+      "company_name": "landmark_venture_management_llc",
       "firm_license": "0226031657",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273931",
-      "company_name": "LMC LIVING, LLC",
+      "company_name": "lmc_living,_llc",
       "firm_license": "0226031104",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273932",
-      "company_name": "MISSION ROCK RESIDENTIAL LLC",
+      "company_name": "mission_rock_residential_llc",
       "firm_license": "0226029441",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273933",
-      "company_name": "NRP MANAGEMENT LLC",
+      "company_name": "nrp_management_llc",
       "firm_license": "0226037138",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273934",
-      "company_name": "PEGASUS RESIDENTIAL LLC",
+      "company_name": "pegasus_residential_llc",
       "firm_license": "0226038088",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273935",
-      "company_name": "PENNROSE MANAGEMENT COMPANY",
+      "company_name": "pennrose_management_company",
       "firm_license": "0226035194",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273936",
-      "company_name": "PINNACLE PROPERTY MANAGEMENT SERVICES LLC",
+      "company_name": "pinnacle_property_management_services_llc",
       "firm_license": "0226035674",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273937",
-      "company_name": "PREFERRED APARTMENT ADVISORS LLC",
+      "company_name": "preferred_apartment_advisors_llc",
       "firm_license": "0226032341",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273938",
-      "company_name": "TISHCO PROPERTIES LLC",
+      "company_name": "tishco_properties_llc",
       "firm_license": "0226034268",
       "status": "confirmed"
     },
     {
       "individual_license": "0225273939",
-      "company_name": "UIP PROPERTY MANAGEMENT INC",
+      "company_name": "uip_property_management_inc",
       "firm_license": "0226035780",
       "status": "confirmed"
     },
     {
       "individual_license": "0225274633",
-      "company_name": "WEINSTEIN MANAGEMENT CO INC",
+      "company_name": "weinstein_management_co_inc",
       "firm_license": "0226022513",
       "status": "confirmed"
     },
     {
       "individual_license": "0225274634",
-      "company_name": "MILL CREEK RESIDENTIAL SERVICES LLC",
+      "company_name": "mill_creek_residential_services_llc",
       "firm_license": "0226038480",
       "status": "confirmed"
     },
     {
       "individual_license": "0225274635",
-      "company_name": "CAPITAL SQUARE LIVING LLC",
+      "company_name": "capital_square_living_llc",
       "firm_license": "0226038564",
       "status": "confirmed"
     },
     {
       "individual_license": "0225274636",
-      "company_name": "EDGEWOOD MANAGEMENT CORPORATION",
+      "company_name": "edgewood_management_corporation",
       "firm_license": "0226011870",
       "status": "confirmed"
     }
   ],
   "remaining_licenses": {
-    "note": "EXTRACTION COMPLETE - 2 licenses (0225273908 and 0225273912) are inactive and do not have Related Licenses tabs. Company information cannot be extracted for inactive licenses.",
+    "note": "extraction_complete_2_licenses_(0225273908_and_0225273912)_are_inactive_and_do_not_have_related_licenses_tabs._company_information_cannot_be_extracted_for_inactive_licenses.",
     "inactive_licenses": [
       {
         "license_number": "0225273908",
-        "status": "Inactive",
-        "verification_date": "2025-12-08",
-        "note": "No Related Licenses tab available"
+        "status": "inactive",
+        "verification_date": "2025_12_08",
+        "note": "no_related_licenses_tab_available"
       },
       {
         "license_number": "0225273912",
-        "status": "Inactive",
-        "verification_date": "2025-12-08",
-        "note": "No Related Licenses tab available"
+        "status": "inactive",
+        "verification_date": "2025_12_08",
+        "note": "no_related_licenses_tab_available"
       }
     ]
   },
@@ -259,6 +259,6 @@
     "inactive_cannot_extract": 2,
     "remaining": 0,
     "percentage": 100.0,
-    "status": "COMPLETE - All active licenses extracted"
+    "status": "complete_all_active_licenses_extracted"
   }
 }

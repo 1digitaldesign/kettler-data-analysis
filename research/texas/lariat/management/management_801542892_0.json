@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.290928",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_801542892_0.json",
+    "created": "2025_12_11t00:21:41.290928",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_801542892_0.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 2, 2022",
-    "name": "CAPREIT OPERATING LIMITED P",
-    "title": "MEMBER",
-    "address": "6116 EXECUTIVE BLVD STE 100"
+    "last_update": "march_2,_2022",
+    "name": "capreit_operating_limited_p",
+    "title": "member",
+    "address": "6116_executive_blvd_ste_100"
   },
-  "text_representation": "last_update: March 2, 2022 | name: CAPREIT OPERATING LIMITED P | title: MEMBER | address: 6116 EXECUTIVE BLVD STE 100",
+  "text_representation": "last_update:_march_2,_2022_|_name:_capreit_operating_limited_p_|_title:_member_|_address:_6116_executive_blvd_ste_100",
   "embedding": [
     -0.006186469458043575,
     -0.04082208126783371,

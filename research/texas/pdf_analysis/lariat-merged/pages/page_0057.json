@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.266666",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0057.json",
+    "created": "2025_12_11t00:51:59.266666",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0057.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 57,
-    "text": "ARTICLE IX.\nThe number of directors constituting the I1nlt1al Board\nof Directors ahall be three (3) and the names and addresses of\nthe persons who are to serve as directors until the first annual\nmeeting of shareholders, or until their successors be elected\nand qualify, are as follows:\nNAME : AUDRESS:\nS. L. Barber Houston, Texas\nGrover Lockwood Houston, Texas\nC. Ll Skidmore Houston, Texas\nARTICLE X.\nThe name and address of each incorporator is as follows:\nNAME : ADDRESS:\nS. L. Barber Houston, Texas\nGrover Lockwood Houston, Texas\nHouston, Texas\nC. I. Skidmore\nIN WITNESS WHEREOF, we hereunto subscribe our names 1n\n-, 1961.\nB5L\nkwrdocaSr Love\nC-R. Shunki\nTHE STATE OF TEXAS\nCOUNTY OF HARRIS\ndoh erehohbceita nti2Eldy rtry t s aouy r ly",
+    "text": "article_ix._the_number_of_directors_constituting_the_i1nlt1al_board_of_directors_ahall_be_three_(3)_and_the_names_and_addresses_of_the_persons_who_are_to_serve_as_directors_until_the_first_annual_meeting_of_shareholders,_or_until_their_successors_be_elected_and_qualify,_are_as_follows:_name_:_audress:_s._l._barber_houston,_texas_grover_lockwood_houston,_texas_c._ll_skidmore_houston,_texas_article_x._the_name_and_address_of_each_incorporator_is_as_follows:_name_:_address:_s._l._barber_houston,_texas_grover_lockwood_houston,_texas_houston,_texas_c._i._skidmore_in_witness_whereof,_we_hereunto_subscribe_our_names_1n_,_1961._b5l_kwrdocasr_love_c_r._shunki_the_state_of_texas_county_of_harris_doh_erehohbceita_nti2eldy_rtry_t_s_aouy_r_ly",
     "char_count": 740,
     "word_count": 126,
     "anomalies": {
       "page_number": 57,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 57 | text: ARTICLE IX.\nThe number of directors constituting the I1nlt1al Board\nof Directors ahall be three (3) and the names and addresses of\nthe persons who are to serve as directors until the first annual\nmeeting of shareholders, or until their successors be elected\nand qualify, are as follows:\nNAME : AUDRESS:\nS. L. Barber Houston, Texas\nGrover Lockwood Houston, Texas\nC. Ll Skidmore Houston, Texas\nARTICLE X.\nThe name and address of each incorporator is as follows:\nNAME : ADDRESS:\nS. L. Barber Houston, Texas\nGrover Lockwood Houston, Texas\nHouston, Texas\nC. I. Skidmore\nIN WITNESS WHEREOF, we hereunto subscribe our names 1n\n-, 1961.\nB5L\nkwrdocaSr Love\nC-R. Shunki\nTHE STATE OF TEXAS\nCOUNTY OF HARRIS\ndoh erehohbceita nti2Eldy rtry t s aouy r ly | char_count: 740 | word_count: 126 | anomalies: {\"page_number\":57,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_57_|_text:_article_ix._the_number_of_directors_constituting_the_i1nlt1al_board_of_directors_ahall_be_three_(3)_and_the_names_and_addresses_of_the_persons_who_are_to_serve_as_directors_until_the_first_annual_meeting_of_shareholders,_or_until_their_successors_be_elected_and_qualify,_are_as_follows:_name_:_audress:_s._l._barber_houston,_texas_grover_lockwood_houston,_texas_c._ll_skidmore_houston,_texas_article_x._the_name_and_address_of_each_incorporator_is_as_follows:_name_:_address:_s._l._barber_houston,_texas_grover_lockwood_houston,_texas_houston,_texas_c._i._skidmore_in_witness_whereof,_we_hereunto_subscribe_our_names_1n_,_1961._b5l_kwrdocasr_love_c_r._shunki_the_state_of_texas_county_of_harris_doh_erehohbceita_nti2eldy_rtry_t_s_aouy_r_ly_|_char_count:_740_|_word_count:_126_|_anomalies:_{\"page_number\":57,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.0885382890701294,
     -0.09244415909051895,

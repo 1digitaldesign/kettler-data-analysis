@@ -16,7 +16,7 @@ COMPANIES = ['Kettler Management Inc', 'Kettler Management', 'Kettler Companies'
 
 STATES = {
     'DC': {
-        'name': 'District of Columbia',
+        'name': 'dc',
         'url': 'https://corponline.dccourts.gov/',
         'search_method': 'Entity search'
     },

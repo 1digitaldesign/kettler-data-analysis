@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.142812",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0224.json",
+    "created": "2025_12_11t00:52:03.142812",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0224.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 224,
-    "text": "00024216182\n143303007716\nName eltiT Asddres\nn PgeundaJor nt PsdeereiciV lonagiRe ns8300 Geboro Dvereri\n650eStui\n22102AVn, aeMLc\nnyasa R. RhomT nt PsdeereiciV lonagiRe te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nAonntn MJa. e nt PsdeereiciV Aare vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nret R. CoulKnnae nt PsdeereiciV Aare vd.k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nndryAa. LJos hua nt PsdeereiciV Aare te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nU Jri. Mna nt PsdeereiciV Aare\n225 N.E. Mizner Blvd.\n400eStui\n33432on, FtL RaaBoc",
+    "text": "00024216182_143303007716_name_eltit_asddres_n_pgeundajor_nt_psdeereiciv_lonagire_ns8300_geboro_dvereri_650estui_22102avn,_aemlc_nyasa_r._rhomt_nt_psdeereiciv_lonagire_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_aonntn_mja._e_nt_psdeereiciv_aare_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_ret_r._coulknnae_nt_psdeereiciv_aare_vd.k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_ndryaa._ljos_hua_nt_psdeereiciv_aare_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_u_jri._mna_nt_psdeereiciv_aare_225_n.e._mizner_blvd._400estui_33432on,_ftl_raaboc",
     "char_count": 560,
     "word_count": 86,
     "anomalies": {
       "page_number": 224,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 224 | text: 00024216182\n143303007716\nName eltiT Asddres\nn PgeundaJor nt PsdeereiciV lonagiRe ns8300 Geboro Dvereri\n650eStui\n22102AVn, aeMLc\nnyasa R. RhomT nt PsdeereiciV lonagiRe te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nAonntn MJa. e nt PsdeereiciV Aare vd.r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nret R. CoulKnnae nt PsdeereiciV Aare vd.k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nndryAa. LJos hua nt PsdeereiciV Aare te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nU Jri. Mna nt PsdeereiciV Aare\n225 N.E. Mizner Blvd.\n400eStui\n33432on, FtL RaaBoc | char_count: 560 | word_count: 86 | anomalies: {\"page_number\":224,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_224_|_text:_00024216182_143303007716_name_eltit_asddres_n_pgeundajor_nt_psdeereiciv_lonagire_ns8300_geboro_dvereri_650estui_22102avn,_aemlc_nyasa_r._rhomt_nt_psdeereiciv_lonagire_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_aonntn_mja._e_nt_psdeereiciv_aare_vd.r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_ret_r._coulknnae_nt_psdeereiciv_aare_vd.k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_ndryaa._ljos_hua_nt_psdeereiciv_aare_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_u_jri._mna_nt_psdeereiciv_aare_225_n.e._mizner_blvd._400estui_33432on,_ftl_raaboc_|_char_count:_560_|_word_count:_86_|_anomalies:_{\"page_number\":224,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.07103940844535828,
     0.012320847250521183,

@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.937677",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_60550300_4.json",
+    "created": "2025_12_11t00:21:40.937677",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_60550300_4.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "Sue Eaton",
-    "name": "T",
-    "title": "1400 HILLCREST",
-    "address": "Gainesville, TX 76240-0000 USA\nSue Eaton \tDirector \t1400 HILLCREST"
+    "last_update": "sue_eaton",
+    "name": "t",
+    "title": "1400_hillcrest",
+    "address": "gainesville,_tx_76240_0000_usa_sue_eaton_director_1400_hillcrest"
   },
-  "text_representation": "last_update: Sue Eaton | name: T | title: 1400 HILLCREST | address: Gainesville, TX 76240-0000 USA\nSue Eaton \tDirector \t1400 HILLCREST",
+  "text_representation": "last_update:_sue_eaton_|_name:_t_|_title:_1400_hillcrest_|_address:_gainesville,_tx_76240_0000_usa_sue_eaton_director_1400_hillcrest",
   "embedding": [
     -0.08353273570537567,
     -0.032382987439632416,

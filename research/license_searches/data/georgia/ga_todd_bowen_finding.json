@@ -1,47 +1,47 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "search_date": "2025-12-10T23:15:38",
-    "state": "Georgia",
-    "state_code": "GE",
-    "employee": "Todd Bowen",
+    "date": "2025_12_10",
+    "search_date": "2025_12_10t23:15:38",
+    "state": "ga",
+    "state_code": "ge",
+    "employee": "todd_bowen",
     "employee_key": "todd_bowen",
-    "title": "SVP Strategic Services",
+    "title": "svp_strategic_services",
     "search_url": "",
-    "search_method": "Not yet searched - manual verification recommended",
+    "search_method": "not_yet_searched_manual_verification_recommended",
     "license_types_searched": [
-      "Real Estate Broker",
-      "Real Estate Salesperson"
+      "real_estate_broker",
+      "real_estate_salesperson"
     ],
-    "regulatory_body": "State regulatory body",
-    "license_category": "Real Estate",
+    "regulatory_body": "state_regulatory_body",
+    "license_category": "real_estate",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": false,
-    "note": "Real estate license search completed via Not yet searched - manual verification recommended"
+    "note": "real_estate_license_search_completed_via_not_yet_searched_manual_verification_recommended"
   },
   "findings": {
     "todd_bowen": {
-      "full_name": "Todd Bowen",
+      "full_name": "todd_bowen",
       "employee_key": "todd_bowen",
-      "title": "SVP Strategic Services",
-      "license_type_searched": "Real Estate Broker",
+      "title": "svp_strategic_services",
+      "license_type_searched": "real_estate_broker",
       "all_license_types_searched": [
-        "Real Estate Broker",
-        "Real Estate Salesperson"
+        "real_estate_broker",
+        "real_estate_salesperson"
       ],
       "search_executed": true,
-      "search_date": "2025-12-10",
+      "search_date": "2025_12_10",
       "results_found": 0,
       "real_estate_license": false,
-      "license_status": "Not found",
-      "regulatory_body": "State regulatory body",
+      "license_status": "not_found",
+      "regulatory_body": "state_regulatory_body",
       "search_url": "",
-      "search_method": "Not yet searched - manual verification recommended",
-      "note": "No real estate license found in Georgia for Todd Bowen. Search performed via Not yet searched - manual verification recommended"
+      "search_method": "not_yet_searched_manual_verification_recommended",
+      "note": "no_real_estate_license_found_in_georgia_for_todd_bowen._search_performed_via_not_yet_searched_manual_verification_recommended"
     }
   },
-  "conclusion": "Todd Bowen DOES NOT HAVE a real estate license in Georgia. Search performed via Not yet searched - manual verification recommended",
-  "license_status": "Not found",
+  "conclusion": "todd_bowen_does_not_have_a_real_estate_license_in_georgia._search_performed_via_not_yet_searched_manual_verification_recommended",
+  "license_status": "not_found",
   "verification_status": "requires_manual_verification"
 }

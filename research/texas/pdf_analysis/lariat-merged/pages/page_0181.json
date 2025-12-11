@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.010060",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0181.json",
+    "created": "2025_12_11t00:52:02.010060",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0181.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 181,
-    "text": "DEC-27-2002 16:23 04. 04/P\nDated: December 18, 2002\nGABLES RESIDENTIAL SERVICES, INC.\nTitle: President\nLIBC/1331650\nTOTAL P.04",
+    "text": "dec_27_2002_16:23_04._04/p_dated:_december_18,_2002_gables_residential_services,_inc._title:_president_libc/1331650_total_p.04",
     "char_count": 126,
     "word_count": 17,
     "anomalies": {
       "page_number": 181,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 181 | text: DEC-27-2002 16:23 04. 04/P\nDated: December 18, 2002\nGABLES RESIDENTIAL SERVICES, INC.\nTitle: President\nLIBC/1331650\nTOTAL P.04 | char_count: 126 | word_count: 17 | anomalies: {\"page_number\":181,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_181_|_text:_dec_27_2002_16:23_04._04/p_dated:_december_18,_2002_gables_residential_services,_inc._title:_president_libc/1331650_total_p.04_|_char_count:_126_|_word_count:_17_|_anomalies:_{\"page_number\":181,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.03900660201907158,
     -0.0002653042902238667,

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:38.561715",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1466.json",
+    "created": "2025_12_11t00:54:38.561715",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1466.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1466,
-    "text": "CISLEGL CIS 12/10/99\nSCC080 CISM0180 CORPORATE DATA INQUIRY 11:51:55\nCORP ID: 0321867 - 4 STATUS: 10 TERMINATED (AUT STATUS DATE: 09/30/99\nCORP NAME: KSI MANAGEMENT CORP.\nDATE OF CERTIFICATE: 05/20/1988 PERIOD OF DURATION: INDUSTRY CODE: 00\nSTATE OF INCORPORATION: VA VIRGINIA STOCK INDICATOR: S STOCK\nMERGER INDICATOR: MONITOR INDICATOR:\nGOOD STANDING INDICATOR: N TERMINATED ( CASE STATUS: HEARING DATE:\nCHARTER FEE: CASE NO:\nR/A NAME: RICHARD W HAUSLER\nSTREET: 8081 WOLFTRAP RD STE 300 AR RTN MAIL:\nCITY: VIENNA STATE : VA ZIP: 22182\nR/A STATUS: O ANY OTHER OFFIC EFF. DATE: 07/19/96 LOC.: 129\nACCEPTED ARA: 098 09 2943 DATE: 05/27/98 FAIRFAX COUNTY 0\nCURRENT ARA: 098 09 2943 DATE: 05/21/98 STATUS: A ASSESSMENT INDICATOR:\nFEES\nPENALTY INTEREST TAXES BALANCE TOTAL SHARES\n’.......... 10.00 1,000\nCOMMAND: ............................",
+    "text": "cislegl_cis_12/10/99_scc080_cism0180_corporate_data_inquiry_11:51:55_corp_id:_0321867_4_status:_10_terminated_(aut_status_date:_09/30/99_corp_name:_ksi_management_corp._date_of_certificate:_05/20/1988_period_of_duration:_industry_code:_00_state_of_incorporation:_va_virginia_stock_indicator:_s_stock_merger_indicator:_monitor_indicator:_good_standing_indicator:_n_terminated_(_case_status:_hearing_date:_charter_fee:_case_no:_r/a_name:_richard_w_hausler_street:_8081_wolftrap_rd_ste_300_ar_rtn_mail:_city:_vienna_state_:_va_zip:_22182_r/a_status:_o_any_other_offic_eff._date:_07/19/96_loc.:_129_accepted_ara:_098_09_2943_date:_05/27/98_fairfax_county_0_current_ara:_098_09_2943_date:_05/21/98_status:_a_assessment_indicator:_fees_penalty_interest_taxes_balance_total_shares_’.........._10.00_1,000_command:_............................",
     "char_count": 837,
     "word_count": 128,
     "anomalies": {
       "page_number": 1466,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 1466 | text: CISLEGL CIS 12/10/99\nSCC080 CISM0180 CORPORATE DATA INQUIRY 11:51:55\nCORP ID: 0321867 - 4 STATUS: 10 TERMINATED (AUT STATUS DATE: 09/30/99\nCORP NAME: KSI MANAGEMENT CORP.\nDATE OF CERTIFICATE: 05/20/1988 PERIOD OF DURATION: INDUSTRY CODE: 00\nSTATE OF INCORPORATION: VA VIRGINIA STOCK INDICATOR: S STOCK\nMERGER INDICATOR: MONITOR INDICATOR:\nGOOD STANDING INDICATOR: N TERMINATED ( CASE STATUS: HEARING DATE:\nCHARTER FEE: CASE NO:\nR/A NAME: RICHARD W HAUSLER\nSTREET: 8081 WOLFTRAP RD STE 300 AR RTN MAIL:\nCITY: VIENNA STATE : VA ZIP: 22182\nR/A STATUS: O ANY OTHER OFFIC EFF. DATE: 07/19/96 LOC.: 129\nACCEPTED ARA: 098 09 2943 DATE: 05/27/98 FAIRFAX COUNTY 0\nCURRENT ARA: 098 09 2943 DATE: 05/21/98 STATUS: A ASSESSMENT INDICATOR:\nFEES\nPENALTY INTEREST TAXES BALANCE TOTAL SHARES\n’.......... 10.00 1,000\nCOMMAND: ............................ | char_count: 837 | word_count: 128 | anomalies: {\"page_number\":1466,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_1466_|_text:_cislegl_cis_12/10/99_scc080_cism0180_corporate_data_inquiry_11:51:55_corp_id:_0321867_4_status:_10_terminated_(aut_status_date:_09/30/99_corp_name:_ksi_management_corp._date_of_certificate:_05/20/1988_period_of_duration:_industry_code:_00_state_of_incorporation:_va_virginia_stock_indicator:_s_stock_merger_indicator:_monitor_indicator:_good_standing_indicator:_n_terminated_(_case_status:_hearing_date:_charter_fee:_case_no:_r/a_name:_richard_w_hausler_street:_8081_wolftrap_rd_ste_300_ar_rtn_mail:_city:_vienna_state_:_va_zip:_22182_r/a_status:_o_any_other_offic_eff._date:_07/19/96_loc.:_129_accepted_ara:_098_09_2943_date:_05/27/98_fairfax_county_0_current_ara:_098_09_2943_date:_05/21/98_status:_a_assessment_indicator:_fees_penalty_interest_taxes_balance_total_shares_’.........._10.00_1,000_command:_............................_|_char_count:_837_|_word_count:_128_|_anomalies:_{\"page_number\":1466,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.0007180746761150658,
     0.016208287328481674,

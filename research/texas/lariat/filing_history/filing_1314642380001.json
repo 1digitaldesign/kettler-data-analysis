@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:39.957733",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/filing_history/filing_1314642380001.json",
+    "created": "2025_12_11t00:21:39.957733",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/filing_history/filing_1314642380001.json",
     "has_embedding": true
   },
   "data": {
     "document_number": "1314642380001",
-    "filing_type": "Public Information Report (PIR)",
-    "filing_date": "December 31, 2023",
-    "effective_date": "December 15, 2023",
-    "eff_cond": "No",
+    "filing_type": "public_information_report_(pir)",
+    "filing_date": "december_31,_2023",
+    "effective_date": "december_15,_2023",
+    "eff_cond": "no",
     "page_count": "1"
   },
-  "text_representation": "document_number: 1314642380001 | filing_type: Public Information Report (PIR) | filing_date: December 31, 2023 | effective_date: December 15, 2023 | eff_cond: No | page_count: 1",
+  "text_representation": "document_number:_1314642380001_|_filing_type:_public_information_report_(pir)_|_filing_date:_december_31,_2023_|_effective_date:_december_15,_2023_|_eff_cond:_no_|_page_count:_1",
   "embedding": [
     -0.0451887845993042,
     0.025419708341360092,

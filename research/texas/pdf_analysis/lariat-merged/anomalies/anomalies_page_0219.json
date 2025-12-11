@@ -1,99 +1,99 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.144907",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/anomalies/anomalies_page_0219.json",
+    "created": "2025_12_11t00:52:03.144907",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/anomalies/anomalies_page_0219.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 219,
-    "source": "lariat-merged",
+    "source": "lariat_merged",
     "address_clusters": [
       {
         "count": 8,
         "addresses": [
           {
-            "full_match": "Stui\nXT 77042",
+            "full_match": "stui_xt_77042",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77042"
             ],
             "start": 176,
             "end": 189
           },
           {
-            "full_match": "Stui\nXT 75219",
+            "full_match": "stui_xt_75219",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75219"
             ],
             "start": 284,
             "end": 297
           },
           {
-            "full_match": "Stui\nXT 77042",
+            "full_match": "stui_xt_77042",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77042"
             ],
             "start": 356,
             "end": 369
           },
           {
-            "full_match": "Stui\nXT 75219",
+            "full_match": "stui_xt_75219",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75219"
             ],
             "start": 516,
             "end": 529
           },
           {
-            "full_match": "Stui\nXT 77092",
+            "full_match": "stui_xt_77092",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77092"
             ],
             "start": 693,
             "end": 706
           },
           {
-            "full_match": "Stui\nXT 75219",
+            "full_match": "stui_xt_75219",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75219"
             ],
             "start": 775,
             "end": 788
           },
           {
-            "full_match": "Stui\nXT 75219",
+            "full_match": "stui_xt_75219",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75219"
             ],
             "start": 856,
             "end": 869
           },
           {
-            "full_match": "Stui\nXT 77042",
+            "full_match": "stui_xt_77042",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77042"
             ],
             "start": 1107,
             "end": 1120
           }
         ],
-        "pattern": "Multiple addresses clustered",
+        "pattern": "multiple_addresses_clustered",
         "severity": "medium"
       }
     ],
@@ -101,7 +101,7 @@
     "date_sequences": [],
     "suspicious_patterns": []
   },
-  "text_representation": "page_number: 219 | source: lariat-merged | address_clusters: 1 items",
+  "text_representation": "page_number:_219_|_source:_lariat_merged_|_address_clusters:_1_items",
   "embedding": [
     0.027261869981884956,
     -0.06991519033908844,

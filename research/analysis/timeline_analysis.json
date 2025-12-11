@@ -1,195 +1,195 @@
 {
-  "analysis_date": "2025-12-07",
+  "analysis_date": "2025_12_07",
   "total_events": 26,
   "timeline": [
     {
-      "date": "2014-10-31",
+      "date": "2014_10_31",
       "event_type": "firm_license_issued",
-      "entity": "KETTLER MANAGEMENT INC",
-      "details": "License Number: 226025311"
+      "entity": "kettler_management_inc",
+      "details": "license_number:_226025311"
     },
     {
-      "date": "2011-12-28",
+      "date": "2011_12_28",
       "event_type": "firm_license_issued",
-      "entity": "BELL PARTNERS INC",
-      "details": "License Number: 226023603"
+      "entity": "bell_partners_inc",
+      "details": "license_number:_226023603"
     },
     {
-      "date": "2013-06-04",
+      "date": "2013_06_04",
       "event_type": "firm_license_issued",
-      "entity": "BOZZUTO MANAGEMENT COMPANY",
-      "details": "License Number: 226024808"
+      "entity": "bozzuto_management_company",
+      "details": "license_number:_226024808"
     },
     {
-      "date": "2025-06-30",
+      "date": "2025_06_30",
       "event_type": "firm_license_issued",
-      "entity": "CORTLAND MANAGEMENT LLC",
-      "details": "License Number: 226038642"
+      "entity": "cortland_management_llc",
+      "details": "license_number:_226038642"
     },
     {
-      "date": "2016-08-17",
+      "date": "2016_08_17",
       "event_type": "firm_license_issued",
-      "entity": "GABLES RESIDENTIAL SERVICES INC",
-      "details": "License Number: 226027221"
+      "entity": "gables_residential_services_inc",
+      "details": "license_number:_226027221"
     },
     {
-      "date": "2025-03-26",
+      "date": "2025_03_26",
       "event_type": "firm_license_issued",
-      "entity": "GATEWAY MANAGEMENT COMPANY LLC",
-      "details": "License Number: 226038613"
+      "entity": "gateway_management_company_llc",
+      "details": "license_number:_226038613"
     },
     {
-      "date": "2016-11-14",
+      "date": "2016_11_14",
       "event_type": "firm_license_issued",
-      "entity": "MCCORMACK BARON MANAGEMENT INC",
-      "details": "License Number: 226027455"
+      "entity": "mccormack_baron_management_inc",
+      "details": "license_number:_226027455"
     },
     {
-      "date": "2018-11-16",
+      "date": "2018_11_16",
       "event_type": "firm_license_issued",
-      "entity": "BURLINGTON CAPITAL PROPERTIES LLC",
-      "details": "License Number: 226028898"
+      "entity": "burlington_capital_properties_llc",
+      "details": "license_number:_226028898"
     },
     {
-      "date": "2012-04-27",
+      "date": "2012_04_27",
       "event_type": "firm_license_issued",
-      "entity": "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
-      "details": "License Number: 226023854"
+      "entity": "bainbridge_mid_atlantic_management_llc",
+      "details": "license_number:_226023854"
     },
     {
-      "date": "2025-07-24",
+      "date": "2025_07_24",
       "event_type": "firm_license_issued",
-      "entity": "CAPREIT RESIDENTIAL MANAGEMENT LLC",
-      "details": "License Number: 226038643"
+      "entity": "capreit_residential_management_llc",
+      "details": "license_number:_226038643"
     },
     {
-      "date": "2025-05-30",
+      "date": "2025_05_30",
       "event_type": "skidmore_licensed",
-      "entity": "Caitlin Skidmore",
-      "details": "Individual real estate license issued"
+      "entity": "caitlin_skidmore",
+      "details": "individual_real_estate_license_issued"
     },
     {
-      "date": "2022-09-01",
+      "date": "2022_09_01",
       "event_type": "hyland_employment_start",
-      "entity": "Edward Hyland",
-      "details": "Started at Kettler Management as Senior Regional Manager"
+      "entity": "edward_hyland",
+      "details": "started_at_kettler_management_as_senior_regional_manager"
     },
     {
-      "date": "2025-12-31",
+      "date": "2025_12_31",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "December 31, 2025"
+      "entity": "evidence",
+      "details": "december_31,_2025"
     },
     {
-      "date": "2025-12-13",
+      "date": "2025_12_13",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "December 13, 2025"
+      "entity": "evidence",
+      "details": "december_13,_2025"
     },
     {
-      "date": "2025-10-14",
+      "date": "2025_10_14",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "October 14, 2025"
+      "entity": "evidence",
+      "details": "october_14,_2025"
     },
     {
-      "date": "2025-06-12",
+      "date": "2025_06_12",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "June 12, 2025"
+      "entity": "evidence",
+      "details": "june_12,_2025"
     },
     {
-      "date": "2025-10-01",
+      "date": "2025_10_01",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "October 1, 2025"
+      "entity": "evidence",
+      "details": "october_1,_2025"
     },
     {
-      "date": "2025-10-10",
+      "date": "2025_10_10",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "October 10, 2025"
+      "entity": "evidence",
+      "details": "october_10,_2025"
     },
     {
-      "date": "2025-09-25",
+      "date": "2025_09_25",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "September 25, 2025"
+      "entity": "evidence",
+      "details": "september_25,_2025"
     },
     {
-      "date": "2025-10-17",
+      "date": "2025_10_17",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "October 17, 2025"
+      "entity": "evidence",
+      "details": "october_17,_2025"
     },
     {
-      "date": "2025-12-05",
+      "date": "2025_12_05",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "December 5, 2025"
+      "entity": "evidence",
+      "details": "december_5,_2025"
     },
     {
-      "date": "2025-12-03",
+      "date": "2025_12_03",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "December 3, 2025"
+      "entity": "evidence",
+      "details": "december_3,_2025"
     },
     {
-      "date": "2025-01-10",
+      "date": "2025_01_10",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "January 10, 2025"
+      "entity": "evidence",
+      "details": "january_10,_2025"
     },
     {
-      "date": "2025-06-17",
+      "date": "2025_06_17",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "June 17, 2025"
+      "entity": "evidence",
+      "details": "june_17,_2025"
     },
     {
-      "date": "2025-06-19",
+      "date": "2025_06_19",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "June 19, 2025"
+      "entity": "evidence",
+      "details": "june_19,_2025"
     },
     {
-      "date": "2025-05-01",
+      "date": "2025_05_01",
       "event_type": "evidence_date",
-      "entity": "Evidence",
-      "details": "May 1, 2025"
+      "entity": "evidence",
+      "details": "may_1,_2025"
     }
   ],
   "anomalies": {
     "firms_before_broker": {
       "count": 8,
       "firms": [
-        "BELL PARTNERS INC",
-        "BAINBRIDGE MID ATLANTIC MANAGEMENT LLC",
-        "BOZZUTO MANAGEMENT COMPANY",
-        "KETTLER MANAGEMENT INC",
-        "GABLES RESIDENTIAL SERVICES INC",
-        "MCCORMACK BARON MANAGEMENT INC",
-        "BURLINGTON CAPITAL PROPERTIES LLC",
-        "GATEWAY MANAGEMENT COMPANY LLC"
+        "bell_partners_inc",
+        "bainbridge_mid_atlantic_management_llc",
+        "bozzuto_management_company",
+        "kettler_management_inc",
+        "gables_residential_services_inc",
+        "mccormack_baron_management_inc",
+        "burlington_capital_properties_llc",
+        "gateway_management_company_llc"
       ],
-      "anomaly": "Firms cannot have principal broker who wasn't licensed when firm was established"
+      "anomaly": "firms_cannot_have_principal_broker_who_wasn't_licensed_when_firm_was_established"
     },
     "firms_after_broker": {
       "count": 2,
       "firms": [
-        "CORTLAND MANAGEMENT LLC",
-        "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+        "cortland_management_llc",
+        "capreit_residential_management_llc"
       ],
-      "anomaly": "Firms licensed after Skidmore but she's listed as principal broker from start"
+      "anomaly": "firms_licensed_after_skidmore_but_she's_listed_as_principal_broker_from_start"
     },
     "firms_after_hyland_start": {
       "count": 3,
       "firms": [
-        "GATEWAY MANAGEMENT COMPANY LLC",
-        "CORTLAND MANAGEMENT LLC",
-        "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+        "gateway_management_company_llc",
+        "cortland_management_llc",
+        "capreit_residential_management_llc"
       ],
-      "anomaly": "Firms licensed after Hyland started at Kettler - suggests operational connection"
+      "anomaly": "firms_licensed_after_hyland_started_at_kettler_suggests_operational_connection"
     }
   },
   "patterns": {
@@ -198,28 +198,28 @@
         "2016",
         "2025"
       ],
-      "explanation": "Multiple firms licensed in same year suggests coordinated effort"
+      "explanation": "multiple_firms_licensed_in_same_year_suggests_coordinated_effort"
     },
     "recent_activity": {
       "count": 3,
       "dates": [
-        "2025-06-30",
-        "2025-03-26",
-        "2025-07-24"
+        "2025_06_30",
+        "2025_03_26",
+        "2025_07_24"
       ],
-      "explanation": "Recent licensing activity may indicate scheme expansion"
+      "explanation": "recent_licensing_activity_may_indicate_scheme_expansion"
     }
   },
   "causation": {
     "kettler_precedence": {
-      "kettler_licensed": "2014-10-31",
+      "kettler_licensed": "2014_10_31",
       "firms_licensed_after": 6,
-      "hypothesis": "Kettler may have been the first, with other firms added later"
+      "hypothesis": "kettler_may_have_been_the_first,_with_other_firms_added_later"
     },
     "hyland_correlation": {
-      "hyland_started": "2022-09-01",
+      "hyland_started": "2022_09_01",
       "firms_licensed_after": 3,
-      "hypothesis": "Hyland's employment may correlate with scheme expansion"
+      "hypothesis": "hyland's_employment_may_correlate_with_scheme_expansion"
     }
   },
   "summary": {
@@ -229,11 +229,11 @@
     "recent_activity": 3
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "timeline_analysis.json",
     "file_path": "research/analysis/timeline_analysis.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

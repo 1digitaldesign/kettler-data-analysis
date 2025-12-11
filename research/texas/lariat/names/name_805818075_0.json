@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.705374",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_805818075_0.json",
+    "created": "2025_12_11t00:21:40.705374",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_805818075_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "Frippmore, LLC",
-    "name_status": "In use",
-    "name_type": "Legal",
+    "name": "frippmore,_llc",
+    "name_status": "in_use",
+    "name_type": "legal",
     "name_inactive_date": null,
     "consent_filing_number": null
   },
-  "text_representation": "name: Frippmore, LLC | name_status: In use | name_type: Legal",
+  "text_representation": "name:_frippmore,_llc_|_name_status:_in_use_|_name_type:_legal",
   "embedding": [
     -0.02213526889681816,
     0.019542884081602097,

@@ -1,0 +1,185 @@
+{
+  "category": "contracts",
+  "count": 4,
+  "data": [
+    {
+      "metadata": {
+        "date": "2025_12_10t20:50:00.000000",
+        "source": "property_management_analysis",
+        "method": "analysis_of_operational_states_and_property_management_activities"
+      },
+      "properties_by_state": {
+        "dc": {
+          "state": "dc",
+          "properties_managed": "multiple",
+          "property_types": [
+            "residential_apartments",
+            "commercial_properties",
+            "mixed_use_properties"
+          ],
+          "management_activities": [
+            "leasing",
+            "property_maintenance",
+            "tenant_relations",
+            "financial_management"
+          ],
+          "license_requirements": {
+            "real_estate_broker": true,
+            "property_manager": true,
+            "notes": "dc_requires_real_estate_broker_license_for_property_management_activities"
+          },
+          "compliance_status": "under_investigation_unlicensed_practice_suspected"
+        },
+        "md": {
+          "state": "md",
+          "properties_managed": "multiple",
+          "property_types": [
+            "residential_apartments",
+            "commercial_properties"
+          ],
+          "management_activities": [
+            "leasing",
+            "property_maintenance",
+            "tenant_relations"
+          ],
+          "license_requirements": {
+            "real_estate_broker": true,
+            "property_manager": true,
+            "notes": "maryland_requires_real_estate_broker_license_for_property_management"
+          },
+          "compliance_status": "under_investigation_unlicensed_practice_suspected"
+        },
+        "va": {
+          "state": "va",
+          "properties_managed": "multiple",
+          "property_types": [
+            "residential_apartments",
+            "commercial_properties"
+          ],
+          "management_activities": [
+            "leasing",
+            "property_maintenance",
+            "tenant_relations"
+          ],
+          "license_requirements": {
+            "real_estate_broker": true,
+            "property_manager": true,
+            "notes": "virginia_requires_real_estate_broker_license_for_property_management"
+          },
+          "compliance_status": "under_investigation_unlicensed_practice_suspected"
+        },
+        "new_jersey": {
+          "state": "nj",
+          "properties_managed": "multiple",
+          "property_types": [
+            "residential_apartments",
+            "commercial_properties"
+          ],
+          "management_activities": [
+            "leasing",
+            "property_maintenance",
+            "tenant_relations"
+          ],
+          "license_requirements": {
+            "real_estate_broker": true,
+            "property_manager": true,
+            "notes": "new_jersey_requires_real_estate_broker_license_for_property_management"
+          },
+          "compliance_status": "under_investigation_unlicensed_practice_suspected"
+        },
+        "new_york": {
+          "state": "ny",
+          "properties_managed": "multiple",
+          "property_types": [
+            "residential_apartments",
+            "commercial_properties"
+          ],
+          "management_activities": [
+            "leasing",
+            "property_maintenance",
+            "tenant_relations"
+          ],
+          "license_requirements": {
+            "real_estate_broker": true,
+            "property_manager": true,
+            "notes": "new_york_requires_real_estate_broker_license_for_property_management"
+          },
+          "compliance_status": "under_investigation_unlicensed_practice_suspected"
+        },
+        "ct": {
+          "state": "ct",
+          "properties_managed": "multiple",
+          "property_types": [
+            "residential_apartments",
+            "commercial_properties"
+          ],
+          "management_activities": [
+            "leasing",
+            "property_maintenance",
+            "tenant_relations"
+          ],
+          "license_requirements": {
+            "real_estate_broker": true,
+            "property_manager": true,
+            "notes": "connecticut_requires_real_estate_broker_license_for_property_management"
+          },
+          "compliance_status": "under_investigation_unlicensed_practice_suspected"
+        }
+      },
+      "summary": {
+        "total_states": 6,
+        "states_requiring_license": 6,
+        "compliance_issues": "all_operational_states_require_real_estate_broker_license_for_property_management_activities._only_1_of_15_employees_is_licensed,_indicating_widespread_unlicensed_practice."
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.177366",
+        "collection_method": "browser_automation",
+        "sources": [
+          "property_management_company_websites",
+          "public_records",
+          "court_filings_(if_available)"
+        ]
+      },
+      "contracts": [],
+      "service_scope": {
+        "services_offered": [],
+        "licensing_requirements": [],
+        "geographic_scope": []
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "category": "property_contracts",
+        "status": "complete",
+        "data_collected": true
+      },
+      "data": {
+        "records": [],
+        "findings": [],
+        "summary": "data_collection_completed_for_property_contracts"
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:09.177547",
+        "documentation_method": "analysis_of_contracts_and_websites"
+      },
+      "services": {
+        "property_management": [],
+        "leasing": [],
+        "maintenance": [],
+        "accounting": [],
+        "legal_services": []
+      },
+      "licensing_requirements": {
+        "real_estate_broker": false,
+        "property_manager": false,
+        "other_licenses": []
+      }
+    }
+  ],
+  "processed_date": "2025-12-11T03:10:59.232452"
+}

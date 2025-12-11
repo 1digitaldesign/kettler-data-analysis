@@ -104,7 +104,7 @@ EMPLOYEES = {
         'category': 'Licensed Employee',
         'performs_licensed_activities': True,
         'licensed': True,
-        'license_states': ['District of Columbia'],
+        'license_states': ['dc'],
     },
 }
 

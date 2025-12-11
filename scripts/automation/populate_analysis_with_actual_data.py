@@ -17,7 +17,7 @@ def load_company_registration_data(state_code: str) -> Dict[str, Any]:
     """Load company registration data for a state"""
     state_map = {
         "maryland": "md",
-        "district_of_columbia": "dc",
+        "dc": "dc",
         "connecticut": "ct",
         "new_jersey": "nj",
         "new_york": "ny"
@@ -31,7 +31,7 @@ def load_company_registration_data(state_code: str) -> Dict[str, Any]:
         f"{file_state}/kettler_management_inc_registration.json",
         f"{state_lower}/kettler_management_inc_registration.json",
         f"maryland/maryland_kettler_management_inc_registration.json" if state_lower == "maryland" else None,
-        f"district_of_columbia/district_of_columbia_kettler_management_inc_registration.json" if state_lower == "district_of_columbia" else None,
+        f"dc/dc_kettler_management_inc_registration.json" if state_lower == "dc" else None,
         f"connecticut/connecticut_kettler_management_inc_registration.json" if state_lower == "connecticut" else None,
         f"new_jersey/new_jersey_kettler_management_inc_registration.json" if state_lower == "new_jersey" else None,
         f"new_york/new_york_kettler_management_inc_registration.json" if state_lower == "new_york" else None
@@ -63,7 +63,7 @@ def populate_cross_reference_analysis():
     if "cross_state_analysis" in data:
         state_map = {
             "maryland": "Maryland",
-            "district_of_columbia": "District of Columbia",
+            "dc": "dc",
             "connecticut": "Connecticut",
             "new_jersey": "New Jersey",
             "new_york": "New York"

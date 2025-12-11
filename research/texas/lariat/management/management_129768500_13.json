@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.447176",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_129768500_13.json",
+    "created": "2025_12_11t00:21:41.447176",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_129768500_13.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 29, 2024",
-    "name": "Mary O Hollands",
-    "title": "SVP",
-    "address": "3399 Peachtree Rd NE Suite 600"
+    "last_update": "march_29,_2024",
+    "name": "mary_o_hollands",
+    "title": "svp",
+    "address": "3399_peachtree_rd_ne_suite_600"
   },
-  "text_representation": "last_update: March 29, 2024 | name: Mary O Hollands | title: SVP | address: 3399 Peachtree Rd NE Suite 600",
+  "text_representation": "last_update:_march_29,_2024_|_name:_mary_o_hollands_|_title:_svp_|_address:_3399_peachtree_rd_ne_suite_600",
   "embedding": [
     -0.04632812738418579,
     -0.0541083849966526,

@@ -1,21 +1,21 @@
 {
-  "analysis_date": "2025-12-07",
+  "analysis_date": "2025_12_07",
   "email_connections": {
     "hyland_email_found": true,
     "hyland_email_count": 2,
     "carlyle_emails": [
-      "Carlyle.PM@kettler.com",
       "carlyle.pm@kettler.com",
-      "Carlyle@kettler.com",
-      "Carlyle.APM@kettler.com"
+      "carlyle.pm@kettler.com",
+      "carlyle@kettler.com",
+      "carlyle.apm@kettler.com"
     ],
     "carlyle_connection": true
   },
   "address_connections": {
     "address_matches": [
       {
-        "firm": "KETTLER MANAGEMENT INC",
-        "address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
+        "firm": "kettler_management_inc",
+        "address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
         "connection_type": "kettler_headquarters"
       }
     ],
@@ -24,9 +24,9 @@
   "timeline_connections": {
     "firms_licensed_after_hyland_start": 3,
     "firm_names_after_hyland": [
-      "CORTLAND MANAGEMENT LLC",
-      "GATEWAY MANAGEMENT COMPANY LLC",
-      "CAPREIT RESIDENTIAL MANAGEMENT LLC"
+      "cortland_management_llc",
+      "gateway_management_company_llc",
+      "capreit_residential_management_llc"
     ]
   },
   "summary": {
@@ -35,11 +35,11 @@
     "firms_licensed_after_hyland": 3
   },
   "metadata": {
-    "analysis_date": "2025-12-10",
-    "source": "Kettler Data Analysis Project",
+    "analysis_date": "2025_12_10",
+    "source": "kettler_data_analysis_project",
     "file_name": "hyland_skidmore_connections.json",
     "file_path": "research/analysis/hyland_skidmore_connections.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   }
 }

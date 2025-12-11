@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.304339",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0060.json",
+    "created": "2025_12_11t00:51:59.304339",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0060.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 60,
-    "text": "capital.\nIxecuted this 20th day of Septembar, 1961.\nBAINCOD PABRICATING CO., ING:\nBy\nBy C.8. Stalin\nIts Secretary\nSTATE OF TEXAS\nCOUNTY OF HARRIS\nI, Hildred I. Buerkle, a notary public, do hereby certify that\non this 20th day of September, 1961, personally appeared before ine,\nJ.P. Fiper, who declared he is Vice President of the corporation executing\nthe foregoing document, and being first duly sworn, acknowleuged that he\nsigned the foregoing document in the capacity therein set forth and daula red\nthat the statements therein contained are true.\nIN WITNESS WHEREOF, I have hereunte set my hand and seal the day\nand year before written.\nSee 2 Buckle\nIn and for Harris County, Taxas\nMildred L. Buerkle\nMi¥ LDRBUEDL ER .KLE\nexaT ,olaPury bliic na noHdfr a rriCs ounytY\nSaMy rimissionExp ireJus n1e1 963 ,",
+    "text": "capital._ixecuted_this_20th_day_of_septembar,_1961._baincod_pabricating_co.,_ing:_by_by_c.8._stalin_its_secretary_state_of_texas_county_of_harris_i,_hildred_i._buerkle,_a_notary_public,_do_hereby_certify_that_on_this_20th_day_of_september,_1961,_personally_appeared_before_ine,_j.p._fiper,_who_declared_he_is_vice_president_of_the_corporation_executing_the_foregoing_document,_and_being_first_duly_sworn,_acknowleuged_that_he_signed_the_foregoing_document_in_the_capacity_therein_set_forth_and_daula_red_that_the_statements_therein_contained_are_true._in_witness_whereof,_i_have_hereunte_set_my_hand_and_seal_the_day_and_year_before_written._see_2_buckle_in_and_for_harris_county,_taxas_mildred_l._buerkle_mi¥_ldrbuedl_er_.kle_exat_,olapury_bliic_na_nohdfr_a_rrics_ounyty_samy_rimissionexp_irejus_n1e1_963_,",
     "char_count": 807,
     "word_count": 136,
     "anomalies": {
       "page_number": 60,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 60 | text: capital.\nIxecuted this 20th day of Septembar, 1961.\nBAINCOD PABRICATING CO., ING:\nBy\nBy C.8. Stalin\nIts Secretary\nSTATE OF TEXAS\nCOUNTY OF HARRIS\nI, Hildred I. Buerkle, a notary public, do hereby certify that\non this 20th day of September, 1961, personally appeared before ine,\nJ.P. Fiper, who declared he is Vice President of the corporation executing\nthe foregoing document, and being first duly sworn, acknowleuged that he\nsigned the foregoing document in the capacity therein set forth and daula red\nthat the statements therein contained are true.\nIN WITNESS WHEREOF, I have hereunte set my hand and seal the day\nand year before written.\nSee 2 Buckle\nIn and for Harris County, Taxas\nMildred L. Buerkle\nMi¥ LDRBUEDL ER .KLE\nexaT ,olaPury bliic na noHdfr a rriCs ounytY\nSaMy rimissionExp ireJus n1e1 963 , | char_count: 807 | word_count: 136 | anomalies: {\"page_number\":60,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_60_|_text:_capital._ixecuted_this_20th_day_of_septembar,_1961._baincod_pabricating_co.,_ing:_by_by_c.8._stalin_its_secretary_state_of_texas_county_of_harris_i,_hildred_i._buerkle,_a_notary_public,_do_hereby_certify_that_on_this_20th_day_of_september,_1961,_personally_appeared_before_ine,_j.p._fiper,_who_declared_he_is_vice_president_of_the_corporation_executing_the_foregoing_document,_and_being_first_duly_sworn,_acknowleuged_that_he_signed_the_foregoing_document_in_the_capacity_therein_set_forth_and_daula_red_that_the_statements_therein_contained_are_true._in_witness_whereof,_i_have_hereunte_set_my_hand_and_seal_the_day_and_year_before_written._see_2_buckle_in_and_for_harris_county,_taxas_mildred_l._buerkle_mi¥_ldrbuedl_er_.kle_exat_,olapury_bliic_na_nohdfr_a_rrics_ounyty_samy_rimissionexp_irejus_n1e1_963_,_|_char_count:_807_|_word_count:_136_|_anomalies:_{\"page_number\":60,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.14659328758716583,
     0.04644731059670448,

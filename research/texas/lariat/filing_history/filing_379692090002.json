@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:39.826686",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/filing_history/filing_379692090002.json",
+    "created": "2025_12_11t00:21:39.826686",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/filing_history/filing_379692090002.json",
     "has_embedding": true
   },
   "data": {
     "document_number": "379692090002",
-    "filing_type": "Certificate of Formation",
-    "filing_date": "July 28, 2011",
-    "effective_date": "July 28, 2011",
-    "eff_cond": "No",
+    "filing_type": "certificate_of_formation",
+    "filing_date": "july_28,_2011",
+    "effective_date": "july_28,_2011",
+    "eff_cond": "no",
     "page_count": "3"
   },
-  "text_representation": "document_number: 379692090002 | filing_type: Certificate of Formation | filing_date: July 28, 2011 | effective_date: July 28, 2011 | eff_cond: No | page_count: 3",
+  "text_representation": "document_number:_379692090002_|_filing_type:_certificate_of_formation_|_filing_date:_july_28,_2011_|_effective_date:_july_28,_2011_|_eff_cond:_no_|_page_count:_3",
   "embedding": [
     -0.04657616466283798,
     0.034861527383327484,

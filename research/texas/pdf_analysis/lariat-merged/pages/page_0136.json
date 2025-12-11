@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:01.215769",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0136.json",
+    "created": "2025_12_11t00:52:01.215769",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0136.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 136,
-    "text": "ACCUONSTPURL BLCCMPTOLfI EXAS OEROT\n1-35287X 8T71N AUI.STBo1 x 3.5O2.8¥ P\nPEXAB\"\nJuly 3, 2024\nBAINBRIDGE MID-ATLANTIC MANAGEMENT, LLC\n12765 FOREST HILL BLVD STE 1307\nWELLINGION FL 33414-4781\naCx learanoRceLefr e etr itnaesttmen*tT\nTo: Texas Secretary of State\nCorporations Section\nRe: BAINBRIDGE MID-ATLANTIC MANAGEMENT, ILC\nTaxpayer number: 32076197493\nFile number: 0803790640\nThe referenced entity has met all franchise tax requirements and is\neligible for reinstatement through May 15, 2025.\nComptroller of Public Accounts\nAccount Maintenance Division\nFranchise Tax Section\n1-800-531-5441 ext. 34402 or 512-463-4402\n* The reinstatement must be filed with the Texas Secretary of State on or before the expiration date of\nthis letter. After this date, additional franchise tax filing requirements must be met, and a new request\naclotx efr aranbcemu esu st bemitdt.\nouca n Y (cid:222) xucoaets/rpsosostt./sd.s.ai/noadFrms neshml dx.t.loreefr i naesttmeon ntlinwea w tw\nxucoaets/rposostt.frms_.s.opitonshml.tobr yinruistctoorenfr is naesttmean reat vailablwea w tw\nhaclTitx es aranbacelemu eatchh etr st teoteretdt i naeosttmefrms.n tcalling5 12-463-5555 .\n4.-145/)o0Frm 5-377(R ev",
+    "text": "accuonstpurl_blccmptolfi_exas_oerot_1_35287x_8t71n_aui.stbo1_x_3.5o2.8¥_p_pexab\"_july_3,_2024_bainbridge_mid_atlantic_management,_llc_12765_forest_hill_blvd_ste_1307_wellingion_fl_33414_4781_acx_learanorcelefr_e_etr_itnaesttmen*tt_to:_texas_secretary_of_state_corporations_section_re:_bainbridge_mid_atlantic_management,_ilc_taxpayer_number:_32076197493_file_number:_0803790640_the_referenced_entity_has_met_all_franchise_tax_requirements_and_is_eligible_for_reinstatement_through_may_15,_2025._comptroller_of_public_accounts_account_maintenance_division_franchise_tax_section_1_800_531_5441_ext._34402_or_512_463_4402_*_the_reinstatement_must_be_filed_with_the_texas_secretary_of_state_on_or_before_the_expiration_date_of_this_letter._after_this_date,_additional_franchise_tax_filing_requirements_must_be_met,_and_a_new_request_aclotx_efr_aranbcemu_esu_st_bemitdt._ouca_n_y_(cid:222)_xucoaets/rpsosostt./sd.s.ai/noadfrms_neshml_dx.t.loreefr_i_naesttmeon_ntlinwea_w_tw_xucoaets/rposostt.frms_.s.opitonshml.tobr_yinruistctoorenfr_is_naesttmean_reat_vailablwea_w_tw_hacltitx_es_aranbacelemu_eatchh_etr_st_teoteretdt_i_naeosttmefrms.n_tcalling5_12_463_5555_._4._145/)o0frm_5_377(r_ev",
     "char_count": 1180,
     "word_count": 160,
     "anomalies": {
       "page_number": 136,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 136 | text: ACCUONSTPURL BLCCMPTOLfI EXAS OEROT\n1-35287X 8T71N AUI.STBo1 x 3.5O2.8¥ P\nPEXAB\"\nJuly 3, 2024\nBAINBRIDGE MID-ATLANTIC MANAGEMENT, LLC\n12765 FOREST HILL BLVD STE 1307\nWELLINGION FL 33414-4781\naCx learanoRceLefr e etr itnaesttmen*tT\nTo: Texas Secretary of State\nCorporations Section\nRe: BAINBRIDGE MID-ATLANTIC MANAGEMENT, ILC\nTaxpayer number: 32076197493\nFile number: 0803790640\nThe referenced entity has met all franchise tax requirements and is\neligible for reinstatement through May 15, 2025.\nComptroller of Public Accounts\nAccount Maintenance Division\nFranchise Tax Section\n1-800-531-5441 ext. 34402 or 512-463-4402\n* The reinstatement must be filed with the Texas Secretary of State on or before the expiration date of\nthis letter. After this date, additional franchise tax filing requirements must be met, and a new request\naclotx efr aranbcemu esu st bemitdt.\nouca n Y (cid:222) xucoaets/rpsosostt./sd.s.ai/noadFrms neshml dx.t.loreefr i naesttmeon ntlinwea w tw\nxucoaets/rposostt.frms_.s.opitonshml.tobr yinruistctoorenfr is naesttmean reat vailablwea w tw\nhaclTitx es aranbacelemu eatchh etr st teoteretdt i naeosttmefrms.n tcalling5 12-463-5555 .\n4.-145/)o0Frm 5-377(R ev | char_count: 1180 | word_count: 160 | anomalies: {\"page_number\":136,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_136_|_text:_accuonstpurl_blccmptolfi_exas_oerot_1_35287x_8t71n_aui.stbo1_x_3.5o2.8¥_p_pexab\"_july_3,_2024_bainbridge_mid_atlantic_management,_llc_12765_forest_hill_blvd_ste_1307_wellingion_fl_33414_4781_acx_learanorcelefr_e_etr_itnaesttmen*tt_to:_texas_secretary_of_state_corporations_section_re:_bainbridge_mid_atlantic_management,_ilc_taxpayer_number:_32076197493_file_number:_0803790640_the_referenced_entity_has_met_all_franchise_tax_requirements_and_is_eligible_for_reinstatement_through_may_15,_2025._comptroller_of_public_accounts_account_maintenance_division_franchise_tax_section_1_800_531_5441_ext._34402_or_512_463_4402_*_the_reinstatement_must_be_filed_with_the_texas_secretary_of_state_on_or_before_the_expiration_date_of_this_letter._after_this_date,_additional_franchise_tax_filing_requirements_must_be_met,_and_a_new_request_aclotx_efr_aranbcemu_esu_st_bemitdt._ouca_n_y_(cid:222)_xucoaets/rpsosostt./sd.s.ai/noadfrms_neshml_dx.t.loreefr_i_naesttmeon_ntlinwea_w_tw_xucoaets/rposostt.frms_.s.opitonshml.tobr_yinruistctoorenfr_is_naesttmean_reat_vailablwea_w_tw_hacltitx_es_aranbacelemu_eatchh_etr_st_teoteretdt_i_naeosttmefrms.n_tcalling5_12_463_5555_._4._145/)o0frm_5_377(r_ev_|_char_count:_1180_|_word_count:_160_|_anomalies:_{\"page_number\":136,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.09870569407939911,
     -0.1265048086643219,

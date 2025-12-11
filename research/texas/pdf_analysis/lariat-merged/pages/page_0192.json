@@ -1,94 +1,94 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.324182",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0192.json",
+    "created": "2025_12_11t00:52:02.324182",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0192.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 192,
-    "text": "N\nName eltiT Asddres\nadeW A.Pamela nt PsdeereiciV 7025 West Tidwell\n104eStui 07\nXT 77092Houson, t\nhMateBetwC a .rden nt PsdeereiciV lonagiRe sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nnt PsdeereiciV lonagiRe vd Ms Bl9909 Mraeai\nChristian H. Davis\n350eStui\n92131go, CASn Deai\nRobert E. deBruin nt PsdeereiciV lonagiRe nueveA e3500 Mpla\n431eunt\nDallas, TX 75219\nRichard E. Munger nt PsdeereiciV lonagiRe 2859 Paces Ferry Road\nSuite 1450\nAtlanta, GA 30339\nnt PsdeereiciV lonagiRe\nBenjamin C. Pisklak 2925 Briarpark\n1220eStui\nHouston, TX 77042\nGail Ruggles nt PsdeereiciV lonagiRe 2859PaeR ceFrry os ad\nSuie1t 450\n3 0339lAAtaGna t,\nChristopher A. Smiles nt PsdeereiciV amaoRt oadY777\n510eStui\n3 3431BocaRL aoFtn ,\nJolene Stone nt PsdeereiciV lonagiRe amaoRt oadY777\nSuie5t 10\nBoca Raton, FL 33431\nThomas Bakewell nt PsdeereiciV lonagiRe 3500 Maple Avenue\nSuite 435\nDallas, TX 75219\nOmar F. delRio nt PsdeereiciV lonagiRe 777 Yamato Road\nSuite 510\nBoca Raton, FL 33431\nn PgeundaJor nt PsdeereiciV lonagiRe 8280 Greensboro Drive\n605eStui\nMcLean, BA 22102",
+    "text": "n_name_eltit_asddres_adew_a.pamela_nt_psdeereiciv_7025_west_tidwell_104estui_07_xt_77092houson,_t_hmatebetwc_a_.rden_nt_psdeereiciv_lonagire_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_nt_psdeereiciv_lonagire_vd_ms_bl9909_mraeai_christian_h._davis_350estui_92131go,_casn_deai_robert_e._debruin_nt_psdeereiciv_lonagire_nuevea_e3500_mpla_431eunt_dallas,_tx_75219_richard_e._munger_nt_psdeereiciv_lonagire_2859_paces_ferry_road_suite_1450_atlanta,_ga_30339_nt_psdeereiciv_lonagire_benjamin_c._pisklak_2925_briarpark_1220estui_houston,_tx_77042_gail_ruggles_nt_psdeereiciv_lonagire_2859paer_cefrry_os_ad_suie1t_450_3_0339laatagna_t,_christopher_a._smiles_nt_psdeereiciv_amaort_oady777_510estui_3_3431bocarl_aoftn_,_jolene_stone_nt_psdeereiciv_lonagire_amaort_oady777_suie5t_10_boca_raton,_fl_33431_thomas_bakewell_nt_psdeereiciv_lonagire_3500_maple_avenue_suite_435_dallas,_tx_75219_omar_f._delrio_nt_psdeereiciv_lonagire_777_yamato_road_suite_510_boca_raton,_fl_33431_n_pgeundajor_nt_psdeereiciv_lonagire_8280_greensboro_drive_605estui_mclean,_ba_22102",
     "char_count": 1054,
     "word_count": 162,
     "anomalies": {
       "page_number": 192,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [
         {
           "count": 7,
           "addresses": [
             {
-              "full_match": "Dallas, TX 75219",
+              "full_match": "dallas,_tx_75219",
               "groups": [
-                "Dallas",
-                "TX",
+                "dallas",
+                "tx",
                 "75219"
               ],
               "start": 349,
               "end": 365
             },
             {
-              "full_match": "Atlanta, GA 30339",
+              "full_match": "atlanta,_ga_30339",
               "groups": [
-                "Atlanta",
-                "GA",
+                "atlanta",
+                "ga",
                 "30339"
               ],
               "start": 441,
               "end": 458
             },
             {
-              "full_match": "Stui\nHouston, TX 77042",
+              "full_match": "stui_houston,_tx_77042",
               "groups": [
-                "Stui\nHouston",
-                "TX",
+                "stui_houston",
+                "tx",
                 "77042"
               ],
               "start": 523,
               "end": 545
             },
             {
-              "full_match": "Boca Raton, FL 33431",
+              "full_match": "boca_raton,_fl_33431",
               "groups": [
-                "Boca Raton",
-                "FL",
+                "boca_raton",
+                "fl",
                 "33431"
               ],
               "start": 778,
               "end": 798
             },
             {
-              "full_match": "Dallas, TX 75219",
+              "full_match": "dallas,_tx_75219",
               "groups": [
-                "Dallas",
-                "TX",
+                "dallas",
+                "tx",
                 "75219"
               ],
               "start": 867,
               "end": 883
             },
             {
-              "full_match": "Boca Raton, FL 33431",
+              "full_match": "boca_raton,_fl_33431",
               "groups": [
-                "Boca Raton",
-                "FL",
+                "boca_raton",
+                "fl",
                 "33431"
               ],
               "start": 949,
               "end": 969
             },
             {
-              "full_match": "Lean, BA 22102",
+              "full_match": "lean,_ba_22102",
               "groups": [
-                "Lean",
-                "BA",
+                "lean",
+                "ba",
                 "22102"
               ],
               "start": 1040,
               "end": 1054
             }
           ],
-          "pattern": "Multiple addresses clustered",
+          "pattern": "multiple_addresses_clustered",
           "severity": "medium"
         }
       ],
@@ -97,7 +97,7 @@
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 192 | text: N\nName eltiT Asddres\nadeW A.Pamela nt PsdeereiciV 7025 West Tidwell\n104eStui 07\nXT 77092Houson, t\nhMateBetwC a .rden nt PsdeereiciV lonagiRe sde Frry Roa2859 Pcea\n1450eStui\n30339, GaAntaAlt\nnt PsdeereiciV lonagiRe vd Ms Bl9909 Mraeai\nChristian H. Davis\n350eStui\n92131go, CASn Deai\nRobert E. deBruin nt PsdeereiciV lonagiRe nueveA e3500 Mpla\n431eunt\nDallas, TX 75219\nRichard E. Munger nt PsdeereiciV lonagiRe 2859 Paces Ferry Road\nSuite 1450\nAtlanta, GA 30339\nnt PsdeereiciV lonagiRe\nBenjamin C. Pisklak 2925 Briarpark\n1220eStui\nHouston, TX 77042\nGail Ruggles nt PsdeereiciV lonagiRe 2859PaeR ceFrry os ad\nSuie1t 450\n3 0339lAAtaGna t,\nChristopher A. Smiles nt PsdeereiciV amaoRt oadY777\n510eStui\n3 3431BocaRL aoFtn ,\nJolene Stone nt PsdeereiciV lonagiRe amaoRt oadY777\nSuie5t 10\nBoca Raton, FL 33431\nThomas Bakewell nt PsdeereiciV lonagiRe 3500 Maple Avenue\nSuite 435\nDallas, TX 75219\nOmar F. delRio nt PsdeereiciV lonagiRe 777 Yamato Road\nSuite 510\nBoca Raton, FL 33431\nn PgeundaJor nt PsdeereiciV lonagiRe 8280 Greensboro Drive\n605eStui\nMcLean, BA 22102 | char_count: 1054 | word_count: 162 | anomalies: {\"page_number\":192,\"source\":\"lariat-merged\",\"address_clusters\":[{\"count\":7,\"addresses\":[{\"full_match\":\"Dallas, TX 75219\",\"groups\":[\"Dallas\",\"TX\",\"75219\"],\"start\":349,\"end\":365},{\"full_match\":\"Atlanta, GA 30339\",\"groups\":[\"Atlanta\",\"GA\",\"30339\"],\"start\":441,\"end\":458},{\"full_match\":\"Stui\\nHouston, TX 77042\",\"groups\":[\"Stui\\nHouston\",\"TX\",\"77042\"],\"start\":523,\"end\":545},{\"full_match\":\"Boca Raton, FL 33431\",\"groups\":[\"Boca Raton\",\"FL\",\"33431\"],\"start\":778,\"end\":798},{\"full_match\":\"Dallas, TX 75219\",\"groups\":[\"Dallas\",\"TX\",\"75219\"],\"start\":867,\"end\":883},{\"full_match\":\"Boca Raton, FL 33431\",\"groups\":[\"Boca Raton\",\"FL\",\"33431\"],\"start\":949,\"end\":969},{\"full_match\":\"Lean, BA 22102\",\"groups\":[\"Lean\",\"BA\",\"22102\"],\"start\":1040,\"end\":1054}],\"pattern\":\"Multiple addresses clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_192_|_text:_n_name_eltit_asddres_adew_a.pamela_nt_psdeereiciv_7025_west_tidwell_104estui_07_xt_77092houson,_t_hmatebetwc_a_.rden_nt_psdeereiciv_lonagire_sde_frry_roa2859_pcea_1450estui_30339,_gaantaalt_nt_psdeereiciv_lonagire_vd_ms_bl9909_mraeai_christian_h._davis_350estui_92131go,_casn_deai_robert_e._debruin_nt_psdeereiciv_lonagire_nuevea_e3500_mpla_431eunt_dallas,_tx_75219_richard_e._munger_nt_psdeereiciv_lonagire_2859_paces_ferry_road_suite_1450_atlanta,_ga_30339_nt_psdeereiciv_lonagire_benjamin_c._pisklak_2925_briarpark_1220estui_houston,_tx_77042_gail_ruggles_nt_psdeereiciv_lonagire_2859paer_cefrry_os_ad_suie1t_450_3_0339laatagna_t,_christopher_a._smiles_nt_psdeereiciv_amaort_oady777_510estui_3_3431bocarl_aoftn_,_jolene_stone_nt_psdeereiciv_lonagire_amaort_oady777_suie5t_10_boca_raton,_fl_33431_thomas_bakewell_nt_psdeereiciv_lonagire_3500_maple_avenue_suite_435_dallas,_tx_75219_omar_f._delrio_nt_psdeereiciv_lonagire_777_yamato_road_suite_510_boca_raton,_fl_33431_n_pgeundajor_nt_psdeereiciv_lonagire_8280_greensboro_drive_605estui_mclean,_ba_22102_|_char_count:_1054_|_word_count:_162_|_anomalies:_{\"page_number\":192,\"source\":\"lariat_merged\",\"address_clusters\":[{\"count\":7,\"addresses\":[{\"full_match\":\"dallas,_tx_75219\",\"groups\":[\"dallas\",\"tx\",\"75219\"],\"start\":349,\"end\":365},{\"full_match\":\"atlanta,_ga_30339\",\"groups\":[\"atlanta\",\"ga\",\"30339\"],\"start\":441,\"end\":458},{\"full_match\":\"stui\\nhouston,_tx_77042\",\"groups\":[\"stui\\nhouston\",\"tx\",\"77042\"],\"start\":523,\"end\":545},{\"full_match\":\"boca_raton,_fl_33431\",\"groups\":[\"boca_raton\",\"fl\",\"33431\"],\"start\":778,\"end\":798},{\"full_match\":\"dallas,_tx_75219\",\"groups\":[\"dallas\",\"tx\",\"75219\"],\"start\":867,\"end\":883},{\"full_match\":\"boca_raton,_fl_33431\",\"groups\":[\"boca_raton\",\"fl\",\"33431\"],\"start\":949,\"end\":969},{\"full_match\":\"lean,_ba_22102\",\"groups\":[\"lean\",\"ba\",\"22102\"],\"start\":1040,\"end\":1054}],\"pattern\":\"multiple_addresses_clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.07264336943626404,
     0.0008652136893942952,

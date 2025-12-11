@@ -1,0 +1,462 @@
+{
+  "category": "employees",
+  "count": 3,
+  "data": [
+    {
+      "metadata": {
+        "date": "2025_12_10t20:50:00.000000",
+        "source": "employee_role_documentation",
+        "method": "analysis_of_company_structure_and_license_records"
+      },
+      "job_descriptions": [
+        {
+          "name": "robert_kettler",
+          "title": "ceo/founder",
+          "role": "executive",
+          "responsibilities": [
+            "overall_company_strategy",
+            "business_development",
+            "executive_oversight"
+          ],
+          "license_required": false,
+          "notes": "founder_and_chief_executive"
+        },
+        {
+          "name": "cindy_fisher",
+          "title": "president",
+          "role": "executive",
+          "responsibilities": [
+            "day_to_day_operations",
+            "strategic_planning",
+            "executive_management"
+          ],
+          "license_required": false,
+          "notes": "president_of_operations"
+        },
+        {
+          "name": "luke_davis",
+          "title": "cio",
+          "role": "executive",
+          "responsibilities": [
+            "information_technology",
+            "systems_management",
+            "technology_strategy"
+          ],
+          "license_required": false,
+          "notes": "chief_information_officer"
+        },
+        {
+          "name": "pat_cassada",
+          "title": "cfo",
+          "role": "executive",
+          "responsibilities": [
+            "financial_management",
+            "accounting_oversight",
+            "financial_strategy"
+          ],
+          "license_required": false,
+          "notes": "chief_financial_officer"
+        },
+        {
+          "name": "sean_curtin",
+          "title": "general_counsel",
+          "role": "legal",
+          "responsibilities": [
+            "legal_compliance",
+            "contract_review",
+            "regulatory_matters"
+          ],
+          "license_required": true,
+          "bar_license": true,
+          "notes": "legal_counsel_requires_bar_license"
+        },
+        {
+          "name": "edward_hyland",
+          "title": "senior_regional_manager",
+          "role": "operations",
+          "responsibilities": [
+            "regional_property_management",
+            "operations_oversight",
+            "team_supervision"
+          ],
+          "license_required": true,
+          "real_estate_license": false,
+          "notes": "may_require_real_estate_license_for_property_management_activities"
+        },
+        {
+          "name": "amy_groff",
+          "title": "vp_operations",
+          "role": "operations",
+          "responsibilities": [
+            "operations_management",
+            "process_improvement",
+            "team_leadership"
+          ],
+          "license_required": false,
+          "notes": "vice_president_of_operations"
+        },
+        {
+          "name": "robert_grealy",
+          "title": "svp_operations",
+          "role": "operations",
+          "responsibilities": [
+            "senior_operations_oversight",
+            "strategic_operations_planning",
+            "executive_operations_management"
+          ],
+          "license_required": false,
+          "notes": "senior_vice_president_of_operations"
+        },
+        {
+          "name": "todd_bowen",
+          "title": "svp_strategic_services",
+          "role": "operations",
+          "responsibilities": [
+            "strategic_services",
+            "business_development",
+            "client_relations"
+          ],
+          "license_required": false,
+          "notes": "senior_vice_president_of_strategic_services"
+        },
+        {
+          "name": "djene_moyer",
+          "title": "community_manager",
+          "role": "property_management",
+          "responsibilities": [
+            "property_management",
+            "tenant_relations",
+            "property_operations"
+          ],
+          "license_required": true,
+          "real_estate_license": false,
+          "notes": "community_manager_may_require_real_estate_license"
+        },
+        {
+          "name": "henry_ramos",
+          "title": "property_manager",
+          "role": "property_management",
+          "responsibilities": [
+            "property_management",
+            "leasing_activities",
+            "property_maintenance_coordination"
+          ],
+          "license_required": true,
+          "real_estate_license": false,
+          "notes": "property_manager_likely_requires_real_estate_license_for_leasing"
+        },
+        {
+          "name": "kristina_thoummarath",
+          "title": "chief_of_staff",
+          "role": "administrative",
+          "responsibilities": [
+            "executive_support",
+            "administrative_coordination",
+            "internal_operations"
+          ],
+          "license_required": false,
+          "notes": "chief_of_staff"
+        },
+        {
+          "name": "christina_chang",
+          "title": "head_of_asset_management",
+          "role": "operations",
+          "responsibilities": [
+            "asset_management",
+            "property_portfolio_oversight",
+            "investment_management"
+          ],
+          "license_required": false,
+          "notes": "head_of_asset_management"
+        },
+        {
+          "name": "liddy_bisanz",
+          "title": "operations_connection",
+          "role": "operations",
+          "responsibilities": [
+            "operations_coordination",
+            "internal_communications",
+            "process_management"
+          ],
+          "license_required": false,
+          "notes": "operations_connection_role"
+        },
+        {
+          "name": "caitlin_skidmore",
+          "title": "vp/general_manager",
+          "role": "property_management",
+          "responsibilities": [
+            "property_management_oversight",
+            "regional_management",
+            "operations_management"
+          ],
+          "license_required": true,
+          "real_estate_license": true,
+          "notes": "only_licensed_employee_dc_real_estate_broker_license"
+        }
+      ],
+      "summary": {
+        "total_employees": 15,
+        "licensed_employees": 1,
+        "license_required_roles": 5,
+        "unlicensed_employees_in_licensed_roles": 4
+      }
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:50:00.000000",
+        "source": "company_structure_analysis",
+        "method": "analysis_of_employee_roles_and_reporting_structure"
+      },
+      "organizational_structure": {
+        "executive_level": {
+          "ceo": {
+            "name": "robert_kettler",
+            "title": "ceo/founder",
+            "reports_to": null,
+            "direct_reports": [
+              "president",
+              "cfo",
+              "cio",
+              "general_counsel"
+            ]
+          },
+          "president": {
+            "name": "cindy_fisher",
+            "title": "president",
+            "reports_to": "ceo",
+            "direct_reports": [
+              "svp_operations",
+              "svp_strategic_services",
+              "vp_operations"
+            ]
+          },
+          "cfo": {
+            "name": "pat_cassada",
+            "title": "cfo",
+            "reports_to": "ceo",
+            "direct_reports": []
+          },
+          "cio": {
+            "name": "luke_davis",
+            "title": "cio",
+            "reports_to": "ceo",
+            "direct_reports": []
+          },
+          "general_counsel": {
+            "name": "sean_curtin",
+            "title": "general_counsel",
+            "reports_to": "ceo",
+            "direct_reports": []
+          }
+        },
+        "senior_management": {
+          "svp_operations": {
+            "name": "robert_grealy",
+            "title": "svp_operations",
+            "reports_to": "president",
+            "direct_reports": [
+              "vp_operations",
+              "head_asset_management"
+            ]
+          },
+          "svp_strategic_services": {
+            "name": "todd_bowen",
+            "title": "svp_strategic_services",
+            "reports_to": "president",
+            "direct_reports": []
+          },
+          "vp_operations": {
+            "name": "amy_groff",
+            "title": "vp_operations",
+            "reports_to": "svp_operations",
+            "direct_reports": [
+              "senior_regional_manager",
+              "operations_connection"
+            ]
+          },
+          "head_asset_management": {
+            "name": "christina_chang",
+            "title": "head_of_asset_management",
+            "reports_to": "svp_operations",
+            "direct_reports": []
+          }
+        },
+        "operations_level": {
+          "senior_regional_manager": {
+            "name": "edward_hyland",
+            "title": "senior_regional_manager",
+            "reports_to": "vp_operations",
+            "direct_reports": [
+              "vp_general_manager",
+              "property_manager",
+              "community_manager"
+            ]
+          },
+          "vp_general_manager": {
+            "name": "caitlin_skidmore",
+            "title": "vp/general_manager",
+            "reports_to": "senior_regional_manager",
+            "direct_reports": [],
+            "license_status": "licensed_dc_real_estate_broker"
+          },
+          "property_manager": {
+            "name": "henry_ramos",
+            "title": "property_manager",
+            "reports_to": "senior_regional_manager",
+            "direct_reports": [],
+            "license_status": "unlicensed"
+          },
+          "community_manager": {
+            "name": "djene_moyer",
+            "title": "community_manager",
+            "reports_to": "senior_regional_manager",
+            "direct_reports": [],
+            "license_status": "unlicensed"
+          },
+          "operations_connection": {
+            "name": "liddy_bisanz",
+            "title": "operations_connection",
+            "reports_to": "vp_operations",
+            "direct_reports": []
+          },
+          "chief_of_staff": {
+            "name": "kristina_thoummarath",
+            "title": "chief_of_staff",
+            "reports_to": "president",
+            "direct_reports": []
+          }
+        }
+      },
+      "management_chain": {
+        "property_management_activities": {
+          "supervision_chain": [
+            "ceo",
+            "president",
+            "svp_operations",
+            "vp_operations",
+            "senior_regional_manager",
+            "vp_general_manager"
+          ],
+          "licensed_supervisor": "vp_general_manager",
+          "unlicensed_employees_under_supervision": [
+            "property_manager",
+            "community_manager"
+          ]
+        }
+      },
+      "notes": "organizational_structure_shows_unlicensed_employees_performing_property_management_activities_under_supervision_of_mostly_unlicensed_management_chain._only_one_licensed_employee_(caitlin_skidmore)_in_property_management_role."
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10",
+        "total_employees": 15,
+        "source": "license_search_investigation"
+      },
+      "employees": {
+        "robert_kettler": {
+          "name": "robert_kettler",
+          "title": "ceo/founder",
+          "category": "executive_leadership",
+          "performs_licensed_activities": true
+        },
+        "cindy_fisher": {
+          "name": "cindy_fisher",
+          "title": "president",
+          "category": "executive_leadership",
+          "performs_licensed_activities": true
+        },
+        "luke_davis": {
+          "name": "luke_davis",
+          "title": "chief_information_officer",
+          "category": "executive_leadership",
+          "performs_licensed_activities": false
+        },
+        "pat_cassada": {
+          "name": "pat_cassada",
+          "title": "chief_financial_officer",
+          "category": "executive_leadership",
+          "performs_licensed_activities": false
+        },
+        "sean_curtin": {
+          "name": "sean_curtin",
+          "title": "general_counsel",
+          "category": "executive_leadership",
+          "performs_licensed_activities": false
+        },
+        "edward_hyland": {
+          "name": "edward_hyland",
+          "title": "senior_regional_manager",
+          "category": "operations_management",
+          "performs_licensed_activities": true
+        },
+        "amy_groff": {
+          "name": "amy_groff",
+          "title": "vp_operations",
+          "category": "operations_management",
+          "performs_licensed_activities": true
+        },
+        "robert_grealy": {
+          "name": "robert_grealy",
+          "title": "svp_operations",
+          "category": "operations_management",
+          "performs_licensed_activities": true
+        },
+        "todd_bowen": {
+          "name": "todd_bowen",
+          "title": "svp_strategic_services",
+          "category": "operations_management",
+          "performs_licensed_activities": true
+        },
+        "djene_moyer": {
+          "name": "djene_moyer",
+          "title": "community_manager",
+          "category": "property_management_staff",
+          "performs_licensed_activities": true
+        },
+        "henry_ramos": {
+          "name": "henry_ramos",
+          "title": "property_manager",
+          "category": "property_management_staff",
+          "performs_licensed_activities": true
+        },
+        "kristina_thoummarath": {
+          "name": "kristina_thoummarath",
+          "title": "chief_of_staff",
+          "category": "other_key_personnel",
+          "performs_licensed_activities": false
+        },
+        "christina_chang": {
+          "name": "christina_chang",
+          "title": "head_of_asset_management",
+          "category": "other_key_personnel",
+          "performs_licensed_activities": true
+        },
+        "liddy_bisanz": {
+          "name": "liddy_bisanz",
+          "title": "operations_connection",
+          "category": "other_key_personnel",
+          "performs_licensed_activities": false
+        },
+        "caitlin_skidmore": {
+          "name": "caitlin_skidmore",
+          "title": "principal_broker",
+          "category": "licensed_employee",
+          "performs_licensed_activities": true,
+          "licensed": true,
+          "license_states": [
+            "dc"
+          ]
+        }
+      },
+      "summary": {
+        "executive_leadership": 5,
+        "operations_management": 4,
+        "property_management": 2,
+        "licensed": 1,
+        "performs_licensed_activities": 10
+      }
+    }
+  ],
+  "processed_date": "2025-12-11T03:10:58.040425"
+}

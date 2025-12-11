@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:58.599776",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0024.json",
+    "created": "2025_12_11t00:51:58.599776",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0024.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 24,
-    "text": "CSPRDD= CWOERI HTRT FTANTSMI\nL0TN= 0 041934767",
+    "text": "csprdd=_cwoeri_htrt_ftantsmi_l0tn=_0_041934767",
     "char_count": 46,
     "word_count": 7,
     "anomalies": {
       "page_number": 24,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 24 | text: CSPRDD= CWOERI HTRT FTANTSMI\nL0TN= 0 041934767 | char_count: 46 | word_count: 7 | anomalies: {\"page_number\":24,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_24_|_text:_csprdd=_cwoeri_htrt_ftantsmi_l0tn=_0_041934767_|_char_count:_46_|_word_count:_7_|_anomalies:_{\"page_number\":24,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.033820636570453644,
     0.01954064518213272,

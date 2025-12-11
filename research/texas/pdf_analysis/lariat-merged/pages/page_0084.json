@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:00.039220",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0084.json",
+    "created": "2025_12_11t00:52:00.039220",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0084.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 84,
-    "text": "Name Post Offico Address\nte SrenuttlaW1500\nJohn M. Senbrook\n19102ani, PnnsvaaeylphildeaPlhi\nA. Swnserndy Sdnei dor RoatcRe\nSheoutr RoutSat\n15658ani, PnnsvaeylregoniiL\nks. JconaTJohn te SrenuttlaW1500\n19102anin, PnnsvaphievildeaPlhi\nrr KbeeePte te SrenuttlaW500\n1910ani, Pnnsvaaeylphildealhi\n-ng Corpora Svirsheurvie of tci oftlpainc prihe, trgere mhe of tet daveitcel e1.2 Uhepon t\nrgere mhe of tet daveitcefl ehe t fromecfiwas hok of by-l, wlheho sln thad isdebon a provi\nwas by-l ofhewnd ta ao lng tordiccd aentppoihosn or an cesees ber scorsveiuc hahe tlind unta\nowslss a fol:ddressre ae aecfisnd pos ofe atcfir ofihend ton, aing Corport Sviheurvit\nName ecfiOf Asddres ecfiPos Otf\nks. InconTJohn rd Boahen of tarmiCha tes SrenittlaW1500\n, P. 19102aaphildeaPlhi\nJohn C. Myonda ntPsderei vd.nd Blalkea180 L21\n132und, Oo 41lhiveeCl\nyelthaW. d EHrola vd.nd Blalkea180 L21\nnt PsdeereiciV\n132nd, Oo 41ahilveeCl\nAwndres I, oremlE ryatre, Scnte PsdeereiciV ngdilnk Buiy Bat Cilonai100 Nta1\n14nd, Oo 441ahilveeCl\nic. Bucrd PhacRi Treasurer, Controller\n21180 Lakeland BlvdCleveland, Ohio 4413:\n22222\nARTICLE V\n10",
+    "text": "name_post_offico_address_te_srenuttlaw1500_john_m._senbrook_19102ani,_pnnsvaaeylphildeaplhi_a._swnserndy_sdnei_dor_roatcre_sheoutr_routsat_15658ani,_pnnsvaeylregoniil_ks._jconatjohn_te_srenuttlaw1500_19102anin,_pnnsvaphievildeaplhi_rr_kbeeepte_te_srenuttlaw500_1910ani,_pnnsvaaeylphildealhi_ng_corpora_svirsheurvie_of_tci_oftlpainc_prihe,_trgere_mhe_of_tet_daveitcel_e1.2_uhepon_t_rgere_mhe_of_tet_daveitcefl_ehe_t_fromecfiwas_hok_of_by_l,_wlheho_sln_thad_isdebon_a_provi_was_by_l_ofhewnd_ta_ao_lng_tordiccd_aentppoihosn_or_an_cesees_ber_scorsveiuc_hahe_tlind_unta_owslss_a_fol:ddressre_ae_aecfisnd_pos_ofe_atcfir_ofihend_ton,_aing_corport_sviheurvit_name_ecfiof_asddres_ecfipos_otf_ks._incontjohn_rd_boahen_of_tarmicha_tes_srenittlaw1500_,_p._19102aaphildeaplhi_john_c._myonda_ntpsderei_vd.nd_blalkea180_l21_132und,_oo_41lhiveecl_yelthaw._d_ehrola_vd.nd_blalkea180_l21_nt_psdeereiciv_132nd,_oo_41ahilveecl_awndres_i,_oremle_ryatre,_scnte_psdeereiciv_ngdilnk_buiy_bat_cilonai100_nta1_14nd,_oo_441ahilveecl_ic._bucrd_phacri_treasurer,_controller_21180_lakeland_blvdcleveland,_ohio_4413:_22222_article_v_10",
     "char_count": 1105,
     "word_count": 158,
     "anomalies": {
       "page_number": 84,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 84 | text: Name Post Offico Address\nte SrenuttlaW1500\nJohn M. Senbrook\n19102ani, PnnsvaaeylphildeaPlhi\nA. Swnserndy Sdnei dor RoatcRe\nSheoutr RoutSat\n15658ani, PnnsvaeylregoniiL\nks. JconaTJohn te SrenuttlaW1500\n19102anin, PnnsvaphievildeaPlhi\nrr KbeeePte te SrenuttlaW500\n1910ani, Pnnsvaaeylphildealhi\n-ng Corpora Svirsheurvie of tci oftlpainc prihe, trgere mhe of tet daveitcel e1.2 Uhepon t\nrgere mhe of tet daveitcefl ehe t fromecfiwas hok of by-l, wlheho sln thad isdebon a provi\nwas by-l ofhewnd ta ao lng tordiccd aentppoihosn or an cesees ber scorsveiuc hahe tlind unta\nowslss a fol:ddressre ae aecfisnd pos ofe atcfir ofihend ton, aing Corport Sviheurvit\nName ecfiOf Asddres ecfiPos Otf\nks. InconTJohn rd Boahen of tarmiCha tes SrenittlaW1500\n, P. 19102aaphildeaPlhi\nJohn C. Myonda ntPsderei vd.nd Blalkea180 L21\n132und, Oo 41lhiveeCl\nyelthaW. d EHrola vd.nd Blalkea180 L21\nnt PsdeereiciV\n132nd, Oo 41ahilveeCl\nAwndres I, oremlE ryatre, Scnte PsdeereiciV ngdilnk Buiy Bat Cilonai100 Nta1\n14nd, Oo 441ahilveeCl\nic. Bucrd PhacRi Treasurer, Controller\n21180 Lakeland BlvdCleveland, Ohio 4413:\n22222\nARTICLE V\n10 | char_count: 1105 | word_count: 158 | anomalies: {\"page_number\":84,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_84_|_text:_name_post_offico_address_te_srenuttlaw1500_john_m._senbrook_19102ani,_pnnsvaaeylphildeaplhi_a._swnserndy_sdnei_dor_roatcre_sheoutr_routsat_15658ani,_pnnsvaeylregoniil_ks._jconatjohn_te_srenuttlaw1500_19102anin,_pnnsvaphievildeaplhi_rr_kbeeepte_te_srenuttlaw500_1910ani,_pnnsvaaeylphildealhi_ng_corpora_svirsheurvie_of_tci_oftlpainc_prihe,_trgere_mhe_of_tet_daveitcel_e1.2_uhepon_t_rgere_mhe_of_tet_daveitcefl_ehe_t_fromecfiwas_hok_of_by_l,_wlheho_sln_thad_isdebon_a_provi_was_by_l_ofhewnd_ta_ao_lng_tordiccd_aentppoihosn_or_an_cesees_ber_scorsveiuc_hahe_tlind_unta_owslss_a_fol:ddressre_ae_aecfisnd_pos_ofe_atcfir_ofihend_ton,_aing_corport_sviheurvit_name_ecfiof_asddres_ecfipos_otf_ks._incontjohn_rd_boahen_of_tarmicha_tes_srenittlaw1500_,_p._19102aaphildeaplhi_john_c._myonda_ntpsderei_vd.nd_blalkea180_l21_132und,_oo_41lhiveecl_yelthaw._d_ehrola_vd.nd_blalkea180_l21_nt_psdeereiciv_132nd,_oo_41ahilveecl_awndres_i,_oremle_ryatre,_scnte_psdeereiciv_ngdilnk_buiy_bat_cilonai100_nta1_14nd,_oo_441ahilveecl_ic._bucrd_phacri_treasurer,_controller_21180_lakeland_blvdcleveland,_ohio_4413:_22222_article_v_10_|_char_count:_1105_|_word_count:_158_|_anomalies:_{\"page_number\":84,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.09143222868442535,
     0.06905994564294815,

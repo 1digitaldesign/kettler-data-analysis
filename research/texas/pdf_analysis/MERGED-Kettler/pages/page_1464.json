@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:38.566518",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1464.json",
+    "created": "2025_12_11t00:54:38.566518",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1464.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1464,
-    "text": ". CORPKSI MANAGMNEET\n300ed, Stp RoauiraftolW8081\n22182anigiriV, nnaeiV\nr 23, 1999beNmove\naeCStt orporaitonC ommission\n197Bo1 x .O.P\n1972 3218-1ARichmonVd ,\nRE: Reinstatement of KSI Management Corp\nDear Clerk’ Office:\nKSI Management Corp. is requesting reinstatement of the aforementioned corporation. We have\nenclosed the reinstatement fee in the amount of $100.00 and a 1999 Annual Report.\n(703)641-9000.tr a Hseeetllhe Mclilas caee, plrettsahi mng trdionsgasi reny quet are areheIf t\n,ylreeSnci\n991216 1637\nryatreSce\n0321867-4\nr9a1a\n100pdETAINREST\nKam\n66 12/16/99",
+    "text": "._corpksi_managmneet_300ed,_stp_roauiraftolw8081_22182anigiriv,_nnaeiv_r_23,_1999benmove_aecstt_orporaitonc_ommission_197bo1_x_.o.p_1972_3218_1arichmonvd_,_re:_reinstatement_of_ksi_management_corp_dear_clerk’_office:_ksi_management_corp._is_requesting_reinstatement_of_the_aforementioned_corporation._we_have_enclosed_the_reinstatement_fee_in_the_amount_of_$100.00_and_a_1999_annual_report._(703)641_9000.tr_a_hseeetllhe_mclilas_caee,_plrettsahi_mng_trdionsgasi_reny_quet_are_areheif_t_,ylreesnci_991216_1637_ryatresce_0321867_4_r9a1a_100pdetainrest_kam_66_12/16/99",
     "char_count": 565,
     "word_count": 78,
     "anomalies": {
       "page_number": 1464,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 1464 | text: . CORPKSI MANAGMNEET\n300ed, Stp RoauiraftolW8081\n22182anigiriV, nnaeiV\nr 23, 1999beNmove\naeCStt orporaitonC ommission\n197Bo1 x .O.P\n1972 3218-1ARichmonVd ,\nRE: Reinstatement of KSI Management Corp\nDear Clerk’ Office:\nKSI Management Corp. is requesting reinstatement of the aforementioned corporation. We have\nenclosed the reinstatement fee in the amount of $100.00 and a 1999 Annual Report.\n(703)641-9000.tr a Hseeetllhe Mclilas caee, plrettsahi mng trdionsgasi reny quet are areheIf t\n,ylreeSnci\n991216 1637\nryatreSce\n0321867-4\nr9a1a\n100pdETAINREST\nKam\n66 12/16/99 | char_count: 565 | word_count: 78 | anomalies: {\"page_number\":1464,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_1464_|_text:_._corpksi_managmneet_300ed,_stp_roauiraftolw8081_22182anigiriv,_nnaeiv_r_23,_1999benmove_aecstt_orporaitonc_ommission_197bo1_x_.o.p_1972_3218_1arichmonvd_,_re:_reinstatement_of_ksi_management_corp_dear_clerk’_office:_ksi_management_corp._is_requesting_reinstatement_of_the_aforementioned_corporation._we_have_enclosed_the_reinstatement_fee_in_the_amount_of_$100.00_and_a_1999_annual_report._(703)641_9000.tr_a_hseeetllhe_mclilas_caee,_plrettsahi_mng_trdionsgasi_reny_quet_are_areheif_t_,ylreesnci_991216_1637_ryatresce_0321867_4_r9a1a_100pdetainrest_kam_66_12/16/99_|_char_count:_565_|_word_count:_78_|_anomalies:_{\"page_number\":1464,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.10433164238929749,
     0.01254336442798376,

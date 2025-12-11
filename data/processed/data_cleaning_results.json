@@ -1,0 +1,468 @@
+{
+  "analysis": {
+    "missing_data": [],
+    "incomplete_records": [
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 0,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 1,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 2,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 3,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 4,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 5,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 6,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 7,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 8,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 9,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 10,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "initial_cert_date",
+        "value": null,
+        "severity": "low",
+        "index": 10,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 11,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 12,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 13,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 14,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 15,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 16,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 17,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 18,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 19,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 20,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 21,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 22,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 23,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 24,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 25,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 26,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 27,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 28,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 29,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 30,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 31,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 32,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 33,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 34,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 35,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 36,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "individual_license",
+        "value": null,
+        "severity": "low",
+        "index": 37,
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/firms.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field_count": 1,
+        "severity": "medium",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/professional/memberships.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field_count": 1,
+        "severity": "medium",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/online/social_media.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "website_url",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/online/company_website.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/new_york/new_york_kettler_management_inc_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/new_york/new_york_kettler_management_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/virginia/virginia_kettler_management_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/connecticut/connecticut_kettler_management_inc_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/connecticut/connecticut_kettler_management_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/new_jersey/new_jersey_kettler_management_inc_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/new_jersey/new_jersey_kettler_management_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/district_of_columbia/district_of_columbia_kettler_management_inc_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/district_of_columbia/district_of_columbia_kettler_management_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/maryland/maryland_kettler_management_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/maryland/maryland_kettler_management_inc_registration.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "conclusion",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/company_registrations/data/texas/texas_entity_search_template.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field_count": 1,
+        "severity": "medium",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/news/data/violations_coverage.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field_count": 1,
+        "severity": "medium",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/discrimination/data/discrimination_records.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field": "total_value_under_management",
+        "value": null,
+        "severity": "low",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/financial/data/property_value_assessments.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field_count": 1,
+        "severity": "medium",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/financial/data/public_filings.json"
+      },
+      {
+        "type": "incomplete_record",
+        "field_count": 1,
+        "severity": "medium",
+        "file": "/Users/machine/Documents/kettler-data-analysis/data/cleaned/complaints/data/regulatory_complaints.json"
+      }
+    ],
+    "technical_errors": [],
+    "needs_manual_verification": [],
+    "populated_data": []
+  },
+  "population": {
+    "files_updated": 0,
+    "fields_populated": 0,
+    "populations": []
+  },
+  "report_path": "/Users/machine/Documents/kettler-data-analysis/data/processed/manual_verification_report.json",
+  "stats": {
+    "files_analyzed": 6087,
+    "issues_found": 65,
+    "issues_fixed": 0,
+    "needs_manual_review": 0
+  }
+}

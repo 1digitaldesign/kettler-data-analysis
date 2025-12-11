@@ -1,39 +1,39 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "state": "District of Columbia",
-    "state_code": "DC",
-    "employee": "Robert Grealy",
+    "date": "2025_12_10",
+    "state": "dc",
+    "state_code": "dc",
+    "employee": "robert_grealy",
     "employee_key": "robert_grealy",
     "title": "",
     "search_type": "bar_license",
-    "search_url": "https://www.dcbar.org/find-a-member",
+    "search_url": "https://www.dcbar.org/find_a_member",
     "alternative_urls": [
-      "https://www.dcbar.org/member-directory/",
-      "https://www.dccourts.gov/services/attorney-services/attorney-search"
+      "https://www.dcbar.org/member_directory/",
+      "https://www.dccourts.gov/services/attorney_services/attorney_search"
     ],
-    "search_method": "Browser automation attempted - site requires login or has restricted access. Google search fallback used.",
-    "license_type": "State Bar Admission",
+    "search_method": "browser_automation_attempted_site_requires_login_or_has_restricted_access._google_search_fallback_used.",
+    "license_type": "state_bar_admission",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
     "browser_automation_status": "404_error_on_member_directory_requires_manual_verification",
     "google_search_performed": false,
-    "note": "Search completed via Browser automation attempted - site requires login or has restricted access. Google search fallback used.. Manual verification recommended."
+    "note": "search_completed_via_browser_automation_attempted_site_requires_login_or_has_restricted_access._google_search_fallback_used.._manual_verification_recommended."
   },
   "findings": {
     "searched": true,
-    "search_date": "2025-12-10",
+    "search_date": "2025_12_10",
     "bar_license": false,
-    "license_status": "Not found",
+    "license_status": "not_found",
     "search_methods_used": [
-      "DC Bar member directory (404 error)",
-      "Google search fallback"
+      "dc_bar_member_directory_(404_error)",
+      "google_search_fallback"
     ],
     "results_found": 0,
-    "note": "DC Bar member directory returned 404 error. Alternative URL attempted. Google search performed as fallback."
+    "note": "dc_bar_member_directory_returned_404_error._alternative_url_attempted._google_search_performed_as_fallback."
   },
-  "conclusion": "Robert Grealy does NOT appear to have a bar license in District of Columbia. Manual verification recommended due to site access issues.",
-  "license_status": "Not found",
+  "conclusion": "robert_grealy_does_not_appear_to_have_a_bar_license_in_district_of_columbia._manual_verification_recommended_due_to_site_access_issues.",
+  "license_status": "not_found",
   "verification_status": "requires_manual_verification"
 }

@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:33.776898",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1194.json",
+    "created": "2025_12_11t00:54:33.776898",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1194.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1194,
-    "text": "1004210128\nNARIIVIG FHOT NEALCMMOWO\nCRROPO\nNOSSINCMMIO OITCRRE OPOATAST\nfO (cid:222) hteCceo l ferk\nRECPTEI\n:DI\nDCN: 1810-05-24-01",
+    "text": "1004210128_nariivig_fhot_nealcmmowo_crropo_nossincmmio_oitcrre_opoatast_fo_(cid:222)_htecceo_l_ferk_recptei_:di_dcn:_1810_05_24_01",
     "char_count": 130,
     "word_count": 17,
     "anomalies": {
       "page_number": 1194,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 1194 | text: 1004210128\nNARIIVIG FHOT NEALCMMOWO\nCRROPO\nNOSSINCMMIO OITCRRE OPOATAST\nfO (cid:222) hteCceo l ferk\nRECPTEI\n:DI\nDCN: 1810-05-24-01 | char_count: 130 | word_count: 17 | anomalies: {\"page_number\":1194,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_1194_|_text:_1004210128_nariivig_fhot_nealcmmowo_crropo_nossincmmio_oitcrre_opoatast_fo_(cid:222)_htecceo_l_ferk_recptei_:di_dcn:_1810_05_24_01_|_char_count:_130_|_word_count:_17_|_anomalies:_{\"page_number\":1194,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.08569451421499252,
     0.038608141243457794,

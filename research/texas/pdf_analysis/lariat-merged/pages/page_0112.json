@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:00.782047",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0112.json",
+    "created": "2025_12_11t00:52:00.782047",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0112.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 112,
-    "text": ".etury of sattresce\noniutcxe - E XeMiYcAirt\nd oesonsnt ha-centd ugeresesgitd a reet porssgnaheon dei ttsharm titd arsgne undeiheT\nwaposd by lsmee iitina peheo t tcs sed sgnshi dowotubjrsgnei tne undeiheT.. ntemnt uppoihet\n!y atlnar pe undeecfiirtend c antensrum itnteuduls or fraley fallarietas m sison of aheubmifor t\n.ntensumng ilil fihe teutcxeo ed tezhorisutd i arsgne undeihe tthaury trjpe\n5. 4.21:eDta\nMAN MYOL",
+    "text": ".etury_of_sattresce_oniutcxe_e_xemiycairt_d_oesonsnt_ha_centd_ugeresesgitd_a_reet_porssgnaheon_dei_ttsharm_titd_arsgne_undeihet_waposd_by_lsmee_iitina_peheo_t_tcs_sed_sgnshi_dowotubjrsgnei_tne_undeihet.._ntemnt_uppoihet_!y_atlnar_pe_undeecfiirtend_c_antensrum_itnteuduls_or_fraley_fallarietas_m_sison_of_aheubmifor_t_.ntensumng_ilil_fihe_teutcxeo_ed_tezhorisutd_i_arsgne_undeihe_tthaury_trjpe_5._4.21:edta_man_myol",
     "char_count": 416,
     "word_count": 63,
     "anomalies": {
       "page_number": 112,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 112 | text: .etury of sattresce\noniutcxe - E XeMiYcAirt\nd oesonsnt ha-centd ugeresesgitd a reet porssgnaheon dei ttsharm titd arsgne undeiheT\nwaposd by lsmee iitina peheo t tcs sed sgnshi dowotubjrsgnei tne undeiheT.. ntemnt uppoihet\n!y atlnar pe undeecfiirtend c antensrum itnteuduls or fraley fallarietas m sison of aheubmifor t\n.ntensumng ilil fihe teutcxeo ed tezhorisutd i arsgne undeihe tthaury trjpe\n5. 4.21:eDta\nMAN MYOL | char_count: 416 | word_count: 63 | anomalies: {\"page_number\":112,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_112_|_text:_.etury_of_sattresce_oniutcxe_e_xemiycairt_d_oesonsnt_ha_centd_ugeresesgitd_a_reet_porssgnaheon_dei_ttsharm_titd_arsgne_undeihet_waposd_by_lsmee_iitina_peheo_t_tcs_sed_sgnshi_dowotubjrsgnei_tne_undeihet.._ntemnt_uppoihet_!y_atlnar_pe_undeecfiirtend_c_antensrum_itnteuduls_or_fraley_fallarietas_m_sison_of_aheubmifor_t_.ntensumng_ilil_fihe_teutcxeo_ed_tezhorisutd_i_arsgne_undeihe_tthaury_trjpe_5._4.21:edta_man_myol_|_char_count:_416_|_word_count:_63_|_anomalies:_{\"page_number\":112,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.08772803097963333,
     0.017875611782073975,

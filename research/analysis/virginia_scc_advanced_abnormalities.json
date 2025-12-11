@@ -1,78 +1,78 @@
 {
   "metadata": {
-    "analysis_date": "2025-12-10T21:53:30.810078",
-    "source": "Virginia SCC Advanced Pattern Analysis",
+    "analysis_date": "2025_12_10t21:53:30.810078",
+    "source": "virginia_scc_advanced_pattern_analysis",
     "entity_id": "03218674",
-    "analysis_method": "Pattern matching and semantic analysis",
+    "analysis_method": "pattern_matching_and_semantic_analysis",
     "file_name": "virginia_scc_advanced_abnormalities.json",
     "file_path": "research/analysis/virginia_scc_advanced_abnormalities.json",
-    "last_updated": "2025-12-10 23:49:49",
+    "last_updated": "2025_12_10_23:49:49",
     "status": "complete"
   },
   "entity_data": {
     "entity_id": "03218674",
-    "legal_name": "KETTLER MANAGEMENT INC.",
-    "fictitious_name": "Kettler Management Corp.",
-    "name_type": "Legal Name",
-    "entity_type": "Stock Corporation",
-    "status": "Active",
-    "business_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-    "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
-    "formation_date": "2025-12-10",
+    "legal_name": "kettler_management_inc.",
+    "fictitious_name": "kettler_management_corp.",
+    "name_type": "legal_name",
+    "entity_type": "stock_corporation",
+    "status": "active",
+    "business_address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+    "registered_agent": "national_registered_agents,_inc.",
+    "formation_date": "2025_12_10",
     "last_annual_report": "",
-    "notes": "Single entity ID with both legal name and fictitious name/DBA"
+    "notes": "single_entity_id_with_both_legal_name_and_fictitious_name/dba"
   },
   "abnormalities": [
     {
-      "category": "Corporate Suffix Mismatch",
-      "severity": "Medium",
-      "description": "Legal name uses 'INC' but fictitious name uses 'CORP'. High similarity (50.00%) suggests intentional variation.",
-      "legal_name": "KETTLER MANAGEMENT INC.",
-      "fictitious_name": "Kettler Management Corp.",
+      "category": "corporate_suffix_mismatch",
+      "severity": "medium",
+      "description": "legal_name_uses_'inc'_but_fictitious_name_uses_'corp'._high_similarity_(50.00%)_suggests_intentional_variation.",
+      "legal_name": "kettler_management_inc.",
+      "fictitious_name": "kettler_management_corp.",
       "similarity_score": 0.5,
-      "legal_suffix": "INC",
-      "fictitious_suffix": "CORP",
-      "implication": "May be used to create confusion or separate business identities. Verify proper DBA registration and disclosure."
+      "legal_suffix": "inc",
+      "fictitious_suffix": "corp",
+      "implication": "may_be_used_to_create_confusion_or_separate_business_identities._verify_proper_dba_registration_and_disclosure."
     },
     {
-      "category": "Suite Address Pattern",
-      "severity": "Low",
-      "description": "Business address uses suite designation",
-      "address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-      "pattern": "Suite/Ste",
-      "implication": "Common for office buildings, but verify if this is actual business location vs. mail forwarding service"
+      "category": "suite_address_pattern",
+      "severity": "low",
+      "description": "business_address_uses_suite_designation",
+      "address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+      "pattern": "suite/ste",
+      "implication": "common_for_office_buildings,_but_verify_if_this_is_actual_business_location_vs._mail_forwarding_service"
     },
     {
-      "category": "Registered Agent Address Mismatch",
-      "severity": "Low",
-      "description": "Uses commercial registered agent but address may not match agent location",
-      "address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-      "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
-      "implication": "Standard practice, but verify actual business location"
+      "category": "registered_agent_address_mismatch",
+      "severity": "low",
+      "description": "uses_commercial_registered_agent_but_address_may_not_match_agent_location",
+      "address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+      "registered_agent": "national_registered_agents,_inc.",
+      "implication": "standard_practice,_but_verify_actual_business_location"
     },
     {
-      "category": "Commercial Registered Agent",
-      "severity": "Low",
-      "description": "Uses commercial registered agent service",
-      "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
-      "implication": "Standard practice for privacy/legal purposes, but may obscure actual business location and control"
+      "category": "commercial_registered_agent",
+      "severity": "low",
+      "description": "uses_commercial_registered_agent_service",
+      "registered_agent": "national_registered_agents,_inc.",
+      "implication": "standard_practice_for_privacy/legal_purposes,_but_may_obscure_actual_business_location_and_control"
     },
     {
-      "category": "Missing Critical Information",
-      "severity": "Medium",
-      "description": "Missing fields: Formation Date, Last Annual Report Date",
+      "category": "missing_critical_information",
+      "severity": "medium",
+      "description": "missing_fields:_formation_date,_last_annual_report_date",
       "missing_fields": [
-        "Formation Date",
-        "Last Annual Report Date"
+        "formation_date",
+        "last_annual_report_date"
       ],
-      "implication": "Cannot verify entity history, compliance timeline, or annual report filing status without this information"
+      "implication": "cannot_verify_entity_history,_compliance_timeline,_or_annual_report_filing_status_without_this_information"
     },
     {
-      "category": "Stock Corporation Structure",
-      "severity": "Low",
-      "description": "Entity is a Stock Corporation",
-      "entity_type": "Stock Corporation",
-      "implication": "Stock corporations typically have shareholders and board of directors. Verify shareholder structure and control."
+      "category": "stock_corporation_structure",
+      "severity": "low",
+      "description": "entity_is_a_stock_corporation",
+      "entity_type": "stock_corporation",
+      "implication": "stock_corporations_typically_have_shareholders_and_board_of_directors._verify_shareholder_structure_and_control."
     }
   ],
   "summary": {

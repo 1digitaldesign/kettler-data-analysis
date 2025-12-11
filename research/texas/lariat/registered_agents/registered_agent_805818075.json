@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.682223",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_805818075.json",
+    "created": "2025_12_11t00:21:40.682223",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_805818075.json",
     "has_embedding": true
   },
   "data": {
-    "name": "Carlisle Braun",
-    "address": "7300 State Highway 121, Suite 300",
+    "name": "carlisle_braun",
+    "address": "7300_state_highway_121,_suite_300",
     "inactive_date": null
   },
-  "text_representation": "name: Carlisle Braun | address: 7300 State Highway 121, Suite 300",
+  "text_representation": "name:_carlisle_braun_|_address:_7300_state_highway_121,_suite_300",
   "embedding": [
     -0.09149866551160812,
     0.06036079674959183,

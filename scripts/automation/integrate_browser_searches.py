@@ -42,7 +42,7 @@ def search_company_dc_browser(company_name: str):
         'metadata': {
             'date': datetime.now().isoformat(),
             'company': company_name,
-            'state': 'District of Columbia',
+            'state': 'dc',
             'search_url': 'https://corponline.dccourts.gov/',
             'search_method': 'Browser automation'
         },

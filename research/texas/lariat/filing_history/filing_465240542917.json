@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:39.850658",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/filing_history/filing_465240542917.json",
+    "created": "2025_12_11t00:21:39.850658",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/filing_history/filing_465240542917.json",
     "has_embedding": true
   },
   "data": {
     "document_number": "465240542917",
-    "filing_type": "Tax Forfeiture",
-    "filing_date": "February 8, 2013",
-    "effective_date": "February 8, 2013",
-    "eff_cond": "No",
+    "filing_type": "tax_forfeiture",
+    "filing_date": "february_8,_2013",
+    "effective_date": "february_8,_2013",
+    "eff_cond": "no",
     "page_count": "1"
   },
-  "text_representation": "document_number: 465240542917 | filing_type: Tax Forfeiture | filing_date: February 8, 2013 | effective_date: February 8, 2013 | eff_cond: No | page_count: 1",
+  "text_representation": "document_number:_465240542917_|_filing_type:_tax_forfeiture_|_filing_date:_february_8,_2013_|_effective_date:_february_8,_2013_|_eff_cond:_no_|_page_count:_1",
   "embedding": [
     -0.07575490325689316,
     0.06303561478853226,

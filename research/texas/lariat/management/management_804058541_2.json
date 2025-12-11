@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.133322",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_804058541_2.json",
+    "created": "2025_12_11t00:21:41.133322",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_804058541_2.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "May 10, 2021",
-    "name": "LIDDY SAYE",
-    "title": "Director",
-    "address": "5152 Loma Alta Drive"
+    "last_update": "may_10,_2021",
+    "name": "liddy_saye",
+    "title": "director",
+    "address": "5152_loma_alta_drive"
   },
-  "text_representation": "last_update: May 10, 2021 | name: LIDDY SAYE | title: Director | address: 5152 Loma Alta Drive",
+  "text_representation": "last_update:_may_10,_2021_|_name:_liddy_saye_|_title:_director_|_address:_5152_loma_alta_drive",
   "embedding": [
     0.02148907631635666,
     -0.011596977710723877,

@@ -1,79 +1,79 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.447445",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/anomalies/anomalies_page_0234.json",
+    "created": "2025_12_11t00:52:03.447445",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/anomalies/anomalies_page_0234.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 234,
-    "source": "lariat-merged",
+    "source": "lariat_merged",
     "address_clusters": [
       {
         "count": 6,
         "addresses": [
           {
-            "full_match": "Stui\nXT 75219",
+            "full_match": "stui_xt_75219",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75219"
             ],
             "start": 94,
             "end": 107
           },
           {
-            "full_match": "Stui\nXT 75219",
+            "full_match": "stui_xt_75219",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75219"
             ],
             "start": 176,
             "end": 189
           },
           {
-            "full_match": "Stui\nBoca Raton, FL 33432",
+            "full_match": "stui_boca_raton,_fl_33432",
             "groups": [
-              "Stui\nBoca Raton",
-              "FL",
+              "stui_boca_raton",
+              "fl",
               "33432"
             ],
             "start": 1012,
             "end": 1037
           },
           {
-            "full_match": "Lean, VA 22102",
+            "full_match": "lean,_va_22102",
             "groups": [
-              "Lean",
-              "VA",
+              "lean",
+              "va",
               "22102"
             ],
             "start": 1101,
             "end": 1115
           },
           {
-            "full_match": "Stui\nXT 77057",
+            "full_match": "stui_xt_77057",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77057"
             ],
             "start": 1177,
             "end": 1190
           },
           {
-            "full_match": "Stui\nXT 77057",
+            "full_match": "stui_xt_77057",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "77057"
             ],
             "start": 1257,
             "end": 1270
           }
         ],
-        "pattern": "Multiple addresses clustered",
+        "pattern": "multiple_addresses_clustered",
         "severity": "medium"
       }
     ],
@@ -81,7 +81,7 @@
     "date_sequences": [],
     "suspicious_patterns": []
   },
-  "text_representation": "page_number: 234 | source: lariat-merged | address_clusters: 1 items",
+  "text_representation": "page_number:_234_|_source:_lariat_merged_|_address_clusters:_1_items",
   "embedding": [
     0.02168022282421589,
     -0.05015724524855614,

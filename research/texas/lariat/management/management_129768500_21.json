@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.487458",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_129768500_21.json",
+    "created": "2025_12_11t00:21:41.487458",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_129768500_21.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "March 29, 2024",
-    "name": "James W Hamrick",
-    "title": "SVP",
-    "address": "3399 Peachtree Rd NE Suite 600"
+    "last_update": "march_29,_2024",
+    "name": "james_w_hamrick",
+    "title": "svp",
+    "address": "3399_peachtree_rd_ne_suite_600"
   },
-  "text_representation": "last_update: March 29, 2024 | name: James W Hamrick | title: SVP | address: 3399 Peachtree Rd NE Suite 600",
+  "text_representation": "last_update:_march_29,_2024_|_name:_james_w_hamrick_|_title:_svp_|_address:_3399_peachtree_rd_ne_suite_600",
   "embedding": [
     -0.03304636850953102,
     0.013036123476922512,

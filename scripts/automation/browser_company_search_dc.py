@@ -25,7 +25,7 @@ def process_browser_result(company_name: str, found: bool, details: dict = None)
         'metadata': {
             'date': datetime.now().isoformat(),
             'company': company_name,
-            'state': 'District of Columbia',
+            'state': 'dc',
             'search_url': 'https://corponline.dccourts.gov/',
             'search_method': 'Browser automation'
         },

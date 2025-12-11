@@ -1,38 +1,38 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "state": "Maryland",
-    "state_code": "MA",
-    "employee": "Pat Cassada",
+    "date": "2025_12_10",
+    "state": "md",
+    "state_code": "ma",
+    "employee": "pat_cassada",
     "employee_key": "pat_cassada",
     "title": "",
     "search_type": "bar_license",
-    "search_url": "https://www.msba.org/member-directory/",
+    "search_url": "https://www.msba.org/member_directory/",
     "alternative_urls": [
       "https://www.courts.state.md.us/attygrievance/attysearch"
     ],
-    "search_method": "Browser automation attempted - MSBA member directory requires login. Google search fallback used.",
-    "license_type": "State Bar Admission",
+    "search_method": "browser_automation_attempted_msba_member_directory_requires_login._google_search_fallback_used.",
+    "license_type": "state_bar_admission",
     "status": "complete",
-    "completed_date": "2025-12-10",
+    "completed_date": "2025_12_10",
     "browser_automation_attempted": true,
     "browser_automation_status": "requires_login_manual_verification_needed",
     "google_search_performed": false,
-    "note": "Search completed via Browser automation attempted - MSBA member directory requires login. Google search fallback used.. Manual verification recommended."
+    "note": "search_completed_via_browser_automation_attempted_msba_member_directory_requires_login._google_search_fallback_used.._manual_verification_recommended."
   },
   "findings": {
     "searched": true,
-    "search_date": "2025-12-10",
+    "search_date": "2025_12_10",
     "bar_license": false,
-    "license_status": "Not found",
+    "license_status": "not_found",
     "search_methods_used": [
-      "Maryland State Bar Association member directory (requires login)",
-      "Google search fallback"
+      "maryland_state_bar_association_member_directory_(requires_login)",
+      "google_search_fallback"
     ],
     "results_found": 0,
-    "note": "MSBA member directory requires login. Google search performed as fallback."
+    "note": "msba_member_directory_requires_login._google_search_performed_as_fallback."
   },
-  "conclusion": "Pat Cassada does NOT appear to have a bar license in Maryland. Manual verification recommended due to site access issues.",
-  "license_status": "Not found",
+  "conclusion": "pat_cassada_does_not_appear_to_have_a_bar_license_in_maryland._manual_verification_recommended_due_to_site_access_issues.",
+  "license_status": "not_found",
   "verification_status": "requires_manual_verification"
 }

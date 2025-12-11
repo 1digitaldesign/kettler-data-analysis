@@ -1,1237 +1,1237 @@
 {
-  "research_date": "2025-12-09",
-  "last_updated": "2025-12-10",
-  "priority": "PRIORITY 3.1: Complete License Verification for All Kettler Personnel",
-  "objective": "Verify all Kettler personnel and associated entities (Lariat Realty Advisors) conducting real estate activities",
+  "research_date": "2025_12_09",
+  "last_updated": "2025_12_10",
+  "priority": "priority_3.1:_complete_license_verification_for_all_kettler_personnel",
+  "objective": "verify_all_kettler_personnel_and_associated_entities_(lariat_realty_advisors)_conducting_real_estate_activities",
   "personnel_list": [
     {
-      "name": "Edward Hyland",
-      "title": "Senior Regional Manager",
+      "name": "edward_hyland",
+      "title": "senior_regional_manager",
       "email": "ehyland@kettler.com",
-      "employment_start": "2022-09",
+      "employment_start": "2022_09",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
           "search_terms": [
-            "Edward Hyland",
-            "Ed Hyland",
-            "E. Hyland"
+            "edward_hyland",
+            "ed_hyland",
+            "e._hyland"
           ],
-          "result": "No license found",
-          "verified_date": "2025-12-07",
+          "result": "no_license_found",
+          "verified_date": "2025_12_07",
           "confirmed_unlicensed": true
         },
-        "texas": {
+        "tx": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-09",
-          "result": "No active TREC license found",
-          "search_method": "Texas Real Estate Commission (TREC) License Holder Search",
-          "url": "https://www.trec.texas.gov/apps/license-holder-search/"
+          "search_date": "2025_12_09",
+          "result": "no_active_trec_license_found",
+          "search_method": "texas_real_estate_commission_(trec)_license_holder_search",
+          "url": "https://www.trec.texas.gov/apps/license_holder_search/"
         },
-        "maryland": {
+        "md": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-09",
-          "result": "No license found in Maryland Real Estate Commission database",
-          "search_method": "Maryland Real Estate Commission Public Query tool",
-          "url": "https://www.dllr.state.md.us/cgi-bin/ElectronicLicensing/OP_search/OP_search.cgi?calling_app=RE%3A%3ARE_qselect",
-          "contact": "410-230-6200 or 1-888-218-5925",
-          "note": "Previous employment in MD (Dreyfuss Management, Bethesda)"
+          "search_date": "2025_12_09",
+          "result": "no_license_found_in_maryland_real_estate_commission_database",
+          "search_method": "maryland_real_estate_commission_public_query_tool",
+          "url": "https://www.dllr.state.md.us/cgi_bin/electroniclicensing/op_search/op_search.cgi?calling_app=re%3a%3are_qselect",
+          "contact": "410_230_6200_or_1_888_218_5925",
+          "note": "previous_employment_in_md_(dreyfuss_management,_bethesda)"
         },
         "dc": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-09",
-          "result": "No license found in DC OPPLA database",
-          "search_method": "DC OPPLA License Search",
-          "url": "https://www.dcopla.com/real-estate-license-lookup"
+          "search_date": "2025_12_09",
+          "result": "no_license_found_in_dc_oppla_database",
+          "search_method": "dc_oppla_license_search",
+          "url": "https://www.dcopla.com/real_estate_license_lookup"
         },
         "north_carolina": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-09",
-          "result": "No license found in North Carolina Real Estate Commission database",
-          "search_method": "NCREC licensee search",
-          "note": "Previous employment as Real Estate Agent (1993-2001, Century 21 Sweyer, Wilmington NC) - license may have expired"
+          "search_date": "2025_12_09",
+          "result": "no_license_found_in_north_carolina_real_estate_commission_database",
+          "search_method": "ncrec_licensee_search",
+          "note": "previous_employment_as_real_estate_agent_(1993_2001,_century_21_sweyer,_wilmington_nc)_license_may_have_expired"
         },
-        "missouri": {
+        "mo": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Missouri Real Estate Commission database",
-          "search_method": "Missouri Division of Professional Registration Licensee Search",
-          "url": "https://pr.mo.gov/licensee-search.asp",
-          "contact": "573.751.2628, realestate@pr.mo.gov"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_missouri_real_estate_commission_database",
+          "search_method": "missouri_division_of_professional_registration_licensee_search",
+          "url": "https://pr.mo.gov/licensee_search.asp",
+          "contact": "573.751.2628,_realestate@pr.mo.gov"
         },
-        "nebraska": {
+        "ne": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Nebraska Real Estate Commission database",
-          "search_method": "Nebraska Real Estate Commission Licensee and Applicant Lookup",
-          "url": "https://nrec.igovsolution.net/online/Verification/Individual",
-          "contact": "(402) 471-2004"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_nebraska_real_estate_commission_database",
+          "search_method": "nebraska_real_estate_commission_licensee_and_applicant_lookup",
+          "url": "https://nrec.igovsolution.net/online/verification/individual",
+          "contact": "(402)_471_2004"
         },
-        "california": {
+        "ca": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in California Department of Real Estate database",
-          "search_method": "California DRE Public License Lookup",
-          "url": "https://www2.dre.ca.gov/PublicASP/pplinfo.asp",
-          "contact": "(877) 373-4542"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_california_department_of_real_estate_database",
+          "search_method": "california_dre_public_license_lookup",
+          "url": "https://www2.dre.ca.gov/publicasp/pplinfo.asp",
+          "contact": "(877)_373_4542"
         },
-        "arizona": {
+        "az": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Arizona Department of Real Estate database",
-          "search_method": "Arizona ADRE Public Database",
-          "url": "https://services.azre.gov/PdbWeb/Home",
-          "contact": "Arizona Department of Real Estate"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_arizona_department_of_real_estate_database",
+          "search_method": "arizona_adre_public_database",
+          "url": "https://services.azre.gov/pdbweb/home",
+          "contact": "arizona_department_of_real_estate"
         },
-        "connecticut": {
+        "ct": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Connecticut eLicense database",
-          "search_method": "Connecticut eLicense Portal",
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_connecticut_elicense_database",
+          "search_method": "connecticut_elicense_portal",
           "url": "https://www.elicense.ct.gov/",
-          "contact": "Connecticut Department of Consumer Protection"
+          "contact": "connecticut_department_of_consumer_protection"
         },
-        "florida": {
+        "fl": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Florida DBPR database",
-          "search_method": "Florida DBPR License Search",
-          "url": "https://www.myfloridalicense.com/CheckStatus2/",
-          "contact": "Florida Department of Business and Professional Regulation"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_florida_dbpr_database",
+          "search_method": "florida_dbpr_license_search",
+          "url": "https://www.myfloridalicense.com/checkstatus2/",
+          "contact": "florida_department_of_business_and_professional_regulation"
         },
-        "georgia": {
+        "ga": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Georgia Real Estate Commission database",
-          "search_method": "Georgia Real Estate Commission License Search",
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_georgia_real_estate_commission_database",
+          "search_method": "georgia_real_estate_commission_license_search",
           "url": "https://www.grec.state.ga.us/",
-          "contact": "404/656-3916, grecmail@grec.state.ga.us"
+          "contact": "404/656_3916,_grecmail@grec.state.ga.us"
         },
         "new_mexico": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in New Mexico Regulation and Licensing Department database",
-          "search_method": "New Mexico NM-PLUS License Verification",
-          "url": "NM-PLUS licensing portal",
-          "contact": "(505) 222-9820, rldrealestate.comsn@rld.nm.gov"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_new_mexico_regulation_and_licensing_department_database",
+          "search_method": "new_mexico_nm_plus_license_verification",
+          "url": "nm_plus_licensing_portal",
+          "contact": "(505)_222_9820,_rldrealestate.comsn@rld.nm.gov"
         },
-        "pennsylvania": {
+        "pa": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Pennsylvania Licensing System database",
-          "search_method": "Pennsylvania Licensing System (PALS)",
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_pennsylvania_licensing_system_database",
+          "search_method": "pennsylvania_licensing_system_(pals)",
           "url": "https://www.pals.pa.gov/#/page/search",
-          "contact": "Pennsylvania Department of State"
+          "contact": "pennsylvania_department_of_state"
         },
         "south_carolina": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in South Carolina LLR database",
-          "search_method": "South Carolina LLR Licensee Lookup",
-          "url": "South Carolina LLR Licensee Lookup tool",
-          "contact": "(803) 896-4400, Contact.REC@llr.sc.gov"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_south_carolina_llr_database",
+          "search_method": "south_carolina_llr_licensee_lookup",
+          "url": "south_carolina_llr_licensee_lookup_tool",
+          "contact": "(803)_896_4400,_contact.rec@llr.sc.gov"
         },
-        "utah": {
+        "ut": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Utah Division of Real Estate database",
-          "search_method": "Utah Division of Real Estate Licensee Lookup",
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_utah_division_of_real_estate_database",
+          "search_method": "utah_division_of_real_estate_licensee_lookup",
           "url": "https://realestate.utah.gov/",
-          "contact": "801-530-6747, realestate@utah.gov"
+          "contact": "801_530_6747,_realestate@utah.gov"
         },
         "all_states": {
           "status": "completed",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
-          "verification_date": "2025-12-10"
+          "verification_date": "2025_12_10"
         }
       },
       "activities_conducted": [
-        "Lease termination decisions",
-        "Property management",
-        "Reasonable accommodation denials"
+        "lease_termination_decisions",
+        "property_management",
+        "reasonable_accommodation_denials"
       ],
       "properties_managed": [
-        "800 Carlyle Apartments, Alexandria VA",
-        "Sinclaire on Seminary, Alexandria VA"
+        "800_carlyle_apartments,_alexandria_va",
+        "sinclaire_on_seminary,_alexandria_va"
       ]
     },
     {
-      "name": "Robert Grealy",
-      "title": "SVP Operations",
+      "name": "robert_grealy",
+      "title": "svp_operations",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-09",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool",
-          "url": "https://www.dpor.virginia.gov/LicenseLookup"
+          "search_date": "2025_12_09",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool",
+          "url": "https://www.dpor.virginia.gov/licenselookup"
         },
-        "missouri": {
+        "mo": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "nebraska": {
+        "ne": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "california": {
+        "ca": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "arizona": {
+        "az": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "connecticut": {
+        "ct": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "new_mexico": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "pennsylvania": {
+        "pa": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "south_carolina": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "utah": {
+        "ut": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "florida": {
+        "fl": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "georgia": {
+        "ga": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
-        },
-        "all_states": {
-          "status": "completed",
-          "search_performed": true,
-          "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
-          ],
-          "total_states": 16,
-          "licenses_found": 0,
-          "confirmed_unlicensed": true,
-          "verification_date": "2025-12-10",
-          "note": "Manages 28,000+ units according to complaint - confirmed unlicensed across all 16 states"
-        }
-      },
-      "activities_conducted": [
-        "Operations management",
-        "Oversight of multiple properties"
-      ]
-    },
-    {
-      "name": "Amy Groff",
-      "title": "VP Operations",
-      "email": "unknown",
-      "license_verification": {
-        "virginia": {
-          "status": "not_found",
-          "search_performed": true,
-          "search_date": "2025-12-09",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool",
-          "url": "https://www.dpor.virginia.gov/LicenseLookup"
-        },
-        "missouri": {
-          "status": "not_found",
-          "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
-        },
-        "nebraska": {
-          "status": "not_found",
-          "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
-        },
-        "california": {
-          "status": "not_found",
-          "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "all_states": {
           "status": "completed",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
-          "verification_date": "2025-12-10",
-          "note": "Manages 11,000+ units according to complaint - confirmed unlicensed across 16 states"
+          "verification_date": "2025_12_10",
+          "note": "manages_28,000+_units_according_to_complaint_confirmed_unlicensed_across_all_16_states"
         }
       },
       "activities_conducted": [
-        "Operations management",
-        "Oversight of VA properties"
+        "operations_management",
+        "oversight_of_multiple_properties"
       ]
     },
     {
-      "name": "Tracy Fones",
-      "title": "VP Operations",
+      "name": "amy_groff",
+      "title": "vp_operations",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-09",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool",
-          "url": "https://www.dpor.virginia.gov/LicenseLookup"
+          "search_date": "2025_12_09",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool",
+          "url": "https://www.dpor.virginia.gov/licenselookup"
         },
-        "missouri": {
+        "mo": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "nebraska": {
+        "ne": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "california": {
+        "ca": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "arizona": {
+        "all_states": {
+          "status": "completed",
+          "search_performed": true,
+          "states_searched": [
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
+          ],
+          "total_states": 16,
+          "licenses_found": 0,
+          "confirmed_unlicensed": true,
+          "verification_date": "2025_12_10",
+          "note": "manages_11,000+_units_according_to_complaint_confirmed_unlicensed_across_16_states"
+        }
+      },
+      "activities_conducted": [
+        "operations_management",
+        "oversight_of_va_properties"
+      ]
+    },
+    {
+      "name": "tracy_fones",
+      "title": "vp_operations",
+      "email": "unknown",
+      "license_verification": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_09",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool",
+          "url": "https://www.dpor.virginia.gov/licenselookup"
         },
-        "connecticut": {
+        "mo": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "florida": {
+        "ne": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "georgia": {
+        "ca": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
+        },
+        "az": {
+          "status": "not_found",
+          "search_performed": true,
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
+        },
+        "ct": {
+          "status": "not_found",
+          "search_performed": true,
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
+        },
+        "fl": {
+          "status": "not_found",
+          "search_performed": true,
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
+        },
+        "ga": {
+          "status": "not_found",
+          "search_performed": true,
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "new_mexico": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "pennsylvania": {
+        "pa": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "south_carolina": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "utah": {
+        "ut": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "all_states": {
           "status": "completed",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
-          "verification_date": "2025-12-10",
-          "note": "Manages VA properties according to complaint - confirmed unlicensed across 16 states"
+          "verification_date": "2025_12_10",
+          "note": "manages_va_properties_according_to_complaint_confirmed_unlicensed_across_16_states"
         }
       },
       "activities_conducted": [
-        "Operations management",
-        "VA property oversight"
+        "operations_management",
+        "va_property_oversight"
       ]
     },
     {
-      "name": "Djene Moyer",
-      "title": "Community Manager",
+      "name": "djene_moyer",
+      "title": "community_manager",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-09",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool",
-          "url": "https://www.dpor.virginia.gov/LicenseLookup"
+          "search_date": "2025_12_09",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool",
+          "url": "https://www.dpor.virginia.gov/licenselookup"
         },
-        "missouri": {
+        "mo": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "nebraska": {
+        "ne": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "california": {
+        "ca": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "arizona": {
+        "az": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "connecticut": {
+        "ct": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "florida": {
+        "fl": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "georgia": {
+        "ga": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "new_mexico": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "pennsylvania": {
+        "pa": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "south_carolina": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
-        "utah": {
+        "ut": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found"
+          "search_date": "2025_12_10",
+          "result": "no_license_found"
         },
         "all_states": {
           "status": "completed",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
-          "verification_date": "2025-12-10",
-          "note": "Manages 800 Carlyle according to complaint - confirmed unlicensed across 16 states"
+          "verification_date": "2025_12_10",
+          "note": "manages_800_carlyle_according_to_complaint_confirmed_unlicensed_across_16_states"
         }
       },
       "activities_conducted": [
-        "On-site property management",
-        "Lease administration",
-        "Tenant relations"
+        "on_site_property_management",
+        "lease_administration",
+        "tenant_relations"
       ],
       "properties_managed": [
-        "800 Carlyle Apartments, Alexandria VA"
+        "800_carlyle_apartments,_alexandria_va"
       ]
     },
     {
-      "name": "Robert C. Kettler",
-      "title": "Founder & CEO",
+      "name": "robert_c._kettler",
+      "title": "founder_&_ceo",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool",
-          "url": "https://www.dpor.virginia.gov/LicenseLookup",
-          "note": "Executive role - may not require real estate license for corporate position"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool",
+          "url": "https://www.dpor.virginia.gov/licenselookup",
+          "note": "executive_role_may_not_require_real_estate_license_for_corporate_position"
         },
         "all_states": {
           "status": "completed",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
-          "verification_date": "2025-12-10",
-          "note": "Executive - may not require real estate license for corporate role. No licenses found in all 16 states. Verification complete."
+          "verification_date": "2025_12_10",
+          "note": "executive_may_not_require_real_estate_license_for_corporate_role._no_licenses_found_in_all_16_states._verification_complete."
         }
       }
     },
     {
-      "name": "Cynthia Fisher",
-      "title": "President",
+      "name": "cynthia_fisher",
+      "title": "president",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10"
+          "verification_date": "2025_12_10"
         }
       }
     },
     {
-      "name": "Sean Curtin",
-      "title": "Executive Vice President & General Counsel",
+      "name": "sean_curtin",
+      "title": "executive_vice_president_&_general_counsel",
       "email": "unknown",
       "needs_bar_check": true,
       "license_verification": {
-        "texas": {
+        "tx": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No real estate license found in Texas TREC database"
+          "search_date": "2025_12_10",
+          "result": "no_real_estate_license_found_in_texas_trec_database"
         },
         "bar_associations": {
           "status": "found",
           "search_performed": true,
-          "search_date": "2025-12-10",
+          "search_date": "2025_12_10",
           "bar_licenses": [
             {
-              "state": "Virginia",
+              "state": "va",
               "admission_date": "1990",
-              "status": "Active",
-              "note": "Virginia State Bar member"
+              "status": "active",
+              "note": "virginia_state_bar_member"
             },
             {
-              "state": "California",
-              "status": "Active",
-              "note": "California State Bar member"
+              "state": "ca",
+              "status": "active",
+              "note": "california_state_bar_member"
             },
             {
-              "state": "District of Columbia",
-              "status": "Active",
-              "note": "DC Bar member"
+              "state": "dc",
+              "status": "active",
+              "note": "dc_bar_member"
             }
           ],
           "states_not_licensed": [
-            "Maryland",
-            "Texas"
+            "md",
+            "tx"
           ],
-          "education": "University of Virginia (BA magna cum laude 1984, JD 1987)",
-          "experience": "38+ years in business, corporate law, and real estate"
+          "education": "university_of_virginia_(ba_magna_cum_laude_1984,_jd_1987)",
+          "experience": "38+_years_in_business,_corporate_law,_and_real_estate"
         },
         "all_states": {
           "status": "partial",
           "search_performed": true,
           "states_searched": [
-            "TX"
+            "tx"
           ],
           "states_pending": [
-            "VA",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "real_estate_licenses_found": 0,
           "bar_licenses_found": 3,
-          "verification_date": "2025-12-10",
-          "note": "General Counsel - HAS BAR LICENSES in VA, CA, DC. No real estate licenses found. Remaining real estate license searches pending."
+          "verification_date": "2025_12_10",
+          "note": "general_counsel_has_bar_licenses_in_va,_ca,_dc._no_real_estate_licenses_found._remaining_real_estate_license_searches_pending."
         }
       }
     },
     {
-      "name": "Patrick Cassada",
-      "title": "Chief Financial Officer",
+      "name": "patrick_cassada",
+      "title": "chief_financial_officer",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10"
+          "verification_date": "2025_12_10"
         }
       }
     },
     {
-      "name": "Luke Davis",
-      "title": "Chief Investment Officer",
+      "name": "luke_davis",
+      "title": "chief_investment_officer",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10"
+          "verification_date": "2025_12_10"
         }
       }
     },
     {
-      "name": "Greg Slang",
-      "title": "Executive Vice President, Asset Management",
+      "name": "greg_slang",
+      "title": "executive_vice_president,_asset_management",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10",
-          "note": "Asset Management role may involve real estate activities - No licenses found in all 16 states. Verification complete."
+          "verification_date": "2025_12_10",
+          "note": "asset_management_role_may_involve_real_estate_activities_no_licenses_found_in_all_16_states._verification_complete."
         }
       }
     },
     {
-      "name": "J.D. Sitton",
-      "title": "Executive Vice President, Capital Markets & Strategy",
+      "name": "j.d._sitton",
+      "title": "executive_vice_president,_capital_markets_&_strategy",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10",
-          "note": "Capital Markets & Strategy role - No licenses found in all 16 states. Verification complete."
+          "verification_date": "2025_12_10",
+          "note": "capital_markets_&_strategy_role_no_licenses_found_in_all_16_states._verification_complete."
         }
       }
     },
     {
-      "name": "Pamela Tyrrell",
-      "title": "Executive Vice President, Multifamily Development & Construction",
+      "name": "pamela_tyrrell",
+      "title": "executive_vice_president,_multifamily_development_&_construction",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10",
-          "note": "Development & Construction role may involve real estate activities - No licenses found in 7 key states. Remaining states pending."
+          "verification_date": "2025_12_10",
+          "note": "development_&_construction_role_may_involve_real_estate_activities_no_licenses_found_in_7_key_states._remaining_states_pending."
         }
       }
     },
     {
-      "name": "Kristina Thoummarath",
-      "title": "Chief of Staff",
+      "name": "kristina_thoummarath",
+      "title": "chief_of_staff",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10"
+          "verification_date": "2025_12_10"
         }
       }
     },
     {
-      "name": "Christina Chang",
-      "title": "Head of Asset Management",
+      "name": "christina_chang",
+      "title": "head_of_asset_management",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10",
-          "note": "Asset Management role may involve real estate activities - No licenses found in all 16 states. Verification complete."
+          "verification_date": "2025_12_10",
+          "note": "asset_management_role_may_involve_real_estate_activities_no_licenses_found_in_all_16_states._verification_complete."
         }
       }
     },
     {
-      "name": "Todd Bowen",
-      "title": "SVP Strategic Services",
+      "name": "todd_bowen",
+      "title": "svp_strategic_services",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10"
+          "verification_date": "2025_12_10"
         }
       }
     },
     {
-      "name": "Jeffrey Williams",
-      "title": "VP Human Resources",
+      "name": "jeffrey_williams",
+      "title": "vp_human_resources",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool"
         },
         "all_states": {
           "status": "in_progress",
           "search_performed": true,
           "states_searched": [
-            "VA"
+            "va"
           ],
           "states_pending": [
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "licenses_found": 0,
-          "verification_date": "2025-12-10"
+          "verification_date": "2025_12_10"
         }
       }
     },
     {
-      "name": "Henry Ramos",
-      "title": "Property Manager",
+      "name": "henry_ramos",
+      "title": "property_manager",
       "email": "unknown",
       "license_verification": {
-        "virginia": {
+        "va": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Virginia DPOR database",
-          "search_method": "DPOR License Lookup tool",
-          "url": "https://www.dpor.virginia.gov/LicenseLookup",
-          "note": "Property Manager role likely requires real estate license - no license found in VA"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_virginia_dpor_database",
+          "search_method": "dpor_license_lookup_tool",
+          "url": "https://www.dpor.virginia.gov/licenselookup",
+          "note": "property_manager_role_likely_requires_real_estate_license_no_license_found_in_va"
         },
-        "texas": {
+        "tx": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Texas TREC database",
-          "search_method": "TREC License Holder Search"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_texas_trec_database",
+          "search_method": "trec_license_holder_search"
         },
-        "maryland": {
+        "md": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Maryland Real Estate Commission database",
-          "search_method": "Maryland DLLR search",
-          "note": "Property managers engaging in leasing/renting must hold real estate license in MD"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_maryland_real_estate_commission_database",
+          "search_method": "maryland_dllr_search",
+          "note": "property_managers_engaging_in_leasing/renting_must_hold_real_estate_license_in_md"
         },
         "dc": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in DC OPPLA database",
-          "search_method": "DC OPPLA License Search"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_dc_oppla_database",
+          "search_method": "dc_oppla_license_search"
         },
         "north_carolina": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in North Carolina Real Estate Commission database"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_north_carolina_real_estate_commission_database"
         },
-        "florida": {
+        "fl": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Florida DBPR database",
-          "note": "Property managers performing leasing/selling must hold broker license in FL"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_florida_dbpr_database",
+          "note": "property_managers_performing_leasing/selling_must_hold_broker_license_in_fl"
         },
-        "georgia": {
+        "ga": {
           "status": "not_found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "No license found in Georgia Real Estate Commission database"
+          "search_date": "2025_12_10",
+          "result": "no_license_found_in_georgia_real_estate_commission_database"
         },
         "all_states": {
           "status": "substantially_complete",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "FL",
-            "GA",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "fl",
+            "ga",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "total_states": 16,
           "licenses_found": 0,
           "confirmed_unlicensed": true,
-          "verification_date": "2025-12-10",
-          "note": "Property Manager role likely requires real estate license - No licenses found in all 16 states. Verification complete."
+          "verification_date": "2025_12_10",
+          "note": "property_manager_role_likely_requires_real_estate_license_no_licenses_found_in_all_16_states._verification_complete."
         }
       }
     },
     {
-      "name": "Elizabeth Saye",
-      "also_known_as": "Liddy Bisanz saye",
-      "title": "Broker",
-      "company": "Lariat Realty Advisors",
+      "name": "elizabeth_saye",
+      "also_known_as": "liddy_bisanz_saye",
+      "title": "broker",
+      "company": "lariat_realty_advisors",
       "email": "liddy@lariatrealtyadvisors.com",
-      "phone": "(214) 210-2117",
-      "address": "6700 Antioch Road, Frisco, TX",
-      "connection": "Associated with Caitlin Skidmore",
+      "phone": "(214)_210_2117",
+      "address": "6700_antioch_road,_frisco,_tx",
+      "connection": "associated_with_caitlin_skidmore",
       "license_verification": {
-        "texas": {
-          "status": "Active",
+        "tx": {
+          "status": "active",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "ACTIVE LICENSE FOUND",
+          "search_date": "2025_12_10",
+          "result": "active_license_found",
           "license_number": "671787",
-          "license_type": "Real Estate Broker",
-          "issue_date": "2020-08-13",
-          "expiration_date": "2026-08-31",
-          "associated_firm": "Burlington Capital Properties LLC",
+          "license_type": "real_estate_broker",
+          "issue_date": "2020_08_13",
+          "expiration_date": "2026_08_31",
+          "associated_firm": "burlington_capital_properties_llc",
           "firm_license_number": "9012840",
-          "firm_address": "5729 Lebanon Rd #144553, Frisco, TX 75034",
+          "firm_address": "5729_lebanon_rd_#144553,_frisco,_tx_75034",
           "firm_email": "admin@lariatrealtyadvisors.com",
-          "note": "License found - associated with Burlington Capital Properties (one of the firms Skidmore supervises)",
-          "significance": "Lariat Realty Advisors broker has active Texas license, associated with Burlington Capital Properties at same Frisco address as Skidmore"
+          "note": "license_found_associated_with_burlington_capital_properties_(one_of_the_firms_skidmore_supervises)",
+          "significance": "lariat_realty_advisors_broker_has_active_texas_license,_associated_with_burlington_capital_properties_at_same_frisco_address_as_skidmore"
         },
         "new_york": {
           "status": "found",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "LICENSE FOUND",
+          "search_date": "2025_12_10",
+          "result": "license_found",
           "license_number": "10351218566",
-          "license_type": "Broker",
-          "associated_firm": "Willow Bridge Apartment Management, L.P. (formerly Lincoln Apartment Management Limited Partnership)",
-          "note": "Also licensed in New York"
+          "license_type": "broker",
+          "associated_firm": "willow_bridge_apartment_management,_l.p._(formerly_lincoln_apartment_management_limited_partnership)",
+          "note": "also_licensed_in_new_york"
         },
-        "virginia": {
+        "va": {
           "status": "pending",
           "search_performed": false
         },
@@ -1239,52 +1239,52 @@
           "status": "completed",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT",
-            "NY"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut",
+            "ny"
           ],
           "total_states": 17,
           "licenses_found": 2,
           "states_with_licenses": [
-            "TX",
-            "NY"
+            "tx",
+            "ny"
           ],
-          "verification_date": "2025-12-10",
-          "note": "Lariat Realty Advisors broker - HAS ACTIVE LICENSES in Texas and New York. Licensed personnel expected for brokerage firm. Verification complete."
+          "verification_date": "2025_12_10",
+          "note": "lariat_realty_advisors_broker_has_active_licenses_in_texas_and_new_york._licensed_personnel_expected_for_brokerage_firm._verification_complete."
         }
       }
     },
     {
-      "name": "Thoms L. Bisanz",
-      "also_known_as": "Thomas L. Bisanz",
-      "title": "Executive Director",
-      "company": "Lariat Realty Advisors",
-      "address": "6700 Antioch Road, Frisco, TX",
+      "name": "thoms_l._bisanz",
+      "also_known_as": "thomas_l._bisanz",
+      "title": "executive_director",
+      "company": "lariat_realty_advisors",
+      "address": "6700_antioch_road,_frisco,_tx",
       "license_verification": {
-        "texas": {
-          "status": "Active",
+        "tx": {
+          "status": "active",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "ACTIVE LICENSE FOUND",
-          "license_type": "Real Estate Broker",
-          "expiration_date": "2027-09-30",
-          "note": "Licensed real estate broker in Texas, Executive Director of Lariat Realty Advisors"
+          "search_date": "2025_12_10",
+          "result": "active_license_found",
+          "license_type": "real_estate_broker",
+          "expiration_date": "2027_09_30",
+          "note": "licensed_real_estate_broker_in_texas,_executive_director_of_lariat_realty_advisors"
         },
-        "virginia": {
+        "va": {
           "status": "pending",
           "search_performed": false
         },
@@ -1292,89 +1292,89 @@
           "status": "completed",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "total_states": 16,
           "licenses_found": 1,
           "states_with_licenses": [
-            "TX"
+            "tx"
           ],
-          "verification_date": "2025-12-10",
-          "note": "Lariat Realty Advisors Executive Director - HAS ACTIVE TEXAS LICENSE. Also associated with Bell Partners Inc. (designated broker) and Knightvest Management LLC. Licensed personnel expected for brokerage firm. Verification complete."
+          "verification_date": "2025_12_10",
+          "note": "lariat_realty_advisors_executive_director_has_active_texas_license._also_associated_with_bell_partners_inc._(designated_broker)_and_knightvest_management_llc._licensed_personnel_expected_for_brokerage_firm._verification_complete."
         }
       },
       "additional_affiliations": [
-        "Bell Partners, Inc. - Designated Broker",
-        "Knightvest Management, LLC - Manager",
-        "Associated with 48 companies over 23 years (26 currently active)"
+        "bell_partners,_inc._designated_broker",
+        "knightvest_management,_llc_manager",
+        "associated_with_48_companies_over_23_years_(26_currently_active)"
       ]
     },
     {
-      "name": "Leah Douthit",
-      "title": "Real Estate Agent",
-      "company": "Monument Realty (not Lariat)",
-      "note": "Search indicates she is with Monument Realty, not Lariat Realty Advisors",
+      "name": "leah_douthit",
+      "title": "real_estate_agent",
+      "company": "monument_realty_(not_lariat)",
+      "note": "search_indicates_she_is_with_monument_realty,_not_lariat_realty_advisors",
       "license_verification": {
-        "texas": {
-          "status": "Inactive",
+        "tx": {
+          "status": "inactive",
           "search_performed": true,
-          "search_date": "2025-12-10",
-          "result": "INACTIVE LICENSE FOUND",
+          "search_date": "2025_12_10",
+          "result": "inactive_license_found",
           "license_number": "0622166",
-          "license_type": "Real Estate Agent",
-          "associated_firm": "Monument Realty",
-          "significance": "Has inactive Texas license, co-listed properties with both Liddy Saye and Caitlin Skidmore",
+          "license_type": "real_estate_agent",
+          "associated_firm": "monument_realty",
+          "significance": "has_inactive_texas_license,_co_listed_properties_with_both_liddy_saye_and_caitlin_skidmore",
           "connections": [
-            "Co-listed 5631 Martel Ave, Dallas TX with Liddy Saye (Monument Realty)",
-            "Co-listed 4642 Rhett Ln Unit F, Carrollton TX with Caitlin Skidmore",
-            "Co-listed 816 Creekline Way, McKinney TX with Liddy Saye"
+            "co_listed_5631_martel_ave,_dallas_tx_with_liddy_saye_(monument_realty)",
+            "co_listed_4642_rhett_ln_unit_f,_carrollton_tx_with_caitlin_skidmore",
+            "co_listed_816_creekline_way,_mckinney_tx_with_liddy_saye"
           ],
-          "note": "Significant connection - co-listed properties with both Liddy Saye (Lariat) and Caitlin Skidmore, indicating professional relationship despite different firm affiliations"
+          "note": "significant_connection_co_listed_properties_with_both_liddy_saye_(lariat)_and_caitlin_skidmore,_indicating_professional_relationship_despite_different_firm_affiliations"
         },
         "all_states": {
           "status": "completed",
           "search_performed": true,
           "states_searched": [
-            "VA",
-            "TX",
-            "MD",
-            "DC",
-            "NC",
-            "MO",
-            "NE",
-            "CA",
-            "AZ",
-            "CT",
-            "FL",
-            "GA",
-            "NM",
-            "PA",
-            "SC",
-            "UT"
+            "va",
+            "tx",
+            "md",
+            "dc",
+            "nc",
+            "mo",
+            "ne",
+            "ca",
+            "az",
+            "ct",
+            "fl",
+            "ga",
+            "nm",
+            "pa",
+            "sc",
+            "ut"
           ],
           "total_states": 16,
           "licenses_found": 1,
           "license_status": "inactive",
           "states_with_licenses": [
-            "TX"
+            "tx"
           ],
-          "verification_date": "2025-12-10",
-          "note": "Has INACTIVE Texas license. Co-listed properties with both Liddy Saye (Lariat) and Caitlin Skidmore, indicating professional connections despite different firm affiliations. Verification complete."
+          "verification_date": "2025_12_10",
+          "note": "has_inactive_texas_license._co_listed_properties_with_both_liddy_saye_(lariat)_and_caitlin_skidmore,_indicating_professional_connections_despite_different_firm_affiliations._verification_complete."
         }
       }
     }
@@ -1382,305 +1382,305 @@
   "additional_personnel_identified": {
     "status": "expanded",
     "sources": [
-      "Web search - Kettler executive leadership",
-      "Comprehensive employee search file",
-      "Lariat Realty Advisors connections",
-      "Email domain analysis (@kettler.com)"
+      "web_search_kettler_executive_leadership",
+      "comprehensive_employee_search_file",
+      "lariat_realty_advisors_connections",
+      "email_domain_analysis_(@kettler.com)"
     ],
     "kettler_executives": [
       {
-        "name": "Robert C. Kettler",
-        "title": "Founder & CEO",
-        "role": "Executive",
+        "name": "robert_c._kettler",
+        "title": "founder_&_ceo",
+        "role": "executive",
         "verification_status": "pending"
       },
       {
-        "name": "Cynthia Fisher",
-        "title": "President",
-        "role": "Executive",
+        "name": "cynthia_fisher",
+        "title": "president",
+        "role": "executive",
         "verification_status": "pending"
       },
       {
-        "name": "Sean Curtin",
-        "title": "Executive Vice President & General Counsel",
-        "role": "Legal/Executive",
+        "name": "sean_curtin",
+        "title": "executive_vice_president_&_general_counsel",
+        "role": "legal/executive",
         "needs_bar_check": true,
         "verification_status": "pending"
       },
       {
-        "name": "Patrick Cassada",
-        "title": "Chief Financial Officer",
-        "role": "Executive",
+        "name": "patrick_cassada",
+        "title": "chief_financial_officer",
+        "role": "executive",
         "verification_status": "pending"
       },
       {
-        "name": "Luke Davis",
-        "title": "Chief Investment Officer",
-        "role": "Executive",
+        "name": "luke_davis",
+        "title": "chief_investment_officer",
+        "role": "executive",
         "verification_status": "pending"
       },
       {
-        "name": "Greg Slang",
-        "title": "Executive Vice President, Asset Management",
-        "role": "Executive",
+        "name": "greg_slang",
+        "title": "executive_vice_president,_asset_management",
+        "role": "executive",
         "verification_status": "pending"
       },
       {
-        "name": "J.D. Sitton",
-        "title": "Executive Vice President, Capital Markets & Strategy",
-        "role": "Executive",
+        "name": "j.d._sitton",
+        "title": "executive_vice_president,_capital_markets_&_strategy",
+        "role": "executive",
         "verification_status": "pending"
       },
       {
-        "name": "Pamela Tyrrell",
-        "title": "Executive Vice President, Multifamily Development & Construction",
-        "role": "Executive",
+        "name": "pamela_tyrrell",
+        "title": "executive_vice_president,_multifamily_development_&_construction",
+        "role": "executive",
         "verification_status": "pending"
       }
     ],
     "kettler_additional_staff": [
       {
-        "name": "Kristina Thoummarath",
-        "title": "Chief of Staff",
-        "role": "Administrative",
+        "name": "kristina_thoummarath",
+        "title": "chief_of_staff",
+        "role": "administrative",
         "verification_status": "pending"
       },
       {
-        "name": "Christina Chang",
-        "title": "Head of Asset Management",
-        "role": "Management",
+        "name": "christina_chang",
+        "title": "head_of_asset_management",
+        "role": "management",
         "verification_status": "pending"
       },
       {
-        "name": "Todd Bowen",
-        "title": "SVP Strategic Services",
-        "role": "Management",
+        "name": "todd_bowen",
+        "title": "svp_strategic_services",
+        "role": "management",
         "verification_status": "pending"
       },
       {
-        "name": "Jeffrey Williams",
-        "title": "VP Human Resources",
-        "role": "Management",
+        "name": "jeffrey_williams",
+        "title": "vp_human_resources",
+        "role": "management",
         "verification_status": "pending"
       },
       {
-        "name": "Henry Ramos",
-        "title": "Property Manager",
-        "role": "Property Management",
+        "name": "henry_ramos",
+        "title": "property_manager",
+        "role": "property_management",
         "verification_status": "pending"
       }
     ],
     "lariat_realty_advisors": [
       {
-        "name": "Elizabeth Saye",
-        "also_known_as": "Liddy Bisanz saye",
-        "title": "Broker",
-        "company": "Lariat Realty Advisors",
+        "name": "elizabeth_saye",
+        "also_known_as": "liddy_bisanz_saye",
+        "title": "broker",
+        "company": "lariat_realty_advisors",
         "email": "liddy@lariatrealtyadvisors.com",
-        "phone": "(214) 210-2117",
-        "address": "6700 Antioch Road, Frisco, TX",
-        "connection": "Associated with Caitlin Skidmore",
+        "phone": "(214)_210_2117",
+        "address": "6700_antioch_road,_frisco,_tx",
+        "connection": "associated_with_caitlin_skidmore",
         "verification_status": "pending"
       },
       {
-        "name": "Thoms L. Bisanz",
-        "title": "Executive Director",
-        "company": "Lariat Realty Advisors",
-        "address": "6700 Antioch Road, Frisco, TX",
+        "name": "thoms_l._bisanz",
+        "title": "executive_director",
+        "company": "lariat_realty_advisors",
+        "address": "6700_antioch_road,_frisco,_tx",
         "verification_status": "pending"
       },
       {
-        "name": "Leah Douthit",
-        "title": "Real Estate Agent",
-        "company": "Monument Realty (not Lariat)",
-        "note": "Search indicates she is with Monument Realty, not Lariat Realty Advisors",
+        "name": "leah_douthit",
+        "title": "real_estate_agent",
+        "company": "monument_realty_(not_lariat)",
+        "note": "search_indicates_she_is_with_monument_realty,_not_lariat_realty_advisors",
         "verification_status": "pending"
       }
     ],
-    "note": "Expanded personnel list identified. License verification in progress for all identified personnel across 16 states."
+    "note": "expanded_personnel_list_identified._license_verification_in_progress_for_all_identified_personnel_across_16_states."
   },
   "search_methodology": {
     "multi_state_dpor_databases": {
       "status": "completed",
       "states_searched": [
-        "VA",
-        "TX",
-        "MD",
-        "DC",
-        "NC",
-        "MO",
-        "NE",
-        "CA",
-        "AZ",
-        "CT",
-        "FL",
-        "GA",
-        "NM",
-        "PA",
-        "SC",
-        "UT"
+        "va",
+        "tx",
+        "md",
+        "dc",
+        "nc",
+        "mo",
+        "ne",
+        "ca",
+        "az",
+        "ct",
+        "fl",
+        "ga",
+        "nm",
+        "pa",
+        "sc",
+        "ut"
       ],
       "total_states": 16,
       "states_completed": 16,
-      "results": "No licenses found in any searched state for any personnel",
-      "completion_date": "2025-12-10",
-      "note": "Comprehensive search across all states where Kettler operates"
+      "results": "no_licenses_found_in_any_searched_state_for_any_personnel",
+      "completion_date": "2025_12_10",
+      "note": "comprehensive_search_across_all_states_where_kettler_operates"
     },
     "property_management_license_databases": {
       "status": "completed",
       "sources": [
-        "State real estate licensing boards (included in DPOR searches)"
+        "state_real_estate_licensing_boards_(included_in_dpor_searches)"
       ],
-      "note": "Real estate licenses required for property management activities in searched states"
+      "note": "real_estate_licenses_required_for_property_management_activities_in_searched_states"
     },
     "real_estate_license_databases": {
       "status": "completed",
       "sources": [
-        "Virginia DPOR License Lookup",
-        "Texas TREC License Holder Search",
-        "Maryland Real Estate Commission Public Query",
-        "DC OPPLA License Search",
-        "North Carolina Real Estate Commission",
-        "Missouri Division of Professional Registration Licensee Search",
-        "Nebraska Real Estate Commission Licensee Lookup",
-        "California Department of Real Estate Public License Lookup",
-        "Arizona Department of Real Estate Public Database",
-        "Connecticut eLicense Portal",
-        "Florida DBPR License Search",
-        "Georgia Real Estate Commission License Search",
-        "New Mexico NM-PLUS License Verification",
-        "Pennsylvania Licensing System (PALS)",
-        "South Carolina LLR Licensee Lookup",
-        "Utah Division of Real Estate Licensee Lookup"
+        "virginia_dpor_license_lookup",
+        "texas_trec_license_holder_search",
+        "maryland_real_estate_commission_public_query",
+        "dc_oppla_license_search",
+        "north_carolina_real_estate_commission",
+        "missouri_division_of_professional_registration_licensee_search",
+        "nebraska_real_estate_commission_licensee_lookup",
+        "california_department_of_real_estate_public_license_lookup",
+        "arizona_department_of_real_estate_public_database",
+        "connecticut_elicense_portal",
+        "florida_dbpr_license_search",
+        "georgia_real_estate_commission_license_search",
+        "new_mexico_nm_plus_license_verification",
+        "pennsylvania_licensing_system_(pals)",
+        "south_carolina_llr_licensee_lookup",
+        "utah_division_of_real_estate_licensee_lookup"
       ],
-      "completion_date": "2025-12-10"
+      "completion_date": "2025_12_10"
     }
   },
   "license_verification_matrix": {
     "status": "completed",
-    "format": "Spreadsheet with columns: Name, Title, VA License, TX License, MD License, DC License, NC License, Other States, Activities Conducted",
+    "format": "spreadsheet_with_columns:_name,_title,_va_license,_tx_license,_md_license,_dc_license,_nc_license,_other_states,_activities_conducted",
     "completion": "100%",
     "summary": {
       "total_personnel": 5,
       "states_searched": [
-        "VA",
-        "TX",
-        "MD",
-        "DC",
-        "NC"
+        "va",
+        "tx",
+        "md",
+        "dc",
+        "nc"
       ],
       "licenses_found": 0,
       "confirmed_unlicensed": 5,
-      "verification_date": "2025-12-09"
+      "verification_date": "2025_12_09"
     },
     "matrix": {
       "Edward Hyland": {
-        "VA": "Not found",
-        "TX": "Not found",
-        "MD": "Not found",
-        "DC": "Not found",
-        "NC": "Not found (previous license expired)",
-        "MO": "Not found",
-        "NE": "Not found",
-        "CA": "Not found",
-        "AZ": "Not found",
-        "CT": "Not found",
-        "FL": "Not found",
-        "GA": "Not found",
-        "NM": "Not found",
-        "PA": "Not found",
-        "SC": "Not found",
-        "UT": "Not found"
+        "va": "not_found",
+        "tx": "not_found",
+        "md": "not_found",
+        "dc": "not_found",
+        "nc": "not_found_(previous_license_expired)",
+        "mo": "not_found",
+        "ne": "not_found",
+        "ca": "not_found",
+        "az": "not_found",
+        "ct": "not_found",
+        "fl": "not_found",
+        "ga": "not_found",
+        "nm": "not_found",
+        "pa": "not_found",
+        "sc": "not_found",
+        "ut": "not_found"
       },
       "Robert Grealy": {
-        "VA": "Not found",
-        "TX": "Not found",
-        "MD": "Not found",
-        "DC": "Not found",
-        "NC": "Not found",
-        "MO": "Not found",
-        "NE": "Not found",
-        "CA": "Not found",
-        "AZ": "Not found",
-        "CT": "Not found",
-        "FL": "Not found",
-        "GA": "Not found",
-        "NM": "Not found",
-        "PA": "Not found",
-        "SC": "Not found",
-        "UT": "Not found",
-        "verification_status": "Complete - all 16 states"
+        "va": "not_found",
+        "tx": "not_found",
+        "md": "not_found",
+        "dc": "not_found",
+        "nc": "not_found",
+        "mo": "not_found",
+        "ne": "not_found",
+        "ca": "not_found",
+        "az": "not_found",
+        "ct": "not_found",
+        "fl": "not_found",
+        "ga": "not_found",
+        "nm": "not_found",
+        "pa": "not_found",
+        "sc": "not_found",
+        "ut": "not_found",
+        "verification_status": "complete_all_16_states"
       },
       "Amy Groff": {
-        "VA": "Not found",
-        "TX": "Not found",
-        "MD": "Not found",
-        "DC": "Not found",
-        "NC": "Not found",
-        "MO": "Not found",
-        "NE": "Not found",
-        "CA": "Not found",
-        "AZ": "Not found",
-        "CT": "Not found",
-        "FL": "Not found",
-        "GA": "Not found",
-        "NM": "Not found",
-        "PA": "Not found",
-        "SC": "Not found",
-        "UT": "Not found"
+        "va": "not_found",
+        "tx": "not_found",
+        "md": "not_found",
+        "dc": "not_found",
+        "nc": "not_found",
+        "mo": "not_found",
+        "ne": "not_found",
+        "ca": "not_found",
+        "az": "not_found",
+        "ct": "not_found",
+        "fl": "not_found",
+        "ga": "not_found",
+        "nm": "not_found",
+        "pa": "not_found",
+        "sc": "not_found",
+        "ut": "not_found"
       },
       "Tracy Fones": {
-        "VA": "Not found",
-        "TX": "Not found",
-        "MD": "Not found",
-        "DC": "Not found",
-        "NC": "Not found",
-        "MO": "Not found",
-        "NE": "Not found",
-        "CA": "Not found",
-        "AZ": "Not found",
-        "CT": "Not found",
-        "FL": "Not found",
-        "GA": "Not found",
-        "NM": "Not found",
-        "PA": "Not found",
-        "SC": "Not found",
-        "UT": "Not found"
+        "va": "not_found",
+        "tx": "not_found",
+        "md": "not_found",
+        "dc": "not_found",
+        "nc": "not_found",
+        "mo": "not_found",
+        "ne": "not_found",
+        "ca": "not_found",
+        "az": "not_found",
+        "ct": "not_found",
+        "fl": "not_found",
+        "ga": "not_found",
+        "nm": "not_found",
+        "pa": "not_found",
+        "sc": "not_found",
+        "ut": "not_found"
       },
       "Djene Moyer": {
-        "VA": "Not found",
-        "TX": "Not found",
-        "MD": "Not found",
-        "DC": "Not found",
-        "NC": "Not found",
-        "MO": "Not found",
-        "NE": "Not found",
-        "CA": "Not found",
-        "AZ": "Not found",
-        "CT": "Not found",
-        "FL": "Not found",
-        "GA": "Not found",
-        "NM": "Not found",
-        "PA": "Not found",
-        "SC": "Not found",
-        "UT": "Not found"
+        "va": "not_found",
+        "tx": "not_found",
+        "md": "not_found",
+        "dc": "not_found",
+        "nc": "not_found",
+        "mo": "not_found",
+        "ne": "not_found",
+        "ca": "not_found",
+        "az": "not_found",
+        "ct": "not_found",
+        "fl": "not_found",
+        "ga": "not_found",
+        "nm": "not_found",
+        "pa": "not_found",
+        "sc": "not_found",
+        "ut": "not_found"
       }
     }
   },
-  "deliverable": "Complete license verification matrix for all Kettler personnel",
+  "deliverable": "complete_license_verification_matrix_for_all_kettler_personnel",
   "next_steps": [
-    "✅ COMPLETED: VA, TX, MD, DC, NC, MO, NE, CA license searches for all 5 personnel",
-    "✅ COMPLETED: Comprehensive license verification matrix compiled",
-    "All 5 personnel confirmed unlicensed across 8 states",
-    "Verification complete - ready for complaint documentation"
+    "✅_completed:_va,_tx,_md,_dc,_nc,_mo,_ne,_ca_license_searches_for_all_5_personnel",
+    "✅_completed:_comprehensive_license_verification_matrix_compiled",
+    "all_5_personnel_confirmed_unlicensed_across_8_states",
+    "verification_complete_ready_for_complaint_documentation"
   ],
   "completion_summary": {
-    "status": "100% complete",
+    "status": "100%_complete",
     "personnel_verified_complete_16_states": 16,
     "personnel_with_active_licenses": 2,
     "personnel_with_inactive_licenses": 1,
     "personnel_with_bar_licenses": [
-      "Sean Curtin - VA, CA, DC bar licenses (no real estate licenses)"
+      "sean_curtin_va,_ca,_dc_bar_licenses_(no_real_estate_licenses)"
     ],
     "personnel_verified_unlicensed": 16,
     "personnel_pending": 0,
@@ -1692,37 +1692,37 @@
     "licenses_found": 4,
     "bar_licenses_found": 3,
     "personnel_with_licenses_list": [
-      "Elizabeth Saye (Lariat) - TX #671787 (active), NY #10351218566",
-      "Thoms L. Bisanz (Lariat) - TX broker (active, expires 2027)",
-      "Leah Douthit - TX #0622166 (inactive, Monument Realty)"
+      "elizabeth_saye_(lariat)_tx_#671787_(active),_ny_#10351218566",
+      "thoms_l._bisanz_(lariat)_tx_broker_(active,_expires_2027)",
+      "leah_douthit_tx_#0622166_(inactive,_monument_realty)"
     ],
-    "completion_date": "2025-12-10",
-    "verification_strength": "comprehensive - all states where Kettler operates",
-    "key_findings": "Lariat Realty Advisors personnel have active licenses. 16 Kettler personnel confirmed unlicensed across all 16 states. Leah Douthit has inactive license and co-listed properties with both Liddy Saye and Caitlin Skidmore, confirming professional network connections. All property management personnel verified as unlicensed across all states.",
+    "completion_date": "2025_12_10",
+    "verification_strength": "comprehensive_all_states_where_kettler_operates",
+    "key_findings": "lariat_realty_advisors_personnel_have_active_licenses._16_kettler_personnel_confirmed_unlicensed_across_all_16_states._leah_douthit_has_inactive_license_and_co_listed_properties_with_both_liddy_saye_and_caitlin_skidmore,_confirming_professional_network_connections._all_property_management_personnel_verified_as_unlicensed_across_all_states.",
     "states_covered": [
-      "Virginia (VA)",
-      "Texas (TX)",
-      "Maryland (MD)",
-      "District of Columbia (DC)",
-      "North Carolina (NC)",
-      "Missouri (MO)",
-      "Nebraska (NE)",
-      "California (CA)",
-      "Arizona (AZ)",
-      "Connecticut (CT)",
-      "Florida (FL)",
-      "Georgia (GA)",
-      "New Mexico (NM)",
-      "Pennsylvania (PA)",
-      "South Carolina (SC)",
-      "Utah (UT)"
+      "virginia_(va)",
+      "texas_(tx)",
+      "maryland_(md)",
+      "district_of_columbia_(dc)",
+      "north_carolina_(nc)",
+      "missouri_(mo)",
+      "nebraska_(ne)",
+      "california_(ca)",
+      "arizona_(az)",
+      "connecticut_(ct)",
+      "florida_(fl)",
+      "georgia_(ga)",
+      "new_mexico_(nm)",
+      "pennsylvania_(pa)",
+      "south_carolina_(sc)",
+      "utah_(ut)"
     ]
   },
   "metadata": {
     "file_name": "personnel_license_verification.json",
     "file_path": "research/va_dpor_complaint/personnel_license_verification.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

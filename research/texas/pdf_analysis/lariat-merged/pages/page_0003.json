@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:58.327950",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0003.json",
+    "created": "2025_12_11t00:51:58.327950",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0003.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 3,
-    "text": "Direo2ctr\nNi aFrstme .TM. LNa astme Suf (cid:222) x\nAddressreoMaSte r itling City aeStt edoC piZ Counryt\nDireo3ctr\nM.I. es NmataL xfiSuf\nNi aFrstme\nState\nAsddresng il or MitaeSret ytCi p CodeiZ ryCount\nsd SreehazAhoriut 4 - elcAirt\nh.) bottce slon B, do notei or optAon i opttcen slhee, towl bee schepasn tr of sre ibeha numhe t(Pderovi\nsso is i:d tueezhorisuton i aitorpora csher of sre tbeha numlaot theT 100,000\nssd sre i:ehazhoriut aheh of tca of euelr va paheTA. _\nOR\n.uelr va no pave hasl sre slhehahaT¥ B.\nuelr va pahep t Sa sstlsnhepa prosag, a i of ea lta fe iverin, deitsar you e e peed no dietld ao ben of tem(or sat\nshi formon on titanformi\n5 - PeurposlecAirt\nsw busnesafuli for lllnd any aon of aitnscraa tshed i for tseon i formitorpora cheh t purpos for wcheehiT\nons.i Codetaznigassxa Busnesei OrT her td undeezniga ory beaon mitorpora ct-profi forh awchi\nonita PsonsInformlrovii/antemSeuppl\nii s n,corporaetdh ereinbree y frence].haTeatchAre[ tea da: ddenadi nu fym,e xtT\nForm 201 5",
+    "text": "direo2ctr_ni_afrstme_.tm._lna_astme_suf_(cid:222)_x_addressreomaste_r_itling_city_aestt_edoc_piz_counryt_direo3ctr_m.i._es_nmatal_xfisuf_ni_afrstme_state_asddresng_il_or_mitaesret_ytci_p_codeiz_rycount_sd_sreehazahoriut_4_elcairt_h.)_bottce_slon_b,_do_notei_or_optaon_i_opttcen_slhee,_towl_bee_schepasn_tr_of_sre_ibeha_numhe_t(pderovi_sso_is_i:d_tueezhorisuton_i_aitorpora_csher_of_sre_tbeha_numlaot_thet_100,000_ssd_sre_i:ehazhoriut_aheh_of_tca_of_euelr_va_paheta._or_.uelr_va_no_pave_hasl_sre_slhehahat¥_b._uelr_va_pahep_t_sa_sstlsnhepa_prosag,_a_i_of_ea_lta_fe_iverin,_deitsar_you_e_e_peed_no_dietld_ao_ben_of_tem(or_sat_shi_formon_on_titanformi_5_peurposlecairt_sw_busnesafuli_for_lllnd_any_aon_of_aitnscraa_tshed_i_for_tseon_i_formitorpora_cheh_t_purpos_for_wcheehit_ons.i_codetaznigassxa_busnesei_ort_her_td_undeezniga_ory_beaon_mitorpora_ct_profi_forh_awchi_onita_psonsinformlrovii/antemseuppl_ii_s_n,corporaetdh_ereinbree_y_frence].hateatchare[_tea_da:_ddenadi_nu_fym,e_xtt_form_201_5",
     "char_count": 998,
     "word_count": 173,
     "anomalies": {
       "page_number": 3,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 3 | text: Direo2ctr\nNi aFrstme .TM. LNa astme Suf (cid:222) x\nAddressreoMaSte r itling City aeStt edoC piZ Counryt\nDireo3ctr\nM.I. es NmataL xfiSuf\nNi aFrstme\nState\nAsddresng il or MitaeSret ytCi p CodeiZ ryCount\nsd SreehazAhoriut 4 - elcAirt\nh.) bottce slon B, do notei or optAon i opttcen slhee, towl bee schepasn tr of sre ibeha numhe t(Pderovi\nsso is i:d tueezhorisuton i aitorpora csher of sre tbeha numlaot theT 100,000\nssd sre i:ehazhoriut aheh of tca of euelr va paheTA. _\nOR\n.uelr va no pave hasl sre slhehahaT¥ B.\nuelr va pahep t Sa sstlsnhepa prosag, a i of ea lta fe iverin, deitsar you e e peed no dietld ao ben of tem(or sat\nshi formon on titanformi\n5 - PeurposlecAirt\nsw busnesafuli for lllnd any aon of aitnscraa tshed i for tseon i formitorpora cheh t purpos for wcheehiT\nons.i Codetaznigassxa Busnesei OrT her td undeezniga ory beaon mitorpora ct-profi forh awchi\nonita PsonsInformlrovii/antemSeuppl\nii s n,corporaetdh ereinbree y frence].haTeatchAre[ tea da: ddenadi nu fym,e xtT\nForm 201 5 | char_count: 998 | word_count: 173 | anomalies: {\"page_number\":3,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_3_|_text:_direo2ctr_ni_afrstme_.tm._lna_astme_suf_(cid:222)_x_addressreomaste_r_itling_city_aestt_edoc_piz_counryt_direo3ctr_m.i._es_nmatal_xfisuf_ni_afrstme_state_asddresng_il_or_mitaesret_ytci_p_codeiz_rycount_sd_sreehazahoriut_4_elcairt_h.)_bottce_slon_b,_do_notei_or_optaon_i_opttcen_slhee,_towl_bee_schepasn_tr_of_sre_ibeha_numhe_t(pderovi_sso_is_i:d_tueezhorisuton_i_aitorpora_csher_of_sre_tbeha_numlaot_thet_100,000_ssd_sre_i:ehazhoriut_aheh_of_tca_of_euelr_va_paheta._or_.uelr_va_no_pave_hasl_sre_slhehahat¥_b._uelr_va_pahep_t_sa_sstlsnhepa_prosag,_a_i_of_ea_lta_fe_iverin,_deitsar_you_e_e_peed_no_dietld_ao_ben_of_tem(or_sat_shi_formon_on_titanformi_5_peurposlecairt_sw_busnesafuli_for_lllnd_any_aon_of_aitnscraa_tshed_i_for_tseon_i_formitorpora_cheh_t_purpos_for_wcheehit_ons.i_codetaznigassxa_busnesei_ort_her_td_undeezniga_ory_beaon_mitorpora_ct_profi_forh_awchi_onita_psonsinformlrovii/antemseuppl_ii_s_n,corporaetdh_ereinbree_y_frence].hateatchare[_tea_da:_ddenadi_nu_fym,e_xtt_form_201_5_|_char_count:_998_|_word_count:_173_|_anomalies:_{\"page_number\":3,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06383726745843887,
     0.0393148809671402,

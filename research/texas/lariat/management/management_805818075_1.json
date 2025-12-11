@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.716719",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_805818075_1.json",
+    "created": "2025_12_11t00:21:40.716719",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_805818075_1.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "December 12, 2024",
-    "name": "Troy Skidmore",
-    "title": "Manager",
-    "address": "13902 Nicollet Drive"
+    "last_update": "december_12,_2024",
+    "name": "troy_skidmore",
+    "title": "manager",
+    "address": "13902_nicollet_drive"
   },
-  "text_representation": "last_update: December 12, 2024 | name: Troy Skidmore | title: Manager | address: 13902 Nicollet Drive",
+  "text_representation": "last_update:_december_12,_2024_|_name:_troy_skidmore_|_title:_manager_|_address:_13902_nicollet_drive",
   "embedding": [
     -0.06441514939069748,
     -0.050803862512111664,

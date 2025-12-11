@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.575718",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0068.json",
+    "created": "2025_12_11t00:51:59.575718",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0068.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 68,
-    "text": "LESSE\nThe amendment adding new Article XI 19 in addition\nto the original or amended Articles of Incorporation and\nthe full text of Article XI as added is as follows:\n\"ARTICLE XI\nEvery shareholder entitled to vote at any\nhave the right to vote, in person or by proxy,\nthe number of shares owned by him for as many\nby distributing such votes on the same principle\namong any number of such candidates.\"\nARTICLE THREE\nThe number of shares of the corporation outstanding\nat the tame of such adoption was 162,038; and the number\nof shares entitled to vote thereon was 162,038.\nARTICLE FOUR\nThe holders of all the shares outstanding and en-\ntitled to vote on said amendment have signed a consent in\nwriting adopting said amendment.\nDated: Septiabir 28, 2962.\nSOUTHWEST FABRICATING & WELDING CO., INC.\nBy SL B\nPresident\nAnd\nC.I. Steilman\nSecretary\n88-3-",
+    "text": "lesse_the_amendment_adding_new_article_xi_19_in_addition_to_the_original_or_amended_articles_of_incorporation_and_the_full_text_of_article_xi_as_added_is_as_follows:_\"article_xi_every_shareholder_entitled_to_vote_at_any_have_the_right_to_vote,_in_person_or_by_proxy,_the_number_of_shares_owned_by_him_for_as_many_by_distributing_such_votes_on_the_same_principle_among_any_number_of_such_candidates.\"_article_three_the_number_of_shares_of_the_corporation_outstanding_at_the_tame_of_such_adoption_was_162,038;_and_the_number_of_shares_entitled_to_vote_thereon_was_162,038._article_four_the_holders_of_all_the_shares_outstanding_and_en_titled_to_vote_on_said_amendment_have_signed_a_consent_in_writing_adopting_said_amendment._dated:_septiabir_28,_2962._southwest_fabricating_&_welding_co.,_inc._by_sl_b_president_and_c.i._steilman_secretary_88_3_",
     "char_count": 845,
     "word_count": 147,
     "anomalies": {
       "page_number": 68,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 68 | text: LESSE\nThe amendment adding new Article XI 19 in addition\nto the original or amended Articles of Incorporation and\nthe full text of Article XI as added is as follows:\n\"ARTICLE XI\nEvery shareholder entitled to vote at any\nhave the right to vote, in person or by proxy,\nthe number of shares owned by him for as many\nby distributing such votes on the same principle\namong any number of such candidates.\"\nARTICLE THREE\nThe number of shares of the corporation outstanding\nat the tame of such adoption was 162,038; and the number\nof shares entitled to vote thereon was 162,038.\nARTICLE FOUR\nThe holders of all the shares outstanding and en-\ntitled to vote on said amendment have signed a consent in\nwriting adopting said amendment.\nDated: Septiabir 28, 2962.\nSOUTHWEST FABRICATING & WELDING CO., INC.\nBy SL B\nPresident\nAnd\nC.I. Steilman\nSecretary\n88-3- | char_count: 845 | word_count: 147 | anomalies: {\"page_number\":68,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_68_|_text:_lesse_the_amendment_adding_new_article_xi_19_in_addition_to_the_original_or_amended_articles_of_incorporation_and_the_full_text_of_article_xi_as_added_is_as_follows:_\"article_xi_every_shareholder_entitled_to_vote_at_any_have_the_right_to_vote,_in_person_or_by_proxy,_the_number_of_shares_owned_by_him_for_as_many_by_distributing_such_votes_on_the_same_principle_among_any_number_of_such_candidates.\"_article_three_the_number_of_shares_of_the_corporation_outstanding_at_the_tame_of_such_adoption_was_162,038;_and_the_number_of_shares_entitled_to_vote_thereon_was_162,038._article_four_the_holders_of_all_the_shares_outstanding_and_en_titled_to_vote_on_said_amendment_have_signed_a_consent_in_writing_adopting_said_amendment._dated:_septiabir_28,_2962._southwest_fabricating_&_welding_co.,_inc._by_sl_b_president_and_c.i._steilman_secretary_88_3_|_char_count:_845_|_word_count:_147_|_anomalies:_{\"page_number\":68,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.02024693600833416,
     -0.059045348316431046,

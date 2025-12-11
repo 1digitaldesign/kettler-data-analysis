@@ -1,16 +1,16 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.456610",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/registered_agents/registered_agent_46955400.json",
+    "created": "2025_12_11t00:21:40.456610",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/registered_agents/registered_agent_46955400.json",
     "has_embedding": true
   },
   "data": {
-    "name": "Monte B Hartig",
-    "address": "4139 GARDENDALE",
+    "name": "monte_b_hartig",
+    "address": "4139_gardendale",
     "inactive_date": null
   },
-  "text_representation": "name: Monte B Hartig | address: 4139 GARDENDALE",
+  "text_representation": "name:_monte_b_hartig_|_address:_4139_gardendale",
   "embedding": [
     -0.058799583464860916,
     -0.008339074440300465,

@@ -1,84 +1,84 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.386629",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0234.json",
+    "created": "2025_12_11t00:52:03.386629",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0234.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 234,
-    "text": "Asddres\nName itleT\n180726141048\nlwlkeeny BafafiT icePre sidentV vd.,k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nBruce Bardgett icePre sidentV vd.,k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nicePre sidentV 3399Pe achreNteR E d,.\nMatthew C. Bearden\nSuie6t 00\n3 0326lAAtaGna t,\nP. Darin Botelho icePre sidentV ulrteC reeBlk vd,.T1 381\nSuie1t 500\n7X 5T219Dalla s,\nnt PsdeereiciV\nKenna R. Coulter ulrteC reeBlk vd,.T1 381\nSuie1t 500\n7X 5T219Dalla s,\nCole R. Ferguson nt PsdeereiciV 3399Pe achreNteR E d,.\nSuie6t 00\n3 0326lAAtaGna t,\nnt PsdeereiciV\nF. Gregory Gasior 2Mi2 zn5NE.eBl .r vd,.\nSuie4t 00\n3 3432BocaRL aoFtn ,\nGenevieve Giannoni nt PsdeereiciV 3399Pe achreNteR E d,.\nSuie6t 00\n3 0326lAAtaGna t,\nA. Gloslne mailliW nt PsdeereiciV 3399Pe achreNteR E d,.\n600eStui\n30326, GaAntaAlt\nndsMry Oaa. Hlol nt PsdeereiciV Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nbm Dart. LRobe nt PsdeereiciV\nvd.,r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nePtarery LaRosme nt PsdeereiciV vd.,r Blne225 N. Mz.Ei\n400eStui\nBoca Raton, FL 33432\nrdonae LeicraT nt PsdeereiciV\n8300 Greensboro Drive\n650eStui\nMcLean, VA 22102\nnt PsdeereiciV\nRobert K. Presley 5847 San Felipe Street\n3250eStui\nXT 77057Houson, t\nadeW A.Pamela nt PsdeereiciV te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t",
+    "text": "asddres_name_itlet_180726141048_lwlkeeny_bafafit_icepre_sidentv_vd.,k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_bruce_bardgett_icepre_sidentv_vd.,k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_icepre_sidentv_3399pe_achrenter_e_d,._matthew_c._bearden_suie6t_00_3_0326laatagna_t,_p._darin_botelho_icepre_sidentv_ulrtec_reeblk_vd,.t1_381_suie1t_500_7x_5t219dalla_s,_nt_psdeereiciv_kenna_r._coulter_ulrtec_reeblk_vd,.t1_381_suie1t_500_7x_5t219dalla_s,_cole_r._ferguson_nt_psdeereiciv_3399pe_achrenter_e_d,._suie6t_00_3_0326laatagna_t,_nt_psdeereiciv_f._gregory_gasior_2mi2_zn5ne.ebl_.r_vd,._suie4t_00_3_3432bocarl_aoftn_,_genevieve_giannoni_nt_psdeereiciv_3399pe_achrenter_e_d,._suie6t_00_3_0326laatagna_t,_a._gloslne_mailliw_nt_psdeereiciv_3399pe_achrenter_e_d,._600estui_30326,_gaantaalt_ndsmry_oaa._hlol_nt_psdeereiciv_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_bm_dart._lrobe_nt_psdeereiciv_vd.,r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_eptarery_larosme_nt_psdeereiciv_vd.,r_blne225_n._mz.ei_400estui_boca_raton,_fl_33432_rdonae_leicrat_nt_psdeereiciv_8300_greensboro_drive_650estui_mclean,_va_22102_nt_psdeereiciv_robert_k._presley_5847_san_felipe_street_3250estui_xt_77057houson,_t_adew_a.pamela_nt_psdeereiciv_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t",
     "char_count": 1279,
     "word_count": 197,
     "anomalies": {
       "page_number": 234,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [
         {
           "count": 6,
           "addresses": [
             {
-              "full_match": "Stui\nXT 75219",
+              "full_match": "stui_xt_75219",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75219"
               ],
               "start": 94,
               "end": 107
             },
             {
-              "full_match": "Stui\nXT 75219",
+              "full_match": "stui_xt_75219",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75219"
               ],
               "start": 176,
               "end": 189
             },
             {
-              "full_match": "Stui\nBoca Raton, FL 33432",
+              "full_match": "stui_boca_raton,_fl_33432",
               "groups": [
-                "Stui\nBoca Raton",
-                "FL",
+                "stui_boca_raton",
+                "fl",
                 "33432"
               ],
               "start": 1012,
               "end": 1037
             },
             {
-              "full_match": "Lean, VA 22102",
+              "full_match": "lean,_va_22102",
               "groups": [
-                "Lean",
-                "VA",
+                "lean",
+                "va",
                 "22102"
               ],
               "start": 1101,
               "end": 1115
             },
             {
-              "full_match": "Stui\nXT 77057",
+              "full_match": "stui_xt_77057",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "77057"
               ],
               "start": 1177,
               "end": 1190
             },
             {
-              "full_match": "Stui\nXT 77057",
+              "full_match": "stui_xt_77057",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "77057"
               ],
               "start": 1257,
               "end": 1270
             }
           ],
-          "pattern": "Multiple addresses clustered",
+          "pattern": "multiple_addresses_clustered",
           "severity": "medium"
         }
       ],
@@ -87,7 +87,7 @@
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 234 | text: Asddres\nName itleT\n180726141048\nlwlkeeny BafafiT icePre sidentV vd.,k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nBruce Bardgett icePre sidentV vd.,k Ble CreelurtT1 381\n1500eStui\nXT 75219sa, lDla\nicePre sidentV 3399Pe achreNteR E d,.\nMatthew C. Bearden\nSuie6t 00\n3 0326lAAtaGna t,\nP. Darin Botelho icePre sidentV ulrteC reeBlk vd,.T1 381\nSuie1t 500\n7X 5T219Dalla s,\nnt PsdeereiciV\nKenna R. Coulter ulrteC reeBlk vd,.T1 381\nSuie1t 500\n7X 5T219Dalla s,\nCole R. Ferguson nt PsdeereiciV 3399Pe achreNteR E d,.\nSuie6t 00\n3 0326lAAtaGna t,\nnt PsdeereiciV\nF. Gregory Gasior 2Mi2 zn5NE.eBl .r vd,.\nSuie4t 00\n3 3432BocaRL aoFtn ,\nGenevieve Giannoni nt PsdeereiciV 3399Pe achreNteR E d,.\nSuie6t 00\n3 0326lAAtaGna t,\nA. Gloslne mailliW nt PsdeereiciV 3399Pe achreNteR E d,.\n600eStui\n30326, GaAntaAlt\nndsMry Oaa. Hlol nt PsdeereiciV Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nbm Dart. LRobe nt PsdeereiciV\nvd.,r Blne225 N. Mz.Ei\n400eStui\n33432on, FtL RaaBoc\nePtarery LaRosme nt PsdeereiciV vd.,r Blne225 N. Mz.Ei\n400eStui\nBoca Raton, FL 33432\nrdonae LeicraT nt PsdeereiciV\n8300 Greensboro Drive\n650eStui\nMcLean, VA 22102\nnt PsdeereiciV\nRobert K. Presley 5847 San Felipe Street\n3250eStui\nXT 77057Houson, t\nadeW A.Pamela nt PsdeereiciV te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t | char_count: 1279 | word_count: 197 | anomalies: {\"page_number\":234,\"source\":\"lariat-merged\",\"address_clusters\":[{\"count\":6,\"addresses\":[{\"full_match\":\"Stui\\nXT 75219\",\"groups\":[\"Stui\",\"XT\",\"75219\"],\"start\":94,\"end\":107},{\"full_match\":\"Stui\\nXT 75219\",\"groups\":[\"Stui\",\"XT\",\"75219\"],\"start\":176,\"end\":189},{\"full_match\":\"Stui\\nBoca Raton, FL 33432\",\"groups\":[\"Stui\\nBoca Raton\",\"FL\",\"33432\"],\"start\":1012,\"end\":1037},{\"full_match\":\"Lean, VA 22102\",\"groups\":[\"Lean\",\"VA\",\"22102\"],\"start\":1101,\"end\":1115},{\"full_match\":\"Stui\\nXT 77057\",\"groups\":[\"Stui\",\"XT\",\"77057\"],\"start\":1177,\"end\":1190},{\"full_match\":\"Stui\\nXT 77057\",\"groups\":[\"Stui\",\"XT\",\"77057\"],\"start\":1257,\"end\":1270}],\"pattern\":\"Multiple addresses clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_234_|_text:_asddres_name_itlet_180726141048_lwlkeeny_bafafit_icepre_sidentv_vd.,k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_bruce_bardgett_icepre_sidentv_vd.,k_ble_creelurtt1_381_1500estui_xt_75219sa,_ldla_icepre_sidentv_3399pe_achrenter_e_d,._matthew_c._bearden_suie6t_00_3_0326laatagna_t,_p._darin_botelho_icepre_sidentv_ulrtec_reeblk_vd,.t1_381_suie1t_500_7x_5t219dalla_s,_nt_psdeereiciv_kenna_r._coulter_ulrtec_reeblk_vd,.t1_381_suie1t_500_7x_5t219dalla_s,_cole_r._ferguson_nt_psdeereiciv_3399pe_achrenter_e_d,._suie6t_00_3_0326laatagna_t,_nt_psdeereiciv_f._gregory_gasior_2mi2_zn5ne.ebl_.r_vd,._suie4t_00_3_3432bocarl_aoftn_,_genevieve_giannoni_nt_psdeereiciv_3399pe_achrenter_e_d,._suie6t_00_3_0326laatagna_t,_a._gloslne_mailliw_nt_psdeereiciv_3399pe_achrenter_e_d,._600estui_30326,_gaantaalt_ndsmry_oaa._hlol_nt_psdeereiciv_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_bm_dart._lrobe_nt_psdeereiciv_vd.,r_blne225_n._mz.ei_400estui_33432on,_ftl_raaboc_eptarery_larosme_nt_psdeereiciv_vd.,r_blne225_n._mz.ei_400estui_boca_raton,_fl_33432_rdonae_leicrat_nt_psdeereiciv_8300_greensboro_drive_650estui_mclean,_va_22102_nt_psdeereiciv_robert_k._presley_5847_san_felipe_street_3250estui_xt_77057houson,_t_adew_a.pamela_nt_psdeereiciv_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_|_char_count:_1279_|_word_count:_197_|_anomalies:_{\"page_number\":234,\"source\":\"lariat_merged\",\"address_clusters\":[{\"count\":6,\"addresses\":[{\"full_match\":\"stui\\nxt_75219\",\"groups\":[\"stui\",\"xt\",\"75219\"],\"start\":94,\"end\":107},{\"full_match\":\"stui\\nxt_75219\",\"groups\":[\"stui\",\"xt\",\"75219\"],\"start\":176,\"end\":189},{\"full_match\":\"stui\\nboca_raton,_fl_33432\",\"groups\":[\"stui\\nboca_raton\",\"fl\",\"33432\"],\"start\":1012,\"end\":1037},{\"full_match\":\"lean,_va_22102\",\"groups\":[\"lean\",\"va\",\"22102\"],\"start\":1101,\"end\":1115},{\"full_match\":\"stui\\nxt_77057\",\"groups\":[\"stui\",\"xt\",\"77057\"],\"start\":1177,\"end\":1190},{\"full_match\":\"stui\\nxt_77057\",\"groups\":[\"stui\",\"xt\",\"77057\"],\"start\":1257,\"end\":1270}],\"pattern\":\"multiple_addresses_clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.08801604062318802,
     -0.009365676902234554,

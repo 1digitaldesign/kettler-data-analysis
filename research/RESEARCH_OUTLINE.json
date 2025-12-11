@@ -1,15 +1,15 @@
 {
   "_metadata": {
     "version": "1.0.0",
-    "created": "2025-12-10",
-    "description": "Master research outline defining all search types, data folder structure, and completion criteria",
+    "created": "2025_12_10",
+    "description": "master_research_outline_defining_all_search_types,_data_folder_structure,_and_completion_criteria",
     "total_searches": 10
   },
   "searches": {
     "license_searches": {
       "id": "license_searches",
-      "name": "License Searches",
-      "description": "Multi-state license searches for real estate brokers, salespersons, and bar licenses",
+      "name": "license_searches",
+      "description": "multi_state_license_searches_for_real_estate_brokers,_salespersons,_and_bar_licenses",
       "priority": "high",
       "data_folder": "research/license_searches/data",
       "file_patterns": {
@@ -23,9 +23,20 @@
         ],
         "minimum_files": 200,
         "required_states": [
-          "virginia", "maryland", "connecticut", "dc", "new_jersey", "new_york",
-          "arizona", "florida", "georgia", "new_mexico", "north_carolina",
-          "pennsylvania", "south_carolina", "utah"
+          "va",
+          "md",
+          "ct",
+          "dc",
+          "new_jersey",
+          "new_york",
+          "az",
+          "fl",
+          "ga",
+          "new_mexico",
+          "north_carolina",
+          "pa",
+          "south_carolina",
+          "ut"
         ],
         "file_pattern_checks": [
           "**/*_finding.json"
@@ -39,8 +50,8 @@
     },
     "company_registrations": {
       "id": "company_registrations",
-      "name": "Company Registrations",
-      "description": "Business entity registration searches across operational states",
+      "name": "company_registrations",
+      "description": "business_entity_registration_searches_across_operational_states",
       "priority": "high",
       "data_folder": "research/company_registrations/data",
       "file_patterns": {
@@ -53,7 +64,12 @@
         ],
         "minimum_files": 6,
         "required_states": [
-          "dc", "md", "va", "nj", "ny", "ct"
+          "dc",
+          "md",
+          "va",
+          "nj",
+          "ny",
+          "ct"
         ],
         "file_pattern_checks": [
           "**/*_registration.json"
@@ -65,8 +81,8 @@
     },
     "property_contracts": {
       "id": "property_contracts",
-      "name": "Property Management Contracts",
-      "description": "Property management contracts, service agreements, and property lists",
+      "name": "property_management_contracts",
+      "description": "property_management_contracts,_service_agreements,_and_property_lists",
       "priority": "high",
       "data_folder": "research/contracts/data",
       "file_patterns": {
@@ -94,8 +110,8 @@
     },
     "employee_roles": {
       "id": "employee_roles",
-      "name": "Employee Role Documentation",
-      "description": "Employee job descriptions, organizational charts, and role verification",
+      "name": "employee_role_documentation",
+      "description": "employee_job_descriptions,_organizational_charts,_and_role_verification",
       "priority": "high",
       "data_folder": "research/employees/data",
       "file_patterns": {
@@ -123,8 +139,8 @@
     },
     "regulatory_complaints": {
       "id": "regulatory_complaints",
-      "name": "Regulatory Complaint History",
-      "description": "State regulatory complaints, consumer complaints, and enforcement actions",
+      "name": "regulatory_complaint_history",
+      "description": "state_regulatory_complaints,_consumer_complaints,_and_enforcement_actions",
       "priority": "high",
       "data_folder": "research/complaints/data",
       "file_patterns": {
@@ -138,7 +154,12 @@
         ],
         "minimum_files": 7,
         "required_states": [
-          "dc", "md", "va", "nj", "ny", "ct"
+          "dc",
+          "md",
+          "va",
+          "nj",
+          "ny",
+          "ct"
         ],
         "required_files": [
           "research/complaints/data/bbb_complaints.json"
@@ -154,8 +175,8 @@
     },
     "financial_records": {
       "id": "financial_records",
-      "name": "Financial Records",
-      "description": "SEC filings, state business filings, and property value assessments",
+      "name": "financial_records",
+      "description": "sec_filings,_state_business_filings,_and_property_value_assessments",
       "priority": "medium",
       "data_folder": "research/financial/data",
       "file_patterns": {
@@ -184,8 +205,8 @@
     },
     "news_coverage": {
       "id": "news_coverage",
-      "name": "News and Media Coverage",
-      "description": "News articles about violations, legal proceedings, and media coverage",
+      "name": "news_and_media_coverage",
+      "description": "news_articles_about_violations,_legal_proceedings,_and_media_coverage",
       "priority": "medium",
       "data_folder": "research/news/data",
       "file_patterns": {
@@ -213,8 +234,8 @@
     },
     "fair_housing": {
       "id": "fair_housing",
-      "name": "Fair Housing Records",
-      "description": "HUD complaints, EEOC records, and state discrimination complaints",
+      "name": "fair_housing_records",
+      "description": "hud_complaints,_eeoc_records,_and_state_discrimination_complaints",
       "priority": "medium",
       "data_folder": "research/discrimination/data",
       "file_patterns": {
@@ -232,7 +253,12 @@
           "research/discrimination/data/eeoc_records.json"
         ],
         "required_states": [
-          "dc", "md", "va", "nj", "ny", "ct"
+          "dc",
+          "md",
+          "va",
+          "nj",
+          "ny",
+          "ct"
         ],
         "file_pattern_checks": [
           "hud_complaints.json",
@@ -246,8 +272,8 @@
     },
     "professional_memberships": {
       "id": "professional_memberships",
-      "name": "Professional Memberships",
-      "description": "Real estate and property management association memberships",
+      "name": "professional_memberships",
+      "description": "real_estate_and_property_management_association_memberships",
       "priority": "low",
       "data_folder": "research/memberships/data",
       "file_patterns": {
@@ -272,8 +298,8 @@
     },
     "social_media": {
       "id": "social_media",
-      "name": "Social Media and Online Presence",
-      "description": "Company websites, LinkedIn profiles, and online reviews",
+      "name": "social_media_and_online_presence",
+      "description": "company_websites,_linkedin_profiles,_and_online_reviews",
       "priority": "low",
       "data_folder": "research/social_media/data",
       "file_patterns": {

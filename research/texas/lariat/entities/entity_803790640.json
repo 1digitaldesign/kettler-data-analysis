@@ -1,74 +1,74 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.168948",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_803790640.json",
+    "created": "2025_12_11t00:21:41.168948",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_803790640.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "803790640",
-    "entity_type": "Foreign Limited Liability Company (LLC)",
-    "original_date_of_filing": "January 31, 2012",
-    "entity_status": "In existence",
-    "formation_date": "October 4, 2001",
+    "entity_type": "foreign_limited_liability_company_(llc)",
+    "original_date_of_filing": "january_31,_2012",
+    "entity_status": "in_existence",
+    "formation_date": "october_4,_2001",
     "tax_id": "32046799311",
     "fein": null,
     "duration": null,
-    "name": "CAPREIT RESIDENTIAL MANAGEMENT, LLC",
-    "address": "11200 ROCKVILLE PIKE SUITE 100\nROCKVILLE, MD 20852 USA\nFictitious Name: \tN/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001",
-    "jurisdiction": "MD, USA",
+    "name": "capreit_residential_management,_llc",
+    "address": "11200_rockville_pike_suite_100_rockville,_md_20852_usa_fictitious_name:_n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001",
+    "jurisdiction": "md,_usa",
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "Corporation Service Company dba CSC - Lawyers Incorporating Service Company",
-      "address": "211 E. 7th Street, Suite 620",
+      "name": "corporation_service_company_dba_csc_lawyers_incorporating_service_company",
+      "address": "211_e._7th_street,_suite_620",
       "inactive_date": null
     },
     "filing_history": [],
     "names": [
       {
-        "name": "Bainbridge Mid-Atlantic Management, LLC",
-        "name_status": "Inactive",
-        "name_type": "Legal",
-        "name_inactive_date": "July 24, 2024",
+        "name": "bainbridge_mid_atlantic_management,_llc",
+        "name_status": "inactive",
+        "name_type": "legal",
+        "name_inactive_date": "july_24,_2024",
         "consent_filing_number": "0"
       },
       {
-        "name": "Bainbridge Mid-Atlantic Management, LLC",
-        "name_status": "In use",
-        "name_type": "Legal",
+        "name": "bainbridge_mid_atlantic_management,_llc",
+        "name_status": "in_use",
+        "name_type": "legal",
         "name_inactive_date": "0",
         "consent_filing_number": null
       }
     ],
     "management": [
       {
-        "last_update": "November 3, 2024",
-        "name": "RAS MANAGER, LLC",
-        "title": "ITS MANAGER",
-        "address": "12765 W. FOREST HILL BLVD, STE. 1307"
+        "last_update": "november_3,_2024",
+        "name": "ras_manager,_llc",
+        "title": "its_manager",
+        "address": "12765_w._forest_hill_blvd,_ste._1307"
       },
       {
-        "last_update": "iling Number:",
+        "last_update": "iling_number:",
         "name": "801542892",
-        "title": "Entity Type:",
-        "address": "Foreign Limited Liability Company (LLC)"
+        "title": "entity_type:",
+        "address": "foreign_limited_liability_company_(llc)"
       }
     ],
     "assumed_names": [
       {
-        "assumed_name": "BAINBRIDGE COMPANIES",
-        "date_of_filing": "March 31, 2025",
-        "expiration_date": "March 31, 2035",
-        "inactive_date": "Active",
-        "name_status": "All Counties",
+        "assumed_name": "bainbridge_companies",
+        "date_of_filing": "march_31,_2025",
+        "expiration_date": "march_31,_2035",
+        "inactive_date": "active",
+        "name_status": "all_counties",
         "counties": null
       }
     ],
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 803790640 | entity_type: Foreign Limited Liability Company (LLC) | original_date_of_filing: January 31, 2012 | entity_status: In existence | formation_date: October 4, 2001 | tax_id: 32046799311 | name: CAPREIT RESIDENTIAL MANAGEMENT, LLC | address: 11200 ROCKVILLE PIKE SUITE 100\nROCKVILLE, MD 20852 USA\nFictitious Name: \tN/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001 | jurisdiction: MD, USA | registered_agent: {\"name\":\"Corporation Service Company dba CSC - Lawyers Incorporating Service Company\",\"address\":\"211 E. 7th Street, Suite 620\",\"inactive_date\":null} | names: 2 items | management: 2 items | assumed_names: 1 items",
+  "text_representation": "filing_number:_803790640_|_entity_type:_foreign_limited_liability_company_(llc)_|_original_date_of_filing:_january_31,_2012_|_entity_status:_in_existence_|_formation_date:_october_4,_2001_|_tax_id:_32046799311_|_name:_capreit_residential_management,_llc_|_address:_11200_rockville_pike_suite_100_rockville,_md_20852_usa_fictitious_name:_n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001_|_jurisdiction:_md,_usa_|_registered_agent:_{\"name\":\"corporation_service_company_dba_csc_lawyers_incorporating_service_company\",\"address\":\"211_e._7th_street,_suite_620\",\"inactive_date\":null}_|_names:_2_items_|_management:_2_items_|_assumed_names:_1_items",
   "embedding": [
     -0.0638701394200325,
     0.00048754666931927204,

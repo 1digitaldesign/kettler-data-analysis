@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "date": "2025-12-10",
+    "date": "2025_12_10",
     "category": "property_contracts",
     "status": "complete",
     "data_collected": true
@@ -8,6 +8,6 @@
   "data": {
     "records": [],
     "findings": [],
-    "summary": "Data collection completed for property_contracts"
+    "summary": "data_collection_completed_for_property_contracts"
   }
 }

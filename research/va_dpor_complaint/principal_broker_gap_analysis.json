@@ -1,108 +1,108 @@
 {
-  "research_date": "2025-12-09",
-  "complaint_focus": "VA DPOR Complaint - Kettler Management Inc. License #0226025311",
-  "priority": "PRIORITY 1: Principal Broker Gap Evidence (2014-2025)",
+  "research_date": "2025_12_09",
+  "complaint_focus": "va_dpor_complaint_kettler_management_inc._license_#0226025311",
+  "priority": "priority_1:_principal_broker_gap_evidence_(2014_2025)",
   "firm_license": "0226025311",
-  "firm_name": "KETTLER MANAGEMENT INC",
-  "initial_cert_date": "2014-10-31",
-  "current_principal_broker": "SKIDMORE CAITLIN MARIE",
+  "firm_name": "kettler_management_inc",
+  "initial_cert_date": "2014_10_31",
+  "current_principal_broker": "skidmore_caitlin_marie",
   "principal_broker_license": "0225273926",
-  "principal_broker_assigned_date": "2025-04-03",
+  "principal_broker_assigned_date": "2025_04_03",
   "gap_period": {
-    "start_date": "2014-10-31",
-    "end_date": "2025-04-03",
+    "start_date": "2014_10_31",
+    "end_date": "2025_04_03",
     "duration_years": 10.5,
     "duration_days": 3840
   },
   "historical_principal_broker_search": {
     "status": "method_verified_foia_required",
     "methods": [
-      "VA DPOR historical database searches",
-      "FOIA request to DPOR for historical license records",
-      "Wayback Machine searches of DPOR website snapshots"
+      "va_dpor_historical_database_searches",
+      "foia_request_to_dpor_for_historical_license_records",
+      "wayback_machine_searches_of_dpor_website_snapshots"
     ],
     "data_points_sought": [
-      "Previous principal broker names (if any)",
-      "License amendment dates",
-      "Principal broker change notifications",
-      "Any disciplinary actions during gap period"
+      "previous_principal_broker_names_(if_any)",
+      "license_amendment_dates",
+      "principal_broker_change_notifications",
+      "any_disciplinary_actions_during_gap_period"
     ],
     "findings": {
       "previous_principal_brokers": [],
       "license_amendments": [],
       "principal_broker_changes": [],
       "disciplinary_actions": [],
-      "notes": "Historical records from 2014-2015 not accessible online. DPOR Information Management section can provide regulant lists with historical data. Contact: PublicRecords@dpor.virginia.gov or (866) 254-0312. Regulant lists available free in electronic format."
+      "notes": "historical_records_from_2014_2015_not_accessible_online._dpor_information_management_section_can_provide_regulant_lists_with_historical_data._contact:_publicrecords@dpor.virginia.gov_or_(866)_254_0312._regulant_lists_available_free_in_electronic_format."
     },
     "wayback_machine_snapshots": {
       "status": "method_verified",
       "urls_to_check": [
-        "https://www.dpor.virginia.gov/LicenseLookup/",
-        "https://www.dpor.virginia.gov/Boards/RealEstate/"
+        "https://www.dpor.virginia.gov/licenselookup/",
+        "https://www.dpor.virginia.gov/boards/realestate/"
       ],
       "snapshot_dates": [
-        "2014-10-31",
-        "2015-01-01",
-        "2016-01-01",
-        "2017-01-01",
-        "2018-01-01",
-        "2019-01-01",
-        "2020-01-01",
-        "2021-01-01",
-        "2022-01-01",
-        "2023-01-01",
-        "2024-01-01",
-        "2025-04-02"
+        "2014_10_31",
+        "2015_01_01",
+        "2016_01_01",
+        "2017_01_01",
+        "2018_01_01",
+        "2019_01_01",
+        "2020_01_01",
+        "2021_01_01",
+        "2022_01_01",
+        "2023_01_01",
+        "2024_01_01",
+        "2025_04_02"
       ],
-      "method": "Use Wayback Machine (archive.org) to access historical DPOR website snapshots",
-      "note": "Interactive features like search may not work in archived versions",
+      "method": "use_wayback_machine_(archive.org)_to_access_historical_dpor_website_snapshots",
+      "note": "interactive_features_like_search_may_not_work_in_archived_versions",
       "wayback_machine_url": "https://web.archive.org"
     },
     "foia_request": {
       "status": "ready_to_submit",
-      "request_text": "Request for historical principal broker records for Kettler Management Inc. (License #0226025311) from October 31, 2014 through April 3, 2025, including all principal broker assignments, license amendments, and disciplinary actions.",
-      "agency": "Virginia Department of Professional and Occupational Regulation",
-      "foia_email": "PublicRecords@dpor.virginia.gov",
-      "foia_fax": "(866) 254-0312",
-      "response_time": "5 working days (Day One is day after receipt)",
-      "fees": "License transcript: $40.00 per entity request",
-      "foia_website": "https://www.dpor.virginia.gov/RecordsandDocuments",
+      "request_text": "request_for_historical_principal_broker_records_for_kettler_management_inc._(license_#0226025311)_from_october_31,_2014_through_april_3,_2025,_including_all_principal_broker_assignments,_license_amendments,_and_disciplinary_actions.",
+      "agency": "virginia_department_of_professional_and_occupational_regulation",
+      "foia_email": "publicrecords@dpor.virginia.gov",
+      "foia_fax": "(866)_254_0312",
+      "response_time": "5_working_days_(day_one_is_day_after_receipt)",
+      "fees": "license_transcript:_$40.00_per_entity_request",
+      "foia_website": "https://www.dpor.virginia.gov/recordsanddocuments",
       "foia_council": {
         "email": "foiacouncil@dls.virginia.gov",
-        "phone": "(804) 225-3056",
-        "toll_free": "1-866-448-4100"
+        "phone": "(804)_225_3056",
+        "toll_free": "1_866_448_4100"
       },
-      "specificity_requirement": "Must identify records with 'reasonable specificity'",
-      "note": "FOIA does not require DPOR to create records that don't exist - request must be for existing records",
+      "specificity_requirement": "must_identify_records_with_'reasonable_specificity'",
+      "note": "foia_does_not_require_dpor_to_create_records_that_don't_exist_request_must_be_for_existing_records",
       "firm_change_form": {
-        "form_name": "Firm Principal Broker/Officer Change Form",
-        "form_code": "A490-02PBOCHG",
-        "url": "https://www.dpor.virginia.gov/sites/default/files/boards/Real_Estate/A490-02PBOCHG.pdf",
-        "requirement": "Firms must notify board in writing and return current licenses when principal broker changes"
+        "form_name": "firm_principal_broker/officer_change_form",
+        "form_code": "a490_02pbochg",
+        "url": "https://www.dpor.virginia.gov/sites/default/files/boards/real_estate/a490_02pbochg.pdf",
+        "requirement": "firms_must_notify_board_in_writing_and_return_current_licenses_when_principal_broker_changes"
       },
       "real_estate_board_contact": {
-        "phone": "(804) 367-8526",
+        "phone": "(804)_367_8526",
         "website": "www.dpor.virginia.gov"
       }
     }
   },
   "legal_implications": {
-    "virginia_code_section": "54.1-2106.1",
-    "requirement": "Principal Broker must exercise active supervision of the firm's real estate activities",
-    "violation_period": "10.5 years without identifiable principal broker",
-    "potential_penalties": "Civil penalties up to $1,000 per transaction under VA Code § 54.1-2105.2"
+    "virginia_code_section": "54.1_2106.1",
+    "requirement": "principal_broker_must_exercise_active_supervision_of_the_firm's_real_estate_activities",
+    "violation_period": "10.5_years_without_identifiable_principal_broker",
+    "potential_penalties": "civil_penalties_up_to_$1,000_per_transaction_under_va_code_§_54.1_2105.2"
   },
   "next_steps": [
-    "Submit FOIA request to DPOR for historical records",
-    "Search Wayback Machine for DPOR website snapshots",
-    "Document any principal broker assignments found",
-    "Create timeline visualization of gap period"
+    "submit_foia_request_to_dpor_for_historical_records",
+    "search_wayback_machine_for_dpor_website_snapshots",
+    "document_any_principal_broker_assignments_found",
+    "create_timeline_visualization_of_gap_period"
   ],
   "metadata": {
     "file_name": "principal_broker_gap_analysis.json",
     "file_path": "research/va_dpor_complaint/principal_broker_gap_analysis.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

@@ -1,19 +1,19 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.995262",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/anomalies/anomalies_page_0078.json",
+    "created": "2025_12_11t00:51:59.995262",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/anomalies/anomalies_page_0078.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 78,
-    "source": "lariat-merged",
+    "source": "lariat_merged",
     "address_clusters": [],
     "entity_variations": [],
     "date_sequences": [],
     "suspicious_patterns": []
   },
-  "text_representation": "page_number: 78 | source: lariat-merged",
+  "text_representation": "page_number:_78_|_source:_lariat_merged",
   "embedding": [
     -0.03407818451523781,
     -0.012562967836856842,

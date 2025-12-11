@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:55:08.558607",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_2374.json",
+    "created": "2025_12_11t00:55:08.558607",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_2374.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 2374,
-    "text": "To purchase, lease, hold, own, improve,\ndevelop, sell, convey, assign, release, mortgage,\nencumber, use, hire, manage, operate, acquire, deal in\nand otherwise dispose of real and personal property,\nincluding, without limitation, commercial property,\nimproved and unimproved, of every kind and description;\nto do every other act and thing incidental to or con-\nnected with the aforesaid; and\nTo engage in, promote, conduct and carry on\nany lawful acts or activities for which corporations may\nbe organized under the Virginia Stock Corporation Act.\nSIXTH: The number of directors constituting the initial\nBoard of Directors of the Corporation is one i1), and the name and\naddress of person who is to serve as initial director until, the\nfirst Annual Meeting of the stockholders or until his successor\nName Address\n8081 Wolftrap Road Suite 300\nRobert C. Kettler\nVienna, Virginia 22180\nIN WITNESS WHEREOF, I have signed these Articles of Incorpo-\nration on the 9th day of May, 1988.\nSOLE INCORPORATOR:\nSail ?. Death\nGail T. Heath\n1014UWGG.0 to 2",
+    "text": "to_purchase,_lease,_hold,_own,_improve,_develop,_sell,_convey,_assign,_release,_mortgage,_encumber,_use,_hire,_manage,_operate,_acquire,_deal_in_and_otherwise_dispose_of_real_and_personal_property,_including,_without_limitation,_commercial_property,_improved_and_unimproved,_of_every_kind_and_description;_to_do_every_other_act_and_thing_incidental_to_or_con_nected_with_the_aforesaid;_and_to_engage_in,_promote,_conduct_and_carry_on_any_lawful_acts_or_activities_for_which_corporations_may_be_organized_under_the_virginia_stock_corporation_act._sixth:_the_number_of_directors_constituting_the_initial_board_of_directors_of_the_corporation_is_one_i1),_and_the_name_and_address_of_person_who_is_to_serve_as_initial_director_until,_the_first_annual_meeting_of_the_stockholders_or_until_his_successor_name_address_8081_wolftrap_road_suite_300_robert_c._kettler_vienna,_virginia_22180_in_witness_whereof,_i_have_signed_these_articles_of_incorpo_ration_on_the_9th_day_of_may,_1988._sole_incorporator:_sail_?._death_gail_t._heath_1014uwgg.0_to_2",
     "char_count": 1041,
     "word_count": 167,
     "anomalies": {
       "page_number": 2374,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 2374 | text: To purchase, lease, hold, own, improve,\ndevelop, sell, convey, assign, release, mortgage,\nencumber, use, hire, manage, operate, acquire, deal in\nand otherwise dispose of real and personal property,\nincluding, without limitation, commercial property,\nimproved and unimproved, of every kind and description;\nto do every other act and thing incidental to or con-\nnected with the aforesaid; and\nTo engage in, promote, conduct and carry on\nany lawful acts or activities for which corporations may\nbe organized under the Virginia Stock Corporation Act.\nSIXTH: The number of directors constituting the initial\nBoard of Directors of the Corporation is one i1), and the name and\naddress of person who is to serve as initial director until, the\nfirst Annual Meeting of the stockholders or until his successor\nName Address\n8081 Wolftrap Road Suite 300\nRobert C. Kettler\nVienna, Virginia 22180\nIN WITNESS WHEREOF, I have signed these Articles of Incorpo-\nration on the 9th day of May, 1988.\nSOLE INCORPORATOR:\nSail ?. Death\nGail T. Heath\n1014UWGG.0 to 2 | char_count: 1041 | word_count: 167 | anomalies: {\"page_number\":2374,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_2374_|_text:_to_purchase,_lease,_hold,_own,_improve,_develop,_sell,_convey,_assign,_release,_mortgage,_encumber,_use,_hire,_manage,_operate,_acquire,_deal_in_and_otherwise_dispose_of_real_and_personal_property,_including,_without_limitation,_commercial_property,_improved_and_unimproved,_of_every_kind_and_description;_to_do_every_other_act_and_thing_incidental_to_or_con_nected_with_the_aforesaid;_and_to_engage_in,_promote,_conduct_and_carry_on_any_lawful_acts_or_activities_for_which_corporations_may_be_organized_under_the_virginia_stock_corporation_act._sixth:_the_number_of_directors_constituting_the_initial_board_of_directors_of_the_corporation_is_one_i1),_and_the_name_and_address_of_person_who_is_to_serve_as_initial_director_until,_the_first_annual_meeting_of_the_stockholders_or_until_his_successor_name_address_8081_wolftrap_road_suite_300_robert_c._kettler_vienna,_virginia_22180_in_witness_whereof,_i_have_signed_these_articles_of_incorpo_ration_on_the_9th_day_of_may,_1988._sole_incorporator:_sail_?._death_gail_t._heath_1014uwgg.0_to_2_|_char_count:_1041_|_word_count:_167_|_anomalies:_{\"page_number\":2374,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.06217169016599655,
     -0.07553832978010178,

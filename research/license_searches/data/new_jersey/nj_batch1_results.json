@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "state": "New Jersey",
-    "search_url": "https://newjersey.mylicense.com/verification/Search.aspx?facility=N",
+    "date": "2025_12_07",
+    "state": "new_jersey",
+    "search_url": "https://newjersey.mylicense.com/verification/search.aspx?facility=n",
     "status": "batch_1_in_progress",
-    "method": "Playwright browser automation",
-    "profession": "Real Estate Appraisers",
-    "note": "Note: 'Real Estate Appraisers' found in Profession dropdown. License Type shows 'Salesperson' which may be for real estate brokers/salespersons. Need to verify correct profession selection."
+    "method": "playwright_browser_automation",
+    "profession": "real_estate_appraisers",
+    "note": "note:_'real_estate_appraisers'_found_in_profession_dropdown._license_type_shows_'salesperson'_which_may_be_for_real_estate_brokers/salespersons._need_to_verify_correct_profession_selection."
   },
   "searches": {
     "edward_hyland": {
-      "name": "Edward Hyland",
-      "profession": "Real Estate Appraisers",
+      "name": "edward_hyland",
+      "profession": "real_estate_appraisers",
       "search_executed": true,
       "results_found": "checking",
-      "note": "Search completed - checking results"
+      "note": "search_completed_checking_results"
     }
   },
   "remaining_searches": 14,
-  "next_batch": "Continue with remaining employees. May need to test different profession selection if Real Estate Appraisers is not correct for brokers/salespersons."
+  "next_batch": "continue_with_remaining_employees._may_need_to_test_different_profession_selection_if_real_estate_appraisers_is_not_correct_for_brokers/salespersons."
 }

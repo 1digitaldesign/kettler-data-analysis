@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.207114",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/management/management_803790640_0.json",
+    "created": "2025_12_11t00:21:41.207114",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/management/management_803790640_0.json",
     "has_embedding": true
   },
   "data": {
-    "last_update": "November 3, 2024",
-    "name": "RAS MANAGER, LLC",
-    "title": "ITS MANAGER",
-    "address": "12765 W. FOREST HILL BLVD, STE. 1307"
+    "last_update": "november_3,_2024",
+    "name": "ras_manager,_llc",
+    "title": "its_manager",
+    "address": "12765_w._forest_hill_blvd,_ste._1307"
   },
-  "text_representation": "last_update: November 3, 2024 | name: RAS MANAGER, LLC | title: ITS MANAGER | address: 12765 W. FOREST HILL BLVD, STE. 1307",
+  "text_representation": "last_update:_november_3,_2024_|_name:_ras_manager,_llc_|_title:_its_manager_|_address:_12765_w._forest_hill_blvd,_ste._1307",
   "embedding": [
     -0.0395912304520607,
     -0.02975253015756607,

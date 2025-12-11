@@ -1,21 +1,21 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.964647",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_18792700.json",
+    "created": "2025_12_11t00:21:40.964647",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_18792700.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "18792700",
     "entity_type": null,
-    "original_date_of_filing": "October 25, 1962",
-    "entity_status": "Voluntarily terminated",
+    "original_date_of_filing": "october_25,_1962",
+    "entity_status": "voluntarily_terminated",
     "formation_date": null,
     "tax_id": "00000000000",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-    "address": "[ADDRESS NOT PROVIDED]",
+    "duration": "perpetual",
+    "name": "delta_southern_acceptance_corporation",
+    "address": "[address_not_provided]",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
@@ -23,10 +23,10 @@
     "filing_history": [],
     "names": [
       {
-        "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-        "name_status": "Inactive",
-        "name_type": "Legal",
-        "name_inactive_date": "March 31, 1967",
+        "name": "delta_southern_acceptance_corporation",
+        "name_status": "inactive",
+        "name_type": "legal",
+        "name_inactive_date": "march_31,_1967",
         "consent_filing_number": null
       }
     ],
@@ -35,7 +35,7 @@
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 18792700 | original_date_of_filing: October 25, 1962 | entity_status: Voluntarily terminated | tax_id: 00000000000 | duration: Perpetual | name: DELTA SOUTHERN ACCEPTANCE CORPORATION | address: [ADDRESS NOT PROVIDED] | names: 1 items",
+  "text_representation": "filing_number:_18792700_|_original_date_of_filing:_october_25,_1962_|_entity_status:_voluntarily_terminated_|_tax_id:_00000000000_|_duration:_perpetual_|_name:_delta_southern_acceptance_corporation_|_address:_[address_not_provided]_|_names:_1_items",
   "embedding": [
     -0.01868784800171852,
     0.03560490906238556,

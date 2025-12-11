@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:51:59.065750",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0047.json",
+    "created": "2025_12_11t00:51:59.065750",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0047.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 47,
-    "text": "Tb. The address of the entity’s principal place of business in Texas (if not the same as 7a) is:\nos fteIxa s.ThTeeino niy s o rgtttanizedu ndhetelr awo s f7 c. (cid:222) cea ddreoss usitdhaeietestt s:\nCounty or Counties in which Assumed Name Filed\n8. The assumed name being abandoned was filed on the following dates in the following counties:\nAll counties\nName of County Date of Filing\nName of County Date of Filing\nExecution\nThe undersigned signs this document subject to the penalties imposed by law for the submission of a\nmaterially false or fraudulent instrument and also certifies that the person is authorized to sign on\nbehalf of the identified entity. If the undersigned is acting in the capacity of an attorney in fact for the\nentity, the undersigned certifies that the entity has duly authorized the undersigned in writing to\nexecute this document.\nsaye\nDate: 12/15/23\nSignature of a person authorized by law to sign on behalf of the\nidentified entity (see instructions)\nPrint Reset\nForn 504 4",
+    "text": "tb._the_address_of_the_entity’s_principal_place_of_business_in_texas_(if_not_the_same_as_7a)_is:_os_fteixa_s.thteeino_niy_s_o_rgtttanizedu_ndhetelr_awo_s_f7_c._(cid:222)_cea_ddreoss_usitdhaeietestt_s:_county_or_counties_in_which_assumed_name_filed_8._the_assumed_name_being_abandoned_was_filed_on_the_following_dates_in_the_following_counties:_all_counties_name_of_county_date_of_filing_name_of_county_date_of_filing_execution_the_undersigned_signs_this_document_subject_to_the_penalties_imposed_by_law_for_the_submission_of_a_materially_false_or_fraudulent_instrument_and_also_certifies_that_the_person_is_authorized_to_sign_on_behalf_of_the_identified_entity._if_the_undersigned_is_acting_in_the_capacity_of_an_attorney_in_fact_for_the_entity,_the_undersigned_certifies_that_the_entity_has_duly_authorized_the_undersigned_in_writing_to_execute_this_document._saye_date:_12/15/23_signature_of_a_person_authorized_by_law_to_sign_on_behalf_of_the_identified_entity_(see_instructions)_print_reset_forn_504_4",
     "char_count": 1005,
     "word_count": 171,
     "anomalies": {
       "page_number": 47,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 47 | text: Tb. The address of the entity’s principal place of business in Texas (if not the same as 7a) is:\nos fteIxa s.ThTeeino niy s o rgtttanizedu ndhetelr awo s f7 c. (cid:222) cea ddreoss usitdhaeietestt s:\nCounty or Counties in which Assumed Name Filed\n8. The assumed name being abandoned was filed on the following dates in the following counties:\nAll counties\nName of County Date of Filing\nName of County Date of Filing\nExecution\nThe undersigned signs this document subject to the penalties imposed by law for the submission of a\nmaterially false or fraudulent instrument and also certifies that the person is authorized to sign on\nbehalf of the identified entity. If the undersigned is acting in the capacity of an attorney in fact for the\nentity, the undersigned certifies that the entity has duly authorized the undersigned in writing to\nexecute this document.\nsaye\nDate: 12/15/23\nSignature of a person authorized by law to sign on behalf of the\nidentified entity (see instructions)\nPrint Reset\nForn 504 4 | char_count: 1005 | word_count: 171 | anomalies: {\"page_number\":47,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_47_|_text:_tb._the_address_of_the_entity’s_principal_place_of_business_in_texas_(if_not_the_same_as_7a)_is:_os_fteixa_s.thteeino_niy_s_o_rgtttanizedu_ndhetelr_awo_s_f7_c._(cid:222)_cea_ddreoss_usitdhaeietestt_s:_county_or_counties_in_which_assumed_name_filed_8._the_assumed_name_being_abandoned_was_filed_on_the_following_dates_in_the_following_counties:_all_counties_name_of_county_date_of_filing_name_of_county_date_of_filing_execution_the_undersigned_signs_this_document_subject_to_the_penalties_imposed_by_law_for_the_submission_of_a_materially_false_or_fraudulent_instrument_and_also_certifies_that_the_person_is_authorized_to_sign_on_behalf_of_the_identified_entity._if_the_undersigned_is_acting_in_the_capacity_of_an_attorney_in_fact_for_the_entity,_the_undersigned_certifies_that_the_entity_has_duly_authorized_the_undersigned_in_writing_to_execute_this_document._saye_date:_12/15/23_signature_of_a_person_authorized_by_law_to_sign_on_behalf_of_the_identified_entity_(see_instructions)_print_reset_forn_504_4_|_char_count:_1005_|_word_count:_171_|_anomalies:_{\"page_number\":47,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.10060950368642807,
     0.0257521104067564,

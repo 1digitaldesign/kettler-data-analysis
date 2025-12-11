@@ -7,10 +7,10 @@
         "similarity": 0.9276757252940373,
         "entity1_info": {
           "filing_number": "801459833",
-          "name": "Lariat Realty Advisors, Inc.",
-          "address": "4600 FIRESTONE DR FRISCO, TX 75034 USA",
-          "status": "In existence",
-          "registered_agent": "Thoms L Bisanz - 4600 Firestone Drive",
+          "name": "lariat_realty_advisors,_inc.",
+          "address": "4600_firestone_dr_frisco,_tx_75034_usa",
+          "status": "in_existence",
+          "registered_agent": "thoms_l_bisanz_4600_firestone_drive",
           "tax_id": "32044752940",
           "has_tax_forfeiture": true,
           "has_reinstatement": true,
@@ -18,10 +18,10 @@
         },
         "entity2_info": {
           "filing_number": "805759678",
-          "name": "Lariat Realty Advisors, LLC",
-          "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-          "status": "In existence",
-          "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+          "name": "lariat_realty_advisors,_llc",
+          "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+          "status": "in_existence",
+          "registered_agent": "thomas_bisanz_4600_firestone_drive",
           "tax_id": "32097336583",
           "original_id": "lariat_tx_805759678"
         }
@@ -32,18 +32,18 @@
         "similarity": 0.8867110624834238,
         "entity1_info": {
           "filing_number": "60550300",
-          "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-          "address": "[ADDRESS NOT PROVIDED]",
-          "status": "Voluntarily terminated",
-          "registered_agent": "C R Skidmore - RT 1 144 RED OAK",
+          "name": "delta_southern_acceptance_corporation",
+          "address": "[address_not_provided]",
+          "status": "voluntarily_terminated",
+          "registered_agent": "c_r_skidmore_rt_1_144_red_oak",
           "tax_id": "00000000000",
           "original_id": "lariat_tx_60550300"
         },
         "entity2_info": {
           "filing_number": "18792700",
-          "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-          "address": "[ADDRESS NOT PROVIDED]",
-          "status": "Voluntarily terminated",
+          "name": "delta_southern_acceptance_corporation",
+          "address": "[address_not_provided]",
+          "status": "voluntarily_terminated",
           "tax_id": "00000000000",
           "original_id": "lariat_tx_18792700"
         }
@@ -54,19 +54,19 @@
         "similarity": 0.8178891291244704,
         "entity1_info": {
           "filing_number": "802331657",
-          "name": "N/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988",
-          "address": "1751 Pinnacle Dr, Ste 700 Mclean, VA 22102 USA Fictitious Name: \tN/A Jurisdiction: \tVA, USA Foreign Formation Date: \tMay 20, 1988",
-          "status": "In existence",
-          "registered_agent": "National Registered Agents, Inc. - 1999 Bryan St., Ste. 900",
+          "name": "n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
+          "address": "1751_pinnacle_dr,_ste_700_mclean,_va_22102_usa_fictitious_name:_n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
+          "status": "in_existence",
+          "registered_agent": "national_registered_agents,_inc._1999_bryan_st.,_ste._900",
           "tax_id": "32058814248",
           "original_id": "lariat_tx_802331657"
         },
         "entity2_info": {
           "filing_number": "804700244",
-          "name": "Kettler Land Management LLC",
-          "address": "2812 SAN PEDRO ST AUSTIN, TX 78705-3602 USA",
-          "status": "Forfeited existence",
-          "registered_agent": "United States Corporation Agents, Inc. - 10601 Clarence Dr. Suite 250",
+          "name": "kettler_land_management_llc",
+          "address": "2812_san_pedro_st_austin,_tx_78705_3602_usa",
+          "status": "forfeited_existence",
+          "registered_agent": "united_states_corporation_agents,_inc._10601_clarence_dr._suite_250",
           "tax_id": "32086023994",
           "has_forfeited_status": true,
           "original_id": "lariat_tx_804700244"
@@ -78,19 +78,19 @@
         "similarity": 0.7324269459276435,
         "entity1_info": {
           "filing_number": "805759678",
-          "name": "Lariat Realty Advisors, LLC",
-          "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-          "status": "In existence",
-          "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+          "name": "lariat_realty_advisors,_llc",
+          "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+          "status": "in_existence",
+          "registered_agent": "thomas_bisanz_4600_firestone_drive",
           "tax_id": "32097336583",
           "original_id": "lariat_tx_805759678"
         },
         "entity2_info": {
           "filing_number": "802961755",
-          "name": "SDS Texas Realty, LLC",
-          "address": "5729 LEBANON RD STE 144553 FRISCO, TX 75034-7260 USA",
-          "status": "In existence",
-          "registered_agent": "LEAH DOUTHIT - 5152 Loma Alta Dr.",
+          "name": "sds_texas_realty,_llc",
+          "address": "5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa",
+          "status": "in_existence",
+          "registered_agent": "leah_douthit_5152_loma_alta_dr.",
           "tax_id": "32066517577",
           "original_id": "lariat_tx_802961755"
         }
@@ -101,10 +101,10 @@
         "similarity": 0.7310506873905497,
         "entity1_info": {
           "filing_number": "801459833",
-          "name": "Lariat Realty Advisors, Inc.",
-          "address": "4600 FIRESTONE DR FRISCO, TX 75034 USA",
-          "status": "In existence",
-          "registered_agent": "Thoms L Bisanz - 4600 Firestone Drive",
+          "name": "lariat_realty_advisors,_inc.",
+          "address": "4600_firestone_dr_frisco,_tx_75034_usa",
+          "status": "in_existence",
+          "registered_agent": "thoms_l_bisanz_4600_firestone_drive",
           "tax_id": "32044752940",
           "has_tax_forfeiture": true,
           "has_reinstatement": true,
@@ -112,10 +112,10 @@
         },
         "entity2_info": {
           "filing_number": "46955400",
-          "name": "LARIAT INC. REALTORS",
-          "address": "[ADDRESS NOT PROVIDED]",
-          "status": "Voluntarily terminated",
-          "registered_agent": "Monte B Hartig - 4139 GARDENDALE",
+          "name": "lariat_inc._realtors",
+          "address": "[address_not_provided]",
+          "status": "voluntarily_terminated",
+          "registered_agent": "monte_b_hartig_4139_gardendale",
           "tax_id": "17420431391",
           "original_id": "lariat_tx_46955400"
         }
@@ -126,19 +126,19 @@
         "similarity": 0.7279902976137175,
         "entity1_info": {
           "filing_number": "805759678",
-          "name": "Lariat Realty Advisors, LLC",
-          "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-          "status": "In existence",
-          "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+          "name": "lariat_realty_advisors,_llc",
+          "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+          "status": "in_existence",
+          "registered_agent": "thomas_bisanz_4600_firestone_drive",
           "tax_id": "32097336583",
           "original_id": "lariat_tx_805759678"
         },
         "entity2_info": {
           "filing_number": "46955400",
-          "name": "LARIAT INC. REALTORS",
-          "address": "[ADDRESS NOT PROVIDED]",
-          "status": "Voluntarily terminated",
-          "registered_agent": "Monte B Hartig - 4139 GARDENDALE",
+          "name": "lariat_inc._realtors",
+          "address": "[address_not_provided]",
+          "status": "voluntarily_terminated",
+          "registered_agent": "monte_b_hartig_4139_gardendale",
           "tax_id": "17420431391",
           "original_id": "lariat_tx_46955400"
         }
@@ -149,19 +149,19 @@
         "similarity": 0.7138234798613854,
         "entity1_info": {
           "filing_number": "802961755",
-          "name": "SDS Texas Realty, LLC",
-          "address": "5729 LEBANON RD STE 144553 FRISCO, TX 75034-7260 USA",
-          "status": "In existence",
-          "registered_agent": "LEAH DOUTHIT - 5152 Loma Alta Dr.",
+          "name": "sds_texas_realty,_llc",
+          "address": "5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa",
+          "status": "in_existence",
+          "registered_agent": "leah_douthit_5152_loma_alta_dr.",
           "tax_id": "32066517577",
           "original_id": "lariat_tx_802961755"
         },
         "entity2_info": {
           "filing_number": "804058541",
-          "name": "DIVORCE NAVIGATORS, INC.",
-          "address": "2872 BREEZY POINT LN FRISCO, TX 75034-4686 USA",
-          "status": "Forfeited existence",
-          "registered_agent": "HOLLY MCKAY - 2872 Breezy Point Lane",
+          "name": "divorce_navigators,_inc.",
+          "address": "2872_breezy_point_ln_frisco,_tx_75034_4686_usa",
+          "status": "forfeited_existence",
+          "registered_agent": "holly_mckay_2872_breezy_point_lane",
           "tax_id": "32079104280",
           "has_forfeited_status": true,
           "original_id": "lariat_tx_804058541"
@@ -173,27 +173,27 @@
   },
   "violation_clusters": [
     {
-      "address": "[ADDRESS NOT PROVIDED]",
+      "address": "[address_not_provided]",
       "entity_count": 4,
       "entities": [
         {
           "entity_id": "46955400",
-          "name": "LARIAT INC. REALTORS",
+          "name": "lariat_inc._realtors",
           "filing_number": "46955400"
         },
         {
           "entity_id": "60550300",
-          "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+          "name": "delta_southern_acceptance_corporation",
           "filing_number": "60550300"
         },
         {
           "entity_id": "18792700",
-          "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+          "name": "delta_southern_acceptance_corporation",
           "filing_number": "18792700"
         },
         {
           "entity_id": "17649900",
-          "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+          "name": "southwest_fabricating_&_welding_co.,_inc.",
           "filing_number": "17649900"
         }
       ],
@@ -205,67 +205,67 @@
       "entities": [
         {
           "entity_id": "805759678",
-          "name": "Lariat Realty Advisors, LLC",
+          "name": "lariat_realty_advisors,_llc",
           "filing_number": "805759678",
           "pattern": []
         },
         {
           "entity_id": "46955400",
-          "name": "LARIAT INC. REALTORS",
+          "name": "lariat_inc._realtors",
           "filing_number": "46955400",
           "pattern": []
         },
         {
           "entity_id": "802331657",
-          "name": "N/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988",
+          "name": "n/a_jurisdiction:_va,_usa_foreign_formation_date:_may_20,_1988",
           "filing_number": "802331657",
           "pattern": []
         },
         {
           "entity_id": "805818075",
-          "name": "Frippmore, LLC",
+          "name": "frippmore,_llc",
           "filing_number": "805818075",
           "pattern": []
         },
         {
           "entity_id": "802961755",
-          "name": "SDS Texas Realty, LLC",
+          "name": "sds_texas_realty,_llc",
           "filing_number": "802961755",
           "pattern": []
         },
         {
           "entity_id": "60550300",
-          "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+          "name": "delta_southern_acceptance_corporation",
           "filing_number": "60550300",
           "pattern": []
         },
         {
           "entity_id": "18792700",
-          "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+          "name": "delta_southern_acceptance_corporation",
           "filing_number": "18792700",
           "pattern": []
         },
         {
           "entity_id": "17649900",
-          "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+          "name": "southwest_fabricating_&_welding_co.,_inc.",
           "filing_number": "17649900",
           "pattern": []
         },
         {
           "entity_id": "803790640",
-          "name": "N/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001",
+          "name": "n/a_jurisdiction:_md,_usa_foreign_formation_date:_october_4,_2001",
           "filing_number": "803790640",
           "pattern": []
         },
         {
           "entity_id": "801542892",
-          "name": "Bozzuto Contracting TX, LLC",
+          "name": "bozzuto_contracting_tx,_llc",
           "filing_number": "801542892",
           "pattern": []
         },
         {
           "entity_id": "129768500",
-          "name": "GABLES RESIDENTIAL SERVICES, INC.",
+          "name": "gables_residential_services,_inc.",
           "filing_number": "129768500",
           "pattern": []
         }
@@ -278,7 +278,7 @@
       "entities": [
         {
           "entity_id": "804700244",
-          "name": "Kettler Land Management LLC",
+          "name": "kettler_land_management_llc",
           "filing_number": "804700244",
           "pattern": [
             "forfeited_status"
@@ -286,7 +286,7 @@
         },
         {
           "entity_id": "804058541",
-          "name": "DIVORCE NAVIGATORS, INC.",
+          "name": "divorce_navigators,_inc.",
           "filing_number": "804058541",
           "pattern": [
             "forfeited_status"
@@ -305,10 +305,10 @@
           "similarity": 0.9276757252940373,
           "entity1_info": {
             "filing_number": "801459833",
-            "name": "Lariat Realty Advisors, Inc.",
-            "address": "4600 FIRESTONE DR FRISCO, TX 75034 USA",
-            "status": "In existence",
-            "registered_agent": "Thoms L Bisanz - 4600 Firestone Drive",
+            "name": "lariat_realty_advisors,_inc.",
+            "address": "4600_firestone_dr_frisco,_tx_75034_usa",
+            "status": "in_existence",
+            "registered_agent": "thoms_l_bisanz_4600_firestone_drive",
             "tax_id": "32044752940",
             "has_tax_forfeiture": true,
             "has_reinstatement": true,
@@ -316,10 +316,10 @@
           },
           "entity2_info": {
             "filing_number": "805759678",
-            "name": "Lariat Realty Advisors, LLC",
-            "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
-            "status": "In existence",
-            "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+            "name": "lariat_realty_advisors,_llc",
+            "address": "4600_firestone_dr_frisco,_tx_75034_6847_usa",
+            "status": "in_existence",
+            "registered_agent": "thomas_bisanz_4600_firestone_drive",
             "tax_id": "32097336583",
             "original_id": "lariat_tx_805759678"
           }
@@ -330,31 +330,31 @@
           "similarity": 0.8867110624834238,
           "entity1_info": {
             "filing_number": "60550300",
-            "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-            "address": "[ADDRESS NOT PROVIDED]",
-            "status": "Voluntarily terminated",
-            "registered_agent": "C R Skidmore - RT 1 144 RED OAK",
+            "name": "delta_southern_acceptance_corporation",
+            "address": "[address_not_provided]",
+            "status": "voluntarily_terminated",
+            "registered_agent": "c_r_skidmore_rt_1_144_red_oak",
             "tax_id": "00000000000",
             "original_id": "lariat_tx_60550300"
           },
           "entity2_info": {
             "filing_number": "18792700",
-            "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
-            "address": "[ADDRESS NOT PROVIDED]",
-            "status": "Voluntarily terminated",
+            "name": "delta_southern_acceptance_corporation",
+            "address": "[address_not_provided]",
+            "status": "voluntarily_terminated",
             "tax_id": "00000000000",
             "original_id": "lariat_tx_18792700"
           }
         }
       ],
-      "description": "Entities with very high embedding similarity (>=0.85)"
+      "description": "entities_with_very_high_embedding_similarity_(>=0.85)"
     }
   ],
   "investigation_candidates": [
     {
       "entity_id": "46955400",
       "filing_number": "46955400",
-      "name": "LARIAT INC. REALTORS",
+      "name": "lariat_inc._realtors",
       "cluster_count": 2,
       "violations": {
         "has_tax_forfeiture": false,
@@ -365,7 +365,7 @@
     {
       "entity_id": "60550300",
       "filing_number": "60550300",
-      "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+      "name": "delta_southern_acceptance_corporation",
       "cluster_count": 2,
       "violations": {
         "has_tax_forfeiture": false,
@@ -376,7 +376,7 @@
     {
       "entity_id": "18792700",
       "filing_number": "18792700",
-      "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+      "name": "delta_southern_acceptance_corporation",
       "cluster_count": 2,
       "violations": {
         "has_tax_forfeiture": false,
@@ -387,7 +387,7 @@
     {
       "entity_id": "17649900",
       "filing_number": "17649900",
-      "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+      "name": "southwest_fabricating_&_welding_co.,_inc.",
       "cluster_count": 2,
       "violations": {
         "has_tax_forfeiture": false,
@@ -405,8 +405,8 @@
     "high_risk_entities": 4
   },
   "metadata": {
-    "generated": "2025-12-11T01:48:08.764590",
+    "generated": "2025_12_11t01:48:08.764590",
     "source": "embedding_violation_analysis.py",
-    "embedding_model": "all-MiniLM-L6-v2"
+    "embedding_model": "all_minilm_l6_v2"
   }
 }

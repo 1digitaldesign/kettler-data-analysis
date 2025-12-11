@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:55:08.534673",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_2370.json",
+    "created": "2025_12_11t00:55:08.534673",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_2370.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 2370,
-    "text": "1303040135\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\nRC IHNMARMOD C2,H8 0 ,13TA\nhaeCTeStt o rporaitonC ommissionho afus nhdtea ccompanyingai rtclesus bemitdot nb ehaol ff\nMaAsse ntagemeLn LtClKetetr\na n,dco nocot mplwhy ihteret quirelmeo ans fwt (cid:222) hTereoifre t,prms aaymeo ln flret quireedfe s.\nRiODhs ERhtiEDta s t\nNOITARANZOGI FOE TCIAFITCER\nbei ssueda nda deoremitdt cot rdwh ihteait rtcloeo rgs fanizaitonihf nteO (cid:222) hteChceo lte feo rk f\neifctveMa2 rch8 0 ,13.Commissioen f,\nNOSSINCMMIO OITCRRE OPOATAST Jeane\nBy\nJaDmeC is .mirit\nCommissioner\nDLLCACPT\nCS0I343\n13-03-07-1233",
+    "text": "1303040135_nariivig_fhot_nealcmmowo_nossincmmio_oitcrre_opoatast_rc_ihnmarmod_c2,h8_0_,13ta_haectestt_o_rporaitonc_ommissionho_afus_nhdtea_ccompanyingai_rtclesus_bemitdot_nb_ehaol_ff_maasse_ntagemeln_ltclketetr_a_n,dco_nocot_mplwhy_ihteret_quirelmeo_ans_fwt_(cid:222)_htereoifre_t,prms_aaymeo_ln_flret_quireedfe_s._riodhs_erhtiedta_s_t_noitaranzogi_foe_tciafitcer_bei_ssueda_nda_deoremitdt_cot_rdwh_ihteait_rtcloeo_rgs_fanizaitonihf_nteo_(cid:222)_htechceo_lte_feo_rk_f_eifctvema2_rch8_0_,13.commissioen_f,_nossincmmio_oitcrre_opoatast_jeane_by_jadmec_is_.mirit_commissioner_dllcacpt_cs0i343_13_03_07_1233",
     "char_count": 605,
     "word_count": 84,
     "anomalies": {
       "page_number": 2370,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 2370 | text: 1303040135\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\nRC IHNMARMOD C2,H8 0 ,13TA\nhaeCTeStt o rporaitonC ommissionho afus nhdtea ccompanyingai rtclesus bemitdot nb ehaol ff\nMaAsse ntagemeLn LtClKetetr\na n,dco nocot mplwhy ihteret quirelmeo ans fwt (cid:222) hTereoifre t,prms aaymeo ln flret quireedfe s.\nRiODhs ERhtiEDta s t\nNOITARANZOGI FOE TCIAFITCER\nbei ssueda nda deoremitdt cot rdwh ihteait rtcloeo rgs fanizaitonihf nteO (cid:222) hteChceo lte feo rk f\neifctveMa2 rch8 0 ,13.Commissioen f,\nNOSSINCMMIO OITCRRE OPOATAST Jeane\nBy\nJaDmeC is .mirit\nCommissioner\nDLLCACPT\nCS0I343\n13-03-07-1233 | char_count: 605 | word_count: 84 | anomalies: {\"page_number\":2370,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_2370_|_text:_1303040135_nariivig_fhot_nealcmmowo_nossincmmio_oitcrre_opoatast_rc_ihnmarmod_c2,h8_0_,13ta_haectestt_o_rporaitonc_ommissionho_afus_nhdtea_ccompanyingai_rtclesus_bemitdot_nb_ehaol_ff_maasse_ntagemeln_ltclketetr_a_n,dco_nocot_mplwhy_ihteret_quirelmeo_ans_fwt_(cid:222)_htereoifre_t,prms_aaymeo_ln_flret_quireedfe_s._riodhs_erhtiedta_s_t_noitaranzogi_foe_tciafitcer_bei_ssueda_nda_deoremitdt_cot_rdwh_ihteait_rtcloeo_rgs_fanizaitonihf_nteo_(cid:222)_htechceo_lte_feo_rk_f_eifctvema2_rch8_0_,13.commissioen_f,_nossincmmio_oitcrre_opoatast_jeane_by_jadmec_is_.mirit_commissioner_dllcacpt_cs0i343_13_03_07_1233_|_char_count:_605_|_word_count:_84_|_anomalies:_{\"page_number\":2370,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.050373077392578125,
     0.05000487342476845,

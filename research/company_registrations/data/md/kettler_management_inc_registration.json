@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:46:31.516338",
-    "company": "Kettler Management Inc",
-    "state": "Maryland",
-    "search_url": "https://egov.maryland.gov/BusinessExpress/",
-    "search_method": "Browser automation"
+    "date": "2025_12_10t20:46:31.516338",
+    "company": "kettler_management_inc",
+    "state": "md",
+    "search_url": "https://egov.maryland.gov/businessexpress/",
+    "search_method": "browser_automation"
   },
   "findings": {
     "registered": false,
@@ -14,5 +14,5 @@
     "business_address": null,
     "status": null
   },
-  "conclusion": "Kettler Management Inc registration status in Maryland"
+  "conclusion": "kettler_management_inc_registration_status_in_maryland"
 }

@@ -1,104 +1,104 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.315261",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0191.json",
+    "created": "2025_12_11t00:52:02.315261",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0191.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 191,
-    "text": "s.e, Incc Srvileaintssdee ReiGbla\nOfficers\n1521\nIN\nName Title Address\nDaichviFtdD . President and 2859 Paces Ferry Road\nChief Executive Officer Suite 1450\nAtlanta, GA 30339\nAnsleSusn Ma. venueA3500Ma ple\nSenior Vice President,\nChpiOee raiftnfgO (cid:222) cear ndSu ie4t 35\nAssiaSestn creattry 7X 5T219Dalla s,\nsDa Gsougl. Chenut icePre sidentSenioVr venueA3500Ma ple\nSuie4t 35\nDallas, TX 75219\nDwan Hrt. Svee Senior Vice President, 2859 Paces Ferry Road\nChief Financial Officer, Suite 1450\nSecretary and Treasurer Atlanta, GA 30339\nnvai. Slul FnasiCrit Senior Vice President 777 Yamato Road\n510eStui\n33431on, FtL RaaBoc\nrbeliWJosph Ge. Senior Vice President 2859 Paces Ferry Road\n1450eStui\nAtlanta, GA 30339\nJoni K. Bastuba Vice President of Human 777 Yamato Road\nResources Suite 510\nBoca Raton, FL 33431\nRobert D. Lamb Vice President 777 Yamato Road\nSuite 510\nBoca Raton, FL 33431\nJana Muma Vice President 2925 Briarpark\nSuite 1220*\nXT 77042Houson, t\nnd ant PsdeereiciV do RoatamaY777\nAlexander G. Panzeri\nryatreA Scsntessait 510eStui\n33431on, FtL RaaBoc\nAsntssait, nt PsdeereiciV\nDennis E. Rainosek 2925 Briarpark\nAsntssaitnd , aryatreSce Suite 1220\nsraurereT\nHouston, TX 77042\nnt PsdeereiciV\nDavid L. Skelton 2859 Paces Ferry Road\n1450eStui\n30339, GaAntaAlt\nDonna Summers nt PsdeereiciV nueveA e3500 Mpla\n435eStui\nXT 75219sa, lDla\nlwleeTAy I. sehl nd ant PsdeereiciV sde Frry Roa2859 Pcea\nryatreA Scsntessait 1450eStui\n30339, GaAntaAlt",
+    "text": "s.e,_incc_srvileaintssdee_reigbla_officers_1521_in_name_title_address_daichviftdd_._president_and_2859_paces_ferry_road_chief_executive_officer_suite_1450_atlanta,_ga_30339_anslesusn_ma._venuea3500ma_ple_senior_vice_president,_chpioee_raiftnfgo_(cid:222)_cear_ndsu_ie4t_35_assiasestn_creattry_7x_5t219dalla_s,_sda_gsougl._chenut_icepre_sidentseniovr_venuea3500ma_ple_suie4t_35_dallas,_tx_75219_dwan_hrt._svee_senior_vice_president,_2859_paces_ferry_road_chief_financial_officer,_suite_1450_secretary_and_treasurer_atlanta,_ga_30339_nvai._slul_fnasicrit_senior_vice_president_777_yamato_road_510estui_33431on,_ftl_raaboc_rbeliwjosph_ge._senior_vice_president_2859_paces_ferry_road_1450estui_atlanta,_ga_30339_joni_k._bastuba_vice_president_of_human_777_yamato_road_resources_suite_510_boca_raton,_fl_33431_robert_d._lamb_vice_president_777_yamato_road_suite_510_boca_raton,_fl_33431_jana_muma_vice_president_2925_briarpark_suite_1220*_xt_77042houson,_t_nd_ant_psdeereiciv_do_roatamay777_alexander_g._panzeri_ryatrea_scsntessait_510estui_33431on,_ftl_raaboc_asntssait,_nt_psdeereiciv_dennis_e._rainosek_2925_briarpark_asntssaitnd_,_aryatresce_suite_1220_sraureret_houston,_tx_77042_nt_psdeereiciv_david_l._skelton_2859_paces_ferry_road_1450estui_30339,_gaantaalt_donna_summers_nt_psdeereiciv_nuevea_e3500_mpla_435estui_xt_75219sa,_ldla_lwleetay_i._sehl_nd_ant_psdeereiciv_sde_frry_roa2859_pcea_ryatrea_scsntessait_1450estui_30339,_gaantaalt",
     "char_count": 1438,
     "word_count": 215,
     "anomalies": {
       "page_number": 191,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [
         {
           "count": 8,
           "addresses": [
             {
-              "full_match": "Atlanta, GA 30339",
+              "full_match": "atlanta,_ga_30339",
               "groups": [
-                "Atlanta",
-                "GA",
+                "atlanta",
+                "ga",
                 "30339"
               ],
               "start": 155,
               "end": 172
             },
             {
-              "full_match": "Dallas, TX 75219",
+              "full_match": "dallas,_tx_75219",
               "groups": [
-                "Dallas",
-                "TX",
+                "dallas",
+                "tx",
                 "75219"
               ],
               "start": 377,
               "end": 393
             },
             {
-              "full_match": "Treasurer Atlanta, GA 30339",
+              "full_match": "treasurer_atlanta,_ga_30339",
               "groups": [
-                "Treasurer Atlanta",
-                "GA",
+                "treasurer_atlanta",
+                "ga",
                 "30339"
               ],
               "start": 504,
               "end": 531
             },
             {
-              "full_match": "Stui\nAtlanta, GA 30339",
+              "full_match": "stui_atlanta,_ga_30339",
               "groups": [
-                "Stui\nAtlanta",
-                "GA",
+                "stui_atlanta",
+                "ga",
                 "30339"
               ],
               "start": 685,
               "end": 707
             },
             {
-              "full_match": "Boca Raton, FL 33431",
+              "full_match": "boca_raton,_fl_33431",
               "groups": [
-                "Boca Raton",
-                "FL",
+                "boca_raton",
+                "fl",
                 "33431"
               ],
               "start": 784,
               "end": 804
             },
             {
-              "full_match": "Boca Raton, FL 33431",
+              "full_match": "boca_raton,_fl_33431",
               "groups": [
-                "Boca Raton",
-                "FL",
+                "boca_raton",
+                "fl",
                 "33431"
               ],
               "start": 861,
               "end": 881
             },
             {
-              "full_match": "Houston, TX 77042",
+              "full_match": "houston,_tx_77042",
               "groups": [
-                "Houston",
-                "TX",
+                "houston",
+                "tx",
                 "77042"
               ],
               "start": 1162,
               "end": 1179
             },
             {
-              "full_match": "Stui\nXT 75219",
+              "full_match": "stui_xt_75219",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75219"
               ],
               "start": 1312,
               "end": 1325
             }
           ],
-          "pattern": "Multiple addresses clustered",
+          "pattern": "multiple_addresses_clustered",
           "severity": "medium"
         }
       ],
@@ -106,12 +106,12 @@
       "date_sequences": [],
       "suspicious_patterns": [
         {
-          "pattern": "Multiple states mentioned",
+          "pattern": "multiple_states_mentioned",
           "states": [
-            "GA",
-            "TX",
-            "FL",
-            "IN"
+            "ga",
+            "tx",
+            "fl",
+            "in"
           ],
           "count": 8,
           "severity": "medium"
@@ -119,7 +119,7 @@
       ]
     }
   },
-  "text_representation": "page_number: 191 | text: s.e, Incc Srvileaintssdee ReiGbla\nOfficers\n1521\nIN\nName Title Address\nDaichviFtdD . President and 2859 Paces Ferry Road\nChief Executive Officer Suite 1450\nAtlanta, GA 30339\nAnsleSusn Ma. venueA3500Ma ple\nSenior Vice President,\nChpiOee raiftnfgO (cid:222) cear ndSu ie4t 35\nAssiaSestn creattry 7X 5T219Dalla s,\nsDa Gsougl. Chenut icePre sidentSenioVr venueA3500Ma ple\nSuie4t 35\nDallas, TX 75219\nDwan Hrt. Svee Senior Vice President, 2859 Paces Ferry Road\nChief Financial Officer, Suite 1450\nSecretary and Treasurer Atlanta, GA 30339\nnvai. Slul FnasiCrit Senior Vice President 777 Yamato Road\n510eStui\n33431on, FtL RaaBoc\nrbeliWJosph Ge. Senior Vice President 2859 Paces Ferry Road\n1450eStui\nAtlanta, GA 30339\nJoni K. Bastuba Vice President of Human 777 Yamato Road\nResources Suite 510\nBoca Raton, FL 33431\nRobert D. Lamb Vice President 777 Yamato Road\nSuite 510\nBoca Raton, FL 33431\nJana Muma Vice President 2925 Briarpark\nSuite 1220*\nXT 77042Houson, t\nnd ant PsdeereiciV do RoatamaY777\nAlexander G. Panzeri\nryatreA Scsntessait 510eStui\n33431on, FtL RaaBoc\nAsntssait, nt PsdeereiciV\nDennis E. Rainosek 2925 Briarpark\nAsntssaitnd , aryatreSce Suite 1220\nsraurereT\nHouston, TX 77042\nnt PsdeereiciV\nDavid L. Skelton 2859 Paces Ferry Road\n1450eStui\n30339, GaAntaAlt\nDonna Summers nt PsdeereiciV nueveA e3500 Mpla\n435eStui\nXT 75219sa, lDla\nlwleeTAy I. sehl nd ant PsdeereiciV sde Frry Roa2859 Pcea\nryatreA Scsntessait 1450eStui\n30339, GaAntaAlt | char_count: 1438 | word_count: 215 | anomalies: {\"page_number\":191,\"source\":\"lariat-merged\",\"address_clusters\":[{\"count\":8,\"addresses\":[{\"full_match\":\"Atlanta, GA 30339\",\"groups\":[\"Atlanta\",\"GA\",\"30339\"],\"start\":155,\"end\":172},{\"full_match\":\"Dallas, TX 75219\",\"groups\":[\"Dallas\",\"TX\",\"75219\"],\"start\":377,\"end\":393},{\"full_match\":\"Treasurer Atlanta, GA 30339\",\"groups\":[\"Treasurer Atlanta\",\"GA\",\"30339\"],\"start\":504,\"end\":531},{\"full_match\":\"Stui\\nAtlanta, GA 30339\",\"groups\":[\"Stui\\nAtlanta\",\"GA\",\"30339\"],\"start\":685,\"end\":707},{\"full_match\":\"Boca Raton, FL 33431\",\"groups\":[\"Boca Raton\",\"FL\",\"33431\"],\"start\":784,\"end\":804},{\"full_match\":\"Boca Raton, FL 33431\",\"groups\":[\"Boca Raton\",\"FL\",\"33431\"],\"start\":861,\"end\":881},{\"full_match\":\"Houston, TX 77042\",\"groups\":[\"Houston\",\"TX\",\"77042\"],\"start\":1162,\"end\":1179},{\"full_match\":\"Stui\\nXT 75219\",\"groups\":[\"Stui\",\"XT\",\"75219\"],\"start\":1312,\"end\":1325}],\"pattern\":\"Multiple addresses clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[{\"pattern\":\"Multiple states mentioned\",\"states\":[\"GA\",\"TX\",\"FL\",\"IN\"],\"count\":8,\"severity\":\"medium\"}]}",
+  "text_representation": "page_number:_191_|_text:_s.e,_incc_srvileaintssdee_reigbla_officers_1521_in_name_title_address_daichviftdd_._president_and_2859_paces_ferry_road_chief_executive_officer_suite_1450_atlanta,_ga_30339_anslesusn_ma._venuea3500ma_ple_senior_vice_president,_chpioee_raiftnfgo_(cid:222)_cear_ndsu_ie4t_35_assiasestn_creattry_7x_5t219dalla_s,_sda_gsougl._chenut_icepre_sidentseniovr_venuea3500ma_ple_suie4t_35_dallas,_tx_75219_dwan_hrt._svee_senior_vice_president,_2859_paces_ferry_road_chief_financial_officer,_suite_1450_secretary_and_treasurer_atlanta,_ga_30339_nvai._slul_fnasicrit_senior_vice_president_777_yamato_road_510estui_33431on,_ftl_raaboc_rbeliwjosph_ge._senior_vice_president_2859_paces_ferry_road_1450estui_atlanta,_ga_30339_joni_k._bastuba_vice_president_of_human_777_yamato_road_resources_suite_510_boca_raton,_fl_33431_robert_d._lamb_vice_president_777_yamato_road_suite_510_boca_raton,_fl_33431_jana_muma_vice_president_2925_briarpark_suite_1220*_xt_77042houson,_t_nd_ant_psdeereiciv_do_roatamay777_alexander_g._panzeri_ryatrea_scsntessait_510estui_33431on,_ftl_raaboc_asntssait,_nt_psdeereiciv_dennis_e._rainosek_2925_briarpark_asntssaitnd_,_aryatresce_suite_1220_sraureret_houston,_tx_77042_nt_psdeereiciv_david_l._skelton_2859_paces_ferry_road_1450estui_30339,_gaantaalt_donna_summers_nt_psdeereiciv_nuevea_e3500_mpla_435estui_xt_75219sa,_ldla_lwleetay_i._sehl_nd_ant_psdeereiciv_sde_frry_roa2859_pcea_ryatrea_scsntessait_1450estui_30339,_gaantaalt_|_char_count:_1438_|_word_count:_215_|_anomalies:_{\"page_number\":191,\"source\":\"lariat_merged\",\"address_clusters\":[{\"count\":8,\"addresses\":[{\"full_match\":\"atlanta,_ga_30339\",\"groups\":[\"atlanta\",\"ga\",\"30339\"],\"start\":155,\"end\":172},{\"full_match\":\"dallas,_tx_75219\",\"groups\":[\"dallas\",\"tx\",\"75219\"],\"start\":377,\"end\":393},{\"full_match\":\"treasurer_atlanta,_ga_30339\",\"groups\":[\"treasurer_atlanta\",\"ga\",\"30339\"],\"start\":504,\"end\":531},{\"full_match\":\"stui\\natlanta,_ga_30339\",\"groups\":[\"stui\\natlanta\",\"ga\",\"30339\"],\"start\":685,\"end\":707},{\"full_match\":\"boca_raton,_fl_33431\",\"groups\":[\"boca_raton\",\"fl\",\"33431\"],\"start\":784,\"end\":804},{\"full_match\":\"boca_raton,_fl_33431\",\"groups\":[\"boca_raton\",\"fl\",\"33431\"],\"start\":861,\"end\":881},{\"full_match\":\"houston,_tx_77042\",\"groups\":[\"houston\",\"tx\",\"77042\"],\"start\":1162,\"end\":1179},{\"full_match\":\"stui\\nxt_75219\",\"groups\":[\"stui\",\"xt\",\"75219\"],\"start\":1312,\"end\":1325}],\"pattern\":\"multiple_addresses_clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[{\"pattern\":\"multiple_states_mentioned\",\"states\":[\"ga\",\"tx\",\"fl\",\"in\"],\"count\":8,\"severity\":\"medium\"}]}",
   "embedding": [
     -0.10774432122707367,
     -0.02260030061006546,

@@ -1,18 +1,18 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:41.100374",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/names/name_804058541_0.json",
+    "created": "2025_12_11t00:21:41.100374",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/names/name_804058541_0.json",
     "has_embedding": true
   },
   "data": {
-    "name": "DIVORCE NAVIGATORS, INC.",
-    "name_status": "Inactive",
-    "name_type": "Legal",
-    "name_inactive_date": "March 10, 2023",
+    "name": "divorce_navigators,_inc.",
+    "name_status": "inactive",
+    "name_type": "legal",
+    "name_inactive_date": "march_10,_2023",
     "consent_filing_number": "0"
   },
-  "text_representation": "name: DIVORCE NAVIGATORS, INC. | name_status: Inactive | name_type: Legal | name_inactive_date: March 10, 2023 | consent_filing_number: 0",
+  "text_representation": "name:_divorce_navigators,_inc._|_name_status:_inactive_|_name_type:_legal_|_name_inactive_date:_march_10,_2023_|_consent_filing_number:_0",
   "embedding": [
     -0.05782691016793251,
     -0.0005175431142561138,

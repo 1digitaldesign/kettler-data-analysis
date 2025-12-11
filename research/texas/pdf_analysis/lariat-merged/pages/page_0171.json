@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:01.913543",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0171.json",
+    "created": "2025_12_11t00:52:01.913543",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0171.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 171,
-    "text": "MAR-31-2000 07:48 CT BOSTON\nP. 03/10\ni..?\nIN WITNESS WHEREOF, the undersigned, the President of the Corporation, has\nAmenhdoteCmet ein rttiArtcleo s fexecuehtdte se (cid:222) nIcocaeo rpt foraihtotednao aese s ft t\nohafrt bove\nName: Chris D. Wheeler\nntPsderei\nTitle:\nDOCS1882303.1",
+    "text": "mar_31_2000_07:48_ct_boston_p._03/10_i..?_in_witness_whereof,_the_undersigned,_the_president_of_the_corporation,_has_amenhdotecmet_ein_rttiartcleo_s_fexecuehtdte_se_(cid:222)_nicocaeo_rpt_foraihtotednao_aese_s_ft_t_ohafrt_bove_name:_chris_d._wheeler_ntpsderei_title:_docs1882303.1",
     "char_count": 280,
     "word_count": 41,
     "anomalies": {
       "page_number": 171,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 171 | text: MAR-31-2000 07:48 CT BOSTON\nP. 03/10\ni..?\nIN WITNESS WHEREOF, the undersigned, the President of the Corporation, has\nAmenhdoteCmet ein rttiArtcleo s fexecuehtdte se (cid:222) nIcocaeo rpt foraihtotednao aese s ft t\nohafrt bove\nName: Chris D. Wheeler\nntPsderei\nTitle:\nDOCS1882303.1 | char_count: 280 | word_count: 41 | anomalies: {\"page_number\":171,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_171_|_text:_mar_31_2000_07:48_ct_boston_p._03/10_i..?_in_witness_whereof,_the_undersigned,_the_president_of_the_corporation,_has_amenhdotecmet_ein_rttiartcleo_s_fexecuehtdte_se_(cid:222)_nicocaeo_rpt_foraihtotednao_aese_s_ft_t_ohafrt_bove_name:_chris_d._wheeler_ntpsderei_title:_docs1882303.1_|_char_count:_280_|_word_count:_41_|_anomalies:_{\"page_number\":171,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.07520054280757904,
     0.04459530487656593,

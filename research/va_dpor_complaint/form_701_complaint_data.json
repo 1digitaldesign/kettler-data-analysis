@@ -1,539 +1,539 @@
 {
-  "form_type": "VA DPOR Form 701 - Complaint Against Real Estate Licensee",
-  "preparation_date": "2025-12-11",
+  "form_type": "va_dpor_form_701_complaint_against_real_estate_licensee",
+  "preparation_date": "2025_12_11",
   "status": "ready_for_filing",
   "section_i_complainant_information": {
-    "complainant_name": "Betty Tai",
+    "complainant_name": "betty_tai",
     "contact_information": {
       "email": "bettyctai@gmail.com",
-      "phone": "516-246-0305",
-      "address": "[To be provided by complainant]"
+      "phone": "516_246_0305",
+      "address": "[to_be_provided_by_complainant]"
     },
-    "relationship_to_matter": "Tenant/Consumer",
-    "property_address": "850 John Carlyle St Apt 533, Alexandria, VA 22314",
+    "relationship_to_matter": "tenant/consumer",
+    "property_address": "850_john_carlyle_st_apt_533,_alexandria,_va_22314",
     "unit_number": "533",
-    "property_name": "800 Carlyle Apartments",
-    "management_company": "Kettler Management Inc."
+    "property_name": "800_carlyle_apartments",
+    "management_company": "kettler_management_inc."
   },
   "section_ii_respondent_information": {
     "primary_respondent": {
-      "name": "KETTLER MANAGEMENT INC",
-      "license_type": "Real Estate Firm License",
+      "name": "kettler_management_inc",
+      "license_type": "real_estate_firm_license",
       "license_number": "0226025311",
-      "license_status": "Active",
-      "business_address": "8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
-      "mailing_address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-      "entity_type": "Stock Corporation",
+      "license_status": "active",
+      "business_address": "8255_greensboro_dr_ste_#200,_mclean,_va_22102",
+      "mailing_address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+      "entity_type": "stock_corporation",
       "entity_id": "03218674",
-      "registered_agent": "NATIONAL REGISTERED AGENTS, INC.",
-      "fictitious_name": "Kettler Management Corp.",
+      "registered_agent": "national_registered_agents,_inc.",
+      "fictitious_name": "kettler_management_corp.",
       "principal_broker": {
-        "name": "SKIDMORE CAITLIN MARIE",
+        "name": "skidmore_caitlin_marie",
         "license_number": "0225273926",
-        "license_type": "Real Estate Broker",
-        "license_state": "District of Columbia",
-        "assigned_date": "2025-04-03",
-        "address": "5729 LEBANON RD STE 144553, FRISCO, TX 75034",
-        "distance_from_firm": "approximately 1,300 miles"
+        "license_type": "real_estate_broker",
+        "license_state": "dc",
+        "assigned_date": "2025_04_03",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+        "distance_from_firm": "approximately_1,300_miles"
       },
-      "initial_certification_date": "2014-10-31",
-      "expiration_date": "2026-10-31",
+      "initial_certification_date": "2014_10_31",
+      "expiration_date": "2026_10_31",
       "email_domain": "kettler.com",
       "website": "kettler.com"
     },
     "individual_respondents": [
       {
-        "name": "Edward Hyland",
-        "title": "Senior Regional Manager",
+        "name": "edward_hyland",
+        "title": "senior_regional_manager",
         "email": "ehyland@kettler.com",
-        "license_status": "UNLICENSED",
+        "license_status": "unlicensed",
         "license_verification": {
-          "virginia": "No license found",
-          "texas": "No license found",
-          "maryland": "No license found",
-          "district_of_columbia": "No license found",
-          "north_carolina": "No license found",
+          "va": "no_license_found",
+          "tx": "no_license_found",
+          "md": "no_license_found",
+          "dc": "no_license_found",
+          "north_carolina": "no_license_found",
           "all_states_checked": 16,
           "confirmed_unlicensed": true
         },
         "activities_conducted": [
-          "Lease termination decisions",
-          "Reasonable accommodation denials",
-          "Property management oversight",
-          "Lease administration"
+          "lease_termination_decisions",
+          "reasonable_accommodation_denials",
+          "property_management_oversight",
+          "lease_administration"
         ],
         "properties_managed": [
-          "800 Carlyle Apartments, Alexandria VA",
-          "Sinclaire on Seminary, Alexandria VA"
+          "800_carlyle_apartments,_alexandria_va",
+          "sinclaire_on_seminary,_alexandria_va"
         ],
-        "employment_start": "2022-09",
+        "employment_start": "2022_09",
         "violations": [
-          "Unlicensed practice of real estate",
-          "Making lease decisions without license",
-          "Property management without license"
+          "unlicensed_practice_of_real_estate",
+          "making_lease_decisions_without_license",
+          "property_management_without_license"
         ]
       },
       {
-        "name": "Djene Moyer",
-        "title": "Community Manager",
-        "email": "[To be verified]",
-        "license_status": "UNLICENSED",
+        "name": "djene_moyer",
+        "title": "community_manager",
+        "email": "[to_be_verified]",
+        "license_status": "unlicensed",
         "license_verification": {
-          "virginia": "No license found",
-          "texas": "No license found",
-          "maryland": "No license found",
-          "district_of_columbia": "No license found",
-          "north_carolina": "No license found",
+          "va": "no_license_found",
+          "tx": "no_license_found",
+          "md": "no_license_found",
+          "dc": "no_license_found",
+          "north_carolina": "no_license_found",
           "all_states_checked": 16,
           "confirmed_unlicensed": true
         },
         "activities_conducted": [
-          "On-site property management",
-          "Lease administration",
-          "Property showings",
-          "Rent collection"
+          "on_site_property_management",
+          "lease_administration",
+          "property_showings",
+          "rent_collection"
         ],
-        "property": "800 Carlyle Apartments, Alexandria VA",
+        "property": "800_carlyle_apartments,_alexandria_va",
         "violations": [
-          "Unlicensed practice of real estate",
-          "Conducting property showings without license",
-          "Lease administration without license"
+          "unlicensed_practice_of_real_estate",
+          "conducting_property_showings_without_license",
+          "lease_administration_without_license"
         ]
       },
       {
-        "name": "Robert Grealy",
-        "title": "SVP Operations",
-        "license_status": "UNLICENSED",
+        "name": "robert_grealy",
+        "title": "svp_operations",
+        "license_status": "unlicensed",
         "license_verification": {
           "all_states_checked": 16,
           "confirmed_unlicensed": true
         },
         "units_managed": "28,000+",
         "violations": [
-          "Unlicensed supervision of unlicensed personnel",
-          "Operations management without license"
+          "unlicensed_supervision_of_unlicensed_personnel",
+          "operations_management_without_license"
         ]
       },
       {
-        "name": "Amy Groff",
-        "title": "VP Operations",
-        "license_status": "UNLICENSED",
+        "name": "amy_groff",
+        "title": "vp_operations",
+        "license_status": "unlicensed",
         "license_verification": {
           "all_states_checked": 16,
           "confirmed_unlicensed": true
         },
         "units_managed": "11,000+",
         "violations": [
-          "Unlicensed supervision of unlicensed personnel",
-          "Operations management without license"
+          "unlicensed_supervision_of_unlicensed_personnel",
+          "operations_management_without_license"
         ]
       },
       {
-        "name": "Henry Ramos",
-        "title": "Property Manager",
-        "license_status": "UNLICENSED",
+        "name": "henry_ramos",
+        "title": "property_manager",
+        "license_status": "unlicensed",
         "license_verification": {
           "all_states_checked": 16,
           "confirmed_unlicensed": true
         },
         "violations": [
-          "Unlicensed practice of real estate",
-          "Property management without license"
+          "unlicensed_practice_of_real_estate",
+          "property_management_without_license"
         ]
       },
       {
-        "name": "Caitlin Skidmore",
-        "title": "Principal Broker",
+        "name": "caitlin_skidmore",
+        "title": "principal_broker",
         "license_number": "0225273926",
-        "license_state": "District of Columbia",
-        "license_status": "LICENSED",
-        "address": "5729 LEBANON RD STE 144553, FRISCO, TX 75034",
+        "license_state": "dc",
+        "license_status": "licensed",
+        "address": "5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
         "firms_supervised": 38,
         "violations": [
-          "50-mile rule violation (1,300 miles)",
-          "Inadequate supervision (38 firms)",
-          "Geographic impossibility of active supervision"
+          "50_mile_rule_violation_(1,300_miles)",
+          "inadequate_supervision_(38_firms)",
+          "geographic_impossibility_of_active_supervision"
         ]
       }
     ],
     "related_entities": [
       {
-        "name": "Lariat Realty Advisors, Inc.",
-        "entity_type": "Domestic For-Profit Corporation",
+        "name": "lariat_realty_advisors,_inc.",
+        "entity_type": "domestic_for_profit_corporation",
         "filing_number": "801459833",
-        "formation_date": "2011-07-28",
-        "address": "4600 Firestone Drive, Frisco, TX 75034",
-        "role": "Broker service provider",
-        "connection": "Provides principal broker (Caitlin Skidmore) to Kettler Management Inc."
+        "formation_date": "2011_07_28",
+        "address": "4600_firestone_drive,_frisco,_tx_75034",
+        "role": "broker_service_provider",
+        "connection": "provides_principal_broker_(caitlin_skidmore)_to_kettler_management_inc."
       }
     ]
   },
   "section_iii_complaint_details": {
-    "complaint_summary": "Kettler Management Inc. (License #0226025311) and multiple unlicensed employees have engaged in systematic violations of Virginia real estate licensing laws, including: (1) operating without principal broker supervision for 10.5 years (2014-2025), (2) principal broker located 1,300 miles away violating 50-mile rule, (3) multiple unlicensed employees conducting real estate activities, and (4) pattern of regulatory non-compliance.",
+    "complaint_summary": "kettler_management_inc._(license_#0226025311)_and_multiple_unlicensed_employees_have_engaged_in_systematic_violations_of_virginia_real_estate_licensing_laws,_including:_(1)_operating_without_principal_broker_supervision_for_10.5_years_(2014_2025),_(2)_principal_broker_located_1,300_miles_away_violating_50_mile_rule,_(3)_multiple_unlicensed_employees_conducting_real_estate_activities,_and_(4)_pattern_of_regulatory_non_compliance.",
     "violations": [
       {
         "violation_number": 1,
-        "violation_type": "Principal Broker Gap",
-        "regulation": "VA Code § 54.1-2106.1",
-        "description": "Kettler Management Inc. operated without identifiable principal broker from October 31, 2014 through April 3, 2025 (10.5 years, 3,840 days)",
-        "severity": "CRITICAL",
+        "violation_type": "principal_broker_gap",
+        "regulation": "va_code_§_54.1_2106.1",
+        "description": "kettler_management_inc._operated_without_identifiable_principal_broker_from_october_31,_2014_through_april_3,_2025_(10.5_years,_3,840_days)",
+        "severity": "critical",
         "evidence": [
-          "Firm license issued: October 31, 2014",
-          "Principal broker assigned: April 3, 2025",
-          "Gap period: 10.5 years",
-          "Operations during gap: Managed Virginia properties including 800 Carlyle Apartments"
+          "firm_license_issued:_october_31,_2014",
+          "principal_broker_assigned:_april_3,_2025",
+          "gap_period:_10.5_years",
+          "operations_during_gap:_managed_virginia_properties_including_800_carlyle_apartments"
         ],
-        "legal_basis": "VA Code § 54.1-2106.1 requires Principal Broker to exercise active supervision of firm's real estate activities",
-        "penalty": "Civil penalties up to $1,000 per transaction under VA Code § 54.1-2105.2"
+        "legal_basis": "va_code_§_54.1_2106.1_requires_principal_broker_to_exercise_active_supervision_of_firm's_real_estate_activities",
+        "penalty": "civil_penalties_up_to_$1,000_per_transaction_under_va_code_§_54.1_2105.2"
       },
       {
         "violation_number": 2,
-        "violation_type": "50-Mile Rule Violation",
-        "regulation": "18 VAC 135-20-60",
-        "description": "Principal broker Caitlin Skidmore located in Frisco, TX (1,300 miles from McLean, VA office) exceeds 50-mile limit by 1,250 miles (2,500% over limit)",
-        "severity": "EXTREME",
+        "violation_type": "50_mile_rule_violation",
+        "regulation": "18_vac_135_20_60",
+        "description": "principal_broker_caitlin_skidmore_located_in_frisco,_tx_(1,300_miles_from_mclean,_va_office)_exceeds_50_mile_limit_by_1,250_miles_(2,500%_over_limit)",
+        "severity": "extreme",
         "evidence": [
-          "Principal broker address: 5729 LEBANON RD STE 144553, FRISCO, TX 75034",
-          "Firm office address: 8255 GREENSBORO DR STE #200, MCLEAN, VA 22102",
-          "Distance: approximately 1,300 miles",
-          "Exceedance: 1,250 miles over 50-mile limit",
-          "Driving time: 19-20 hours one way",
-          "Flying time: 3 hours one way + airport time"
+          "principal_broker_address:_5729_lebanon_rd_ste_144553,_frisco,_tx_75034",
+          "firm_office_address:_8255_greensboro_dr_ste_#200,_mclean,_va_22102",
+          "distance:_approximately_1,300_miles",
+          "exceedance:_1,250_miles_over_50_mile_limit",
+          "driving_time:_19_20_hours_one_way",
+          "flying_time:_3_hours_one_way_+_airport_time"
         ],
-        "legal_basis": "18 VAC 135-20-60 requires quarterly face-to-face supervision certification for licensees located more than 50 miles from principal broker's office",
-        "impossibility": "1,300-mile distance makes quarterly face-to-face supervision physically impossible",
+        "legal_basis": "18_vac_135_20_60_requires_quarterly_face_to_face_supervision_certification_for_licensees_located_more_than_50_miles_from_principal_broker's_office",
+        "impossibility": "1,300_mile_distance_makes_quarterly_face_to_face_supervision_physically_impossible",
         "certification_periods": [
           {
-            "period": "Q2 2025",
-            "start_date": "2025-04-03",
-            "end_date": "2025-06-30",
+            "period": "q2_2025",
+            "start_date": "2025_04_03",
+            "end_date": "2025_06_30",
             "certification_required": true,
             "certification_filed": "unknown",
-            "status": "pending verification"
+            "status": "pending_verification"
           },
           {
-            "period": "Q3 2025",
-            "start_date": "2025-07-01",
-            "end_date": "2025-09-30",
+            "period": "q3_2025",
+            "start_date": "2025_07_01",
+            "end_date": "2025_09_30",
             "certification_required": true,
             "certification_filed": "unknown",
-            "status": "pending verification"
+            "status": "pending_verification"
           },
           {
-            "period": "Q4 2025",
-            "start_date": "2025-10-01",
-            "end_date": "2025-12-31",
+            "period": "q4_2025",
+            "start_date": "2025_10_01",
+            "end_date": "2025_12_31",
             "certification_required": true,
             "certification_filed": "unknown",
-            "status": "pending verification"
+            "status": "pending_verification"
           }
         ]
       },
       {
         "violation_number": 3,
-        "violation_type": "Inadequate Broker Supervision",
-        "regulation": "VA Code § 54.1-2106.1",
-        "description": "Principal broker Caitlin Skidmore attempting to supervise 38 property management firms across 1,300+ miles",
-        "severity": "HIGH",
+        "violation_type": "inadequate_broker_supervision",
+        "regulation": "va_code_§_54.1_2106.1",
+        "description": "principal_broker_caitlin_skidmore_attempting_to_supervise_38_property_management_firms_across_1,300+_miles",
+        "severity": "high",
         "evidence": [
-          "Total firms supervised: 38",
-          "Geographic spread: 1,300+ miles",
-          "Firms licensed BEFORE Skidmore: 8 firms (proving retroactive assignment)",
-          "Estimated total units: 100,000+",
-          "Firms at same Texas address: 6 firms"
+          "total_firms_supervised:_38",
+          "geographic_spread:_1,300+_miles",
+          "firms_licensed_before_skidmore:_8_firms_(proving_retroactive_assignment)",
+          "estimated_total_units:_100,000+",
+          "firms_at_same_texas_address:_6_firms"
         ],
-        "legal_basis": "VA Code § 54.1-2106.1 requires Principal Broker to exercise active supervision",
-        "impossibility": "Physically impossible to actively supervise 38 firms across 1,300+ miles"
+        "legal_basis": "va_code_§_54.1_2106.1_requires_principal_broker_to_exercise_active_supervision",
+        "impossibility": "physically_impossible_to_actively_supervise_38_firms_across_1,300+_miles"
       },
       {
         "violation_number": 4,
-        "violation_type": "Unlicensed Practice of Real Estate",
-        "regulation": "18 VAC 135-20-165",
-        "description": "Multiple unlicensed employees conducting real estate activities",
-        "severity": "HIGH",
+        "violation_type": "unlicensed_practice_of_real_estate",
+        "regulation": "18_vac_135_20_165",
+        "description": "multiple_unlicensed_employees_conducting_real_estate_activities",
+        "severity": "high",
         "unlicensed_personnel": [
           {
-            "name": "Edward Hyland",
-            "title": "Senior Regional Manager",
+            "name": "edward_hyland",
+            "title": "senior_regional_manager",
             "activities": [
-              "Lease termination decisions (December 6, 2025)",
-              "Reasonable accommodation denials (December 6, 2025)",
-              "Property management oversight",
-              "Lease administration"
+              "lease_termination_decisions_(december_6,_2025)",
+              "reasonable_accommodation_denials_(december_6,_2025)",
+              "property_management_oversight",
+              "lease_administration"
             ],
             "properties": [
-              "800 Carlyle Apartments, Alexandria VA",
-              "Sinclaire on Seminary, Alexandria VA"
+              "800_carlyle_apartments,_alexandria_va",
+              "sinclaire_on_seminary,_alexandria_va"
             ],
-            "license_verification": "Confirmed unlicensed in 16 states (VA, TX, MD, DC, NC, MO, NE, CA, AZ, CT, FL, GA, NJ, NY, SC, UT)"
+            "license_verification": "confirmed_unlicensed_in_16_states_(va,_tx,_md,_dc,_nc,_mo,_ne,_ca,_az,_ct,_fl,_ga,_nj,_ny,_sc,_ut)"
           },
           {
-            "name": "Djene Moyer",
-            "title": "Community Manager",
+            "name": "djene_moyer",
+            "title": "community_manager",
             "activities": [
-              "On-site property management",
-              "Lease administration",
-              "Property showings",
-              "Rent collection"
+              "on_site_property_management",
+              "lease_administration",
+              "property_showings",
+              "rent_collection"
             ],
-            "property": "800 Carlyle Apartments, Alexandria VA",
-            "license_verification": "Confirmed unlicensed in 16 states"
+            "property": "800_carlyle_apartments,_alexandria_va",
+            "license_verification": "confirmed_unlicensed_in_16_states"
           },
           {
-            "name": "Robert Grealy",
-            "title": "SVP Operations",
+            "name": "robert_grealy",
+            "title": "svp_operations",
             "activities": [
-              "Supervision of unlicensed personnel",
-              "Operations management",
-              "Oversight of 28,000+ units"
+              "supervision_of_unlicensed_personnel",
+              "operations_management",
+              "oversight_of_28,000+_units"
             ],
-            "license_verification": "Confirmed unlicensed in 16 states"
+            "license_verification": "confirmed_unlicensed_in_16_states"
           },
           {
-            "name": "Amy Groff",
-            "title": "VP Operations",
+            "name": "amy_groff",
+            "title": "vp_operations",
             "activities": [
-              "Supervision of unlicensed personnel",
-              "Operations management",
-              "Oversight of 11,000+ units"
+              "supervision_of_unlicensed_personnel",
+              "operations_management",
+              "oversight_of_11,000+_units"
             ],
-            "license_verification": "Confirmed unlicensed in 16 states"
+            "license_verification": "confirmed_unlicensed_in_16_states"
           },
           {
-            "name": "Henry Ramos",
-            "title": "Property Manager",
+            "name": "henry_ramos",
+            "title": "property_manager",
             "activities": [
-              "Property management",
-              "Lease activities"
+              "property_management",
+              "lease_activities"
             ],
-            "license_verification": "Confirmed unlicensed in 16 states"
+            "license_verification": "confirmed_unlicensed_in_16_states"
           }
         ],
-        "legal_basis": "18 VAC 135-20-165 defines licensed vs. unlicensed activities in property management",
+        "legal_basis": "18_vac_135_20_165_defines_licensed_vs._unlicensed_activities_in_property_management",
         "total_unlicensed_personnel": 16,
-        "total_verified": "16 personnel confirmed unlicensed across all 16 states checked"
+        "total_verified": "16_personnel_confirmed_unlicensed_across_all_16_states_checked"
       },
       {
         "violation_number": 5,
-        "violation_type": "Pattern of Regulatory Non-Compliance",
-        "description": "Multiple regulatory violations and settlements demonstrating pattern of non-compliance",
-        "severity": "MEDIUM-HIGH",
+        "violation_type": "pattern_of_regulatory_non_compliance",
+        "description": "multiple_regulatory_violations_and_settlements_demonstrating_pattern_of_non_compliance",
+        "severity": "medium_high",
         "violations_timeline": [
           {
-            "date": "2024-03",
-            "case": "Equal Rights Center v. Kettler Management",
-            "violation": "Source of income discrimination across 6 DC properties",
+            "date": "2024_03",
+            "case": "equal_rights_center_v._kettler_management",
+            "violation": "source_of_income_discrimination_across_6_dc_properties",
             "settlement_amount": 140000,
-            "court": "Superior Court of the District of Columbia",
-            "significance": "Occurred during principal broker gap period"
+            "court": "superior_court_of_the_district_of_columbia",
+            "significance": "occurred_during_principal_broker_gap_period"
           },
           {
             "date": "2024",
-            "source": "Washington City Paper investigation",
-            "violation": "Hidden or misleading utility fees",
-            "significance": "Systematic fee practices"
+            "source": "washington_city_paper_investigation",
+            "violation": "hidden_or_misleading_utility_fees",
+            "significance": "systematic_fee_practices"
           },
           {
-            "date": "2014-2015",
-            "case": "DC Attorney General v. Kettler",
-            "violation": "Maintained drug nuisance at 199-unit housing development",
-            "significance": "Habitability and safety violations"
+            "date": "2014_2015",
+            "case": "dc_attorney_general_v._kettler",
+            "violation": "maintained_drug_nuisance_at_199_unit_housing_development",
+            "significance": "habitability_and_safety_violations"
           },
           {
-            "date": "2020-2022",
-            "case": "Facebook Age Discrimination Class Action",
-            "violation": "Excluded people over 50 from Facebook housing advertisements",
-            "significance": "Pattern of discriminatory advertising practices"
+            "date": "2020_2022",
+            "case": "facebook_age_discrimination_class_action",
+            "violation": "excluded_people_over_50_from_facebook_housing_advertisements",
+            "significance": "pattern_of_discriminatory_advertising_practices"
           },
           {
             "date": "2022",
-            "case": "Coleman v. Kettler Management, et al.",
-            "violation": "Race and disability discrimination, hostile work environment",
-            "court": "U.S. District Court for the Eastern District of Virginia",
-            "significance": "Employment practices violations"
+            "case": "coleman_v._kettler_management,_et_al.",
+            "violation": "race_and_disability_discrimination,_hostile_work_environment",
+            "court": "u.s._district_court_for_the_eastern_district_of_virginia",
+            "significance": "employment_practices_violations"
           }
         ],
         "bbb_complaints": {
           "total": 46,
           "unanswered": 26,
           "unanswered_percentage": 57,
-          "rating": "F",
-          "timeframe": "3 years",
+          "rating": "f",
+          "timeframe": "3_years",
           "last_12_months": 16
         }
       }
     ],
     "specific_incidents": [
       {
-        "date": "2025-12-06",
-        "personnel": "Edward Hyland",
-        "incident_type": "Lease Termination",
-        "description": "Edward Hyland (unlicensed) denied reasonable accommodation request and sent lease termination notice",
+        "date": "2025_12_06",
+        "personnel": "edward_hyland",
+        "incident_type": "lease_termination",
+        "description": "edward_hyland_(unlicensed)_denied_reasonable_accommodation_request_and_sent_lease_termination_notice",
         "evidence": [
-          "Kettler denial email (12/6/25 - Edward Hyland)",
-          "Lease termination documents",
-          "Email: ehyland@kettler.com"
+          "kettler_denial_email_(12/6/25_edward_hyland)",
+          "lease_termination_documents",
+          "email:_ehyland@kettler.com"
         ],
-        "violation": "Unlicensed person making lease decisions affecting tenancy",
-        "legal_basis": "18 VAC 135-20-165"
+        "violation": "unlicensed_person_making_lease_decisions_affecting_tenancy",
+        "legal_basis": "18_vac_135_20_165"
       },
       {
-        "date": "2025-12-06",
-        "personnel": "Edward Hyland",
-        "incident_type": "Reasonable Accommodation Decision",
-        "description": "Edward Hyland (unlicensed) denied reasonable accommodation request, stating requirements for interactive process",
+        "date": "2025_12_06",
+        "personnel": "edward_hyland",
+        "incident_type": "reasonable_accommodation_decision",
+        "description": "edward_hyland_(unlicensed)_denied_reasonable_accommodation_request,_stating_requirements_for_interactive_process",
         "evidence": [
-          "Kettler denial email",
-          "Legal terminology used (ADA, FHA, Fair Housing Act)"
+          "kettler_denial_email",
+          "legal_terminology_used_(ada,_fha,_fair_housing_act)"
         ],
-        "violation": "Unlicensed person making legal determinations about accommodation requests",
-        "legal_basis": "18 VAC 135-20-165"
+        "violation": "unlicensed_person_making_legal_determinations_about_accommodation_requests",
+        "legal_basis": "18_vac_135_20_165"
       },
       {
-        "date": "2022-09 to present",
-        "personnel": "Edward Hyland",
-        "incident_type": "Property Management",
-        "description": "Edward Hyland (unlicensed) managing multiple properties",
+        "date": "2022_09_to_present",
+        "personnel": "edward_hyland",
+        "incident_type": "property_management",
+        "description": "edward_hyland_(unlicensed)_managing_multiple_properties",
         "properties": [
-          "800 Carlyle Apartments, Alexandria VA",
-          "Sinclaire on Seminary, Alexandria VA"
+          "800_carlyle_apartments,_alexandria_va",
+          "sinclaire_on_seminary,_alexandria_va"
         ],
         "evidence": [
-          "LinkedIn profile",
-          "Email correspondence",
-          "Property management activities"
+          "linkedin_profile",
+          "email_correspondence",
+          "property_management_activities"
         ],
-        "violation": "Unlicensed person conducting property management activities",
-        "legal_basis": "18 VAC 135-20-165"
+        "violation": "unlicensed_person_conducting_property_management_activities",
+        "legal_basis": "18_vac_135_20_165"
       }
     ],
     "chronological_timeline": [
       {
-        "date": "2014-10-31",
-        "event": "Kettler Management Inc. firm license issued",
+        "date": "2014_10_31",
+        "event": "kettler_management_inc._firm_license_issued",
         "license_number": "0226025311",
-        "principal_broker": "None identified"
+        "principal_broker": "none_identified"
       },
       {
-        "date": "2014-2015",
-        "event": "DC Attorney General v. Kettler - drug nuisance violation"
+        "date": "2014_2015",
+        "event": "dc_attorney_general_v._kettler_drug_nuisance_violation"
       },
       {
-        "date": "2020-2022",
-        "event": "Facebook Age Discrimination Class Action"
+        "date": "2020_2022",
+        "event": "facebook_age_discrimination_class_action"
       },
       {
-        "date": "2022-09",
-        "event": "Edward Hyland hired as Senior Regional Manager (unlicensed)"
+        "date": "2022_09",
+        "event": "edward_hyland_hired_as_senior_regional_manager_(unlicensed)"
       },
       {
         "date": "2022",
-        "event": "Coleman v. Kettler Management - employment discrimination"
+        "event": "coleman_v._kettler_management_employment_discrimination"
       },
       {
-        "date": "2023-09-12",
-        "event": "Equal Rights Center v. Kettler complaint filed"
+        "date": "2023_09_12",
+        "event": "equal_rights_center_v._kettler_complaint_filed"
       },
       {
-        "date": "2024-03",
-        "event": "Equal Rights Center v. Kettler settlement - $140,000"
+        "date": "2024_03",
+        "event": "equal_rights_center_v._kettler_settlement_$140,000"
       },
       {
         "date": "2024",
-        "event": "Washington City Paper utility fee investigation"
+        "event": "washington_city_paper_utility_fee_investigation"
       },
       {
-        "date": "2025-04-03",
-        "event": "Caitlin Skidmore assigned as Principal Broker (1,300 miles away)"
+        "date": "2025_04_03",
+        "event": "caitlin_skidmore_assigned_as_principal_broker_(1,300_miles_away)"
       },
       {
-        "date": "2025-12-06",
-        "event": "Edward Hyland (unlicensed) denies reasonable accommodation and sends lease termination"
+        "date": "2025_12_06",
+        "event": "edward_hyland_(unlicensed)_denies_reasonable_accommodation_and_sends_lease_termination"
       }
     ]
   },
   "section_iv_supporting_documents": {
     "exhibits_referenced": [
       {
-        "exhibit": "K",
-        "description": "DPOR Kettler Management Inc. firm license record",
+        "exhibit": "k",
+        "description": "dpor_kettler_management_inc._firm_license_record",
         "license_number": "0226025311",
-        "source": "Virginia DPOR License Lookup",
-        "url": "https://www.dpor.virginia.gov/LicenseLookup"
+        "source": "virginia_dpor_license_lookup",
+        "url": "https://www.dpor.virginia.gov/licenselookup"
       },
       {
-        "exhibit": "L",
-        "description": "DPOR Caitlin Marie Skidmore license record",
+        "exhibit": "l",
+        "description": "dpor_caitlin_marie_skidmore_license_record",
         "license_number": "0225273926",
-        "source": "Virginia DPOR License Lookup",
-        "url": "https://www.dpor.virginia.gov/LicenseLookup"
+        "source": "virginia_dpor_license_lookup",
+        "url": "https://www.dpor.virginia.gov/licenselookup"
       },
       {
-        "exhibit": "M",
-        "description": "DC DLCP records showing Skidmore affiliated with 24+ property management companies",
-        "source": "DC Department of Licensing and Consumer Protection"
+        "exhibit": "m",
+        "description": "dc_dlcp_records_showing_skidmore_affiliated_with_24+_property_management_companies",
+        "source": "dc_department_of_licensing_and_consumer_protection"
       },
       {
-        "exhibit": "N",
-        "description": "Timeline analysis documenting Principal Broker gap (October 31, 2014 – April 3, 2025)",
+        "exhibit": "n",
+        "description": "timeline_analysis_documenting_principal_broker_gap_(october_31,_2014_–_april_3,_2025)",
         "source": "research/va_dpor_complaint/principal_broker_gap_analysis.json"
       },
       {
-        "exhibit": "O",
-        "description": "Equal Rights Center v. Kettler settlement documentation (March 2024, $140,000)",
-        "source": "Court records",
-        "url": "https://equalrightscenter.org/wp-content/uploads/2023.09.12-erc-v.-kettler-complaint-tagged.pdf"
+        "exhibit": "o",
+        "description": "equal_rights_center_v._kettler_settlement_documentation_(march_2024,_$140,000)",
+        "source": "court_records",
+        "url": "https://equalrightscenter.org/wp_content/uploads/2023.09.12_erc_v._kettler_complaint_tagged.pdf"
       },
       {
-        "exhibit": "P",
-        "description": "Better Business Bureau profile showing F rating (57% complaints unanswered)",
-        "source": "BBB.org",
+        "exhibit": "p",
+        "description": "better_business_bureau_profile_showing_f_rating_(57%_complaints_unanswered)",
+        "source": "bbb.org",
         "total_complaints": 46,
         "unanswered": 26
       },
       {
-        "exhibit": "Q",
-        "description": "Washington City Paper investigation (2024) documenting utility fee practices",
-        "source": "Washington City Paper"
+        "exhibit": "q",
+        "description": "washington_city_paper_investigation_(2024)_documenting_utility_fee_practices",
+        "source": "washington_city_paper"
       },
       {
-        "exhibit": "R",
-        "description": "Kettler corporate structure documentation (22,000+ units across 10 states)",
+        "exhibit": "r",
+        "description": "kettler_corporate_structure_documentation_(22,000+_units_across_10_states)",
         "source": "research/va_dpor_complaint/corporate_structure_analysis.json"
       },
       {
-        "exhibit": "S",
-        "description": "Historical Principal Broker Gap Analysis",
+        "exhibit": "s",
+        "description": "historical_principal_broker_gap_analysis",
         "source": "research/va_dpor_complaint/principal_broker_gap_analysis.json"
       },
       {
-        "exhibit": "T",
-        "description": "Kettler Operations During Gap Period",
+        "exhibit": "t",
+        "description": "kettler_operations_during_gap_period",
         "source": "research/va_dpor_complaint/kettler_operations_gap_period.json"
       },
       {
-        "exhibit": "U",
-        "description": "Regulatory Compliance During Gap Period",
+        "exhibit": "u",
+        "description": "regulatory_compliance_during_gap_period",
         "source": "research/va_dpor_complaint/regulatory_compliance_gap_period.json"
       },
       {
-        "exhibit": "V",
-        "description": "Skidmore's Virginia Presence Analysis",
+        "exhibit": "v",
+        "description": "skidmore's_virginia_presence_analysis",
         "source": "research/va_dpor_complaint/skidmore_virginia_presence_analysis.json"
       },
       {
-        "exhibit": "W",
-        "description": "50-Mile Rule Violations",
+        "exhibit": "w",
+        "description": "50_mile_rule_violations",
         "source": "research/va_dpor_complaint/50_mile_rule_violations.json"
       },
       {
-        "exhibit": "X",
-        "description": "Multiple Firm Supervision Capacity Analysis",
+        "exhibit": "x",
+        "description": "multiple_firm_supervision_capacity_analysis",
         "source": "research/va_dpor_complaint/skidmore_all_firms_matrix.json"
       },
       {
-        "exhibit": "Y",
-        "description": "Complete License Verification Matrix - 100% COMPLETE",
+        "exhibit": "y",
+        "description": "complete_license_verification_matrix_100%_complete",
         "source": "research/va_dpor_complaint/personnel_license_verification.json",
         "personnel_verified": 21,
         "states_checked": 16,
@@ -541,164 +541,164 @@
         "unlicensed_confirmed": 16
       },
       {
-        "exhibit": "Z",
-        "description": "Unlicensed Activities Documentation",
+        "exhibit": "z",
+        "description": "unlicensed_activities_documentation",
         "source": "research/va_dpor_complaint/unlicensed_activities_documentation.json"
       },
       {
-        "exhibit": "AA",
-        "description": "Management Chain Analysis",
+        "exhibit": "aa",
+        "description": "management_chain_analysis",
         "source": "research/va_dpor_complaint/management_chain_analysis.json"
       },
       {
-        "exhibit": "AB",
-        "description": "Additional Regulatory Violations Timeline",
+        "exhibit": "ab",
+        "description": "additional_regulatory_violations_timeline",
         "source": "research/va_dpor_complaint/additional_regulatory_violations.json"
       },
       {
-        "exhibit": "AC",
-        "description": "Consumer Complaints Analysis",
+        "exhibit": "ac",
+        "description": "consumer_complaints_analysis",
         "source": "research/va_dpor_complaint/consumer_complaints_analysis.json"
       },
       {
-        "exhibit": "AD",
-        "description": "Media Coverage Compilation",
+        "exhibit": "ad",
+        "description": "media_coverage_compilation",
         "source": "research/va_dpor_complaint/media_coverage_analysis.json"
       },
       {
-        "exhibit": "AE",
-        "description": "Corporate Structure Documentation",
+        "exhibit": "ae",
+        "description": "corporate_structure_documentation",
         "source": "research/va_dpor_complaint/corporate_structure_analysis.json"
       },
       {
-        "exhibit": "AF",
-        "description": "Financial Scale Analysis",
+        "exhibit": "af",
+        "description": "financial_scale_analysis",
         "source": "research/va_dpor_complaint/financial_scale_analysis.json"
       },
       {
-        "exhibit": "AG",
-        "description": "Texas Regulatory Violations Analysis",
+        "exhibit": "ag",
+        "description": "texas_regulatory_violations_analysis",
         "source": "research/va_dpor_complaint/texas_regulatory_violations_analysis.json"
       }
     ],
     "evidence_documents": [
       {
-        "type": "Lease Termination Notice",
-        "date": "2025-12-06",
-        "from": "Edward Hyland (ehyland@kettler.com)",
-        "to": "Betty Tai",
-        "property": "850 John Carlyle St Apt 533, Alexandria, VA 22314",
-        "violation": "Unlicensed person making lease decisions"
+        "type": "lease_termination_notice",
+        "date": "2025_12_06",
+        "from": "edward_hyland_(ehyland@kettler.com)",
+        "to": "betty_tai",
+        "property": "850_john_carlyle_st_apt_533,_alexandria,_va_22314",
+        "violation": "unlicensed_person_making_lease_decisions"
       },
       {
-        "type": "Reasonable Accommodation Denial Email",
-        "date": "2025-12-06",
-        "from": "Edward Hyland (ehyland@kettler.com)",
-        "violation": "Unlicensed person making legal determinations"
+        "type": "reasonable_accommodation_denial_email",
+        "date": "2025_12_06",
+        "from": "edward_hyland_(ehyland@kettler.com)",
+        "violation": "unlicensed_person_making_legal_determinations"
       },
       {
-        "type": "Email Correspondence",
+        "type": "email_correspondence",
         "emails": [
           "ehyland@kettler.com",
-          "Carlyle.PM@kettler.com",
-          "Ehyland@kettler.com",
           "carlyle.pm@kettler.com",
-          "Carlyle@kettler.com",
-          "Carlyle.APM@kettler.com"
+          "ehyland@kettler.com",
+          "carlyle.pm@kettler.com",
+          "carlyle@kettler.com",
+          "carlyle.apm@kettler.com"
         ],
-        "significance": "All operational emails use kettler.com domain, confirming Kettler operations"
+        "significance": "all_operational_emails_use_kettler.com_domain,_confirming_kettler_operations"
       },
       {
-        "type": "LinkedIn Profile",
-        "personnel": "Edward Hyland",
-        "title": "Senior Regional Manager",
-        "company": "Kettler Management, Inc.",
-        "employment_dates": "Sep 2022 - Present",
-        "significance": "Confirms employment and role"
+        "type": "linkedin_profile",
+        "personnel": "edward_hyland",
+        "title": "senior_regional_manager",
+        "company": "kettler_management,_inc.",
+        "employment_dates": "sep_2022_present",
+        "significance": "confirms_employment_and_role"
       }
     ],
     "license_records": [
       {
-        "type": "Firm License",
-        "name": "KETTLER MANAGEMENT INC",
+        "type": "firm_license",
+        "name": "kettler_management_inc",
         "license_number": "0226025311",
-        "initial_cert_date": "2014-10-31",
-        "expiration_date": "2026-10-31",
-        "source": "Virginia DPOR"
+        "initial_cert_date": "2014_10_31",
+        "expiration_date": "2026_10_31",
+        "source": "virginia_dpor"
       },
       {
-        "type": "Individual License",
-        "name": "SKIDMORE CAITLIN MARIE",
+        "type": "individual_license",
+        "name": "skidmore_caitlin_marie",
         "license_number": "0225273926",
-        "license_state": "District of Columbia",
-        "assigned_date": "2025-04-03",
-        "source": "DC DLCP"
+        "license_state": "dc",
+        "assigned_date": "2025_04_03",
+        "source": "dc_dlcp"
       }
     ],
     "corporate_records": [
       {
-        "type": "Virginia SCC Registration",
-        "entity_name": "KETTLER MANAGEMENT INC.",
+        "type": "virginia_scc_registration",
+        "entity_name": "kettler_management_inc.",
         "entity_id": "03218674",
-        "entity_type": "Stock Corporation",
-        "status": "Active",
-        "address": "8255 Greensboro Dr Ste 200, McLean, VA, 22102-4944, USA",
-        "source": "Virginia State Corporation Commission"
+        "entity_type": "stock_corporation",
+        "status": "active",
+        "address": "8255_greensboro_dr_ste_200,_mclean,_va,_22102_4944,_usa",
+        "source": "virginia_state_corporation_commission"
       }
     ],
     "court_records": [
       {
-        "case": "Equal Rights Center v. Kettler Management",
-        "court": "Superior Court of the District of Columbia",
-        "filed": "2023-09-12",
-        "settlement": "2024-03",
+        "case": "equal_rights_center_v._kettler_management",
+        "court": "superior_court_of_the_district_of_columbia",
+        "filed": "2023_09_12",
+        "settlement": "2024_03",
         "amount": 140000,
-        "violation": "Source of income discrimination"
+        "violation": "source_of_income_discrimination"
       },
       {
-        "case": "Coleman v. Kettler Management, et al.",
-        "court": "U.S. District Court for the Eastern District of Virginia",
+        "case": "coleman_v._kettler_management,_et_al.",
+        "court": "u.s._district_court_for_the_eastern_district_of_virginia",
         "case_number": "1:2022cv00084",
         "filed": "2022",
-        "violation": "Race and disability discrimination, hostile work environment"
+        "violation": "race_and_disability_discrimination,_hostile_work_environment"
       }
     ]
   },
   "filing_instructions": {
     "form_download": {
-      "interactive_pdf": "https://www.dpor.virginia.gov/sites/default/files/boards/Real_Estate/F701.pdf",
-      "static_pdf": "https://www.dpor.virginia.gov/sites/default/files/boards/Real_Estate/F701.pdf"
+      "interactive_pdf": "https://www.dpor.virginia.gov/sites/default/files/boards/real_estate/f701.pdf",
+      "static_pdf": "https://www.dpor.virginia.gov/sites/default/files/boards/real_estate/f701.pdf"
     },
     "submission_methods": [
       {
-        "method": "Email",
+        "method": "email",
         "address": "complaintanalysis@dpor.virginia.gov",
-        "note": "Attach completed form and supporting documents"
+        "note": "attach_completed_form_and_supporting_documents"
       },
       {
-        "method": "Fax",
-        "number": "(866) 282-3932",
-        "note": "Include cover sheet with contact information"
+        "method": "fax",
+        "number": "(866)_282_3932",
+        "note": "include_cover_sheet_with_contact_information"
       },
       {
-        "method": "Mail",
-        "address": "Department of Professional and Occupational Regulation\nCompliance and Investigations Division\nComplaint Analysis & Resolution\n9960 Mayland Drive, Suite 400\nRichmond, Virginia 23233-1485",
-        "note": "Send copies (not originals) of all documents"
+        "method": "mail",
+        "address": "department_of_professional_and_occupational_regulation_compliance_and_investigations_division_complaint_analysis_&_resolution_9960_mayland_drive,_suite_400_richmond,_virginia_23233_1485",
+        "note": "send_copies_(not_originals)_of_all_documents"
       }
     ],
     "important_notes": [
-      "DPOR cannot guarantee anonymity - all complaints subject to public disclosure once case is closed",
-      "Complaints must be filed within three years of the act, omission, or occurrence",
-      "DPOR cannot require refunds or personal remedies - private legal action may be necessary",
-      "Include all pages (front and back) of supporting documents",
-      "Reference exhibit numbers in complaint description"
+      "dpor_cannot_guarantee_anonymity_all_complaints_subject_to_public_disclosure_once_case_is_closed",
+      "complaints_must_be_filed_within_three_years_of_the_act,_omission,_or_occurrence",
+      "dpor_cannot_require_refunds_or_personal_remedies_private_legal_action_may_be_necessary",
+      "include_all_pages_(front_and_back)_of_supporting_documents",
+      "reference_exhibit_numbers_in_complaint_description"
     ],
-    "timeframe_requirement": "Complaints must be filed within three years of the act, omission, or occurrence that gave rise to the alleged violation",
+    "timeframe_requirement": "complaints_must_be_filed_within_three_years_of_the_act,_omission,_or_occurrence_that_gave_rise_to_the_alleged_violation",
     "current_violations_timeline": {
-      "oldest_violation": "2014-10-31 (Principal broker gap begins)",
-      "newest_violation": "2025-12-06 (Unlicensed lease termination)",
+      "oldest_violation": "2014_10_31_(principal_broker_gap_begins)",
+      "newest_violation": "2025_12_06_(unlicensed_lease_termination)",
       "all_within_timeframe": true,
-      "note": "All violations fall within 3-year filing window"
+      "note": "all_violations_fall_within_3_year_filing_window"
     }
   },
   "violation_summary": {
@@ -708,7 +708,7 @@
     "medium_high_severity": 1,
     "unlicensed_personnel_count": 16,
     "firms_supervised": 38,
-    "distance_violation": "1,300 miles (2,500% over limit)",
+    "distance_violation": "1,300_miles_(2,500%_over_limit)",
     "gap_period_years": 10.5,
     "regulatory_settlements": 1,
     "bbb_complaints": 46,
@@ -717,8 +717,8 @@
   "metadata": {
     "file_name": "form_701_complaint_data.json",
     "file_path": "research/va_dpor_complaint/form_701_complaint_data.json",
-    "last_updated": "2025-12-11 05:05:00",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_11_05:05:00",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete",
     "ready_for_filing": true
   }

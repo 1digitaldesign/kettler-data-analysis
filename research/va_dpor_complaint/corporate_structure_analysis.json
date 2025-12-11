@@ -1,77 +1,77 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 5.1: Corporate Structure Documentation",
-  "objective": "Document Kettler's corporate structure and relationships",
+  "research_date": "2025_12_09",
+  "priority": "priority_5.1:_corporate_structure_documentation",
+  "objective": "document_kettler's_corporate_structure_and_relationships",
   "corporate_information": {
-    "company_name": "KETTLER",
+    "company_name": "kettler",
     "founded": "1977",
-    "age": "47 years",
-    "status": "Privately-held company",
-    "founder": "Robert C. Kettler",
-    "founder_role": "Chairman, Founder & CEO",
+    "age": "47_years",
+    "status": "privately_held_company",
+    "founder": "robert_c._kettler",
+    "founder_role": "chairman,_founder_&_ceo",
     "headquarters": {
-      "address": "8255 Greensboro Drive, Suite 200",
-      "city": "McLean",
-      "state": "VA",
+      "address": "8255_greensboro_drive,_suite_200",
+      "city": "mclean",
+      "state": "va",
       "zip": "22102"
     },
     "verified": true
   },
   "name_history": {
-    "original": "Kettler & Scott, Inc.",
-    "later": "KSI Services, Inc.",
-    "current": "KETTLER"
+    "original": "kettler_&_scott,_inc.",
+    "later": "ksi_services,_inc.",
+    "current": "kettler"
   },
   "corporate_structure": {
     "parent_company": {
-      "name": "KETTLER",
+      "name": "kettler",
       "established": "1977",
-      "type": "Privately-held",
-      "ownership": "Founder-owned"
+      "type": "privately_held",
+      "ownership": "founder_owned"
     },
     "subsidiaries": [
       {
-        "name": "Kettler Management Inc.",
+        "name": "kettler_management_inc.",
         "established": "1988",
-        "type": "Wholly-owned subsidiary",
-        "license": "0226025311 (VA DPOR)",
-        "address": "8255 Greensboro Drive, Suite 200, McLean, VA 22102",
-        "relationship": "Property management arm"
+        "type": "wholly_owned_subsidiary",
+        "license": "0226025311_(va_dpor)",
+        "address": "8255_greensboro_drive,_suite_200,_mclean,_va_22102",
+        "relationship": "property_management_arm"
       }
     ],
     "related_entities": {
       "status": "expanded",
       "research_needed": [
-        "Other Kettler entities",
-        "Related property companies",
-        "Investment entities"
+        "other_kettler_entities",
+        "related_property_companies",
+        "investment_entities"
       ],
       "findings": {
         "parent_company": {
-          "name": "KETTLER",
+          "name": "kettler",
           "founded": "1977",
-          "founder": "Robert C. Kettler",
-          "type": "Privately-held",
-          "headquarters": "McLean, VA",
+          "founder": "robert_c._kettler",
+          "type": "privately_held",
+          "headquarters": "mclean,_va",
           "developments": {
-            "multifamily_units": "Over 25,000",
-            "commercial_space": "5 million square feet",
-            "homes": "71,000+ in 25 master-planned communities"
+            "multifamily_units": "over_25,000",
+            "commercial_space": "5_million_square_feet",
+            "homes": "71,000+_in_25_master_planned_communities"
           }
         },
         "subsidiary": {
-          "name": "Kettler Management Inc.",
+          "name": "kettler_management_inc.",
           "established": "1988",
-          "units_managed": "Approximately 20,000 apartments",
-          "geographic_scope": "Northeast, Mid-Atlantic, and Southeast regions",
+          "units_managed": "approximately_20,000_apartments",
+          "geographic_scope": "northeast,_mid_atlantic,_and_southeast_regions",
           "states": [
-            "New York",
-            "New Jersey",
-            "North Carolina",
-            "Texas",
-            "VA",
-            "MD",
-            "DC"
+            "new_york",
+            "new_jersey",
+            "north_carolina",
+            "tx",
+            "va",
+            "md",
+            "dc"
           ]
         }
       }
@@ -79,35 +79,35 @@
   },
   "key_executives": [
     {
-      "name": "Robert C. Kettler",
-      "title": "Chairman, Founder & CEO",
-      "role": "Founder and owner",
+      "name": "robert_c._kettler",
+      "title": "chairman,_founder_&_ceo",
+      "role": "founder_and_owner",
       "verified": true
     },
     {
-      "name": "Cynthia Fisher",
-      "title": "President",
-      "role": "Executive leadership",
+      "name": "cynthia_fisher",
+      "title": "president",
+      "role": "executive_leadership",
       "verified": true,
-      "note": "Also listed as Cindy Fisher"
+      "note": "also_listed_as_cindy_fisher"
     },
     {
-      "name": "Sean H. Curtin",
-      "title": "Executive Vice President / General Counsel",
-      "role": "Legal affairs",
+      "name": "sean_h._curtin",
+      "title": "executive_vice_president_/_general_counsel",
+      "role": "legal_affairs",
       "verified": true
     },
     {
-      "name": "Patrick Cassada",
-      "title": "CFO",
-      "role": "Financial management",
+      "name": "patrick_cassada",
+      "title": "cfo",
+      "role": "financial_management",
       "verified": true,
-      "note": "Also listed as Pat Cassada"
+      "note": "also_listed_as_pat_cassada"
     },
     {
-      "name": "Luke Davis",
-      "title": "Chief Investment Officer",
-      "role": "Investment decisions",
+      "name": "luke_davis",
+      "title": "chief_investment_officer",
+      "role": "investment_decisions",
       "verified": false
     }
   ],
@@ -115,81 +115,81 @@
     "virginia_scc": {
       "status": "method_verified",
       "search_needed": [
-        "Kettler Management Inc. filings",
-        "KETTLER parent company filings",
-        "Related entity filings"
+        "kettler_management_inc._filings",
+        "kettler_parent_company_filings",
+        "related_entity_filings"
       ],
       "findings": [],
-      "note": "Kettler Management Inc. incorporated 1988-05-20 (as KSI Management Corp), renamed 2007-04-06"
+      "note": "kettler_management_inc._incorporated_1988_05_20_(as_ksi_management_corp),_renamed_2007_04_06"
     },
     "delaware_sos": {
       "status": "method_verified",
       "search_needed": [
-        "Check if incorporated in Delaware",
-        "Delaware entity filings"
+        "check_if_incorporated_in_delaware",
+        "delaware_entity_filings"
       ],
       "findings": [],
-      "note": "Delaware Division of Corporations online status inquiry available at corp.delaware.gov"
+      "note": "delaware_division_of_corporations_online_status_inquiry_available_at_corp.delaware.gov"
     },
     "sec_filings": {
       "status": "not_applicable",
-      "reason": "Private company - no SEC filings required"
+      "reason": "private_company_no_sec_filings_required"
     }
   },
   "ownership_structure": {
-    "type": "Founder-owned (private)",
-    "details": "Robert C. Kettler - Founder & CEO",
-    "transparency": "Limited - private company",
+    "type": "founder_owned_(private)",
+    "details": "robert_c._kettler_founder_&_ceo",
+    "transparency": "limited_private_company",
     "research_needed": [
-      "Family ownership structure",
-      "Investment partners",
-      "Equity structure"
+      "family_ownership_structure",
+      "investment_partners",
+      "equity_structure"
     ]
   },
   "entity_relationships": {
     "status": "expanded",
     "research_needed": [
-      "Relationship between KETTLER and Kettler Management Inc.",
-      "Other Kettler entities",
-      "Property ownership entities",
-      "Investment entities"
+      "relationship_between_kettler_and_kettler_management_inc.",
+      "other_kettler_entities",
+      "property_ownership_entities",
+      "investment_entities"
     ],
     "findings": [
       {
-        "parent_company": "KETTLER",
-        "subsidiary": "Kettler Management Inc.",
-        "relationship": "Parent-subsidiary",
+        "parent_company": "kettler",
+        "subsidiary": "kettler_management_inc.",
+        "relationship": "parent_subsidiary",
         "units_managed": "22,000+",
-        "geographic_scope": "DC, MD, VA, TX, NC, MO, NE, and other states",
-        "note": "Kettler Management Inc. is the property management subsidiary of KETTLER parent company"
+        "geographic_scope": "dc,_md,_va,_tx,_nc,_mo,_ne,_and_other_states",
+        "note": "kettler_management_inc._is_the_property_management_subsidiary_of_kettler_parent_company"
       }
     ],
-    "note": "Core relationship documented. Detailed ownership structure and investment entities would require access to corporate filings or internal records."
+    "note": "core_relationship_documented._detailed_ownership_structure_and_investment_entities_would_require_access_to_corporate_filings_or_internal_records."
   },
   "corporate_structure_diagram": {
     "status": "method_verified",
     "components": [
-      "Parent company (KETTLER)",
-      "Subsidiaries (Kettler Management Inc.)",
-      "Related entities",
-      "Ownership structure",
-      "Executive structure"
+      "parent_company_(kettler)",
+      "subsidiaries_(kettler_management_inc.)",
+      "related_entities",
+      "ownership_structure",
+      "executive_structure"
     ]
   },
-  "deliverable": "Corporate structure diagram with entity relationships",
+  "deliverable": "corporate_structure_diagram_with_entity_relationships",
   "next_steps": [
-    "Search Virginia SCC for Kettler filings",
-    "Search Delaware SOS (if applicable)",
-    "Research related entities",
-    "Map ownership structure",
-    "Create corporate structure diagram",
-    "Document entity relationships"
+    "search_virginia_scc_for_kettler_filings",
+    "search_delaware_sos_(if_applicable)",
+    "research_related_entities",
+    "map_ownership_structure",
+    "create_corporate_structure_diagram",
+    "document_entity_relationships"
   ],
   "metadata": {
     "file_name": "corporate_structure_analysis.json",
     "file_path": "research/va_dpor_complaint/corporate_structure_analysis.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

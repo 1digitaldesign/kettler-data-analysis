@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:00.457780",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0097.json",
+    "created": "2025_12_11t00:52:00.457780",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0097.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 97,
-    "text": "orstcre dishet of torija md by an sgnesei ha bertemAegreshi , tsREOarWIrNsWes In\nohlcateC cho o fniustteCn otrpuraitonas ndeh ateCcho o fniustteCn utrgeraitonhs acas used\ncos rptoIraeset all 0b eh ercunoait treda nda leehtrtdbtesi y gnSeauis creaoatreo ttry r n f\n(aN ewSe rsecay rparaiton)\nALYRE TCRROPOA\neldinnIegC . o,.DireuSoctrgo uha ftwfbe ristcaitnWg& Sealte exaco rmoraiton)T(&\nryatreSce\nEXECUTION OF\nJOINT AGREEMENT AND PLAN OF MERGER\nlie followins authorized officers of American Vitrified Products Company and of South-\nwast dinbricating & Weldings Co., Ine., pursuant to authority granted by their respective\nMonre ol Directors, hereby execute Lhe foregoing Joint Agreement and Plan of Merger and\nnix therelo their rexpective corporate senls, all as of the day first above written.\nARALIE TCRR OPOAI EDPRDI OURFCSAMERCTITIANVI\nYANALenerou s:T\nCathe\n(seerai t,",
+    "text": "orstcre_dishet_of_torija_md_by_an_sgnesei_ha_bertemaegreshi_,_tsreoarwirnswes_in_ohlcatec_cho_o_fniusttecn_otrpuraitonas_ndeh_ateccho_o_fniusttecn_utrgeraitonhs_acas_used_cos_rptoiraeset_all_0b_eh_ercunoait_treda_nda_leehtrtdbtesi_y_gnseauis_creaoatreo_ttry_r_n_f_(an_ewse_rsecay_rparaiton)_alyre_tcrropoa_eldinniegc_._o,.direusoctrgo_uha_ftwfbe_ristcaitnwg&_sealte_exaco_rmoraiton)t(&_ryatresce_execution_of_joint_agreement_and_plan_of_merger_lie_followins_authorized_officers_of_american_vitrified_products_company_and_of_south_wast_dinbricating_&_weldings_co.,_ine.,_pursuant_to_authority_granted_by_their_respective_monre_ol_directors,_hereby_execute_lhe_foregoing_joint_agreement_and_plan_of_merger_and_nix_therelo_their_rexpective_corporate_senls,_all_as_of_the_day_first_above_written._aralie_tcrr_opoai_edprdi_ourfcsamerctitianvi_yanalenerou_s:t_cathe_(seerai_t,",
     "char_count": 871,
     "word_count": 128,
     "anomalies": {
       "page_number": 97,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 97 | text: orstcre dishet of torija md by an sgnesei ha bertemAegreshi , tsREOarWIrNsWes In\nohlcateC cho o fniustteCn otrpuraitonas ndeh ateCcho o fniustteCn utrgeraitonhs acas used\ncos rptoIraeset all 0b eh ercunoait treda nda leehtrtdbtesi y gnSeauis creaoatreo ttry r n f\n(aN ewSe rsecay rparaiton)\nALYRE TCRROPOA\neldinnIegC . o,.DireuSoctrgo uha ftwfbe ristcaitnWg& Sealte exaco rmoraiton)T(&\nryatreSce\nEXECUTION OF\nJOINT AGREEMENT AND PLAN OF MERGER\nlie followins authorized officers of American Vitrified Products Company and of South-\nwast dinbricating & Weldings Co., Ine., pursuant to authority granted by their respective\nMonre ol Directors, hereby execute Lhe foregoing Joint Agreement and Plan of Merger and\nnix therelo their rexpective corporate senls, all as of the day first above written.\nARALIE TCRR OPOAI EDPRDI OURFCSAMERCTITIANVI\nYANALenerou s:T\nCathe\n(seerai t, | char_count: 871 | word_count: 128 | anomalies: {\"page_number\":97,\"source\":\"lariat-merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_97_|_text:_orstcre_dishet_of_torija_md_by_an_sgnesei_ha_bertemaegreshi_,_tsreoarwirnswes_in_ohlcatec_cho_o_fniusttecn_otrpuraitonas_ndeh_ateccho_o_fniusttecn_utrgeraitonhs_acas_used_cos_rptoiraeset_all_0b_eh_ercunoait_treda_nda_leehtrtdbtesi_y_gnseauis_creaoatreo_ttry_r_n_f_(an_ewse_rsecay_rparaiton)_alyre_tcrropoa_eldinniegc_._o,.direusoctrgo_uha_ftwfbe_ristcaitnwg&_sealte_exaco_rmoraiton)t(&_ryatresce_execution_of_joint_agreement_and_plan_of_merger_lie_followins_authorized_officers_of_american_vitrified_products_company_and_of_south_wast_dinbricating_&_weldings_co.,_ine.,_pursuant_to_authority_granted_by_their_respective_monre_ol_directors,_hereby_execute_lhe_foregoing_joint_agreement_and_plan_of_merger_and_nix_therelo_their_rexpective_corporate_senls,_all_as_of_the_day_first_above_written._aralie_tcrr_opoai_edprdi_ourfcsamerctitianvi_yanalenerou_s:t_cathe_(seerai_t,_|_char_count:_871_|_word_count:_128_|_anomalies:_{\"page_number\":97,\"source\":\"lariat_merged\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.0619765967130661,
     -0.017021315172314644,

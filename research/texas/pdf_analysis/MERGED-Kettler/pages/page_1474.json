@@ -1,25 +1,25 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:54:38.961698",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1474.json",
+    "created": "2025_12_11t00:54:38.961698",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/merged_kettler/pages/page_1474.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 1474,
-    "text": "1310210013\nBiizFlings*\nSepetmbe22r 6 0,13\n1910210013\nR:achelEme rson\naeCStt orporaitonC ommission\n130Ma0 ireE.nSte t\n2 3219ARichmonVd ,\nY)#CNE HOLPRC(SUTANE OESS IGFCOVIE RSERO F ENAGTAD DFROESS CFR HOE:ANE G\nDEmee rsoaMs.nr\noeictb2fctveOe4 0 r ,1Bu3 si,nieFlss inngIcos rpmoos viraeInoantd gt e. vleaseb ea dvisehedta f t\nhTea dhdteareo gosess fefr rvin cept roceichss s angi4nro 7gfm:0 1C oRx oaSud ie3l,t 0Ge1 ,Suie# t .\n2 306o0t: AAlleVn ,\nBusinieFlss inngIcos rporaetd\n4701C oRx oaSud ie2,t 85\n2 3060AAlleVn ,lGen\nPleasea dviseuw s hehntea ddrechss angeh abs eenn oetda ndi ssuew haetveer videnceo f (cid:222) linhmagta y t\nbe usual.\nThank you,\nBusinieFlss inngIcos rporaetd\nNWiel\nVP.AsSt\niMaWlrk liDpa iOems,reoo raictr ftons\n8040Exce lsie2oDSt 0r r 0\nMa5d 3iI7soW1n 7,\nmwilliams@biz (cid:222) lingcos.m\n8040 Excelsior Drive, Suite 200 Madison, WI 53717 (800) 981-7183 of (608) 827-5300\nFax (608) 827-5501\nwww.bizfilings.com",
+    "text": "1310210013_biizflings*_sepetmbe22r_6_0,13_1910210013_r:acheleme_rson_aecstt_orporaitonc_ommission_130ma0_iree.nste_t_2_3219arichmonvd_,_y)#cne_holprc(sutane_oess_igfcovie_rsero_f_enagtad_dfroess_cfr_hoe:ane_g_demee_rsoams.nr_oeictb2fctveoe4_0_r_,1bu3_si,nieflss_inngicos_rpmoos_viraeinoantd_gt_e._vleaseb_ea_dvisehedta_f_t_htea_dhdteareo_gosess_fefr_rvin_cept_roceichss_s_angi4nro_7gfm:0_1c_orx_oasud_ie3l,t_0ge1_,suie#_t_._2_306o0t:_aallevn_,_businieflss_inngicos_rporaetd_4701c_orx_oasud_ie2,t_85_2_3060aallevn_,lgen_pleasea_dviseuw_s_hehntea_ddrechss_angeh_abs_eenn_oetda_ndi_ssuew_haetveer_videnceo_f_(cid:222)_linhmagta_y_t_be_usual._thank_you,_businieflss_inngicos_rporaetd_nwiel_vp.asst_imawlrk_lidpa_ioems,reoo_raictr_ftons_8040exce_lsie2odst_0r_r_0_ma5d_3ii7sow1n_7,_mwilliams@biz_(cid:222)_lingcos.m_8040_excelsior_drive,_suite_200_madison,_wi_53717_(800)_981_7183_of_(608)_827_5300_fax_(608)_827_5501_www.bizfilings.com",
     "char_count": 930,
     "word_count": 138,
     "anomalies": {
       "page_number": 1474,
-      "source": "MERGED-Kettler",
+      "source": "merged_kettler",
       "address_clusters": [],
       "entity_variations": [],
       "date_sequences": [],
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 1474 | text: 1310210013\nBiizFlings*\nSepetmbe22r 6 0,13\n1910210013\nR:achelEme rson\naeCStt orporaitonC ommission\n130Ma0 ireE.nSte t\n2 3219ARichmonVd ,\nY)#CNE HOLPRC(SUTANE OESS IGFCOVIE RSERO F ENAGTAD DFROESS CFR HOE:ANE G\nDEmee rsoaMs.nr\noeictb2fctveOe4 0 r ,1Bu3 si,nieFlss inngIcos rpmoos viraeInoantd gt e. vleaseb ea dvisehedta f t\nhTea dhdteareo gosess fefr rvin cept roceichss s angi4nro 7gfm:0 1C oRx oaSud ie3l,t 0Ge1 ,Suie# t .\n2 306o0t: AAlleVn ,\nBusinieFlss inngIcos rporaetd\n4701C oRx oaSud ie2,t 85\n2 3060AAlleVn ,lGen\nPleasea dviseuw s hehntea ddrechss angeh abs eenn oetda ndi ssuew haetveer videnceo f (cid:222) linhmagta y t\nbe usual.\nThank you,\nBusinieFlss inngIcos rporaetd\nNWiel\nVP.AsSt\niMaWlrk liDpa iOems,reoo raictr ftons\n8040Exce lsie2oDSt 0r r 0\nMa5d 3iI7soW1n 7,\nmwilliams@biz (cid:222) lingcos.m\n8040 Excelsior Drive, Suite 200 Madison, WI 53717 (800) 981-7183 of (608) 827-5300\nFax (608) 827-5501\nwww.bizfilings.com | char_count: 930 | word_count: 138 | anomalies: {\"page_number\":1474,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_1474_|_text:_1310210013_biizflings*_sepetmbe22r_6_0,13_1910210013_r:acheleme_rson_aecstt_orporaitonc_ommission_130ma0_iree.nste_t_2_3219arichmonvd_,_y)#cne_holprc(sutane_oess_igfcovie_rsero_f_enagtad_dfroess_cfr_hoe:ane_g_demee_rsoams.nr_oeictb2fctveoe4_0_r_,1bu3_si,nieflss_inngicos_rpmoos_viraeinoantd_gt_e._vleaseb_ea_dvisehedta_f_t_htea_dhdteareo_gosess_fefr_rvin_cept_roceichss_s_angi4nro_7gfm:0_1c_orx_oasud_ie3l,t_0ge1_,suie#_t_._2_306o0t:_aallevn_,_businieflss_inngicos_rporaetd_4701c_orx_oasud_ie2,t_85_2_3060aallevn_,lgen_pleasea_dviseuw_s_hehntea_ddrechss_angeh_abs_eenn_oetda_ndi_ssuew_haetveer_videnceo_f_(cid:222)_linhmagta_y_t_be_usual._thank_you,_businieflss_inngicos_rporaetd_nwiel_vp.asst_imawlrk_lidpa_ioems,reoo_raictr_ftons_8040exce_lsie2odst_0r_r_0_ma5d_3ii7sow1n_7,_mwilliams@biz_(cid:222)_lingcos.m_8040_excelsior_drive,_suite_200_madison,_wi_53717_(800)_981_7183_of_(608)_827_5300_fax_(608)_827_5501_www.bizfilings.com_|_char_count:_930_|_word_count:_138_|_anomalies:_{\"page_number\":1474,\"source\":\"merged_kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.020747384056448936,
     -0.00953527633100748,

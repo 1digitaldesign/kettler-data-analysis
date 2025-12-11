@@ -1,23 +1,23 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "purpose": "Online reviews and ratings",
+    "date": "2025_12_10",
+    "purpose": "online_reviews_and_ratings",
     "status": "searched",
-    "search_date": "2025-12-10"
+    "search_date": "2025_12_10"
   },
   "google_reviews": [],
   "yelp_reviews": [],
   "other_reviews": [],
   "platforms_searched": [
     {
-      "platform": "Google Business",
+      "platform": "google_business",
       "url": "https://www.google.com/maps/",
-      "search_for": "Kettler Management"
+      "search_for": "kettler_management"
     },
     {
-      "platform": "Yelp",
+      "platform": "yelp",
       "url": "https://www.yelp.com/",
-      "search_for": "Kettler Management"
+      "search_for": "kettler_management"
     }
   ]
 }

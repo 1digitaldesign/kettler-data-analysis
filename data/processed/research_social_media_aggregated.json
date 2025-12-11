@@ -1,0 +1,35 @@
+{
+  "category": "social_media",
+  "count": 3,
+  "data": [
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:10.225317",
+        "source": "linkedin",
+        "search_method": "browser_automation"
+      },
+      "profiles": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:10.225172",
+        "search_method": "browser_automation"
+      },
+      "websites": []
+    },
+    {
+      "metadata": {
+        "date": "2025_12_10t20:49:10.225420",
+        "search_method": "browser_automation",
+        "sources": [
+          "google_reviews",
+          "yelp",
+          "bbb_reviews",
+          "apartment_review_sites"
+        ]
+      },
+      "reviews": []
+    }
+  ],
+  "processed_date": "2025-12-11T03:10:59.232620"
+}

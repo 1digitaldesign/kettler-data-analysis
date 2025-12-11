@@ -1,104 +1,104 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:03.398830",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/pages/page_0235.json",
+    "created": "2025_12_11t00:52:03.398830",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/pages/page_0235.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 235,
-    "text": "Name Asddres\nTitle\n180726141049\n. Brow LnlehaMci nt PsdeereiciV lonagiRe Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nn PgeundaJor nt PsdeereiciV lonagiRe ns8300 Geboro Dvereri\n650eStui\nMcLean, VA 22102\nusnghaeVsa R. holNci nt PsdeereiciV lonagiRe te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nleA R. Fnznnare nt PsdeereiciV Aare vd.,y Blrst101 Uveini\n240eStui\n, CO 80206rDnvee\nnshionhy R. HcotutmiT icePre sidentAreaV 830re0Ge nsboroD rive\nSuie6t 50\nMcLean, VA 22102\nndryAa. LJos hua\nArea Vice President 5847 San Felipe Street\nSuite 3250\nHouston, TX 77057\nKatherine C. Slade Area Vice President 3811 Turtle Creek Blvd.,\nSuite 1500\nDallas, TX 75219\nJennifer J. Wiebrand Area Vice President 6850 Austin Center Blvd.,\nSuite 200\nAustin, TX 78731\nvd.,k Ble CreelurtT1 d 381etimih l (wtnti PsdeereiciV\nThomas L. Bisanz\ny)thoriuta 1500eStui\nXT 75219sa, lDla",
+    "text": "name_asddres_title_180726141049_._brow_lnlehamci_nt_psdeereiciv_lonagire_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_n_pgeundajor_nt_psdeereiciv_lonagire_ns8300_geboro_dvereri_650estui_mclean,_va_22102_usnghaevsa_r._holnci_nt_psdeereiciv_lonagire_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_lea_r._fnznnare_nt_psdeereiciv_aare_vd.,y_blrst101_uveini_240estui_,_co_80206rdnvee_nshionhy_r._hcotutmit_icepre_sidentareav_830re0ge_nsborod_rive_suie6t_50_mclean,_va_22102_ndryaa._ljos_hua_area_vice_president_5847_san_felipe_street_suite_3250_houston,_tx_77057_katherine_c._slade_area_vice_president_3811_turtle_creek_blvd.,_suite_1500_dallas,_tx_75219_jennifer_j._wiebrand_area_vice_president_6850_austin_center_blvd.,_suite_200_austin,_tx_78731_vd.,k_ble_creelurtt1_d_381etimih_l_(wtnti_psdeereiciv_thomas_l._bisanz_y)thoriuta_1500estui_xt_75219sa,_ldla",
     "char_count": 859,
     "word_count": 129,
     "anomalies": {
       "page_number": 235,
-      "source": "lariat-merged",
+      "source": "lariat_merged",
       "address_clusters": [
         {
           "count": 8,
           "addresses": [
             {
-              "full_match": "Lean, VA 22102",
+              "full_match": "lean,_va_22102",
               "groups": [
-                "Lean",
-                "VA",
+                "lean",
+                "va",
                 "22102"
               ],
               "start": 191,
               "end": 205
             },
             {
-              "full_match": "Stui\nXT 77057",
+              "full_match": "stui_xt_77057",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "77057"
               ],
               "start": 279,
               "end": 292
             },
             {
-              "full_match": "Stui\n, CO 80206",
+              "full_match": "stui_,_co_80206",
               "groups": [
-                "Stui",
-                "CO",
+                "stui",
+                "co",
                 "80206"
               ],
               "start": 364,
               "end": 379
             },
             {
-              "full_match": "Lean, VA 22102",
+              "full_match": "lean,_va_22102",
               "groups": [
-                "Lean",
-                "VA",
+                "lean",
+                "va",
                 "22102"
               ],
               "start": 461,
               "end": 475
             },
             {
-              "full_match": "Houston, TX 77057",
+              "full_match": "houston,_tx_77057",
               "groups": [
-                "Houston",
-                "TX",
+                "houston",
+                "tx",
                 "77057"
               ],
               "start": 547,
               "end": 564
             },
             {
-              "full_match": "Dallas, TX 75219",
+              "full_match": "dallas,_tx_75219",
               "groups": [
-                "Dallas",
-                "TX",
+                "dallas",
+                "tx",
                 "75219"
               ],
               "start": 640,
               "end": 656
             },
             {
-              "full_match": "Austin, TX 78731",
+              "full_match": "austin,_tx_78731",
               "groups": [
-                "Austin",
-                "TX",
+                "austin",
+                "tx",
                 "78731"
               ],
               "start": 734,
               "end": 750
             },
             {
-              "full_match": "Stui\nXT 75219",
+              "full_match": "stui_xt_75219",
               "groups": [
-                "Stui",
-                "XT",
+                "stui",
+                "xt",
                 "75219"
               ],
               "start": 838,
               "end": 851
             }
           ],
-          "pattern": "Multiple addresses clustered",
+          "pattern": "multiple_addresses_clustered",
           "severity": "medium"
         }
       ],
@@ -107,7 +107,7 @@
       "suspicious_patterns": []
     }
   },
-  "text_representation": "page_number: 235 | text: Name Asddres\nTitle\n180726141049\n. Brow LnlehaMci nt PsdeereiciV lonagiRe Rd., NeErehtc3399 Pae\n600eStui\n30326, GaAntaAlt\nn PgeundaJor nt PsdeereiciV lonagiRe ns8300 Geboro Dvereri\n650eStui\nMcLean, VA 22102\nusnghaeVsa R. holNci nt PsdeereiciV lonagiRe te Srepeti5847 Sn Flae\n3250eStui\nXT 77057Houson, t\nleA R. Fnznnare nt PsdeereiciV Aare vd.,y Blrst101 Uveini\n240eStui\n, CO 80206rDnvee\nnshionhy R. HcotutmiT icePre sidentAreaV 830re0Ge nsboroD rive\nSuie6t 50\nMcLean, VA 22102\nndryAa. LJos hua\nArea Vice President 5847 San Felipe Street\nSuite 3250\nHouston, TX 77057\nKatherine C. Slade Area Vice President 3811 Turtle Creek Blvd.,\nSuite 1500\nDallas, TX 75219\nJennifer J. Wiebrand Area Vice President 6850 Austin Center Blvd.,\nSuite 200\nAustin, TX 78731\nvd.,k Ble CreelurtT1 d 381etimih l (wtnti PsdeereiciV\nThomas L. Bisanz\ny)thoriuta 1500eStui\nXT 75219sa, lDla | char_count: 859 | word_count: 129 | anomalies: {\"page_number\":235,\"source\":\"lariat-merged\",\"address_clusters\":[{\"count\":8,\"addresses\":[{\"full_match\":\"Lean, VA 22102\",\"groups\":[\"Lean\",\"VA\",\"22102\"],\"start\":191,\"end\":205},{\"full_match\":\"Stui\\nXT 77057\",\"groups\":[\"Stui\",\"XT\",\"77057\"],\"start\":279,\"end\":292},{\"full_match\":\"Stui\\n, CO 80206\",\"groups\":[\"Stui\",\"CO\",\"80206\"],\"start\":364,\"end\":379},{\"full_match\":\"Lean, VA 22102\",\"groups\":[\"Lean\",\"VA\",\"22102\"],\"start\":461,\"end\":475},{\"full_match\":\"Houston, TX 77057\",\"groups\":[\"Houston\",\"TX\",\"77057\"],\"start\":547,\"end\":564},{\"full_match\":\"Dallas, TX 75219\",\"groups\":[\"Dallas\",\"TX\",\"75219\"],\"start\":640,\"end\":656},{\"full_match\":\"Austin, TX 78731\",\"groups\":[\"Austin\",\"TX\",\"78731\"],\"start\":734,\"end\":750},{\"full_match\":\"Stui\\nXT 75219\",\"groups\":[\"Stui\",\"XT\",\"75219\"],\"start\":838,\"end\":851}],\"pattern\":\"Multiple addresses clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
+  "text_representation": "page_number:_235_|_text:_name_asddres_title_180726141049_._brow_lnlehamci_nt_psdeereiciv_lonagire_rd.,_neerehtc3399_pae_600estui_30326,_gaantaalt_n_pgeundajor_nt_psdeereiciv_lonagire_ns8300_geboro_dvereri_650estui_mclean,_va_22102_usnghaevsa_r._holnci_nt_psdeereiciv_lonagire_te_srepeti5847_sn_flae_3250estui_xt_77057houson,_t_lea_r._fnznnare_nt_psdeereiciv_aare_vd.,y_blrst101_uveini_240estui_,_co_80206rdnvee_nshionhy_r._hcotutmit_icepre_sidentareav_830re0ge_nsborod_rive_suie6t_50_mclean,_va_22102_ndryaa._ljos_hua_area_vice_president_5847_san_felipe_street_suite_3250_houston,_tx_77057_katherine_c._slade_area_vice_president_3811_turtle_creek_blvd.,_suite_1500_dallas,_tx_75219_jennifer_j._wiebrand_area_vice_president_6850_austin_center_blvd.,_suite_200_austin,_tx_78731_vd.,k_ble_creelurtt1_d_381etimih_l_(wtnti_psdeereiciv_thomas_l._bisanz_y)thoriuta_1500estui_xt_75219sa,_ldla_|_char_count:_859_|_word_count:_129_|_anomalies:_{\"page_number\":235,\"source\":\"lariat_merged\",\"address_clusters\":[{\"count\":8,\"addresses\":[{\"full_match\":\"lean,_va_22102\",\"groups\":[\"lean\",\"va\",\"22102\"],\"start\":191,\"end\":205},{\"full_match\":\"stui\\nxt_77057\",\"groups\":[\"stui\",\"xt\",\"77057\"],\"start\":279,\"end\":292},{\"full_match\":\"stui\\n,_co_80206\",\"groups\":[\"stui\",\"co\",\"80206\"],\"start\":364,\"end\":379},{\"full_match\":\"lean,_va_22102\",\"groups\":[\"lean\",\"va\",\"22102\"],\"start\":461,\"end\":475},{\"full_match\":\"houston,_tx_77057\",\"groups\":[\"houston\",\"tx\",\"77057\"],\"start\":547,\"end\":564},{\"full_match\":\"dallas,_tx_75219\",\"groups\":[\"dallas\",\"tx\",\"75219\"],\"start\":640,\"end\":656},{\"full_match\":\"austin,_tx_78731\",\"groups\":[\"austin\",\"tx\",\"78731\"],\"start\":734,\"end\":750},{\"full_match\":\"stui\\nxt_75219\",\"groups\":[\"stui\",\"xt\",\"75219\"],\"start\":838,\"end\":851}],\"pattern\":\"multiple_addresses_clustered\",\"severity\":\"medium\"}],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[]}",
   "embedding": [
     -0.041564252227544785,
     0.029728146269917488,

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "date": "2025-12-10T20:49:09.889894",
-    "source": "HUD Fair Housing",
-    "search_method": "Browser automation",
+    "date": "2025_12_10t20:49:09.889894",
+    "source": "hud_fair_housing",
+    "search_method": "browser_automation",
     "url": "https://www.hud.gov/program_offices/fair_housing_equal_opp"
   },
   "complaints": []

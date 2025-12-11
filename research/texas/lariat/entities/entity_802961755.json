@@ -1,73 +1,73 @@
 {
   "metadata": {
     "source": "lariat_tx_filings",
-    "created": "2025-12-11T00:21:40.739024",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/lariat/entities/entity_802961755.json",
+    "created": "2025_12_11t00:21:40.739024",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/lariat/entities/entity_802961755.json",
     "has_embedding": true
   },
   "data": {
     "filing_number": "802961755",
     "entity_type": null,
-    "original_date_of_filing": "March 13, 2018",
-    "entity_status": "In existence",
+    "original_date_of_filing": "march_13,_2018",
+    "entity_status": "in_existence",
     "formation_date": null,
     "tax_id": "32066517577",
     "fein": null,
-    "duration": "Perpetual",
-    "name": "SDS Texas Realty, LLC",
-    "address": "5729 LEBANON RD STE 144553\nFRISCO, TX 75034-7260 USA",
+    "duration": "perpetual",
+    "name": "sds_texas_realty,_llc",
+    "address": "5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa",
     "jurisdiction": null,
     "foreign_formation_date": null,
     "fictitious_name": null,
     "registered_agent": {
-      "name": "LEAH DOUTHIT",
-      "address": "5152 Loma Alta Dr.",
+      "name": "leah_douthit",
+      "address": "5152_loma_alta_dr.",
       "inactive_date": null
     },
     "filing_history": [],
     "names": [
       {
-        "name": "SDS Texas Realty, LLC",
-        "name_status": "In use",
-        "name_type": "Legal",
+        "name": "sds_texas_realty,_llc",
+        "name_status": "in_use",
+        "name_type": "legal",
         "name_inactive_date": "0",
         "consent_filing_number": null
       }
     ],
     "management": [
       {
-        "last_update": "August 7, 2024",
-        "name": "Leah Douthit",
-        "title": "Manager",
-        "address": "5729 Lebanon Rd Suite 14"
+        "last_update": "august_7,_2024",
+        "name": "leah_douthit",
+        "title": "manager",
+        "address": "5729_lebanon_rd_suite_14"
       },
       {
-        "last_update": "August 7, 2024",
-        "name": "Caitlin Skidmore",
-        "title": "Manager",
-        "address": "2021 Triton Dr"
+        "last_update": "august_7,_2024",
+        "name": "caitlin_skidmore",
+        "title": "manager",
+        "address": "2021_triton_dr"
       },
       {
-        "last_update": "August 7, 2024",
-        "name": "Elizabeth Saye",
-        "title": "Manager",
-        "address": "5152 Loma Alta Dr"
+        "last_update": "august_7,_2024",
+        "name": "elizabeth_saye",
+        "title": "manager",
+        "address": "5152_loma_alta_dr"
       }
     ],
     "assumed_names": [
       {
-        "assumed_name": "One Legacy Group",
-        "date_of_filing": "March 27, 2018",
-        "expiration_date": "March 27, 2028",
-        "inactive_date": "December 18, 2023",
-        "name_status": "Abandoned",
-        "counties": "All Counties"
+        "assumed_name": "one_legacy_group",
+        "date_of_filing": "march_27,_2018",
+        "expiration_date": "march_27,_2028",
+        "inactive_date": "december_18,_2023",
+        "name_status": "abandoned",
+        "counties": "all_counties"
       }
     ],
     "associated_entities": [],
     "initial_address": null
   },
-  "text_representation": "filing_number: 802961755 | original_date_of_filing: March 13, 2018 | entity_status: In existence | tax_id: 32066517577 | duration: Perpetual | name: SDS Texas Realty, LLC | address: 5729 LEBANON RD STE 144553\nFRISCO, TX 75034-7260 USA | registered_agent: {\"name\":\"LEAH DOUTHIT\",\"address\":\"5152 Loma Alta Dr.\",\"inactive_date\":null} | names: 1 items | management: 3 items | assumed_names: 1 items",
+  "text_representation": "filing_number:_802961755_|_original_date_of_filing:_march_13,_2018_|_entity_status:_in_existence_|_tax_id:_32066517577_|_duration:_perpetual_|_name:_sds_texas_realty,_llc_|_address:_5729_lebanon_rd_ste_144553_frisco,_tx_75034_7260_usa_|_registered_agent:_{\"name\":\"leah_douthit\",\"address\":\"5152_loma_alta_dr.\",\"inactive_date\":null}_|_names:_1_items_|_management:_3_items_|_assumed_names:_1_items",
   "embedding": [
     -0.02965456061065197,
     0.051778022199869156,

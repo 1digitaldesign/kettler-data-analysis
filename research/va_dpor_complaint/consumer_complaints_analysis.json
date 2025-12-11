@@ -1,33 +1,33 @@
 {
-  "research_date": "2025-12-09",
-  "priority": "PRIORITY 4.2: Consumer Complaint Analysis",
-  "objective": "Expand BBB complaint analysis and find additional complaint sources",
+  "research_date": "2025_12_09",
+  "priority": "priority_4.2:_consumer_complaint_analysis",
+  "objective": "expand_bbb_complaint_analysis_and_find_additional_complaint_sources",
   "bbb_complaints": {
     "status": "expanded",
     "total_complaints": 46,
     "unanswered_complaints": 26,
     "unanswered_percentage": 57,
-    "complaint_period": "3 years",
+    "complaint_period": "3_years",
     "recent_complaints_12_months": 16,
-    "bbb_rating": "F (Failing)",
+    "bbb_rating": "f_(failing)",
     "bbb_accredited": false,
     "detailed_complaints": [
       {
-        "date": "2025-08-19",
-        "property": "Alexandria, VA",
-        "type": "Application process / Discrimination",
-        "details": "Single mother of Ukrainian origin - manager rude and dismissive, income requirements higher than published, application canceled without explanation after 2+ weeks (applied 2025-08-02, submitted co-applicant docs 2025-08-07)",
-        "resolution": "Kettler apologized, confirmed applicant would have qualified, corrected income calculation, invited to reapply",
-        "status": "Resolved - complainant satisfied",
-        "significance": "Potential discrimination based on national origin and family status"
+        "date": "2025_08_19",
+        "property": "alexandria,_va",
+        "type": "application_process_/_discrimination",
+        "details": "single_mother_of_ukrainian_origin_manager_rude_and_dismissive,_income_requirements_higher_than_published,_application_canceled_without_explanation_after_2+_weeks_(applied_2025_08_02,_submitted_co_applicant_docs_2025_08_07)",
+        "resolution": "kettler_apologized,_confirmed_applicant_would_have_qualified,_corrected_income_calculation,_invited_to_reapply",
+        "status": "resolved_complainant_satisfied",
+        "significance": "potential_discrimination_based_on_national_origin_and_family_status"
       },
       {
-        "date": "2025-08-18",
-        "property": "Washington, DC",
-        "type": "Mandatory fees",
-        "details": "$60/month mandatory cable/internet charge, non-optional, tied to bulk service agreement, tenants cannot opt out or select another provider",
-        "resolution": "Business addressed but consumer did not accept response",
-        "status": "Answered but not resolved"
+        "date": "2025_08_18",
+        "property": "washington,_dc",
+        "type": "mandatory_fees",
+        "details": "$60/month_mandatory_cable/internet_charge,_non_optional,_tied_to_bulk_service_agreement,_tenants_cannot_opt_out_or_select_another_provider",
+        "resolution": "business_addressed_but_consumer_did_not_accept_response",
+        "status": "answered_but_not_resolved"
       }
     ],
     "complaint_types": {
@@ -35,8 +35,8 @@
         "count": 24,
         "percentage": 52,
         "examples": [
-          "Black mold issues at Fields of Lorton Station",
-          "Minimal remediation after tenant paid for mold test"
+          "black_mold_issues_at_fields_of_lorton_station",
+          "minimal_remediation_after_tenant_paid_for_mold_test"
         ]
       },
       "product_issues": {
@@ -47,17 +47,17 @@
         "count": 4,
         "percentage": 9,
         "examples": [
-          "Security deposit disputes",
-          "Months-long delays",
-          "Excessive move-out charges exceeding $1,800",
-          "Failure to return deposits within Virginia's 45-day requirement"
+          "security_deposit_disputes",
+          "months_long_delays",
+          "excessive_move_out_charges_exceeding_$1,800",
+          "failure_to_return_deposits_within_virginia's_45_day_requirement"
         ]
       },
       "order_issues": {
         "count": 4,
         "percentage": 9,
         "examples": [
-          "Refusal to refund $650 ($150 application + $500 deposit) when applications couldn't be processed"
+          "refusal_to_refund_$650_($150_application_+_$500_deposit)_when_applications_couldn't_be_processed"
         ]
       },
       "sales_advertising": {
@@ -66,195 +66,195 @@
       }
     },
     "documented_themes": [
-      "Black mold issues - immunocompromised family discovered black mold in child's bedroom",
-      "Security deposit disputes - months-long delays, excessive charges",
-      "Mandatory fees - $60/month non-waivable cable/internet charge",
-      "Application fee issues - refusal to refund when applications couldn't be processed",
-      "Previous manager embezzlement - mentioned in reviews"
+      "black_mold_issues_immunocompromised_family_discovered_black_mold_in_child's_bedroom",
+      "security_deposit_disputes_months_long_delays,_excessive_charges",
+      "mandatory_fees_$60/month_non_waivable_cable/internet_charge",
+      "application_fee_issues_refusal_to_refund_when_applications_couldn't_be_processed",
+      "previous_manager_embezzlement_mentioned_in_reviews"
     ],
     "research_needed": [
-      "Historical BBB complaints (beyond 3 years)",
-      "Detailed complaint dates",
-      "Property-specific complaints",
-      "Resolution status for each complaint"
+      "historical_bbb_complaints_(beyond_3_years)",
+      "detailed_complaint_dates",
+      "property_specific_complaints",
+      "resolution_status_for_each_complaint"
     ]
   },
   "google_yelp_reviews": {
     "status": "expanded",
     "search_methods": [
-      "Google Business reviews for Kettler properties",
-      "Yelp reviews",
-      "Apartment review websites"
+      "google_business_reviews_for_kettler_properties",
+      "yelp_reviews",
+      "apartment_review_websites"
     ],
     "findings": [
       {
-        "property": "Avondale Overlook",
-        "date": "2023-06-12",
-        "issue": "Severe mice infestation",
-        "tenant_tenure": "Long-term resident since 2013",
-        "concern": "Potential gentrification efforts, tenant neglect",
-        "source": "BBB customer review"
+        "property": "avondale_overlook",
+        "date": "2023_06_12",
+        "issue": "severe_mice_infestation",
+        "tenant_tenure": "long_term_resident_since_2013",
+        "concern": "potential_gentrification_efforts,_tenant_neglect",
+        "source": "bbb_customer_review"
       },
       {
-        "property": "Delamarre Apartments",
-        "date": "2023-01-13",
-        "issue": "Noise complaints",
-        "details": "Loud noises from neighboring units during late hours, violating quiet time policies",
-        "management_response": "No action taken despite multiple complaints",
-        "source": "BBB customer review"
+        "property": "delamarre_apartments",
+        "date": "2023_01_13",
+        "issue": "noise_complaints",
+        "details": "loud_noises_from_neighboring_units_during_late_hours,_violating_quiet_time_policies",
+        "management_response": "no_action_taken_despite_multiple_complaints",
+        "source": "bbb_customer_review"
       },
       {
-        "property": "The Aster",
-        "date": "2024-01-31",
+        "property": "the_aster",
+        "date": "2024_01_31",
         "issues": [
-          "Unresponsive property managers",
-          "Staff occupying resident parking spaces",
-          "Neglected trash bins",
-          "Racial profiling incidents"
+          "unresponsive_property_managers",
+          "staff_occupying_resident_parking_spaces",
+          "neglected_trash_bins",
+          "racial_profiling_incidents"
         ],
-        "lease_renewal": "Challenges with lease renewal",
-        "source": "VeryApt.com review"
+        "lease_renewal": "challenges_with_lease_renewal",
+        "source": "veryapt.com_review"
       },
       {
-        "property": "Jamison at Dakota Crossing",
-        "date": "2023-03",
-        "issue": "High water bills",
-        "details": "Bills nearing $1,500 for 9 months, management failure to address water leaks and running toilets",
-        "source": "Spotlight DC investigation"
+        "property": "jamison_at_dakota_crossing",
+        "date": "2023_03",
+        "issue": "high_water_bills",
+        "details": "bills_nearing_$1,500_for_9_months,_management_failure_to_address_water_leaks_and_running_toilets",
+        "source": "spotlight_dc_investigation"
       }
     ],
     "focus_areas": [
-      "Reviews mentioning violations",
-      "Reviews mentioning unlicensed activities",
-      "Reviews mentioning supervision issues",
-      "Reviews mentioning discrimination"
+      "reviews_mentioning_violations",
+      "reviews_mentioning_unlicensed_activities",
+      "reviews_mentioning_supervision_issues",
+      "reviews_mentioning_discrimination"
     ]
   },
   "state_consumer_protection": {
     "status": "method_verified",
     "states_to_search": [
-      "Virginia Attorney General",
-      "DC Attorney General",
-      "Maryland Attorney General",
-      "Texas Attorney General",
-      "Other states where Kettler operates"
+      "virginia_attorney_general",
+      "dc_attorney_general",
+      "maryland_attorney_general",
+      "texas_attorney_general",
+      "other_states_where_kettler_operates"
     ],
     "findings": [],
     "search_methods": [
-      "State attorney general complaint databases",
-      "Consumer protection agency records"
+      "state_attorney_general_complaint_databases",
+      "consumer_protection_agency_records"
     ],
-    "note": "State AG complaint databases may have limited public access. DC AG case (drug nuisance 2014-2015) already documented. Additional searches would require database access or FOIA requests. BBB complaints (46 total) already documented."
+    "note": "state_ag_complaint_databases_may_have_limited_public_access._dc_ag_case_(drug_nuisance_2014_2015)_already_documented._additional_searches_would_require_database_access_or_foia_requests._bbb_complaints_(46_total)_already_documented."
   },
   "court_cases": {
     "status": "partial",
     "known_cases": [
       {
-        "case": "Equal Rights Center v. Kettler Management",
-        "date": "2024-03",
+        "case": "equal_rights_center_v._kettler_management",
+        "date": "2024_03",
         "settlement": 140000,
-        "type": "Fair Housing Act violation"
+        "type": "fair_housing_act_violation"
       },
       {
-        "case": "DC Attorney General v. Kettler",
-        "date": "2014-2015",
-        "type": "Drug nuisance"
+        "case": "dc_attorney_general_v._kettler",
+        "date": "2014_2015",
+        "type": "drug_nuisance"
       },
       {
-        "case": "Facebook Age Discrimination Class Action",
-        "date": "2020-2022",
-        "type": "Age discrimination"
+        "case": "facebook_age_discrimination_class_action",
+        "date": "2020_2022",
+        "type": "age_discrimination"
       },
       {
-        "case": "Coleman v. Kettler",
+        "case": "coleman_v._kettler",
         "date": "2022",
-        "type": "Employment discrimination"
+        "type": "employment_discrimination"
       }
     ],
     "additional_research": {
       "status": "expanded",
       "search_methods": [
-        "Small claims court records",
-        "Civil court records",
-        "Federal court records",
-        "State court records"
+        "small_claims_court_records",
+        "civil_court_records",
+        "federal_court_records",
+        "state_court_records"
       ],
       "focus_areas": [
-        "Tenant lawsuits",
-        "Security deposit disputes",
-        "Lease violations",
-        "Property condition disputes"
+        "tenant_lawsuits",
+        "security_deposit_disputes",
+        "lease_violations",
+        "property_condition_disputes"
       ],
       "known_cases_documented": [
-        "Equal Rights Center v. Kettler (2024) - $140K settlement",
-        "DC Attorney General v. Kettler (2014-2015) - drug nuisance",
-        "Coleman v. Kettler (2022) - employment discrimination",
-        "Wible v. Parcel D Property (2025) - personal injury",
-        "Housing Rights Initiative v. Bozzuto (2020) - Kettler as defendant",
-        "Williams v. Kettler (2012-2014) - ongoing litigation",
-        "Opiotennione v. Bozzuto (2025) - Kettler as appellee"
+        "equal_rights_center_v._kettler_(2024)_$140k_settlement",
+        "dc_attorney_general_v._kettler_(2014_2015)_drug_nuisance",
+        "coleman_v._kettler_(2022)_employment_discrimination",
+        "wible_v._parcel_d_property_(2025)_personal_injury",
+        "housing_rights_initiative_v._bozzuto_(2020)_kettler_as_defendant",
+        "williams_v._kettler_(2012_2014)_ongoing_litigation",
+        "opiotennione_v._bozzuto_(2025)_kettler_as_appellee"
       ],
-      "note": "Major court cases documented. Additional small claims and tenant lawsuits would require access to local court databases or manual searches."
+      "note": "major_court_cases_documented._additional_small_claims_and_tenant_lawsuits_would_require_access_to_local_court_databases_or_manual_searches."
     }
   },
   "complaint_categorization": {
     "status": "completed",
     "categories": [
       {
-        "category": "Supervision violations",
+        "category": "supervision_violations",
         "complaints": [
-          "10.5-year principal broker gap (2014-2025)",
-          "1,300-mile geographic violation",
-          "38+ firms supervision impossibility",
-          "100,000+ units supervision impossibility",
-          "Missing quarterly certifications"
+          "10.5_year_principal_broker_gap_(2014_2025)",
+          "1,300_mile_geographic_violation",
+          "38+_firms_supervision_impossibility",
+          "100,000+_units_supervision_impossibility",
+          "missing_quarterly_certifications"
         ]
       },
       {
-        "category": "Unlicensed practice",
+        "category": "unlicensed_practice",
         "complaints": [
-          "Edward Hyland - unlicensed property management",
-          "Edward Hyland - unlicensed lease decisions",
-          "Edward Hyland - unlicensed accommodation denials",
-          "4 additional personnel confirmed unlicensed (VA, TX, MD, DC, NC)"
+          "edward_hyland_unlicensed_property_management",
+          "edward_hyland_unlicensed_lease_decisions",
+          "edward_hyland_unlicensed_accommodation_denials",
+          "4_additional_personnel_confirmed_unlicensed_(va,_tx,_md,_dc,_nc)"
         ]
       },
       {
-        "category": "Discrimination",
+        "category": "discrimination",
         "complaints": [
-          "Equal Rights Center v. Kettler (2024) - source of income discrimination, $140K settlement",
-          "Facebook Age Discrimination Class Action (2020-2022) - excluded people over 50",
-          "Coleman v. Kettler (2022) - race and disability discrimination",
-          "Application discrimination complaints (BBB, tenant reports)"
+          "equal_rights_center_v._kettler_(2024)_source_of_income_discrimination,_$140k_settlement",
+          "facebook_age_discrimination_class_action_(2020_2022)_excluded_people_over_50",
+          "coleman_v._kettler_(2022)_race_and_disability_discrimination",
+          "application_discrimination_complaints_(bbb,_tenant_reports)"
         ]
       },
       {
-        "category": "Habitability violations",
+        "category": "habitability_violations",
         "complaints": [
-          "DC Attorney General v. Kettler (2014-2015) - drug nuisance at 199-unit property",
-          "BBB complaints - mice infestation",
-          "BBB complaints - noise issues",
-          "Property condition disputes"
+          "dc_attorney_general_v._kettler_(2014_2015)_drug_nuisance_at_199_unit_property",
+          "bbb_complaints_mice_infestation",
+          "bbb_complaints_noise_issues",
+          "property_condition_disputes"
         ]
       },
       {
-        "category": "Financial violations",
+        "category": "financial_violations",
         "complaints": [
-          "Washington City Paper investigation - hidden/misleading utility fees",
-          "Spotlight DC - high water bills",
-          "BBB complaint - mandatory $60/month cable/internet charge (non-opt-out)",
-          "Security deposit disputes"
+          "washington_city_paper_investigation_hidden/misleading_utility_fees",
+          "spotlight_dc_high_water_bills",
+          "bbb_complaint_mandatory_$60/month_cable/internet_charge_(non_opt_out)",
+          "security_deposit_disputes"
         ]
       },
       {
-        "category": "Consumer protection",
+        "category": "consumer_protection",
         "complaints": [
-          "BBB complaints - application process issues",
-          "BBB complaints - lease renewal issues",
-          "BBB complaints - billing practices",
-          "46 total BBB complaints",
-          "Wible v. Parcel D Property (2025) - personal injury",
-          "Housing Rights Initiative v. Bozzuto (2020) - civil rights"
+          "bbb_complaints_application_process_issues",
+          "bbb_complaints_lease_renewal_issues",
+          "bbb_complaints_billing_practices",
+          "46_total_bbb_complaints",
+          "wible_v._parcel_d_property_(2025)_personal_injury",
+          "housing_rights_initiative_v._bozzuto_(2020)_civil_rights"
         ]
       }
     ],
@@ -263,21 +263,21 @@
     "total_settlements": 1,
     "settlement_amount": 140000
   },
-  "deliverable": "Comprehensive complaint analysis with categorization",
+  "deliverable": "comprehensive_complaint_analysis_with_categorization",
   "next_steps": [
-    "Expand BBB complaint research with historical data",
-    "Search Google Business reviews",
-    "Search Yelp reviews",
-    "Search state attorney general complaint databases",
-    "Search court records (small claims, civil, federal)",
-    "Categorize all complaints",
-    "Create complaint analysis report"
+    "expand_bbb_complaint_research_with_historical_data",
+    "search_google_business_reviews",
+    "search_yelp_reviews",
+    "search_state_attorney_general_complaint_databases",
+    "search_court_records_(small_claims,_civil,_federal)",
+    "categorize_all_complaints",
+    "create_complaint_analysis_report"
   ],
   "metadata": {
     "file_name": "consumer_complaints_analysis.json",
     "file_path": "research/va_dpor_complaint/consumer_complaints_analysis.json",
-    "last_updated": "2025-12-10 23:56:27",
-    "source": "Kettler Data Analysis Project - VA DPOR Complaint Research",
+    "last_updated": "2025_12_10_23:56:27",
+    "source": "kettler_data_analysis_project_va_dpor_complaint_research",
     "status": "complete"
   }
 }

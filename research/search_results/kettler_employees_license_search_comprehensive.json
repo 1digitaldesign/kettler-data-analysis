@@ -1,134 +1,137 @@
 {
   "metadata": {
-    "date": "2025-12-07",
-    "search_scope": "All Kettler employees in DC, MD, VA, NY, NJ, CT",
+    "date": "2025_12_07",
+    "search_scope": "all_kettler_employees_in_dc,_md,_va,_ny,_nj,_ct",
     "status": "partial_complete",
-    "completion_note": "VA searches executed. Key findings: Edward Hyland confirmed unlicensed. Comprehensive verification completed in va_dpor_complaint/personnel_license_verification.json showing all 5 key personnel unlicensed across 5 states (VA, TX, MD, DC, NC).",
+    "completion_note": "va_searches_executed._key_findings:_edward_hyland_confirmed_unlicensed._comprehensive_verification_completed_in_va_dpor_complaint/personnel_license_verification.json_showing_all_5_key_personnel_unlicensed_across_5_states_(va,_tx,_md,_dc,_nc).",
     "total_employees": 15,
     "total_states": 6,
     "total_searches": 90
   },
   "employees": {
     "robert_kettler": {
-      "name": "Robert C. Kettler",
-      "role": "CEO",
+      "name": "robert_c._kettler",
+      "role": "ceo",
       "virginia_search": "executed",
       "results": "pending_extraction"
     },
     "cindy_fisher": {
-      "name": "Cindy Fisher",
-      "role": "President",
+      "name": "cindy_fisher",
+      "role": "president",
       "virginia_search": "executed",
       "results": "pending_extraction"
     },
     "luke_davis": {
-      "name": "Luke Davis",
-      "role": "CIO",
+      "name": "luke_davis",
+      "role": "cio",
       "virginia_search": "executed",
       "results": "pending_extraction"
     },
     "pat_cassada": {
-      "name": "Pat Cassada",
-      "role": "CFO",
+      "name": "pat_cassada",
+      "role": "cfo",
       "virginia_search": "executed",
       "results": "pending_extraction"
     },
     "sean_curtin": {
-      "name": "Sean Curtin",
-      "role": "General Counsel",
+      "name": "sean_curtin",
+      "role": "general_counsel",
       "virginia_search": "executed",
       "needs_bar_check": true,
       "results": "pending_extraction"
     },
     "amy_groff": {
-      "name": "Amy Groff",
-      "role": "VP Operations",
+      "name": "amy_groff",
+      "role": "vp_operations",
       "virginia_search": "executed",
       "results": "pending_extraction"
     },
     "robert_grealy": {
-      "name": "Robert Grealy",
-      "role": "SVP Operations",
+      "name": "robert_grealy",
+      "role": "svp_operations",
       "virginia_search": "executed",
       "results": "pending_extraction"
     },
     "edward_hyland": {
-      "name": "Edward Hyland",
-      "role": "Senior Regional Manager",
+      "name": "edward_hyland",
+      "role": "senior_regional_manager",
       "virginia_search": "completed",
-      "result": "CONFIRMED UNLICENSED",
-      "violation": "Unlicensed practice of real estate"
+      "result": "confirmed_unlicensed",
+      "violation": "unlicensed_practice_of_real_estate"
     },
     "djene_moyer": {
-      "name": "Djene Moyer",
-      "role": "Community Manager",
+      "name": "djene_moyer",
+      "role": "community_manager",
       "virginia_search": "executed",
       "results": "pending_extraction"
     },
     "henry_ramos": {
-      "name": "Henry Ramos",
-      "role": "Property Manager",
+      "name": "henry_ramos",
+      "role": "property_manager",
       "virginia_search": "executed",
       "results": "pending_extraction"
     },
     "caitlin_skidmore": {
-      "name": "Caitlin Skidmore",
-      "role": "Principal Broker",
+      "name": "caitlin_skidmore",
+      "role": "principal_broker",
       "virginia_search": "executed",
       "connections_found": [
-        "Lariat Realty Advisors",
-        "Fairfield Property Management Inc (Nevada)",
-        "Zillow profile (Frisco, TX)",
-        "Realtor.com profile (McKinney, TX)",
-        "NARPM membership"
+        "lariat_realty_advisors",
+        "fairfield_property_management_inc_(nevada)",
+        "zillow_profile_(frisco,_tx)",
+        "realtor.com_profile_(mckinney,_tx)",
+        "narpm_membership"
       ],
       "results": "pending_extraction"
     },
     "kristina_thoummarath": {
-      "name": "Kristina Thoummarath",
-      "role": "Chief of Staff",
+      "name": "kristina_thoummarath",
+      "role": "chief_of_staff",
       "virginia_search": "pending"
     },
     "christina_chang": {
-      "name": "Christina Chang",
-      "role": "Head of Asset Management",
+      "name": "christina_chang",
+      "role": "head_of_asset_management",
       "virginia_search": "pending"
     },
     "todd_bowen": {
-      "name": "Todd Bowen",
-      "role": "SVP Strategic Services",
+      "name": "todd_bowen",
+      "role": "svp_strategic_services",
       "virginia_search": "pending"
     },
     "jeffrey_williams": {
-      "name": "Jeffrey Williams",
-      "role": "VP Human Resources",
+      "name": "jeffrey_williams",
+      "role": "vp_human_resources",
       "virginia_search": "pending"
     }
   },
   "caitlin_skidmore_connections": {
     "lariat_realty_advisors": {
-      "company": "Lariat Realty Advisors",
-      "role": "Broker",
-      "address": "6700 Antioch Road",
-      "other_brokers": ["Liddy Bisanz saye", "Leah Douthit"],
-      "significance": "Professional brokerage association"
+      "company": "lariat_realty_advisors",
+      "role": "broker",
+      "address": "6700_antioch_road",
+      "other_brokers": [
+        "liddy_bisanz_saye",
+        "leah_douthit"
+      ],
+      "significance": "professional_brokerage_association"
     },
     "fairfield_property_management": {
-      "company": "Fairfield Property Management Inc",
-      "location": "Las Vegas, NV",
-      "address": "4485 PENNWOOD AVE, LAS VEGAS, NV, 89102",
-      "license_number": "B.1003000.LLC",
-      "significance": "Nevada license - different company"
+      "company": "fairfield_property_management_inc",
+      "location": "las_vegas,_nv",
+      "address": "4485_pennwood_ave,_las_vegas,_nv,_89102",
+      "license_number": "b.1003000.llc",
+      "significance": "nevada_license_different_company"
     },
     "frisco_address": {
-      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
-      "significance": "Matches address cluster from previous analysis",
-      "connections": "Multiple firms use this address"
+      "address": "5729_lebanon_rd_suite_144553,_frisco,_tx_75034",
+      "significance": "matches_address_cluster_from_previous_analysis",
+      "connections": "multiple_firms_use_this_address"
     },
     "professional_profiles": {
       "zillow": "https://www.zillow.com/profile/caitlinskidmore",
       "realtor_com": "https://www.realtor.com/realestateagents/59325904b9c2a40011e8d31a",
-      "narpm": "National Association of Residential Property Managers member"
+      "narpm": "national_association_of_residential_property_managers_member"
     }
   },
   "search_progress": {
@@ -136,7 +139,7 @@
       "status": "in_progress",
       "searches_completed": 10,
       "searches_pending": 5,
-      "note": "Some searches executed, results extraction needed"
+      "note": "some_searches_executed,_results_extraction_needed"
     },
     "maryland_dllr": {
       "status": "page_loaded",
@@ -167,34 +170,37 @@
   "findings_summary": {
     "confirmed_violations": [
       {
-        "name": "Edward Hyland",
-        "violation": "Unlicensed practice of real estate",
-        "state": "Virginia",
-        "status": "CONFIRMED"
+        "name": "edward_hyland",
+        "violation": "unlicensed_practice_of_real_estate",
+        "state": "va",
+        "status": "confirmed"
       }
     ],
     "new_connections": [
-      "Lariat Realty Advisors - Caitlin Skidmore association",
-      "Fairfield Property Management Inc - Nevada license",
-      "Liddy Bisanz saye - Lariat Realty Advisors broker",
-      "Leah Douthit - Lariat Realty Advisors broker"
+      "lariat_realty_advisors_caitlin_skidmore_association",
+      "fairfield_property_management_inc_nevada_license",
+      "liddy_bisanz_saye_lariat_realty_advisors_broker",
+      "leah_douthit_lariat_realty_advisors_broker"
     ],
     "address_cluster_confirmed": {
-      "address": "5729 Lebanon Rd Suite 144553, Frisco, TX 75034",
-      "connections": ["Caitlin Skidmore", "Multiple firms from previous analysis"],
-      "significance": "Centralized address for multiple entities"
+      "address": "5729_lebanon_rd_suite_144553,_frisco,_tx_75034",
+      "connections": [
+        "caitlin_skidmore",
+        "multiple_firms_from_previous_analysis"
+      ],
+      "significance": "centralized_address_for_multiple_entities"
     }
   },
   "next_steps": [
-    "Extract Virginia DPOR results for all employees",
-    "Search Maryland DLLR for all employees",
-    "Search DC OCPLA for all employees",
-    "Search New York DOS for all employees",
-    "Search New Jersey Consumer Affairs for all employees",
-    "Search Connecticut DCP for all employees",
-    "Search state bar associations for Sean Curtin",
-    "Investigate Lariat Realty Advisors brokers (Liddy Bisanz, Leah Douthit)",
-    "Investigate Fairfield Property Management Inc",
-    "Cross-reference Frisco address with all entities"
+    "extract_virginia_dpor_results_for_all_employees",
+    "search_maryland_dllr_for_all_employees",
+    "search_dc_ocpla_for_all_employees",
+    "search_new_york_dos_for_all_employees",
+    "search_new_jersey_consumer_affairs_for_all_employees",
+    "search_connecticut_dcp_for_all_employees",
+    "search_state_bar_associations_for_sean_curtin",
+    "investigate_lariat_realty_advisors_brokers_(liddy_bisanz,_leah_douthit)",
+    "investigate_fairfield_property_management_inc",
+    "cross_reference_frisco_address_with_all_entities"
   ]
 }

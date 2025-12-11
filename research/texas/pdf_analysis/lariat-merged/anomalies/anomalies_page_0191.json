@@ -1,99 +1,99 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:52:02.463167",
-    "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/anomalies/anomalies_page_0191.json",
+    "created": "2025_12_11t00:52:02.463167",
+    "file_path": "/users/machine/documents/kettler_data_analysis/research/texas/pdf_analysis/lariat_merged/anomalies/anomalies_page_0191.json",
     "has_embedding": true
   },
   "data": {
     "page_number": 191,
-    "source": "lariat-merged",
+    "source": "lariat_merged",
     "address_clusters": [
       {
         "count": 8,
         "addresses": [
           {
-            "full_match": "Atlanta, GA 30339",
+            "full_match": "atlanta,_ga_30339",
             "groups": [
-              "Atlanta",
-              "GA",
+              "atlanta",
+              "ga",
               "30339"
             ],
             "start": 155,
             "end": 172
           },
           {
-            "full_match": "Dallas, TX 75219",
+            "full_match": "dallas,_tx_75219",
             "groups": [
-              "Dallas",
-              "TX",
+              "dallas",
+              "tx",
               "75219"
             ],
             "start": 377,
             "end": 393
           },
           {
-            "full_match": "Treasurer Atlanta, GA 30339",
+            "full_match": "treasurer_atlanta,_ga_30339",
             "groups": [
-              "Treasurer Atlanta",
-              "GA",
+              "treasurer_atlanta",
+              "ga",
               "30339"
             ],
             "start": 504,
             "end": 531
           },
           {
-            "full_match": "Stui\nAtlanta, GA 30339",
+            "full_match": "stui_atlanta,_ga_30339",
             "groups": [
-              "Stui\nAtlanta",
-              "GA",
+              "stui_atlanta",
+              "ga",
               "30339"
             ],
             "start": 685,
             "end": 707
           },
           {
-            "full_match": "Boca Raton, FL 33431",
+            "full_match": "boca_raton,_fl_33431",
             "groups": [
-              "Boca Raton",
-              "FL",
+              "boca_raton",
+              "fl",
               "33431"
             ],
             "start": 784,
             "end": 804
           },
           {
-            "full_match": "Boca Raton, FL 33431",
+            "full_match": "boca_raton,_fl_33431",
             "groups": [
-              "Boca Raton",
-              "FL",
+              "boca_raton",
+              "fl",
               "33431"
             ],
             "start": 861,
             "end": 881
           },
           {
-            "full_match": "Houston, TX 77042",
+            "full_match": "houston,_tx_77042",
             "groups": [
-              "Houston",
-              "TX",
+              "houston",
+              "tx",
               "77042"
             ],
             "start": 1162,
             "end": 1179
           },
           {
-            "full_match": "Stui\nXT 75219",
+            "full_match": "stui_xt_75219",
             "groups": [
-              "Stui",
-              "XT",
+              "stui",
+              "xt",
               "75219"
             ],
             "start": 1312,
             "end": 1325
           }
         ],
-        "pattern": "Multiple addresses clustered",
+        "pattern": "multiple_addresses_clustered",
         "severity": "medium"
       }
     ],
@@ -101,19 +101,19 @@
     "date_sequences": [],
     "suspicious_patterns": [
       {
-        "pattern": "Multiple states mentioned",
+        "pattern": "multiple_states_mentioned",
         "states": [
-          "GA",
-          "TX",
-          "FL",
-          "IN"
+          "ga",
+          "tx",
+          "fl",
+          "in"
         ],
         "count": 8,
         "severity": "medium"
       }
     ]
   },
-  "text_representation": "page_number: 191 | source: lariat-merged | address_clusters: 1 items | suspicious_patterns: 1 items",
+  "text_representation": "page_number:_191_|_source:_lariat_merged_|_address_clusters:_1_items_|_suspicious_patterns:_1_items",
   "embedding": [
     -0.00013882828352507204,
     -0.05854309722781181,
