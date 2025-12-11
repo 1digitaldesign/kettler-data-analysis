@@ -539,11 +539,41 @@ def generate_visualizations(clustering_results: Dict[str, Any],
                             time_series_results: Dict[str, Any],
                             relationship_graph: Dict[str, Any],
                             output_dir: Path) -> Dict[str, str]:
-    """Generate visualization plots"""
+    """Generate visualization plots using modern libraries (Plotly preferred)"""
     visualizations = {}
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Try to use advanced visualizations module first
+    try:
+        from scripts.analysis.utils.advanced_visualizations import AdvancedVisualizer
+        viz = AdvancedVisualizer(output_dir)
+        
+        # Use Plotly for better visualizations if available
+        if PLOTLY_AVAILABLE and 'kmeans' in clustering_results:
+            kmeans_data = clustering_results['kmeans']
+            if 'cluster_labels' in kmeans_data:
+                kmeans_labels = np.array(kmeans_data['cluster_labels'])
+                if len(kmeans_labels) > 0 and len(features) > 0:
+                    viz_path = viz.create_cluster_plot_plotly(
+                        features, kmeans_labels, 
+                        title="K-Means Clustering Analysis"
+                    )
+                    if viz_path:
+                        visualizations['kmeans_cluster_plotly'] = viz_path
+        
+        if PLOTLY_AVAILABLE and relationship_graph:
+            viz_path = viz.create_network_graph_plotly(
+                relationship_graph,
+                title="Entity Relationship Network"
+            )
+            if viz_path:
+                visualizations['network_graph_plotly'] = viz_path
+    except Exception as e:
+        print(f"Advanced visualizations not available: {e}")
 
-    if not MATPLOTLIB_AVAILABLE:
-        return {'error': 'matplotlib not available'}
+    if not MATPLOTLIB_AVAILABLE and not PLOTLY_AVAILABLE:
+        return {'error': 'No visualization libraries available', 'visualizations': visualizations}
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
