@@ -27,10 +27,31 @@ pip install -r requirements.txt
 ```
 
 This installs all required Python packages including:
+
+**Core Dependencies:**
 - pandas - Data manipulation
-- pathlib - Path handling
-- json - JSON processing
-- Other dependencies listed in `requirements.txt`
+- numpy - Numerical computing
+- json5 - Enhanced JSON processing
+
+**AI/ML Libraries:**
+- scikit-learn - Machine learning algorithms
+- sentence-transformers - Transformer embeddings
+- tensorflow - Deep learning (optional, ARM M4 optimized)
+- xgboost - Gradient boosting
+- shap - Explainable AI
+- umap-learn - Dimensionality reduction
+
+**Visualization Libraries:**
+- plotly - Interactive web visualizations
+- plotly-express - High-level Plotly interface
+- dash - Interactive web dashboards
+- bokeh - Browser-based interactive charts
+- altair - Declarative statistical visualizations
+- seaborn - Statistical data visualization
+- matplotlib - Base plotting library
+- networkx - Network analysis and visualization
+
+**Other dependencies listed in `requirements.txt`**
 
 ### 3. Verify installation
 
@@ -48,10 +69,21 @@ The platform consists of:
 
 - **Entry points** (`bin/`) - Scripts to run analyses
 - **Core modules** (`scripts/core/`) - Unified analysis modules
-- **Analysis scripts** (`scripts/analysis/`) - Analysis operations
+- **Analysis scripts** (`scripts/analysis/`) - AI/ML analysis operations
 - **ETL pipeline** (`scripts/etl/`) - Data processing
 - **Data** (`data/`) - Source and processed data
 - **Research** (`research/`) - Research outputs
+- **Visualization utilities** (`scripts/analysis/utils/advanced_visualizations.py`) - Modern visualization tools
+
+### AI/ML Capabilities
+
+The platform includes advanced machine learning features:
+- **Clustering**: K-Means, DBSCAN, Hierarchical, Spectral
+- **Anomaly Detection**: Isolation Forest, LOF, One-Class SVM
+- **Classification**: Random Forest, XGBoost with SHAP explainability
+- **Network Analysis**: NetworkX graph theory and community detection
+- **Embeddings**: Sentence Transformers for semantic similarity
+- **Visualizations**: Interactive Plotly, Bokeh, and Altair charts
 
 ## Next steps
 

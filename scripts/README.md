@@ -1,13 +1,19 @@
 # Scripts Directory
 
-Python-first analysis scripts organized by function.
+**AI-Powered** Python-first analysis scripts organized by function with advanced machine learning capabilities.
 
 ## Structure
 
 ```
 scripts/
 ├── core/           # Unified modules
-├── analysis/       # Analysis scripts
+├── analysis/       # AI/ML analysis scripts
+│   ├── advanced_ml_pipeline.py      # TensorFlow ML pipeline
+│   ├── ml_tax_structure_analysis.py # Clustering & anomaly detection
+│   ├── embedding_violation_analysis.py # Vector similarity
+│   ├── graph_theory_analysis.py     # NetworkX analysis
+│   └── utils/
+│       └── advanced_visualizations.py # Plotly/Bokeh/Altair
 ├── extraction/     # Evidence extraction
 ├── etl/            # ETL and vectorization
 ├── utils/          # Utilities
@@ -44,11 +50,41 @@ Use `bin/` scripts to run analyses:
 - `bin/generate_reports.py` - Reports
 - `bin/organize_evidence.py` - Evidence
 
+## AI/ML Analysis Scripts
+
+**Advanced ML Pipeline** (`analysis/advanced_ml_pipeline.py`)
+- TensorFlow-optimized parallel processing
+- Sentence Transformers for embeddings
+- Vector similarity analysis
+
+**ML Tax Structure Analysis** (`analysis/ml_tax_structure_analysis.py`)
+- K-Means, DBSCAN, Hierarchical, Spectral clustering
+- Isolation Forest, LOF, One-Class SVM anomaly detection
+- Random Forest, XGBoost classification
+- SHAP explainability
+
+**Embedding Analysis** (`analysis/embedding_violation_analysis.py`)
+- Cosine similarity calculations
+- Address/agent clustering
+- Violation pattern clustering
+
+**Graph Theory Analysis** (`analysis/graph_theory_analysis.py`)
+- NetworkX graph construction
+- Community detection (Louvain)
+- Centrality measures (PageRank, betweenness, degree)
+
+**Advanced Visualizations** (`analysis/utils/advanced_visualizations.py`)
+- Plotly interactive charts
+- Bokeh browser visualizations
+- Altair statistical plots
+- HTML dashboard generation
+
 ## Utilities
 
 - `utils/paths.py` - Path management
 - `utils/validate_schema.py` - Schema validation
 - `utils/add_metadata.py` - Metadata utility
+- `analysis/utils/advanced_visualizations.py` - Modern visualization tools
 
 ## Related
 

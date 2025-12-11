@@ -43,6 +43,25 @@ Results are saved in:
 python bin/run_pipeline.py
 ```
 
+### Run AI/ML Analysis
+
+```bash
+# Advanced ML pipeline with TensorFlow
+python scripts/analysis/advanced_ml_pipeline.py
+
+# ML tax structure analysis (clustering, anomaly detection)
+python scripts/analysis/ml_tax_structure_analysis.py
+
+# Embedding-based similarity analysis
+python scripts/analysis/embedding_violation_analysis.py
+
+# Graph theory network analysis
+python scripts/analysis/graph_theory_analysis.py
+
+# Complete violation analysis pipeline
+python scripts/analysis/run_complete_violation_analysis.py
+```
+
 ### Run individual analysis
 
 ```bash
@@ -67,9 +86,12 @@ The pipeline performs these steps:
 
 1. **Data extraction** - Extracts data from sources
 2. **Data cleaning** - Cleans and normalizes data
-3. **Connection analysis** - Analyzes connections
-4. **Data validation** - Validates data quality
-5. **Report generation** - Generates reports
+3. **AI/ML Analysis** - ML-enhanced analysis with clustering, anomaly detection, and classification
+4. **Connection analysis** - Graph theory and network analysis
+5. **Vector embeddings** - Semantic similarity matching
+6. **Data validation** - Validates data quality
+7. **Visualization generation** - Creates interactive Plotly/Bokeh charts
+8. **Report generation** - Generates ML-enhanced reports
 
 ## Next steps
 
