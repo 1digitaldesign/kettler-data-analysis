@@ -31,21 +31,21 @@ Comprehensive data cleaning and population system has been executed to identify,
 
 ```mermaid
 flowchart TD
-    A[6,087 Files] --> B[Initial Analysis]
+    A["📁 6,087 Files<br/><a href='data/cleaned/'>View Cleaned Data</a>"] --> B["🔍 Initial Analysis"]
     B --> C{Issues Found?}
-    C -->|143 Issues| D[Auto-Population]
-    C -->|No Issues| E[Clean Files]
-    D --> F[78 Fields Fixed]
-    F --> G[Enhanced Population]
-    G --> H[2 Additional Fields]
-    H --> I[6,136 Items for Manual Review]
-    E --> J[✅ Complete]
+    C -->|143 Issues| D["🔧 Auto-Population<br/><a href='data/processed/data_cleaning_results.json'>View Results</a>"]
+    C -->|No Issues| E["✅ Clean Files"]
+    D --> F["✨ 78 Fields Fixed"]
+    F --> G["🚀 Enhanced Population"]
+    G --> H["➕ 2 Additional Fields"]
+    H --> I["📋 6,136 Items for Manual Review<br/><a href='data/processed/manual_verification_guide.json'>View Guide</a>"]
+    E --> J["✅ Complete"]
     I --> J
 
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style F fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style I fill:#ff8787,stroke:#fa5252,stroke-width:2px
-    style J fill:#74c0fc,stroke:#339af0,stroke-width:2px
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style F fill:#10b981,stroke:#059669,stroke-width:4px
+    style I fill:#f59e0b,stroke:#d97706,stroke-width:3px
+    style J fill:#3b82f6,stroke:#2563eb,stroke-width:4px
 ```
 
 ## Data Quality Status
@@ -82,18 +82,18 @@ pie title Field Population Methods
 
 ```mermaid
 graph LR
-    A[Manual Verification Guide] --> B[6,136 Items]
-    B --> C[Specific Fields]
-    B --> D[Record Previews]
-    B --> E[Guidance]
-    B --> F[Data Sources]
+    A["📋 Manual Verification Guide<br/><a href='data/processed/manual_verification_guide.json'>View Guide</a>"] --> B["📊 6,136 Items<br/><a href='data/processed/manual_verification_report.json'>View Report</a>"]
+    B --> C["📝 Specific Fields"]
+    B --> D["👁️ Record Previews"]
+    B --> E["💡 Guidance"]
+    B --> F["🔗 Data Sources"]
 
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style B fill:#ff8787,stroke:#fa5252,stroke-width:2px
-    style C fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style D fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style E fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style F fill:#74c0fc,stroke:#339af0,stroke-width:2px
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style B fill:#f87171,stroke:#ef4444,stroke-width:3px
+    style C fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style D fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style E fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style F fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
 ```
 
 **Documentation Files:**
@@ -168,17 +168,17 @@ graph LR
 ```mermaid
 graph TB
     subgraph "Quality Metrics"
-        A[Auto-Population<br/>80 fields] --> D[Overall Score]
-        B[Verification Coverage<br/>100%] --> D
-        C[Error Rate<br/>0%] --> D
-        D --> E[99.97% Success]
+        A["✨ Auto-Population<br/>80 fields<br/><a href='data/processed/data_cleaning_results.json'>View Results</a>"] --> D["📊 Overall Score"]
+        B["✅ Verification Coverage<br/>100%<br/><a href='data/processed/manual_verification_report.json'>View Report</a>"] --> D
+        C["🎯 Error Rate<br/>0%"] --> D
+        D --> E["🏆 99.97% Success"]
     end
 
-    style A fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
-    style B fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
-    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
-    style D fill:#74c0fc,stroke:#339af0,stroke-width:2px,color:#fff
-    style E fill:#ffd43b,stroke:#fab005,stroke-width:2px,color:#000
+    style A fill:#10b981,stroke:#059669,stroke-width:4px
+    style B fill:#10b981,stroke:#059669,stroke-width:4px
+    style C fill:#10b981,stroke:#059669,stroke-width:4px
+    style D fill:#3b82f6,stroke:#2563eb,stroke-width:4px
+    style E fill:#fbbf24,stroke:#f59e0b,stroke-width:4px
 ```
 
 ## Recommendations

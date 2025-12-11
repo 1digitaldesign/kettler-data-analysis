@@ -12,20 +12,20 @@ Successfully processed **6,085 research files** through a complete Software Deve
 
 ```mermaid
 flowchart LR
-    A[Requirements<br/>Analysis] --> B[Design]
-    B --> C[Implementation]
-    C --> D[Testing]
-    D --> E[Deployment]
-    E --> F[Validation]
-    F --> G[✅ Production Ready]
+    A["📋 Requirements<br/>Analysis<br/><a href='data/processed/sdlc_pipeline_report.json'>View Report</a>"] --> B["🎨 Design"]
+    B --> C["⚙️ Implementation<br/><a href='scripts/etl/research_to_data_sdlc_pipeline.py'>View Script</a>"]
+    C --> D["🧪 Testing"]
+    D --> E["🚀 Deployment"]
+    E --> F["✅ Validation"]
+    F --> G["🎉 Production Ready<br/><a href='data/processed/'>View Outputs</a>"]
 
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style B fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style D fill:#ff8787,stroke:#fa5252,stroke-width:2px
-    style E fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style F fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
-    style G fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style B fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style C fill:#10b981,stroke:#059669,stroke-width:3px
+    style D fill:#f87171,stroke:#ef4444,stroke-width:3px
+    style E fill:#34d399,stroke:#10b981,stroke-width:3px
+    style F fill:#a78bfa,stroke:#8b5cf6,stroke-width:3px
+    style G fill:#10b981,stroke:#059669,stroke-width:4px
 ```
 
 ### Phase 1: Requirements Analysis ✅

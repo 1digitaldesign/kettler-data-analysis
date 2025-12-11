@@ -70,27 +70,27 @@ Start here for data exploration:
 ```mermaid
 graph TB
     subgraph "Data Sources"
-        A[Source Files]
-        B[Research Data]
-        C[License Databases]
+        A["📁 Source Files<br/><a href='data/source/'>View Data</a>"]
+        B["📊 Research Data<br/><a href='research/'>Explore Research</a>"]
+        C["🔍 License Databases<br/><a href='research/license_searches/'>Search Licenses</a>"]
     end
 
     subgraph "ETL Pipeline"
-        D[Extract]
-        E[Transform]
-        F[Load]
+        D["📥 Extract"]
+        E["🔄 Transform"]
+        F["💾 Load"]
     end
 
     subgraph "Analysis"
-        G[Connection Analysis]
-        H[Graph Theory]
-        I[ML Pipeline]
+        G["🔗 Connection Analysis<br/><a href='scripts/analysis/'>View Scripts</a>"]
+        H["📈 Graph Theory<br/><a href='data/processed/graph_theory_analysis.json'>View Analysis</a>"]
+        I["🤖 ML Pipeline<br/><a href='scripts/analysis/advanced_ml_pipeline.py'>View Pipeline</a>"]
     end
 
     subgraph "Outputs"
-        J[Research Reports]
-        K[Visualizations]
-        L[Compliance Data]
+        J["📄 Research Reports<br/><a href='research/reports/'>View Reports</a>"]
+        K["📊 Visualizations<br/><a href='data/processed/'>View Data</a>"]
+        L["✅ Compliance Data<br/><a href='data/processed/cross_referenced_violations.json'>View Violations</a>"]
     end
 
     A --> D
@@ -105,18 +105,18 @@ graph TB
     H --> K
     I --> L
 
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style B fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style C fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style D fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style E fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style F fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style G fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style H fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style I fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style J fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style K fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style L fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style B fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style C fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style D fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style E fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style F fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style G fill:#34d399,stroke:#10b981,stroke-width:3px
+    style H fill:#34d399,stroke:#10b981,stroke-width:3px
+    style I fill:#34d399,stroke:#10b981,stroke-width:3px
+    style J fill:#4ade80,stroke:#22c55e,stroke-width:3px
+    style K fill:#4ade80,stroke:#22c55e,stroke-width:3px
+    style L fill:#4ade80,stroke:#22c55e,stroke-width:3px
 ```
 
 ### System Components
@@ -269,19 +269,19 @@ pie title Research Files by Category
 
 ```mermaid
 graph LR
-    A[8 Violations] --> B[11 States]
-    A --> C[16 Unlicensed]
-    A --> D[$4.75B Property]
+    A["🚨 8 Violations<br/><a href='data/processed/cross_referenced_violations.json'>View Details</a>"] --> B["🗺️ 11 States<br/><a href='research/company_registrations/'>View States</a>"]
+    A --> C["⚠️ 16 Unlicensed<br/><a href='research/analysis/'>View Analysis</a>"]
+    A --> D["💰 $4.75B Property<br/><a href='research/financial/'>View Financial</a>"]
 
-    B --> E[Regulatory Risk]
+    B --> E["⚖️ Regulatory Risk<br/><a href='research/reports/'>View Reports</a>"]
     C --> E
     D --> E
 
-    style A fill:#ff8787,stroke:#fa5252,stroke-width:2px,color:#fff
-    style B fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style C fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style D fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style E fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
+    style A fill:#ef4444,stroke:#dc2626,stroke-width:4px
+    style B fill:#f59e0b,stroke:#d97706,stroke-width:3px
+    style C fill:#f59e0b,stroke:#d97706,stroke-width:3px
+    style D fill:#f59e0b,stroke:#d97706,stroke-width:3px
+    style E fill:#dc2626,stroke:#991b1b,stroke-width:4px
 ```
 
 ---
@@ -292,37 +292,37 @@ graph LR
 
 ```mermaid
 graph TD
-    A[Repository Root] --> B[bin/]
-    A --> C[scripts/]
-    A --> D[data/]
-    A --> E[research/]
-    A --> F[docs/]
+    A["📦 Repository Root<br/><a href='https://github.com/1digitaldesign/kettler-data-analysis'>GitHub</a>"] --> B["⚙️ bin/<br/><a href='bin/'>Entry Points</a>"]
+    A --> C["📜 scripts/<br/><a href='scripts/'>View Scripts</a>"]
+    A --> D["💾 data/<br/><a href='data/'>View Data</a>"]
+    A --> E["🔬 research/<br/><a href='research/'>View Research</a>"]
+    A --> F["📚 docs/<br/><a href='docs/'>View Docs</a>"]
 
-    B --> B1[Entry Points]
+    B --> B1["🚀 Entry Points"]
 
-    C --> C1[core/]
-    C --> C2[analysis/]
-    C --> C3[etl/]
-    C --> C4[utils/]
+    C --> C1["🔧 core/"]
+    C --> C2["📊 analysis/<br/><a href='scripts/analysis/'>View Analysis</a>"]
+    C --> C3["🔄 etl/<br/><a href='scripts/etl/'>View ETL</a>"]
+    C --> C4["🛠️ utils/"]
 
-    D --> D1[source/]
-    D --> D2[processed/]
-    D --> D3[cleaned/]
-    D --> D4[vectors/]
+    D --> D1["📥 source/"]
+    D --> D2["✅ processed/<br/><a href='data/processed/'>View Processed</a>"]
+    D --> D3["🧹 cleaned/"]
+    D --> D4["🔢 vectors/"]
 
-    E --> E1[analysis/]
-    E --> E2[license_searches/]
-    E --> E3[company_registrations/]
+    E --> E1["📈 analysis/"]
+    E --> E2["🔍 license_searches/<br/><a href='research/license_searches/'>View Searches</a>"]
+    E --> E3["🏢 company_registrations/"]
 
-    F --> F1[System Architecture]
-    F --> F2[Documentation Index]
+    F --> F1["🏗️ System Architecture<br/><a href='docs/SYSTEM_ARCHITECTURE.md'>View Docs</a>"]
+    F --> F2["📑 Documentation Index<br/><a href='docs/INDEX.md'>View Index</a>"]
 
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:3px
-    style B fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style D fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style E fill:#ff8787,stroke:#fa5252,stroke-width:2px
-    style F fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:4px
+    style B fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style C fill:#34d399,stroke:#10b981,stroke-width:3px
+    style D fill:#4ade80,stroke:#22c55e,stroke-width:3px
+    style E fill:#f87171,stroke:#ef4444,stroke-width:3px
+    style F fill:#a78bfa,stroke:#8b5cf6,stroke-width:3px
 ```
 
 ### Component Breakdown

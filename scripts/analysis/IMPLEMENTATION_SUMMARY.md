@@ -11,41 +11,41 @@ Complete implementation of ML-enhanced violation analysis system for Texas busin
 ```mermaid
 graph TB
     subgraph "Data Pipeline"
-        A[Source Data] --> B[Preprocessing]
-        B --> C[Violation Extraction]
-        C --> D[Embedding Analysis]
-        D --> E[Cross-Reference]
+        A["📥 Source Data<br/><a href='data/source/'>View Sources</a>"] --> B["🔄 Preprocessing<br/><a href='scripts/analysis/preprocess_violation_data.py'>View Script</a>"]
+        B --> C["🔍 Violation Extraction<br/><a href='scripts/analysis/enhanced_violation_extraction.py'>View Script</a>"]
+        C --> D["📊 Embedding Analysis<br/><a href='scripts/analysis/embedding_violation_analysis.py'>View Script</a>"]
+        D --> E["🔗 Cross-Reference<br/><a href='scripts/analysis/cross_reference_violations.py'>View Script</a>"]
     end
-    
+
     subgraph "ML Analysis"
-        E --> F[Clustering]
-        E --> G[Anomaly Detection]
-        E --> H[Classification]
-        E --> I[Network Analysis]
-        E --> J[Time Series]
+        E --> F["🎯 Clustering<br/><a href='data/processed/ml_tax_structure_analysis.json'>View Results</a>"]
+        E --> G["🚨 Anomaly Detection"]
+        E --> H["🤖 Classification"]
+        E --> I["🌐 Network Analysis<br/><a href='data/processed/graph_theory_analysis.json'>View Analysis</a>"]
+        E --> J["📈 Time Series"]
     end
-    
+
     subgraph "Outputs"
-        F --> K[Reports]
+        F --> K["📄 Reports<br/><a href='research/texas/analysis/'>View Reports</a>"]
         G --> K
         H --> K
         I --> K
         J --> K
-        K --> L[Visualizations]
+        K --> L["📊 Visualizations<br/><a href='research/texas/analysis/visualizations/'>View Charts</a>"]
     end
-    
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style B fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style D fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style E fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style F fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style G fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style H fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style I fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style J fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style K fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
-    style L fill:#ff8787,stroke:#fa5252,stroke-width:2px
+
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style B fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style C fill:#10b981,stroke:#059669,stroke-width:3px
+    style D fill:#10b981,stroke:#059669,stroke-width:3px
+    style E fill:#10b981,stroke:#059669,stroke-width:3px
+    style F fill:#34d399,stroke:#10b981,stroke-width:3px
+    style G fill:#34d399,stroke:#10b981,stroke-width:3px
+    style H fill:#34d399,stroke:#10b981,stroke-width:3px
+    style I fill:#34d399,stroke:#10b981,stroke-width:3px
+    style J fill:#34d399,stroke:#10b981,stroke-width:3px
+    style K fill:#a78bfa,stroke:#8b5cf6,stroke-width:3px
+    style L fill:#f87171,stroke:#ef4444,stroke-width:3px
 ```
 
 ### Core Components Implemented
@@ -112,39 +112,39 @@ graph TB
 
 ```mermaid
 graph LR
-    A[Input Data] --> B{ML Component}
-    B --> C[Clustering]
-    B --> D[Anomaly Detection]
-    B --> E[Classification]
-    B --> F[Network Analysis]
-    B --> G[Time Series]
-    B --> H[Dimensionality Reduction]
-    
-    C --> I[K-Means]
-    C --> J[DBSCAN]
-    C --> K[Hierarchical]
-    C --> L[Spectral]
-    
-    D --> M[Isolation Forest]
-    D --> N[LOF]
-    D --> O[One-Class SVM]
-    
-    E --> P[Random Forest]
-    E --> Q[XGBoost]
-    E --> R[SHAP]
-    
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style B fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style I fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style J fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style K fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style L fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style M fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style N fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style O fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style P fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
-    style Q fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
-    style R fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
+    A["📥 Input Data<br/><a href='data/processed/lariat_enriched.json'>View Data</a>"] --> B{ML Component<br/><a href='scripts/analysis/ml_tax_structure_analysis.py'>View Script</a>}
+    B --> C["🎯 Clustering"]
+    B --> D["🚨 Anomaly Detection"]
+    B --> E["🤖 Classification"]
+    B --> F["🌐 Network Analysis"]
+    B --> G["📈 Time Series"]
+    B --> H["📉 Dimensionality Reduction"]
+
+    C --> I["K-Means<br/><a href='data/processed/ml_tax_structure_analysis.json#clustering'>View</a>"]
+    C --> J["DBSCAN"]
+    C --> K["Hierarchical"]
+    C --> L["Spectral"]
+
+    D --> M["Isolation Forest<br/><a href='data/processed/ml_tax_structure_analysis.json#anomaly'>View</a>"]
+    D --> N["LOF"]
+    D --> O["One-Class SVM"]
+
+    E --> P["Random Forest<br/><a href='data/processed/ml_tax_structure_analysis.json#classification'>View</a>"]
+    E --> Q["XGBoost"]
+    E --> R["SHAP"]
+
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style B fill:#60a5fa,stroke:#3b82f6,stroke-width:4px
+    style I fill:#10b981,stroke:#059669,stroke-width:3px
+    style J fill:#10b981,stroke:#059669,stroke-width:3px
+    style K fill:#10b981,stroke:#059669,stroke-width:3px
+    style L fill:#10b981,stroke:#059669,stroke-width:3px
+    style M fill:#34d399,stroke:#10b981,stroke-width:3px
+    style N fill:#34d399,stroke:#10b981,stroke-width:3px
+    style O fill:#34d399,stroke:#10b981,stroke-width:3px
+    style P fill:#a78bfa,stroke:#8b5cf6,stroke-width:3px
+    style Q fill:#a78bfa,stroke:#8b5cf6,stroke-width:3px
+    style R fill:#a78bfa,stroke:#8b5cf6,stroke-width:3px
 ```
 
 | Category | Algorithms | Status |
@@ -246,35 +246,35 @@ graph LR
 
 ```mermaid
 flowchart TD
-    A[Source Data] --> B[Processed Data]
-    B --> C[Analysis Reports]
-    C --> D[Visualizations]
-    C --> E[ML Models]
-    
-    B --> B1[lariat_entities_cleaned.json]
-    B --> B2[lariat_enriched.json]
-    B --> B3[entity_relationships.json]
-    B --> B4[data_quality_report.json]
-    B --> B5[extracted_violations.json]
-    B --> B6[embedding_similarity_analysis.json]
-    B --> B7[cross_referenced_violations.json]
-    B --> B8[ml_tax_structure_analysis.json]
-    
-    C --> C1[ml_comprehensive_violations_analysis.json]
-    C --> C2[ml_violations_summary.md]
-    C --> C3[tax_hub_violations_analysis.json]
-    
-    D --> D1[kmeans_clusters.png]
-    D --> D2[network_graph.png]
-    D --> D3[time_series_trends.png]
-    
-    E --> E1[models_metadata.json]
-    
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style B fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style D fill:#63e6be,stroke:#20c997,stroke-width:2px
-    style E fill:#da77f2,stroke:#ae3ec9,stroke-width:2px
+    A["📥 Source Data<br/><a href='data/source/'>View Sources</a>"] --> B["✅ Processed Data<br/><a href='data/processed/'>View All</a>"]
+    B --> C["📄 Analysis Reports<br/><a href='research/texas/analysis/'>View Reports</a>"]
+    C --> D["📊 Visualizations<br/><a href='research/texas/analysis/visualizations/'>View Charts</a>"]
+    C --> E["🤖 ML Models<br/><a href='research/texas/analysis/ml_models/'>View Models</a>"]
+
+    B --> B1["<a href='data/processed/lariat_entities_cleaned.json'>lariat_entities_cleaned.json</a>"]
+    B --> B2["<a href='data/processed/lariat_enriched.json'>lariat_enriched.json</a>"]
+    B --> B3["<a href='data/processed/entity_relationships.json'>entity_relationships.json</a>"]
+    B --> B4["<a href='data/processed/data_quality_report.json'>data_quality_report.json</a>"]
+    B --> B5["<a href='data/processed/extracted_violations.json'>extracted_violations.json</a>"]
+    B --> B6["<a href='data/processed/embedding_similarity_analysis.json'>embedding_similarity_analysis.json</a>"]
+    B --> B7["<a href='data/processed/cross_referenced_violations.json'>cross_referenced_violations.json</a>"]
+    B --> B8["<a href='data/processed/ml_tax_structure_analysis.json'>ml_tax_structure_analysis.json</a>"]
+
+    C --> C1["<a href='research/texas/analysis/ml_comprehensive_violations_analysis.json'>ml_comprehensive_violations_analysis.json</a>"]
+    C --> C2["<a href='research/texas/analysis/ml_violations_summary.md'>ml_violations_summary.md</a>"]
+    C --> C3["<a href='research/texas/analysis/tax_hub_violations_analysis.json'>tax_hub_violations_analysis.json</a>"]
+
+    D --> D1["<a href='research/texas/analysis/visualizations/kmeans_clusters.png'>kmeans_clusters.png</a>"]
+    D --> D2["<a href='research/texas/analysis/visualizations/network_graph.png'>network_graph.png</a>"]
+    D --> D3["<a href='research/texas/analysis/visualizations/time_series_trends.png'>time_series_trends.png</a>"]
+
+    E --> E1["<a href='research/texas/analysis/ml_models/models_metadata.json'>models_metadata.json</a>"]
+
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style B fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style C fill:#10b981,stroke:#059669,stroke-width:3px
+    style D fill:#34d399,stroke:#10b981,stroke-width:3px
+    style E fill:#a78bfa,stroke:#8b5cf6,stroke-width:3px
 ```
 
 ### File Categories

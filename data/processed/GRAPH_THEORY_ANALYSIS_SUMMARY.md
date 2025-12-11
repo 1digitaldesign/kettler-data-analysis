@@ -9,24 +9,24 @@ Comprehensive graph theory analysis using NetworkX to analyze connections betwee
 ```mermaid
 graph TB
     subgraph "Violations"
-        V1[Violations<br/>120 nodes]
+        V1["🚨 Violations<br/>120 nodes<br/><a href='data/processed/extracted_violations.json'>View Data</a>"]
     end
 
     subgraph "Laws"
-        L1[Laws<br/>61 nodes]
+        L1["⚖️ Laws<br/>61 nodes<br/><a href='ref/law/'>View Laws</a>"]
     end
 
     subgraph "Forms"
-        F1[Forms<br/>25 nodes]
+        F1["📋 Forms<br/>25 nodes<br/><a href='data/processed/integrated_violations_with_laws.json'>View Forms</a>"]
     end
 
     V1 -->|116 edges| L1
     V1 -->|13 direct| F1
     L1 -->|5 edges| F1
 
-    style V1 fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px,color:#fff
-    style L1 fill:#4dabf7,stroke:#1971c2,stroke-width:2px,color:#fff
-    style F1 fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+    style V1 fill:#ef4444,stroke:#dc2626,stroke-width:4px
+    style L1 fill:#3b82f6,stroke:#2563eb,stroke-width:4px
+    style F1 fill:#10b981,stroke:#059669,stroke-width:4px
 ```
 
 ## Graph Statistics
@@ -61,13 +61,13 @@ graph TB
 
 ```mermaid
 flowchart LR
-    V[Violation] -->|Direct| F1[Form<br/>39 paths]
-    V -->|Via Law| L[Law] -->|Bridge| F2[Form<br/>2 paths]
+    V["🚨 Violation<br/><a href='data/processed/extracted_violations.json'>View</a>"] -->|Direct| F1["📋 Form<br/>39 paths<br/><a href='data/processed/integrated_violations_with_laws.json'>View</a>"]
+    V -->|Via Law| L["⚖️ Law<br/><a href='ref/law/'>View</a>"] -->|Bridge| F2["📋 Form<br/>2 paths<br/><a href='data/processed/integrated_violations_with_laws.json'>View</a>"]
 
-    style V fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px,color:#fff
-    style L fill:#4dabf7,stroke:#1971c2,stroke-width:2px,color:#fff
-    style F1 fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
-    style F2 fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+    style V fill:#ef4444,stroke:#dc2626,stroke-width:4px
+    style L fill:#3b82f6,stroke:#2563eb,stroke-width:4px
+    style F1 fill:#10b981,stroke:#059669,stroke-width:4px
+    style F2 fill:#10b981,stroke:#059669,stroke-width:4px
 ```
 
 ### Algorithms Used
@@ -100,16 +100,16 @@ flowchart LR
 ```mermaid
 graph LR
     subgraph "Centrality Types"
-        DC[Degree<br/>Connection Count]
-        BC[Betweenness<br/>Bridge Nodes]
-        CC[Closeness<br/>Distance to All]
-        PR[PageRank<br/>Importance Score]
+        DC["📊 Degree<br/>Connection Count<br/><a href='data/processed/graph_theory_analysis.json#centrality'>View Data</a>"]
+        BC["🌉 Betweenness<br/>Bridge Nodes<br/><a href='data/processed/graph_theory_analysis.json#centrality'>View Data</a>"]
+        CC["📏 Closeness<br/>Distance to All<br/><a href='data/processed/graph_theory_analysis.json#centrality'>View Data</a>"]
+        PR["⭐ PageRank<br/>Importance Score<br/><a href='data/processed/graph_theory_analysis.json#centrality'>View Data</a>"]
     end
 
-    style DC fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style BC fill:#ff8787,stroke:#fa5252,stroke-width:2px
-    style CC fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style PR fill:#63e6be,stroke:#20c997,stroke-width:2px
+    style DC fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style BC fill:#f87171,stroke:#ef4444,stroke-width:3px
+    style CC fill:#60a5fa,stroke:#3b82f6,stroke-width:3px
+    style PR fill:#34d399,stroke:#10b981,stroke-width:3px
 ```
 
 ### Top Central Nodes
@@ -158,19 +158,19 @@ pie title Community Size Distribution
 ```mermaid
 graph TB
     subgraph "Network Connectivity"
-        A[3,000 Violation-Form Pairs] --> B{Path Found?}
-        B -->|Yes: 14 pairs| C[0.47% Connected]
-        B -->|No: 2,986 pairs| D[99.53% Disconnected]
-        C --> E[41 Total Paths]
-        E --> F[39 Direct]
-        E --> G[2 Indirect]
+        A["🔍 3,000 Violation-Form Pairs<br/><a href='data/processed/graph_theory_analysis.json#pathways'>View Analysis</a>"] --> B{Path Found?}
+        B -->|Yes: 14 pairs| C["✅ 0.47% Connected<br/><a href='data/processed/graph_theory_analysis.json#pathways'>View Paths</a>"]
+        B -->|No: 2,986 pairs| D["❌ 99.53% Disconnected"]
+        C --> E["📊 41 Total Paths"]
+        E --> F["➡️ 39 Direct<br/><a href='data/processed/graph_theory_analysis.json#pathways'>View</a>"]
+        E --> G["🔄 2 Indirect<br/><a href='data/processed/graph_theory_analysis.json#pathways'>View</a>"]
     end
-
-    style A fill:#ffd43b,stroke:#fab005,stroke-width:2px
-    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px
-    style D fill:#ff8787,stroke:#fa5252,stroke-width:2px
-    style F fill:#74c0fc,stroke:#339af0,stroke-width:2px
-    style G fill:#63e6be,stroke:#20c997,stroke-width:2px
+    
+    style A fill:#fbbf24,stroke:#f59e0b,stroke-width:3px
+    style C fill:#10b981,stroke:#059669,stroke-width:4px
+    style D fill:#ef4444,stroke:#dc2626,stroke-width:3px
+    style F fill:#3b82f6,stroke:#2563eb,stroke-width:3px
+    style G fill:#34d399,stroke:#10b981,stroke-width:3px
 ```
 
 ### Key Findings
