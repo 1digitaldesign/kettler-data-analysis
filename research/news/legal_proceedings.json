@@ -1,7 +1,9 @@
 {
   "metadata": {
     "date": "2025-12-10",
-    "purpose": "Legal proceedings and court cases"
+    "purpose": "Legal proceedings and court cases",
+    "status": "searched",
+    "search_date": "2025-12-10"
   },
   "court_cases": [],
   "lawsuits": [],

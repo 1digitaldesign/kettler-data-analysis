@@ -1,7 +1,9 @@
 {
   "metadata": {
     "date": "2025-12-10",
-    "purpose": "Online reviews and ratings"
+    "purpose": "Online reviews and ratings",
+    "status": "searched",
+    "search_date": "2025-12-10"
   },
   "google_reviews": [],
   "yelp_reviews": [],

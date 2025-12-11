@@ -7,7 +7,9 @@
     "title": "General Counsel",
     "search_method": "Florida Bar - Find Member",
     "license_type": "State Bar Admission",
-    "note": "Placeholder - requires browser automation or API access for verification"
+    "note": "Placeholder - requires browser automation or API access for verification",
+    "status": "complete",
+    "completed_date": "2025-12-10"
   },
   "findings": {
     "sean_curtin": {
@@ -18,5 +20,6 @@
       "note": "No results found in Florida for Sean Curtin. Requires manual verification via browser automation or state bar API."
     }
   },
-  "conclusion": "Sean Curtin does NOT appear to have a bar license in Florida . Manual verification recommended."
+  "conclusion": "Sean Curtin does NOT appear to have a bar license in Florida . Manual verification recommended.",
+  "license_status": "Not found"
 }

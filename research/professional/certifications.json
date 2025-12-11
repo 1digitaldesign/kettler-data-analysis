@@ -1,7 +1,9 @@
 {
   "metadata": {
     "date": "2025-12-10",
-    "purpose": "Professional certifications"
+    "purpose": "Professional certifications",
+    "status": "complete",
+    "completed_date": "2025-12-10"
   },
   "cpm_certifications": [],
   "arm_certifications": [],

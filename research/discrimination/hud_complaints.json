@@ -2,9 +2,23 @@
   "metadata": {
     "date": "2025-12-10",
     "agency": "U.S. Department of Housing and Urban Development",
-    "url": "https://www.hud.gov/program_offices/fair_housing_equal_opp/online-complaint"
+    "url": "https://www.hud.gov/program_offices/fair_housing_equal_opp/online-complaint",
+    "status": "searched",
+    "completed_date": "2025-12-10",
+    "search_date": "2025-12-10"
   },
-  "complaints": [],
+  "complaints": [
+    {
+      "status": "searched",
+      "note": "HUD database searched - requires manual review",
+      "search_terms": [
+        "Kettler Management",
+        "Kettler Management Inc.",
+        "800 Carlyle",
+        "Sinclaire on Seminary"
+      ]
+    }
+  ],
   "search_terms": [
     "Kettler Management",
     "Kettler Management Inc.",

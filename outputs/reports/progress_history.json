@@ -1,0 +1,359 @@
+[
+  {
+    "timestamp": "2025-12-10T17:59:10.562781",
+    "overall_progress": 45.2,
+    "status_counts": {
+      "complete": 2,
+      "in_progress": 5,
+      "not_started": 3
+    },
+    "categories": {
+      "License Searches": {
+        "progress": 20,
+        "status": "in_progress"
+      },
+      "Company Registrations": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Employee Roles": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Property Contracts": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Regulatory Complaints": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Financial Records": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "News Coverage": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Fair Housing": {
+        "progress": 66,
+        "status": "templates_ready"
+      },
+      "Professional Memberships": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Social Media": {
+        "progress": 66,
+        "status": "templates_ready"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-10T19:23:23.762688",
+    "overall_progress": 45.2,
+    "status_counts": {
+      "complete": 2,
+      "in_progress": 5,
+      "not_started": 3
+    },
+    "categories": {
+      "License Searches": {
+        "progress": 20,
+        "status": "in_progress"
+      },
+      "Company Registrations": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Employee Roles": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Property Contracts": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Regulatory Complaints": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Financial Records": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "News Coverage": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Fair Housing": {
+        "progress": 66,
+        "status": "templates_ready"
+      },
+      "Professional Memberships": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Social Media": {
+        "progress": 66,
+        "status": "templates_ready"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-10T19:23:23.777478",
+    "overall_progress": 45.2,
+    "status_counts": {
+      "complete": 2,
+      "in_progress": 5,
+      "not_started": 3
+    },
+    "categories": {
+      "License Searches": {
+        "progress": 20,
+        "status": "in_progress"
+      },
+      "Company Registrations": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Employee Roles": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Property Contracts": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Regulatory Complaints": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Financial Records": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "News Coverage": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Fair Housing": {
+        "progress": 66,
+        "status": "templates_ready"
+      },
+      "Professional Memberships": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Social Media": {
+        "progress": 66,
+        "status": "templates_ready"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-10T19:23:33.315617",
+    "overall_progress": 45.2,
+    "status_counts": {
+      "complete": 2,
+      "in_progress": 5,
+      "not_started": 3
+    },
+    "categories": {
+      "License Searches": {
+        "progress": 20,
+        "status": "in_progress"
+      },
+      "Company Registrations": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Employee Roles": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Property Contracts": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Regulatory Complaints": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Financial Records": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "News Coverage": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Fair Housing": {
+        "progress": 66,
+        "status": "templates_ready"
+      },
+      "Professional Memberships": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Social Media": {
+        "progress": 66,
+        "status": "templates_ready"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-10T19:23:33.326075",
+    "overall_progress": 45.2,
+    "status_counts": {
+      "complete": 2,
+      "in_progress": 5,
+      "not_started": 3
+    },
+    "categories": {
+      "License Searches": {
+        "progress": 20,
+        "status": "in_progress"
+      },
+      "Company Registrations": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Employee Roles": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Property Contracts": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Regulatory Complaints": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Financial Records": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "News Coverage": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Fair Housing": {
+        "progress": 66,
+        "status": "templates_ready"
+      },
+      "Professional Memberships": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Social Media": {
+        "progress": 66,
+        "status": "templates_ready"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-10T19:55:32.938639",
+    "overall_progress": 45.2,
+    "status_counts": {
+      "complete": 2,
+      "in_progress": 5,
+      "not_started": 3
+    },
+    "categories": {
+      "License Searches": {
+        "progress": 20,
+        "status": "in_progress"
+      },
+      "Company Registrations": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Employee Roles": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Property Contracts": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Regulatory Complaints": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Financial Records": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "News Coverage": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Fair Housing": {
+        "progress": 66,
+        "status": "templates_ready"
+      },
+      "Professional Memberships": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Social Media": {
+        "progress": 66,
+        "status": "templates_ready"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-10T19:55:32.950641",
+    "overall_progress": 45.2,
+    "status_counts": {
+      "complete": 2,
+      "in_progress": 5,
+      "not_started": 3
+    },
+    "categories": {
+      "License Searches": {
+        "progress": 20,
+        "status": "in_progress"
+      },
+      "Company Registrations": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Employee Roles": {
+        "progress": 100,
+        "status": "complete"
+      },
+      "Property Contracts": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Regulatory Complaints": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "Financial Records": {
+        "progress": 0,
+        "status": "not_started"
+      },
+      "News Coverage": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Fair Housing": {
+        "progress": 66,
+        "status": "templates_ready"
+      },
+      "Professional Memberships": {
+        "progress": 50,
+        "status": "templates_ready"
+      },
+      "Social Media": {
+        "progress": 66,
+        "status": "templates_ready"
+      }
+    }
+  }
+]

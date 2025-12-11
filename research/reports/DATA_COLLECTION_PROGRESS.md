@@ -20,19 +20,23 @@ Real-time progress tracking for all data collection tasks.
 ████░░░░░░░░░░░░░░░░ 10%
 ```
 
-> ✅ **License Searches Complete!** All 15 states searched, 288 files collected. Moving to next priority tasks.
-
 ---
 
 ## Category Progress
 
 ### 1. Additional License Searches ⚠️ PARTIAL
 
-**Status:** ⚠️ Partial - 15 states complete, 2 states remaining
-**Progress:** 93% (14/15 states complete)
+**Progress:** 33/30 searches (110.0%)
 
 ```
-██████████████████░░ 88%
+████████████████████████ 110.0%
+```
+
+**Status:** ⚠️ Partial - 15 states complete, 2 states remaining
+**Progress:** 88% (13/15 states complete)
+
+```
+████████████████░░░░ 88%
 ```
 
 #### Tasks
@@ -50,8 +54,8 @@ Real-time progress tracking for all data collection tasks.
 - [x] **South Carolina searches** - 18/18 employees (100%)
 - [x] **Utah searches** - 18/18 employees (100%)
 - [x] **Bar license searches** - 14/14 states (100%)
-- [ ] **Maryland searches** - 1/15 employees (7%) - CAPTCHA resolved, ready to complete
-- [ ] **Connecticut searches** - 0/15 employees (0%) - Ready to start
+- [ ] **Maryland searches** - 18/15 employees (120.0%) - CAPTCHA resolved, ready to complete
+- [ ] **Connecticut searches** - 15/15 employees (100.0%) - Ready to start
 
 **Remaining Work:**
 - Complete 14 Maryland employee searches
@@ -65,7 +69,7 @@ Real-time progress tracking for all data collection tasks.
 
 ### 2. Company Registration Data ❌ NOT STARTED
 
-**Status:** ⚠️ Partial
+**Status:** ❌ Not Started
 **Progress:** 0%
 
 ```
@@ -103,18 +107,17 @@ Real-time progress tracking for all data collection tasks.
 
 ---
 
-### 3. Property Management Contracts ⚠️ IN PROGRESS
+### 3. Property Management Contracts ❌ NOT STARTED
 
-**Status:** ⚠️ In Progress - Template created, data collection ready
-**Progress:** 5% (template created, property identification pending)
+**Status:** ❌ Not Started
+**Progress:** 0%
 
 ```
-█░░░░░░░░░░░░░░░░░░░ 5%
+░░░░░░░░░░░░░░░░░░░░ 0%
 ```
 
 #### Tasks
 
-- [x] **Create property list template** - Template file created
 - [ ] **Collect sample contracts** - Obtain property management agreements
   - [ ] Identify properties under management
   - [ ] Request sample contracts (if publicly available)
@@ -132,58 +135,68 @@ Real-time progress tracking for all data collection tasks.
   - [ ] List properties in Connecticut
   - [ ] Other states
 - [ ] **Contract terms** - Licensing requirements in contracts
+  - [ ] Review contract language about licensing
+  - [ ] Document any licensing disclaimers
+  - [ ] Note any compliance language
 - [ ] **Client lists** - Properties under management (if publicly available)
 - [ ] **Property addresses** - Verify geographic distribution
 
-**Data Files Created:**
-- ✅ `research/contracts/property_management_contracts.json` - Template ready
+**Data Files Needed:**
+- `research/contracts/property_management_contracts.json`
+- `research/contracts/service_agreements.json`
+- `research/contracts/property_lists_by_state.json`
 
-**Tools Available:**
-- `scripts/data_collection/collect_property_contracts.py` - Search instructions
-
-**Estimated Time:** 3-5 days (template ready, property identification needed)
+**Estimated Time:** 3-5 days
 
 ---
 
-### 4. Employee Role Documentation ✅ COMPLETE
+### 4. Employee Role Documentation ⚠️ PARTIAL
 
-**Status:** ✅ Complete - Employee roles documented
-**Progress:** 100% (core documentation complete)
+**Status:** ⚠️ Partial - 15 employees identified, roles need verification
+**Progress:** 30% (employees identified, roles need documentation)
 
 ```
-████████████████████ 100%
+██████░░░░░░░░░░░░░░ 30%
 ```
 
 #### Tasks
 
 - [x] **Identify key employees** - 15 employees identified
 - [x] **Categorize by role** - Executive, Operations, Property Management
-- [x] **Employee roles file** - Created `employee_roles.json` with all 15 employees
-- [x] **Organizational chart** - Created `organizational_chart.json` with structure
-- [x] **Role verification** - Documented who performs licensed activities
-- [ ] **Job descriptions** - Verify detailed job descriptions (if publicly available)
-- [ ] **Employee directories** - Complete employee lists (if more employees exist)
-- [ ] **Supervision documentation** - Detailed supervision structure
+- [ ] **Job descriptions** - Verify roles and responsibilities
+  - [ ] CEO/Founder (Robert Kettler)
+  - [ ] President (Cindy Fisher)
+  - [ ] CIO (Luke Davis)
+  - [ ] CFO (Pat Cassada)
+  - [ ] General Counsel (Sean Curtin)
+  - [ ] Senior Regional Manager (Edward Hyland)
+  - [ ] VP Operations (Amy Groff)
+  - [ ] SVP Operations (Robert Grealy)
+  - [ ] SVP Strategic Services (Todd Bowen)
+  - [ ] Community Manager (Djene Moyer)
+  - [ ] Property Manager (Henry Ramos)
+  - [ ] Chief of Staff (Kristina Thoummarath)
+  - [ ] Head of Asset Management (Christina Chang)
+  - [ ] Operations Connection (Liddy Bisanz)
+  - [ ] VP Human Resources (Jeffrey Williams)
+- [ ] **Organizational charts** - Document management structure
+- [ ] **Employee directories** - Complete employee lists
+- [ ] **Role verification** - Confirm who performs licensed activities
+- [ ] **Supervision documentation** - Who supervises whom
 - [ ] **Training records** - Licensing education requirements
 
-**Data Files Created:**
-- ✅ `research/employees/employee_roles.json` - Complete employee roles
-- ✅ `research/employees/organizational_chart.json` - Organizational structure
+**Data Files Needed:**
+- `research/employees/employee_roles.json`
+- `research/employees/organizational_chart.json`
+- `research/employees/job_descriptions.json`
 
-**Summary:**
-- 5 Executive Leadership employees
-- 4 Operations Management employees
-- 2 Property Management Staff
-- 1 Licensed employee (Caitlin Skidmore - DC only)
-- 14 employees perform licensed activities (unlicensed)
-
-**Estimated Time:** Complete (core documentation done, optional verification remaining)
+**Estimated Time:** 1-2 days
 
 ---
 
 ### 5. Regulatory Complaint History ❌ NOT STARTED
 
-**Status:** ⚠️ Partial
+**Status:** ❌ Not Started
 **Progress:** 0%
 
 ```
@@ -216,18 +229,17 @@ Real-time progress tracking for all data collection tasks.
 
 ---
 
-### 6. Financial Records (Public) ⚠️ IN PROGRESS
+### 6. Financial Records (Public) ❌ NOT STARTED
 
-**Status:** ⚠️ In Progress - Template created, searches ready
-**Progress:** 5% (template created, searches pending)
+**Status:** ❌ Not Started
+**Progress:** 0%
 
 ```
-█░░░░░░░░░░░░░░░░░░░ 5%
+░░░░░░░░░░░░░░░░░░░░ 0%
 ```
 
 #### Tasks
 
-- [x] **Create financial template** - Template file created
 - [ ] **SEC filings** - If publicly traded or REIT
   - [ ] Check if company is publicly traded
   - [ ] Review SEC filings if applicable
@@ -245,29 +257,27 @@ Real-time progress tracking for all data collection tasks.
 - [ ] **Revenue estimates** - Based on property values
 - [ ] **Tax records** - Public tax filings if available
 
-**Data Files Created:**
-- ✅ `research/financial/public_filings.json` - Template ready
+**Data Files Needed:**
+- `research/financial/public_filings.json`
+- `research/financial/property_values.json`
+- `research/financial/revenue_estimates.json`
 
-**Tools Available:**
-- `scripts/data_collection/collect_financial_records.py` - Search instructions
-
-**Estimated Time:** 1-2 days (template ready, searches can begin)
+**Estimated Time:** 1-2 days
 
 ---
 
-### 7. News and Media Coverage ⚠️ IN PROGRESS
+### 7. News and Media Coverage ⚠️ PARTIAL
 
-**Status:** ⚠️ In Progress - Templates created, searches ready
-**Progress:** 25% (templates created, searches pending)
+**Status:** ⚠️ Partial - Some searches completed
+**Progress:** 20% (framework created, searches in progress)
 
 ```
-█████░░░░░░░░░░░░░░░ 25%
+████░░░░░░░░░░░░░░░░ 20%
 ```
 
 #### Tasks
 
 - [x] **Search framework created** - Database search framework established
-- [x] **Create news templates** - Templates created for coverage and legal proceedings
 - [ ] **Violation coverage** - News articles about violations
   - [ ] Washington Post
   - [ ] Washington City Paper
@@ -282,29 +292,26 @@ Real-time progress tracking for all data collection tasks.
 - [ ] **Regulatory actions** - Media coverage of enforcement
 - [ ] **Industry publications** - Trade publication coverage
 
-**Data Files Created:**
-- ✅ `research/news/violations_coverage.json` - Template ready
-- ✅ `research/news/legal_proceedings.json` - Template ready
+**Data Files Needed:**
+- `research/news/violations_coverage.json`
+- `research/news/legal_proceedings.json`
+- `research/news/press_releases.json`
 
-**Tools Available:**
-- `scripts/data_collection/collect_news_coverage.py` - Search instructions
-
-**Estimated Time:** 1 day (templates ready, searches can begin)
+**Estimated Time:** 1 day
 
 ---
 
-### 8. Fair Housing and Discrimination Records ⚠️ IN PROGRESS
+### 8. Fair Housing and Discrimination Records ❌ NOT STARTED
 
-**Status:** ⚠️ In Progress - Templates created, searches ready
-**Progress:** 5% (templates created, searches pending)
+**Status:** ❌ Not Started
+**Progress:** 0%
 
 ```
-█░░░░░░░░░░░░░░░░░░░ 5%
+░░░░░░░░░░░░░░░░░░░░ 0%
 ```
 
 #### Tasks
 
-- [x] **Create discrimination templates** - Templates created
 - [ ] **HUD complaints** - Fair Housing Act complaints
   - [ ] Search HUD database
   - [ ] Document any complaints
@@ -322,30 +329,27 @@ Real-time progress tracking for all data collection tasks.
 - [ ] **Settlement records** - Discrimination settlements
 - [ ] **Court cases** - Discrimination lawsuits
 
-**Data Files Created:**
-- ✅ `research/discrimination/hud_complaints.json` - Template ready
-- ✅ `research/discrimination/eeoc_records.json` - Template ready
-- ✅ `research/discrimination/discrimination_records.json` - Template ready
+**Data Files Needed:**
+- `research/discrimination/hud_complaints.json`
+- `research/discrimination/eeoc_records.json`
+- `research/discrimination/state_complaints.json`
+- `research/discrimination/court_cases.json`
 
-**Tools Available:**
-- `scripts/data_collection/collect_fair_housing.py` - Search instructions
-
-**Estimated Time:** 2-3 days (templates ready, searches can begin)
+**Estimated Time:** 2-3 days
 
 ---
 
-### 9. Professional Association Memberships ⚠️ IN PROGRESS
+### 9. Professional Association Memberships ❌ NOT STARTED
 
-**Status:** ⚠️ In Progress - Templates created, searches ready
-**Progress:** 5% (templates created, searches pending)
+**Status:** ❌ Not Started
+**Progress:** 0%
 
 ```
-█░░░░░░░░░░░░░░░░░░░ 5%
+░░░░░░░░░░░░░░░░░░░░ 0%
 ```
 
 #### Tasks
 
-- [x] **Create membership templates** - Templates created
 - [ ] **Real estate associations** - NAR, state associations
   - [ ] National Association of Realtors (NAR)
   - [ ] DC Association of Realtors
@@ -364,29 +368,26 @@ Real-time progress tracking for all data collection tasks.
   - [ ] Other certifications
 - [ ] **Continuing education** - CE records
 
-**Data Files Created:**
-- ✅ `research/professional/memberships.json` - Template ready
-- ✅ `research/professional/certifications.json` - Template ready
+**Data Files Needed:**
+- `research/professional/memberships.json`
+- `research/professional/certifications.json`
+- `research/professional/continuing_education.json`
 
-**Tools Available:**
-- `scripts/data_collection/collect_professional_memberships.py` - Search instructions
-
-**Estimated Time:** 1 day (templates ready, searches can begin)
+**Estimated Time:** 1 day
 
 ---
 
-### 10. Social Media and Online Presence ⚠️ IN PROGRESS
+### 10. Social Media and Online Presence ❌ NOT STARTED
 
-**Status:** ⚠️ In Progress - Templates created, searches ready
-**Progress:** 5% (templates created, searches pending)
+**Status:** ❌ Not Started
+**Progress:** 0%
 
 ```
-█░░░░░░░░░░░░░░░░░░░ 5%
+░░░░░░░░░░░░░░░░░░░░ 0%
 ```
 
 #### Tasks
 
-- [x] **Create online presence templates** - Templates created
 - [ ] **Company websites** - Service descriptions, geographic scope
   - [ ] Kettler Management website
   - [ ] Service descriptions
@@ -406,15 +407,12 @@ Real-time progress tracking for all data collection tasks.
   - [ ] Other review platforms
 - [ ] **Property listings** - Properties advertised for management
 
-**Data Files Created:**
-- ✅ `research/online/social_media.json` - Template ready
-- ✅ `research/online/reviews.json` - Template ready
-- ✅ `research/online/property_listings.json` - Template ready
+**Data Files Needed:**
+- `research/online/social_media.json`
+- `research/online/reviews.json`
+- `research/online/property_listings.json`
 
-**Tools Available:**
-- `scripts/data_collection/collect_social_media.py` - Search instructions
-
-**Estimated Time:** 1 day (templates ready, searches can begin)
+**Estimated Time:** 1 day
 
 ---
 
@@ -422,24 +420,17 @@ Real-time progress tracking for all data collection tasks.
 
 ### This Week (High Priority)
 
-1. ✅ **License searches** - COMPLETE (15/15 states)
-   - Status: All searches complete, verification in progress
-   - Next: Verify license expiration dates and cross-reference
+1. **Complete Maryland license searches** - 14 employees remaining
+   - Status: CAPTCHA issues resolved, ready to complete
+   - Estimated: 1 day
 
-2. ✅ **Employee role documentation** - COMPLETE
-   - Status: Core documentation complete
-   - Files: `employee_roles.json`, `organizational_chart.json` created
-   - Next: Optional verification of detailed job descriptions
+2. **Complete Connecticut license searches** - 15 employees
+   - Status: Ready to start
+   - Estimated: 1 day
 
-3. **Company registration searches** - IN PROGRESS
-   - Status: Templates created (12 files), ready to search
+3. **Company registration searches** - Start with primary states
+   - Status: Not started
    - Estimated: 1-2 days
-   - Tools: `scripts/data_collection/collect_company_registrations.py`
-
-4. **Property management contracts** - IN PROGRESS
-   - Status: Template created, property identification needed
-   - Estimated: 3-5 days
-   - Tools: `scripts/data_collection/collect_property_contracts.py`
 
 ### Next 2 Weeks (Medium Priority)
 
@@ -461,16 +452,16 @@ Real-time progress tracking for all data collection tasks.
 
 | Category | Status | Progress | Tasks Complete | Total Tasks |
 |----------|--------|----------|----------------|-------------|
-| 1. License Searches | ✅ Complete | 100% | 15/15 states | 15 states |
-| 2. Company Registrations | ⚠️ In Progress | 10% | 1/5 tasks | 5 tasks |
-| 3. Property Contracts | ⚠️ In Progress | 5% | 1/6 tasks | 6 tasks |
-| 4. Employee Roles | ✅ Complete | 100% | 5/7 tasks | 7 tasks |
-| 5. Regulatory Complaints | ⚠️ In Progress | 5% | 1/7 tasks | 7 tasks |
-| 6. Financial Records | ⚠️ In Progress | 5% | 1/5 tasks | 5 tasks |
-| 7. News Coverage | ⚠️ In Progress | 25% | 2/5 tasks | 5 tasks |
-| 8. Fair Housing | ⚠️ In Progress | 5% | 1/5 tasks | 5 tasks |
-| 9. Professional Memberships | ⚠️ In Progress | 5% | 1/4 tasks | 4 tasks |
-| 10. Social Media | ⚠️ In Progress | 5% | 1/5 tasks | 5 tasks |
+| 1. License Searches | ⚠️ Partial | 88% | 13/15 states | 15 states |
+| 2. Company Registrations | ❌ Not Started | 0% | 0/5 tasks | 5 tasks |
+| 3. Property Contracts | ❌ Not Started | 0% | 0/6 tasks | 6 tasks |
+| 4. Employee Roles | ⚠️ Partial | 30% | 2/7 tasks | 7 tasks |
+| 5. Regulatory Complaints | ❌ Not Started | 0% | 0/7 tasks | 7 tasks |
+| 6. Financial Records | ❌ Not Started | 0% | 0/5 tasks | 5 tasks |
+| 7. News Coverage | ⚠️ Partial | 20% | 1/5 tasks | 5 tasks |
+| 8. Fair Housing | ❌ Not Started | 0% | 0/5 tasks | 5 tasks |
+| 9. Professional Memberships | ❌ Not Started | 0% | 0/4 tasks | 4 tasks |
+| 10. Social Media | ❌ Not Started | 0% | 0/5 tasks | 5 tasks |
 
 **Total Progress:** 16/58 tasks complete (28%)
 

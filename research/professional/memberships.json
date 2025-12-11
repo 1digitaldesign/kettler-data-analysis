@@ -1,80 +1,8 @@
 {
   "metadata": {
     "date": "2025-12-10",
-    "purpose": "Professional association memberships and certifications"
-  },
-  "real_estate_associations": {
-    "National": {
-      "name": "National Association of Realtors (NAR)",
-      "url": "https://www.nar.realtor/",
-      "members": [],
-      "search_status": "pending"
-    },
-    "DC": {
-      "name": "DC Association of Realtors",
-      "url": "https://www.dcrealtors.org/",
-      "members": [],
-      "search_status": "pending"
-    },
-    "Maryland": {
-      "name": "Maryland Association of Realtors",
-      "url": "https://www.mdrealtor.org/",
-      "members": [],
-      "search_status": "pending"
-    },
-    "Virginia": {
-      "name": "Virginia Association of Realtors",
-      "url": "https://www.varealtor.com/",
-      "members": [],
-      "search_status": "pending"
-    },
-    "New Jersey": {
-      "name": "New Jersey Association of Realtors",
-      "url": "https://www.njar.com/",
-      "members": [],
-      "search_status": "pending"
-    },
-    "New York": {
-      "name": "New York State Association of Realtors",
-      "url": "https://www.nysar.com/",
-      "members": [],
-      "search_status": "pending"
-    },
-    "Connecticut": {
-      "name": "Connecticut Association of Realtors",
-      "url": "https://www.ctrealtors.com/",
-      "members": [],
-      "search_status": "pending"
-    }
-  },
-  "property_management_associations": {
-    "IREM": {
-      "name": "Institute of Real Estate Management",
-      "url": "https://www.irem.org/",
-      "members": [],
-      "certifications": [
-        "CPM - Certified Property Manager"
-      ],
-      "search_status": "pending"
-    },
-    "NAA": {
-      "name": "National Apartment Association",
-      "url": "https://www.naahq.org/",
-      "members": [],
-      "certifications": [
-        "CAM - Certified Apartment Manager",
-        "CAPS - Certified Apartment Property Supervisor"
-      ],
-      "search_status": "pending"
-    }
-  },
-  "certifications": {
-    "cpm": [],
-    "arm": [],
-    "other": []
-  },
-  "continuing_education": {
-    "records": [],
-    "note": "CE records if publicly available"
+    "purpose": "Memberships",
+    "status": "searched",
+    "search_date": "2025-12-10"
   }
 }

@@ -1,42 +1,6 @@
 {
   "metadata": {
     "date": "2025-12-10",
-    "purpose": "Fair Housing and discrimination records"
-  },
-  "hud_complaints": [],
-  "eeoc_records": [],
-  "state_complaints": {
-    "District of Columbia": {
-      "agency": "DC Office of Human Rights",
-      "complaints": [],
-      "settlements": []
-    },
-    "Maryland": {
-      "agency": "Maryland Commission on Civil Rights",
-      "complaints": [],
-      "settlements": []
-    },
-    "Virginia": {
-      "agency": "Virginia Division of Human Rights",
-      "complaints": [],
-      "settlements": []
-    },
-    "New Jersey": {
-      "agency": "New Jersey Division on Civil Rights",
-      "complaints": [],
-      "settlements": []
-    },
-    "New York": {
-      "agency": "New York State Division of Human Rights",
-      "complaints": [],
-      "settlements": []
-    },
-    "Connecticut": {
-      "agency": "Connecticut Commission on Human Rights and Opportunities",
-      "complaints": [],
-      "settlements": []
-    }
-  },
-  "settlements": [],
-  "court_cases": []
+    "purpose": "Discrimination records"
+  }
 }

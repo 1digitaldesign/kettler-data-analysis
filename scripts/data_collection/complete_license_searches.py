@@ -3,13 +3,24 @@
 Complete License Searches
 
 Script to help complete remaining license searches for Maryland and Connecticut.
+Integrated with progress bar system for real-time updates.
 """
 
 from pathlib import Path
 import json
+import sys
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 LICENSE_DIR = PROJECT_ROOT / 'research/license_searches/data'
+
+# Add progress bar integration
+sys.path.insert(0, str(Path(__file__).parent))
+try:
+    from progress_integration import log_progress, print_progress
+    from progress_realtime import RealTimeProgress
+    PROGRESS_AVAILABLE = True
+except ImportError:
+    PROGRESS_AVAILABLE = False
 
 # 15 employees to search
 EMPLOYEES = [
@@ -97,8 +108,16 @@ def generate_search_list():
     """Generate list of searches needed."""
     print("=== Remaining License Searches ===\n")
 
+    # Show progress bar if available
+    if PROGRESS_AVAILABLE:
+        print("Current Progress:")
+        print_progress('sparkline')
+        print()
+
+    total_missing = 0
     for state, info in STATES_TO_COMPLETE.items():
         missing = check_missing_searches(state)
+        total_missing += len(missing)
         print(f"{state.upper()}:")
         print(f"  Agency: {info['agency']}")
         print(f"  URL: {info['url']}")
@@ -112,10 +131,23 @@ def generate_search_list():
             print("  ✅ All searches complete")
         print()
 
+    print(f"Total missing searches: {total_missing}")
+    print()
+
 
 def create_missing_templates():
     """Create JSON templates for missing searches."""
     templates_created = 0
+
+    # Initialize progress tracking if available
+    rt = None
+    if PROGRESS_AVAILABLE:
+        rt = RealTimeProgress()
+        rt.show_with_message("Creating search templates")
+
+    total_to_create = sum(len(check_missing_searches(state))
+                         for state in STATES_TO_COMPLETE.keys())
+    created_count = 0
 
     for state in STATES_TO_COMPLETE.keys():
         missing = check_missing_searches(state)
@@ -130,11 +162,50 @@ def create_missing_templates():
             if not filepath.exists():
                 filepath.write_text(json.dumps(template, indent=2) + '\n')
                 templates_created += 1
+                created_count += 1
 
-    print(f"Created {templates_created} search templates")
+                # Update progress
+                if rt and total_to_create > 0:
+                    progress_pct = (created_count / total_to_create * 100)
+                    rt.show_update(f"Created {created_count}/{total_to_create} templates")
+
+    if PROGRESS_AVAILABLE and rt:
+        rt.show_with_message(f"Created {templates_created} templates")
+        log_progress("Templates created")
+        print()
+        print("Updated Progress:")
+        print_progress('compact')
+
+    print(f"\n✅ Created {templates_created} search templates")
     return templates_created
 
 
 if __name__ == '__main__':
+    # Show initial progress
+    if PROGRESS_AVAILABLE:
+        print("=" * 80)
+        print(" " * 25 + "LICENSE SEARCH COMPLETION" + " " * 25)
+        print("=" * 80)
+        print()
+        print("Initial Progress:")
+        print_progress('compact')
+        print()
+        print("=" * 80)
+        print()
+
     generate_search_list()
-    create_missing_templates()
+    templates_created = create_missing_templates()
+
+    # Show final progress
+    if PROGRESS_AVAILABLE:
+        print()
+        print("=" * 80)
+        print("Final Progress:")
+        print_progress('compact')
+        print()
+
+        if templates_created > 0:
+            print(f"✅ {templates_created} templates created - ready for data collection")
+        else:
+            print("✅ All searches complete or templates already exist")
+        print("=" * 80)

@@ -1,84 +1,8 @@
 {
   "metadata": {
     "date": "2025-12-10",
-    "purpose": "Regulatory complaint history documentation"
-  },
-  "complaints_by_state": {
-    "District of Columbia": {
-      "regulatory_complaints": [],
-      "consumer_complaints": [],
-      "enforcement_actions": [],
-      "settlements": [],
-      "violations": [],
-      "penalties": [],
-      "agency_urls": {
-        "real_estate": "https://www.dcopla.com/",
-        "consumer_affairs": "https://dcra.dc.gov/"
-      }
-    },
-    "Maryland": {
-      "regulatory_complaints": [],
-      "consumer_complaints": [],
-      "enforcement_actions": [],
-      "settlements": [],
-      "violations": [],
-      "penalties": [],
-      "agency_urls": {
-        "real_estate": "https://www.dllr.state.md.us/license/",
-        "consumer_affairs": "https://www.dllr.state.md.us/"
-      }
-    },
-    "Virginia": {
-      "regulatory_complaints": [],
-      "consumer_complaints": [],
-      "enforcement_actions": [],
-      "settlements": [],
-      "violations": [],
-      "penalties": [],
-      "agency_urls": {
-        "real_estate": "https://www.dpor.virginia.gov/",
-        "consumer_affairs": "https://www.vdacs.virginia.gov/"
-      }
-    },
-    "New Jersey": {
-      "regulatory_complaints": [],
-      "consumer_complaints": [],
-      "enforcement_actions": [],
-      "settlements": [],
-      "violations": [],
-      "penalties": [],
-      "agency_urls": {
-        "real_estate": "https://www.njconsumeraffairs.gov/",
-        "consumer_affairs": "https://www.njconsumeraffairs.gov/"
-      }
-    },
-    "New York": {
-      "regulatory_complaints": [],
-      "consumer_complaints": [],
-      "enforcement_actions": [],
-      "settlements": [],
-      "violations": [],
-      "penalties": [],
-      "agency_urls": {
-        "real_estate": "https://www.dos.ny.gov/",
-        "consumer_affairs": "https://www.dos.ny.gov/"
-      }
-    },
-    "Connecticut": {
-      "regulatory_complaints": [],
-      "consumer_complaints": [],
-      "enforcement_actions": [],
-      "settlements": [],
-      "violations": [],
-      "penalties": [],
-      "agency_urls": {
-        "real_estate": "https://www.elicense.ct.gov/",
-        "consumer_affairs": "https://portal.ct.gov/DCP"
-      }
-    }
-  },
-  "enforcement_actions": [],
-  "settlements": [],
-  "violations": [],
-  "penalties": []
+    "purpose": "Regulatory complaints",
+    "status": "searched",
+    "search_date": "2025-12-10"
+  }
 }

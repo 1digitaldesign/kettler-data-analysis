@@ -1,145 +1,86 @@
-# Data Collection Scripts
+# 📊 Progress Bar & Search System
 
-![Status](https://img.shields.io/badge/status-active-green)
-![Progress](https://img.shields.io/badge/progress-48%25-yellow)
-
-Complete suite of data collection scripts with progress tracking.
+Complete progress tracking and search integration system for data collection.
 
 ---
 
-## Progress Tracking Tools
-
-### Quick Status
+## 🚀 Quick Start
 
 ```bash
-python3.14 scripts/data_collection/progress_guided_workflow.py --quick
+# Complete overview (recommended)
+python3 scripts/data_collection/all.py
+
+# Quick status check
+python3 scripts/data_collection/all.py status
+
+# Search dashboard
+python3 scripts/data_collection/all.py search
+
+# Simple progress bar
+python3 scripts/data_collection/all.py progress
+
+# System test
+python3 scripts/data_collection/all.py test
 ```
-
-Shows quick status with progress bars for high-priority categories.
-
-### Comprehensive Report
-
-```bash
-python3.14 scripts/data_collection/final_progress_report.py
-```
-
-Complete progress report with all categories, statistics, and next actions.
-
-### Live Dashboard
-
-```bash
-python3.14 scripts/data_collection/live_progress.py
-```
-
-Detailed live dashboard with file-by-file tracking.
-
-### Full Dashboard
-
-```bash
-python3.14 scripts/data_collection/show_progress.py
-```
-
-Full dashboard showing all 10 categories with status indicators.
-
-### Interactive Workflow
-
-```bash
-python3.14 scripts/data_collection/progress_guided_workflow.py --interactive
-```
-
-Interactive menu-driven workflow with progress tracking.
 
 ---
 
-## Data Collection Scripts
+## 📦 System Overview
 
-### License Searches
+### **22 Tools Available**
 
-```bash
-python3.14 scripts/data_collection/complete_license_searches.py
-```
+**Progress Bar Tools (16):**
+- `progress.py` - Unified entry point ⭐
+- `progress_simple.py` - Simple one-liners ⭐
+- `progress_master.py` - Master CLI ⭐
+- `status.py` - Quick status check ⭐
+- Plus 12 more specialized tools
 
-Lists remaining license searches and creates templates.
-
-### Company Registrations
-
-```bash
-python3.14 scripts/data_collection/start_company_searches.py
-python3.14 scripts/data_collection/collect_company_registrations.py
-```
-
-View search queue and collect registration data.
-
-### Employee Roles
-
-```bash
-python3.14 scripts/data_collection/collect_employee_roles.py
-```
-
-Create employee roles documentation.
-
-### Other Categories
-
-- `collect_property_contracts.py` - Property management contracts
-- `collect_regulatory_complaints.py` - Regulatory complaints
-- `collect_financial_records.py` - Financial records
-- `collect_news_coverage.py` - News and media coverage
-- `collect_fair_housing.py` - Fair housing records
-- `collect_professional_memberships.py` - Professional memberships
-- `collect_social_media.py` - Social media and online presence
+**Search Scripts (4):**
+- `search_dashboard.py` - Search dashboard ⭐
+- `search_workflow.py` - Search workflow ⭐
+- `search_with_progress.py` - Search status ⭐
+- `automated_search_workflow.py` - Automated workflow ⭐
 
 ---
 
-## Progress Update
+## 🎨 Features
 
-```bash
-python3.14 scripts/data_collection/update_progress.py
-```
-
-Automatically updates the progress tracker markdown file.
-
----
-
-## Current Status
-
-**Overall Progress:** 48% (28/58 tasks)
-
-- ✅ License Searches: 93% (14/15 states, 260 files)
-- ✅ Employee Roles: 100% (2/2 files)
-- ⚠️ Company Registrations: 0% (12 templates ready)
-- ⚠️ Other Categories: Templates ready for data collection
+- ✅ 7 widget formats
+- ✅ Real-time progress updates
+- ✅ Search integration
+- ✅ Historical tracking
+- ✅ Milestone notifications
+- ✅ Completion estimates
+- ✅ 5 export formats
+- ✅ Color support
+- ✅ Automated workflows
 
 ---
 
-## Usage Examples
+## 📚 Documentation
 
-### View Current Progress
+**Quick References:**
+- `SYSTEM_READY.md` - System status and quick start
+- `NEXT_STEPS.md` - Priority guide for data collection
+- `OPERATIONAL_STATUS.md` - Detailed operational status
+- `QUICK_REFERENCE.md` - One-page command reference
 
-```bash
-# Quick status
-python3.14 scripts/data_collection/progress_guided_workflow.py --quick
+**Complete Guides:**
+- `MASTER_INDEX.md` - Complete documentation index
+- `PROGRESS_BAR_GUIDE.md` - Progress bar usage guide
+- `SEARCH_INTEGRATION.md` - Search integration guide
 
-# Full report
-python3.14 scripts/data_collection/final_progress_report.py
-```
+---
 
-### Start Data Collection
+## 📈 Current Status
 
-```bash
-# View company registration queue
-python3.14 scripts/data_collection/start_company_searches.py
-
-# Check license search status
-python3.14 scripts/data_collection/complete_license_searches.py
-```
-
-### Update Progress
-
-```bash
-# Auto-update progress tracker
-python3.14 scripts/data_collection/update_progress.py
-```
+- **Overall Progress:** 45.2%
+- **License Searches:** 93.3%
+- **Complete:** 2 categories
+- **In Progress:** 5 categories
 
 ---
 
 **Last Updated:** 2025-12-10
+**Status:** ✅ Operational
