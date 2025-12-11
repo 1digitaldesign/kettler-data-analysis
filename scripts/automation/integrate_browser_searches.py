@@ -20,24 +20,24 @@ PROGRESS_FILE = PROJECT_ROOT / 'outputs' / 'reports' / 'progress_data.json'
 def search_company_dc_browser(company_name: str):
     """
     Search for company in DC using browser automation.
-    
+
     This function should be called with browser context.
     """
     COMPANY_DIR = PROJECT_ROOT / 'research' / 'company_registrations' / 'dc'
     COMPANY_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     result_file = COMPANY_DIR / f"{company_name.lower().replace(' ', '_')}_registration.json"
-    
+
     if result_file.exists():
         return True
-    
+
     # Browser automation steps:
     # 1. Navigate to https://corponline.dccourts.gov/
     # 2. Enter company name in search
     # 3. Execute search
     # 4. Parse results
     # 5. Save findings
-    
+
     result = {
         'metadata': {
             'date': datetime.now().isoformat(),
@@ -56,7 +56,7 @@ def search_company_dc_browser(company_name: str):
         },
         'conclusion': f"{company_name} registration status in District of Columbia."
     }
-    
+
     result_file.write_text(json.dumps(result, indent=2) + '\n')
     return True
 
@@ -69,12 +69,12 @@ def main():
     """Main function."""
     print("Browser Integration for Data Collection")
     print("=" * 60)
-    
+
     # Search Kettler Management in DC
     print("\nSearching: Kettler Management Inc in DC...")
     search_company_dc_browser("Kettler Management Inc")
     print("✓ Search complete")
-    
+
     print("\n✓ Browser integration ready")
 
 if __name__ == '__main__':

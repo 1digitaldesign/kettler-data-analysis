@@ -39,7 +39,7 @@ def process_browser_result(company_name: str, found: bool, details: dict = None)
         },
         'conclusion': f"{company_name} {'IS' if found else 'IS NOT'} registered in District of Columbia."
     }
-    
+
     save_result(company_name, result)
     return result
 

@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-12-10T20:46:40.373771",
+  "timestamp": "2025-12-10T20:49:22.423648",
   "overall": {
-    "completed": 14,
+    "completed": 5,
     "total": 34,
-    "percent": 41.2
+    "percent": 14.7
   },
   "categories": {
     "license_searches": {
@@ -15,10 +15,10 @@
     },
     "company_registrations": {
       "name": "Company Registrations",
-      "completed": 6,
+      "completed": 0,
       "total": 6,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 0.0,
+      "status": "not_started"
     },
     "property_contracts": {
       "name": "Property Management Contracts",
@@ -43,10 +43,10 @@
     },
     "financial_records": {
       "name": "Financial Records",
-      "completed": 3,
+      "completed": 0,
       "total": 3,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 0.0,
+      "status": "not_started"
     },
     "news_coverage": {
       "name": "News and Media Coverage",

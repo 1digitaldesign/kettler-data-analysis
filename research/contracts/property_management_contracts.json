@@ -1,8 +1,17 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "purpose": "Property contracts",
-    "status": "searched",
-    "search_date": "2025-12-10"
+    "date": "2025-12-10T20:49:09.177366",
+    "collection_method": "Browser automation",
+    "sources": [
+      "Property management company websites",
+      "Public records",
+      "Court filings (if available)"
+    ]
+  },
+  "contracts": [],
+  "service_scope": {
+    "services_offered": [],
+    "licensing_requirements": [],
+    "geographic_scope": []
   }
 }
