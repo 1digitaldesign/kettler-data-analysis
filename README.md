@@ -380,6 +380,23 @@ graph TD
 
 ---
 
+## Advanced Visualization Libraries
+
+This project uses modern, interactive visualization libraries for publication-quality charts and dashboards:
+
+| Library | Purpose | Features |
+|---------|---------|----------|
+| **Plotly** | Interactive web visualizations | 3D plots, animations, dashboards |
+| **Bokeh** | Interactive browser visualizations | Real-time updates, streaming data |
+| **Altair** | Declarative statistical viz | Grammar of graphics, JSON export |
+| **Seaborn** | Statistical data visualization | Beautiful default styles |
+| **NetworkX** | Graph visualization | Network analysis, layouts |
+| **Dash** | Interactive web dashboards | Python web apps, real-time |
+
+All visualizations are interactive, exportable, and work seamlessly in both light and dark modes.
+
+---
+
 ## AI & Machine Learning Capabilities
 
 ### 🤖 Advanced ML Pipeline
@@ -465,6 +482,7 @@ graph TB
 | **Dimensionality Reduction** | PCA, UMAP | Feature visualization | ✅ 2 Methods |
 | **Vector Search** | Cosine Similarity | Similar violation discovery | ✅ Active |
 | **Risk Scoring** | Multi-model Ensemble | ML-enhanced risk assessment | ✅ Production |
+| **Visualizations** | Plotly, Bokeh, Altair | Interactive, publication-quality | ✅ Modern |
 
 ### AI-Powered Features
 

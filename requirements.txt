@@ -3,6 +3,7 @@
 
 # Core dependencies
 pandas>=2.2.0
+numpy>=1.26.0
 
 # Data processing
 json5>=0.9.0
@@ -14,6 +15,30 @@ beautifulsoup4>=4.12.0
 # Optional: API server
 fastapi>=0.115.0
 uvicorn>=0.32.0
+
+# Advanced Visualization Libraries (Modern & Interactive)
+plotly>=5.18.0              # Interactive web-based visualizations
+plotly-express>=0.4.1      # High-level Plotly interface
+dash>=2.14.0               # Interactive web dashboards
+dash-bootstrap-components>=1.5.0  # Bootstrap components for Dash
+bokeh>=3.3.0               # Interactive visualizations for browsers
+altair>=5.2.0              # Declarative statistical visualizations
+seaborn>=0.13.0            # Statistical data visualization
+matplotlib>=3.8.0          # Base plotting library
+kaleido>=0.2.1             # Static image export for Plotly
+
+# Graph Visualization
+networkx>=3.2.0            # Network analysis and visualization
+pygraphviz>=1.11           # Graphviz Python interface (optional)
+graphviz>=0.20.1           # Graph visualization software
+
+# Machine Learning & AI
+scikit-learn>=1.4.0        # ML algorithms
+sentence-transformers>=2.3.0  # Transformer embeddings
+tensorflow>=2.15.0         # Deep learning (optional, for ARM M4)
+xgboost>=2.0.0             # Gradient boosting
+shap>=0.44.0               # Explainable AI
+umap-learn>=0.5.5          # Dimensionality reduction
 
 # Optional: Vector embeddings
 # transformers>=4.45.0
