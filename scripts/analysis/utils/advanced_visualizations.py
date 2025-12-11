@@ -52,7 +52,7 @@ except ImportError:
 
 class AdvancedVisualizer:
     """Modern visualization utilities using Plotly, Bokeh, and Altair"""
-    
+
     def __init__(self, output_dir: Path):
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -63,13 +63,13 @@ class AdvancedVisualizer:
             'seaborn': SEABORN_AVAILABLE,
             'matplotlib': MATPLOTLIB_AVAILABLE
         }
-    
+
     def create_cluster_plot_plotly(self, features: np.ndarray, labels: np.ndarray,
                                    title: str = "K-Means Clustering") -> Optional[str]:
         """Create interactive cluster plot using Plotly"""
         if not PLOTLY_AVAILABLE:
             return None
-        
+
         # Reduce to 2D using PCA if needed
         if features.shape[1] > 2:
             from sklearn.decomposition import PCA
@@ -81,7 +81,7 @@ class AdvancedVisualizer:
             features_2d = features
             x_label = "Feature 1"
             y_label = "Feature 2"
-        
+
         # Create DataFrame for Plotly
         df = pd.DataFrame({
             'x': features_2d[:, 0],
@@ -89,7 +89,7 @@ class AdvancedVisualizer:
             'cluster': labels.astype(str),
             'index': range(len(labels))
         })
-        
+
         # Create interactive scatter plot
         fig = px.scatter(
             df, x='x', y='y', color='cluster',
@@ -98,12 +98,12 @@ class AdvancedVisualizer:
             hover_data=['index'],
             color_discrete_sequence=px.colors.qualitative.Set3
         )
-        
+
         fig.update_traces(
             marker=dict(size=8, opacity=0.7, line=dict(width=1, color='white')),
             selector=dict(mode='markers')
         )
-        
+
         fig.update_layout(
             template='plotly_white',
             width=1000,
@@ -112,37 +112,37 @@ class AdvancedVisualizer:
             title_font=dict(size=18, color='#1f77b4'),
             hovermode='closest'
         )
-        
+
         output_path = self.output_dir / f"{title.lower().replace(' ', '_')}_plotly.html"
         fig.write_html(str(output_path))
         return str(output_path)
-    
+
     def create_network_graph_plotly(self, graph_data: Dict[str, Any],
                                     title: str = "Network Graph") -> Optional[str]:
         """Create interactive network graph using Plotly"""
         if not PLOTLY_AVAILABLE:
             return None
-        
+
         try:
             import networkx as nx
             G = nx.Graph()
-            
+
             # Add nodes and edges from graph_data
             if 'nodes' in graph_data:
                 for node in graph_data['nodes']:
                     G.add_node(node.get('id', node))
-            
+
             if 'edges' in graph_data:
                 for edge in graph_data['edges']:
                     G.add_edge(edge.get('source'), edge.get('target'))
-            
+
             # Use spring layout
             pos = nx.spring_layout(G, k=1, iterations=50)
-            
+
             # Extract node positions
             node_x = [pos[node][0] for node in G.nodes()]
             node_y = [pos[node][1] for node in G.nodes()]
-            
+
             # Create edge traces
             edge_traces = []
             for edge in G.edges():
@@ -157,7 +157,7 @@ class AdvancedVisualizer:
                         showlegend=False
                     )
                 )
-            
+
             # Create node trace
             node_trace = go.Scatter(
                 x=node_x, y=node_y,
@@ -172,7 +172,7 @@ class AdvancedVisualizer:
                 hoverinfo='text',
                 showlegend=False
             )
-            
+
             fig = go.Figure(
                 data=edge_traces + [node_trace],
                 layout=go.Layout(
@@ -196,33 +196,33 @@ class AdvancedVisualizer:
                     height=800
                 )
             )
-            
+
             output_path = self.output_dir / f"{title.lower().replace(' ', '_')}_network_plotly.html"
             fig.write_html(str(output_path))
             return str(output_path)
         except Exception as e:
             print(f"Error creating network graph: {e}")
             return None
-    
-    def create_time_series_plotly(self, data: pd.DataFrame, 
+
+    def create_time_series_plotly(self, data: pd.DataFrame,
                                   x_col: str, y_col: str,
                                   title: str = "Time Series Analysis") -> Optional[str]:
         """Create interactive time series plot using Plotly"""
         if not PLOTLY_AVAILABLE:
             return None
-        
+
         fig = px.line(
             data, x=x_col, y=y_col,
             title=title,
             labels={x_col: 'Time', y_col: 'Value'},
             markers=True
         )
-        
+
         fig.update_traces(
             line=dict(width=3),
             marker=dict(size=8)
         )
-        
+
         fig.update_layout(
             template='plotly_white',
             width=1200,
@@ -231,18 +231,18 @@ class AdvancedVisualizer:
             font=dict(family="Arial", size=12),
             title_font=dict(size=18, color='#1f77b4')
         )
-        
+
         output_path = self.output_dir / f"{title.lower().replace(' ', '_')}_timeseries_plotly.html"
         fig.write_html(str(output_path))
         return str(output_path)
-    
-    def create_anomaly_detection_plot(self, features: np.ndarray, 
+
+    def create_anomaly_detection_plot(self, features: np.ndarray,
                                      anomaly_labels: np.ndarray,
                                      title: str = "Anomaly Detection") -> Optional[str]:
         """Create interactive anomaly detection visualization"""
         if not PLOTLY_AVAILABLE:
             return None
-        
+
         # Reduce to 2D
         if features.shape[1] > 2:
             from sklearn.decomposition import PCA
@@ -250,14 +250,14 @@ class AdvancedVisualizer:
             features_2d = pca.fit_transform(features)
         else:
             features_2d = features
-        
+
         df = pd.DataFrame({
             'x': features_2d[:, 0],
             'y': features_2d[:, 1],
             'anomaly': ['Anomaly' if label == -1 else 'Normal' for label in anomaly_labels],
             'index': range(len(anomaly_labels))
         })
-        
+
         fig = px.scatter(
             df, x='x', y='y', color='anomaly',
             title=title,
@@ -266,12 +266,12 @@ class AdvancedVisualizer:
             symbol='anomaly',
             symbol_map={'Anomaly': 'x', 'Normal': 'circle'}
         )
-        
+
         fig.update_traces(
             marker=dict(size=10, opacity=0.7, line=dict(width=1, color='white')),
             selector=dict(mode='markers')
         )
-        
+
         fig.update_layout(
             template='plotly_white',
             width=1000,
@@ -279,11 +279,11 @@ class AdvancedVisualizer:
             font=dict(family="Arial", size=12),
             title_font=dict(size=18, color='#1f77b4')
         )
-        
+
         output_path = self.output_dir / f"{title.lower().replace(' ', '_')}_anomaly_plotly.html"
         fig.write_html(str(output_path))
         return str(output_path)
-    
+
     def create_dashboard_html(self, visualizations: Dict[str, str],
                              title: str = "ML Analysis Dashboard") -> str:
         """Create an HTML dashboard with all visualizations"""
@@ -337,7 +337,7 @@ class AdvancedVisualizer:
     <div class="dashboard">
         <h1>{title}</h1>
 """
-        
+
         for viz_name, viz_path in visualizations.items():
             if viz_path:
                 html_content += f"""
@@ -346,19 +346,19 @@ class AdvancedVisualizer:
             <iframe src="{Path(viz_path).name}"></iframe>
         </div>
 """
-        
+
         html_content += """
     </div>
 </body>
 </html>
 """
-        
+
         output_path = self.output_dir / f"{title.lower().replace(' ', '_')}_dashboard.html"
         with open(output_path, 'w') as f:
             f.write(html_content)
-        
+
         return str(output_path)
-    
+
     def get_available_libraries(self) -> Dict[str, bool]:
         """Return status of available visualization libraries"""
         return self.available_libs.copy()
