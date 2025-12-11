@@ -7,7 +7,6 @@ Returns 1 if search is complete, 0 if incomplete based on RESEARCH_OUTLINE.json 
 
 import json
 from pathlib import Path
-from typing import dict, int
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 OUTLINE_FILE = PROJECT_ROOT / 'research' / 'RESEARCH_OUTLINE.json'

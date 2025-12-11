@@ -9,7 +9,6 @@ completion status, and cross-references.
 import json
 from pathlib import Path
 from datetime import datetime
-from typing import dict
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 OUTLINE_FILE = PROJECT_ROOT / 'RESEARCH_OUTLINE.json'
