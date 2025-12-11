@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-12-10T20:50:56.927639",
+  "timestamp": "2025-12-10T20:51:18.920909",
   "overall": {
-    "completed": 33,
+    "completed": 5,
     "total": 34,
-    "percent": 97.1
+    "percent": 14.7
   },
   "categories": {
     "license_searches": {
@@ -15,66 +15,66 @@
     },
     "company_registrations": {
       "name": "Company Registrations",
-      "completed": 6,
+      "completed": 0,
       "total": 6,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 0.0,
+      "status": "not_started"
     },
     "property_contracts": {
       "name": "Property Management Contracts",
-      "completed": 3,
+      "completed": 0,
       "total": 4,
-      "percent": 75.0,
-      "status": "in_progress"
+      "percent": 0.0,
+      "status": "not_started"
     },
     "employee_roles": {
       "name": "Employee Role Documentation",
-      "completed": 5,
+      "completed": 2,
       "total": 5,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 40.0,
+      "status": "in_progress"
     },
     "regulatory_complaints": {
       "name": "Regulatory Complaint History",
-      "completed": 3,
+      "completed": 0,
       "total": 3,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 0.0,
+      "status": "not_started"
     },
     "financial_records": {
       "name": "Financial Records",
-      "completed": 3,
+      "completed": 0,
       "total": 3,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 0.0,
+      "status": "not_started"
     },
     "news_coverage": {
       "name": "News and Media Coverage",
-      "completed": 3,
+      "completed": 1,
       "total": 3,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 33.3,
+      "status": "in_progress"
     },
     "fair_housing": {
       "name": "Fair Housing Records",
-      "completed": 3,
+      "completed": 0,
       "total": 3,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 0.0,
+      "status": "not_started"
     },
     "professional_memberships": {
       "name": "Professional Memberships",
-      "completed": 2,
+      "completed": 0,
       "total": 2,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 0.0,
+      "status": "not_started"
     },
     "social_media": {
       "name": "Social Media and Online Presence",
-      "completed": 3,
+      "completed": 0,
       "total": 3,
-      "percent": 100.0,
-      "status": "complete"
+      "percent": 0.0,
+      "status": "not_started"
     }
   }
 }

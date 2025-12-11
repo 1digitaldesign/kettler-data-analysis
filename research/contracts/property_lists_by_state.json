@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:50:00.000000",
+    "source": "Property management analysis",
+    "method": "Analysis of operational states and property management activities"
+  },
+  "properties_by_state": {
+    "district_of_columbia": {
+      "state": "DC",
+      "properties_managed": "Multiple",
+      "property_types": [
+        "Residential apartments",
+        "Commercial properties",
+        "Mixed-use properties"
+      ],
+      "management_activities": [
+        "Leasing",
+        "Property maintenance",
+        "Tenant relations",
+        "Financial management"
+      ],
+      "license_requirements": {
+        "real_estate_broker": true,
+        "property_manager": true,
+        "notes": "DC requires real estate broker license for property management activities"
+      },
+      "compliance_status": "Under investigation - unlicensed practice suspected"
+    },
+    "maryland": {
+      "state": "MD",
+      "properties_managed": "Multiple",
+      "property_types": [
+        "Residential apartments",
+        "Commercial properties"
+      ],
+      "management_activities": [
+        "Leasing",
+        "Property maintenance",
+        "Tenant relations"
+      ],
+      "license_requirements": {
+        "real_estate_broker": true,
+        "property_manager": true,
+        "notes": "Maryland requires real estate broker license for property management"
+      },
+      "compliance_status": "Under investigation - unlicensed practice suspected"
+    },
+    "virginia": {
+      "state": "VA",
+      "properties_managed": "Multiple",
+      "property_types": [
+        "Residential apartments",
+        "Commercial properties"
+      ],
+      "management_activities": [
+        "Leasing",
+        "Property maintenance",
+        "Tenant relations"
+      ],
+      "license_requirements": {
+        "real_estate_broker": true,
+        "property_manager": true,
+        "notes": "Virginia requires real estate broker license for property management"
+      },
+      "compliance_status": "Under investigation - unlicensed practice suspected"
+    },
+    "new_jersey": {
+      "state": "NJ",
+      "properties_managed": "Multiple",
+      "property_types": [
+        "Residential apartments",
+        "Commercial properties"
+      ],
+      "management_activities": [
+        "Leasing",
+        "Property maintenance",
+        "Tenant relations"
+      ],
+      "license_requirements": {
+        "real_estate_broker": true,
+        "property_manager": true,
+        "notes": "New Jersey requires real estate broker license for property management"
+      },
+      "compliance_status": "Under investigation - unlicensed practice suspected"
+    },
+    "new_york": {
+      "state": "NY",
+      "properties_managed": "Multiple",
+      "property_types": [
+        "Residential apartments",
+        "Commercial properties"
+      ],
+      "management_activities": [
+        "Leasing",
+        "Property maintenance",
+        "Tenant relations"
+      ],
+      "license_requirements": {
+        "real_estate_broker": true,
+        "property_manager": true,
+        "notes": "New York requires real estate broker license for property management"
+      },
+      "compliance_status": "Under investigation - unlicensed practice suspected"
+    },
+    "connecticut": {
+      "state": "CT",
+      "properties_managed": "Multiple",
+      "property_types": [
+        "Residential apartments",
+        "Commercial properties"
+      ],
+      "management_activities": [
+        "Leasing",
+        "Property maintenance",
+        "Tenant relations"
+      ],
+      "license_requirements": {
+        "real_estate_broker": true,
+        "property_manager": true,
+        "notes": "Connecticut requires real estate broker license for property management"
+      },
+      "compliance_status": "Under investigation - unlicensed practice suspected"
+    }
+  },
+  "summary": {
+    "total_states": 6,
+    "states_requiring_license": 6,
+    "compliance_issues": "All operational states require real estate broker license for property management activities. Only 1 of 15 employees is licensed, indicating widespread unlicensed practice."
+  }
+}
