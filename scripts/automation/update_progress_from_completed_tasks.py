@@ -105,7 +105,7 @@ def check_task_completion(cat_id: str, task: dict) -> bool:
     pattern = task.get('file_pattern', '')
     if not pattern:
         return False
-    
+
     # Handle glob patterns
     if '**' in pattern:
         # Recursive glob
@@ -125,7 +125,7 @@ def check_task_completion(cat_id: str, task: dict) -> bool:
         # Exact file
         file_path = PROJECT_ROOT / pattern
         return file_path.exists()
-    
+
     return False
 
 def calculate_category_progress(cat_id: str) -> dict:
@@ -134,7 +134,7 @@ def calculate_category_progress(cat_id: str) -> dict:
     total_tasks = len(cat_data['tasks'])
     completed_tasks = sum(1 for task in cat_data['tasks'] if check_task_completion(cat_id, task))
     percent = round(completed_tasks / total_tasks * 100, 1) if total_tasks > 0 else 0.0
-    
+
     return {
         'name': cat_data['name'],
         'completed': completed_tasks,
@@ -148,15 +148,15 @@ def calculate_overall_progress() -> dict:
     categories = {}
     total_completed = 0
     total_tasks = 0
-    
+
     for cat_id, cat_data in TASKS.items():
         progress = calculate_category_progress(cat_id)
         categories[cat_id] = progress
         total_completed += progress['completed']
         total_tasks += progress['total']
-    
+
     overall_percent = round(total_completed / total_tasks * 100, 1) if total_tasks > 0 else 0.0
-    
+
     return {
         'timestamp': datetime.now().isoformat(),
         'overall': {
@@ -178,13 +178,13 @@ def main():
     """Main function."""
     print("Updating progress from completed task files...")
     progress = update_progress()
-    
+
     print(f"\nOverall Progress: {progress['overall']['completed']}/{progress['overall']['total']} tasks ({progress['overall']['percent']}%)")
     print("\nCategory Progress:")
     for cat_id, cat_data in sorted(progress['categories'].items(), key=lambda x: x[1]['percent'], reverse=True):
         status_icon = '✅' if cat_data['status'] == 'complete' else '⚠️' if cat_data['status'] == 'in_progress' else '❌'
         print(f"  {status_icon} {cat_data['name']}: {cat_data['completed']}/{cat_data['total']} ({cat_data['percent']}%)")
-    
+
     print(f"\n✓ Progress updated: {PROGRESS_FILE}")
 
 if __name__ == '__main__':
