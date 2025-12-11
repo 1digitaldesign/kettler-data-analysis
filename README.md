@@ -212,7 +212,27 @@ python scripts/analysis/graph_theory_analysis.py
 
 # Complete violation analysis pipeline
 python scripts/analysis/run_complete_violation_analysis.py
+
+# Create comprehensive visualization suite
+python scripts/analysis/create_all_visualizations.py
 ```
+
+### Generate Visualizations
+
+```bash
+# Create all available visualizations
+python scripts/analysis/create_all_visualizations.py
+
+# Visualizations are saved to:
+# research/texas/analysis/visualizations/
+```
+
+This creates interactive visualizations using:
+- **Plotly**: Interactive web charts (HTML)
+- **Bokeh**: Browser-based visualizations
+- **Altair**: Statistical charts
+- **Seaborn**: Statistical plots (PNG)
+- **Comprehensive Dashboard**: All visualizations in one HTML file
 
 ---
 
@@ -384,16 +404,59 @@ graph TD
 
 This project uses modern, interactive visualization libraries for publication-quality charts and dashboards:
 
-| Library | Purpose | Features |
-|---------|---------|----------|
-| **Plotly** | Interactive web visualizations | 3D plots, animations, dashboards |
-| **Bokeh** | Interactive browser visualizations | Real-time updates, streaming data |
-| **Altair** | Declarative statistical viz | Grammar of graphics, JSON export |
-| **Seaborn** | Statistical data visualization | Beautiful default styles |
-| **NetworkX** | Graph visualization | Network analysis, layouts |
-| **Dash** | Interactive web dashboards | Python web apps, real-time |
+| Library | Purpose | Features | Visualization Types |
+|---------|---------|----------|-------------------|
+| **Plotly (5.18.0+)** | Interactive web visualizations | 3D plots, animations, dashboards | Scatter, 3D scatter, heatmaps, box plots, violin plots, sunburst, treemap, parallel coordinates, Sankey diagrams, network graphs |
+| **Plotly Express** | High-level interface | Simplified API for common charts | All Plotly chart types with simplified syntax |
+| **Dash (2.14.0+)** | Interactive web dashboards | Python web apps, real-time | Full dashboard applications with Bootstrap components |
+| **Bokeh (3.3.0+)** | Browser-based interactive charts | Real-time updates, streaming data | Scatter plots, network graphs, time series |
+| **Altair (5.2.0+)** | Declarative statistical viz | Grammar of graphics, JSON export | Scatter, bar, line charts, statistical visualizations |
+| **Seaborn (0.13.0+)** | Statistical data visualization | Beautiful default styles | Pair plots, correlation matrices, distribution plots |
+| **NetworkX (3.2.0+)** | Graph visualization | Network analysis, layouts | Network graphs, community detection visualizations |
+| **Kaleido** | Static image export | Export Plotly to PNG/SVG | All Plotly charts as static images |
 
-All visualizations are interactive, exportable, and work seamlessly in both light and dark modes.
+### Available Visualization Types
+
+**Interactive Charts (Plotly):**
+- ✅ 2D & 3D Scatter Plots
+- ✅ Cluster Visualizations
+- ✅ Correlation Heatmaps
+- ✅ Box Plots & Violin Plots
+- ✅ Sunburst & Treemap Charts
+- ✅ Parallel Coordinates
+- ✅ Sankey Diagrams
+- ✅ Network Graphs
+- ✅ Time Series Charts
+- ✅ Anomaly Detection Visualizations
+
+**Statistical Charts (Altair):**
+- ✅ Scatter Plots
+- ✅ Bar Charts
+- ✅ Line Charts
+- ✅ Statistical Distributions
+
+**Statistical Plots (Seaborn):**
+- ✅ Pair Plots
+- ✅ Correlation Matrices
+- ✅ Distribution Plots
+
+**Network Visualizations:**
+- ✅ Interactive Network Graphs (Plotly)
+- ✅ Browser-based Networks (Bokeh)
+- ✅ Community Detection Visualizations
+
+**Dashboards:**
+- ✅ Comprehensive HTML Dashboards
+- ✅ Interactive Web Applications (Dash)
+- ✅ Multi-chart Dashboards
+
+All visualizations are:
+- 🎨 **Interactive**: Hover, zoom, pan, click interactions
+- 📊 **Publication-ready**: Professional styling and themes
+- 💾 **Exportable**: HTML, PNG, SVG, PDF formats
+- 🌓 **Theme-aware**: Works in light and dark modes
+- 📱 **Responsive**: Adapts to different screen sizes
+- ⚡ **Modern**: Latest visualization technologies
 
 ---
 
