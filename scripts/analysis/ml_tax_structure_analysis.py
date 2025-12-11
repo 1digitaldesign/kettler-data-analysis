@@ -68,6 +68,15 @@ except ImportError:
     SHAP_AVAILABLE = False
     print("Warning: shap not available. SHAP explainability will be disabled.")
 
+# Modern visualization libraries (preferred)
+try:
+    import plotly.graph_objects as go
+    import plotly.express as px
+    PLOTLY_AVAILABLE = True
+except ImportError:
+    PLOTLY_AVAILABLE = False
+    print("Info: Plotly not available. Using fallback visualization libraries.")
+
 try:
     import matplotlib
     matplotlib.use('Agg')  # Non-interactive backend
