@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:33:02.726441",
+    "state": "Maryland",
+    "search_url": "https://www.dllr.state.md.us/license/",
+    "employee": "Kristina Thoummarath",
+    "search_method": "Browser automation",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ]
+  },
+  "findings": {
+    "kristina_thoummarath": {
+      "full_name": "Kristina Thoummarath",
+      "license_type_searched": "Real Estate Broker",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No license found in Maryland"
+    }
+  },
+  "conclusion": "Kristina Thoummarath DOES NOT HAVE a real estate license in Maryland."
+}

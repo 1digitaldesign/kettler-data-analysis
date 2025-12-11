@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:33:11.309517",
+    "state": "Connecticut",
+    "search_url": "https://www.ct.gov/dcp/cwp/view.asp?a=1621&q=274200",
+    "employee": "Liddy Bisanz",
+    "search_method": "Browser automation",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ]
+  },
+  "findings": {
+    "liddy_bisanz": {
+      "full_name": "Liddy Bisanz",
+      "license_type_searched": "Real Estate Broker",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No license found in Connecticut"
+    }
+  },
+  "conclusion": "Liddy Bisanz DOES NOT HAVE a real estate license in Connecticut."
+}

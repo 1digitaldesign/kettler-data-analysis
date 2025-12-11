@@ -1,18 +1,80 @@
 {
-  "timestamp": "2025-12-10T20:32:59.685099",
-  "maryland": {
-    "completed": 24,
-    "total": 15,
-    "percent": 160.0
-  },
-  "connecticut": {
-    "completed": 15,
-    "total": 15,
-    "percent": 100.0
-  },
+  "timestamp": "2025-12-10T20:33:38.237395",
   "overall": {
-    "completed": 39,
-    "total": 30,
-    "percent": 130.0
+    "completed": 5,
+    "total": 34,
+    "percent": 14.7
+  },
+  "categories": {
+    "license_searches": {
+      "name": "License Searches",
+      "completed": 2,
+      "total": 2,
+      "percent": 100.0,
+      "status": "complete"
+    },
+    "company_registrations": {
+      "name": "Company Registrations",
+      "completed": 0,
+      "total": 6,
+      "percent": 0.0,
+      "status": "not_started"
+    },
+    "property_contracts": {
+      "name": "Property Management Contracts",
+      "completed": 0,
+      "total": 4,
+      "percent": 0.0,
+      "status": "not_started"
+    },
+    "employee_roles": {
+      "name": "Employee Role Documentation",
+      "completed": 2,
+      "total": 5,
+      "percent": 40.0,
+      "status": "in_progress"
+    },
+    "regulatory_complaints": {
+      "name": "Regulatory Complaint History",
+      "completed": 0,
+      "total": 3,
+      "percent": 0.0,
+      "status": "not_started"
+    },
+    "financial_records": {
+      "name": "Financial Records",
+      "completed": 0,
+      "total": 3,
+      "percent": 0.0,
+      "status": "not_started"
+    },
+    "news_coverage": {
+      "name": "News and Media Coverage",
+      "completed": 1,
+      "total": 3,
+      "percent": 33.3,
+      "status": "in_progress"
+    },
+    "fair_housing": {
+      "name": "Fair Housing Records",
+      "completed": 0,
+      "total": 3,
+      "percent": 0.0,
+      "status": "not_started"
+    },
+    "professional_memberships": {
+      "name": "Professional Memberships",
+      "completed": 0,
+      "total": 2,
+      "percent": 0.0,
+      "status": "not_started"
+    },
+    "social_media": {
+      "name": "Social Media and Online Presence",
+      "completed": 0,
+      "total": 3,
+      "percent": 0.0,
+      "status": "not_started"
+    }
   }
 }

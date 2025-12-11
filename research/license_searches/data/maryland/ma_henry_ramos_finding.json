@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:33:02.221961",
+    "state": "Maryland",
+    "search_url": "https://www.dllr.state.md.us/license/",
+    "employee": "Henry Ramos",
+    "search_method": "Browser automation",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ]
+  },
+  "findings": {
+    "henry_ramos": {
+      "full_name": "Henry Ramos",
+      "license_type_searched": "Real Estate Broker",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No license found in Maryland"
+    }
+  },
+  "conclusion": "Henry Ramos DOES NOT HAVE a real estate license in Maryland."
+}

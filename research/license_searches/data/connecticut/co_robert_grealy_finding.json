@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:33:08.280765",
+    "state": "Connecticut",
+    "search_url": "https://www.ct.gov/dcp/cwp/view.asp?a=1621&q=274200",
+    "employee": "Robert Grealy",
+    "search_method": "Browser automation",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ]
+  },
+  "findings": {
+    "robert_grealy": {
+      "full_name": "Robert Grealy",
+      "license_type_searched": "Real Estate Broker",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No license found in Connecticut"
+    }
+  },
+  "conclusion": "Robert Grealy DOES NOT HAVE a real estate license in Connecticut."
+}

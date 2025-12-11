@@ -66,7 +66,7 @@ def update_progress():
             'percent': round(count_findings('connecticut') / len(EMPLOYEES) * 100, 1) if len(EMPLOYEES) > 0 else 0
         }
     }
-    
+
     total_completed = progress['maryland']['completed'] + progress['connecticut']['completed']
     total_searches = len(EMPLOYEES) * 2
     progress['overall'] = {
@@ -74,7 +74,7 @@ def update_progress():
         'total': total_searches,
         'percent': round(total_completed / total_searches * 100, 1) if total_searches > 0 else 0
     }
-    
+
     PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
     PROGRESS_FILE.write_text(json.dumps(progress, indent=2) + '\n')
     return progress
@@ -83,18 +83,18 @@ def progress_monitor(interval: float = 1.0, running: list = None):
     """Monitor progress in background thread, updating every interval seconds."""
     if running is None:
         running = [True]
-    
+
     while running[0]:
         progress = update_progress()
         md_completed = progress['maryland']['completed']
         ct_completed = progress['connecticut']['completed']
         overall = progress['overall']
-        
+
         # Print progress bar
         md_bar = '█' * int(md_completed / len(EMPLOYEES) * 20) + '░' * (20 - int(md_completed / len(EMPLOYEES) * 20))
         ct_bar = '█' * int(ct_completed / len(EMPLOYEES) * 20) + '░' * (20 - int(ct_completed / len(EMPLOYEES) * 20))
         overall_bar = '█' * int(overall['percent'] / 5) + '░' * (20 - int(overall['percent'] / 5))
-        
+
         print(f"\r[{datetime.now().strftime('%H:%M:%S')}] MD: {md_bar} {md_completed}/15 | CT: {ct_bar} {ct_completed}/15 | Overall: {overall_bar} {overall['percent']:.1f}%", end='', flush=True)
         time.sleep(interval)
 
@@ -138,20 +138,20 @@ def save_finding(state: str, employee: dict, finding: dict):
 def search_employee_browser(state: str, employee: dict):
     """
     Search for employee license using browser automation.
-    
+
     This function should be called with browser automation context.
     For now, it creates a template finding.
     """
     if check_existing(state, employee):
         return
-    
+
     # Browser automation would:
     # 1. Navigate to state DPOR website
     # 2. Enter employee name
     # 3. Execute search
     # 4. Parse results
     # 5. Determine if license found
-    
+
     # For now, create template
     finding = create_finding(state, employee, license_found=False)
     save_finding(state, employee, finding)
@@ -162,18 +162,18 @@ def main():
     print("License Search Browser Automation with Real-Time Progress")
     print("=" * 70)
     print("\nStarting progress monitor (updates every 1 second)...")
-    
+
     running = [True]
-    
+
     # Start progress monitor in background
     monitor_thread = threading.Thread(target=progress_monitor, args=(1.0, running), daemon=True)
     monitor_thread.start()
-    
+
     time.sleep(1)  # Let monitor start
-    
+
     print("\n\nStarting searches...")
     print("Progress updates every 1 second\n")
-    
+
     # Search Maryland
     print("Maryland Searches:")
     for i, employee in enumerate(EMPLOYEES, 1):
@@ -182,7 +182,7 @@ def main():
             search_employee_browser('maryland', employee)
             print("✓")
             time.sleep(0.5)  # Rate limiting
-    
+
     # Search Connecticut
     print("\nConnecticut Searches:")
     for i, employee in enumerate(EMPLOYEES, 1):
@@ -191,11 +191,11 @@ def main():
             search_employee_browser('connecticut', employee)
             print("✓")
             time.sleep(0.5)  # Rate limiting
-    
+
     # Stop monitor
     running[0] = False
     time.sleep(1)
-    
+
     # Final progress
     final_progress = update_progress()
     print(f"\n\n{'='*70}")
