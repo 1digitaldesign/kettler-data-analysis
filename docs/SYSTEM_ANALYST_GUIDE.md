@@ -33,6 +33,15 @@ graph TD
 
     subgraph "Analysis Layer"
         A1[Analysis Scripts]
+        A2[ML Pipeline<br/>Clustering & Classification]
+        A3[Graph Theory<br/>Network Analysis]
+    end
+
+    subgraph "Visualization Layer"
+        V1[Plotly<br/>Interactive Charts]
+        V2[Bokeh<br/>Browser Viz]
+        V3[Altair<br/>Statistical]
+        V4[Dash<br/>Dashboards]
     end
 
     subgraph "ETL Layer"
@@ -59,6 +68,14 @@ graph TD
     C1 --> C3
     C1 --> C4
     C1 --> A1
+    C1 --> A2
+    C1 --> A3
+    A1 --> V1
+    A2 --> V2
+    A3 --> V3
+    V1 --> V4
+    V2 --> V4
+    V3 --> V4
     C1 --> ETL1
     API1 --> C1
     API1 --> WEB1
@@ -106,6 +123,63 @@ flowchart LR
 - ✅ Connection analysis
 - ✅ Pattern detection
 - ✅ Anomaly identification
+- ✅ ML-enhanced analysis
+- ✅ Graph theory network analysis
+</details>
+
+<details>
+<summary><b>Advanced Visualization System</b></summary>
+
+**Location:** `scripts/analysis/utils/advanced_visualizations.py`
+
+**Input:** Analysis results, ML outputs, graph data
+**Operations:** Create interactive visualizations
+**Output:** HTML charts, dashboards, static images
+
+**Visualization Libraries:**
+- ✅ **Plotly (5.18.0+)**: 15+ interactive chart types
+- ✅ **Bokeh (3.3.0+)**: Browser-based visualizations
+- ✅ **Altair (5.2.0+)**: Declarative statistical charts
+- ✅ **Seaborn (0.13.0+)**: Statistical pair plots
+- ✅ **Dash (2.14.0+)**: Interactive web dashboards
+- ✅ **NetworkX (3.2.0+)**: Graph visualizations
+
+**Available Visualizations:**
+- 2D & 3D Scatter Plots
+- Cluster Visualizations
+- Correlation Heatmaps
+- Box Plots & Violin Plots
+- Sunburst & Treemap Charts
+- Parallel Coordinates
+- Sankey Diagrams
+- Network Graphs (Plotly & Bokeh)
+- Time Series Charts
+- Anomaly Detection Visualizations
+- Statistical Charts (Altair)
+- Pair Plots (Seaborn)
+- Comprehensive Dashboards
+
+**Usage:**
+```python
+from scripts.analysis.utils.advanced_visualizations import AdvancedVisualizer
+
+viz = AdvancedVisualizer(output_dir)
+viz.create_comprehensive_visualization_suite(data, features, labels, graph_data)
+```
+</details>
+
+<details>
+<summary><b>ML Analysis Pipeline</b></summary>
+
+**Location:** `scripts/analysis/ml_tax_structure_analysis.py`
+
+**Features:**
+- ✅ K-Means, DBSCAN, Hierarchical, Spectral clustering
+- ✅ Isolation Forest, LOF, One-Class SVM anomaly detection
+- ✅ Random Forest, XGBoost classification
+- ✅ NetworkX graph analysis
+- ✅ Time series analysis
+- ✅ Automatic visualization generation
 
 </details>
 

@@ -85,6 +85,7 @@ graph TB
         S1[Analysis Scripts]
         S2[Extraction Scripts]
         S3[ETL Pipeline]
+        S4[Visualization Utils]
     end
 
     E1 --> C1
@@ -98,6 +99,8 @@ graph TB
     C1 --> S1
     C2 --> S2
     C1 --> S3
+    C1 --> S4
+    S1 --> S4
 
     style E1 fill:#B3E5FC
     style C1 fill:#FFF9C4
@@ -153,15 +156,28 @@ flowchart LR
    - Validated, normalized data
    - Ready for analysis
 
-6. **Analysis** (`scripts/core/`)
+6. **Analysis** (`scripts/core/` and `scripts/analysis/`)
    - Connection analysis
    - Violation detection
    - Anomaly identification
+   - ML clustering and classification
+   - Graph theory network analysis
+   - Vector embedding similarity
 
-7. **Research Outputs** (`research/`)
+7. **Visualization** (`scripts/analysis/utils/advanced_visualizations.py`)
+   - Interactive Plotly charts (15+ types)
+   - Bokeh browser visualizations
+   - Altair statistical charts
+   - Seaborn pair plots
+   - Comprehensive dashboards
+   - Network graph visualizations
+
+8. **Research Outputs** (`research/`)
    - Connections, violations, anomalies
    - Evidence summaries
    - Complaint packages
+   - Interactive visualizations
+   - ML analysis results
 
 ---
 

@@ -48,7 +48,7 @@ flowchart TD
     CHOOSE -->|Docker| DOCKER[Docker Setup]
     CHOOSE -->|Kubernetes| K8S[Kubernetes Setup]
 
-    LOCAL --> L1[Install Dependencies]
+    LOCAL --> L1[Install Dependencies<br/>Including ML & Visualization Libraries]
     L1 --> L2[Configure .env]
     L2 --> L3[Run Services]
 
@@ -75,8 +75,21 @@ flowchart TD
 
 ## Local Deployment
 
-```bash
+### Install Dependencies
 
+```bash
+# Install all dependencies including ML and visualization libraries
+pip install -r requirements.txt
+```
+
+**Key Dependencies:**
+- **ML Libraries**: sentence-transformers, scikit-learn, scipy, faiss-cpu, numba
+- **Visualization**: plotly, bokeh, altair, seaborn, dash, networkx, kaleido
+- **Core**: pandas, numpy, json5
+
+### Run Services
+
+```bash
 # API
 cd api && python server.py
 
@@ -85,6 +98,9 @@ cd web && npm run dev
 
 # Pipeline
 python bin/run_pipeline.py
+
+# Generate Visualizations
+python scripts/analysis/create_all_visualizations.py
 ```
 
 ## Docker Deployment

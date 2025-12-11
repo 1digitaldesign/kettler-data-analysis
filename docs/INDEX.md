@@ -77,6 +77,25 @@ Documentation about research outputs:
 - [research/README.md](../research/README.md) - Research directory guide
 - [research/research_index.json](../research/research_index.json) - Master file index
 
+## Analysis & Visualization
+
+Documentation about analysis capabilities and visualizations:
+
+- [scripts/analysis/IMPLEMENTATION_SUMMARY.md](../scripts/analysis/IMPLEMENTATION_SUMMARY.md) - ML implementation details
+- [scripts/analysis/utils/advanced_visualizations.py](../scripts/analysis/utils/advanced_visualizations.py) - Visualization utilities
+- [data/processed/GRAPH_THEORY_ANALYSIS_SUMMARY.md](../data/processed/GRAPH_THEORY_ANALYSIS_SUMMARY.md) - Graph theory analysis
+- [data/processed/DATA_CLEANING_SUMMARY.md](../data/processed/DATA_CLEANING_SUMMARY.md) - Data cleaning summary
+- [data/processed/SDLC_PIPELINE_SUMMARY.md](../data/processed/SDLC_PIPELINE_SUMMARY.md) - SDLC pipeline summary
+- [data/processed/OPTIMIZATION_SUMMARY.md](../data/processed/OPTIMIZATION_SUMMARY.md) - Performance optimization
+
+### Visualization Capabilities
+- **Plotly**: Interactive web visualizations (15+ chart types)
+- **Bokeh**: Browser-based interactive charts
+- **Altair**: Declarative statistical visualizations
+- **Seaborn**: Statistical data visualization
+- **Dash**: Interactive web dashboards
+- **NetworkX**: Graph visualization
+
 ## API & deployment
 
 - [DEPLOYMENT.md](DEPLOYMENT.md) - Deployment guide
