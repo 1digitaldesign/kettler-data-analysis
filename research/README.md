@@ -12,10 +12,11 @@ This directory contains all research outputs from investigating property managem
 
 **What you'll find:**
 - License search results from 15 states
-- Connection analyses between firms and individuals
-- Violation findings and anomaly reports
+- AI/ML-enhanced connection analyses between firms and individuals
+- ML-powered violation findings and anomaly detection reports
 - Evidence compilation for regulatory complaints
-- Analysis outputs and summary reports
+- Interactive visualizations (Plotly, Bokeh, Altair)
+- ML analysis outputs and comprehensive summary reports
 
 ---
 

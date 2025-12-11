@@ -22,7 +22,7 @@ from scripts.utils.paths import PROJECT_ROOT, DATA_PROCESSED_DIR
 
 # Optimize for ARM M4 MAX
 MAX_WORKERS = os.cpu_count() or 16
-BATCH_SIZE = 128
+BATCH_SIZE = 256  # Larger batches for better efficiency
 print(f"🚀 Advanced Evidence-Law Matching - ARM M4 MAX Optimized ({MAX_WORKERS} workers)")
 
 # Try to use faster libraries first, fallback to standard
