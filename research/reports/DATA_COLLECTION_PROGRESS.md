@@ -9,16 +9,18 @@ Real-time progress tracking for all data collection tasks.
 
 ## Overall Progress
 
-**Total Tasks:** 10 categories, 47+ individual tasks
+**Total Tasks:** 10 categories, 58 individual tasks
 **Completed:** 1 category (License Searches)
-**In Progress:** 0 categories
-**Not Started:** 9 categories
+**In Progress:** 2 categories (Employee Roles, News Coverage)
+**Not Started:** 7 categories
 
-**Overall Completion:** 10% (1/10 categories)
+**Overall Completion:** 16/58 tasks (28%)
 
 ```
-████░░░░░░░░░░░░░░░░ 10%
+██████░░░░░░░░░░░░░░ 28%
 ```
+
+> **Real-Time Progress:** See `outputs/reports/progress_data.json` for live updates (updates every 1 second)
 
 ---
 
