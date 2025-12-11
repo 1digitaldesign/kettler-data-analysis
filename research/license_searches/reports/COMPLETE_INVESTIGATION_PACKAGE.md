@@ -93,10 +93,11 @@ This investigation package contains all documentation, evidence, and filing mate
     - Evidence package checklist
     - Filing priority guide
 
-13. **[READY_FOR_FILINGS.md](READY_FOR_FILINGS.md)**
+13. **Filing Readiness**
     - Filing readiness status
     - State-by-state filing information
     - Evidence status
+    - *Note: See [EXECUTIVE_SUMMARY_FOR_FILINGS.md](EXECUTIVE_SUMMARY_FOR_FILINGS.md) for filing information*
 
 ---
 
