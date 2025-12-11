@@ -355,55 +355,155 @@ class AdvancedEvidenceLawMatcher:
         matches.sort(key=lambda x: x["ensemble_score"], reverse=True)
         return matches
 
-    def match_all_evidence(self, top_k: int = 5) -> Dict[str, Any]:
-        """Match all evidence to laws using advanced ML techniques"""
-        print("\n🔗 Matching evidence to laws using ensemble ML techniques...")
+    def match_all_evidence_fast(self, top_k: int = 5) -> Dict[str, Any]:
+        """Fast matching using FAISS for vector similarity search"""
+        print("\n🔗 Fast matching using FAISS vector similarity search...")
 
         law_embeddings = self.extract_law_embeddings()
+
+        if FAISS_AVAILABLE and len(law_embeddings) > 0:
+            # Build FAISS index for fast similarity search
+            dimension = len(list(law_embeddings.values())[0]["embedding"])
+            index = faiss.IndexFlatIP(dimension)  # Inner product (cosine similarity for normalized vectors)
+
+            # Add law embeddings to index
+            law_ids = []
+            law_vectors = []
+            for law_id, law_info in law_embeddings.items():
+                law_vectors.append(law_info["embedding"].astype('float32'))
+                law_ids.append(law_id)
+
+            law_matrix = np.vstack(law_vectors)
+            index.add(law_matrix)
+
+            print(f"   Built FAISS index with {index.ntotal} vectors")
 
         violations_data = self.violations.get("violations", {})
         all_matches = []
 
-        evidence_list = []
+        # Batch encode all evidence at once (much faster)
+        print("   Encoding all evidence in batch...")
+        evidence_texts = []
+        evidence_metadata = []
         for category, items in violations_data.items():
             for item in items:
                 evidence_text = self.create_evidence_text(item)
-                evidence_embedding = self.model.encode(evidence_text, normalize_embeddings=True,
-                                                      show_progress_bar=False)
-                evidence_list.append({
+                evidence_texts.append(evidence_text)
+                evidence_metadata.append({
                     "violation": item,
                     "category": category,
-                    "text": evidence_text,
-                    "embedding": evidence_embedding
+                    "text": evidence_text
                 })
 
-        print(f"   Processing {len(evidence_list)} evidence items...")
+        # Batch encode (leverage 128GB RAM)
+        evidence_embeddings = self.model.encode(evidence_texts, normalize_embeddings=True,
+                                                batch_size=BATCH_SIZE, show_progress_bar=False,
+                                                convert_to_numpy=True)
 
-        def process_evidence_batch(batch):
+        print(f"   Processing {len(evidence_texts)} evidence items...")
+
+        def process_evidence_fast_batch(batch_indices, evidence_embeddings_array, law_embeddings_dict, law_ids_list):
+            """Process batch using FAISS for fast similarity search"""
             batch_matches = []
-            for evidence in batch:
-                matches = self.ensemble_match(
-                    evidence["text"],
-                    evidence["embedding"],
-                    law_embeddings
-                )
-                top_matches = matches[:top_k]
-                batch_matches.append({
-                    "violation": evidence["violation"],
-                    "category": evidence["category"],
-                    "matches": top_matches
-                })
+
+            for idx in batch_indices:
+                evidence_embedding = evidence_embeddings_array[idx]
+                evidence_meta = evidence_metadata[idx]
+
+                if FAISS_AVAILABLE:
+                    # Use FAISS for fast similarity search
+                    evidence_vector = evidence_embedding.astype('float32').reshape(1, -1)
+                    similarities, indices = index.search(evidence_vector, min(top_k * 2, len(law_ids)))  # Get more for filtering
+
+                    matches = []
+                    for sim_score, law_idx in zip(similarities[0], indices[0]):
+                        if law_idx < len(law_ids):
+                            law_id = law_ids_list[law_idx]
+                            law_info = law_embeddings_dict[law_id]
+
+                            # Compute additional metrics for top matches
+                            law_embedding = law_info["embedding"]
+                            additional_sims = self.compute_multiple_similarities(evidence_embedding, law_embedding)
+
+                            # Form weight
+                            violation_dict = {
+                                "violation_type": evidence_meta["text"].split("VIOLATION_TYPE:")[1].split("|")[0].strip() if "VIOLATION_TYPE:" in evidence_meta["text"] else "",
+                                "jurisdiction": evidence_meta["text"].split("JURISDICTION:")[1].split("|")[0].strip() if "JURISDICTION:" in evidence_meta["text"] else "",
+                                "severity": evidence_meta["text"].split("SEVERITY:")[1].split("|")[0].strip() if "SEVERITY:" in evidence_meta["text"] else "MEDIUM"
+                            }
+                            form_weight = self.compute_form_weight(violation_dict, law_info["law_data"])
+
+                            # Ensemble score
+                            ensemble_score = (
+                                0.30 * additional_sims["cosine"] +
+                                0.15 * additional_sims["euclidean"] +
+                                0.10 * additional_sims["manhattan"] +
+                                0.10 * additional_sims["dot_product"] +
+                                0.10 * additional_sims["jaccard"] +
+                                0.10 * additional_sims["pearson"] +
+                                0.10 * self.compute_tfidf_similarity(evidence_meta["text"], law_info["text"]) +
+                                0.05 * form_weight
+                            )
+
+                            if law_info.get("is_ground_truth"):
+                                ensemble_score *= 1.1
+
+                            matches.append({
+                                "law_id": law_id,
+                                "law_name": law_info["law_data"].get("name", ""),
+                                "ensemble_score": ensemble_score,
+                                "similarities": additional_sims,
+                                "form_weight": form_weight,
+                                "is_ground_truth": law_info.get("is_ground_truth", False),
+                                "law_data": law_info["law_data"]
+                            })
+
+                    matches.sort(key=lambda x: x["ensemble_score"], reverse=True)
+                    batch_matches.append({
+                        "violation": evidence_meta["violation"],
+                        "category": evidence_meta["category"],
+                        "matches": matches[:top_k]
+                    })
+                else:
+                    # Fallback to original method
+                    matches = self.ensemble_match(
+                        evidence_meta["text"],
+                        evidence_embedding,
+                        law_embeddings_dict
+                    )
+                    batch_matches.append({
+                        "violation": evidence_meta["violation"],
+                        "category": evidence_meta["category"],
+                        "matches": matches[:top_k]
+                    })
+
             return batch_matches
 
-        batch_size = max(1, len(evidence_list) // MAX_WORKERS)
-        batches = [evidence_list[i:i+batch_size] for i in range(0, len(evidence_list), batch_size)]
+        # Process in parallel batches
+        batch_size = max(1, len(evidence_texts) // MAX_WORKERS)
+        batch_indices = [list(range(i, min(i+batch_size, len(evidence_texts))))
+                        for i in range(0, len(evidence_texts), batch_size)]
 
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-            futures = [executor.submit(process_evidence_batch, batch) for batch in batches]
+            if FAISS_AVAILABLE:
+                futures = [executor.submit(process_evidence_fast_batch, batch_idx,
+                                          evidence_embeddings, law_embeddings, law_ids)
+                          for batch_idx in batch_indices]
+            else:
+                # Fallback: create embeddings dict for each evidence
+                evidence_embeddings_dict = {i: emb for i, emb in enumerate(evidence_embeddings)}
+                futures = [executor.submit(process_evidence_fast_batch, batch_idx,
+                                          evidence_embeddings, law_embeddings, law_ids)
+                          for batch_idx in batch_indices]
+
+            completed = 0
             for future in as_completed(futures):
                 try:
                     batch_matches = future.result()
                     all_matches.extend(batch_matches)
+                    completed += len(batch_matches)
+                    if completed % 20 == 0:
+                        print(f"   Progress: {completed}/{len(evidence_texts)} evidence items processed")
                 except Exception as e:
                     print(f"   ⚠️  Error in batch: {e}")
 
@@ -411,7 +511,7 @@ class AdvancedEvidenceLawMatcher:
 
         return {
             "matched_evidence": all_matches,
-            "total_evidence": len(evidence_list),
+            "total_evidence": len(evidence_texts),
             "total_laws": len(law_embeddings),
             "techniques_used": [
                 "cosine_similarity",
@@ -423,9 +523,15 @@ class AdvancedEvidenceLawMatcher:
                 "tfidf_similarity",
                 "form_based_weighting",
                 "ground_truth_bonus",
-                "ensemble_scoring"
+                "ensemble_scoring",
+                "faiss_vector_search" if FAISS_AVAILABLE else "numpy_vector_search",
+                "batch_encoding" if BATCH_SIZE > 1 else "sequential_encoding"
             ]
         }
+
+    def match_all_evidence(self, top_k: int = 5) -> Dict[str, Any]:
+        """Match all evidence to laws - uses fast method if available"""
+        return self.match_all_evidence_fast(top_k)
 
     def generate_ml_analysis_report(self, matches: Dict[str, Any]) -> Dict[str, Any]:
         """Generate comprehensive ML analysis report"""

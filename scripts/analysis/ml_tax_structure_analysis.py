@@ -543,12 +543,12 @@ def generate_visualizations(clustering_results: Dict[str, Any],
     visualizations = {}
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    
+
     # Try to use advanced visualizations module first
     try:
         from scripts.analysis.utils.advanced_visualizations import AdvancedVisualizer
         viz = AdvancedVisualizer(output_dir)
-        
+
         # Use Plotly for better visualizations if available
         if PLOTLY_AVAILABLE and 'kmeans' in clustering_results:
             kmeans_data = clustering_results['kmeans']
@@ -556,12 +556,12 @@ def generate_visualizations(clustering_results: Dict[str, Any],
                 kmeans_labels = np.array(kmeans_data['cluster_labels'])
                 if len(kmeans_labels) > 0 and len(features) > 0:
                     viz_path = viz.create_cluster_plot_plotly(
-                        features, kmeans_labels, 
+                        features, kmeans_labels,
                         title="K-Means Clustering Analysis"
                     )
                     if viz_path:
                         visualizations['kmeans_cluster_plotly'] = viz_path
-        
+
         if PLOTLY_AVAILABLE and relationship_graph:
             viz_path = viz.create_network_graph_plotly(
                 relationship_graph,
