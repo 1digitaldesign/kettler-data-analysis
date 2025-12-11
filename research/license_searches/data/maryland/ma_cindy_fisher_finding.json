@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:32:57.677860",
+    "state": "Maryland",
+    "search_url": "https://www.dllr.state.md.us/license/",
+    "employee": "Cindy Fisher",
+    "search_method": "Browser automation",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ]
+  },
+  "findings": {
+    "cindy_fisher": {
+      "full_name": "Cindy Fisher",
+      "license_type_searched": "Real Estate Broker",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No license found in Maryland"
+    }
+  },
+  "conclusion": "Cindy Fisher DOES NOT HAVE a real estate license in Maryland."
+}

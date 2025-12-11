@@ -10,7 +10,6 @@ import time
 import json
 from pathlib import Path
 from datetime import datetime
-from typing import dict
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 PROGRESS_FILE = PROJECT_ROOT / 'outputs' / 'reports' / 'progress_data.json'

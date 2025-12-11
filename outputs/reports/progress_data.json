@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-12-10T20:32:30.718163",
+  "timestamp": "2025-12-10T20:32:59.685099",
   "maryland": {
-    "completed": 18,
+    "completed": 24,
     "total": 15,
-    "percent": 120.0
+    "percent": 160.0
   },
   "connecticut": {
     "completed": 15,
@@ -11,8 +11,8 @@
     "percent": 100.0
   },
   "overall": {
-    "completed": 33,
+    "completed": 39,
     "total": 30,
-    "percent": 110.0
+    "percent": 130.0
   }
 }

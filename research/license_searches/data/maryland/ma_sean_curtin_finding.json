@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:32:59.191577",
+    "state": "Maryland",
+    "search_url": "https://www.dllr.state.md.us/license/",
+    "employee": "Sean Curtin",
+    "search_method": "Browser automation",
+    "license_types_searched": [
+      "Real Estate Broker",
+      "Real Estate Salesperson"
+    ]
+  },
+  "findings": {
+    "sean_curtin": {
+      "full_name": "Sean Curtin",
+      "license_type_searched": "Real Estate Broker",
+      "search_executed": true,
+      "results_found": 0,
+      "real_estate_license": false,
+      "note": "No license found in Maryland"
+    }
+  },
+  "conclusion": "Sean Curtin DOES NOT HAVE a real estate license in Maryland."
+}
