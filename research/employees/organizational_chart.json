@@ -1,35 +1,145 @@
 {
   "metadata": {
-    "date": "2025-12-10",
-    "company": "Kettler Management Inc."
+    "date": "2025-12-10T20:50:00.000000",
+    "source": "Company structure analysis",
+    "method": "Analysis of employee roles and reporting structure"
   },
-  "structure": {
-    "ceo": {
-      "name": "Robert Kettler",
-      "reports_to": null,
-      "direct_reports": [
-        "President",
-        "CIO",
-        "CFO",
-        "General Counsel"
-      ]
+  "organizational_structure": {
+    "executive_level": {
+      "ceo": {
+        "name": "Robert Kettler",
+        "title": "CEO/Founder",
+        "reports_to": null,
+        "direct_reports": [
+          "president",
+          "cfo",
+          "cio",
+          "general_counsel"
+        ]
+      },
+      "president": {
+        "name": "Cindy Fisher",
+        "title": "President",
+        "reports_to": "ceo",
+        "direct_reports": [
+          "svp_operations",
+          "svp_strategic_services",
+          "vp_operations"
+        ]
+      },
+      "cfo": {
+        "name": "Pat Cassada",
+        "title": "CFO",
+        "reports_to": "ceo",
+        "direct_reports": []
+      },
+      "cio": {
+        "name": "Luke Davis",
+        "title": "CIO",
+        "reports_to": "ceo",
+        "direct_reports": []
+      },
+      "general_counsel": {
+        "name": "Sean Curtin",
+        "title": "General Counsel",
+        "reports_to": "ceo",
+        "direct_reports": []
+      }
     },
-    "president": {
-      "name": "Cindy Fisher",
-      "reports_to": "CEO",
-      "direct_reports": [
-        "VP Operations",
-        "SVP Operations",
-        "SVP Strategic Services"
-      ]
+    "senior_management": {
+      "svp_operations": {
+        "name": "Robert Grealy",
+        "title": "SVP Operations",
+        "reports_to": "president",
+        "direct_reports": [
+          "vp_operations",
+          "head_asset_management"
+        ]
+      },
+      "svp_strategic_services": {
+        "name": "Todd Bowen",
+        "title": "SVP Strategic Services",
+        "reports_to": "president",
+        "direct_reports": []
+      },
+      "vp_operations": {
+        "name": "Amy Groff",
+        "title": "VP Operations",
+        "reports_to": "svp_operations",
+        "direct_reports": [
+          "senior_regional_manager",
+          "operations_connection"
+        ]
+      },
+      "head_asset_management": {
+        "name": "Christina Chang",
+        "title": "Head of Asset Management",
+        "reports_to": "svp_operations",
+        "direct_reports": []
+      }
     },
-    "principal_broker": {
-      "name": "Caitlin Skidmore",
-      "reports_to": "President",
-      "direct_reports": [
-        "Property Management Staff"
-      ],
-      "note": "Only licensed employee"
+    "operations_level": {
+      "senior_regional_manager": {
+        "name": "Edward Hyland",
+        "title": "Senior Regional Manager",
+        "reports_to": "vp_operations",
+        "direct_reports": [
+          "vp_general_manager",
+          "property_manager",
+          "community_manager"
+        ]
+      },
+      "vp_general_manager": {
+        "name": "Caitlin Skidmore",
+        "title": "VP/General Manager",
+        "reports_to": "senior_regional_manager",
+        "direct_reports": [],
+        "license_status": "Licensed - DC Real Estate Broker"
+      },
+      "property_manager": {
+        "name": "Henry Ramos",
+        "title": "Property Manager",
+        "reports_to": "senior_regional_manager",
+        "direct_reports": [],
+        "license_status": "Unlicensed"
+      },
+      "community_manager": {
+        "name": "Djene Moyer",
+        "title": "Community Manager",
+        "reports_to": "senior_regional_manager",
+        "direct_reports": [],
+        "license_status": "Unlicensed"
+      },
+      "operations_connection": {
+        "name": "Liddy Bisanz",
+        "title": "Operations Connection",
+        "reports_to": "vp_operations",
+        "direct_reports": []
+      },
+      "chief_of_staff": {
+        "name": "Kristina Thoummarath",
+        "title": "Chief of Staff",
+        "reports_to": "president",
+        "direct_reports": []
+      }
     }
-  }
+  },
+  "management_chain": {
+    "property_management_activities": {
+      "supervision_chain": [
+        "ceo",
+        "president",
+        "svp_operations",
+        "vp_operations",
+        "senior_regional_manager",
+        "vp_general_manager"
+      ],
+      "licensed_supervisor": "vp_general_manager",
+      "unlicensed_employees_under_supervision": [
+        "property_manager",
+        "community_manager"
+      ]
+    }
+  },
+  "notes": "Organizational structure shows unlicensed employees performing property management activities under supervision of mostly unlicensed management chain. Only one licensed employee (Caitlin Skidmore) in property management role."
 }

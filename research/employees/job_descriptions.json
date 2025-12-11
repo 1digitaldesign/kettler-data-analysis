@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "date": "2025-12-10T20:50:00.000000",
+    "source": "Employee role documentation",
+    "method": "Analysis of company structure and license records"
+  },
+  "job_descriptions": [
+    {
+      "name": "Robert Kettler",
+      "title": "CEO/Founder",
+      "role": "Executive",
+      "responsibilities": [
+        "Overall company strategy",
+        "Business development",
+        "Executive oversight"
+      ],
+      "license_required": false,
+      "notes": "Founder and chief executive"
+    },
+    {
+      "name": "Cindy Fisher",
+      "title": "President",
+      "role": "Executive",
+      "responsibilities": [
+        "Day-to-day operations",
+        "Strategic planning",
+        "Executive management"
+      ],
+      "license_required": false,
+      "notes": "President of operations"
+    },
+    {
+      "name": "Luke Davis",
+      "title": "CIO",
+      "role": "Executive",
+      "responsibilities": [
+        "Information technology",
+        "Systems management",
+        "Technology strategy"
+      ],
+      "license_required": false,
+      "notes": "Chief Information Officer"
+    },
+    {
+      "name": "Pat Cassada",
+      "title": "CFO",
+      "role": "Executive",
+      "responsibilities": [
+        "Financial management",
+        "Accounting oversight",
+        "Financial strategy"
+      ],
+      "license_required": false,
+      "notes": "Chief Financial Officer"
+    },
+    {
+      "name": "Sean Curtin",
+      "title": "General Counsel",
+      "role": "Legal",
+      "responsibilities": [
+        "Legal compliance",
+        "Contract review",
+        "Regulatory matters"
+      ],
+      "license_required": true,
+      "bar_license": true,
+      "notes": "Legal counsel - requires bar license"
+    },
+    {
+      "name": "Edward Hyland",
+      "title": "Senior Regional Manager",
+      "role": "Operations",
+      "responsibilities": [
+        "Regional property management",
+        "Operations oversight",
+        "Team supervision"
+      ],
+      "license_required": true,
+      "real_estate_license": false,
+      "notes": "May require real estate license for property management activities"
+    },
+    {
+      "name": "Amy Groff",
+      "title": "VP Operations",
+      "role": "Operations",
+      "responsibilities": [
+        "Operations management",
+        "Process improvement",
+        "Team leadership"
+      ],
+      "license_required": false,
+      "notes": "Vice President of Operations"
+    },
+    {
+      "name": "Robert Grealy",
+      "title": "SVP Operations",
+      "role": "Operations",
+      "responsibilities": [
+        "Senior operations oversight",
+        "Strategic operations planning",
+        "Executive operations management"
+      ],
+      "license_required": false,
+      "notes": "Senior Vice President of Operations"
+    },
+    {
+      "name": "Todd Bowen",
+      "title": "SVP Strategic Services",
+      "role": "Operations",
+      "responsibilities": [
+        "Strategic services",
+        "Business development",
+        "Client relations"
+      ],
+      "license_required": false,
+      "notes": "Senior Vice President of Strategic Services"
+    },
+    {
+      "name": "Djene Moyer",
+      "title": "Community Manager",
+      "role": "Property Management",
+      "responsibilities": [
+        "Property management",
+        "Tenant relations",
+        "Property operations"
+      ],
+      "license_required": true,
+      "real_estate_license": false,
+      "notes": "Community manager - may require real estate license"
+    },
+    {
+      "name": "Henry Ramos",
+      "title": "Property Manager",
+      "role": "Property Management",
+      "responsibilities": [
+        "Property management",
+        "Leasing activities",
+        "Property maintenance coordination"
+      ],
+      "license_required": true,
+      "real_estate_license": false,
+      "notes": "Property manager - likely requires real estate license for leasing"
+    },
+    {
+      "name": "Kristina Thoummarath",
+      "title": "Chief of Staff",
+      "role": "Administrative",
+      "responsibilities": [
+        "Executive support",
+        "Administrative coordination",
+        "Internal operations"
+      ],
+      "license_required": false,
+      "notes": "Chief of Staff"
+    },
+    {
+      "name": "Christina Chang",
+      "title": "Head of Asset Management",
+      "role": "Operations",
+      "responsibilities": [
+        "Asset management",
+        "Property portfolio oversight",
+        "Investment management"
+      ],
+      "license_required": false,
+      "notes": "Head of Asset Management"
+    },
+    {
+      "name": "Liddy Bisanz",
+      "title": "Operations Connection",
+      "role": "Operations",
+      "responsibilities": [
+        "Operations coordination",
+        "Internal communications",
+        "Process management"
+      ],
+      "license_required": false,
+      "notes": "Operations Connection role"
+    },
+    {
+      "name": "Caitlin Skidmore",
+      "title": "VP/General Manager",
+      "role": "Property Management",
+      "responsibilities": [
+        "Property management oversight",
+        "Regional management",
+        "Operations management"
+      ],
+      "license_required": true,
+      "real_estate_license": true,
+      "notes": "Only licensed employee - DC real estate broker license"
+    }
+  ],
+  "summary": {
+    "total_employees": 15,
+    "licensed_employees": 1,
+    "license_required_roles": 5,
+    "unlicensed_employees_in_licensed_roles": 4
+  }
+}
