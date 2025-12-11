@@ -1,0 +1,799 @@
+{
+  "metadata": {
+    "generated": "2025-12-11T01:48:10.027034",
+    "analysis_type": "Tax Hub Violations and Anomalies Analysis",
+    "scope": "Texas business filings and PDF anomalies"
+  },
+  "executive_summary": {
+    "total_tax_forfeitures": 2,
+    "total_forfeited_entities": 9,
+    "suspicious_pages_detected": 196,
+    "shell_company_indicators": 6,
+    "risk_level": "HIGH"
+  },
+  "detailed_findings": {
+    "summary": {
+      "total_tax_forfeitures": 2,
+      "total_forfeited_entities": 9,
+      "total_suspicious_pages": 196,
+      "shell_company_indicators": 6,
+      "ml_anomalies_detected": 2,
+      "ml_risk_score_mean": 0.5,
+      "high_risk_entities_ml": 0
+    },
+    "tax_forfeitures": [
+      {
+        "document_number": "465240542917",
+        "filing_type": "Tax Forfeiture",
+        "filing_date": "February 8, 2013",
+        "effective_date": "February 8, 2013",
+        "entity_name": "Lariat Realty Advisors, Inc.",
+        "filing_number": "801459833"
+      },
+      {
+        "document_number": "N/A",
+        "filing_type": "Tax Forfeiture",
+        "filing_date": "Tax Forfeiture",
+        "effective_date": "February 11, 2000",
+        "entity_name": "WAYNE EATON, INC.",
+        "filing_number": "60550300"
+      }
+    ],
+    "forfeited_entities": [
+      {
+        "filing_number": "804700244",
+        "name": "Kettler Land Management LLC",
+        "status": "Forfeited existence"
+      },
+      {
+        "filing_number": "804700244",
+        "name": "Kettler Land Management LLC",
+        "status": "Forfeited existence"
+      },
+      {
+        "filing_number": "804700244",
+        "name": "Kettler Land Management LLC",
+        "status": "Forfeited existence"
+      },
+      {
+        "filing_number": "804700244",
+        "name": "Kettler Land Management LLC",
+        "status": "Forfeited existence"
+      },
+      {
+        "filing_number": "60550300",
+        "name": "WAYNE EATON, INC.",
+        "status": "Forfeited existence"
+      },
+      {
+        "filing_number": "60550300",
+        "name": "WAYNE EATON, INC.",
+        "status": "Forfeited existence"
+      },
+      {
+        "filing_number": "804058541",
+        "name": "DIVORCE NAVIGATORS, INC.",
+        "status": "Forfeited existence"
+      },
+      {
+        "filing_number": "804058541",
+        "name": "DIVORCE NAVIGATORS, INC.",
+        "status": "Forfeited existence"
+      },
+      {
+        "filing_number": "804058541",
+        "name": "DIVORCE NAVIGATORS, INC.",
+        "status": "Forfeited existence"
+      }
+    ],
+    "suspicious_patterns": {
+      "by_severity": {
+        "high": 6,
+        "medium": 190
+      },
+      "by_pattern_type": {
+        "Possible shell company indicators": 6,
+        "Multiple states mentioned": 190
+      },
+      "high_severity_pages": [
+        {
+          "page_number": 2,
+          "patterns": [
+            {
+              "pattern": "Possible shell company indicators",
+              "indicators_found": 3,
+              "severity": "high"
+            }
+          ]
+        },
+        {
+          "page_number": 6,
+          "patterns": [
+            {
+              "pattern": "Possible shell company indicators",
+              "indicators_found": 3,
+              "severity": "high"
+            }
+          ]
+        },
+        {
+          "page_number": 7,
+          "patterns": [
+            {
+              "pattern": "Possible shell company indicators",
+              "indicators_found": 3,
+              "severity": "high"
+            }
+          ]
+        },
+        {
+          "page_number": 8,
+          "patterns": [
+            {
+              "pattern": "Possible shell company indicators",
+              "indicators_found": 3,
+              "severity": "high"
+            }
+          ]
+        },
+        {
+          "page_number": 9,
+          "patterns": [
+            {
+              "pattern": "Possible shell company indicators",
+              "indicators_found": 3,
+              "severity": "high"
+            }
+          ]
+        },
+        {
+          "page_number": 10,
+          "patterns": [
+            {
+              "pattern": "Possible shell company indicators",
+              "indicators_found": 3,
+              "severity": "high"
+            }
+          ]
+        }
+      ]
+    },
+    "key_findings": [
+      {
+        "finding": "Tax Forfeiture Events",
+        "count": 2,
+        "details": [
+          {
+            "document_number": "465240542917",
+            "filing_type": "Tax Forfeiture",
+            "filing_date": "February 8, 2013",
+            "effective_date": "February 8, 2013",
+            "entity_name": "Lariat Realty Advisors, Inc.",
+            "filing_number": "801459833"
+          },
+          {
+            "document_number": "N/A",
+            "filing_type": "Tax Forfeiture",
+            "filing_date": "Tax Forfeiture",
+            "effective_date": "February 11, 2000",
+            "entity_name": "WAYNE EATON, INC.",
+            "filing_number": "60550300"
+          }
+        ]
+      },
+      {
+        "finding": "Shell Company Indicators",
+        "count": 6,
+        "severity": "high",
+        "details": "Found 6 pages with shell company indicators"
+      },
+      {
+        "finding": "Forfeited Entities",
+        "count": 9,
+        "details": [
+          {
+            "filing_number": "804700244",
+            "name": "Kettler Land Management LLC",
+            "status": "Forfeited existence"
+          },
+          {
+            "filing_number": "804700244",
+            "name": "Kettler Land Management LLC",
+            "status": "Forfeited existence"
+          },
+          {
+            "filing_number": "804700244",
+            "name": "Kettler Land Management LLC",
+            "status": "Forfeited existence"
+          },
+          {
+            "filing_number": "804700244",
+            "name": "Kettler Land Management LLC",
+            "status": "Forfeited existence"
+          },
+          {
+            "filing_number": "60550300",
+            "name": "WAYNE EATON, INC.",
+            "status": "Forfeited existence"
+          },
+          {
+            "filing_number": "60550300",
+            "name": "WAYNE EATON, INC.",
+            "status": "Forfeited existence"
+          },
+          {
+            "filing_number": "804058541",
+            "name": "DIVORCE NAVIGATORS, INC.",
+            "status": "Forfeited existence"
+          },
+          {
+            "filing_number": "804058541",
+            "name": "DIVORCE NAVIGATORS, INC.",
+            "status": "Forfeited existence"
+          },
+          {
+            "filing_number": "804058541",
+            "name": "DIVORCE NAVIGATORS, INC.",
+            "status": "Forfeited existence"
+          }
+        ]
+      }
+    ],
+    "ml_integration": {
+      "clustering_results": {
+        "kmeans": {
+          "n_clusters": 5,
+          "cluster_labels": [
+            3,
+            1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            2,
+            4,
+            1,
+            1
+          ],
+          "cluster_centers": [
+            [
+              1.4788162770342566,
+              1.478816277034256,
+              0.0,
+              0.0,
+              0.6963106238227912,
+              -0.5222329678670935,
+              -0.2773500981126146,
+              -0.40824829046386296,
+              -1.5811388300841895,
+              0.0,
+              -0.5222329678670935,
+              -0.5001952235383821,
+              -0.40824829046386296,
+              1.5275252316519468,
+              0.0,
+              -0.10644925908246995,
+              0.30618621784789724,
+              0.0870388279778489,
+              0.0,
+              -0.46776345066167246,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.5962321926734027,
+              -0.5962321926734028,
+              0.0,
+              0.0,
+              -0.5222329678670934,
+              0.2901294265928298,
+              -0.2773500981126145,
+              -0.4082482904638629,
+              0.6324555320336758,
+              0.0,
+              0.2901294265928298,
+              0.4786814504829673,
+              0.06804138174397725,
+              -0.6364688465216444,
+              0.0,
+              -0.47902166587111467,
+              -0.40824829046386296,
+              -0.5222329678670934,
+              0.0,
+              -0.53349735529091,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.7929948327257837,
+              -0.7929948327257837,
+              0.0,
+              0.0,
+              0.6963106238227912,
+              -0.5222329678670935,
+              -0.2773500981126146,
+              2.4494897427831783,
+              0.6324555320336758,
+              0.0,
+              -0.5222329678670935,
+              -0.613142532079307,
+              -0.40824829046386296,
+              -0.7637626158259734,
+              0.0,
+              0.2661231477061748,
+              -0.4082482904638629,
+              1.9148542155126758,
+              0.0,
+              1.625999776828929,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.36544039740648315,
+              -0.3654403974064832,
+              0.0,
+              0.0,
+              -0.5222329678670934,
+              -0.5222329678670935,
+              -0.2773500981126146,
+              -0.40824829046386296,
+              0.6324555320336758,
+              0.0,
+              -0.5222329678670935,
+              -0.9519844577020818,
+              -0.40824829046386296,
+              0.0,
+              0.0,
+              3.2467024020153326,
+              2.449489742783178,
+              -0.5222329678670934,
+              0.0,
+              2.3535357360252016,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.38644188923855805,
+              -0.38644188923855816,
+              0.0,
+              0.0,
+              -0.5222329678670934,
+              1.9148542155126764,
+              3.6055512754639896,
+              -0.40824829046386296,
+              0.6324555320336758,
+              0.0,
+              1.9148542155126764,
+              1.3069617131164168,
+              2.4494897427831783,
+              -0.7637626158259734,
+              0.0,
+              -0.4790216658711147,
+              -0.4082482904638629,
+              -0.5222329678670934,
+              0.0,
+              -0.53349735529091,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "silhouette_score": 0.32754517053139914,
+          "inertia": 56.005848334579426
+        },
+        "dbscan": {
+          "n_clusters": 0,
+          "n_noise": 14,
+          "cluster_labels": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "outliers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        "hierarchical": {
+          "n_clusters": 3,
+          "cluster_assignments": [
+            2,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            1,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        "spectral": {
+          "n_clusters": 3,
+          "cluster_labels": [
+            2,
+            2,
+            0,
+            2,
+            1,
+            2,
+            2,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "anomaly_detection": {
+        "isolation_forest": {
+          "anomaly_scores": [
+            -0.559388163545903,
+            -0.450501769773021,
+            -0.47641567562467696,
+            -0.4463390961510531,
+            -0.49993300002459407,
+            -0.4073017172615302,
+            -0.41192465820858765,
+            -0.5853518291918387,
+            -0.4538831599285839,
+            -0.47880380483527596,
+            -0.523945910603768,
+            -0.5927929445607864,
+            -0.47682822817334025,
+            -0.5156659222822121
+          ],
+          "anomaly_labels": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "anomalies_detected": [
+            7,
+            11
+          ],
+          "n_anomalies": 2
+        },
+        "lof": {
+          "lof_scores": [
+            -1.239169850931623,
+            -0.9583044257017084,
+            -0.9873998350134208,
+            -1.004084645235409,
+            -1.1368358198169393,
+            -0.9764575756878688,
+            -1.0325316247842775,
+            -1.0517707974724684,
+            -1.0688028480780367,
+            -1.09913761271559,
+            -1.1762849455278253,
+            -1.2271582875535434,
+            -0.9766653997308445,
+            -0.9888354493636615
+          ],
+          "anomaly_labels": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "anomalies_detected": [],
+          "n_anomalies": 0
+        },
+        "one_class_svm": {
+          "oc_svm_scores": [
+            0.27790729818111143,
+            0.27749290092434853,
+            0.29486914486510984,
+            0.27780281786986094,
+            0.27765639987908786,
+            0.28765760999105705,
+            0.2930396802812361,
+            0.2778771893545573,
+            0.2779072964734882,
+            0.2773474056348346,
+            0.27806025550310753,
+            0.2781192398490386,
+            0.2778533823026163,
+            0.2783055174234397
+          ],
+          "anomaly_labels": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "anomalies_detected": [
+            1,
+            3,
+            4,
+            9
+          ],
+          "n_anomalies": 4
+        }
+      },
+      "risk_scores": {
+        "801459833": 0.5,
+        "805759678": 0.5,
+        "46955400": 0.5,
+        "802331657": 0.5,
+        "804700244": 0.5,
+        "805818075": 0.5,
+        "802961755": 0.5,
+        "60550300": 0.5,
+        "18792700": 0.5,
+        "17649900": 0.5,
+        "804058541": 0.5,
+        "803790640": 0.5,
+        "801542892": 0.5,
+        "129768500": 0.5
+      },
+      "embedding_clusters": [
+        {
+          "address": "[ADDRESS NOT PROVIDED]",
+          "entity_count": 4,
+          "entities": [
+            {
+              "entity_id": "46955400",
+              "name": "LARIAT INC. REALTORS",
+              "filing_number": "46955400"
+            },
+            {
+              "entity_id": "60550300",
+              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+              "filing_number": "60550300"
+            },
+            {
+              "entity_id": "18792700",
+              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+              "filing_number": "18792700"
+            },
+            {
+              "entity_id": "17649900",
+              "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+              "filing_number": "17649900"
+            }
+          ],
+          "cluster_type": "address"
+        },
+        {
+          "pattern": "no_violations",
+          "entity_count": 11,
+          "entities": [
+            {
+              "entity_id": "805759678",
+              "name": "Lariat Realty Advisors, LLC",
+              "filing_number": "805759678",
+              "pattern": []
+            },
+            {
+              "entity_id": "46955400",
+              "name": "LARIAT INC. REALTORS",
+              "filing_number": "46955400",
+              "pattern": []
+            },
+            {
+              "entity_id": "802331657",
+              "name": "N/A\nJurisdiction: \tVA, USA\nForeign Formation Date: \tMay 20, 1988",
+              "filing_number": "802331657",
+              "pattern": []
+            },
+            {
+              "entity_id": "805818075",
+              "name": "Frippmore, LLC",
+              "filing_number": "805818075",
+              "pattern": []
+            },
+            {
+              "entity_id": "802961755",
+              "name": "SDS Texas Realty, LLC",
+              "filing_number": "802961755",
+              "pattern": []
+            },
+            {
+              "entity_id": "60550300",
+              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+              "filing_number": "60550300",
+              "pattern": []
+            },
+            {
+              "entity_id": "18792700",
+              "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+              "filing_number": "18792700",
+              "pattern": []
+            },
+            {
+              "entity_id": "17649900",
+              "name": "SOUTHWEST FABRICATING & WELDING CO., INC.",
+              "filing_number": "17649900",
+              "pattern": []
+            },
+            {
+              "entity_id": "803790640",
+              "name": "N/A\nJurisdiction: \tMD, USA\nForeign Formation Date: \tOctober 4, 2001",
+              "filing_number": "803790640",
+              "pattern": []
+            },
+            {
+              "entity_id": "801542892",
+              "name": "Bozzuto Contracting TX, LLC",
+              "filing_number": "801542892",
+              "pattern": []
+            },
+            {
+              "entity_id": "129768500",
+              "name": "GABLES RESIDENTIAL SERVICES, INC.",
+              "filing_number": "129768500",
+              "pattern": []
+            }
+          ],
+          "cluster_type": "violation_pattern"
+        },
+        {
+          "pattern": "forfeited_status",
+          "entity_count": 2,
+          "entities": [
+            {
+              "entity_id": "804700244",
+              "name": "Kettler Land Management LLC",
+              "filing_number": "804700244",
+              "pattern": [
+                "forfeited_status"
+              ]
+            },
+            {
+              "entity_id": "804058541",
+              "name": "DIVORCE NAVIGATORS, INC.",
+              "filing_number": "804058541",
+              "pattern": [
+                "forfeited_status"
+              ]
+            }
+          ],
+          "cluster_type": "violation_pattern"
+        },
+        {
+          "cluster_type": "high_similarity",
+          "entity_count": 4,
+          "similarity_pairs": [
+            {
+              "entity1": "801459833",
+              "entity2": "805759678",
+              "similarity": 0.9276757252940373,
+              "entity1_info": {
+                "filing_number": "801459833",
+                "name": "Lariat Realty Advisors, Inc.",
+                "address": "4600 FIRESTONE DR FRISCO, TX 75034 USA",
+                "status": "In existence",
+                "registered_agent": "Thoms L Bisanz - 4600 Firestone Drive",
+                "tax_id": "32044752940",
+                "has_tax_forfeiture": true,
+                "has_reinstatement": true,
+                "original_id": "lariat_tx_801459833"
+              },
+              "entity2_info": {
+                "filing_number": "805759678",
+                "name": "Lariat Realty Advisors, LLC",
+                "address": "4600 FIRESTONE DR FRISCO, TX 75034-6847 USA",
+                "status": "In existence",
+                "registered_agent": "Thomas Bisanz - 4600 Firestone Drive",
+                "tax_id": "32097336583",
+                "original_id": "lariat_tx_805759678"
+              }
+            },
+            {
+              "entity1": "60550300",
+              "entity2": "18792700",
+              "similarity": 0.8867110624834238,
+              "entity1_info": {
+                "filing_number": "60550300",
+                "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+                "address": "[ADDRESS NOT PROVIDED]",
+                "status": "Voluntarily terminated",
+                "registered_agent": "C R Skidmore - RT 1 144 RED OAK",
+                "tax_id": "00000000000",
+                "original_id": "lariat_tx_60550300"
+              },
+              "entity2_info": {
+                "filing_number": "18792700",
+                "name": "DELTA SOUTHERN ACCEPTANCE CORPORATION",
+                "address": "[ADDRESS NOT PROVIDED]",
+                "status": "Voluntarily terminated",
+                "tax_id": "00000000000",
+                "original_id": "lariat_tx_18792700"
+              }
+            }
+          ],
+          "description": "Entities with very high embedding similarity (>=0.85)"
+        }
+      ]
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "recommendation": "Investigate tax forfeiture events for potential tax evasion or non-compliance",
+      "details": "2 tax forfeiture events identified"
+    },
+    {
+      "priority": "HIGH",
+      "recommendation": "Review shell company indicators for potential fraud or money laundering",
+      "details": "6 pages contain shell company indicators"
+    },
+    {
+      "priority": "MEDIUM",
+      "recommendation": "Examine forfeited entities for patterns of business violations",
+      "details": "9 entities with forfeited status"
+    }
+  ]
+}

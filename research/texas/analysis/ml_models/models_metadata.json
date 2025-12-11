@@ -1,0 +1,38 @@
+{
+  "clustering_models": {
+    "kmeans": {
+      "n_clusters": 5
+    },
+    "dbscan": {
+      "n_clusters": 0
+    },
+    "hierarchical": {
+      "n_clusters": 3
+    },
+    "spectral": {
+      "n_clusters": 3
+    }
+  },
+  "anomaly_detection_models": {
+    "isolation_forest": {
+      "n_anomalies": 2
+    },
+    "lof": {
+      "n_anomalies": 0
+    },
+    "one_class_svm": {
+      "n_anomalies": 4
+    }
+  },
+  "classification_models": {
+    "random_forest": {
+      "accuracy": 1.0
+    },
+    "xgboost": {}
+  },
+  "metadata": {
+    "generated": "2025-12-11T01:48:09.718384",
+    "n_features": 23,
+    "n_entities": 14
+  }
+}

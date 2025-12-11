@@ -1,0 +1,556 @@
+{
+  "violations": {
+    "tax_forfeitures": [
+      {
+        "violation_type": "Tax Forfeiture",
+        "severity": "HIGH",
+        "document_number": "465240542917",
+        "filing_date": "2013-02-08T00:00:00",
+        "effective_date": "2013-02-08T00:00:00",
+        "entity_name": "Lariat Realty Advisors, Inc.",
+        "filing_number": "801459833",
+        "description": "Tax forfeiture for Lariat Realty Advisors, Inc. on February 8, 2013"
+      },
+      {
+        "violation_type": "Tax Forfeiture",
+        "severity": "HIGH",
+        "document_number": null,
+        "filing_date": null,
+        "effective_date": "2000-02-11T00:00:00",
+        "entity_name": "WAYNE EATON, INC.",
+        "filing_number": "60550300",
+        "description": "Tax forfeiture for WAYNE EATON, INC. on February 11, 2000"
+      }
+    ],
+    "forfeited_entities": [
+      {
+        "violation_type": "Forfeited Existence",
+        "severity": "HIGH",
+        "entity_name": "Kettler Land Management LLC",
+        "filing_number": "804700244",
+        "status": "Forfeited existence",
+        "original_filing_date": "2022-08-24T00:00:00",
+        "description": "Entity Kettler Land Management LLC has forfeited existence status"
+      },
+      {
+        "violation_type": "Forfeited Existence",
+        "severity": "HIGH",
+        "entity_name": "WAYNE EATON, INC.",
+        "filing_number": "60550300",
+        "status": "Forfeited existence",
+        "original_filing_date": "1982-04-26T00:00:00",
+        "description": "Entity WAYNE EATON, INC. has forfeited existence status"
+      },
+      {
+        "violation_type": "Forfeited Existence",
+        "severity": "HIGH",
+        "entity_name": "DIVORCE NAVIGATORS, INC.",
+        "filing_number": "804058541",
+        "status": "Forfeited existence",
+        "original_filing_date": "2021-05-05T00:00:00",
+        "description": "Entity DIVORCE NAVIGATORS, INC. has forfeited existence status"
+      }
+    ],
+    "filing_violations": [
+      {
+        "violation_type": "Late Filing",
+        "severity": "MEDIUM",
+        "entity_name": "Lariat Realty Advisors, Inc.",
+        "filing_number": "801459833",
+        "filing_type": "Public Information Report (PIR)",
+        "filing_date": "2018-12-31T00:00:00",
+        "effective_date": "2018-10-21T00:00:00",
+        "days_late": 71,
+        "description": "Late filing: 71 days after effective date"
+      },
+      {
+        "violation_type": "Late Filing",
+        "severity": "MEDIUM",
+        "entity_name": "Lariat Realty Advisors, Inc.",
+        "filing_number": "801459833",
+        "filing_type": "Public Information Report (PIR)",
+        "filing_date": "2019-12-31T00:00:00",
+        "effective_date": "2019-08-20T00:00:00",
+        "days_late": 133,
+        "description": "Late filing: 133 days after effective date"
+      },
+      {
+        "violation_type": "Late Filing",
+        "severity": "MEDIUM",
+        "entity_name": "Lariat Realty Advisors, Inc.",
+        "filing_number": "801459833",
+        "filing_type": "Public Information Report (PIR)",
+        "filing_date": "2021-12-31T00:00:00",
+        "effective_date": "2021-10-13T00:00:00",
+        "days_late": 79,
+        "description": "Late filing: 79 days after effective date"
+      },
+      {
+        "violation_type": "Late Filing",
+        "severity": "MEDIUM",
+        "entity_name": "Lariat Realty Advisors, Inc.",
+        "filing_number": "801459833",
+        "filing_type": "Public Information Report (PIR)",
+        "filing_date": "2024-12-31T00:00:00",
+        "effective_date": "2024-09-25T00:00:00",
+        "days_late": 97,
+        "description": "Late filing: 97 days after effective date"
+      }
+    ],
+    "address_violations": [
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "4600 FIRESTONE DR",
+        "entity_count": 10,
+        "entities": [
+          {
+            "filing_number": "801459833",
+            "entity_name": "Lariat Realty Advisors, Inc."
+          },
+          {
+            "filing_number": "801459833",
+            "entity_name": "Lariat Realty Advisors, Inc."
+          },
+          {
+            "filing_number": "801459833",
+            "entity_name": "Lariat Realty Advisors, Inc."
+          },
+          {
+            "filing_number": "801459833",
+            "entity_name": "Lariat Realty Advisors, Inc."
+          },
+          {
+            "filing_number": "801459833",
+            "entity_name": "Lariat Realty Advisors, Inc."
+          },
+          {
+            "filing_number": "801459833",
+            "entity_name": "Lariat Realty Advisors, Inc."
+          },
+          {
+            "filing_number": "805759678",
+            "entity_name": "Lariat Realty Advisors, LLC"
+          },
+          {
+            "filing_number": "805759678",
+            "entity_name": "Lariat Realty Advisors, LLC"
+          },
+          {
+            "filing_number": "805759678",
+            "entity_name": "Lariat Realty Advisors, LLC"
+          },
+          {
+            "filing_number": "805759678",
+            "entity_name": "Lariat Realty Advisors, LLC"
+          }
+        ],
+        "description": "10 entities share the same address: 4600 FIRESTONE DR"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "[ADDRESS NOT PROVIDED]",
+        "entity_count": 8,
+        "entities": [
+          {
+            "filing_number": "46955400",
+            "entity_name": "LARIAT INC. REALTORS"
+          },
+          {
+            "filing_number": "46955400",
+            "entity_name": "LARIAT INC. REALTORS"
+          },
+          {
+            "filing_number": "46955400",
+            "entity_name": "LARIAT INC. REALTORS"
+          },
+          {
+            "filing_number": "60550300",
+            "entity_name": "WAYNE EATON, INC."
+          },
+          {
+            "filing_number": "18792700",
+            "entity_name": "DELTA SOUTHERN ACCEPTANCE CORPORATION"
+          },
+          {
+            "filing_number": "17649900",
+            "entity_name": "SOUTHWEST FABRICATING & WELDING CO., INC."
+          },
+          {
+            "filing_number": "17649900",
+            "entity_name": "SOUTHWEST FABRICATING & WELDING CO., INC."
+          },
+          {
+            "filing_number": "17649900",
+            "entity_name": "SOUTHWEST FABRICATING & WELDING CO., INC."
+          }
+        ],
+        "description": "8 entities share the same address: [ADDRESS NOT PROVIDED]"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "1751 PINNACLE DR, STE 700",
+        "entity_count": 3,
+        "entities": [
+          {
+            "filing_number": "802331657",
+            "entity_name": "Kettler Management Inc."
+          },
+          {
+            "filing_number": "802331657",
+            "entity_name": "Kettler Management Inc."
+          },
+          {
+            "filing_number": "802331657",
+            "entity_name": "Kettler Management Inc."
+          }
+        ],
+        "description": "3 entities share the same address: 1751 PINNACLE DR, STE 700"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "2812 SAN PEDRO ST",
+        "entity_count": 4,
+        "entities": [
+          {
+            "filing_number": "804700244",
+            "entity_name": "Kettler Land Management LLC"
+          },
+          {
+            "filing_number": "804700244",
+            "entity_name": "Kettler Land Management LLC"
+          },
+          {
+            "filing_number": "804700244",
+            "entity_name": "Kettler Land Management LLC"
+          },
+          {
+            "filing_number": "804700244",
+            "entity_name": "Kettler Land Management LLC"
+          }
+        ],
+        "description": "4 entities share the same address: 2812 SAN PEDRO ST"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "13902 NICOLLET DR",
+        "entity_count": 3,
+        "entities": [
+          {
+            "filing_number": "805818075",
+            "entity_name": "Frippmore, LLC"
+          },
+          {
+            "filing_number": "805818075",
+            "entity_name": "Frippmore, LLC"
+          },
+          {
+            "filing_number": "805818075",
+            "entity_name": "Frippmore, LLC"
+          }
+        ],
+        "description": "3 entities share the same address: 13902 NICOLLET DR"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "5729 LEBANON RD STE 144553",
+        "entity_count": 4,
+        "entities": [
+          {
+            "filing_number": "802961755",
+            "entity_name": "SDS Texas Realty, LLC"
+          },
+          {
+            "filing_number": "802961755",
+            "entity_name": "SDS Texas Realty, LLC"
+          },
+          {
+            "filing_number": "802961755",
+            "entity_name": "SDS Texas Realty, LLC"
+          },
+          {
+            "filing_number": "802961755",
+            "entity_name": "SDS Texas Realty, LLC"
+          }
+        ],
+        "description": "4 entities share the same address: 5729 LEBANON RD STE 144553"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "PO BOX 1482",
+        "entity_count": 2,
+        "entities": [
+          {
+            "filing_number": "60550300",
+            "entity_name": "WAYNE EATON, INC."
+          },
+          {
+            "filing_number": "60550300",
+            "entity_name": "WAYNE EATON, INC."
+          }
+        ],
+        "description": "2 entities share the same address: PO BOX 1482"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "2872 BREEZY POINT LN",
+        "entity_count": 3,
+        "entities": [
+          {
+            "filing_number": "804058541",
+            "entity_name": "DIVORCE NAVIGATORS, INC."
+          },
+          {
+            "filing_number": "804058541",
+            "entity_name": "DIVORCE NAVIGATORS, INC."
+          },
+          {
+            "filing_number": "804058541",
+            "entity_name": "DIVORCE NAVIGATORS, INC."
+          }
+        ],
+        "description": "3 entities share the same address: 2872 BREEZY POINT LN"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "12765 W. FOREST HILL BLVD., #1307",
+        "entity_count": 7,
+        "entities": [
+          {
+            "filing_number": "803790640",
+            "entity_name": "Bainbridge Mid-Atlantic Management, LLC"
+          },
+          {
+            "filing_number": "803790640",
+            "entity_name": "Bainbridge Mid-Atlantic Management, LLC"
+          },
+          {
+            "filing_number": "803790640",
+            "entity_name": "Bainbridge Mid-Atlantic Management, LLC"
+          },
+          {
+            "filing_number": "803790640",
+            "entity_name": "Bainbridge Mid-Atlantic Management, LLC"
+          },
+          {
+            "filing_number": "803790640",
+            "entity_name": "Bainbridge Mid-Atlantic Management, LLC"
+          },
+          {
+            "filing_number": "803790640",
+            "entity_name": "Bainbridge Mid-Atlantic Management, LLC"
+          },
+          {
+            "filing_number": "803790640",
+            "entity_name": "Bainbridge Mid-Atlantic Management, LLC"
+          }
+        ],
+        "description": "7 entities share the same address: 12765 W. FOREST HILL BLVD., #1307"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "11200 ROCKVILLE PIKE SUITE 100",
+        "entity_count": 3,
+        "entities": [
+          {
+            "filing_number": "803790640",
+            "entity_name": "Bainbridge Mid-Atlantic Management, LLC"
+          },
+          {
+            "filing_number": "801542892",
+            "entity_name": "CAPREIT RESIDENTIAL MANAGEMENT, LLC"
+          },
+          {
+            "filing_number": "801542892",
+            "entity_name": "CAPREIT RESIDENTIAL MANAGEMENT, LLC"
+          }
+        ],
+        "description": "3 entities share the same address: 11200 ROCKVILLE PIKE SUITE 100"
+      },
+      {
+        "violation_type": "Address Clustering",
+        "severity": "MEDIUM",
+        "address": "3399 PEACHTREE ROAD NE SUITE 600",
+        "entity_count": 5,
+        "entities": [
+          {
+            "filing_number": "129768500",
+            "entity_name": "GABLES RESIDENTIAL SERVICES, INC."
+          },
+          {
+            "filing_number": "129768500",
+            "entity_name": "GABLES RESIDENTIAL SERVICES, INC."
+          },
+          {
+            "filing_number": "129768500",
+            "entity_name": "GABLES RESIDENTIAL SERVICES, INC."
+          },
+          {
+            "filing_number": "129768500",
+            "entity_name": "GABLES RESIDENTIAL SERVICES, INC."
+          },
+          {
+            "filing_number": "129768500",
+            "entity_name": "GABLES RESIDENTIAL SERVICES, INC."
+          }
+        ],
+        "description": "5 entities share the same address: 3399 PEACHTREE ROAD NE SUITE 600"
+      }
+    ],
+    "management_violations": []
+  },
+  "violations_by_entity": {
+    "801459833": [
+      {
+        "type": "tax_forfeitures",
+        "violation": {
+          "violation_type": "Tax Forfeiture",
+          "severity": "HIGH",
+          "document_number": "465240542917",
+          "filing_date": "2013-02-08T00:00:00",
+          "effective_date": "2013-02-08T00:00:00",
+          "entity_name": "Lariat Realty Advisors, Inc.",
+          "filing_number": "801459833",
+          "description": "Tax forfeiture for Lariat Realty Advisors, Inc. on February 8, 2013"
+        }
+      },
+      {
+        "type": "filing_violations",
+        "violation": {
+          "violation_type": "Late Filing",
+          "severity": "MEDIUM",
+          "entity_name": "Lariat Realty Advisors, Inc.",
+          "filing_number": "801459833",
+          "filing_type": "Public Information Report (PIR)",
+          "filing_date": "2018-12-31T00:00:00",
+          "effective_date": "2018-10-21T00:00:00",
+          "days_late": 71,
+          "description": "Late filing: 71 days after effective date"
+        }
+      },
+      {
+        "type": "filing_violations",
+        "violation": {
+          "violation_type": "Late Filing",
+          "severity": "MEDIUM",
+          "entity_name": "Lariat Realty Advisors, Inc.",
+          "filing_number": "801459833",
+          "filing_type": "Public Information Report (PIR)",
+          "filing_date": "2019-12-31T00:00:00",
+          "effective_date": "2019-08-20T00:00:00",
+          "days_late": 133,
+          "description": "Late filing: 133 days after effective date"
+        }
+      },
+      {
+        "type": "filing_violations",
+        "violation": {
+          "violation_type": "Late Filing",
+          "severity": "MEDIUM",
+          "entity_name": "Lariat Realty Advisors, Inc.",
+          "filing_number": "801459833",
+          "filing_type": "Public Information Report (PIR)",
+          "filing_date": "2021-12-31T00:00:00",
+          "effective_date": "2021-10-13T00:00:00",
+          "days_late": 79,
+          "description": "Late filing: 79 days after effective date"
+        }
+      },
+      {
+        "type": "filing_violations",
+        "violation": {
+          "violation_type": "Late Filing",
+          "severity": "MEDIUM",
+          "entity_name": "Lariat Realty Advisors, Inc.",
+          "filing_number": "801459833",
+          "filing_type": "Public Information Report (PIR)",
+          "filing_date": "2024-12-31T00:00:00",
+          "effective_date": "2024-09-25T00:00:00",
+          "days_late": 97,
+          "description": "Late filing: 97 days after effective date"
+        }
+      }
+    ],
+    "60550300": [
+      {
+        "type": "tax_forfeitures",
+        "violation": {
+          "violation_type": "Tax Forfeiture",
+          "severity": "HIGH",
+          "document_number": null,
+          "filing_date": null,
+          "effective_date": "2000-02-11T00:00:00",
+          "entity_name": "WAYNE EATON, INC.",
+          "filing_number": "60550300",
+          "description": "Tax forfeiture for WAYNE EATON, INC. on February 11, 2000"
+        }
+      },
+      {
+        "type": "forfeited_entities",
+        "violation": {
+          "violation_type": "Forfeited Existence",
+          "severity": "HIGH",
+          "entity_name": "WAYNE EATON, INC.",
+          "filing_number": "60550300",
+          "status": "Forfeited existence",
+          "original_filing_date": "1982-04-26T00:00:00",
+          "description": "Entity WAYNE EATON, INC. has forfeited existence status"
+        }
+      }
+    ],
+    "804700244": [
+      {
+        "type": "forfeited_entities",
+        "violation": {
+          "violation_type": "Forfeited Existence",
+          "severity": "HIGH",
+          "entity_name": "Kettler Land Management LLC",
+          "filing_number": "804700244",
+          "status": "Forfeited existence",
+          "original_filing_date": "2022-08-24T00:00:00",
+          "description": "Entity Kettler Land Management LLC has forfeited existence status"
+        }
+      }
+    ],
+    "804058541": [
+      {
+        "type": "forfeited_entities",
+        "violation": {
+          "violation_type": "Forfeited Existence",
+          "severity": "HIGH",
+          "entity_name": "DIVORCE NAVIGATORS, INC.",
+          "filing_number": "804058541",
+          "status": "Forfeited existence",
+          "original_filing_date": "2021-05-05T00:00:00",
+          "description": "Entity DIVORCE NAVIGATORS, INC. has forfeited existence status"
+        }
+      }
+    ]
+  },
+  "summary": {
+    "total_violations": 20,
+    "high_severity": 5,
+    "medium_severity": 15,
+    "entities_with_violations": 4,
+    "violations_by_type": {
+      "tax_forfeitures": 2,
+      "forfeited_entities": 3,
+      "filing_violations": 4,
+      "address_violations": 11,
+      "management_violations": 0
+    }
+  },
+  "metadata": {
+    "generated": "2025-12-11T01:48:08.717550",
+    "source": "enhanced_violation_extraction.py"
+  }
+}

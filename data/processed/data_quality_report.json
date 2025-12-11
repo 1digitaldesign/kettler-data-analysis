@@ -1,0 +1,57 @@
+{
+  "quality_metrics": {
+    "total_entities": 14,
+    "completeness": {
+      "name": {
+        "populated": 14,
+        "percentage": 100.0
+      },
+      "status": {
+        "populated": 14,
+        "percentage": 100.0
+      },
+      "entity_type": {
+        "populated": 6,
+        "percentage": 42.857142857142854
+      },
+      "tax_id": {
+        "populated": 14,
+        "percentage": 100.0
+      },
+      "address": {
+        "populated": 14,
+        "percentage": 100.0
+      },
+      "original_filing_date": {
+        "populated": 14,
+        "percentage": 100.0
+      }
+    },
+    "consistency": {
+      "duplicate_names": {
+        "count": 0,
+        "details": {}
+      }
+    },
+    "accuracy": {
+      "valid_dates": 14,
+      "valid_tax_ids": 14,
+      "date_accuracy": 100.0,
+      "tax_id_accuracy": 100.0
+    },
+    "uniqueness": {
+      "unique_filing_numbers": 14,
+      "duplicate_count": 0
+    },
+    "overall_score": {
+      "completeness": 90.47619047619048,
+      "consistency_score": 100.0,
+      "accuracy_score": 100.0,
+      "uniqueness_score": 100.0
+    }
+  },
+  "metadata": {
+    "generated": "2025-12-11T01:48:08.692973",
+    "analyzed_entities": 14
+  }
+}

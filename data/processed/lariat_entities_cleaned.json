@@ -1,0 +1,203 @@
+{
+  "entities": {
+    "801459833": {
+      "filing_number": "801459833",
+      "name": "Lariat Realty Advisors, Inc.",
+      "status": "In existence",
+      "entity_type": null,
+      "tax_id": "32044752940",
+      "fein": null,
+      "address": "4600 FIRESTONE DRIVE",
+      "original_filing_date": "2011-07-28",
+      "filing_history": [
+        {
+          "document_number": "465240542917",
+          "filing_type": "Tax Forfeiture",
+          "filing_date": "2013-02-08",
+          "effective_date": "2013-02-08"
+        }
+      ],
+      "management": [],
+      "registered_agent": null
+    },
+    "805759678": {
+      "filing_number": "805759678",
+      "name": "Lariat Realty Advisors, Llc",
+      "status": "In existence",
+      "entity_type": "Domestic Limited Liability Company (LLC)",
+      "tax_id": "32097336583",
+      "fein": null,
+      "address": "4600 FIRESTONE DRIVE",
+      "original_filing_date": "2024-10-24",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "46955400": {
+      "filing_number": "46955400",
+      "name": "Lariat Inc. Realtors",
+      "status": "Voluntarily terminated",
+      "entity_type": null,
+      "tax_id": "17420431391",
+      "fein": null,
+      "address": "[ADDRESS NOT PROVIDED]",
+      "original_filing_date": "1979-03-30",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "802331657": {
+      "filing_number": "802331657",
+      "name": "Kettler Management Inc.",
+      "status": "In existence",
+      "entity_type": null,
+      "tax_id": "32058814248",
+      "fein": "541469128",
+      "address": "1751 PINNACLE DRIVE, STREET 700",
+      "original_filing_date": "2015-11-13",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "804700244": {
+      "filing_number": "804700244",
+      "name": "Kettler Land Management Llc",
+      "status": "Forfeited existence",
+      "entity_type": null,
+      "tax_id": "32086023994",
+      "fein": null,
+      "address": "2812 SAN PEDRO STREET",
+      "original_filing_date": "2022-08-24",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "805818075": {
+      "filing_number": "805818075",
+      "name": "Frippmore, Llc",
+      "status": "In existence",
+      "entity_type": null,
+      "tax_id": "32097939857",
+      "fein": null,
+      "address": "13902 NICOLLET DRIVE",
+      "original_filing_date": "2024-12-12",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "802961755": {
+      "filing_number": "802961755",
+      "name": "Sds Texas Realty, Llc",
+      "status": "In existence",
+      "entity_type": null,
+      "tax_id": "32066517577",
+      "fein": null,
+      "address": "5729 LEBANON ROAD STREET 144553",
+      "original_filing_date": "2018-03-13",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "60550300": {
+      "filing_number": "60550300",
+      "name": "Wayne Eaton, Inc.",
+      "status": "Voluntarily terminated",
+      "entity_type": "Domestic For-Profit Corporation",
+      "tax_id": "00000000000",
+      "fein": null,
+      "address": "[ADDRESS NOT PROVIDED]",
+      "original_filing_date": "1962-10-25",
+      "filing_history": [
+        {
+          "document_number": "N/A",
+          "filing_type": "Tax Forfeiture",
+          "filing_date": "Tax Forfeiture",
+          "effective_date": "2000-02-11"
+        }
+      ],
+      "management": [],
+      "registered_agent": null
+    },
+    "18792700": {
+      "filing_number": "18792700",
+      "name": "Delta Southern Acceptance Corporation",
+      "status": "Voluntarily terminated",
+      "entity_type": null,
+      "tax_id": "00000000000",
+      "fein": null,
+      "address": "[ADDRESS NOT PROVIDED]",
+      "original_filing_date": "1962-10-25",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "17649900": {
+      "filing_number": "17649900",
+      "name": "Southwest Fabricating & Welding Co., Inc.",
+      "status": "Merged",
+      "entity_type": "Domestic For-Profit Corporation",
+      "tax_id": "00000000000",
+      "fein": null,
+      "address": "[ADDRESS NOT PROVIDED]",
+      "original_filing_date": "1961-07-28",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "804058541": {
+      "filing_number": "804058541",
+      "name": "Divorce Navigators, Inc.",
+      "status": "Forfeited existence",
+      "entity_type": "Domestic Nonprofit Corporation",
+      "tax_id": "32079104280",
+      "fein": null,
+      "address": "2872 BREEZY POINT LANE",
+      "original_filing_date": "2021-05-05",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "803790640": {
+      "filing_number": "803790640",
+      "name": "Bainbridge Mid-Atlantic Management, Llc",
+      "status": "In existence",
+      "entity_type": "Foreign Limited Liability Company (LLC)",
+      "tax_id": "32046799311",
+      "fein": "522347515",
+      "address": "11200 ROCKVILLE PIKE SUITE 100",
+      "original_filing_date": "2012-01-31",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "801542892": {
+      "filing_number": "801542892",
+      "name": "Capreit Residential Management, Llc",
+      "status": "In existence",
+      "entity_type": "Domestic Limited Liability Company (LLC)",
+      "tax_id": "32099994678",
+      "fein": "522347515",
+      "address": "6406 IVY LANE STREET 700",
+      "original_filing_date": "2025-04-30",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    },
+    "129768500": {
+      "filing_number": "129768500",
+      "name": "Gables Residential Services, Inc.",
+      "status": "In existence",
+      "entity_type": null,
+      "tax_id": "17525179135",
+      "fein": null,
+      "address": "3399 PEACHTREE ROAD NE SUITE 600",
+      "original_filing_date": "1994-01-11",
+      "filing_history": [],
+      "management": [],
+      "registered_agent": null
+    }
+  },
+  "metadata": {
+    "generated": "2025-12-11T01:48:08.692365"
+  }
+}

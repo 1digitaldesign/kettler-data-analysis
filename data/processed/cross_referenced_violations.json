@@ -1,0 +1,17 @@
+{
+  "management_correlations": [],
+  "violation_networks": [],
+  "fraud_indicator_matches": [],
+  "violation_propagation_map": {},
+  "summary": {
+    "total_violations": 20,
+    "management_correlations": 0,
+    "violation_networks": 0,
+    "fraud_matches": 0,
+    "entities_in_networks": 0
+  },
+  "metadata": {
+    "generated": "2025-12-11T01:48:08.799200",
+    "source": "cross_reference_violations.py"
+  }
+}

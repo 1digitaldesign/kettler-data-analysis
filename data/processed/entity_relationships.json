@@ -1,0 +1,146 @@
+{
+  "graph": {
+    "nodes": [
+      {
+        "id": "801459833",
+        "name": "Lariat Realty Advisors, Inc.",
+        "status": "In existence",
+        "entity_type": null
+      },
+      {
+        "id": "805759678",
+        "name": "Lariat Realty Advisors, Llc",
+        "status": "In existence",
+        "entity_type": "Domestic Limited Liability Company (LLC)"
+      },
+      {
+        "id": "46955400",
+        "name": "Lariat Inc. Realtors",
+        "status": "Voluntarily terminated",
+        "entity_type": null
+      },
+      {
+        "id": "802331657",
+        "name": "Kettler Management Inc.",
+        "status": "In existence",
+        "entity_type": null
+      },
+      {
+        "id": "804700244",
+        "name": "Kettler Land Management Llc",
+        "status": "Forfeited existence",
+        "entity_type": null
+      },
+      {
+        "id": "805818075",
+        "name": "Frippmore, Llc",
+        "status": "In existence",
+        "entity_type": null
+      },
+      {
+        "id": "802961755",
+        "name": "Sds Texas Realty, Llc",
+        "status": "In existence",
+        "entity_type": null
+      },
+      {
+        "id": "60550300",
+        "name": "Wayne Eaton, Inc.",
+        "status": "Voluntarily terminated",
+        "entity_type": "Domestic For-Profit Corporation"
+      },
+      {
+        "id": "18792700",
+        "name": "Delta Southern Acceptance Corporation",
+        "status": "Voluntarily terminated",
+        "entity_type": null
+      },
+      {
+        "id": "17649900",
+        "name": "Southwest Fabricating & Welding Co., Inc.",
+        "status": "Merged",
+        "entity_type": "Domestic For-Profit Corporation"
+      },
+      {
+        "id": "804058541",
+        "name": "Divorce Navigators, Inc.",
+        "status": "Forfeited existence",
+        "entity_type": "Domestic Nonprofit Corporation"
+      },
+      {
+        "id": "803790640",
+        "name": "Bainbridge Mid-Atlantic Management, Llc",
+        "status": "In existence",
+        "entity_type": "Foreign Limited Liability Company (LLC)"
+      },
+      {
+        "id": "801542892",
+        "name": "Capreit Residential Management, Llc",
+        "status": "In existence",
+        "entity_type": "Domestic Limited Liability Company (LLC)"
+      },
+      {
+        "id": "129768500",
+        "name": "Gables Residential Services, Inc.",
+        "status": "In existence",
+        "entity_type": null
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_0",
+        "source": "801459833",
+        "target": "805759678",
+        "type": "shared_address",
+        "weight": 1.0
+      },
+      {
+        "id": "edge_1",
+        "source": "46955400",
+        "target": "60550300",
+        "type": "shared_address",
+        "weight": 1.0
+      },
+      {
+        "id": "edge_2",
+        "source": "46955400",
+        "target": "18792700",
+        "type": "shared_address",
+        "weight": 1.0
+      },
+      {
+        "id": "edge_3",
+        "source": "46955400",
+        "target": "17649900",
+        "type": "shared_address",
+        "weight": 1.0
+      },
+      {
+        "id": "edge_4",
+        "source": "60550300",
+        "target": "18792700",
+        "type": "shared_address",
+        "weight": 1.0
+      },
+      {
+        "id": "edge_5",
+        "source": "60550300",
+        "target": "17649900",
+        "type": "shared_address",
+        "weight": 1.0
+      },
+      {
+        "id": "edge_6",
+        "source": "18792700",
+        "target": "17649900",
+        "type": "shared_address",
+        "weight": 1.0
+      }
+    ]
+  },
+  "metadata": {
+    "generated": "2025-12-11T01:48:08.692833",
+    "node_count": 14,
+    "edge_count": 7
+  }
+}
