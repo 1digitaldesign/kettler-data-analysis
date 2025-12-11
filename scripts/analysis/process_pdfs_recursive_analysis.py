@@ -8,10 +8,39 @@ Analyzes for abnormal patterns especially in US context
 import json
 import sys
 import re
+import warnings
+import multiprocessing as mp
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
 import numpy as np
+import os
+
+# CRITICAL: Suppress warnings BEFORE any other imports that might trigger them
+warnings.filterwarnings('ignore')
+os.environ['PYTHONWARNINGS'] = 'ignore'
+
+# Suppress pdfplumber FontBBox warnings - must be done before importing pdfplumber
+warnings.filterwarnings('ignore', category=UserWarning)
+warnings.filterwarnings('ignore', message='.*FontBBox.*')
+warnings.filterwarnings('ignore', message='.*font.*', flags=re.IGNORECASE)
+import logging
+logging.getLogger('pdfplumber').setLevel(logging.CRITICAL)
+logging.getLogger('pdfminer').setLevel(logging.CRITICAL)
+# Suppress pdfplumber's internal warnings
+os.environ['PYTHONWARNINGS'] = 'ignore'
+# Suppress stderr for pdfplumber warnings
+os.environ['PDFPLUMBER_SUPPRESS_WARNINGS'] = '1'
+
+# Optimize for ARM M4 MAX - use all available cores
+CPU_COUNT = os.cpu_count() or 8
+# M4 MAX has many performance cores - use 85% for parallel processing
+PARALLEL_WORKERS = max(1, int(CPU_COUNT * 0.85))
+# Set environment for optimal ARM performance
+os.environ['OMP_NUM_THREADS'] = str(PARALLEL_WORKERS)
+os.environ['MKL_NUM_THREADS'] = str(PARALLEL_WORKERS)
+print(f"ARM M4 MAX optimization: Using {PARALLEL_WORKERS} workers out of {CPU_COUNT} CPU cores")
 
 # Add project root to path
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -52,20 +81,46 @@ US_STATES = {
     'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY', 'DC'
 }
 
+class NullWriter:
+    """A file-like object that discards all output"""
+    def write(self, s: str) -> int:
+        return len(s)
+
+    def flush(self) -> None:
+        pass
+
 def extract_text_from_pdf(pdf_path: Path) -> List[Dict[str, Any]]:
-    """Extract text from PDF by pages"""
+    """Extract text from PDF by pages with stderr suppression"""
     pages = []
     try:
-        with pdfplumber.open(pdf_path) as pdf:
-            for i, page in enumerate(pdf.pages):
-                text = page.extract_text()
-                if text:
-                    pages.append({
-                        'page_number': i + 1,
-                        'text': text,
-                        'char_count': len(text),
-                        'word_count': len(text.split())
-                    })
+        # Suppress warnings and stderr during PDF processing
+        import sys
+
+        # Create a null device for stderr that discards all output
+        null_stderr = NullWriter()
+
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            warnings.filterwarnings('ignore', message='.*FontBBox.*')
+            warnings.filterwarnings('ignore', category=UserWarning)
+            warnings.filterwarnings('ignore', message='.*font.*', flags=re.IGNORECASE)
+            # Redirect stderr to suppress FontBBox warnings completely
+            old_stderr = sys.stderr
+            try:
+                sys.stderr = null_stderr
+                with pdfplumber.open(pdf_path) as pdf:
+                    for i, page in enumerate(pdf.pages):
+                        text = page.extract_text()
+                        if text:
+                            # Ensure page_number is integer type
+                            pages.append({
+                                'page_number': int(i + 1),
+                                'text': str(text),
+                                'char_count': int(len(text)),
+                                'word_count': int(len(text.split()))
+                            })
+            finally:
+                sys.stderr = old_stderr
     except Exception as e:
         print(f"Error extracting text from {pdf_path}: {e}")
     return pages
@@ -240,6 +295,27 @@ def generate_embedding(text: str, model: SentenceTransformer) -> Optional[List[f
     embedding = model.encode(text, normalize_embeddings=True)
     return embedding.tolist()
 
+def generate_embeddings_batch(texts: List[str], model: SentenceTransformer) -> List[Optional[List[float]]]:
+    """Generate embeddings for multiple texts in batch (optimized for ARM)"""
+    if not texts:
+        return []
+    # Filter empty texts
+    valid_texts = [(i, text) for i, text in enumerate(texts) if text and text.strip()]
+    if not valid_texts:
+        return [None] * len(texts)
+
+    # Extract valid texts
+    valid_text_list = [text for _, text in valid_texts]
+    # Batch encode (much faster than individual encodes)
+    embeddings = model.encode(valid_text_list, normalize_embeddings=True, batch_size=32, show_progress_bar=False)
+
+    # Map back to original positions
+    result = [None] * len(texts)
+    for idx, (orig_idx, _) in enumerate(valid_texts):
+        result[orig_idx] = embeddings[idx].tolist()
+
+    return result
+
 def save_json_with_embedding(data: Dict[str, Any], file_path: Path, model: SentenceTransformer,
                             text_representation: Optional[str] = None):
     """Save JSON file and generate embedding"""
@@ -267,8 +343,67 @@ def save_json_with_embedding(data: Dict[str, Any], file_path: Path, model: Sente
 
     return output
 
+# Global model variable for thread-safe access
+import threading
+_model_lock = threading.Lock()
+_shared_model = None
+
+def get_model():
+    """Get or initialize the shared model (thread-safe)"""
+    global _shared_model
+    if _shared_model is None:
+        with _model_lock:
+            if _shared_model is None:
+                _shared_model = SentenceTransformer('all-MiniLM-L6-v2')
+    return _shared_model
+
+def process_page_worker(args: Tuple) -> Dict[str, Any]:
+    """Worker function for processing a single page in parallel"""
+    page_data, pdf_name, base_dir_str, page_num = args
+
+    # Convert string paths back to Path objects
+    base_dir = Path(base_dir_str)
+
+    # Ensure page_num is an integer for proper padding
+    page_num = int(page_num) if not isinstance(page_num, int) else page_num
+
+    # Get shared model (thread-safe)
+    model = get_model()
+
+    # Analyze for abnormal patterns
+    anomalies = analyze_abnormal_patterns(page_data['text'], page_num, pdf_name)
+
+    # Save page JSON with zero-padded page number (4 digits)
+    page_dir = base_dir / pdf_name / 'pages'
+    page_file = page_dir / f"page_{page_num:04d}.json"
+    page_output = {
+        'page_number': page_num,
+        'text': page_data['text'],
+        'char_count': page_data['char_count'],
+        'word_count': page_data['word_count'],
+        'anomalies': anomalies
+    }
+    save_json_with_embedding(page_output, page_file, model)
+
+    result = {
+        'page_number': page_num,
+        'file': str(page_file.relative_to(PROJECT_ROOT)),
+        'anomalies_count': sum(len(v) if isinstance(v, list) else 1 for v in anomalies.values() if v),
+        'has_anomalies': any(anomalies.values()),
+        'anomalies': anomalies if any(anomalies.values()) else None
+    }
+
+    # Save anomalies separately if found (with zero-padded page number)
+    if result['has_anomalies']:
+        anomalies_dir = base_dir / pdf_name / 'anomalies'
+        anomalies_file = anomalies_dir / f"anomalies_page_{page_num:04d}.json"
+        save_json_with_embedding(anomalies, anomalies_file, model)
+        result['anomalies_file'] = str(anomalies_file.relative_to(PROJECT_ROOT))
+
+    return result
+
 def process_pdf(pdf_path: Path, base_dir: Path, model: SentenceTransformer, index: Dict[str, Any]):
-    """Process a PDF file recursively"""
+    """Process a PDF file recursively with parallel page processing"""
     pdf_name = pdf_path.stem
     print(f"   Processing PDF: {pdf_name}")
 
@@ -282,36 +417,26 @@ def process_pdf(pdf_path: Path, base_dir: Path, model: SentenceTransformer, inde
         'pages': []
     }
 
-    # Process each page
-    for page in pages:
-        page_num = page['page_number']
+    # Prepare arguments for parallel processing (convert Path to string for pickling)
+    page_args = [
+        (page, pdf_name, str(base_dir), page['page_number'])
+        for page in pages
+    ]
 
-        # Analyze for abnormal patterns
-        anomalies = analyze_abnormal_patterns(page['text'], page_num, pdf_name)
+    # Process pages in parallel
+    print(f"     Processing {len(pages)} pages in parallel using {PARALLEL_WORKERS} workers...")
+    # Use ThreadPoolExecutor for I/O-bound tasks (file writing) instead of ProcessPoolExecutor
+    # This avoids model serialization issues and is faster for this use case
+    with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as executor:
+        results = list(executor.map(process_page_worker, page_args))
 
-        # Save page JSON
-        page_dir = base_dir / pdf_name / 'pages'
-        page_file = page_dir / f"page_{page_num:04d}.json"
-        page_data = {
-            'page_number': page_num,
-            'text': page['text'],
-            'char_count': page['char_count'],
-            'word_count': page['word_count'],
-            'anomalies': anomalies
-        }
-        save_json_with_embedding(page_data, page_file, model)
-
+    # Collect results
+    for result in results:
         pdf_index['pages'].append({
-            'page_number': page_num,
-            'file': str(page_file.relative_to(PROJECT_ROOT)),
-            'anomalies_count': sum(len(v) if isinstance(v, list) else 1 for v in anomalies.values() if v)
+            'page_number': result['page_number'],
+            'file': result['file'],
+            'anomalies_count': result['anomalies_count']
         })
-
-        # Save anomalies separately if found
-        if any(anomalies.values()):
-            anomalies_dir = base_dir / pdf_name / 'anomalies'
-            anomalies_file = anomalies_dir / f"anomalies_page_{page_num:04d}.json"
-            save_json_with_embedding(anomalies, anomalies_file, model)
 
     # Save PDF index
     pdf_index_file = base_dir / pdf_name / 'index.json'
@@ -381,26 +506,33 @@ def main():
         'lariat_txt': None
     }
 
-    # Process files
-    print("\n2. Processing files...")
+    # Process files in parallel
+    print("\n2. Processing files in parallel...")
 
-    # Process lariat.txt
+    # Collect all PDFs to process
+    pdfs_to_process = []
+    if lariat_pdf.exists():
+        pdfs_to_process.append(lariat_pdf)
+    if kettler_pdf.exists():
+        pdfs_to_process.append(kettler_pdf)
+
+    # Process PDFs sequentially (each PDF processes its pages in parallel internally)
+    # This avoids memory issues with multiple large PDFs
+    for pdf_path in pdfs_to_process:
+        try:
+            process_pdf(pdf_path, base_dir, model, index)
+            print(f"   ✓ Completed: {pdf_path.name}")
+        except Exception as e:
+            print(f"   ✗ Error processing {pdf_path.name}: {e}")
+
+    if not pdfs_to_process:
+        print("   No PDFs found to process")
+
+    # Process lariat.txt (separate, as it references existing files)
     if lariat_txt.exists():
         process_lariat_txt(lariat_txt, base_dir, model, index)
     else:
         print(f"   Warning: {lariat_txt} not found")
-
-    # Process lariat-merged.pdf
-    if lariat_pdf.exists():
-        process_pdf(lariat_pdf, base_dir, model, index)
-    else:
-        print(f"   Warning: {lariat_pdf} not found")
-
-    # Process MERGED-Kettler.pdf
-    if kettler_pdf.exists():
-        process_pdf(kettler_pdf, base_dir, model, index)
-    else:
-        print(f"   Warning: {kettler_pdf} not found")
 
     # Save master index
     index_file = base_dir / "master_index.json"

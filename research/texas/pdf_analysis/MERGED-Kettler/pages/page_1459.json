@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:36:31.751427",
+    "created": "2025-12-11T00:54:38.549880",
     "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/pages/page_1459.json",
     "has_embedding": true
   },
@@ -20,10 +20,10 @@
         {
           "pattern": "Multiple states mentioned",
           "states": [
-            "ID",
+            "AL",
             "OR",
             "VA",
-            "AL",
+            "ID",
             "IN"
           ],
           "count": 7,
@@ -32,7 +32,7 @@
       ]
     }
   },
-  "text_representation": "page_number: 1459 | text: 200291315\nTRR EPOANNUAL2000\n04/24/2000\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\n200031/05/\nE:AMINVO ITCRROPOA :ETDU DEA\n.CR OPMANEMEN AGTKSI\nIOTN ID 0321867-4:CORPORA\nADDSRES:AND NAM EAGNETDGRE 2 REISET OFF CR. IOTN:OCK INFORMA S'T\nHDTOERIZ TA\nA CLSSL\nHAURSELWRICHARD\nRD 300 SETOFRAWLTP8081\n22182AVVNIENA, COMMON 1,000\n@ CITY ORCOUNTY OF VA REGISTERED OFFICE:\nCUAX ONYTRAIF129-F\nNO:ITNICRR OPOAFO YRCLO ONRE TTAST O\nNARIIA-VIGV\n. Ifynk onlk icah bl wtnti or priypend t aton seihetnsrucd ithecatt ahed tay relfulreCa\nnk, yousask i blddresoc a. If blecfi oflpainc prihedd tus ank, you mtsak i blocBl\non.itanformor itcreor dind/r aecfi ofhedd tus amt\nADDSRES OFF ICEAL¥ PRINCIP\nY COULMN ONLADDIOITNSCH/ANGSE IN RIGHTMAK E\nADDSRESNO CHANG [XM E] REONIREV ETE\nADDSRES:\nADDSRES: RD., #300OFRAWLTP8081\n22182AVVNIENA, IPZ:YS/CIT/T\nIPZ:YS/CIT/T\nORSAND DCTIRE OFFRSICE AL P@RINCIP\nY COULMN ONLADDIOITNSCH/ANGSE IN RIGHTMAK E\nNO CHANGE M NREONIREAAV ETM/DEEDSRES\nOFFR XICE OR LDCTIRE OFFRICE ORDCTIRE\nNAME: RICHARD | KNAPP NAME:\nnt PsdeereiciVor Sni:eEILT\n:ELITT PSREIDNET\nADDSRES: ROADOFRAWLTP8081 ADDSRES:\n#300\n22182AVVNIENA, IPZ:YS/CIT/T\n71PYS/:CIT/T\n.ETACCURA IS THTISP REORAINDE IN IOTN CONT INEFLOTRMTAHTAAFFIRM\nsa 1-5000mLILW\n0810/4/ I:TDA\nU:TRESIGNA PDRINE NTAMI:\n.THTISP REORDOISE INR LT AN OFFR OICER DCTIRE S BEIGNDE BYMUST 213\nB2683 | char_count: 1346 | word_count: 185 | anomalies: {\"page_number\":1459,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[{\"pattern\":\"Multiple states mentioned\",\"states\":[\"ID\",\"OR\",\"VA\",\"AL\",\"IN\"],\"count\":7,\"severity\":\"medium\"}]}",
+  "text_representation": "page_number: 1459 | text: 200291315\nTRR EPOANNUAL2000\n04/24/2000\nNARIIVIG FHOT NEALCMMOWO\nNOSSINCMMIO OITCRRE OPOATAST\n200031/05/\nE:AMINVO ITCRROPOA :ETDU DEA\n.CR OPMANEMEN AGTKSI\nIOTN ID 0321867-4:CORPORA\nADDSRES:AND NAM EAGNETDGRE 2 REISET OFF CR. IOTN:OCK INFORMA S'T\nHDTOERIZ TA\nA CLSSL\nHAURSELWRICHARD\nRD 300 SETOFRAWLTP8081\n22182AVVNIENA, COMMON 1,000\n@ CITY ORCOUNTY OF VA REGISTERED OFFICE:\nCUAX ONYTRAIF129-F\nNO:ITNICRR OPOAFO YRCLO ONRE TTAST O\nNARIIA-VIGV\n. Ifynk onlk icah bl wtnti or priypend t aton seihetnsrucd ithecatt ahed tay relfulreCa\nnk, yousask i blddresoc a. If blecfi oflpainc prihedd tus ank, you mtsak i blocBl\non.itanformor itcreor dind/r aecfi ofhedd tus amt\nADDSRES OFF ICEAL¥ PRINCIP\nY COULMN ONLADDIOITNSCH/ANGSE IN RIGHTMAK E\nADDSRESNO CHANG [XM E] REONIREV ETE\nADDSRES:\nADDSRES: RD., #300OFRAWLTP8081\n22182AVVNIENA, IPZ:YS/CIT/T\nIPZ:YS/CIT/T\nORSAND DCTIRE OFFRSICE AL P@RINCIP\nY COULMN ONLADDIOITNSCH/ANGSE IN RIGHTMAK E\nNO CHANGE M NREONIREAAV ETM/DEEDSRES\nOFFR XICE OR LDCTIRE OFFRICE ORDCTIRE\nNAME: RICHARD | KNAPP NAME:\nnt PsdeereiciVor Sni:eEILT\n:ELITT PSREIDNET\nADDSRES: ROADOFRAWLTP8081 ADDSRES:\n#300\n22182AVVNIENA, IPZ:YS/CIT/T\n71PYS/:CIT/T\n.ETACCURA IS THTISP REORAINDE IN IOTN CONT INEFLOTRMTAHTAAFFIRM\nsa 1-5000mLILW\n0810/4/ I:TDA\nU:TRESIGNA PDRINE NTAMI:\n.THTISP REORDOISE INR LT AN OFFR OICER DCTIRE S BEIGNDE BYMUST 213\nB2683 | char_count: 1346 | word_count: 185 | anomalies: {\"page_number\":1459,\"source\":\"MERGED-Kettler\",\"address_clusters\":[],\"entity_variations\":[],\"date_sequences\":[],\"suspicious_patterns\":[{\"pattern\":\"Multiple states mentioned\",\"states\":[\"AL\",\"OR\",\"VA\",\"ID\",\"IN\"],\"count\":7,\"severity\":\"medium\"}]}",
   "embedding": [
     -0.04896700382232666,
     -0.0007395136053673923,

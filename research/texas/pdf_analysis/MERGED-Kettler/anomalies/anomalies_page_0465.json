@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:36:03.447444",
+    "created": "2025-12-11T00:54:13.059554",
     "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/anomalies/anomalies_page_0465.json",
     "has_embedding": true
   },
@@ -16,9 +16,9 @@
         "pattern": "Multiple states mentioned",
         "states": [
           "AR",
+          "AZ",
           "OH",
-          "CT",
-          "AZ"
+          "CT"
         ],
         "count": 11,
         "severity": "medium"

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:33:57.197561",
+    "created": "2025-12-11T00:52:03.413960",
     "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/lariat-merged/anomalies/anomalies_page_0233.json",
     "has_embedding": true
   },
@@ -113,11 +113,11 @@
       {
         "pattern": "Multiple states mentioned",
         "states": [
+          "GA",
           "FL",
           "TX",
-          "VA",
-          "GA",
-          "NE"
+          "NE",
+          "VA"
         ],
         "count": 12,
         "severity": "medium"

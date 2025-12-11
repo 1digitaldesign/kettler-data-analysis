@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "pdf_analysis",
-    "created": "2025-12-11T00:35:56.165138",
+    "created": "2025-12-11T00:54:06.129505",
     "file_path": "/Users/machine/Documents/kettler-data-analysis/research/texas/pdf_analysis/MERGED-Kettler/anomalies/anomalies_page_0258.json",
     "has_embedding": true
   },
@@ -18,8 +18,8 @@
           "MO",
           "CT",
           "IA",
-          "VA",
           "PA",
+          "VA",
           "IN"
         ],
         "count": 20,
